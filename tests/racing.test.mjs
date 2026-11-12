@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {build,bedroom,screenshot} from './helpers.mjs';
-import {rivetActor,cartColors,rivetRaceColors} from '../content/racing.js';
+import {rivetActor,cartColors} from '../content/racing.js';
 import {compileRacingBackground,racingBackground} from '../engine/racing.js';
 import {decompress} from '../engine/compression.js';
 import {u16,u24,put16,fileOffset} from '../engine/rom.js';
@@ -29,11 +29,12 @@ test('race art preserves the native projection formats, gameplay code, scenery a
   }
   const oldPalette=packet(built.base,3),palette=packet(built.rom,3);
   for(let row=0;row<16;row++){
-    if(![8,9,12,13].includes(row)){assert.deepEqual(palette.slice(row*32,(row+1)*32),oldPalette.slice(row*32,(row+1)*32));continue;}
+    // Only the cart rows change; Rivet (rows 9/13, packet 2) keeps Johnny's stock race art.
+    if(![8,12].includes(row)){assert.deepEqual(palette.slice(row*32,(row+1)*32),oldPalette.slice(row*32,(row+1)*32));continue;}
     assert.equal(u16(palette,row*32),u16(oldPalette,row*32));
-    const colors=row===8||row===12?cartColors:rivetRaceColors;
-    assert.deepEqual(Array.from({length:15},(_,i)=>u16(palette,row*32+(i+1)*2)),colors.map(snesColor));
+    assert.deepEqual(Array.from({length:15},(_,i)=>u16(palette,row*32+(i+1)*2)),cartColors.map(snesColor));
   }
+  assert.deepEqual(packet(built.rom,2),packet(built.base,2),'stock Johnny race views');
   for(let id=4;id<=12;id++)assert.deepEqual(packet(built.rom,id),packet(built.base,id),'native race scenery and HUD '+id);
   const oldCode=decompress(built.base,fileOffset(u24(built.base,0x3e0003))).bytes,newCode=decompress(built.rom,fileOffset(u24(built.rom,0x3e0003))).bytes;
   assert.deepEqual(newCode.slice(0xb48,0x23bb),oldCode.slice(0xb48,0x23bb),'both race modes retain their original program');

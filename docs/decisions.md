@@ -241,3 +241,12 @@ The user's notes after playtesting: Puss "should meow not ribbit"; "weed rat mak
 | Currency | **Toenails.** A toenail-clipping glyph follows amounts in menus, shops and battle; field text says "200 toenails". Supersedes "Currency: Onions" (November 10). |
 | Healing items | **Spicy root vegetables.** Onion / Mid Onion / High Onion (HP), Garlic / Mid Garlic / High Garlic (MP), Horseradish (full HP and MP), Wasabi (full MP), Ginger Root (whole party), Radish Bunch (party HP). Mud Bath, Sock Whiff, Outhouse and Mystery Pie keep their names. Effects, prices and drops are unchanged. Supersedes the swamp-food names (November 10). |
 | Frog's croak | Field events that play the frog croak (sound $6E) play the cat meow ($4E) instead, through the sound driver hook in `engine/tech-juice.js`. |
+
+## Second art cull: palette swaps and low-quality redraws (November 12)
+
+The user asked to revert the sprite edits that are only palette swaps or low quality, keeping the player characters, good-quality enemies and the cameos. A side-by-side render of every enemy and NPC sprite that differs from stock (156 header slots) found:
+- **No palette-only enemy edits remain.** The eleven palette-only slots are field objects drawn in a party member's palette (Pinocchio, Fiona, Shrek, Farquaad) or Dragon's vehicle palette, so they follow the playable cast and stay.
+- Palette variants inside a redrawn family (Duloc Shade, Court Beast, Buried Kiln, Wish Boss, the Muffin mouths) mirror Chrono Trigger's own variants of the same bank and cannot be reverted alone.
+- **Rivet** (Johnny's field NPC, enemy 244 and race views) was the one clearly low-quality redraw with no Shrek tie, so it is restored to Johnny's stock art. His name and dialogue stay, like the retired route bosses.
+
+Kept: the playable cast and its story variants, ICP, Guy Fieri, Steve, Tyson, Mr. Worldwide, the Fairy Godmother, Rumpelstiltskin, the Big Bad Wolf, Blind Mouse, Gingy, the Three Pigs, the Muffin Man, Magic Mirror, Dragon and the sky drakes, the Cosmic Muffin family, the Bakery villagers, Duloc guards and Duloc Tank, the Masquerader, Jack Horner, Briar Knight, Moth Witch, Sir Bram and his ghost, Master Glaze, the Furnace Maw and the Wishworks Golems.

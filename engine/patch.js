@@ -153,7 +153,7 @@ function buildPass(base,{techs,layouts,extended=false,requirements,plan,measure=
   // them shifts the ending's timing so that SnesJs, which lacks the short odd
   // scanline, phase-locks the native $4210 vblank poll in "What the Prophet
   // Seeks"; Snes9x and bsnes pass either way.
-  const streamedGraphics=new Set(extended?[...supportingSpecs.map(a=>a.gfx),249,...carnivalCast.filter(a=>a.size===0).map(a=>a.gfx),11,12,35,36,15,20,24,25,37,42,52,53,78,133,141,143,155,161,163,166,176,181,182,191,208,209,216,238,252]:[]);
+  const streamedGraphics=new Set(extended?[...supportingSpecs.map(a=>a.gfx),249,...carnivalCast.filter(a=>a.size===0).map(a=>a.gfx),11,12,35,36,15,20,24,25,42,52,53,78,133,141,143,155,161,163,166,176,181,182,191,208,209,216,238,252]:[]);
   let hatchetFrames;
   const add=(offset,bytes,label)=>records.push({offset,bytes,label});
   const playerRecords=cast.map(c=>makeCharacterRecords(base,c.id,{allowGrowth:true}));

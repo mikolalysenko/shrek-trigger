@@ -1,5 +1,9 @@
 # Shrek Trigger changelog
 
+## Unreleased
+
+- **Rivet uses Johnny's original sprite again**, in the workshop, in battle and in the race. The generated redraw didn't match the rest of the game's art. His name and lines are unchanged.
+
 ## 1.0.0 — 2026-11-12
 
 First public release.

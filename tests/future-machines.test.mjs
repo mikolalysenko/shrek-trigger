@@ -1,13 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {build,bedroom,screenshot,assertSpriteGraphicsStorage,assertStockActors} from './helpers.mjs';
+import {build,bedroom,screenshot,assertStockActors} from './helpers.mjs';
 import {retainedBossNames} from '../content/retained-boss-names.js';
 import {futureMachines,customFutureMachines,supplyKeeper,stockMachineGraphics} from '../content/future-machines.js';
-import {futureMachineSprite} from '../engine/future-machine-art.js';
-import {keeperBackgroundLayout,patchFutureMachines} from '../engine/future-machines.js';
+import {keeperBackgroundLayout} from '../engine/future-machines.js';
 import {carnivalCast} from '../content/carnival.js';
-import {readEnemyAI} from '../engine/enemy-ai.js';
 import {decompress} from '../engine/compression.js';
 import {cartridgeOffset} from '../engine/expanded-rom.js';
 import {u16,u24,fileOffset} from '../engine/rom.js';
@@ -23,23 +21,14 @@ function tiles(actor,frame){
     for(let v of gfx.slice((t&1023)*32,(t&1023)*32+32)){if(t&0x4000){v=(v>>1&85)|(v&85)<<1;v=(v>>2&51)|(v&51)<<2;v=(v>>4)|(v&15)<<4;}out.push(v);}
   }return Uint8Array.from(out);
 }
-function pixelCheck(s,a,f){
-  const pixels=futureMachineSprite(a.art,f),rgba=new Uint8Array(512*480*4),colors=new Map();s.setPixels(rgba);
-  const ox=200-a.width/2+(a.anchor?.[0]??0)+(a.frameOffsets?.[f]?.[0]??0),oy=151-a.height+(a.anchor?.[1]??0)+(a.frameOffsets?.[f]?.[1]??0);
-  for(let y=0;y<a.height;y++)for(let x=0;x<a.width;x++)if(pixels[y*a.width+x]){
-    const k=pixels[y*a.width+x],p=((oy+y)*2*512+(ox+x)*2)*4,v=rgba[p]<<16|rgba[p+1]<<8|rgba[p+2];
-    if(!colors.has(k))colors.set(k,v);else assert.equal(v,colors.get(k),`${a.key}:${f} pixel ${x},${y}`);
-  }
-  assert.ok(colors.size>=5);assert.equal(new Set(colors.values()).size,colors.size);
-}
 test('stock machines and the Guardian keep their original banks, background body and palette',()=>{
   assert.equal(b.audit.futureMachines.extraVramBytes,0);assert.equal(b.audit.futureMachines.extraWramBytes,0);
   assert.deepEqual(new Set(b.audit.futureMachines.stockRestored),stockMachineGraphics);
-  assert.deepEqual(customFutureMachines.map(a=>a.key),['rivet']);assert.equal(b.audit.futureMachines.background,null);
-  // The Guardian keeps the Storekeeper battle name; every other machine is fully stock.
+  assert.deepEqual(customFutureMachines.map(a=>a.key),[]);assert.equal(b.audit.futureMachines.background,null);
+  // Rivet (Johnny) and the Guardian (Storekeeper) keep their battle names; every other machine is fully stock.
   const stock=[...futureMachines.filter(a=>stockMachineGraphics.has(a.gfx)),supplyKeeper];
   assertStockActors(b,stock,{retainedNames:new Map(retainedBossNames.map(a=>[a.enemy,a.short]))});
-  assert.deepEqual(stock.filter(a=>retainedBossNames.some(r=>r.enemy===a.enemy)).map(a=>a.enemy),[212]);
+  assert.deepEqual(stock.filter(a=>retainedBossNames.some(r=>r.enemy===a.enemy)).map(a=>a.enemy),[244,212]);
   const bg=supplyKeeper.background,pointer=0x362220+bg.graphics*3,packet=fileOffset(u24(b.base,pointer)),source=decompress(b.base,packet);
   assert.equal(u24(b.rom,pointer),u24(b.base,pointer));assert.deepEqual(b.rom.slice(packet,packet+source.length),b.base.slice(packet,packet+source.length));
   assert.ok(!b.audit.resources.reclaimedPackets.some(p=>p.pointer===pointer),'the stock background packet is not reclaimed');
@@ -49,31 +38,9 @@ test('stock machines and the Guardian keep their original banks, background body
   }
   const palettes=0x3624c0+bg.palette*210;assert.deepEqual(b.rom.slice(palettes,palettes+210),b.base.slice(palettes,palettes+210));
 });
-test('Rivet retains native AI and headers within an explicit cartridge memory budget',()=>{
-  for(const a of b.audit.futureMachines.actors){
-    const p=0x24f600+a.enemy*10;assert.deepEqual(b.rom.slice(p,p+10),b.base.slice(p,p+10));
-    const ai=readEnemyAI(b.base,a.enemy);assert.deepEqual(b.rom.slice(ai.start,ai.start+ai.bytes),b.base.slice(ai.start,ai.start+ai.bytes));
-    assertSpriteGraphicsStorage(b,a);
-  }
+test('the Guardian keeper background rejects a shared tileset',()=>{
+  assert.deepEqual(b.audit.futureMachines.actors,[]);
   const bad=b.base.slice();bad[0x361c00+4*8]=186;assert.throws(()=>keeperBackgroundLayout(bad),/shared/);
-  assert.throws(()=>patchFutureMachines(b.base,()=>0x300000,()=>{}),/original decoded graphics budget/);
-  const wrongNpc=b.base.slice();wrongNpc[0x24f000+(2+7)*5+3]=159;
-  assert.throws(()=>patchFutureMachines(wrongNpc,()=>0x300000,()=>{},{streamedGraphics:new Set([37])}),/NPC header changed/);
-});
-test('all 25 custom Rivet variants upload exact native tiles and display their indexed artwork',async()=>{
-  const s=await bedroom(b.rom),h=installHooks(s,specs),d=createDevTools(s,h);
-  for(const a of customFutureMachines){
-    d.previewActor(a.key);runFrames(s,300);
-    assert.equal(u16(s.ram,0x141e),u16(b.rom,0x242a00+a.palette*2));
-    for(let f=0;f<a.frames;f++){
-      d.previewFrame(f);runFrames(s,32);assert.equal(s.ram[0xf1f],f);
-      const base=u16(s.ram,0xd1e)*32,v=new Uint8Array(s.ppu.vram.buffer);
-      assert.deepEqual(Uint8Array.from([...v.slice(base,base+256),...v.slice(base+512,base+768)]),tiles(a,f),a.key+':'+f);
-      pixelCheck(s,a,f);assert.equal(d.diagnostics().fatal,null);
-    }
-    d.previewFrame(0);runFrames(s,32);await screenshot(s,`.local/qa/${a.key}-native.png`);
-  }
-  d.undo();assert.equal(u16(s.ram,256),2);d.dispose();h.dispose();
 });
 test('large previews stream all 20 Great Milenko frames and four Guardian overlays through the native animation queue',async()=>{
   const s=await bedroom(b.rom),h=installHooks(s,specs),d=createDevTools(s,h),rom=s.cart.data.slice();

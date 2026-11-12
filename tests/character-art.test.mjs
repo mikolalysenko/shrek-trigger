@@ -10,9 +10,10 @@ import {spriteHeaders} from '../engine/native-sprites.js';
 
 const b=await build(),accepted=JSON.parse(await readFile('assets/imagegen/character-art-manifest.json'));
 // Banks later restored to stock Chrono Trigger art (November 1, then the
-// November 6 tightening to plot-critical characters and Shrek references).
+// November 6 tightening to plot-critical characters and Shrek references;
+// Rivet on November 12 as a low-quality redraw).
 const restored=new Set(['future-mites','future-bells','sewer-pods','lantern-bats','mire-golems','drain-imps','scavenger-rats','workshop-residues','pots','beetles','rootlings-briars','swamp-imps','duloc-town-keeper','duloc-town-resident','town-tradesmen',
- 'kilnback','crumb-hunters','bone-guards','future-ushers','supply-keeper','warden-legs','warden','sewer-trolls','frog-guards','palace-hexer','duloc-court-soldier','woodland-sprites','hench-hobgoblins']);
+ 'kilnback','crumb-hunters','bone-guards','future-ushers','supply-keeper','warden-legs','warden','sewer-trolls','frog-guards','palace-hexer','duloc-court-soldier','woodland-sprites','hench-hobgoblins','rivet']);
 const restoredBackgrounds=new Set([186]);
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 

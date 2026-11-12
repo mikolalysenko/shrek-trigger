@@ -16,9 +16,9 @@ export const futureMachines=[
   {key:'alarm-bell',name:'Alarm Bell',short:'Alarm Bell',enemy:208,gfx:197,asm:165,palette:201,animation:155,size:0,frames:5,art:'bell',...rasterActorGeometry['future-bells'],colors:brass},
   rivetActor
 ];
-// Mites, bells, the Proto ushers (97) and the Guardian (172) keep stock art.
-// Rivet stays custom; the Supply Keeper keeps its battle name.
-export const stockMachineGraphics=new Set([96,97,172,197]);
+// Mites, bells, the Proto ushers (97), Rivet (Johnny, 37) and the Guardian
+// (172) keep stock art; Rivet and the Supply Keeper keep their battle names.
+export const stockMachineGraphics=new Set([37,96,97,172,197]);
 export const customFutureMachines=futureMachines.filter(a=>!stockMachineGraphics.has(a.gfx));
 export const supplyKeeper={key:'supply-keeper',name:'Supply Keeper',short:'Storekeeper',enemy:212,gfx:172,asm:167,palette:202,animation:129,size:6,...rasterActorGeometry['supply-keeper'],
   colors:['29282e','514038','765638','a87d49','d6b67e','f4dfae','2e4241','50675d','8d9b79','644151','ab6263','d6efb4'],

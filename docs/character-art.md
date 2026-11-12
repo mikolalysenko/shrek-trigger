@@ -1,6 +1,6 @@
 # Generated character artwork
 
-**Current scope (November 6).** Custom sprites remain only for the playable cast, characters critical to the plot and direct Shrek references. Several families recorded below as integrated milestones are now stock Chrono Trigger art again: the court sergeant, Palace Hexer, frog guards, sewer trolls, Kilnbacks, Crumb Hunters, Bone Guards, Clockwork Ushers, Storekeeper, Bone Warden, Crag Keeper, Woodland Sprite, hobgoblins and storybook townsfolk, bats and jugglers. See the [decision log](decisions.md); the sections below are history for those families.
+**Current scope (November 6).** Custom sprites remain only for the playable cast, characters critical to the plot and direct Shrek references. Several families recorded below as integrated milestones are now stock Chrono Trigger art again: the court sergeant, Palace Hexer, frog guards, sewer trolls, Kilnbacks, Crumb Hunters, Bone Guards, Clockwork Ushers, Storekeeper, Bone Warden, Crag Keeper, Woodland Sprite, hobgoblins and storybook townsfolk, bats and jugglers. Rivet followed on November 12 as a low-quality redraw. See the [decision log](decisions.md); the sections below are history for those families.
 
 ## Party outline convention
 

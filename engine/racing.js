@@ -1,5 +1,5 @@
-import {cartColors,rivetRaceColors,cartRaceFrames,rivetRaceFrames} from '../content/racing.js';
-import {racingCartSprite,rivetRaceSprite,racingMiniatures,racingFieldCart} from './rivet-art.js';
+import {cartColors,cartRaceFrames} from '../content/racing.js';
+import {racingCartSprite,racingMiniatures,racingFieldCart} from './rivet-art.js';
 import {compress,decompress} from './compression.js';
 import {u16,u24,put16,put24,fileOffset} from './rom.js';
 import {snesColor,tile4bpp} from './sprites.js';
@@ -17,8 +17,9 @@ export function racingPackets(base){
     if(p.length!==size)throw Error('Native race packet size changed: '+id);
     return p;
   });
-  const out=source.map(p=>new Uint8Array(p.length));
-  for(const [id,width,frames,draw]of[[0,32,cartRaceFrames,racingCartSprite],[2,24,rivetRaceFrames,rivetRaceSprite]]){
+  // Rivet (packet 2, palette rows 9/13) keeps Johnny's stock race art.
+  const out=source.map(p=>new Uint8Array(p.length));out[2]=source[2].slice();
+  for(const [id,width,frames,draw]of[[0,32,cartRaceFrames,racingCartSprite]]){
     for(const f of frames){
       const pixels=draw(f);
       if(pixels.length!==width*f.height||pixels.some(v=>v>15))throw Error('Race projection artwork exceeds its native dimensions or palette');
@@ -26,7 +27,7 @@ export function racingPackets(base){
     }
   }
   out[1]=racingMiniatures();out[3]=source[3].slice();
-  for(const [rows,colors]of[[[8,12],cartColors],[[9,13],rivetRaceColors]])for(const row of rows){
+  for(const [rows,colors]of[[[8,12],cartColors]])for(const row of rows){
     if(colors.length!==15)throw Error('Native race palette requires 15 visible colors');
     // Index zero is transparent; preserve its original value as well as all
     // scenery/HUD colors in the other twelve rows.
@@ -64,9 +65,9 @@ export function patchRacing(base,allocate,add){
     const offset=allocate(compress(bytes),label),p=new Uint8Array(3);put24(p,0,0xc00000|offset);add(pointer,p,label+' pointer');
     return {pointer,offset,decodedBytes:bytes.length};
   };
-  for(let id=0;id<packets.length;id++)audit.push({id,...packet(0x3e0006+id*3,packets[id],['Racing cart projection frames','Racing minimap icons','Rivet projection frames','Racing palettes'][id])});
+  for(let id=0;id<packets.length;id++)audit.push({id,...packet(0x3e0006+id*3,packets[id],['Racing cart projection frames','Racing minimap icons','Rivet stock projection frames','Racing palettes'][id])});
   const b=racingBackground,bg=compileRacingBackground(base),background=packet(0x362220+b.graphics*3,bg.graphics,'Parked cart background graphics');
   const colors=new Uint8Array(30);cartColors.forEach((c,i)=>put16(colors,i*2,snesColor(c)));
   add(0x3624c0+b.palette*210+b.paletteRow*30,colors,'Parked cart background palette');
-  return {packets:audit,cartFrames:7,rivetFrames:6,miniatures:4,background:{...b,...background,tiles:bg.tiles.length},extraVramBytes:0,extraWramBytes:0,native:true};
+  return {packets:audit,cartFrames:7,rivetFrames:0,miniatures:4,background:{...b,...background,tiles:bg.tiles.length},extraVramBytes:0,extraWramBytes:0,native:true};
 }
