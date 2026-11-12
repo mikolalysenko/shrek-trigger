@@ -1,0 +1,144 @@
+[
+  {
+    "name": "battle.initialized",
+    "address": 12681237,
+    "expected": [226, 32, 194, 16, 156, 31],
+    "description": "Native combatant records have been initialized"
+  },
+  {
+    "name": "event.prepare",
+    "address": 12605187,
+    "expected": [32, 199, 92, 130, 227, 5],
+    "description": "Decompressed field event on entry and return, before native setup"
+  },
+  {
+    "name": "battle.result",
+    "address": 12702984,
+    "expected": [123, 168, 173, 141, 173, 58],
+    "description": "Native per-target combat result before storage"
+  },
+  {
+    "name": "field.nmi",
+    "address": 12642915,
+    "expected": [
+      194,
+      48,
+      72,
+      218,
+      90,
+      11
+    ],
+    "description": "Native field NMI entry"
+  },
+  {
+    "name": "event.init",
+    "address": 12605696,
+    "expected": [
+      191,
+      1,
+      32,
+      127,
+      240,
+      15
+    ],
+    "description": "Object initialization opcode fetch"
+  },
+  {
+    "name": "event.dispatch",
+    "address": 12606115,
+    "expected": [
+      191,
+      1,
+      32,
+      127,
+      155,
+      194
+    ],
+    "description": "Regular field event VM opcode fetch"
+  },
+  {
+    "name": "dialogue.render",
+    "address": 12591393,
+    "expected": [
+      34,
+      3,
+      0,
+      194,
+      96,
+      173
+    ],
+    "description": "Native dialogue render call"
+  },
+  {
+    "name": "scene.load",
+    "address": 12583005,
+    "expected": [
+      32,
+      78,
+      11,
+      32,
+      100,
+      11
+    ],
+    "description": "Field location re-entry"
+  },
+  {
+    "name": "battle.tech",
+    "address": 12696448,
+    "expected": [
+      166,
+      6,
+      189,
+      3,
+      0,
+      141
+    ],
+    "description": "Queued PC technique ID latched"
+  },
+  {
+    "name": "item.use",
+    "address": 12759850,
+    "expected": [
+      201,
+      201,
+      208,
+      3,
+      32,
+      13
+    ],
+    "description": "Successful menu item use, before inventory consumption"
+  },
+  {
+    "name": "battle.ai-message",
+    "address": 12688995,
+    "expected": [
+      174,
+      210,
+      177,
+      191
+    ],
+    "description": "Native enemy AI message action"
+  },
+  {
+    "name": "battle.enemy-tech",
+    "address": 12687933,
+    "expected": [
+      173,
+      252,
+      177,
+      41
+    ],
+    "description": "Native enemy technique setup, including multi-op actions"
+  },
+  {
+    "name": "battle.message",
+    "address": 13435541,
+    "expected": [
+      238,
+      29,
+      205,
+      162
+    ],
+    "description": "Native battle message entry, including target-specific charge warnings"
+  }
+]

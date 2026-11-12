@@ -1,0 +1,86 @@
+:root{--bg:#000;--fg:#d8d4c8;--dim:#7d7a70;--accent:#b6d36a;--btn:rgba(255,255,255,.13);--btn-on:rgba(182,211,106,.45);--line:rgba(255,255,255,.14);color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+button,label.big{font:inherit;color:inherit}
+#stage{display:flex;flex-direction:column;align-items:center;min-height:100dvh;padding:env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left)}
+#screen{position:relative;width:min(100vw,calc((100dvh - 3rem) * 8 / 7));aspect-ratio:8/7;background:#000}
+#game{display:block;width:100%;height:100%;image-rendering:pixelated;image-rendering:crisp-edges;touch-action:none}
+.overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9rem;background:rgba(0,0,0,.72);text-align:center;padding:1rem}
+.overlay[hidden]{display:none}
+h1{margin:0;font:600 clamp(1.6rem,6vw,2.6rem)/1 Georgia,serif;letter-spacing:.02em;color:var(--accent)}
+.big{display:inline-block;min-width:11rem;padding:.75rem 1.5rem;border:1px solid var(--accent);border-radius:.5rem;background:transparent;cursor:pointer;font-size:1.05rem}
+.big:hover,.big:focus-visible{background:rgba(182,211,106,.15);outline:none}
+.big input{display:none}
+.big[hidden]{display:none}
+#start-note{margin:0;max-width:26rem;color:var(--dim);font-size:.85rem}
+#start-note a{color:var(--fg)}
+#paused p{margin:0;font-size:1.4rem;letter-spacing:.2em}
+#paused small{color:var(--dim)}
+#toast{position:absolute;left:50%;bottom:.6rem;transform:translateX(-50%);padding:.35rem .8rem;border-radius:.4rem;background:rgba(0,0,0,.8);font-size:.8rem;opacity:0;transition:opacity .25s;pointer-events:none;white-space:nowrap}
+#toast.visible{opacity:1}
+#bar{display:flex;gap:.25rem;justify-content:center;height:3rem;align-items:center}
+#bar button{background:none;border:0;color:var(--dim);padding:.4rem .7rem;cursor:pointer;font-size:.8rem;letter-spacing:.04em}
+#bar button:hover:not(:disabled),#bar button:focus-visible{color:var(--fg);outline:none}
+#bar button:disabled{opacity:.35;cursor:default}
+#help{max-width:40rem;margin:1.5rem auto 2.5rem;padding:0 1rem calc(1rem + env(safe-area-inset-bottom));color:var(--dim);font-size:.8rem}
+#help table{width:100%;border-collapse:collapse;margin-bottom:.8rem}
+#help th,#help td{text-align:left;padding:.25rem .5rem;border-bottom:1px solid var(--line)}
+#help th{color:var(--fg);font-weight:600}
+#help a{color:var(--fg)}
+
+/* Touch controls: hidden unless the device has touch. */
+#pad{display:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;touch-action:none}
+html.touch #pad{display:grid}
+#pad button,#pad #dpad{touch-action:none;-webkit-tap-highlight-color:transparent}
+#pad button{border:0;border-radius:50%;background:var(--btn);color:var(--fg);font-weight:600;padding:0}
+#pad button.on,#dpad span.on{background:var(--btn-on)}
+#dpad{position:relative;width:9.5rem;height:9.5rem}
+#dpad span{position:absolute;background:var(--btn);border-radius:.4rem}
+#dpad .up,#dpad .down{left:33%;width:34%;height:36%}
+#dpad .up{top:0}#dpad .down{bottom:0}
+#dpad .left,#dpad .right{top:33%;height:34%;width:36%}
+#dpad .left{left:0}#dpad .right{right:0}
+#dpad i{position:absolute;left:33%;top:33%;width:34%;height:34%;background:var(--btn)}
+#face{position:relative;width:9.5rem;height:9.5rem}
+#face button{position:absolute;width:3.3rem;height:3.3rem;font-size:1.05rem}
+#face .x{left:50%;top:0;transform:translateX(-50%)}
+#face .b{left:50%;bottom:0;transform:translateX(-50%)}
+#face .y{left:0;top:50%;transform:translateY(-50%)}
+#face .a{right:0;top:50%;transform:translateY(-50%)}
+#shoulders,#menu-buttons{display:flex;justify-content:space-between;gap:1rem}
+#shoulders button{width:4.6rem;height:2.2rem;border-radius:1rem}
+#menu-buttons button{width:4.6rem;height:1.9rem;border-radius:1rem;font-size:.72rem;font-weight:500;letter-spacing:.05em}
+
+/* Portrait phones: game on top, pad underneath. */
+@media (orientation:portrait){
+  html.touch #screen{width:100vw}
+  html.touch #pad{width:100%;max-width:30rem;padding:.6rem 1.1rem 1rem;grid-template-columns:auto 1fr auto;grid-template-areas:"sh sh sh" "dp . fc" "mb mb mb";row-gap:.9rem;align-items:center}
+  html.touch #shoulders{grid-area:sh}
+  html.touch #dpad{grid-area:dp}
+  html.touch #face{grid-area:fc}
+  html.touch #menu-buttons{grid-area:mb;justify-content:center}
+}
+/* Landscape phones: the game fills the height, controls sit on either side. */
+@media (orientation:landscape) and (max-height:540px){
+  html.touch #stage{min-height:100dvh;justify-content:center}
+  html.touch #screen{width:min(calc(100dvh * 8 / 7),calc(100vw - 22rem))}
+  html.touch #bar{position:fixed;top:calc(env(safe-area-inset-top) + 6rem);right:calc(env(safe-area-inset-right) + .9rem);height:auto;flex-direction:column;align-items:flex-end;gap:0;z-index:2}
+  html.touch #dpad,html.touch #face{width:min(9.5rem,42vh);height:min(9.5rem,42vh)}
+  html.touch #face button{width:min(3.3rem,14.5vh);height:min(3.3rem,14.5vh)}
+  html.touch #bar button{padding:.3rem .5rem;font-size:.7rem}
+  html.touch #pad{position:fixed;inset:0;display:block;pointer-events:none;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+  html.touch #pad>*{pointer-events:auto;position:absolute}
+  html.touch #dpad{left:calc(env(safe-area-inset-left) + 1.2rem);bottom:1.4rem}
+  html.touch #face{right:calc(env(safe-area-inset-right) + 1.2rem);bottom:1.4rem}
+  html.touch #shoulders{left:calc(env(safe-area-inset-left) + .8rem);right:calc(env(safe-area-inset-right) + .8rem);top:.6rem;pointer-events:none}
+  html.touch #shoulders button{pointer-events:auto}
+  html.touch #menu-buttons{left:calc(env(safe-area-inset-left) + 1rem);right:calc(env(safe-area-inset-right) + 1rem);top:3.4rem;pointer-events:none;justify-content:space-between}
+  html.touch #menu-buttons button{pointer-events:auto}
+  html.touch #help{display:none}
+}
+/* Full screen: nothing but the game (and the pad on touch devices). */
+html.fullscreen #help{display:none}
+html.fullscreen #stage{justify-content:center}
+html.fullscreen:not(.touch) #screen{width:min(100vw,calc(100dvh * 8 / 7))}
+html.fullscreen:not(.touch) #bar{position:fixed;right:.4rem;bottom:.2rem;opacity:.25;height:auto}
+html.fullscreen:not(.touch) #bar:hover{opacity:1}
