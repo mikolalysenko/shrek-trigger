@@ -2,6 +2,9 @@
 // release BPS patch in the browser and play. The ROM is cached in this
 // browser's IndexedDB so returning players can press Play; in-game saves
 // (cartridge SRAM) are kept in localStorage. Debug tools live in dev.html.
+// Self-hosting: a ROM next to this page (rom.sfc, chrono-trigger.sfc, ...) or
+// one named in the URL (?rom=path/to/file.sfc) is loaded and patched
+// automatically, so the visitor only has to press Play.
 import {validateRom} from './rom.js';
 import {applyBps} from './bps-apply.js';
 
@@ -32,14 +35,36 @@ async function fetchPatch(){
 }
 const patchReady=fetchPatch();
 
-function ready(bytes,cached){
-  base=bytes;$('choose').hidden=true;$('play').hidden=false;$('play').focus();
-  note(cached?'Your ROM is remembered on this device. <a href="#" id="forget">Use a different ROM</a>':'ROM verified. It stays on this device.');
+// ROM files the launcher looks for beside itself when self-hosted.
+const LOCAL_ROMS=['rom.sfc','rom.smc','chrono-trigger.sfc','Chrono Trigger (USA).sfc'];
+async function fetchRom(url){
+  try{const r=await fetch(url,{cache:'no-cache'});if(!r.ok)return null;const b=await r.arrayBuffer();return b.byteLength>=0x400000?b:null;}catch{return null;}
+}
+// A ROM named in the URL wins, then the first ROM found beside the launcher.
+async function hostedRom(){
+  const named=new URLSearchParams(location.search).get('rom');
+  if(named){const b=await fetchRom(new URL(named,location.href));if(b)return{bytes:b,name:named};}
+  const found=await Promise.all(LOCAL_ROMS.map(n=>fetchRom(new URL(n,location.href))));
+  const i=found.findIndex(Boolean);return i<0?null:{bytes:found[i],name:LOCAL_ROMS[i]};
+}
+
+let patched=null;
+function ready(bytes,cached,source){
+  base=bytes;patched=null;$('choose').hidden=true;$('play').hidden=false;$('play').focus();
+  note(source?'Found <b></b> beside the launcher. Patching…':cached?'Your ROM is remembered on this device. <a href="#" id="forget">Use a different ROM</a>':'ROM verified. It stays on this device.');
+  if(source){
+    $('start-note').querySelector('b').textContent=source;
+    // Patch now so Play starts at once (audio still needs that first click).
+    patchReady.then(p=>{if(base!==bytes)return;patched=applyBps(bytes,p);note('Loaded and patched <b></b>. Press Play.');$('start-note').querySelector('b').textContent=source;})
+      .catch(e=>{note(e.message);console.error(e);});
+  }
   $('forget')?.addEventListener('click',e=>{e.preventDefault();base=null;$('play').hidden=true;$('choose').hidden=false;note('Choose your Chrono Trigger (USA) ROM.');});
 }
 async function init(){
   // The local dev server (npm start) can hand over the developer's ROM.
   if(['127.0.0.1','localhost'].includes(location.hostname))try{const r=await fetch('api/base-rom');if(r.ok){ready(await validateRom(await r.arrayBuffer()),false);return;}}catch{/* Static server. */}
+  const hosted=await hostedRom();
+  if(hosted){try{ready(await validateRom(hosted.bytes),false,hosted.name);return;}catch(e){console.warn(`${hosted.name} is not Chrono Trigger (USA)`,e);}}
   const cached=await cachedRom();
   if(cached){try{ready(await validateRom(cached),true);return;}catch{/* A stale cache falls through. */}}
   $('choose').hidden=false;note('Choose your own <b>Chrono Trigger (USA)</b> ROM (.sfc or .smc). It is checked and patched on this device, never uploaded.');
@@ -56,7 +81,7 @@ async function play(){
   $('play').disabled=true;note('Patching…');
   try{
     if(soundOn){audio??=new AudioContext();await audio.resume();}
-    const rom=applyBps(base,await patchReady);
+    const rom=patched??applyBps(base,await patchReady);
     snes=new Snes();if(!snes.loadRom(rom,true))throw Error('The emulator rejected the cartridge.');snes.reset(true);
     loadSram();$('start').hidden=true;$('pause').disabled=false;pause(false);canvas.focus?.();
   }catch(e){note(e.message);console.error(e);}
