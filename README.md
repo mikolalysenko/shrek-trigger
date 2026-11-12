@@ -34,6 +34,8 @@ Enemy and boss balance is the original game's, so it plays like Chrono Trigger: 
 
 Open **<https://mikolalysenko.github.io/shrek-trigger/>** and choose your own Chrono Trigger (USA) ROM. The page checks it, applies the release patch inside your browser and starts the game. The ROM never leaves your device and no ROM is hosted here; your browser remembers it, so next time you just press Play.
 
+Hosting the player yourself? Put your ROM beside `index.html` as `rom.sfc` (or `chrono-trigger.sfc`, `Chrono Trigger (USA).sfc`), or link to `index.html?rom=path/to/your.sfc`, and the page loads and patches it automatically. Keep such a copy private: never publish a ROM.
+
 Arrow keys move, **Z** confirms, **X** cancels (hold to run), **C** opens the menu, **Esc** pauses, **F** goes full screen. Gamepads work, and phones and tablets get an on-screen SNES pad in portrait or landscape. Saves made at save points are kept in your browser. Developer debug tools are on a separate page, `dev.html`.
 
 ## Patching
