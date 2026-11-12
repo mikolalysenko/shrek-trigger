@@ -1,0 +1,69 @@
+{
+  "key": "cosmic-muffin-spawn-shell",
+  "sourceType": "image-generation",
+  "width": 128,
+  "height": 96,
+  "palette": [
+    "ffffff",
+    "292910",
+    "d6efad",
+    "de9c84",
+    "d6bd21",
+    "0884ff",
+    "b5735a",
+    "8c9c6b",
+    "8c5200",
+    "732118",
+    "525a29",
+    "393929"
+  ],
+  "directory": "assets/imagegen/cosmic-muffin-spawn/shell-nearest",
+  "sheets": [
+    {
+      "file": "assets/imagegen/cosmic-muffin-spawn/source-shell-v2.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 64,
+      "scaleCells": [
+        0
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "bottom": 95,
+        "dx": -16,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        {
+          "frame": 0,
+          "dissolve": 11
+        }
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "One actual generated full shell with corrected lower-right cavity. Native1 remains completely blank as in the original."
+      }
+    }
+  },
+  "notes": {
+    "inactive": true,
+    "sourceNativeCells": 24,
+    "canvasOrigin": [
+      64,
+      88
+    ],
+    "nativeFrameCount": 2
+  }
+}

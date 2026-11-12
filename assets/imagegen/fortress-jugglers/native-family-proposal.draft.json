@@ -1,0 +1,317 @@
+{
+  "status": "Inactive generated source; review and native execution separate",
+  "key": "fortress-jugglers",
+  "gfx": 91,
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 57,
+      "header": [
+        91,
+        48,
+        40,
+        82,
+        224,
+        0,
+        224,
+        2,
+        2,
+        65
+      ],
+      "name": "Juggler"
+    },
+    {
+      "kind": "enemy",
+      "id": 240,
+      "header": [
+        91,
+        48,
+        40,
+        82,
+        192,
+        0,
+        208,
+        2,
+        2,
+        0
+      ],
+      "name": "Flea?"
+    }
+  ],
+  "aliases": [
+    {
+      "field": 0,
+      "id": 91,
+      "aliases": [
+        91
+      ]
+    },
+    {
+      "field": 1,
+      "id": 48,
+      "aliases": [
+        48
+      ]
+    },
+    {
+      "field": 2,
+      "id": 40,
+      "aliases": [
+        40
+      ]
+    },
+    {
+      "field": 3,
+      "id": 82,
+      "aliases": [
+        82
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "art": "fortress-jugglers",
+      "asm": 48,
+      "palette": 40,
+      "animation": 82,
+      "size": 224,
+      "width": 64,
+      "height": 80,
+      "frames": 9,
+      "anchor": [
+        0,
+        16
+      ],
+      "frameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "frameCellOrigins": [
+        [
+          [
+            32,
+            9
+          ],
+          [
+            17,
+            9
+          ],
+          [
+            32,
+            25
+          ],
+          [
+            17,
+            25
+          ]
+        ],
+        [
+          [
+            32,
+            8
+          ],
+          [
+            17,
+            8
+          ],
+          [
+            32,
+            24
+          ],
+          [
+            17,
+            24
+          ]
+        ],
+        [
+          [
+            32,
+            6
+          ],
+          [
+            17,
+            6
+          ],
+          [
+            32,
+            22
+          ],
+          [
+            17,
+            22
+          ]
+        ],
+        [
+          [
+            32,
+            8
+          ],
+          [
+            17,
+            8
+          ],
+          [
+            32,
+            24
+          ],
+          [
+            17,
+            24
+          ]
+        ],
+        [
+          [
+            32,
+            10
+          ],
+          [
+            17,
+            10
+          ],
+          [
+            32,
+            26
+          ],
+          [
+            17,
+            26
+          ]
+        ],
+        [
+          [
+            32,
+            8
+          ],
+          [
+            17,
+            8
+          ],
+          [
+            32,
+            24
+          ],
+          [
+            17,
+            24
+          ]
+        ],
+        [
+          [
+            32,
+            8
+          ],
+          [
+            17,
+            8
+          ],
+          [
+            32,
+            24
+          ],
+          [
+            17,
+            24
+          ]
+        ],
+        [
+          [
+            32,
+            8
+          ],
+          [
+            17,
+            8
+          ],
+          [
+            32,
+            24
+          ],
+          [
+            17,
+            24
+          ]
+        ],
+        [
+          [
+            32,
+            34
+          ],
+          [
+            17,
+            34
+          ],
+          [
+            32,
+            50
+          ],
+          [
+            17,
+            50
+          ]
+        ]
+      ],
+      "cellOverlapFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "ownerFullSizeFlags": {
+    "57": 224,
+    "240": 192
+  },
+  "paletteWrites": [],
+  "originalDecodedCeiling": 2432,
+  "requiresExplicitStream91": true,
+  "originalAssemblyExtent": 360,
+  "sourceMapIsAlreadyComposed": true,
+  "sourceComposition": {
+    "sampleSpec": "import-spec.draft.json",
+    "composer": "compose-native.js:composeJugglerArt",
+    "map": "native-composition.json",
+    "effects": "original-effects.draft.json"
+  },
+  "sourceGeometryDifferences": [],
+  "guard": "Use nine composed native slots once and the original four-cell XY/order. Preserve both full owner headers, palette40, AA82, AI/stats/events/names, all current Moth Witch scene dependencies and original effects. Explicit gfx91 stream required; default guard stays intact."
+}

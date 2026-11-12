@@ -1,0 +1,69 @@
+{
+  "key": "tank-wheel",
+  "sourceType": "image-generation",
+  "width": 32,
+  "height": 32,
+  "palette": [
+    "211b24",
+    "3c3f46",
+    "687378",
+    "b4c3b6",
+    "563226",
+    "885039",
+    "244955",
+    "42788a",
+    "917239",
+    "c9a554",
+    "efdb96",
+    "fcf2ce"
+  ],
+  "directory": "assets/imagegen/duloc-tank/wheel-draft",
+  "sheets": [
+    {
+      "file": "assets/imagegen/duloc-tank/source-wheel-v1.png",
+      "columns": 2,
+      "rows": 1,
+      "nativeHeight": 29,
+      "scaleCells": [
+        0
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 30,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Two actual generated wheel spoke orientations for the original alternating roll states."
+      }
+    }
+  },
+  "notes": {
+    "status": "Inactive draft",
+    "nativeCells": 4,
+    "anchor": [
+      -2,
+      6
+    ],
+    "sourcePoses": 2,
+    "nativeFrameRoles": [
+      "wheel-a",
+      "wheel-b"
+    ]
+  }
+}

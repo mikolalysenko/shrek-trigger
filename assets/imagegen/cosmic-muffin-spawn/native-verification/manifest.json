@@ -1,0 +1,928 @@
+{
+  "activePath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateSha256": "7496a07c2ba7d62f05e5576c79ac977dc1ce21673e5ea71da2d9a0dbf98cecb5",
+  "placements": [
+    {
+      "key": "shell",
+      "graphicsOffset": 8192000,
+      "assemblyOffset": 8194256
+    },
+    {
+      "key": "head",
+      "graphicsOffset": 8194736,
+      "assemblyOffset": 8195168
+    }
+  ],
+  "palette208Unchanged": true,
+  "headersAiProgramsUnchanged": true,
+  "streamingUsed": false,
+  "status": "Six selectable native owner/frames passed; two original blank assembly slots preserved but not selected by the fixed size3 field path",
+  "nativeFrameUploads": 6,
+  "nativeOamCells": 64,
+  "exactHeadOpaquePixels": 1212,
+  "bodyKitchenOcclusion": "823 source pixels per body owner are hidden by the unmodified kitchen foreground. Full unoccluded compound pixels are separately proven in real scenes.",
+  "bodyBlankBehavior": "AC0 and AC1 leave native frame cacheFF and assembly0 upload unchanged; blank assembly1 is retained exactly as a transparent pose, not counted as an upload.",
+  "rows": [
+    {
+      "key": "shell",
+      "enemy": 111,
+      "frame": 0,
+      "nativeFrame": 255,
+      "upload": {
+        "exact": true,
+        "tile": 64,
+        "bytes": 3072,
+        "sha256": "773132ac4810c7b35dc3d04bc1651499591df594c1fcceb22aa317baf183d12b",
+        "expectedSha256": "773132ac4810c7b35dc3d04bc1651499591df594c1fcceb22aa317baf183d12b"
+      },
+      "heapBytes": 3488,
+      "origin": [
+        200,
+        143
+      ],
+      "opaqueCells": 22,
+      "exactCells": 24,
+      "pixels": {
+        "exact": 3212,
+        "mismatches": 823,
+        "firstMismatches": [
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 224,
+            "y": 116,
+            "entry": 36,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              41,
+              32,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 224,
+            "y": 117,
+            "entry": 36,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              41,
+              32,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 224,
+            "y": 118,
+            "entry": 36,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              41,
+              32,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 225,
+            "y": 118,
+            "entry": 36,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              16,
+              8,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 185,
+            "y": 89,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 10,
+            "x": 184,
+            "y": 90,
+            "entry": 38,
+            "expected": [
+              114,
+              32,
+              24
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 185,
+            "y": 90,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              73,
+              65,
+              32
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 186,
+            "y": 90,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 187,
+            "y": 90,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 184,
+            "y": 91,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              98,
+              122,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 185,
+            "y": 91,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              73,
+              65,
+              32
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 186,
+            "y": 91,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              73,
+              65,
+              32
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 187,
+            "y": 91,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 188,
+            "y": 91,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 189,
+            "y": 91,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              73,
+              65,
+              32
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 184,
+            "y": 92,
+            "entry": 38,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 185,
+            "y": 92,
+            "entry": 38,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              41,
+              32,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 186,
+            "y": 92,
+            "entry": 38,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              49,
+              49,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 187,
+            "y": 92,
+            "entry": 38,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              49,
+              49,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 9,
+            "x": 188,
+            "y": 92,
+            "entry": 38,
+            "expected": [
+              139,
+              82,
+              0
+            ],
+            "actual": [
+              49,
+              49,
+              8
+            ]
+          }
+        ],
+        "byPart": {
+          "shell": {
+            "exact": 3212,
+            "mismatches": 823
+          }
+        }
+      }
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "frame": 1,
+      "nativeFrame": 255,
+      "upload": {
+        "exact": false,
+        "tile": 64,
+        "bytes": 3072,
+        "sha256": "773132ac4810c7b35dc3d04bc1651499591df594c1fcceb22aa317baf183d12b",
+        "expectedSha256": "e80232b4d18d0bb7e794be263ba937626f383f9917d4b8a737ba893a8f752293"
+      },
+      "heapBytes": 3488,
+      "exactCells": 0,
+      "pixels": null
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "frame": 0,
+      "nativeFrame": 255,
+      "upload": {
+        "exact": true,
+        "tile": 64,
+        "bytes": 3072,
+        "sha256": "773132ac4810c7b35dc3d04bc1651499591df594c1fcceb22aa317baf183d12b",
+        "expectedSha256": "773132ac4810c7b35dc3d04bc1651499591df594c1fcceb22aa317baf183d12b"
+      },
+      "heapBytes": 3488,
+      "origin": [
+        200,
+        143
+      ],
+      "opaqueCells": 22,
+      "exactCells": 24,
+      "pixels": {
+        "exact": 3212,
+        "mismatches": 823,
+        "firstMismatches": [
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 224,
+            "y": 116,
+            "entry": 36,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              41,
+              32,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 224,
+            "y": 117,
+            "entry": 36,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              41,
+              32,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 224,
+            "y": 118,
+            "entry": 36,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              41,
+              32,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 225,
+            "y": 118,
+            "entry": 36,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              16,
+              8,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 185,
+            "y": 89,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 10,
+            "x": 184,
+            "y": 90,
+            "entry": 38,
+            "expected": [
+              114,
+              32,
+              24
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 185,
+            "y": 90,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              73,
+              65,
+              32
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 186,
+            "y": 90,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 187,
+            "y": 90,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 184,
+            "y": 91,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              98,
+              122,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 185,
+            "y": 91,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              73,
+              65,
+              32
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 186,
+            "y": 91,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              73,
+              65,
+              32
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 187,
+            "y": 91,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 188,
+            "y": 91,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 189,
+            "y": 91,
+            "entry": 38,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              73,
+              65,
+              32
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 184,
+            "y": 92,
+            "entry": 38,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              90,
+              98,
+              41
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 185,
+            "y": 92,
+            "entry": 38,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              41,
+              32,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 186,
+            "y": 92,
+            "entry": 38,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              49,
+              49,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 187,
+            "y": 92,
+            "entry": 38,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              49,
+              49,
+              8
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 9,
+            "x": 188,
+            "y": 92,
+            "entry": 38,
+            "expected": [
+              139,
+              82,
+              0
+            ],
+            "actual": [
+              49,
+              49,
+              8
+            ]
+          }
+        ],
+        "byPart": {
+          "shell": {
+            "exact": 3212,
+            "mismatches": 823
+          }
+        }
+      }
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "frame": 1,
+      "nativeFrame": 255,
+      "upload": {
+        "exact": false,
+        "tile": 64,
+        "bytes": 3072,
+        "sha256": "773132ac4810c7b35dc3d04bc1651499591df594c1fcceb22aa317baf183d12b",
+        "expectedSha256": "e80232b4d18d0bb7e794be263ba937626f383f9917d4b8a737ba893a8f752293"
+      },
+      "heapBytes": 3488,
+      "exactCells": 0,
+      "pixels": null
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "frame": 0,
+      "nativeFrame": 0,
+      "upload": {
+        "exact": true,
+        "tile": 64,
+        "bytes": 512,
+        "sha256": "b46c47889b1e668cb067a9e9bdf99f04e66c4496a737a8e3dc47c8d14732695d",
+        "expectedSha256": "b46c47889b1e668cb067a9e9bdf99f04e66c4496a737a8e3dc47c8d14732695d"
+      },
+      "heapBytes": 1568,
+      "origin": [
+        200,
+        143
+      ],
+      "opaqueCells": 4,
+      "exactCells": 4,
+      "pixels": {
+        "exact": 243,
+        "mismatches": 0,
+        "firstMismatches": [],
+        "byPart": {
+          "head": {
+            "exact": 243,
+            "mismatches": 0
+          }
+        }
+      }
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "frame": 1,
+      "nativeFrame": 1,
+      "upload": {
+        "exact": true,
+        "tile": 64,
+        "bytes": 512,
+        "sha256": "ff0a970778594fc2c920965b1115e7699ac6fa5039a1eb23c56a8c683a1b894e",
+        "expectedSha256": "ff0a970778594fc2c920965b1115e7699ac6fa5039a1eb23c56a8c683a1b894e"
+      },
+      "heapBytes": 1568,
+      "origin": [
+        200,
+        143
+      ],
+      "opaqueCells": 4,
+      "exactCells": 4,
+      "pixels": {
+        "exact": 363,
+        "mismatches": 0,
+        "firstMismatches": [],
+        "byPart": {
+          "head": {
+            "exact": 363,
+            "mismatches": 0
+          }
+        }
+      }
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "frame": 0,
+      "nativeFrame": 0,
+      "upload": {
+        "exact": true,
+        "tile": 64,
+        "bytes": 512,
+        "sha256": "b46c47889b1e668cb067a9e9bdf99f04e66c4496a737a8e3dc47c8d14732695d",
+        "expectedSha256": "b46c47889b1e668cb067a9e9bdf99f04e66c4496a737a8e3dc47c8d14732695d"
+      },
+      "heapBytes": 1568,
+      "origin": [
+        200,
+        143
+      ],
+      "opaqueCells": 4,
+      "exactCells": 4,
+      "pixels": {
+        "exact": 243,
+        "mismatches": 0,
+        "firstMismatches": [],
+        "byPart": {
+          "head": {
+            "exact": 243,
+            "mismatches": 0
+          }
+        }
+      }
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "frame": 1,
+      "nativeFrame": 1,
+      "upload": {
+        "exact": true,
+        "tile": 64,
+        "bytes": 512,
+        "sha256": "ff0a970778594fc2c920965b1115e7699ac6fa5039a1eb23c56a8c683a1b894e",
+        "expectedSha256": "ff0a970778594fc2c920965b1115e7699ac6fa5039a1eb23c56a8c683a1b894e"
+      },
+      "heapBytes": 1568,
+      "origin": [
+        200,
+        143
+      ],
+      "opaqueCells": 4,
+      "exactCells": 4,
+      "pixels": {
+        "exact": 363,
+        "mismatches": 0,
+        "firstMismatches": [],
+        "byPart": {
+          "head": {
+            "exact": 363,
+            "mismatches": 0
+          }
+        }
+      }
+    }
+  ]
+}

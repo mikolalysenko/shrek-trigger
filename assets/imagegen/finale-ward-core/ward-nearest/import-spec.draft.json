@@ -1,0 +1,67 @@
+{
+  "key": "sugar-ward",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/finale-ward-core/ward-nearest",
+  "width": 32,
+  "height": 32,
+  "palette": [
+    "211b22",
+    "593426",
+    "975535",
+    "ce8c55",
+    "751b30",
+    "cf3541",
+    "f3dfba",
+    "252735",
+    "4b5272",
+    "e3b65c",
+    "f5c783",
+    "fff5d2"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/finale-ward-core/source-ward-v1.png",
+      "columns": 3,
+      "rows": 1,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "nativeHeight": 28,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 28,
+        "alphaThreshold": 128
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive source candidate. Native animation189 and all mechanics unchanged.",
+    "roles": [
+      "resting hover",
+      "middle pulse",
+      "peak pulse"
+    ],
+    "originalNativeOrder": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "frameTicks": 10,
+    "paletteUnchanged": true,
+    "sourcePixelsOnly": true
+  }
+}

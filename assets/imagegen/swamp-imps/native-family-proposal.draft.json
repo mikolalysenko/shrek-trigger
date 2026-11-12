@@ -1,0 +1,196 @@
+{
+  "activation": false,
+  "gfx": 86,
+  "owners": [
+    {
+      "kind": "npc",
+      "id": 78,
+      "header": [
+        86,
+        43,
+        67,
+        33,
+        0
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 12,
+      "header": [
+        86,
+        43,
+        67,
+        33,
+        0,
+        0,
+        246,
+        8,
+        12,
+        33
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 13,
+      "header": [
+        86,
+        43,
+        63,
+        33,
+        0,
+        0,
+        246,
+        8,
+        12,
+        33
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 14,
+      "header": [
+        86,
+        43,
+        167,
+        33,
+        0,
+        0,
+        246,
+        8,
+        10,
+        18
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 15,
+      "header": [
+        86,
+        43,
+        68,
+        33,
+        0,
+        0,
+        246,
+        8,
+        16,
+        20
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 16,
+      "header": [
+        86,
+        63,
+        63,
+        44,
+        0,
+        0,
+        240,
+        7,
+        14,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 17,
+      "header": [
+        86,
+        63,
+        64,
+        44,
+        0,
+        0,
+        240,
+        7,
+        14,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 18,
+      "header": [
+        86,
+        63,
+        65,
+        100,
+        0,
+        0,
+        240,
+        8,
+        16,
+        33
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "header": [
+        86,
+        65,
+        63,
+        83,
+        1,
+        0,
+        236,
+        8,
+        16,
+        17
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 242,
+      "header": [
+        86,
+        63,
+        231,
+        100,
+        0,
+        0,
+        240,
+        8,
+        16,
+        33
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "key": "imp",
+      "asm": 43,
+      "size": 0,
+      "cells": 4,
+      "frames": 28,
+      "assemblyBytes": 1120,
+      "assemblySha256": "adc28eb4038b0be43b6895062f96b9c82019d2fef3a64ab9628d6244b19e220d"
+    },
+    {
+      "key": "roly",
+      "asm": 63,
+      "size": 0,
+      "cells": 4,
+      "frames": 26,
+      "assemblyBytes": 1040,
+      "assemblySha256": "42b1875951d74dbe5f11ec96f0d71656cb2fe4f9b2914b137302d19a8371f0bb"
+    },
+    {
+      "key": "rider",
+      "asm": 65,
+      "size": 1,
+      "cells": 8,
+      "frames": 29,
+      "assemblyBytes": 2320,
+      "assemblySha256": "166ac62695b520586a6938365d826c102e300d61f1563a993eb685ad082af527"
+    }
+  ],
+  "paletteWrites": false,
+  "sourceCells": "assets/imagegen/swamp-imps/native-cell-raster.json",
+  "recipe": "assets/imagegen/swamp-imps/compile-native-cells.js",
+  "sourceSamplingRecipe": "assets/imagegen/swamp-imps/prepare-draft.mjs",
+  "originalCellComposition": "assets/imagegen/swamp-imps/source-native-components.json",
+  "integration": "Reproduce the per-cell native raster and source sharing exactly; original OAM order matters. Root owns guarded loader/allocator integration."
+}

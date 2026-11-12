@@ -1,0 +1,192 @@
+{
+  "key": "mire-golems",
+  "directory": "assets/imagegen/mire-golems/active",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "232b2b",
+    "443a30",
+    "705643",
+    "a37d56",
+    "cba873",
+    "263e32",
+    "49664c",
+    "86a06a",
+    "3c5056",
+    "71858a",
+    "d7ae51",
+    "f4dfae"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/mire-golems/source-movement-v2.png",
+      "columns": 4,
+      "rows": 3,
+      "nativeHeight": 58,
+      "scaleCells": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      }
+    },
+    {
+      "file": "assets/imagegen/mire-golems/source-actions-v1.png",
+      "columns": 4,
+      "rows": 3,
+      "nativeHeight": 58,
+      "scaleCells": [
+        10,
+        11
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.7897313173066464
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/mire-golems/source-tumble-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 58,
+      "scaleCells": [
+        7,
+        8
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.7482758620689656
+        },
+        "1": {
+          "scale": 0.7686730839527233
+        },
+        "2": {
+          "scale": 0.7653540093858396
+        },
+        "3": {
+          "scale": 0.828448275862069
+        },
+        "4": {
+          "scale": 0.898227969348659
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/mire-golems/source-front-actions-v1.png",
+      "columns": 3,
+      "rows": 2,
+      "nativeHeight": 58,
+      "scaleCells": [
+        5
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.9742990654205608
+        },
+        "2": {
+          "scale": 0.9834905660377359
+        },
+        "3": {
+          "scale": 0.954233409610984
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/mire-golems/source-curl-v1.png",
+      "columns": 3,
+      "rows": 1,
+      "nativeHeight": 58,
+      "scaleCells": [
+        2
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.8898876404494384
+        },
+        "1": {
+          "scale": 0.8898876404494384
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    }
+  },
+  "notes": {
+    "sourceSpec": "assets/imagegen/mire-golems/golem/import-spec.draft.json",
+    "status": "Accepted source registered for native cartridge compilation"
+  },
+  "nativeComposition": {
+    "map": "assets/imagegen/mire-golems/golem/composition-audit.json",
+    "overlay": "assets/imagegen/mire-golems/golem/source-native-shadow.json"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "status": "Original-list native timing and representative native scene motion passed",
+  "candidateSha256": "984969b0477edfcb36fe1b0f82eca24190196456681b6a96038ca56f11827460",
+  "nativeTiming": {
+    "familyCases": 48,
+    "guy225SentinelCases": 24,
+    "scoredCycles": 144,
+    "scoredTicks": 5064,
+    "startupTicks": 4536,
+    "fieldDelayTicks": 0,
+    "startupDelayTicks": 0
+  },
+  "nativeSceneCaptures": [
+    {
+      "file": "motion-mountain-battle-motion.apng",
+      "sha256": "1b41f00497a6578ca2f37743c82764a4af60e6cae8f0fb6408dd941f3ddad535",
+      "firstVideoFrame": 9886,
+      "videoTicks": 120,
+      "framesPerSecond": 60,
+      "scope": "Unchanged native scene, original actors/events and controller state; diagnostic entry is recorded separately."
+    },
+    {
+      "file": "motion-snail-native-dance.apng",
+      "sha256": "0c37ada0faa15dccfb9768c8cd60d39790698aaa16af80fdd4195f6311207b28",
+      "firstVideoFrame": 9321,
+      "videoTicks": 120,
+      "framesPerSecond": 60,
+      "scope": "Unchanged native scene, original actors/events and controller state; diagnostic entry is recorded separately."
+    },
+    {
+      "file": "motion-snail-returned-gait.apng",
+      "sha256": "8fafdef32ccddeeebe447808aeaf439723aeeb00f17f70fdc90cf71bf2f5ca51",
+      "firstVideoFrame": 9530,
+      "videoTicks": 120,
+      "framesPerSecond": 60,
+      "scope": "Unchanged native scene, original actors/events and controller state; diagnostic entry is recorded separately."
+    }
+  ],
+  "battleLayerLatency": [
+    {
+      "slot": 0,
+      "requestedFrame": 10,
+      "displayedFrame": 9,
+      "requestedOrigin": [
+        168,
+        111
+      ],
+      "displayedOrigin": [
+        166,
+        111
+      ],
+      "delayVideoFrames": 1,
+      "exactFinalPixels": 36,
+      "occludedOrNonRawPixels": 398
+    },
+    {
+      "slot": 1,
+      "requestedFrame": 13,
+      "displayedFrame": 13,
+      "requestedOrigin": [
+        97,
+        156
+      ],
+      "displayedOrigin": [
+        97,
+        156
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 460,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "slot": 2,
+      "requestedFrame": 13,
+      "displayedFrame": 13,
+      "requestedOrigin": [
+        61,
+        141
+      ],
+      "displayedOrigin": [
+        61,
+        141
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 460,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "slot": 3,
+      "requestedFrame": 14,
+      "displayedFrame": 14,
+      "requestedOrigin": [
+        103,
+        95
+      ],
+      "displayedOrigin": [
+        103,
+        95
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 460,
+      "occludedOrNonRawPixels": 0
+    }
+  ],
+  "limits": "Field AA requests/timers and visible uploads have zero measured delay. The moving battle sample has one coherent preceding frame/XY state; visible timing is not universally identical. Independent cores and final production placement are not claimed."
+}

@@ -1,0 +1,124 @@
+{
+  "key": "prophet",
+  "palette": [
+    "242337",
+    "95684f",
+    "d8a174",
+    "f0c59e",
+    "f3ddbb",
+    "42405e",
+    "6c668a",
+    "302734",
+    "fff0d3",
+    "514056",
+    "a55f68",
+    "c9a14e"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/prophet/source-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "scaleX": 1.1
+      },
+      "overrides": {}
+    },
+    {
+      "file": "assets/imagegen/prophet/source-v2-corrections.png",
+      "columns": 2,
+      "rows": 2,
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "scaleX": 1.1
+      },
+      "overrides": {
+        "2": {
+          "scale": 1.04
+        },
+        "3": {
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/prophet/source-v3-front-passing.png",
+      "columns": 2,
+      "rows": 1,
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "scaleX": 1.1
+      },
+      "overrides": {}
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        7,
+        8,
+        17
+      ],
+      "1": [
+        4,
+        20,
+        6
+      ],
+      "2": [
+        12,
+        2,
+        18
+      ],
+      "3": [
+        10,
+        3,
+        19
+      ]
+    }
+  },
+  "notes": {
+    "material": "Every opaque pixel is sampled from an actual generated source. No code-drawn anatomy, gestures, or facial details.",
+    "identity": "Adult Farquaad disguised in a purple hooded cloak: adult jaw, prominent nose, black bob, gold clasp. No crown or weapon.",
+    "nativePalette": "Unchanged twelve-color palette from content/supporting-cast.js, hardware quantized to SNES BGR555.",
+    "roleMap": "Preserve all fifteen native frame slots and current idle/walk roles. The native mapper assigns duplicate roles to back slots4/6 and front slots7/10; these are deliberately repeated rather than claimed as separate drawings.",
+    "sourceCorrections": "Second source supplies the asymmetric rear step and opposite left/right profile arm contacts. Its front cell remains archived because it still reads as a contact. Third source supplies the compact front passing step. Reference source directions10/11 face right and12/13 face left; sequences follow the observed artwork.",
+    "activation": "Inactive draft only; no import-spec.json or canonical registry update.",
+    "selection": "Area voting with horizontal scale1.1 best retains connected hood planes, adult brows/nose and clean face at1×. The4% source-scale correction on the two v2 profile cells matches their head/body height to the original profiles; no pixel drawing or body-part transforms.",
+    "unusedSources": "Source v1 cells5/11/13 are rejected redundant contacts; v1 cells8/9/14/15 are archived alternatives. V2 cell0 remains rejected because it still read as a front contact. V3 cell1 is an alternate same-side passing drawing reserved for the separate phase3 mapping proposal."
+  }
+}

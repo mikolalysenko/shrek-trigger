@@ -1,0 +1,61 @@
+{
+  "status": "Published bounded source refinement; cartridge, BPS and gallery accepted together",
+  "sha256": "f15558259cfb6e053dde8a7cb7d21f453016adbdc7e0863127dd66d125748237",
+  "sourceFreeze": "assets/raster/shrek/acting-audit-remaining/freeze.json",
+  "sourceFreezeSha256": "a85f49bfbb3bf3928bfe4ebb05a029457e2962e7463ead42e06f409b5fea6db1",
+  "changedPlayerFrames": [
+    194,
+    219
+  ],
+  "changedRoleRows": [
+    194,
+    195,
+    219,
+    220
+  ],
+  "semanticCounts": {
+    "source": 60,
+    "adapted": 161,
+    "fallback": 24,
+    "blank": 3
+  },
+  "graphicsBytes": 30592,
+  "packedAssemblyBytes": 4520,
+  "originalAnimationProgramsPreserved": true,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "independentBpsReconstruction": true,
+  "stagedSourceReproduction": true,
+  "checks": {
+    "sourcePackingAndBanks": 5,
+    "nativeShrekUploads": 248,
+    "snes9x": {
+      "playerVariants": 1988,
+      "workshopFrames": 256,
+      "portraits": 7
+    },
+    "bsnes": {
+      "displayedPlayerFrames": 108,
+      "workshopFrames": 11,
+      "portraits": 7
+    },
+    "gallery": {
+      "atlases": 103,
+      "frames": 3700,
+      "newRoleFilters": true,
+      "desktop": true,
+      "mobile": true
+    }
+  },
+  "evidence": [
+    ".local/qa/shrek-airborne-source-tests.txt",
+    ".local/qa/shrek-airborne-upload-tests.txt",
+    ".local/qa/shrek-airborne-accepted-bank-tests.txt",
+    ".local/qa/party-art-f15558259cfb/report.json",
+    ".local/qa/character-shrek-airborne-staged-reproduction.json",
+    ".local/qa/shrek-airborne-f15558259cfb/patch-proof.json",
+    ".local/qa/shrek-airborne-f15558259cfb/gallery-browser.json"
+  ],
+  "limits": "24 explicit acting substitutes remain. Historical destination observations are not all-ending completion. Physical cartridge hardware is untested.",
+  "publication": ".local/qa/shrek-airborne-f15558259cfb/publication.json"
+}

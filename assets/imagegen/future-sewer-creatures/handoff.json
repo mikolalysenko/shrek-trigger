@@ -1,0 +1,459 @@
+{
+  "status": "Frozen inactive generated source packet; visual, exact native display, timed animation and original sewer route checks passed",
+  "activation": false,
+  "families": [
+    {
+      "family": "pods",
+      "key": "sewer-pods",
+      "directory": "assets/imagegen/future-sewer-creatures/pods",
+      "graphicsId": 110,
+      "assemblyId": 75,
+      "animationId": 80,
+      "native": {
+        "frames": 14,
+        "cells": 4,
+        "sizeClass": 0,
+        "fullSizeByte": 0,
+        "canvas": [
+          64,
+          64
+        ],
+        "authoredSourcePoses": 10,
+        "geometry": "pods/native-frame-map.draft.json",
+        "anchor": [
+          0,
+          0
+        ],
+        "frameOffsets": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            -7
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            -5,
+            2
+          ],
+          [
+            -6,
+            -2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            -2
+          ],
+          [
+            -4,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "originalMirrors": [
+          [
+            8,
+            10
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "translatedSourceDuplicates": [
+          [
+            11,
+            12
+          ],
+          [
+            9,
+            13
+          ]
+        ]
+      },
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 41,
+          "key": "thorn-pod",
+          "palette": 101,
+          "animation": 80,
+          "header": [
+            110,
+            75,
+            101,
+            80,
+            0,
+            0,
+            248,
+            8,
+            8,
+            65
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 42,
+          "key": "sewer-pod",
+          "palette": 100,
+          "animation": 80,
+          "header": [
+            110,
+            75,
+            100,
+            80,
+            0,
+            0,
+            248,
+            8,
+            12,
+            65
+          ]
+        }
+      ],
+      "palettePacketsChanged": 0,
+      "resources": {
+        "decodedBytes": 2848,
+        "compressedBytes": 2024,
+        "assemblyBytes": 560,
+        "tiles": 89,
+        "originalCT": {
+          "decodedBytes": 2720,
+          "compressedBytes": 2071,
+          "assemblyBytes": 560,
+          "decodedDelta": 128,
+          "compressedPlusAssemblyDelta": -47,
+          "alignedRomDelta": -48
+        },
+        "currentEarlierArt": {
+          "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+          "decodedBytes": 1856,
+          "compressedBytes": 850,
+          "assemblyBytes": 560,
+          "decodedDelta": 992,
+          "compressedPlusAssemblyDelta": 1174,
+          "alignedRomDelta": 1174
+        },
+        "nativeStreamRequired": true,
+        "extraWramBytes": 0,
+        "extraVramBytes": 0
+      },
+      "hashes": {
+        "graphics": "6cb7e8df01e844bf99a25d40bae4f1064198cf7891f6431dac8232cea34bb2dd",
+        "compressed": "ee5883a9b013c145b62fe331c18ae4da15d8b538d58cfd15e143c4dcc22f29e4",
+        "assembly": "22a22e0b805d83526757d9696f67991ff6a30def6a38cdf2b4a42097d97c5fb2"
+      }
+    },
+    {
+      "family": "bats",
+      "key": "lantern-bats",
+      "directory": "assets/imagegen/future-sewer-creatures/bats",
+      "graphicsId": 104,
+      "assemblyId": 67,
+      "animationId": 79,
+      "native": {
+        "frames": 7,
+        "cells": 4,
+        "sizeClass": 0,
+        "fullSizeByte": 64,
+        "canvas": [
+          64,
+          64
+        ],
+        "authoredSourcePoses": 7,
+        "geometry": "bats/native-frame-map.draft.json",
+        "anchor": [
+          0,
+          0
+        ],
+        "frameOffsets": [
+          [
+            0,
+            -29
+          ],
+          [
+            2,
+            -28
+          ],
+          [
+            2,
+            -26
+          ],
+          [
+            3,
+            -27
+          ],
+          [
+            2,
+            -23
+          ],
+          [
+            1,
+            -22
+          ],
+          [
+            1,
+            -22
+          ]
+        ],
+        "originalMirrors": [],
+        "translatedSourceDuplicates": []
+      },
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 82,
+          "key": "lantern-bat",
+          "palette": 80,
+          "animation": 79,
+          "header": [
+            104,
+            67,
+            80,
+            79,
+            64,
+            0,
+            216,
+            2,
+            2,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 83,
+          "key": "bog-bat",
+          "palette": 81,
+          "animation": 79,
+          "header": [
+            104,
+            67,
+            81,
+            79,
+            64,
+            0,
+            216,
+            2,
+            2,
+            18
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 213,
+          "key": "ember-bat",
+          "palette": 82,
+          "animation": 79,
+          "header": [
+            104,
+            67,
+            82,
+            79,
+            64,
+            0,
+            216,
+            2,
+            2,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 214,
+          "key": "frost-bat",
+          "palette": 83,
+          "animation": 79,
+          "header": [
+            104,
+            67,
+            83,
+            79,
+            64,
+            0,
+            216,
+            2,
+            2,
+            17
+          ]
+        }
+      ],
+      "palettePacketsChanged": 0,
+      "resources": {
+        "decodedBytes": 2016,
+        "compressedBytes": 1651,
+        "assemblyBytes": 280,
+        "tiles": 63,
+        "originalCT": {
+          "decodedBytes": 1952,
+          "compressedBytes": 1492,
+          "assemblyBytes": 280,
+          "decodedDelta": 64,
+          "compressedPlusAssemblyDelta": 159,
+          "alignedRomDelta": 160
+        },
+        "currentEarlierArt": {
+          "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+          "decodedBytes": 1440,
+          "compressedBytes": 738,
+          "assemblyBytes": 280,
+          "decodedDelta": 576,
+          "compressedPlusAssemblyDelta": 913,
+          "alignedRomDelta": 914
+        },
+        "nativeStreamRequired": true,
+        "extraWramBytes": 0,
+        "extraVramBytes": 0
+      },
+      "hashes": {
+        "graphics": "a3cb1d6fb5428d14f93ba69ee55dd5551ea5ad44d11f4947bb5b27778594a3ee",
+        "compressed": "bc5f9a3afc86d4ebc5d86b862e67ae59c4900583a83e5781d661e25117e4efb5",
+        "assembly": "38924ecb5cdf3940c6af0ba12035789698f5df470463722dcbfbd351ba57698d"
+      }
+    }
+  ],
+  "visualReview": {
+    "self": "All 21 native slots reviewed at 1× and enlarged in all six palettes; all six exact native framebuffer atlases and original sewer battle captures reviewed.",
+    "root": "Approved both native and enlarged models, including directional pod bites and the raised-claw/dark-face bat sequence.",
+    "lead": "Approved complete two-ramp Pod and four-ramp Bat native atlases and enlarged bat actions; rear/front/profile bites, translated recoil, lantern body, wing angles and raised claws remain distinct."
+  },
+  "combinedResources": {
+    "decodedBytes": 4864,
+    "compressedBytes": 3675,
+    "assemblyBytes": 840,
+    "rawStreamBytes": 4864,
+    "originalCTCompressedPlusAssemblyDelta": 112,
+    "originalCTAlignedDelta": 112,
+    "currentEarlierArtCompressedPlusAssemblyDelta": 2087,
+    "currentEarlierArtAlignedDelta": 2088
+  },
+  "proof": {
+    "manifest": "native-display-proof.json",
+    "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+    "candidateSha256": "a7da90b56794cab5e5034f1598662bc6db42817384a5b7237b9879a70eeffd72",
+    "nativeUploads": 56,
+    "exactDisplayedCells": 224,
+    "exactDisplayedOpaquePixels": 17268,
+    "originalFrameAndDurationListsUnchanged": true,
+    "currentPalettePacketsUnchanged": true,
+    "nativeHelpersUnchanged": true,
+    "batFullSizeByte64Preserved": true,
+    "isolatedHeapBytes": 960,
+    "motionManifest": "motion-review.json",
+    "nativeTimingManifest": "native-timing-proof.json",
+    "nativeActionOwnerCases": 38,
+    "nativeCycles": 76,
+    "exactNativeVideoTicks": 3628,
+    "nativeSceneManifest": "native-scene-proof.json",
+    "originalSewerRoute": [
+      236,
+      237,
+      236,
+      498
+    ],
+    "nativeBattles": 4,
+    "nativeDamageResults": 17,
+    "actualFieldHeapBytes": 10592
+  },
+  "sceneBudget": {
+    "manifest": "scene-budget-audit.json",
+    "originalLocations": 17,
+    "largestLocation": 314,
+    "largestLegacyUnionBytes": 22144,
+    "largestStreamedUnionBytes": 20128,
+    "minimumStreamedSpareBytes": 12640,
+    "limit": 32768,
+    "scope": "Conservative union of all original event load branches using emitted e136 headers/resources. Baseline raw streams are excluded only when selected by that immutable cartridge; candidate additionally selects gfx110/104. The newer private Usher stream is not assumed. No full scene residency/choreography claim."
+  },
+  "integration": [
+    "Import the complete native mappings under sewer-pods and lantern-bats with their explicit directories. Preserve all original 14/7 slots, including mirrors and translated duplicate pods.",
+    "Apply exact native cell origins, anchor and frameOffsets. Keep four cells, graphics/assembly/animation IDs and the full bat size byte 64.",
+    "Keep all six current palette packets, headers, AI, statistics and event/animation programs unchanged.",
+    "Select gfx 110 and 104 using the established per-family native ROM streaming contract, validating every emitted owner. Preserve the original decoded-size rejection for all unselected banks.",
+    "Use the production allocator for compressed graphics, native assembly and raw streams. Private absolute addresses are proof-only.",
+    "Root owns active integration, candidate reproduction, broader routes and independent-core checks."
+  ],
+  "limitations": [
+    "Original bottom and horizontal center are preserved; individual pod silhouettes differ by at most two pixels per dimension and bat wingspan can be six pixels wider, with height differences at most two pixels. Exact per-slot geometry is retained.",
+    "Pod 11/12 and 9/13 intentionally reuse identical source pixels at different native offsets; mirrored attack pairs are whole-source transformations matching original roles.",
+    "Both decoded banks exceed their original budget and require explicit gfx 110/104 native streaming. No generic budget bypass is authorized.",
+    "Native timing proof executes original action lists in isolation; only the Sewer Pod / Lantern Bat chapter route establishes encounter order and victory. Other variants have bounded display/timing proof and conservative scene audits.",
+    "No independent-core validation or noisy lower-sewer branch replay is included; production integration owns those broader checks.",
+    "Scene memory bounds use immutable e136 resources and actual stream selections; newer private actor replacements are not assumed."
+  ],
+  "reproduce": [
+    "node assets/imagegen/future-sewer-creatures/prepare-draft.mjs",
+    "node assets/imagegen/future-sewer-creatures/review-draft.mjs",
+    "node assets/imagegen/future-sewer-creatures/freeze-draft.mjs"
+  ],
+  "proofReproduce": [
+    "node assets/imagegen/future-sewer-creatures/verify-native.mjs",
+    "node assets/imagegen/future-sewer-creatures/verify-motion.mjs",
+    "node assets/imagegen/future-sewer-creatures/verify-timed-animation.mjs",
+    "node assets/imagegen/future-sewer-creatures/verify-sewer-scene.mjs"
+  ],
+  "compilerDependencies": [
+    {
+      "file": "scripts/import-raster-art.mjs",
+      "bytes": 10773,
+      "sha256": "932f6a4558afc571610f2ae10790b7623e0524fa8b541eb3dc03a596172db1f1"
+    },
+    {
+      "file": "engine/native-sprites.js",
+      "bytes": 8636,
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "file": "engine/compression.js",
+      "bytes": 4100,
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "file": "engine/sprites.js",
+      "bytes": 8935,
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "file": "content/future-wildlife.js",
+      "bytes": 11279,
+      "sha256": "90bd6cbc4391ddc32bcc251f09fd5357b4fce0648cc25ede4b5e3dd809fef196"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 2116,
+      "sha256": "64a6a819820c608b0efc612e049a872b68b3159ec6d3cc95ae13261893a980b5"
+    }
+  ],
+  "freeze": "freeze.json"
+}

@@ -1,0 +1,521 @@
+{
+  "status": "Frozen inactive",
+  "activation": false,
+  "baseline": {
+    "path": "assets/imagegen/townswomen-gfx36/private/baseline.sfc",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "sha256": "0758f532bcbf0322997553f1e11b40463e15ab463a54555e4a624b4cd4bacd3f",
+    "bytes": 8388608
+  },
+  "privateRomSha256": "eabf983889993b502a41c6eb1332766064fe881523ab44167a36110cddc88471",
+  "graphicsSha256": "90a405b479ab42b8162ad6d4b001c6509ddab8c81ee6c3020bb331fc7db63548",
+  "compressedSha256": "4894b30829e2edb7f49bbd979671262cbc8e5c74ecc94b118dd4225e0636de8a",
+  "assemblySha256": "bb4f1116313a0c24973657d8bf71497bd55abccaac21d802a39b8a68b413f91b",
+  "nativeProof": {
+    "nativeFrameUploads": 63,
+    "opaquePixelChecks": 23271
+  },
+  "motionProof": {
+    "listExecutions": 20,
+    "nativeTimedTicks": 4800
+  },
+  "passingSceneScenarios": [
+    "choras-seated-pair",
+    "family-seated",
+    "family-recovered",
+    "workshop-startled",
+    "parade-row6"
+  ],
+  "paradeRow6Accepted": true,
+  "entireParadeAccepted": false,
+  "whitelistPaths": 97,
+  "whitelistSha256": "ec5fa145b410c999a203eda0e5b5c62af412aeab99078a021b39357ac087fbc9",
+  "hashedFiles": 95,
+  "totalHashedBytes": 11626871,
+  "files": [
+    {
+      "path": "assets/imagegen/townswomen-gfx36/README.md",
+      "bytes": 7213,
+      "sha256": "9ea0057aa208bc353870b8a98ca3a31863ca6853dac8b197fc5ca4cd335e8f7c"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/actions-source-v1.png",
+      "bytes": 1053364,
+      "sha256": "cb04a4bbedec3667d5781e6f6f4d53a6804cebe2dd3d0a11a12553fe92ccb3a1"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/audit-native.mjs",
+      "bytes": 8945,
+      "sha256": "22afdb31353a3e0352a658167d9f2fd21bdb1b6a54f5ff880196fb39c85eb0aa"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/base-face-apron-v2.png",
+      "bytes": 1749623,
+      "sha256": "77afcf283d599980a664e824122c97cd32e35138f962ba43e25b1a0aee3f87da"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/base-source-v1.png",
+      "bytes": 1732392,
+      "sha256": "f67371261ab558c594f7f3c837c30a9352d1aa94d62ddcca68039460d615a49a"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/baseline.json",
+      "bytes": 214,
+      "sha256": "049ab666de4e3fa45d80e9e58a1d06f26a849a1d12df4129d0d0a07ae1fc9cbe"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/build-candidate-review.mjs",
+      "bytes": 9374,
+      "sha256": "01704cdc6a8e177dfab0b12a24cbb79e9a15fc6e52020d174c86d62b4ea65403"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/build-proposal.mjs",
+      "bytes": 11193,
+      "sha256": "a1c5a9f96897487aa8a3469fa255bac642a88c018fc925721d3cf7a81602a1f2"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/build-review.mjs",
+      "bytes": 5402,
+      "sha256": "222c92cb88a1b10a7f5e13dce8fedf2c88fd11a098476049bf799479a0284afd"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/compile-draft.mjs",
+      "bytes": 4733,
+      "sha256": "5052c896041cbe46fc4ce4aa77f9fbe55b047fb96b9f30e8258a147628f94aa2"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/compiled/asm25.bin",
+      "bytes": 840,
+      "sha256": "bb4f1116313a0c24973657d8bf71497bd55abccaac21d802a39b8a68b413f91b"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/compiled/gfx36.4bpp",
+      "bytes": 4608,
+      "sha256": "90a405b479ab42b8162ad6d4b001c6509ddab8c81ee6c3020bb331fc7db63548"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/compiled/gfx36.ct-lz",
+      "bytes": 3100,
+      "sha256": "4894b30829e2edb7f49bbd979671262cbc8e5c74ecc94b118dd4225e0636de8a"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/compiled/palette131.bin",
+      "bytes": 24,
+      "sha256": "01eeff3a32c84a33d814957ecdeba1773b9b30d1ecb496db1a72bf375130d1de"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/compiled/palette8.bin",
+      "bytes": 24,
+      "sha256": "2dcc43cbf93ba9ad66ab49166cb664336cff58dded59eb9c9e54666292d120f2"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/compiled/palette9.bin",
+      "bytes": 24,
+      "sha256": "191c34f2807d3f072839d0b0e92d41cb5522a2005d5a24887053671793fc7641"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/compiled/verification.json",
+      "bytes": 6854,
+      "sha256": "6d547ba9d955091954e492cfd0b78e6bd2db12d3197b378ecc26a3b94c4ca0ff"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/decode-events.py",
+      "bytes": 5716,
+      "sha256": "d6e6ff45e37a4d03e573bf9d9fc2a5c220a6a1847296a7597f3c0a23823b9018"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/draft/import-spec.draft.json",
+      "bytes": 4539,
+      "sha256": "b2e9bf405ff25b406387c21b00dedadd2bb07d1cfb926abff72eaa0bbbe7a090"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/draft/preview-import.json",
+      "bytes": 10795,
+      "sha256": "c59c2ecaefac467c734d726a915afd88aecda52791cfebe3affb225b367cedb7"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/draft/preview-raster.json",
+      "bytes": 47663,
+      "sha256": "57c901547d58aa674b3cdc2083ab6499c21fb01667a93b719283c24b9a6e744a"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/event-audit.json",
+      "bytes": 221050,
+      "sha256": "e4083a013a399a2e0309919d1cd888c955ab6a67e66144b69cc204109e58c8ec"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/family.draft.json",
+      "bytes": 6776,
+      "sha256": "de55331b4d56ad719134ca06f1e270134d3461d34257185a19e9c7d4989a2fd2"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/freeze-package.mjs",
+      "bytes": 12924,
+      "sha256": "d05983e3ad2e34b15f85e6ae43a698cab3b7780b395018ed47d7054adbdc8eab"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/front-face-source-v3.png",
+      "bytes": 757134,
+      "sha256": "862039d971d4dc8b7f682a26a24abefc105ab2f30cea8f6f34702a90cf4c4347"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/front-face-source-v4.png",
+      "bytes": 755964,
+      "sha256": "6e6540738718d2e9d8f7a981b5fa21185fd9ea3f8d9ef0a93eb9c33539630ced"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/front-idle-reference.json",
+      "bytes": 397,
+      "sha256": "3ee27148e83be30f557fbf0eed0ce3b5748f1d506c955056a39daceae178370b"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/front-idle-reference.png",
+      "bytes": 71165,
+      "sha256": "e2ce39c0b15d3cc73273da84c1ca47bf445200a2170f36142d8909598041349d"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/front-passing-reference.json",
+      "bytes": 389,
+      "sha256": "0e723dd7119ec9d4faca092ec6ea95e492920c8b7b2e98e2d56892f073e8a54f"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/front-passing-reference.png",
+      "bytes": 271963,
+      "sha256": "1087d4dc1647d11d5b4e0f36e5d7ea83aaceed215ce3cbf8bec5c43de2df8134"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/front-passing-source-v2.png",
+      "bytes": 1003964,
+      "sha256": "d8e0f0c5680ee0eb44a059b7386c00e1ecc27c42a03c9842382cf64cab1bf081"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/gait-source-v3.png",
+      "bytes": 1569233,
+      "sha256": "6c52fd03173afc98293314f4e3079dc1366c2f1c951e112e4d69eeb72ba0e61b"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/generation-status.json",
+      "bytes": 75,
+      "sha256": "1512622145b09c2b21892eb246e1ffb8c87c8d0dd23c4462a538a2f4b4a7e4c0"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/geometry-proposal.json",
+      "bytes": 25023,
+      "sha256": "4fce04c0de591d16528b8931aacb1aedaf584b7801cb9192f1941837ab88bdd5"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/integration-handoff.json",
+      "bytes": 33144,
+      "sha256": "c244e32771f79108a1a5621eb2cb1b1d267826ea0fe01385a5f696fdf5039553"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/motion-verification/manifest.json",
+      "bytes": 117140,
+      "sha256": "c7c70730ceb30156ac9006342506901455e7b8a1358b78d5336fd21501a82765"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/native-audit.json",
+      "bytes": 36606,
+      "sha256": "86ec4db516b0b5eb2d6996976659cf894055cd1a51a2a9c905a9350d5a3ca6af"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/native-proof-utils.mjs",
+      "bytes": 3530,
+      "sha256": "82634f27709657e4d4405629300925ba376e71dc19d27ee73424f8f73be378d0"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/native-role-map.json",
+      "bytes": 13699,
+      "sha256": "20ecd6e22dd8706ebac1cbee9f9bf67f65a375611612926a2a999741133dacce"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/native-role-notes.json",
+      "bytes": 33240,
+      "sha256": "6787a92dba2368109e4e49f9340ba0fd14b2bd24f61304829f7068089ee1dbff"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/native-verification/manifest.json",
+      "bytes": 13000,
+      "sha256": "2eaa0632ffca3e86808486617443bf84755486bb90f23550e0d8591a303413ac"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/native-verification/npc13-1.png",
+      "bytes": 56401,
+      "sha256": "06867c7f70b2ec47ddf6005e82fab1fe62193a18c1cda595ddcf8959570319ee"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/native-verification/npc213-19.png",
+      "bytes": 56377,
+      "sha256": "c29859b3302a4b7f623b6bba1863ff0968a1b5ed87f40479677ead50b71f716e"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/native-verification/npc40-16.png",
+      "bytes": 56366,
+      "sha256": "3c3e7dcf70d1865d929d783032739d7420d05ef3c3f36a690e113311f18a97ee"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/prepare-geometry.mjs",
+      "bytes": 5115,
+      "sha256": "282bfae962e88a18a6feb3f9150d6b52e17501ce1abd8647f4ff5c085ea91376"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/prepare-import.mjs",
+      "bytes": 4217,
+      "sha256": "766c957ac038e9c5027e4b16b1a3e413f84d985274c87230851320ed8434adfd"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/private-overlay.mjs",
+      "bytes": 3737,
+      "sha256": "356977fb3859d00b4ef35fbeff0363eafe24df542d1ac6bf301b0d47381da8aa"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/prompt-actions-v1.txt",
+      "bytes": 3314,
+      "sha256": "ff094ecaf39f857c2b59cb2524b3c9c1dbd50d629c395757f58ac82ec8dac0b9"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/prompt-base-v1.txt",
+      "bytes": 4767,
+      "sha256": "370299dd9a9e06a0a1be8a24aa59104ca9f9a8bf10cd34643ed97defe6caef00"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/prompt-face-apron-v2.txt",
+      "bytes": 1519,
+      "sha256": "e4ff48f11e34ed060252d30c3837c3e9a3a5426229972e6ab76c05479400e8dd"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/prompt-front-face-v3.txt",
+      "bytes": 1563,
+      "sha256": "54f04abbc756318da4a3b1cc117ea43349097a1a0c2ef985324dbe47f968a62d"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/prompt-front-face-v4.txt",
+      "bytes": 1837,
+      "sha256": "21314a08abc5501a2b356b4490630156476414ece665d2012f895c259556a3b6"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/prompt-front-passing-v2.txt",
+      "bytes": 1688,
+      "sha256": "197aeb3d2536969ca3a793768d919428876c806ca26cf17244cd54d3ac77bf27"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/prompt-gait-v3.txt",
+      "bytes": 2632,
+      "sha256": "7cadac7364a20d2fc2b5afb844b711751e253f5afca464d7e0424687698eb005"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/proposal.json",
+      "bytes": 4101,
+      "sha256": "c932dc7685e9d25048fdf8caa0ed1e3130510c0455853ee0e4382d6c9f66ae7c"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/provenance.json",
+      "bytes": 8797,
+      "sha256": "cdf6427d2d270a204af77b2d830872d20977c2536233184d7e0b8d4914ba8cf1"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/reproduce.mjs",
+      "bytes": 295,
+      "sha256": "5bbe8272357b9dcd2bb89c691fba293f6f3286a66872929d65a965d7f5606936"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/contact-sheet-1x.png",
+      "bytes": 169275,
+      "sha256": "174fc412eed14f8528ab77bb4fe22d050f650d3457ffda58ad6494ef80d80c4c"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/contact-sheet.html",
+      "bytes": 77565,
+      "sha256": "c8b200e723fe0422d38ba6630a39a673c39e1b81a4514944760d75ab5c7957bc"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/gait-contacts.png",
+      "bytes": 42353,
+      "sha256": "5002243b98329838f24a4495e8ac4dcf2ec3f3d1dcc2331bc01792ec11b78d7c"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/geometry-review.html",
+      "bytes": 1917,
+      "sha256": "bfe17b890c80633b55ded10d8d422ed7c2d20b5524366b539c98ecf02d965b19"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/geometry-review.png",
+      "bytes": 87061,
+      "sha256": "4cdc687fd694a4aeae0f09d3bac074933259fb86ee3997ac410d47fc4a671b55"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/motion-review.html",
+      "bytes": 102346,
+      "sha256": "827483ff5bd7b3cce81ec28711806fa4e43d07e2795f700d421481ba6ccacfcd"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/native-palette131-1x.png",
+      "bytes": 13702,
+      "sha256": "e98d315ec017a3bdeed306633f7917a4bdc11fd098a66c507859fde1dd6fa852"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/native-palette131-6x.png",
+      "bytes": 23132,
+      "sha256": "1db5e48d528e7074ae56aab542cc19c0b9be68921f33d73c062ca3a360aebc55"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/native-palette8-1x.png",
+      "bytes": 14244,
+      "sha256": "e6941e3bd1ffe44164e503e0317a78d2230cb54141195842234173421ce13b17"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/native-palette8-6x.png",
+      "bytes": 23738,
+      "sha256": "0cc58ef3ccfdd22f24137a9d950202abbff6ce91f0973e49e1be2d11fb99975f"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/native-palette9-1x.png",
+      "bytes": 14090,
+      "sha256": "ee53b1ced8043fb54c05fdd0c92a269a50ff7d861440f4076d10e4af643c9648"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/native-palette9-6x.png",
+      "bytes": 23448,
+      "sha256": "ff410b27bc779378bf7ca71f2ab221ec858f1111873d4315c4bb8cb5073648c9"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/original-palette131-6x.png",
+      "bytes": 23325,
+      "sha256": "66835fe177557172bd46eaf8bb68938e609c135cb35640a21b75f541c7627341"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/original-palette8-6x.png",
+      "bytes": 23903,
+      "sha256": "a4a0de3afc829962d18f6aaa9f682b2d500bd1cfa4717ef4f278eda69c06edd1"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/original-palette9-6x.png",
+      "bytes": 23525,
+      "sha256": "9a56209e2079c89bf4de34d59c35225225ade43fefd0e9ad5af1cfaae9c8eb83"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/original-roles-1x-3x.png",
+      "bytes": 218783,
+      "sha256": "59b5199814934dc23153209b0b85c8aaa1aea5040b8739a59c5c80846f8d210b"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/role-review.html",
+      "bytes": 128312,
+      "sha256": "99ebef514899220a7bfd42fc661e1549eaf8d6193ca316228231f8fa5216f259"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/review/ui-verification.json",
+      "bytes": 1819,
+      "sha256": "3c44603468e534dd7a68b526c4bf6cc1cc337d2be5654338cdb681d51854984e"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-contexts.json",
+      "bytes": 101427,
+      "sha256": "a146c67d49abed5996a5ad916e65fe188162f610d1fe7d4f83f4967ecd737b8e"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-resource-audit.json",
+      "bytes": 36140,
+      "sha256": "efc8e7ab733ccc158341803ca7dff6dda7aa8ab68448a2c8692606834a467c62"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-verification/choras-seated-pair-settled.png",
+      "bytes": 67689,
+      "sha256": "946fc72b2c62e02bf4107fabe4ebe6419243fadea1c4a2d467a3b11bd4467dc8"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-verification/choras-seated-pair.json",
+      "bytes": 9546,
+      "sha256": "d95554d14e241ce7aef567faeb15f90219476dbe68726750845334ef8ec1824e"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-verification/family-recovered-frame-18.png",
+      "bytes": 39785,
+      "sha256": "42c2732d4fac50b205b59f4073d7599bb74acecfed4c4a24773f215d158b19f2"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-verification/family-recovered-frame-9.png",
+      "bytes": 40147,
+      "sha256": "7664fdc2d4e0eeb06dc5d49b396e82b1af532fc9b6d4433e8b39ff4a04856117"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-verification/family-recovered.json",
+      "bytes": 136985,
+      "sha256": "eb0da110376795fcd2e831ec52d7e49afb7f54f6365502d4b8303eba84ed571b"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-verification/family-seated-settled.png",
+      "bytes": 40032,
+      "sha256": "18b5aed74c9cf8eb0f3093b933dbb53780c8834abd45206827618accc1a80a8c"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-verification/family-seated.json",
+      "bytes": 7645,
+      "sha256": "6d1280a69372e0adf2d8c4f04d8324a9b7ddf61212ba15beba2e406de67ed529"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-verification/manifest.json",
+      "bytes": 6043,
+      "sha256": "c58232edefb068899fe0fb7095953e6c750ab3d957851330fa442dce3af3bbd2"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-verification/parade-row6-frame-19.png",
+      "bytes": 96921,
+      "sha256": "8536019136e6c2aae48cd7040f12bb3b67e8d82368a8ab15041cb86b8fd5959d"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-verification/parade-row6.json",
+      "bytes": 13195,
+      "sha256": "47c528b8f7b4fb1db8b9debe9ffa525e34614b082a2c9b1f0f308d6c5b080f0a"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-verification/workshop-startled-frame-16.png",
+      "bytes": 76687,
+      "sha256": "54224b339d6936771c3aefbbd506edb8295cd8b48eaec0b54a47786e5bcf8a92"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/scene-verification/workshop-startled.json",
+      "bytes": 79390,
+      "sha256": "47b12f9d1ed9b21c7d27aacd310270d4975be49ec1558bbe0717e0962a644f76"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/source-details-proof.json",
+      "bytes": 11788,
+      "sha256": "f5f90c4536056fca654e8fccd71e58d367beb452513d73fafa5d278722126206"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/verify-frozen.mjs",
+      "bytes": 2190,
+      "sha256": "5b2601d7472774b417604e6f34bab281be3102d5ebc2f776f65d50ab5906314a"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/verify-motion.mjs",
+      "bytes": 4419,
+      "sha256": "3d2eaa7a5b0be58df4478e4171df986bb6c0e2ec30a08541398eb11b3df2adac"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/verify-native.mjs",
+      "bytes": 4107,
+      "sha256": "053d001c1296a5efd9ac857c83e9a2d37fb2379a5cbf65de29ef11c5418ff69f"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/verify-scenes.mjs",
+      "bytes": 9254,
+      "sha256": "5826f1c4c69a0c9c8fa9dea7a6055af3e9f50e77fa13ed9a49dd84ffaefd7607"
+    },
+    {
+      "path": "assets/imagegen/townswomen-gfx36/verify-source-details.mjs",
+      "bytes": 5161,
+      "sha256": "3f57c1304acdd66dadc3a116857b5b81bbabfc43195cbc12dc0780632a4ceac3"
+    }
+  ],
+  "excluded": [
+    "ROMs and snapshots",
+    "private/ and private-qa/",
+    "Exploratory face/width/sampling previews and unselected comparisons",
+    "Original full event packet dumps",
+    "Old driver expectation failures (recovered branch is rear18, notfront17)",
+    "Unselected duplicate scene/native screenshots"
+  ],
+  "notes": "Frozen source/geometry/4bpp pipeline is exact. All21roles/63owner uploads and sharedAA16timing pass. Five authored scenarios remain bounded diagnostic-entry proofs. No active production, registry, canonical, title or music writes."
+}

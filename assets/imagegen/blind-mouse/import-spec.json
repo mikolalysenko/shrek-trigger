@@ -1,0 +1,153 @@
+{
+  "key": "blind-mouse",
+  "notes": {
+    "material": "Every opaque native pixel is sampled from source-base-v1.png and source-actions-v1.png; right-facing slots are whole-frame mirrors made by the cartridge sprite convention.",
+    "background": "The Images API returned real alpha for both sheets (the provenance file's transparentBackground:false is the generator script's fixed field), so no key-color mask is used; components and samples use the PNG's own alpha.",
+    "reference": "The pose guide passed as a reference is built by scripts/donkey-family-references.mjs from the stock frames this actor's event objects used. It contains original game pixels, so it is written under .local/ and only its hash is in the provenance file. The actions sheet also takes reference-base-on-key-v1.png, the base sheet flattened onto the key color.",
+    "palette": "The palette is stock NPC palette 133 exactly, the one the tradesman and the fair and parade crowds use, and it is not rewritten: its white, grey, cream, pink-orange, browns and near-black carry a white mouse, his ears, dark glasses and cane. samplingPalette lists the sheet's own cluster color for each of those entries.",
+    "roles": "Rear and front walks reuse the idle as both passing steps. The tradesman's hammer slots hold the cane raised and struck. Cell 19 (waving) has no native slot and is not compiled.",
+    "placement": "bottom 31 puts the feet on the source actor's ground line; nativeHeight 23 keeps him a small mouse beside the 31-pixel stock adults rather than filling the cell."
+  },
+  "palette": [
+    "292931",
+    "e7e7ef",
+    "ffe7ad",
+    "ff9c6b",
+    "633118",
+    "ff8c29",
+    "b54208",
+    "397b94",
+    "394263",
+    "7bad4a",
+    "525a29",
+    "73738c"
+  ],
+  "samplingPalette": [
+    "212121",
+    "e7e7e7",
+    "ffe7b5",
+    "ff9c6b",
+    "6b3010",
+    "ff8c29",
+    "9c4a18",
+    "10b0d0",
+    "394263",
+    "7bad4a",
+    "525a29",
+    "84848c"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/blind-mouse/source-base-v1.png",
+      "columns": 4,
+      "rows": 3,
+      "nativeHeight": 23,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "coverageThreshold": 0.4
+      },
+      "overrides": {}
+    },
+    {
+      "file": "assets/imagegen/blind-mouse/source-actions-v1.png",
+      "columns": 4,
+      "rows": 2,
+      "nativeHeight": 23,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "scaleCells": [
+        4,
+        5,
+        7
+      ],
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "coverageThreshold": 0.4
+      },
+      "overrides": {}
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        0
+      ],
+      "1": [
+        1
+      ],
+      "2": [
+        2
+      ]
+    },
+    "walk": {
+      "0": [
+        4,
+        0,
+        5,
+        0
+      ],
+      "1": [
+        6,
+        1,
+        7,
+        1
+      ],
+      "2": [
+        8,
+        9
+      ]
+    },
+    "surprise": {
+      "1": [
+        3
+      ]
+    },
+    "offer": {
+      "1": [
+        10
+      ]
+    },
+    "raise": {
+      "1": [
+        11
+      ]
+    },
+    "hammer": {
+      "2": [
+        12,
+        13
+      ]
+    },
+    "sip": {
+      "2": [
+        14,
+        15
+      ]
+    },
+    "drink": {
+      "2": [
+        16,
+        17
+      ]
+    },
+    "sit": {
+      "2": [
+        18
+      ]
+    },
+    "greet": {
+      "1": [
+        19
+      ]
+    }
+  }
+}

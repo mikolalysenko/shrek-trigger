@@ -1,0 +1,186 @@
+{
+  "status": "Frozen inactive source packet; lead approved all24 slots and four palettes",
+  "activation": false,
+  "key": "bone-guards",
+  "graphicsId": 108,
+  "assemblyId": 71,
+  "animationId": 85,
+  "owners": [
+    {
+      "key": "faded-guard",
+      "enemy": 43,
+      "palette": 93,
+      "header": [
+        108,
+        71,
+        93,
+        85,
+        0,
+        0,
+        240,
+        8,
+        16,
+        17
+      ]
+    },
+    {
+      "key": "moss-guard",
+      "enemy": 44,
+      "palette": 94,
+      "header": [
+        108,
+        71,
+        94,
+        85,
+        0,
+        0,
+        240,
+        8,
+        16,
+        20
+      ]
+    },
+    {
+      "key": "bone-guard",
+      "enemy": 45,
+      "palette": 92,
+      "header": [
+        108,
+        71,
+        92,
+        85,
+        0,
+        0,
+        240,
+        8,
+        12,
+        17
+      ]
+    },
+    {
+      "key": "ember-guard",
+      "enemy": 46,
+      "palette": 91,
+      "header": [
+        108,
+        71,
+        91,
+        85,
+        0,
+        0,
+        240,
+        8,
+        16,
+        17
+      ]
+    }
+  ],
+  "native": {
+    "frames": 24,
+    "cells": 4,
+    "sizeClass": 0,
+    "stagingCanvas": [
+      64,
+      64
+    ],
+    "authoredSourcePoses": 15,
+    "explicitWholeSourceMirrors": 8,
+    "originalPixelDuplicate": [
+      13,
+      14
+    ],
+    "uniqueNativeImages": 23,
+    "geometry": "native-frame-map.draft.json"
+  },
+  "palettes": {
+    "ids": [
+      91,
+      92,
+      93,
+      94
+    ],
+    "changedBytes": 0,
+    "sharedPalette": 92,
+    "unrelatedOwner": {
+      "kind": "enemy",
+      "id": 47
+    },
+    "correction": "The existing content comment says91; actual original and current header ownership is92. Preserve all four exact indexed packets."
+  },
+  "resources": {
+    "decodedBytes": 4960,
+    "compressedBytes": 4047,
+    "assemblyBytes": 960,
+    "tiles": 155,
+    "originalCT": {
+      "decodedBytes": 5504,
+      "compressedBytes": 3743,
+      "assemblyBytes": 960,
+      "decodedDelta": -544,
+      "compressedPlusAssemblyDelta": 304,
+      "alignedRomDelta": 304
+    },
+    "currentEarlierArt": {
+      "baselineSha256": "511e120ca47aa4f9c61371d4ecd264d0b1848061a649ee16b162cfe3f6bb109c",
+      "decodedBytes": 2336,
+      "compressedBytes": 1387,
+      "assemblyBytes": 960,
+      "decodedDelta": 2624,
+      "compressedPlusAssemblyDelta": 2660,
+      "alignedRomDelta": 2660
+    },
+    "rawStreamRequired": false,
+    "defaultOriginalDecodedGuard": "Passed unchanged through patchActorFamilies with ordinary compressed loading",
+    "extraWramBytes": 0,
+    "extraVramBytes": 0
+  },
+  "visualReview": {
+    "reviewer": "/root/sprite_art_pass",
+    "status": "Approved complete native sheet, all four palettes and enlarged action frames; .90 rear attack and .96 horizontal sampling accepted as the same model",
+    "selfReview": "All24 native poses at1x/3x and four native palette variants; actual native framebuffer contact sheets reviewed"
+  },
+  "proof": {
+    "nativeManifest": "native-display-proof.json",
+    "nativeCandidateSha256": "c66e4894cff758c390861887b70b6ed75780018a94aaeeb495efd9375479d15d",
+    "nativeUploads": 96,
+    "exactDisplayedCells": 384,
+    "opaquePixelChecks": 33148,
+    "motionManifest": "motion-review.json",
+    "motionLoops": 9,
+    "paletteVariants": 4,
+    "originalAnimationAndDurationBytesUnchanged": true,
+    "scope": "Bounded native field display and source motion review; not original encounter or independent-core compatibility proof"
+  },
+  "sceneBudget": {
+    "manifest": "scene-budget-audit.json",
+    "locations": 10,
+    "largestConditionalUnionBytes": 30144,
+    "largestLocation": 71,
+    "smallestSpareBytes": 2624,
+    "limit": 32768,
+    "scope": "Conservative union of all original event load branches using current emitted headers/resources. Direct-ROM banks excluded only when selected by the actual saved-cartridge table. No full scene choreography/residency claim."
+  },
+  "integration": [
+    "Import only this entire inactive source mapping when authorized; do not activate a partial pose set.",
+    "Return the indexed64x64 raster for each native slot from the native sequence. Update only this family group to width64,height64,frameCellOrigins and frameOffsets from the supplied native geometry; four native cells and24 slot IDs remain fixed.",
+    "Keep gfx108, asm71, animation85, all four enemy headers, AI/statistics/events and palette packets unchanged. Native13/14 intentionally share a source pose.",
+    "Use ordinary compressed graphics placement and the existing decoded-size guard. This bank is smaller than original and does not require a new streamed family exception.",
+    "Correct the misleading palette91 ownership comment only during root-owned integration; the audited shared palette is92."
+  ],
+  "limitations": [
+    "No complete bridge/tower/cave encounter choreography, damage/victory or independent-core run is included.",
+    "Native17 and18 are taller than the original opaque silhouettes because of the new poleaxe; they remain four-cell frames, retain the original lowest opaque pixel and center, and pass exact native display. Full original/proposed bounds are retained.",
+    "The review page preserves original gait frame order and duration values; curated action comparisons do not assert native battle transition order.",
+    "Native13 is absent from standard animation85 lists but is kept as the original duplicate of14.",
+    "The conservative scene union includes known original event load branches and actual current streaming exclusions; it is distinct from measured full-scene residency."
+  ],
+  "reproduce": [
+    "node assets/imagegen/bone-guards/prepare-draft.mjs",
+    "node assets/imagegen/bone-guards/review-draft.mjs"
+  ],
+  "proofReproduce": [
+    "node assets/imagegen/bone-guards/verify-native.mjs",
+    "node assets/imagegen/bone-guards/verify-motion.mjs"
+  ],
+  "freeze": "freeze.json"
+}

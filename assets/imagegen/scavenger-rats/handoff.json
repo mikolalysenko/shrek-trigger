@@ -1,0 +1,314 @@
+{
+  "status": "Frozen inactive generated Scavenger rat packet; source approved, native uploads/timing and actual theft/chase verified",
+  "activation": false,
+  "key": "scavenger-rats",
+  "directory": "assets/imagegen/scavenger-rats/rat",
+  "gfx": 105,
+  "asm": 68,
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 134,
+      "key": "scrap-rat",
+      "palette": 84,
+      "animation": 97,
+      "header": [
+        105,
+        68,
+        84,
+        97,
+        0,
+        0,
+        248,
+        8,
+        12,
+        17
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 135,
+      "key": "gremlin",
+      "palette": 85,
+      "animation": 97,
+      "header": [
+        105,
+        68,
+        85,
+        97,
+        0,
+        0,
+        248,
+        8,
+        12,
+        18
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 164,
+      "key": "scrap-rat-npc164",
+      "palette": 84,
+      "animation": 44,
+      "header": [
+        105,
+        68,
+        84,
+        44,
+        0
+      ]
+    }
+  ],
+  "paletteOwnership": "84 exclusively NPC164 + enemy134;85 exclusively enemy135. Current approved packets unchanged. No graphics, assembly or palette aliases.",
+  "native": {
+    "frames": 13,
+    "cells": 4,
+    "size": 0,
+    "canvas": [
+      64,
+      64
+    ],
+    "authoredSourcePoses": 8,
+    "uniqueNativeSourceImages": 13,
+    "geometry": "rat/native-frame-map.draft.json",
+    "anchor": [
+      0,
+      0
+    ],
+    "frameOffsets": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        -2,
+        5
+      ],
+      [
+        -2,
+        4
+      ],
+      [
+        -1,
+        5
+      ],
+      [
+        1,
+        -2
+      ]
+    ],
+    "sourceMirrors": [
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "originalLowestPixelExact": true,
+    "originalTotalHeightsExact": true,
+    "horizontalCenterRoundingAtMostHalfPixel": true
+  },
+  "resources": {
+    "decodedBytes": 2560,
+    "compressedBytes": 2039,
+    "assemblyBytes": 520,
+    "tiles": 80,
+    "originalCT": {
+      "decodedBytes": 2368,
+      "compressedBytes": 1795,
+      "assemblyBytes": 520,
+      "decodedDelta": 192,
+      "compressedPlusAssemblyDelta": 244,
+      "alignedRomDelta": 244
+    },
+    "earlierArt": {
+      "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+      "decodedBytes": 1984,
+      "compressedBytes": 1008,
+      "assemblyBytes": 520,
+      "decodedDelta": 576,
+      "compressedPlusAssemblyDelta": 1031,
+      "alignedRomDelta": 1032
+    },
+    "nativeStreamRequired": true,
+    "streamedRawBytes": 2560,
+    "extraWramBytes": 0,
+    "extraVramBytes": 0
+  },
+  "hashes": {
+    "graphics": "dd9b64bdfee8696efaa1dab8f3310801b16d0c9ddb3469af1e8f8ee449d37441",
+    "compressed": "18a40473bc028551f4e3d6b8dc923a324a49059b266ba7a806559b2cda0b60d8",
+    "assembly": "ef10b47655e855c0959aa1f6edd5f5cea43800d4d3e796d3539d73eb52ba9930"
+  },
+  "visualReview": {
+    "self": "All 13 slots in both fixed ramps inspected at native and enlarged size, all three actual native framebuffer atlases checked, and actual theft/chase captures inspected.",
+    "root": "Approved all13 native poses and enlarged6–11 page. Compact profile gait and palette variants look consistent; raised-step width change accepted with preserved original vertical anchors.",
+    "lead": "Approved complete native sheet and enlarged6–11 page. Ears, muzzle, coat and tail remain clear in both ramps; raised passing pose reads as a compact gait beat. Actual timing proof remains separate."
+  },
+  "proof": {
+    "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+    "candidateSha256": "eaa494d1fb0770ce064b4fa6dbd97e6c56ba1e6abb1f3e2520ee3e5698626e54",
+    "nativeManifest": "native-display-proof.json",
+    "uploads": 39,
+    "cells": 156,
+    "opaquePixels": 13434,
+    "npc164NativeInitCount": 1,
+    "motionManifest": "motion-review.json",
+    "timingManifest": "native-timing-proof.json",
+    "nativeActionCases": 55,
+    "nativeCycles": 110,
+    "exactVideoTicks": 2122,
+    "completeVramAndOamExactEveryIsolatedTick": true,
+    "isolatedObservedDisplayDelay": 0,
+    "sceneManifest": "native-scene-proof.json",
+    "theftBranches": 6,
+    "preContactExactUploadSamples": [
+      439,
+      331,
+      331,
+      331,
+      331,
+      331
+    ],
+    "passwordChaseFlag": 97,
+    "actualFieldHeapBytes": {
+      "91": 15264,
+      "164": 5568,
+      "212": 10368,
+      "221": 1248
+    },
+    "actualPatrolMotion": {
+      "file": "native-patrol.apng",
+      "sha256": "60a7e99ee061c3869a4ab11fdfa35e8c77799070ac8601d5e5774ec746b7c53a",
+      "videoTicks": 96,
+      "framesPerSecond": 60,
+      "firstVideoFrame": 9257,
+      "lastVideoFrame": 9352
+    }
+  },
+  "sceneBudget": {
+    "manifest": "scene-budget-audit.json",
+    "originalLocations": [
+      91,
+      164,
+      212,
+      215,
+      217,
+      221,
+      237
+    ],
+    "maximumLegacyUnion": 17824,
+    "maximumStreamedUnion": 15264,
+    "minimumSpare": 17504,
+    "limit": 32768,
+    "scope": "Conservative union of all original event load branches using emitted e136 headers/resources. Baseline raw streams are excluded only when selected by that immutable cartridge; candidate additionally selects gfx105. No newer private replacements or stream exclusions are assumed. No full scene residency/choreography claim."
+  },
+  "integration": [
+    "Import rat/import-spec.draft.json under key scavenger-rats, retaining its explicit directory and13-slot nativeMap.",
+    "Use rat/native-frame-map.draft.json cellOrigins, anchor and frameOffsets with64×64 source canvas and four cells. Native width/height metadata and full size0 remain compatible through authored geometry; no added cells.",
+    "Retain original NPC164 header [105,68,84,44,0] and enemy134/135 headers, stats, AI, events, IDs, native animation44/97 pointers and full frame/duration tables. Preserve current palette84/85 exactly.",
+    "Select gfx105 explicitly through the established per-family native size0 streaming contract and check all three emitted owners. Preserve original decoded-size rejection for unselected banks.",
+    "Use the production allocator for compressed graphics, assembly and raw stream. All private absolute addresses are evidence only; root owns active code/registry and final placement."
+  ],
+  "limitations": [
+    "Passing profiles7/10 are24px wide instead of32px because of their source-authored upright body and curled tail. Other widths differ by at most2px. Every original total silhouette height and lowest opaque Y is exact; horizontal center rounding is at most0.5px.",
+    "Original baked dark ground-shadow pixels are not copied. The exact bottom anchor denotes the original full silhouette, not a separately identified anatomical foot joint.",
+    "Eight authored source poses produce13 unique native images through five original exact horizontal-mirror pairs. No native slot is collapsed or omitted. Nearest sampling uses per-pose uniform scale calibration; no nonuniform scaling, pixel painting, clipping or procedural anatomy.",
+    "Decoded2560 exceeds original2368 by192bytes. Explicit gfx105 streaming is required, checking NPC164 and both emitted enemies. Default decoded guard remains strict for unselected banks.",
+    "Program44 is shared with enemies16/17 and contains unused lists addressing13–25. Those original bytes remain untouched and those lists are not exercised for this13-slot bank. Program97 is also shared with unrelated enemies129/131.",
+    "All six theft approaches through contact have exact requested/source VRAM frames. Post-retreat raw field-cache snapshots can be stale/reused and are diagnostic only; they do not establish visible timing. Isolated55-case timing proof establishes exact native scheduler/VRAM/OAM for the selected valid lists.",
+    "Location91 initializes its rat hidden; location164 initializes ten Gremlin owners with one initially displayed. These checks prove loading/palette/program/heap only, not full story or Gremlin battle victory.",
+    "Independent-core validation, final production placement, remaining original scenes215/217/237 and broader campaign residency are root integration checks. Scene bounds use saved e136 resources and no prospective replacements."
+  ],
+  "reproduce": [
+    "node assets/imagegen/scavenger-rats/prepare-draft.mjs",
+    "node assets/imagegen/scavenger-rats/review-draft.mjs",
+    "node assets/imagegen/scavenger-rats/freeze-draft.mjs"
+  ],
+  "proofReproduce": [
+    "node assets/imagegen/scavenger-rats/verify-native.mjs",
+    "node assets/imagegen/scavenger-rats/verify-motion.mjs",
+    "node assets/imagegen/scavenger-rats/verify-timed-animation.mjs",
+    "node assets/imagegen/scavenger-rats/verify-rat-scenes.mjs"
+  ],
+  "compilerDependencies": [
+    {
+      "file": "scripts/import-raster-art.mjs",
+      "bytes": 10773,
+      "sha256": "932f6a4558afc571610f2ae10790b7623e0524fa8b541eb3dc03a596172db1f1"
+    },
+    {
+      "file": "engine/native-sprites.js",
+      "bytes": 8636,
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "file": "engine/compression.js",
+      "bytes": 4100,
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "file": "engine/sprites.js",
+      "bytes": 8935,
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "file": "content/future-wildlife.js",
+      "bytes": 11157,
+      "sha256": "c1ad2f1d09c3fa7fcff901a4aa5d661dfbba3d83ac0fe24bdc86b9dcc70d2f9d"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 2116,
+      "sha256": "64a6a819820c608b0efc612e049a872b68b3159ec6d3cc95ae13261893a980b5"
+    }
+  ],
+  "freeze": "freeze.json"
+}

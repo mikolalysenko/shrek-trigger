@@ -1,0 +1,22 @@
+import {readFile,writeFile,mkdir,rm} from 'node:fs/promises';
+import {validateRom,makeIps as makeFixedIps} from '../engine/rom.js';
+import {makeIps} from '../engine/ips.js';
+import {makeBps} from '../engine/bps.js';
+import {buildPatch} from '../engine/patch.js';
+const root=new URL('../',import.meta.url);
+const base=await validateRom(await readFile(new URL('.local/chrono-trigger-usa.sfc',root)));
+const techs=JSON.parse(await readFile(new URL('content/techs.json',root)));
+const layouts=JSON.parse(await readFile(new URL('content/event-layouts.json',root)));
+const cartridge=process.argv.find(a=>a.startsWith('--cartridge='))?.split('=')[1]??'auto';
+const result=buildPatch(base,{techs,layouts,cartridge});
+const expanded=result.rom.length>base.length,version=JSON.parse(await readFile(new URL('package.json',root))).version,name=`shrek-trigger-${version}`;
+// BPS is the primary patch; IPS is for tools and sites that only take IPS.
+const bps=expanded?makeBps(base,result.rom):null,ips=expanded?makeIps(base,result.rom):makeFixedIps(base,result.rom);
+await mkdir(new URL('dist/',root),{recursive:true});
+await writeFile(new URL('.local/shrek-trigger.sfc',root),result.rom);
+if(bps)await writeFile(new URL(`dist/${name}.bps`,root),bps);
+await writeFile(new URL(`dist/${name}.ips`,root),ips);
+result.audit.patch={format:bps?'BPS':'IPS',file:`${name}.${bps?'bps':'ips'}`,bytes:(bps??ips).length,ips:{file:`${name}.ips`,bytes:ips.length}};
+await writeFile(new URL('dist/manifest.json',root),JSON.stringify(result.audit,null,2)+'\n');
+await writeFile(new URL('dist/patch-records.json',root),JSON.stringify(result.records.map(({offset,bytes,label})=>({offset,length:bytes.length,label})),null,2)+'\n');
+console.log(`Built ${result.rom.length/1048576} MiB ${expanded?'ExHiROM':'HiROM'}: ${result.audit.techs} tech names, ${result.audit.items} items, ${result.audit.dialogues} dialogues, seven native sprite sets.\nPatches: dist/${name}.${bps?'bps and .ips':'ips'}\nPrivate cartridge: .local/shrek-trigger.sfc`);

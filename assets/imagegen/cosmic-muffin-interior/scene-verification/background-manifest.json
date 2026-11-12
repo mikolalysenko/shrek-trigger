@@ -1,0 +1,170 @@
+{
+  "activePath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateSha256": "a9302e4da4c465b1ebe32ca4df0f66dc35eb41a2553eea85b925529cb433f44d",
+  "placements": [
+    {
+      "label": "Oven body BG181",
+      "offset": 8192000,
+      "bytes": 3421,
+      "ids": [
+        181
+      ]
+    },
+    {
+      "label": "Oven body BG182",
+      "offset": 8195424,
+      "bytes": 3037,
+      "ids": [
+        182
+      ]
+    },
+    {
+      "label": "Exclusive oven pulse region in shared BG22",
+      "offset": 8198464,
+      "bytes": 3581,
+      "ids": [
+        22
+      ]
+    },
+    {
+      "label": "Oven body metatiles",
+      "offset": 8202048,
+      "bytes": 2821,
+      "ids": [
+        46
+      ]
+    },
+    {
+      "label": "Shared oven arm source",
+      "offset": 8204880,
+      "bytes": 12128,
+      "ids": [
+        208,
+        209
+      ]
+    },
+    {
+      "label": "Oven arm assembly201",
+      "offset": 8217008,
+      "bytes": 1440,
+      "ids": [
+        201
+      ]
+    },
+    {
+      "label": "Oven arm assembly202",
+      "offset": 8218448,
+      "bytes": 1440,
+      "ids": [
+        202
+      ]
+    }
+  ],
+  "placeholderAndSharedOwnersUnchanged": [
+    9,
+    10,
+    203,
+    241
+  ],
+  "headersAiProgramsUnchanged": true,
+  "paletteChanges": [
+    {
+      "id": 226,
+      "words": [
+        4196,
+        27615,
+        17182,
+        11996,
+        10809,
+        6482,
+        4299,
+        3209,
+        4230,
+        6254,
+        2083,
+        4572
+      ],
+      "exclusiveOwners": [
+        203,
+        204,
+        205
+      ]
+    },
+    {
+      "group": 56,
+      "slot": 7,
+      "words": [
+        4196,
+        27615,
+        17182,
+        11996,
+        10809,
+        6482,
+        4299,
+        3209,
+        4230,
+        6254,
+        2083,
+        4572,
+        8409,
+        14045,
+        5558
+      ],
+      "exclusiveLocation": 475
+    }
+  ],
+  "mapCollisionAndSceneryUnchanged": true,
+  "streamingUsed": false,
+  "status": "Native background source/VRAM/color/attachment proof passed",
+  "checkpoint": "private/battle-ready.json",
+  "exactBackgroundBanks": [
+    181,
+    182
+  ],
+  "pulseStates": [
+    {
+      "part": 0,
+      "phase": 1
+    },
+    {
+      "part": 1,
+      "phase": 1
+    },
+    {
+      "part": 2,
+      "phase": 1
+    }
+  ],
+  "background182Proof": "Static tiles exact outside32..43; all12 animated destination tiles match the selected generated native source phases",
+  "bodyScreenOffset": [
+    0,
+    -9
+  ],
+  "bodyExactPixels": 9143,
+  "bodyOccludedByArms": 705,
+  "bodyOutsideViewport": 248,
+  "sourceTotalOpaque": 10096,
+  "armAttachments": [
+    {
+      "enemy": 204,
+      "frame": 11,
+      "origin": [
+        178,
+        93
+      ]
+    },
+    {
+      "enemy": 205,
+      "frame": 11,
+      "origin": [
+        78,
+        93
+      ]
+    }
+  ],
+  "bodyPalette56Slot7Exact": true,
+  "sceneryGraphicsUnchanged": true,
+  "metatile0Unchanged": true,
+  "mapAndCollisionUnchanged": true
+}

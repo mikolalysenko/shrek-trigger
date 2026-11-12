@@ -1,0 +1,43 @@
+{
+  "tool": "OpenAI Images API",
+  "sourceType": "image-generation",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.6-sunburst",
+  "parameters": {
+    "model": "gpt-image-2.6-sunburst",
+    "size": "1024x1024",
+    "quality": "high",
+    "output_format": "png",
+    "n": 1
+  },
+  "requestId": "req_ecb379b37e944f549a4e1b7821fa292d",
+  "savedFile": "assets/imagegen/sky-drakes/source-world-v2.png",
+  "sha256": "cb222c1848cf83be9b52c6d109150bba5af23a35250931b717c7e1d49dfe1633",
+  "created": "2026-11-07T18:05:53.000Z",
+  "prompt": {
+    "file": "assets/imagegen/sky-drakes/prompt-world-v2.txt",
+    "sha256": "007373c74c98bc1314352ec8aae2b543625b008ba7d2509de210bcc3fec8a23b"
+  },
+  "referenceImages": [
+    {
+      "file": "assets/imagegen/sky-drakes/reference-world-current-v1.png",
+      "sha256": "6eb2401a37cd80119f607e5f2bc0643ecaf6c1cae94c3324bcfe3dc1bfef3f07"
+    }
+  ],
+  "revisedPrompt": null,
+  "usage": {
+    "input_tokens": 1475,
+    "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 451
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    },
+    "total_tokens": 3231
+  },
+  "transparentBackground": false,
+  "postGenerationEditing": "None. Source PNG saved unchanged from the API response; background masking, native extraction and palette indexing are recorded by the importer."
+}

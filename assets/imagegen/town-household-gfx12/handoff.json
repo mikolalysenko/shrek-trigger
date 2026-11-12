@@ -1,0 +1,341 @@
+{
+  "status": "Frozen inactive source and verification packet; root-approved static model; native scene proof recorded separately",
+  "key": "duloc-household-resident",
+  "baselineSha256": "0758f532bcbf0322997553f1e11b40463e15ab463a54555e4a624b4cd4bacd3f",
+  "privateSha256": "d07c661ca3168cf654c05b6005c8064d9fd33e16f97b494529c0b97789957b35",
+  "source": {
+    "tool": "built-in image_gen__imagegen",
+    "generatedPNGs": 3,
+    "authoredSourcePoses": 9,
+    "derivedHairFragments": 1,
+    "selectedCells": {
+      "source-base-v1.png": [
+        1,
+        2,
+        4,
+        5,
+        13
+      ],
+      "source-face-v2.png": [
+        0,
+        8,
+        9
+      ],
+      "source-left-contact-b-v3.png": [
+        0
+      ]
+    },
+    "sampling": "AREA with unchanged hardware palette135,30px reference height; full-source scale corrections30/31 for rear contacts/passing and29/30 for original profileA,29px reference for profileB. No horizontal distortion. The palette131 variant reuses exact indices.",
+    "mirrors": "Whole-source mirrors preserve native-proven front/back/right pairs. Mirrors are not additional authored source poses.",
+    "fragment": "Pointwise top-six-opaque-row crop of the sampled generated left profile; mirrored for18. The original8px cell stencil contains only6 opaque hair rows, and that6px native height is retained. Slot16 is fully blank.",
+    "anatomyPaintedInCode": false,
+    "limitations": [
+      "The long gown partly conceals upper-leg ownership in profile. Actual opposing near-hand source poses provide a visible contact distinction.",
+      "Source PNGs are rich raster illustrations; only the sampled indexed assets claim native12-color compliance.",
+      "Not all figures in the base or face atlas are used. Repeated lead-leg base candidates6/10 are explicitly excluded."
+    ]
+  },
+  "native": {
+    "slots": 19,
+    "blankSlots": [
+      16
+    ],
+    "hairFragmentSlots": [
+      17,
+      18
+    ],
+    "owners": [
+      21,
+      48
+    ],
+    "palettes": [
+      135,
+      131
+    ],
+    "rawBytes": 3584,
+    "compressedBytes": 2883,
+    "assemblyBytes": 760,
+    "graphicsSha256": "b497f3ed368b9c24e3e78801fa7be930da72f9062e8eac872ddef399bf0da22c",
+    "compressedSha256": "b0ef2ccaaa8398f5f0778188509404cc9a46a4c6495ade3dfdb11c924327e3a4",
+    "assemblySha256": "7d72c346c78418fb9abdbfc7b6bf52692541d7ff047b94be14476ddb77e05ace",
+    "originalSignedXYBytesPreserved": 152,
+    "extraCells": 0,
+    "overlapFrames": [],
+    "exactUploads": 38,
+    "exactNonblankCellCoordinates": 144,
+    "exactOpaquePixels": 10308,
+    "animationCases": 32,
+    "animationTicks": 2496,
+    "displayDelay": 0
+  },
+  "sharedSentinels": {
+    "npcIds": [
+      22,
+      14,
+      40
+    ],
+    "uploads": 60,
+    "opaquePixels": 19522,
+    "animationCases": 8,
+    "animationTicks": 960,
+    "scope": "Pinned0758 sentinel sources, not claims about later published art. NPC22 shares asm7/AA7; NPC14 shares AA7 and palette135; NPC40 shares palette131.",
+    "allUnrelatedHeadersAndSharedResourcesByteExact": true
+  },
+  "sceneEvidence": [
+    {
+      "name": "inn-present",
+      "location": 12,
+      "setup": {
+        "id": 12,
+        "x": 54,
+        "y": 25,
+        "facing": 3
+      },
+      "result": {
+        "location": 12,
+        "sourceFrames": [
+          3,
+          2,
+          6
+        ],
+        "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+      },
+      "nativeTicks": 861,
+      "heapMax": 7616,
+      "dialogueIds": [
+        85
+      ],
+      "objPaletteRows": [
+        2
+      ],
+      "manifest": "assets/imagegen/town-household-gfx12/scene-verification/inn-present.json"
+    },
+    {
+      "name": "household",
+      "location": 58,
+      "setup": {
+        "id": 58,
+        "x": 40,
+        "y": 58,
+        "facing": 0
+      },
+      "result": {
+        "location": 58,
+        "sourceFrames": [
+          4,
+          11,
+          3
+        ],
+        "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+      },
+      "nativeTicks": 1025,
+      "heapMax": 5184,
+      "dialogueIds": [
+        41
+      ],
+      "objPaletteRows": [
+        3
+      ],
+      "manifest": "assets/imagegen/town-household-gfx12/scene-verification/household.json"
+    },
+    {
+      "name": "court-present",
+      "location": 22,
+      "setup": {
+        "id": 22,
+        "x": 20,
+        "y": 48,
+        "facing": 0
+      },
+      "result": {
+        "location": 22,
+        "sourceFrames": [
+          0
+        ],
+        "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+      },
+      "nativeTicks": 877,
+      "heapMax": 1248,
+      "dialogueIds": [
+        119
+      ],
+      "objPaletteRows": [
+        0
+      ],
+      "manifest": "assets/imagegen/town-household-gfx12/scene-verification/court-present.json"
+    },
+    {
+      "name": "court-middle",
+      "location": 121,
+      "setup": {
+        "id": 121,
+        "x": 24,
+        "y": 47,
+        "facing": 0
+      },
+      "result": {
+        "location": 121,
+        "sourceFrames": [
+          0
+        ],
+        "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+      },
+      "nativeTicks": 980,
+      "heapMax": 3968,
+      "dialogueIds": [
+        84
+      ],
+      "objPaletteRows": [
+        0
+      ],
+      "manifest": "assets/imagegen/town-household-gfx12/scene-verification/court-middle.json"
+    },
+    {
+      "name": "bram-flashback",
+      "location": 206,
+      "setup": {
+        "id": 206,
+        "x": 32,
+        "y": 30,
+        "facing": 0
+      },
+      "result": {
+        "location": 206,
+        "sourceFrames": [
+          1
+        ],
+        "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+      },
+      "nativeTicks": 1948,
+      "heapMax": 3072,
+      "dialogueIds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "objPaletteRows": [
+        0
+      ],
+      "manifest": "assets/imagegen/town-household-gfx12/scene-verification/bram-flashback.json"
+    },
+    {
+      "name": "hostile-throne",
+      "location": 169,
+      "setup": {
+        "name": "Fortress · Briar Knight and guards",
+        "id": 169,
+        "x": 8,
+        "y": 44,
+        "facing": 0,
+        "fortressScene": "fortress-knight"
+      },
+      "result": {
+        "location": 169,
+        "sourceFrames": [
+          0
+        ],
+        "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+      },
+      "nativeTicks": 909,
+      "heapMax": 13120,
+      "dialogueIds": [
+        9
+      ],
+      "objPaletteRows": [
+        2
+      ],
+      "manifest": "assets/imagegen/town-household-gfx12/scene-verification/hostile-throne.json"
+    },
+    {
+      "name": "hostile-corridor",
+      "location": 469,
+      "setup": {
+        "id": 469,
+        "x": 19,
+        "y": 12,
+        "facing": 0
+      },
+      "result": {
+        "location": 469,
+        "sourceFrames": [
+          0
+        ],
+        "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+      },
+      "nativeTicks": 909,
+      "heapMax": 22208,
+      "dialogueIds": [
+        10
+      ],
+      "objPaletteRows": [
+        2
+      ],
+      "manifest": "assets/imagegen/town-household-gfx12/scene-verification/hostile-corridor.json"
+    }
+  ],
+  "sceneCoverage": {
+    "auditedPrograms": [
+      12,
+      13,
+      22,
+      58,
+      62,
+      116,
+      117,
+      121,
+      122,
+      123,
+      124,
+      138,
+      139,
+      155,
+      169,
+      188,
+      189,
+      206,
+      469
+    ],
+    "auditedLoadStatements": 21,
+    "observedLocations": [
+      12,
+      22,
+      58,
+      121,
+      169,
+      206,
+      469
+    ],
+    "untraversedPrograms": [
+      13,
+      62,
+      116,
+      117,
+      122,
+      123,
+      124,
+      138,
+      139,
+      155,
+      188,
+      189
+    ],
+    "sceneTicks": 7509,
+    "limitations": [
+      "Every run uses diagnostic location/checkpoint entry, followed by original initialization and ordinary controller input. Natural campaign approaches are not claimed.",
+      "Six ordinary/hostile dialogue interactions execute their original messages. No paid inn stay, complete hostile battle, or ending is claimed.",
+      "Bram flashback206 shows both source actors and original dialogue0–4. This is a bounded excerpt, not the complete return route.",
+      "Original counter, party and dialogue-window occlusion remains unchanged. Manifests distinguish complete isolated pixel proofs from visible scene pixels.",
+      "All19 event packets remain byte-identical. Static all-branch bank unions are not simultaneous heap measurements.",
+      "Current-cartridge allocation, independent-core validation and campaign regression remain root integration work."
+    ]
+  },
+  "staticApproval": {
+    "root": "Accepted full role sheet and gait contacts; cream collar/copper braid/gown distinguish gfx12 from kerchief/apron36.",
+    "lead": "Reviewed every native pose in both palettes and the original timed gait ordering."
+  },
+  "proposal": "assets/imagegen/town-household-gfx12/integration-proposal.json",
+  "reproduction": "assets/imagegen/town-household-gfx12/reproduction.json",
+  "activeFilesChanged": false
+}

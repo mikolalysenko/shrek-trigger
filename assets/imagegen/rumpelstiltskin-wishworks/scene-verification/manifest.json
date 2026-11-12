@@ -1,0 +1,136 @@
+{
+  "status": "Four authored encounter continuations passed",
+  "baseline": {
+    "path": ".local/qa/rumpelstiltskin-wishworks/baseline.sfc",
+    "sha256": "f33843436880bf0b7988308e2d684065c8ef6c715641cfc0d3038232f1f8ca15",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "scope": "Fixed private copy; never rewritten by candidate generation"
+  },
+  "privateRomSha256": "b8640dd2f77cd6109cfa366ddbe973a95f8e9135fe33a6f2b9cf74d0af8a3c40",
+  "nativeTicks": 31995,
+  "heapMax": 4416,
+  "scenarios": [
+    {
+      "name": "night-throne",
+      "location": 334,
+      "originalEnemyOwners": [
+        161
+      ],
+      "nativeTicks": 7603,
+      "returnLocation": 334,
+      "returnStory": 189,
+      "returnD2": 0,
+      "survivingParty": [
+        {
+          "id": 0,
+          "hp": 177
+        },
+        {
+          "id": 1,
+          "hp": 62
+        },
+        {
+          "id": 2,
+          "hp": 194
+        }
+      ],
+      "heapMax": 1248,
+      "report": "night-throne.json",
+      "battleImage": "night-throne-battle.png",
+      "returnImage": "night-throne-return.png"
+    },
+    {
+      "name": "golem-twins",
+      "location": 414,
+      "originalEnemyOwners": [
+        149,
+        149
+      ],
+      "nativeTicks": 12565,
+      "returnLocation": 414,
+      "returnStory": 201,
+      "returnD2": 0,
+      "survivingParty": [
+        {
+          "id": 0,
+          "hp": 861
+        },
+        {
+          "id": 1,
+          "hp": 866
+        },
+        {
+          "id": 2,
+          "hp": 852
+        }
+      ],
+      "heapMax": 1248,
+      "report": "golem-twins.json",
+      "battleImage": "golem-twins-battle.png",
+      "returnImage": "golem-twins-return.png"
+    },
+    {
+      "name": "blackbird-wing",
+      "location": 363,
+      "originalEnemyOwners": [
+        243
+      ],
+      "nativeTicks": 5540,
+      "returnLocation": 271,
+      "returnStory": 207,
+      "returnD2": 1,
+      "survivingParty": [
+        {
+          "id": 1,
+          "hp": 999
+        },
+        {
+          "id": 2,
+          "hp": 999
+        },
+        {
+          "id": 3,
+          "hp": 999
+        }
+      ],
+      "heapMax": 4416,
+      "report": "blackbird-wing.json",
+      "battleImage": "blackbird-wing-battle.png",
+      "returnImage": "blackbird-wing-return.png"
+    },
+    {
+      "name": "dragon-deck",
+      "location": 377,
+      "originalEnemyOwners": [
+        162
+      ],
+      "nativeTicks": 6287,
+      "returnLocation": 363,
+      "returnStory": 207,
+      "returnD2": 8,
+      "survivingParty": [
+        {
+          "id": 1,
+          "hp": 485
+        },
+        {
+          "id": 2,
+          "hp": 452
+        },
+        {
+          "id": 3,
+          "hp": 500
+        }
+      ],
+      "heapMax": 4416,
+      "report": "dragon-deck.json",
+      "battleImage": "dragon-deck-battle.png",
+      "returnImage": "dragon-deck-return.png"
+    }
+  ],
+  "scope": "Four original encounter scripts, formations and AI run through native controller/AI outcomes and authored continuation. Initial diagnostic checkpoint flags/endgame party are explicit. Not a connected whole-chapter route; all remaining shared story uses have static ownership/event invariance audit only.",
+  "nativeBattleDispatchFetches": "Repeated D8 fetches are logged, not counted as separate encounters.",
+  "allThreePalettesUnchanged": true,
+  "statsAiHeadersAnimationsUnchanged": true,
+  "activation": false
+}

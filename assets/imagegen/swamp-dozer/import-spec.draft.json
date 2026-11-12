@@ -1,0 +1,180 @@
+{
+  "key": "swamp-dozer",
+  "directory": "assets/imagegen/swamp-dozer",
+  "sourceType": "image-generation",
+  "width": 32,
+  "height": 32,
+  "palette": [
+    "252c27",
+    "394c36",
+    "59754b",
+    "88a368",
+    "c3cf91",
+    "253f37",
+    "456951",
+    "7da072",
+    "554436",
+    "8d6b43",
+    "c5a065",
+    "f6e9b9"
+  ],
+  "samplingPalette": [
+    "292619",
+    "3d4621",
+    "63722d",
+    "8e9b3f",
+    "c5ce8c",
+    "1c3026",
+    "48613a",
+    "8daa6c",
+    "4d341f",
+    "927049",
+    "c79a65",
+    "fbeacc"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/swamp-dozer/source-walk-v1.png",
+      "columns": 3,
+      "rows": 4,
+      "cells": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "scaleCells": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "componentAlpha": 128,
+      "nativeHeight": 29,
+      "sample": {
+        "method": "area",
+        "bottom": 30
+      }
+    },
+    {
+      "file": "assets/imagegen/swamp-dozer/source-corrections-v2.png",
+      "columns": 2,
+      "rows": 2,
+      "cells": [
+        1,
+        2,
+        3
+      ],
+      "scaleCells": [
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "nativeHeight": 29,
+      "sample": {
+        "method": "area",
+        "bottom": 30
+      }
+    },
+    {
+      "file": "assets/imagegen/swamp-dozer/source-actions-v1.png",
+      "columns": 3,
+      "rows": 4,
+      "cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "scaleCells": [
+        1,
+        8,
+        10
+      ],
+      "componentAlpha": 128,
+      "nativeHeight": 29,
+      "sample": {
+        "method": "area",
+        "bottom": 30
+      }
+    },
+    {
+      "file": "assets/imagegen/swamp-dozer/source-tuck-toeoff-v3.png",
+      "columns": 2,
+      "rows": 2,
+      "cells": [
+        0,
+        2
+      ],
+      "scaleCells": [
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "nativeHeight": 29,
+      "sample": {
+        "method": "area",
+        "bottom": 30
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        8,
+        2,
+        3,
+        7,
+        4,
+        5,
+        18,
+        {
+          "frame": 4,
+          "flip": true
+        },
+        {
+          "frame": 5,
+          "flip": true
+        },
+        {
+          "frame": 18,
+          "flip": true
+        },
+        9,
+        10,
+        11,
+        12,
+        13,
+        17,
+        14,
+        6,
+        {
+          "frame": 15,
+          "flip": true
+        },
+        16,
+        15,
+        {
+          "frame": 16,
+          "flip": true
+        }
+      ]
+    }
+  },
+  "notes": {
+    "status": "Frozen inactive source raster draft pending root approval, explicit scene-budget contract and native upload",
+    "sourceRoles": "assets/imagegen/swamp-dozer/source-roles.draft.json",
+    "palette": "Hardware palette unchanged; reference-color remap only separates generated moss/clay materials during quantization.",
+    "sourceMirroring": "Right gait and lunge use exact whole-source horizontal mirrors of the accepted left poses. Left brace mirrors a true right brace. This preserves coherent anatomy and native directional roles while enabling exact native tile sharing; these are documented adaptations, not five independently generated drawings.",
+    "nativeContract": "24 original frame IDs and four16×16 cells, native animation93 and all original group frameOffsets retained. No runtime memory expansion is requested.",
+    "remaining": "Supporting-batch scene415 currently exceeds32KiB in the conditional native runtime audit. Root integration must solve this before activating all pending actors together."
+  }
+}

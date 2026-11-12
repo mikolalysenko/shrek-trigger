@@ -1,0 +1,116 @@
+{
+  "status": "Frozen inactive source packet; root owns activation",
+  "activation": false,
+  "baselineSha256": "fdb8865eda88fcf8e9aea35de50c688b38a131da48ca73e5c72d42c36b66f2a6",
+  "privateCandidateSha256": "26b57a045e8b5f1af1db32d91c1212079629d8ad44c21899d9da4cb1fafa6f08",
+  "identity": "Giant Fairy Godmother head and two blue-cuffed hands; accepted story Godmother untouched",
+  "groups": [
+    {
+      "key": "face",
+      "gfx": 161,
+      "asm": 153,
+      "size": 130,
+      "cells": 12,
+      "frames": 2,
+      "graphicsBytes": 2112,
+      "compressedBytes": 1413,
+      "assemblyBytes": 240,
+      "graphicsSha256": "8c0e9c93f39474b4646f245e14a63211dea45e12e528a886821a09990203e0a6",
+      "compressedSha256": "b1cffa026369cd15381058552c48a07780ad598d2ae9f1d8567ae5d57a491059",
+      "assemblySha256": "ccce83b3832cbf46754df35845bacbd7b5dce1474c36d0d0a677c663f9c4a4d2",
+      "paletteSha256": "eb9d2e3b62b370015f8de9742e2e855b1f85109b3e8c4b54bb815ed5bd932626",
+      "originalGraphicsBytes": 1248,
+      "originalCompressedBytes": 989,
+      "requiresStream": true
+    },
+    {
+      "key": "hands",
+      "gfx": 162,
+      "asm": 154,
+      "size": 1,
+      "cells": 8,
+      "frames": 20,
+      "graphicsBytes": 4416,
+      "compressedBytes": 2908,
+      "assemblyBytes": 1600,
+      "graphicsSha256": "31e085c92f4b7833e93d14306596c00b500fd4b7d408022168463258fa48cc5d",
+      "compressedSha256": "792fc3b7625e006910dd7ea13e16f49073ca4a71825d133e4323c2205c9a08cc",
+      "assemblySha256": "c92d88163c2e9d485eae32b817665af6d6bb75e95b07209c1876054600104869",
+      "paletteSha256": "eb9d2e3b62b370015f8de9742e2e855b1f85109b3e8c4b54bb815ed5bd932626",
+      "originalGraphicsBytes": 4992,
+      "originalCompressedBytes": 3527,
+      "requiresStream": false
+    }
+  ],
+  "ownership": {
+    "176": {
+      "gfx": 161,
+      "asm": 153,
+      "palette": 205,
+      "animation": 177,
+      "fullSize": 130,
+      "frames": 2,
+      "cells": 12
+    },
+    "177": {
+      "gfx": 162,
+      "asm": 154,
+      "palette": 206,
+      "animation": 179,
+      "fullSize": 1,
+      "frames": 20,
+      "cells": 8
+    },
+    "178": {
+      "gfx": 162,
+      "asm": 154,
+      "palette": 206,
+      "animation": 178,
+      "fullSize": 1,
+      "frames": 20,
+      "cells": 8
+    }
+  },
+  "integration": {
+    "compressed": "Allocate ordinary compressed packets using root allocator; private proof used owned extended lower-half storage. Standard graphics table remains correct for both banks.",
+    "assemblies": "Preserve native frame counts/strides and source extents240/1600; install the authored geometry arrays, not rectangular or original offsets.",
+    "palettes": "Write exactly24bytes to each exclusive palette205/206 using the accepted Godmother ramp; palette88 and every unrelated palette remain unchanged.",
+    "stream": "Explicit gfx161 selection with all emitted owner checks; full size130 retains high bit. Keep gfx162 ordinary loading. No active default guard weakening.",
+    "retain": "All headers, AI, stats, rewards, names (hands blank), AA177/178/179 frame/duration/pointer bytes, NPC150 effects, scene scripts, background resources, original object positions and priorities."
+  },
+  "cost": {
+    "rawBytes": 6528,
+    "compressedBytes": 4321,
+    "assemblyBytes": 1840,
+    "opaquePaletteBytes": 48,
+    "totalCompressedAndAssemblyDeltaFromOriginal": -195,
+    "totalCompressedAndAssemblyDeltaFromPinnedBaseline": -195,
+    "headRawStreamBytes": 2112,
+    "scene107HeapBytes": 4544
+  },
+  "proof": {
+    "uploads": 42,
+    "cells": 344,
+    "displayedPixels": 29489,
+    "timingCases": 92,
+    "timingCycles": 184,
+    "timingTicks": 3520,
+    "steadyRequestDisplayDelay": 0,
+    "compoundPixels": 3415,
+    "originalVictory": true
+  },
+  "limitations": [
+    "Scenes102–106 share the audited resources/conditional actor loads but were not replayed as full routes.",
+    "Hand3,6,7,8,9,13,16,17,18,19 are exact static-native coverage only; no consumer was observed in AA178/179 or this original fight. No invented timing is supplied.",
+    "No independent emulator-core claim or later Cosmic Muffin encounter claim. Root must rerun its production/independent acceptance against final emitted ROM placement."
+  ],
+  "sourceReproduction": "node assets/imagegen/godmother-giant/prepare-draft.mjs && node assets/imagegen/godmother-giant/audit-layout.mjs",
+  "privateProofReproduction": [
+    "build-private.mjs",
+    "verify-native.mjs",
+    "verify-timing.mjs",
+    "verify-scene.mjs reveal",
+    "verify-scene.mjs combat"
+  ],
+  "noActiveOrCanonicalWrites": true
+}

@@ -1,0 +1,2874 @@
+{
+  "status": "Inactive native source/ownership audit before image generation",
+  "originalRom": {
+    "path": ".local/chrono-trigger-usa.sfc",
+    "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+  },
+  "baseline": {
+    "path": "assets/imagegen/sir-sludge/private-baseline.sfc",
+    "sha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "commit": "a8d9f5d",
+    "scope": "Fixed private baseline; excluded from source freeze and never canonical output"
+  },
+  "design": {
+    "identity": "Existing original fairy-tale sewer toll trolls: dented crowns, iron armor and drain maces",
+    "source": "docs/future-wildlife.md",
+    "scope": "Refine established counterparts; no mechanics or casting change"
+  },
+  "family": {
+    "key": "sewer-trolls",
+    "name": "Sewer toll trolls",
+    "gfx": 82,
+    "groups": [
+      {
+        "asm": 37,
+        "size": 1,
+        "frames": 27,
+        "width": 32,
+        "height": 64,
+        "art": "sewer-troll",
+        "frameOffsets": {
+          "1": [
+            0,
+            1
+          ],
+          "4": [
+            0,
+            1
+          ],
+          "7": [
+            0,
+            1
+          ],
+          "10": [
+            0,
+            1
+          ],
+          "12": [
+            2,
+            0
+          ],
+          "16": [
+            -3,
+            0
+          ],
+          "19": [
+            -2,
+            0
+          ],
+          "22": [
+            -6,
+            0
+          ],
+          "23": [
+            -4,
+            0
+          ],
+          "25": [
+            6,
+            0
+          ],
+          "26": [
+            4,
+            0
+          ]
+        }
+      }
+    ],
+    "actors": [
+      {
+        "key": "sir-sludge",
+        "name": "Sir Sludge",
+        "short": "Sir Sludge",
+        "enemy": 4,
+        "asm": 37,
+        "palette": 21,
+        "animation": 29,
+        "colors": [
+          "252b2c",
+          "354b3e",
+          "5e7d54",
+          "91a86d",
+          "c5ce94",
+          "343c49",
+          "606e7a",
+          "9aa7ab",
+          "4f3831",
+          "926349",
+          "d5ab60",
+          "f5e5b9"
+        ]
+      },
+      {
+        "key": "bog-baron",
+        "name": "Bog Baron",
+        "short": "Bog Baron",
+        "enemy": 238,
+        "asm": 37,
+        "palette": 22,
+        "animation": 29,
+        "colors": [
+          "282a38",
+          "3e455e",
+          "63748d",
+          "98b2b8",
+          "cddcc2",
+          "3b3549",
+          "75677c",
+          "b1a0aa",
+          "52343d",
+          "976475",
+          "d8b96a",
+          "f9edca"
+        ]
+      }
+    ]
+  },
+  "actors": [
+    {
+      "key": "sir-sludge",
+      "name": "Sir Sludge",
+      "short": "Sir Sludge",
+      "enemy": 4,
+      "asm": 37,
+      "palette": 21,
+      "animation": 29,
+      "colors": [
+        "252b2c",
+        "354b3e",
+        "5e7d54",
+        "91a86d",
+        "c5ce94",
+        "343c49",
+        "606e7a",
+        "9aa7ab",
+        "4f3831",
+        "926349",
+        "d5ab60",
+        "f5e5b9"
+      ],
+      "size": 1
+    },
+    {
+      "key": "bog-baron",
+      "name": "Bog Baron",
+      "short": "Bog Baron",
+      "enemy": 238,
+      "asm": 37,
+      "palette": 22,
+      "animation": 29,
+      "colors": [
+        "282a38",
+        "3e455e",
+        "63748d",
+        "98b2b8",
+        "cddcc2",
+        "3b3549",
+        "75677c",
+        "b1a0aa",
+        "52343d",
+        "976475",
+        "d8b96a",
+        "f9edca"
+      ],
+      "size": 1
+    }
+  ],
+  "resources": [
+    {
+      "field": 0,
+      "id": 82,
+      "pointer": 14682664,
+      "pointerAliases": [
+        82
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 4,
+          "header": [
+            82,
+            37,
+            21,
+            29,
+            1,
+            0,
+            240,
+            12,
+            20,
+            65
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 238,
+          "header": [
+            82,
+            37,
+            22,
+            29,
+            1,
+            0,
+            240,
+            8,
+            12,
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "id": 37,
+      "pointer": 14575712,
+      "pointerAliases": [
+        37
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 4,
+          "header": [
+            82,
+            37,
+            21,
+            29,
+            1,
+            0,
+            240,
+            12,
+            20,
+            65
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 238,
+          "header": [
+            82,
+            37,
+            22,
+            29,
+            1,
+            0,
+            240,
+            8,
+            12,
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "field": 2,
+      "id": 21,
+      "pointer": 504,
+      "pointerAliases": [
+        21
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 4,
+          "header": [
+            82,
+            37,
+            21,
+            29,
+            1,
+            0,
+            240,
+            12,
+            20,
+            65
+          ]
+        }
+      ]
+    },
+    {
+      "field": 2,
+      "id": 22,
+      "pointer": 528,
+      "pointerAliases": [
+        22
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 238,
+          "header": [
+            82,
+            37,
+            22,
+            29,
+            1,
+            0,
+            240,
+            8,
+            12,
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "field": 3,
+      "id": 29,
+      "pointer": 22400,
+      "pointerAliases": [
+        29
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 4,
+          "header": [
+            82,
+            37,
+            21,
+            29,
+            1,
+            0,
+            240,
+            12,
+            20,
+            65
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 238,
+          "header": [
+            82,
+            37,
+            22,
+            29,
+            1,
+            0,
+            240,
+            8,
+            12,
+            33
+          ]
+        }
+      ]
+    }
+  ],
+  "palettes": [
+    {
+      "id": 21,
+      "colors": [
+        "252b2c",
+        "354b3e",
+        "5e7d54",
+        "91a86d",
+        "c5ce94",
+        "343c49",
+        "606e7a",
+        "9aa7ab",
+        "4f3831",
+        "926349",
+        "d5ab60",
+        "f5e5b9"
+      ],
+      "offset": 2359800,
+      "bytes": [
+        164,
+        20,
+        38,
+        29,
+        235,
+        41,
+        178,
+        54,
+        56,
+        75,
+        230,
+        36,
+        172,
+        61,
+        147,
+        86,
+        233,
+        24,
+        146,
+        37,
+        186,
+        50,
+        158,
+        95
+      ],
+      "sha256": "9155f84ddb102dd322f20a2028919c45a8b94ecc4a04f0f5f5f69a8536e3f1bd",
+      "unchangedFromOriginal": false
+    },
+    {
+      "id": 22,
+      "colors": [
+        "282a38",
+        "3e455e",
+        "63748d",
+        "98b2b8",
+        "cddcc2",
+        "3b3549",
+        "75677c",
+        "b1a0aa",
+        "52343d",
+        "976475",
+        "d8b96a",
+        "f9edca"
+      ],
+      "offset": 2359824,
+      "bytes": [
+        165,
+        28,
+        7,
+        45,
+        204,
+        69,
+        211,
+        94,
+        121,
+        99,
+        199,
+        36,
+        142,
+        61,
+        150,
+        86,
+        202,
+        28,
+        146,
+        57,
+        251,
+        54,
+        191,
+        103
+      ],
+      "sha256": "29fac62b6e579ec69b1e4a7298f7729b981bca2c4729a2f23d114b5f0090a010",
+      "unchangedFromOriginal": false
+    }
+  ],
+  "graphics": {
+    "original": {
+      "pointer": 14184067,
+      "offset": 1601155,
+      "rawBytes": 9472,
+      "compressedBytes": 7504,
+      "rawSha256": "4102e93f699b01a5610bf57e110e2c8c510a582113d4063af57caf913de0d09b",
+      "compressedSha256": "9613ae443d20e02947dc9cb67a2a00852ff47d10916d08cc85df927c165c9bdc"
+    },
+    "current": {
+      "pointer": 14682664,
+      "offset": 2099752,
+      "rawBytes": 5632,
+      "compressedBytes": 2662,
+      "rawSha256": "25dbe62c627c1c24d611ac4604101b6d68a843d8efd0d581b2930f976042621c",
+      "compressedSha256": "9ad51746e71d2882fe4eac17c227180a8ab919623ce2fc12696d3119bfe6ef50"
+    }
+  },
+  "assembly": {
+    "id": 37,
+    "bytes": 2160,
+    "originalSha256": "5c00b00cf289700455e6e5ec052a8fd75f221eee89525444d3dd13ae367301c8",
+    "currentSha256": "6bfde63c365d0f45a14ecb17b734ea41dc24b75d9ac483ae2b57d2d69881312d"
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "cellOrigins": [
+        [
+          -1,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          -1,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -32,
+          -28
+        ],
+        [
+          -1,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ],
+        [
+          -32,
+          -12
+        ]
+      ],
+      "bounds": [
+        -16,
+        -35,
+        31,
+        39
+      ],
+      "sourceOpaquePixels": 900
+    },
+    {
+      "frame": 1,
+      "cellOrigins": [
+        [
+          0,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          8,
+          -28
+        ],
+        [
+          -8,
+          -28
+        ],
+        [
+          -24,
+          -28
+        ],
+        [
+          27,
+          21
+        ],
+        [
+          -1,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ]
+      ],
+      "bounds": [
+        -23,
+        -36,
+        45,
+        37
+      ],
+      "sourceOpaquePixels": 936
+    },
+    {
+      "frame": 2,
+      "cellOrigins": [
+        [
+          0,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          -1,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -32,
+          -28
+        ],
+        [
+          15,
+          -28
+        ],
+        [
+          -1,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ]
+      ],
+      "bounds": [
+        -19,
+        -34,
+        37,
+        34
+      ],
+      "sourceOpaquePixels": 854
+    },
+    {
+      "frame": 3,
+      "cellOrigins": [
+        [
+          0,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          8,
+          -28
+        ],
+        [
+          -8,
+          -28
+        ],
+        [
+          -24,
+          -28
+        ],
+        [
+          21,
+          27
+        ],
+        [
+          -1,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ]
+      ],
+      "bounds": [
+        -18,
+        -40,
+        35,
+        44
+      ],
+      "sourceOpaquePixels": 882
+    },
+    {
+      "frame": 4,
+      "cellOrigins": [
+        [
+          0,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          -1,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -32,
+          -28
+        ],
+        [
+          -1,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ],
+        [
+          15,
+          -28
+        ]
+      ],
+      "bounds": [
+        -23,
+        -38,
+        45,
+        41
+      ],
+      "sourceOpaquePixels": 968
+    },
+    {
+      "frame": 5,
+      "cellOrigins": [
+        [
+          0,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          -1,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -32,
+          -28
+        ],
+        [
+          15,
+          -28
+        ],
+        [
+          -1,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ]
+      ],
+      "bounds": [
+        -20,
+        -38,
+        39,
+        42
+      ],
+      "sourceOpaquePixels": 844
+    },
+    {
+      "frame": 6,
+      "cellOrigins": [
+        [
+          3,
+          -44
+        ],
+        [
+          -29,
+          -44
+        ],
+        [
+          3,
+          -28
+        ],
+        [
+          -13,
+          -28
+        ],
+        [
+          -29,
+          -28
+        ],
+        [
+          3,
+          -12
+        ],
+        [
+          -13,
+          -12
+        ],
+        [
+          -29,
+          -12
+        ]
+      ],
+      "bounds": [
+        -28,
+        -34,
+        46,
+        37
+      ],
+      "sourceOpaquePixels": 1026
+    },
+    {
+      "frame": 7,
+      "cellOrigins": [
+        [
+          0,
+          -44
+        ],
+        [
+          -24,
+          -44
+        ],
+        [
+          0,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -32,
+          -28
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ],
+        [
+          -32,
+          -12
+        ]
+      ],
+      "bounds": [
+        -24,
+        -36,
+        40,
+        39
+      ],
+      "sourceOpaquePixels": 994
+    },
+    {
+      "frame": 8,
+      "cellOrigins": [
+        [
+          1,
+          -44
+        ],
+        [
+          -31,
+          -44
+        ],
+        [
+          1,
+          -28
+        ],
+        [
+          -15,
+          -28
+        ],
+        [
+          -31,
+          -28
+        ],
+        [
+          1,
+          -12
+        ],
+        [
+          -15,
+          -12
+        ],
+        [
+          -31,
+          -12
+        ]
+      ],
+      "bounds": [
+        -30,
+        -32,
+        47,
+        35
+      ],
+      "sourceOpaquePixels": 1009
+    },
+    {
+      "frame": 9,
+      "cellOrigins": [
+        [
+          13,
+          -44
+        ],
+        [
+          -19,
+          -44
+        ],
+        [
+          13,
+          -28
+        ],
+        [
+          -3,
+          -28
+        ],
+        [
+          -19,
+          -28
+        ],
+        [
+          13,
+          -12
+        ],
+        [
+          -3,
+          -12
+        ],
+        [
+          -19,
+          -12
+        ]
+      ],
+      "bounds": [
+        -18,
+        -34,
+        46,
+        37
+      ],
+      "sourceOpaquePixels": 1026
+    },
+    {
+      "frame": 10,
+      "cellOrigins": [
+        [
+          8,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          16,
+          -28
+        ],
+        [
+          0,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          16,
+          -12
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ]
+      ],
+      "bounds": [
+        -16,
+        -36,
+        40,
+        39
+      ],
+      "sourceOpaquePixels": 994
+    },
+    {
+      "frame": 11,
+      "cellOrigins": [
+        [
+          15,
+          -44
+        ],
+        [
+          -17,
+          -44
+        ],
+        [
+          15,
+          -28
+        ],
+        [
+          -1,
+          -28
+        ],
+        [
+          -17,
+          -28
+        ],
+        [
+          15,
+          -12
+        ],
+        [
+          -1,
+          -12
+        ],
+        [
+          -17,
+          -12
+        ]
+      ],
+      "bounds": [
+        -17,
+        -32,
+        47,
+        35
+      ],
+      "sourceOpaquePixels": 1009
+    },
+    {
+      "frame": 12,
+      "cellOrigins": [
+        [
+          30,
+          23
+        ],
+        [
+          -12,
+          -68
+        ],
+        [
+          8,
+          -32
+        ],
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          8,
+          -16
+        ],
+        [
+          -8,
+          -16
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "bounds": [
+        -24,
+        -32,
+        48,
+        32
+      ],
+      "sourceOpaquePixels": 1187
+    },
+    {
+      "frame": 13,
+      "cellOrigins": [
+        [
+          -1,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          -1,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -32,
+          -28
+        ],
+        [
+          -1,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ],
+        [
+          -32,
+          -12
+        ]
+      ],
+      "bounds": [
+        -16,
+        -36,
+        31,
+        39
+      ],
+      "sourceOpaquePixels": 834
+    },
+    {
+      "frame": 14,
+      "cellOrigins": [
+        [
+          -1,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          -1,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -16,
+          -60
+        ],
+        [
+          -1,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ],
+        [
+          -1,
+          -60
+        ]
+      ],
+      "bounds": [
+        -16,
+        -51,
+        31,
+        54
+      ],
+      "sourceOpaquePixels": 1078
+    },
+    {
+      "frame": 15,
+      "cellOrigins": [
+        [
+          7,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -16,
+          -40
+        ],
+        [
+          -1,
+          -24
+        ],
+        [
+          -16,
+          -24
+        ],
+        [
+          0,
+          -40
+        ],
+        [
+          -1,
+          -8
+        ],
+        [
+          -16,
+          -8
+        ]
+      ],
+      "bounds": [
+        -24,
+        -32,
+        47,
+        37
+      ],
+      "sourceOpaquePixels": 1022
+    },
+    {
+      "frame": 16,
+      "cellOrigins": [
+        [
+          -1,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          -1,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          31,
+          8
+        ],
+        [
+          -1,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          30,
+          32
+        ]
+      ],
+      "bounds": [
+        -15,
+        -40,
+        29,
+        36
+      ],
+      "sourceOpaquePixels": 762
+    },
+    {
+      "frame": 17,
+      "cellOrigins": [
+        [
+          -1,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          -1,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          29,
+          8
+        ],
+        [
+          -1,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          32,
+          36
+        ]
+      ],
+      "bounds": [
+        -15,
+        -47,
+        29,
+        43
+      ],
+      "sourceOpaquePixels": 884
+    },
+    {
+      "frame": 18,
+      "cellOrigins": [
+        [
+          -1,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          -1,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          -24,
+          -48
+        ],
+        [
+          -1,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          7,
+          -48
+        ]
+      ],
+      "bounds": [
+        -21,
+        -42,
+        41,
+        41
+      ],
+      "sourceOpaquePixels": 954
+    },
+    {
+      "frame": 19,
+      "cellOrigins": [
+        [
+          0,
+          -40
+        ],
+        [
+          -16,
+          -40
+        ],
+        [
+          -1,
+          -24
+        ],
+        [
+          -16,
+          -24
+        ],
+        [
+          33,
+          13
+        ],
+        [
+          -1,
+          -8
+        ],
+        [
+          -16,
+          -8
+        ],
+        [
+          33,
+          34
+        ]
+      ],
+      "bounds": [
+        -15,
+        -34,
+        29,
+        42
+      ],
+      "sourceOpaquePixels": 740
+    },
+    {
+      "frame": 20,
+      "cellOrigins": [
+        [
+          0,
+          -40
+        ],
+        [
+          -16,
+          -40
+        ],
+        [
+          -1,
+          -24
+        ],
+        [
+          -16,
+          -24
+        ],
+        [
+          32,
+          46
+        ],
+        [
+          -1,
+          -8
+        ],
+        [
+          -16,
+          -8
+        ],
+        [
+          25,
+          25
+        ]
+      ],
+      "bounds": [
+        -16,
+        -34,
+        31,
+        42
+      ],
+      "sourceOpaquePixels": 764
+    },
+    {
+      "frame": 21,
+      "cellOrigins": [
+        [
+          -3,
+          -41
+        ],
+        [
+          -19,
+          -41
+        ],
+        [
+          -3,
+          -25
+        ],
+        [
+          -19,
+          -25
+        ],
+        [
+          -35,
+          -41
+        ],
+        [
+          -3,
+          -9
+        ],
+        [
+          -19,
+          -9
+        ],
+        [
+          -35,
+          -25
+        ]
+      ],
+      "bounds": [
+        -27,
+        -35,
+        40,
+        39
+      ],
+      "sourceOpaquePixels": 924
+    },
+    {
+      "frame": 22,
+      "cellOrigins": [
+        [
+          -14,
+          -41
+        ],
+        [
+          -30,
+          -41
+        ],
+        [
+          -14,
+          -25
+        ],
+        [
+          -30,
+          -25
+        ],
+        [
+          -46,
+          -41
+        ],
+        [
+          -14,
+          -9
+        ],
+        [
+          -30,
+          -9
+        ],
+        [
+          -46,
+          -25
+        ]
+      ],
+      "bounds": [
+        -43,
+        -37,
+        45,
+        42
+      ],
+      "sourceOpaquePixels": 1084
+    },
+    {
+      "frame": 23,
+      "cellOrigins": [
+        [
+          -14,
+          -41
+        ],
+        [
+          -30,
+          -41
+        ],
+        [
+          -14,
+          -25
+        ],
+        [
+          -30,
+          -25
+        ],
+        [
+          -46,
+          -41
+        ],
+        [
+          -14,
+          -9
+        ],
+        [
+          -30,
+          -9
+        ],
+        [
+          -46,
+          -25
+        ]
+      ],
+      "bounds": [
+        -45,
+        -39,
+        47,
+        44
+      ],
+      "sourceOpaquePixels": 1132
+    },
+    {
+      "frame": 24,
+      "cellOrigins": [
+        [
+          3,
+          -41
+        ],
+        [
+          -13,
+          -41
+        ],
+        [
+          19,
+          -41
+        ],
+        [
+          3,
+          -25
+        ],
+        [
+          -13,
+          -25
+        ],
+        [
+          19,
+          -25
+        ],
+        [
+          3,
+          -9
+        ],
+        [
+          -13,
+          -9
+        ]
+      ],
+      "bounds": [
+        -13,
+        -35,
+        40,
+        39
+      ],
+      "sourceOpaquePixels": 924
+    },
+    {
+      "frame": 25,
+      "cellOrigins": [
+        [
+          14,
+          -41
+        ],
+        [
+          -2,
+          -41
+        ],
+        [
+          30,
+          -41
+        ],
+        [
+          14,
+          -25
+        ],
+        [
+          -2,
+          -25
+        ],
+        [
+          30,
+          -25
+        ],
+        [
+          14,
+          -9
+        ],
+        [
+          -2,
+          -9
+        ]
+      ],
+      "bounds": [
+        -2,
+        -37,
+        45,
+        42
+      ],
+      "sourceOpaquePixels": 1084
+    },
+    {
+      "frame": 26,
+      "cellOrigins": [
+        [
+          14,
+          -41
+        ],
+        [
+          -2,
+          -41
+        ],
+        [
+          30,
+          -41
+        ],
+        [
+          14,
+          -25
+        ],
+        [
+          -2,
+          -25
+        ],
+        [
+          30,
+          -25
+        ],
+        [
+          14,
+          -9
+        ],
+        [
+          -2,
+          -9
+        ]
+      ],
+      "bounds": [
+        -2,
+        -39,
+        47,
+        44
+      ],
+      "sourceOpaquePixels": 1132
+    }
+  ],
+  "blankFrames": [],
+  "animation": {
+    "id": 29,
+    "frameOffset": 2381696,
+    "durationOffset": 2406448,
+    "stride": 48,
+    "frameBytes": [
+      1,
+      2,
+      0,
+      255,
+      1,
+      2,
+      0,
+      255,
+      255,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      255,
+      1,
+      2,
+      0,
+      255,
+      12,
+      255,
+      0,
+      0,
+      19,
+      20,
+      255,
+      0,
+      13,
+      14,
+      255,
+      0,
+      15,
+      17,
+      16,
+      255,
+      21,
+      22,
+      21,
+      14,
+      24,
+      25,
+      24,
+      14,
+      14,
+      255,
+      0,
+      0,
+      4,
+      5,
+      3,
+      255,
+      4,
+      5,
+      3,
+      255,
+      255,
+      0,
+      0,
+      0,
+      4,
+      5,
+      3,
+      255,
+      4,
+      5,
+      3,
+      255,
+      12,
+      255,
+      0,
+      0,
+      19,
+      20,
+      255,
+      0,
+      13,
+      14,
+      255,
+      0,
+      18,
+      20,
+      19,
+      255,
+      21,
+      22,
+      21,
+      14,
+      24,
+      25,
+      24,
+      14,
+      14,
+      255,
+      0,
+      0,
+      7,
+      8,
+      6,
+      255,
+      7,
+      8,
+      6,
+      255,
+      255,
+      0,
+      0,
+      0,
+      7,
+      8,
+      6,
+      255,
+      7,
+      8,
+      6,
+      255,
+      12,
+      255,
+      0,
+      0,
+      19,
+      20,
+      255,
+      0,
+      13,
+      14,
+      255,
+      0,
+      21,
+      23,
+      22,
+      255,
+      21,
+      22,
+      21,
+      14,
+      24,
+      25,
+      24,
+      14,
+      14,
+      255,
+      0,
+      0,
+      10,
+      11,
+      9,
+      255,
+      10,
+      11,
+      9,
+      255,
+      255,
+      0,
+      0,
+      0,
+      10,
+      11,
+      9,
+      255,
+      10,
+      11,
+      9,
+      255,
+      12,
+      255,
+      0,
+      0,
+      19,
+      20,
+      255,
+      0,
+      13,
+      14,
+      255,
+      0,
+      24,
+      26,
+      25,
+      255,
+      21,
+      22,
+      21,
+      14,
+      24,
+      25,
+      24,
+      14,
+      14,
+      255,
+      0,
+      0
+    ],
+    "durationBytes": [
+      10,
+      15,
+      15,
+      0,
+      10,
+      15,
+      15,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      15,
+      15,
+      0,
+      0,
+      0,
+      0,
+      0,
+      31,
+      0,
+      0,
+      0,
+      5,
+      5,
+      0,
+      0,
+      15,
+      45,
+      0,
+      0,
+      15,
+      5,
+      31,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    "frameSha256": "b7ac73dd6cd1b3b52655ec162cdf79e648fa0d6070a829730a3ddd40de0b9fad",
+    "durationSha256": "992708b598122c7fce1b045869793fddd2ca9646df5a9864a69edf029d7e4a3a",
+    "lists": [
+      {
+        "facing": 0,
+        "mode": 0,
+        "steps": [
+          {
+            "frame": 1,
+            "ticks": 10
+          },
+          {
+            "frame": 2,
+            "ticks": 15
+          },
+          {
+            "frame": 0,
+            "ticks": 15
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 0,
+        "mode": 1,
+        "steps": [
+          {
+            "frame": 1,
+            "ticks": 10
+          },
+          {
+            "frame": 2,
+            "ticks": 15
+          },
+          {
+            "frame": 0,
+            "ticks": 15
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 0,
+        "mode": 2,
+        "steps": [],
+        "loopTicks": 0
+      },
+      {
+        "facing": 0,
+        "mode": 3,
+        "steps": [
+          {
+            "frame": 1,
+            "ticks": 10
+          },
+          {
+            "frame": 2,
+            "ticks": 15
+          },
+          {
+            "frame": 0,
+            "ticks": 15
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 0,
+        "mode": 4,
+        "steps": [],
+        "loopTicks": 0
+      },
+      {
+        "facing": 0,
+        "mode": 5,
+        "steps": [
+          {
+            "frame": 12,
+            "ticks": 31
+          }
+        ],
+        "loopTicks": 31
+      },
+      {
+        "facing": 0,
+        "mode": 6,
+        "steps": [
+          {
+            "frame": 19,
+            "ticks": 5
+          },
+          {
+            "frame": 20,
+            "ticks": 5
+          }
+        ],
+        "loopTicks": 10
+      },
+      {
+        "facing": 0,
+        "mode": 7,
+        "steps": [
+          {
+            "frame": 13,
+            "ticks": 15
+          },
+          {
+            "frame": 14,
+            "ticks": 45
+          }
+        ],
+        "loopTicks": 60
+      },
+      {
+        "facing": 0,
+        "mode": 8,
+        "steps": [
+          {
+            "frame": 15,
+            "ticks": 15
+          },
+          {
+            "frame": 17,
+            "ticks": 5
+          },
+          {
+            "frame": 16,
+            "ticks": 31
+          }
+        ],
+        "loopTicks": 51
+      },
+      {
+        "facing": 0,
+        "mode": 9,
+        "steps": [
+          {
+            "frame": 21,
+            "ticks": 10
+          },
+          {
+            "frame": 22,
+            "ticks": 10
+          },
+          {
+            "frame": 21,
+            "ticks": 10
+          },
+          {
+            "frame": 14,
+            "ticks": 10
+          },
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 25,
+            "ticks": 10
+          },
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 14,
+            "ticks": 10
+          }
+        ],
+        "loopTicks": 80
+      },
+      {
+        "facing": 0,
+        "mode": 10,
+        "steps": [
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 25,
+            "ticks": 10
+          },
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 14,
+            "ticks": 10
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 0,
+        "mode": 11,
+        "steps": [],
+        "loopTicks": 0
+      },
+      {
+        "facing": 1,
+        "mode": 0,
+        "steps": [
+          {
+            "frame": 4,
+            "ticks": 10
+          },
+          {
+            "frame": 5,
+            "ticks": 15
+          },
+          {
+            "frame": 3,
+            "ticks": 15
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 1,
+        "mode": 1,
+        "steps": [
+          {
+            "frame": 4,
+            "ticks": 10
+          },
+          {
+            "frame": 5,
+            "ticks": 15
+          },
+          {
+            "frame": 3,
+            "ticks": 15
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 1,
+        "mode": 2,
+        "steps": [],
+        "loopTicks": 0
+      },
+      {
+        "facing": 1,
+        "mode": 3,
+        "steps": [
+          {
+            "frame": 4,
+            "ticks": 10
+          },
+          {
+            "frame": 5,
+            "ticks": 15
+          },
+          {
+            "frame": 3,
+            "ticks": 15
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 1,
+        "mode": 4,
+        "steps": [],
+        "loopTicks": 0
+      },
+      {
+        "facing": 1,
+        "mode": 5,
+        "steps": [
+          {
+            "frame": 12,
+            "ticks": 31
+          }
+        ],
+        "loopTicks": 31
+      },
+      {
+        "facing": 1,
+        "mode": 6,
+        "steps": [
+          {
+            "frame": 19,
+            "ticks": 5
+          },
+          {
+            "frame": 20,
+            "ticks": 5
+          }
+        ],
+        "loopTicks": 10
+      },
+      {
+        "facing": 1,
+        "mode": 7,
+        "steps": [
+          {
+            "frame": 13,
+            "ticks": 15
+          },
+          {
+            "frame": 14,
+            "ticks": 45
+          }
+        ],
+        "loopTicks": 60
+      },
+      {
+        "facing": 1,
+        "mode": 8,
+        "steps": [
+          {
+            "frame": 18,
+            "ticks": 15
+          },
+          {
+            "frame": 20,
+            "ticks": 5
+          },
+          {
+            "frame": 19,
+            "ticks": 31
+          }
+        ],
+        "loopTicks": 51
+      },
+      {
+        "facing": 1,
+        "mode": 9,
+        "steps": [
+          {
+            "frame": 21,
+            "ticks": 10
+          },
+          {
+            "frame": 22,
+            "ticks": 10
+          },
+          {
+            "frame": 21,
+            "ticks": 10
+          },
+          {
+            "frame": 14,
+            "ticks": 10
+          },
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 25,
+            "ticks": 10
+          },
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 14,
+            "ticks": 10
+          }
+        ],
+        "loopTicks": 80
+      },
+      {
+        "facing": 1,
+        "mode": 10,
+        "steps": [
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 25,
+            "ticks": 10
+          },
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 14,
+            "ticks": 10
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 1,
+        "mode": 11,
+        "steps": [],
+        "loopTicks": 0
+      },
+      {
+        "facing": 2,
+        "mode": 0,
+        "steps": [
+          {
+            "frame": 7,
+            "ticks": 10
+          },
+          {
+            "frame": 8,
+            "ticks": 15
+          },
+          {
+            "frame": 6,
+            "ticks": 15
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 2,
+        "mode": 1,
+        "steps": [
+          {
+            "frame": 7,
+            "ticks": 10
+          },
+          {
+            "frame": 8,
+            "ticks": 15
+          },
+          {
+            "frame": 6,
+            "ticks": 15
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 2,
+        "mode": 2,
+        "steps": [],
+        "loopTicks": 0
+      },
+      {
+        "facing": 2,
+        "mode": 3,
+        "steps": [
+          {
+            "frame": 7,
+            "ticks": 10
+          },
+          {
+            "frame": 8,
+            "ticks": 15
+          },
+          {
+            "frame": 6,
+            "ticks": 15
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 2,
+        "mode": 4,
+        "steps": [],
+        "loopTicks": 0
+      },
+      {
+        "facing": 2,
+        "mode": 5,
+        "steps": [
+          {
+            "frame": 12,
+            "ticks": 31
+          }
+        ],
+        "loopTicks": 31
+      },
+      {
+        "facing": 2,
+        "mode": 6,
+        "steps": [
+          {
+            "frame": 19,
+            "ticks": 5
+          },
+          {
+            "frame": 20,
+            "ticks": 5
+          }
+        ],
+        "loopTicks": 10
+      },
+      {
+        "facing": 2,
+        "mode": 7,
+        "steps": [
+          {
+            "frame": 13,
+            "ticks": 15
+          },
+          {
+            "frame": 14,
+            "ticks": 45
+          }
+        ],
+        "loopTicks": 60
+      },
+      {
+        "facing": 2,
+        "mode": 8,
+        "steps": [
+          {
+            "frame": 21,
+            "ticks": 15
+          },
+          {
+            "frame": 23,
+            "ticks": 5
+          },
+          {
+            "frame": 22,
+            "ticks": 31
+          }
+        ],
+        "loopTicks": 51
+      },
+      {
+        "facing": 2,
+        "mode": 9,
+        "steps": [
+          {
+            "frame": 21,
+            "ticks": 10
+          },
+          {
+            "frame": 22,
+            "ticks": 10
+          },
+          {
+            "frame": 21,
+            "ticks": 10
+          },
+          {
+            "frame": 14,
+            "ticks": 10
+          },
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 25,
+            "ticks": 10
+          },
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 14,
+            "ticks": 10
+          }
+        ],
+        "loopTicks": 80
+      },
+      {
+        "facing": 2,
+        "mode": 10,
+        "steps": [
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 25,
+            "ticks": 10
+          },
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 14,
+            "ticks": 10
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 2,
+        "mode": 11,
+        "steps": [],
+        "loopTicks": 0
+      },
+      {
+        "facing": 3,
+        "mode": 0,
+        "steps": [
+          {
+            "frame": 10,
+            "ticks": 10
+          },
+          {
+            "frame": 11,
+            "ticks": 15
+          },
+          {
+            "frame": 9,
+            "ticks": 15
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 3,
+        "mode": 1,
+        "steps": [
+          {
+            "frame": 10,
+            "ticks": 10
+          },
+          {
+            "frame": 11,
+            "ticks": 15
+          },
+          {
+            "frame": 9,
+            "ticks": 15
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 3,
+        "mode": 2,
+        "steps": [],
+        "loopTicks": 0
+      },
+      {
+        "facing": 3,
+        "mode": 3,
+        "steps": [
+          {
+            "frame": 10,
+            "ticks": 10
+          },
+          {
+            "frame": 11,
+            "ticks": 15
+          },
+          {
+            "frame": 9,
+            "ticks": 15
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 3,
+        "mode": 4,
+        "steps": [],
+        "loopTicks": 0
+      },
+      {
+        "facing": 3,
+        "mode": 5,
+        "steps": [
+          {
+            "frame": 12,
+            "ticks": 31
+          }
+        ],
+        "loopTicks": 31
+      },
+      {
+        "facing": 3,
+        "mode": 6,
+        "steps": [
+          {
+            "frame": 19,
+            "ticks": 5
+          },
+          {
+            "frame": 20,
+            "ticks": 5
+          }
+        ],
+        "loopTicks": 10
+      },
+      {
+        "facing": 3,
+        "mode": 7,
+        "steps": [
+          {
+            "frame": 13,
+            "ticks": 15
+          },
+          {
+            "frame": 14,
+            "ticks": 45
+          }
+        ],
+        "loopTicks": 60
+      },
+      {
+        "facing": 3,
+        "mode": 8,
+        "steps": [
+          {
+            "frame": 24,
+            "ticks": 15
+          },
+          {
+            "frame": 26,
+            "ticks": 5
+          },
+          {
+            "frame": 25,
+            "ticks": 31
+          }
+        ],
+        "loopTicks": 51
+      },
+      {
+        "facing": 3,
+        "mode": 9,
+        "steps": [
+          {
+            "frame": 21,
+            "ticks": 10
+          },
+          {
+            "frame": 22,
+            "ticks": 10
+          },
+          {
+            "frame": 21,
+            "ticks": 10
+          },
+          {
+            "frame": 14,
+            "ticks": 10
+          },
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 25,
+            "ticks": 10
+          },
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 14,
+            "ticks": 10
+          }
+        ],
+        "loopTicks": 80
+      },
+      {
+        "facing": 3,
+        "mode": 10,
+        "steps": [
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 25,
+            "ticks": 10
+          },
+          {
+            "frame": 24,
+            "ticks": 10
+          },
+          {
+            "frame": 14,
+            "ticks": 10
+          }
+        ],
+        "loopTicks": 40
+      },
+      {
+        "facing": 3,
+        "mode": 11,
+        "steps": [],
+        "loopTicks": 0
+      }
+    ],
+    "referencedFrames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  "ai": [
+    {
+      "enemy": 4,
+      "sourceSha256": "9176cb7ffce5c4338280ba7c38d0881d09ccf56cc65f2a0e60bb2a1e33d485fa",
+      "currentSha256": "9176cb7ffce5c4338280ba7c38d0881d09ccf56cc65f2a0e60bb2a1e33d485fa",
+      "bytes": 36
+    },
+    {
+      "enemy": 238,
+      "sourceSha256": "4b5460cdd6d3509011ce4316192f5b5ee92fe02b726c6fdd939a98b0f764ec6d",
+      "currentSha256": "4b5460cdd6d3509011ce4316192f5b5ee92fe02b726c6fdd939a98b0f764ec6d",
+      "bytes": 47
+    }
+  ],
+  "sceneUses": [
+    {
+      "location": 94,
+      "name": "Ending: People of the Times (Part 4)",
+      "eventId": 152,
+      "eventOffset": 3718370,
+      "currentDecodedSha256": "da259ff471b7db627fa4a418a1efe2d06b50c0e549dd7fcb482e8ab6bee17c6f",
+      "originalDecodedSha256": "da259ff471b7db627fa4a418a1efe2d06b50c0e549dd7fcb482e8ab6bee17c6f",
+      "loads": [
+        {
+          "bodyOffset": 1132,
+          "opcode": 131,
+          "enemy": 4,
+          "slotAndFlags": 3
+        }
+      ],
+      "allEnemyOwners": [
+        4,
+        79,
+        82
+      ],
+      "allNpcOwners": [
+        7,
+        9,
+        10,
+        11,
+        16,
+        43,
+        162,
+        174,
+        177
+      ],
+      "scope": "Source event-load union; no claim of traversal or simultaneous visibility."
+    },
+    {
+      "location": 160,
+      "name": "Sunken Desert Parasytes",
+      "eventId": 469,
+      "eventOffset": 3962472,
+      "currentDecodedSha256": "132e24d96ba1598f0b5ecdcd238c73e4ad7a6f00cf3a474830571622e8316502",
+      "originalDecodedSha256": "132e24d96ba1598f0b5ecdcd238c73e4ad7a6f00cf3a474830571622e8316502",
+      "loads": [
+        {
+          "bodyOffset": 1418,
+          "opcode": 131,
+          "enemy": 238,
+          "slotAndFlags": 3
+        },
+        {
+          "bodyOffset": 1463,
+          "opcode": 131,
+          "enemy": 238,
+          "slotAndFlags": 7
+        },
+        {
+          "bodyOffset": 1508,
+          "opcode": 131,
+          "enemy": 238,
+          "slotAndFlags": 9
+        }
+      ],
+      "allEnemyOwners": [
+        101,
+        238
+      ],
+      "allNpcOwners": [
+        112
+      ],
+      "scope": "Source event-load union; no claim of traversal or simultaneous visibility."
+    },
+    {
+      "location": 236,
+      "name": "Sewer Access B1",
+      "eventId": 157,
+      "eventOffset": 1187412,
+      "currentDecodedSha256": "b11c9541b17d2f81dc81886978fac4406475e62a1e81843da61b9ce997965360",
+      "originalDecodedSha256": "9933ac4eae31013e4846527000be9cbcd4ba994781cb918a6a954a526b59e0f0",
+      "loads": [
+        {
+          "bodyOffset": 2428,
+          "opcode": 131,
+          "enemy": 4,
+          "slotAndFlags": 7
+        }
+      ],
+      "allEnemyOwners": [
+        4,
+        42,
+        79,
+        82,
+        99
+      ],
+      "allNpcOwners": [],
+      "scope": "Source event-load union; no claim of traversal or simultaneous visibility."
+    },
+    {
+      "location": 341,
+      "name": "Present Age Jail Cell (Ending: The Dream Project)",
+      "eventId": 16,
+      "eventOffset": 4036988,
+      "currentDecodedSha256": "b5e953c1c00b32bf5142b6b46e81d80dbc9aeffad8dcf9366bfbb017df28b45b",
+      "originalDecodedSha256": "b5e953c1c00b32bf5142b6b46e81d80dbc9aeffad8dcf9366bfbb017df28b45b",
+      "loads": [
+        {
+          "bodyOffset": 503,
+          "opcode": 131,
+          "enemy": 4,
+          "slotAndFlags": 3
+        }
+      ],
+      "allEnemyOwners": [
+        4,
+        46,
+        75
+      ],
+      "allNpcOwners": [
+        16
+      ],
+      "scope": "Source event-load union; no claim of traversal or simultaneous visibility."
+    }
+  ],
+  "activation": false
+}

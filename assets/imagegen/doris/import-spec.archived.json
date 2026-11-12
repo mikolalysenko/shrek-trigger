@@ -1,0 +1,340 @@
+{
+  "key": "doris",
+  "directory": "assets/imagegen/doris/body",
+  "sourceType": "image-generation",
+  "width": 32,
+  "height": 32,
+  "palette": [
+    "29212d",
+    "955f59",
+    "bf8875",
+    "f1bd9e",
+    "f4dfb6",
+    "6a3e65",
+    "a9759c",
+    "382c37",
+    "fff1db",
+    "665568",
+    "738bb8",
+    "cf4b6b"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/doris/source-base-v2.png",
+      "columns": 4,
+      "rows": 4,
+      "componentAlpha": 128,
+      "nativeHeight": 31,
+      "sample": {
+        "method": "area",
+        "bottom": 31
+      },
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "file": "assets/imagegen/doris/source-actions-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "componentAlpha": 128,
+      "nativeHeight": 31,
+      "sample": {
+        "method": "area",
+        "bottom": 31
+      },
+      "scaleCells": [
+        0,
+        2,
+        8,
+        9,
+        10
+      ],
+      "overrides": {
+        "5": {
+          "scaleX": 0.97
+        },
+        "7": {
+          "scaleX": 0.97
+        },
+        "11": {
+          "scaleX": 0.97
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/doris/source-spoon-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "componentAlpha": 128,
+      "nativeHeight": 31,
+      "sample": {
+        "method": "area",
+        "bottom": 31
+      },
+      "scaleCells": [
+        0,
+        2,
+        8,
+        9,
+        10
+      ],
+      "cells": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        13,
+        14
+      ],
+      "overrides": {
+        "5": {
+          "scaleX": 0.97
+        },
+        "7": {
+          "scaleX": 0.97
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/doris/source-airborne-v1.png",
+      "columns": 2,
+      "rows": 4,
+      "componentAlpha": 128,
+      "nativeHeight": 31,
+      "sample": {
+        "method": "area",
+        "bottom": 31
+      },
+      "scaleCells": [
+        6,
+        7
+      ]
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        1,
+        6,
+        7
+      ],
+      "1": [
+        0,
+        4,
+        5
+      ],
+      "2": [
+        2,
+        8,
+        9
+      ],
+      "3": [
+        3,
+        10,
+        11
+      ]
+    },
+    "hit": {
+      "1": [
+        12
+      ]
+    },
+    "cast": {
+      "0": [
+        {
+          "frame": 16,
+          "flip": true
+        }
+      ],
+      "1": [
+        18,
+        31
+      ],
+      "2": [
+        47
+      ],
+      "3": [
+        48
+      ]
+    },
+    "unarmed-cast": {
+      "1": [
+        13,
+        14
+      ]
+    },
+    "guard": {
+      "0": [
+        24
+      ],
+      "1": [
+        15
+      ],
+      "2": [
+        25
+      ],
+      "3": [
+        26
+      ]
+    },
+    "windup": {
+      "0": [
+        {
+          "frame": 16,
+          "flip": true
+        }
+      ],
+      "1": [
+        18
+      ],
+      "2": [
+        20
+      ],
+      "3": [
+        22
+      ]
+    },
+    "attack": {
+      "0": [
+        17
+      ],
+      "1": [
+        19
+      ],
+      "2": [
+        21
+      ],
+      "3": [
+        23
+      ]
+    },
+    "sit": {
+      "1": [
+        27
+      ]
+    },
+    "down": {
+      "1": [
+        28
+      ]
+    },
+    "point": {
+      "1": [
+        29
+      ]
+    },
+    "raise": {
+      "1": [
+        30,
+        31
+      ]
+    },
+    "jump": {
+      "0": [
+        43
+      ],
+      "1": [
+        44
+      ]
+    },
+    "tuck": {
+      "0": [
+        45
+      ]
+    },
+    "impact": {
+      "1": [
+        46
+      ]
+    },
+    "spoon-cast": {
+      "0": [
+        {
+          "frame": 32,
+          "flip": true
+        }
+      ],
+      "1": [
+        33,
+        34
+      ]
+    },
+    "spoon-windup": {
+      "2": [
+        35
+      ],
+      "3": [
+        37
+      ]
+    },
+    "spoon-attack": {
+      "2": [
+        36
+      ],
+      "3": [
+        38
+      ]
+    },
+    "spoon-point": {
+      "1": [
+        39
+      ]
+    },
+    "spoon-raise": {
+      "1": [
+        40
+      ]
+    },
+    "spoon-jump": {
+      "0": [
+        41
+      ],
+      "1": [
+        42
+      ]
+    }
+  },
+  "notes": {
+    "status": "Frozen inactive generated-source draft. All133 native slots were visually reviewed and passed exact VRAM uploads and six original hardware palettes in a private cartridge; integration remains root-owned.",
+    "sourceOnly": "All anatomy, face, clothing, props and gestures sampled from recorded generated sources.",
+    "nativeWalkOrder": "Native triplets consume walk phases1,0,2 = contactA,standing passing,contactB.",
+    "bodyScale": "Shared31px reference height per source sheet. Source airborne/crouch/sit proportions retained; Wide source thrust/sit drawings receive a documented0.97 horizontal resampling cap (at most one native pixel) to preserve their full silhouette in32px; no source pixels are painted.",
+    "corrections": "Back wand preparation uses whole-source mirror to retain right-hand prop. Tier2 slot26 will use rear idle; tier5 native17/19 use rear tuck/front low impact roles.",
+    "hairReference": "Only sampler reference colors8/10 are changed to dark/mid auburn, directing source braid pigments into fixed hair shades instead of tier-dependent dress slots6/7. Hardware palette remains unchanged."
+  },
+  "samplingPalette": [
+    "29212d",
+    "955f59",
+    "bf8875",
+    "f1bd9e",
+    "f4dfb6",
+    "6a3e65",
+    "a9759c",
+    "351b0d",
+    "fff1db",
+    "73351b",
+    "738bb8",
+    "cf4b6b"
+  ]
+}

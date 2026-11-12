@@ -1,0 +1,277 @@
+{
+  "key": "wolf",
+  "frames": 16,
+  "width": 32,
+  "height": 32,
+  "opaqueColors": 12,
+  "palette": [
+    "211818",
+    "524a4a",
+    "94526b",
+    "7b7373",
+    "8c8c8c",
+    "c67b94",
+    "b5ada5",
+    "de94ad",
+    "f7b5ce",
+    "cec6c6",
+    "f7de39",
+    "fffff7"
+  ],
+  "samplingPalette": [
+    "211818",
+    "524a4a",
+    "94526b",
+    "7b7373",
+    "8c8c8c",
+    "c67b94",
+    "b5ada5",
+    "de94ad",
+    "f7b5ce",
+    "cec6c6",
+    "f7de39",
+    "fffff7"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/wolf/source-base-v1.png",
+      "sha256": "646753673d79983832832ab2091b3208234c7553bccaacae40c8158499bb829d",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "scale": 0.13274336283185842,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "coverageThreshold": 0.4
+      },
+      "overrides": {
+        "11": {
+          "scale": 0.94
+        },
+        "12": {
+          "scale": 0.94
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            132,
+            14,
+            108,
+            226
+          ],
+          "componentPixels": 18560
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            499,
+            14,
+            109,
+            226
+          ],
+          "componentPixels": 18531
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            873,
+            13,
+            128,
+            229
+          ],
+          "componentPixels": 17362
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1239,
+            17,
+            133,
+            228
+          ],
+          "componentPixels": 17999
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            122,
+            270,
+            120,
+            228
+          ],
+          "componentPixels": 18541
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            495,
+            270,
+            119,
+            228
+          ],
+          "componentPixels": 18731
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            886,
+            269,
+            117,
+            230
+          ],
+          "componentPixels": 18428
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            1272,
+            269,
+            116,
+            230
+          ],
+          "componentPixels": 18313
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            113,
+            527,
+            129,
+            224
+          ],
+          "componentPixels": 18087
+        },
+        {
+          "cell": 9,
+          "bounds": [
+            481,
+            527,
+            129,
+            224
+          ],
+          "componentPixels": 17282
+        },
+        {
+          "cell": 10,
+          "bounds": [
+            865,
+            524,
+            146,
+            227
+          ],
+          "componentPixels": 19934
+        },
+        {
+          "cell": 11,
+          "bounds": [
+            1242,
+            524,
+            168,
+            227
+          ],
+          "componentPixels": 23303
+        },
+        {
+          "cell": 12,
+          "bounds": [
+            98,
+            781,
+            163,
+            226
+          ],
+          "componentPixels": 21790
+        },
+        {
+          "cell": 13,
+          "bounds": [
+            495,
+            781,
+            119,
+            227
+          ],
+          "componentPixels": 18968
+        },
+        {
+          "cell": 14,
+          "bounds": [
+            880,
+            781,
+            114,
+            227
+          ],
+          "componentPixels": 17728
+        },
+        {
+          "cell": 15,
+          "bounds": [
+            1241,
+            781,
+            149,
+            227
+          ],
+          "componentPixels": 19259
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        0
+      ],
+      "1": [
+        1
+      ],
+      "2": [
+        2
+      ]
+    },
+    "walk": {
+      "0": [
+        4,
+        13,
+        5,
+        13
+      ],
+      "1": [
+        6,
+        14,
+        7,
+        14
+      ],
+      "2": [
+        8,
+        9
+      ]
+    },
+    "surprise": {
+      "1": [
+        10
+      ]
+    },
+    "raise": {
+      "0": [
+        12
+      ],
+      "1": [
+        11
+      ]
+    },
+    "sit": {
+      "2": [
+        3
+      ]
+    },
+    "point": {
+      "2": [
+        15
+      ]
+    }
+  }
+}

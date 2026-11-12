@@ -1,0 +1,453 @@
+{
+  "status": "Frozen inactive generated-source packet. Root owns active integration.",
+  "date": "2026-11-01",
+  "manifest": "reproducibility-files.txt",
+  "manifestFiles": 76,
+  "manifestSha256": "6aef3273e72a3bd9f3a232df436a9dfd58ed8705478849f4eebea1592e926437",
+  "requiredArtifacts": [
+    {
+      "path": "README.md",
+      "bytes": 6086,
+      "sha256": "7521df610e3e9ac64508b6b16421d61f07877cc8fec0611426c460aca0c362df"
+    },
+    {
+      "path": "audit-events.mjs",
+      "bytes": 1792,
+      "sha256": "2e5ec813364a207dcf0bef66fc4a04a04b8baa8274c873e39c6e7368d1e42b70"
+    },
+    {
+      "path": "audit-native.mjs",
+      "bytes": 7320,
+      "sha256": "4015208f3448de294214190ffc74e23ac45be95611f9e2be678e0cb3f2905ec5"
+    },
+    {
+      "path": "build-motion-review.mjs",
+      "bytes": 8113,
+      "sha256": "dddc7046434851fda026147f52c5c670cd748a2d33c72c3670c40ebe1cec263d"
+    },
+    {
+      "path": "build-review.mjs",
+      "bytes": 1337,
+      "sha256": "9494785b354ffe0d2a71c62259890b8811b6c8bcd843765b821019260728bc6d"
+    },
+    {
+      "path": "chassis-draft/assembly.bin",
+      "bytes": 240,
+      "sha256": "1ffc01adb85ba6254c35de670b239625c9ede424898744b45d2c720b204b2214"
+    },
+    {
+      "path": "chassis-draft/graphics.4bpp",
+      "bytes": 2432,
+      "sha256": "9e184efb31c986d73565376bd5d1e6348992102b03c569e180a6df21b7d61729"
+    },
+    {
+      "path": "chassis-draft/graphics.ct-lz",
+      "bytes": 1654,
+      "sha256": "2d835ea79f06eb41db130192679f9358147d0d76c0c75ec2b785151144446f7d"
+    },
+    {
+      "path": "chassis-draft/preview-import.json",
+      "bytes": 1484,
+      "sha256": "71be59541d8df15ad30799f0957d6fa59e0f5275fbcb4057a296ba8e3b4869d1"
+    },
+    {
+      "path": "chassis-draft/preview-native-indexed.png",
+      "bytes": 3783,
+      "sha256": "5e3015afa8dbee0a6663f2cf5a6d73a43e4c99423653771349042405cf7df032"
+    },
+    {
+      "path": "chassis-draft/preview-raster.json",
+      "bytes": 14898,
+      "sha256": "5508501cc9b227eb6a50169faf0d306e7e10a79069b87c772da5c9ceb4d8c15f"
+    },
+    {
+      "path": "chassis-import-spec.draft.json",
+      "bytes": 2185,
+      "sha256": "7478a6c0cf6b72dad48e3e26db808c36bb82ccab61a781cbc1ff1e413ce4da10"
+    },
+    {
+      "path": "compile-draft.mjs",
+      "bytes": 6641,
+      "sha256": "a97d4c032a830bb8055c3b388097b97a95df9a4c212441b05d5e52ae876fafcb"
+    },
+    {
+      "path": "compound-proof.mjs",
+      "bytes": 2935,
+      "sha256": "afd795eb80ef8d03b1504e89d088eb04524b83d2dca058a6555a22b6d13f8000"
+    },
+    {
+      "path": "current-co-loads.json",
+      "bytes": 2048,
+      "sha256": "92efcd18cb64f7df64ca26684a7c61e9ca1591c8541767ffa09376dc564ac40d"
+    },
+    {
+      "path": "draft/palette-184.bin",
+      "bytes": 24,
+      "sha256": "331fb2b5fbb229101e6c0508c4d52b755c94b558527fdd584c41df19d876ef06"
+    },
+    {
+      "path": "draft/verification.json",
+      "bytes": 8811,
+      "sha256": "a5f81d240d8f09c36f430634ccacaf0c9892d5af47d2c0315b7954e2c59246a9"
+    },
+    {
+      "path": "earlier-art-frames.json",
+      "bytes": 21933,
+      "sha256": "3533148e5f7b463bd6e5ce50a350b892b15caf1a5cf368967cb03183766e67bd"
+    },
+    {
+      "path": "events-source-audit.json",
+      "bytes": 24985,
+      "sha256": "86d3fc1dbf0265ff7aa5321320c678845d98b8c0d7dd7b240f3bbcc677e4f283"
+    },
+    {
+      "path": "head-draft/assembly.bin",
+      "bytes": 200,
+      "sha256": "2d0ffd5fdf5860b796a8ff08adc13befc19faa730857b7662778a95ce399c757"
+    },
+    {
+      "path": "head-draft/graphics.4bpp",
+      "bytes": 2112,
+      "sha256": "7bbd9248ddfeca09931aafffecff4d889e456b421cc7a93de595dae78c864183"
+    },
+    {
+      "path": "head-draft/graphics.ct-lz",
+      "bytes": 1293,
+      "sha256": "10eeedd60f7c75449171befcd26ccf9542e6f0804c16b0d6791cdbbaa70fc893"
+    },
+    {
+      "path": "head-draft/preview-import.json",
+      "bytes": 2304,
+      "sha256": "a19e9b5e8c99457b86daeb3ade4213dec23de95b7d003a57f0d1d14babd1b2e8"
+    },
+    {
+      "path": "head-draft/preview-native-indexed.png",
+      "bytes": 3064,
+      "sha256": "8dc0591762366c208836a27b71b1e8f13d279a776f5f4dc4d1548661837f67fe"
+    },
+    {
+      "path": "head-draft/preview-raster.json",
+      "bytes": 5777,
+      "sha256": "ab2a8690be62d9ad39874f5f6af75443431688a5af4735cb3b81a709665a69c7"
+    },
+    {
+      "path": "head-import-spec.draft.json",
+      "bytes": 1397,
+      "sha256": "2ecbe16530d0989bc95ee758dc1fd300debcdcc7a5b4b9dcf8a4b9f13e04f532"
+    },
+    {
+      "path": "integration-proposal.json",
+      "bytes": 6667,
+      "sha256": "08f09c905a5e14230054e4640acc417633ebe7c288505226b649740cca175dc1"
+    },
+    {
+      "path": "motion-verification/manifest.json",
+      "bytes": 841689,
+      "sha256": "a8d489e1b8ccb2fe15cf9a7f7045d5be246ce271fce619a57c32bb596f5263a2"
+    },
+    {
+      "path": "native-audit.json",
+      "bytes": 27091,
+      "sha256": "8686b4e6467fb2646f129152151c6eb109437bcef3510dd4eb6fe005b04ca93d"
+    },
+    {
+      "path": "native-roles.json",
+      "bytes": 8980,
+      "sha256": "8e0fc04cacb3e6492aac4bf8e31ae97d33fd05f3266ea94d2cdf7b6fed5d4fdd"
+    },
+    {
+      "path": "native-verification/manifest.json",
+      "bytes": 5111,
+      "sha256": "7decd9c02403e5ad7a1dd27d292369742616d79ef41c91f2ca2b6d00ac4defe8"
+    },
+    {
+      "path": "native-verification/tank-head-0.png",
+      "bytes": 57170,
+      "sha256": "df4bd327360fb04ce5448303a10360dabbc064b5e24df8043292d134e9bfeac0"
+    },
+    {
+      "path": "native-verification/tank-head-1.png",
+      "bytes": 57276,
+      "sha256": "5bcee68562895fedcbdbe011dbe1201ce1679fbba4f875d58113c143da6217fa"
+    },
+    {
+      "path": "native-verification/tank-head-4.png",
+      "bytes": 57194,
+      "sha256": "8b494be9eb3f8e3f23507261499fd511503a965bbc56956cb412f97940643c06"
+    },
+    {
+      "path": "native-verification/tank-wheel-0.png",
+      "bytes": 56691,
+      "sha256": "3f233492ab24b16971dcb289643141b497860473afe0aa603f6839e4ad3da71e"
+    },
+    {
+      "path": "native-verification/tank-wheel-1.png",
+      "bytes": 56801,
+      "sha256": "5c8762f37afb994dcf479acb054dfd644ce9b58c1d767c385b7353df7110779e"
+    },
+    {
+      "path": "private-overlay.mjs",
+      "bytes": 2781,
+      "sha256": "ecd185ac20b5d80b7379665890e3f95bb41fe463337b17c898be754720c88a4d"
+    },
+    {
+      "path": "prompt-chassis-v1.txt",
+      "bytes": 2603,
+      "sha256": "f606c9ecdbf5d0d5738da7c245f7981b5dc8c330c0b92e2691f138d569008250"
+    },
+    {
+      "path": "prompt-head-v1.txt",
+      "bytes": 2735,
+      "sha256": "f63c9519f15ecc356bc4ff4fd7d7162d382dc3d9f28a672a4fbc6742fc82de43"
+    },
+    {
+      "path": "prompt-wheel-v1.txt",
+      "bytes": 1778,
+      "sha256": "4ab3b92031f35aaf29fd3c877a0e55e5c240f3ea1457918eb76eedf6b4d6b01b"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 3849,
+      "sha256": "84f7a8ba4b425321295b351c9bd3b5601fa1910f4c86f863c08036f738b02a3a"
+    },
+    {
+      "path": "review/chassis-native-4x.png",
+      "bytes": 6282,
+      "sha256": "e1fbc52db4e9ad08b55eab25914e01233ff58425af7473d6b7d533be9c1665ee"
+    },
+    {
+      "path": "review/compound-4x.png",
+      "bytes": 36981,
+      "sha256": "9e15afbaef698eb951ec0665ba0e825d8cd2023e1a903317a5da2f3cad9c91ca"
+    },
+    {
+      "path": "review/contact-sheet-1x.png",
+      "bytes": 29330,
+      "sha256": "16f0a518962ae6b532bca28ff2609ca22369b2fd120eb3fbbb76c472ea35746c"
+    },
+    {
+      "path": "review/duloc-tank-earlier-4x.png",
+      "bytes": 5021,
+      "sha256": "2056f277eef81299726be89178f8623e7ab94840dbaded9fb74dff8d53d6a8a6"
+    },
+    {
+      "path": "review/head-native-4x.png",
+      "bytes": 4367,
+      "sha256": "0508ef6b2de62b9694698eac6c845032ea6479e0a5f6ab498a599ebe1a61e019"
+    },
+    {
+      "path": "review/motion-review.gif",
+      "bytes": 42151,
+      "sha256": "313ed7f241cfc904a71bb7e266d2723beb4c388c6b3c9521ba2e712c7bcce9f2"
+    },
+    {
+      "path": "review/motion-review.html",
+      "bytes": 55051,
+      "sha256": "710cb7d0739c041cfd245879546aea31cf90cbb84c6d549490e3f1803e898a32"
+    },
+    {
+      "path": "review/review-manifest.json",
+      "bytes": 4032,
+      "sha256": "5f2ff33fe7c8cc2ab7779a9441a6d1349610f6ca760dfc87bad2351214768874"
+    },
+    {
+      "path": "review/tank-head-earlier-4x.png",
+      "bytes": 3816,
+      "sha256": "a20132c099932d11fc2fa7163868f5f029d1ca28a105ff77677295ae23cc018f"
+    },
+    {
+      "path": "review/wheel-native-4x.png",
+      "bytes": 3206,
+      "sha256": "db6b308cf7938b1026e07e5f04e10e5f8fc20e852b4f7726dd441851eb4a278c"
+    },
+    {
+      "path": "scene-verification/manifest.json",
+      "bytes": 222529,
+      "sha256": "bc0e919a08900a6be58eb860ea79cea819e734d60196b8f2633fb489ae02dc7c"
+    },
+    {
+      "path": "scene-verification/original-bridge-recovered.png",
+      "bytes": 43167,
+      "sha256": "ee0105491158a6a13eab6fcf660d945629a7bfb22c737cedf91af4770c3ccba8"
+    },
+    {
+      "path": "scene-verification/original-collapse-descent.png",
+      "bytes": 43246,
+      "sha256": "d3f2f865b33e76fbf50a7f7890d4e00eec64fd8ae450ca907e09b638fe88eeb5"
+    },
+    {
+      "path": "scene-verification/original-field-head-2-compound.json",
+      "bytes": 42250,
+      "sha256": "8e7bf8730483809c6ed3a170822f3dfc9dcc1c54430ebc82c368b65bd9ffc8ff"
+    },
+    {
+      "path": "scene-verification/original-field-head-2.png",
+      "bytes": 37261,
+      "sha256": "4a4a9fb9246b14b84d6e93c0f7a52428b11c8543e34db7ba1a2ebd0ae88d0bba"
+    },
+    {
+      "path": "scene-verification/original-field-head-3-compound.json",
+      "bytes": 42250,
+      "sha256": "3ef0b65ddc61a290c10e9ace74eb33caca9b1c62f3db0e9ce4ceb46bbc5b27de"
+    },
+    {
+      "path": "scene-verification/original-field-head-3.png",
+      "bytes": 37373,
+      "sha256": "c3c403fc19bee69d7400a86fb0674e1db13e72a7077f788a90c666c2a3bbbe39"
+    },
+    {
+      "path": "scene-verification/original-tank-battle.png",
+      "bytes": 53384,
+      "sha256": "077f03c429d456e93e06f3c3ac70c7f9fc40732ff644854d610ea205ddc4d25e"
+    },
+    {
+      "path": "source-actors.json",
+      "bytes": 2197,
+      "sha256": "f4edc396dccbe55c562908a54d68bcc7d5bda818d0bcc4d4185596742a739f02"
+    },
+    {
+      "path": "source-chassis-v1.png",
+      "bytes": 831897,
+      "sha256": "5d93c0bcaf601190589e3a26bdcd1c246ae05cbe343535ddeb7e85a44cfe9f28"
+    },
+    {
+      "path": "source-head-v1.png",
+      "bytes": 723315,
+      "sha256": "2a837f20de47aa3d1c6058d23ea27088c1b27487a57a9de4737f955cceca374f"
+    },
+    {
+      "path": "source-wheel-v1.png",
+      "bytes": 1095138,
+      "sha256": "7bdaf76250891684908f386ba8a252ee51bcfd32f7b6c4f97793aa293dd6a65a"
+    },
+    {
+      "path": "verify-frozen.mjs",
+      "bytes": 3036,
+      "sha256": "c40928da83443382476ded43dde39fe1580a4848bf0067205ef8654cc8c6736b"
+    },
+    {
+      "path": "verify-motion.mjs",
+      "bytes": 3290,
+      "sha256": "bf4143439fed620a5e3b22d92929d35e6e0f0a5d6d7900e8da679b05a6fcb94f"
+    },
+    {
+      "path": "verify-native.mjs",
+      "bytes": 4822,
+      "sha256": "9ca1bf1e5ebbbb1dceb2e74881d18134c4166fdae115b128db899b0cceae29a8"
+    },
+    {
+      "path": "verify-scene.mjs",
+      "bytes": 6187,
+      "sha256": "aa1e1eede467f60fb0af875a49082eb6953dbb49d6d0f66cbe9588d45cbca27a"
+    },
+    {
+      "path": "wheel-draft/assembly.bin",
+      "bytes": 80,
+      "sha256": "81163c3b40c984197e5e72a5127980962acce47b174413f42b48ae2bb2a81ebf"
+    },
+    {
+      "path": "wheel-draft/graphics.4bpp",
+      "bytes": 1024,
+      "sha256": "ccf25cc74982bef0f6d29fe0f3db0b9827e90af59c24d1b5c4dda942dd22fc32"
+    },
+    {
+      "path": "wheel-draft/graphics.ct-lz",
+      "bytes": 768,
+      "sha256": "1d9e151997fc13c3fe7e693bc8e2bc38ba01d4148f9e34ce05beb9b7e93ca5b2"
+    },
+    {
+      "path": "wheel-draft/preview-import.json",
+      "bytes": 1646,
+      "sha256": "231f21847b26f488c7593af65da35fb4006fe3d069b77e91a0d0cdb5af0a2b04"
+    },
+    {
+      "path": "wheel-draft/preview-native-indexed.png",
+      "bytes": 2669,
+      "sha256": "b6afa66bc58bf5925ba1734258b8ab65de9c130bdfc68543045182c4a107b976"
+    },
+    {
+      "path": "wheel-draft/preview-raster.json",
+      "bytes": 2608,
+      "sha256": "dfd0d341b05934721919108d568a771693b3d29a0fb48a6bbabd161508aea41b"
+    },
+    {
+      "path": "wheel-import-spec.draft.json",
+      "bytes": 1230,
+      "sha256": "23123be2c136f904d9703825223192d86714f98ded0bf78d4d695868cca22e25"
+    }
+  ],
+  "totalRequiredBytes": 4714868,
+  "actors": [
+    {
+      "key": "duloc-tank",
+      "graphicsSha256": "9e184efb31c986d73565376bd5d1e6348992102b03c569e180a6df21b7d61729",
+      "compressedSha256": "2d835ea79f06eb41db130192679f9358147d0d76c0c75ec2b785151144446f7d",
+      "assemblySha256": "1ffc01adb85ba6254c35de670b239625c9ede424898744b45d2c720b204b2214",
+      "rawGraphicsBytes": 2432,
+      "compressedBytes": 1654,
+      "assemblyBytes": 240
+    },
+    {
+      "key": "tank-head",
+      "graphicsSha256": "7bbd9248ddfeca09931aafffecff4d889e456b421cc7a93de595dae78c864183",
+      "compressedSha256": "10eeedd60f7c75449171befcd26ccf9542e6f0804c16b0d6791cdbbaa70fc893",
+      "assemblySha256": "2d0ffd5fdf5860b796a8ff08adc13befc19faa730857b7662778a95ce399c757",
+      "rawGraphicsBytes": 2112,
+      "compressedBytes": 1293,
+      "assemblyBytes": 200
+    },
+    {
+      "key": "tank-wheel",
+      "graphicsSha256": "ccf25cc74982bef0f6d29fe0f3db0b9827e90af59c24d1b5c4dda942dd22fc32",
+      "compressedSha256": "1d9e151997fc13c3fe7e693bc8e2bc38ba01d4148f9e34ce05beb9b7e93ca5b2",
+      "assemblySha256": "81163c3b40c984197e5e72a5127980962acce47b174413f42b48ae2bb2a81ebf",
+      "rawGraphicsBytes": 1024,
+      "compressedBytes": 768,
+      "assemblyBytes": 80
+    }
+  ],
+  "paletteSha256": "331fb2b5fbb229101e6c0508c4d52b755c94b558527fdd584c41df19d876ef06",
+  "totals": {
+    "rawGraphicsBytes": 5568,
+    "compressedBytes": 3715,
+    "assemblyBytes": 520,
+    "compressedAndAssembly": 4235,
+    "rawGrowthFromOriginal": 1056,
+    "rawGrowthFromEarlier": 992,
+    "compressedAndAssemblyGrowthFromOriginal": 290,
+    "compressedAndAssemblyGrowthFromEarlier": 1468
+  },
+  "approval": {
+    "root": "Reviewed1×compound and4×source; accepted native bridgefight and recovery before freeze.",
+    "visualLead": "Reviewed all8native poses and actual firing, battle, collapse and recovery captures; final scene appearance approved."
+  },
+  "proof": {
+    "nativeUploads": 8,
+    "nativePixels": 3810,
+    "nativeTicks": 7200,
+    "modeFacingLists": 48,
+    "compoundCellsPerCapture": 32,
+    "chargingFiringTurretPixels": [
+      538,
+      549
+    ],
+    "occludedPerCapture": {
+      "chassis": 61,
+      "wheel": 176,
+      "nativeY": [
+        144,
+        155
+      ]
+    },
+    "actualSceneHeapBytes": 24800,
+    "controllerTaps": 57,
+    "completedCollapseFlag": "7F021A=1",
+    "privateRomSha256": "2d7ddfa7e74eb3c572a00e732b1b2fce201b5c274d32317c68d09cb473984ecc"
+  },
+  "limitations": [
+    "Private compressed proof against saved source-stable2e2a574e ROM; integrated batch residency and both independent cores belong to root.",
+    "Scene347 source roles are audited only; no controller run claimed.",
+    "Chassis fixed original allocation2944bytes and following240-byte reserved assembly record remain mandatory.",
+    "Source-derived motion review is separate from actual native event timing and controller progression."
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "key": "swamp-dozer",
+  "status": "Frozen inactive24-slot source mapping; runtime full-batch scene budget pending",
+  "nativeGfx": 99,
+  "nativeAssembly": 58,
+  "nativeAnimation": 93,
+  "nativeEnemies": [
+    0,
+    130
+  ],
+  "nativeSlots": 24,
+  "originalPoseReference": "assets/imagegen/swamp-dozer/original-pose-comparison.json",
+  "roleCorrection": {
+    "17": "Rear arched/tucked airborne headbutt preparation; original procedural raised arms is not the native pose.",
+    "19": "Front/top-down headbutt impact crouch with eyes visible; original procedural upside-down back idle is not the native pose."
+  },
+  "map": [
+    {
+      "nativeFrame": 0,
+      "role": "rear contact A",
+      "pose": "native",
+      "facing": 1,
+      "phase": 0,
+      "source": 0,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 1,
+      "role": "rear standing/passing",
+      "pose": "native",
+      "facing": 1,
+      "phase": 1,
+      "source": 1,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 2,
+      "role": "rear contact B",
+      "pose": "native",
+      "facing": 1,
+      "phase": 2,
+      "source": 8,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 3,
+      "role": "front contact A",
+      "pose": "native",
+      "facing": 1,
+      "phase": 3,
+      "source": 2,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 4,
+      "role": "front standing/passing",
+      "pose": "native",
+      "facing": 1,
+      "phase": 4,
+      "source": 3,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 5,
+      "role": "front contact B",
+      "pose": "native",
+      "facing": 1,
+      "phase": 5,
+      "source": 7,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 6,
+      "role": "left extended contact",
+      "pose": "native",
+      "facing": 1,
+      "phase": 6,
+      "source": 4,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 7,
+      "role": "left standing/passing",
+      "pose": "native",
+      "facing": 1,
+      "phase": 7,
+      "source": 5,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 8,
+      "role": "left toe-off",
+      "pose": "native",
+      "facing": 1,
+      "phase": 8,
+      "source": 18,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 9,
+      "role": "right extended contact",
+      "pose": "native",
+      "facing": 1,
+      "phase": 9,
+      "source": {
+        "frame": 4,
+        "flip": true
+      },
+      "kind": "adapted",
+      "reason": "Whole-source horizontal mirror supplies the matching directional role; no anatomy is repainted."
+    },
+    {
+      "nativeFrame": 10,
+      "role": "right standing/passing",
+      "pose": "native",
+      "facing": 1,
+      "phase": 10,
+      "source": {
+        "frame": 5,
+        "flip": true
+      },
+      "kind": "adapted",
+      "reason": "Whole-source horizontal mirror supplies the matching directional role; no anatomy is repainted."
+    },
+    {
+      "nativeFrame": 11,
+      "role": "right toe-off",
+      "pose": "native",
+      "facing": 1,
+      "phase": 11,
+      "source": {
+        "frame": 18,
+        "flip": true
+      },
+      "kind": "adapted",
+      "reason": "Whole-source horizontal mirror supplies the matching directional role; no anatomy is repainted."
+    },
+    {
+      "nativeFrame": 12,
+      "role": "front small arms/yawn",
+      "pose": "native",
+      "facing": 1,
+      "phase": 12,
+      "source": 9,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 13,
+      "role": "front alert",
+      "pose": "native",
+      "facing": 1,
+      "phase": 13,
+      "source": 10,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 14,
+      "role": "front wide arms/yawn",
+      "pose": "native",
+      "facing": 1,
+      "phase": 14,
+      "source": 11,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 15,
+      "role": "front crouch",
+      "pose": "native",
+      "facing": 1,
+      "phase": 15,
+      "source": 12,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 16,
+      "role": "rear crouch preparation",
+      "pose": "native",
+      "facing": 1,
+      "phase": 16,
+      "source": 13,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 17,
+      "role": "rear tucked airborne headbutt preparation",
+      "pose": "native",
+      "facing": 1,
+      "phase": 17,
+      "source": 17,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 18,
+      "role": "front flinch",
+      "pose": "native",
+      "facing": 1,
+      "phase": 18,
+      "source": 14,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 19,
+      "role": "front headbutt impact crouch",
+      "pose": "native",
+      "facing": 1,
+      "phase": 19,
+      "source": 6,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 20,
+      "role": "left brace",
+      "pose": "native",
+      "facing": 1,
+      "phase": 20,
+      "source": {
+        "frame": 15,
+        "flip": true
+      },
+      "kind": "adapted",
+      "reason": "Whole-source horizontal mirror supplies the matching directional role; no anatomy is repainted."
+    },
+    {
+      "nativeFrame": 21,
+      "role": "left lunge",
+      "pose": "native",
+      "facing": 1,
+      "phase": 21,
+      "source": 16,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 22,
+      "role": "right brace",
+      "pose": "native",
+      "facing": 1,
+      "phase": 22,
+      "source": 15,
+      "kind": "source",
+      "reason": "Selected actual generated drawing matches the observed native role."
+    },
+    {
+      "nativeFrame": 23,
+      "role": "right lunge",
+      "pose": "native",
+      "facing": 1,
+      "phase": 23,
+      "source": {
+        "frame": 16,
+        "flip": true
+      },
+      "kind": "adapted",
+      "reason": "Whole-source horizontal mirror supplies the matching directional role; no anatomy is repainted."
+    }
+  ],
+  "notes": [
+    "Front/back opposite contacts come from the correction sheet, not from repeated same-support original requests.",
+    "Profile third phases are distinct toe-off drawings; no claim is made that the base sheet had three genuine phases.",
+    "Actual generated sources are high-resolution raster art. Native downsampling and12-color indexing are explicitly recorded.",
+    "Original native IDs, frameOffsets and animation timing remain unchanged; no source Chrono Trigger pixels enter the generated artwork.",
+    "Five native directional slots use whole-source horizontal mirrors;19 selected generated drawings supply24 distinct indexed native images. Unselected generated right-facing alternatives remain preserved in provenance."
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "status": "Inactive generated source and exact native geometry proposal",
+  "nativeFrames": 13,
+  "authoredSourcePoses": 8,
+  "unusedSourceFrames": [],
+  "width": 64,
+  "height": 64,
+  "size": 0,
+  "cells": 4,
+  "anchor": [
+    0,
+    0
+  ],
+  "frameOffsets": [
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      -2,
+      5
+    ],
+    [
+      -2,
+      4
+    ],
+    [
+      -1,
+      5
+    ],
+    [
+      1,
+      -2
+    ]
+  ],
+  "nativeMap": [
+    0,
+    1,
+    {
+      "frame": 0,
+      "flip": true
+    },
+    2,
+    3,
+    {
+      "frame": 2,
+      "flip": true
+    },
+    5,
+    6,
+    7,
+    {
+      "frame": 5,
+      "flip": true
+    },
+    {
+      "frame": 6,
+      "flip": true
+    },
+    {
+      "frame": 7,
+      "flip": true
+    },
+    4
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "role": "rear-oblique low running step",
+      "originalBounds": [
+        -9,
+        -25,
+        17,
+        26
+      ],
+      "nativeBottomPixel": 0,
+      "source": 0,
+      "sampledBounds": [
+        22,
+        34,
+        19,
+        26
+      ],
+      "proposedNativeBounds": [
+        -10,
+        -25,
+        19,
+        26
+      ],
+      "cellOrigins": [
+        [
+          11,
+          32
+        ],
+        [
+          27,
+          32
+        ],
+        [
+          15,
+          48
+        ],
+        [
+          31,
+          48
+        ]
+      ],
+      "occupiedCells": 4,
+      "stripAxis": "y",
+      "sourcePixelSha256": "37733c8a0e173b85a7b98ac139fb8c276dc83bc81832314e1d6be562aae96217"
+    },
+    {
+      "frame": 1,
+      "role": "straight rear raised passing step",
+      "originalBounds": [
+        -8,
+        -28,
+        16,
+        28
+      ],
+      "nativeBottomPixel": -1,
+      "source": 1,
+      "sampledBounds": [
+        23,
+        32,
+        17,
+        28
+      ],
+      "proposedNativeBounds": [
+        -8,
+        -28,
+        17,
+        28
+      ],
+      "cellOrigins": [
+        [
+          23,
+          28
+        ],
+        [
+          23,
+          44
+        ],
+        [
+          39,
+          35
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "occupiedCells": 3,
+      "stripAxis": "x",
+      "sourcePixelSha256": "508ce752e6a9fe11254c7551fa954d620748e22c33468e17d3a4a6b7e9cfb265"
+    },
+    {
+      "frame": 2,
+      "role": "rear-oblique opposite low running step",
+      "originalBounds": [
+        -8,
+        -25,
+        17,
+        26
+      ],
+      "nativeBottomPixel": 0,
+      "source": {
+        "frame": 0,
+        "flip": true
+      },
+      "sampledBounds": [
+        23,
+        34,
+        19,
+        26
+      ],
+      "proposedNativeBounds": [
+        -9,
+        -25,
+        19,
+        26
+      ],
+      "cellOrigins": [
+        [
+          13,
+          32
+        ],
+        [
+          29,
+          32
+        ],
+        [
+          9,
+          48
+        ],
+        [
+          25,
+          48
+        ]
+      ],
+      "occupiedCells": 4,
+      "stripAxis": "y",
+      "sourcePixelSha256": "5014da837d828c4e37888f67aa0fb952d9214182d6305bf853b08f80a33bf114"
+    },
+    {
+      "frame": 3,
+      "role": "front-oblique low running step",
+      "originalBounds": [
+        -9,
+        -29,
+        17,
+        30
+      ],
+      "nativeBottomPixel": 0,
+      "source": 2,
+      "sampledBounds": [
+        24,
+        30,
+        16,
+        30
+      ],
+      "proposedNativeBounds": [
+        -8,
+        -29,
+        16,
+        30
+      ],
+      "cellOrigins": [
+        [
+          24,
+          28
+        ],
+        [
+          23,
+          44
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          16,
+          0
+        ]
+      ],
+      "occupiedCells": 2,
+      "stripAxis": "y",
+      "sourcePixelSha256": "66063462448ff357809a44169213ca7d5ffc478d8404c78d48218b28440f15b7"
+    },
+    {
+      "frame": 4,
+      "role": "straight front raised passing step",
+      "originalBounds": [
+        -9,
+        -34,
+        17,
+        32
+      ],
+      "nativeBottomPixel": -3,
+      "source": 3,
+      "sampledBounds": [
+        24,
+        28,
+        16,
+        32
+      ],
+      "proposedNativeBounds": [
+        -8,
+        -34,
+        16,
+        32
+      ],
+      "cellOrigins": [
+        [
+          24,
+          28
+        ],
+        [
+          23,
+          44
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          16,
+          0
+        ]
+      ],
+      "occupiedCells": 2,
+      "stripAxis": "y",
+      "sourcePixelSha256": "b8d8a12359364e8fb01942facf2928c8bfac8ba1ebae2981402d3e0dcff90f78"
+    },
+    {
+      "frame": 5,
+      "role": "front-oblique opposite low running step",
+      "originalBounds": [
+        -8,
+        -29,
+        17,
+        30
+      ],
+      "nativeBottomPixel": 0,
+      "source": {
+        "frame": 2,
+        "flip": true
+      },
+      "sampledBounds": [
+        24,
+        30,
+        16,
+        30
+      ],
+      "proposedNativeBounds": [
+        -7,
+        -29,
+        16,
+        30
+      ],
+      "cellOrigins": [
+        [
+          24,
+          28
+        ],
+        [
+          25,
+          44
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          16,
+          0
+        ]
+      ],
+      "occupiedCells": 2,
+      "stripAxis": "y",
+      "sourcePixelSha256": "224422b6073bb07171d1af5afc9ffb33e40e0fb19f27acf114cad5ee5b5082e0"
+    },
+    {
+      "frame": 6,
+      "role": "left profile low running contact",
+      "originalBounds": [
+        -14,
+        -24,
+        32,
+        25
+      ],
+      "nativeBottomPixel": 0,
+      "source": 5,
+      "sampledBounds": [
+        17,
+        35,
+        30,
+        25
+      ],
+      "proposedNativeBounds": [
+        -13,
+        -24,
+        30,
+        25
+      ],
+      "cellOrigins": [
+        [
+          15,
+          28
+        ],
+        [
+          31,
+          28
+        ],
+        [
+          15,
+          44
+        ],
+        [
+          31,
+          44
+        ]
+      ],
+      "occupiedCells": 4,
+      "stripAxis": "y",
+      "sourcePixelSha256": "56792a0857f2d56077b05d1d06f25e5e591d3a22c60547bea5b7e68edcc83743"
+    },
+    {
+      "frame": 7,
+      "role": "left profile raised passing step",
+      "originalBounds": [
+        -14,
+        -28,
+        32,
+        28
+      ],
+      "nativeBottomPixel": -1,
+      "source": 6,
+      "sampledBounds": [
+        20,
+        32,
+        24,
+        28
+      ],
+      "proposedNativeBounds": [
+        -10,
+        -28,
+        24,
+        28
+      ],
+      "cellOrigins": [
+        [
+          12,
+          32
+        ],
+        [
+          28,
+          32
+        ],
+        [
+          24,
+          48
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "occupiedCells": 3,
+      "stripAxis": "y",
+      "sourcePixelSha256": "1dc3d5c15e38164f489453bad6e998d408e5fafc303f60f9f462196326ed9e4e"
+    },
+    {
+      "frame": 8,
+      "role": "left profile alternate low contact",
+      "originalBounds": [
+        -14,
+        -24,
+        30,
+        25
+      ],
+      "nativeBottomPixel": 0,
+      "source": 7,
+      "sampledBounds": [
+        16,
+        35,
+        32,
+        25
+      ],
+      "proposedNativeBounds": [
+        -15,
+        -24,
+        32,
+        25
+      ],
+      "cellOrigins": [
+        [
+          18,
+          28
+        ],
+        [
+          34,
+          28
+        ],
+        [
+          15,
+          44
+        ],
+        [
+          31,
+          44
+        ]
+      ],
+      "occupiedCells": 4,
+      "stripAxis": "y",
+      "sourcePixelSha256": "f7f85625f24c844d644329318680d86750dab2c9699827f79aa800cabc0297dc"
+    },
+    {
+      "frame": 9,
+      "role": "right profile low running contact",
+      "originalBounds": [
+        -18,
+        -24,
+        32,
+        25
+      ],
+      "nativeBottomPixel": 0,
+      "source": {
+        "frame": 5,
+        "flip": true
+      },
+      "sampledBounds": [
+        17,
+        35,
+        30,
+        25
+      ],
+      "proposedNativeBounds": [
+        -17,
+        -24,
+        30,
+        25
+      ],
+      "cellOrigins": [
+        [
+          17,
+          28
+        ],
+        [
+          33,
+          28
+        ],
+        [
+          17,
+          44
+        ],
+        [
+          33,
+          44
+        ]
+      ],
+      "occupiedCells": 4,
+      "stripAxis": "y",
+      "sourcePixelSha256": "b7de5a58d999d25bd71f1d958012ed9cd4823eeb6140ed78a5fe19577a88ea8c"
+    },
+    {
+      "frame": 10,
+      "role": "right profile raised passing step",
+      "originalBounds": [
+        -18,
+        -28,
+        32,
+        28
+      ],
+      "nativeBottomPixel": -1,
+      "source": {
+        "frame": 6,
+        "flip": true
+      },
+      "sampledBounds": [
+        20,
+        32,
+        24,
+        28
+      ],
+      "proposedNativeBounds": [
+        -14,
+        -28,
+        24,
+        28
+      ],
+      "cellOrigins": [
+        [
+          12,
+          32
+        ],
+        [
+          28,
+          32
+        ],
+        [
+          24,
+          48
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "occupiedCells": 3,
+      "stripAxis": "y",
+      "sourcePixelSha256": "6cbc915a26e416b69c2ab67f1584efd3434998462d2252db4021b435e6c3f1bf"
+    },
+    {
+      "frame": 11,
+      "role": "right profile alternate low contact",
+      "originalBounds": [
+        -16,
+        -24,
+        30,
+        25
+      ],
+      "nativeBottomPixel": 0,
+      "source": {
+        "frame": 7,
+        "flip": true
+      },
+      "sampledBounds": [
+        16,
+        35,
+        32,
+        25
+      ],
+      "proposedNativeBounds": [
+        -17,
+        -24,
+        32,
+        25
+      ],
+      "cellOrigins": [
+        [
+          14,
+          28
+        ],
+        [
+          30,
+          28
+        ],
+        [
+          17,
+          44
+        ],
+        [
+          33,
+          44
+        ]
+      ],
+      "occupiedCells": 4,
+      "stripAxis": "y",
+      "sourcePixelSha256": "22a4cb2567570e3066a1e8cce272bb90afaf43f5d914f0905b1b88867c9312d3"
+    },
+    {
+      "frame": 12,
+      "role": "front airborne open-mouth recoil, curled limbs and hanging tail",
+      "originalBounds": [
+        -11,
+        -45,
+        23,
+        39
+      ],
+      "nativeBottomPixel": -7,
+      "source": 4,
+      "sampledBounds": [
+        21,
+        21,
+        21,
+        39
+      ],
+      "proposedNativeBounds": [
+        -10,
+        -45,
+        21,
+        39
+      ],
+      "cellOrigins": [
+        [
+          24,
+          13
+        ],
+        [
+          13,
+          29
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          18,
+          45
+        ]
+      ],
+      "occupiedCells": 4,
+      "stripAxis": "y",
+      "sourcePixelSha256": "2ad1b8d7d7f0352be20e270de67fec5279ba542538532bd5810add714cf37e03"
+    }
+  ],
+  "integration": "Keep13 native slots, four cells, full size0, IDs, programs, current palettes. Use authored cell origins and frameOffsets. Only verified original source duplicates and whole-source horizontal mirrors are reused."
+}

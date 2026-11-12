@@ -1,0 +1,89 @@
+{
+  "key": "furnace-maw",
+  "name": "Furnace Maw",
+  "gfx": 34,
+  "groups": [
+    {
+      "art": "furnace-maw",
+      "asm": 23,
+      "size": 6,
+      "width": 48,
+      "height": 64,
+      "frames": 8,
+      "anchor": [
+        0,
+        16
+      ],
+      "frameOffsets": {
+        "1": [
+          0,
+          8
+        ],
+        "2": [
+          -8,
+          0
+        ],
+        "3": [
+          -8,
+          2
+        ],
+        "4": [
+          8,
+          0
+        ],
+        "5": [
+          8,
+          2
+        ]
+      }
+    }
+  ],
+  "actors": [
+    {
+      "key": "furnace-maw",
+      "name": "Furnace Maw",
+      "short": "Furnace Maw",
+      "enemy": 188,
+      "asm": 23,
+      "palette": 229,
+      "animation": 164,
+      "colors": [
+        "24272c",
+        "39434a",
+        "607477",
+        "99ada5",
+        "d3dfc4",
+        "553a32",
+        "926044",
+        "c4935b",
+        "81312c",
+        "d96032",
+        "ffd777",
+        "fff0c8"
+      ]
+    },
+    {
+      "key": "buried-kiln",
+      "name": "Buried Furnace",
+      "short": "Buried Kiln",
+      "enemy": 189,
+      "asm": 23,
+      "palette": 230,
+      "animation": 164,
+      "colors": [
+        "2c242b",
+        "4d393e",
+        "805955",
+        "b98a70",
+        "e2b994",
+        "49303b",
+        "79505d",
+        "b8847c",
+        "883248",
+        "dc646a",
+        "f5c887",
+        "fff0d0"
+      ]
+    }
+  ]
+}

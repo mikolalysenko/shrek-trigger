@@ -1,0 +1,134 @@
+{
+  "activation": false,
+  "tool": "Built-in image_gen.imagegen",
+  "skill": "/Users/mikolalysenko/.codex/skills/.system/imagegen/SKILL.md",
+  "intent": "User-authorized generated sprite pass; established future-wildlife frog guards and squires assignment",
+  "date": "2026-11-01",
+  "generatedDirectory": "/Users/mikolalysenko/.codex/generated_images/01a19403-ca01-7341-a071-af653bc34995",
+  "transparentBackground": true,
+  "sources": [
+    {
+      "file": "source-base-v1.png",
+      "prompt": "prompt-base-v1.txt",
+      "generatedFile": "exec-fddffa08-4983-4031-b348-77434500be05.png",
+      "references": [
+        "assets/imagegen/frog-guards/review/original-4x.png"
+      ],
+      "cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "role": "Four-direction gait contacts/passing and front/rear spread arms; output cell6 faces right and is mirrored for native8.",
+      "image": {
+        "file": "assets/imagegen/frog-guards/source-base-v1.png",
+        "bytes": 1605948,
+        "sha256": "f811ad85210afd8eea158499c09056c2de576e041d90da0e40cee34c6be5ae73"
+      },
+      "promptRecord": {
+        "file": "assets/imagegen/frog-guards/prompt-base-v1.txt",
+        "bytes": 3698,
+        "sha256": "f2fcca7b1a3d9126fcbb1e60e3c9e14bd85a9c7ac83f3dabc09e0527946652f3"
+      },
+      "referenceRecords": [
+        {
+          "file": "assets/imagegen/frog-guards/review/original-4x.png",
+          "bytes": 29591,
+          "sha256": "16103a29b9a4ab49271ba2ce3a950063c5e3f51bc490266d79fe6fb7fa276e19"
+        }
+      ]
+    },
+    {
+      "file": "source-actions-v1.png",
+      "prompt": "prompt-actions-v1.txt",
+      "generatedFile": "exec-b03528b3-6aa8-4dbc-85c4-1976dec30de3.png",
+      "references": [
+        "assets/imagegen/frog-guards/source-base-v1.png",
+        "assets/imagegen/frog-guards/review/original-4x.png"
+      ],
+      "cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "unusedCells": [
+        7
+      ],
+      "role": "Recoil, low-arm gesture, two inflation stages, rear upward tongues, front short tongue, left profile short/full attack.",
+      "image": {
+        "file": "assets/imagegen/frog-guards/source-actions-v1.png",
+        "bytes": 1574746,
+        "sha256": "01784653a1134b7e01c48c4fbebc1fadc689d1fd23a0a70230ae34b63120fe38"
+      },
+      "promptRecord": {
+        "file": "assets/imagegen/frog-guards/prompt-actions-v1.txt",
+        "bytes": 4236,
+        "sha256": "f6a3832ba4f37d2e05621095f498819a93ccd8551d362c4093b99b1925a1c4c8"
+      },
+      "referenceRecords": [
+        {
+          "file": "assets/imagegen/frog-guards/source-base-v1.png",
+          "bytes": 1605948,
+          "sha256": "f811ad85210afd8eea158499c09056c2de576e041d90da0e40cee34c6be5ae73"
+        },
+        {
+          "file": "assets/imagegen/frog-guards/review/original-4x.png",
+          "bytes": 29591,
+          "sha256": "16103a29b9a4ab49271ba2ce3a950063c5e3f51bc490266d79fe6fb7fa276e19"
+        }
+      ]
+    },
+    {
+      "file": "source-down-tongue-v2.png",
+      "prompt": "prompt-down-tongue-v2.txt",
+      "generatedFile": "exec-056f9044-fcc8-4d24-8ef1-ca0787c5b212.png",
+      "references": [
+        "assets/imagegen/frog-guards/source-actions-v1.png"
+      ],
+      "cells": [
+        0
+      ],
+      "role": "Corrected native21 long downward tongue with original23×40 bounds; initial action-cell7 made the body too large.",
+      "image": {
+        "file": "assets/imagegen/frog-guards/source-down-tongue-v2.png",
+        "bytes": 372206,
+        "sha256": "f245ce87dfdfb76267733ab06dd76fa514c17ca8dfa0dc8e1992d7948efb7506"
+      },
+      "promptRecord": {
+        "file": "assets/imagegen/frog-guards/prompt-down-tongue-v2.txt",
+        "bytes": 1346,
+        "sha256": "983e3802bfd895e06d4c364cf5cd0398668340d6689a5241d8b1cb1adcfb8e39"
+      },
+      "referenceRecords": [
+        {
+          "file": "assets/imagegen/frog-guards/source-actions-v1.png",
+          "bytes": 1574746,
+          "sha256": "01784653a1134b7e01c48c4fbebc1fadc689d1fd23a0a70230ae34b63120fe38"
+        }
+      ]
+    }
+  ],
+  "reproduction": "Alpha128 connected components, uniform nearest sampling normalized to original body heights, existing12-color palette indexing, exact horizontal source mirrors, original bottom-mask overlay, integer anchors, native tile reuse and authored16×16cell boundaries. No source-pixel repainting or procedural anatomy.",
+  "originalRaster": {
+    "file": "source-native-shadows.json",
+    "sourceRomSha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+    "gfx": 98,
+    "asm": 57,
+    "paletteIndex": 1,
+    "selection": "Original lower connected masks, with native21 bounded atY3 to exclude old tongue rails; original coordinates retained underneath generated anatomy.",
+    "occlusion": "0–24 mask pixels are covered by the generated body, explicitly recorded per frame."
+  },
+  "paletteWrites": false
+}

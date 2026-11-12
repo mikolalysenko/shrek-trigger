@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {privateOverlay,dir,hash} from './private-overlay.mjs';
+import {u16,put16} from '../../../engine/rom.js';
+import {createCore} from '../../../scripts/core.mjs';
+import {newGame,runFrames} from '../../../engine/automation.js';
+import {installHooks} from '../../../engine/hooks.js';
+import {createDevTools} from '../../../engine/devtools.js';
+import {previewActors} from '../../../content/native-preview.js';
+const{c,rom,actors,baseline}=await privateOverlay(),out=dir+'/motion-verification/';await mkdir(out,{recursive:true});for(const a of actors)previewActors.push({...a,key:a.previewKey});
+const s=await createCore(rom);await newGame(s);const h=installHooks(s,JSON.parse(await readFile('content/hooks.json'))),d=createDevTools(s,h),proofs=[];let ticks=0;
+for(const key of['rumpel','wish-golem']){const actor=actors.find(a=>a.key===key),program=c.audit.families.find(f=>f.gfx===actor.gfx).animation;d.previewActor(actor.previewKey);runFrames(s,300);const preview=d.diagnostics().preview,x=preview.object*2;assert.equal(preview.object,15);d.cancel();s.ram.set([0xad,255,0x11,3],preview.script);runFrames(s,10);
+ for(const list of program.lists.filter(l=>l.steps.length)){put16(s.ram,0x1480+x,program.stride);put16(s.ram,0x1500+x,program.frameOffset&65535);put16(s.ram,0x1580+x,program.durationOffset&65535);s.ram[0x1600+x]=list.facing;s.ram[0x1601+x]=0;s.ram[0x1680+x]=list.mode;s.ram[0x1681+x]=255;s.ram[0x1780+x]=1;s.ram[0x10b01+x]=0;const raw=[];for(let tick=0;tick<240;tick++){runFrames(s,1);assert.equal(d.diagnostics().fatal,null);let t=tick%list.loopTicks,frame;for(const step of list.steps){frame=step.frame;if(t<step.ticks)break;t-=step.ticks;}assert.equal(s.ram[0xf01+x],frame,key+' mode '+list.mode+' facing '+list.facing+' exact tick '+tick);raw.push({tick,frame,index:s.ram[0x1681+x],timer:s.ram[0x1601+x]});}ticks+=raw.length;proofs.push({owner:key,animation:program.id,...list,observedTicks:raw.length,transitions:raw.filter((r,i)=>!i||r.frame!==raw[i-1].frame),traceSha256:hash(Buffer.from(JSON.stringify(raw)))});}
+ d.undo();console.log(key+': '+program.lists.filter(l=>l.steps.length).length+' original nonempty lists passed');}
+assert.deepEqual(s.cart.data,rom);d.dispose();h.dispose();await writeFile(out+'manifest.json',JSON.stringify({status:'Original native animation scheduler timing passed',baseline,privateRomSha256:hash(rom),nativeTimedTicks:ticks,listExecutions:proofs.length,programs:c.audit.families.map(f=>({id:f.animation.id,stride:f.animation.stride,frameSha256:f.animation.frameSha256,durationSha256:f.animation.durationSha256})),scenarios:proofs,cartridgeUnchanged:true,scope:'Both assembly groups execute every original nonempty facing/mode list for240ticks each. State restored only once at list start; no frame-by-frame injection. Both alternate owners share the exact programs and have separate static upload proofs.'},null,2)+'\n');console.log(JSON.stringify({ticks,lists:proofs.length}));

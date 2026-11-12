@@ -1,0 +1,106 @@
+{
+  "key": "moth-witch",
+  "sourceType": "image-generation",
+  "width": 32,
+  "height": 64,
+  "palette": [
+    "252737",
+    "493654",
+    "795a86",
+    "ad87ab",
+    "e2bfd3",
+    "294d50",
+    "5d8984",
+    "aac8b5",
+    "f6dfa0",
+    "97764e",
+    "cfb380",
+    "fff0d5"
+  ],
+  "directory": "assets/imagegen/moth-witch/draft-nearest",
+  "sheets": [
+    {
+      "file": "assets/imagegen/moth-witch/source-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 42,
+      "scaleCells": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "bottom": 63,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        {
+          "frame": 5,
+          "flip": true
+        },
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        11,
+        {
+          "frame": 13,
+          "flip": true
+        },
+        {
+          "frame": 11,
+          "flip": true
+        },
+        13,
+        15
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Generated complete moth-witch poses matched to all16 original native slots. Cast-left frames mirror the right cast; walk frame12 uses reflected source13 because generated cell12 faces right. No blank or idle substitution."
+      }
+    }
+  },
+  "notes": {
+    "status": "Inactive draft; native metrics and pose review pending",
+    "originalSize": "32×64,8 cells,16 frames",
+    "sourceCellsNotConsumed": [
+      8,
+      9,
+      10,
+      12,
+      14
+    ],
+    "unchangedPalette": true
+  }
+}

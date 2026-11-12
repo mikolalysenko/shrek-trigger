@@ -1,0 +1,138 @@
+{
+  "key": "rootling",
+  "directory": "assets/imagegen/rootling/active",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "242928",
+    "4b352c",
+    "86543a",
+    "bc8150",
+    "e8bd7a",
+    "243e34",
+    "41684b",
+    "82a566",
+    "254750",
+    "5f9296",
+    "d89038",
+    "f8e8b8"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/rootlings-briars/rootling/source-v1.png",
+      "columns": 3,
+      "rows": 4,
+      "nativeHeight": 21,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 61
+      },
+      "overrides": {
+        "0": {
+          "scale": 1
+        },
+        "1": {
+          "scale": 1.1638418079096045
+        },
+        "2": {
+          "scale": 0.9210820478426112
+        },
+        "3": {
+          "scale": 1.064240790655885
+        },
+        "4": {
+          "scale": 1.3510122611919018
+        },
+        "5": {
+          "scale": 1.064240790655885
+        },
+        "6": {
+          "scale": 1.0527293844367016
+        },
+        "7": {
+          "scale": 1.129892794814261
+        },
+        "8": {
+          "scale": 1.0084557187360927
+        },
+        "9": {
+          "scale": 1.0729166666666667
+        },
+        "10": {
+          "scale": 1.085124315212811
+        },
+        "11": {
+          "scale": 0.8828571428571429
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/rootlings-briars/rootling/source-proportions-v2.png",
+      "columns": 2,
+      "rows": 2,
+      "nativeHeight": 21,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 61
+      },
+      "overrides": {
+        "0": {
+          "scale": 1
+        },
+        "1": {
+          "scale": 1.0049392097264438
+        },
+        "2": {
+          "scale": 1.0756802721088436
+        },
+        "3": {
+          "scale": 0.8481289265228079
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "source": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "notes": {
+    "status": "Active source extraction followed by frozen native-layer composition; source sequences are not native frame order.",
+    "unusedSourceFrames": [
+      1,
+      4,
+      7,
+      11
+    ],
+    "pixels": "All anatomy, clothing, wood and leaves come from actual generated PNGs. Only nearest sampling, palette indexing, exact source mirrors and integer source-layer composition are used."
+  },
+  "nativeComposer": "rootlings-briars"
+}

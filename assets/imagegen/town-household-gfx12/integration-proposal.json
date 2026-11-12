@@ -1,0 +1,103 @@
+{
+  "status": "Frozen inactive integration proposal; root owns activation",
+  "key": "duloc-household-resident",
+  "sourceSpec": "assets/imagegen/town-household-gfx12/import-spec.draft.json",
+  "family": "assets/imagegen/town-household-gfx12/full-area/family.json",
+  "headerOwners": [
+    {
+      "kind": "npc",
+      "id": 21,
+      "originalHeader": [
+        12,
+        7,
+        135,
+        7,
+        0
+      ],
+      "proposedHeader": [
+        12,
+        248,
+        135,
+        7,
+        0
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 48,
+      "originalHeader": [
+        12,
+        7,
+        131,
+        7,
+        0
+      ],
+      "proposedHeader": [
+        12,
+        248,
+        131,
+        7,
+        0
+      ]
+    }
+  ],
+  "paletteIds": [
+    135,
+    131
+  ],
+  "palettes": [
+    {
+      "id": 135,
+      "sha256": "c1f546c90f9433c343b4fed466aa6e5538976571edb9e8017857aa693a943cd3"
+    },
+    {
+      "id": 131,
+      "sha256": "01eeff3a32c84a33d814957ecdeba1773b9b30d1ecb496db1a72bf375130d1de"
+    }
+  ],
+  "paletteWrites": 0,
+  "graphics": {
+    "gfx": 12,
+    "rawBytes": 3584,
+    "compressedBytes": 2883,
+    "rawSha256": "b497f3ed368b9c24e3e78801fa7be930da72f9062e8eac872ddef399bf0da22c",
+    "compressedSha256": "b0ef2ccaaa8398f5f0778188509404cc9a46a4c6495ade3dfdb11c924327e3a4",
+    "originalDecodedBytes": 2336,
+    "originalCompressedBytes": 1456,
+    "rawStreamRequired": true,
+    "streamGuard": "Explicit selected gfx12 owner contract; unrelated banks keep their existing guards.",
+    "extraWramBytes": 0,
+    "extraVramBytes": 0,
+    "storedGrowthBeforeAlignment": 5771
+  },
+  "assembly": {
+    "asm": 248,
+    "sourceAssembly": 7,
+    "sourceAssemblyReclaimable": false,
+    "reservedOwnersOnly": [
+      21,
+      48
+    ],
+    "frames": 19,
+    "cells": 4,
+    "bytes": 760,
+    "sha256": "7d72c346c78418fb9abdbfc7b6bf52692541d7ff047b94be14476ddb77e05ace",
+    "anchor": [
+      0,
+      12
+    ],
+    "originalSignedXYBytesPreserved": 152,
+    "overlapFrames": [],
+    "condition": "Root reserved248 after verifying zero pointer/no owners on original USA and417914. Repeat the owner/pointer/claim check before production placement; keep original7 pointer and760-byte packet exact."
+  },
+  "animation": {
+    "id": 7,
+    "programSha256": "ae62da40171981f42ac5d000675ed98cefbeca54218c6c2e7e34916a5167c198",
+    "durationSha256": "8a7f58a78ab9b3565165c503bec3eb3b73ad2f79b6d96b5ad0d5b849eff9150f",
+    "programBytes": 80,
+    "durationBytes": 20,
+    "changes": 0
+  },
+  "permittedChanges": "Only gfx12 compressed/raw pointers and owned source packets, new assembly248 pointer/packet, and NPC21/48 assembly header fields7→248. No palettes, original assembly7, AA7, AI, stats, events, collision, title, music or other assets.",
+  "activation": false
+}

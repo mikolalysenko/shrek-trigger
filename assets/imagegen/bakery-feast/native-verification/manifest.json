@@ -1,0 +1,206 @@
+{
+  "status": "Private compressed native proof; all three actual NPC owners passed",
+  "activeRomPath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateRomSha256": "ce30ec27afdb4115d613446f0b8fa4f9e5c92bbcde2f6f58958629449ee44731",
+  "nativeFrameUploads": 12,
+  "opaquePixelChecks": 4220,
+  "exactPaletteRgb": true,
+  "actualNpcLoads": [
+    122,
+    123,
+    94
+  ],
+  "paletteChecks": [
+    {
+      "actor": "bakery-drummer",
+      "npc": 122,
+      "palette": 123,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 7
+    },
+    {
+      "actor": "bakery-log-drummer",
+      "npc": 123,
+      "palette": 123,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 8
+    },
+    {
+      "actor": "onion-bread-plate",
+      "npc": 94,
+      "palette": 123,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 9
+    }
+  ],
+  "paletteBytesUnchanged": true,
+  "originalUnrelatedPaletteBytesUnchanged": true,
+  "sharedPaletteOwnerSnapshot": "shared-village-owners.json",
+  "cartridgeUnchanged": true,
+  "isolatedPreviewHeaps": [
+    {
+      "actor": "bakery-drummer",
+      "heapEnd": 34656,
+      "heapBytes": 1888
+    },
+    {
+      "actor": "bakery-log-drummer",
+      "heapEnd": 34656,
+      "heapBytes": 1888
+    },
+    {
+      "actor": "onion-bread-plate",
+      "heapEnd": 34752,
+      "heapBytes": 1984
+    }
+  ],
+  "candidates": [
+    {
+      "key": "drummer",
+      "rawGraphicsBytes": 928,
+      "compressedBytes": 581,
+      "assemblyBytes": 80,
+      "originalRawBytes": 480,
+      "blankFrames": [],
+      "anchor": [
+        0,
+        0
+      ],
+      "frameOffsets": {},
+      "sourceProvenance": [
+        {
+          "file": "assets/imagegen/bakery-feast/source-drummer-v1.png",
+          "sha256": "cd27169a168993df0ad37811365a606855e3d6682c67da2f886baf54d5efe7c7",
+          "sourceType": "image-generation"
+        }
+      ]
+    },
+    {
+      "key": "percussionist",
+      "rawGraphicsBytes": 928,
+      "compressedBytes": 604,
+      "assemblyBytes": 80,
+      "originalRawBytes": 800,
+      "blankFrames": [],
+      "anchor": [
+        0,
+        0
+      ],
+      "frameOffsets": {},
+      "sourceProvenance": [
+        {
+          "file": "assets/imagegen/bakery-feast/source-percussionist-v1.png",
+          "sha256": "a42decac0daeee7bb4731a84085c83c80dfb8dce156957bdadfcfc282c95b8c5",
+          "sourceType": "image-generation"
+        }
+      ]
+    },
+    {
+      "key": "platter",
+      "rawGraphicsBytes": 1024,
+      "compressedBytes": 654,
+      "assemblyBytes": 320,
+      "originalRawBytes": 608,
+      "blankFrames": [],
+      "anchor": [
+        0,
+        8
+      ],
+      "frameOffsets": {
+        "2": [
+          0,
+          -9
+        ],
+        "3": [
+          0,
+          -28
+        ],
+        "4": [
+          0,
+          -14
+        ],
+        "5": [
+          0,
+          -30
+        ],
+        "6": [
+          0,
+          -5
+        ],
+        "7": [
+          0,
+          -5
+        ]
+      },
+      "sourceProvenance": [
+        {
+          "file": "assets/imagegen/bakery-feast/source-platter-v1.png",
+          "sha256": "b7e309aa88fb4db633470ce94fc7fce8d7314894c0cbc243789954b893b2a0f3",
+          "sourceType": "image-generation"
+        }
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "key": "drummer",
+      "packetOffset": 8192000,
+      "assemblyOffset": 8192592
+    },
+    {
+      "key": "percussionist",
+      "packetOffset": 8192672,
+      "assemblyOffset": 8193280
+    },
+    {
+      "key": "platter",
+      "packetOffset": 8193360,
+      "assemblyOffset": 8194016
+    }
+  ],
+  "sceneUnionBudget": [
+    {
+      "location": 7,
+      "candidateBytes": 10464,
+      "spareBytes": 22304,
+      "exceedsBudget": false
+    },
+    {
+      "location": 91,
+      "candidateBytes": 25888,
+      "spareBytes": 6880,
+      "exceedsBudget": false
+    },
+    {
+      "location": 280,
+      "candidateBytes": 8608,
+      "spareBytes": 24160,
+      "exceedsBudget": false
+    },
+    {
+      "location": 306,
+      "candidateBytes": 2176,
+      "spareBytes": 30592,
+      "exceedsBudget": false
+    },
+    {
+      "location": 339,
+      "candidateBytes": 17696,
+      "spareBytes": 15072,
+      "exceedsBudget": false
+    }
+  ],
+  "settledCaptureMinimumFrames": 30,
+  "extraVramBytes": 0,
+  "cellCount": 4,
+  "overlap": false,
+  "wholeSceneOrIndependentCoreProof": false,
+  "strictOriginalFamilyGuard": "Retained; root owns production streaming and actual shared scene loads."
+}

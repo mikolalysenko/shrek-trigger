@@ -1,0 +1,198 @@
+{
+  "key": "duloc-household-resident",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/town-household-gfx12/full-area",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "313131",
+    "dedede",
+    "ffe7ad",
+    "ff9c6b",
+    "734221",
+    "dead31",
+    "bd5208",
+    "8494c6",
+    "6b4284",
+    "d6634a",
+    "a53129",
+    "73738c"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/town-household-gfx12/source-base-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "cells": [
+        1,
+        2,
+        4,
+        5,
+        13
+      ],
+      "nativeHeight": 30,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 51,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "4": {
+          "scale": 0.967741935483871
+        },
+        "5": {
+          "scale": 0.967741935483871
+        },
+        "13": {
+          "scale": 0.9666666666666667
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/town-household-gfx12/source-face-v2.png",
+      "columns": 4,
+      "rows": 4,
+      "cells": [
+        0,
+        8,
+        9
+      ],
+      "nativeHeight": 30,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 51,
+        "alphaThreshold": 128
+      }
+    },
+    {
+      "file": "assets/imagegen/town-household-gfx12/source-left-contact-b-v3.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 29,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 51,
+        "alphaThreshold": 128
+      }
+    },
+    {
+      "file": "assets/imagegen/town-household-gfx12/derived-hair-fragment-area.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 6,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "bottom": 51,
+        "alphaThreshold": 128
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        {
+          "frame": 0
+        },
+        {
+          "frame": 5
+        },
+        {
+          "frame": 1,
+          "dx": 1
+        },
+        {
+          "frame": 1,
+          "flip": true,
+          "dx": -1
+        },
+        {
+          "frame": 2,
+          "dx": 1
+        },
+        {
+          "frame": 3,
+          "dx": 1,
+          "dy": 1
+        },
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 3,
+          "flip": true,
+          "dy": 1
+        },
+        {
+          "frame": 6
+        },
+        {
+          "frame": 7,
+          "dy": 1
+        },
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true,
+          "dy": 1
+        },
+        {
+          "frame": 4,
+          "dx": 1
+        },
+        {
+          "frame": 8,
+          "dx": 1
+        },
+        {
+          "frame": 4,
+          "flip": true
+        },
+        {
+          "frame": 8,
+          "flip": true
+        },
+        {
+          "frame": 0,
+          "dissolve": 11
+        },
+        {
+          "frame": 9,
+          "dx": -3,
+          "dy": -23
+        },
+        {
+          "frame": 9,
+          "flip": true,
+          "dx": 4,
+          "dy": -23
+        }
+      ]
+    }
+  }
+}

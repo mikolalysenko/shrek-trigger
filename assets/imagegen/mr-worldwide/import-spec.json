@@ -1,0 +1,26 @@
+{
+  "key": "mr-worldwide",
+  "width": 48,
+  "height": 64,
+  "palette": ["080810","292931","737bad","9ca5ce","bdbdd6","fffff7","944a29","ad6339","e78c52","c60808","f79c31","fff784"],
+  "sheets": [
+    {
+      "file": "assets/imagegen/mr-worldwide/source-v2.png",
+      "columns": 4,
+      "rows": 2,
+      "nativeHeight": 52,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "scaleCells": [0, 1, 2],
+      "backgroundMask": {"key": "ff00ff", "tolerance": 110},
+      "cells": [0, 0, 0, 3, 4, 5, 6, 7],
+      "sample": {"method": "area", "coverageThreshold": 0.4},
+      "overrides": {}
+    }
+  ],
+  "rowShifts": [
+    {"frame": 1, "from": 0, "above": 45, "dy": -1},
+    {"frame": 2, "from": 0, "above": 45, "dy": 1}
+  ],
+  "sequences": {"native": {"1": [0, 1, 2, 3, 4, 5, 6, 7]}}
+}

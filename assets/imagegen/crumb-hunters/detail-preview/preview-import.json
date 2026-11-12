@@ -1,0 +1,333 @@
+{
+  "key": "crumb-hunter",
+  "frames": 16,
+  "width": 32,
+  "height": 32,
+  "opaqueColors": 12,
+  "palette": [
+    "292c30",
+    "4c5140",
+    "7e8556",
+    "b3b77c",
+    "e2d8a0",
+    "573b38",
+    "8c5341",
+    "bd8553",
+    "a3423e",
+    "ef8660",
+    "f7d8a4",
+    "fff0ce"
+  ],
+  "samplingPalette": [
+    "292c30",
+    "4c5140",
+    "7e8556",
+    "b3b77c",
+    "e2d8a0",
+    "573b38",
+    "8c5341",
+    "bd8553",
+    "a3423e",
+    "ef8660",
+    "f7d8a4",
+    "fff0ce"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/crumb-hunters/source-base-v1.png",
+      "sha256": "6c324959aca76a3a53c76beb72eddb7297c1e3bb33dc4ce5ba604bb2e1d2b1af",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1290,
+        1219
+      ],
+      "scale": 0.08139534883720931,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 31,
+        "scaleX": 0.85,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            130,
+            38,
+            240,
+            347
+          ],
+          "componentPixels": 47184
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            547,
+            40,
+            195,
+            338
+          ],
+          "componentPixels": 45393
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            926,
+            38,
+            244,
+            345
+          ],
+          "componentPixels": 47788
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            149,
+            429,
+            245,
+            348
+          ],
+          "componentPixels": 51501
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            534,
+            431,
+            224,
+            329
+          ],
+          "componentPixels": 49794
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            893,
+            426,
+            255,
+            346
+          ],
+          "componentPixels": 50696
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            72,
+            818,
+            378,
+            339
+          ],
+          "componentPixels": 64343
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            477,
+            818,
+            347,
+            344
+          ],
+          "componentPixels": 59542
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            877,
+            818,
+            363,
+            339
+          ],
+          "componentPixels": 57753
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/crumb-hunters/source-actions-v1.png",
+      "sha256": "ae734f6b3521bc0729ca9807d70eded7c2276dc0753e8ea406901232b3f57322",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "scale": 0.08668730650154799,
+      "chromaKey": [],
+      "regions": [
+        [
+          0,
+          0,
+          561,
+          350.5
+        ],
+        [
+          561,
+          0,
+          561,
+          350.5
+        ],
+        [
+          0,
+          350.5,
+          561,
+          350.5
+        ],
+        [
+          561,
+          350.5,
+          561,
+          350.5
+        ],
+        [
+          0,
+          701,
+          561,
+          350.5
+        ],
+        [
+          561,
+          701,
+          561,
+          350.5
+        ],
+        [
+          0,
+          1051.5,
+          561,
+          350.5
+        ]
+      ],
+      "sample": {
+        "method": "nearest",
+        "bottom": 31,
+        "scaleX": 0.85,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            172,
+            42,
+            296,
+            296
+          ],
+          "componentPixels": 58159
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            658,
+            46,
+            282,
+            298
+          ],
+          "componentPixels": 55439
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            131,
+            402,
+            395,
+            290
+          ],
+          "componentPixels": 65807
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            669,
+            359,
+            323,
+            345
+          ],
+          "componentPixels": 66880
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            186,
+            723,
+            271,
+            323
+          ],
+          "componentPixels": 57746
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            601,
+            750,
+            364,
+            296
+          ],
+          "componentPixels": 60823
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            103,
+            1060,
+            439,
+            299
+          ],
+          "componentPixels": 65979
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        {
+          "frame": 8,
+          "flip": true
+        },
+        9,
+        10,
+        11,
+        {
+          "frame": 11,
+          "flip": true
+        },
+        12,
+        13,
+        14,
+        15,
+        {
+          "frame": 15,
+          "flip": true
+        }
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "All 21 visible original slots map to 16 viewed generated poses. Original directions, hunched/raised second phases, startled marks and exact mirrors are preserved. No idle replacement."
+      }
+    }
+  }
+}

@@ -1,0 +1,573 @@
+{
+  "status": "Inactive reviewed complete source map; exact source mirror and native footprint checks passed",
+  "baselineSha256": "0758f532bcbf0322997553f1e11b40463e15ab463a54555e4a624b4cd4bacd3f",
+  "uniqueSampledFrames": 15,
+  "nativeFrames": 21,
+  "blankFrames": [],
+  "sourcePoseTransforms": "Only whole-raster mirrors, integer translations and recorded sampling scale; no anatomy/effects painted procedurally",
+  "frames": [
+    {
+      "frame": 0,
+      "label": "Rear idle",
+      "source": {
+        "frame": 0,
+        "dx": 1
+      },
+      "originalOpaqueBounds": [
+        -8,
+        -31,
+        16,
+        31
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/base-face-apron-v2.png",
+        "cell": 0,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 1.0164609053497944
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 1,
+      "label": "Front idle",
+      "source": {
+        "frame": 7,
+        "dx": 1
+      },
+      "originalOpaqueBounds": [
+        -7,
+        -31,
+        15,
+        31
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/front-face-source-v4.png",
+        "cell": 0,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 1
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 2,
+      "label": "Left idle / passing",
+      "source": {
+        "frame": 1
+      },
+      "originalOpaqueBounds": [
+        -6,
+        -31,
+        12,
+        31
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/base-face-apron-v2.png",
+        "cell": 2,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 1.0000000000000002
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 3,
+      "label": "Right idle / passing",
+      "source": {
+        "frame": 1,
+        "flip": true
+      },
+      "originalOpaqueBounds": [
+        -6,
+        -31,
+        12,
+        31
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/base-face-apron-v2.png",
+        "cell": 2,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 1.0000000000000002
+        }
+      },
+      "kind": "adapted",
+      "reason": "Whole-source mirror follows the original facing/opposite passing convention; exact translations are proved."
+    },
+    {
+      "frame": 4,
+      "label": "Rear contact A",
+      "source": {
+        "frame": 4,
+        "dx": 1
+      },
+      "originalOpaqueBounds": [
+        -8,
+        -31,
+        16,
+        31
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/gait-source-v3.png",
+        "cell": 0,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 0.9868421052631579
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 5,
+      "label": "Rear passing A",
+      "source": {
+        "frame": 5,
+        "dx": 1
+      },
+      "originalOpaqueBounds": [
+        -7,
+        -30,
+        15,
+        30
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/gait-source-v3.png",
+        "cell": 1,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 0.9988162178159219
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 6,
+      "label": "Rear contact B",
+      "source": {
+        "frame": 6,
+        "dx": 1
+      },
+      "originalOpaqueBounds": [
+        -8,
+        -31,
+        16,
+        31
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/gait-source-v3.png",
+        "cell": 2,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 0.9868421052631579
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 7,
+      "label": "Rear passing B",
+      "source": {
+        "frame": 5,
+        "flip": true,
+        "dx": -1
+      },
+      "originalOpaqueBounds": [
+        -8,
+        -30,
+        15,
+        30
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/gait-source-v3.png",
+        "cell": 1,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 0.9988162178159219
+        }
+      },
+      "kind": "adapted",
+      "reason": "Whole-source mirror follows the original facing/opposite passing convention; exact translations are proved."
+    },
+    {
+      "frame": 8,
+      "label": "Front contact A",
+      "source": {
+        "frame": 8
+      },
+      "originalOpaqueBounds": [
+        -8,
+        -31,
+        16,
+        31
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/actions-source-v1.png",
+        "cell": 0,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 0.9667519181585679
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 9,
+      "label": "Front passing A",
+      "source": {
+        "frame": 14
+      },
+      "originalOpaqueBounds": [
+        -8,
+        -30,
+        15,
+        30
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/front-passing-source-v2.png",
+        "cell": 0,
+        "sampler": {
+          "method": "nearest",
+          "scaleX": 1.04,
+          "bottom": 39
+        },
+        "override": {
+          "scale": 1
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 10,
+      "label": "Front contact B",
+      "source": {
+        "frame": 9
+      },
+      "originalOpaqueBounds": [
+        -8,
+        -31,
+        16,
+        31
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/actions-source-v1.png",
+        "cell": 2,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 0.9667519181585679
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 11,
+      "label": "Front passing B",
+      "source": {
+        "frame": 14,
+        "flip": true
+      },
+      "originalOpaqueBounds": [
+        -7,
+        -30,
+        15,
+        30
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/front-passing-source-v2.png",
+        "cell": 0,
+        "sampler": {
+          "method": "nearest",
+          "scaleX": 1.04,
+          "bottom": 39
+        },
+        "override": {
+          "scale": 1
+        }
+      },
+      "kind": "adapted",
+      "reason": "Whole-source mirror follows the original facing/opposite passing convention; exact translations are proved."
+    },
+    {
+      "frame": 12,
+      "label": "Left contact A",
+      "source": {
+        "frame": 2,
+        "dx": 1
+      },
+      "originalOpaqueBounds": [
+        -7,
+        -30,
+        14,
+        30
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/base-face-apron-v2.png",
+        "cell": 11,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 0.9561290322580646
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 13,
+      "label": "Left contact B",
+      "source": {
+        "frame": 3,
+        "dx": 1
+      },
+      "originalOpaqueBounds": [
+        -6,
+        -30,
+        12,
+        30
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/base-face-apron-v2.png",
+        "cell": 12,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 0.9677419354838711
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 14,
+      "label": "Right contact A",
+      "source": {
+        "frame": 2,
+        "flip": true,
+        "dx": -1
+      },
+      "originalOpaqueBounds": [
+        -7,
+        -30,
+        14,
+        30
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/base-face-apron-v2.png",
+        "cell": 11,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 0.9561290322580646
+        }
+      },
+      "kind": "adapted",
+      "reason": "Whole-source mirror follows the original facing/opposite passing convention; exact translations are proved."
+    },
+    {
+      "frame": 15,
+      "label": "Right contact B",
+      "source": {
+        "frame": 3,
+        "flip": true,
+        "dx": -1
+      },
+      "originalOpaqueBounds": [
+        -6,
+        -30,
+        12,
+        30
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/base-face-apron-v2.png",
+        "cell": 12,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 0.9677419354838711
+        }
+      },
+      "kind": "adapted",
+      "reason": "Whole-source mirror follows the original facing/opposite passing convention; exact translations are proved."
+    },
+    {
+      "frame": 16,
+      "label": "Startled front, sweat marks",
+      "source": {
+        "frame": 10
+      },
+      "originalOpaqueBounds": [
+        -8,
+        -32,
+        16,
+        32
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/actions-source-v1.png",
+        "cell": 4,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 1.0603085553997196
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 17,
+      "label": "Both hands raised, front",
+      "source": {
+        "frame": 11
+      },
+      "originalOpaqueBounds": [
+        -8,
+        -32,
+        16,
+        32
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/actions-source-v1.png",
+        "cell": 5,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 1.048907388137357
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 18,
+      "label": "Both hands raised, rear",
+      "source": {
+        "frame": 13
+      },
+      "originalOpaqueBounds": [
+        -8,
+        -32,
+        16,
+        32
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/actions-source-v1.png",
+        "cell": 8,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {
+          "scale": 1.0349961495678959
+        }
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 19,
+      "label": "Seated left, hands in lap",
+      "source": {
+        "frame": 12,
+        "dx": -4
+      },
+      "originalOpaqueBounds": [
+        -12,
+        -30,
+        15,
+        30
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/actions-source-v1.png",
+        "cell": 6,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {}
+      },
+      "kind": "source",
+      "reason": "Actual generated pose sampled from the recorded source PNG; no anatomy or effects painted."
+    },
+    {
+      "frame": 20,
+      "label": "Seated right, hands in lap",
+      "source": {
+        "frame": 12,
+        "flip": true,
+        "dx": 5,
+        "dy": -1
+      },
+      "originalOpaqueBounds": [
+        -2,
+        -31,
+        15,
+        30
+      ],
+      "sourcePose": {
+        "file": "assets/imagegen/townswomen-gfx36/actions-source-v1.png",
+        "cell": 6,
+        "sampler": {
+          "method": "area",
+          "bottom": 39
+        },
+        "override": {}
+      },
+      "kind": "adapted",
+      "reason": "Whole-source mirror follows the original facing/opposite passing convention; exact translations are proved."
+    }
+  ]
+}

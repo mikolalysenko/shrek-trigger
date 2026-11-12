@@ -1,0 +1,8 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {PNG} from 'pngjs';
+const dir='assets/imagegen/sir-sludge',a=JSON.parse(await readFile(dir+'/native-audit.json')),asset=JSON.parse(await readFile(dir+'/base-preview/preview-raster.json')),w=asset.width,h=asset.height,origin=[64,80];
+const frames=asset.sequences.native[1].map(entry=>{const e=typeof entry==='number'?{frame:entry}:entry,p=Uint8Array.from(asset.frames[e.frame],c=>parseInt(c,16)),out=new Uint8Array(w*h);for(let y=0;y<h;y++)for(let x=0;x<w;x++)if(p[y*w+x])out[(y+(e.dy??0))*w+(e.flip?w-1-x:x)+(e.dx??0)]=p[y*w+x];return out;});
+const coverage=frames.map((p,f)=>{const mask=new Uint8Array(w*h);for(const[x,y]of a.frames[f].cellOrigins)for(let yy=0;yy<16;yy++)for(let xx=0;xx<16;xx++)mask[(origin[1]+y+yy)*w+origin[0]+x+xx]++;const misses=Array.from(p,(v,i)=>v&&!mask[i]?[i%w-origin[0],Math.floor(i/w)-origin[1]]:null).filter(Boolean);return{frame:f,opaque:p.filter(Boolean).length,uncoveredPixels:misses.length,misses};});
+await writeFile(dir+'/base-placement-review.json',JSON.stringify(coverage,null,2)+'\n');
+for(const actor of a.actors)for(const scale of[1,6]){const cw=64,ch=64,cols=4,im=new PNG({width:cols*cw*scale,height:3*ch*scale}),rgb=actor.colors.map(c=>[0,2,4].map(i=>parseInt(c.slice(i,i+2),16)));for(let f=0;f<frames.length;f++)for(let y=0;y<ch;y++)for(let x=0;x<cw;x++){const k=frames[f][(y+24)*w+x+32];if(!k)continue;for(let yy=0;yy<scale;yy++)for(let xx=0;xx<scale;xx++)im.data.set([...rgb[k-1],255],((Math.floor(f/cols)*ch*scale+y*scale+yy)*im.width+f%cols*cw*scale+x*scale+xx)*4);}await writeFile(dir+'/review/base-'+actor.key+'-'+scale+'x.png',PNG.sync.write(im));}
+console.log(coverage.map(({misses,...f})=>f));

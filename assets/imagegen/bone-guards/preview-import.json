@@ -1,0 +1,284 @@
+{
+  "key": "bone-guards",
+  "frames": 15,
+  "width": 64,
+  "height": 64,
+  "opaqueColors": 12,
+  "palette": [
+    "212110",
+    "ffffff",
+    "e6d6b5",
+    "ff6b63",
+    "ad9c7b",
+    "e6bd63",
+    "c53a31",
+    "84734a",
+    "a57b3a",
+    "5a523a",
+    "9c1919",
+    "3a3a29"
+  ],
+  "samplingPalette": [
+    "212110",
+    "ffffff",
+    "e6d6b5",
+    "ff6b63",
+    "ad9c7b",
+    "e6bd63",
+    "c53a31",
+    "84734a",
+    "a57b3a",
+    "5a523a",
+    "9c1919",
+    "3a3a29"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/bone-guards/source-movement-v1.png",
+      "sha256": "6b4ffe78d0b6a548f5370f00d3c7dc5b56097cad616bb987b983cd00bd05b9f9",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "scale": 0.09836065573770492,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            142,
+            89,
+            249,
+            285
+          ],
+          "componentPixels": 30981
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            564,
+            83,
+            248,
+            290
+          ],
+          "componentPixels": 30342
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            993,
+            83,
+            269,
+            296
+          ],
+          "componentPixels": 32284
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            97,
+            465,
+            260,
+            314
+          ],
+          "componentPixels": 35539
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            516,
+            463,
+            256,
+            305
+          ],
+          "componentPixels": 33279
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            952,
+            464,
+            256,
+            318
+          ],
+          "componentPixels": 35870
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            128,
+            855,
+            279,
+            296
+          ],
+          "componentPixels": 36436
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            517,
+            850,
+            391,
+            292
+          ],
+          "componentPixels": 35987
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            971,
+            880,
+            228,
+            244
+          ],
+          "componentPixels": 31711
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/bone-guards/source-actions-v1.png",
+      "sha256": "29671fe7c57dee30cc379f751e0f97e9060876d35ec4d81756c465633eeaa5ae",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "scale": 0.09966777408637874,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.9
+        },
+        "4": {
+          "scale": 0.96
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            84,
+            134,
+            406,
+            354
+          ],
+          "componentPixels": 46500
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            704,
+            95,
+            199,
+            373
+          ],
+          "componentPixels": 39493
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            1198,
+            44,
+            185,
+            458
+          ],
+          "componentPixels": 42103
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            105,
+            654,
+            436,
+            301
+          ],
+          "componentPixels": 40839
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            590,
+            689,
+            492,
+            167
+          ],
+          "componentPixels": 40804
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            1231,
+            537,
+            166,
+            429
+          ],
+          "componentPixels": 39028
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        {
+          "frame": 0,
+          "flip": true
+        },
+        {
+          "frame": 1,
+          "flip": true
+        },
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 3,
+          "flip": true
+        },
+        {
+          "frame": 4,
+          "flip": true
+        },
+        {
+          "frame": 5,
+          "flip": true
+        },
+        6,
+        7,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        {
+          "frame": 12,
+          "flip": true
+        },
+        {
+          "frame": 13,
+          "flip": true
+        },
+        14
+      ]
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "key": "drain-imps",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/drain-imps/imp",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "232d35",
+    "28484b",
+    "39726a",
+    "6ea88e",
+    "b5d7ac",
+    "3a3b59",
+    "67628a",
+    "a89ab9",
+    "304e71",
+    "6d98b7",
+    "dfbd6b",
+    "f8edc7"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/drain-imps/source-v1.png",
+      "columns": 4,
+      "rows": 3,
+      "nativeHeight": 28,
+      "scaleCells": [
+        6,
+        8,
+        10,
+        11
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        {
+          "frame": 0,
+          "flip": true
+        },
+        1,
+        {
+          "frame": 1,
+          "flip": true
+        },
+        2,
+        3,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 3,
+          "flip": true
+        },
+        4,
+        1,
+        5,
+        6,
+        7,
+        8,
+        5,
+        6,
+        9,
+        10,
+        {
+          "frame": 9,
+          "flip": true
+        },
+        {
+          "frame": 10,
+          "flip": true
+        }
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive complete source/native mapping",
+    "native": "20 native slots, four cells, full size0, IDs and programs preserved. Approved current palette43/42 unchanged.",
+    "unusedSourceFrames": [
+      11
+    ],
+    "sourceMirrors": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        17,
+        19
+      ]
+    ],
+    "sourceDuplicates": [
+      [
+        2,
+        9
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        11,
+        15
+      ]
+    ],
+    "geometry": "Preserve every original lowest opaque pixel and horizontal center, including horizontal wake movement. Generated body, ripple and droplets stay one source raster."
+  }
+}

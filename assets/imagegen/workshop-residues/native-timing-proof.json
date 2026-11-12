@@ -1,0 +1,3850 @@
+{
+  "status": "passed",
+  "scope": "Native AA event animation execution in an isolated field object; exact original frame lists and durations, two complete steady cycles per selected action and owner with exact VRAM and four-cell OAM every tick. Not full encounter transition order.",
+  "baselineSha256": "cb2983da9aeaa3516e34e6017a05c4a62a87cbbeead40640282272adfd4d71c5",
+  "candidateSha256": "fd1336e2d6d7957b5044ef9c0b4da8129e1fe88e64d1467079354f29867599bc",
+  "core": "repository SNES JS native 65816/PPU",
+  "cases": 54,
+  "cycles": 108,
+  "exactNativeVideoTicks": 6296,
+  "nativeProgramBytesUnchanged": true,
+  "allFourDirectionBlocksByteIdentical": true,
+  "allDirectionsExecutedForMovement": true,
+  "cpuRegistersOrPpuNotPatched": true,
+  "cartridgeUnchanged": true,
+  "reports": [
+    {
+      "family": "residue",
+      "key": "lost-wisp",
+      "enemy": 102,
+      "program": 157,
+      "palette": 72,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "Program 157 action 1 direction 0",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 120,
+          "exactVramUploads": 120,
+          "exactOamCellStates": 480,
+          "script": 75074,
+          "alignmentTicks": 112,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 45,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 105,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            }
+          ],
+          "trace": "timed/lost-wisp-animation-1-direction-0.json",
+          "traceSha256": "9b6bc873735a76c8a2128726fa58febf19d76eb6705181868aa053bbcfe75439",
+          "screenshot": "timed/lost-wisp-animation-1-direction-0.png"
+        },
+        {
+          "role": "Program 157 action 0 direction 1",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            0
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 7,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/lost-wisp-animation-0-direction-1.json",
+          "traceSha256": "3eaea43838ac373b069d73c8db45f8cae9a8b685eba6dd00e177a48267c3fef8",
+          "screenshot": "timed/lost-wisp-animation-0-direction-1.png"
+        },
+        {
+          "role": "Program 157 action 1 direction 1",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 120,
+          "exactVramUploads": 120,
+          "exactOamCellStates": 480,
+          "script": 75074,
+          "alignmentTicks": 112,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 45,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 105,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            }
+          ],
+          "trace": "timed/lost-wisp-animation-1-direction-1.json",
+          "traceSha256": "9b6bc873735a76c8a2128726fa58febf19d76eb6705181868aa053bbcfe75439",
+          "screenshot": "timed/lost-wisp-animation-1-direction-1.png"
+        },
+        {
+          "role": "Program 157 action 3 direction 1",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            0
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 7,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/lost-wisp-animation-3-direction-1.json",
+          "traceSha256": "4d0c00b4154ca0f65bd952f9f85d24df5c0accb6cdf266c75a3385e273981ce0",
+          "screenshot": "timed/lost-wisp-animation-3-direction-1.png"
+        },
+        {
+          "role": "Program 157 action 5 direction 1",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            3
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 7,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/lost-wisp-animation-5-direction-1.json",
+          "traceSha256": "28db58d34f90ab98cfae77b7d64af089100bded945710ac21309f7c16a315841",
+          "screenshot": "timed/lost-wisp-animation-5-direction-1.png"
+        },
+        {
+          "role": "Program 157 action 6 direction 1",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            6
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 7,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/lost-wisp-animation-6-direction-1.json",
+          "traceSha256": "f9a0299f729f582a4df839a76d84538174fb1f9e52a33ad7a8e01497a20ae76b",
+          "screenshot": "timed/lost-wisp-animation-6-direction-1.png"
+        },
+        {
+          "role": "Program 157 action 7 direction 1",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            15,
+            25
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 80,
+          "exactVramUploads": 80,
+          "exactOamCellStates": 320,
+          "script": 75074,
+          "alignmentTicks": 72,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 25
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 15
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 25
+            }
+          ],
+          "trace": "timed/lost-wisp-animation-7-direction-1.json",
+          "traceSha256": "973fc55590110e35863e91f259e9bb966569b99d6ace48111fc6ed126f22be61",
+          "screenshot": "timed/lost-wisp-animation-7-direction-1.png"
+        },
+        {
+          "role": "Program 157 action 1 direction 2",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 120,
+          "exactVramUploads": 120,
+          "exactOamCellStates": 480,
+          "script": 75074,
+          "alignmentTicks": 112,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 45,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 105,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            }
+          ],
+          "trace": "timed/lost-wisp-animation-1-direction-2.json",
+          "traceSha256": "9b6bc873735a76c8a2128726fa58febf19d76eb6705181868aa053bbcfe75439",
+          "screenshot": "timed/lost-wisp-animation-1-direction-2.png"
+        },
+        {
+          "role": "Program 157 action 1 direction 3",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 120,
+          "exactVramUploads": 120,
+          "exactOamCellStates": 480,
+          "script": 75074,
+          "alignmentTicks": 112,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 45,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 105,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            }
+          ],
+          "trace": "timed/lost-wisp-animation-1-direction-3.json",
+          "traceSha256": "9b6bc873735a76c8a2128726fa58febf19d76eb6705181868aa053bbcfe75439",
+          "screenshot": "timed/lost-wisp-animation-1-direction-3.png"
+        }
+      ]
+    },
+    {
+      "family": "residue",
+      "key": "gilt-wisp",
+      "enemy": 104,
+      "program": 157,
+      "palette": 74,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "Program 157 action 1 direction 0",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 120,
+          "exactVramUploads": 120,
+          "exactOamCellStates": 480,
+          "script": 75074,
+          "alignmentTicks": 112,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 45,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 105,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            }
+          ],
+          "trace": "timed/gilt-wisp-animation-1-direction-0.json",
+          "traceSha256": "9b6bc873735a76c8a2128726fa58febf19d76eb6705181868aa053bbcfe75439",
+          "screenshot": "timed/gilt-wisp-animation-1-direction-0.png"
+        },
+        {
+          "role": "Program 157 action 0 direction 1",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            0
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 7,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gilt-wisp-animation-0-direction-1.json",
+          "traceSha256": "3eaea43838ac373b069d73c8db45f8cae9a8b685eba6dd00e177a48267c3fef8",
+          "screenshot": "timed/gilt-wisp-animation-0-direction-1.png"
+        },
+        {
+          "role": "Program 157 action 1 direction 1",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 120,
+          "exactVramUploads": 120,
+          "exactOamCellStates": 480,
+          "script": 75074,
+          "alignmentTicks": 112,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 45,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 105,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            }
+          ],
+          "trace": "timed/gilt-wisp-animation-1-direction-1.json",
+          "traceSha256": "9b6bc873735a76c8a2128726fa58febf19d76eb6705181868aa053bbcfe75439",
+          "screenshot": "timed/gilt-wisp-animation-1-direction-1.png"
+        },
+        {
+          "role": "Program 157 action 3 direction 1",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            0
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 7,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gilt-wisp-animation-3-direction-1.json",
+          "traceSha256": "4d0c00b4154ca0f65bd952f9f85d24df5c0accb6cdf266c75a3385e273981ce0",
+          "screenshot": "timed/gilt-wisp-animation-3-direction-1.png"
+        },
+        {
+          "role": "Program 157 action 5 direction 1",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            3
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 7,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gilt-wisp-animation-5-direction-1.json",
+          "traceSha256": "28db58d34f90ab98cfae77b7d64af089100bded945710ac21309f7c16a315841",
+          "screenshot": "timed/gilt-wisp-animation-5-direction-1.png"
+        },
+        {
+          "role": "Program 157 action 6 direction 1",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            6
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 7,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gilt-wisp-animation-6-direction-1.json",
+          "traceSha256": "f9a0299f729f582a4df839a76d84538174fb1f9e52a33ad7a8e01497a20ae76b",
+          "screenshot": "timed/gilt-wisp-animation-6-direction-1.png"
+        },
+        {
+          "role": "Program 157 action 7 direction 1",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            15,
+            25
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 80,
+          "exactVramUploads": 80,
+          "exactOamCellStates": 320,
+          "script": 75074,
+          "alignmentTicks": 72,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 25
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 15
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 25
+            }
+          ],
+          "trace": "timed/gilt-wisp-animation-7-direction-1.json",
+          "traceSha256": "973fc55590110e35863e91f259e9bb966569b99d6ace48111fc6ed126f22be61",
+          "screenshot": "timed/gilt-wisp-animation-7-direction-1.png"
+        },
+        {
+          "role": "Program 157 action 1 direction 2",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 120,
+          "exactVramUploads": 120,
+          "exactOamCellStates": 480,
+          "script": 75074,
+          "alignmentTicks": 112,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 45,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 105,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            }
+          ],
+          "trace": "timed/gilt-wisp-animation-1-direction-2.json",
+          "traceSha256": "9b6bc873735a76c8a2128726fa58febf19d76eb6705181868aa053bbcfe75439",
+          "screenshot": "timed/gilt-wisp-animation-1-direction-2.png"
+        },
+        {
+          "role": "Program 157 action 1 direction 3",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 120,
+          "exactVramUploads": 120,
+          "exactOamCellStates": 480,
+          "script": 75074,
+          "alignmentTicks": 112,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 45,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 105,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 15
+            }
+          ],
+          "trace": "timed/gilt-wisp-animation-1-direction-3.json",
+          "traceSha256": "9b6bc873735a76c8a2128726fa58febf19d76eb6705181868aa053bbcfe75439",
+          "screenshot": "timed/gilt-wisp-animation-1-direction-3.png"
+        }
+      ]
+    },
+    {
+      "family": "residue",
+      "key": "sour-slime",
+      "enemy": 105,
+      "program": 52,
+      "palette": 70,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "Program 52 action 1 direction 0",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/sour-slime-animation-1-direction-0.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/sour-slime-animation-1-direction-0.png"
+        },
+        {
+          "role": "Program 52 action 0 direction 1",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            9,
+            7,
+            8,
+            7,
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 320,
+          "exactVramUploads": 320,
+          "exactOamCellStates": 1280,
+          "script": 75074,
+          "alignmentTicks": 307,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 0,
+              "phase": 4,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 0,
+              "phase": 5,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 0,
+              "phase": 6,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 0,
+              "phase": 7,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 160,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 180,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 200,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 220,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 240,
+              "loop": 1,
+              "phase": 4,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 260,
+              "loop": 1,
+              "phase": 5,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 280,
+              "loop": 1,
+              "phase": 6,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 300,
+              "loop": 1,
+              "phase": 7,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/sour-slime-animation-0-direction-1.json",
+          "traceSha256": "545dbe2860ff82fe5946b1ee952f60292783475690803e1aa979b5a83a918fa9",
+          "screenshot": "timed/sour-slime-animation-0-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 1 direction 1",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/sour-slime-animation-1-direction-1.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/sour-slime-animation-1-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 3 direction 1",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/sour-slime-animation-3-direction-1.json",
+          "traceSha256": "21bc4ec9e5c2a55db20823284ef7e492252f8fb378ad52fbcad96543f61d33a0",
+          "screenshot": "timed/sour-slime-animation-3-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 5 direction 1",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            11
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "exactOamCellStates": 248,
+          "script": 75074,
+          "alignmentTicks": 38,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 11,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 11,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/sour-slime-animation-5-direction-1.json",
+          "traceSha256": "ffbf56e6881260b6305d0b868a88e3e7f46e8e888e2ccc37631c1162d7499447",
+          "screenshot": "timed/sour-slime-animation-5-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 6 direction 1",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            6
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "exactOamCellStates": 248,
+          "script": 75074,
+          "alignmentTicks": 38,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/sour-slime-animation-6-direction-1.json",
+          "traceSha256": "1fdb44ff8d7c9683231a11a1f38061bed29250eee4c9668ca193d2c80d9a3bc0",
+          "screenshot": "timed/sour-slime-animation-6-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 7 direction 1",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            10
+          ],
+          "durations": [
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 30,
+          "exactVramUploads": 30,
+          "exactOamCellStates": 120,
+          "script": 75074,
+          "alignmentTicks": 22,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 10,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 0,
+              "frame": 10,
+              "duration": 15
+            }
+          ],
+          "trace": "timed/sour-slime-animation-7-direction-1.json",
+          "traceSha256": "8e817cbbc9c6b5091b4cbbe6ee0a88b30b8299e3f1ecb9c3801aff3f9f8f52e8",
+          "screenshot": "timed/sour-slime-animation-7-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 1 direction 2",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/sour-slime-animation-1-direction-2.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/sour-slime-animation-1-direction-2.png"
+        },
+        {
+          "role": "Program 52 action 1 direction 3",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/sour-slime-animation-1-direction-3.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/sour-slime-animation-1-direction-3.png"
+        }
+      ]
+    },
+    {
+      "family": "residue",
+      "key": "lye-slime",
+      "enemy": 106,
+      "program": 52,
+      "palette": 75,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "Program 52 action 1 direction 0",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/lye-slime-animation-1-direction-0.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/lye-slime-animation-1-direction-0.png"
+        },
+        {
+          "role": "Program 52 action 0 direction 1",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            9,
+            7,
+            8,
+            7,
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 320,
+          "exactVramUploads": 320,
+          "exactOamCellStates": 1280,
+          "script": 75074,
+          "alignmentTicks": 307,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 0,
+              "phase": 4,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 0,
+              "phase": 5,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 0,
+              "phase": 6,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 0,
+              "phase": 7,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 160,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 180,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 200,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 220,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 240,
+              "loop": 1,
+              "phase": 4,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 260,
+              "loop": 1,
+              "phase": 5,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 280,
+              "loop": 1,
+              "phase": 6,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 300,
+              "loop": 1,
+              "phase": 7,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/lye-slime-animation-0-direction-1.json",
+          "traceSha256": "545dbe2860ff82fe5946b1ee952f60292783475690803e1aa979b5a83a918fa9",
+          "screenshot": "timed/lye-slime-animation-0-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 1 direction 1",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/lye-slime-animation-1-direction-1.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/lye-slime-animation-1-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 3 direction 1",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/lye-slime-animation-3-direction-1.json",
+          "traceSha256": "21bc4ec9e5c2a55db20823284ef7e492252f8fb378ad52fbcad96543f61d33a0",
+          "screenshot": "timed/lye-slime-animation-3-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 5 direction 1",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            11
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "exactOamCellStates": 248,
+          "script": 75074,
+          "alignmentTicks": 38,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 11,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 11,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/lye-slime-animation-5-direction-1.json",
+          "traceSha256": "ffbf56e6881260b6305d0b868a88e3e7f46e8e888e2ccc37631c1162d7499447",
+          "screenshot": "timed/lye-slime-animation-5-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 6 direction 1",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            6
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "exactOamCellStates": 248,
+          "script": 75074,
+          "alignmentTicks": 38,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/lye-slime-animation-6-direction-1.json",
+          "traceSha256": "1fdb44ff8d7c9683231a11a1f38061bed29250eee4c9668ca193d2c80d9a3bc0",
+          "screenshot": "timed/lye-slime-animation-6-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 7 direction 1",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            10
+          ],
+          "durations": [
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 30,
+          "exactVramUploads": 30,
+          "exactOamCellStates": 120,
+          "script": 75074,
+          "alignmentTicks": 22,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 10,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 0,
+              "frame": 10,
+              "duration": 15
+            }
+          ],
+          "trace": "timed/lye-slime-animation-7-direction-1.json",
+          "traceSha256": "8e817cbbc9c6b5091b4cbbe6ee0a88b30b8299e3f1ecb9c3801aff3f9f8f52e8",
+          "screenshot": "timed/lye-slime-animation-7-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 1 direction 2",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/lye-slime-animation-1-direction-2.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/lye-slime-animation-1-direction-2.png"
+        },
+        {
+          "role": "Program 52 action 1 direction 3",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/lye-slime-animation-1-direction-3.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/lye-slime-animation-1-direction-3.png"
+        }
+      ]
+    },
+    {
+      "family": "residue",
+      "key": "ash-slime",
+      "enemy": 107,
+      "program": 52,
+      "palette": 73,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "Program 52 action 1 direction 0",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/ash-slime-animation-1-direction-0.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/ash-slime-animation-1-direction-0.png"
+        },
+        {
+          "role": "Program 52 action 0 direction 1",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            9,
+            7,
+            8,
+            7,
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 320,
+          "exactVramUploads": 320,
+          "exactOamCellStates": 1280,
+          "script": 75074,
+          "alignmentTicks": 307,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 0,
+              "phase": 4,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 0,
+              "phase": 5,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 0,
+              "phase": 6,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 0,
+              "phase": 7,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 160,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 180,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 200,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 220,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 240,
+              "loop": 1,
+              "phase": 4,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 260,
+              "loop": 1,
+              "phase": 5,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 280,
+              "loop": 1,
+              "phase": 6,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 300,
+              "loop": 1,
+              "phase": 7,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/ash-slime-animation-0-direction-1.json",
+          "traceSha256": "545dbe2860ff82fe5946b1ee952f60292783475690803e1aa979b5a83a918fa9",
+          "screenshot": "timed/ash-slime-animation-0-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 1 direction 1",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/ash-slime-animation-1-direction-1.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/ash-slime-animation-1-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 3 direction 1",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/ash-slime-animation-3-direction-1.json",
+          "traceSha256": "21bc4ec9e5c2a55db20823284ef7e492252f8fb378ad52fbcad96543f61d33a0",
+          "screenshot": "timed/ash-slime-animation-3-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 5 direction 1",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            11
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "exactOamCellStates": 248,
+          "script": 75074,
+          "alignmentTicks": 38,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 11,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 11,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/ash-slime-animation-5-direction-1.json",
+          "traceSha256": "ffbf56e6881260b6305d0b868a88e3e7f46e8e888e2ccc37631c1162d7499447",
+          "screenshot": "timed/ash-slime-animation-5-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 6 direction 1",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            6
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "exactOamCellStates": 248,
+          "script": 75074,
+          "alignmentTicks": 38,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/ash-slime-animation-6-direction-1.json",
+          "traceSha256": "1fdb44ff8d7c9683231a11a1f38061bed29250eee4c9668ca193d2c80d9a3bc0",
+          "screenshot": "timed/ash-slime-animation-6-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 7 direction 1",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            10
+          ],
+          "durations": [
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 30,
+          "exactVramUploads": 30,
+          "exactOamCellStates": 120,
+          "script": 75074,
+          "alignmentTicks": 22,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 10,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 0,
+              "frame": 10,
+              "duration": 15
+            }
+          ],
+          "trace": "timed/ash-slime-animation-7-direction-1.json",
+          "traceSha256": "8e817cbbc9c6b5091b4cbbe6ee0a88b30b8299e3f1ecb9c3801aff3f9f8f52e8",
+          "screenshot": "timed/ash-slime-animation-7-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 1 direction 2",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/ash-slime-animation-1-direction-2.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/ash-slime-animation-1-direction-2.png"
+        },
+        {
+          "role": "Program 52 action 1 direction 3",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/ash-slime-animation-1-direction-3.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/ash-slime-animation-1-direction-3.png"
+        }
+      ]
+    },
+    {
+      "family": "residue",
+      "key": "cinder-slime",
+      "enemy": 108,
+      "program": 52,
+      "palette": 73,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "Program 52 action 1 direction 0",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/cinder-slime-animation-1-direction-0.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/cinder-slime-animation-1-direction-0.png"
+        },
+        {
+          "role": "Program 52 action 0 direction 1",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            9,
+            7,
+            8,
+            7,
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 320,
+          "exactVramUploads": 320,
+          "exactOamCellStates": 1280,
+          "script": 75074,
+          "alignmentTicks": 307,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 0,
+              "phase": 4,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 0,
+              "phase": 5,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 0,
+              "phase": 6,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 0,
+              "phase": 7,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 160,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 180,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 200,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 220,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 240,
+              "loop": 1,
+              "phase": 4,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 260,
+              "loop": 1,
+              "phase": 5,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 280,
+              "loop": 1,
+              "phase": 6,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 300,
+              "loop": 1,
+              "phase": 7,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/cinder-slime-animation-0-direction-1.json",
+          "traceSha256": "545dbe2860ff82fe5946b1ee952f60292783475690803e1aa979b5a83a918fa9",
+          "screenshot": "timed/cinder-slime-animation-0-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 1 direction 1",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/cinder-slime-animation-1-direction-1.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/cinder-slime-animation-1-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 3 direction 1",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/cinder-slime-animation-3-direction-1.json",
+          "traceSha256": "21bc4ec9e5c2a55db20823284ef7e492252f8fb378ad52fbcad96543f61d33a0",
+          "screenshot": "timed/cinder-slime-animation-3-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 5 direction 1",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            11
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "exactOamCellStates": 248,
+          "script": 75074,
+          "alignmentTicks": 38,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 11,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 11,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/cinder-slime-animation-5-direction-1.json",
+          "traceSha256": "ffbf56e6881260b6305d0b868a88e3e7f46e8e888e2ccc37631c1162d7499447",
+          "screenshot": "timed/cinder-slime-animation-5-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 6 direction 1",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            6
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "exactOamCellStates": 248,
+          "script": 75074,
+          "alignmentTicks": 38,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/cinder-slime-animation-6-direction-1.json",
+          "traceSha256": "1fdb44ff8d7c9683231a11a1f38061bed29250eee4c9668ca193d2c80d9a3bc0",
+          "screenshot": "timed/cinder-slime-animation-6-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 7 direction 1",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            10
+          ],
+          "durations": [
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 30,
+          "exactVramUploads": 30,
+          "exactOamCellStates": 120,
+          "script": 75074,
+          "alignmentTicks": 22,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 10,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 0,
+              "frame": 10,
+              "duration": 15
+            }
+          ],
+          "trace": "timed/cinder-slime-animation-7-direction-1.json",
+          "traceSha256": "8e817cbbc9c6b5091b4cbbe6ee0a88b30b8299e3f1ecb9c3801aff3f9f8f52e8",
+          "screenshot": "timed/cinder-slime-animation-7-direction-1.png"
+        },
+        {
+          "role": "Program 52 action 1 direction 2",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/cinder-slime-animation-1-direction-2.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/cinder-slime-animation-1-direction-2.png"
+        },
+        {
+          "role": "Program 52 action 1 direction 3",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            9,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 160,
+          "exactVramUploads": 160,
+          "exactOamCellStates": 640,
+          "script": 75074,
+          "alignmentTicks": 147,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 60,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 80,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 20
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 20
+            },
+            {
+              "tick": 120,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 20
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 20
+            }
+          ],
+          "trace": "timed/cinder-slime-animation-1-direction-3.json",
+          "traceSha256": "12608917ef767ce5101bd2e47eb2b196aa055526edb7aefb88e316ee79fadf8d",
+          "screenshot": "timed/cinder-slime-animation-1-direction-3.png"
+        }
+      ]
+    }
+  ],
+  "evidence": ".local/qa/workshop-residues-native-proof",
+  "runner": {
+    "file": "assets/imagegen/workshop-residues/verify-timed-animation.mjs",
+    "sha256": "8a850f90d0a6e0508c686c3eb48fec6ef7b5692b6af740ae73b1ece2efd95cfd"
+  }
+}

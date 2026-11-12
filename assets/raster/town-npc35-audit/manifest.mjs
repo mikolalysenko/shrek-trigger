@@ -1,0 +1,7 @@
+import {readFile,writeFile,readdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const dir='assets/raster/town-npc35-audit',sha=b=>createHash('sha256').update(b).digest('hex');
+const files=(await readdir(dir)).filter(f=>/\.(json|mjs|py|md)$/.test(f)&&f!=='audit-manifest.json').map(f=>dir+'/'+f).concat((await readdir(dir+'/review')).map(f=>dir+'/review/'+f)).sort();
+const records=[];for(const path of files){const b=await readFile(path);records.push({path,bytes:b.length,sha256:sha(b)});}
+const inputs=['engine/native-sprites.js','scripts/native-sprite-view.mjs','engine/compression.js','engine/rom.js','engine/expanded-rom.js','engine/text.js','.local/reference/jot-current/sourcefiles/eventcommand.py','.local/reference/temporal-redux/sourcefiles/jetsoftime/eventcommand.py','.local/reference/CTViewer/data/snes_na_scenes.txt','.local/reference/ct_disassembly/bank_C0.asm'];const dependencies=[];for(const path of inputs)dependencies.push({path,sha256:sha(await readFile(path))});
+await writeFile(dir+'/audit-manifest.json',JSON.stringify({status:'Inactive reviewed audit; original pixels only',baseline:JSON.parse(await readFile(dir+'/baseline.json')),files:records,dependencies,excluded:['private/baseline.sfc','private/event-packets.json','private/*-log.json'],generation:'Not present in this audit package; separately authorized in assets/imagegen/town-tradesmen/'},null,2)+'\n');console.log(JSON.stringify({files:records.length,bytes:records.reduce((n,r)=>n+r.bytes,0)}));

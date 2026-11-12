@@ -1,0 +1,146 @@
+{
+  "key": "duloc-town-resident",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/town-civilians-gfx125/full-nearest",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "313131",
+    "dedede",
+    "ffe7ad",
+    "ff9c6b",
+    "734221",
+    "dead31",
+    "bd5208",
+    "8494c6",
+    "6b4284",
+    "d6634a",
+    "a53129",
+    "73738c"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/town-civilians-gfx125/source-base-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 32,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "bottom": 51,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "8": {
+          "scale": 1.032258064516129
+        },
+        "11": {
+          "scale": 0.96875
+        },
+        "13": {
+          "scale": 0.967741935483871
+        },
+        "14": {
+          "scale": 1.1111111111111112
+        },
+        "15": {
+          "scale": 1.0384615384615385
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        {
+          "frame": 0,
+          "dx": 1
+        },
+        {
+          "frame": 1,
+          "dx": 1
+        },
+        {
+          "frame": 2
+        },
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 3
+        },
+        {
+          "frame": 4,
+          "dx": 1,
+          "dy": 1
+        },
+        {
+          "frame": 5,
+          "dx": 1
+        },
+        {
+          "frame": 6,
+          "dy": 1
+        },
+        {
+          "frame": 7,
+          "dx": 1
+        },
+        {
+          "frame": 8,
+          "dy": 1
+        },
+        {
+          "frame": 9
+        },
+        {
+          "frame": 10,
+          "dx": 1,
+          "dy": 1
+        },
+        {
+          "frame": 11,
+          "dx": 1
+        },
+        {
+          "frame": 12,
+          "dy": 1
+        },
+        {
+          "frame": 11,
+          "flip": true
+        },
+        {
+          "frame": 12,
+          "flip": true,
+          "dy": 1
+        },
+        {
+          "frame": 13,
+          "dx": 1
+        },
+        {
+          "frame": 14,
+          "dx": -5,
+          "dy": -1
+        },
+        {
+          "frame": 14,
+          "flip": true,
+          "dx": 5,
+          "dy": -1
+        },
+        {
+          "frame": 15,
+          "dx": 2
+        }
+      ]
+    }
+  }
+}

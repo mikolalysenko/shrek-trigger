@@ -1,0 +1,94 @@
+{
+  "status": "Passed",
+  "name": "shared111-diagnostic",
+  "scope": "Explicit diagnostic native event pairs the two palette111 owners. This is NOT an original game encounter.",
+  "privateRomSha256": "25848a5b60b210d9b599dc0f0847085f724a125dfd3549a04dfa9142bdd34df7",
+  "nativeTicks": 2565,
+  "result": {
+    "formation": [
+      91,
+      140,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255
+    ],
+    "taps": 15
+  },
+  "events": [
+    {
+      "frame": 9085,
+      "location": 6,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 330,
+      "opcode": 216
+    },
+    {
+      "frame": 11220,
+      "location": 6,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 330,
+      "opcode": 216
+    }
+  ],
+  "loads": [
+    {
+      "frame": 8931,
+      "location": 6,
+      "pc": 12605696,
+      "object": 8,
+      "scriptPC": 371,
+      "opcode": 131,
+      "enemy": 91
+    },
+    {
+      "frame": 8931,
+      "location": 6,
+      "pc": 12605696,
+      "object": 9,
+      "scriptPC": 382,
+      "opcode": 131,
+      "enemy": 140
+    }
+  ],
+  "messages": [],
+  "attacks": [],
+  "heapMin": 0,
+  "heapMax": 1248,
+  "fieldPointers": [
+    {
+      "location": 6,
+      "enemy": 91,
+      "object": 8,
+      "pointer": 8198352,
+      "palettePointer": 2664
+    },
+    {
+      "location": 6,
+      "enemy": 140,
+      "object": 9,
+      "pointer": 8210592,
+      "palettePointer": 2664
+    }
+  ],
+  "observedNativeFieldFrames": [
+    {
+      "key": "cracked-pot:8:6",
+      "sampledTicks": 44
+    },
+    {
+      "key": "scrap-beetle:9:4",
+      "sampledTicks": 45
+    },
+    {
+      "key": "cracked-pot:8:1",
+      "sampledTicks": 1
+    }
+  ],
+  "allSixRomPalettesUnchanged": true,
+  "cartridgeUnchanged": true
+}

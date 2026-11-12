@@ -1,0 +1,191 @@
+{
+  "status": "Inactive design and resource proposal, waiting for root review before image generation",
+  "baselineSha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+  "workingKey": "duloc-town-resident",
+  "identity": "Versatile adult human resident and traveler of the Shrek fairy-tale towns",
+  "rationale": "Shared reuse includes fair patrons and attendants, tutors, domestic residents, a kitchen civilian, a traveling merchant, Marco, a merchant accomplice and ending cameos. Preserve these existing roles through a neutral adult human model; add no named celebrity or fixed trade prop.",
+  "look": {
+    "face": "Clean-shaven adult with a broad small nose, dark brows, swept copper-brown hair and a clear side hair tuft. A useful contrast with the capped moustached keeper and headband tradesman.",
+    "clothes": "Short laced blue-violet doublet with a split waist over a pale rolled-sleeve linen shirt, narrow belt, russet trousers and practical broad boots. Palette133 turns the doublet blue and lower cloth moss-green. No hat, armor, apron, weapon, permanent cup or messenger bag.",
+    "silhouette": "Original 31–32 px standing height, modestly broad shoulders, visible sleeve cuffs and split tunic hem; expressive mobile arms and legs. Seated poses retain their displaced legs, and kneeling remains a separate full-body source.",
+    "rendering": "Chrono Trigger scale and clustered top-left shading; twelve native opaque indices and transparent zero. Actual generated raster after design approval, not a recolored original costume or geometric anatomy."
+  },
+  "resourcePlan": {
+    "gfx": 125,
+    "assembly": 188,
+    "owners": [
+      {
+        "kind": "npc",
+        "id": 14,
+        "offset": 2420841,
+        "header": [
+          125,
+          188,
+          135,
+          7,
+          0
+        ]
+      },
+      {
+        "kind": "npc",
+        "id": 79,
+        "offset": 2421166,
+        "header": [
+          125,
+          188,
+          133,
+          7,
+          0
+        ]
+      }
+    ],
+    "sizeByte": 0,
+    "cells": 4,
+    "frameCount": 20,
+    "originalRawBytes": 2656,
+    "originalCompressedBytes": 2204,
+    "originalAssemblyBytes": 800,
+    "pointerAliases": {
+      "gfx": [
+        125
+      ],
+      "assembly": [
+        188
+      ]
+    },
+    "newSpriteOrAssemblyIds": [],
+    "headerIdEdits": [],
+    "plan": "Replace only the exclusively owned gfx125 and asm188 resources; use all20 slots. No new assembly ID is needed or reserved. Private247 remains assigned to gfx11.",
+    "sharedPreserved": {
+      "paletteIds": [
+        135,
+        133
+      ],
+      "animationId": 7,
+      "paletteWrites": 0,
+      "timingWrites": 0
+    },
+    "constraints": [
+      "Keep the original four-cell reservation and source anchors; retain exact original signed XY where complete new source fits. Any required source-only translation or row placement must be measured and reviewed before activation.",
+      "Frame19 has a staggered four-cell layout, distinct from the ordinary grid. Do not silently crop its kneeling hands or knees.",
+      "Measure actual sampled raw/compressed sizes. The existing 2656-byte decoded guard remains in force until root chooses an explicit family stream contract or proves a safe legacy bank.",
+      "Current static all-branch unstreamed actor-bank union peaks at20032 bytes in204. This excludes unsupported dynamic/background allocations and is not a simultaneous-heap or future-expanded-cast proof.",
+      "Preserve original shared palettes135 and133 byte-for-byte, including their unrelated NPC21/51 and43-owner consumers.",
+      "Preserve AA7 and its 29header consumers. No animation-list edits are needed."
+    ]
+  },
+  "contextCounts": {
+    "locations": 23,
+    "sourceLoads": 30,
+    "owners": [
+      {
+        "id": 14,
+        "palette": 135,
+        "locations": [
+          12,
+          13,
+          14,
+          16,
+          18,
+          24,
+          32,
+          52,
+          53,
+          91,
+          338,
+          340,
+          378,
+          438
+        ],
+        "loads": 17
+      },
+      {
+        "id": 79,
+        "palette": 133,
+        "locations": [
+          5,
+          27,
+          62,
+          80,
+          158,
+          188,
+          204,
+          379,
+          439
+        ],
+        "loads": 13
+      }
+    ]
+  },
+  "expectedSourceCoverage": {
+    "visibleSlots": 20,
+    "blankSlots": [],
+    "special": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "observedNativeProgramSlots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "unreferencedSourceSlots": [
+      19
+    ],
+    "exactSourceMirrors": [
+      [
+        3,
+        2
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        18,
+        17
+      ]
+    ]
+  },
+  "futureAcceptance": [
+    "Review every direction and actual opposed gait contact in both original palettes at1×.",
+    "Reconstruct every opaque indexed pixel through the native4bpp cells with explicit overlap/blank checks.",
+    "Verify40owner/pose uploads, AA7 requests/durations and unrelated shared-resource sentinels.",
+    "Use representative fair/inn, Marco/restoration, merchant/trial and seated parade contexts. Treat scene80 opcode33 argument7 as a real runtime palette case.",
+    "Preserve frame19 in the static/upload proof even if no original story consumer is found."
+  ],
+  "limitations": [
+    "No image generation, new pixels, active patch, ROM build, runtime execution or new slot claim has occurred."
+  ],
+  "evidence": [
+    "native-audit.json",
+    "native-role-notes.json",
+    "current-event-audit.json",
+    "dialogue-context-audit.json",
+    "scene-contexts.json",
+    "review/original-role-sheet.html"
+  ],
+  "activation": false
+}

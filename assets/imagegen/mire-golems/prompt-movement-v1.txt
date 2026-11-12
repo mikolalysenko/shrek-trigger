@@ -1,0 +1,22 @@
+Create a clean actual raster sprite source sheet for a 16-bit SNES fairy-tale RPG, matching Chrono Trigger's readable small enemy pixel scale. This is a new enchanted MIRE GOLEM design for a Shrek-like ruined fairy-tale world. The attached original enemy sheet is ONLY a reference for view directions, three-step walks and relative height, not its fleshy creature identity. Redesign the creature completely as one consistent tall, narrow stone sentinel.
+
+Identity: stern carved split-rock face, small warm amber eye slits under a low ragged moss brow; blunt slab nose and jointed stone jaw; rounded slate shoulder rocks; cracked warm mud-brown chest and belly plates; dark moss-green seams and a small moss mantle on the back; articulated heavy stone forearms ending in blunt boulder fists; clearly jointed longer rock legs and broad worn stone feet. No human skin, clothing, helmet, weapon, flowers, horns, pink flesh or exposed organs. It should also work as an Iron Golem through a palette swap. Distinguish front face, moss-covered back and strict side profile. Keep the head, shoulder mass, body length and limb thickness consistent in every pose. Make sculpted stone forms with intentional highlights, NOT simple box outlines or smooth vector shapes.
+
+Render as crisp authentic low-resolution pixel art, hard pixel edges, no antialiasing, no gradients, no blur, no texture noise. A standing body should read as roughly 31 pixels wide by 60 pixels tall at native game size, a narrow portrait silhouette with large readable stone clusters. Keep fists near the body's sides so the whole figure stays compact. Use only this restrained palette: charcoal 232b2b; dark earth 443a30; mud-brown 705643; ochre stone a37d56; light stone cba873; deep moss 263e32; moss 49664c; light moss 86a06a; slate 3c5056; steel highlight 71858a; amber d7ae51; warm highlight f4dfae. Transparent background. No floor, ground shadow, text, labels, panels, border, separators, numbering, glow haze or props.
+
+Exactly 12 isolated figures in a regular 4-column by 3-row grid. Every grid cell has the same generous transparent margin. Every figure is drawn at exactly the same scale, centered horizontally with feet on the same local baseline. These are animation frames of the SAME golem, not twelve different designs. Read positions left-to-right then top-to-bottom:
+
+0: True BACK view walking, one foot forward and the opposite arm forward; no facial eyes visible.
+1: True BACK view passing step, feet nearer together, torso slightly lowered; same moss back.
+2: True BACK view opposing walk step, reverse the foot and arm positions from 0.
+3: True FRONT view walking first step, face clearly forward, one foot forward.
+4: True FRONT view passing step, feet nearer together, torso slightly lowered, closed stone jaw.
+5: True FRONT view opposing walk step, reverse the foot and arm positions from 3.
+6: Strict LEFT profile walking first step, nose and eye point to the LEFT edge, one foot forward.
+7: Strict LEFT profile passing step, feet nearer together, torso slightly lowered.
+8: Strict LEFT profile opposing walk step.
+9: Repeat the exact neutral front model from cell 4 as a scale reference.
+10: Repeat the exact rear model from cell 1 as a scale reference.
+11: Repeat the exact left-profile model from cell 7 as a scale reference.
+
+Preserve the subtle limb changes between three walk phases, with stable stone anatomy and stable material colors. Do not mirror the back into a front. Do not draw ground shadows.

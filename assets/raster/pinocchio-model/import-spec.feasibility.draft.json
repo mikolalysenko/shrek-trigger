@@ -1,0 +1,102 @@
+{
+  "key": "pinocchio-model-feasibility",
+  "sourceType": "existing-game-model-render",
+  "directory": "assets/raster/pinocchio-model/feasibility",
+  "palette": [
+    "342823",
+    "99623e",
+    "cf9b61",
+    "f1c887",
+    "f4e3c2",
+    "a73334",
+    "db6151",
+    "24475a",
+    "ffefcf",
+    "3c2a26",
+    "e3b441",
+    "2e6b90"
+  ],
+  "sheets": [
+    {
+      "file": "assets/raster/pinocchio-model/feasibility/source-contact.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 30,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1.15,
+        "bottom": 31
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        5,
+        9
+      ],
+      "1": [
+        4,
+        8
+      ],
+      "2": [
+        6,
+        10
+      ],
+      "3": [
+        7,
+        11
+      ]
+    },
+    "punch": {
+      "0": [
+        13
+      ],
+      "1": [
+        12
+      ],
+      "2": [
+        14
+      ],
+      "3": [
+        15
+      ]
+    }
+  },
+  "samplingPalette": [
+    "23180c",
+    "805327",
+    "b58d5e",
+    "dbc392",
+    "bcd6d6",
+    "641721",
+    "aa3d37",
+    "113c49",
+    "e7f4eb",
+    "49300f",
+    "c79519",
+    "228bb2"
+  ]
+}

@@ -1,0 +1,854 @@
+{
+  "status": "Frozen inactive candidate; root owns production integration",
+  "package": "bakery-children-elder",
+  "manifest": "reproducibility-files.txt",
+  "manifestFiles": 68,
+  "manifestSha256": "340e932dfe88160f07d2725d805da0613dd2662b6849308880b980e39b61d807",
+  "families": [
+    {
+      "key": "child",
+      "familyKey": "crumb-children",
+      "rasterKey": "crumb-child",
+      "native": {
+        "gfx": 20,
+        "assembly": 245,
+        "sourceSharedAssembly": 11,
+        "sourceSharedAssemblyOwners": [
+          {
+            "kind": "npc",
+            "id": 19
+          },
+          {
+            "kind": "npc",
+            "id": 20
+          },
+          {
+            "kind": "npc",
+            "id": 32
+          },
+          {
+            "kind": "npc",
+            "id": 38
+          },
+          {
+            "kind": "npc",
+            "id": 46
+          },
+          {
+            "kind": "npc",
+            "id": 47
+          },
+          {
+            "kind": "npc",
+            "id": 64
+          },
+          {
+            "kind": "npc",
+            "id": 68
+          },
+          {
+            "kind": "npc",
+            "id": 84
+          },
+          {
+            "kind": "npc",
+            "id": 182
+          },
+          {
+            "kind": "npc",
+            "id": 191
+          },
+          {
+            "kind": "npc",
+            "id": 198
+          }
+        ],
+        "animation": 8,
+        "frames": 15,
+        "width": 32,
+        "height": 32,
+        "cells": 4,
+        "size": 0,
+        "owners": [
+          {
+            "npc": 32,
+            "palette": 123
+          },
+          {
+            "npc": 64,
+            "palette": 124
+          }
+        ],
+        "blankFrames": [
+          14
+        ],
+        "headFragmentFrames": [],
+        "frameOffsets": {},
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ],
+        "nativeCellXY": [
+          [
+            -16,
+            -32
+          ],
+          [
+            0,
+            -32
+          ],
+          [
+            -16,
+            -16
+          ],
+          [
+            0,
+            -16
+          ]
+        ],
+        "overlap": false
+      },
+      "inputs": {
+        "spec": "child-import-spec.draft.json",
+        "specSha256": "2b6495225a90ed3d88b8d247f079368a4a5486cbb1653925876a517472c0d416",
+        "geometry": "child-draft/family.json",
+        "geometrySha256": "5fa098bbd157aafe6b003a73182b97884f2b305c499df4ad0971cea893c4d9cc",
+        "roles": "child-native-roles.json",
+        "rolesSha256": "3607cf798c0d7cfca226c462f76219bc634532473ad677e38d350867443e4904"
+      },
+      "compiled": {
+        "rawGraphicsBytes": 2368,
+        "compressedBytes": 1610,
+        "assemblyBytes": 600,
+        "graphicsSha256": "1cabab8da1ab6f393a1980c86919998ef8cb6466e38ffff316d7e6194f2dca9b",
+        "compressedSha256": "ceed3db7f75f07733b994259dd990871f1bb2af98a49da95c7697b8dc6a4ecc8",
+        "assemblySha256": "e6dd4dad769af91a44beb2613575eb721809d12fae0a26bfe857d17ebc5c651f",
+        "pixelsSha256": "d8b71834f5352fb1d938a5feb7b4d569ff8241dfc88e2d93e47ee3a1530dfe17",
+        "paletteSha256": {
+          "123": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08",
+          "124": "d1489b7af1ae7fc04c913aa817fed2a6e9edd9ad5b6f03deb53f21b214afff76"
+        }
+      },
+      "cost": {
+        "key": "child",
+        "candidate": {
+          "raw": 2368,
+          "compressed": 1610,
+          "assembly": 600,
+          "totalCompressedAndAssembly": 2210
+        },
+        "originalCT": {
+          "graphicsOffset": 1665314,
+          "graphicsBytes": 1312,
+          "compressedBytes": 1089,
+          "assemblyOffset": 1949744,
+          "assemblyBytes": 600,
+          "totalCompressedAndAssembly": 1689,
+          "compressedAllocationGrowth": 521,
+          "rawGrowth": 1056
+        },
+        "activeEarlierArt": {
+          "raw": 1248,
+          "compressed": 396,
+          "assembly": 600,
+          "totalCompressedAndAssembly": 996,
+          "compressedAllocationGrowth": 1214,
+          "rawGrowth": 1120,
+          "graphicsSha256": "be65bee9fa3a2db315ab6cd87d2fa349754399b8eff8642357ea32993443991c",
+          "compressedSha256": "b2e5762ecda4f3821a7a60b833ed5a558afc543ff0be374df9dbde61d95b0dc9",
+          "assemblySha256": "82819e87884af4ef57b3d4bcaff5b7773f933a3498d099bbcaff2f344b8c5210",
+          "matchesActiveSourceFamilySnapshot": true
+        }
+      }
+    },
+    {
+      "key": "elder",
+      "familyKey": "brioche-elder",
+      "rasterKey": "brioche-elder",
+      "native": {
+        "gfx": 15,
+        "assembly": 246,
+        "sourceSharedAssembly": 7,
+        "sourceSharedAssemblyOwners": [
+          {
+            "kind": "npc",
+            "id": 15
+          },
+          {
+            "kind": "npc",
+            "id": 17
+          },
+          {
+            "kind": "npc",
+            "id": 18
+          },
+          {
+            "kind": "npc",
+            "id": 21
+          },
+          {
+            "kind": "npc",
+            "id": 22
+          },
+          {
+            "kind": "npc",
+            "id": 23
+          },
+          {
+            "kind": "npc",
+            "id": 28
+          },
+          {
+            "kind": "npc",
+            "id": 33
+          },
+          {
+            "kind": "npc",
+            "id": 34
+          },
+          {
+            "kind": "npc",
+            "id": 36
+          },
+          {
+            "kind": "npc",
+            "id": 42
+          },
+          {
+            "kind": "npc",
+            "id": 44
+          },
+          {
+            "kind": "npc",
+            "id": 45
+          },
+          {
+            "kind": "npc",
+            "id": 48
+          },
+          {
+            "kind": "npc",
+            "id": 49
+          },
+          {
+            "kind": "npc",
+            "id": 50
+          },
+          {
+            "kind": "npc",
+            "id": 57
+          },
+          {
+            "kind": "npc",
+            "id": 58
+          },
+          {
+            "kind": "npc",
+            "id": 65
+          },
+          {
+            "kind": "npc",
+            "id": 66
+          },
+          {
+            "kind": "npc",
+            "id": 67
+          },
+          {
+            "kind": "npc",
+            "id": 80
+          },
+          {
+            "kind": "npc",
+            "id": 82
+          },
+          {
+            "kind": "npc",
+            "id": 83
+          },
+          {
+            "kind": "npc",
+            "id": 89
+          },
+          {
+            "kind": "npc",
+            "id": 179
+          }
+        ],
+        "animation": 7,
+        "frames": 19,
+        "width": 32,
+        "height": 32,
+        "cells": 4,
+        "size": 0,
+        "owners": [
+          {
+            "npc": 33,
+            "palette": 123
+          }
+        ],
+        "blankFrames": [
+          16
+        ],
+        "headFragmentFrames": [
+          17,
+          18
+        ],
+        "frameOffsets": {},
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ],
+        "nativeCellXY": [
+          [
+            -16,
+            -32
+          ],
+          [
+            0,
+            -32
+          ],
+          [
+            -16,
+            -16
+          ],
+          [
+            0,
+            -16
+          ]
+        ],
+        "overlap": false
+      },
+      "inputs": {
+        "spec": "elder-import-spec.draft.json",
+        "specSha256": "c9abb269a97b841ca0a4c571f51ea9201b2b2dbee4be3e3df75981d36a25e97e",
+        "geometry": "elder-draft/family.json",
+        "geometrySha256": "89f358432f3e4e2970b722644cdddfe7a2cdd22145ba2c90296043716a0ccc99",
+        "roles": "elder-native-roles.json",
+        "rolesSha256": "b835bcf7ac525f0af26c16b0f6dff5abed4950f9d51d8d64bcc2fce8b213952c"
+      },
+      "compiled": {
+        "rawGraphicsBytes": 5760,
+        "compressedBytes": 3322,
+        "assemblyBytes": 760,
+        "graphicsSha256": "5d965311f40d3369a3048f6f4b4a2b9f21752cab50e5294adf69f214756ff5e6",
+        "compressedSha256": "f162f2e3ca86f90f5a710897f915e7b405dd7b1bbe20ba2c3ef3fbc3db972e43",
+        "assemblySha256": "d2967f95844b4214d1ab45b3711b4279cf238422bf2bc7fc68da367c9422c9e6",
+        "pixelsSha256": "492f050403cc8477b812a56f55be164ec6185d7a9375cd48d813f66c587e55a9",
+        "paletteSha256": {
+          "123": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+        }
+      },
+      "cost": {
+        "key": "elder",
+        "candidate": {
+          "raw": 5760,
+          "compressed": 3322,
+          "assembly": 760,
+          "totalCompressedAndAssembly": 4082
+        },
+        "originalCT": {
+          "graphicsOffset": 1650919,
+          "graphicsBytes": 2336,
+          "compressedBytes": 1482,
+          "assemblyOffset": 1947144,
+          "assemblyBytes": 760,
+          "totalCompressedAndAssembly": 2242,
+          "compressedAllocationGrowth": 1840,
+          "rawGrowth": 3424
+        },
+        "activeEarlierArt": {
+          "raw": 960,
+          "compressed": 453,
+          "assembly": 760,
+          "totalCompressedAndAssembly": 1213,
+          "compressedAllocationGrowth": 2869,
+          "rawGrowth": 4800,
+          "graphicsSha256": "ed84f4b13b52eaa91c8acaa5cc05765ef2f482f96588db4498b3d767eeb5a748",
+          "compressedSha256": "1b7f935ef04792af2b34f950856297848cc2ddc5c2546816e072aee60c0a4560",
+          "assemblySha256": "b15ace42a34e3eb836e37a84282846ade91e22ad6dec5d2f9f94a2dbc205f57e",
+          "matchesActiveSourceFamilySnapshot": true
+        }
+      }
+    }
+  ],
+  "totals": {
+    "raw": 8128,
+    "compressed": 4932,
+    "assembly": 1360,
+    "compressedAndAssembly": 6292,
+    "compressedGrowthVsActive": 4083,
+    "rawGrowthVsActive": 5920,
+    "equivalentResourceCompressedGrowthVsOriginal": 2361,
+    "originalSharedAssemblyCannotBeReclaimed": true,
+    "additionalPrivateAssemblyVsOriginal": 1360,
+    "netCompressedAndPrivateAssemblyGrowthVsOriginal": 3721
+  },
+  "proof": {
+    "nativeUploads": 49,
+    "nativeOpaquePixels": 15755,
+    "nativeOwners": [
+      32,
+      64,
+      33
+    ],
+    "timedTicks": 2160,
+    "timedScenarios": 12,
+    "privateRomSha256": "10f681250945d48f139123e42d83fa04db59ddadb4d47a11cba9859bb6f58664",
+    "paletteBytesUnchanged": true,
+    "originalSharedAssembliesUnchanged": true,
+    "wholeSceneOrIndependentProof": false
+  },
+  "sourcePoseCount": 24,
+  "derivedNativeFragmentFrames": 2,
+  "blankNativeFrames": {
+    "child": [
+      14
+    ],
+    "elder": [
+      16
+    ]
+  },
+  "fragmentProof": {
+    "leftOpaquePixels": 56,
+    "description": "Pointwise upper9rows of generated left idle; frame18 exact horizontal mirror."
+  },
+  "visualApproval": {
+    "lead": "sprite_art_pass",
+    "baseModelsApproved": true,
+    "fullNativeSheetsApproved": true,
+    "headFragmentsApproved": true,
+    "northChildRecolorApproved": false,
+    "scope": "Static approval is separate from actual execution manifests.",
+    "assessment": "Small iced-bun child remains expressive; lobed brioche, beard, robe and cane distinguish elder. True blank slots and56-pixel source head fragments are explicit.",
+    "root": {
+      "fullNativeContactApproved": true,
+      "northChildRecolorApproved": true,
+      "assessment": "Consistent baked silhouettes, all walking directions, original blanks and both source-derived head fragments accepted."
+    }
+  },
+  "reproductionDependencies": [
+    {
+      "file": "scripts/import-raster-art.mjs",
+      "sha256": "932f6a4558afc571610f2ae10790b7623e0524fa8b541eb3dc03a596172db1f1"
+    },
+    {
+      "file": "engine/actor-families.js",
+      "sha256": "3eb0d529e30129185a5f45ec7164a925d0b14b417083a965c7974ad9e36dad54"
+    },
+    {
+      "file": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "file": "engine/raster-art.js",
+      "sha256": "6f7e645ec586ac8de27dec81072176d1b62fbf414321caaba0fa05c114cea6ba"
+    },
+    {
+      "file": "engine/sprites.js",
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "file": "engine/rom.js",
+      "sha256": "06b336022840d63cc8295bce22f19ee3527484a06739b76ce90dc5bafa2a9b04"
+    },
+    {
+      "file": "engine/native-sprites.js",
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "file": "engine/expanded-rom.js",
+      "sha256": "de8f528ce60b4488df9d7742c38e8c9af2ae58e74df641fe6fd1c605dbeedde2"
+    },
+    {
+      "file": "scripts/core.mjs",
+      "sha256": "7ab30045a06ef89154004a3cc25e1c2dab1cad1c426f4a585e4a68a058bceef4"
+    },
+    {
+      "file": "engine/automation.js",
+      "sha256": "8af377558a467f16747a8dbb120b8a047c2512cee9b4945ec5f657660a36fe28"
+    },
+    {
+      "file": "engine/hooks.js",
+      "sha256": "795fd4248bfaf669e53753df0636b4d24cf5ae98062d82f6e50b147516af7a2a"
+    },
+    {
+      "file": "engine/devtools.js",
+      "sha256": "d74863a9a3f8379eafb762230d4826242924bbd08f88f40dcae02aca2b0c7dff"
+    },
+    {
+      "file": "tests/helpers.mjs",
+      "sha256": "4a77a84d238f495d30837a92547b46981ec7c1ee529f6805e12ec92217cc1a80"
+    },
+    {
+      "file": "content/hooks.json",
+      "sha256": "bf37708d2862de0a3a6766ef8f9a5c05079e454e262750e001e42a02532783a5"
+    }
+  ],
+  "requiredArtifacts": [
+    {
+      "path": "README.md",
+      "bytes": 7858,
+      "sha256": "5669bcdfbc6f5a4944655e8c01edf4f9b9f2dfcbc13d2cdb11d75c5884b32a1c"
+    },
+    {
+      "path": "source-families.json",
+      "bytes": 2094,
+      "sha256": "31a0c00bed7d763007e0f0e02828c5856c8fa946b4ff5ab6bffdabae15a392a3"
+    },
+    {
+      "path": "shared-village-owners.json",
+      "bytes": 3981,
+      "sha256": "a9d65988e633f6ebc40dbc010e915720345dcc5075aa6843bc4b2d8a4189a5e7"
+    },
+    {
+      "path": "native-audit.json",
+      "bytes": 49143,
+      "sha256": "e0fc4d2acce1ddda59a038486c313688533dbc09f7b9bebd920b3ccc8449cc14"
+    },
+    {
+      "path": "audit-native.mjs",
+      "bytes": 7483,
+      "sha256": "50e5aea2fbbc5e7a173f60253fb1f581dfc08b9925f6b40f9b6da23129797ee4"
+    },
+    {
+      "path": "prepare-base.mjs",
+      "bytes": 1022,
+      "sha256": "1b43c87a53f35b0ea7dafddacec9f067ab2d2115ed74ea73b70698ce07191d69"
+    },
+    {
+      "path": "derive-fragment.mjs",
+      "bytes": 2115,
+      "sha256": "ec798c4166482ed3ebf512893d3b4adee412c70f566a5b292acc0404fea0b9d0"
+    },
+    {
+      "path": "prepare-draft.mjs",
+      "bytes": 3352,
+      "sha256": "e79215da718bdd751a2acc371a2e5ef2501599e510f39ffc24745524e9a6ce12"
+    },
+    {
+      "path": "compile-draft.mjs",
+      "bytes": 7172,
+      "sha256": "d6f85b701cce3dc6383ba81ba617945feb81e731626bcbb561cacadf17413e93"
+    },
+    {
+      "path": "private-overlay.mjs",
+      "bytes": 3279,
+      "sha256": "1bcd989c46b2dbe3882d01e0390293aac40967dbd828da51ee7272b496ed2d0d"
+    },
+    {
+      "path": "verify-native.mjs",
+      "bytes": 6206,
+      "sha256": "27f5479de46885b6bfe544a3586a66b2bbeaedce39265a4efdc93929cde62af9"
+    },
+    {
+      "path": "verify-motion.mjs",
+      "bytes": 4227,
+      "sha256": "a62d4652bd346338bdc161d1eb9a2a67c29238021d6ea6b1cda83e60153a18ad"
+    },
+    {
+      "path": "build-review.mjs",
+      "bytes": 11176,
+      "sha256": "efb059519d13a7bc61484efa3bb42e73db30a2c4d22cbfe83727011fa5de153d"
+    },
+    {
+      "path": "verify-frozen.mjs",
+      "bytes": 3115,
+      "sha256": "9713ec9c65daf9fbdd74f8dc444c66306287c097684f23f2d73278a0637b8fee"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 5664,
+      "sha256": "042851df57ece8bcb94b0167c65b6b9c5785e272ea1d2ceca2469f1f2fc45f20"
+    },
+    {
+      "path": "prompt-child-base-v1.txt",
+      "bytes": 2875,
+      "sha256": "77db422ce2037f0e24b4488b62454a80d11ae363a7bde0bbd7320dfc7d62149e"
+    },
+    {
+      "path": "source-child-base-v1.png",
+      "bytes": 821508,
+      "sha256": "646f3af8b30b60260e9a851414dd2c930ba474bff892efe40a8ed9412d23549e"
+    },
+    {
+      "path": "prompt-elder-base-v1.txt",
+      "bytes": 3226,
+      "sha256": "e13d51ea4293af1a09e845b57c2387f48dab13dfcd6270cf7d11a5ba61d08562"
+    },
+    {
+      "path": "source-elder-base-v1.png",
+      "bytes": 1201464,
+      "sha256": "4bb78d4ce146c292a9c75a8f46fa25b15c47ab96ca4e628b7e2c9ac274af78bb"
+    },
+    {
+      "path": "child-base-spec.json",
+      "bytes": 2146,
+      "sha256": "056f73eaf488fa66a5c86c2f712cf3cb071a03d397783ee56d92317ce1135003"
+    },
+    {
+      "path": "elder-base-spec.json",
+      "bytes": 2131,
+      "sha256": "e07dc60eca41525b354dd4487878d6ac1bc82ff2bdf4af74ee1a54d4143a3c26"
+    },
+    {
+      "path": "elder-base-preview/preview-raster.json",
+      "bytes": 13796,
+      "sha256": "0057cff79a9d4a0b74e6ee9dd261db736b6a9fb1b7661e3690f18c6334fffde5"
+    },
+    {
+      "path": "derived-elder-head-left.png",
+      "bytes": 270,
+      "sha256": "d648418c814c82c7c9eb2d8075412d1d39b88a806225244cb90e1e5badff95e3"
+    },
+    {
+      "path": "head-fragment-derivation.json",
+      "bytes": 1361,
+      "sha256": "6b8cb748e63aba94a0d4607eec6085bd75d63cc373194e0bb2e566f0e41deb11"
+    },
+    {
+      "path": "child-import-spec.draft.json",
+      "bytes": 3835,
+      "sha256": "2b6495225a90ed3d88b8d247f079368a4a5486cbb1653925876a517472c0d416"
+    },
+    {
+      "path": "child-native-roles.json",
+      "bytes": 7750,
+      "sha256": "3607cf798c0d7cfca226c462f76219bc634532473ad677e38d350867443e4904"
+    },
+    {
+      "path": "child-draft/preview-import.json",
+      "bytes": 4933,
+      "sha256": "73805c75a47ffc46ec6ef6ea4c001343fa50c23ccb6d8967dcce82fe0c6f1760"
+    },
+    {
+      "path": "child-draft/preview-raster.json",
+      "bytes": 12077,
+      "sha256": "86992bb24ff52030a32dc3f168d71033c07061c1c855e5a991930ce5e88d6017"
+    },
+    {
+      "path": "child-draft/family.json",
+      "bytes": 1173,
+      "sha256": "5fa098bbd157aafe6b003a73182b97884f2b305c499df4ad0971cea893c4d9cc"
+    },
+    {
+      "path": "child-draft/graphics.4bpp",
+      "bytes": 2368,
+      "sha256": "1cabab8da1ab6f393a1980c86919998ef8cb6466e38ffff316d7e6194f2dca9b"
+    },
+    {
+      "path": "child-draft/graphics.ct-lz",
+      "bytes": 1610,
+      "sha256": "ceed3db7f75f07733b994259dd990871f1bb2af98a49da95c7697b8dc6a4ecc8"
+    },
+    {
+      "path": "child-draft/assembly.bin",
+      "bytes": 600,
+      "sha256": "e6dd4dad769af91a44beb2613575eb721809d12fae0a26bfe857d17ebc5c651f"
+    },
+    {
+      "path": "child-draft/palette-123.bin",
+      "bytes": 24,
+      "sha256": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+    },
+    {
+      "path": "child-draft/verification.json",
+      "bytes": 11984,
+      "sha256": "4173a0da4088fbee91f01a0dc7c0886cd5c4b28b637d1129e3e1e0ea6c6b0d60"
+    },
+    {
+      "path": "child-draft/native-6x.png",
+      "bytes": 12226,
+      "sha256": "aea3076c533b886fad4b2bc85dbc3abdd3f52da17a2c5e55b24134231cd2d07a"
+    },
+    {
+      "path": "child-draft/palette-124.bin",
+      "bytes": 24,
+      "sha256": "d1489b7af1ae7fc04c913aa817fed2a6e9edd9ad5b6f03deb53f21b214afff76"
+    },
+    {
+      "path": "elder-import-spec.draft.json",
+      "bytes": 4102,
+      "sha256": "c9abb269a97b841ca0a4c571f51ea9201b2b2dbee4be3e3df75981d36a25e97e"
+    },
+    {
+      "path": "elder-native-roles.json",
+      "bytes": 9823,
+      "sha256": "b835bcf7ac525f0af26c16b0f6dff5abed4950f9d51d8d64bcc2fce8b213952c"
+    },
+    {
+      "path": "elder-draft/preview-import.json",
+      "bytes": 6125,
+      "sha256": "4b03e188a8d34e34836db3c53855c0736800dad53154249eb97758864e8eac3a"
+    },
+    {
+      "path": "elder-draft/preview-raster.json",
+      "bytes": 15452,
+      "sha256": "277ae725acbc7466949efbdc37e70719fff4cd9bf9628cd713ad0f3db5884a69"
+    },
+    {
+      "path": "elder-draft/family.json",
+      "bytes": 692,
+      "sha256": "89f358432f3e4e2970b722644cdddfe7a2cdd22145ba2c90296043716a0ccc99"
+    },
+    {
+      "path": "elder-draft/graphics.4bpp",
+      "bytes": 5760,
+      "sha256": "5d965311f40d3369a3048f6f4b4a2b9f21752cab50e5294adf69f214756ff5e6"
+    },
+    {
+      "path": "elder-draft/graphics.ct-lz",
+      "bytes": 3322,
+      "sha256": "f162f2e3ca86f90f5a710897f915e7b405dd7b1bbe20ba2c3ef3fbc3db972e43"
+    },
+    {
+      "path": "elder-draft/assembly.bin",
+      "bytes": 760,
+      "sha256": "d2967f95844b4214d1ab45b3711b4279cf238422bf2bc7fc68da367c9422c9e6"
+    },
+    {
+      "path": "elder-draft/palette-123.bin",
+      "bytes": 24,
+      "sha256": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+    },
+    {
+      "path": "elder-draft/verification.json",
+      "bytes": 14284,
+      "sha256": "dadca44fb8253915401ee593eae857a64cb9c3fc846338f49ea76f7091695ba1"
+    },
+    {
+      "path": "elder-draft/native-6x.png",
+      "bytes": 20520,
+      "sha256": "65c36dc02e59aa2a16447d29c54027865ea08b8d978189a0d70323ea65844700"
+    },
+    {
+      "path": "cost-baselines.json",
+      "bytes": 2283,
+      "sha256": "f43729779188e979d29d1fc7bac0f57ccc69f904fa10f7bcfc599fd2f3cb689c"
+    },
+    {
+      "path": "current-co-loads.json",
+      "bytes": 7345,
+      "sha256": "361609754c0e0cb990e2dc3040e9ae0b88fdb48e66d878cd923f5a2dbd69d6de"
+    },
+    {
+      "path": "native-verification/manifest.json",
+      "bytes": 4101,
+      "sha256": "0237333e6ec035a091018e07e23ed119d8784b45500da76ecf677b494ccd3f68"
+    },
+    {
+      "path": "native-verification/bakery-child-native-frame-1.png",
+      "bytes": 56502,
+      "sha256": "c2c65c2d35264ea3315030c8259b8b11cceed247007982e3d9c58eab31e5dcb2"
+    },
+    {
+      "path": "native-verification/bakery-child-native-frame-14.png",
+      "bytes": 56451,
+      "sha256": "9d28edb663304e7658cba28ae7204f5bccba5bbff079fb7c722296c4c1a43518"
+    },
+    {
+      "path": "native-verification/north-bakery-child-native-frame-1.png",
+      "bytes": 56517,
+      "sha256": "3446eb862cfe389c4c45e30b3911407390019b4978b074b65da0f8ed611c32de"
+    },
+    {
+      "path": "native-verification/north-bakery-child-native-frame-14.png",
+      "bytes": 56451,
+      "sha256": "9d28edb663304e7658cba28ae7204f5bccba5bbff079fb7c722296c4c1a43518"
+    },
+    {
+      "path": "native-verification/bakery-elder-native-frame-1.png",
+      "bytes": 56384,
+      "sha256": "8e2ba4d8b9e1b2b83f91faa46c6870546c5af3530309dc8ac970b7da4c63aca9"
+    },
+    {
+      "path": "native-verification/bakery-elder-native-frame-16.png",
+      "bytes": 56456,
+      "sha256": "d0d66c7da701a2ed7200345f58333e70a793abebf40da8b03fa65d020821fa84"
+    },
+    {
+      "path": "native-verification/bakery-elder-native-frame-17.png",
+      "bytes": 56495,
+      "sha256": "908a2b2b0ab806fa5c0b79428fd86c72c91eaec1943caa97ff47e19b0cda61a7"
+    },
+    {
+      "path": "native-verification/bakery-elder-native-frame-18.png",
+      "bytes": 56502,
+      "sha256": "205a6b4178db2d153763c90c74eba0f0b8a71108142e73c309d3492b0c4566d4"
+    },
+    {
+      "path": "motion-verification/manifest.json",
+      "bytes": 256828,
+      "sha256": "b39af05978fa7f5e341146c48cf2955a00b886a90be4133fea985469d8ac647f"
+    },
+    {
+      "path": "review/contact-sheet-1x.png",
+      "bytes": 36650,
+      "sha256": "6f8a95e786e82e2dd56d75ec88091a24ec135af6ade18e680ef856317d21f888"
+    },
+    {
+      "path": "review/motion-strip-1x.png",
+      "bytes": 35433,
+      "sha256": "a25a34a859d5ce88e5c5fb52c51d6f5723234246c5b13c53952747efef553f67"
+    },
+    {
+      "path": "review/motion-review.html",
+      "bytes": 76102,
+      "sha256": "04d948bf1160d32353eb9975d109b42fec3cfa5f9925e16e6e00e707eac1ddbe"
+    },
+    {
+      "path": "review/motion-review.gif",
+      "bytes": 62822,
+      "sha256": "380bebbc9e7f879bcc14b544b284d5676563f28366d5dd13617794e2a494a79f"
+    },
+    {
+      "path": "review/review-manifest.json",
+      "bytes": 1356,
+      "sha256": "0f788ea3dae5340bd85b8e8435d2d532ae124b56815d4ff179437bfca1d01dc2"
+    },
+    {
+      "path": "review/actual-native-front-crops-6x.png",
+      "bytes": 6486,
+      "sha256": "3a9a2468a711b759136b6bb6a2581d05914b2ef0e1e831bc10164038fa4fa584"
+    },
+    {
+      "path": "integration-proposal.json",
+      "bytes": 11583,
+      "sha256": "125d80665cfa331f84f2f6aa4bb513ce97246990d054d40e6971ecc4043a6ad7"
+    }
+  ],
+  "excluded": "Extracted original-game review PNGs, redundant indexed previews, base child preview and unused native captures. No cartridge binaries or active production files.",
+  "limits": [
+    "Private solo compressed proof is complete; production streaming and independent whole-event checks remain root-owned.",
+    "Saved-build union budget is not a current production co-load proof.",
+    "Source shared assembly7/11 must remain unchanged."
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "key": "future-ushers",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/future-ushers",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "252a31",
+    "4b4140",
+    "806044",
+    "bb925b",
+    "edd4a0",
+    "f8ebc4",
+    "35494c",
+    "567a79",
+    "98b6ab",
+    "694a51",
+    "bd655b",
+    "d6efb4"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/future-ushers/source-movement-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 30,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      }
+    },
+    {
+      "file": "assets/imagegen/future-ushers/source-reactions-v1.png",
+      "columns": 3,
+      "rows": 2,
+      "nativeHeight": 30,
+      "scaleCells": [
+        5
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      }
+    },
+    {
+      "file": "assets/imagegen/future-ushers/source-gestures-v1.png",
+      "columns": 3,
+      "rows": 2,
+      "nativeHeight": 30,
+      "scaleCells": [
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      }
+    },
+    {
+      "file": "assets/imagegen/future-ushers/source-flash-v1.png",
+      "columns": 2,
+      "rows": 1,
+      "nativeHeight": 30,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        {
+          "frame": 8,
+          "flip": true
+        },
+        9,
+        10,
+        22,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        {
+          "frame": 19,
+          "flip": true
+        },
+        {
+          "frame": 20,
+          "flip": true
+        }
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive source draft",
+    "native": "25 original slots, gfx97/asm56, four native cells. Keep enemy137/138/139 and NPC170 headers, both original animation41/159 programs and current palettes51/52/53.",
+    "unusedSourceFrames": [
+      11,
+      14,
+      21
+    ],
+    "sourceMirrors": "Only right gait9–11 and right gesture23–24 are whole-source mirrors of their original left counterparts.",
+    "palette": "Indexed against current Brass52; existing steel51 and iron53 reinterpret identical native indices."
+  }
+}

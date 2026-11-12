@@ -1,0 +1,45 @@
+{
+  "sourceType": "image-generation",
+  "tool": "Built-in image_gen",
+  "date": "2026-10-31",
+  "source": {
+    "file": "assets/imagegen/moth-witch/source-v1.png",
+    "bytes": 2263508,
+    "sha256": "66b2e68c1c30147bc4c8690e89365be09a7eadf43e07007a1d1f023f79a3d061",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "requestedTransparentBackground": true
+  },
+  "prompt": {
+    "file": "assets/imagegen/moth-witch/prompt-source-v1.txt",
+    "sha256": "f8b3647e3766ec117b13517f210a061451b1801dd66086d946d02df23f35337d"
+  },
+  "originalCharacter": "Moth Witch, original fairy-tale enforcer defined by design.txt and existing content/enforcer-actors.js identity",
+  "referenceScope": "Prior native art was viewed for palette, moth wings, antennae and dress identity. No original game sprite image was supplied to image generation.",
+  "derivation": "Generic raster importer only; preserves generated alpha, samples actual generated pixels into the existing 12-color palette. Native mirrored pairs are recorded explicitly.",
+  "conversion": {
+    "selectedSpec": "import-spec.draft.json",
+    "nativeWidth": 32,
+    "nativeHeight": 64,
+    "paletteColors": 12,
+    "sampling": "area",
+    "opaqueSourceThreshold": 128,
+    "nativeRoles": 16,
+    "unusedSourceCells": [
+      8,
+      9,
+      10,
+      12,
+      14
+    ],
+    "nativeMirrors": {
+      "8": "source5 reflected",
+      "9": "source6 reflected",
+      "10": "source7 reflected",
+      "12": "source13 reflected",
+      "13": "source11 reflected"
+    }
+  }
+}

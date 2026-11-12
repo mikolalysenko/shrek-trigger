@@ -1,0 +1,873 @@
+{
+  "key": "horner",
+  "name": "Jack Horner",
+  "status": "Lead pixel review approved; private native streaming and battle raster proof frozen; inactive pending production integration",
+  "activation": false,
+  "visualReview": {
+    "status": "Lead pixel review approved; inactive pending native capacity integration",
+    "reviewer": "/root/sprite_art_pass",
+    "date": "2026-10-31",
+    "approved": true,
+    "bodyReferenceHeight": 32,
+    "sampling": "nearest",
+    "all30NativeSlotsAt1xAnd3x": true,
+    "findings": "Broad face, bowl hair, cravat, coat volume and crouch/float/tumble/shield roles read clearly. Preserve the full-size candidate; do not substitute the 26px resource trial.",
+    "nativeUploaded": true,
+    "capacityApproved": false
+  },
+  "selectedModel": {
+    "bodyReferenceHeight": 32,
+    "sampling": "nearest",
+    "directory": "assets/imagegen/jack-horner",
+    "sourceSheets": 4,
+    "sourceFrames": 28,
+    "usedSourceFrames": 26,
+    "nativeFrames": 30,
+    "allNativeImagesDistinct": true
+  },
+  "files": {
+    "import": "import-spec.draft.json",
+    "raster": "preview-raster.json",
+    "frameMap": "native-frame-map.draft.json",
+    "roles": "source-roles.draft.json",
+    "nativeAudit": "native-resource-audit.json",
+    "nativePhaseReuse": "original-phase-reuse-audit.json",
+    "sceneBudget": "scene-budget-audit.json",
+    "nativeSheet": "native-frames.png",
+    "motion": "motion.html",
+    "sampling": "sampling-comparison.png",
+    "scaleTrials": "scale-comparison.png"
+  },
+  "provenance": [
+    "provenance-base-v1.json",
+    "provenance-float-v1.json",
+    "provenance-actions-v1.json",
+    "provenance-dizzy-v1.json"
+  ],
+  "nativeContract": {
+    "enemies": [
+      166,
+      167,
+      168
+    ],
+    "graphics": 155,
+    "assembly": 148,
+    "palette": "Existing emitted purple Horner palette; source Ozzie green ramp is not used.",
+    "animationIds": [
+      118,
+      161
+    ],
+    "size": 1,
+    "frames": 30,
+    "cellsPerFrame": 8,
+    "tilesPerFrame": 32,
+    "assemblyBytes": 2400,
+    "frameCellOrigins": "native-frame-map.draft.json",
+    "anchor": [
+      0,
+      8
+    ],
+    "frameOffsets": {
+      "4": [
+        0,
+        -6
+      ],
+      "9": [
+        0,
+        -2
+      ],
+      "10": [
+        0,
+        -3
+      ],
+      "11": [
+        0,
+        -2
+      ],
+      "12": [
+        0,
+        -2
+      ],
+      "13": [
+        0,
+        -3
+      ],
+      "14": [
+        0,
+        -2
+      ],
+      "15": [
+        0,
+        -2
+      ],
+      "16": [
+        0,
+        -3
+      ],
+      "17": [
+        0,
+        -2
+      ],
+      "22": [
+        2,
+        1
+      ],
+      "27": [
+        0,
+        -2
+      ],
+      "28": [
+        0,
+        -1
+      ]
+    },
+    "display": "The [0,8] anchor exactly cancels transparent source staging padding. Existing original family offsets remain unchanged.",
+    "headersUnchanged": true,
+    "animationTimingUnchanged": true,
+    "aiUnchanged": true
+  },
+  "cost": {
+    "tiles": 430,
+    "decodedGraphicsBytes": 13760,
+    "compressedGraphicsBytes": 11526,
+    "compressedDeltaFromOriginal": 6342,
+    "compressedDeltaFromCurrentProcedural": 9062,
+    "assemblyBytes": 2400,
+    "decodedIncreaseFromOriginal": 5568,
+    "original": {
+      "tiles": 256,
+      "graphicsBytes": 8192,
+      "compressedGraphicsBytes": 5184,
+      "assemblyBytes": 2400
+    },
+    "currentProcedural": {
+      "tiles": 148,
+      "graphicsBytes": 4736,
+      "compressedGraphicsBytes": 2464
+    },
+    "exactPackingSavings": {
+      "method": "Pixel-exact cell-boundary alignment with eight transparent staging rows; anchor cancels all display displacement",
+      "initialTiles": 438,
+      "initialGraphicsBytes": 14016,
+      "initialCompressedBytes": 11616,
+      "decodedBytesSaved": 256
+    },
+    "possibleDirectRomRawPayloadBytes": 13760,
+    "directRomStatus": "Private native size1 field and battle raster proof passed; production activation pending."
+  },
+  "capacity": {
+    "approved": false,
+    "oldResourceDecodedBytes": 8192,
+    "originalConservativeCeiling": 9824,
+    "exceedsOldCeilingBy": 3936,
+    "baseResourceUnionBlockers": [
+      {
+        "location": 33,
+        "graphics": [
+          155,
+          86,
+          35,
+          111,
+          49
+        ],
+        "baseAllConditionalBytes": 31104,
+        "otherBytes": 22912,
+        "candidateBytes": 36672,
+        "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+      },
+      {
+        "location": 63,
+        "graphics": [
+          190,
+          40,
+          155,
+          182,
+          166
+        ],
+        "baseAllConditionalBytes": 27712,
+        "otherBytes": 19520,
+        "candidateBytes": 33280,
+        "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+      },
+      {
+        "location": 134,
+        "graphics": [
+          155,
+          171,
+          170,
+          33,
+          108,
+          125
+        ],
+        "baseAllConditionalBytes": 29728,
+        "otherBytes": 21536,
+        "candidateBytes": 35296,
+        "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+      },
+      {
+        "location": 135,
+        "graphics": [
+          155,
+          171,
+          170,
+          33,
+          108,
+          125
+        ],
+        "baseAllConditionalBytes": 29728,
+        "otherBytes": 21536,
+        "candidateBytes": 35296,
+        "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+      },
+      {
+        "location": 170,
+        "graphics": [
+          186,
+          155,
+          111,
+          100,
+          83
+        ],
+        "baseAllConditionalBytes": 31072,
+        "otherBytes": 22880,
+        "candidateBytes": 36640,
+        "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+      },
+      {
+        "location": 175,
+        "graphics": [
+          155,
+          203,
+          94,
+          91
+        ],
+        "baseAllConditionalBytes": 30240,
+        "otherBytes": 22048,
+        "candidateBytes": 35808,
+        "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+      }
+    ],
+    "coLoads": [
+      {
+        "location": 33,
+        "loads": [
+          {
+            "offset": 462,
+            "kind": "enemy",
+            "id": 166,
+            "graphics": 155,
+            "direct": false,
+            "bytes": 8192,
+            "assembly": 148,
+            "palette": 196,
+            "animation": 118,
+            "size": 1,
+            "cells": 8
+          },
+          {
+            "offset": 546,
+            "kind": "npc",
+            "id": 78,
+            "graphics": 86,
+            "direct": false,
+            "bytes": 8704,
+            "assembly": 43,
+            "palette": 67,
+            "animation": 33,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 613,
+            "kind": "npc",
+            "id": 52,
+            "graphics": 35,
+            "direct": false,
+            "bytes": 3936,
+            "assembly": 24,
+            "palette": 9,
+            "animation": 15,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 631,
+            "kind": "enemy",
+            "id": 72,
+            "graphics": 111,
+            "direct": false,
+            "bytes": 10112,
+            "assembly": 76,
+            "palette": 104,
+            "animation": 38,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 636,
+            "kind": "enemy",
+            "id": 13,
+            "graphics": 86,
+            "direct": false,
+            "bytes": 8704,
+            "assembly": 43,
+            "palette": 63,
+            "animation": 33,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 668,
+            "kind": "npc",
+            "id": 112,
+            "graphics": 49,
+            "direct": false,
+            "bytes": 160,
+            "assembly": 92,
+            "palette": 145,
+            "animation": 139,
+            "size": 0,
+            "cells": 4
+          }
+        ]
+      },
+      {
+        "location": 63,
+        "loads": [
+          {
+            "offset": 674,
+            "kind": "npc",
+            "id": 93,
+            "graphics": 190,
+            "direct": false,
+            "bytes": 384,
+            "assembly": 186,
+            "palette": 223,
+            "animation": 61,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 787,
+            "kind": "npc",
+            "id": 5,
+            "graphics": 40,
+            "direct": false,
+            "bytes": 2432,
+            "assembly": 29,
+            "palette": 146,
+            "animation": 20,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 894,
+            "kind": "enemy",
+            "id": 166,
+            "graphics": 155,
+            "direct": false,
+            "bytes": 8192,
+            "assembly": 148,
+            "palette": 196,
+            "animation": 118,
+            "size": 1,
+            "cells": 8
+          },
+          {
+            "offset": 909,
+            "kind": "enemy",
+            "id": 159,
+            "graphics": 182,
+            "direct": false,
+            "bytes": 4320,
+            "assembly": 179,
+            "palette": 210,
+            "animation": 137,
+            "size": 1,
+            "cells": 8
+          },
+          {
+            "offset": 925,
+            "kind": "enemy",
+            "id": 157,
+            "graphics": 166,
+            "direct": false,
+            "bytes": 12384,
+            "assembly": 158,
+            "palette": 200,
+            "animation": 125,
+            "size": 1,
+            "cells": 8
+          }
+        ]
+      },
+      {
+        "location": 134,
+        "loads": [
+          {
+            "offset": 1622,
+            "kind": "enemy",
+            "id": 166,
+            "graphics": 155,
+            "direct": false,
+            "bytes": 8192,
+            "assembly": 148,
+            "palette": 196,
+            "animation": 118,
+            "size": 1,
+            "cells": 8
+          },
+          {
+            "offset": 1784,
+            "kind": "enemy",
+            "id": 180,
+            "graphics": 171,
+            "direct": false,
+            "bytes": 4384,
+            "assembly": 164,
+            "palette": 203,
+            "animation": 128,
+            "size": 1,
+            "cells": 8
+          },
+          {
+            "offset": 1840,
+            "kind": "enemy",
+            "id": 179,
+            "graphics": 170,
+            "direct": false,
+            "bytes": 5024,
+            "assembly": 163,
+            "palette": 203,
+            "animation": 127,
+            "size": 2,
+            "cells": 12
+          },
+          {
+            "offset": 1865,
+            "kind": "npc",
+            "id": 24,
+            "graphics": 33,
+            "direct": false,
+            "bytes": 3968,
+            "assembly": 22,
+            "palette": 217,
+            "animation": 14,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 2842,
+            "kind": "npc",
+            "id": 51,
+            "graphics": 33,
+            "direct": false,
+            "bytes": 3968,
+            "assembly": 22,
+            "palette": 135,
+            "animation": 14,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 3300,
+            "kind": "enemy",
+            "id": 46,
+            "graphics": 108,
+            "direct": false,
+            "bytes": 5504,
+            "assembly": 71,
+            "palette": 91,
+            "animation": 85,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 2992,
+            "kind": "enemy",
+            "id": 45,
+            "graphics": 108,
+            "direct": false,
+            "bytes": 5504,
+            "assembly": 71,
+            "palette": 92,
+            "animation": 85,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 3387,
+            "kind": "npc",
+            "id": 53,
+            "graphics": 33,
+            "direct": false,
+            "bytes": 3968,
+            "assembly": 22,
+            "palette": 131,
+            "animation": 14,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 3412,
+            "kind": "npc",
+            "id": 54,
+            "graphics": 125,
+            "direct": false,
+            "bytes": 2656,
+            "assembly": 188,
+            "palette": 132,
+            "animation": 7,
+            "size": 0,
+            "cells": 4
+          }
+        ]
+      },
+      {
+        "location": 135,
+        "loads": [
+          {
+            "offset": 1622,
+            "kind": "enemy",
+            "id": 166,
+            "graphics": 155,
+            "direct": false,
+            "bytes": 8192,
+            "assembly": 148,
+            "palette": 196,
+            "animation": 118,
+            "size": 1,
+            "cells": 8
+          },
+          {
+            "offset": 1784,
+            "kind": "enemy",
+            "id": 180,
+            "graphics": 171,
+            "direct": false,
+            "bytes": 4384,
+            "assembly": 164,
+            "palette": 203,
+            "animation": 128,
+            "size": 1,
+            "cells": 8
+          },
+          {
+            "offset": 1840,
+            "kind": "enemy",
+            "id": 179,
+            "graphics": 170,
+            "direct": false,
+            "bytes": 5024,
+            "assembly": 163,
+            "palette": 203,
+            "animation": 127,
+            "size": 2,
+            "cells": 12
+          },
+          {
+            "offset": 1865,
+            "kind": "npc",
+            "id": 24,
+            "graphics": 33,
+            "direct": false,
+            "bytes": 3968,
+            "assembly": 22,
+            "palette": 217,
+            "animation": 14,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 2842,
+            "kind": "npc",
+            "id": 51,
+            "graphics": 33,
+            "direct": false,
+            "bytes": 3968,
+            "assembly": 22,
+            "palette": 135,
+            "animation": 14,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 3300,
+            "kind": "enemy",
+            "id": 46,
+            "graphics": 108,
+            "direct": false,
+            "bytes": 5504,
+            "assembly": 71,
+            "palette": 91,
+            "animation": 85,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 2992,
+            "kind": "enemy",
+            "id": 45,
+            "graphics": 108,
+            "direct": false,
+            "bytes": 5504,
+            "assembly": 71,
+            "palette": 92,
+            "animation": 85,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 3387,
+            "kind": "npc",
+            "id": 53,
+            "graphics": 33,
+            "direct": false,
+            "bytes": 3968,
+            "assembly": 22,
+            "palette": 131,
+            "animation": 14,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 3412,
+            "kind": "npc",
+            "id": 54,
+            "graphics": 125,
+            "direct": false,
+            "bytes": 2656,
+            "assembly": 188,
+            "palette": 132,
+            "animation": 7,
+            "size": 0,
+            "cells": 4
+          }
+        ]
+      },
+      {
+        "location": 170,
+        "loads": [
+          {
+            "offset": 1119,
+            "kind": "npc",
+            "id": 121,
+            "graphics": 186,
+            "direct": false,
+            "bytes": 160,
+            "assembly": 108,
+            "palette": 3,
+            "animation": 145,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 1206,
+            "kind": "enemy",
+            "id": 166,
+            "graphics": 155,
+            "direct": false,
+            "bytes": 8192,
+            "assembly": 148,
+            "palette": 196,
+            "animation": 118,
+            "size": 1,
+            "cells": 8
+          },
+          {
+            "offset": 1346,
+            "kind": "enemy",
+            "id": 74,
+            "graphics": 111,
+            "direct": false,
+            "bytes": 10112,
+            "assembly": 76,
+            "palette": 102,
+            "animation": 38,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 1457,
+            "kind": "enemy",
+            "id": 87,
+            "graphics": 100,
+            "direct": false,
+            "bytes": 3680,
+            "assembly": 61,
+            "palette": 58,
+            "animation": 43,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 1959,
+            "kind": "enemy",
+            "id": 5,
+            "graphics": 83,
+            "direct": false,
+            "bytes": 8928,
+            "assembly": 38,
+            "palette": 24,
+            "animation": 30,
+            "size": 0,
+            "cells": 4
+          }
+        ]
+      },
+      {
+        "location": 175,
+        "loads": [
+          {
+            "offset": 1666,
+            "kind": "enemy",
+            "id": 166,
+            "graphics": 155,
+            "direct": false,
+            "bytes": 8192,
+            "assembly": 148,
+            "palette": 196,
+            "animation": 118,
+            "size": 1,
+            "cells": 8
+          },
+          {
+            "offset": 1792,
+            "kind": "enemy",
+            "id": 118,
+            "graphics": 203,
+            "direct": false,
+            "bytes": 12288,
+            "assembly": 85,
+            "palette": 113,
+            "animation": 45,
+            "size": 1,
+            "cells": 8
+          },
+          {
+            "offset": 1895,
+            "kind": "enemy",
+            "id": 52,
+            "graphics": 94,
+            "direct": false,
+            "bytes": 7328,
+            "assembly": 53,
+            "palette": 45,
+            "animation": 38,
+            "size": 0,
+            "cells": 4
+          },
+          {
+            "offset": 2103,
+            "kind": "enemy",
+            "id": 57,
+            "graphics": 91,
+            "direct": false,
+            "bytes": 2432,
+            "assembly": 48,
+            "palette": 40,
+            "animation": 82,
+            "size": 0,
+            "cells": 4
+          }
+        ]
+      },
+      {
+        "location": 180,
+        "loads": [
+          {
+            "offset": 536,
+            "kind": "enemy",
+            "id": 168,
+            "graphics": 155,
+            "direct": false,
+            "bytes": 8192,
+            "assembly": 148,
+            "palette": 196,
+            "animation": 118,
+            "size": 1,
+            "cells": 8
+          },
+          {
+            "offset": 584,
+            "kind": "enemy",
+            "id": 165,
+            "graphics": 166,
+            "direct": false,
+            "bytes": 12384,
+            "assembly": 158,
+            "palette": 200,
+            "animation": 126,
+            "size": 1,
+            "cells": 8
+          },
+          {
+            "offset": 610,
+            "kind": "enemy",
+            "id": 160,
+            "graphics": 182,
+            "direct": false,
+            "bytes": 4320,
+            "assembly": 179,
+            "palette": 210,
+            "animation": 137,
+            "size": 1,
+            "cells": 8
+          }
+        ]
+      }
+    ],
+    "currentEnforcerCostsFromRoot": {
+      "166": 9024,
+      "182": 3680
+    },
+    "prospectiveStreamingExclusions": [],
+    "required": "Root must add an explicit per-family native-streamed budget contract checking all emitted owners. Preserve the strict original decoded-budget guard for other families. Rebuild compressed and raw payloads together and rerun proof on the actual emitted ROM.",
+    "newWramRegionRequested": false,
+    "newVramAllocationRequested": false,
+    "heapWithoutStreaming": 13760,
+    "nativeUploaded": true
+  },
+  "validation": {
+    "all30SlotsPresent": true,
+    "all30NativeImagesDistinct": true,
+    "existing12ColorPalette": true,
+    "eightCellsEveryFrame": true,
+    "assemblyCapacityUnchanged": true,
+    "noClippedOpaquePixels": true,
+    "compressionRoundTrip": true,
+    "all4bppFramesRoundTrip": true,
+    "stagingPreservesDisplayedPixels": true,
+    "existingFrameOffsetsRetained": true,
+    "canonicalRegistryInactive": true
+  },
+  "remainingArtGaps": [],
+  "integration": "Use the supplied 8-cell frameCellOrigins, group anchor [0,8], and unchanged original frameOffsets. The anchor exactly cancels transparent staging padding; no displayed source pixel moves. Retain graphics 155, assembly 148, palette 196, all enemy headers and animation IDs 118/161. Capacity proof is required before activation.",
+  "activeEngineChanged": false,
+  "canonicalRegistryChanged": false,
+  "romFileWritten": false,
+  "notes": [
+    "Lead approved the full 32px nearest model. Smaller scale trials remain comparison artifacts and are not the chosen draft.",
+    "All four source atlases were generated with the built-in imagegen tool. Prompt files and source hashes are retained.",
+    "No active imports, music changes or procedural character drawing occurred."
+  ],
+  "sha256": {
+    "source-base-v1.png": "a5372307fa7af832d4d766dc84b046332c769bef66faae34d5c02d8dd924aba7",
+    "source-float-v1.png": "3ebfe2b517d7b714bab0b31b0ed6d50f2b8b6535d9303a580262ae4b2c97979b",
+    "source-actions-v1.png": "3452bd2ecc68d5b8e89998edf748a8d398bc9bfca1fc762877fed9f81717df20",
+    "source-dizzy-v1.png": "0974d320848f7bb77a4fe8672d55b23b3732a94d5eaceb8aaf34cac5aaa86048",
+    "import-spec.draft.json": "727c5a009516b8ace58bef3f678df1f72bc0abc93929b2687dc9fc16d218722e",
+    "preview-raster.json": "ba7a9c09fea083c0b7ed66e9a1c54a4aaa84b78297d1afc5f8460d4e413c830d",
+    "native-frame-map.draft.json": "a28065f0ba512b23a554342197cda7fc05b6a23f842adb4caf33d23ccc256267",
+    "source-roles.draft.json": "b220900d60a338b22b2da2d3fac093610b57b0cb4a43a4023a34f4f25511404b",
+    "scene-budget-audit.json": "ba592cdca0b12c43a1d6bcbb79fca73376d9b03064cf095607c3199a3ed410c9",
+    "native-frames.png": "abbf39246c811652c78698d14fbe846e72991684af21f61ca1edf79434e36530",
+    "motion.html": "1dfae99279102ce25285da0e012ada8be1c4002020d2f8433394cebd859e78ce"
+  },
+  "nativeStreamingProof": {
+    "file": "native-streaming-proof.json",
+    "romSha256": "f225c2a55be245e9dcef0275cbd598fbaba860342a829a26e2f4693e186ba174",
+    "status": "Private proof passed; production guard remains unchanged",
+    "activation": false
+  }
+}

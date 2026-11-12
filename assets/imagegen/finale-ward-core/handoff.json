@@ -1,0 +1,161 @@
+{
+  "status": "Frozen inactive actual image-generated Sugar Ward and Muffin Core. Root approved AREA native appearance; root owns activation and final battle branch proof.",
+  "sourceType": "image-generation",
+  "keys": [
+    "sugar-ward",
+    "muffin-core"
+  ],
+  "specs": [
+    "assets/imagegen/finale-ward-core/import-spec.ward.draft.json",
+    "assets/imagegen/finale-ward-core/import-spec.core.draft.json"
+  ],
+  "nativeGeometry": {
+    "width": 32,
+    "height": 32,
+    "size": 0,
+    "cells": 4,
+    "frameCellXY": [
+      [
+        -16,
+        -32
+      ],
+      [
+        0,
+        -32
+      ],
+      [
+        -16,
+        -16
+      ],
+      [
+        0,
+        -16
+      ]
+    ],
+    "framesPerActor": 3,
+    "blankFrames": [],
+    "overlapFrames": [],
+    "frameOffsets": {}
+  },
+  "parts": [
+    {
+      "key": "sugar-ward",
+      "enemy": 237,
+      "gfx": 237,
+      "asm": 223,
+      "palette": 233,
+      "animation": 189,
+      "rawBytes": 1120,
+      "compressedBytes": 751,
+      "assemblyBytes": 120,
+      "graphicsSha256": "dcd73732dd9fe09c743952b34719c60bfddaa1063e2fb1564429927114812e2b",
+      "compressedSha256": "be98203b57eb1690c3dfed7875aaf1ecb931f693a03ee5d98f1cb11560e07f65",
+      "assemblySha256": "29084a0e7ef94c1dc6e82e2d68a24c0cfc7c47483aa07056bfc0b705ba705903",
+      "nativeSourceFrames": [
+        "2a14b253051c05c966dcc2e465fab8ec3e9d19ea502d85b5a09d0283ab2ae2c3",
+        "d0fafb6bccc0158b80b591da58579e6f0bbb6d3f6404f19b7ed04fb2dc8065bc",
+        "c525c2a5f566b030a6edfaa3e51cd4814be665b4705268192f0142e14c791c36"
+      ]
+    },
+    {
+      "key": "muffin-core",
+      "enemy": 239,
+      "gfx": 248,
+      "asm": 254,
+      "palette": 233,
+      "animation": 189,
+      "rawBytes": 1376,
+      "compressedBytes": 787,
+      "assemblyBytes": 120,
+      "graphicsSha256": "82b2ff8e5e6f15a09811add3b707d18428b2790b422a30b4a3e0150a81ece47b",
+      "compressedSha256": "21b465d31f0be6f60bac3ff003a48820e4651239cf84df306b8fa3fc9e84146e",
+      "assemblySha256": "e2b38ffe79ae1d59bf2c1b172d6634d68241b8a5ec020e2a3632fe24d7860d6c",
+      "nativeSourceFrames": [
+        "d19aa168fae50f351807c45d05093e66c88e2c48d0a96a2b1a84a520f4f9a2fe",
+        "8889c0e708415f5c401a3cf09f20e23b94a38c3a7a92b6a8ffba64f598a7c9c5",
+        "4e7e10bbd82b2cab099be38fdf390573638e31f296846898f9c49a6c53721e1b"
+      ]
+    }
+  ],
+  "budgets": {
+    "raw": 2496,
+    "compressed": 1538,
+    "assembly": 240,
+    "rawGrowthOverPinnedProject": 896,
+    "compressedGrowthOverPinnedProject": 836,
+    "extraAssemblyBytes": 0,
+    "extraObjCells": 0,
+    "extraFixedWramBytes": 0,
+    "observedFinalArenaHeap": 17472,
+    "fieldHeapLimit": 32768
+  },
+  "sharedPalette": {
+    "id": 233,
+    "owners": [
+      11,
+      206,
+      237,
+      239
+    ],
+    "colors": [
+      "211b22",
+      "593426",
+      "975535",
+      "ce8c55",
+      "751b30",
+      "cf3541",
+      "f3dfba",
+      "252735",
+      "4b5272",
+      "e3b65c",
+      "f5c783",
+      "fff5d2"
+    ],
+    "allBytesUnchanged": true,
+    "protectedTyson": true
+  },
+  "verification": {
+    "baselineRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+    "privateRomSha256": "bc5f67801d9d3d906ff24790a073003ece82b050f2048310eb131c70b46654a1",
+    "nativeUploads": 6,
+    "exactOpaquePixels": 2690,
+    "nativeTimedTicks": 3840,
+    "timedScenarios": 24,
+    "actualFinalFormation": true,
+    "naturallyObservedGeneratedFrames": [
+      {
+        "key": "sugar-ward",
+        "frames": [
+          1,
+          0,
+          2
+        ]
+      },
+      {
+        "key": "muffin-core",
+        "frames": [
+          1,
+          0,
+          2
+        ]
+      }
+    ],
+    "exactPalette233": true,
+    "allObservedFramebufferMismatches": 0,
+    "tysonWindupFrame": 24,
+    "tysonAndOwner11ResourcesUnchanged": true
+  },
+  "integrationRequirements": [
+    "Register each inactive spec and use rasterArt(key,{pose:native,facing:1,phase}) for native phases0–2.",
+    "Keep established private core graphics248/assembly254, four-cell headers, all original timing/program/AI/stats and exact palette233.",
+    "Update finale art coverage to six raster frames; do not count the two richer PNGs as native assets before importing them.",
+    "Tyson and enemy11 are protected palette/resource owners. Do not regenerate or recolor them.",
+    "Perform canonical and independent-core final battle activation checks, including revival/victory branches. This packet proves art/loader/timing/formation only."
+  ],
+  "review": [
+    "assets/imagegen/finale-ward-core/review/contact-sheet-1x.png",
+    "assets/imagegen/finale-ward-core/review/motion.html",
+    "assets/imagegen/finale-ward-core/scene-verification/full-final-windup.png"
+  ],
+  "reproduce": "node assets/imagegen/finale-ward-core/reproduce-draft.mjs"
+}

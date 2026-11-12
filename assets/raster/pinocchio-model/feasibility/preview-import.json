@@ -1,0 +1,264 @@
+{
+  "key": "pinocchio-model-feasibility",
+  "frames": 16,
+  "width": 32,
+  "height": 32,
+  "opaqueColors": 12,
+  "palette": [
+    "342823",
+    "99623e",
+    "cf9b61",
+    "f1c887",
+    "f4e3c2",
+    "a73334",
+    "db6151",
+    "24475a",
+    "ffefcf",
+    "3c2a26",
+    "e3b441",
+    "2e6b90"
+  ],
+  "samplingPalette": [
+    "23180c",
+    "805327",
+    "b58d5e",
+    "dbc392",
+    "bcd6d6",
+    "641721",
+    "aa3d37",
+    "113c49",
+    "e7f4eb",
+    "49300f",
+    "c79519",
+    "228bb2"
+  ],
+  "sources": [
+    {
+      "file": "assets/raster/pinocchio-model/feasibility/source-contact.png",
+      "sha256": "136d78b2173ca7d2de1fe09025a1a5fc4ca73d25f1722365d04d072c121c6225",
+      "sourceType": "existing-game-model-render",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "scale": 0.13513513513513514,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1.15,
+        "bottom": 31
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            87,
+            16,
+            82,
+            225
+          ],
+          "componentPixels": 8797
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            343,
+            23,
+            82,
+            217
+          ],
+          "componentPixels": 9027
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            587,
+            20,
+            105,
+            222
+          ],
+          "componentPixels": 6927
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            844,
+            20,
+            105,
+            222
+          ],
+          "componentPixels": 6928
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            87,
+            272,
+            82,
+            222
+          ],
+          "componentPixels": 8904
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            343,
+            279,
+            82,
+            225
+          ],
+          "componentPixels": 9075
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            587,
+            276,
+            105,
+            225
+          ],
+          "componentPixels": 8792
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            844,
+            276,
+            105,
+            220
+          ],
+          "componentPixels": 8742
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            87,
+            528,
+            82,
+            222
+          ],
+          "componentPixels": 8904
+        },
+        {
+          "cell": 9,
+          "bounds": [
+            343,
+            535,
+            82,
+            225
+          ],
+          "componentPixels": 9075
+        },
+        {
+          "cell": 10,
+          "bounds": [
+            587,
+            532,
+            105,
+            220
+          ],
+          "componentPixels": 8741
+        },
+        {
+          "cell": 11,
+          "bounds": [
+            844,
+            532,
+            105,
+            225
+          ],
+          "componentPixels": 8793
+        },
+        {
+          "cell": 12,
+          "bounds": [
+            87,
+            787,
+            82,
+            223
+          ],
+          "componentPixels": 8331
+        },
+        {
+          "cell": 13,
+          "bounds": [
+            343,
+            788,
+            82,
+            222
+          ],
+          "componentPixels": 8471
+        },
+        {
+          "cell": 14,
+          "bounds": [
+            564,
+            788,
+            115,
+            225
+          ],
+          "componentPixels": 8709
+        },
+        {
+          "cell": 15,
+          "bounds": [
+            857,
+            788,
+            115,
+            221
+          ],
+          "componentPixels": 8507
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        5,
+        9
+      ],
+      "1": [
+        4,
+        8
+      ],
+      "2": [
+        6,
+        10
+      ],
+      "3": [
+        7,
+        11
+      ]
+    },
+    "punch": {
+      "0": [
+        13
+      ],
+      "1": [
+        12
+      ],
+      "2": [
+        14
+      ],
+      "3": [
+        15
+      ]
+    }
+  }
+}

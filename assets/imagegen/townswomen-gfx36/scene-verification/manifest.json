@@ -1,0 +1,278 @@
+{
+  "status": "Five bounded authored native scenarios passed",
+  "baseline": {
+    "path": "assets/imagegen/townswomen-gfx36/private/baseline.sfc",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "sha256": "0758f532bcbf0322997553f1e11b40463e15ab463a54555e4a624b4cd4bacd3f",
+    "bytes": 8388608
+  },
+  "privateRomSha256": "eabf983889993b502a41c6eb1332766064fe881523ab44167a36110cddc88471",
+  "nativeTicks": 9400,
+  "scenes": [
+    {
+      "name": "choras-seated-pair",
+      "location": 58,
+      "checkpoint": {
+        "id": 58,
+        "x": 47,
+        "y": 58,
+        "story": 200,
+        "object": 9,
+        "npc": 13,
+        "frames": [
+          20
+        ],
+        "extraTargets": [
+          {
+            "object": 10,
+            "npc": 40,
+            "frame": 19
+          }
+        ],
+        "ticks": 1000,
+        "party": [
+          0,
+          1,
+          2
+        ],
+        "endgameKit": true
+      },
+      "nativeTicks": 1000,
+      "finalLocation": 58,
+      "visibleFrames": [
+        20
+      ],
+      "heapByLocation": [
+        {
+          "location": 2,
+          "min": 1248,
+          "max": 1248
+        },
+        {
+          "location": 58,
+          "min": 1248,
+          "max": 4672
+        }
+      ],
+      "eventSha256": "3a4fed56fe0510dcc59f6d303d1c458a52485751f3cd6ba73bf6bbdfbdd9ed7f",
+      "proof": "assets/imagegen/townswomen-gfx36/scene-verification/choras-seated-pair.json"
+    },
+    {
+      "name": "family-seated",
+      "location": 9,
+      "checkpoint": {
+        "id": 9,
+        "x": 11,
+        "y": 28,
+        "story": 10,
+        "object": 9,
+        "npc": 213,
+        "frames": [
+          19
+        ],
+        "ticks": 1200,
+        "party": [
+          0,
+          1,
+          2
+        ],
+        "endgameKit": true
+      },
+      "nativeTicks": 1200,
+      "finalLocation": 9,
+      "visibleFrames": [
+        19
+      ],
+      "heapByLocation": [
+        {
+          "location": 2,
+          "min": 1248,
+          "max": 1248
+        },
+        {
+          "location": 9,
+          "min": 1248,
+          "max": 3936
+        }
+      ],
+      "eventSha256": "d862132cc0751e5c8d617e413a743b09ea8e7f26a82c5b2c8706a7d7dd83d617",
+      "proof": "assets/imagegen/townswomen-gfx36/scene-verification/family-seated.json"
+    },
+    {
+      "name": "family-recovered",
+      "location": 9,
+      "checkpoint": {
+        "id": 9,
+        "x": 11,
+        "y": 28,
+        "story": 10,
+        "object": 9,
+        "npc": 213,
+        "frames": [
+          18
+        ],
+        "flags": {
+          "0x1007c": 128
+        },
+        "ticks": 3000,
+        "party": [
+          0,
+          1,
+          2
+        ],
+        "endgameKit": true
+      },
+      "nativeTicks": 3000,
+      "finalLocation": 9,
+      "visibleFrames": [
+        19,
+        12,
+        2,
+        13,
+        9,
+        10,
+        11,
+        8,
+        14,
+        3,
+        15,
+        0,
+        18,
+        5,
+        6,
+        7
+      ],
+      "heapByLocation": [
+        {
+          "location": 2,
+          "min": 1248,
+          "max": 1248
+        },
+        {
+          "location": 9,
+          "min": 1248,
+          "max": 3936
+        }
+      ],
+      "eventSha256": "d862132cc0751e5c8d617e413a743b09ea8e7f26a82c5b2c8706a7d7dd83d617",
+      "proof": "assets/imagegen/townswomen-gfx36/scene-verification/family-recovered.json"
+    },
+    {
+      "name": "workshop-startled",
+      "location": 4,
+      "checkpoint": {
+        "id": 4,
+        "x": 12,
+        "y": 17,
+        "story": 200,
+        "object": 11,
+        "npc": 213,
+        "frames": [
+          16
+        ],
+        "flags": {
+          "0x1005a": 2
+        },
+        "ticks": 3000,
+        "advanceDialogue": true,
+        "party": [
+          0,
+          1,
+          2
+        ],
+        "endgameKit": true
+      },
+      "nativeTicks": 3000,
+      "finalLocation": 10,
+      "visibleFrames": [
+        1,
+        14,
+        3,
+        15,
+        9,
+        5,
+        6,
+        7,
+        4,
+        0,
+        16
+      ],
+      "heapByLocation": [
+        {
+          "location": 2,
+          "min": 1248,
+          "max": 1248
+        },
+        {
+          "location": 4,
+          "min": 1248,
+          "max": 7008
+        },
+        {
+          "location": 10,
+          "min": 2496,
+          "max": 7008
+        }
+      ],
+      "eventSha256": "31e24d0b64e6f11b4b0517efb80d753ace1b2a3b40a5f913cd124b25cd3ff512",
+      "proof": "assets/imagegen/townswomen-gfx36/scene-verification/workshop-startled.json"
+    },
+    {
+      "name": "parade-row6",
+      "location": 80,
+      "checkpoint": {
+        "id": 80,
+        "x": 25,
+        "y": 35,
+        "story": 200,
+        "object": 39,
+        "npc": 213,
+        "row": 6,
+        "frames": [
+          19
+        ],
+        "flags": {
+          "0x1006d": 64
+        },
+        "ticks": 1200,
+        "party": [
+          0,
+          1,
+          2
+        ],
+        "endgameKit": true
+      },
+      "nativeTicks": 1200,
+      "finalLocation": 80,
+      "visibleFrames": [
+        19
+      ],
+      "heapByLocation": [
+        {
+          "location": 2,
+          "min": 1248,
+          "max": 1248
+        },
+        {
+          "location": 80,
+          "min": 0,
+          "max": 16640
+        }
+      ],
+      "eventSha256": "6d388d4b78aadb2922d32119214065cdc5591b09064cc084039cbe0b0deb2b8c",
+      "proof": "assets/imagegen/townswomen-gfx36/scene-verification/parade-row6.json"
+    }
+  ],
+  "parade": {
+    "sourcePalette8Row6Exact": true,
+    "nativeBodyOffsets": [
+      3116,
+      3133
+    ],
+    "sourcePixels371": true,
+    "entireParadeAccepted": false,
+    "historicalRow7IssuePresent": true,
+    "rootFixPublishedRom": "417914abe589d25e377b774009f983867c14617cbf7a7f176c52691c8c9f2e35"
+  },
+  "scope": "Unchanged authored events after diagnostic entry. Workshop reaches nativeE1→10 after ordinaryA dialogue advances; no successful rescue claim. Complete connected routes and updated parade integration remain root-owned."
+}

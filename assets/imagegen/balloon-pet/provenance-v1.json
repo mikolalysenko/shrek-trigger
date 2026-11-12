@@ -1,0 +1,38 @@
+{
+  "tool": "OpenAI Images API",
+  "sourceType": "image-generation",
+  "endpoint": "https://api.openai.com/v1/images/generations",
+  "model": "gpt-image-2.6-sunburst",
+  "parameters": {
+    "model": "gpt-image-2.6-sunburst",
+    "size": "1024x1024",
+    "quality": "high",
+    "output_format": "png",
+    "n": 1
+  },
+  "requestId": "req_4afa95a0f7724950be63da3c82f32cf5",
+  "savedFile": "assets/imagegen/balloon-pet/source-v1.png",
+  "sha256": "f35f89b63218fe2fce3bec0e2676f130154b92dcf7bd10dc77ab75a55e061f54",
+  "created": "2026-11-11T14:17:37.000Z",
+  "prompt": {
+    "file": "assets/imagegen/balloon-pet/prompt-v1.txt",
+    "sha256": "7e8116d25fd0eefc2df58842fdb9879189146f5ebc872100dac20c10da05eb16"
+  },
+  "referenceImages": [],
+  "revisedPrompt": null,
+  "usage": {
+    "input_tokens": 293,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 293
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    },
+    "total_tokens": 2049
+  },
+  "transparentBackground": false,
+  "postGenerationEditing": "None. Source PNG saved unchanged from the API response; background masking, native extraction and palette indexing are recorded by the importer."
+}

@@ -1,0 +1,107 @@
+{
+  "key": "wolf",
+  "notes": {
+    "material": "Every opaque native pixel is sampled from source-base-v1.png; right-facing slots are whole-frame mirrors made by the cartridge sprite convention.",
+    "background": "The Images API returned real alpha for this sheet (the provenance file's transparentBackground:false is the generator script's fixed field), so no key-color mask is used; components and samples use the PNG's own alpha.",
+    "reference": "The pose guide passed as a reference is built by scripts/donkey-family-references.mjs from the stock frames this actor's event objects used. It contains original game pixels, so it is written under .local/ and only its hash is in the provenance file.",
+    "palette": "Twelve colors chosen by role from the twenty clusters scripts/pick-sprite-palette.mjs --clusters 20 lists for the sheet (outline, three fur greys, muzzle grey, three nightgown pinks, bonnet shade and white, eye yellow), snapped to SNES 15-bit. Written to palette 13, the private row this actor owns.",
+    "roles": "Cells 13 and 14 are the rear and front passing steps of the four-phase walks; cell 15 (pointing) has no native slot and is not compiled.",
+    "placement": "bottom 31 puts the feet on the source actor's ground line; cells 11 and 12 (arms up) are scaled to 0.94 to stay inside the 32-pixel cell."
+  },
+  "palette": [
+    "211818",
+    "524a4a",
+    "94526b",
+    "7b7373",
+    "8c8c8c",
+    "c67b94",
+    "b5ada5",
+    "de94ad",
+    "f7b5ce",
+    "cec6c6",
+    "f7de39",
+    "fffff7"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/wolf/source-base-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 30,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "coverageThreshold": 0.4
+      },
+      "overrides": {
+        "11": {
+          "scale": 0.94
+        },
+        "12": {
+          "scale": 0.94
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        0
+      ],
+      "1": [
+        1
+      ],
+      "2": [
+        2
+      ]
+    },
+    "walk": {
+      "0": [
+        4,
+        13,
+        5,
+        13
+      ],
+      "1": [
+        6,
+        14,
+        7,
+        14
+      ],
+      "2": [
+        8,
+        9
+      ]
+    },
+    "surprise": {
+      "1": [
+        10
+      ]
+    },
+    "raise": {
+      "0": [
+        12
+      ],
+      "1": [
+        11
+      ]
+    },
+    "sit": {
+      "2": [
+        3
+      ]
+    },
+    "point": {
+      "2": [
+        15
+      ]
+    }
+  }
+}

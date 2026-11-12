@@ -1,0 +1,101 @@
+{
+  "status": "Inactive approved actual generated raster sources",
+  "sources": [
+    {
+      "file": "source-shell-v1.png",
+      "prompt": "prompt-shell-v1.txt",
+      "output": "/Users/mikolalysenko/.codex/generated_images/01a19351-746a-7d90-a81a-1ea5ba445693/exec-24760af1-1385-4372-86bc-7e6157f0f17a.png",
+      "reference": "assets/imagegen/cosmic-muffin-shell/source-body-v3.png",
+      "selected": false,
+      "reason": "Identity source; original central cavity placement was corrected by actual image generation.",
+      "tool": "built-in image_gen.imagegen",
+      "sourceType": "image-generation",
+      "sha256": "91ab96cf60628cd752176b23c9364d3a061647b6dd176d146f8f6c6dab9a4b2b",
+      "dimensions": [
+        1427,
+        1102
+      ],
+      "promptSha256": "b706080ae0b1fca4978adcb4280327cfd5f528c6a32e631720c420f45b60850a",
+      "referenceSha256": "1075f5d4dac1c1bdf4851c9ae77102dbd6eddf94ce2b9b879401d54ef6ddcbe5"
+    },
+    {
+      "file": "source-shell-v2.png",
+      "prompt": "prompt-shell-v2.txt",
+      "output": "/Users/mikolalysenko/.codex/generated_images/01a19351-746a-7d90-a81a-1ea5ba445693/exec-871a64ba-81a2-491f-9c6e-09fbd5ba7119.png",
+      "reference": "assets/imagegen/cosmic-muffin-spawn/source-shell-v1.png",
+      "selected": true,
+      "reason": "Actual generated correction moves the living cavity to the lower right and fills the prior cavity with wrapper material.",
+      "tool": "built-in image_gen.imagegen",
+      "sourceType": "image-generation",
+      "sha256": "aa68f21ded4faefedf20e02de2ca0718fab230386f55ff5b6b6eb0220cf26de5",
+      "dimensions": [
+        1427,
+        1102
+      ],
+      "promptSha256": "02316adcd962903f1c542c39adf7bad17ad1c6afea185cfd21ee7e516090cbf8",
+      "referenceSha256": "91ab96cf60628cd752176b23c9364d3a061647b6dd176d146f8f6c6dab9a4b2b"
+    },
+    {
+      "file": "source-head-v1.png",
+      "prompt": "prompt-head-v1.txt",
+      "output": "/Users/mikolalysenko/.codex/generated_images/01a19351-746a-7d90-a81a-1ea5ba445693/exec-4f4e356b-8e0f-4729-b9e1-bd630ac315e2.png",
+      "reference": "assets/imagegen/cosmic-muffin-spawn/source-shell-v2.png",
+      "selected": true,
+      "reason": "Two authored mouth phases: closed crust slit and open oven aperture with small blue pilot light.",
+      "tool": "built-in image_gen.imagegen",
+      "sourceType": "image-generation",
+      "sha256": "35115bbb7f24fecbf335ca817c859dbcf2751b5a2c2843923643402402ab2b36",
+      "dimensions": [
+        2103,
+        748
+      ],
+      "promptSha256": "037d5a174f24e8ccac4c06efe7ead2a6c16aecb73835619f4f2419fab426c9af",
+      "referenceSha256": "aa68f21ded4faefedf20e02de2ca0718fab230386f55ff5b6b6eb0220cf26de5"
+    }
+  ],
+  "bodyPixels": "All body and mouth anatomy comes from these generated PNGs. Mechanical palette sampling and exact cell packing only; no procedural anatomy, manual pixel repaint or imported source-game body pixels.",
+  "palette": {
+    "id": 208,
+    "unchanged": true,
+    "words": [
+      32767,
+      2213,
+      22458,
+      17019,
+      4858,
+      32257,
+      11734,
+      13937,
+      337,
+      3214,
+      5482,
+      5351
+    ],
+    "owners": [
+      [
+        "enemy",
+        110
+      ],
+      [
+        "enemy",
+        111
+      ],
+      [
+        "enemy",
+        215
+      ],
+      [
+        "enemy",
+        216
+      ]
+    ],
+    "aliases": [
+      208
+    ]
+  },
+  "sourceRomSha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+  "review": {
+    "root": "Approved AREA body and compound, retained accepted pixels after explicit one-pixel opaque-bottom clarification. Successful original platform push/climb accepted.",
+    "self": "Selected area sampling after nearest comparison. Native mouth phases, all four owners, real cave/Elder/Peak battle captures and successful platform climb inspected."
+  }
+}

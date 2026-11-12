@@ -1,0 +1,92 @@
+{
+  "status": "Frozen inactive generated-source package",
+  "sourceType": "image-generation",
+  "sources": [
+    {
+      "key": "porter-base-v1",
+      "reference": [],
+      "selected": "All12source poses; back idle/walk reflected for paddle-hand continuity.",
+      "file": "source-porter-base-v1.png",
+      "prompt": "prompt-porter-base-v1.txt",
+      "sha256": "a5240abe170af0364d38214a768ec0d7b4807d177a1c694b22c25c913ba6303f",
+      "promptSha256": "5b737f955a59faacbeb1a3c6aa2ded45c6f12d24521735b0544389d1c2f03490",
+      "generator": "Built-in image_gen tool",
+      "originalGeneratedPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-8f75ab59-b552-4478-b8aa-84245c5c4bdd.png"
+    },
+    {
+      "key": "baker-base-v1",
+      "reference": [
+        "source-porter-base-v1.png"
+      ],
+      "selected": "15source poses; empty top-right cell excluded through explicit regions.",
+      "file": "source-baker-base-v1.png",
+      "prompt": "prompt-baker-base-v1.txt",
+      "sha256": "8b4d10ffb25c564034287f2aadf640f116710c7e2f9cd919ddb66173ce7ec523",
+      "promptSha256": "fa4c1a8ce51b8f1d20b8a666b5d8687602a969845e1f944884ae8fc8205bec7d",
+      "generator": "Built-in image_gen tool",
+      "originalGeneratedPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-74a74f89-489f-4bc1-bcd5-10f2286832d0.png"
+    },
+    {
+      "key": "porter-actions-v1",
+      "reference": [
+        "source-porter-base-v1.png"
+      ],
+      "selected": "Four action poses1–4; standing calibration0 supplies scale only; empty cell5 excluded.",
+      "file": "source-porter-actions-v1.png",
+      "prompt": "prompt-porter-actions-v1.txt",
+      "sha256": "9197912ce19b26d202648f21cb9a5d6f50e884b7c2588d701dd9866516fc17b1",
+      "promptSha256": "f8d75977268a79f85f45725e051e990f511ba0b13f9505a326fd43b0571e2500",
+      "generator": "Built-in image_gen tool",
+      "originalGeneratedPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-86dbaa07-4d50-4d86-acf9-cfb84e892307.png"
+    },
+    {
+      "key": "baker-actions-v1",
+      "reference": [
+        "source-baker-base-v1.png"
+      ],
+      "selected": "Two action poses1/2; standing calibration0 supplies scale only; empty cell3 excluded.",
+      "file": "source-baker-actions-v1.png",
+      "prompt": "prompt-baker-actions-v1.txt",
+      "sha256": "c1633a92b6e4a7dd38cfdf27bae5798ebb8ea5eba2c589eea74a561dc84cfded",
+      "promptSha256": "0fff7f4b9c1ac1ec128c04e4f276a87f97a2a9bcb99b16bbf319b6ead5969d3a",
+      "generator": "Built-in image_gen tool",
+      "originalGeneratedPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-d0460254-f3f0-4590-bd9a-ca151afd16dc.png"
+    }
+  ],
+  "designBasis": [
+    "docs/bakery.md",
+    "docs/game-design.md",
+    "docs/credits.md",
+    "content/bakery-dialogue.js",
+    "engine/bakery-village-art.js"
+  ],
+  "nativeRoleBasis": "Original validated user cartridge decoded and viewed before generation. Original pixels are not sampled into the generated artwork.",
+  "derivation": {
+    "method": "Area sampling with alpha128 and coverage0.28",
+    "nativeCanvas": [
+      32,
+      32
+    ],
+    "palette": "Exact existing12-color village ramps123/124",
+    "scale": "Porter base29px including paddle; unarmed body calibration26px. Baker base/actions29px.",
+    "mirrors": "All original native mirror pairs preserved. Additional back-facing Porter reflections keep the paddle in the same anatomical hand.",
+    "proceduralAnatomy": false,
+    "pixelPainting": false,
+    "outlineExpansion": false
+  },
+  "visualReview": {
+    "lead": "sprite_art_pass",
+    "baseModelsApproved": true,
+    "fullNativeSheetsApproved": true,
+    "northRecolorsApproved": true,
+    "scope": "Static visual approval is separate from the execution proof manifests.",
+    "assessment": "Scored loaf/peel and spiral bun/apron remain readable through all small actions and both preserved ramps. Unarmed dance/fall matches original prop absence."
+  },
+  "limitations": [
+    "Fine faces are simple at native size; loaf scoring, spiral, peel and apron carry identity.",
+    "Baker action source has slightly warmer edge shading than its base; exact shared palette and anatomy remain consistent.",
+    "Baker dance boundary reads one original adjacent idle for5ticks; documented and preserved.",
+    "Whole feast/chapter and production raw-stream execution remain root integration checks."
+  ],
+  "credentials": "Built-in image generation only; no API key or paid fallback used."
+}

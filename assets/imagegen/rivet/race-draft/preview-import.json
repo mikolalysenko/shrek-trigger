@@ -1,0 +1,197 @@
+{
+  "key": "rivet-race",
+  "frames": 6,
+  "width": 24,
+  "height": 24,
+  "opaqueColors": 12,
+  "palette": [
+    "242b35",
+    "51433f",
+    "806044",
+    "ba945b",
+    "dfc38a",
+    "f5e9bc",
+    "2e5358",
+    "4d8382",
+    "91b7ac",
+    "683d43",
+    "bc5b4c",
+    "f6db69"
+  ],
+  "samplingPalette": [
+    "242b35",
+    "51433f",
+    "806044",
+    "ba945b",
+    "dfc38a",
+    "f5e9bc",
+    "2e5358",
+    "4d8382",
+    "91b7ac",
+    "683d43",
+    "bc5b4c",
+    "f6db69"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/rivet/source-field-riding-v1.png",
+      "sha256": "b54efb5ea566c4d0ca1a233e139b69153174f2a893a7b8c03ee489610fe45f7d",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "scale": 0.06441717791411043,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 23,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            116,
+            179,
+            260,
+            326
+          ],
+          "componentPixels": 64036
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            500,
+            179,
+            251,
+            326
+          ],
+          "componentPixels": 60444
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            873,
+            179,
+            317,
+            335
+          ],
+          "componentPixels": 71634
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            114,
+            541,
+            260,
+            324
+          ],
+          "componentPixels": 63748
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            500,
+            540,
+            251,
+            324
+          ],
+          "componentPixels": 60071
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            873,
+            542,
+            316,
+            333
+          ],
+          "componentPixels": 72151
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            88,
+            961,
+            347,
+            265
+          ],
+          "componentPixels": 60762
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            492,
+            961,
+            347,
+            264
+          ],
+          "componentPixels": 60274
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            873,
+            897,
+            326,
+            329
+          ],
+          "componentPixels": 59470
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/rivet/source-race-quarter-v1.png",
+      "sha256": "6a0fa10f0d16eeed346ef51adfe16561cde80fdfaf8e291d71326dc806008235",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "scale": 0.02759526938239159,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 23,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            292,
+            265,
+            710,
+            761
+          ],
+          "componentPixels": 336261
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        5,
+        3,
+        4
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Six actual generated views retain three profile motion beats, rear-quarter camera direction, front and back. Five are resampled from the approved actual field riding sheet; quarter is separately generated from that model."
+      }
+    }
+  }
+}

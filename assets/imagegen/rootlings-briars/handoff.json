@@ -1,0 +1,432 @@
+{
+  "status": "Frozen inactive generated Rootling / snapping briar / Rider packet; source approved, exact native display/timing and original scenes verified",
+  "activation": false,
+  "key": "rootlings-briars",
+  "familyKey": "briars",
+  "directory": "assets/imagegen/rootlings-briars",
+  "gfx": 89,
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 34,
+      "key": "rootling",
+      "gfx": 89,
+      "asm": 46,
+      "palette": 33,
+      "animation": 35,
+      "header": [
+        89,
+        46,
+        33,
+        35,
+        0,
+        0,
+        246,
+        8,
+        16,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 35,
+      "key": "briar-root",
+      "gfx": 89,
+      "asm": 46,
+      "palette": 32,
+      "animation": 35,
+      "header": [
+        89,
+        46,
+        32,
+        35,
+        0,
+        0,
+        246,
+        8,
+        16,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 36,
+      "key": "root-guard",
+      "gfx": 89,
+      "asm": 46,
+      "palette": 32,
+      "animation": 35,
+      "header": [
+        89,
+        46,
+        32,
+        35,
+        0,
+        0,
+        246,
+        8,
+        16,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 38,
+      "key": "snap-briar",
+      "gfx": 89,
+      "asm": 51,
+      "palette": 36,
+      "animation": 36,
+      "header": [
+        89,
+        51,
+        36,
+        36,
+        0,
+        0,
+        240,
+        8,
+        16,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 39,
+      "key": "hungry-briar",
+      "gfx": 89,
+      "asm": 51,
+      "palette": 37,
+      "animation": 36,
+      "header": [
+        89,
+        51,
+        37,
+        36,
+        0,
+        0,
+        240,
+        8,
+        16,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 40,
+      "key": "dire-briar",
+      "gfx": 89,
+      "asm": 51,
+      "palette": 38,
+      "animation": 36,
+      "header": [
+        89,
+        51,
+        38,
+        36,
+        0,
+        0,
+        240,
+        8,
+        16,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 175,
+      "key": "briar-rider",
+      "gfx": 89,
+      "asm": 50,
+      "palette": 32,
+      "animation": 158,
+      "header": [
+        89,
+        50,
+        32,
+        158,
+        1,
+        0,
+        224,
+        16,
+        16,
+        0
+      ]
+    }
+  ],
+  "npcOwners": [],
+  "outsideSharedOwners": [],
+  "palettePolicy": "Preserve exact current approved packets32/33/36/37/38 and all pointers; no new palette writes. Original CT words remain audit evidence only.",
+  "source": {
+    "provenance": "provenance.json",
+    "unchangedGeneratedSheets": 6,
+    "selectedGeneratedImages": 28,
+    "nativeSlots": 47,
+    "uniqueNativeSourceImages": 43,
+    "originalRasterComponents": "briar-rider/original-shadows.json"
+  },
+  "native": {
+    "proposal": "native-family-proposal.draft.json",
+    "groupOrder": [
+      "rootling",
+      "briar-rider",
+      "snap-briar"
+    ],
+    "groups": [
+      {
+        "key": "rootling",
+        "asm": 46,
+        "size": 0,
+        "cells": 4,
+        "frames": 17,
+        "assemblyBytes": 680,
+        "assemblySha256": "13af018fcfc2862eb57130fd32648852664284a33b7f64b8b6548c0035618041",
+        "uniqueNativeSourceImages": 15
+      },
+      {
+        "key": "briar-rider",
+        "asm": 50,
+        "size": 1,
+        "cells": 8,
+        "frames": 24,
+        "assemblyBytes": 1920,
+        "assemblySha256": "9cb779df6066bc0542082476b0d27e79f1984e0a5b387851ecf70642aff69f5a",
+        "uniqueNativeSourceImages": 22
+      },
+      {
+        "key": "snap-briar",
+        "asm": 51,
+        "size": 0,
+        "cells": 4,
+        "frames": 6,
+        "assemblyBytes": 240,
+        "assemblySha256": "6070b8068497614dc8fd685058735b32477923dcb42fcda0acd1c38c0f3dbffd",
+        "uniqueNativeSourceImages": 6
+      }
+    ],
+    "canvas": [
+      64,
+      64
+    ],
+    "geometryAudit": "geometry-and-guards.json",
+    "nativeRasters": [
+      "rootling/native-raster.json",
+      "briar-rider/native-raster.json",
+      "snap-briar/native-raster.json"
+    ],
+    "nativeMappings": [
+      "rootling/native-frame-map.draft.json",
+      "briar-rider/native-frame-map.draft.json",
+      "snap-briar/native-frame-map.draft.json"
+    ],
+    "sourceOnlyImportSpecs": [
+      "rootling/import-spec.draft.json",
+      "briar-rider/import-spec.draft.json",
+      "snap-briar/import-spec.draft.json"
+    ],
+    "originalLowestPixelExact": true,
+    "originalHeadersAiStatsRewardsEventsAndAnimationPreserved": true
+  },
+  "resources": {
+    "decodedBytes": 12352,
+    "compressedBytes": 8079,
+    "assemblyBytes": 2840,
+    "tiles": 386,
+    "originalCT": {
+      "decodedBytes": 8192,
+      "compressedBytes": 5954,
+      "assemblyBytes": 2840,
+      "decodedDelta": 4160,
+      "compressedPlusAssemblyDelta": 2125,
+      "alignedRomDelta": 2126
+    },
+    "earlierArt": {
+      "baselineSha256": "cb2983da9aeaa3516e34e6017a05c4a62a87cbbeead40640282272adfd4d71c5",
+      "decodedBytes": 7104,
+      "compressedBytes": 3198,
+      "assemblyBytes": 2840,
+      "decodedDelta": 5248,
+      "compressedPlusAssemblyDelta": 4881,
+      "alignedRomDelta": 4882
+    },
+    "requiredNativeStreams": [
+      89
+    ],
+    "rawStreamRomBytes": 12352,
+    "alignedEmissionDeltaIncludingRawStream": {
+      "originalCT": 14478,
+      "earlierArt": 17234,
+      "scope": "Used emitted art only; not a reclaimed-space promise. Original asm50 remains reserved."
+    },
+    "extraWramBytes": 0,
+    "extraVramBytes": 0,
+    "defaultOriginalDecodedBudget": 8192,
+    "defaultGuardRetained": true,
+    "asm50OriginalSourceReservation": {
+      "offset": 2355520,
+      "knownUsedBytes": 1920,
+      "sourceExtent": null,
+      "policy": "No reclamation spec for asm50. The entire bank tail through0x240000 remains unchanged in the private candidate; this comparison does not claim that tail is a proven allocation extent.",
+      "bankTailBytes": 3776,
+      "bankTailSha256": "b77fc93de1694e6b9165995194b4ea5274503bb3c9f1f5c56a545cc826f1e687"
+    }
+  },
+  "hashes": {
+    "graphics": "5e2b15f0a252e8ca12f0bd5dd7e124ef801daae10fbd8f5736f387606aeff671",
+    "compressed": "c7136a153377d76af23298eb8e4d39cb04524370aa534370e2c5b1a7ec78fe03",
+    "assemblies": [
+      {
+        "asm": 46,
+        "sha256": "13af018fcfc2862eb57130fd32648852664284a33b7f64b8b6548c0035618041"
+      },
+      {
+        "asm": 50,
+        "sha256": "9cb779df6066bc0542082476b0d27e79f1984e0a5b387851ecf70642aff69f5a"
+      },
+      {
+        "asm": 51,
+        "sha256": "6070b8068497614dc8fd685058735b32477923dcb42fcda0acd1c38c0f3dbffd"
+      }
+    ]
+  },
+  "visualReview": {
+    "root": "Approved all three native-size sheets, including explicit separation, inversion and original shadow poses. Existing extended compressed storage plus explicit gfx89 stream accepted as integration direction.",
+    "lead": "Approved all 47 native slots, enlarged Rootling 0–5 and Rider 18–23: coherent root crown/face, distinct snapping jaws across all three ramps, readable guard/mount separation and preserved shadows. Label spacing correction requested and completed.",
+    "self": "Every native source pose and current palette inspected at 1× and enlarged scale; fixed label-only spacing; exact displayed cell/pixel tests, timed native execution and actual battle/demonstration captures inspected.",
+    "scope": "Static source approval is separate from native timing, scene proof and production integration."
+  },
+  "proof": {
+    "baselineSha256": "cb2983da9aeaa3516e34e6017a05c4a62a87cbbeead40640282272adfd4d71c5",
+    "candidateSha256": "deb6be67607ac8ceb06da2117e45d52e72ce81d79a9a862cd6b75eec0c20a985",
+    "nativeManifest": "native-display-proof.json",
+    "uploads": 93,
+    "cells": 468,
+    "opaquePixels": 32301,
+    "timingManifest": "native-timing-proof.json",
+    "actionDirectionCases": 184,
+    "cycles": 368,
+    "videoTicks": 7536,
+    "maximumRequestToDisplayDelay": 1,
+    "delayedRiderPhaseBoundaries": 24,
+    "completeFrameUploads": true,
+    "motionManifest": "motion-review.json",
+    "sceneManifest": "native-scene-proof.json",
+    "westernBattles": 5,
+    "westernNativeDamageResults": 38,
+    "westernPositiveDamageResults": 24,
+    "westernExit": 213,
+    "riderOriginalOneShotInstructions": 4,
+    "riderPollingDispatches": 32,
+    "otherSceneInitializations": [
+      47,
+      48,
+      285,
+      286,
+      393
+    ],
+    "actualObservedFieldHeaps": {
+      "2": 1248,
+      "47": 13344,
+      "48": 10656,
+      "212": 5248,
+      "213": 7872,
+      "285": 10080,
+      "286": 23968,
+      "342": 3840,
+      "393": 13536
+    },
+    "expandedEvidence": ".local/qa/rootlings-briars-native-proof"
+  },
+  "sceneBudget": {
+    "manifest": "scene-budget-audit.json",
+    "scope": "Conservative union of all original event load branches using emitted cb2983 headers/resources. Baseline raw streams are excluded only when selected by that immutable cartridge; candidate additionally selects only gfx89 for the existing native raw-stream path. No newer private replacements or stream exclusions are assumed. No full scene residency/choreography claim.",
+    "originalLocations": [
+      47,
+      48,
+      212,
+      285,
+      286,
+      342,
+      393
+    ],
+    "maximumLegacyUnion": 36320,
+    "maximumStreamedUnion": 23968,
+    "minimumSpare": 8800,
+    "limit": 32768
+  },
+  "integration": [
+    "Consume composed native-raster.json for Rootling, Briar Rider and Snap Briar in that group order. Child import-spec.draft.json files only extract source components and MUST NOT be registered directly as native slot maps.",
+    "Use native-family-proposal.draft.json authored frameCellOrigins and frameOffsets with64×64 canvases; preserve asm46/50/51, native17/24/6 slot counts, size0/1/0 and4/8/4 cells. Root owns active composition/importer registration.",
+    "Preserve all seven owner headers, original AA35/36/158 pointers and full frame/duration byte lists, every AI/stat/reward byte and native events. Preserve current indexed palettes32/33/36/37/38; emit no palette writes.",
+    "Explicitly select gfx89 for the existing native stream path with every emitted owner checked. Keep default decoded-budget and unrelated-bank guards strict. Use existing extended compressed allocation plus12352-byte raw stream; private offsets are proof evidence only.",
+    "Keep original asm50 source reserved; do not add a field1/id50 reclamation specification. Source used length1920 is not a proven reservation extent.",
+    "Root owns final production allocation, independent-core and original-scene regression. No active source or canonical output was changed by this packet."
+  ],
+  "limitations": [
+    "The preserved palette words are the current approved recolors, not original CT colors. No new palette writes occur.",
+    "All lowest opaque Y values are exact. Snap Briar slot 1 is one pixel shorter (29 rather than 30); other heights are exact. Width differences are explicit, with single-body center rounding up to 0.5 px and independently composed Rider total-center differences up to 2 px.",
+    "Translated duplicate slots remain native duplicates: Rootling 13/15 and 14/16 differ by −12 Y; Rider corresponding pairs differ by −8 Y. Rider 15/16 are not referenced by AA158. Source mirrors are limited to audited original mirrors.",
+    "Rider shadows in slots 18/19/21/23 reuse exact original indexed pixels under the current palette. Body and guard pixels are actual generated raster samples; no anatomy was drawn.",
+    "Rider streaming delays 24 steady phase boundaries by exactly one video frame while displaying a coherent complete preceding frame. Original requests and timers are unchanged; visible timing is not claimed identical.",
+    "The western route uses a bounded original-zone controller dwell, observed 270 frames, so the first native ambush event completes before walking onward. No event, flag or position mutation occurs after entry.",
+    "Rider175 appears in original developer ending room342, with no original combat trigger. Root Guard36 has no original event load. Their owner/pose/timing coverage remains complete.",
+    "Other original locations prove initialization and heap only. Strong development parties test sprites and event flow, not normal-level balance. Actual captures retain party/background layering; unobstructed exact pixels are proved separately.",
+    "Conservative budgets use pinned cb2983, excluding only its already-selected streams plus gfx89. Newer root candidates are not assumed. Independent cores, final production allocation and remaining encounter routes are integration checks.",
+    "The original asm50 extent remains unproven and reserved. Unchanged known used assembly totals do not authorize reclaiming its original bytes."
+  ],
+  "reproduce": [
+    "node assets/imagegen/rootlings-briars/prepare-draft.mjs",
+    "node assets/imagegen/rootlings-briars/audit-geometry.mjs",
+    "node assets/imagegen/rootlings-briars/review-draft.mjs",
+    "node assets/imagegen/rootlings-briars/freeze-draft.mjs"
+  ],
+  "proofReproduce": [
+    "node assets/imagegen/rootlings-briars/verify-native.mjs",
+    "node assets/imagegen/rootlings-briars/verify-motion.mjs",
+    "node assets/imagegen/rootlings-briars/verify-timed-animation.mjs",
+    "node assets/imagegen/rootlings-briars/verify-scenes.mjs"
+  ],
+  "compilerDependencies": [
+    {
+      "file": "scripts/import-raster-art.mjs",
+      "bytes": 13106,
+      "sha256": "a2baced592fbf400115a1b1c1d1908347977cb0dcb8b5d1cd60657fd165289da"
+    },
+    {
+      "file": "scripts/native-sprite-view.mjs",
+      "bytes": 3726,
+      "sha256": "5ad09bed2da5887837208c7ccf58dc7e9822a383b9a05dc9433031508fc404b9"
+    },
+    {
+      "file": "engine/actor-families.js",
+      "bytes": 7172,
+      "sha256": "3eb0d529e30129185a5f45ec7164a925d0b14b417083a965c7974ad9e36dad54"
+    },
+    {
+      "file": "engine/native-sprites.js",
+      "bytes": 8636,
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "file": "engine/compression.js",
+      "bytes": 4100,
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "file": "engine/sprites.js",
+      "bytes": 8935,
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "file": "content/future-wildlife.js",
+      "bytes": 10905,
+      "sha256": "dca135b85c71c6d727de791b8c1b8399808e3f56f8c095ab32bbb18de1530f29"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 2116,
+      "sha256": "64a6a819820c608b0efc612e049a872b68b3159ec6d3cc95ae13261893a980b5"
+    }
+  ],
+  "freeze": "freeze.json"
+}

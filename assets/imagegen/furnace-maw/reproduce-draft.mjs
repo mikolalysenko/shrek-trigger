@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+const d=import.meta.dirname,root=path.resolve(d,'../../..'),sha=b=>createHash('sha256').update(b).digest('hex'),freezePath=path.join(d,'freeze.json'),freeze=fs.existsSync(freezePath)?JSON.parse(fs.readFileSync(freezePath)):null;
+if(freeze)for(const p of freeze.inputs)assert.equal(sha(fs.readFileSync(path.join(root,p.file))),p.sha256,'Frozen input '+p.file);
+const run=(script,args=[])=>execFileSync(process.execPath,[script,...args],{cwd:root,stdio:'inherit'});
+run('scripts/import-raster-art.mjs',['--preview-spec','assets/imagegen/furnace-maw/body-spec-0.95.json']);
+run('assets/imagegen/furnace-maw/prepare-body-draft.mjs');
+run('scripts/import-raster-art.mjs',['--preview-spec','assets/imagegen/furnace-maw/import-spec.body.draft.json']);
+run('assets/imagegen/furnace-maw/prepare-draft.mjs');
+run('scripts/import-raster-art.mjs',['--preview-spec','assets/imagegen/furnace-maw/import-spec.draft.json']);
+run('assets/imagegen/furnace-maw/compile-draft.mjs');run('assets/imagegen/furnace-maw/compile-body-draft.mjs');run('assets/imagegen/furnace-maw/build-review.mjs');
+if(freeze)for(const p of freeze.derived)assert.equal(sha(fs.readFileSync(path.join(root,p.file))),p.sha256,'Reproduced artifact '+p.file);
+console.log(JSON.stringify({status:'Source rasters, palettes, geometry,4bpp packets and review artifacts reproduced exactly',derivedArtifacts:freeze?.derived.length??null,activeWrites:false}));

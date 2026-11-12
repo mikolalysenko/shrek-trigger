@@ -1,0 +1,3482 @@
+{
+  "status": "Original resource and pose audit before source generation",
+  "families": [
+    {
+      "family": {
+        "key": "bread-porters",
+        "name": "Bread porters",
+        "gfx": 24,
+        "groups": [
+          {
+            "art": "bread-porter",
+            "asm": 12,
+            "size": 0,
+            "width": 32,
+            "height": 32,
+            "frames": 23
+          }
+        ],
+        "actors": [
+          {
+            "key": "bakery-porter",
+            "name": "First Bakery porter",
+            "npcs": [
+              30
+            ],
+            "npc": 30,
+            "asm": 12,
+            "palette": 123,
+            "animation": 21,
+            "colors": [
+              "382b2d",
+              "71452e",
+              "b87744",
+              "e5ad67",
+              "fff0c9",
+              "2f5d58",
+              "5e9280",
+              "b6cbb1",
+              "fff7e5",
+              "8c364b",
+              "da7787",
+              "d9b05f"
+            ]
+          },
+          {
+            "key": "north-bakery-porter",
+            "name": "North Bakery porter",
+            "npcs": [
+              62
+            ],
+            "npc": 62,
+            "asm": 12,
+            "palette": 124,
+            "animation": 21,
+            "colors": [
+              "302932",
+              "674235",
+              "a76d50",
+              "dba57b",
+              "f3ddbb",
+              "55415f",
+              "8b698b",
+              "cbb2c5",
+              "fff2dd",
+              "87454f",
+              "d48a91",
+              "d6b574"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "graphicsOffset": 1669447,
+        "graphicsBytes": 2752,
+        "compressedBytes": 2241,
+        "assemblyOffset": 1950344,
+        "assemblyBytes": 920,
+        "animationOffset": 2380832,
+        "animationBytes": 96,
+        "animationProgram": [
+          0,
+          255,
+          0,
+          0,
+          4,
+          5,
+          6,
+          0,
+          255,
+          0,
+          0,
+          0,
+          16,
+          21,
+          19,
+          17,
+          20,
+          18,
+          255,
+          0,
+          22,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          7,
+          8,
+          9,
+          1,
+          255,
+          0,
+          0,
+          0,
+          16,
+          21,
+          19,
+          17,
+          20,
+          18,
+          255,
+          0,
+          22,
+          255,
+          0,
+          0,
+          2,
+          255,
+          0,
+          0,
+          10,
+          11,
+          12,
+          2,
+          255,
+          0,
+          0,
+          0,
+          16,
+          21,
+          19,
+          17,
+          20,
+          18,
+          255,
+          0,
+          22,
+          255,
+          0,
+          0,
+          3,
+          255,
+          0,
+          0,
+          13,
+          14,
+          15,
+          3,
+          255,
+          0,
+          0,
+          0,
+          16,
+          21,
+          19,
+          17,
+          20,
+          18,
+          255,
+          0,
+          22,
+          255,
+          0,
+          0
+        ],
+        "animationSha256": "70b9ed36595907909af23f1729b2f9f17d966df3ecb8c56ceb0d80c81eb1acd2",
+        "durationOffset": 2406232,
+        "durationBytes": 24,
+        "durationProgram": [
+          5,
+          0,
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          0,
+          0,
+          0,
+          0,
+          12,
+          16,
+          8,
+          12,
+          16,
+          8,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        "durationSha256": "8104da5e7a9db735470d6d7a3a4999229f6bed7337dc4589d414a07c9f3d33d0"
+      },
+      "owners": {
+        "0/24": [
+          {
+            "kind": "npc",
+            "id": 30
+          },
+          {
+            "kind": "npc",
+            "id": 62
+          }
+        ],
+        "1/12": [
+          {
+            "kind": "npc",
+            "id": 30
+          },
+          {
+            "kind": "npc",
+            "id": 62
+          }
+        ]
+      },
+      "npcHeaders": [
+        {
+          "id": 30,
+          "bytes": [
+            24,
+            12,
+            123,
+            21,
+            0
+          ]
+        },
+        {
+          "id": 62,
+          "bytes": [
+            24,
+            12,
+            124,
+            21,
+            0
+          ]
+        }
+      ],
+      "animationDirections": [
+        {
+          "facing": 0,
+          "program": [
+            0,
+            255,
+            0,
+            0,
+            4,
+            5,
+            6,
+            0,
+            255,
+            0,
+            0,
+            0,
+            16,
+            21,
+            19,
+            17,
+            20,
+            18,
+            255,
+            0,
+            22,
+            255,
+            0,
+            0
+          ],
+          "times": [
+            5,
+            0,
+            0,
+            0,
+            10,
+            10,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            12,
+            16,
+            8,
+            12,
+            16,
+            8,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "facing": 1,
+          "program": [
+            1,
+            255,
+            0,
+            0,
+            7,
+            8,
+            9,
+            1,
+            255,
+            0,
+            0,
+            0,
+            16,
+            21,
+            19,
+            17,
+            20,
+            18,
+            255,
+            0,
+            22,
+            255,
+            0,
+            0
+          ],
+          "times": [
+            5,
+            0,
+            0,
+            0,
+            10,
+            10,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            12,
+            16,
+            8,
+            12,
+            16,
+            8,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "facing": 2,
+          "program": [
+            2,
+            255,
+            0,
+            0,
+            10,
+            11,
+            12,
+            2,
+            255,
+            0,
+            0,
+            0,
+            16,
+            21,
+            19,
+            17,
+            20,
+            18,
+            255,
+            0,
+            22,
+            255,
+            0,
+            0
+          ],
+          "times": [
+            5,
+            0,
+            0,
+            0,
+            10,
+            10,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            12,
+            16,
+            8,
+            12,
+            16,
+            8,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "facing": 3,
+          "program": [
+            3,
+            255,
+            0,
+            0,
+            13,
+            14,
+            15,
+            3,
+            255,
+            0,
+            0,
+            0,
+            16,
+            21,
+            19,
+            17,
+            20,
+            18,
+            255,
+            0,
+            22,
+            255,
+            0,
+            0
+          ],
+          "times": [
+            5,
+            0,
+            0,
+            0,
+            10,
+            10,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            12,
+            16,
+            8,
+            12,
+            16,
+            8,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "normalizedMirrorPairs": [
+        [
+          3,
+          2
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          14,
+          11
+        ],
+        [
+          15,
+          12
+        ],
+        [
+          17,
+          16
+        ],
+        [
+          19,
+          18
+        ],
+        [
+          21,
+          20
+        ]
+      ],
+      "normalizedCopyPairs": [],
+      "frames": [
+        {
+          "frame": 0,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -16,
+              -32
+            ],
+            [
+              0,
+              -32
+            ]
+          ],
+          "opaquePixels": 438,
+          "bounds": [
+            -15,
+            -32,
+            8,
+            0
+          ],
+          "pixelSha256": "a075e88af4a631c78674a5dafe17ea10c03454dda68e05ac093699e6a2c4b630"
+        },
+        {
+          "frame": 1,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 456,
+          "bounds": [
+            -8,
+            -32,
+            13,
+            0
+          ],
+          "pixelSha256": "0e20ec578028ebc01eb382c4c8bdbe6b963a13db45f2441668dec157f9ce9edc"
+        },
+        {
+          "frame": 2,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -10,
+              -32
+            ],
+            [
+              6,
+              -32
+            ]
+          ],
+          "opaquePixels": 478,
+          "bounds": [
+            -9,
+            -32,
+            13,
+            0
+          ],
+          "pixelSha256": "627668c7fd92fb51c104ad6408f12a5c367e1c651edecc05dfe26e4f17bc92ce"
+        },
+        {
+          "frame": 3,
+          "xy": [
+            [
+              -24,
+              -16
+            ],
+            [
+              -8,
+              -16
+            ],
+            [
+              -22,
+              -32
+            ],
+            [
+              -6,
+              -32
+            ]
+          ],
+          "opaquePixels": 478,
+          "bounds": [
+            -13,
+            -32,
+            9,
+            0
+          ],
+          "pixelSha256": "aaa9de303e4b972abb1745468c1a25a95d1b90fcde8020db512ccb2817826200"
+        },
+        {
+          "frame": 4,
+          "xy": [
+            [
+              -8,
+              -17
+            ],
+            [
+              8,
+              -17
+            ],
+            [
+              -16,
+              -33
+            ],
+            [
+              0,
+              -33
+            ]
+          ],
+          "opaquePixels": 431,
+          "bounds": [
+            -15,
+            -33,
+            8,
+            -2
+          ],
+          "pixelSha256": "e9b6cfe7c9cd4c31531e4b0c7104ac68d0c0130807c52cc0656672376b5e887e"
+        },
+        {
+          "frame": 5,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -16,
+              -32
+            ],
+            [
+              0,
+              -32
+            ]
+          ],
+          "opaquePixels": 438,
+          "bounds": [
+            -15,
+            -32,
+            8,
+            0
+          ],
+          "pixelSha256": "28cdf256d4890b9c73896060883029e310eff852b31a376469ee4aa76820eb32"
+        },
+        {
+          "frame": 6,
+          "xy": [
+            [
+              -8,
+              -17
+            ],
+            [
+              8,
+              -17
+            ],
+            [
+              -16,
+              -33
+            ],
+            [
+              0,
+              -33
+            ]
+          ],
+          "opaquePixels": 431,
+          "bounds": [
+            -15,
+            -33,
+            8,
+            -2
+          ],
+          "pixelSha256": "46117962910ddc2a82f36fd724452460fdfe3b067809b0a39f9f11e14499843f"
+        },
+        {
+          "frame": 7,
+          "xy": [
+            [
+              -8,
+              -17
+            ],
+            [
+              8,
+              -17
+            ],
+            [
+              -8,
+              -33
+            ],
+            [
+              8,
+              -33
+            ]
+          ],
+          "opaquePixels": 460,
+          "bounds": [
+            -8,
+            -33,
+            13,
+            -1
+          ],
+          "pixelSha256": "09bf6675b5b2b19eb70eb645fec07ff67b235ee6da970f4bec4305551f0084f4"
+        },
+        {
+          "frame": 8,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 452,
+          "bounds": [
+            -8,
+            -32,
+            13,
+            0
+          ],
+          "pixelSha256": "9004113c5bc892704e9c775c49c9bd271150bec4152e61d49739c452e1aa405a"
+        },
+        {
+          "frame": 9,
+          "xy": [
+            [
+              -8,
+              -17
+            ],
+            [
+              8,
+              -17
+            ],
+            [
+              -8,
+              -33
+            ],
+            [
+              8,
+              -33
+            ]
+          ],
+          "opaquePixels": 455,
+          "bounds": [
+            -8,
+            -33,
+            13,
+            -1
+          ],
+          "pixelSha256": "fb47effc6d5a07bd1dec37e4a2deac1a930b3f1ea56cd186459b53eba40a8580"
+        },
+        {
+          "frame": 10,
+          "xy": [
+            [
+              -8,
+              -17
+            ],
+            [
+              8,
+              -17
+            ],
+            [
+              -10,
+              -33
+            ],
+            [
+              6,
+              -33
+            ]
+          ],
+          "opaquePixels": 447,
+          "bounds": [
+            -9,
+            -33,
+            13,
+            -1
+          ],
+          "pixelSha256": "4dd4e52fedcba7c19f2097278269330dc34d4cc36673ccf20462754fee216621"
+        },
+        {
+          "frame": 11,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -10,
+              -32
+            ],
+            [
+              6,
+              -32
+            ]
+          ],
+          "opaquePixels": 412,
+          "bounds": [
+            -9,
+            -32,
+            13,
+            0
+          ],
+          "pixelSha256": "07322bcf97f39645bcd46dc3a291aa84e5f2939da308a0501f27197b438e2e62"
+        },
+        {
+          "frame": 12,
+          "xy": [
+            [
+              -8,
+              -17
+            ],
+            [
+              8,
+              -17
+            ],
+            [
+              -10,
+              -33
+            ],
+            [
+              6,
+              -33
+            ]
+          ],
+          "opaquePixels": 447,
+          "bounds": [
+            -9,
+            -33,
+            13,
+            -1
+          ],
+          "pixelSha256": "63cc758fe1f08f4889f8e1b504749552d8ef8b1055eb7d406d975c6c93ca0816"
+        },
+        {
+          "frame": 13,
+          "xy": [
+            [
+              -24,
+              -17
+            ],
+            [
+              -8,
+              -17
+            ],
+            [
+              -22,
+              -33
+            ],
+            [
+              -6,
+              -33
+            ]
+          ],
+          "opaquePixels": 447,
+          "bounds": [
+            -13,
+            -33,
+            9,
+            -1
+          ],
+          "pixelSha256": "c55a2c527cb5e15480b68f57cf833050a62ef0b533b1b22d617ca21e8b62ca28"
+        },
+        {
+          "frame": 14,
+          "xy": [
+            [
+              -24,
+              -16
+            ],
+            [
+              -8,
+              -16
+            ],
+            [
+              -22,
+              -32
+            ],
+            [
+              -6,
+              -32
+            ]
+          ],
+          "opaquePixels": 412,
+          "bounds": [
+            -13,
+            -32,
+            9,
+            0
+          ],
+          "pixelSha256": "7ba9a3986e37f552ac4c5003e91adc16af55787c77afd222cb10942a0063a509"
+        },
+        {
+          "frame": 15,
+          "xy": [
+            [
+              -24,
+              -17
+            ],
+            [
+              -8,
+              -17
+            ],
+            [
+              -22,
+              -33
+            ],
+            [
+              -6,
+              -33
+            ]
+          ],
+          "opaquePixels": 447,
+          "bounds": [
+            -13,
+            -33,
+            9,
+            -1
+          ],
+          "pixelSha256": "11cd615314512d88bb316aca95d36183cd64f5754252313ad730b8512f5390e6"
+        },
+        {
+          "frame": 16,
+          "xy": [
+            [
+              -16,
+              -16
+            ],
+            [
+              0,
+              -16
+            ],
+            [
+              -16,
+              -32
+            ],
+            [
+              0,
+              -32
+            ]
+          ],
+          "opaquePixels": 305,
+          "bounds": [
+            -11,
+            -24,
+            8,
+            0
+          ],
+          "pixelSha256": "6f1a35e83a8ea992b5fcd9b4bc5ba3e395832e86f6985ef8a8242afde23b1cda"
+        },
+        {
+          "frame": 17,
+          "xy": [
+            [
+              -16,
+              -16
+            ],
+            [
+              0,
+              -16
+            ],
+            [
+              -16,
+              -32
+            ],
+            [
+              0,
+              -32
+            ]
+          ],
+          "opaquePixels": 305,
+          "bounds": [
+            -8,
+            -24,
+            11,
+            0
+          ],
+          "pixelSha256": "8343c9893ed1c966049cc2bb439635097c04238ce40f2f75cd35360febf08b58"
+        },
+        {
+          "frame": 18,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              -24,
+              -32
+            ]
+          ],
+          "opaquePixels": 358,
+          "bounds": [
+            -10,
+            -30,
+            8,
+            0
+          ],
+          "pixelSha256": "3a9d21d1244f3e43be5f2d6cd6984232748beb92117afe0655e6ea5171a91754"
+        },
+        {
+          "frame": 19,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 358,
+          "bounds": [
+            -8,
+            -30,
+            10,
+            0
+          ],
+          "pixelSha256": "e1d9f190cf3bcff04a09688b63d171ad3683c7d2579f3331d68f1f81bc794238"
+        },
+        {
+          "frame": 20,
+          "xy": [
+            [
+              -6,
+              -16
+            ],
+            [
+              10,
+              -16
+            ],
+            [
+              -6,
+              -32
+            ],
+            [
+              -6,
+              -48
+            ]
+          ],
+          "opaquePixels": 393,
+          "bounds": [
+            -6,
+            -35,
+            10,
+            0
+          ],
+          "pixelSha256": "0c2605b803380e7cc13d4acb72d0e8fabf18f1fb512690fb2b8594bca67f3487"
+        },
+        {
+          "frame": 21,
+          "xy": [
+            [
+              -10,
+              -16
+            ],
+            [
+              6,
+              -16
+            ],
+            [
+              -10,
+              -32
+            ],
+            [
+              -10,
+              -48
+            ]
+          ],
+          "opaquePixels": 393,
+          "bounds": [
+            -10,
+            -35,
+            6,
+            0
+          ],
+          "pixelSha256": "12c4f344f2a6a4fe811ebc2659d6a9269b9c43b38371332aa83139b1c214052b"
+        },
+        {
+          "frame": 22,
+          "xy": [
+            [
+              -21,
+              -13
+            ],
+            [
+              -5,
+              -13
+            ],
+            [
+              -21,
+              -29
+            ],
+            [
+              -5,
+              -29
+            ]
+          ],
+          "opaquePixels": 351,
+          "bounds": [
+            -16,
+            -18,
+            11,
+            3
+          ],
+          "pixelSha256": "2e30b4b0211c809ba4608ce62331e905842c2b1973cc2b01f46f1279d76f0e7f"
+        }
+      ],
+      "scenes": [
+        {
+          "location": 7,
+          "eventPointer": 3670314,
+          "civilianLoads": [
+            [
+              656,
+              130,
+              [
+                30
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            31,
+            30,
+            123,
+            15,
+            191,
+            192
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 11936,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 53,
+                "bytes": 800
+              },
+              {
+                "gfx": 126,
+                "bytes": 2336
+              },
+              {
+                "gfx": 226,
+                "bytes": 1312
+              },
+              {
+                "gfx": 227,
+                "bytes": 2176
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 275,
+          "eventPointer": 3900934,
+          "civilianLoads": [
+            [
+              2272,
+              130,
+              [
+                30
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            100,
+            6,
+            30
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 6144,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 69,
+                "bytes": 160
+              },
+              {
+                "gfx": 32,
+                "bytes": 3232
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 276,
+          "eventPointer": 3902627,
+          "civilianLoads": [
+            [
+              394,
+              130,
+              [
+                30
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            30,
+            32,
+            31
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 6624,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 20,
+                "bytes": 1312
+              },
+              {
+                "gfx": 25,
+                "bytes": 2560
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 277,
+          "eventPointer": 3902869,
+          "civilianLoads": [
+            [
+              685,
+              130,
+              [
+                30
+              ]
+            ],
+            [
+              725,
+              130,
+              [
+                30
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            33,
+            30,
+            31
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 7648,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 15,
+                "bytes": 2336
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 25,
+                "bytes": 2560
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 278,
+          "eventPointer": 3903775,
+          "civilianLoads": [
+            [
+              410,
+              130,
+              [
+                30
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            30,
+            31
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 5312,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 25,
+                "bytes": 2560
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 279,
+          "eventPointer": 3904105,
+          "civilianLoads": [
+            [
+              1290,
+              130,
+              [
+                30
+              ]
+            ],
+            [
+              1407,
+              130,
+              [
+                30
+              ]
+            ],
+            [
+              1513,
+              130,
+              [
+                30
+              ]
+            ],
+            [
+              1536,
+              130,
+              [
+                62
+              ]
+            ],
+            [
+              1552,
+              130,
+              [
+                62
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            6,
+            30,
+            31,
+            62,
+            63,
+            64,
+            33
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 12192,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 32,
+                "bytes": 3232
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 20,
+                "bytes": 1312
+              },
+              {
+                "gfx": 15,
+                "bytes": 2336
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 280,
+          "eventPointer": 3905086,
+          "civilianLoads": [
+            [
+              2309,
+              130,
+              [
+                30
+              ]
+            ],
+            [
+              2342,
+              130,
+              [
+                30
+              ]
+            ],
+            [
+              2375,
+              130,
+              [
+                30
+              ]
+            ],
+            [
+              2426,
+              130,
+              [
+                30
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            31,
+            30,
+            6,
+            122,
+            123,
+            94,
+            96
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 10592,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 32,
+                "bytes": 3232
+              },
+              {
+                "gfx": 52,
+                "bytes": 480
+              },
+              {
+                "gfx": 53,
+                "bytes": 800
+              },
+              {
+                "gfx": 191,
+                "bytes": 608
+              },
+              {
+                "gfx": 65,
+                "bytes": 160
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 282,
+          "eventPointer": 3969107,
+          "civilianLoads": [
+            [
+              2086,
+              130,
+              [
+                30
+              ]
+            ],
+            [
+              2122,
+              130,
+              [
+                30
+              ]
+            ]
+          ],
+          "allEnemyIds": [
+            121,
+            136,
+            3,
+            22,
+            23
+          ],
+          "allNpcIds": [
+            76,
+            30,
+            6
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 33312,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 79,
+                "bytes": 3808
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 32,
+                "bytes": 3232
+              },
+              {
+                "gfx": 88,
+                "bytes": 8160
+              },
+              {
+                "gfx": 101,
+                "bytes": 4064
+              },
+              {
+                "gfx": 81,
+                "bytes": 3104
+              },
+              {
+                "gfx": 85,
+                "bytes": 8192
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 292,
+          "eventPointer": 3970679,
+          "civilianLoads": [
+            [
+              837,
+              130,
+              [
+                62
+              ]
+            ],
+            [
+              868,
+              130,
+              [
+                62
+              ]
+            ]
+          ],
+          "allEnemyIds": [
+            0
+          ],
+          "allNpcIds": [
+            33,
+            63,
+            64,
+            62,
+            173
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 16992,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 15,
+                "bytes": 2336
+              },
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 20,
+                "bytes": 1312
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 99,
+                "bytes": 6720
+              },
+              {
+                "gfx": 211,
+                "bytes": 1312
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 430,
+          "eventPointer": 1796754,
+          "civilianLoads": [
+            [
+              991,
+              130,
+              [
+                62
+              ]
+            ],
+            [
+              1026,
+              130,
+              [
+                62
+              ]
+            ],
+            [
+              1061,
+              130,
+              [
+                62
+              ]
+            ],
+            [
+              1096,
+              130,
+              [
+                62
+              ]
+            ]
+          ],
+          "allEnemyIds": [
+            61,
+            122,
+            2
+          ],
+          "allNpcIds": [
+            62,
+            6
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 31840,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 79,
+                "bytes": 3808
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 32,
+                "bytes": 3232
+              },
+              {
+                "gfx": 88,
+                "bytes": 8160
+              },
+              {
+                "gfx": 80,
+                "bytes": 13888
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        }
+      ]
+    },
+    {
+      "family": {
+        "key": "cinnamon-bakers",
+        "name": "Cinnamon bakers",
+        "gfx": 25,
+        "groups": [
+          {
+            "art": "cinnamon-baker",
+            "asm": 13,
+            "size": 0,
+            "width": 32,
+            "height": 32,
+            "frames": 23
+          }
+        ],
+        "actors": [
+          {
+            "key": "bakery-baker",
+            "name": "First Bakery bun baker",
+            "npcs": [
+              31
+            ],
+            "npc": 31,
+            "asm": 13,
+            "palette": 123,
+            "animation": 22,
+            "colors": [
+              "382b2d",
+              "71452e",
+              "b87744",
+              "e5ad67",
+              "fff0c9",
+              "2f5d58",
+              "5e9280",
+              "b6cbb1",
+              "fff7e5",
+              "8c364b",
+              "da7787",
+              "d9b05f"
+            ]
+          },
+          {
+            "key": "north-bakery-baker",
+            "name": "North Bakery bun baker",
+            "npcs": [
+              63
+            ],
+            "npc": 63,
+            "asm": 13,
+            "palette": 124,
+            "animation": 22,
+            "colors": [
+              "302932",
+              "674235",
+              "a76d50",
+              "dba57b",
+              "f3ddbb",
+              "55415f",
+              "8b698b",
+              "cbb2c5",
+              "fff2dd",
+              "87454f",
+              "d48a91",
+              "d6b574"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "graphicsOffset": 1671688,
+        "graphicsBytes": 2560,
+        "compressedBytes": 2395,
+        "assemblyOffset": 1951264,
+        "assemblyBytes": 920,
+        "animationOffset": 2380928,
+        "animationBytes": 80,
+        "animationProgram": [
+          0,
+          255,
+          0,
+          0,
+          4,
+          5,
+          6,
+          7,
+          255,
+          0,
+          0,
+          0,
+          4,
+          5,
+          6,
+          7,
+          20,
+          21,
+          22,
+          0,
+          1,
+          255,
+          0,
+          0,
+          8,
+          9,
+          10,
+          11,
+          255,
+          0,
+          0,
+          0,
+          8,
+          9,
+          10,
+          11,
+          20,
+          21,
+          22,
+          1,
+          2,
+          255,
+          0,
+          0,
+          12,
+          13,
+          14,
+          15,
+          255,
+          0,
+          0,
+          0,
+          12,
+          13,
+          14,
+          15,
+          20,
+          21,
+          22,
+          2,
+          3,
+          255,
+          0,
+          0,
+          16,
+          17,
+          18,
+          19,
+          255,
+          0,
+          0,
+          0,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          3
+        ],
+        "animationSha256": "0dc42118b9c0dfdd93959811cb501c83eda3b67121319c3cf59e06371f950b03",
+        "durationOffset": 2406256,
+        "durationBytes": 20,
+        "durationProgram": [
+          5,
+          0,
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          0,
+          0,
+          0,
+          0,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "durationSha256": "433a431627fe99aacf462072d664e29a38c2ca888b12d4a58606bac3425c871e"
+      },
+      "owners": {
+        "0/25": [
+          {
+            "kind": "npc",
+            "id": 31
+          },
+          {
+            "kind": "npc",
+            "id": 63
+          }
+        ],
+        "1/13": [
+          {
+            "kind": "npc",
+            "id": 31
+          },
+          {
+            "kind": "npc",
+            "id": 63
+          }
+        ]
+      },
+      "npcHeaders": [
+        {
+          "id": 31,
+          "bytes": [
+            25,
+            13,
+            123,
+            22,
+            0
+          ]
+        },
+        {
+          "id": 63,
+          "bytes": [
+            25,
+            13,
+            124,
+            22,
+            0
+          ]
+        }
+      ],
+      "animationDirections": [
+        {
+          "facing": 0,
+          "program": [
+            0,
+            255,
+            0,
+            0,
+            4,
+            5,
+            6,
+            7,
+            255,
+            0,
+            0,
+            0,
+            4,
+            5,
+            6,
+            7,
+            20,
+            21,
+            22,
+            0
+          ],
+          "times": [
+            5,
+            0,
+            0,
+            0,
+            10,
+            10,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "facing": 1,
+          "program": [
+            1,
+            255,
+            0,
+            0,
+            8,
+            9,
+            10,
+            11,
+            255,
+            0,
+            0,
+            0,
+            8,
+            9,
+            10,
+            11,
+            20,
+            21,
+            22,
+            1
+          ],
+          "times": [
+            5,
+            0,
+            0,
+            0,
+            10,
+            10,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "facing": 2,
+          "program": [
+            2,
+            255,
+            0,
+            0,
+            12,
+            13,
+            14,
+            15,
+            255,
+            0,
+            0,
+            0,
+            12,
+            13,
+            14,
+            15,
+            20,
+            21,
+            22,
+            2
+          ],
+          "times": [
+            5,
+            0,
+            0,
+            0,
+            10,
+            10,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "facing": 3,
+          "program": [
+            3,
+            255,
+            0,
+            0,
+            16,
+            17,
+            18,
+            19,
+            255,
+            0,
+            0,
+            0,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            3
+          ],
+          "times": [
+            5,
+            0,
+            0,
+            0,
+            10,
+            10,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ],
+      "normalizedMirrorPairs": [
+        [
+          3,
+          2
+        ],
+        [
+          16,
+          12
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          18,
+          14
+        ],
+        [
+          19,
+          15
+        ],
+        [
+          22,
+          21
+        ]
+      ],
+      "normalizedCopyPairs": [],
+      "frames": [
+        {
+          "frame": 0,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 398,
+          "bounds": [
+            -8,
+            -32,
+            8,
+            0
+          ],
+          "pixelSha256": "82a1de5da3c806bbc889838d173e3409cbb288d8967fc2e2e531138f41e261de"
+        },
+        {
+          "frame": 1,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 410,
+          "bounds": [
+            -8,
+            -32,
+            8,
+            0
+          ],
+          "pixelSha256": "50f680360c002258cfe32bb3fec571b943bee05637620fa1c358cada7c6036bc"
+        },
+        {
+          "frame": 2,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 378,
+          "bounds": [
+            -8,
+            -32,
+            7,
+            0
+          ],
+          "pixelSha256": "95e5e7397c434e64ef009a7f3ad73fb84c6ff1b70bde20cf8977b85b64c8a379"
+        },
+        {
+          "frame": 3,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 378,
+          "bounds": [
+            -7,
+            -32,
+            8,
+            0
+          ],
+          "pixelSha256": "2c0ce98f3da5a1c43d6f7caca75c7cc18d960f612f009a27df63a124e0170b64"
+        },
+        {
+          "frame": 4,
+          "xy": [
+            [
+              -8,
+              -15
+            ],
+            [
+              8,
+              -15
+            ],
+            [
+              -8,
+              -31
+            ],
+            [
+              8,
+              -31
+            ]
+          ],
+          "opaquePixels": 382,
+          "bounds": [
+            -8,
+            -31,
+            8,
+            1
+          ],
+          "pixelSha256": "bbaeadd0ce4db99ffc57199023ca0f4ae26f95fe532676a472989ff3dcf0c3c6"
+        },
+        {
+          "frame": 5,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 396,
+          "bounds": [
+            -8,
+            -32,
+            8,
+            0
+          ],
+          "pixelSha256": "8a39d976b65a6dcf9969b885d43b79f0f2ee480482e3b4dc5d0de1b50834f847"
+        },
+        {
+          "frame": 6,
+          "xy": [
+            [
+              -8,
+              -15
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -31
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 382,
+          "bounds": [
+            -8,
+            -31,
+            8,
+            1
+          ],
+          "pixelSha256": "af47fb82786667ebdaaba138997cf2c15489a1241259d6a2a81d118b984147e6"
+        },
+        {
+          "frame": 7,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 396,
+          "bounds": [
+            -8,
+            -32,
+            8,
+            0
+          ],
+          "pixelSha256": "3634709f7d72ef4431995daef1053b4f59382c3d28ffb8abf5d27bb006e72c11"
+        },
+        {
+          "frame": 8,
+          "xy": [
+            [
+              -8,
+              -15
+            ],
+            [
+              8,
+              -15
+            ],
+            [
+              -8,
+              -31
+            ],
+            [
+              8,
+              -31
+            ]
+          ],
+          "opaquePixels": 388,
+          "bounds": [
+            -8,
+            -31,
+            8,
+            1
+          ],
+          "pixelSha256": "5b3990bcbe90ae4697171635acfa5fb5644d257f2efbed7391666847dc50172f"
+        },
+        {
+          "frame": 9,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 379,
+          "bounds": [
+            -8,
+            -32,
+            8,
+            0
+          ],
+          "pixelSha256": "bd64a41cc70cc425b992fffaaefcc2cc7f6c8647e235d44973d4571aaa39b651"
+        },
+        {
+          "frame": 10,
+          "xy": [
+            [
+              -8,
+              -15
+            ],
+            [
+              8,
+              -15
+            ],
+            [
+              -8,
+              -31
+            ],
+            [
+              8,
+              -31
+            ]
+          ],
+          "opaquePixels": 386,
+          "bounds": [
+            -8,
+            -31,
+            8,
+            1
+          ],
+          "pixelSha256": "52e323f3a3928286429e072a4df56b6f3b45d297502ab1e7fc24f59fa97c0731"
+        },
+        {
+          "frame": 11,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 381,
+          "bounds": [
+            -8,
+            -32,
+            8,
+            0
+          ],
+          "pixelSha256": "9b290e90749ca13594bcad9a5c56a08d74206430e242f55430049af72b4e8399"
+        },
+        {
+          "frame": 12,
+          "xy": [
+            [
+              -8,
+              -15
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -31
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 376,
+          "bounds": [
+            -8,
+            -31,
+            8,
+            0
+          ],
+          "pixelSha256": "1f4433fe9ae3cb1931efa0cfd81a4035881e9104e9470a7a7a1b988450cafd95"
+        },
+        {
+          "frame": 13,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 367,
+          "bounds": [
+            -8,
+            -32,
+            7,
+            0
+          ],
+          "pixelSha256": "e8524bcc1da7187518cbd668663acabebd017f3e4b350e1ea9717cb1153563b6"
+        },
+        {
+          "frame": 14,
+          "xy": [
+            [
+              -8,
+              -15
+            ],
+            [
+              8,
+              -15
+            ],
+            [
+              -8,
+              -31
+            ],
+            [
+              8,
+              -31
+            ]
+          ],
+          "opaquePixels": 399,
+          "bounds": [
+            -8,
+            -31,
+            8,
+            1
+          ],
+          "pixelSha256": "3fd505dc7a571a128daabf193f7b316d591126cfe4c140915af4dc00e2d102e7"
+        },
+        {
+          "frame": 15,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 385,
+          "bounds": [
+            -8,
+            -32,
+            7,
+            0
+          ],
+          "pixelSha256": "12e1293509e4aa36027ca9a670a98af2b9342975f18fa4a50ec5fb561e512b4b"
+        },
+        {
+          "frame": 16,
+          "xy": [
+            [
+              -8,
+              -15
+            ],
+            [
+              8,
+              -15
+            ],
+            [
+              -8,
+              -31
+            ],
+            [
+              8,
+              -31
+            ]
+          ],
+          "opaquePixels": 376,
+          "bounds": [
+            -8,
+            -31,
+            8,
+            0
+          ],
+          "pixelSha256": "5bc087a568b23ab4898219ed9444b1c8625b4d0212d57c1f2db78db8c5535cb9"
+        },
+        {
+          "frame": 17,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 367,
+          "bounds": [
+            -7,
+            -32,
+            8,
+            0
+          ],
+          "pixelSha256": "242fc68ac0cd2586b455a69cb7d294e2620aa913c88a697086f7a6a0ad4ac552"
+        },
+        {
+          "frame": 18,
+          "xy": [
+            [
+              -8,
+              -15
+            ],
+            [
+              8,
+              -15
+            ],
+            [
+              -8,
+              -31
+            ],
+            [
+              8,
+              -31
+            ]
+          ],
+          "opaquePixels": 399,
+          "bounds": [
+            -8,
+            -31,
+            8,
+            1
+          ],
+          "pixelSha256": "34591bf5b82ec1502c893b20429afe5d367806ce4860cb1a6df4baba1bc4bf13"
+        },
+        {
+          "frame": 19,
+          "xy": [
+            [
+              -8,
+              -16
+            ],
+            [
+              8,
+              -16
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              8,
+              -32
+            ]
+          ],
+          "opaquePixels": 385,
+          "bounds": [
+            -7,
+            -32,
+            8,
+            0
+          ],
+          "pixelSha256": "d20c41066a1de20a94856f7a82d2e049ff4ab059be977af8f93b7ea83b4528ee"
+        },
+        {
+          "frame": 20,
+          "xy": [
+            [
+              -17,
+              -15
+            ],
+            [
+              -1,
+              -15
+            ],
+            [
+              -17,
+              -31
+            ],
+            [
+              -1,
+              -31
+            ]
+          ],
+          "opaquePixels": 422,
+          "bounds": [
+            -9,
+            -31,
+            12,
+            1
+          ],
+          "pixelSha256": "e6244bbb276fce06b2e83defce51ba49ffcc21ac702d6bf19353657cd0773b03"
+        },
+        {
+          "frame": 21,
+          "xy": [
+            [
+              -13,
+              -15
+            ],
+            [
+              3,
+              -15
+            ],
+            [
+              -15,
+              -31
+            ],
+            [
+              1,
+              -31
+            ]
+          ],
+          "opaquePixels": 417,
+          "bounds": [
+            -9,
+            -31,
+            11,
+            1
+          ],
+          "pixelSha256": "8fbc3763380d4157af75a3c522f4e8c8a54bc7a0b0c4b42322766cb65e69b8d2"
+        },
+        {
+          "frame": 22,
+          "xy": [
+            [
+              -18,
+              -15
+            ],
+            [
+              -2,
+              -15
+            ],
+            [
+              -16,
+              -31
+            ],
+            [
+              0,
+              -31
+            ]
+          ],
+          "opaquePixels": 417,
+          "bounds": [
+            -10,
+            -31,
+            10,
+            1
+          ],
+          "pixelSha256": "44ec5a41b2252b081658619024b3a1ce496e4fd20c22a6169dd20386d6e0882c"
+        }
+      ],
+      "scenes": [
+        {
+          "location": 7,
+          "eventPointer": 3670314,
+          "civilianLoads": [
+            [
+              644,
+              130,
+              [
+                31
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            31,
+            30,
+            123,
+            15,
+            191,
+            192
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 11936,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 53,
+                "bytes": 800
+              },
+              {
+                "gfx": 126,
+                "bytes": 2336
+              },
+              {
+                "gfx": 226,
+                "bytes": 1312
+              },
+              {
+                "gfx": 227,
+                "bytes": 2176
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 95,
+          "eventPointer": 3718899,
+          "civilianLoads": [
+            [
+              930,
+              130,
+              [
+                31
+              ]
+            ],
+            [
+              941,
+              130,
+              [
+                63
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            6,
+            8,
+            32,
+            26,
+            28,
+            29,
+            31,
+            63,
+            64,
+            0,
+            12,
+            188,
+            99,
+            112
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 19936,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 32,
+                "bytes": 3232
+              },
+              {
+                "gfx": 42,
+                "bytes": 1376
+              },
+              {
+                "gfx": 20,
+                "bytes": 1312
+              },
+              {
+                "gfx": 127,
+                "bytes": 1728
+              },
+              {
+                "gfx": 19,
+                "bytes": 2336
+              },
+              {
+                "gfx": 137,
+                "bytes": 1312
+              },
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 28,
+                "bytes": 2592
+              },
+              {
+                "gfx": 26,
+                "bytes": 2400
+              },
+              {
+                "gfx": 230,
+                "bytes": 768
+              },
+              {
+                "gfx": 68,
+                "bytes": 160
+              },
+              {
+                "gfx": 49,
+                "bytes": 160
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 276,
+          "eventPointer": 3902627,
+          "civilianLoads": [
+            [
+              513,
+              130,
+              [
+                31
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            30,
+            32,
+            31
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 6624,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 20,
+                "bytes": 1312
+              },
+              {
+                "gfx": 25,
+                "bytes": 2560
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 277,
+          "eventPointer": 3902869,
+          "civilianLoads": [
+            [
+              747,
+              130,
+              [
+                31
+              ]
+            ],
+            [
+              1568,
+              130,
+              [
+                31
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            33,
+            30,
+            31
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 7648,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 15,
+                "bytes": 2336
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 25,
+                "bytes": 2560
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 278,
+          "eventPointer": 3903775,
+          "civilianLoads": [
+            [
+              498,
+              130,
+              [
+                31
+              ]
+            ],
+            [
+              548,
+              130,
+              [
+                31
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            30,
+            31
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 5312,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 25,
+                "bytes": 2560
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 279,
+          "eventPointer": 3904105,
+          "civilianLoads": [
+            [
+              1342,
+              130,
+              [
+                31
+              ]
+            ],
+            [
+              1459,
+              130,
+              [
+                31
+              ]
+            ],
+            [
+              1573,
+              130,
+              [
+                63
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            6,
+            30,
+            31,
+            62,
+            63,
+            64,
+            33
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 12192,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 32,
+                "bytes": 3232
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 20,
+                "bytes": 1312
+              },
+              {
+                "gfx": 15,
+                "bytes": 2336
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 280,
+          "eventPointer": 3905086,
+          "civilianLoads": [
+            [
+              2239,
+              130,
+              [
+                31
+              ]
+            ],
+            [
+              2274,
+              130,
+              [
+                31
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            31,
+            30,
+            6,
+            122,
+            123,
+            94,
+            96
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 10592,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 32,
+                "bytes": 3232
+              },
+              {
+                "gfx": 52,
+                "bytes": 480
+              },
+              {
+                "gfx": 53,
+                "bytes": 800
+              },
+              {
+                "gfx": 191,
+                "bytes": 608
+              },
+              {
+                "gfx": 65,
+                "bytes": 160
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 292,
+          "eventPointer": 3970679,
+          "civilianLoads": [
+            [
+              767,
+              130,
+              [
+                63
+              ]
+            ]
+          ],
+          "allEnemyIds": [
+            0
+          ],
+          "allNpcIds": [
+            33,
+            63,
+            64,
+            62,
+            173
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 16992,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 15,
+                "bytes": 2336
+              },
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 20,
+                "bytes": 1312
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 99,
+                "bytes": 6720
+              },
+              {
+                "gfx": 211,
+                "bytes": 1312
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        }
+      ]
+    }
+  ],
+  "paletteRecords": [
+    {
+      "palette": 123,
+      "offset": 2362248,
+      "originalOwners": [
+        {
+          "kind": "npc",
+          "id": 30
+        },
+        {
+          "kind": "npc",
+          "id": 31
+        },
+        {
+          "kind": "npc",
+          "id": 32
+        },
+        {
+          "kind": "npc",
+          "id": 33
+        }
+      ],
+      "projectOwners": [
+        {
+          "key": "bakery-porter",
+          "npcs": [
+            30
+          ],
+          "gfx": 24,
+          "asm": 12,
+          "sourcePalette": 123
+        },
+        {
+          "key": "bakery-baker",
+          "npcs": [
+            31
+          ],
+          "gfx": 25,
+          "asm": 13,
+          "sourcePalette": 123
+        },
+        {
+          "key": "bakery-child",
+          "npcs": [
+            32
+          ],
+          "gfx": 20,
+          "asm": 245,
+          "sourcePalette": 123
+        },
+        {
+          "key": "bakery-elder",
+          "npcs": [
+            33
+          ],
+          "gfx": 15,
+          "asm": 246,
+          "sourcePalette": 123
+        },
+        {
+          "key": "bakery-drummer",
+          "npcs": [
+            122
+          ],
+          "gfx": 52,
+          "asm": 94,
+          "sourcePalette": 174
+        },
+        {
+          "key": "bakery-log-drummer",
+          "npcs": [
+            123
+          ],
+          "gfx": 53,
+          "asm": 95,
+          "sourcePalette": 174
+        },
+        {
+          "key": "onion-bread-plate",
+          "npcs": [
+            94
+          ],
+          "gfx": 191,
+          "asm": 187,
+          "sourcePalette": 5
+        }
+      ],
+      "aliases": [
+        123
+      ],
+      "originalSha256": "26600c0b0b55d6c0d9ab33bd1b49c400f73fdc0dd94dd5ce33cf9d47d09cda0a",
+      "projectColors": [
+        "382b2d",
+        "71452e",
+        "b87744",
+        "e5ad67",
+        "fff0c9",
+        "2f5d58",
+        "5e9280",
+        "b6cbb1",
+        "fff7e5",
+        "8c364b",
+        "da7787",
+        "d9b05f"
+      ]
+    },
+    {
+      "palette": 124,
+      "offset": 2362272,
+      "originalOwners": [
+        {
+          "kind": "npc",
+          "id": 62
+        },
+        {
+          "kind": "npc",
+          "id": 63
+        },
+        {
+          "kind": "npc",
+          "id": 64
+        }
+      ],
+      "projectOwners": [
+        {
+          "key": "north-bakery-porter",
+          "npcs": [
+            62
+          ],
+          "gfx": 24,
+          "asm": 12,
+          "sourcePalette": 124
+        },
+        {
+          "key": "north-bakery-baker",
+          "npcs": [
+            63
+          ],
+          "gfx": 25,
+          "asm": 13,
+          "sourcePalette": 124
+        },
+        {
+          "key": "north-bakery-child",
+          "npcs": [
+            64
+          ],
+          "gfx": 20,
+          "asm": 245,
+          "sourcePalette": 124
+        }
+      ],
+      "aliases": [
+        124
+      ],
+      "originalSha256": "f96566b34b66182b41eec28b68bab1a2ed5482e32d66462561bfb9edc9c7cbd8",
+      "projectColors": [
+        "302932",
+        "674235",
+        "a76d50",
+        "dba57b",
+        "f3ddbb",
+        "55415f",
+        "8b698b",
+        "cbb2c5",
+        "fff2dd",
+        "87454f",
+        "d48a91",
+        "d6b574"
+      ]
+    }
+  ]
+}

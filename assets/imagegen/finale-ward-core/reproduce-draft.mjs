@@ -1,0 +1,4 @@
+import fs from'node:fs';import path from'node:path';import assert from'node:assert/strict';import{spawnSync}from'node:child_process';import{createHash}from'node:crypto';
+const d=import.meta.dirname,root=path.resolve(d,'../../..'),dir='assets/imagegen/finale-ward-core/',sha=b=>createHash('sha256').update(b).digest('hex'),freeze=fs.existsSync(path.join(d,'freeze.json'))?JSON.parse(fs.readFileSync(path.join(d,'freeze.json'))):null;
+for(const script of['prepare-draft.mjs','finalize-metadata.mjs','build-review.mjs']){const r=spawnSync(process.execPath,[dir+script],{cwd:root,encoding:'utf8'});if(r.status!==0)throw Error(r.stdout+r.stderr);}
+if(freeze){for(const f of freeze.derived)assert.equal(sha(fs.readFileSync(path.join(root,f.path))),f.sha256,f.path);console.log('All '+freeze.derived.length+' frozen derived files reproduce byte for byte.');}else console.log('Inactive source pipeline reproduced without active writes.');

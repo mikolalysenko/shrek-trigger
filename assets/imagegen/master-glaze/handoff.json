@@ -1,0 +1,91 @@
+{
+  "status": "Frozen inactive actual-imagegen source packet; native model direction approved by root; production integration pending.",
+  "sourceFiles": 30,
+  "sourceBytes": 5148952,
+  "sourceGeneration": {
+    "mode": "built-in image_gen",
+    "sourceImages": 4,
+    "sourcePoses": 17,
+    "prompts": [
+      "assets/imagegen/master-glaze/prompt-base-v1.txt",
+      "assets/imagegen/master-glaze/prompt-actions-v1.txt",
+      "assets/imagegen/master-glaze/prompt-contacts-v1.txt",
+      "assets/imagegen/master-glaze/prompt-contacts-v2.txt"
+    ]
+  },
+  "integration": {
+    "key": "master-glaze",
+    "spec": "assets/imagegen/master-glaze/import-spec.draft.json",
+    "role": {
+      "pose": "native",
+      "facing": 1,
+      "phase": "original native frame ID0..19"
+    },
+    "family": "assets/imagegen/master-glaze/source-family.json",
+    "width": 32,
+    "height": 32,
+    "cells": 4,
+    "graphics": 141,
+    "assembly": 135,
+    "palette": 190,
+    "animation": 101,
+    "enemy": 154,
+    "originalBudgetGuard": "Preserve the strict family-size guard. Candidate raw bank exceeds the original by960bytes; root should explicitly select proven raw-ROM streaming or validate current full-scene residency before activation."
+  },
+  "budget": {
+    "raw": 5728,
+    "compressed": 3965,
+    "assembly": 800,
+    "tiles": 179,
+    "growth": {
+      "raw": 960,
+      "compressed": -441,
+      "assembly": 0
+    }
+  },
+  "hashes": {
+    "graphics": "0eafac5c5b77f79ff9bfc88f1cc910bd31d90a91cb69fc538ad6dc1eb89631de",
+    "compressed": "43ff10c0339a3bfc240cb0e7c5926bd983e331c857a59ea0cd3c033904b7dcc0",
+    "assemblyAfterAuthoredOffsets": "20d3ef9fb0d28547e13192bfc210cab727e65505cbe181bd47a19e3e8c7d4081"
+  },
+  "visualReview": {
+    "rootModelDirectionApproved": true,
+    "allTwentyNativeSlotsReviewedAt1xAnd4x": true,
+    "originalMotionGroups": 8,
+    "walkGroups": 4,
+    "reviewClockHz": 6,
+    "sourceSubstitutions": [
+      "Right gait is the exact full-source mirror of left gait, matching native directional symmetry.",
+      "Rear and profile passing poses naturally occlude the spoon; native slots1,7,10 have no visible gold spoon pixels.",
+      "Descriptive reaction/speaking role names preserve observed native pose order and do not assert new combat mechanics."
+    ],
+    "proceduralOrIdleFallbackFrames": 0
+  },
+  "nativeProof": {
+    "manifest": {
+      "path": "assets/imagegen/master-glaze/native-verification/manifest.json",
+      "bytes": 5154,
+      "sha256": "22bc97234a7ca54c27f5aa8b562e9bb032a07e56dde4912e0d66e59c9b3f6d5e"
+    },
+    "nativeUploads": 20,
+    "opaquePixelChecks": 7877,
+    "colorsObserved": 12,
+    "heapBytes": 6688,
+    "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+    "privateRomSha256": "d3d9f5a475249a3f946a2c39331f02439a87c3b3908a2d86bb3a5271605e2654",
+    "fullSceneOrBattleProof": false
+  },
+  "review": {
+    "sheet": "assets/imagegen/master-glaze/native-frames.html",
+    "png": "assets/imagegen/master-glaze/native-frames.png",
+    "native1x": "assets/imagegen/master-glaze/native-1x.png",
+    "motion": "assets/imagegen/master-glaze/motion.html",
+    "captures": "assets/imagegen/master-glaze/native-verification/"
+  },
+  "reproduction": "node assets/imagegen/master-glaze/reproduce-draft.mjs",
+  "remaining": [
+    "Root activation and explicit storage selection",
+    "Native tests on the final integrated cartridge",
+    "Connected Glaze/Kilnback/Furnace scene and battle checks with current source-art co-loads"
+  ]
+}

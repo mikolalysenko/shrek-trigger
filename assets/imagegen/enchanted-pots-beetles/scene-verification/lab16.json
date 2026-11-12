@@ -1,0 +1,301 @@
+{
+  "status": "Passed",
+  "name": "lab16",
+  "scope": "Original location event/actor IDs/formation/AI/controller battle; only initial diagnostic E0/checkpoint setup. No enemy/pose/event writes after entry.",
+  "privateRomSha256": "25848a5b60b210d9b599dc0f0847085f724a125dfd3549a04dfa9142bdd34df7",
+  "nativeTicks": 3382,
+  "result": {
+    "formation": [
+      91,
+      91,
+      91,
+      255,
+      39,
+      255,
+      255,
+      255
+    ],
+    "taps": 22,
+    "scope": "The original mixed pot/Briar encounter only, entered near its existing actors; no whole-Lab16 route claim."
+  },
+  "events": [
+    {
+      "frame": 9351,
+      "location": 212,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 1237,
+      "opcode": 216
+    },
+    {
+      "frame": 12127,
+      "location": 212,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 1237,
+      "opcode": 216
+    }
+  ],
+  "loads": [
+    {
+      "frame": 8941,
+      "location": 212,
+      "pc": 12605696,
+      "object": 15,
+      "scriptPC": 1630,
+      "opcode": 131,
+      "enemy": 39
+    },
+    {
+      "frame": 8943,
+      "location": 212,
+      "pc": 12605696,
+      "object": 16,
+      "scriptPC": 1639,
+      "opcode": 131,
+      "enemy": 34
+    },
+    {
+      "frame": 8943,
+      "location": 212,
+      "pc": 12605696,
+      "object": 17,
+      "scriptPC": 1661,
+      "opcode": 131,
+      "enemy": 34
+    },
+    {
+      "frame": 8943,
+      "location": 212,
+      "pc": 12605696,
+      "object": 18,
+      "scriptPC": 1683,
+      "opcode": 131,
+      "enemy": 39
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 19,
+      "scriptPC": 1694,
+      "opcode": 131,
+      "enemy": 91
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 20,
+      "scriptPC": 1705,
+      "opcode": 131,
+      "enemy": 91
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 21,
+      "scriptPC": 1716,
+      "opcode": 131,
+      "enemy": 91
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 22,
+      "scriptPC": 1727,
+      "opcode": 131,
+      "enemy": 39
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 23,
+      "scriptPC": 1742,
+      "opcode": 131,
+      "enemy": 34
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 24,
+      "scriptPC": 1764,
+      "opcode": 131,
+      "enemy": 34
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 25,
+      "scriptPC": 1786,
+      "opcode": 131,
+      "enemy": 39
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 26,
+      "scriptPC": 1795,
+      "opcode": 131,
+      "enemy": 39
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 27,
+      "scriptPC": 1804,
+      "opcode": 131,
+      "enemy": 34
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 28,
+      "scriptPC": 1821,
+      "opcode": 131,
+      "enemy": 34
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 29,
+      "scriptPC": 1838,
+      "opcode": 131,
+      "enemy": 91
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 30,
+      "scriptPC": 1849,
+      "opcode": 131,
+      "enemy": 91
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 31,
+      "scriptPC": 1860,
+      "opcode": 131,
+      "enemy": 91
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 32,
+      "scriptPC": 1871,
+      "opcode": 131,
+      "enemy": 91
+    },
+    {
+      "frame": 8944,
+      "location": 212,
+      "pc": 12605696,
+      "object": 33,
+      "scriptPC": 1882,
+      "opcode": 131,
+      "enemy": 91
+    }
+  ],
+  "messages": [],
+  "attacks": [
+    {
+      "frame": 9912,
+      "location": 212,
+      "pc": 12687933,
+      "object": 19,
+      "actor": 7,
+      "enemyId": 39,
+      "aiPC": 38003,
+      "operand": 126
+    }
+  ],
+  "heapMin": 1248,
+  "heapMax": 9088,
+  "fieldPointers": [
+    {
+      "location": 212,
+      "enemy": 91,
+      "object": 19,
+      "pointer": 8198352,
+      "palettePointer": 2664
+    },
+    {
+      "location": 212,
+      "enemy": 91,
+      "object": 20,
+      "pointer": 8198352,
+      "palettePointer": 2664
+    },
+    {
+      "location": 212,
+      "enemy": 91,
+      "object": 21,
+      "pointer": 8198352,
+      "palettePointer": 2664
+    },
+    {
+      "location": 212,
+      "enemy": 91,
+      "object": 29,
+      "pointer": 8198352,
+      "palettePointer": 2664
+    },
+    {
+      "location": 212,
+      "enemy": 91,
+      "object": 30,
+      "pointer": 8198352,
+      "palettePointer": 2664
+    },
+    {
+      "location": 212,
+      "enemy": 91,
+      "object": 31,
+      "pointer": 8198352,
+      "palettePointer": 2664
+    },
+    {
+      "location": 212,
+      "enemy": 91,
+      "object": 32,
+      "pointer": 8198352,
+      "palettePointer": 2664
+    },
+    {
+      "location": 212,
+      "enemy": 91,
+      "object": 33,
+      "pointer": 8198352,
+      "palettePointer": 2664
+    }
+  ],
+  "observedNativeFieldFrames": [
+    {
+      "key": "cracked-pot:19:6",
+      "sampledTicks": 150
+    },
+    {
+      "key": "cracked-pot:20:6",
+      "sampledTicks": 150
+    },
+    {
+      "key": "cracked-pot:21:6",
+      "sampledTicks": 150
+    }
+  ],
+  "allSixRomPalettesUnchanged": true,
+  "cartridgeUnchanged": true
+}

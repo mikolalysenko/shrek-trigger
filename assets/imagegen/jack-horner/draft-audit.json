@@ -1,0 +1,493 @@
+{
+  "key": "horner",
+  "status": "Lead pixel review approved; inactive pending native capacity integration",
+  "nativeFrames": 30,
+  "sourceFrames": 28,
+  "sourceSheets": 4,
+  "uniqueNativeImages": 30,
+  "proceduralFrames": 0,
+  "missing": [],
+  "bodyReferenceHeight": 32,
+  "sampling": "nearest",
+  "paletteId": 196,
+  "paletteColors": [
+    "282333",
+    "845060",
+    "c77b87",
+    "eea6a1",
+    "ffd0b7",
+    "3b304f",
+    "695080",
+    "a17caf",
+    "292e40",
+    "4277a0",
+    "8abbd1",
+    "f6efdb"
+  ],
+  "cellsPerFrame": 8,
+  "size": 1,
+  "canvas": [
+    64,
+    64
+  ],
+  "anchor": [
+    0,
+    8
+  ],
+  "originalFrameOffsets": {
+    "4": [
+      0,
+      -6
+    ],
+    "9": [
+      0,
+      -2
+    ],
+    "10": [
+      0,
+      -3
+    ],
+    "11": [
+      0,
+      -2
+    ],
+    "12": [
+      0,
+      -2
+    ],
+    "13": [
+      0,
+      -3
+    ],
+    "14": [
+      0,
+      -2
+    ],
+    "15": [
+      0,
+      -2
+    ],
+    "16": [
+      0,
+      -3
+    ],
+    "17": [
+      0,
+      -2
+    ],
+    "22": [
+      2,
+      1
+    ],
+    "27": [
+      0,
+      -2
+    ],
+    "28": [
+      0,
+      -1
+    ]
+  },
+  "tiles": 430,
+  "graphicsBytes": 13760,
+  "compressedGraphicsBytes": 11526,
+  "assemblyBytes": 2400,
+  "original": {
+    "tiles": 256,
+    "graphicsBytes": 8192,
+    "compressedGraphicsBytes": 5184,
+    "assemblyBytes": 2400
+  },
+  "currentProcedural": {
+    "tiles": 148,
+    "graphicsBytes": 4736,
+    "compressedGraphicsBytes": 2464
+  },
+  "exactPacking": {
+    "method": "Pixel-exact cell-boundary alignment with eight transparent staging rows; anchor cancels all display displacement",
+    "initialTiles": 438,
+    "initialGraphicsBytes": 14016,
+    "initialCompressedBytes": 11616,
+    "decodedBytesSaved": 256
+  },
+  "sources": [
+    {
+      "file": "assets/imagegen/jack-horner/source-base-v1.png",
+      "sha256": "a5372307fa7af832d4d766dc84b046332c769bef66faae34d5c02d8dd924aba7",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/jack-horner/source-float-v1.png",
+      "sha256": "3ebfe2b517d7b714bab0b31b0ed6d50f2b8b6535d9303a580262ae4b2c97979b",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/jack-horner/source-actions-v1.png",
+      "sha256": "3452bd2ecc68d5b8e89998edf748a8d398bc9bfca1fc762877fed9f81717df20",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/jack-horner/source-dizzy-v1.png",
+      "sha256": "0974d320848f7bb77a4fe8672d55b23b3732a94d5eaceb8aaf34cac5aaa86048",
+      "sourceType": "image-generation"
+    }
+  ],
+  "validation": {
+    "all30SlotsPresent": true,
+    "all30NativeImagesDistinct": true,
+    "existing12ColorPalette": true,
+    "eightCellsEveryFrame": true,
+    "assemblyCapacityUnchanged": true,
+    "noClippedOpaquePixels": true,
+    "compressionRoundTrip": true,
+    "all4bppFramesRoundTrip": true,
+    "stagingPreservesDisplayedPixels": true,
+    "existingFrameOffsetsRetained": true,
+    "canonicalRegistryInactive": true
+  },
+  "sceneProjections": [
+    {
+      "location": 31,
+      "graphics": [
+        194,
+        155,
+        83,
+        86,
+        111
+      ],
+      "baseAllConditionalBytes": 36896,
+      "otherBytes": 17632,
+      "candidateBytes": 31392,
+      "note": "Proven Horner branch only"
+    },
+    {
+      "location": 33,
+      "graphics": [
+        155,
+        86,
+        35,
+        111,
+        49
+      ],
+      "baseAllConditionalBytes": 31104,
+      "otherBytes": 22912,
+      "candidateBytes": 36672,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 63,
+      "graphics": [
+        190,
+        40,
+        155,
+        182,
+        166
+      ],
+      "baseAllConditionalBytes": 27712,
+      "otherBytes": 19520,
+      "candidateBytes": 33280,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 92,
+      "graphics": [
+        166,
+        182,
+        155,
+        132
+      ],
+      "baseAllConditionalBytes": 25984,
+      "otherBytes": 17792,
+      "candidateBytes": 31552,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 113,
+      "graphics": [
+        66,
+        136,
+        169,
+        86,
+        31,
+        155
+      ],
+      "baseAllConditionalBytes": 20960,
+      "otherBytes": 12768,
+      "candidateBytes": 26528,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 134,
+      "graphics": [
+        155,
+        171,
+        170,
+        33,
+        108,
+        125
+      ],
+      "baseAllConditionalBytes": 29728,
+      "otherBytes": 21536,
+      "candidateBytes": 35296,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 135,
+      "graphics": [
+        155,
+        171,
+        170,
+        33,
+        108,
+        125
+      ],
+      "baseAllConditionalBytes": 29728,
+      "otherBytes": 21536,
+      "candidateBytes": 35296,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 162,
+      "graphics": [
+        155
+      ],
+      "baseAllConditionalBytes": 8192,
+      "otherBytes": 0,
+      "candidateBytes": 13760,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 166,
+      "graphics": [
+        159,
+        186,
+        155,
+        83,
+        103
+      ],
+      "baseAllConditionalBytes": 19616,
+      "otherBytes": 11424,
+      "candidateBytes": 25184,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 167,
+      "graphics": [
+        155,
+        188,
+        198,
+        187
+      ],
+      "baseAllConditionalBytes": 9056,
+      "otherBytes": 864,
+      "candidateBytes": 14624,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 168,
+      "graphics": [
+        155
+      ],
+      "baseAllConditionalBytes": 8192,
+      "otherBytes": 0,
+      "candidateBytes": 13760,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 170,
+      "graphics": [
+        186,
+        155,
+        111,
+        100,
+        83
+      ],
+      "baseAllConditionalBytes": 31072,
+      "otherBytes": 22880,
+      "candidateBytes": 36640,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 174,
+      "graphics": [
+        186,
+        155,
+        167
+      ],
+      "baseAllConditionalBytes": 8800,
+      "otherBytes": 608,
+      "candidateBytes": 14368,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 175,
+      "graphics": [
+        155,
+        203,
+        94,
+        91
+      ],
+      "baseAllConditionalBytes": 30240,
+      "otherBytes": 22048,
+      "candidateBytes": 35808,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 177,
+      "graphics": [
+        155
+      ],
+      "baseAllConditionalBytes": 8192,
+      "otherBytes": 0,
+      "candidateBytes": 13760,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 178,
+      "graphics": [
+        188,
+        155,
+        203
+      ],
+      "baseAllConditionalBytes": 20672,
+      "otherBytes": 12480,
+      "candidateBytes": 26240,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 179,
+      "graphics": [
+        155,
+        187,
+        188,
+        86,
+        49
+      ],
+      "baseAllConditionalBytes": 17728,
+      "otherBytes": 9536,
+      "candidateBytes": 23296,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 180,
+      "graphics": [
+        155,
+        166,
+        182
+      ],
+      "baseAllConditionalBytes": 24896,
+      "otherBytes": 16704,
+      "candidateBytes": 30464,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 181,
+      "graphics": [
+        155,
+        167,
+        43
+      ],
+      "baseAllConditionalBytes": 9600,
+      "otherBytes": 1408,
+      "candidateBytes": 15168,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 182,
+      "graphics": [
+        155,
+        182
+      ],
+      "baseAllConditionalBytes": 12512,
+      "otherBytes": 4320,
+      "candidateBytes": 18080,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 183,
+      "graphics": [
+        155,
+        182
+      ],
+      "baseAllConditionalBytes": 12512,
+      "otherBytes": 4320,
+      "candidateBytes": 18080,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 184,
+      "graphics": [
+        155,
+        166
+      ],
+      "baseAllConditionalBytes": 20576,
+      "otherBytes": 12384,
+      "candidateBytes": 26144,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 205,
+      "graphics": [
+        125,
+        33,
+        45,
+        134,
+        155
+      ],
+      "baseAllConditionalBytes": 17376,
+      "otherBytes": 9184,
+      "candidateBytes": 22944,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 396,
+      "graphics": [
+        28,
+        155,
+        205,
+        206,
+        207
+      ],
+      "baseAllConditionalBytes": 18176,
+      "otherBytes": 9984,
+      "candidateBytes": 23744,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    },
+    {
+      "location": 397,
+      "graphics": [
+        28,
+        155,
+        205,
+        206,
+        207
+      ],
+      "baseAllConditionalBytes": 18176,
+      "otherBytes": 9984,
+      "candidateBytes": 23744,
+      "note": "Conservative union of original event loads; actual emitted resources must be re-audited"
+    }
+  ],
+  "capacity": {
+    "originalDecodedBudget": 8192,
+    "conservativeCeilingBeforeStreaming": 9824,
+    "withinOldCeiling": false,
+    "prospectiveStreamingExclusions": [],
+    "status": "Requires proven native streaming or a complete emitted scene budget; no automatic activation"
+  },
+  "nativeUploaded": false,
+  "compressedGraphicsDelta": 6342,
+  "compressedDeltaFromCurrentProcedural": 9062,
+  "visualReview": {
+    "status": "Lead pixel review approved; inactive pending native capacity integration",
+    "reviewer": "/root/sprite_art_pass",
+    "date": "2026-10-31",
+    "approved": true,
+    "bodyReferenceHeight": 32,
+    "sampling": "nearest",
+    "all30NativeSlotsAt1xAnd3x": true,
+    "findings": "Broad face, bowl hair, cravat, coat volume and crouch/float/tumble/shield roles read clearly. Preserve the full-size candidate; do not substitute the 26px resource trial.",
+    "nativeUploaded": false,
+    "capacityApproved": false
+  }
+}

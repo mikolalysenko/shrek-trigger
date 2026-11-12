@@ -1,0 +1,91 @@
+{
+  "key": "prophet",
+  "status": "Lead visual review approved; root approved15-distinct-slot proposal; inactive pending capacity/integration work",
+  "cast": "Farquaad disguised as the Prophet, NPC60, gfx135, asm130, private palette98",
+  "spec": "import-spec.draft.json",
+  "activation": false,
+  "review": {
+    "native": "native-frames.png",
+    "motion": "motion.html",
+    "sampling": "sampling-comparison.png",
+    "beforeAfter": "comparison.png",
+    "proposal": "proposed-native-frames.png"
+  },
+  "coverage": {
+    "nativeSlots": 15,
+    "sourceSampledSlots": 15,
+    "uniqueNativeImages": 13,
+    "proceduralSlots": 0,
+    "missing": []
+  },
+  "budget": {
+    "tiles": 177,
+    "graphicsBytes": 5664,
+    "compressedGraphicsBytes": 3409,
+    "compressedDeltaVersusProcedural": 2880,
+    "assemblyBytes": 600,
+    "paletteBytes": 24,
+    "currentMapCompressedGraphicsBytes": 3409,
+    "approvedProposalCompressedGraphicsBytes": 3794,
+    "approvedProposalIncrementBytes": 385
+  },
+  "proposedBudget": {
+    "nativeSlots": 15,
+    "uniqueNativeImages": 15,
+    "tiles": 199,
+    "graphicsBytes": 6368,
+    "compressedGraphicsBytes": 3794,
+    "assemblyBytes": 600,
+    "compressedDeltaVersusCurrent": 385,
+    "compressedDeltaVersusProcedural": 3265
+  },
+  "provenance": [
+    "provenance-v1.json",
+    "provenance-v2-corrections.json",
+    "provenance-v3-front-passing.json"
+  ],
+  "generatedThisContinuation": [
+    "source-v2-corrections.png",
+    "source-v3-front-passing.png"
+  ],
+  "prompts": [
+    "prompt-v2-corrections.txt",
+    "prompt-v3-front-passing.txt"
+  ],
+  "sourcePolicy": "Actual built-in imagegen source images only, sampled through existing raster importer. No code-drawn character pixels. Rejected cells remain archived and are explicitly unused.",
+  "knownIntegrationGap": "Existing supporting mapper loses native rear slot6 and front slot10 distinction. Separate mapping-proposal.draft.json supplies explicit phase3 roles and source samples; no engine patch applied.",
+  "reproduction": [
+    "node assets/imagegen/prophet/prepare-draft.mjs",
+    "node assets/imagegen/prophet/review-draft.mjs --sampling",
+    "node assets/imagegen/prophet/audit-mapping-proposal.mjs",
+    "node assets/imagegen/prophet/freeze-review.mjs"
+  ],
+  "validation": {
+    "allFifteenSlotsPresent": true,
+    "unchangedPalette": true,
+    "twelveOpaqueColorLimit": true,
+    "fourNative16x16Cells": true,
+    "compressionRoundTrip": true,
+    "all4bppFramesRoundTrip": true,
+    "canonicalRegistryInactive": true,
+    "motionPreviewJavaScript": true,
+    "motionPreviewMatchesCartridgeSlotOrder": true
+  },
+  "untouched": [
+    "canonical engine/generated-raster-art.js",
+    "engine/supporting-cast.js",
+    "ROM",
+    "music",
+    "young-farquaad"
+  ],
+  "leadReview": {
+    "approved": true,
+    "scales": [
+      1,
+      3
+    ],
+    "approvedProposal": "Preserve all15 distinct native slots via explicit phase3 mapping for slots6/10",
+    "nativeUploaded": false
+  },
+  "approvedForActivation": "mapping-proposal.draft.json"
+}

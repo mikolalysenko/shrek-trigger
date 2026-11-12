@@ -1,0 +1,411 @@
+{
+  "status": "Frozen inactive Rivet full-source candidate; root owns production activation",
+  "scope": {
+    "field": {
+      "gfx": 37,
+      "asm": 26,
+      "owners": [
+        "npc2",
+        "enemy244"
+      ],
+      "palette": 157,
+      "frames": 25,
+      "cells": 4,
+      "sourcePoses": 18,
+      "originalXYBytes": 200
+    },
+    "race": {
+      "projectionFrames": 6,
+      "width": 24,
+      "height": 24,
+      "packet2Bytes": 9216,
+      "miniatureFrames": 2,
+      "miniatureOwnedBytes": 128,
+      "additionalSourcePoses": 1
+    }
+  },
+  "whitelist": {
+    "path": "assets/imagegen/rivet/reproducibility-files.txt",
+    "files": 71,
+    "sha256": "514ebf7d8f32cb38d9502b129e1f6c096a75059c606c01486a20ceed6186f7ad",
+    "excluded": "Exploratory base/riding previews, generated intermediate atlas files, original/earlier comparison sheets other than the actual prompt reference, native frames redundant with the complete pixel manifest, diagnostic probe/dumps/logs. No canonical ROM or checkpoint is included."
+  },
+  "proof": {
+    "privateRomSha256": "376207d55c4b2f5e33caf29361f048b92ad931fc99472cfc740fda7f0b6d6ca3",
+    "nativeFrameUploads": 50,
+    "opaquePixelChecks": 21846,
+    "motionLists": 72,
+    "nativeTimedTicks": 12960,
+    "actualRaceModes": [
+      0,
+      9
+    ],
+    "nativeEarnedRecord": 706,
+    "projectionViewsConsumed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "miniatureSourceBytesConsumed": 128
+  },
+  "visualReview": {
+    "lead": "Full field/race/miniature source pixels approved; 8px miniatures are silhouette-only. Actual PPU race/motion followup sent separately.",
+    "root": "Requested reproducibility freeze; active integration remains root-owned."
+  },
+  "limitations": [
+    "Field raw bank exceeds original decoded allocation; root must select the proven four-cell streamed-family path or separately prove integrated capacity.",
+    "Private saved-build native/race proof is SnesJs only, with unchanged source programs, palettes and gameplay. No independent core/hardware/full-campaign claim.",
+    "Non-race locations93/239 have original source ownership/function audit only.",
+    "Perspective PPU screenshots plus exact source loading/consumption are not a mathematical per-pixel perspective-renderer proof."
+  ],
+  "files": [
+    {
+      "path": "assets/imagegen/rivet/audit-events.mjs",
+      "bytes": 1870,
+      "sha256": "c25b59c7b9f2b5c58069aaffdb8273998bd2c424b4a06afbdabd1defcf003b4a"
+    },
+    {
+      "path": "assets/imagegen/rivet/audit-native.mjs",
+      "bytes": 8403,
+      "sha256": "792c54a9f0fb4ffbaeb17b25da008df55c675a8e63d4fd1ff3a4342eec1ecbf7"
+    },
+    {
+      "path": "assets/imagegen/rivet/build-motion-review.mjs",
+      "bytes": 8805,
+      "sha256": "113d0cf2aea7b76254ca41f8973bd7dc6888b1bfbcc8657a5e4cf24569f95aa6"
+    },
+    {
+      "path": "assets/imagegen/rivet/compile-draft.mjs",
+      "bytes": 7844,
+      "sha256": "e6870702d9ebcd8da41543185178209125d3653b0afa68124769f0da29108b52"
+    },
+    {
+      "path": "assets/imagegen/rivet/current-co-loads.json",
+      "bytes": 3423,
+      "sha256": "1a8304a05acd76edd8ec75d293bc3c757e03285fce1b3d3cea6e6e8c7c64ec8c"
+    },
+    {
+      "path": "assets/imagegen/rivet/draft/field-assembly.bin",
+      "bytes": 1000,
+      "sha256": "9cb8a1e95eb2aa47cd11ce7f0f7b4f370234c1a6d1576c49b4782c255105fbdc"
+    },
+    {
+      "path": "assets/imagegen/rivet/draft/field-graphics.4bpp",
+      "bytes": 6944,
+      "sha256": "6358c5b0052086bb44273c84d9d2788611ce3daa17cb6a834426880a8ebba8de"
+    },
+    {
+      "path": "assets/imagegen/rivet/draft/field-graphics.ct-lz",
+      "bytes": 4281,
+      "sha256": "f9172bc3d4610f65f651363b18202efb04d6050adc0965c69294fc8d70cd4b3f"
+    },
+    {
+      "path": "assets/imagegen/rivet/draft/palette-157.bin",
+      "bytes": 24,
+      "sha256": "14964f8ed07e6bd5023ee63b92c14dccf48d55f18b8c5805fdd1ec34d502268a"
+    },
+    {
+      "path": "assets/imagegen/rivet/draft/race-projection.bin",
+      "bytes": 9216,
+      "sha256": "e30de6e72a033682469320e354ebcbf9f8d64e1fd1d36b73947b6b92ead45af6"
+    },
+    {
+      "path": "assets/imagegen/rivet/draft/race-projection.ct-lz",
+      "bytes": 1174,
+      "sha256": "99f42ad3774186847286e3f51e0e0f37fe039abb3a0c1b2b6cc2105ee7b3639c"
+    },
+    {
+      "path": "assets/imagegen/rivet/draft/rivet-minimap.bin",
+      "bytes": 128,
+      "sha256": "1b080a9475f19bf15b289579bfa0dccacf4bd3e50a5e87299ea9bfb68fd75169"
+    },
+    {
+      "path": "assets/imagegen/rivet/draft/verification.json",
+      "bytes": 17319,
+      "sha256": "c9a97df395197869282379d03ca929f14d4a0dff503f2d43c64fc0f540496bc7"
+    },
+    {
+      "path": "assets/imagegen/rivet/earlier-art-frames.json",
+      "bytes": 29567,
+      "sha256": "a8f86c92dbd4084de71e1d21c774e416c9652b505095f2ab03414863585ec186"
+    },
+    {
+      "path": "assets/imagegen/rivet/events-source-audit.json",
+      "bytes": 31849,
+      "sha256": "971e0c4056129c072f6b39ac7d70721f04a423e07ec25bab7947c750e769bc94"
+    },
+    {
+      "path": "assets/imagegen/rivet/field-draft/preview-import.json",
+      "bytes": 7843,
+      "sha256": "d86d5bbc88c0bba275c4480b15beb40cf191d6beccbd5562ebccd748b153333e"
+    },
+    {
+      "path": "assets/imagegen/rivet/field-draft/preview-raster.json",
+      "bytes": 42972,
+      "sha256": "204d236f51d2e6a670313fceda21180dd94e06223442c5de8ecc0849a31e25d9"
+    },
+    {
+      "path": "assets/imagegen/rivet/field-import-spec.draft.json",
+      "bytes": 9712,
+      "sha256": "b19b51246a40878929f46f77b1756b7f245cf19d2571c7b7935c6d5e1c20ce9e"
+    },
+    {
+      "path": "assets/imagegen/rivet/integration-proposal.json",
+      "bytes": 13272,
+      "sha256": "a039c589997b55f34920faa0f2978082bc797264ff1423ea3c3b23db845490e8"
+    },
+    {
+      "path": "assets/imagegen/rivet/minimap-draft/preview-import.json",
+      "bytes": 2927,
+      "sha256": "d691d9e8ef6a4ea738c64e18c0f70ac3fe274ad19f7ef06fff4265b3a7254770"
+    },
+    {
+      "path": "assets/imagegen/rivet/minimap-draft/preview-raster.json",
+      "bytes": 713,
+      "sha256": "f8397433722a6ad288a81ef6aa997f29e0ef4aafbd65a5da13aa4cdbf06f132f"
+    },
+    {
+      "path": "assets/imagegen/rivet/minimap-import-spec.draft.json",
+      "bytes": 1326,
+      "sha256": "c0da9ee913db4a8132331442f9d86c87768d3c21985f7bcdd40bdd44d99aa860"
+    },
+    {
+      "path": "assets/imagegen/rivet/motion-verification/manifest.json",
+      "bytes": 1567836,
+      "sha256": "0adb77749d6c22c1f66991b8cd213050c67ca6c5d200e4e27962b877e56e5937"
+    },
+    {
+      "path": "assets/imagegen/rivet/native-audit.json",
+      "bytes": 30221,
+      "sha256": "ba8a0ea8d8df7e3e634597d51dfd046407e8c682c405e6511dc1d7b0b4bcdaf2"
+    },
+    {
+      "path": "assets/imagegen/rivet/native-verification/enemy244-0.png",
+      "bytes": 56495,
+      "sha256": "c36f3efc7641be25effe9f4e33b52a7e034c2f7708a82549d6c7c09c5ceb4c24"
+    },
+    {
+      "path": "assets/imagegen/rivet/native-verification/enemy244-17.png",
+      "bytes": 56534,
+      "sha256": "de7d389e05eb614a015702542054c7ed8101a0f2c650c8fe76a0ad53c69a276e"
+    },
+    {
+      "path": "assets/imagegen/rivet/native-verification/enemy244-24.png",
+      "bytes": 56444,
+      "sha256": "f8d800a4ca3238311f0c715c9f3407aacdb95dc38f0640dc1682811dfdf8840c"
+    },
+    {
+      "path": "assets/imagegen/rivet/native-verification/manifest.json",
+      "bytes": 14916,
+      "sha256": "fdf90812daf8637cca0f190e0212f814e2d3e47e2740a85727f6abab2e396414"
+    },
+    {
+      "path": "assets/imagegen/rivet/native-verification/npc2-15.png",
+      "bytes": 56517,
+      "sha256": "b2acf0a788318c999c9f051a6810bf040ed043bebf45f88420917409e511dc36"
+    },
+    {
+      "path": "assets/imagegen/rivet/native-verification/npc2-6.png",
+      "bytes": 56518,
+      "sha256": "cc61e1839ea0699f107b22e3fe65a8009c508906f4528b44f57c59f095d13f67"
+    },
+    {
+      "path": "assets/imagegen/rivet/native-verification/npc2-8.png",
+      "bytes": 56553,
+      "sha256": "240e4e79f7a73b26eca75fd06356a558dd78728ea652373d7dc286ea3dc6ae09"
+    },
+    {
+      "path": "assets/imagegen/rivet/native-verification/npc2-9.png",
+      "bytes": 56513,
+      "sha256": "734f5e649f84a92da5475b67daf71b6b2bf840b29bca4eed2b902ed2466f4e74"
+    },
+    {
+      "path": "assets/imagegen/rivet/private-overlay.mjs",
+      "bytes": 3426,
+      "sha256": "1614e132b3717885bd6fbb81e8b9dc1b5fea4c327956ed7d896b8dcdaf348143"
+    },
+    {
+      "path": "assets/imagegen/rivet/prompt-field-base-v1.txt",
+      "bytes": 3227,
+      "sha256": "718bd12de601d57a19155651317bc0dd17dc98ddf367ecb53da425a25a8ef5ef"
+    },
+    {
+      "path": "assets/imagegen/rivet/prompt-field-riding-v1.txt",
+      "bytes": 2957,
+      "sha256": "ede33187e674c2b3784ec3ec86dbf50ff3dfa3200c230dd75ac6148e0c914f47"
+    },
+    {
+      "path": "assets/imagegen/rivet/prompt-race-quarter-v1.txt",
+      "bytes": 2192,
+      "sha256": "236dbe0d0e9ade8c051871957961c7b323837fcd9aabc265908102af9b8eebc6"
+    },
+    {
+      "path": "assets/imagegen/rivet/prompt-walk-a-v2.txt",
+      "bytes": 1487,
+      "sha256": "a50549067fc9314d4beda1ebe43a9a7dd9f0c8813921068f27e9348b11f31adb"
+    },
+    {
+      "path": "assets/imagegen/rivet/prompt-walk-b-v2.txt",
+      "bytes": 1617,
+      "sha256": "a969b3432c7760ae9bc1e0ca9233a2318d9a47a915873d8e4fd10b8fd2122c26"
+    },
+    {
+      "path": "assets/imagegen/rivet/provenance.json",
+      "bytes": 5554,
+      "sha256": "69660b289cb7fbda442e7e7311171c58b0f48288a1f5c68ff194995c15e66e99"
+    },
+    {
+      "path": "assets/imagegen/rivet/race-draft/preview-import.json",
+      "bytes": 3768,
+      "sha256": "b28a53dc6e1eb5105771c23f7f752603ce9ad40a016493fd0c363e03a0cc3c50"
+    },
+    {
+      "path": "assets/imagegen/rivet/race-draft/preview-raster.json",
+      "bytes": 4340,
+      "sha256": "959640d399bd08e45c5db418c8605e3e6b19653681b13bbb540efb8ddd515062"
+    },
+    {
+      "path": "assets/imagegen/rivet/race-import-spec.draft.json",
+      "bytes": 2144,
+      "sha256": "0732a36cb612244380213bd6951d4295ce9604bcebce48c30d25f02bb60fd45c"
+    },
+    {
+      "path": "assets/imagegen/rivet/race-verification/manifest.json",
+      "bytes": 14553,
+      "sha256": "2f5ff6409f9d299f99d6a26aa22b13b22733576f798ed021f79da1ddeb58f35c"
+    },
+    {
+      "path": "assets/imagegen/rivet/race-verification/native-boost-race.png",
+      "bytes": 64748,
+      "sha256": "6ab38746138b6cec8944040b058e1043045a8d24783fddd48479f6d507db198d"
+    },
+    {
+      "path": "assets/imagegen/rivet/race-verification/native-boost-victory.png",
+      "bytes": 84644,
+      "sha256": "c4eb0ba1bc1dcff807040542a93726643471b20eca4c7e3b7361df6563abd1fe"
+    },
+    {
+      "path": "assets/imagegen/rivet/race-verification/native-introduction-complete.png",
+      "bytes": 93048,
+      "sha256": "3f2f61ae4131902251975fed68af08543ac322b3557777c3e1c65336f2f426b9"
+    },
+    {
+      "path": "assets/imagegen/rivet/race-verification/native-no-boost-record.png",
+      "bytes": 92222,
+      "sha256": "35025bf008505f07c6f0c2735cb153bac77555cf5fc4258ce64ccec79626495e"
+    },
+    {
+      "path": "assets/imagegen/rivet/race-verification/native-turned-camera.png",
+      "bytes": 68626,
+      "sha256": "d46f8010f26d88b32268d4b35ffea9de26df8a957ae2a9dcba9a4a15c7c56365"
+    },
+    {
+      "path": "assets/imagegen/rivet/README.md",
+      "bytes": 7991,
+      "sha256": "acb701f32a77143ac9dec756b927bc4181f2ae7cd09bf5a88853ddb9a15d3ae0"
+    },
+    {
+      "path": "assets/imagegen/rivet/review/earlier-field-6x.png",
+      "bytes": 31457,
+      "sha256": "4ecccd6ae9d582b67fe95e258c061ae3ba81fdc018fd9e1a9e1fe6dd6da77e4c"
+    },
+    {
+      "path": "assets/imagegen/rivet/review/field-native-1x.png",
+      "bytes": 23714,
+      "sha256": "e8b0c5489c5d20cb33ff4e67ed4eeb445eecfb4e1ba526ed7ef9c69ed79b6653"
+    },
+    {
+      "path": "assets/imagegen/rivet/review/field-native-6x.png",
+      "bytes": 37696,
+      "sha256": "c1a0d508d539594a7e8219f10e52b62c72ef1c850039730087b8ff9f824b7d34"
+    },
+    {
+      "path": "assets/imagegen/rivet/review/minimap-native-1x.png",
+      "bytes": 174,
+      "sha256": "fafe0a800ce5303f0c04780b6299dc34413eec0e9ee08393dd332a5f88229374"
+    },
+    {
+      "path": "assets/imagegen/rivet/review/minimap-native-6x.png",
+      "bytes": 276,
+      "sha256": "5e4c58b27e4067d190627a25b54bac811f419dfdd4286551f4e526239e290f61"
+    },
+    {
+      "path": "assets/imagegen/rivet/review/motion-review.gif",
+      "bytes": 77169,
+      "sha256": "903e541293278311b9cfe54eaeb05d84dbd0a634a44ee1eb35473468a4b84c57"
+    },
+    {
+      "path": "assets/imagegen/rivet/review/motion-review.html",
+      "bytes": 135944,
+      "sha256": "721f26508882b43680e35904f8e661fbbfa44934aad2bb764f1f3dd3e2a09125"
+    },
+    {
+      "path": "assets/imagegen/rivet/review/race-native-1x.png",
+      "bytes": 3526,
+      "sha256": "d3fd62912168ec9a58849dca055174387c96eed0515eba590831b7d05a38d065"
+    },
+    {
+      "path": "assets/imagegen/rivet/review/race-native-6x.png",
+      "bytes": 4844,
+      "sha256": "4589cb7217ffc0da49289a40c6b26d4eda2a9000b639016e9cc33420e5b70724"
+    },
+    {
+      "path": "assets/imagegen/rivet/review/review-manifest.json",
+      "bytes": 5626,
+      "sha256": "1f75a7775a30183a58f1455c63fe8b3760c4edb143602d5889b67f10c69a78e4"
+    },
+    {
+      "path": "assets/imagegen/rivet/source-actor.json",
+      "bytes": 4134,
+      "sha256": "0edbb219fe1759a128242ba2f0a09bbcce54a500bf517977f55924e07fde4ba0"
+    },
+    {
+      "path": "assets/imagegen/rivet/source-field-base-v1.png",
+      "bytes": 1235327,
+      "sha256": "68eb04f2b309a47cee81169a740fe1c802089ae18b9761fba53a018e9e841c4a"
+    },
+    {
+      "path": "assets/imagegen/rivet/source-field-riding-v1.png",
+      "bytes": 1180129,
+      "sha256": "b54efb5ea566c4d0ca1a233e139b69153174f2a893a7b8c03ee489610fe45f7d"
+    },
+    {
+      "path": "assets/imagegen/rivet/source-race-quarter-v1.png",
+      "bytes": 507083,
+      "sha256": "6a0fa10f0d16eeed346ef51adfe16561cde80fdfaf8e291d71326dc806008235"
+    },
+    {
+      "path": "assets/imagegen/rivet/source-walk-a-v2.png",
+      "bytes": 550326,
+      "sha256": "c554f95799fa9e3e199b0de3b9a0962d61634dd3ab1a439354e6efdb95d6b94b"
+    },
+    {
+      "path": "assets/imagegen/rivet/source-walk-b-v2.png",
+      "bytes": 561461,
+      "sha256": "3bb4d114958d91694df12203fd2d16f507fba22c1845c1628568b3998d366efd"
+    },
+    {
+      "path": "assets/imagegen/rivet/verify-frozen.mjs",
+      "bytes": 2225,
+      "sha256": "050313405c16cfc0b651682b831b766319fc7bde9c9834229e4c327cdaf3220b"
+    },
+    {
+      "path": "assets/imagegen/rivet/verify-motion.mjs",
+      "bytes": 3425,
+      "sha256": "576cce3ba2d54b5b5673001bb6051608de84ac5a78a71292bad17e4f537238ff"
+    },
+    {
+      "path": "assets/imagegen/rivet/verify-native.mjs",
+      "bytes": 4641,
+      "sha256": "e4473498bfa36b480609bf55984cf2b0ff7f0004fd600a86f69f62a9fd2d7c7f"
+    },
+    {
+      "path": "assets/imagegen/rivet/verify-racing.mjs",
+      "bytes": 9463,
+      "sha256": "9f187ec5000a64d1f25a719a5e3cd2e605b88367cb020c2dd977f4e3965bc00a"
+    }
+  ]
+}

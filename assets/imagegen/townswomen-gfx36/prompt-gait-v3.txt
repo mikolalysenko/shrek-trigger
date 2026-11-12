@@ -1,0 +1,14 @@
+Use case: identity-preserve
+Asset: six full-body transparent sprite poses for a native SNES storybook townswoman. The supplied image is the approved model reference. Make a NEW THREE-column TWO-row sheet of this exact woman with the same green tied kerchief, small low brown bun, brown side hair, broad dark eyes, slate blue bodice, rolled ivory sleeves, cool white rectangular waist apron, rust/coral long skirt and blue-gray shoes. No new costume details, permanent props, alternate faces or perspective. Use deliberate enlarged16-bit pixel clusters, suitable for reduction to31pixels tall; no smooth rendering.
+
+This is a WALK CONTACT CORRECTION. Opposing contacts must clearly swap which shoe is projected closest to the camera and which arm swings forward. Whole body height, head/shoulder size and skirt length stay consistent. Her feet and hands must remain separate, readable silhouettes. Keep the near foot dark blue-gray and the receding foot partially hidden by the skirt. Torso naturally counter-rotates a little. Do not simply repeat the same pose or shift the whole body.
+
+Exact grid, row-major:
+0 REAR contact A: facing straight away; screen-left shoe projects DOWN toward viewer beneath the hem; screen-right foot is smaller and forward away; screen-right arm swings back toward viewer while screen-left hand recedes.
+1 REAR passing: facing straight away; feet pass closely together under the body, taller planted stance, arms close to sides. Same rear bun and kerchief knot.
+2 REAR contact B: exact opposite gait phase of cell0; screen-RIGHT shoe projects DOWN toward viewer beneath the hem; screen-left foot recedes; screen-LEFT arm swings back while right hand recedes. Preserve head orientation and bun identity. This must visibly oppose cell0.
+3 FRONT contact A: facing straight at viewer; screen-LEFT shoe projects DOWN/forward; screen-right foot is receding under hem; screen-RIGHT hand swings forward while left hand recedes.
+4 FRONT passing: facing straight at viewer; feet pass closely together, taller planted stance, arms close to sides. Two distinct chunky charcoal eyes with light skin between, same face.
+5 FRONT contact B: exact opposite of cell3; screen-RIGHT shoe projects DOWN/forward; screen-left foot recedes; screen-LEFT hand swings forward while right hand recedes.
+
+Each figure is centered in an equal cell, full body uncropped, consistent31px-equivalent body scale, generous transparent gutters. Both shoes should remain visible where the skirt permits. No exaggerated giant stride, kicking, running, tilted head, scenery, text, labels, ground or shadows. True transparent alpha background.

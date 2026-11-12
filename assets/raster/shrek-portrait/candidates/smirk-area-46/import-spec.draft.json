@@ -1,0 +1,66 @@
+{
+  "key": "shrek-portrait",
+  "sourceType": "reused-game-sheet",
+  "width": 48,
+  "height": 48,
+  "directory": "assets/raster/shrek-portrait/candidates/smirk-area-46",
+  "palette": [
+    "20221a",
+    "4d5c28",
+    "8ca646",
+    "b6c86f",
+    "d8c99d",
+    "674b32",
+    "a58150",
+    "352a23",
+    "f8edc7",
+    "2d3c21",
+    "d2d489",
+    "9da69c"
+  ],
+  "sheets": [
+    {
+      "file": "assets/raster/shrek-portrait/crop-smirk.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 39,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "area",
+        "bottom": 43
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "notes": {
+    "source": "Original Shrek SuperSlam character icon, cropped from an authorized existing-game source. No anatomy painted.",
+    "crop": {
+      "name": "smirk",
+      "file": "assets/raster/shrek-portrait/crop-smirk.png",
+      "rectangle": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "sha256": "c3a0cea778e9cd516531d517ce7314d02cfd2807528613d6e6288e6c4719303d",
+      "opaqueBounds": [
+        1,
+        4,
+        60,
+        51
+      ]
+    },
+    "status": "Inactive native portrait crop candidate."
+  }
+}

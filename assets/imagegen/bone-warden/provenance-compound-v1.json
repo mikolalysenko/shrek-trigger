@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "source": "source-compound-v1.png",
+  "sha256": "df250742801b30771e5f4dec343a918927eddd7d29b8d2a6ae6edaa585da1b01",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "prompt": "prompt-compound-v1.txt",
+  "promptSha256": "112dae75d3bd5b9b000535fb2975f678185eca6d65679b13d4bc0358f43a0a29",
+  "references": [
+    {
+      "file": "assets/imagegen/bone-guards/source-movement-v1.png",
+      "role": "Accepted generated bone rendering style only",
+      "sha256": "6b4ffe78d0b6a548f5370f00d3c7dc5b56097cad616bb987b983cd00bd05b9f9"
+    },
+    {
+      "file": "assets/imagegen/bone-warden/compound-before.png",
+      "role": "Primitive identity/scale reference, not consumed pixel source",
+      "sha256": "5be5d1b0b4531f2df63c9983dd5baaf32910c935cd525f9b56d96d9cbb83ad47"
+    }
+  ],
+  "generatedPath": "/Users/mikolalysenko/.codex/generated_images/01a19351-746a-7d90-a81a-1ea5ba445693/exec-fcb0ea8f-94fe-4dc9-a0e1-bb061f4132c7.png",
+  "review": "Complete coherent skull/crown/ribs/pelvis/limbs. Hands are longer than the native upper actor envelope and need source correction before pose expansion."
+}

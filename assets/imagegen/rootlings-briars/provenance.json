@@ -1,0 +1,140 @@
+{
+  "tool": "built-in image_gen",
+  "sourceType": "actual generated raster",
+  "activation": false,
+  "sources": [
+    {
+      "file": "rootling/source-v1.png",
+      "prompt": "rootling/prompt-v1.txt",
+      "toolOutput": "exec-090a12b0-87a1-4b3d-a056-41f3b7ad729c.png",
+      "referenceRole": "New Rootling model; eight cells selected, four replaced by proportions-v2",
+      "sha256": "f511277bf64524cd6368f1ecb036a8e9f0ad6b15a49da6c265e5918e3ee92e7c",
+      "bytes": 677048,
+      "promptSha256": "b273cc380873f2eb98f01c4088ee59a2aed126d6b1943e403fcb122b9b3dcfa6",
+      "selectedCells": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "originalToolPath": "/Users/mikolalysenko/.codex/generated_images/01a19403-ca01-7341-a071-af653bc34995/exec-090a12b0-87a1-4b3d-a056-41f3b7ad729c.png",
+      "referenceImages": []
+    },
+    {
+      "file": "snap-briar/source-v1.png",
+      "prompt": "snap-briar/prompt-v1.txt",
+      "toolOutput": "exec-367ccdb9-bb4b-441d-867e-0bd746989958.png",
+      "referenceRole": "New snapping briar model; four cells selected, two replaced by compact-v2",
+      "sha256": "bc51ca1ef40c66a3c3b9c9bb6277f790b1e1be3871cb472a125f3049c2fb2b72",
+      "bytes": 1818965,
+      "promptSha256": "b60d1803563b659eed4c9c3474e4b4b93d9c52de6afa5993293410253f7449b0",
+      "selectedCells": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "originalToolPath": "/Users/mikolalysenko/.codex/generated_images/01a19403-ca01-7341-a071-af653bc34995/exec-367ccdb9-bb4b-441d-867e-0bd746989958.png",
+      "referenceImages": []
+    },
+    {
+      "file": "briar-rider/source-guard-v1.png",
+      "prompt": "briar-rider/prompt-guard-v1.txt",
+      "toolOutput": "exec-fe49bbb6-5d6f-487b-8a44-0a3ec7daa0f4.png",
+      "referenceRole": "new woodland rider component; all 4 cells selected",
+      "sha256": "3bb0ae765ad61ef4370e2aee9d51f82ea120a8b0632cc45c127a1452be485bf3",
+      "bytes": 608231,
+      "promptSha256": "76b4813c91756b307218e69dc60ceb0cb05abfd1966f0e4a7f833bd086ff1207",
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "originalToolPath": "/Users/mikolalysenko/.codex/generated_images/01a19403-ca01-7341-a071-af653bc34995/exec-fe49bbb6-5d6f-487b-8a44-0a3ec7daa0f4.png",
+      "referenceImages": []
+    },
+    {
+      "file": "briar-rider/source-special-v1.png",
+      "prompt": "briar-rider/prompt-special-v1.txt",
+      "toolOutput": "exec-06f889ae-281a-4c07-beb2-12b033946a33.png",
+      "referenceRole": "new mounted action poses; references rootling/source-v1.png and briar-rider/source-guard-v1.png for identity only; all 6 cells selected",
+      "sha256": "0e962581a66fe61795b49e3d14063f9a00a9faa222a2672836dd3fba41a36d50",
+      "bytes": 1658112,
+      "promptSha256": "8d3f89e5d7b4ecab20b0d573fad7c113858a6ee83dc11537e6802c1079dace26",
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalToolPath": "/Users/mikolalysenko/.codex/generated_images/01a19403-ca01-7341-a071-af653bc34995/exec-06f889ae-281a-4c07-beb2-12b033946a33.png",
+      "referenceImages": [
+        {
+          "file": "rootling/source-v1.png",
+          "role": "identity reference, not edit target",
+          "sha256": "f511277bf64524cd6368f1ecb036a8e9f0ad6b15a49da6c265e5918e3ee92e7c"
+        },
+        {
+          "file": "briar-rider/source-guard-v1.png",
+          "role": "identity reference, not edit target",
+          "sha256": "3bb0ae765ad61ef4370e2aee9d51f82ea120a8b0632cc45c127a1452be485bf3"
+        }
+      ]
+    },
+    {
+      "file": "rootling/source-proportions-v2.png",
+      "prompt": "rootling/prompt-proportions-v2.txt",
+      "toolOutput": "exec-e817f7f8-9448-4536-9266-f8df9b542727.png",
+      "referenceRole": "Corrected rear/front/profile passing poses and full extension; rootling/source-v1.png is identity reference only; all four cells selected",
+      "sha256": "8a43ab6594d61eee8a3f3732fafdf0ad19d5fc03ee5d3c1105ac745e67dc1e57",
+      "bytes": 469393,
+      "promptSha256": "d7a2221217ee7b2b0bf082c6cb5499bf0d446498dcf1e3fda66d9415a6da1a35",
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "originalToolPath": "/Users/mikolalysenko/.codex/generated_images/01a19403-ca01-7341-a071-af653bc34995/exec-e817f7f8-9448-4536-9266-f8df9b542727.png",
+      "referenceImages": [
+        {
+          "file": "rootling/source-v1.png",
+          "role": "identity reference, not edit target",
+          "sha256": "f511277bf64524cd6368f1ecb036a8e9f0ad6b15a49da6c265e5918e3ee92e7c"
+        }
+      ]
+    },
+    {
+      "file": "snap-briar/source-compact-v2.png",
+      "prompt": "snap-briar/prompt-compact-v2.txt",
+      "toolOutput": "exec-65044835-0e6c-4a35-8764-6139be8036ba.png",
+      "referenceRole": "Corrected compact passing and open-attack source; snap-briar/source-v1.png is identity reference only; both cells selected",
+      "sha256": "84d7a252267c549f6e560a53d23e43864ca27f55f6e36e979a168a9b0aeed37f",
+      "bytes": 834652,
+      "promptSha256": "ededd744450b34675596e66f05ec319cbe960b5a2090e24c2aa20590d1f61ed1",
+      "selectedCells": [
+        0,
+        1
+      ],
+      "originalToolPath": "/Users/mikolalysenko/.codex/generated_images/01a19403-ca01-7341-a071-af653bc34995/exec-65044835-0e6c-4a35-8764-6139be8036ba.png",
+      "referenceImages": [
+        {
+          "file": "snap-briar/source-v1.png",
+          "role": "identity reference, not edit target",
+          "sha256": "bc51ca1ef40c66a3c3b9c9bb6277f790b1e1be3871cb472a125f3049c2fb2b72"
+        }
+      ]
+    }
+  ],
+  "copyPolicy": "Selected generated PNGs copied unchanged into the workspace; originals retained in Codex generated_images.",
+  "processing": "Deterministic nearest sampling, exact approved palette indexing, integer translations and source-layer composition; exact horizontal mirrors only where native source proves them. Original native shadows are retained as indexed raster components. No procedural anatomy or active registry edits.",
+  "selectedGeneratedImages": 28,
+  "note": "Whole source sheets retain unselected cells for unchanged provenance. No unselected cell is used by native-frame-map.draft.json. Child import specs extract source images; they are not direct active native-slot registrations."
+}

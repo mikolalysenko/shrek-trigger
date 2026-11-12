@@ -1,0 +1,1767 @@
+{
+  "activePath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateSha256": "7496a07c2ba7d62f05e5576c79ac977dc1ce21673e5ea71da2d9a0dbf98cecb5",
+  "placements": [
+    {
+      "key": "shell",
+      "graphicsOffset": 8192000,
+      "assemblyOffset": 8194256
+    },
+    {
+      "key": "head",
+      "graphicsOffset": 8194736,
+      "assemblyOffset": 8195168
+    }
+  ],
+  "palette208Unchanged": true,
+  "headersAiProgramsUnchanged": true,
+  "streamingUsed": false,
+  "status": "Original encounter and native victory passed",
+  "location": 495,
+  "diagnosticEntry": {
+    "x": 4,
+    "y": 20,
+    "party": [
+      0,
+      1,
+      2
+    ],
+    "endgame": true
+  },
+  "originalSceneEventUnmodified": true,
+  "controllerOnlyAfterEntry": true,
+  "loads": [
+    {
+      "object": 9,
+      "enemy": 215,
+      "scriptPC": 609
+    },
+    {
+      "object": 10,
+      "enemy": 216,
+      "scriptPC": 722
+    }
+  ],
+  "battles": [
+    {
+      "frame": 9711,
+      "location": 495,
+      "pc": 12681237,
+      "object": 9,
+      "formation": [
+        215,
+        255,
+        255,
+        255,
+        255,
+        255,
+        216,
+        255
+      ]
+    }
+  ],
+  "results": [
+    {
+      "frame": 9898,
+      "location": 495,
+      "pc": 12702984,
+      "object": 9,
+      "actor": 9,
+      "target": 2,
+      "techId": 168,
+      "value": 180,
+      "flags": 0
+    },
+    {
+      "frame": 9899,
+      "location": 495,
+      "pc": 12702984,
+      "object": 9,
+      "actor": 9,
+      "target": 1,
+      "techId": 168,
+      "value": 199,
+      "flags": 0
+    },
+    {
+      "frame": 9899,
+      "location": 495,
+      "pc": 12702984,
+      "object": 9,
+      "actor": 9,
+      "target": 0,
+      "techId": 168,
+      "value": 234,
+      "flags": 0
+    },
+    {
+      "frame": 10386,
+      "location": 495,
+      "pc": 12702984,
+      "object": 9,
+      "actor": 1,
+      "target": 9,
+      "techId": 118,
+      "value": 339,
+      "flags": 0
+    },
+    {
+      "frame": 10567,
+      "location": 495,
+      "pc": 12702984,
+      "object": 9,
+      "actor": 0,
+      "target": 9,
+      "techId": 117,
+      "value": 858,
+      "flags": 0
+    },
+    {
+      "frame": 10800,
+      "location": 495,
+      "pc": 12702984,
+      "object": 9,
+      "actor": 2,
+      "target": 9,
+      "techId": 119,
+      "value": 1724,
+      "flags": 0
+    },
+    {
+      "frame": 11166,
+      "location": 495,
+      "pc": 12702984,
+      "object": 9,
+      "actor": 1,
+      "target": 9,
+      "techId": 118,
+      "value": 644,
+      "flags": 0
+    },
+    {
+      "frame": 11469,
+      "location": 495,
+      "pc": 12702984,
+      "object": 9,
+      "actor": 0,
+      "target": 9,
+      "techId": 117,
+      "value": 420,
+      "flags": 0
+    },
+    {
+      "frame": 11762,
+      "location": 495,
+      "pc": 12702984,
+      "object": 9,
+      "actor": 9,
+      "target": 0,
+      "techId": 102,
+      "value": 97,
+      "flags": 0
+    },
+    {
+      "frame": 12072,
+      "location": 495,
+      "pc": 12702984,
+      "object": 9,
+      "actor": 2,
+      "target": 9,
+      "techId": 119,
+      "value": 2574,
+      "flags": 0
+    },
+    {
+      "frame": 12245,
+      "location": 495,
+      "pc": 12702984,
+      "object": 9,
+      "actor": 9,
+      "target": 9,
+      "techId": 127,
+      "value": 111,
+      "flags": 0
+    },
+    {
+      "frame": 12246,
+      "location": 495,
+      "pc": 12702984,
+      "object": 9,
+      "actor": 9,
+      "target": 3,
+      "techId": 127,
+      "value": 113,
+      "flags": 0
+    }
+  ],
+  "observations": [
+    {
+      "tick": 640,
+      "battle": false,
+      "parts": [
+        {
+          "key": "shell",
+          "frame": 0,
+          "origin": [
+            97,
+            57
+          ],
+          "opaqueCells": 22
+        },
+        {
+          "key": "head",
+          "frame": 0,
+          "origin": [
+            89,
+            56
+          ],
+          "opaqueCells": 4
+        }
+      ],
+      "delta": [
+        -8,
+        -1
+      ],
+      "pixel": {
+        "exact": 0,
+        "mismatches": 4041,
+        "firstMismatches": [
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 113,
+            "y": 22,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 114,
+            "y": 22,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 9,
+            "x": 113,
+            "y": 23,
+            "entry": 44,
+            "expected": [
+              139,
+              82,
+              0
+            ],
+            "actual": [
+              114,
+              98,
+              49
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 114,
+            "y": 23,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 115,
+            "y": 23,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 113,
+            "y": 24,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              139,
+              114,
+              98
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 114,
+            "y": 24,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              82,
+              90,
+              73
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 115,
+            "y": 24,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 113,
+            "y": 25,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              147,
+              131,
+              106
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 114,
+            "y": 25,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              139,
+              114,
+              98
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 115,
+            "y": 25,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 113,
+            "y": 26,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 114,
+            "y": 26,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              139,
+              114,
+              98
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 115,
+            "y": 26,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 116,
+            "y": 26,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              82,
+              90,
+              73
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 113,
+            "y": 27,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 114,
+            "y": 27,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              147,
+              131,
+              106
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 10,
+            "x": 115,
+            "y": 27,
+            "entry": 44,
+            "expected": [
+              114,
+              32,
+              24
+            ],
+            "actual": [
+              106,
+              73,
+              65
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 116,
+            "y": 27,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 117,
+            "y": 27,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          }
+        ],
+        "byPart": {
+          "shell": {
+            "exact": 0,
+            "mismatches": 3798
+          },
+          "head": {
+            "exact": 0,
+            "mismatches": 243
+          }
+        }
+      },
+      "fieldObjects": [
+        {
+          "object": 9,
+          "enemy": 215,
+          "scriptPC": 609,
+          "position": [
+            145.625,
+            233.5625
+          ],
+          "frame": 255
+        },
+        {
+          "object": 10,
+          "enemy": 216,
+          "scriptPC": 722,
+          "position": [
+            137.625,
+            232.625
+          ],
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "tick": 832,
+      "battle": true,
+      "parts": [
+        {
+          "key": "shell",
+          "frame": 0,
+          "origin": [
+            142,
+            101
+          ],
+          "opaqueCells": 22
+        },
+        {
+          "key": "head",
+          "frame": 0,
+          "origin": [
+            134,
+            101
+          ],
+          "opaqueCells": 4
+        }
+      ],
+      "delta": [
+        -8,
+        0
+      ],
+      "pixel": {
+        "exact": 0,
+        "mismatches": 4050,
+        "firstMismatches": [
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 158,
+            "y": 66,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 159,
+            "y": 66,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 9,
+            "x": 158,
+            "y": 67,
+            "entry": 44,
+            "expected": [
+              139,
+              82,
+              0
+            ],
+            "actual": [
+              114,
+              98,
+              49
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 159,
+            "y": 67,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 160,
+            "y": 67,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 158,
+            "y": 68,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              139,
+              114,
+              98
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 159,
+            "y": 68,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 160,
+            "y": 68,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 158,
+            "y": 69,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              139,
+              114,
+              98
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 159,
+            "y": 69,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              139,
+              114,
+              98
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 160,
+            "y": 69,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 158,
+            "y": 70,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 159,
+            "y": 70,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              139,
+              114,
+              98
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 160,
+            "y": 70,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              82,
+              90,
+              73
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 161,
+            "y": 70,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 158,
+            "y": 71,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              82,
+              90,
+              73
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 159,
+            "y": 71,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              147,
+              131,
+              106
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 10,
+            "x": 160,
+            "y": 71,
+            "entry": 44,
+            "expected": [
+              114,
+              32,
+              24
+            ],
+            "actual": [
+              106,
+              73,
+              65
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 161,
+            "y": 71,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 162,
+            "y": 71,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              82,
+              90,
+              73
+            ]
+          }
+        ],
+        "byPart": {
+          "shell": {
+            "exact": 0,
+            "mismatches": 3807
+          },
+          "head": {
+            "exact": 0,
+            "mismatches": 243
+          }
+        }
+      },
+      "fieldObjects": [
+        {
+          "object": 9,
+          "enemy": 215,
+          "scriptPC": 609,
+          "position": [
+            190,
+            277.9375
+          ],
+          "frame": 255
+        },
+        {
+          "object": 10,
+          "enemy": 216,
+          "scriptPC": 722,
+          "position": [
+            182,
+            277
+          ],
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "tick": 1608,
+      "battle": true,
+      "parts": [
+        {
+          "key": "shell",
+          "frame": 0,
+          "origin": [
+            142,
+            101
+          ],
+          "opaqueCells": 22
+        },
+        {
+          "key": "head",
+          "frame": 1,
+          "origin": [
+            134,
+            102
+          ],
+          "opaqueCells": 4
+        }
+      ],
+      "delta": [
+        -8,
+        1
+      ],
+      "pixel": {
+        "exact": 0,
+        "mismatches": 4074,
+        "firstMismatches": [
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 158,
+            "y": 66,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 159,
+            "y": 66,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              82,
+              90,
+              73
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 9,
+            "x": 158,
+            "y": 67,
+            "entry": 20,
+            "expected": [
+              139,
+              82,
+              0
+            ],
+            "actual": [
+              114,
+              98,
+              49
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 159,
+            "y": 67,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 160,
+            "y": 67,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              82,
+              90,
+              73
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 158,
+            "y": 68,
+            "entry": 20,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              139,
+              114,
+              98
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 159,
+            "y": 68,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 160,
+            "y": 68,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              82,
+              90,
+              73
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 158,
+            "y": 69,
+            "entry": 20,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              139,
+              114,
+              98
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 159,
+            "y": 69,
+            "entry": 20,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              139,
+              114,
+              98
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 160,
+            "y": 69,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 158,
+            "y": 70,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 159,
+            "y": 70,
+            "entry": 20,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              139,
+              114,
+              98
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 160,
+            "y": 70,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 161,
+            "y": 70,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 158,
+            "y": 71,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 159,
+            "y": 71,
+            "entry": 20,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              139,
+              114,
+              98
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 10,
+            "x": 160,
+            "y": 71,
+            "entry": 20,
+            "expected": [
+              114,
+              32,
+              24
+            ],
+            "actual": [
+              114,
+              90,
+              73
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 161,
+            "y": 71,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              82,
+              90,
+              73
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 162,
+            "y": 71,
+            "entry": 20,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              65,
+              82,
+              57
+            ]
+          }
+        ],
+        "byPart": {
+          "shell": {
+            "exact": 0,
+            "mismatches": 3711
+          },
+          "head": {
+            "exact": 0,
+            "mismatches": 363
+          }
+        }
+      },
+      "fieldObjects": [
+        {
+          "object": 9,
+          "enemy": 215,
+          "scriptPC": 609,
+          "position": [
+            0,
+            0
+          ],
+          "frame": 41
+        },
+        {
+          "object": 10,
+          "enemy": 216,
+          "scriptPC": 722,
+          "position": [
+            0,
+            0
+          ],
+          "frame": 41
+        }
+      ]
+    },
+    {
+      "tick": 2936,
+      "battle": true,
+      "parts": [
+        {
+          "key": "shell",
+          "frame": 0,
+          "origin": [
+            142,
+            101
+          ],
+          "opaqueCells": 22
+        },
+        {
+          "key": "head",
+          "frame": 0,
+          "origin": [
+            134,
+            102
+          ],
+          "opaqueCells": 4
+        }
+      ],
+      "delta": [
+        -8,
+        1
+      ],
+      "pixel": {
+        "exact": 4060,
+        "mismatches": 0,
+        "firstMismatches": [],
+        "byPart": {
+          "shell": {
+            "exact": 3817,
+            "mismatches": 0
+          },
+          "head": {
+            "exact": 243,
+            "mismatches": 0
+          }
+        }
+      },
+      "fieldObjects": [
+        {
+          "object": 9,
+          "enemy": 215,
+          "scriptPC": 609,
+          "position": [
+            0,
+            0
+          ],
+          "frame": 41
+        },
+        {
+          "object": 10,
+          "enemy": 216,
+          "scriptPC": 722,
+          "position": [
+            0,
+            0
+          ],
+          "frame": 41
+        }
+      ]
+    },
+    {
+      "tick": 2968,
+      "battle": true,
+      "parts": [
+        {
+          "key": "shell",
+          "frame": 0,
+          "origin": [
+            142,
+            101
+          ],
+          "opaqueCells": 22
+        },
+        {
+          "key": "head",
+          "frame": 1,
+          "origin": [
+            134,
+            102
+          ],
+          "opaqueCells": 4
+        }
+      ],
+      "delta": [
+        -8,
+        1
+      ],
+      "pixel": {
+        "exact": 4074,
+        "mismatches": 0,
+        "firstMismatches": [],
+        "byPart": {
+          "shell": {
+            "exact": 3711,
+            "mismatches": 0
+          },
+          "head": {
+            "exact": 363,
+            "mismatches": 0
+          }
+        }
+      },
+      "fieldObjects": [
+        {
+          "object": 9,
+          "enemy": 215,
+          "scriptPC": 609,
+          "position": [
+            0,
+            0
+          ],
+          "frame": 41
+        },
+        {
+          "object": 10,
+          "enemy": 216,
+          "scriptPC": 722,
+          "position": [
+            0,
+            0
+          ],
+          "frame": 41
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "tick": 500,
+      "frames": 48,
+      "keys": 128
+    },
+    {
+      "tick": 548,
+      "frames": 70,
+      "keys": 16
+    },
+    {
+      "tick": 1218,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 1233,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 1248,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 1521,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 1536,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 1551,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 1824,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 1839,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 1854,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 2277,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 2292,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 2307,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 2580,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 2595,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 2610,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 2883,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 2898,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 2913,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3186,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3201,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 3216,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3489,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3592,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3695,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3798,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3901,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4004,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4107,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4210,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4313,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4416,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4519,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4622,
+      "frames": 3,
+      "keys": 256
+    }
+  ],
+  "attacks": 7,
+  "maxHeap": 3456,
+  "final": {
+    "location": 495,
+    "battle": 0,
+    "control": 1,
+    "dialogue": 0,
+    "formation": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "flag10064": 32,
+    "flag100a9": 0,
+    "positions": [
+      {
+        "object": 9,
+        "enemy": 215,
+        "scriptPC": 609,
+        "x": 190,
+        "y": 277
+      },
+      {
+        "object": 10,
+        "enemy": 216,
+        "scriptPC": 722,
+        "x": 182,
+        "y": 277
+      }
+    ],
+    "leader": [
+      161,
+      336
+    ]
+  },
+  "cartridgeUnchanged": true,
+  "scope": "Original location reveal/approach and battle after a diagnostic jump and endgame loadout. No fabricated formation or victory flags. Natural full mountain/Black Omen predecessor route and independent-core integration remain separate."
+}

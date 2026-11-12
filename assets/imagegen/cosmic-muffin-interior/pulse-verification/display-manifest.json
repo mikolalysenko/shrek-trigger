@@ -1,0 +1,1793 @@
+{
+  "activePath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateSha256": "a9302e4da4c465b1ebe32ca4df0f66dc35eb41a2553eea85b925529cb433f44d",
+  "placements": [
+    {
+      "label": "Oven body BG181",
+      "offset": 8192000,
+      "bytes": 3421,
+      "ids": [
+        181
+      ]
+    },
+    {
+      "label": "Oven body BG182",
+      "offset": 8195424,
+      "bytes": 3037,
+      "ids": [
+        182
+      ]
+    },
+    {
+      "label": "Exclusive oven pulse region in shared BG22",
+      "offset": 8198464,
+      "bytes": 3581,
+      "ids": [
+        22
+      ]
+    },
+    {
+      "label": "Oven body metatiles",
+      "offset": 8202048,
+      "bytes": 2821,
+      "ids": [
+        46
+      ]
+    },
+    {
+      "label": "Shared oven arm source",
+      "offset": 8204880,
+      "bytes": 12128,
+      "ids": [
+        208,
+        209
+      ]
+    },
+    {
+      "label": "Oven arm assembly201",
+      "offset": 8217008,
+      "bytes": 1440,
+      "ids": [
+        201
+      ]
+    },
+    {
+      "label": "Oven arm assembly202",
+      "offset": 8218448,
+      "bytes": 1440,
+      "ids": [
+        202
+      ]
+    }
+  ],
+  "placeholderAndSharedOwnersUnchanged": [
+    9,
+    10,
+    203,
+    241
+  ],
+  "headersAiProgramsUnchanged": true,
+  "paletteChanges": [
+    {
+      "id": 226,
+      "words": [
+        4196,
+        27615,
+        17182,
+        11996,
+        10809,
+        6482,
+        4299,
+        3209,
+        4230,
+        6254,
+        2083,
+        4572
+      ],
+      "exclusiveOwners": [
+        203,
+        204,
+        205
+      ]
+    },
+    {
+      "group": 56,
+      "slot": 7,
+      "words": [
+        4196,
+        27615,
+        17182,
+        11996,
+        10809,
+        6482,
+        4299,
+        3209,
+        4230,
+        6254,
+        2083,
+        4572,
+        8409,
+        14045,
+        5558
+      ],
+      "exclusiveLocation": 475
+    }
+  ],
+  "mapCollisionAndSceneryUnchanged": true,
+  "streamingUsed": false,
+  "status": "72 native 1x framebuffer frames show exact source pulse pixels",
+  "frames": 72,
+  "fps": 60,
+  "exactPulsePixels": 52992,
+  "bodyScreenOffset": [
+    0,
+    -9
+  ],
+  "excludedUiRectangle": [
+    0,
+    16,
+    256,
+    40
+  ],
+  "excludedUiReason": "The original battle announcement covers the upper pulse patch from tick43. This fixed UI rectangle is excluded throughout the RGB trace; all destination bytes are separately proven and the full unoccluded patch is covered by the background checkpoint proof.",
+  "observations": [
+    {
+      "tick": 0,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 1,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 2,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 3,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 4,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 5,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 6,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 7,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 8,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 9,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 10,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 11,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 12,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 13,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 14,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 15,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 16,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 17,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 18,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 19,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 20,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 21,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 22,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 23,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 24,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 25,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 26,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 27,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 28,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 29,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 30,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 31,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 32,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 33,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 2,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 2,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 34,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 35,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 36,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 37,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 38,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 39,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 40,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 41,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 42,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 43,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 44,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 45,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 46,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 47,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 48,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 49,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 50,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 51,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 52,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 53,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 54,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 55,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 56,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 57,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 58,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 59,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 60,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 61,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 62,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 63,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 64,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 65,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 66,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 67,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 68,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 69,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 0,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 0,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 70,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    },
+    {
+      "tick": 71,
+      "parts": [
+        {
+          "part": 0,
+          "phase": 1,
+          "exact": 224,
+          "wrong": 0
+        },
+        {
+          "part": 1,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        },
+        {
+          "part": 2,
+          "phase": 1,
+          "exact": 256,
+          "wrong": 0
+        }
+      ]
+    }
+  ],
+  "scope": "Actual early battle frames; independent600-tick original/generated trace comparison is in pulse-verification/manifest.json."
+}

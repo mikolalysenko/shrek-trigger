@@ -1,0 +1,96 @@
+{
+  "key": "godmother-giant-face",
+  "frames": 2,
+  "width": 128,
+  "height": 128,
+  "opaqueColors": 12,
+  "palette": [
+    "29283a",
+    "aa776b",
+    "dfb0a0",
+    "f6d5bd",
+    "f5e7d6",
+    "3a538b",
+    "678ac6",
+    "535369",
+    "fff5e6",
+    "9297b0",
+    "cbd0e2",
+    "e4bb68"
+  ],
+  "samplingPalette": [
+    "100820",
+    "cd7b58",
+    "f8b888",
+    "ffdab8",
+    "f5e7d6",
+    "254a8b",
+    "6796db",
+    "535369",
+    "fff5e6",
+    "9297b0",
+    "cbd0e2",
+    "ffce36"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/godmother-giant/source-face-v1.png",
+      "sha256": "faec7c178a20728e86091752ee82fe668ea189cb96a2d97ae739008ce9d13c35",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "scale": 0.08103975535168195,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "alphaThreshold": 128,
+        "bottom": 126
+      },
+      "overrides": {
+        "0": {
+          "scale": 1
+        },
+        "1": {
+          "scale": 1
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            241,
+            116,
+            550,
+            654
+          ],
+          "componentPixels": 252866
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            980,
+            116,
+            550,
+            654
+          ],
+          "componentPixels": 252787
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1
+      ]
+    }
+  },
+  "nativeComposition": {
+    "map": "assets/imagegen/godmother-giant/face/native-frame-map.draft.json",
+    "compiler": "scripts/import-godmother-giant-art.mjs",
+    "originalShadowFrames": []
+  }
+}

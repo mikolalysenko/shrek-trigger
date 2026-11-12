@@ -1,0 +1,49 @@
+{
+  "source": "assets/raster/shrek/source-user-506339.png",
+  "sourceSha256": "064453761cb693886ce956a58e15c7e4cdb6862618ba2b69f53ab5c718d60de3",
+  "derived": "assets/raster/shrek/acting-review/vertical-source-transforms.png",
+  "method": "Exact whole-source180degree pixel permutations. Only original000080/0000ff chroma pixels become transparent. No anatomy, clothes, face or effects are drawn. Native195/219 require vertical head-first orientation; these remain explicit acting adaptations.",
+  "derivations": [
+    {
+      "name": "inverted-closed-eye-fall",
+      "cell": 61,
+      "quarterTurns": 2,
+      "sourceBounds": [
+        44,
+        201,
+        37,
+        58
+      ],
+      "outputRegion": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "sourcePoseIndex": 174
+    },
+    {
+      "name": "vertical-front-dive",
+      "cell": 71,
+      "quarterTurns": 2,
+      "sourceBounds": [
+        811,
+        218,
+        48,
+        53
+      ],
+      "outputRegion": [
+        80,
+        0,
+        80,
+        80
+      ],
+      "sourcePoseIndex": 175
+    }
+  ],
+  "chromaKey": [
+    "000080",
+    "0000ff"
+  ],
+  "derivedSha256": "400002d7f5ad1443dba83e71cf9571b37ff38a2fbdce2700f6f074fd282e8e30"
+}

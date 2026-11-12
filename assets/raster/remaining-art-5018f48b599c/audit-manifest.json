@@ -1,0 +1,101 @@
+{
+  "status": "Inactive read-only audit fingerprint",
+  "baseline": {
+    "path": ".local/qa/storm-breath-5018f48b599c/candidate.sfc",
+    "sha256": "5018f48b599c67f33131c3d05350115484625450d2e8b44e5389f27144e21770"
+  },
+  "original": {
+    "path": ".local/chrono-trigger-usa.sfc",
+    "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+  },
+  "generationStarted": false,
+  "activation": false,
+  "files": [
+    {
+      "file": "assets/raster/remaining-art-5018f48b599c/README.md",
+      "bytes": 5315,
+      "sha256": "8170da735f0529cb92cdab2c84f4af9eeec7c44e95cb3c1e85d8d35838b2ad6a"
+    },
+    {
+      "file": "assets/raster/remaining-art-5018f48b599c/audit-kilwala.mjs",
+      "bytes": 7840,
+      "sha256": "99cf8058989cc8e7aa68a63591512c933bf32a8de08d812dd83012f813ed5d5d"
+    },
+    {
+      "file": "assets/raster/remaining-art-5018f48b599c/finalize-audit.mjs",
+      "bytes": 13498,
+      "sha256": "558f14bfe9e08e61e5aa535288cc47128fb811e48bc3b9dc171c84269719c4c3"
+    },
+    {
+      "file": "assets/raster/remaining-art-5018f48b599c/inventory.json",
+      "bytes": 2199673,
+      "sha256": "e29aa2105ea93a887ee72a87cc2c4a6a1d59be9543da5d40a5d675745628a3b9"
+    },
+    {
+      "file": "assets/raster/remaining-art-5018f48b599c/inventory.mjs",
+      "bytes": 9782,
+      "sha256": "fdb483e0b4af48796ab3d54ac54b8f826b50420437654a0d88a1f67ddce34df4"
+    },
+    {
+      "file": "assets/raster/remaining-art-5018f48b599c/kilwala-native-audit.json",
+      "bytes": 106650,
+      "sha256": "df147868b7d5f1044feccb0be1732b4b904bee2cc340cb9d164b9b02a117c625"
+    },
+    {
+      "file": "assets/raster/remaining-art-5018f48b599c/kilwala-role-audit.json",
+      "bytes": 35533,
+      "sha256": "a545103abb19dc35a9e31faa7ef87e646363fbe3554490863f1533eff9456183"
+    },
+    {
+      "file": "assets/raster/remaining-art-5018f48b599c/proposal.json",
+      "bytes": 52218,
+      "sha256": "3715f0ff5cf8b25dbef4d40a3217cd2f3e9633a0716ecbaac443ceed0d9ba682"
+    },
+    {
+      "file": "assets/raster/remaining-art-5018f48b599c/review/kilwala-original-1x.png",
+      "bytes": 15429,
+      "sha256": "787b70ee4298d540ba3130ea96ce61df879afadfa2f92d6a0311999fc87c2378"
+    },
+    {
+      "file": "assets/raster/remaining-art-5018f48b599c/review/kilwala-original-4x.png",
+      "bytes": 18898,
+      "sha256": "7a70b59a6efc0736b68cb576e37dd30de62b59b11e46356003035bcf6e01210d"
+    },
+    {
+      "file": "assets/raster/remaining-art-5018f48b599c/review/remaining-character-overview.html",
+      "bytes": 46632,
+      "sha256": "54f521ba35f49ec6bd15eead594ba8c97b1b199bcfc1fa934ec0349c79181449"
+    },
+    {
+      "file": "assets/raster/remaining-art-5018f48b599c/review/remaining-character-overview.png",
+      "bytes": 190914,
+      "sha256": "10b09f26d06295dc90e220f1956221db4a8862d5257976d6f0484b6b0100be21"
+    }
+  ],
+  "evidence": {
+    "publishedManifest": {
+      "path": ".local/qa/remaining-art-5018f48b599c/published-manifest.json",
+      "sha256": "a46943ff8137954191e8a5cabf94eeb59a0d2b666c1415f6c1537aa419b6b241"
+    },
+    "acceptedManifests": [
+      {
+        "path": "assets/imagegen/character-art-manifest.json",
+        "sha256": "0aa2dbab5e3cb6d44561cc43cef1f64b99efcf5f56b9e1d4293135ad98778989"
+      },
+      {
+        "path": "assets/imagegen/boss-art-manifest.json",
+        "sha256": "71b6ef75af33d48081fc761c81bfc2ceb2b04ae06bf0c8a07d5a827bdec25d17"
+      }
+    ],
+    "generatedRegistry": {
+      "path": "engine/generated-raster-art.js",
+      "sha256": "6190049ea1e559754eb504f6171980964e525daffd25be087bec4a5bc750f622"
+    }
+  },
+  "reproduce": [
+    "node assets/raster/remaining-art-5018f48b599c/inventory.mjs",
+    "node assets/raster/remaining-art-5018f48b599c/audit-kilwala.mjs",
+    "node assets/raster/remaining-art-5018f48b599c/finalize-audit.mjs"
+  ],
+  "limits": "Root approved the proposed woodland-sprite direction; no generated or native-tested replacement is claimed by this audit. Published ROM hash is pinned; active sources may advance independently."
+}

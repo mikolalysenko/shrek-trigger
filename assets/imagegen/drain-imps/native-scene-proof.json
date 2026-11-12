@@ -1,0 +1,889 @@
+{
+  "status": "passed",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "candidateSha256": "0a449d04bd867cce7f9e7f3c1f59f2820af73b88955ba350cfb5300d45ae039d",
+  "core": "repository SNES JS native 65816/PPU",
+  "scope": "Original sewer entrance → noisy lower route → upper sewer → world498, after the existing chapter entry fixture. Eight native battles, original AI/events/formations and controller input only. Separate River Imp scene160 native initialization.",
+  "arrivalOwners": [
+    {
+      "location": 236,
+      "object": 13,
+      "enemy": 99,
+      "frame": 8931,
+      "gfx": 93,
+      "palette": 43,
+      "sourcePointer": 4747264,
+      "palettePointer": 1032
+    },
+    {
+      "location": 236,
+      "object": 15,
+      "enemy": 99,
+      "frame": 8931,
+      "gfx": 93,
+      "palette": 43,
+      "sourcePointer": 4747264,
+      "palettePointer": 1032
+    },
+    {
+      "location": 236,
+      "object": 16,
+      "enemy": 99,
+      "frame": 8931,
+      "gfx": 93,
+      "palette": 43,
+      "sourcePointer": 4747264,
+      "palettePointer": 1032
+    },
+    {
+      "location": 236,
+      "object": 21,
+      "enemy": 99,
+      "frame": 8931,
+      "gfx": 93,
+      "palette": 43,
+      "sourcePointer": 4747264,
+      "palettePointer": 1032
+    },
+    {
+      "location": 236,
+      "object": 22,
+      "enemy": 99,
+      "frame": 8931,
+      "gfx": 93,
+      "palette": 43,
+      "sourcePointer": 4747264,
+      "palettePointer": 1032
+    }
+  ],
+  "entrance": {
+    "formations": [
+      [
+        255,
+        255,
+        99,
+        99,
+        255,
+        255,
+        255,
+        255
+      ]
+    ],
+    "flags": 7,
+    "destination": 237,
+    "story": 52
+  },
+  "diary": {
+    "visible": true,
+    "line": 100
+  },
+  "lower": {
+    "noisy": true,
+    "formations": [
+      [
+        99,
+        99,
+        99,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      [
+        255,
+        99,
+        99,
+        99,
+        99,
+        255,
+        255,
+        255
+      ],
+      [
+        99,
+        99,
+        255,
+        255,
+        134,
+        255,
+        255,
+        255
+      ],
+      [
+        255,
+        99,
+        99,
+        99,
+        255,
+        255,
+        255,
+        255
+      ]
+    ],
+    "flags": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "destination": 236,
+    "story": 52
+  },
+  "upper": {
+    "formations": [
+      [
+        42,
+        42,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      [
+        255,
+        255,
+        255,
+        255,
+        4,
+        255,
+        255,
+        255
+      ],
+      [
+        99,
+        99,
+        42,
+        42,
+        255,
+        255,
+        255,
+        255
+      ]
+    ],
+    "frogSceneLastLine": 47,
+    "flags": 31,
+    "treasure": {
+      "id": 15,
+      "quantity": 1
+    },
+    "bridgeStates": [
+      2,
+      0,
+      2
+    ],
+    "destination": 498,
+    "story": 52
+  },
+  "battles": [
+    {
+      "frame": 9965,
+      "location": 236,
+      "enemies": [
+        99,
+        99
+      ]
+    },
+    {
+      "frame": 15284,
+      "location": 237,
+      "enemies": [
+        99,
+        99,
+        99
+      ]
+    },
+    {
+      "frame": 18672,
+      "location": 237,
+      "enemies": [
+        99,
+        99,
+        99,
+        99
+      ]
+    },
+    {
+      "frame": 22524,
+      "location": 237,
+      "enemies": [
+        99,
+        99,
+        134
+      ]
+    },
+    {
+      "frame": 26712,
+      "location": 237,
+      "enemies": [
+        99,
+        99,
+        99
+      ]
+    },
+    {
+      "frame": 30207,
+      "location": 236,
+      "enemies": [
+        42,
+        42
+      ]
+    },
+    {
+      "frame": 36086,
+      "location": 236,
+      "enemies": [
+        4
+      ]
+    },
+    {
+      "frame": 38974,
+      "location": 236,
+      "enemies": [
+        99,
+        99,
+        42,
+        42
+      ]
+    }
+  ],
+  "nativeDamageResults": 48,
+  "positiveDamageResults": 31,
+  "maxObservedFieldHeapBytes": {
+    "160": 5632,
+    "236": 12384,
+    "237": 3872
+  },
+  "originalUpperBattleDispatches": [
+    1653,
+    1738,
+    2424,
+    1826
+  ],
+  "originalDirectEmergence": {
+    "sequences": 16,
+    "commands": [
+      [
+        172,
+        9
+      ],
+      [
+        173,
+        1
+      ],
+      [
+        172,
+        10
+      ],
+      [
+        173,
+        1
+      ],
+      [
+        172,
+        11
+      ],
+      [
+        173,
+        2
+      ]
+    ],
+    "nativeFrames": [
+      9,
+      10,
+      11
+    ],
+    "allThreePhasesExactlyUploaded": true,
+    "nativePauseReentryDispatchesRetained": true,
+    "trace": "rise-traces.json",
+    "traceSha256": "0c293cbcebac3470408f45a6ef1fa97ff9b913256d363d86f910d21c8f1a9646",
+    "firstSequenceCommandFrames": [
+      {
+        "opcode": 172,
+        "value": 9,
+        "videoFrame": 9742
+      },
+      {
+        "opcode": 173,
+        "value": 1,
+        "videoFrame": 9746
+      },
+      {
+        "opcode": 172,
+        "value": 10,
+        "videoFrame": 9750
+      },
+      {
+        "opcode": 173,
+        "value": 1,
+        "videoFrame": 9754
+      },
+      {
+        "opcode": 172,
+        "value": 11,
+        "videoFrame": 9758
+      },
+      {
+        "opcode": 173,
+        "value": 2,
+        "videoFrame": 9762
+      }
+    ],
+    "firstSequenceDisplayTicks": [
+      {
+        "frame": 9,
+        "videoTicks": 7
+      },
+      {
+        "frame": 10,
+        "videoTicks": 8
+      },
+      {
+        "frame": 11,
+        "videoTicks": 12
+      }
+    ],
+    "motion": {
+      "file": "native-emergence.apng",
+      "sha256": "c1ceee5de1e559ca664c18fff5dcbc854b31ef5ffdbbbb37214ba18fbdd47074",
+      "videoTicks": 28,
+      "framesPerSecond": 60
+    }
+  },
+  "riverInitialization": [
+    {
+      "location": 160,
+      "object": 17,
+      "enemy": 101,
+      "frame": 8936,
+      "gfx": 93,
+      "palette": 42,
+      "sourcePointer": 4747264,
+      "palettePointer": 1008
+    },
+    {
+      "location": 160,
+      "object": 18,
+      "enemy": 101,
+      "frame": 8936,
+      "gfx": 93,
+      "palette": 42,
+      "sourcePointer": 4747264,
+      "palettePointer": 1008
+    },
+    {
+      "location": 160,
+      "object": 19,
+      "enemy": 101,
+      "frame": 8936,
+      "gfx": 93,
+      "palette": 42,
+      "sourcePointer": 4747264,
+      "palettePointer": 1008
+    }
+  ],
+  "messages": [
+    {
+      "location": 236,
+      "stringId": 43
+    },
+    {
+      "location": 236,
+      "stringId": 44
+    },
+    {
+      "location": 236,
+      "stringId": 45
+    },
+    {
+      "location": 236,
+      "stringId": 46
+    },
+    {
+      "location": 236,
+      "stringId": 47
+    },
+    {
+      "location": 236,
+      "stringId": 48
+    },
+    {
+      "location": 236,
+      "stringId": 49
+    },
+    {
+      "location": 237,
+      "stringId": 100
+    },
+    {
+      "location": 236,
+      "stringId": 96
+    },
+    {
+      "location": 236,
+      "stringId": 97
+    },
+    {
+      "location": 236,
+      "stringId": 98
+    },
+    {
+      "location": 236,
+      "stringId": 99
+    },
+    {
+      "location": 236,
+      "stringId": 47
+    },
+    {
+      "location": 236,
+      "stringId": 52
+    },
+    {
+      "location": 236,
+      "stringId": 53
+    },
+    {
+      "location": 236,
+      "stringId": 54
+    },
+    {
+      "location": 236,
+      "stringId": 55
+    },
+    {
+      "location": 236,
+      "stringId": 56
+    },
+    {
+      "location": 236,
+      "stringId": 57
+    },
+    {
+      "location": 236,
+      "stringId": 58
+    },
+    {
+      "location": 236,
+      "stringId": 0
+    }
+  ],
+  "loads": [
+    {
+      "location": 236,
+      "object": 11,
+      "enemy": 42,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 12,
+      "enemy": 42,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 13,
+      "enemy": 99,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 15,
+      "enemy": 99,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 16,
+      "enemy": 99,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 18,
+      "enemy": 42,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 19,
+      "enemy": 42,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 21,
+      "enemy": 99,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 22,
+      "enemy": 99,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 23,
+      "enemy": 42,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 24,
+      "enemy": 42,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 26,
+      "enemy": 82,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 28,
+      "enemy": 79,
+      "frame": 8932
+    },
+    {
+      "location": 236,
+      "object": 29,
+      "enemy": 79,
+      "frame": 8933
+    },
+    {
+      "location": 236,
+      "object": 32,
+      "enemy": 79,
+      "frame": 8933
+    },
+    {
+      "location": 236,
+      "object": 33,
+      "enemy": 79,
+      "frame": 8933
+    },
+    {
+      "location": 236,
+      "object": 36,
+      "enemy": 4,
+      "frame": 8934
+    },
+    {
+      "location": 236,
+      "object": 37,
+      "enemy": 82,
+      "frame": 8936
+    },
+    {
+      "location": 237,
+      "object": 9,
+      "enemy": 99,
+      "frame": 13798
+    },
+    {
+      "location": 237,
+      "object": 10,
+      "enemy": 99,
+      "frame": 13798
+    },
+    {
+      "location": 237,
+      "object": 11,
+      "enemy": 99,
+      "frame": 13798
+    },
+    {
+      "location": 237,
+      "object": 14,
+      "enemy": 99,
+      "frame": 13798
+    },
+    {
+      "location": 237,
+      "object": 15,
+      "enemy": 99,
+      "frame": 13798
+    },
+    {
+      "location": 237,
+      "object": 16,
+      "enemy": 99,
+      "frame": 13798
+    },
+    {
+      "location": 237,
+      "object": 17,
+      "enemy": 99,
+      "frame": 13798
+    },
+    {
+      "location": 237,
+      "object": 18,
+      "enemy": 134,
+      "frame": 13798
+    },
+    {
+      "location": 237,
+      "object": 20,
+      "enemy": 99,
+      "frame": 13799
+    },
+    {
+      "location": 237,
+      "object": 21,
+      "enemy": 99,
+      "frame": 13799
+    },
+    {
+      "location": 237,
+      "object": 23,
+      "enemy": 99,
+      "frame": 13800
+    },
+    {
+      "location": 237,
+      "object": 24,
+      "enemy": 99,
+      "frame": 13800
+    },
+    {
+      "location": 237,
+      "object": 25,
+      "enemy": 99,
+      "frame": 13800
+    },
+    {
+      "location": 236,
+      "object": 11,
+      "enemy": 42,
+      "frame": 29630
+    },
+    {
+      "location": 236,
+      "object": 12,
+      "enemy": 42,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 13,
+      "enemy": 99,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 15,
+      "enemy": 99,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 16,
+      "enemy": 99,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 18,
+      "enemy": 42,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 19,
+      "enemy": 42,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 21,
+      "enemy": 99,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 22,
+      "enemy": 99,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 23,
+      "enemy": 42,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 24,
+      "enemy": 42,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 26,
+      "enemy": 82,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 28,
+      "enemy": 79,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 29,
+      "enemy": 79,
+      "frame": 29633
+    },
+    {
+      "location": 236,
+      "object": 32,
+      "enemy": 79,
+      "frame": 29633
+    },
+    {
+      "location": 236,
+      "object": 33,
+      "enemy": 79,
+      "frame": 29633
+    },
+    {
+      "location": 236,
+      "object": 36,
+      "enemy": 4,
+      "frame": 29633
+    },
+    {
+      "location": 236,
+      "object": 37,
+      "enemy": 82,
+      "frame": 29635
+    },
+    {
+      "location": 160,
+      "object": 14,
+      "enemy": 238,
+      "frame": 8934
+    },
+    {
+      "location": 160,
+      "object": 15,
+      "enemy": 238,
+      "frame": 8936
+    },
+    {
+      "location": 160,
+      "object": 16,
+      "enemy": 238,
+      "frame": 8936
+    },
+    {
+      "location": 160,
+      "object": 17,
+      "enemy": 101,
+      "frame": 8936
+    },
+    {
+      "location": 160,
+      "object": 18,
+      "enemy": 101,
+      "frame": 8936
+    },
+    {
+      "location": 160,
+      "object": 19,
+      "enemy": 101,
+      "frame": 8936
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "sewer/sewer-arrival.png",
+      "sha256": "e699784b6f6b434f57498ef32516ba2e857db3dfe349e775cb7d869fe397e79e"
+    },
+    {
+      "file": "sewer/sewer-entrance-battle.png",
+      "sha256": "d289f4aaff96d4537edbb15c2e1ac87868a9fb90603842d7683ea26f11a3c360"
+    },
+    {
+      "file": "sewer/sewer-north-to-lower.png",
+      "sha256": "ec8547b3343082009a0e686e15215971c093f68095994125df56c2e60bd3fa45"
+    },
+    {
+      "file": "sewer/sewer-diary-visible.png",
+      "sha256": "2f11082354ac73a0d3e6071d1204ed3e1862f9fa0c683ed20f481680c38874c9"
+    },
+    {
+      "file": "sewer/sewer-noise-battle-1.png",
+      "sha256": "51264acf3667467c5ae2620a0a7fcacb0aa81a9f65acb4585f3cf65ee0ba5bef"
+    },
+    {
+      "file": "sewer/sewer-noise-battle-2.png",
+      "sha256": "ef4bafe17ad65b3ea6b32a01570ba47229843aa20ed5a2f755e369053feffbbf"
+    },
+    {
+      "file": "sewer/sewer-noise-battle-3.png",
+      "sha256": "5fc0331851431e1b44db432342a1ab3714ebe8e8b46a848db7a90dd8b2b8b24b"
+    },
+    {
+      "file": "sewer/sewer-noise-battle-4.png",
+      "sha256": "aa5ace1a651c144654329ed5567dffec05aae72ab3b7380dd6198f3c3e634f2c"
+    },
+    {
+      "file": "sewer/sewer-noise-exit.png",
+      "sha256": "2c895b45aa8e809cae87e1c9a65f39840f2437ee09d08bf57d339d835684567e"
+    },
+    {
+      "file": "sewer/sewer-upper-battle-1.png",
+      "sha256": "1e3b62c9fb0b128fb85103db5ec96e77299ad5812d6dd5608e4e62f23a7ea9bb"
+    },
+    {
+      "file": "sewer/sewer-hidden-door.png",
+      "sha256": "6b62d8531411b16090c35e4be59902bc39d870e59c031ae6b25ce1422a803b69"
+    },
+    {
+      "file": "sewer/sewer-frog-scene-complete.png",
+      "sha256": "12b4fe23b80e821f7b83a9b8297296b694183b692f500c9f6e5b47274f8ce40c"
+    },
+    {
+      "file": "sewer/sewer-upper-battle-2.png",
+      "sha256": "5b8849d58c7f66161cab6e2e1200707dc71e8b77554bab3705650412be4221c3"
+    },
+    {
+      "file": "sewer/sewer-upper-battle-3.png",
+      "sha256": "9128c714a13d6a50125553f6435c7da112e85577c06bc1bf53b01e13f96eb454"
+    },
+    {
+      "file": "sewer/sewer-sword-chest.png",
+      "sha256": "d0dc9eecafc89c63d88dd73670c1af224d8d5041f8be35273a76277fc2e46e35"
+    },
+    {
+      "file": "sewer/sewer-bridge-crossed.png",
+      "sha256": "c3dd6a52a1380a1eb2f0e585a2361ebed452dce7e52ec4273675a2bedecbdff3"
+    },
+    {
+      "file": "sewer/sewer-world-exit.png",
+      "sha256": "295dcb583e89537c730d148d975b71abecab01346c70f1c31b3063ccefd39c6b"
+    },
+    {
+      "file": "sewer/river-scene160-initialization.png",
+      "sha256": "3e06d4848af418339e5c04fe6ced94b0cad8aed52f3413372cc3e514fe6675d1"
+    }
+  ],
+  "evidence": ".local/qa/drain-imps-native-proof",
+  "runner": {
+    "file": "assets/imagegen/drain-imps/verify-sewer-scene.mjs",
+    "sha256": "91df32d3b4a20496f9b2d4bb62efdd6831ea447344ede42a3610066893e93ade"
+  },
+  "limitations": [
+    "The original River Imp actors initialize hidden at scene160 coordinates255,255; initialization proves ownership/palette/heap, not River Imp encounter choreography or victory.",
+    "Source/display exactness is fully checked in isolated native poses; overlapping map/party layers in real encounters retain original priority.",
+    "No independent-core execution in this inactive packet; root owns current production placement and broader campaign checks."
+  ]
+}

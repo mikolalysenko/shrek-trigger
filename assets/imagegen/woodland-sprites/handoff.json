@@ -1,0 +1,137 @@
+{
+  "status": "Frozen approved inactive woodland candidate",
+  "activation": false,
+  "key": "woodland-sprites",
+  "gfx": 81,
+  "asm": 36,
+  "palette": 19,
+  "animation": 28,
+  "size": 0,
+  "cells": 4,
+  "frames": 15,
+  "owners": [
+    {
+      "kind": "npc",
+      "id": 77,
+      "header": [
+        81,
+        36,
+        19,
+        28,
+        0
+      ],
+      "name": null,
+      "originalName": null
+    },
+    {
+      "kind": "enemy",
+      "id": 3,
+      "header": [
+        81,
+        36,
+        19,
+        28,
+        0,
+        0,
+        240,
+        12,
+        16,
+        18
+      ],
+      "name": "Kilwala",
+      "originalName": "Kilwala"
+    }
+  ],
+  "externalSharedAnimationOwner": {
+    "kind": "enemy",
+    "id": 225,
+    "gfx": 252,
+    "asm": 233,
+    "palette": 10,
+    "animation": 28,
+    "unchanged": true
+  },
+  "sourceSpec": "import-spec.draft.json",
+  "geometry": "native-frame-map.draft.json",
+  "family": "native-family-proposal.draft.json",
+  "compiler": "compile-native.js:compileWoodlandSprite(art,geometry)",
+  "mandatoryIntegration": [
+    "Select gfx81 explicitly in the established native stream contract; retain default original decoded rejection for unselected banks.",
+    "Use composed native source slots0–14 once, all authored origins and overlapFrames1/4. Preserve spin grid translations−2/−1 and original vertical anchors.",
+    "Preserve palette19, all headers, AA28 including Guy225, AI/stats/names/events. No new palette write.",
+    "All emitted gfx81/asm36/palette19 owners must remain exactly NPC77 and enemy3.",
+    "Original reclaimable source spans are gfx81 packet1,735 bytes at1459699 and asm36 extent600 at1904584, with no pointer aliases. Root owns actual allocator/reclamation wiring."
+  ],
+  "costs": {
+    "status": "Inactive exact source compile passed",
+    "activation": false,
+    "tiles": 138,
+    "decodedBytes": 4416,
+    "compressedBytes": 3134,
+    "assemblyBytes": 600,
+    "compressedPlusAssemblyBytes": 3734,
+    "graphicsSha256": "d949e379b743cf6cdf596bf5f4055102d0ad23ac0fc91c2c562b7845195bb86d",
+    "compressedSha256": "cb45ff15e39b6c28cee3a9c8a35d3f290ca5f40e06a15be5b9463bd4e1ba8a36",
+    "assemblySha256": "a252783188f69e0e160180cc3c95f7a716d2e392a9fe5e68c13e79f7b777963e",
+    "paletteSha256": "86f943dbb591256d774cffdf26a86b63d4a7b60ab5f3c936edaf4e1c1d72e5a6",
+    "nativeFrames": 15,
+    "authoredSourcePoses": 9,
+    "uniqueNativeImages": 15,
+    "originalComparison": {
+      "decodedBytes": 3104,
+      "compressedBytes": 1735,
+      "assemblyBytes": 600,
+      "decodedDelta": 1312,
+      "compressedPlusAssemblyDelta": 1399
+    },
+    "published5018Comparison": {
+      "decodedBytes": 3104,
+      "compressedBytes": 1735,
+      "assemblyBytes": 600,
+      "decodedDelta": 1312,
+      "compressedPlusAssemblyDelta": 1399
+    },
+    "withinOriginalDecodedCeiling": false,
+    "streamingRequired": true,
+    "originalCellGeometryChanges": [
+      {
+        "frame": 13,
+        "delta": [
+          -2,
+          0
+        ]
+      },
+      {
+        "frame": 14,
+        "delta": [
+          -1,
+          0
+        ]
+      }
+    ],
+    "effectBodyOverlaps": [],
+    "fourCellCoverage": true,
+    "exactNativeMirrors": true,
+    "noSourcePixelsClipped": true,
+    "rawStreamBytes": 4416,
+    "totalCompressedRawAssemblyBytes": 8150,
+    "totalRomGrowthVsOriginalAnd5018": 5815
+  },
+  "baseline": {
+    "path": ".local/qa/storm-breath-5018f48b599c/candidate.sfc",
+    "sha256": "5018f48b599c67f33131c3d05350115484625450d2e8b44e5389f27144e21770"
+  },
+  "candidate": {
+    "path": ".local/qa/woodland-sprites-native-proof/candidate.sfc",
+    "sha256": "984969b0477edfcb36fe1b0f82eca24190196456681b6a96038ca56f11827460"
+  },
+  "proof": "native-proof-manifest.json",
+  "review": "visual-review.json",
+  "limitations": [
+    "Measured profile/spin widths differ; original body/effect vertical anchors and original timing lists remain exact.",
+    "Recoil has half-pixel center rounding; spin cell grids shift left2/1 pixels.",
+    "A moving battle sample is one video frame behind the requested coherent state; 398 pixels are party-occluded in that sample.",
+    "Only Snail Stop53 and Mystic Mountain274 execute in this packet. Other scene records are audited uses/resource unions.",
+    "Independent cores and final production allocator validation remain root-owned."
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "status": "Inactive actual generated source; exact source/4bpp/assembly round trip passes",
+  "actors": [
+    {
+      "key": "duloc-tank",
+      "gfx": 124,
+      "asm": 119,
+      "enemy": 147,
+      "dimensions": [
+        128,
+        112
+      ],
+      "frames": 1,
+      "cells": 24,
+      "anchor": [
+        0,
+        16
+      ],
+      "cellOrigins": [
+        [
+          80,
+          32
+        ],
+        [
+          64,
+          32
+        ],
+        [
+          48,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          80,
+          16
+        ],
+        [
+          24,
+          96
+        ],
+        [
+          80,
+          48
+        ],
+        [
+          64,
+          48
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          32,
+          48
+        ],
+        [
+          64,
+          16
+        ],
+        [
+          96,
+          8
+        ],
+        [
+          80,
+          64
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          48,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          16,
+          64
+        ],
+        [
+          0,
+          64
+        ],
+        [
+          96,
+          24
+        ],
+        [
+          64,
+          80
+        ],
+        [
+          48,
+          80
+        ],
+        [
+          32,
+          80
+        ],
+        [
+          16,
+          80
+        ],
+        [
+          0,
+          80
+        ]
+      ],
+      "rawGraphicsBytes": 2432,
+      "compressedBytes": 1654,
+      "assemblyBytes": 240,
+      "graphicsSha256": "9e184efb31c986d73565376bd5d1e6348992102b03c569e180a6df21b7d61729",
+      "compressedSha256": "2d835ea79f06eb41db130192679f9358147d0d76c0c75ec2b785151144446f7d",
+      "assemblySha256": "1ffc01adb85ba6254c35de670b239625c9ede424898744b45d2c720b204b2214",
+      "originalRawBytes": 2944,
+      "originalCompressedBytes": 2288,
+      "currentEarlierArt": {
+        "graphicsBytes": 2688,
+        "compressedBytes": 1230,
+        "assemblyBytes": 240,
+        "graphicsSha256": "71c4e60df065bccb446488ffe4c38d1fd4e4b64743712097ce70b6fc2236e6ad"
+      },
+      "rawGrowthFromOriginal": -512,
+      "rawGrowthFromEarlier": -256,
+      "compressedGrowthFromOriginal": -634,
+      "compressedGrowthFromEarlier": 424,
+      "coverage": [
+        {
+          "frame": 0,
+          "opaquePixels": 3433,
+          "sha256": "df6f81407a899e56cc8c4bec685719b4c97d056c19843e2b7cdf9c979231ed5a",
+          "uncoveredPixels": 0,
+          "overlapPixels": 0
+        }
+      ],
+      "provenance": [
+        {
+          "file": "assets/imagegen/duloc-tank/source-chassis-v1.png",
+          "sha256": "5d93c0bcaf601190589e3a26bdcd1c246ae05cbe343535ddeb7e85a44cfe9f28",
+          "sourceType": "image-generation"
+        }
+      ]
+    },
+    {
+      "key": "tank-head",
+      "gfx": 145,
+      "asm": 139,
+      "enemy": 173,
+      "dimensions": [
+        32,
+        32
+      ],
+      "frames": 5,
+      "cells": 4,
+      "anchor": [
+        32,
+        -49
+      ],
+      "cellOrigins": [
+        [
+          0,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          16,
+          16
+        ]
+      ],
+      "rawGraphicsBytes": 2112,
+      "compressedBytes": 1293,
+      "assemblyBytes": 200,
+      "graphicsSha256": "7bbd9248ddfeca09931aafffecff4d889e456b421cc7a93de595dae78c864183",
+      "compressedSha256": "10eeedd60f7c75449171befcd26ccf9542e6f0804c16b0d6791cdbbaa70fc893",
+      "assemblySha256": "2d0ffd5fdf5860b796a8ff08adc13befc19faa730857b7662778a95ce399c757",
+      "originalRawBytes": 1056,
+      "originalCompressedBytes": 724,
+      "currentEarlierArt": {
+        "graphicsBytes": 1024,
+        "compressedBytes": 487,
+        "assemblyBytes": 200,
+        "graphicsSha256": "303dc0ea3292fa42318eeab1ae227818522e18177b69313b781b18d2335734b2"
+      },
+      "rawGrowthFromOriginal": 1056,
+      "rawGrowthFromEarlier": 1088,
+      "compressedGrowthFromOriginal": 569,
+      "compressedGrowthFromEarlier": 806,
+      "coverage": [
+        {
+          "frame": 0,
+          "opaquePixels": 539,
+          "sha256": "1212c12b2d2cf26fabba144e85f37d447551b77305957040ba2c18fc0a58590a",
+          "uncoveredPixels": 0,
+          "overlapPixels": 0
+        },
+        {
+          "frame": 1,
+          "opaquePixels": 557,
+          "sha256": "f15b2e3e77fead3a3eca8c3579457f83a621b8792b1a5b0313cbfa7e004dd3ce",
+          "uncoveredPixels": 0,
+          "overlapPixels": 0
+        },
+        {
+          "frame": 2,
+          "opaquePixels": 538,
+          "sha256": "283a6a89050fc4ca45fc33bc9fbd51af24e8c71fa25d30d1e442d82051e8fea7",
+          "uncoveredPixels": 0,
+          "overlapPixels": 0
+        },
+        {
+          "frame": 3,
+          "opaquePixels": 549,
+          "sha256": "5674a4e361ce1fe0bfeedb5a783f4d950690eafcb259c39da246c11127a7dd17",
+          "uncoveredPixels": 0,
+          "overlapPixels": 0
+        },
+        {
+          "frame": 4,
+          "opaquePixels": 551,
+          "sha256": "d7fada265c4bc92a8e14ea925ec7b6b79165c3df29e0fea01d36e8f75f0b7726",
+          "uncoveredPixels": 0,
+          "overlapPixels": 0
+        }
+      ],
+      "provenance": [
+        {
+          "file": "assets/imagegen/duloc-tank/source-head-v1.png",
+          "sha256": "2a837f20de47aa3d1c6058d23ea27088c1b27487a57a9de4737f955cceca374f",
+          "sourceType": "image-generation"
+        }
+      ]
+    },
+    {
+      "key": "tank-wheel",
+      "gfx": 144,
+      "asm": 138,
+      "enemy": 148,
+      "dimensions": [
+        32,
+        32
+      ],
+      "frames": 2,
+      "cells": 4,
+      "anchor": [
+        -2,
+        6
+      ],
+      "cellOrigins": [
+        [
+          0,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          16,
+          16
+        ]
+      ],
+      "rawGraphicsBytes": 1024,
+      "compressedBytes": 768,
+      "assemblyBytes": 80,
+      "graphicsSha256": "ccf25cc74982bef0f6d29fe0f3db0b9827e90af59c24d1b5c4dda942dd22fc32",
+      "compressedSha256": "1d9e151997fc13c3fe7e693bc8e2bc38ba01d4148f9e34ce05beb9b7e93ca5b2",
+      "assemblySha256": "81163c3b40c984197e5e72a5127980962acce47b174413f42b48ae2bb2a81ebf",
+      "originalRawBytes": 512,
+      "originalCompressedBytes": 413,
+      "currentEarlierArt": {
+        "graphicsBytes": 864,
+        "compressedBytes": 530,
+        "assemblyBytes": 80,
+        "graphicsSha256": "a2f43742e1a62e0c2d79cabd9024cb0747d61b07806fdb5d5587d9fc24b2b307"
+      },
+      "rawGrowthFromOriginal": 512,
+      "rawGrowthFromEarlier": 160,
+      "compressedGrowthFromOriginal": 355,
+      "compressedGrowthFromEarlier": 238,
+      "coverage": [
+        {
+          "frame": 0,
+          "opaquePixels": 524,
+          "sha256": "490de2b7161eb0fb1eb7c929dc5945fd97938109f13ad0f27ed66878ab7b453e",
+          "uncoveredPixels": 0,
+          "overlapPixels": 0
+        },
+        {
+          "frame": 1,
+          "opaquePixels": 552,
+          "sha256": "903062ba492c92421bf92074868071cab599bf38a531377bf74a0a1f2b13835c",
+          "uncoveredPixels": 0,
+          "overlapPixels": 0
+        }
+      ],
+      "provenance": [
+        {
+          "file": "assets/imagegen/duloc-tank/source-wheel-v1.png",
+          "sha256": "7bdaf76250891684908f386ba8a252ee51bcfd32f7b6c4f97793aa293dd6a65a",
+          "sourceType": "image-generation"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "rawGraphicsBytes": 5568,
+    "compressedBytes": 3715,
+    "assemblyBytes": 520,
+    "compressedAndAssembly": 4235,
+    "rawGrowthFromOriginal": 1056,
+    "rawGrowthFromEarlier": 992,
+    "compressedAndAssemblyGrowthFromOriginal": 290,
+    "compressedAndAssemblyGrowthFromEarlier": 1468
+  },
+  "palette": {
+    "id": 184,
+    "bytes": 24,
+    "sha256": "331fb2b5fbb229101e6c0508c4d52b755c94b558527fdd584c41df19d876ef06",
+    "colors": [
+      "211b24",
+      "3c3f46",
+      "687378",
+      "b4c3b6",
+      "563226",
+      "885039",
+      "244955",
+      "42788a",
+      "917239",
+      "c9a554",
+      "efdb96",
+      "fcf2ce"
+    ]
+  },
+  "limits": {
+    "chassisDecodedBytes": 2944,
+    "chassisCandidateDecodedBytes": 2432,
+    "fixedChassisVramBytes": 3072,
+    "extraVramBytes": 0,
+    "preservedUnusedChassisAssemblyBytes": 240,
+    "streamingAssumed": false
+  },
+  "geometry": "Exact existing project anchors and original chassis24cell geometry; smaller parts keep current four-cell normalized geometry. Source original dragon-jaw per-frame8px origin compensation remains documented in audit; current mechanical design already normalized these to one32px box.",
+  "unverified": "Actual native loaders, timings and compound scene still require separate evidence."
+}

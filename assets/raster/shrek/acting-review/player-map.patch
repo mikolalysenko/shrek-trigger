@@ -1,0 +1,20 @@
+--- a/content/player-frames.js
++++ b/content/player-frames.js
+@@ -31,7 +31,7 @@
+ for(const [facing,ids]of[[0,[139,140]],[1,[141,142]],[2,[143,144]],[3,[145,146]]])assign(ids,facing,'jump');
+ for(let f=0;f<4;f++)assign([147+f],f,'blink',0);
+ for(let f=0;f<4;f++)assign([151+f*2,152+f*2],f,'look',[0,1]);
+-for(const [facing,ids]of[[1,[159,160]],[2,[161,162]],[3,[163,164]]])assign(ids,facing,'bow');
++for(const [facing,ids]of[[1,[159,160]],[2,[161,162]],[3,[163,164]]])assign(ids,facing,'close-eyes');
+ for(let f=0;f<4;f++)assign([165+f],f,'arms-folded',0);
+ for(const [facing,id]of[[1,169],[2,170],[3,171]])assign([id],facing,'kneel',0);
+ for(let f=0;f<4;f++)assign([172+f*2,173+f*2],f,'cast-walk');
+@@ -47,7 +47,7 @@
+ assign([223],0,'slash',2);assign([224],1,'slash',2);assign([225],2,'slash',2);assign([226],3,'slash',2);
+ assign([227],1,'tumble',0);
+ assign([228,229],1,'hold',[0,1]);assign([230,231],2,'hold',[0,1]);assign([232,233],0,'hold',[0,1]);
+-assign([234],1,'bow',2);assign([235,236,237],1,'sit',[0,3,4]);
++assign([234],1,'wink',0);assign([235,236,237],1,'sit',[0,3,4]);
+ assign([238,239],3,'spin',[0,1]);
+ assign([240,241,242,243,244,245],1,'dissolve');
+ assign([246,247],1,'drink');

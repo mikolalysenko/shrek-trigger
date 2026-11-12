@@ -1,0 +1,310 @@
+{
+  "status": "Frozen inactive generated woodland and cave bats",
+  "activation": false,
+  "baseline": {
+    "path": ".local/qa/hench-audit-af3383746691/baseline.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7"
+  },
+  "original": {
+    "path": ".local/chrono-trigger-usa.sfc",
+    "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+  },
+  "nativeCandidate": {
+    "path": ".local/qa/woodland-bats-native-proof/candidate.sfc",
+    "sha256": "8565c1f02e1d49920be0618a9f0848883e54048898a378d0c7bdb2533c77765b"
+  },
+  "minimalReproductionFiles": [
+    {
+      "file": "assets/imagegen/woodland-bats/source-v1.png",
+      "bytes": 1607845,
+      "sha256": "a8a5a1957fc24093b720755f405e90a13c2ab669f9fdf8d9192a15d8fc827cae"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/prompts/source-v1.txt",
+      "bytes": 3530,
+      "sha256": "e8603553123e2bef8ca104d164fa9cf848b428ed39086deaa85b7c92499f2a1a"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/provenance.json",
+      "bytes": 5384,
+      "sha256": "f73e1237cf5e996def779210c030a74af1bc39f1ddcbbe3f6800e62af33695b4"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/import-spec.draft.json",
+      "bytes": 2498,
+      "sha256": "5f96a563f076d1e1ee0de9b172b7e800247bafdced468c4e2c69f57925a90cf5"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/native-raster.json",
+      "bytes": 41670,
+      "sha256": "1d0ff96be138730f0a6a605b4c91e1f90ba0275cfa15ad2ad6567a1099571211"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/native-frame-map.draft.json",
+      "bytes": 8059,
+      "sha256": "cbb0c722d877e3f845fdea98fd9f47d6b07fb8756e3ba3fbfeba3bf1c133be00"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/native-family-proposal.draft.json",
+      "bytes": 6579,
+      "sha256": "0cc093ffe688981696e1db68baaecf4db4fd59676a6ab89951f4efc363eeecd9"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/native-audit.json",
+      "bytes": 168206,
+      "sha256": "7d856e291d1d9fa47db73702b9693dc616995b53dc208d8fe036f720f4604fe8"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/native-role-audit.json",
+      "bytes": 37085,
+      "sha256": "534d8b6ea536d52104a594bd0650c48d492990eb7c7cccd82f1a9c85856e4cd6"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/compile-native.js",
+      "bytes": 2418,
+      "sha256": "7453e391218b34c5237ba79e95a342b105107374d80a854998cb9728ece03219"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/prepare-draft.mjs",
+      "bytes": 6837,
+      "sha256": "b1493582867f6f2c8daaf89d69345873f1ae85f27ffe61082ba527e2bcd000eb"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/graphics.4bpp",
+      "bytes": 3008,
+      "sha256": "4adcfc7d6a8305c815bc84b80298d717ed763d1085a97e5e12da540987a91890"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/graphics.ct-lz",
+      "bytes": 2225,
+      "sha256": "12ed1d80665acbc84470c5cb305f960e81ce49b6fc409d241954641685753a3c"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/assembly.bin",
+      "bytes": 320,
+      "sha256": "b0b281b0af9d01af8157baf45259b7ecf644e90c35ba616aa1e74363d5f5f7e1"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/palette-78.bin",
+      "bytes": 24,
+      "sha256": "d4c86e657332a2e44902fa3390fdd3585c18646d0656f9cc87266ae824d3a159"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/palette-79.bin",
+      "bytes": 24,
+      "sha256": "a6f7e75b09e601347b93d6c56cd600f3483e55c039dd38862669716cd01254e1"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/draft-audit.json",
+      "bytes": 1173,
+      "sha256": "ce06730366c0f3d7a328a4fe10e70778494af9f4f4476b59de06887d96366300"
+    }
+  ],
+  "reviewAndProofFiles": [
+    {
+      "file": "assets/imagegen/woodland-bats/README.md",
+      "bytes": 5452,
+      "sha256": "57b514ab15c7feb6dcc369ec81114ef69e0a610005e825213e02713f71374593"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/handoff.json",
+      "bytes": 6332,
+      "sha256": "86d152b0c07480577062bb02c76ca2a6ed5f0650a6b57f5ca49170d885bbc39e"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/visual-review.json",
+      "bytes": 3056,
+      "sha256": "430028b4801589b467063e209ae3e5054635e5f62e50608ae2d8f66d47082071"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/geometry-audit.json",
+      "bytes": 10645,
+      "sha256": "e7b0463c1dd7737ff0a5523c57c274521ff527dfff64cc55783b55b23b90ab12"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/scene-budget-audit.json",
+      "bytes": 107839,
+      "sha256": "b45aec8830a0f65fc91f40c16a0bdf05ab03449a518c2352f6cebf103a39901e"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/motion-review.json",
+      "bytes": 7545,
+      "sha256": "ba556c264345ad7d3c7d365d59e2edcd8f494657dd6109a1d612e9eba6cf36e1"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/native-display-proof.json",
+      "bytes": 30689,
+      "sha256": "243c55162ee46f7c1ce4a509908f7198ae289da8f00715cc6c6e03405a71038b"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/native-timing-proof.json",
+      "bytes": 62539,
+      "sha256": "860e80ce764de341a54d60f44fc72a2aff39bc1e68fc4074f91c4033899e7f11"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/native-scene-proof.json",
+      "bytes": 205280,
+      "sha256": "65c6fd71e78232e6df53aaf5e654e7f0c096b097cd35e42624f08929c0616b45"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/native-flight-proof.json",
+      "bytes": 2171,
+      "sha256": "085b14e54252c0accc9b53cbbb863a9e87aa3ce66daff8c2c53e827cc9eccf99"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/native-proof-manifest.json",
+      "bytes": 33430,
+      "sha256": "991c57bcb91aa39f2a70789769d72750f29c6ae503bcde0b721f43179d42fdb1"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/audit-native.mjs",
+      "bytes": 11312,
+      "sha256": "d482697dce4f7e60534a9fa1c2912725e86415a7a54284134527964381ae9ed0"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/audit-roles.mjs",
+      "bytes": 7183,
+      "sha256": "1f181577f16213fbfa117dec29ff53066eedf9c1fdb5552d817b93b1f82300f3"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/record-draft.mjs",
+      "bytes": 5781,
+      "sha256": "27bced672772051756ef7c8d28e33401daba7a9af6fa568c8c8afc7af2c86131"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review-draft.mjs",
+      "bytes": 4989,
+      "sha256": "b7447967bd1b14de9460fc2493c3ba89529b6df1972ab8e890331d279938b0bb"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/build-private.mjs",
+      "bytes": 4993,
+      "sha256": "1bc085ced64f28662f33b7e40079e159b45184a27793dd243fd478db1198a7d4"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/private-preview.mjs",
+      "bytes": 1577,
+      "sha256": "30019a958b598227c93d3e5fac911ab351b6b0641385be0e40fd4410745a1349"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/native-proof-utils.mjs",
+      "bytes": 927,
+      "sha256": "f81afb3500082f15bc7ca130f47e2c1f24cd45b0366566ec86f3cc2ab130bb8d"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/verify-native.mjs",
+      "bytes": 5366,
+      "sha256": "be2e903e0467deb9947ba1f0d85aa2f91e979469b69a61afc0e7f7b3563eaf2f"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/verify-timing.mjs",
+      "bytes": 6767,
+      "sha256": "2b50db0c3289ab8737f9bcbd02728e1c541545862008cd6a9c48fa7a2e94d16c"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/verify-scenes.mjs",
+      "bytes": 13503,
+      "sha256": "12557f3460996af8e67de313eb165ef5008c9f59c4dea94a45bd376b84b257e8"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/verify-flight.mjs",
+      "bytes": 4690,
+      "sha256": "2e71a0b1c7a4c556c43fc963480f481da9c457af00fb5d126ce6a0b82d72e84d"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/freeze-draft.mjs",
+      "bytes": 13167,
+      "sha256": "821ea1e4000593ef03754a1a54e5290fe99fc96b26b95cf0319f736b5e50cd51"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/verify-frozen.mjs",
+      "bytes": 3427,
+      "sha256": "518bbd9360bf58a96c8f12e0adf80ce1a73c5afb072dd5b024958cd71cb3810a"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/motion-original-vs-new.html",
+      "bytes": 46471,
+      "sha256": "f8ae9a274518a93aa3c7be0b778ced3e97e952329ab11f9e7f8b0669b5481fb6"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/native-frames-0-5-3x.png",
+      "bytes": 87257,
+      "sha256": "9ae9107c3a1e96f43dbaea0454f2e7dd74b27e9652bafcce64b653cec12c9073"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/native-frames-1x.png",
+      "bytes": 78212,
+      "sha256": "9f2c5bf04599972b4f50af63ab524b4a62604458432158586455167f01605181"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/native-frames-6-7-3x.png",
+      "bytes": 45285,
+      "sha256": "e9c1c7a573db82dd5dcafe2a9dea4abd4838cddd069465b0304c166977494ff3"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/native-frames.html",
+      "bytes": 26004,
+      "sha256": "74912003e5f1588533dee35d63384d37c2f920a3cfc0acf9a79566a6b4342d9c"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/original-frames-0-5-3x.png",
+      "bytes": 81154,
+      "sha256": "d9f046787c9d891a9fb86211c86f778ee682f0ee6ddfed9e780adde06193099a"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/original-frames-6-7-3x.png",
+      "bytes": 45117,
+      "sha256": "1c611c7057d31fdbd639f75139427222fa66348fb0e857c9ebe183b308b45018"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/original-motion.html",
+      "bytes": 25709,
+      "sha256": "865c894c38d594ebaa4ae7be425c21b4a51deb26e6c26c977e2e68a379bd8099"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/original-native-1x.png",
+      "bytes": 70230,
+      "sha256": "164ee39eb0b335c95f16d86e760de9fb1d89d98bc6d350c9f0a90666a25f94ad"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/original-native.html",
+      "bytes": 23153,
+      "sha256": "3fe5023440feaf90f419de004cfaaf7befd0ab2283492b26ea4c50bde89e4ef2"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/original-palette78-1x.png",
+      "bytes": 6407,
+      "sha256": "6488a2dd45ee229a70e65c761c5b1d44af6adac9aff24661cc6fed6c83d4a61a"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/original-palette78-4x.png",
+      "bytes": 9930,
+      "sha256": "48be7fd83c00df093576c4d01e5f0cf487ab38df533db1d9a7ebbfcee2a8bb18"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/original-palette79-1x.png",
+      "bytes": 6932,
+      "sha256": "b8e42c31198f453740c50bf38d4bbe2341b34cffdbb40dce4edb29e6767af993"
+    },
+    {
+      "file": "assets/imagegen/woodland-bats/review/original-palette79-4x.png",
+      "bytes": 10304,
+      "sha256": "a65f47f9613af896f42c23fd270e2eabe3a5cb554b3ec5e99b29f0be1127bc5a"
+    }
+  ],
+  "minimalBytes": 1896885,
+  "reproduce": [
+    "node scripts/import-raster-art.mjs --preview-spec assets/imagegen/woodland-bats/import-spec.draft.json",
+    "compileWoodlandBats(nativeRaster,nativeFrameMap)",
+    "node assets/imagegen/woodland-bats/verify-frozen.mjs --sources --proof"
+  ],
+  "limits": [
+    "This approval and proof apply to the exact frozen source and private ROM fingerprint. Final production allocation and independent-core validation remain root-owned.",
+    "Folded poses 5/6 are sampled 17 px wide instead of 19 px. Their center, height, lowest pixels and original four-cell coordinates/order remain unchanged; every other visible bound matches the original.",
+    "Slot 7 is fully authored and statically uploaded for all three owners, but AA47 references only slots 0–6 and no original timing consumer for slot 7 was observed.",
+    "Three encounters were executed after reversible diagnostic entry with development party resources and story 3. This is not full campaign traversal or ordinary-level balance validation.",
+    "The two Magic Cave patrols match baseline state for 899 ticks each after a one-video-frame startup phase alignment. This route/request comparison does not assert universally identical field or battle display latency.",
+    "Zero display delay was observed in isolated AA47 tests and six battle layer samples. Original map/party overlap obscures some actual-scene final pixels; complete cells and all unobstructed opaque pixels are proved separately in 24 isolated poses.",
+    "Scene-load unions combine verified conditional loads. Five audited locations were not executed; these inventories are not proofs of every simultaneous resident set."
+  ]
+}

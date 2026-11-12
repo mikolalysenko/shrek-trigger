@@ -1,0 +1,136 @@
+{
+  "status": "Every documented native-list pose rendered in all current palettes",
+  "browser": "headless Chromium",
+  "pageErrors": [],
+  "reports": [
+    {
+      "family": "pods",
+      "palette": 100,
+      "loops": 7,
+      "samples": 10,
+      "expectedUniqueStates": [
+        3,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "observedUniqueStates": [
+        3,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "family": "pods",
+      "palette": 101,
+      "loops": 7,
+      "samples": 6,
+      "expectedUniqueStates": [
+        3,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "observedUniqueStates": [
+        3,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "family": "bats",
+      "palette": 80,
+      "loops": 5,
+      "samples": 7,
+      "expectedUniqueStates": [
+        3,
+        1,
+        2,
+        3,
+        2
+      ],
+      "observedUniqueStates": [
+        3,
+        1,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "family": "bats",
+      "palette": 81,
+      "loops": 5,
+      "samples": 20,
+      "expectedUniqueStates": [
+        3,
+        1,
+        2,
+        3,
+        2
+      ],
+      "observedUniqueStates": [
+        3,
+        1,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "family": "bats",
+      "palette": 82,
+      "loops": 5,
+      "samples": 16,
+      "expectedUniqueStates": [
+        3,
+        1,
+        2,
+        3,
+        2
+      ],
+      "observedUniqueStates": [
+        3,
+        1,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "family": "bats",
+      "palette": 83,
+      "loops": 5,
+      "samples": 11,
+      "expectedUniqueStates": [
+        3,
+        1,
+        2,
+        3,
+        2
+      ],
+      "observedUniqueStates": [
+        3,
+        1,
+        2,
+        3,
+        2
+      ]
+    }
+  ],
+  "scope": "Compiled-native source motion review using original list order/durations; full native encounter transitions unproven."
+}

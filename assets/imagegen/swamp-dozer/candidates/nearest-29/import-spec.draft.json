@@ -1,0 +1,155 @@
+{
+  "key": "swamp-dozer",
+  "directory": "assets/imagegen/swamp-dozer/candidates/nearest-29",
+  "sourceType": "image-generation",
+  "width": 32,
+  "height": 32,
+  "palette": [
+    "252c27",
+    "394c36",
+    "59754b",
+    "88a368",
+    "c3cf91",
+    "253f37",
+    "456951",
+    "7da072",
+    "554436",
+    "8d6b43",
+    "c5a065",
+    "f6e9b9"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/swamp-dozer/source-walk-v1.png",
+      "columns": 3,
+      "rows": 4,
+      "cells": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        10,
+        11
+      ],
+      "scaleCells": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "componentAlpha": 128,
+      "nativeHeight": 29,
+      "sample": {
+        "method": "nearest",
+        "bottom": 30
+      }
+    },
+    {
+      "file": "assets/imagegen/swamp-dozer/source-corrections-v2.png",
+      "columns": 2,
+      "rows": 2,
+      "cells": [
+        1,
+        2,
+        3
+      ],
+      "scaleCells": [
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "nativeHeight": 29,
+      "sample": {
+        "method": "nearest",
+        "bottom": 30
+      }
+    },
+    {
+      "file": "assets/imagegen/swamp-dozer/source-actions-v1.png",
+      "columns": 3,
+      "rows": 4,
+      "cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "scaleCells": [
+        1,
+        8,
+        10
+      ],
+      "componentAlpha": 128,
+      "nativeHeight": 29,
+      "sample": {
+        "method": "nearest",
+        "bottom": 30
+      }
+    },
+    {
+      "file": "assets/imagegen/swamp-dozer/source-tuck-toeoff-v3.png",
+      "columns": 2,
+      "rows": 2,
+      "cells": [
+        0,
+        2,
+        3
+      ],
+      "scaleCells": [
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "nativeHeight": 29,
+      "sample": {
+        "method": "nearest",
+        "bottom": 30
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        10,
+        2,
+        3,
+        9,
+        4,
+        5,
+        22,
+        7,
+        6,
+        23,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        16,
+        8,
+        {
+          "frame": 17,
+          "flip": true
+        },
+        18,
+        19,
+        20
+      ]
+    }
+  },
+  "notes": {
+    "sourceRoles": "assets/imagegen/swamp-dozer/source-roles.draft.json",
+    "status": "Inactive24-slot draft; retain original group offsets and native timings."
+  }
+}

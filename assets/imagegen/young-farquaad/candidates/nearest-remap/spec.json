@@ -1,0 +1,121 @@
+{
+  "key": "young-farquaad",
+  "palette": [
+    "292331",
+    "9d7056",
+    "d9a579",
+    "f2c79c",
+    "f4dfbd",
+    "762e43",
+    "ba4b58",
+    "342837",
+    "fff0cd",
+    "624656",
+    "a56f67",
+    "d7aa50"
+  ],
+  "samplingPalette": [
+    "14111c",
+    "b46e4d",
+    "edaa78",
+    "ffd3a2",
+    "ece3ce",
+    "a20d21",
+    "e21c32",
+    "211623",
+    "fff4d8",
+    "51405e",
+    "aa5155",
+    "d9a72c"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/young-farquaad/source-v1.png",
+      "columns": 4,
+      "rows": 5,
+      "nativeHeight": 24,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        6,
+        1,
+        7
+      ],
+      "1": [
+        4,
+        0,
+        5
+      ],
+      "2": [
+        8,
+        2,
+        9
+      ],
+      "3": [
+        10,
+        3,
+        11
+      ]
+    },
+    "raise": {
+      "1": [
+        12
+      ]
+    },
+    "point": {
+      "3": [
+        13
+      ]
+    },
+    "down": {
+      "1": [
+        14
+      ],
+      "3": [
+        15
+      ]
+    },
+    "surprise": {
+      "3": [
+        16
+      ]
+    }
+  },
+  "notes": {
+    "material": "All opaque pixels are sampled from the actual generated source. No code-drawn anatomy or gestures.",
+    "identity": "Young Farquaad is a smaller royal boy with black bob, prominent nose and red court clothes; no crown, weapon or long cape.",
+    "nativeHeight": "24 pixels instead of adult 28-pixel field height, preserving his child stature.",
+    "samplingPalette": "Source material colors map to the unchanged twelve-color supporting palette. Hair, red cloth, skin and gold retain separate indices.",
+    "phaseUse": "Two actual opposing contact drawings per direction surround the corresponding idle/passing native frame; native timing and role IDs are unchanged.",
+    "unusedSources": "Cells17,18,19 are archived extra left surprise, front point and rear raise gestures, not claimed as additional native slots.",
+    "activation": "Draft only"
+  },
+  "directory": "assets/imagegen/young-farquaad/candidates/nearest-remap"
+}

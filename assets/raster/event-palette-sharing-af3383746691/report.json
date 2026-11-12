@@ -1,0 +1,404 @@
+{
+  "status": "Bounded read-only audit complete; one additional confirmed visible regression outside separately owned parade80",
+  "inputs": [
+    {
+      "name": "original",
+      "path": ".local/chrono-trigger-usa.sfc",
+      "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+    },
+    {
+      "name": "current",
+      "path": "assets/imagegen/town-civilians-gfx125/private/baseline-af3383746691.sfc",
+      "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7"
+    }
+  ],
+  "explicitAssignments": {
+    "decodedLocations": 504,
+    "invalidLocations": [
+      448,
+      452,
+      453,
+      454,
+      455,
+      461,
+      462,
+      463
+    ],
+    "locations": [
+      38,
+      80,
+      464
+    ],
+    "commands": 76,
+    "excludedDetailedLocation": 80,
+    "newIncompatibleExplicitPairsOutside80": 0,
+    "semantics": {
+      "opcode33": "Copies current actor source palette at RAM1400 into hardware OBJ row operand&7; writes RAM0F81. Native C03711..C03750.",
+      "opcode8E": "Writes sprite/background priority RAM0F80, not palette row. Native C04C74 onward."
+    }
+  },
+  "prioritizedFindings": [
+    {
+      "priority": 1,
+      "location": 5,
+      "eventId": 27,
+      "status": "Confirmed visible regression; inactive read-only audit, root owns correction",
+      "evidence": "fair5-report.json",
+      "confidence": "High: native failure PC, actual row/CGRAM/PPU source match, and original-ROM control all reproduced."
+    },
+    {
+      "priority": 2,
+      "locations": [
+        27,
+        79,
+        84
+      ],
+      "status": "No additional collision observed in the bounded original/current traces; current automatic rows reach full five-row occupancy.",
+      "scope": "Opening/staging only; full endings and every branch are not claimed.",
+      "confidence": "High for recorded rows and visible source colors; not global branch coverage."
+    },
+    {
+      "priority": 3,
+      "locations": [
+        38,
+        464,
+        206
+      ],
+      "status": "Recorded original/current staging retains expected source colors. Scene38 reaches37; Steve sharing remains corrected in464.",
+      "confidence": "High for recorded observations only."
+    }
+  ],
+  "allNativeCases": [
+    {
+      "key": "bram-flashback",
+      "version": "current",
+      "location": 206,
+      "eventId": 198,
+      "ticks": 1800,
+      "finalLocation": 206,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/bram-flashback-current.json"
+    },
+    {
+      "key": "bram-flashback",
+      "version": "original",
+      "location": 206,
+      "eventId": 198,
+      "ticks": 1800,
+      "finalLocation": 206,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/bram-flashback-original.json"
+    },
+    {
+      "key": "court",
+      "version": "current",
+      "location": 27,
+      "eventId": 31,
+      "ticks": 1800,
+      "finalLocation": 27,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/court-current.json"
+    },
+    {
+      "key": "court",
+      "version": "original",
+      "location": 27,
+      "eventId": 31,
+      "ticks": 1800,
+      "finalLocation": 27,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/court-original.json"
+    },
+    {
+      "key": "end-time-ending",
+      "version": "current",
+      "location": 84,
+      "eventId": 32,
+      "ticks": 2200,
+      "finalLocation": 84,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/end-time-ending-current.json"
+    },
+    {
+      "key": "end-time-ending",
+      "version": "original",
+      "location": 84,
+      "eventId": 32,
+      "ticks": 2200,
+      "finalLocation": 84,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/end-time-ending-original.json"
+    },
+    {
+      "key": "fair-center",
+      "version": "current",
+      "location": 5,
+      "eventId": 27,
+      "ticks": 1800,
+      "finalLocation": 5,
+      "fatal": null,
+      "recordedColorMismatches": 1,
+      "displayedWrong": [],
+      "manifest": "native-verification/fair-center-current.json"
+    },
+    {
+      "key": "fair-center",
+      "version": "original",
+      "location": 5,
+      "eventId": 27,
+      "ticks": 1800,
+      "finalLocation": 5,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/fair-center-original.json"
+    },
+    {
+      "key": "fair-east",
+      "version": "current",
+      "location": 5,
+      "eventId": 27,
+      "ticks": 1500,
+      "finalLocation": 5,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/fair-east-current.json"
+    },
+    {
+      "key": "fair-east",
+      "version": "original",
+      "location": 5,
+      "eventId": 27,
+      "ticks": 1500,
+      "finalLocation": 5,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/fair-east-original.json"
+    },
+    {
+      "key": "fair-merchant24",
+      "version": "current",
+      "location": 5,
+      "eventId": 27,
+      "ticks": 900,
+      "finalLocation": 5,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/fair-merchant24-current.json"
+    },
+    {
+      "key": "fair-merchant24",
+      "version": "original",
+      "location": 5,
+      "eventId": 27,
+      "ticks": 900,
+      "finalLocation": 5,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/fair-merchant24-original.json"
+    },
+    {
+      "key": "fair-merchant25",
+      "version": "current",
+      "location": 5,
+      "eventId": 27,
+      "ticks": 900,
+      "finalLocation": 5,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/fair-merchant25-current.json"
+    },
+    {
+      "key": "fair-merchant25",
+      "version": "original",
+      "location": 5,
+      "eventId": 27,
+      "ticks": 900,
+      "finalLocation": 5,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/fair-merchant25-original.json"
+    },
+    {
+      "key": "fair-pan-west",
+      "version": "current",
+      "location": 5,
+      "eventId": 27,
+      "ticks": 2100,
+      "finalLocation": 5,
+      "fatal": null,
+      "recordedColorMismatches": 1,
+      "displayedWrong": [
+        {
+          "tick": 1535,
+          "object": 16,
+          "npc": 22,
+          "row": 0,
+          "pixels": 91
+        },
+        {
+          "tick": 1560,
+          "object": 16,
+          "npc": 22,
+          "row": 0,
+          "pixels": 342
+        },
+        {
+          "tick": 1600,
+          "object": 16,
+          "npc": 22,
+          "row": 0,
+          "pixels": 342
+        },
+        {
+          "tick": 1900,
+          "object": 16,
+          "npc": 22,
+          "row": 0,
+          "pixels": 342
+        },
+        {
+          "tick": 2100,
+          "object": 16,
+          "npc": 22,
+          "row": 0,
+          "pixels": 342
+        }
+      ],
+      "manifest": "native-verification/fair-pan-west-current.json"
+    },
+    {
+      "key": "fair-pan-west",
+      "version": "original",
+      "location": 5,
+      "eventId": 27,
+      "ticks": 2100,
+      "finalLocation": 5,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/fair-pan-west-original.json"
+    },
+    {
+      "key": "fair-west",
+      "version": "current",
+      "location": 5,
+      "eventId": 27,
+      "ticks": 1800,
+      "finalLocation": 5,
+      "fatal": null,
+      "recordedColorMismatches": 1,
+      "displayedWrong": [],
+      "manifest": "native-verification/fair-west-current.json"
+    },
+    {
+      "key": "fair-west",
+      "version": "original",
+      "location": 5,
+      "eventId": 27,
+      "ticks": 1800,
+      "finalLocation": 5,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/fair-west-original.json"
+    },
+    {
+      "key": "last-inn",
+      "version": "current",
+      "location": 464,
+      "eventId": 283,
+      "ticks": 1200,
+      "finalLocation": 464,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/last-inn-current.json"
+    },
+    {
+      "key": "last-inn",
+      "version": "original",
+      "location": 464,
+      "eventId": 283,
+      "ticks": 1200,
+      "finalLocation": 464,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/last-inn-original.json"
+    },
+    {
+      "key": "smithy-ending",
+      "version": "current",
+      "location": 38,
+      "eventId": 419,
+      "ticks": 792,
+      "finalLocation": 37,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/smithy-ending-current.json"
+    },
+    {
+      "key": "smithy-ending",
+      "version": "original",
+      "location": 38,
+      "eventId": 419,
+      "ticks": 792,
+      "finalLocation": 37,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/smithy-ending-original.json"
+    },
+    {
+      "key": "throne-ending",
+      "version": "current",
+      "location": 79,
+      "eventId": 83,
+      "ticks": 2200,
+      "finalLocation": 79,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/throne-ending-current.json"
+    },
+    {
+      "key": "throne-ending",
+      "version": "original",
+      "location": 79,
+      "eventId": 83,
+      "ticks": 2200,
+      "finalLocation": 79,
+      "fatal": null,
+      "recordedColorMismatches": 0,
+      "displayedWrong": [],
+      "manifest": "native-verification/throne-ending-original.json"
+    }
+  ],
+  "staticUnionScope": {
+    "splitScenes": 32,
+    "source": "automatic-splits.json",
+    "status": "Research inventory only. Hidden actors, mutually exclusive branches and culling make all-branch union counts unsuitable as a defect claim."
+  },
+  "excludedWork": "Detailed parade80 investigation belongs to town-tradesmen; its independent confirmed problem is not duplicated here.",
+  "activation": false
+}

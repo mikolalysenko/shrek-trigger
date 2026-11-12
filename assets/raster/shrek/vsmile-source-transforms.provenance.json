@@ -1,0 +1,123 @@
+{
+  "source": "assets/raster/shrek/source-user-506339.png",
+  "sourceSha256": "064453761cb693886ce956a58e15c7e4cdb6862618ba2b69f53ab5c718d60de3",
+  "derived": "assets/raster/shrek/vsmile-source-transforms.png",
+  "derivedSha256": "ce16fd093f92eeeac22da2252560f738e53f015b1c08e1da930a39fabcb22faf",
+  "method": "Exact source crop and quarter-turn pixel permutations. Only exact000080/0000ff background pixels become transparent. No anatomy, clothes or facial pixels are drawn. These adaptations are provisional where the original sheet lacks a true knockout/fall pose.",
+  "derivations": [
+    {
+      "name": "down-left-a",
+      "cell": 56,
+      "quarterTurns": 3,
+      "sourceBounds": [
+        2,
+        200,
+        37,
+        59
+      ],
+      "outputRegion": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "sourcePoseIndex": 168
+    },
+    {
+      "name": "down-left-b",
+      "cell": 61,
+      "quarterTurns": 3,
+      "sourceBounds": [
+        44,
+        201,
+        37,
+        58
+      ],
+      "outputRegion": [
+        80,
+        0,
+        80,
+        80
+      ],
+      "sourcePoseIndex": 169
+    },
+    {
+      "name": "roll-left-a",
+      "cell": 19,
+      "quarterTurns": 3,
+      "sourceBounds": [
+        764,
+        11,
+        36,
+        53
+      ],
+      "outputRegion": [
+        160,
+        0,
+        80,
+        80
+      ],
+      "sourcePoseIndex": 170
+    },
+    {
+      "name": "roll-left-b",
+      "cell": 19,
+      "quarterTurns": 1,
+      "sourceBounds": [
+        764,
+        11,
+        36,
+        53
+      ],
+      "outputRegion": [
+        240,
+        0,
+        80,
+        80
+      ],
+      "sourcePoseIndex": 171
+    },
+    {
+      "name": "tumble-front",
+      "cell": 73,
+      "quarterTurns": 2,
+      "sourceBounds": [
+        765,
+        230,
+        44,
+        44
+      ],
+      "outputRegion": [
+        320,
+        0,
+        80,
+        80
+      ],
+      "sourcePoseIndex": 172
+    },
+    {
+      "name": "dive-front",
+      "cell": 71,
+      "quarterTurns": 3,
+      "sourceBounds": [
+        811,
+        218,
+        48,
+        53
+      ],
+      "outputRegion": [
+        400,
+        0,
+        80,
+        80
+      ],
+      "sourcePoseIndex": 173
+    }
+  ],
+  "chromaKey": [
+    "000080",
+    "0000ff"
+  ],
+  "reproduce": "node scripts/derive-raster-poses.mjs assets/raster/shrek/vsmile-source-transforms.provenance.json",
+  "verify": "node scripts/derive-raster-poses.mjs assets/raster/shrek/vsmile-source-transforms.provenance.json --check"
+}

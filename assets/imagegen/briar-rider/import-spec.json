@@ -1,0 +1,109 @@
+{
+  "key": "briar-rider",
+  "directory": "assets/imagegen/briar-rider/active",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "29272b",
+    "4d3031",
+    "8e4c3e",
+    "c67b58",
+    "eac18a",
+    "30423b",
+    "5b7850",
+    "97b46b",
+    "304158",
+    "6b91aa",
+    "dda44d",
+    "fff0c5"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/rootlings-briars/briar-rider/source-guard-v1.png",
+      "columns": 2,
+      "rows": 2,
+      "nativeHeight": 21,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 61
+      },
+      "overrides": {
+        "0": {
+          "scale": 1
+        },
+        "1": {
+          "scale": 0.9003804911795226
+        },
+        "2": {
+          "scale": 1.0845627923713566
+        },
+        "3": {
+          "scale": 1.0326633165829144
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/rootlings-briars/briar-rider/source-special-v1.png",
+      "columns": 3,
+      "rows": 2,
+      "nativeHeight": 38,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 61
+      },
+      "overrides": {
+        "0": {
+          "scale": 1
+        },
+        "1": {
+          "scale": 1.0747310264611805
+        },
+        "2": {
+          "scale": 1.0389473684210526
+        },
+        "3": {
+          "scale": 1.1653940550859012
+        },
+        "4": {
+          "scale": 1.0839568801521877
+        },
+        "5": {
+          "scale": 1.150491317808588
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "source": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  },
+  "notes": {
+    "status": "Active source extraction followed by frozen native-layer composition; source sequences are not native frame order.",
+    "unusedSourceFrames": [],
+    "pixels": "All anatomy, clothing, wood and leaves come from actual generated PNGs. Only nearest sampling, palette indexing, exact source mirrors and integer source-layer composition are used."
+  },
+  "nativeComposer": "rootlings-briars"
+}

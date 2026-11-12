@@ -1,0 +1,582 @@
+{
+  "status": "Frozen inactive candidate; production integration remains root-owned",
+  "package": "bakery-civilians",
+  "manifest": "reproducibility-files.txt",
+  "manifestFiles": 65,
+  "manifestSha256": "2e3d3a8c7dc1a62eeb90fa40b20f790d29e8de1e171bf649c41d41526d9f5977",
+  "families": [
+    {
+      "key": "porter",
+      "familyKey": "bread-porters",
+      "rasterKey": "bread-porter",
+      "native": {
+        "gfx": 24,
+        "assembly": 12,
+        "animation": 21,
+        "frames": 23,
+        "width": 32,
+        "height": 32,
+        "cells": 4,
+        "size": 0,
+        "owners": [
+          {
+            "npc": 30,
+            "palette": 123
+          },
+          {
+            "npc": 62,
+            "palette": 124
+          }
+        ],
+        "blankFrames": [],
+        "frameOffsets": {},
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ]
+      },
+      "inputs": {
+        "spec": "porter-import-spec.draft.json",
+        "specSha256": "2611fb742f468c8ccb4959038bd926f16a74edb9d3d653132526a61dbe48c103",
+        "geometry": "porter-draft/family.json",
+        "geometrySha256": "01c14b7b5561ef67502e35be3ec1a1675726f3473e3fea6e310ec29a3954f467",
+        "roles": "porter-native-roles.json",
+        "rolesSha256": "23cbabeb7a8135952607ccc59a098d5ed3b64c00c5c9c11ffcb721e0bbf42ffd"
+      },
+      "compiled": {
+        "rawGraphicsBytes": 5856,
+        "compressedBytes": 3146,
+        "assemblyBytes": 920,
+        "graphicsSha256": "1d3233030da3151180d8e68dfacc94b73d93533b9ec45e8406adee3fdda667b8",
+        "compressedSha256": "59e0bc83df6b897f9e7c8f43aaab29cffbbba464e51c669f126695118fa23b13",
+        "assemblySha256": "589d51e26115dd978dc3ea4a8e4688d866da35103eba6261fdf8de9a6962e2bc",
+        "paletteSha256": {
+          "123": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08",
+          "124": "d1489b7af1ae7fc04c913aa817fed2a6e9edd9ad5b6f03deb53f21b214afff76"
+        }
+      },
+      "cost": {
+        "candidate": {
+          "raw": 5856,
+          "compressed": 3146,
+          "assembly": 920,
+          "totalCompressedAndAssembly": 4066
+        },
+        "originalCT": {
+          "graphicsOffset": 1669447,
+          "graphicsBytes": 2752,
+          "compressedBytes": 2241,
+          "assemblyOffset": 1950344,
+          "assemblyBytes": 920,
+          "totalCompressedAndAssembly": 3161,
+          "compressedAllocationGrowth": 905,
+          "rawGrowth": 3104
+        },
+        "activeEarlierArt": {
+          "raw": 2048,
+          "compressed": 881,
+          "assembly": 920,
+          "totalCompressedAndAssembly": 1801,
+          "compressedAllocationGrowth": 2265,
+          "rawGrowth": 3808,
+          "graphicsSha256": "225a97feefd1c74d4dcd9900832545e33dbb551ce0c10f273185ba9860be8a84",
+          "compressedSha256": "a114fae49392f5d5803f6e5570a5a075be5b8f64bc4024faaa9b9b171b09e50c",
+          "assemblySha256": "77e18171b87d0471c6602d1a23496998d5dce2a4684521921788ca291dce15d3",
+          "matchesActiveSourceFamilySnapshot": true
+        }
+      }
+    },
+    {
+      "key": "baker",
+      "familyKey": "cinnamon-bakers",
+      "rasterKey": "cinnamon-baker",
+      "native": {
+        "gfx": 25,
+        "assembly": 13,
+        "animation": 22,
+        "frames": 23,
+        "width": 32,
+        "height": 32,
+        "cells": 4,
+        "size": 0,
+        "owners": [
+          {
+            "npc": 31,
+            "palette": 123
+          },
+          {
+            "npc": 63,
+            "palette": 124
+          }
+        ],
+        "blankFrames": [],
+        "frameOffsets": {},
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ]
+      },
+      "inputs": {
+        "spec": "baker-import-spec.draft.json",
+        "specSha256": "ded9ed116be59a5bba4a2920afb6df3b7c83665373d5ebb0402f08e0985d02ac",
+        "geometry": "baker-draft/family.json",
+        "geometrySha256": "03965e6009a55cdaed9bc4cab0b4c07a875a10bc1c40351e5ef606637a4cd49c",
+        "roles": "baker-native-roles.json",
+        "rolesSha256": "e8d30740b42fdb87a5f5a60a29c3293bc9ea3f25fe126ea4c5ede2b7ade34561"
+      },
+      "compiled": {
+        "rawGraphicsBytes": 7008,
+        "compressedBytes": 4074,
+        "assemblyBytes": 920,
+        "graphicsSha256": "0c41309126f1a67bc163fd5d1adb0f1156d5d31a3811ce8886c1443af53d087a",
+        "compressedSha256": "40fa6486dbddb03c852c7398480e0d1d4eefd27849bd1b166a50191add22553c",
+        "assemblySha256": "7e3129c82fcc92351aeaaae82dec8beb224f1b295afeaa88e9bddbbb06d24202",
+        "paletteSha256": {
+          "123": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08",
+          "124": "d1489b7af1ae7fc04c913aa817fed2a6e9edd9ad5b6f03deb53f21b214afff76"
+        }
+      },
+      "cost": {
+        "candidate": {
+          "raw": 7008,
+          "compressed": 4074,
+          "assembly": 920,
+          "totalCompressedAndAssembly": 4994
+        },
+        "originalCT": {
+          "graphicsOffset": 1671688,
+          "graphicsBytes": 2560,
+          "compressedBytes": 2395,
+          "assemblyOffset": 1951264,
+          "assemblyBytes": 920,
+          "totalCompressedAndAssembly": 3315,
+          "compressedAllocationGrowth": 1679,
+          "rawGrowth": 4448
+        },
+        "activeEarlierArt": {
+          "raw": 1664,
+          "compressed": 680,
+          "assembly": 920,
+          "totalCompressedAndAssembly": 1600,
+          "compressedAllocationGrowth": 3394,
+          "rawGrowth": 5344,
+          "graphicsSha256": "3b14cfef0c3a1ee34492ff824f1f51d99a9bd6a9cc472311ae37e07e1f99f1f4",
+          "compressedSha256": "e0d09a2bf270a916d457c27bd19c5636b3be01831ffa8e3753799506b32213ef",
+          "assemblySha256": "352016a0f3d72256d9befcdd5e2c44acd1e81ba50ae801fa4922e06c7ad05397",
+          "matchesActiveSourceFamilySnapshot": true
+        }
+      }
+    }
+  ],
+  "combinedCost": {
+    "raw": 12864,
+    "compressed": 7220,
+    "assembly": 1840,
+    "totalCompressedAndAssembly": 9060,
+    "originalCTTotal": 6476,
+    "originalCTGrowth": 2584,
+    "currentEarlierArtTotal": 3401,
+    "currentPlanningGrowth": 5659,
+    "rawGrowthVersusCurrent": 9152
+  },
+  "sharedPaletteContract": {
+    "paletteIds": [
+      123,
+      124
+    ],
+    "unchangedBytes": true,
+    "privateOverlayPaletteWrites": 0,
+    "completeProjectOwners": "shared-village-owners.json",
+    "note": "These ramps also serve children, elder and feast props. Register both families with the existing complete village owner group; do not make a separate palette replacement."
+  },
+  "acceptance": {
+    "leadBaseAndFullSheets": true,
+    "leadNorthRecolors": true,
+    "rootVisual": false,
+    "nativeUploads": 92,
+    "nativeOpaquePixels": 39608,
+    "nativeTimedTicks": 3600,
+    "nativeTimedScenarios": 18,
+    "actualNpcLoads": [
+      30,
+      62,
+      31,
+      63
+    ],
+    "privateRomSha256": "f68b467ce635581fa6124b8c482af06190b20e26599a0b128a4e034678f43e79",
+    "paletteBytesUnchanged": true,
+    "independentCores": false,
+    "completeSharedScenes": false,
+    "candidateRawStreaming": false
+  },
+  "motionReadThrough": {
+    "explanation": "Original Baker lists lack a terminating byte within their last mode. Native code reads the next facing idle (or next animation first byte) with the following duration5, then duration0 loops. These original adjacent bytes are retained, not synthesized.",
+    "animationTail": [
+      0
+    ],
+    "durationTail": [
+      5,
+      0
+    ],
+    "extendedAnimationSha256": "75973698672fb99854b5da4be529f3c1337e7b42f2ce0db19dfe0397d37a7f28",
+    "extendedDurationSha256": "ec677b3ed3e89539d22b6f0092acff7a3dde4d8a7ee42c21ccc997768ef558ed"
+  },
+  "requiredArtifacts": [
+    {
+      "path": "README.md",
+      "bytes": 8598,
+      "sha256": "b09129a10b2d4c7ea5462006958016c9f8d1a917b59dac8f24b66634e53e0735"
+    },
+    {
+      "path": "source-families.json",
+      "bytes": 2517,
+      "sha256": "6faa5a2e2370b2738680d6e04a684aa133fd4670e14a6d0d828cc3566563025e"
+    },
+    {
+      "path": "shared-village-owners.json",
+      "bytes": 3981,
+      "sha256": "a9d65988e633f6ebc40dbc010e915720345dcc5075aa6843bc4b2d8a4189a5e7"
+    },
+    {
+      "path": "native-audit.json",
+      "bytes": 67056,
+      "sha256": "647e8029cbde653513908055db72f64e06cce3297d62e2f7ee78978d80a84ed2"
+    },
+    {
+      "path": "audit-native.mjs",
+      "bytes": 7189,
+      "sha256": "b97c24489f219f4be8f7cb648dc0081f88866911e155176dd0c986ee7298fd96"
+    },
+    {
+      "path": "prepare-draft.mjs",
+      "bytes": 5148,
+      "sha256": "ada03cfe53076151cd571f1add325e4889d3358d8a6fe88ea2068bac9ba2a69a"
+    },
+    {
+      "path": "compile-draft.mjs",
+      "bytes": 6715,
+      "sha256": "f1e2b211dddb73298271dc703e4bbd4a3e3760900a63c80b1701af7aaf52b252"
+    },
+    {
+      "path": "private-overlay.mjs",
+      "bytes": 2727,
+      "sha256": "2b80a21f0925e030e2e6e0a9f27c7c33924229554036eea1b048cd9c2ebb7cba"
+    },
+    {
+      "path": "verify-native.mjs",
+      "bytes": 5994,
+      "sha256": "8f095598edd256df9ee5c161efe0e806e04bbc157a3b27d9dd4f32a3a597a2ee"
+    },
+    {
+      "path": "verify-motion.mjs",
+      "bytes": 5134,
+      "sha256": "db51558e1a175c7018eb3b2d91f88db9dc274acedfcba3a297c12c7c2bfb97d6"
+    },
+    {
+      "path": "build-review.mjs",
+      "bytes": 10812,
+      "sha256": "62e0c7fb3841cd5180d875b88a80299c38de0e33834d45699c4e808105576fb2"
+    },
+    {
+      "path": "verify-frozen.mjs",
+      "bytes": 2501,
+      "sha256": "d337a801130bded19b61563af8f99f9f991a2ff8ed63fb3fe0355354b25f414b"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 4611,
+      "sha256": "83c91f51ea56bd08c36b116d6a4b2c31413e7ea9bf22bd90bc36e6e2cf66921e"
+    },
+    {
+      "path": "prompt-porter-base-v1.txt",
+      "bytes": 3157,
+      "sha256": "5b737f955a59faacbeb1a3c6aa2ded45c6f12d24521735b0544389d1c2f03490"
+    },
+    {
+      "path": "source-porter-base-v1.png",
+      "bytes": 962357,
+      "sha256": "a5240abe170af0364d38214a768ec0d7b4807d177a1c694b22c25c913ba6303f"
+    },
+    {
+      "path": "prompt-porter-actions-v1.txt",
+      "bytes": 2441,
+      "sha256": "f8d75977268a79f85f45725e051e990f511ba0b13f9505a326fd43b0571e2500"
+    },
+    {
+      "path": "source-porter-actions-v1.png",
+      "bytes": 613437,
+      "sha256": "9197912ce19b26d202648f21cb9a5d6f50e884b7c2588d701dd9866516fc17b1"
+    },
+    {
+      "path": "prompt-baker-base-v1.txt",
+      "bytes": 3284,
+      "sha256": "fa4c1a8ce51b8f1d20b8a666b5d8687602a969845e1f944884ae8fc8205bec7d"
+    },
+    {
+      "path": "source-baker-base-v1.png",
+      "bytes": 1258944,
+      "sha256": "8b4d10ffb25c564034287f2aadf640f116710c7e2f9cd919ddb66173ce7ec523"
+    },
+    {
+      "path": "prompt-baker-actions-v1.txt",
+      "bytes": 1994,
+      "sha256": "0fff7f4b9c1ac1ec128c04e4f276a87f97a2a9bcb99b16bbf319b6ead5969d3a"
+    },
+    {
+      "path": "source-baker-actions-v1.png",
+      "bytes": 589802,
+      "sha256": "c1633a92b6e4a7dd38cfdf27bae5798ebb8ea5eba2c589eea74a561dc84cfded"
+    },
+    {
+      "path": "porter-import-spec.draft.json",
+      "bytes": 4464,
+      "sha256": "2611fb742f468c8ccb4959038bd926f16a74edb9d3d653132526a61dbe48c103"
+    },
+    {
+      "path": "porter-native-roles.json",
+      "bytes": 13160,
+      "sha256": "23cbabeb7a8135952607ccc59a098d5ed3b64c00c5c9c11ffcb721e0bbf42ffd"
+    },
+    {
+      "path": "porter-draft/preview-import.json",
+      "bytes": 6373,
+      "sha256": "5a70d443eb6ae9fea4bb8348ef3e8905903ab1e64a5ca5c86405f886db7e0a00"
+    },
+    {
+      "path": "porter-draft/preview-raster.json",
+      "bytes": 17589,
+      "sha256": "b56ed3032c3e75afc61b50e44fd5b3e071b83169fcec04a1348e4e44f2080b4e"
+    },
+    {
+      "path": "porter-draft/family.json",
+      "bytes": 1117,
+      "sha256": "01c14b7b5561ef67502e35be3ec1a1675726f3473e3fea6e310ec29a3954f467"
+    },
+    {
+      "path": "porter-draft/graphics.4bpp",
+      "bytes": 5856,
+      "sha256": "1d3233030da3151180d8e68dfacc94b73d93533b9ec45e8406adee3fdda667b8"
+    },
+    {
+      "path": "porter-draft/graphics.ct-lz",
+      "bytes": 3146,
+      "sha256": "59e0bc83df6b897f9e7c8f43aaab29cffbbba464e51c669f126695118fa23b13"
+    },
+    {
+      "path": "porter-draft/assembly.bin",
+      "bytes": 920,
+      "sha256": "589d51e26115dd978dc3ea4a8e4688d866da35103eba6261fdf8de9a6962e2bc"
+    },
+    {
+      "path": "porter-draft/palette-123.bin",
+      "bytes": 24,
+      "sha256": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+    },
+    {
+      "path": "porter-draft/palette-124.bin",
+      "bytes": 24,
+      "sha256": "d1489b7af1ae7fc04c913aa817fed2a6e9edd9ad5b6f03deb53f21b214afff76"
+    },
+    {
+      "path": "porter-draft/verification.json",
+      "bytes": 17669,
+      "sha256": "9b50d71f669267e0bff298bb96ec5c9480b775e8124d7b4333ea3ca12d6572a7"
+    },
+    {
+      "path": "porter-draft/native-6x.png",
+      "bytes": 23743,
+      "sha256": "fbb8398364ce9b2946e0701f3e183e94d4b6dd0458a4f593c0c0a64c600663f6"
+    },
+    {
+      "path": "baker-import-spec.draft.json",
+      "bytes": 4995,
+      "sha256": "ded9ed116be59a5bba4a2920afb6df3b7c83665373d5ebb0402f08e0985d02ac"
+    },
+    {
+      "path": "baker-native-roles.json",
+      "bytes": 12723,
+      "sha256": "e8d30740b42fdb87a5f5a60a29c3293bc9ea3f25fe126ea4c5ede2b7ade34561"
+    },
+    {
+      "path": "baker-draft/preview-import.json",
+      "bytes": 7290,
+      "sha256": "170c969a905d4ba26d1b66226eeda6aa47d29940f0fa0a5997aabef42e870430"
+    },
+    {
+      "path": "baker-draft/preview-raster.json",
+      "bytes": 18463,
+      "sha256": "da2487ac937ee4615f7658c0d3875503701cc321bf636651dbf7dbf0eeaa5e29"
+    },
+    {
+      "path": "baker-draft/family.json",
+      "bytes": 1127,
+      "sha256": "03965e6009a55cdaed9bc4cab0b4c07a875a10bc1c40351e5ef606637a4cd49c"
+    },
+    {
+      "path": "baker-draft/graphics.4bpp",
+      "bytes": 7008,
+      "sha256": "0c41309126f1a67bc163fd5d1adb0f1156d5d31a3811ce8886c1443af53d087a"
+    },
+    {
+      "path": "baker-draft/graphics.ct-lz",
+      "bytes": 4074,
+      "sha256": "40fa6486dbddb03c852c7398480e0d1d4eefd27849bd1b166a50191add22553c"
+    },
+    {
+      "path": "baker-draft/assembly.bin",
+      "bytes": 920,
+      "sha256": "7e3129c82fcc92351aeaaae82dec8beb224f1b295afeaa88e9bddbbb06d24202"
+    },
+    {
+      "path": "baker-draft/palette-123.bin",
+      "bytes": 24,
+      "sha256": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+    },
+    {
+      "path": "baker-draft/palette-124.bin",
+      "bytes": 24,
+      "sha256": "d1489b7af1ae7fc04c913aa817fed2a6e9edd9ad5b6f03deb53f21b214afff76"
+    },
+    {
+      "path": "baker-draft/verification.json",
+      "bytes": 17275,
+      "sha256": "70dd6b72a63aa932ce11d88dfa8d48e9bbe767a8aa55ba85727428546a5a9ef9"
+    },
+    {
+      "path": "baker-draft/native-6x.png",
+      "bytes": 27482,
+      "sha256": "70f86694961d3cf70a71b8a3dbddaf4fdd132349fa4cf7b56331aaf8f94fb024"
+    },
+    {
+      "path": "current-co-loads.json",
+      "bytes": 10172,
+      "sha256": "ecfa7c67a41e1118fcc16b5cd6d4d90f394bb0a551c7d1a1b4656b4a9b159e85"
+    },
+    {
+      "path": "native-verification/manifest.json",
+      "bytes": 4854,
+      "sha256": "6480b6dc092e1aa6fd4cb48fac01c6d4a79c8432ec0c6a3f1a360798e507de5c"
+    },
+    {
+      "path": "native-verification/bakery-porter-native-frame-1.png",
+      "bytes": 56302,
+      "sha256": "78056c905a6a8542135783ad4ad7e8c94e02443edacc1582f9b8394ad1bfb229"
+    },
+    {
+      "path": "native-verification/bakery-porter-native-frame-22.png",
+      "bytes": 56448,
+      "sha256": "899370d612c4896d8fb55ef8bf72bcffcfb645cdae82fd70f910f00c2e3beb4e"
+    },
+    {
+      "path": "native-verification/north-bakery-porter-native-frame-1.png",
+      "bytes": 56303,
+      "sha256": "e58dababdf325af8632cd64633937db6d4bc7a38f00f63927578404d22d1b21c"
+    },
+    {
+      "path": "native-verification/north-bakery-porter-native-frame-20.png",
+      "bytes": 56371,
+      "sha256": "c8b54d72271ef4d9015e4bfca0dc0fc768d2b909b956d943e93748c85f8a6db3"
+    },
+    {
+      "path": "native-verification/bakery-baker-native-frame-1.png",
+      "bytes": 56411,
+      "sha256": "2637d86057798417ee19041286f38d1b2fbf2836412530d06f7f3636ce8d1707"
+    },
+    {
+      "path": "native-verification/bakery-baker-native-frame-22.png",
+      "bytes": 56528,
+      "sha256": "69f6d7566be49ffb6e1472a86d64a27c7538440b6064a3bc05ca5b39c27da05c"
+    },
+    {
+      "path": "native-verification/north-bakery-baker-native-frame-1.png",
+      "bytes": 56397,
+      "sha256": "c583d84d7e2305e09cc5fe6b8d30f47d30845b885fe8ec24e85d8f9e6e753b57"
+    },
+    {
+      "path": "native-verification/north-bakery-baker-native-frame-20.png",
+      "bytes": 56338,
+      "sha256": "369065fa550f9c85f49827f5e5ca68e1d6aae0a892abb6e401af21653fefb84b"
+    },
+    {
+      "path": "motion-verification/manifest.json",
+      "bytes": 446415,
+      "sha256": "779e4b053f02341d9038e161a606066caf4072c0bbc6793a4157bd9a179de642"
+    },
+    {
+      "path": "review/contact-sheet-1x.png",
+      "bytes": 79282,
+      "sha256": "3d8ca8c5f30b7250f0b9fb24f7adf06c96dec78e5eb756aa7d5656a50a2c4f7b"
+    },
+    {
+      "path": "review/motion-strip-1x.png",
+      "bytes": 106713,
+      "sha256": "2bcc34ce0827b828edbc1a3acee5ec5427f36f186bc7bdb9a8a3aebcdf340ad1"
+    },
+    {
+      "path": "review/motion-review.html",
+      "bytes": 103408,
+      "sha256": "9e8bdef98b644a133ae6b41d0209995486cb2b85316707f6adcd638d21e9fc8e"
+    },
+    {
+      "path": "review/motion-review.gif",
+      "bytes": 225818,
+      "sha256": "28a389b94d4987b1e2a89fa2bd35c31ef7e2947f853d02f8a4c9a03dfee3f54e"
+    },
+    {
+      "path": "review/review-manifest.json",
+      "bytes": 882,
+      "sha256": "f9cd41070d6be5a16775573131d4b67f1b255914229fff273aeefb30043c62e7"
+    },
+    {
+      "path": "review/actual-native-front-crops-6x.png",
+      "bytes": 6297,
+      "sha256": "04cb09ac1b5b5ea9ddcc2c02c9647575db937cc32b44cb50b26f6765d2adf524"
+    },
+    {
+      "path": "integration-proposal.json",
+      "bytes": 11304,
+      "sha256": "70d5a43828acc15e727af3cb12fb3a2dee0e41048f6f24a77ac58cb827be71e2"
+    }
+  ],
+  "excluded": [
+    "Original extracted cartridge artwork",
+    "Preliminary base-only previews",
+    "Diagnostic trace script and output",
+    "Redundant native capture PNGs",
+    "Active import-spec.json or registry entries",
+    "Any ROM or shared checkpoint output"
+  ],
+  "limitations": [
+    "All-branch saved-build union282is32,960bytes; conservative union is not actual residency proof.",
+    "Original bank-size guard remains unchanged; raw streaming is a production integration decision.",
+    "Solo compressed proof does not certify original complete chapters or independent cores."
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "status": "Original-list native timing and representative original-scene motion passed",
+  "candidateSha256": "9d6988fc1b04a340d0a64c42fa5ecb891d4b06bbcc128855204fd00ae0dffcc3",
+  "nativeTiming": {
+    "cases": 72,
+    "cycles": 144,
+    "scoredTicks": 3392,
+    "startupTicks": 3080,
+    "maximumRequestDisplayDelay": 0,
+    "fieldDelayTicks": 0,
+    "startupDelayTicks": 0,
+    "programBytesUnchanged": true
+  },
+  "nativeSceneCaptures": [
+    {
+      "file": "motion-storage-battle-motion.apng",
+      "sha256": "58de01896ddced033b9c00f0c7c77b3370c0bdc89310eafd071ea4559a0a2633",
+      "firstVideoFrame": 10618,
+      "videoTicks": 120,
+      "framesPerSecond": 60,
+      "scope": "Unchanged native scene, original actors/events and controller state; diagnostic entry is recorded separately."
+    },
+    {
+      "file": "motion-fortress-battle-motion.apng",
+      "sha256": "5206d5c23ef03e2635ee7c79a9fe6589d1327597b71c9d01711bff56f61313a8",
+      "firstVideoFrame": 10446,
+      "videoTicks": 120,
+      "framesPerSecond": 60,
+      "scope": "Unchanged native scene, original actors/events and controller state; diagnostic entry is recorded separately."
+    },
+    {
+      "file": "motion-medina-peaceful-inn-field-motion.apng",
+      "sha256": "23fad4ca8318e7559f90d9ded740b3c50d7098cebe3273115e838580ee33f836",
+      "firstVideoFrame": 9306,
+      "videoTicks": 120,
+      "framesPerSecond": 60,
+      "scope": "Unchanged native scene, original actors/events and controller state; diagnostic entry is recorded separately."
+    },
+    {
+      "file": "motion-medina-inn-field-motion.apng",
+      "sha256": "f88f39720f677d3095bcc51969f1a978b7469fe288c8624c6bf4345b9b94cc6f",
+      "firstVideoFrame": 9306,
+      "videoTicks": 120,
+      "framesPerSecond": 60,
+      "scope": "Unchanged native scene, original actors/events and controller state; diagnostic entry is recorded separately."
+    },
+    {
+      "file": "motion-medina-inn-battle-motion.apng",
+      "sha256": "7280347d6be1a5a8439e1acf9d738dfe2bfb3baa1472eae2f364971bcbef2a9c",
+      "firstVideoFrame": 10746,
+      "videoTicks": 120,
+      "framesPerSecond": 60,
+      "scope": "Unchanged native scene, original actors/events and controller state; diagnostic entry is recorded separately."
+    },
+    {
+      "file": "motion-medina-peaceful-market-field-motion.apng",
+      "sha256": "edbc3d99f99aa9c9c4e5a9bbf6c57af68a893f35b52c84d729cda4d791eef406",
+      "firstVideoFrame": 9306,
+      "videoTicks": 120,
+      "framesPerSecond": 60,
+      "scope": "Unchanged native scene, original actors/events and controller state; diagnostic entry is recorded separately."
+    },
+    {
+      "file": "motion-medina-square-native-patrol.apng",
+      "sha256": "2d645b3aa0416fec8b986a30ab854d4611df1c2d226576ef43d9fb6db555af4e",
+      "firstVideoFrame": 10276,
+      "videoTicks": 120,
+      "framesPerSecond": 60,
+      "controllerInputs": [],
+      "scope": "Unchanged native scene, original actors/events and controller state; diagnostic entry is recorded separately."
+    },
+    {
+      "file": "motion-kitchen-native-reaction.apng",
+      "sha256": "ae189fc3f5a809577d1259fddd4de969250b58debcbc391119d932958e21ae22",
+      "firstVideoFrame": 9827,
+      "videoTicks": 360,
+      "framesPerSecond": 60,
+      "controllerInputs": [
+        {
+          "tick": 0,
+          "buttons": 256
+        },
+        {
+          "tick": 1,
+          "buttons": 256
+        },
+        {
+          "tick": 2,
+          "buttons": 256
+        },
+        {
+          "tick": 90,
+          "buttons": 256
+        },
+        {
+          "tick": 91,
+          "buttons": 256
+        },
+        {
+          "tick": 92,
+          "buttons": 256
+        }
+      ],
+      "scope": "Unchanged native scene, original actors/events and controller state; diagnostic entry is recorded separately."
+    }
+  ],
+  "kitchenReactionsInsideCapture": [
+    {
+      "location": 202,
+      "object": 10,
+      "scriptPC": 577,
+      "opcode": 170,
+      "argument": 5,
+      "videoFrame": 9933
+    },
+    {
+      "location": 202,
+      "object": 10,
+      "scriptPC": 580,
+      "opcode": 170,
+      "argument": 0,
+      "videoFrame": 9942
+    },
+    {
+      "location": 202,
+      "object": 10,
+      "scriptPC": 583,
+      "opcode": 170,
+      "argument": 5,
+      "videoFrame": 9951
+    },
+    {
+      "location": 202,
+      "object": 10,
+      "scriptPC": 586,
+      "opcode": 170,
+      "argument": 0,
+      "videoFrame": 9960
+    },
+    {
+      "location": 202,
+      "object": 10,
+      "scriptPC": 589,
+      "opcode": 170,
+      "argument": 5,
+      "videoFrame": 9969
+    },
+    {
+      "location": 202,
+      "object": 10,
+      "scriptPC": 593,
+      "opcode": 170,
+      "argument": 1,
+      "videoFrame": 9987
+    }
+  ],
+  "battleLayers": [
+    {
+      "phase": "storage",
+      "location": 201,
+      "enemy": 75,
+      "slot": 0,
+      "requestedFrame": 1,
+      "displayedFrame": 1,
+      "requestedOrigin": [
+        138,
+        139
+      ],
+      "displayedOrigin": [
+        138,
+        139
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 525,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "storage",
+      "location": 201,
+      "enemy": 75,
+      "slot": 2,
+      "requestedFrame": 10,
+      "displayedFrame": 10,
+      "requestedOrigin": [
+        178,
+        147
+      ],
+      "displayedOrigin": [
+        178,
+        147
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 449,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "storage",
+      "location": 201,
+      "enemy": 75,
+      "slot": 4,
+      "requestedFrame": 0,
+      "displayedFrame": 0,
+      "requestedOrigin": [
+        97,
+        147
+      ],
+      "displayedOrigin": [
+        97,
+        147
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 468,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "fortress",
+      "location": 170,
+      "enemy": 5,
+      "slot": 2,
+      "requestedFrame": 4,
+      "displayedFrame": 4,
+      "requestedOrigin": [
+        88,
+        86
+      ],
+      "displayedOrigin": [
+        88,
+        86
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 538,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "fortress",
+      "location": 170,
+      "enemy": 5,
+      "slot": 3,
+      "requestedFrame": 4,
+      "displayedFrame": 4,
+      "requestedOrigin": [
+        152,
+        86
+      ],
+      "displayedOrigin": [
+        152,
+        86
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 538,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "medina-inn",
+      "location": 35,
+      "enemy": 75,
+      "slot": 0,
+      "requestedFrame": 1,
+      "displayedFrame": 1,
+      "requestedOrigin": [
+        136,
+        79
+      ],
+      "displayedOrigin": [
+        136,
+        79
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 525,
+      "occludedOrNonRawPixels": 0
+    }
+  ],
+  "sourceListReview": "review/motion-original-vs-new.html compares unchanged lists at60Hz; this is source playback, not emulator evidence.",
+  "limits": [
+    "Approval and proof apply to this exact source and private ROM fingerprint. Final production allocation and independent-core validation remain root-owned.",
+    "Source-normalized widths, two shortened action silhouettes and authored placements differ as recorded; original lowest body pixels, six flecks and all native cell origins remain fixed.",
+    "Only seven phases in six locations were executed after reversible diagnostics with development party resources. This is not full campaign traversal or normal-level balance validation.",
+    "Peaceful inn35 and market39 load enemy13/gfx86 instead of Hench75. Their success is unrelated-owner/branch evidence; peaceful square31 separately proves visible Hench75.",
+    "Zero delay was observed in isolated AA30 field tests and six battle layer samples. This does not claim every gameplay transition has identical display latency.",
+    "Map, dialogue and party overlap can obscure native pixels in real scenes. Exact full cells/palettes and unobstructed final pixels are separately proved in all74 isolated poses.",
+    "Source scene unions combine verified conditional loads. They are conservative resource inventories, not proof of every simultaneous resident set."
+  ]
+}

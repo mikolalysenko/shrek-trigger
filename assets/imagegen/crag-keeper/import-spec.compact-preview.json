@@ -1,0 +1,229 @@
+{
+  "key": "crag-keeper",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "232b30",
+    "3d4852",
+    "63737d",
+    "93a5a5",
+    "c7d0b5",
+    "2c4338",
+    "4e7350",
+    "91ac67",
+    "3b3547",
+    "736883",
+    "d2aa57",
+    "f6e9b9"
+  ],
+  "directory": "assets/imagegen/crag-keeper/compact-preview",
+  "sheets": [
+    {
+      "file": "assets/imagegen/crag-keeper/source-base-v2.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 42,
+      "scaleCells": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 63,
+        "scaleX": 0.8,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    },
+    {
+      "file": "assets/imagegen/crag-keeper/source-actions-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 42,
+      "scaleCells": [
+        2
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 63,
+        "scaleX": 0.8,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        {
+          "frame": 0,
+          "flip": true
+        },
+        2,
+        3,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        4,
+        5,
+        6,
+        {
+          "frame": 4,
+          "flip": true
+        },
+        {
+          "frame": 5,
+          "flip": true
+        },
+        {
+          "frame": 6,
+          "flip": true
+        },
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        {
+          "frame": 11,
+          "flip": true
+        },
+        {
+          "frame": 12,
+          "flip": true
+        },
+        13,
+        14,
+        15,
+        16,
+        {
+          "frame": 15,
+          "flip": true
+        },
+        {
+          "frame": 16,
+          "flip": true
+        },
+        17
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "All27 original nonblank slots consume18 viewed generated full-body poses. Exact original mirror pairs and the existing per-frame anchor offsets are retained; source13 correctly faces back and source26 remains a leaning collapse. No idle substitution."
+      }
+    }
+  },
+  "notes": {
+    "status": "Inactive draft",
+    "nativeFrames": 27,
+    "blankFrames": [],
+    "owners": [
+      169,
+      200
+    ],
+    "graphics": 140,
+    "assembly": 134,
+    "animation": 102,
+    "nativeCells": 8,
+    "frameOffsets": {
+      "1": [
+        0,
+        1
+      ],
+      "4": [
+        0,
+        1
+      ],
+      "7": [
+        0,
+        1
+      ],
+      "10": [
+        0,
+        1
+      ],
+      "12": [
+        0,
+        -2
+      ],
+      "13": [
+        0,
+        2
+      ],
+      "14": [
+        0,
+        2
+      ],
+      "15": [
+        0,
+        3
+      ],
+      "17": [
+        -4,
+        2
+      ],
+      "19": [
+        4,
+        2
+      ],
+      "20": [
+        0,
+        3
+      ],
+      "22": [
+        -4,
+        2
+      ],
+      "23": [
+        -2,
+        1
+      ],
+      "24": [
+        4,
+        2
+      ],
+      "25": [
+        2,
+        1
+      ],
+      "26": [
+        0,
+        6
+      ]
+    },
+    "alternatePalette": {
+      "enemy": 200,
+      "palette": 189,
+      "colors": [
+        "292636",
+        "443c53",
+        "73617c",
+        "a18a9c",
+        "d5b8bf",
+        "384157",
+        "586b86",
+        "94a7b5",
+        "4b3540",
+        "925e71",
+        "ddb060",
+        "ffedc9"
+      ]
+    },
+    "sourceCellsNotConsumed": [],
+    "sampling": "Uniform0.85 horizontal conversion across the model; native44px standing scale. Full alpha-connected source silhouettes retained."
+  }
+}

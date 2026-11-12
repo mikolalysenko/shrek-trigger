@@ -1,0 +1,143 @@
+{
+  "key": "godmother-giant-hands",
+  "directory": "assets/imagegen/godmother-giant/hands",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 192,
+  "palette": [
+    "29283a",
+    "aa776b",
+    "dfb0a0",
+    "f6d5bd",
+    "f5e7d6",
+    "3a538b",
+    "678ac6",
+    "535369",
+    "fff5e6",
+    "9297b0",
+    "cbd0e2",
+    "e4bb68"
+  ],
+  "samplingPalette": [
+    "100820",
+    "cd7b58",
+    "f8b888",
+    "ffdab8",
+    "f5e7d6",
+    "254a8b",
+    "6796db",
+    "535369",
+    "fff5e6",
+    "9297b0",
+    "cbd0e2",
+    "ffce36"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/godmother-giant/source-hands-v1.png",
+      "columns": 2,
+      "rows": 4,
+      "nativeHeight": 80,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "alphaThreshold": 128,
+        "bottom": 190
+      },
+      "overrides": {
+        "0": {
+          "scale": 1
+        },
+        "1": {
+          "scale": 0.9657516891891891
+        },
+        "2": {
+          "scale": 0.9109375
+        },
+        "3": {
+          "scale": 0.7988556338028169
+        },
+        "4": {
+          "scale": 0.7784926470588235
+        },
+        "5": {
+          "scale": 0.75625
+        },
+        "6": {
+          "scale": 0.5872058823529412
+        },
+        "7": {
+          "scale": 1.1774525316455695
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/godmother-giant/source-hands-narrow-v2.png",
+      "columns": 2,
+      "rows": 1,
+      "nativeHeight": 80,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "alphaThreshold": 128,
+        "bottom": 190
+      },
+      "overrides": {
+        "0": {
+          "scale": 1
+        },
+        "1": {
+          "scale": 1.2413243626062325
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/godmother-giant/source-streak-v3.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 123,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "alphaThreshold": 128,
+        "bottom": 190
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.9999999999999999
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "source": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive source extraction. Composed native-raster.json and native geometry proposal are authoritative, not source order.",
+    "anatomy": "Actual generated raster only; nearest sampling and palette indexing.",
+    "samplingPalette": "Source color calibration preserves generated peach skin rather than incorrectly assigning the gold hardware slot; no indexed pixels are painted."
+  }
+}

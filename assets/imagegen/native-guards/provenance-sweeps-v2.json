@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen__imagegen",
+  "sourceType": "image-generation",
+  "file": "assets/imagegen/native-guards/source-sweeps-v2.png",
+  "sha256": "8df26a1b28a12d766c2cd33c7d755191e3768d7ffb74cfee90126ddf8bffb1d8",
+  "prompt": "assets/imagegen/native-guards/prompt-sweeps-v2.txt",
+  "promptSha256": "42de2923513a0ed824ed744fde6ba754fef2a82e2c7af2a9220d950e6db3218c",
+  "references": [
+    {
+      "file": "assets/imagegen/native-guards/source-base-v1.png",
+      "sha256": "9ca43bc6ed11d4cf24a9f42a776b11b009757529b5cf580ecf61be79ec7e6b90"
+    },
+    {
+      "file": "assets/imagegen/native-guards/source-actions-v1.png",
+      "sha256": "ddaa0cf1254ea4d65033ff460f3c28dea02aa4aa916fe3061f4403c665266e31"
+    }
+  ],
+  "dimensions": [
+    2024,
+    777
+  ],
+  "requestedPoses": 3,
+  "review": "All three generated sweep poses are selected. Rear pose uses a0.97 uniform whole-source scale to retain its entire overhead arc within four cells; other two retain shared scale. Exact native uploads and original timing pass.",
+  "evidence": {
+    "sourceSelection": "assets/imagegen/native-guards/source-selection.json",
+    "native": "assets/imagegen/native-guards/native-verification/manifest.json",
+    "motion": "assets/imagegen/native-guards/motion-verification/manifest.json"
+  }
+}

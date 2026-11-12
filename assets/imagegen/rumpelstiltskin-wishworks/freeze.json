@@ -1,0 +1,633 @@
+{
+  "status": "Frozen inactive source/evidence packet",
+  "date": "2026-11-01",
+  "baseline": {
+    "path": ".local/qa/rumpelstiltskin-wishworks/baseline.sfc",
+    "sha256": "f33843436880bf0b7988308e2d684065c8ef6c715641cfc0d3038232f1f8ca15",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "scope": "Fixed private copy; never rewritten by candidate generation"
+  },
+  "privateRomSha256": "b8640dd2f77cd6109cfa366ddbe973a95f8e9135fe33a6f2b9cf74d0af8a3c40",
+  "whitelistFiles": 95,
+  "hashedFiles": 93,
+  "whitelistSha256": "b3d10f692e601327a7c6ab2136148ce3c8f2e178f493060dd396e970744c476e",
+  "selectedFileBytes": 12836092,
+  "banks": [
+    {
+      "key": "rumpelstiltskin",
+      "gfx": 143,
+      "rawBytes": 8256,
+      "compressedBytes": 5334,
+      "assemblyBytes": 1120,
+      "compressedPlusAssembly": 6454,
+      "graphicsSha256": "14f95d66f837fd4dd2fbdaaec3c53bec081b55f61a718290d43577bdcec6145e",
+      "compressedSha256": "957d3fdfd4c3edf392e211183965d96a4fa8847cd19fcde12deba8c8869fb3f4",
+      "groups": [
+        {
+          "asm": 137,
+          "frames": 28,
+          "cells": 4,
+          "assemblyBytes": 1120,
+          "assemblySha256": "ffedc29ed9b74830a26392bac19e6e6681a979ae566ddf6abb82c8732ec203d9",
+          "originalSignedXYBytes": 224,
+          "overlapFrames": [
+            26
+          ]
+        }
+      ],
+      "originalCT": {
+        "rawBytes": 6656,
+        "compressedBytes": 5721,
+        "assemblyBytes": 1120,
+        "compressedPlusAssembly": 6841
+      },
+      "currentEarlierArt": {
+        "sameAsOriginal": true,
+        "rawBytes": 6656,
+        "compressedBytes": 5721,
+        "assemblyBytes": 1120,
+        "compressedPlusAssembly": 6841
+      },
+      "rawGrowth": 1600,
+      "compressedPlusAssemblyGrowth": -387,
+      "nativeSourcePixels": 8786,
+      "agreeingOverlappingOpaquePixels": 55
+    },
+    {
+      "key": "wishworks-golems",
+      "gfx": 216,
+      "rawBytes": 8000,
+      "compressedBytes": 6313,
+      "assemblyBytes": 960,
+      "compressedPlusAssembly": 7273,
+      "graphicsSha256": "ccfe6018e5bd804d7f1747a7de2525c9a30a24ff9c2ec5159c5ff210b86d853b",
+      "compressedSha256": "720c398ed51a1b99cec2fc9df39bd855e30adb6061da81b04e1e2471dac890af",
+      "groups": [
+        {
+          "asm": 209,
+          "frames": 8,
+          "cells": 12,
+          "assemblyBytes": 960,
+          "assemblySha256": "3a8afdc6b81a869d4c19ee26457712faff29da6bd77de2eedd80e90043ade3f1",
+          "originalSignedXYBytes": 192,
+          "overlapFrames": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7
+          ]
+        }
+      ],
+      "originalCT": {
+        "rawBytes": 3264,
+        "compressedBytes": 2617,
+        "assemblyBytes": 960,
+        "compressedPlusAssembly": 3577
+      },
+      "currentEarlierArt": {
+        "sameAsOriginal": true,
+        "rawBytes": 3264,
+        "compressedBytes": 2617,
+        "assemblyBytes": 960,
+        "compressedPlusAssembly": 3577
+      },
+      "rawGrowth": 4736,
+      "compressedPlusAssemblyGrowth": 3696,
+      "nativeSourcePixels": 9083,
+      "agreeingOverlappingOpaquePixels": 318
+    }
+  ],
+  "totals": {
+    "rawBytes": 16256,
+    "compressedPlusAssembly": 13727,
+    "compressedPlusAssemblyGrowth": 3309
+  },
+  "proof": {
+    "nativeFrameUploads": 72,
+    "exactVisiblePpuPixels": 35738,
+    "nativeTimedLists": 68,
+    "nativeTimedTicks": 16320,
+    "authoredEncounterCount": 4,
+    "authoredEncounterTicks": 31995
+  },
+  "sourceOnlyVerification": "node assets/imagegen/rumpelstiltskin-wishworks/verify-frozen.mjs",
+  "sharedDependencyHashesAtFreeze": [
+    {
+      "path": "scripts/import-raster-art.mjs",
+      "sha256": "3c3e375e007e0e190474abb1c1587c05f3d572be819e3c799fdd7879255f5836"
+    },
+    {
+      "path": "engine/actor-families.js",
+      "sha256": "3eb0d529e30129185a5f45ec7164a925d0b14b417083a965c7974ad9e36dad54"
+    },
+    {
+      "path": "engine/native-sprites.js",
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "path": "engine/sprites.js",
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "path": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "path": "engine/npc-graphics-streaming.js",
+      "sha256": "0dd90dca70436ed2863c448b11e66e549b71d9e85b2ec7603312000e74d2d8c2"
+    },
+    {
+      "path": "engine/expanded-rom.js",
+      "sha256": "de8f528ce60b4488df9d7742c38e8c9af2ae58e74df641fe6fd1c605dbeedde2"
+    },
+    {
+      "path": "engine/devtools.js",
+      "sha256": "4a0fc1a37ec243405c8db4e4e1d2a0f8bed6c07fca62452cb53e793521617309"
+    },
+    {
+      "path": "tests/helpers.mjs",
+      "sha256": "4a77a84d238f495d30837a92547b46981ec7c1ee529f6805e12ec92217cc1a80"
+    },
+    {
+      "path": "tests/battle-controller.mjs",
+      "sha256": "5c495e42c97c06fd7b07273cceb74cbaf17186ab7f7e5cae80b63c2a7dba42e7"
+    }
+  ],
+  "excluded": [
+    "unused quality iteration and prompt",
+    "earlier base previews",
+    "exploratory probes and logs",
+    "unfinished scene diagnostics",
+    "private ROM bytes and local QA baseline"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8884,
+      "sha256": "cfcd16d952e9a58d96ede7b62b0ddbf7225bee41b99aac7d50fe2ba30729e3c8"
+    },
+    {
+      "path": "baseline.json",
+      "bytes": 263,
+      "sha256": "aa2e6580cc856c602e233bd3ee78bd3a1dac65efc1f04019da34f2d804e89f2e"
+    },
+    {
+      "path": "build-review.mjs",
+      "bytes": 9825,
+      "sha256": "52d478f1cd68fff1242c78bdfda0878f71e9659c029b59a87147bedb05c664d6"
+    },
+    {
+      "path": "compile-draft.mjs",
+      "bytes": 5755,
+      "sha256": "f5055ab7ecdca6b5a35d55a8a28633dbf55dc001a283186d5ed428df63117e71"
+    },
+    {
+      "path": "compiled/asm137.bin",
+      "bytes": 1120,
+      "sha256": "ffedc29ed9b74830a26392bac19e6e6681a979ae566ddf6abb82c8732ec203d9"
+    },
+    {
+      "path": "compiled/asm209.bin",
+      "bytes": 960,
+      "sha256": "3a8afdc6b81a869d4c19ee26457712faff29da6bd77de2eedd80e90043ade3f1"
+    },
+    {
+      "path": "compiled/gfx143.4bpp",
+      "bytes": 8256,
+      "sha256": "14f95d66f837fd4dd2fbdaaec3c53bec081b55f61a718290d43577bdcec6145e"
+    },
+    {
+      "path": "compiled/gfx143.ct-lz",
+      "bytes": 5334,
+      "sha256": "957d3fdfd4c3edf392e211183965d96a4fa8847cd19fcde12deba8c8869fb3f4"
+    },
+    {
+      "path": "compiled/gfx216.4bpp",
+      "bytes": 8000,
+      "sha256": "ccfe6018e5bd804d7f1747a7de2525c9a30a24ff9c2ec5159c5ff210b86d853b"
+    },
+    {
+      "path": "compiled/gfx216.ct-lz",
+      "bytes": 6313,
+      "sha256": "720c398ed51a1b99cec2fc9df39bd855e30adb6061da81b04e1e2471dac890af"
+    },
+    {
+      "path": "compiled/palette192.bin",
+      "bytes": 24,
+      "sha256": "3837bbc881eebb7d7512e9d286b568b674ffe5eb6145a7758c48c795b406f92f"
+    },
+    {
+      "path": "compiled/palette234.bin",
+      "bytes": 24,
+      "sha256": "aa3f3bc25e63e48cbe674828164ed96442809e6bbda35026f8a97070506ad86e"
+    },
+    {
+      "path": "compiled/palette235.bin",
+      "bytes": 24,
+      "sha256": "621f0cc8a4149854887b25071ff51cc8feea2a62764758f7682cfcad331f4333"
+    },
+    {
+      "path": "compiled/verification.json",
+      "bytes": 4137,
+      "sha256": "f36b7c3588dcb887c7c3783ecfd589f0b4523ccaed2b60d8ba2eb84f1f6ff289"
+    },
+    {
+      "path": "current-co-loads.json",
+      "bytes": 17819,
+      "sha256": "37e3f6f88c1e5cb7b0e2faa86e56a0b55dc25b5df5920b9d22fe9071841a6292"
+    },
+    {
+      "path": "family.draft.json",
+      "bytes": 17095,
+      "sha256": "2299ccefa006d6478ece42e0c291d7817fc66ea4cc6ddd821f6c3d47d7deb402"
+    },
+    {
+      "path": "golem-reaction-source-v2.png",
+      "bytes": 755770,
+      "sha256": "08ad50d9c40742bfe9bd0e96700ab983a8256530a46e5972bc3dc80bb868c632"
+    },
+    {
+      "path": "golems-source-v1.png",
+      "bytes": 2114079,
+      "sha256": "3241b0c0befe5f8789447a81c351727dff72b3dfb05e1d32c2b554b593469936"
+    },
+    {
+      "path": "inspect-draft.mjs",
+      "bytes": 2269,
+      "sha256": "988e5d096d1b7398d5ad79473d775d71d23ee9e03711677243b78e449faeed54"
+    },
+    {
+      "path": "integration-handoff.json",
+      "bytes": 35190,
+      "sha256": "eeee3d55ede6c45844b2041aa3409e4b67af578efb9c2d1bbf69fe0e8c724cee"
+    },
+    {
+      "path": "motion-verification/manifest.json",
+      "bytes": 166426,
+      "sha256": "4f6722599068c83f873f8e7aeee1e0ae271b360329147b6b0abf486e32c659a2"
+    },
+    {
+      "path": "native-audit.json",
+      "bytes": 83876,
+      "sha256": "358e0e60a89b3525a455a3f68b070022c289c06eee9840770235325fad3b44b3"
+    },
+    {
+      "path": "native-role-notes.json",
+      "bytes": 3643,
+      "sha256": "9d2968f3695a70ad144591a92dafdf1c759e516f7242a0c3ad3483be906594eb"
+    },
+    {
+      "path": "native-verification/manifest.json",
+      "bytes": 17200,
+      "sha256": "e0312c20d13b5bc2fa3a479a9d204404c62526f038b58ec65e21d4a830928925"
+    },
+    {
+      "path": "native-verification/rumpel-1.png",
+      "bytes": 56398,
+      "sha256": "54d47be6e558f7ee710a949686ff40b97aa260749a1ca2f62f60532bf29f894e"
+    },
+    {
+      "path": "native-verification/rumpel-14.png",
+      "bytes": 56540,
+      "sha256": "a71990bf480f8b8b181e8085a5e628ee607c521bcdf116a3919800057bfefd38"
+    },
+    {
+      "path": "native-verification/rumpel-16.png",
+      "bytes": 56443,
+      "sha256": "78c78b26df6a40574c52495d64dd52da84ad66a5e7c20d7770a4b9d22f17c110"
+    },
+    {
+      "path": "native-verification/rumpel-23.png",
+      "bytes": 56331,
+      "sha256": "58851cfd505a609dfa8756fdfcddbf663300833499238ab23ca1e702ee2e93a7"
+    },
+    {
+      "path": "native-verification/rumpel-26.png",
+      "bytes": 56399,
+      "sha256": "dbf60355a951cb24f141cd0c1a4663972f7433592fce621a1f3876ab09eb3e6e"
+    },
+    {
+      "path": "native-verification/rumpel-4.png",
+      "bytes": 56505,
+      "sha256": "080c5d23c31077d245e42a264476c6698a17af96aa47d58d1f1d254279341c69"
+    },
+    {
+      "path": "native-verification/rumpel-7.png",
+      "bytes": 56491,
+      "sha256": "f7f8a41be25cbe00e551d2ec0fd79ba7886b52a9248769f80b224ba4c4e2bd1d"
+    },
+    {
+      "path": "native-verification/wish-golem-3.png",
+      "bytes": 57489,
+      "sha256": "aca2ea214897b02bb8c3c53fb18101e7d6b9a8d3224c43514186f09999d930d8"
+    },
+    {
+      "path": "native-verification/wish-golem-5.png",
+      "bytes": 56745,
+      "sha256": "10aa6cf6d4ef843e4d74b61e175779070143410559700117b28a9d518e23270e"
+    },
+    {
+      "path": "native-verification/wish-golem-6.png",
+      "bytes": 56925,
+      "sha256": "17cb53666294e70d976528ace6a0ea6f4f4c36c1ed01b6991273e9eae73c8e36"
+    },
+    {
+      "path": "native-verification/wish-golem-boss-3.png",
+      "bytes": 57459,
+      "sha256": "3081c8e8db0c7dd4c4d3898b24b8247e005aa37da81f48973f1fb0918d576dcf"
+    },
+    {
+      "path": "native-verification/wish-golem-boss-5.png",
+      "bytes": 56722,
+      "sha256": "db49a894730dc0046baf28f4be70d6ece231a47488fabc4e9071c9e8c00293ee"
+    },
+    {
+      "path": "native-verification/wish-golem-boss-6.png",
+      "bytes": 56861,
+      "sha256": "f7595128fad89fb232585c7d9f33c3acf1a38d260621aa99eb272f6b2ce61c2e"
+    },
+    {
+      "path": "placement-review.json",
+      "bytes": 4540,
+      "sha256": "83dad106ece11e367382ad02a3a097a24410491317117155819682fb2ad66dba"
+    },
+    {
+      "path": "prepare-draft.mjs",
+      "bytes": 5604,
+      "sha256": "fdd664bd9fa39ec25e4372c6d1b994ee92d92055ba3d0d74665909b5cd63659e"
+    },
+    {
+      "path": "private-overlay.mjs",
+      "bytes": 3752,
+      "sha256": "fa8aba165f23b9280be0d93030c9f8556b16e1369fb16d4deb0fefadb0aa44a2"
+    },
+    {
+      "path": "prompt-golem-reaction-v2.txt",
+      "bytes": 1510,
+      "sha256": "b9696a249dbd07b5a2dd36918c0bee5fe9aa6d2ff4ec21803f5b7180023ca5c6"
+    },
+    {
+      "path": "prompt-golems-v1.txt",
+      "bytes": 3131,
+      "sha256": "354eab127186f9aefba919a9a08deccaf182f403fdfb2e4f9b8c35fa2646c428"
+    },
+    {
+      "path": "prompt-rumpel-actions-v1.txt",
+      "bytes": 3083,
+      "sha256": "412cb02cfd233ac4cc6ed849bc54012e623bc067ecc00e00ddb6c487b3c4aeb2"
+    },
+    {
+      "path": "prompt-rumpel-base-v1.txt",
+      "bytes": 2650,
+      "sha256": "ed93351323e6eb84f96a0cb4ec344917bc59ad2fdb62a1998950f4ff2daef4b1"
+    },
+    {
+      "path": "prompt-rumpel-contact-b-v3.txt",
+      "bytes": 1515,
+      "sha256": "a330c8b0359d37ed2bdde0dd7c8becfa19423ee9ff9ea94f75a6983c5c1b38c0"
+    },
+    {
+      "path": "proof-history.json",
+      "bytes": 1594,
+      "sha256": "a76e65659a6581a51aa02cacff873ecfa77ac7d6b6ab7b9f7ac3128b4aa22f9b"
+    },
+    {
+      "path": "proof-history/pre-gait-motion.json",
+      "bytes": 166426,
+      "sha256": "1215b1563c3b85ba54762e77065170b227aadd6ed573bd64ae59abdb7835d297"
+    },
+    {
+      "path": "proof-history/pre-gait-native.json",
+      "bytes": 17200,
+      "sha256": "32981cf2e82850499020e1a5ba33c5ae7e20d53a024c580f9fd05af14493ee3f"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 6496,
+      "sha256": "9a67db600220a24f9112d933e567f7c56d17a32112e207b1cab2ece037225068"
+    },
+    {
+      "path": "references/official-rumpelstiltskin.pdf",
+      "bytes": 830041,
+      "sha256": "592c16edf832b79a33a2c968b3655f91e72ae046d4c41e1cc3ed608877f02b96"
+    },
+    {
+      "path": "references/official-rumpelstiltskin.png",
+      "bytes": 1442017,
+      "sha256": "5b9293e1533b7e145dcafb46d98e1867f70caed24d96c2331f01f6bf0b90c2db"
+    },
+    {
+      "path": "references/rumpel-left-contact-A.json",
+      "bytes": 353,
+      "sha256": "0a45ec85b83a2ed9908d0c7def844c8ef4dab8fac5b465b46a2629a6fb8147c8"
+    },
+    {
+      "path": "references/rumpel-left-contact-A.png",
+      "bytes": 117062,
+      "sha256": "dfc004f008adb89d4d019e868542055766e4fb38d65f7ef3fcb0b70621703139"
+    },
+    {
+      "path": "review/contact-sheet-1x.png",
+      "bytes": 86611,
+      "sha256": "6eb740502403fa7b09a4cd90d02506993ecb39c2affa831d62fa539474faa27a"
+    },
+    {
+      "path": "review/gait-contacts.png",
+      "bytes": 67915,
+      "sha256": "07afb6f19601ee50d346c6bb4828b6e7fd4414dedef857f397cc42622803c212"
+    },
+    {
+      "path": "review/motion-review.html",
+      "bytes": 484539,
+      "sha256": "2834da201193c9532ff50876da9c0530cb66fa4708874c197bd21876b9b49ed3"
+    },
+    {
+      "path": "review/native-contact-sheet.html",
+      "bytes": 95153,
+      "sha256": "bd044e12c9cfab0f8d3bc796b2c26acf96ac9400bac8917074858ece69afe240"
+    },
+    {
+      "path": "review/role-review.html",
+      "bytes": 207093,
+      "sha256": "cf62685fd7ed37bc64d1ab78d2a0a238b588a23de2896489b45e5a3c99f277fc"
+    },
+    {
+      "path": "review/role-review.png",
+      "bytes": 357872,
+      "sha256": "2aba0173f272a9c466f6ff63c663cbb586886e484e967dc43745caced8c9f05f"
+    },
+    {
+      "path": "review/rumpel-native-4x.png",
+      "bytes": 34699,
+      "sha256": "e6e732520205de7e1f6d2d6eb5c32b1b4044e9250b98160b37abe4ae81d566fa"
+    },
+    {
+      "path": "review/ui-verification.json",
+      "bytes": 668,
+      "sha256": "379c53e536e31a07da63ec2679ee5e549aa3d19b5b40650851d4fbf295e2cfcd"
+    },
+    {
+      "path": "review/wish-golem-boss-native-4x.png",
+      "bytes": 29729,
+      "sha256": "9bfe54e911fadcfbfcb6c49fea8fcff7698891b9180eedc7eebaff5622e5b739"
+    },
+    {
+      "path": "review/wish-golem-native-4x.png",
+      "bytes": 30099,
+      "sha256": "2f51c4f4cd9dcafa74358a3f1b1b34d933ca94e2cf5e29bc79f7a3ee7c9a5e36"
+    },
+    {
+      "path": "rumpel-actions-source-v1.png",
+      "bytes": 1485932,
+      "sha256": "cd63e88b39dfa9d478ac97dc4730b2f43edf59f0479b0688d3dfa8ac00ecc8d3"
+    },
+    {
+      "path": "rumpel-base-source-v1.png",
+      "bytes": 1331786,
+      "sha256": "c6d3ece7701bd1c3d0e3b4fcbd22f6c0a71833d2e042f800c87a8a13907c1ad4"
+    },
+    {
+      "path": "rumpel-contact-b-source-v3.png",
+      "bytes": 1043916,
+      "sha256": "2ae36bf9899eea5e25aefa157a8592859c7b8256e06835dc907d473b43923dc7"
+    },
+    {
+      "path": "rumpelstiltskin-draft/preview-import.json",
+      "bytes": 10166,
+      "sha256": "9e766dab16326531c1d9a29c87fa2cb4dc25edd05a5ac4bb0f8f7e74dbd01833"
+    },
+    {
+      "path": "rumpelstiltskin-draft/preview-raster.json",
+      "bytes": 150574,
+      "sha256": "763be06d37df01398d2d5ee51019e15a8ff49949ff860f6c2c83083713cdd10c"
+    },
+    {
+      "path": "rumpelstiltskin-import-spec.draft.json",
+      "bytes": 13076,
+      "sha256": "86ef4f211623d640e41337b7317558ef85bf4e0502874d229062053e1e66f432"
+    },
+    {
+      "path": "scene-verification/blackbird-wing-battle.png",
+      "bytes": 57590,
+      "sha256": "cf9aed5f8805b80c8759b1735d19b96162ca54836a7f7e017191ba1d37144151"
+    },
+    {
+      "path": "scene-verification/blackbird-wing-entry.png",
+      "bytes": 60209,
+      "sha256": "50a8d60f58b9dc4230cf8199dae5aac7d9876078209d4375a6c7dac3f9ba5d3b"
+    },
+    {
+      "path": "scene-verification/blackbird-wing-return.png",
+      "bytes": 28274,
+      "sha256": "b79058b639fbc79e52a562abd0773e498177216475592903892c5220b9a4c0fd"
+    },
+    {
+      "path": "scene-verification/blackbird-wing.json",
+      "bytes": 4657,
+      "sha256": "cd384b9162f090454f5e91e2335d895768deb84ea2e646bf7eb321e4aee01a7b"
+    },
+    {
+      "path": "scene-verification/dragon-deck-battle.png",
+      "bytes": 71139,
+      "sha256": "a3c507cb206d0bfe2a0b843c9479ee3b35823ae6461fb4db775921cb39260bb6"
+    },
+    {
+      "path": "scene-verification/dragon-deck-entry.png",
+      "bytes": 72888,
+      "sha256": "c3825ff383df5a32d25a9fefde387a38a246f51bb248d5c46d055ace0153eeb3"
+    },
+    {
+      "path": "scene-verification/dragon-deck-return.png",
+      "bytes": 43660,
+      "sha256": "81539ff753c91ab4ef71496017972c8f0267fca00ea289d33a4cddc08929d4fb"
+    },
+    {
+      "path": "scene-verification/dragon-deck.json",
+      "bytes": 5493,
+      "sha256": "da170d7537cacda9869d95a47044c9c2122efb76061e34ced4edbe6cceabcdca"
+    },
+    {
+      "path": "scene-verification/golem-twins-battle.png",
+      "bytes": 54080,
+      "sha256": "727d759ea5dfc4b644491fdad089549fc43c44e01d38b858b338e5b00d515850"
+    },
+    {
+      "path": "scene-verification/golem-twins-entry.png",
+      "bytes": 48889,
+      "sha256": "e110140a172f48f7b80ead7df517532c5a76c98f47409c38d42d17a7a74a3560"
+    },
+    {
+      "path": "scene-verification/golem-twins-return.png",
+      "bytes": 45662,
+      "sha256": "b80d9606a0d8ebb58f9c78fa11db0fd2c84fee0441f0428879a66aeacae52b70"
+    },
+    {
+      "path": "scene-verification/golem-twins.json",
+      "bytes": 7772,
+      "sha256": "1e5104e5014c84f84e021c0fc8a332d31d8402384545657c496e233f03a07fd8"
+    },
+    {
+      "path": "scene-verification/manifest.json",
+      "bytes": 3405,
+      "sha256": "8b37f17943850c022a2040e2d91f3f387cc89a04338da795b83793abe2927a0c"
+    },
+    {
+      "path": "scene-verification/night-throne-battle.png",
+      "bytes": 52336,
+      "sha256": "37a6084db93e5016292fe442d79d91816b5faeb38f022917bd1144ddbbcea86c"
+    },
+    {
+      "path": "scene-verification/night-throne-entry.png",
+      "bytes": 48717,
+      "sha256": "f429b8d445059cc92037324e3a3a4dab178fea33eafc71f3b51dc885af18b086"
+    },
+    {
+      "path": "scene-verification/night-throne-return.png",
+      "bytes": 48115,
+      "sha256": "3c487659f2537a152d15ae5afec7c53b61570376a387819035e65e694679e63b"
+    },
+    {
+      "path": "scene-verification/night-throne.json",
+      "bytes": 5000,
+      "sha256": "e5a9864dfd42d8f5fe5e922d21048f086acb9c7ec2a1553a026a13d3ea9f3429"
+    },
+    {
+      "path": "verify-frozen.mjs",
+      "bytes": 4746,
+      "sha256": "c930dec79688fcf503f555fbfe754b5c7382af9d7ccae41c26ac28d2d3d37779"
+    },
+    {
+      "path": "verify-motion.mjs",
+      "bytes": 3036,
+      "sha256": "1541cc17f2362707d58ce2a0930ef614534b89cf1d5dd16aa5ead1e86bc80575"
+    },
+    {
+      "path": "verify-native.mjs",
+      "bytes": 4041,
+      "sha256": "1b7cb135438b4b992d8083af842159a74642f7bcc51a603c511f37f822d1d981"
+    },
+    {
+      "path": "verify-scenes.mjs",
+      "bytes": 9770,
+      "sha256": "584a28ba6ec9cb5d26d2cca4fd1cd7e1a08b25f1316ac169b2bdadcda01d3594"
+    },
+    {
+      "path": "wishworks-golems-draft/preview-import.json",
+      "bytes": 4152,
+      "sha256": "6b4aa7141b407a9ed8e5a4d45dded50901508662c5e9c0378d0ecfc1de4a6d45"
+    },
+    {
+      "path": "wishworks-golems-draft/preview-raster.json",
+      "bytes": 97842,
+      "sha256": "e2268ed5e369e505e30c87b77101a9dd44d9f153306fd3c711a469d09fa98af5"
+    },
+    {
+      "path": "wishworks-golems-import-spec.draft.json",
+      "bytes": 8223,
+      "sha256": "3fbb1ccd6f82c8c69456682a77cde663f17985be2ddcb357a22cd526ca839454"
+    }
+  ],
+  "activation": false
+}

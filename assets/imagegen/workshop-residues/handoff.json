@@ -1,0 +1,398 @@
+{
+  "status": "Frozen inactive generated wisp/residue packet; approved source, exact native display/timing and actual road/factory scenes verified",
+  "activation": false,
+  "key": "workshop-residues",
+  "directory": "assets/imagegen/workshop-residues/residue",
+  "gfx": 102,
+  "asm": 64,
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 102,
+      "key": "lost-wisp",
+      "palette": 72,
+      "animation": 157,
+      "header": [
+        102,
+        64,
+        72,
+        157,
+        0,
+        0,
+        236,
+        8,
+        12,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 104,
+      "key": "gilt-wisp",
+      "palette": 74,
+      "animation": 157,
+      "header": [
+        102,
+        64,
+        74,
+        157,
+        0,
+        0,
+        236,
+        8,
+        12,
+        17
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 105,
+      "key": "sour-slime",
+      "palette": 70,
+      "animation": 52,
+      "header": [
+        102,
+        64,
+        70,
+        52,
+        0,
+        0,
+        252,
+        2,
+        2,
+        17
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 106,
+      "key": "lye-slime",
+      "palette": 75,
+      "animation": 52,
+      "header": [
+        102,
+        64,
+        75,
+        52,
+        0,
+        0,
+        252,
+        2,
+        2,
+        18
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 107,
+      "key": "ash-slime",
+      "palette": 73,
+      "animation": 52,
+      "header": [
+        102,
+        64,
+        73,
+        52,
+        0,
+        0,
+        252,
+        8,
+        12,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 108,
+      "key": "cinder-slime",
+      "palette": 73,
+      "animation": 52,
+      "header": [
+        102,
+        64,
+        73,
+        52,
+        0,
+        0,
+        252,
+        8,
+        12,
+        65
+      ]
+    }
+  ],
+  "paletteOwnership": "72 also belongs to unrelated enemy71;70 also belongs to unrelated enemy127.73 is shared by Ash107/Cinder108. All five original packets remain unchanged; no palette writes or pointer aliases.",
+  "unrelatedOwnersUnchanged": [
+    {
+      "enemy": 71,
+      "gfx": 114,
+      "asm": 81,
+      "palette": 72,
+      "headerSha256": "ed122aff4d367d57862b00b1290bde6ddaae9e3f52a249c5e63f4a14a61fc0d9",
+      "graphicsSha256": "caeac04cb7f4f4977ea47d7acbd43024d672be4ed880e3d7a53bdabdde97b470",
+      "assemblySha256": "c6e3b7a183b4ef40b96ed0b1f77eb80be34475d6f2a86710388e53188c258773",
+      "assemblyBytes": 1400,
+      "paletteSha256": "142660eb1c3e1a4d2dd3d2b8a6502539055c82cecbf27765fb6b210f198659e0"
+    },
+    {
+      "enemy": 127,
+      "gfx": 113,
+      "asm": 80,
+      "palette": 70,
+      "headerSha256": "8ac68b4994333b69806e358d8317b77be16be5ddde8e9710c786576e9e43ecf4",
+      "graphicsSha256": "bc1f98b948769e77e95f219df3e1f82d276ac5229695bd095b86c6b666a0f50f",
+      "assemblySha256": "263d7f3c3a1d0772269448fcb087c9eb2fa8e8eed118ee2df59ca09e5af7a68a",
+      "assemblyBytes": 2160,
+      "paletteSha256": "585e96eb52ef88deee989176b99b0c9b30616f682a79bd5fec39ddeabba87f06"
+    }
+  ],
+  "native": {
+    "frames": 13,
+    "cells": 4,
+    "size": 0,
+    "canvas": [
+      64,
+      64
+    ],
+    "authoredSourcePoses": 13,
+    "uniqueNativeSourceImages": 13,
+    "geometry": "residue/native-frame-map.draft.json",
+    "anchor": [
+      0,
+      0
+    ],
+    "frameOffsets": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        0,
+        -3
+      ]
+    ],
+    "sourceMirrors": [],
+    "sourceDuplicates": [],
+    "originalLowestPixelExact": true,
+    "originalTotalHeightsExact": true,
+    "horizontalCenterRoundingAtMostHalfPixel": true
+  },
+  "resources": {
+    "decodedBytes": 3424,
+    "compressedBytes": 2758,
+    "assemblyBytes": 520,
+    "tiles": 107,
+    "originalCT": {
+      "decodedBytes": 3616,
+      "compressedBytes": 2819,
+      "assemblyBytes": 520,
+      "decodedDelta": -192,
+      "compressedPlusAssemblyDelta": -61,
+      "alignedRomDelta": -62
+    },
+    "earlierArt": {
+      "baselineSha256": "cb2983da9aeaa3516e34e6017a05c4a62a87cbbeead40640282272adfd4d71c5",
+      "decodedBytes": 3136,
+      "compressedBytes": 1663,
+      "assemblyBytes": 520,
+      "decodedDelta": 288,
+      "compressedPlusAssemblyDelta": 1095,
+      "alignedRomDelta": 1094
+    },
+    "ordinaryLegacyLoading": true,
+    "nativeStreamRequired": false,
+    "streamedRawBytes": 0,
+    "extraWramBytes": 0,
+    "extraVramBytes": 0
+  },
+  "hashes": {
+    "graphics": "2340052b7226c43e4617060c6925b4487d08fbad8fa4be6447018b3b0497f986",
+    "compressed": "5fd4fb8c47d5c163c3c44b1a9f0e41544fc86e5c9bb0819a419f4f136d91810b",
+    "assembly": "2174183dd63793935c7bb68f422eaf242838c04fcfa18cb680cc3944a23a76a8"
+  },
+  "visualReview": {
+    "self": "All13 poses across all five original ramps inspected at native and enlarged scale; native framebuffer and actual wisp/residue battle captures inspected.",
+    "root": "Approved all13 slots/all five ramps: hovering, stretched, creeping and splash states are coherent/readable. Retain explicit width differences and unchanged shared palettes. Ordinary decompression preferred within original3616-byte ceiling.",
+    "lead": "Approved complete native sheet and all enlarged pages: crowned face, flowing extension, curl and low puddle stages read across all ramps; narrow stretch and wider side splash are coherent. Generated slot6 labelled upright diamond/recoil mote, with original flattened role recorded separately."
+  },
+  "proof": {
+    "baselineSha256": "cb2983da9aeaa3516e34e6017a05c4a62a87cbbeead40640282272adfd4d71c5",
+    "candidateSha256": "fd1336e2d6d7957b5044ef9c0b4da8129e1fe88e64d1467079354f29867599bc",
+    "nativeManifest": "native-display-proof.json",
+    "uploads": 78,
+    "cells": 312,
+    "opaquePixels": 20376,
+    "paletteWrites": 0,
+    "legacyLoading": true,
+    "motionManifest": "motion-review.json",
+    "timingManifest": "native-timing-proof.json",
+    "nativeActionCases": 54,
+    "nativeCycles": 108,
+    "exactVideoTicks": 6296,
+    "completeVramAndOamExactEveryIsolatedTick": true,
+    "isolatedObservedDisplayDelay": 0,
+    "sceneManifest": "native-scene-proof.json",
+    "roadRoute": [
+      224,
+      225
+    ],
+    "roadBattles": 4,
+    "roadNativeDamageResults": 23,
+    "factoryFormation": [
+      106,
+      106,
+      105,
+      106,
+      105
+    ],
+    "factoryTerminalFlag": 101,
+    "factoryNativeDamageResults": 8,
+    "actualFieldHeapBytes": {
+      "70": 8544,
+      "224": 8160,
+      "230": 4384,
+      "291": 6880
+    },
+    "battleMotion": [
+      {
+        "file": "wisp-actual-battle.apng",
+        "sha256": "fde8c9afed5d3f6fc33bd41c85691ac1370f18cb3266e0b2add50b520c46b262",
+        "firstVideoFrame": 14570,
+        "videoTicks": 120,
+        "framesPerSecond": 60,
+        "scope": "Unmodified actual native scene motion, original actors, priority and controller state; isolated timing/cell proof is separate."
+      },
+      {
+        "file": "residue-actual-battle.apng",
+        "sha256": "6e3fa63cc12bc53327add3900844201fb624bae2c2ec65a4ce41962a2a4cf825",
+        "firstVideoFrame": 10748,
+        "videoTicks": 160,
+        "framesPerSecond": 60,
+        "scope": "Unmodified actual native scene motion, original actors, priority and controller state; isolated timing/cell proof is separate."
+      }
+    ]
+  },
+  "sceneBudget": {
+    "manifest": "scene-budget-audit.json",
+    "originalLocations": [
+      70,
+      171,
+      213,
+      217,
+      224,
+      228,
+      229,
+      230,
+      291
+    ],
+    "maximumLegacyUnion": 8544,
+    "minimumSpare": 24224,
+    "limit": 32768,
+    "scope": "Conservative union of all original event load branches using emitted cb2983 headers/resources. Baseline raw streams are excluded only when selected by that immutable cartridge; candidate keeps gfx102 on the original legacy loading path. No newer private replacements or stream exclusions are assumed. No full scene residency/choreography claim."
+  },
+  "integration": [
+    "Import residue/import-spec.draft.json under key workshop-residues with its explicit directory. Its13 source frames map to13 native slots without duplicates or mirrors.",
+    "Use residue/native-frame-map.draft.json cellOrigins, anchor and frameOffsets with64×64 source canvas and original four-cell/full-size0 layout. Preserve native floating/creeping header bytes and all original graphics/assembly IDs.",
+    "Retain animation157 for enemies102/104 and52 for105–108, including pointers and full frame/duration tables. Preserve every header, AI/stat/reward byte and native scene/event instruction.",
+    "Keep palettes70/72/73/74/75 and their pointers byte-identical to original; emit no palette writes. Unrelated owners71/127 remain untouched.",
+    "Keep gfx102 on ordinary compressed legacy loading;3424 fits the original3616-byte allowance. Do not weaken the default guard or add a raw-stream selection.",
+    "Allocate compressed graphics and assembly through production allocation. Private absolute addresses are evidence only. Root owns active source/registry and final production validation."
+  ],
+  "limitations": [
+    "The generated silhouettes have different widths: curl4 is22vs27, stretch5 is23vs31, recoil mote6 is11vs16, side splash11 is27vs20 and tiny mote12 is6vs8. All original heights and lowest opaque Y values are exact, with horizontal-center rounding at most0.5px.",
+    "The original flattened glint in slot6 becomes an upright diamond. Slot12 remains the tiny native table mote; neither AA52 nor AA157 references it, so no live-event role is invented.",
+    "Thirteen selected source images are actual generated rasters with no mirrors, duplicate slots, procedural anatomy or clipping. Nearest sampling is uniform per pose; tiny mote12 alone uses area sampling. Logical sampling index5 uses cyan while every emitted palette word stays original.",
+    "Actual battle captures retain native scene/party layering. Unobstructed pixel equality and full action timing are separate isolated proofs.",
+    "Scene70/291 prove original owner initialization, palette/program/legacy-cache loading and heap only; full Gilt Wisp and Ash/Cinder routes remain untested in this packet.",
+    "The road route stops at225 before the unrelated race. The existing strong chapter loadouts test events/sprites rather than normal-level balance.",
+    "Independent-core execution, final production allocation and remaining original scenes171/213/217/228/229 are root integration checks. Budget bounds use saved cb2983 resources, without newer private replacements."
+  ],
+  "reproduce": [
+    "node assets/imagegen/workshop-residues/prepare-draft.mjs",
+    "node assets/imagegen/workshop-residues/review-draft.mjs",
+    "node assets/imagegen/workshop-residues/freeze-draft.mjs"
+  ],
+  "proofReproduce": [
+    "node assets/imagegen/workshop-residues/verify-native.mjs",
+    "node assets/imagegen/workshop-residues/verify-motion.mjs",
+    "node assets/imagegen/workshop-residues/verify-timed-animation.mjs",
+    "node assets/imagegen/workshop-residues/verify-scenes.mjs"
+  ],
+  "compilerDependencies": [
+    {
+      "file": "scripts/import-raster-art.mjs",
+      "bytes": 13058,
+      "sha256": "b9e1e799fbad3912735e3a46848489ee1834c04029d9cdf7f767b686e58f0bc0"
+    },
+    {
+      "file": "engine/native-sprites.js",
+      "bytes": 8636,
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "file": "engine/compression.js",
+      "bytes": 4100,
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "file": "engine/sprites.js",
+      "bytes": 8935,
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "file": "content/future-wildlife.js",
+      "bytes": 10922,
+      "sha256": "e55591a1b029a16b24e31fba25af31b5dcb87f90ab152f3a8024f734953d5e3a"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 2116,
+      "sha256": "64a6a819820c608b0efc612e049a872b68b3159ec6d3cc95ae13261893a980b5"
+    }
+  ],
+  "freeze": "freeze.json"
+}

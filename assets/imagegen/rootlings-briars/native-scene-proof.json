@@ -1,0 +1,1856 @@
+{
+  "status": "passed",
+  "baselineSha256": "cb2983da9aeaa3516e34e6017a05c4a62a87cbbeead40640282272adfd4d71c5",
+  "candidateSha256": "deb6be67607ac8ceb06da2117e45d52e72ce81d79a9a862cd6b75eec0c20a985",
+  "core": "repository SNES JS native65816/PPU",
+  "requiredStreamedGraphics": [
+    89
+  ],
+  "paletteWrites": 0,
+  "scope": "Original western Lab16 five-encounter route through native victory and exit213; original developer ending-room342 rider interaction and four native action demonstrations; remaining original plant scene initializations. Existing entry fixtures only, then original events and controller input.",
+  "western": {
+    "arrival": [
+      {
+        "location": 212,
+        "object": 15,
+        "enemy": 39,
+        "videoFrame": 8941,
+        "gfx": 89,
+        "palette": 37,
+        "program": 36,
+        "sourcePointer": 5316496
+      },
+      {
+        "location": 212,
+        "object": 16,
+        "enemy": 34,
+        "videoFrame": 8941,
+        "gfx": 89,
+        "palette": 33,
+        "program": 35,
+        "sourcePointer": 5316496
+      },
+      {
+        "location": 212,
+        "object": 17,
+        "enemy": 34,
+        "videoFrame": 8941,
+        "gfx": 89,
+        "palette": 33,
+        "program": 35,
+        "sourcePointer": 5316496
+      },
+      {
+        "location": 212,
+        "object": 18,
+        "enemy": 39,
+        "videoFrame": 8941,
+        "gfx": 89,
+        "palette": 37,
+        "program": 36,
+        "sourcePointer": 5316496
+      },
+      {
+        "location": 212,
+        "object": 22,
+        "enemy": 39,
+        "videoFrame": 8942,
+        "gfx": 89,
+        "palette": 37,
+        "program": 36,
+        "sourcePointer": 5316496
+      },
+      {
+        "location": 212,
+        "object": 23,
+        "enemy": 34,
+        "videoFrame": 8942,
+        "gfx": 89,
+        "palette": 33,
+        "program": 35,
+        "sourcePointer": 5316496
+      },
+      {
+        "location": 212,
+        "object": 24,
+        "enemy": 34,
+        "videoFrame": 8942,
+        "gfx": 89,
+        "palette": 33,
+        "program": 35,
+        "sourcePointer": 5316496
+      },
+      {
+        "location": 212,
+        "object": 25,
+        "enemy": 39,
+        "videoFrame": 8942,
+        "gfx": 89,
+        "palette": 37,
+        "program": 36,
+        "sourcePointer": 5316496
+      },
+      {
+        "location": 212,
+        "object": 26,
+        "enemy": 39,
+        "videoFrame": 8942,
+        "gfx": 89,
+        "palette": 37,
+        "program": 36,
+        "sourcePointer": 5316496
+      },
+      {
+        "location": 212,
+        "object": 27,
+        "enemy": 34,
+        "videoFrame": 8942,
+        "gfx": 89,
+        "palette": 33,
+        "program": 35,
+        "sourcePointer": 5316496
+      },
+      {
+        "location": 212,
+        "object": 28,
+        "enemy": 34,
+        "videoFrame": 8942,
+        "gfx": 89,
+        "palette": 33,
+        "program": 35,
+        "sourcePointer": 5316496
+      }
+    ],
+    "formations": [
+      [
+        34,
+        34,
+        255,
+        39,
+        255,
+        255,
+        255,
+        255
+      ],
+      [
+        91,
+        91,
+        91,
+        255,
+        39,
+        255,
+        255,
+        255
+      ],
+      [
+        34,
+        34,
+        39,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      [
+        34,
+        34,
+        255,
+        255,
+        255,
+        39,
+        39,
+        255
+      ],
+      [
+        91,
+        91,
+        91,
+        91,
+        91,
+        255,
+        255,
+        255
+      ]
+    ],
+    "destination": 213,
+    "story": 52,
+    "firstAmbushDwellFrames": 270,
+    "originalRatHidingAndReturnAssertedByController": true,
+    "loads": [
+      {
+        "location": 212,
+        "object": 15,
+        "enemy": 39,
+        "videoFrame": 8941
+      },
+      {
+        "location": 212,
+        "object": 16,
+        "enemy": 34,
+        "videoFrame": 8941
+      },
+      {
+        "location": 212,
+        "object": 17,
+        "enemy": 34,
+        "videoFrame": 8941
+      },
+      {
+        "location": 212,
+        "object": 18,
+        "enemy": 39,
+        "videoFrame": 8941
+      },
+      {
+        "location": 212,
+        "object": 22,
+        "enemy": 39,
+        "videoFrame": 8942
+      },
+      {
+        "location": 212,
+        "object": 23,
+        "enemy": 34,
+        "videoFrame": 8942
+      },
+      {
+        "location": 212,
+        "object": 24,
+        "enemy": 34,
+        "videoFrame": 8942
+      },
+      {
+        "location": 212,
+        "object": 25,
+        "enemy": 39,
+        "videoFrame": 8942
+      },
+      {
+        "location": 212,
+        "object": 26,
+        "enemy": 39,
+        "videoFrame": 8942
+      },
+      {
+        "location": 212,
+        "object": 27,
+        "enemy": 34,
+        "videoFrame": 8942
+      },
+      {
+        "location": 212,
+        "object": 28,
+        "enemy": 34,
+        "videoFrame": 8942
+      }
+    ],
+    "battles": [
+      {
+        "location": 212,
+        "videoFrame": 9629,
+        "enemies": [
+          34,
+          34,
+          39
+        ]
+      },
+      {
+        "location": 212,
+        "videoFrame": 12403,
+        "enemies": [
+          91,
+          91,
+          91,
+          39
+        ]
+      },
+      {
+        "location": 212,
+        "videoFrame": 15901,
+        "enemies": [
+          34,
+          34,
+          39
+        ]
+      },
+      {
+        "location": 212,
+        "videoFrame": 19205,
+        "enemies": [
+          34,
+          34,
+          39,
+          39
+        ]
+      },
+      {
+        "location": 212,
+        "videoFrame": 22359,
+        "enemies": [
+          91,
+          91,
+          91,
+          91,
+          91
+        ]
+      }
+    ],
+    "nativeDamageResults": 38,
+    "positiveDamageResults": 24,
+    "messages": [
+      {
+        "location": 212,
+        "stringId": 79,
+        "videoFrame": 9286
+      },
+      {
+        "location": 212,
+        "stringId": 79,
+        "videoFrame": 15387
+      },
+      {
+        "location": 212,
+        "stringId": 79,
+        "videoFrame": 18726
+      }
+    ],
+    "dispatches": [
+      {
+        "location": 212,
+        "object": 9,
+        "opcode": 0,
+        "argument": 130,
+        "scriptPC": 1490,
+        "videoFrame": 9337
+      },
+      {
+        "location": 212,
+        "object": 4,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 6004,
+        "videoFrame": 9487
+      },
+      {
+        "location": 212,
+        "object": 2,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5940,
+        "videoFrame": 9487
+      },
+      {
+        "location": 212,
+        "object": 3,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5972,
+        "videoFrame": 9488
+      },
+      {
+        "location": 212,
+        "object": 17,
+        "opcode": 0,
+        "argument": 131,
+        "scriptPC": 1682,
+        "videoFrame": 9565
+      },
+      {
+        "location": 212,
+        "object": 0,
+        "opcode": 216,
+        "argument": 0,
+        "scriptPC": 1193,
+        "videoFrame": 9569
+      },
+      {
+        "location": 212,
+        "object": 16,
+        "opcode": 0,
+        "argument": 131,
+        "scriptPC": 1660,
+        "videoFrame": 9569
+      },
+      {
+        "location": 212,
+        "object": 0,
+        "opcode": 216,
+        "argument": 0,
+        "scriptPC": 1193,
+        "videoFrame": 11836
+      },
+      {
+        "location": 212,
+        "object": 4,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5909,
+        "videoFrame": 11865
+      },
+      {
+        "location": 212,
+        "object": 3,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5909,
+        "videoFrame": 11866
+      },
+      {
+        "location": 212,
+        "object": 21,
+        "opcode": 0,
+        "argument": 131,
+        "scriptPC": 1726,
+        "videoFrame": 12251
+      },
+      {
+        "location": 212,
+        "object": 21,
+        "opcode": 0,
+        "argument": 131,
+        "scriptPC": 1726,
+        "videoFrame": 12253
+      },
+      {
+        "location": 212,
+        "object": 3,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5972,
+        "videoFrame": 12354
+      },
+      {
+        "location": 212,
+        "object": 4,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 6004,
+        "videoFrame": 12354
+      },
+      {
+        "location": 212,
+        "object": 2,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5940,
+        "videoFrame": 12354
+      },
+      {
+        "location": 212,
+        "object": 0,
+        "opcode": 216,
+        "argument": 0,
+        "scriptPC": 1237,
+        "videoFrame": 12360
+      },
+      {
+        "location": 212,
+        "object": 0,
+        "opcode": 216,
+        "argument": 0,
+        "scriptPC": 1237,
+        "videoFrame": 15138
+      },
+      {
+        "location": 212,
+        "object": 4,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5909,
+        "videoFrame": 15204
+      },
+      {
+        "location": 212,
+        "object": 3,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5909,
+        "videoFrame": 15205
+      },
+      {
+        "location": 212,
+        "object": 12,
+        "opcode": 0,
+        "argument": 130,
+        "scriptPC": 1570,
+        "videoFrame": 15438
+      },
+      {
+        "location": 212,
+        "object": 3,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5972,
+        "videoFrame": 15607
+      },
+      {
+        "location": 212,
+        "object": 4,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 6004,
+        "videoFrame": 15607
+      },
+      {
+        "location": 212,
+        "object": 2,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5940,
+        "videoFrame": 15607
+      },
+      {
+        "location": 212,
+        "object": 23,
+        "opcode": 0,
+        "argument": 131,
+        "scriptPC": 1763,
+        "videoFrame": 15674
+      },
+      {
+        "location": 212,
+        "object": 24,
+        "opcode": 0,
+        "argument": 131,
+        "scriptPC": 1785,
+        "videoFrame": 15678
+      },
+      {
+        "location": 212,
+        "object": 22,
+        "opcode": 0,
+        "argument": 131,
+        "scriptPC": 1741,
+        "videoFrame": 15854
+      },
+      {
+        "location": 212,
+        "object": 0,
+        "opcode": 216,
+        "argument": 0,
+        "scriptPC": 1305,
+        "videoFrame": 15858
+      },
+      {
+        "location": 212,
+        "object": 0,
+        "opcode": 216,
+        "argument": 0,
+        "scriptPC": 1305,
+        "videoFrame": 18329
+      },
+      {
+        "location": 212,
+        "object": 3,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5909,
+        "videoFrame": 18379
+      },
+      {
+        "location": 212,
+        "object": 4,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5909,
+        "videoFrame": 18379
+      },
+      {
+        "location": 212,
+        "object": 13,
+        "opcode": 0,
+        "argument": 130,
+        "scriptPC": 1601,
+        "videoFrame": 18789
+      },
+      {
+        "location": 212,
+        "object": 3,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5972,
+        "videoFrame": 18964
+      },
+      {
+        "location": 212,
+        "object": 4,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 6004,
+        "videoFrame": 18964
+      },
+      {
+        "location": 212,
+        "object": 2,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5940,
+        "videoFrame": 18965
+      },
+      {
+        "location": 212,
+        "object": 28,
+        "opcode": 0,
+        "argument": 131,
+        "scriptPC": 1837,
+        "videoFrame": 19157
+      },
+      {
+        "location": 212,
+        "object": 1,
+        "opcode": 216,
+        "argument": 0,
+        "scriptPC": 1368,
+        "videoFrame": 19161
+      },
+      {
+        "location": 212,
+        "object": 1,
+        "opcode": 216,
+        "argument": 0,
+        "scriptPC": 1368,
+        "videoFrame": 21939
+      },
+      {
+        "location": 212,
+        "object": 3,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5909,
+        "videoFrame": 21996
+      },
+      {
+        "location": 212,
+        "object": 4,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5909,
+        "videoFrame": 21996
+      },
+      {
+        "location": 212,
+        "object": 33,
+        "opcode": 0,
+        "argument": 128,
+        "scriptPC": 1892,
+        "videoFrame": 22223
+      },
+      {
+        "location": 212,
+        "object": 33,
+        "opcode": 0,
+        "argument": 128,
+        "scriptPC": 1892,
+        "videoFrame": 22225
+      },
+      {
+        "location": 212,
+        "object": 33,
+        "opcode": 0,
+        "argument": 128,
+        "scriptPC": 1892,
+        "videoFrame": 22227
+      },
+      {
+        "location": 212,
+        "object": 2,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5940,
+        "videoFrame": 22310
+      },
+      {
+        "location": 212,
+        "object": 3,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5972,
+        "videoFrame": 22310
+      },
+      {
+        "location": 212,
+        "object": 4,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 6004,
+        "videoFrame": 22310
+      },
+      {
+        "location": 212,
+        "object": 1,
+        "opcode": 216,
+        "argument": 18,
+        "scriptPC": 1404,
+        "videoFrame": 22315
+      },
+      {
+        "location": 212,
+        "object": 1,
+        "opcode": 216,
+        "argument": 18,
+        "scriptPC": 1404,
+        "videoFrame": 24579
+      },
+      {
+        "location": 212,
+        "object": 4,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5909,
+        "videoFrame": 24654
+      },
+      {
+        "location": 212,
+        "object": 3,
+        "opcode": 0,
+        "argument": 17,
+        "scriptPC": 5909,
+        "videoFrame": 24655
+      },
+      {
+        "location": 213,
+        "object": 11,
+        "opcode": 170,
+        "argument": 6,
+        "scriptPC": 1043,
+        "videoFrame": 25083
+      },
+      {
+        "location": 213,
+        "object": 12,
+        "opcode": 170,
+        "argument": 6,
+        "scriptPC": 1072,
+        "videoFrame": 25083
+      },
+      {
+        "location": 213,
+        "object": 13,
+        "opcode": 170,
+        "argument": 6,
+        "scriptPC": 1103,
+        "videoFrame": 25083
+      }
+    ],
+    "maxObservedFieldHeapBytes": {
+      "2": 1248,
+      "212": 5248,
+      "213": 7872
+    },
+    "cartridgeUnchanged": true,
+    "exactUndo": true
+  },
+  "rider": {
+    "location": 342,
+    "appearance": "Original developer ending room; display interaction, not a combat encounter",
+    "arrival": [
+      {
+        "location": 342,
+        "object": 10,
+        "enemy": 175,
+        "videoFrame": 8930,
+        "gfx": 89,
+        "palette": 32,
+        "program": 158,
+        "sourcePointer": 5316496
+      }
+    ],
+    "originalDialogue": 41,
+    "originalOneShotCalls": [
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 519,
+        "videoFrame": 9385
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 522,
+        "videoFrame": 9417
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 525,
+        "videoFrame": 9449
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 528,
+        "videoFrame": 9481
+      }
+    ],
+    "originalOneShotDispatchPolls": 32,
+    "observedRequestedFrames": [
+      3,
+      4,
+      5,
+      14,
+      18,
+      19,
+      21,
+      23
+    ],
+    "trace": "scenes/rider-demo-trace.json",
+    "traceSha256": "aa9cc10ffebea0942a6c7d0f077b57ad4cf8155611cb9d46ec176041d2184c70",
+    "loads": [
+      {
+        "location": 342,
+        "object": 10,
+        "enemy": 175,
+        "videoFrame": 8930
+      }
+    ],
+    "battles": [],
+    "nativeDamageResults": 0,
+    "positiveDamageResults": 0,
+    "messages": [
+      {
+        "location": 342,
+        "stringId": 41,
+        "videoFrame": 9273
+      }
+    ],
+    "dispatches": [
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 0,
+        "argument": 130,
+        "scriptPC": 532,
+        "videoFrame": 9258
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 0,
+        "argument": 130,
+        "scriptPC": 532,
+        "videoFrame": 9260
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 170,
+        "argument": 6,
+        "scriptPC": 513,
+        "videoFrame": 9269
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 519,
+        "videoFrame": 9385
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 519,
+        "videoFrame": 9389
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 519,
+        "videoFrame": 9393
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 519,
+        "videoFrame": 9397
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 519,
+        "videoFrame": 9401
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 519,
+        "videoFrame": 9405
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 519,
+        "videoFrame": 9409
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 519,
+        "videoFrame": 9413
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 29,
+        "argument": 171,
+        "scriptPC": 521,
+        "videoFrame": 9413
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 522,
+        "videoFrame": 9417
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 522,
+        "videoFrame": 9421
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 522,
+        "videoFrame": 9425
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 522,
+        "videoFrame": 9429
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 522,
+        "videoFrame": 9433
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 522,
+        "videoFrame": 9437
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 522,
+        "videoFrame": 9441
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 522,
+        "videoFrame": 9445
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 15,
+        "argument": 171,
+        "scriptPC": 524,
+        "videoFrame": 9445
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 525,
+        "videoFrame": 9449
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 525,
+        "videoFrame": 9453
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 525,
+        "videoFrame": 9457
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 525,
+        "videoFrame": 9461
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 525,
+        "videoFrame": 9465
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 525,
+        "videoFrame": 9469
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 525,
+        "videoFrame": 9473
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 525,
+        "videoFrame": 9477
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 27,
+        "argument": 171,
+        "scriptPC": 527,
+        "videoFrame": 9477
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 528,
+        "videoFrame": 9481
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 528,
+        "videoFrame": 9485
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 528,
+        "videoFrame": 9489
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 528,
+        "videoFrame": 9493
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 528,
+        "videoFrame": 9497
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 528,
+        "videoFrame": 9501
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 528,
+        "videoFrame": 9505
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 171,
+        "argument": 8,
+        "scriptPC": 528,
+        "videoFrame": 9509
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 23,
+        "argument": 180,
+        "scriptPC": 530,
+        "videoFrame": 9509
+      },
+      {
+        "location": 342,
+        "object": 10,
+        "opcode": 0,
+        "argument": 130,
+        "scriptPC": 532,
+        "videoFrame": 9513
+      }
+    ],
+    "maxObservedFieldHeapBytes": {
+      "2": 1248,
+      "342": 3840
+    },
+    "cartridgeUnchanged": true,
+    "exactUndo": true
+  },
+  "initializations": [
+    {
+      "location": 47,
+      "owners": [
+        {
+          "location": 47,
+          "object": 22,
+          "enemy": 35,
+          "videoFrame": 8907,
+          "gfx": 89,
+          "palette": 32,
+          "program": 35,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 47,
+          "object": 23,
+          "enemy": 35,
+          "videoFrame": 8907,
+          "gfx": 89,
+          "palette": 32,
+          "program": 35,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 47,
+          "object": 24,
+          "enemy": 35,
+          "videoFrame": 8907,
+          "gfx": 89,
+          "palette": 32,
+          "program": 35,
+          "sourcePointer": 5316496
+        }
+      ],
+      "loads": [
+        {
+          "location": 47,
+          "object": 22,
+          "enemy": 35,
+          "videoFrame": 8907
+        },
+        {
+          "location": 47,
+          "object": 23,
+          "enemy": 35,
+          "videoFrame": 8907
+        },
+        {
+          "location": 47,
+          "object": 24,
+          "enemy": 35,
+          "videoFrame": 8907
+        }
+      ],
+      "battles": [],
+      "nativeDamageResults": 0,
+      "positiveDamageResults": 0,
+      "messages": [],
+      "dispatches": [],
+      "maxObservedFieldHeapBytes": {
+        "2": 1248,
+        "47": 13344
+      },
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "location": 48,
+      "owners": [
+        {
+          "location": 48,
+          "object": 11,
+          "enemy": 35,
+          "videoFrame": 8904,
+          "gfx": 89,
+          "palette": 32,
+          "program": 35,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 48,
+          "object": 12,
+          "enemy": 35,
+          "videoFrame": 8904,
+          "gfx": 89,
+          "palette": 32,
+          "program": 35,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 48,
+          "object": 13,
+          "enemy": 35,
+          "videoFrame": 8904,
+          "gfx": 89,
+          "palette": 32,
+          "program": 35,
+          "sourcePointer": 5316496
+        }
+      ],
+      "loads": [
+        {
+          "location": 48,
+          "object": 11,
+          "enemy": 35,
+          "videoFrame": 8904
+        },
+        {
+          "location": 48,
+          "object": 12,
+          "enemy": 35,
+          "videoFrame": 8904
+        },
+        {
+          "location": 48,
+          "object": 13,
+          "enemy": 35,
+          "videoFrame": 8904
+        }
+      ],
+      "battles": [],
+      "nativeDamageResults": 0,
+      "positiveDamageResults": 0,
+      "messages": [
+        {
+          "location": 48,
+          "stringId": 221,
+          "videoFrame": 9130
+        }
+      ],
+      "dispatches": [
+        {
+          "location": 48,
+          "object": 3,
+          "opcode": 0,
+          "argument": 17,
+          "scriptPC": 6004,
+          "videoFrame": 9121
+        },
+        {
+          "location": 48,
+          "object": 1,
+          "opcode": 0,
+          "argument": 17,
+          "scriptPC": 5940,
+          "videoFrame": 9121
+        },
+        {
+          "location": 48,
+          "object": 2,
+          "opcode": 0,
+          "argument": 17,
+          "scriptPC": 5972,
+          "videoFrame": 9122
+        }
+      ],
+      "maxObservedFieldHeapBytes": {
+        "2": 1248,
+        "48": 10656
+      },
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "location": 285,
+      "owners": [
+        {
+          "location": 285,
+          "object": 9,
+          "enemy": 38,
+          "videoFrame": 8948,
+          "gfx": 89,
+          "palette": 36,
+          "program": 36,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 285,
+          "object": 11,
+          "enemy": 38,
+          "videoFrame": 8948,
+          "gfx": 89,
+          "palette": 36,
+          "program": 36,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 285,
+          "object": 14,
+          "enemy": 38,
+          "videoFrame": 8948,
+          "gfx": 89,
+          "palette": 36,
+          "program": 36,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 285,
+          "object": 15,
+          "enemy": 38,
+          "videoFrame": 8948,
+          "gfx": 89,
+          "palette": 36,
+          "program": 36,
+          "sourcePointer": 5316496
+        }
+      ],
+      "loads": [
+        {
+          "location": 285,
+          "object": 9,
+          "enemy": 38,
+          "videoFrame": 8948
+        },
+        {
+          "location": 285,
+          "object": 11,
+          "enemy": 38,
+          "videoFrame": 8948
+        },
+        {
+          "location": 285,
+          "object": 14,
+          "enemy": 38,
+          "videoFrame": 8948
+        },
+        {
+          "location": 285,
+          "object": 15,
+          "enemy": 38,
+          "videoFrame": 8948
+        }
+      ],
+      "battles": [],
+      "nativeDamageResults": 0,
+      "positiveDamageResults": 0,
+      "messages": [],
+      "dispatches": [
+        {
+          "location": 285,
+          "object": 1,
+          "opcode": 170,
+          "argument": 36,
+          "scriptPC": 849,
+          "videoFrame": 8956
+        },
+        {
+          "location": 285,
+          "object": 2,
+          "opcode": 170,
+          "argument": 36,
+          "scriptPC": 849,
+          "videoFrame": 8987
+        },
+        {
+          "location": 285,
+          "object": 1,
+          "opcode": 170,
+          "argument": 0,
+          "scriptPC": 854,
+          "videoFrame": 8995
+        },
+        {
+          "location": 285,
+          "object": 1,
+          "opcode": 0,
+          "argument": 142,
+          "scriptPC": 856,
+          "videoFrame": 8995
+        },
+        {
+          "location": 285,
+          "object": 3,
+          "opcode": 170,
+          "argument": 36,
+          "scriptPC": 849,
+          "videoFrame": 9019
+        },
+        {
+          "location": 285,
+          "object": 2,
+          "opcode": 170,
+          "argument": 0,
+          "scriptPC": 854,
+          "videoFrame": 9027
+        },
+        {
+          "location": 285,
+          "object": 2,
+          "opcode": 0,
+          "argument": 142,
+          "scriptPC": 856,
+          "videoFrame": 9027
+        },
+        {
+          "location": 285,
+          "object": 3,
+          "opcode": 170,
+          "argument": 0,
+          "scriptPC": 854,
+          "videoFrame": 9059
+        },
+        {
+          "location": 285,
+          "object": 3,
+          "opcode": 0,
+          "argument": 142,
+          "scriptPC": 856,
+          "videoFrame": 9059
+        },
+        {
+          "location": 285,
+          "object": 2,
+          "opcode": 0,
+          "argument": 17,
+          "scriptPC": 5909,
+          "videoFrame": 9065
+        },
+        {
+          "location": 285,
+          "object": 3,
+          "opcode": 0,
+          "argument": 17,
+          "scriptPC": 5909,
+          "videoFrame": 9065
+        }
+      ],
+      "maxObservedFieldHeapBytes": {
+        "2": 1248,
+        "285": 10080
+      },
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "location": 286,
+      "owners": [
+        {
+          "location": 286,
+          "object": 10,
+          "enemy": 38,
+          "videoFrame": 8957,
+          "gfx": 89,
+          "palette": 36,
+          "program": 36,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 286,
+          "object": 13,
+          "enemy": 38,
+          "videoFrame": 8957,
+          "gfx": 89,
+          "palette": 36,
+          "program": 36,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 286,
+          "object": 15,
+          "enemy": 38,
+          "videoFrame": 8957,
+          "gfx": 89,
+          "palette": 36,
+          "program": 36,
+          "sourcePointer": 5316496
+        }
+      ],
+      "loads": [
+        {
+          "location": 286,
+          "object": 10,
+          "enemy": 38,
+          "videoFrame": 8957
+        },
+        {
+          "location": 286,
+          "object": 13,
+          "enemy": 38,
+          "videoFrame": 8957
+        },
+        {
+          "location": 286,
+          "object": 15,
+          "enemy": 38,
+          "videoFrame": 8957
+        }
+      ],
+      "battles": [],
+      "nativeDamageResults": 0,
+      "positiveDamageResults": 0,
+      "messages": [],
+      "dispatches": [
+        {
+          "location": 286,
+          "object": 1,
+          "opcode": 170,
+          "argument": 36,
+          "scriptPC": 839,
+          "videoFrame": 8966
+        },
+        {
+          "location": 286,
+          "object": 2,
+          "opcode": 170,
+          "argument": 36,
+          "scriptPC": 839,
+          "videoFrame": 8998
+        },
+        {
+          "location": 286,
+          "object": 1,
+          "opcode": 170,
+          "argument": 0,
+          "scriptPC": 844,
+          "videoFrame": 9006
+        },
+        {
+          "location": 286,
+          "object": 1,
+          "opcode": 0,
+          "argument": 142,
+          "scriptPC": 846,
+          "videoFrame": 9006
+        },
+        {
+          "location": 286,
+          "object": 3,
+          "opcode": 170,
+          "argument": 36,
+          "scriptPC": 839,
+          "videoFrame": 9030
+        },
+        {
+          "location": 286,
+          "object": 2,
+          "opcode": 170,
+          "argument": 0,
+          "scriptPC": 844,
+          "videoFrame": 9038
+        },
+        {
+          "location": 286,
+          "object": 2,
+          "opcode": 0,
+          "argument": 142,
+          "scriptPC": 846,
+          "videoFrame": 9038
+        },
+        {
+          "location": 286,
+          "object": 3,
+          "opcode": 170,
+          "argument": 0,
+          "scriptPC": 844,
+          "videoFrame": 9070
+        },
+        {
+          "location": 286,
+          "object": 3,
+          "opcode": 0,
+          "argument": 142,
+          "scriptPC": 846,
+          "videoFrame": 9070
+        },
+        {
+          "location": 286,
+          "object": 2,
+          "opcode": 0,
+          "argument": 17,
+          "scriptPC": 5909,
+          "videoFrame": 9076
+        },
+        {
+          "location": 286,
+          "object": 3,
+          "opcode": 0,
+          "argument": 17,
+          "scriptPC": 5909,
+          "videoFrame": 9076
+        }
+      ],
+      "maxObservedFieldHeapBytes": {
+        "2": 1248,
+        "286": 23968
+      },
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "location": 393,
+      "owners": [
+        {
+          "location": 393,
+          "object": 13,
+          "enemy": 40,
+          "videoFrame": 8899,
+          "gfx": 89,
+          "palette": 38,
+          "program": 36,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 393,
+          "object": 14,
+          "enemy": 40,
+          "videoFrame": 8899,
+          "gfx": 89,
+          "palette": 38,
+          "program": 36,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 393,
+          "object": 15,
+          "enemy": 40,
+          "videoFrame": 8899,
+          "gfx": 89,
+          "palette": 38,
+          "program": 36,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 393,
+          "object": 16,
+          "enemy": 40,
+          "videoFrame": 8899,
+          "gfx": 89,
+          "palette": 38,
+          "program": 36,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 393,
+          "object": 17,
+          "enemy": 40,
+          "videoFrame": 8899,
+          "gfx": 89,
+          "palette": 38,
+          "program": 36,
+          "sourcePointer": 5316496
+        },
+        {
+          "location": 393,
+          "object": 18,
+          "enemy": 40,
+          "videoFrame": 8899,
+          "gfx": 89,
+          "palette": 38,
+          "program": 36,
+          "sourcePointer": 5316496
+        }
+      ],
+      "loads": [
+        {
+          "location": 393,
+          "object": 13,
+          "enemy": 40,
+          "videoFrame": 8899
+        },
+        {
+          "location": 393,
+          "object": 14,
+          "enemy": 40,
+          "videoFrame": 8899
+        },
+        {
+          "location": 393,
+          "object": 15,
+          "enemy": 40,
+          "videoFrame": 8899
+        },
+        {
+          "location": 393,
+          "object": 16,
+          "enemy": 40,
+          "videoFrame": 8899
+        },
+        {
+          "location": 393,
+          "object": 17,
+          "enemy": 40,
+          "videoFrame": 8899
+        },
+        {
+          "location": 393,
+          "object": 18,
+          "enemy": 40,
+          "videoFrame": 8899
+        }
+      ],
+      "battles": [],
+      "nativeDamageResults": 0,
+      "positiveDamageResults": 0,
+      "messages": [],
+      "dispatches": [],
+      "maxObservedFieldHeapBytes": {
+        "2": 1248,
+        "393": 13536
+      },
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "scenes/western-arrival.png",
+      "sha256": "0cc7ffd8a9b6363a89612807a1997ecb5c72518deac6b90e0a870505a24d7d4b"
+    },
+    {
+      "file": "scenes/western-ruins-battle-1.png",
+      "sha256": "b2cc948856b883f9f7b3fb32859c509c2a0fcde89e8526baee9272e9e3b1ca56"
+    },
+    {
+      "file": "scenes/western-ruins-battle-2.png",
+      "sha256": "f941a6f18093befa34df88ddeeb655a9f94c6c2f7fec6403f2cbf159688d7a99"
+    },
+    {
+      "file": "scenes/western-ruins-battle-3.png",
+      "sha256": "38d3eec7ffa8810ad1a6f824e2db153542e5bf4745a4572702cd5d674fc9b13f"
+    },
+    {
+      "file": "scenes/western-ruins-battle-4.png",
+      "sha256": "c344edc4052a1e04d0dbcf4ac4553c1a7982cb215e80ada54193f5243719b379"
+    },
+    {
+      "file": "scenes/western-ruins-battle-5.png",
+      "sha256": "7c305d4fcc8f638d1e36d3c15e1335857f52e817eaee0a42743598d50e950a68"
+    },
+    {
+      "file": "scenes/western-ruins-east-arrival.png",
+      "sha256": "bb0da44ba597083c503d1a57299329c6f31b7c89f6102d17cc531d5018e18d77"
+    },
+    {
+      "file": "scenes/rider-original-arrival.png",
+      "sha256": "6f43a72dbd78b95908a6961a47976b5caffa7b3d8c0faa3250997eaef87d3b1e"
+    },
+    {
+      "file": "scenes/rider-original-after-demo.png",
+      "sha256": "fd72bdba21178718076481c096851ddb577017b7365e57f7dc89ad1f52843ee1"
+    },
+    {
+      "file": "scenes/original-47-initialization.png",
+      "sha256": "6f26537e0005db6e1a7e3da06659d73d84997ea01414739c59dbde27ab9b77dc"
+    },
+    {
+      "file": "scenes/original-48-initialization.png",
+      "sha256": "d6041b3905ad341ac35376de3fc557c789a345357214dec4dbe968dcfc4bd330"
+    },
+    {
+      "file": "scenes/original-285-initialization.png",
+      "sha256": "b7239c6904bfb3aa2dd1c9f31025cdfc1b71ba37d5088ed2f36e97bf22eacae8"
+    },
+    {
+      "file": "scenes/original-286-initialization.png",
+      "sha256": "21e286179a4ba1f7fc5614cb11ab6122a2f5b42db5f680895c736c46d9fccdfd"
+    },
+    {
+      "file": "scenes/original-393-initialization.png",
+      "sha256": "36eb75995ab763c4eccd775d29ea175703f72073eb2ecd96bccd93b633e84f0d"
+    }
+  ],
+  "motions": [
+    {
+      "file": "plants-actual-battle.apng",
+      "sha256": "56330974d5f701d9722fa7812cb695c40529626ecd20cc40423d26d3b521a979",
+      "firstVideoFrame": 9973,
+      "videoTicks": 120,
+      "framesPerSecond": 60,
+      "scope": "Frames captured during the unchanged controller route; no extra gameplay waits."
+    },
+    {
+      "file": "rider-original-four-direction-demo.apng",
+      "sha256": "cd3c02852d2686ebab630207fe1329f171691871502da7be6dccd8d2d2abdc0c",
+      "firstVideoFrame": 9394,
+      "videoTicks": 300,
+      "framesPerSecond": 60,
+      "scope": "Unmodified actual native scene motion, original actors, priority and controller state; isolated timing/cell proof is separate."
+    }
+  ],
+  "evidence": ".local/qa/rootlings-briars-native-proof",
+  "runner": {
+    "file": "assets/imagegen/rootlings-briars/verify-scenes.mjs",
+    "sha256": "afb5cd91063b347032987957971eb4e4ab9d6637876c406f2ef2dec587d439d3"
+  },
+  "controller": {
+    "file": "assets/imagegen/rootlings-briars/ruins-controller.private.mjs",
+    "sha256": "86adc6525730e6f132fb6b1195d246fd2fd567a2faa39eeae5f7835d6b29be58",
+    "originalFile": "tests/ruins-controller.mjs",
+    "originalSha256": "2bd4190a1cd9ecd6a8704144f0ca81e9b1c5ce408b4ee64a5e324f5a88c7f82f",
+    "adaptation": "Dwell up to 480 native frames in the first original ambush zone; all route waypoints, formations, inputs and assertions otherwise unchanged."
+  },
+  "limitations": [
+    "Route stops at the real western-to-eastern Lab16 exit, before unrelated eastern encounters.",
+    "Rider175 appears in the original developer ending room, with no original battle trigger. Its actual native interaction is proved instead of inventing a battle.",
+    "Root Guard36 has a native owner/header but no original event load in the complete event inventory; exact owner/pose and animation tests cover it.",
+    "Other locations prove original loading, palettes, programs and heap only, not complete battle routes.",
+    "Actual scene captures retain native party/background layering. Exact unobstructed pixels and action timing are proved separately.",
+    "Entry fixtures use strong development parties; no normal-level balance claim.",
+    "Production placement and independent-core execution remain root integration checks."
+  ]
+}

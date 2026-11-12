@@ -1,0 +1,732 @@
+{
+  "status": "Frozen inactive; root-approved actual source, contacts, roles and prison/sleep scene visuals",
+  "baselineSha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+  "privateSha256": "aaa7ec5abc8ba3b30996e7d588484091bd49f92609c00b17637ff16be26a89f7",
+  "sourceNativeProof": {
+    "status": "Frozen inactive; root-approved actual source, contacts, roles and prison/sleep scene visuals",
+    "key": "duloc-court-soldier",
+    "baselineSha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+    "privateSha256": "aaa7ec5abc8ba3b30996e7d588484091bd49f92609c00b17637ff16be26a89f7",
+    "source": {
+      "tool": "built-in image_gen__imagegen",
+      "generatedPNGs": 3,
+      "selectedSourcePoses": 19,
+      "sourceDerivedHeadFragment": 1,
+      "prompts": [
+        "assets/imagegen/duloc-executioner/prompt-base-v1.txt",
+        "assets/imagegen/duloc-executioner/prompt-contacts-v2.txt",
+        "assets/imagegen/duloc-executioner/prompt-actions-v1.txt"
+      ],
+      "selectedCells": {
+        "source-base-v1.png": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10
+        ],
+        "source-contacts-v2.png": [
+          0,
+          1,
+          2
+        ],
+        "source-actions-v1.png": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "profileContactHorizontalSampling": 0.9,
+      "anatomyPaintedInCode": false
+    },
+    "native": {
+      "slots": 26,
+      "blankSlots": [],
+      "owners": [
+        [
+          "npc",
+          16
+        ]
+      ],
+      "paletteIds": [
+        160
+      ],
+      "paletteWrites": 0,
+      "rawBytes": 8448,
+      "compressedBytes": 5507,
+      "assemblyBytes": 1040,
+      "graphicsSha256": "9936072448a3b653f3f2b0457182ba5d2f64a38d5ec5d2c66e9c058adf623e7a",
+      "compressedSha256": "8e0a482b3de023c26d65004d6068e043cd551ad672911800152136fbe90a2c77",
+      "assemblySha256": "f052c7e279cf5fba6a1719eb4ab692056457a4d374c69b4bceda67cd12a4a1c9",
+      "exactUploads": 26,
+      "exactCells": 104,
+      "exactOpaquePixels": 10197,
+      "animationCases": 36,
+      "animationTicks": 2400,
+      "maximumDisplayDelay": 0,
+      "overlapFrames": [
+        10,
+        12,
+        13,
+        15
+      ]
+    },
+    "sceneEvidence": [
+      {
+        "name": "court-trial",
+        "nativeTicks": 18101,
+        "result": {
+          "location": 71,
+          "story": 45,
+          "juryVotes": 0,
+          "scope": "Actual helpful trial, native flashbacks, verdict, officer escort and prison intake completed by controller."
+        },
+        "heapMax": 19488,
+        "manifest": "assets/imagegen/duloc-executioner/scene-verification/court-trial.json"
+      },
+      {
+        "name": "prison-rescue",
+        "nativeTicks": 10305,
+        "result": {
+          "location": 30,
+          "story": 46,
+          "party": [
+            0,
+            2,
+            128
+          ],
+          "finalSourceFrames": [
+            19
+          ]
+        },
+        "heapMax": 26048,
+        "manifest": "assets/imagegen/duloc-executioner/scene-verification/prison-rescue.json"
+      },
+      {
+        "name": "castle-escape",
+        "nativeTicks": 4700,
+        "result": {
+          "location": 19,
+          "story": 48,
+          "party": [
+            0,
+            2,
+            1
+          ]
+        },
+        "heapMax": 19328,
+        "manifest": "assets/imagegen/duloc-executioner/scene-verification/castle-escape.json"
+      },
+      {
+        "name": "ending-sleep",
+        "nativeTicks": 2893,
+        "result": {
+          "location": 239,
+          "sourceFrames": [
+            12,
+            25
+          ],
+          "scope": "Diagnostic entry to the unchanged original shared ending/disaster location; no claim of complete ending or natural campaign approach."
+        },
+        "heapMax": 11584,
+        "manifest": "assets/imagegen/duloc-executioner/scene-verification/ending-sleep.json"
+      },
+      {
+        "name": "ending-jail",
+        "nativeTicks": 1800,
+        "result": {
+          "location": 341,
+          "sourceFrames": [
+            15,
+            1,
+            13,
+            14,
+            10
+          ],
+          "scope": "Diagnostic entry to the unchanged original shared ending/disaster location; no claim of complete ending or natural campaign approach."
+        },
+        "heapMax": 19520,
+        "manifest": "assets/imagegen/duloc-executioner/scene-verification/ending-jail.json"
+      },
+      {
+        "name": "disaster1999",
+        "nativeTicks": 1800,
+        "result": {
+          "location": 476,
+          "sourceFrames": [
+            0
+          ],
+          "scope": "Diagnostic entry to the unchanged original shared ending/disaster location; no claim of complete ending or natural campaign approach."
+        },
+        "heapMax": 2656,
+        "manifest": "assets/imagegen/duloc-executioner/scene-verification/disaster1999.json"
+      }
+    ],
+    "sceneCoverage": {
+      "auditedPrograms": [
+        2,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        71,
+        72,
+        81,
+        85,
+        94,
+        239,
+        341,
+        438,
+        441,
+        476
+      ],
+      "auditedLoadStatements": 64,
+      "observedNpcLocations": [
+        19,
+        21,
+        27,
+        28,
+        29,
+        30,
+        71,
+        72,
+        239,
+        341,
+        476
+      ],
+      "untraversedPrograms": [
+        2,
+        20,
+        22,
+        24,
+        25,
+        26,
+        81,
+        85,
+        94,
+        438,
+        441
+      ],
+      "totalSceneTicks": 39599,
+      "limitations": [
+        "All scene runs begin through diagnostic entry/checkpoint seeding, then original event/controller execution. No complete natural campaign or full ending route claim.",
+        "Field map/party occlusion and1999 console priority are reported separately from exact native tile/coordinate verification.",
+        "Not every branch of all22 programs has been traversed.",
+        "Eight original unused/bad event records are explicitly reported, none contains an original NPC16 reference.",
+        "Current production allocation, independent emulator cores and active full campaign regression remain root integration work."
+      ]
+    },
+    "proposal": "assets/imagegen/duloc-executioner/integration-proposal.json",
+    "activeFilesChanged": false
+  },
+  "files": [
+    {
+      "path": "assets/imagegen/duloc-executioner/.gitignore",
+      "bytes": 9,
+      "sha256": "7f1449aa6b5c22585727e0d7ef4b16a112119fb0b8f472d7ab4d3a974369dc6d"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/README.md",
+      "bytes": 4775,
+      "sha256": "961bd786a3c7e1eeb07217fc8abfd45721075657f6ca2f47437c4ed391f2aa47"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/audit-event-uses.py",
+      "bytes": 3532,
+      "sha256": "7a8faad245d83bc650d470e790280e49a8cbf547098035f670a3edbfa6a4f70c"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/audit-native.mjs",
+      "bytes": 8675,
+      "sha256": "8708a9775dc0fe5da9b0135dcaa73ec039f8d41f1f7a4b7cbc1ac38524bc0ed7"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/build-review.mjs",
+      "bytes": 9279,
+      "sha256": "45e54b26b38191bcf239d30e11390a04928813f5ed70818cdff8e35c40f16b5b"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/cover-solver.mjs",
+      "bytes": 1724,
+      "sha256": "1535d27182558b7dd3c9bed06b27f4117aed1a1d654420b56458cc2c50a5978c"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/create-spec.mjs",
+      "bytes": 1123,
+      "sha256": "dc155eb74a50bf4eb0881e74bc1652aa0f823c283459f42ae0df5c672af901b2"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/current-event-audit.json",
+      "bytes": 1226699,
+      "sha256": "925ae31a483151f03bd61c13ff4fedbccdc60b2aeb8b52a3d4f21a0327d47ce4"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/derive-fragment.mjs",
+      "bytes": 1461,
+      "sha256": "dccf304f7758239883bfd647f5d5313b6356108730ef5585c7e3a21ea42a5de3"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/derived-head-fragment.json",
+      "bytes": 420,
+      "sha256": "ab239adfbe2f96d8c14c87c0ed3ff9a1ead82294a31e21e9fad24c69bb842818"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/derived-head-fragment.png",
+      "bytes": 525,
+      "sha256": "72abccbc84f93aa2a223738c8dbea34062340dba4d77cb9bd36782967d6dd87c"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/design-proposal.json",
+      "bytes": 3422,
+      "sha256": "71fc24cf4e0689e0c28af668f09b283aed1561c623da8576be2e4b4612dad858"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/draft/assembly.bin",
+      "bytes": 1040,
+      "sha256": "f052c7e279cf5fba6a1719eb4ab692056457a4d374c69b4bceda67cd12a4a1c9"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/draft/audit.json",
+      "bytes": 28958,
+      "sha256": "c738b652e475e5cf6f57cdeb76b667f5d6ae90641fadb059a65d0075bc543243"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/draft/family.json",
+      "bytes": 6738,
+      "sha256": "cec1499e8cbfdf0c73810b887af55052c59bafd1a7a1c2544a505934311a53ff"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/draft/fit-audit.json",
+      "bytes": 23871,
+      "sha256": "08489617eddf87f5d62c14bef00485c32e1eb26ca8917206788b3cace62447a5"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/draft/graphics.4bpp",
+      "bytes": 8448,
+      "sha256": "9936072448a3b653f3f2b0457182ba5d2f64a38d5ec5d2c66e9c058adf623e7a"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/draft/graphics.ct-lz",
+      "bytes": 5507,
+      "sha256": "8e0a482b3de023c26d65004d6068e043cd551ad672911800152136fbe90a2c77"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/draft/overlap-audit.json",
+      "bytes": 1360,
+      "sha256": "1270966ab900b0c8caff11802d5e76c094ce9b3a5258aec518a4c9fbc4b5c59f"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/draft/palette160-1x.png",
+      "bytes": 20304,
+      "sha256": "20d2b42cd0d9c2b8349f963bbe80847d834b5f570237549e998b6171e5ffe056"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/draft/palette160-4x.png",
+      "bytes": 32701,
+      "sha256": "fc007ce7e18c00774351adf4c32fdaf7601ebedda041f62f3368a76fb4baa8de"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/draft/preview-import.json",
+      "bytes": 8718,
+      "sha256": "412430a7c5a0211bb1628625e839c68635725266cf015212c5a1982f95a646ef"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/draft/preview-native-indexed.png",
+      "bytes": 15541,
+      "sha256": "7eda3345496b93ebdfc0175591f7c3064e7a8a56e71a5f0695e7cf7d39de2092"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/draft/preview-raster.json",
+      "bytes": 83605,
+      "sha256": "240b769b788714b0bde2804d031fa39d36e418a7e881868dde93e0289b5e167f"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/freeze-packet.mjs",
+      "bytes": 7624,
+      "sha256": "5c36bce257c962c1e01a211414b406c5fbff658b56326179970b9f86d3657f32"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/handoff.json",
+      "bytes": 5812,
+      "sha256": "14c83a40c18d14ac496129c4c31076e73d42db2ee1907ddde4e26adf8ba27bd9"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/import-spec.draft.json",
+      "bytes": 3928,
+      "sha256": "3d330c2fee7ad3e35671510c4443daf9b9b5a330148ad33381bd88110ac06c2c"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/integration-proposal.json",
+      "bytes": 2233,
+      "sha256": "6f750692e6f6202b8e243f53bf2ed8df9335495edf82e1bdc70c901a5be8935e"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/motion-verification/manifest.json",
+      "bytes": 31832,
+      "sha256": "87a4606c245718015ecda67f4798c3f3d7c43ce89e4a5d94b5a648a52b5fc42a"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-audit.json",
+      "bytes": 156401,
+      "sha256": "3db1e05efed71974ffc3596dcfe8142c531f0522d66d4d708af4726aa0c2d87e"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-proof-utils.mjs",
+      "bytes": 3436,
+      "sha256": "64e6a45cf9690caa479d5b74dee7ced1378088eece42fa6d5b57d1936cb01782"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-role-notes.json",
+      "bytes": 1758,
+      "sha256": "e52181e9e7e825627a4325ca616cf3112e1e8a743245a436972d3502c16bd1fe"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-source-map.draft.json",
+      "bytes": 20660,
+      "sha256": "8333b448325b1ba25f37998aed2033a491cda4f9939a4c62d86eec072cf33afb"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/manifest.json",
+      "bytes": 21307,
+      "sha256": "76bb9b5d1663c925a56872eb01a1ea9352215731996d4ed80b3e0e9ad9c572b1"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/npc16-0.png",
+      "bytes": 56385,
+      "sha256": "5ac36e6b6c69bdb4ee259b7bfc3b43aba516f87b5780f21aaa9c26d8a68a8d4c"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/npc16-1.png",
+      "bytes": 56525,
+      "sha256": "d9c53c655d2513c135c1fcdf43604d573d64d0335cde22646004433cff87d9aa"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/npc16-10.png",
+      "bytes": 56411,
+      "sha256": "5476d3e665159631eb29b9522deea8d7e6fa9c8b82ff02439784838c12275583"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/npc16-12.png",
+      "bytes": 56414,
+      "sha256": "1b6fb3991b1da4917ba8898a032ea329a36b1a09c56ea2bb4ad1d39f4a216695"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/npc16-16.png",
+      "bytes": 56259,
+      "sha256": "663023d9e7b0222d0d9cfab512dcbb325101bdda42410e801201d7944b836cc7"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/npc16-18.png",
+      "bytes": 56513,
+      "sha256": "6eddd2a383b22877ad2fdcf65485691a082bc75cd43d203a285f0341ba5c0fd7"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/npc16-19.png",
+      "bytes": 56461,
+      "sha256": "f3868f9ce270a19f1c7dfa15a9c26d285dd07d479c2d8f064588412cb997bc85"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/npc16-20.png",
+      "bytes": 56336,
+      "sha256": "4a0a7041e8fff690a8e20c7aa8c4575ae216f0c7da75b860563d4829c7078f07"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/npc16-22.png",
+      "bytes": 56277,
+      "sha256": "aa76932a276319c1b2bdf2fea030df2d0ef35cb38deefc5faac09beaec9db6b3"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/npc16-23.png",
+      "bytes": 56517,
+      "sha256": "228b13b7088cfbb583cf8ecd3925b600452347ce7e40b1758a15a9a0c3cb2ccb"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/npc16-24.png",
+      "bytes": 56305,
+      "sha256": "b7bbcbb6e3737f776fa971831267326b384a485e826021b691c014099df2a2b3"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/native-verification/npc16-25.png",
+      "bytes": 56317,
+      "sha256": "b21069e43c5249b41cf1a233db926f605be0478f94d3f810aabbe5dd790633db"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/pack-cells.mjs",
+      "bytes": 3245,
+      "sha256": "ccec9f6b99c1fa2a3219986da9a01e94d7c36b5418dc56b24b3b4b8bbf61e794"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/prepare-native.mjs",
+      "bytes": 6306,
+      "sha256": "4d88f1cc7d8bc6dc5ecf761e31b50811c8aa92adad6984eedaf32f87ab0d7e48"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/private-overlay.mjs",
+      "bytes": 4045,
+      "sha256": "fa1c0ac2ea5b72ac06e09f0ba88111c6b2ed7de435a8889ad5a470bfba600c1b"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/prompt-actions-v1.txt",
+      "bytes": 2746,
+      "sha256": "bb6bb98691c5b098cfd3da99a557dca6747a89c9909ec9580446fc07c0f3dc49"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/prompt-base-v1.txt",
+      "bytes": 2915,
+      "sha256": "792e83ac13d1f6f93a487594c0fb742a8c7138bfb17894136fab3c48c6ad17b5"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/prompt-contacts-v2.txt",
+      "bytes": 1957,
+      "sha256": "626e6e140e821bc681c3d509bfe16130f67b779fae0c62b0bf3fc1e1280328b1"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/provenance-actions-v1.json",
+      "bytes": 1273,
+      "sha256": "ae606be3a0dcbe45ada4b84461a3635f41e540fd01608d96963c37400d8ea8fa"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/provenance-base-v1.json",
+      "bytes": 1115,
+      "sha256": "90cae5c65c56ea051f8b9380a71ed8d7781c6eb4700e9f1d4d519214eed181d0"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/provenance-contacts-v2.json",
+      "bytes": 1308,
+      "sha256": "ab52413744091dadf0845d8627bd89c88a9cc205ef7921b0402af9fe1c545c43"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/reproduce-draft.mjs",
+      "bytes": 1233,
+      "sha256": "379829858de16021930c96c135619f76a4e0ced1654f937a8e15535d290ea680"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/review/contact-sheet-1x.png",
+      "bytes": 128672,
+      "sha256": "c23ff2800ffbb8aa2496979bbc238a2f2b38b0a0eb7645e6709ca66d58881a77"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/review/contact-sheet.html",
+      "bytes": 35114,
+      "sha256": "ba4503313753703cb71d085130fae0a582c00d695ed5fec653db15a4b3647dea"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/review/gait-contacts.html",
+      "bytes": 11860,
+      "sha256": "709d130da1f3c431d5d246ba522107c045c455dae41487b562ba194cabefecc8"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/review/gait-contacts.png",
+      "bytes": 44598,
+      "sha256": "dc691ad75213c99443ff3e8e75a45029191adf33786afa3de465f4f5b3cf7cb0"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/review/motion-review.html",
+      "bytes": 436362,
+      "sha256": "1f1e70cd80fc167988ae1709fb25cdf0f0fa98a9cc0ec634c3ad32c34f76790c"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/review/role-review.html",
+      "bytes": 67330,
+      "sha256": "0ef66dc4e2460c33973f80a8946f683701111d4213cb4b2c0f98ada71b47f12f"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/review/ui-check.json",
+      "bytes": 691,
+      "sha256": "45817ad891013c065684909c6ae0eb50831a34529367d6d29ddb21ce58a2897d"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-resource-audit.json",
+      "bytes": 23639,
+      "sha256": "0b0d54a843423df6f1c468b604480eb4e0d549523cd493fec8a4d25d29e08d9d"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/castle-escape-acting-10.png",
+      "bytes": 65241,
+      "sha256": "e982cd8297d9c772f07006f2889153feab350946818f67d492927cf947306cd1"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/castle-escape.json",
+      "bytes": 25192,
+      "sha256": "58a5af7f294c926fde112ad67551b957f9d446267bf10d3d13eedf086ef03b9d"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/court-trial-court-144.png",
+      "bytes": 69336,
+      "sha256": "54602dfcd3ea6efb4a6bc6faf509f599c75424aa8e37adbf227185a843b88806"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/court-trial-court-162.png",
+      "bytes": 68530,
+      "sha256": "615d1c7e3a43bbb64702aac0fd20952fccb1a49eb6accefcba10b62449157c28"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/court-trial-prison-intake.png",
+      "bytes": 1771,
+      "sha256": "ee313a2ae7a6f35ebc6330fd29d9fcf7233bfd506d3da2fb0a92184a4f049130"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/court-trial.json",
+      "bytes": 40171,
+      "sha256": "d487131e2ad5cbe8b39d9edc2adbd2b16dc27700d69e96632c5e2656e7fb9c3a"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/disaster1999-native-400.png",
+      "bytes": 65901,
+      "sha256": "f7c4c14c6e02f56dd1a629768e400a90e0b1e7cca6ac0e2fc41a5d915b56d968"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/disaster1999.json",
+      "bytes": 14405,
+      "sha256": "141221497a16f2f9e8fef97c669af8170e04d416bf7c8d729825fc3504b1b908"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/ending-jail-native-400.png",
+      "bytes": 64148,
+      "sha256": "20a47ea1ef197967b1b3c35ce4be8dc2fd72df1b029735b08f851292f5ad6149"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/ending-jail.json",
+      "bytes": 10937,
+      "sha256": "01c252ac3c4171ecfc0bf9fb2d244547dfb534979244f304c5bfeaa913c63928"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/ending-sleep-native-2800.png",
+      "bytes": 7974,
+      "sha256": "b0c3cd3fb7b1c10bf84deb0c7dbaf0010a4860e49acc53f75bed8497ce58b854"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/ending-sleep.json",
+      "bytes": 17253,
+      "sha256": "7aaa26c9cd6674d49ec9b3e30fad34e4484001f017936357335cbcf61a117e71"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/prison-rescue-acting-76.png",
+      "bytes": 47012,
+      "sha256": "c3b069d55b74f0a05e51dda5fbaa2904ad4254e3388581caae0d428eb70517e7"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/prison-rescue-rescue-complete.png",
+      "bytes": 31491,
+      "sha256": "67a75a33578c703c59d651a44ed6265e1dcdd83e33ee2fcee35158b382a3bc4f"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/scene-verification/prison-rescue.json",
+      "bytes": 32677,
+      "sha256": "b17f58601a3bf28ef83123d83a3abd8025072e2b5b4f97595e687f1e0059955d"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/source-actions-v1.png",
+      "bytes": 776536,
+      "sha256": "7314cf71b5b237ba472277fc7e9e6be49a5105daff1f9eba875c293bee0a1273"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/source-base-v1.png",
+      "bytes": 873317,
+      "sha256": "87a5ab4af3b4e6511099bb30982f280b8024fbbdbe1a043a8ce9ebb8540854d1"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/source-contacts-v2.png",
+      "bytes": 508539,
+      "sha256": "cd92aa5805075bb852fa91b19e2f117c25889682876a92dce18f1bee7c345e9c"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/verify-motion.mjs",
+      "bytes": 3643,
+      "sha256": "b3bd916fadd3fcfaa40095284bad9b2ec39e7dd94e51929da1b027e7b7345376"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/verify-native.mjs",
+      "bytes": 3511,
+      "sha256": "c416095a7bab826871fee6554b563812acb0a25dbf89574d46831bad557dceaf"
+    },
+    {
+      "path": "assets/imagegen/duloc-executioner/verify-scenes.mjs",
+      "bytes": 8674,
+      "sha256": "4ab0842cd216301572f04fbf9fb6b6d689f36519963340b4593f5576083e3dce"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "scripts/import-raster-art.mjs",
+      "sha256": "da2199e4f16c3a0dd7425b2a3b05fccadd85b25b5140779b398c468fbc23d1c4"
+    },
+    {
+      "path": "engine/native-sprites.js",
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "path": "engine/sprites.js",
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "path": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "path": "scripts/native-sprite-view.mjs",
+      "sha256": "5ad09bed2da5887837208c7ccf58dc7e9822a383b9a05dc9433031508fc404b9"
+    },
+    {
+      "path": "engine/npc-graphics-streaming.js",
+      "sha256": "0dd90dca70436ed2863c448b11e66e549b71d9e85b2ec7603312000e74d2d8c2"
+    },
+    {
+      "path": "engine/expanded-rom.js",
+      "sha256": "de8f528ce60b4488df9d7742c38e8c9af2ae58e74df641fe6fd1c605dbeedde2"
+    },
+    {
+      "path": "scripts/core.mjs",
+      "sha256": "7ab30045a06ef89154004a3cc25e1c2dab1cad1c426f4a585e4a68a058bceef4"
+    },
+    {
+      "path": "engine/devtools.js",
+      "sha256": "1b2b25fb82dcabf4941fba6de507ca5b13d2b36bfcd0fd67547996f66f5c8185"
+    },
+    {
+      "path": "engine/automation.js",
+      "sha256": "8af377558a467f16747a8dbb120b8a047c2512cee9b4945ec5f657660a36fe28"
+    },
+    {
+      "path": "engine/hooks.js",
+      "sha256": "795fd4248bfaf669e53753df0636b4d24cf5ae98062d82f6e50b147516af7a2a"
+    },
+    {
+      "path": "engine/save.js",
+      "sha256": "c3ea24d67274d089090ebf5cb2776471cd8da323d878fcf398ae74390fd3d8ad"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "64a6a819820c608b0efc612e049a872b68b3159ec6d3cc95ae13261893a980b5"
+    }
+  ],
+  "externalRomInputs": [
+    {
+      "path": "assets/imagegen/duloc-executioner/private/baseline-21abd2c3bb7b.sfc",
+      "sha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361"
+    },
+    {
+      "path": ".local/chrono-trigger-usa.sfc",
+      "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+    }
+  ],
+  "exclusions": [
+    "ROM files, private snapshots/raw event dump, failed no-input slideshow probe, interim base previews, redundant screenshots and rejected candidates are not in the source whitelist."
+  ],
+  "activation": false
+}

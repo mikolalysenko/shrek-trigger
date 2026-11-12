@@ -1,0 +1,63 @@
+{
+  "key": "mongo-portrait",
+  "width": 48,
+  "height": 48,
+  "palette": [
+    "442d27",
+    "9b613c",
+    "cb9259",
+    "eabf80",
+    "fff1d7",
+    "95415c",
+    "dc6a80",
+    "714635",
+    "fff1dc",
+    "352d2e",
+    "7195a8",
+    "b55b48"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/mongo-portrait/source-v1.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 44,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 47
+      },
+      "note": "Full generated shoulder silhouette requires44px height to fit its original aspect ratio in48px width; no crop or new drawing."
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "samplingPalette": [
+    "4b2c1e",
+    "9a5a31",
+    "c88c48",
+    "edb56c",
+    "f8e1af",
+    "81306b",
+    "cb65a3",
+    "71402a",
+    "fff3da",
+    "261b18",
+    "588ab8",
+    "bd364e"
+  ],
+  "notes": {
+    "material": "Every opaque native pixel is sampled from the recorded generated portrait; no anatomy or facial feature is drawn in the converter.",
+    "palette": "Source-material color anchors keep blue eyebrow icing, berry gumdrops and red mouth distinct while retaining the unchanged native12-color output palette.",
+    "activation": "Draft only; no active portrait loader or registry change."
+  }
+}

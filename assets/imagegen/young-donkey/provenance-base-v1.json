@@ -1,0 +1,43 @@
+{
+  "tool": "OpenAI Images API",
+  "sourceType": "image-generation",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.6-sunburst",
+  "parameters": {
+    "model": "gpt-image-2.6-sunburst",
+    "size": "1024x1024",
+    "quality": "high",
+    "output_format": "png",
+    "n": 1
+  },
+  "requestId": "req_c00d70e75e9b43f78769ddf534498414",
+  "savedFile": "assets/imagegen/young-donkey/source-base-v1.png",
+  "sha256": "09b40f36037457a2825e477874c4e9646831c82c0ea1f24217ad0e161ede0743",
+  "created": "2026-11-11T18:50:30.000Z",
+  "prompt": {
+    "file": "assets/imagegen/young-donkey/prompt-base-v1.txt",
+    "sha256": "4f477d2f3f1cfcd3b4b12af9248111e2206a043c5f514c9fcf66eea5347839d3"
+  },
+  "referenceImages": [
+    {
+      "file": "assets/imagegen/young-donkey/reference-donkey-v1.png",
+      "sha256": "eb2d98fede368fb61d22b79f43c8a8ca2686d12e68a34ff6ccfa2f81e40419df"
+    }
+  ],
+  "revisedPrompt": null,
+  "usage": {
+    "input_tokens": 1655,
+    "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 631
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    },
+    "total_tokens": 3411
+  },
+  "transparentBackground": false,
+  "postGenerationEditing": "None. Source PNG saved unchanged from the API response; background masking, native extraction and palette indexing are recorded by the importer."
+}

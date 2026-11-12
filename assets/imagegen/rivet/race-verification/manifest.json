@@ -1,0 +1,719 @@
+{
+  "status": "Actual native introduction and both racing modes pass with candidate source",
+  "privateRomSha256": "376207d55c4b2f5e33caf29361f048b92ad931fc99472cfc740fda7f0b6d6ca3",
+  "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "placements": [
+    {
+      "label": "Rivet private compressed field graphics",
+      "pointer": 2367599,
+      "offset": 8192000,
+      "bytes": 4281,
+      "sha256": "f9172bc3d4610f65f651363b18202efb04d6050adc0965c69294fc8d70cd4b3f"
+    },
+    {
+      "label": "Rivet private native assembly",
+      "pointer": 2368334,
+      "offset": 8196288,
+      "bytes": 1000,
+      "sha256": "9cb8a1e95eb2aa47cd11ce7f0f7b4f370234c1a6d1576c49b4782c255105fbdc"
+    },
+    {
+      "label": "Rivet private native race projection",
+      "pointer": 4063244,
+      "offset": 8197296,
+      "bytes": 1174,
+      "sha256": "99f42ad3774186847286e3f51e0e0f37fe039abb3a0c1b2b6cc2105ee7b3639c"
+    },
+    {
+      "label": "Rivet private minimap pair",
+      "pointer": 4063241,
+      "offset": 8198480,
+      "bytes": 83,
+      "sha256": "9a238c24c139941a2835763be83ec48f5de40df92bd4667e9871094a58b9fc03"
+    }
+  ],
+  "routes": [
+    {
+      "mode": 0,
+      "result": "controller win",
+      "ticks": 2271,
+      "boostSpent": true,
+      "buffers": {
+        "cartSha256": "82ce37f0c58bcffc2e3e0b6244fee3a28cd96cdd7a878468867274b0264f729b",
+        "rivetSha256": "e30de6e72a033682469320e354ebcbf9f8d64e1fd1d36b73947b6b92ead45af6",
+        "minimapTransientOffset": 100864,
+        "minimapSha256": "652b23ad22f89c8edc5f988db857c733abd5faea56402fe90bec235fd2210c34"
+      }
+    },
+    {
+      "mode": 9,
+      "result": "controller win",
+      "ticks": 1817,
+      "score": 706,
+      "nativeRecord": 706,
+      "boostIgnored": true,
+      "cameraAngles": [
+        42,
+        83,
+        122,
+        157,
+        188
+      ],
+      "cameraRestored": true,
+      "buffers": {
+        "cartSha256": "82ce37f0c58bcffc2e3e0b6244fee3a28cd96cdd7a878468867274b0264f729b",
+        "rivetSha256": "e30de6e72a033682469320e354ebcbf9f8d64e1fd1d36b73947b6b92ead45af6",
+        "minimapTransientOffset": 100864,
+        "minimapSha256": "652b23ad22f89c8edc5f988db857c733abd5faea56402fe90bec235fd2210c34"
+      }
+    }
+  ],
+  "sourceConsumption": {
+    "projectionReads": [
+      {
+        "count": 950512,
+        "firstFrame": 11432,
+        "lastFrame": 12960,
+        "firstPc": 8273640,
+        "lastRoute": "no-boost",
+        "firstRoute": "boost"
+      },
+      {
+        "count": 1009463,
+        "firstFrame": 11432,
+        "lastFrame": 12963,
+        "firstPc": 8273640,
+        "lastRoute": "no-boost",
+        "firstRoute": "boost"
+      },
+      {
+        "count": 146361,
+        "firstFrame": 11432,
+        "lastFrame": 12955,
+        "firstPc": 8273640,
+        "lastRoute": "no-boost",
+        "firstRoute": "boost"
+      },
+      {
+        "count": 33304,
+        "firstFrame": 11433,
+        "lastFrame": 12243,
+        "firstPc": 8273640,
+        "lastRoute": "no-boost",
+        "firstRoute": "boost"
+      },
+      {
+        "count": 66330,
+        "firstFrame": 11441,
+        "lastFrame": 12562,
+        "firstPc": 12780382,
+        "lastRoute": "no-boost",
+        "firstRoute": "boost"
+      },
+      {
+        "count": 32216,
+        "firstFrame": 11538,
+        "lastFrame": 12303,
+        "firstPc": 12780382,
+        "lastRoute": "no-boost",
+        "firstRoute": "boost"
+      }
+    ],
+    "observedProjectionFrames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "minimapTransientOffset": 100864,
+    "miniLoads": [
+      {
+        "route": "boost",
+        "frame": 11427,
+        "offset": 100864,
+        "sha256": "652b23ad22f89c8edc5f988db857c733abd5faea56402fe90bec235fd2210c34",
+        "firstConsumerPc": 8273602
+      },
+      {
+        "route": "no-boost",
+        "frame": 9358,
+        "offset": 100864,
+        "sha256": "652b23ad22f89c8edc5f988db857c733abd5faea56402fe90bec235fd2210c34",
+        "firstConsumerPc": 8273602
+      }
+    ],
+    "miniSourceBytesConsumed": 128,
+    "miniReads": [
+      {
+        "count": 128
+      },
+      {
+        "count": 128
+      }
+    ],
+    "note": "Read-only CPU bus tracing from native WRAM setup code and the C30300–C304FF ROM software projector, excluding C305xx–C308xx decompressor back-reference reads. Native frame counters restart when the reversible checkpoint is restored, so first/last route labels accompany timestamps. Packet1 temporarily occupies7F8A00 then the6-view projection packet overwrites the same buffer; all128 Rivet miniature bytes are consumed before reuse. Screens are actual PPU output, not a pixel-exact mathematical projection proof."
+  },
+  "intro": {
+    "heapBytes": 10496,
+    "loads": [
+      {
+        "location": 223,
+        "npc": 2,
+        "object": 13,
+        "frame": 8942
+      },
+      {
+        "location": 225,
+        "npc": 2,
+        "object": 8,
+        "frame": 14982
+      },
+      {
+        "location": 223,
+        "npc": 2,
+        "object": 13,
+        "frame": 8940
+      },
+      {
+        "location": 225,
+        "npc": 2,
+        "object": 8,
+        "frame": 13054
+      }
+    ],
+    "transitions": [
+      {
+        "frame": 8943,
+        "nativeFrame": 255,
+        "x": 65280,
+        "y": 65280
+      },
+      {
+        "frame": 10174,
+        "nativeFrame": 11,
+        "x": 10112,
+        "y": 1326
+      },
+      {
+        "frame": 10179,
+        "nativeFrame": 5,
+        "x": 10112,
+        "y": 1514
+      },
+      {
+        "frame": 10184,
+        "nativeFrame": 11,
+        "x": 10112,
+        "y": 1655
+      },
+      {
+        "frame": 10189,
+        "nativeFrame": 5,
+        "x": 10112,
+        "y": 1749
+      },
+      {
+        "frame": 10194,
+        "nativeFrame": 11,
+        "x": 10112,
+        "y": 1984
+      },
+      {
+        "frame": 10199,
+        "nativeFrame": 5,
+        "x": 10112,
+        "y": 2125
+      },
+      {
+        "frame": 10204,
+        "nativeFrame": 11,
+        "x": 10112,
+        "y": 2266
+      },
+      {
+        "frame": 10209,
+        "nativeFrame": 5,
+        "x": 10112,
+        "y": 2454
+      },
+      {
+        "frame": 10214,
+        "nativeFrame": 11,
+        "x": 10112,
+        "y": 2595
+      },
+      {
+        "frame": 10219,
+        "nativeFrame": 6,
+        "x": 10046,
+        "y": 2802
+      },
+      {
+        "frame": 10224,
+        "nativeFrame": 12,
+        "x": 9914,
+        "y": 2901
+      },
+      {
+        "frame": 10229,
+        "nativeFrame": 6,
+        "x": 9749,
+        "y": 3066
+      },
+      {
+        "frame": 10234,
+        "nativeFrame": 13,
+        "x": 9660,
+        "y": 3218
+      },
+      {
+        "frame": 10239,
+        "nativeFrame": 7,
+        "x": 9789,
+        "y": 3298
+      },
+      {
+        "frame": 10244,
+        "nativeFrame": 11,
+        "x": 9974,
+        "y": 3417
+      },
+      {
+        "frame": 10249,
+        "nativeFrame": 7,
+        "x": 10162,
+        "y": 3450
+      },
+      {
+        "frame": 10254,
+        "nativeFrame": 13,
+        "x": 10252,
+        "y": 3402
+      },
+      {
+        "frame": 10259,
+        "nativeFrame": 7,
+        "x": 10471,
+        "y": 3333
+      },
+      {
+        "frame": 10264,
+        "nativeFrame": 13,
+        "x": 10597,
+        "y": 3270
+      },
+      {
+        "frame": 10269,
+        "nativeFrame": 7,
+        "x": 10733,
+        "y": 3249
+      },
+      {
+        "frame": 10274,
+        "nativeFrame": 12,
+        "x": 10881,
+        "y": 3224
+      },
+      {
+        "frame": 10279,
+        "nativeFrame": 6,
+        "x": 10681,
+        "y": 3099
+      },
+      {
+        "frame": 10284,
+        "nativeFrame": 10,
+        "x": 10502,
+        "y": 2975
+      },
+      {
+        "frame": 10289,
+        "nativeFrame": 6,
+        "x": 10330,
+        "y": 2862
+      },
+      {
+        "frame": 10294,
+        "nativeFrame": 10,
+        "x": 10231,
+        "y": 2796
+      },
+      {
+        "frame": 10298,
+        "nativeFrame": 4,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10303,
+        "nativeFrame": 7,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10308,
+        "nativeFrame": 5,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10313,
+        "nativeFrame": 6,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10327,
+        "nativeFrame": 23,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10334,
+        "nativeFrame": 22,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10347,
+        "nativeFrame": 2,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10490,
+        "nativeFrame": 17,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10678,
+        "nativeFrame": 14,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10698,
+        "nativeFrame": 16,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10706,
+        "nativeFrame": 14,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10726,
+        "nativeFrame": 16,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10734,
+        "nativeFrame": 14,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10754,
+        "nativeFrame": 16,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10762,
+        "nativeFrame": 14,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10782,
+        "nativeFrame": 16,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10791,
+        "nativeFrame": 14,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10812,
+        "nativeFrame": 16,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10818,
+        "nativeFrame": 14,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10838,
+        "nativeFrame": 16,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10846,
+        "nativeFrame": 14,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10866,
+        "nativeFrame": 16,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10874,
+        "nativeFrame": 14,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10886,
+        "nativeFrame": 22,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10894,
+        "nativeFrame": 23,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10899,
+        "nativeFrame": 6,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10912,
+        "nativeFrame": 11,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10914,
+        "nativeFrame": 6,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10918,
+        "nativeFrame": 10,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10922,
+        "nativeFrame": 7,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10926,
+        "nativeFrame": 2,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10934,
+        "nativeFrame": 23,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10942,
+        "nativeFrame": 22,
+        "x": 10132,
+        "y": 2697
+      },
+      {
+        "frame": 10958,
+        "nativeFrame": 2,
+        "x": 10132,
+        "y": 2697
+      }
+    ],
+    "nativeFramesSeen": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      22,
+      23
+    ],
+    "initialUnloadedCacheSentinel255": true
+  },
+  "modes": [
+    0,
+    9
+  ],
+  "messages": [
+    {
+      "location": 223,
+      "id": 0,
+      "frame": 10102
+    },
+    {
+      "location": 223,
+      "id": 1,
+      "frame": 10354
+    },
+    {
+      "location": 223,
+      "id": 2,
+      "frame": 10418
+    },
+    {
+      "location": 223,
+      "id": 3,
+      "frame": 10494
+    },
+    {
+      "location": 223,
+      "id": 2,
+      "frame": 10603
+    },
+    {
+      "location": 223,
+      "id": 4,
+      "frame": 10682
+    },
+    {
+      "location": 223,
+      "id": 5,
+      "frame": 10886
+    },
+    {
+      "location": 223,
+      "id": 12,
+      "frame": 10994
+    },
+    {
+      "location": 225,
+      "id": 15,
+      "frame": 15205
+    },
+    {
+      "location": 225,
+      "id": 15,
+      "frame": 13276
+    },
+    {
+      "location": 225,
+      "id": 21,
+      "frame": 13567
+    },
+    {
+      "location": 225,
+      "id": 22,
+      "frame": 13687
+    }
+  ],
+  "captures": [
+    {
+      "key": "native-introduction-complete",
+      "frame": 11239,
+      "location": 223,
+      "camera": 0,
+      "projectionReadCounts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "native-boost-race",
+      "frame": 12467,
+      "location": 271,
+      "camera": 0,
+      "projectionReadCounts": [
+        151104,
+        178460,
+        768,
+        2489,
+        21792,
+        1727
+      ]
+    },
+    {
+      "key": "native-boost-victory",
+      "frame": 15458,
+      "location": 225,
+      "camera": 0,
+      "projectionReadCounts": [
+        518688,
+        547968,
+        14016,
+        17945,
+        32832,
+        19391
+      ]
+    },
+    {
+      "key": "native-turned-camera",
+      "frame": 10824,
+      "location": 271,
+      "camera": 188,
+      "projectionReadCounts": [
+        708960,
+        767808,
+        81600,
+        22258,
+        54720,
+        21119
+      ]
+    },
+    {
+      "key": "native-no-boost-record",
+      "frame": 13925,
+      "location": 225,
+      "camera": 0,
+      "projectionReadCounts": [
+        950512,
+        1009463,
+        146361,
+        33304,
+        66330,
+        32216
+      ]
+    }
+  ],
+  "preserved": {
+    "fieldHeaders": true,
+    "npc77Enemy142": true,
+    "ai": true,
+    "animationDurations": true,
+    "allRaceProgramBytes": true,
+    "packet0Cart": true,
+    "packet1First128CartBytes": true,
+    "packet3All512PaletteBytes": true,
+    "packets4Through12": true,
+    "parkedCartBg37": true
+  },
+  "cartridgeUnchanged": true,
+  "controllerOnlyAfterCheckpoint": true,
+  "scope": "Saved-build private in-memory source overlay. Introduction, actual course walking, one boost, two real controller victories, no-boost camera controls and earned record. No full future chapter, independent core or hardware claim."
+}

@@ -1,0 +1,204 @@
+{
+  "status": "Private compressed native proof; all four actual NPC owners passed",
+  "activeRomPath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateRomSha256": "f68b467ce635581fa6124b8c482af06190b20e26599a0b128a4e034678f43e79",
+  "nativeFrameUploads": 92,
+  "opaquePixelChecks": 39608,
+  "exactPaletteRgb": true,
+  "actualNpcLoads": [
+    30,
+    62,
+    31,
+    63
+  ],
+  "paletteChecks": [
+    {
+      "actor": "bakery-porter",
+      "npc": 30,
+      "palette": 123,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 9
+    },
+    {
+      "actor": "north-bakery-porter",
+      "npc": 62,
+      "palette": 124,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 9
+    },
+    {
+      "actor": "bakery-baker",
+      "npc": 31,
+      "palette": 123,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 11
+    },
+    {
+      "actor": "north-bakery-baker",
+      "npc": 63,
+      "palette": 124,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 11
+    }
+  ],
+  "paletteBytesUnchanged": true,
+  "sharedPaletteOwnerSnapshot": "shared-village-owners.json",
+  "cartridgeUnchanged": true,
+  "isolatedPreviewHeaps": [
+    {
+      "actor": "bakery-porter",
+      "heapEnd": 39584,
+      "heapBytes": 6816
+    },
+    {
+      "actor": "north-bakery-porter",
+      "heapEnd": 39584,
+      "heapBytes": 6816
+    },
+    {
+      "actor": "bakery-baker",
+      "heapEnd": 40736,
+      "heapBytes": 7968
+    },
+    {
+      "actor": "north-bakery-baker",
+      "heapEnd": 40736,
+      "heapBytes": 7968
+    }
+  ],
+  "candidates": [
+    {
+      "key": "porter",
+      "rawGraphicsBytes": 5856,
+      "compressedBytes": 3146,
+      "assemblyBytes": 920,
+      "originalRawBytes": 2752,
+      "sourceProvenance": [
+        {
+          "file": "assets/imagegen/bakery-civilians/source-porter-base-v1.png",
+          "sha256": "a5240abe170af0364d38214a768ec0d7b4807d177a1c694b22c25c913ba6303f",
+          "sourceType": "image-generation"
+        },
+        {
+          "file": "assets/imagegen/bakery-civilians/source-porter-actions-v1.png",
+          "sha256": "9197912ce19b26d202648f21cb9a5d6f50e884b7c2588d701dd9866516fc17b1",
+          "sourceType": "image-generation"
+        }
+      ]
+    },
+    {
+      "key": "baker",
+      "rawGraphicsBytes": 7008,
+      "compressedBytes": 4074,
+      "assemblyBytes": 920,
+      "originalRawBytes": 2560,
+      "sourceProvenance": [
+        {
+          "file": "assets/imagegen/bakery-civilians/source-baker-base-v1.png",
+          "sha256": "8b4d10ffb25c564034287f2aadf640f116710c7e2f9cd919ddb66173ce7ec523",
+          "sourceType": "image-generation"
+        },
+        {
+          "file": "assets/imagegen/bakery-civilians/source-baker-actions-v1.png",
+          "sha256": "c1633a92b6e4a7dd38cfdf27bae5798ebb8ea5eba2c589eea74a561dc84cfded",
+          "sourceType": "image-generation"
+        }
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "key": "porter",
+      "packetOffset": 8192000,
+      "assemblyOffset": 8195152
+    },
+    {
+      "key": "baker",
+      "packetOffset": 8196080,
+      "assemblyOffset": 8200160
+    }
+  ],
+  "sceneUnionBudget": [
+    {
+      "location": 7,
+      "candidateBytes": 19232,
+      "spareBytes": 13536,
+      "exceedsBudget": false
+    },
+    {
+      "location": 95,
+      "candidateBytes": 24064,
+      "spareBytes": 8704,
+      "exceedsBudget": false
+    },
+    {
+      "location": 275,
+      "candidateBytes": 7872,
+      "spareBytes": 24896,
+      "exceedsBudget": false
+    },
+    {
+      "location": 276,
+      "candidateBytes": 14112,
+      "spareBytes": 18656,
+      "exceedsBudget": false
+    },
+    {
+      "location": 277,
+      "candidateBytes": 13824,
+      "spareBytes": 18944,
+      "exceedsBudget": false
+    },
+    {
+      "location": 278,
+      "candidateBytes": 12864,
+      "spareBytes": 19904,
+      "exceedsBudget": false
+    },
+    {
+      "location": 279,
+      "candidateBytes": 16928,
+      "spareBytes": 15840,
+      "exceedsBudget": false
+    },
+    {
+      "location": 280,
+      "candidateBytes": 16256,
+      "spareBytes": 16512,
+      "exceedsBudget": false
+    },
+    {
+      "location": 282,
+      "candidateBytes": 32960,
+      "spareBytes": -192,
+      "exceedsBudget": true
+    },
+    {
+      "location": 292,
+      "candidateBytes": 20224,
+      "spareBytes": 12544,
+      "exceedsBudget": false
+    },
+    {
+      "location": 430,
+      "candidateBytes": 31488,
+      "spareBytes": 1280,
+      "exceedsBudget": false
+    }
+  ],
+  "settledCaptureMinimumFrames": 30,
+  "extraVramBytes": 0,
+  "cellCount": 4,
+  "overlap": false,
+  "wholeSceneOrIndependentCoreProof": false,
+  "strictOriginalFamilyGuard": "Retained; root owns production streaming and actual shared scene loads."
+}

@@ -1,0 +1,67 @@
+{
+  "key": "furnace-maw",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 96,
+  "palette": [
+    "24272c",
+    "39434a",
+    "607477",
+    "99ada5",
+    "d3dfc4",
+    "553a32",
+    "926044",
+    "c4935b",
+    "81312c",
+    "d96032",
+    "ffd777",
+    "fff0c8"
+  ],
+  "directory": "assets/imagegen/furnace-maw/head-sample",
+  "sheets": [
+    {
+      "file": "assets/imagegen/furnace-maw/source-heads-v1.png",
+      "columns": 3,
+      "rows": 2,
+      "scaleCells": [
+        0
+      ],
+      "nativeHeight": 64,
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 79,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {
+        "1": {
+          "bottom": 87
+        },
+        "3": {
+          "bottom": 78
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 3,
+          "flip": true
+        },
+        4,
+        5
+      ]
+    }
+  }
+}

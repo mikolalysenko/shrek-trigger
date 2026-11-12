@@ -1,0 +1,881 @@
+{
+  "version": 1,
+  "scope": "Accepted generated pixels and exact native assembly for seven actor families, 337 distinct native slots and 738 enemy-owner slots, including Guy Fieri in all six trainer forms. Source reproduction is separate from runtime and campaign acceptance.",
+  "reproduce": "node scripts/verify-boss-sources.mjs",
+  "specs": [
+    "assets/imagegen/jack-horner/import-spec.json",
+    "assets/imagegen/sir-bram-ghost/import-spec.json",
+    "assets/imagegen/swamp-dozer/import-spec.json",
+    "assets/imagegen/moth-witch/import-spec.json",
+    "assets/imagegen/briar-knight/import-spec.json",
+    "assets/imagegen/guy-fieri/import-spec.json",
+    "assets/imagegen/guy-fieri-mantle/import-spec.json",
+    "assets/imagegen/guy-fieri-halo/import-spec.json",
+    "assets/imagegen/crag-keeper/import-spec.json"
+  ],
+  "banks": [
+    {
+      "key": "horner",
+      "gfx": 155,
+      "bytes": 13760,
+      "sha256": "17e491ccabdd9ec5a740597f4b3b45a3e01b6fe7492db28e59dc583d6c737288",
+      "assemblies": [
+        {
+          "id": 148,
+          "bytes": 2400,
+          "sha256": "d44adfa99aa0ec51f5a7885096eb87a8afecf0739ea63489ad1864677a0db09f"
+        }
+      ]
+    },
+    {
+      "key": "sir-bram-ghost",
+      "gfx": 181,
+      "bytes": 19712,
+      "sha256": "83bc33fce91336f03b766d719c588188f6bec5bc500a8e7748a6fbffc9350845",
+      "assemblies": [
+        {
+          "id": 178,
+          "bytes": 2520,
+          "sha256": "77540ccfdd795190d6d14050f32b4d24f6fb117c32bfcad28a48684fd1834637"
+        }
+      ]
+    },
+    {
+      "key": "swamp-dozer",
+      "gfx": 99,
+      "bytes": 8352,
+      "sha256": "55eb91f9fbe7403172a30f593e88a461c115dc0dbe5640ac6c95557c74be0a93",
+      "assemblies": [
+        {
+          "id": 58,
+          "bytes": 960,
+          "sha256": "b027172ae0a3b372d752f796c402dd57790cc83c090038fe8fd0e1410fc2c7aa"
+        }
+      ]
+    },
+    {
+      "key": "moth-witch",
+      "gfx": 182,
+      "bytes": 6400,
+      "sha256": "a477b92b32d50634dcf737c2957f1733e50d4e12e777feccb13f36f32336c94b",
+      "assemblies": [
+        {
+          "id": 179,
+          "bytes": 1280,
+          "sha256": "868972a7be227d5ac22b6960c67aa963ae295e7ae761cb97675b2001bd5d44ca"
+        }
+      ]
+    },
+    {
+      "key": "briar-knight",
+      "gfx": 166,
+      "bytes": 25856,
+      "sha256": "0f7d13ea0c257f5ac70d8ceb26cf536301438edb3a5eecf1e0000754d9f311e7",
+      "assemblies": [
+        {
+          "id": 158,
+          "bytes": 6880,
+          "sha256": "522a37b6753e03cf30737fe0dfd138678cd97d011d824191a64edf3b2bcf8117"
+        }
+      ]
+    },
+    {
+      "key": "guy-fieri",
+      "gfx": 252,
+      "bytes": 32704,
+      "sha256": "37dc67bf7ce066cfe18e1ffdea178f95f68cf9bdf3eeb25a1e8e5c079d018fc4",
+      "assemblies": [
+        {
+          "id": 232,
+          "bytes": 1040,
+          "sha256": "3b376e9396f04370bce1e4f4800a9bb7d88dda02e40e69ba438ea6aa5cc13277"
+        },
+        {
+          "id": 233,
+          "bytes": 600,
+      "sha256": "7325d93d4bdcee441407e38dac898be8cd716659836698c450f6425fd87ba7c7"
+        },
+        {
+          "id": 234,
+          "bytes": 1080,
+      "sha256": "afa921514d200931140999685c2280e9661b85ce336899125dc90c3a02ca1c36"
+        },
+        {
+          "id": 235,
+          "bytes": 1680,
+      "sha256": "9889dc74b7bd87a445db5211725b7a5f3bd4af23bfb8d14777fa8add4cb277b8"
+        },
+        {
+          "id": 236,
+          "bytes": 2400,
+      "sha256": "a0a118b7683cd2d67df64f9dde58cabd9dccf0c0632dd83eeb85e05d7efde2b4"
+        },
+        {
+          "id": 237,
+          "bytes": 960,
+      "sha256": "ae848bbe9f18eb673609014a4e3541df6ba8502e86cbbd1ace62ec7ea2fc155f"
+        }
+      ]
+    },
+    {
+      "key": "crag-keeper",
+      "gfx": 140,
+      "bytes": 14176,
+      "sha256": "969b00e031603f01a0fb7574904e321ecd88e85256a8efefb9604e81e3f268c1",
+      "assemblies": [
+        {
+          "id": 134,
+          "bytes": 2160,
+          "sha256": "0b5310f3968bb28d4e9e82e65d05f4366cc1eda6844e3927f010b05350ef670d"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/imagegen/briar-knight/draft/family.json",
+      "bytes": 42038,
+      "sha256": "f3e2c7abdefa1999889b089dbc29ad98771c8ad7f7a0c90e22abb9dbc5f89572"
+    },
+    {
+      "path": "assets/imagegen/briar-knight/import-spec.json",
+      "bytes": 8449,
+      "sha256": "2d85494ab60567ead304e09d30b486e8fac06732cf355921de621193c5e3a80b"
+    },
+    {
+      "path": "assets/imagegen/briar-knight/native-roles.json",
+      "bytes": 89529,
+      "sha256": "3259abab5856062a2154fd7f834585310be3c6d4d0cd784f425a05bcc489fda7"
+    },
+    {
+      "path": "assets/imagegen/briar-knight/prompt-aerial-v1.txt",
+      "bytes": 4036,
+      "sha256": "9201330ebef5648f926697238d6a11a4488db713126a24e45ace10dd663e25ea"
+    },
+    {
+      "path": "assets/imagegen/briar-knight/prompt-base-v1.txt",
+      "bytes": 3728,
+      "sha256": "687528f3824059e693de35528e61eeeb96403699746eb03f14fdcd7c3e042bdd"
+    },
+    {
+      "path": "assets/imagegen/briar-knight/prompt-combat-v1.txt",
+      "bytes": 4361,
+      "sha256": "4079fd1e4952ecd07d938382a3bce08216f1118ed81275261e0779c3576a0f1f"
+    },
+    {
+      "path": "assets/imagegen/briar-knight/prompt-combat-v2.txt",
+      "bytes": 1287,
+      "sha256": "04c7028d17f93b61ab7b87fe48efcef0b373c59f6d395fc351100d828de4242e"
+    },
+    {
+      "path": "assets/imagegen/briar-knight/prompt-reactions-v1.txt",
+      "bytes": 3879,
+      "sha256": "60e3962b3a742b0e11e553a5a9ce50880fa52b05e04df6d44eb2a95ea7c9b8eb"
+    },
+    {
+      "path": "assets/imagegen/briar-knight/provenance.json",
+      "bytes": 6897,
+      "sha256": "d085b470f10b00870a76f34e5a70d9302d40c115eb0a932c208a7d8432d84b41"
+    },
+    {
+      "path": "assets/imagegen/briar-knight/source-aerial-v1.png",
+      "bytes": 1511992,
+      "sha256": "b79b01737af36f1a7b2a74b153d0354a4e8a2cd2d8e4291fd03e651ec9446a69"
+    },
+    {
+      "path": "assets/imagegen/briar-knight/source-base-v1.png",
+      "bytes": 1360144,
+      "sha256": "5f5fa5a769892bae9788c07870dbe0afaacdf5d277a436eb8ea3889390f59e31"
+    },
+    {
+      "path": "assets/imagegen/briar-knight/source-combat-v2.png",
+      "bytes": 2019084,
+      "sha256": "b6ededbe3168ae698b0962b92e93f15ba8dc8aea4c92f8b80edea9c797fbf20c"
+    },
+    {
+      "path": "assets/imagegen/briar-knight/source-reactions-v1.png",
+      "bytes": 1689121,
+      "sha256": "7af277e8d93371cc66f7b3915eb5342c0a5d90bae9006dc35d2dde2959bd0ec1"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/README.md",
+      "bytes": 7732,
+      "sha256": "f5be07259e3383130f3a64991927b5989d585d9bc41decb0a94d5ab537752da4"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/audit-native.mjs",
+      "bytes": 6005,
+      "sha256": "8f9e2473dd4cb30a0156200b3b29559a2c4f1327a9a67c98961a112492c0a996"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/cell-packing.mjs",
+      "bytes": 2780,
+      "sha256": "b846d9a8bb890d3f7cb2f122b0b309d3174447606eba09aac741c5f72036c706"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/compile-draft.mjs",
+      "bytes": 6541,
+      "sha256": "e056a6611d6c2d24fda902c581e7624b41afc4d138ac05041c5b9a52830820f3"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/assembly.bin",
+      "bytes": 2160,
+      "sha256": "0b5310f3968bb28d4e9e82e65d05f4366cc1eda6844e3927f010b05350ef670d"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/current-co-loads.json",
+      "bytes": 4434,
+      "sha256": "add2369fca6eb22b8b507b327013b05e7fabded4429784be356f86da3e8c2c65"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/echo-native-1x.png",
+      "bytes": 62300,
+      "sha256": "1c83e8e0df72a6af6e89697f1f1e702173229a7fb0d5b3cdea8fb796ed2db198"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/echo-native-4x.png",
+      "bytes": 80014,
+      "sha256": "63cefa5abfef63a29c2ecfb6a42e3fcba9c9c2fea76640a9f0980b28cb2f90f8"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/family.json",
+      "bytes": 14562,
+      "sha256": "ed96855669db42f169981dcfa8e338ffe2ff19183775bb8174c47d65e35165bb"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/graphics.4bpp",
+      "bytes": 14176,
+      "sha256": "969b00e031603f01a0fb7574904e321ecd88e85256a8efefb9604e81e3f268c1"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/graphics.ct-lz",
+      "bytes": 11372,
+      "sha256": "856c6a07afaf229f6e5f9e300ad76597badd19e47c7b907e988a29b485ac29dc"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/native-1x.png",
+      "bytes": 62419,
+      "sha256": "4ceca5a0ea4efe461e9051799a8ed47a518dd2db7e96ed272fdcffe871345f22"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/native-4x.png",
+      "bytes": 80401,
+      "sha256": "6578e44f0b79503a11260db6b17bf1978929a4c49f71f25615f68c11e30913ee"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/palette-188.bin",
+      "bytes": 24,
+      "sha256": "d912eda521f2a897046ecf6439dd6a2771c7ec642904945e3e386db20b669631"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/palette-189.bin",
+      "bytes": 24,
+      "sha256": "bf8ce05ac261bd131f0be6180310e6bf54dec27a029d669b7080a9ca7e07194e"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/preview-import.json",
+      "bytes": 6072,
+      "sha256": "06b65d70750bb225621d397bc3742ad57c310d8df098d7c277bc45b2c5487d76"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/preview-native-indexed.png",
+      "bytes": 40255,
+      "sha256": "5f3661f94f7319a0cc0fdbbcbd6907ce6184c916c499c74976f39331354dd771"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/preview-raster.json",
+      "bytes": 74928,
+      "sha256": "5416c330feaba4540174f31473e52558c092604c828130c9f4cf1b1d9fead0cc"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/draft/verification.json",
+      "bytes": 46106,
+      "sha256": "70bfc82313414651526023119b08d68b8621f16f0ef37a717eb2c1440c12f9db"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/freeze.json",
+      "bytes": 10821,
+      "sha256": "c683a8b0164b80781741ec62c364c5739d97c36eedd3d1e9e7ff669d444e179c"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/import-spec.draft.json",
+      "bytes": 4110,
+      "sha256": "3d4420fe94f8680c723c227597f6a57b9f936a7a5ce34fc656612fcbde958e23"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/import-spec.json",
+      "bytes": 4110,
+      "sha256": "3d4420fe94f8680c723c227597f6a57b9f936a7a5ce34fc656612fcbde958e23"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/legacy-frame-descriptors.json",
+      "bytes": 1147,
+      "sha256": "afab6cee6c5403ca3ccc810db3b86b4d71f766abc0fd95b2eab232eb3b592532"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/native-audit.json",
+      "bytes": 30187,
+      "sha256": "8bf5174fb672fdfb033d4e19394a900bed66c62f328ec2a57fc7589834ab4d89"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/native-roles.json",
+      "bytes": 22368,
+      "sha256": "da8d05a23195125e4e829fa08f773c9d6772f53d03ee8254814ad8a73b904282"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/native-verification/crag-echo-native-frame-21.png",
+      "bytes": 56555,
+      "sha256": "3f8d527e0ded53aa9268a9ed1aca43082b97c36956db2f6d8802e66d1b6f705a"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/native-verification/crag-echo-native-frame-3.png",
+      "bytes": 56416,
+      "sha256": "f5997143c125f9832d7ec562d711262c5edbd0fa1e6c52afe72a56d55ba74aa7"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/native-verification/crag-keeper-native-frame-12.png",
+      "bytes": 56265,
+      "sha256": "0d255a2985e6dfcb6a50069b175a090fc5365e6d1574f8fe79905ef59fbbc7ee"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/native-verification/crag-keeper-native-frame-13.png",
+      "bytes": 56233,
+      "sha256": "fce09ce72f9842fd8fa013205152935e64ac38b68af800686ef1174048739c26"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/native-verification/crag-keeper-native-frame-21.png",
+      "bytes": 56542,
+      "sha256": "85367e25690e01e6c692a866cfd68a70fd58e3ad8b037b2bf902181ced517f0c"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/native-verification/crag-keeper-native-frame-26.png",
+      "bytes": 56144,
+      "sha256": "436326d93ff3b094a93a4512b509da46c578c1456bbebc9687547d2bad461df1"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/native-verification/crag-keeper-native-frame-3.png",
+      "bytes": 56423,
+      "sha256": "372dec9b0cdf4dbd0faf442517a5ebb5d2406d9693694db817962fb075fad884"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/native-verification/manifest.json",
+      "bytes": 3242,
+      "sha256": "b4b7402535bbacaec203212996666df5d58062b5897520bafe47c744840a1447"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/prepare-draft.mjs",
+      "bytes": 3751,
+      "sha256": "352799b9b428330eeb816180588d9a67f5d2c298bf2a194f05bba9dad5a99bc7"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/prompt-actions-v1.txt",
+      "bytes": 4169,
+      "sha256": "d8af0b4412c42871f1f354b54f48315c34dcb278c9a8366f085e28fbafa2cb00"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/prompt-actions-v2.txt",
+      "bytes": 2538,
+      "sha256": "d670f6b9c7428c9a84f675fe07a3d7144d97098d26ae47cc15205dab9f4c4c28"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/prompt-base-v1.txt",
+      "bytes": 4271,
+      "sha256": "1306aa516f8b8102164aa67110e76b3c75074425ed0a6ee3e9f81c517fd84c9a"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/prompt-base-v2.txt",
+      "bytes": 1207,
+      "sha256": "3b1e8b15de7f6fba377984a248e02d55265470b7a2aba7883f77d3f9845fa8f3"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/provenance.json",
+      "bytes": 6699,
+      "sha256": "233b860ac65c5ff6dc79ae5a748dff96c378390d7d76cdc02c7b99dc5269d145"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/reproducibility-files.txt",
+      "bytes": 2425,
+      "sha256": "7824d8fdef71c192edd5f704674817db274642564bea318bc8a92e88ba21ca54"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/source-actions-v1.png",
+      "bytes": 2335397,
+      "sha256": "9b0e22c69187a3fd82e0315e87b5c6ce9e75a8f5e7d6a08ad3defc55c4794a15"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/source-actions-v2.png",
+      "bytes": 2278715,
+      "sha256": "fd62d19c0c623abe8b7df0920d35759d252fe3b97987ea053273616bff6567d6"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/source-base-v1.png",
+      "bytes": 2129577,
+      "sha256": "29a25cc64ef98265c1f592a12f23a12e28f173b646dd1344c1a40385197f0b3a"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/source-base-v2.png",
+      "bytes": 2050672,
+      "sha256": "f87bc1bd38cd562e980b9498be5486a155794af06fce72f8e292a103792ec278"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/source-family.json",
+      "bytes": 2359,
+      "sha256": "cefc48b35452b8b1730c4ffc1bd8abbf59c267d0e8b376da19dad9f611c93e75"
+    },
+    {
+      "path": "assets/imagegen/crag-keeper/verify-native.mjs",
+      "bytes": 7857,
+      "sha256": "39f7af5207df6a22aa14121e13ce649081a73ec8304571e38026ef313f3f77eb"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri-halo/import-spec.json",
+      "bytes": 1084,
+      "sha256": "8b6bc65fac4c97cb59152220932d23a3a5f0feda6fc65759c67a9289a34a3f52"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri-mantle/import-spec.json",
+      "bytes": 1070,
+      "sha256": "7be1b7dbd476f4537fbb1c1db279d7a8ee33ef14b3d3e67989630a2c74acfff6"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/README.md",
+      "bytes": 2459,
+      "sha256": "6f7256812745073aedba293e2fc3ce010454005733df2b255b71ceb91b57177d"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/body/import-spec.draft.json",
+      "bytes": 8589,
+      "sha256": "fb133ecd46dd6dca74dfd2d6037e4b1a3976d9332870066544f88e96484a74af"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/compile-draft.mjs",
+      "bytes": 8291,
+      "sha256": "d4c19c8ef91c1d715a7f5f9a66cedb441ae9c535e961b396584f17eb3972364c"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/effect-regions.json",
+      "bytes": 2069,
+      "sha256": "3c9d641ae9452f3bcc0f039532e40d84a7057635c5f9b3eb0af9c325f0203394"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/freeze-draft.mjs",
+      "bytes": 4997,
+      "sha256": "70fa135c16e1818cb303d34e352181ebbb398ecca44bd945cd453df1512eb278"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/freeze.json",
+      "bytes": 9249,
+      "sha256": "17ddd90f209686d07454b05d243f866402acb9e69f35c32a2a5b7cb98c0944a5"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/guy-fieri-halo/import-spec.draft.json",
+      "bytes": 1084,
+      "sha256": "8b6bc65fac4c97cb59152220932d23a3a5f0feda6fc65759c67a9289a34a3f52"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/guy-fieri-mantle/import-spec.draft.json",
+      "bytes": 1070,
+      "sha256": "7be1b7dbd476f4537fbb1c1db279d7a8ee33ef14b3d3e67989630a2c74acfff6"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/handoff.json",
+      "bytes": 4481,
+      "sha256": "47a46f5957594501297cec977ebbcc44ef3b04f8944070c3593572693ca82403"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/import-spec.json",
+      "bytes": 8601,
+      "sha256": "0c83d90a930ded48b0ebf0035708a2ebabf13b549b040d7d1275fa0e13f22b57"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/native-animation-audit.json",
+      "bytes": 4956,
+      "sha256": "e24a58ae2c5a69a88aaf24e95ac7fdeef2034196d3be61ce1e0e72c2d9313e37"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/native-animation-programs.json",
+      "bytes": 13983,
+      "sha256": "b4b10191b5586c84139ab70234d2cb393bed0d1a421913e4484623b1aa8155c2"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/native-contract.json",
+      "bytes": 1242,
+      "sha256": "6eb57a0db30c5b0a1ada8c647e5fb7fc84d52341e5acb11ebe5bf1e5549be24a"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/native-roles.draft.json",
+      "bytes": 17188,
+      "sha256": "999867aaf45a29424472f2e4aba1fff8d5b293eb1b98affb23f27bb642ec1b1d"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/palettes.draft.json",
+      "bytes": 1941,
+      "sha256": "2c51f36d9d7e427fbed5cf6200c7a449497b60a5cb3116b00ca19657cc58e154"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/prompt-actions-v1.txt",
+      "bytes": 2685,
+      "sha256": "dc2ab898389ded716f8ae60d41b4fe2995c5473348199ffa22f965117d61b106"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/prompt-base-v1.txt",
+      "bytes": 2565,
+      "sha256": "9ea6b93b33cb6f39e135fd4d9cb770dd05cf209303c45c7ef452fdeb487ec88b"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/prompt-contact-v2.txt",
+      "bytes": 1317,
+      "sha256": "5e2295fbed68afcb4dcefcd81692b6351329a546e432c6712f7cefe2489214b5"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/prompt-effects-v1.txt",
+      "bytes": 1949,
+      "sha256": "f1a5b196cb07f5783e51a8dde5a588071d2f20c79aefc9b0ddd3e1545597c3a0"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/prompt-motion-v1.txt",
+      "bytes": 2694,
+      "sha256": "2b29158bae1b071d4604469316a9c1c993cd9ea42ae7653fe193ff6b435b332d"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/provenance-actions-v1.json",
+      "bytes": 1059,
+      "sha256": "1fa6a84b7deb2bf38e4db7be0cb90a5c72c60b16c3f1a7751212aee10b8d7f59"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/provenance-base-v1.json",
+      "bytes": 933,
+      "sha256": "05e85427ca39952f1087e3436b44ea48853bb494e655c39447d6b473db340741"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/provenance-contact-v2.json",
+      "bytes": 1069,
+      "sha256": "c8c8433cff8c5ad1ec51943814fb181ab7fdeeac717e5340661ac8da4f5894cb"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/provenance-effects-v1.json",
+      "bytes": 998,
+      "sha256": "7b2b82e0b96ab9b1c9d7fb7d3a9daf3bf98bd73ab0af12972f510ef3ad5b9098"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/provenance-motion-v1.json",
+      "bytes": 1356,
+      "sha256": "df567eb43fbeb78b3b4c74e1f0c1ec96819995173dbd2dd11dbe6caa43f415e7"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/reference-left-contact.png",
+      "bytes": 72281,
+      "sha256": "c3d16bf760354af186abe5ff5e6c016f17481eb1f756b30754b0766771a6bb4f"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/reference-left-contact.provenance.json",
+      "bytes": 407,
+      "sha256": "5718677b7f01333609ede30d8df11a7f4ce23df65800d54fea426888ac46ce0f"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/reproduce-draft.mjs",
+      "bytes": 1404,
+      "sha256": "77a0dd6b9a89e956a59c97262dab6d5cad65b611a768888aa4a53e0b1a1270f0"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/reproducibility-files.txt",
+      "bytes": 2067,
+      "sha256": "8e1f8a8f9a15fe2d0667213e4c9c690b8b8ee3e01a71d88c744b71f94313d5be"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/review-motion.mjs",
+      "bytes": 5311,
+      "sha256": "5bbecf51aa3cd0d8c0034d41670be69eae7d5ebd4cc82a583cc703018e229908"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/source-actions-v1-components.json",
+      "bytes": 3990,
+      "sha256": "1ddd11dbe8d0949c18621385c5a3513073d25a11e039f8c48feecd6f1282a146"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/source-actions-v1.png",
+      "bytes": 1420684,
+      "sha256": "f611cd875cf2e5cf2dbcd28d176d855e00a04817995ec01a87fb0a79c41b2ad3"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/source-base-v1-components.json",
+      "bytes": 3985,
+      "sha256": "f7cb275b6c11087b89cb2c8096edf9d06b25afdd9f5ef8324032093d38b26c09"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/source-base-v1.png",
+      "bytes": 1202063,
+      "sha256": "5f8b5848f7016a0935075e76ff76aefd8e98a09e9accbbdfcb72ce6c5ed6a0e3"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/source-contact-v2-components.json",
+      "bytes": 461,
+      "sha256": "d88623c84e953fb5ffa160ae0e5d7b3eb43c43ee9deb73f270272624b627ba73"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/source-contact-v2.png",
+      "bytes": 918190,
+      "sha256": "b058dc1a05da7dbb3942005f9312d5963b7c6cbdf501f5a5df71f8e9dc26a696"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/source-effects-v1-components.json",
+      "bytes": 2324,
+      "sha256": "f4ad9c228d4d5dfdc7d7c9f8fe8c9529eed3d4d6a194f0deb12af7d0eb6fc1f6"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/source-effects-v1.png",
+      "bytes": 1120689,
+      "sha256": "4e817cce8ad7935743307d913127eaec9114be5b4bbb42391bbb9cada8b19126"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/source-motion-v1-components.json",
+      "bytes": 3034,
+      "sha256": "8bd166f9591a7be441d4c5ea6ed34d1cc045256895174869297a892c31f03c99"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/source-motion-v1.png",
+      "bytes": 1147206,
+      "sha256": "2f91d7b6bd72fd1329e5744799a44eb272613afe50837e6643d70bc50eab9460"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/source-roles.json",
+      "bytes": 29245,
+      "sha256": "8b0e0ced1a42ac8119e3233e23fdd4fd72051d9b15f5e259962a3c60054df4ad"
+    },
+    {
+      "path": "assets/imagegen/guy-fieri/walk-contact-audit.json",
+      "bytes": 943,
+      "sha256": "ef4868680a81437feb69871c14db234d1a191e95d65c6eeb82fd4cd2f83b139c"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/import-spec.json",
+      "bytes": 5159,
+      "sha256": "727c5a009516b8ace58bef3f678df1f72bc0abc93929b2687dc9fc16d218722e"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/lead-review.json",
+      "bytes": 509,
+      "sha256": "140cd3937eb758a91d400c11f5a8582fd0996e2deee0896b349bd975effbe95b"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/native-frame-map.draft.json",
+      "bytes": 33638,
+      "sha256": "a28065f0ba512b23a554342197cda7fc05b6a23f842adb4caf33d23ccc256267"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/prompt-actions-v1.txt",
+      "bytes": 3281,
+      "sha256": "551b7c22f161440b672d7f91dc8f14f2887a2c1235be705b475e83099a0ca2d8"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/prompt-base-v1.txt",
+      "bytes": 2808,
+      "sha256": "81d433729bfbf91cd22a36d758af557823eae87b8568793fdf44af89cfccdcd4"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/prompt-dizzy-v1.txt",
+      "bytes": 2079,
+      "sha256": "b0fdfea223232b6bd3ffdc5168b9ea6f6d9dc2a151233446f61c1c1678a5e720"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/prompt-float-v1.txt",
+      "bytes": 2351,
+      "sha256": "4fb23c75a4663bc7e40395c5aa211e8eb365d62ec08b61e471dd61815d93e548"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/provenance-actions-v1.json",
+      "bytes": 740,
+      "sha256": "3a3c0e42d033cf390d502ba4cb56bf35f2eebc245434fff8af09c844aa84613e"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/provenance-base-v1.json",
+      "bytes": 572,
+      "sha256": "7abbea4d638c364dddd73330a2deaee53fa32f0fa1d45a7bba164b8565f1ccf8"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/provenance-dizzy-v1.json",
+      "bytes": 736,
+      "sha256": "4a8faad5fc00c6ebe1eb590b985dbb2a7b05c540d33e4e5bb2a778e0e6253d1f"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/provenance-float-v1.json",
+      "bytes": 736,
+      "sha256": "b602383ec62689ac0fba3f4b9f13aafd3d710822ab99ec834a6a8ee0c37d185c"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/source-actions-v1.png",
+      "bytes": 1507267,
+      "sha256": "3452bd2ecc68d5b8e89998edf748a8d398bc9bfca1fc762877fed9f81717df20"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/source-base-v1.png",
+      "bytes": 1366642,
+      "sha256": "a5372307fa7af832d4d766dc84b046332c769bef66faae34d5c02d8dd924aba7"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/source-dizzy-v1.png",
+      "bytes": 1020767,
+      "sha256": "0974d320848f7bb77a4fe8672d55b23b3732a94d5eaceb8aaf34cac5aaa86048"
+    },
+    {
+      "path": "assets/imagegen/jack-horner/source-float-v1.png",
+      "bytes": 1735446,
+      "sha256": "3ebfe2b517d7b714bab0b31b0ed6d50f2b8b6535d9303a580262ae4b2c97979b"
+    },
+    {
+      "path": "assets/imagegen/moth-witch/freeze.json",
+      "bytes": 4741,
+      "sha256": "3276392d9d69f02724e97e8b6c07272aa4ed8bf0830feb96084a3a9c54e27b16"
+    },
+    {
+      "path": "assets/imagegen/moth-witch/import-spec.json",
+      "bytes": 2043,
+      "sha256": "9cd403c0c515e058303b20104cd4719f75fe54efcd12e4ba6d9ccba3cd29a756"
+    },
+    {
+      "path": "assets/imagegen/moth-witch/prompt-source-v1.txt",
+      "bytes": 3852,
+      "sha256": "f8b3647e3766ec117b13517f210a061451b1801dd66086d946d02df23f35337d"
+    },
+    {
+      "path": "assets/imagegen/moth-witch/provenance.json",
+      "bytes": 1524,
+      "sha256": "034ae426f2f1f0d376873a7a5334e415b6f97837b82f0fd0b712192225aa7f0c"
+    },
+    {
+      "path": "assets/imagegen/moth-witch/source-v1.png",
+      "bytes": 2263508,
+      "sha256": "66b2e68c1c30147bc4c8690e89365be09a7eadf43e07007a1d1f023f79a3d061"
+    },
+    {
+      "path": "assets/imagegen/sir-bram-ghost/import-spec.json",
+      "bytes": 5795,
+      "sha256": "e2565cb99167161b1c9c3d268c169ca4dff35b9df92876dcf88b1ac163d17ca7"
+    },
+    {
+      "path": "assets/imagegen/sir-bram-ghost/lead-review.json",
+      "bytes": 566,
+      "sha256": "7ce8555808bf85acc72d94f43b3cb23afc19af9f765af19812121b64e717782a"
+    },
+    {
+      "path": "assets/imagegen/sir-bram-ghost/native-frame-map.draft.json",
+      "bytes": 25563,
+      "sha256": "cab415471a092fb43beb88d49eb82b842b2acb03cad77ae5de2969bb0eae94a5"
+    },
+    {
+      "path": "assets/imagegen/sir-bram-ghost/prompt-actions-v1.txt",
+      "bytes": 4706,
+      "sha256": "cda01ea0c99752b05401f5db638155902d4c396493aef8d1c8baa71c2f3f284d"
+    },
+    {
+      "path": "assets/imagegen/sir-bram-ghost/prompt-dispersal-v1.txt",
+      "bytes": 2658,
+      "sha256": "8e371b7be5db8aac9d73cad79d67e8183617e7f8271c35bb7a6c8741e58feb4d"
+    },
+    {
+      "path": "assets/imagegen/sir-bram-ghost/prompt-movement-v1.txt",
+      "bytes": 4246,
+      "sha256": "0d08044994fed859bec95c51c95ea75744b6d90e576fe29868a928a657ca7c48"
+    },
+    {
+      "path": "assets/imagegen/sir-bram-ghost/provenance-actions-v1.json",
+      "bytes": 788,
+      "sha256": "fd3dae663ac8b5473db0945616bc779cce914e7dc5aef4c9a500e68ce24a2a51"
+    },
+    {
+      "path": "assets/imagegen/sir-bram-ghost/provenance-dispersal-v1.json",
+      "bytes": 792,
+      "sha256": "c9ced2af19569a116d0833788169fcddb2c0f32a285d3dc514bcafbd55e1a1cf"
+    },
+    {
+      "path": "assets/imagegen/sir-bram-ghost/provenance-movement-v1.json",
+      "bytes": 775,
+      "sha256": "898ec7342360609050e1909ba00a7fc53f261d67542299974330e331370d5c63"
+    },
+    {
+      "path": "assets/imagegen/sir-bram-ghost/source-actions-v1.png",
+      "bytes": 1281288,
+      "sha256": "2de736bb18fdf47e3997ea0b20cb107360cb61a4ff14817c8e234226a28f352f"
+    },
+    {
+      "path": "assets/imagegen/sir-bram-ghost/source-dispersal-v1.png",
+      "bytes": 1019635,
+      "sha256": "17dc5f2cd0e385373fcb581ea1f0567902eea07120ca58537bb2d989fd2bd9c0"
+    },
+    {
+      "path": "assets/imagegen/sir-bram-ghost/source-movement-v1.png",
+      "bytes": 1292526,
+      "sha256": "7a80e44d39f132629e245749fee623c17ec87fb015be63be19a70cdd5bec5255"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/handoff.json",
+      "bytes": 4021,
+      "sha256": "4ae9f13c92fac92c87bd38d62759861f5a510d71921663db4cf5ef0f95cc6c88"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/import-spec.json",
+      "bytes": 3744,
+      "sha256": "45358e9adf81e747601407c7adc48522fb9935b8c2c21153c62b9deacfa774c8"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/prompt-actions-v1.txt",
+      "bytes": 2576,
+      "sha256": "abcd6fbc025ca6e2309db2c80830f2f0c0c0b6e8a6a92d2a258e7350a8628496"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/prompt-corrections-v2.txt",
+      "bytes": 2557,
+      "sha256": "881b118d552b75d8db906e752ef57e95f46ea64a826875ded3c22d3419c945ad"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/prompt-tuck-toeoff-v3.txt",
+      "bytes": 2710,
+      "sha256": "cb2b3c523f9dd429c6239eb3e2a51ce9149955d11cb6a8c5e40f27a71e106758"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/prompt-walk-v1.txt",
+      "bytes": 2896,
+      "sha256": "0d3012db21c7a6b692e7c70694e80306438065e4081422b98f028726513d1eaa"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/provenance-actions-v1.json",
+      "bytes": 1859,
+      "sha256": "b14c860dcf85684900e4f81dbb07f8086023d7d0575f6c243a92ba7054572ab5"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/provenance-corrections-v2.json",
+      "bytes": 1566,
+      "sha256": "2f9e8f4af7b4f569c09199be4fd59b425324802f4edf5d16a48e5a9b5e38998d"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/provenance-tuck-toeoff-v3.json",
+      "bytes": 1664,
+      "sha256": "7bd1be3521338a88e02a89854d8e812032c71f0c5f2838ca61319a158eb232ff"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/provenance-walk-v1.json",
+      "bytes": 1611,
+      "sha256": "09cc1db8be7a2e3c959b61b845f905021c7eda7f3c2ef9b1baa19961c79efdfb"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/source-actions-v1.png",
+      "bytes": 1451956,
+      "sha256": "3058576596618564b6b81fa3e53ee5fe6285b25b921d1d91a78bb772b0edbe79"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/source-corrections-v2.png",
+      "bytes": 964546,
+      "sha256": "f7c900c04ec7468c23741884351c4071c98415ef149aad5432a8aa7ff077a81f"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/source-tuck-toeoff-v3.png",
+      "bytes": 1360933,
+      "sha256": "8d86912b037d717810a4488d601e3fb1109671fbd5ec27822b16d1a552f182ad"
+    },
+    {
+      "path": "assets/imagegen/swamp-dozer/source-walk-v1.png",
+      "bytes": 1409352,
+      "sha256": "79e71cb6dad5eae41a3201bdc7c44942c34d15007af66110e8e8aafc0a609e87"
+    }
+  ]
+}

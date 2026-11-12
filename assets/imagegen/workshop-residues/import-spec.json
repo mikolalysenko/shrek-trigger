@@ -1,0 +1,206 @@
+{
+  "key": "workshop-residues",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/workshop-residues/active",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "292910",
+    "ffffff",
+    "dedef7",
+    "ceceef",
+    "c5c5ef",
+    "bdbde6",
+    "a5a5de",
+    "8c94de",
+    "8484d6",
+    "736bc5",
+    "5a6bce",
+    "3a3a29"
+  ],
+  "samplingPalette": [
+    "292910",
+    "ffffff",
+    "dedef7",
+    "ceceef",
+    "9ce6ef",
+    "bdbde6",
+    "a5a5de",
+    "8c94de",
+    "8484d6",
+    "736bc5",
+    "5a6bce",
+    "3a3a29"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/workshop-residues/source-wisps-v1.png",
+      "columns": 4,
+      "rows": 2,
+      "cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "nativeHeight": 32,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      },
+      "overrides": {
+        "0": {
+          "scale": 1.0000000000000002
+        },
+        "1": {
+          "scale": 0.9966054313099043
+        },
+        "2": {
+          "scale": 0.9930098684210528
+        },
+        "3": {
+          "scale": 1.0261101973684212
+        },
+        "4": {
+          "scale": 1.0154816513761469
+        },
+        "5": {
+          "scale": 1.1418439716312059
+        },
+        "6": {
+          "scale": 0.8332006369426752
+        },
+        "7": {
+          "scale": 0.9782986111111112,
+          "method": "area",
+          "coverageThreshold": 0.15
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/workshop-residues/source-creeping-v1.png",
+      "regions": [
+        [
+          0,
+          0,
+          512,
+          512
+        ],
+        [
+          512,
+          0,
+          512,
+          512
+        ],
+        [
+          1024,
+          0,
+          512,
+          512
+        ],
+        [
+          0,
+          512,
+          512,
+          512
+        ],
+        [
+          512,
+          512,
+          512,
+          512
+        ]
+      ],
+      "nativeHeight": 15,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      },
+      "overrides": {
+        "0": {
+          "scale": 1
+        },
+        "1": {
+          "scale": 0.9871895424836603
+        },
+        "2": {
+          "scale": 1
+        },
+        "3": {
+          "scale": 0.9711934156378602
+        },
+        "4": {
+          "scale": 0.9957805907172996
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/workshop-residues/source-stretch-v2.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 48,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      },
+      "overrides": {
+        "0": {
+          "scale": 1
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        12,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        6
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive complete source/native mapping",
+    "native": "13 native slots, four cells, full size0, IDs and programs preserved. Approved current original palettes70/72/73/74/75 unchanged.",
+    "unusedSourceFrames": [],
+    "sourceSheetOmissions": {
+      "source-wisps-v1.png": [
+        5
+      ],
+      "source-creeping-v1.png": [
+        5
+      ]
+    },
+    "sourceMirrors": [],
+    "sourceDuplicates": [],
+    "geometry": "Preserve every original lowest opaque pixel and horizontal center, all13 original bounding heights and the hover/creep/stretch/recoil offsets. Generated spectral body, tendrils and motes stay one source raster."
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "status": "Frozen inactive candidate approved by root and sprite-art lead; production activation remains root-owned",
+  "date": "2026-10-31",
+  "repositoryHeadAtFreeze": "441409b524b5a4bd0a3863a8cc133989bf0ccb05",
+  "key": "crag-keeper",
+  "spec": "import-spec.draft.json",
+  "familyGeometry": "draft/family.json",
+  "roleMap": "native-roles.json",
+  "sourceFamilySnapshot": "source-family.json",
+  "nativeFrames": 27,
+  "visibleFrames": 27,
+  "blankFrames": [],
+  "sourceSheets": 2,
+  "sourcePoses": 18,
+  "paletteVariants": 2,
+  "paletteIds": [
+    188,
+    189
+  ],
+  "opaqueColorsPerPalette": 12,
+  "nativeCells": 8,
+  "rawGraphicsBytes": 14176,
+  "compressedBytes": 11372,
+  "assemblyBytes": 2160,
+  "graphicsSha256": "969b00e031603f01a0fb7574904e321ecd88e85256a8efefb9604e81e3f268c1",
+  "assemblySha256": "0b5310f3968bb28d4e9e82e65d05f4366cc1eda6844e3927f010b05350ef670d",
+  "pixelsSha256": "fdcdb99413406c6649c4d25339166a8b4fc17da49001ffedc11c861560d622d1",
+  "nativeOffsets": {
+    "1": [
+      0,
+      1
+    ],
+    "4": [
+      0,
+      1
+    ],
+    "7": [
+      0,
+      1
+    ],
+    "10": [
+      0,
+      1
+    ],
+    "12": [
+      0,
+      -2
+    ],
+    "13": [
+      0,
+      2
+    ],
+    "14": [
+      0,
+      2
+    ],
+    "15": [
+      0,
+      3
+    ],
+    "17": [
+      -4,
+      2
+    ],
+    "19": [
+      4,
+      2
+    ],
+    "20": [
+      0,
+      3
+    ],
+    "22": [
+      -4,
+      2
+    ],
+    "23": [
+      -2,
+      1
+    ],
+    "24": [
+      4,
+      2
+    ],
+    "25": [
+      2,
+      1
+    ],
+    "26": [
+      0,
+      6
+    ]
+  },
+  "review": {
+    "lead": "/root/sprite_art_pass",
+    "parent": "/root",
+    "status": "Approved full native27-frame sheets, Echo palette and actual native roar capture.",
+    "notedVariation": "Action source has modestly brighter stone highlights than walking source; shared slate ramps and anatomy remain coherent."
+  },
+  "nativeProof": {
+    "manifest": "native-verification/manifest.json",
+    "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+    "privateRomSha256": "a1a33c973d237d42dc8cd6aef0d54bdf217bd537e2ddd227ccb6d1ab7d540a57",
+    "nativeFrameUploads": 54,
+    "opaquePixelChecks": 61504,
+    "exactHardwarePalettes": true,
+    "isolatedHeapBytes": 15136
+  },
+  "reproduction": {
+    "auditImportCompileRepeated": true,
+    "requiredArtifactsMatched": 43,
+    "sourceGenerationIsNotBitReproducible": true
+  },
+  "integration": {
+    "productionOwner": "/root",
+    "defaultNonstreamedFamilyGuard": "Retained and rejects raw growth",
+    "streamingBank": 140,
+    "rawBytesBelow32768": true,
+    "source47ConservativeCurrentUnionBytes": 34624,
+    "remaining": [
+      "Parent scoped raw-streaming activation",
+      "Original cave/controller battle and late-game Echo scene proof",
+      "Independent native frame verification"
+    ],
+    "activeFilesChangedByThisTask": false
+  },
+  "derivationDependencies": [
+    {
+      "file": "scripts/import-raster-art.mjs",
+      "sha256": "932f6a4558afc571610f2ae10790b7623e0524fa8b541eb3dc03a596172db1f1"
+    },
+    {
+      "file": "engine/actor-families.js",
+      "sha256": "6675e55ea9c2b14bec6e62ee3ef384aa44ec18d81d2d66fda99e2b83fcfbfc9a"
+    },
+    {
+      "file": "engine/native-sprites.js",
+      "sha256": "53e9b53ef655f7d3c0648cc44ba12356d73e0f921a06f922b0fac289e724c089"
+    },
+    {
+      "file": "engine/sprites.js",
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "file": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "file": "engine/rom.js",
+      "sha256": "06b336022840d63cc8295bce22f19ee3527484a06739b76ce90dc5bafa2a9b04"
+    },
+    {
+      "file": "engine/expanded-rom.js",
+      "sha256": "afcebcbee913436306a44736922d567acb81b68cb73387fcb2722fdbc2bfe962"
+    }
+  ],
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 7732,
+      "sha256": "f5be07259e3383130f3a64991927b5989d585d9bc41decb0a94d5ab537752da4"
+    },
+    {
+      "file": "audit-native.mjs",
+      "bytes": 6005,
+      "sha256": "8f9e2473dd4cb30a0156200b3b29559a2c4f1327a9a67c98961a112492c0a996"
+    },
+    {
+      "file": "cell-packing.mjs",
+      "bytes": 2780,
+      "sha256": "b846d9a8bb890d3f7cb2f122b0b309d3174447606eba09aac741c5f72036c706"
+    },
+    {
+      "file": "compile-draft.mjs",
+      "bytes": 6541,
+      "sha256": "e056a6611d6c2d24fda902c581e7624b41afc4d138ac05041c5b9a52830820f3"
+    },
+    {
+      "file": "draft/assembly.bin",
+      "bytes": 2160,
+      "sha256": "0b5310f3968bb28d4e9e82e65d05f4366cc1eda6844e3927f010b05350ef670d"
+    },
+    {
+      "file": "draft/current-co-loads.json",
+      "bytes": 4434,
+      "sha256": "add2369fca6eb22b8b507b327013b05e7fabded4429784be356f86da3e8c2c65"
+    },
+    {
+      "file": "draft/echo-native-1x.png",
+      "bytes": 62300,
+      "sha256": "1c83e8e0df72a6af6e89697f1f1e702173229a7fb0d5b3cdea8fb796ed2db198"
+    },
+    {
+      "file": "draft/echo-native-4x.png",
+      "bytes": 80014,
+      "sha256": "63cefa5abfef63a29c2ecfb6a42e3fcba9c9c2fea76640a9f0980b28cb2f90f8"
+    },
+    {
+      "file": "draft/family.json",
+      "bytes": 14562,
+      "sha256": "ed96855669db42f169981dcfa8e338ffe2ff19183775bb8174c47d65e35165bb"
+    },
+    {
+      "file": "draft/graphics.4bpp",
+      "bytes": 14176,
+      "sha256": "969b00e031603f01a0fb7574904e321ecd88e85256a8efefb9604e81e3f268c1"
+    },
+    {
+      "file": "draft/graphics.ct-lz",
+      "bytes": 11372,
+      "sha256": "856c6a07afaf229f6e5f9e300ad76597badd19e47c7b907e988a29b485ac29dc"
+    },
+    {
+      "file": "draft/native-1x.png",
+      "bytes": 62419,
+      "sha256": "4ceca5a0ea4efe461e9051799a8ed47a518dd2db7e96ed272fdcffe871345f22"
+    },
+    {
+      "file": "draft/native-4x.png",
+      "bytes": 80401,
+      "sha256": "6578e44f0b79503a11260db6b17bf1978929a4c49f71f25615f68c11e30913ee"
+    },
+    {
+      "file": "draft/palette-188.bin",
+      "bytes": 24,
+      "sha256": "d912eda521f2a897046ecf6439dd6a2771c7ec642904945e3e386db20b669631"
+    },
+    {
+      "file": "draft/palette-189.bin",
+      "bytes": 24,
+      "sha256": "bf8ce05ac261bd131f0be6180310e6bf54dec27a029d669b7080a9ca7e07194e"
+    },
+    {
+      "file": "draft/preview-import.json",
+      "bytes": 6072,
+      "sha256": "06b65d70750bb225621d397bc3742ad57c310d8df098d7c277bc45b2c5487d76"
+    },
+    {
+      "file": "draft/preview-native-indexed.png",
+      "bytes": 40255,
+      "sha256": "5f3661f94f7319a0cc0fdbbcbd6907ce6184c916c499c74976f39331354dd771"
+    },
+    {
+      "file": "draft/preview-raster.json",
+      "bytes": 74928,
+      "sha256": "5416c330feaba4540174f31473e52558c092604c828130c9f4cf1b1d9fead0cc"
+    },
+    {
+      "file": "draft/verification.json",
+      "bytes": 46106,
+      "sha256": "70bfc82313414651526023119b08d68b8621f16f0ef37a717eb2c1440c12f9db"
+    },
+    {
+      "file": "import-spec.draft.json",
+      "bytes": 4110,
+      "sha256": "3d4420fe94f8680c723c227597f6a57b9f936a7a5ce34fc656612fcbde958e23"
+    },
+    {
+      "file": "legacy-frame-descriptors.json",
+      "bytes": 1147,
+      "sha256": "afab6cee6c5403ca3ccc810db3b86b4d71f766abc0fd95b2eab232eb3b592532"
+    },
+    {
+      "file": "native-audit.json",
+      "bytes": 30187,
+      "sha256": "8bf5174fb672fdfb033d4e19394a900bed66c62f328ec2a57fc7589834ab4d89"
+    },
+    {
+      "file": "native-roles.json",
+      "bytes": 22368,
+      "sha256": "da8d05a23195125e4e829fa08f773c9d6772f53d03ee8254814ad8a73b904282"
+    },
+    {
+      "file": "native-verification/crag-echo-native-frame-21.png",
+      "bytes": 56555,
+      "sha256": "3f8d527e0ded53aa9268a9ed1aca43082b97c36956db2f6d8802e66d1b6f705a"
+    },
+    {
+      "file": "native-verification/crag-echo-native-frame-3.png",
+      "bytes": 56416,
+      "sha256": "f5997143c125f9832d7ec562d711262c5edbd0fa1e6c52afe72a56d55ba74aa7"
+    },
+    {
+      "file": "native-verification/crag-keeper-native-frame-12.png",
+      "bytes": 56265,
+      "sha256": "0d255a2985e6dfcb6a50069b175a090fc5365e6d1574f8fe79905ef59fbbc7ee"
+    },
+    {
+      "file": "native-verification/crag-keeper-native-frame-13.png",
+      "bytes": 56233,
+      "sha256": "fce09ce72f9842fd8fa013205152935e64ac38b68af800686ef1174048739c26"
+    },
+    {
+      "file": "native-verification/crag-keeper-native-frame-21.png",
+      "bytes": 56542,
+      "sha256": "85367e25690e01e6c692a866cfd68a70fd58e3ad8b037b2bf902181ced517f0c"
+    },
+    {
+      "file": "native-verification/crag-keeper-native-frame-26.png",
+      "bytes": 56144,
+      "sha256": "436326d93ff3b094a93a4512b509da46c578c1456bbebc9687547d2bad461df1"
+    },
+    {
+      "file": "native-verification/crag-keeper-native-frame-3.png",
+      "bytes": 56423,
+      "sha256": "372dec9b0cdf4dbd0faf442517a5ebb5d2406d9693694db817962fb075fad884"
+    },
+    {
+      "file": "native-verification/manifest.json",
+      "bytes": 3242,
+      "sha256": "b4b7402535bbacaec203212996666df5d58062b5897520bafe47c744840a1447"
+    },
+    {
+      "file": "prepare-draft.mjs",
+      "bytes": 3751,
+      "sha256": "352799b9b428330eeb816180588d9a67f5d2c298bf2a194f05bba9dad5a99bc7"
+    },
+    {
+      "file": "prompt-actions-v1.txt",
+      "bytes": 4169,
+      "sha256": "d8af0b4412c42871f1f354b54f48315c34dcb278c9a8366f085e28fbafa2cb00"
+    },
+    {
+      "file": "prompt-actions-v2.txt",
+      "bytes": 2538,
+      "sha256": "d670f6b9c7428c9a84f675fe07a3d7144d97098d26ae47cc15205dab9f4c4c28"
+    },
+    {
+      "file": "prompt-base-v1.txt",
+      "bytes": 4271,
+      "sha256": "1306aa516f8b8102164aa67110e76b3c75074425ed0a6ee3e9f81c517fd84c9a"
+    },
+    {
+      "file": "prompt-base-v2.txt",
+      "bytes": 1207,
+      "sha256": "3b1e8b15de7f6fba377984a248e02d55265470b7a2aba7883f77d3f9845fa8f3"
+    },
+    {
+      "file": "provenance.json",
+      "bytes": 6699,
+      "sha256": "233b860ac65c5ff6dc79ae5a748dff96c378390d7d76cdc02c7b99dc5269d145"
+    },
+    {
+      "file": "source-actions-v1.png",
+      "bytes": 2335397,
+      "sha256": "9b0e22c69187a3fd82e0315e87b5c6ce9e75a8f5e7d6a08ad3defc55c4794a15"
+    },
+    {
+      "file": "source-actions-v2.png",
+      "bytes": 2278715,
+      "sha256": "fd62d19c0c623abe8b7df0920d35759d252fe3b97987ea053273616bff6567d6"
+    },
+    {
+      "file": "source-base-v1.png",
+      "bytes": 2129577,
+      "sha256": "29a25cc64ef98265c1f592a12f23a12e28f173b646dd1344c1a40385197f0b3a"
+    },
+    {
+      "file": "source-base-v2.png",
+      "bytes": 2050672,
+      "sha256": "f87bc1bd38cd562e980b9498be5486a155794af06fce72f8e292a103792ec278"
+    },
+    {
+      "file": "source-family.json",
+      "bytes": 2359,
+      "sha256": "cefc48b35452b8b1730c4ffc1bd8abbf59c267d0e8b376da19dad9f611c93e75"
+    },
+    {
+      "file": "verify-native.mjs",
+      "bytes": 7857,
+      "sha256": "39f7af5207df6a22aa14121e13ce649081a73ec8304571e38026ef313f3f77eb"
+    }
+  ]
+}

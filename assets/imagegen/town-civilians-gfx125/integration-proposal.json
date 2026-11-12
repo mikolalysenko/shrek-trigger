@@ -1,0 +1,205 @@
+{
+  "status": "Frozen inactive integration proposal; parent owns activation",
+  "key": "duloc-town-resident",
+  "sourceSpec": "assets/imagegen/town-civilians-gfx125/import-spec.draft.json",
+  "family": "assets/imagegen/town-civilians-gfx125/full-area/family.json",
+  "sourceContract": {
+    "width": 64,
+    "height": 64,
+    "indexedFrames": 20,
+    "sequence": "native/1",
+    "sourceType": "image-generation",
+    "nativeComposition": "Full source mirrors/translations plus three original sweat pixels; the existing importer supports this composition. No new importer or runtime transform is required."
+  },
+  "headerOwners": [
+    {
+      "kind": "npc",
+      "id": 14,
+      "originalHeader": [
+        125,
+        188,
+        135,
+        7,
+        0
+      ],
+      "proposedHeader": [
+        125,
+        188,
+        135,
+        7,
+        0
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 79,
+      "originalHeader": [
+        125,
+        188,
+        133,
+        7,
+        0
+      ],
+      "proposedHeader": [
+        125,
+        188,
+        133,
+        7,
+        0
+      ]
+    }
+  ],
+  "pointerAliases": [
+    {
+      "field": 0,
+      "id": 125,
+      "aliases": [
+        125
+      ],
+      "ownerCount": 2
+    },
+    {
+      "field": 1,
+      "id": 188,
+      "aliases": [
+        188
+      ],
+      "ownerCount": 2
+    },
+    {
+      "field": 2,
+      "id": 135,
+      "aliases": [
+        135
+      ],
+      "ownerCount": 3
+    },
+    {
+      "field": 2,
+      "id": 133,
+      "aliases": [
+        133
+      ],
+      "ownerCount": 43
+    },
+    {
+      "field": 3,
+      "id": 7,
+      "aliases": [
+        7
+      ],
+      "ownerCount": 29
+    }
+  ],
+  "paletteIds": [
+    135,
+    133
+  ],
+  "palettes": [
+    {
+      "id": 135,
+      "offset": 2362536,
+      "bytes": 24,
+      "sha256": "c1f546c90f9433c343b4fed466aa6e5538976571edb9e8017857aa693a943cd3"
+    },
+    {
+      "id": 133,
+      "offset": 2362488,
+      "bytes": 24,
+      "sha256": "3bd0f2c658dc3ac58c30ccfa68eb5738671b0c4bc928901f320fe09217654bef"
+    }
+  ],
+  "paletteWrites": 0,
+  "graphics": {
+    "gfx": 125,
+    "rawBytes": 4992,
+    "compressedBytes": 3586,
+    "rawSha256": "ba7662858cad77a4adcf03436a8dbe71ef8e3d86fa71e2b06e80b5a93346234c",
+    "compressedSha256": "469420e872d84e7d83da04dc3b77cf0cd1ded82f69bfaa261e5a9a896f92f936",
+    "originalDecodedBytes": 2656,
+    "originalCompressedBytes": 2204,
+    "rawStreamRequired": true,
+    "streamGuard": "Explicit selected gfx125 ownership contract; ordinary guards for unrelated banks remain unchanged.",
+    "extraWramBytes": 0,
+    "extraVramBytes": 0,
+    "storedGrowthBeforeAlignment": 6374
+  },
+  "assembly": {
+    "asm": 188,
+    "exclusiveOwnersOnly": [
+      14,
+      79
+    ],
+    "newAssemblyIds": [],
+    "frames": 20,
+    "cells": 4,
+    "bytes": 800,
+    "sha256": "69888630fe5caf6130955c0fae68dc28e8316b812f60c4167e7ded24bb5fed4c",
+    "anchor": [
+      0,
+      12
+    ],
+    "originalSignedXYBytesPreserved": 159,
+    "proposedCoordinateChanges": [
+      {
+        "frame": 19,
+        "cell": 3,
+        "axis": "y",
+        "before": -9,
+        "after": -14
+      }
+    ],
+    "overlapFrames": [],
+    "originalPacketBytes": 800,
+    "reclaimableOnlyAfterAllOwnersUpdated": true,
+    "sharedAssembly7Unchanged": true
+  },
+  "animation": {
+    "id": 7,
+    "programSha256": "ae62da40171981f42ac5d000675ed98cefbeca54218c6c2e7e34916a5167c198",
+    "durationSha256": "8a7f58a78ab9b3565165c503bec3eb3b73ad2f79b6d96b5ad0d5b849eff9150f",
+    "sharedOwnerCount": 29,
+    "changes": 0
+  },
+  "permittedChanges": "Only the gfx125 compressed/raw-stream pointers and the exclusive asm188 pointer/packet. All headers remain exact. No palettes, AA7, asm7, AI, stats, events, collision, title, audio or unrelated assets. Private assembly247 remains reserved for gfx11.",
+  "paradeColorLimitation": {
+    "location": 80,
+    "object": 35,
+    "npc": 79,
+    "frame": 18,
+    "intendedSourcePalette": 133,
+    "actualHardwareRow": 7,
+    "actualCgramWords": [
+      3204,
+      5481,
+      8849,
+      14134,
+      20283,
+      6444,
+      10772,
+      4262,
+      25535,
+      4325,
+      18266,
+      20115
+    ],
+    "intendedCgramWords": [
+      6309,
+      30620,
+      22431,
+      13951,
+      3276,
+      5695,
+      1302,
+      18919,
+      12551,
+      9903,
+      5482,
+      17870
+    ],
+    "visiblePixelsAtRecordedActualColors": 291,
+    "occludedOrDifferentPixels": 92,
+    "scope": "Inherited af338 row7 overwrite by another NPC; these source tiles/coordinates are exact, but intended palette133 colors are not retained in this scene. Root owns the independent scene fix. No color acceptance is inferred from upload acceptance."
+  },
+  "activation": false
+}

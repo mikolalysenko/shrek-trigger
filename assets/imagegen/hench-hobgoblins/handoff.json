@@ -1,0 +1,206 @@
+{
+  "status": "Frozen approved inactive Hench hobgoblins",
+  "activation": false,
+  "key": "hench-hobgoblins",
+  "gfx": 83,
+  "asm": 38,
+  "palettes": [
+    24,
+    23
+  ],
+  "animation": 30,
+  "size": 0,
+  "cells": 4,
+  "frames": 37,
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 5,
+      "header": [
+        83,
+        38,
+        24,
+        30,
+        0,
+        0,
+        240,
+        16,
+        16,
+        65
+      ],
+      "name": "Hench"
+    },
+    {
+      "kind": "enemy",
+      "id": 75,
+      "header": [
+        83,
+        38,
+        23,
+        30,
+        0,
+        0,
+        240,
+        12,
+        20,
+        65
+      ],
+      "name": "Hench"
+    }
+  ],
+  "aliases": [
+    {
+      "field": 0,
+      "id": 83,
+      "aliases": [
+        83
+      ]
+    },
+    {
+      "field": 1,
+      "id": 38,
+      "aliases": [
+        38
+      ]
+    },
+    {
+      "field": 2,
+      "id": 24,
+      "aliases": [
+        24
+      ]
+    },
+    {
+      "field": 2,
+      "id": 23,
+      "aliases": [
+        23
+      ]
+    },
+    {
+      "field": 3,
+      "id": 30,
+      "aliases": [
+        30
+      ]
+    }
+  ],
+  "npcHeaderOwners": [],
+  "friendlyEnemyHeaderUse": true,
+  "sourceSpec": "import-spec.draft.json",
+  "geometry": "native-frame-map.draft.json",
+  "family": "native-family-proposal.draft.json",
+  "compiler": "compile-native.js:compileHenchHobgoblins(art,geometry)",
+  "mandatoryIntegration": [
+    "Explicitly select gfx83 in the established native stream contract; retain default original decoded rejection for unselected banks. No native helper patch or extra WRAM/VRAM is required by this candidate.",
+    "Use all37 composed native raster slots exactly once. Do not apply the29-source map a second time. Preserve the source canvas96×64, group anchor[0,16], all per-frame cell origins and overlap frames1,4,13,14,15,25,26,27,28,29,30. Apply the anchor once.",
+    "Preserve every header byte of enemy5/75, all palette23/24 words, AA30 frame/duration programs, AI/stats/names/events and friendly field consumers. No new palette writes.",
+    "All emitted gfx83/asm38/AA30 owners remain exactly enemy5 and enemy75. No external pointer or palette aliases were found on the pinned baseline.",
+    "Reclaimable original spans are gfx83 compressed7491 bytes at1547891 and asm38 extent1480 at1989960; aliases are exclusive. Root owns actual allocator/reclamation wiring and must recheck its current build.",
+    "Use extended compressed storage plus raw stream placement as appropriate; do not load12096 decoded bytes into the old8928-byte contract. Kitchen202 would overflow the32KiB heap under legacy loading."
+  ],
+  "reclamationProposal": [
+    {
+      "kind": "graphics",
+      "id": 83,
+      "offset": 1547891,
+      "bytes": 7491
+    },
+    {
+      "kind": "assembly",
+      "id": 38,
+      "offset": 1989960,
+      "bytes": 1480
+    }
+  ],
+  "costs": {
+    "status": "Inactive exact source compile passed; execution evidence is recorded separately",
+    "activation": false,
+    "nativeFrames": 37,
+    "authoredSourcePoses": 29,
+    "uniqueNativeImages": 37,
+    "graphicsBytes": 12096,
+    "compressedBytes": 9003,
+    "assemblyBytes": 1480,
+    "compressedPlusAssemblyBytes": 10483,
+    "tiles": 378,
+    "graphicsSha256": "8099ba3fce2265d9f7bcc912155561803b3d5e9a129c4588463125090904c8d4",
+    "compressedSha256": "0da7241d28111f4292b6bf165be2bb95eb138afcf96b6525700b0620022e6971",
+    "assemblySha256": "f71c4f0431363dfb9e3d0bbf486496accb4ae901f2ed12e68e1ecdd1a17bd048",
+    "originalComparison": {
+      "decodedBytes": 8928,
+      "compressedBytes": 7491,
+      "assemblyBytes": 1480,
+      "decodedDelta": 3168,
+      "compressedPlusAssemblyDelta": 1512
+    },
+    "publishedAf338Comparison": {
+      "decodedBytes": 8928,
+      "compressedBytes": 7491,
+      "assemblyBytes": 1480,
+      "decodedDelta": 3168,
+      "compressedPlusAssemblyDelta": 1512
+    },
+    "streamRequired": true,
+    "fourCellCoverage": true,
+    "exactOriginalCellOrigins": true,
+    "exactNativeMirrorPairs": [
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        31,
+        34
+      ],
+      [
+        32,
+        35
+      ],
+      [
+        33,
+        36
+      ]
+    ],
+    "originalEffects": 6,
+    "noClippedPixels": true,
+    "rawStreamBytes": 12096,
+    "totalCompressedRawAssemblyBytes": 22579,
+    "totalRomGrowthVsOriginalAndAf338": 13608
+  },
+  "baseline": {
+    "path": ".local/qa/hench-audit-af3383746691/baseline.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7"
+  },
+  "candidate": {
+    "path": ".local/qa/hench-hobgoblins-native-proof/candidate.sfc",
+    "sha256": "9d6988fc1b04a340d0a64c42fa5ecb891d4b06bbcc128855204fd00ae0dffcc3"
+  },
+  "proof": "native-proof-manifest.json",
+  "review": "visual-review.json",
+  "limitations": [
+    "Approval and proof apply to this exact source and private ROM fingerprint. Final production allocation and independent-core validation remain root-owned.",
+    "Source-normalized widths, two shortened action silhouettes and authored placements differ as recorded; original lowest body pixels, six flecks and all native cell origins remain fixed.",
+    "Only seven phases in six locations were executed after reversible diagnostics with development party resources. This is not full campaign traversal or normal-level balance validation.",
+    "Peaceful inn35 and market39 load enemy13/gfx86 instead of Hench75. Their success is unrelated-owner/branch evidence; peaceful square31 separately proves visible Hench75.",
+    "Zero delay was observed in isolated AA30 field tests and six battle layer samples. This does not claim every gameplay transition has identical display latency.",
+    "Map, dialogue and party overlap can obscure native pixels in real scenes. Exact full cells/palettes and unobstructed final pixels are separately proved in all74 isolated poses.",
+    "Source scene unions combine verified conditional loads. They are conservative resource inventories, not proof of every simultaneous resident set."
+  ]
+}

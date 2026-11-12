@@ -1,0 +1,74 @@
+{
+  "key": "fiona-portrait",
+  "width": 48,
+  "height": 48,
+  "sourceType": "reused-generated-source",
+  "directory": "assets/imagegen/fiona-portrait/candidates/shoulders-area",
+  "palette": [
+    "212721",
+    "507345",
+    "8fb561",
+    "bfd889",
+    "e2e5ad",
+    "37664d",
+    "4f9165",
+    "68392d",
+    "f6edca",
+    "26402d",
+    "c48a4a",
+    "a34a2b"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/fiona-portrait/source-crop-shoulders-v1.png",
+      "columns": 1,
+      "rows": 1,
+      "scaleCells": [
+        0
+      ],
+      "nativeHeight": 46,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "area",
+        "bottom": 47
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "notes": {
+    "material": "The source is an exact rectangular RGBA crop from an already approved generated field atlas. No anatomy, expression, clothing, or alpha pixels are painted.",
+    "cropSource": {
+      "key": "fiona",
+      "label": "shoulders",
+      "source": "assets/imagegen/fiona/source-v3.png",
+      "sourceSha256": "fc5433abb505c25145b3a3884d40d4957844a5fd8066e15e0627410276680e61",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": [
+        54,
+        15,
+        200,
+        185
+      ],
+      "cropFile": "assets/imagegen/fiona-portrait/source-crop-shoulders-v1.png",
+      "cropSha256": "2e269d60f878e692c57940308f3911d0415ea645b7db2f5967e90cddeefa7515",
+      "cropOpaqueBounds": [
+        18,
+        12,
+        173,
+        173
+      ],
+      "nativeHeight": 46
+    },
+    "activation": "Inactive portrait feasibility draft; no active registry or engine change."
+  }
+}

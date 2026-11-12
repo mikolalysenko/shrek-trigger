@@ -1,0 +1,141 @@
+{
+  "status": "Frozen inactive generated source package",
+  "sourceType": "image-generation",
+  "generationMethod": "Built-in image generation only; no paid API fallback or API-key access",
+  "designReferences": [
+    "docs/bakery.md",
+    "docs/game-design.md",
+    "docs/credits.md",
+    "engine/bakery-art.js",
+    "source-family.json"
+  ],
+  "nativeReference": "User-provided original Chrono Trigger cartridge inspected only for native slots, geometry, timing and ownership; original sprite pixels are not imported into generated art.",
+  "sources": [
+    {
+      "file": "source-base-v1.png",
+      "sha256": "891b6473ddeb402f717a0498d6df4f4461522ee937fb80fe724cd60757afcee9",
+      "prompt": "prompt-base-v1.txt",
+      "promptSha256": "1000ca8175884d1d5b0b8f4a65ae975053edf126055d0d1e78db42c545c04492",
+      "tool": "built-in image_gen.imagegen",
+      "mode": "generation",
+      "toolOutputFilename": "exec-c92305d0-e716-4e38-83c1-77b8361bdcad.png",
+      "inputImages": [],
+      "selected": true,
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "notes": "Nine directional gait poses, including three distinct left contacts."
+    },
+    {
+      "file": "source-actions-v1.png",
+      "sha256": "af4b6cba6ce22fe6c4fbe1beb98e6d7d8f77d8a807dd5d8060d890c123e8d8c2",
+      "prompt": "prompt-actions-v1.txt",
+      "promptSha256": "3832796ccdee2c204bcb9fd0f8f34f1c0b1b2e721191fde89ab1957ac53cd24a",
+      "tool": "built-in image_gen.imagegen",
+      "mode": "reference-based generation/edit",
+      "toolOutputFilename": "exec-675f36d6-ed3c-4c83-b63e-2bff127c0e64.png",
+      "inputImages": [
+        "source-base-v1.png"
+      ],
+      "selected": false,
+      "selectedCells": [],
+      "notes": "Actual editing input retained for reproducibility; erroneous front orientation and double tail were rejected."
+    },
+    {
+      "file": "source-actions-v2.png",
+      "sha256": "0978a526b28e9421d78efaa53ec33fb0dad3849c627e2d1a162724d67b632265",
+      "prompt": "prompt-actions-v2.txt",
+      "promptSha256": "be425a29ebaf6b973932f4102d7564ea5060feb1b53597929241767b5e66a480",
+      "tool": "built-in image_gen.imagegen",
+      "mode": "reference-based generation/edit",
+      "toolOutputFilename": "exec-536fe827-222a-402d-bdea-974b7b84a5b1.png",
+      "inputImages": [
+        "source-actions-v1.png",
+        "source-base-v1.png"
+      ],
+      "selected": true,
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "notes": "Correct front hop and windup; cell4 still has two tails and is excluded completely."
+    },
+    {
+      "file": "source-back-tremor-v1.png",
+      "sha256": "75e8809b5d3b59da5b8371e8afec30ec473279b17853e31aaa44391ecdfb963d",
+      "prompt": "prompt-back-tremor-v1.txt",
+      "promptSha256": "18e7e25314da7c9acb83e4bd35ca27ed83e908acc4d46528e7ecf5f5c8b47eb8",
+      "tool": "built-in image_gen.imagegen",
+      "mode": "reference-based generation/edit",
+      "toolOutputFilename": "exec-890564ed-1eb1-4bc8-bd15-0d371d16427a.png",
+      "inputImages": [
+        "source-base-v1.png"
+      ],
+      "selected": true,
+      "selectedCells": [
+        0
+      ],
+      "notes": "Single genuine generated replacement for the rejected double-tail back tremor."
+    }
+  ],
+  "conversion": {
+    "spec": "import-spec.draft.json",
+    "nativeDimensions": [
+      64,
+      64
+    ],
+    "standingScale": 50,
+    "horizontalScale": 0.75,
+    "opaqueColors": 12,
+    "paletteVariants": [
+      186,
+      187
+    ],
+    "sourcesConsumed": 3,
+    "sourcePoses": 19,
+    "nativeSlots": 28,
+    "proceduralArtFrames": 0,
+    "blankFrames": [],
+    "excludedSourceCells": [
+      {
+        "file": "source-actions-v2.png",
+        "cell": 4,
+        "reason": "Duplicate tail"
+      }
+    ],
+    "sourceTransforms": [
+      "Alpha component extraction (128 for base/back,192 for actions to remove connecting halo)",
+      "Uniform model scaling, area sampling and direct nearest existing palette-color quantization",
+      "Exact horizontal reflections for original mirror pairs",
+      "Explicit native cell placement and existing project frame offsets"
+    ]
+  },
+  "review": {
+    "lead": "sprite_art_pass",
+    "baseApproved": true,
+    "fullNative50pxApproved": true,
+    "comments": "Curved shell, chimneys, masonry/fire readable; full gait/action/tremor model coherent. Original timed review and both ramps requested and supplied.",
+    "rootVisualApproved": true,
+    "rootApproval": "Final labeled native atlas and enlarged sheet accepted: model, directional gaits, furnace opening, overhead release and both palettes."
+  },
+  "limitations": [
+    "Muzzle and eye details simplify at actual native scale; silhouette, grille, chimneys and tail carry identity.",
+    "Native6/9 require explicit guarded overlap geometry; default production compiler is unchanged.",
+    "Actual original boss scenes and independent cores remain root-owned integration work."
+  ]
+}

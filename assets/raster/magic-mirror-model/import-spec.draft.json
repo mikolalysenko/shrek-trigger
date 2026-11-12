@@ -1,0 +1,73 @@
+{
+  "key": "magic-mirror",
+  "sourceType": "existing-game-model-render",
+  "directory": "assets/raster/magic-mirror-model/draft",
+  "width": 48,
+  "height": 96,
+  "palette": [
+    "161727",
+    "222844",
+    "3f5875",
+    "667a8e",
+    "93a6b1",
+    "b8ced0",
+    "e5f3e9",
+    "4a321c",
+    "80602d",
+    "b68a3e",
+    "ddb854",
+    "f4dfa0"
+  ],
+  "samplingPalette": [
+    "0b0c1a",
+    "030530",
+    "15246a",
+    "617d88",
+    "8faab3",
+    "b7d5dc",
+    "e5ffff",
+    "211b06",
+    "3e3105",
+    "594907",
+    "776215",
+    "a18b35"
+  ],
+  "sheets": [
+    {
+      "file": "assets/raster/magic-mirror-model/source-front.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 90,
+      "scaleCells": [
+        0
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "bottom": 94
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "semanticRoles": {
+    "idle": {
+      "1": {
+        "kind": "source",
+        "reason": "The actual Shrek Xbox static Magic Mirror model, front orthographic render. No recovered animation or newly drawn sprite anatomy."
+      }
+    }
+  },
+  "notes": {
+    "status": "Inactive complete visible compound-Mother-Brain artwork draft. Native frame1 must stay blank for both layers.",
+    "hardware": "48×96 authoring canvas partitioned into12-cell main and8-cell companion at their shared scene anchor. No extra cells or frame IDs.",
+    "palette": "New isolated12-color draft for original palette232, shared only by Mother Brain main and companion; source sampling anchors do not alter emitted hardware colors.",
+    "displays": "Separate Display183 / NPC127 resources are inventoried but not replaced by this draft."
+  }
+}

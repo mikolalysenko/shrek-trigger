@@ -1,0 +1,89 @@
+{
+  "key": "sir-bram-ghost",
+  "status": "Lead visual review approved; inactive pending native integration",
+  "enemy": 143,
+  "nativeFrames": 21,
+  "sourceFrames": 22,
+  "rasterDraftFrames": 21,
+  "proceduralFrames": 0,
+  "missing": [],
+  "uniqueNativeImages": 21,
+  "paletteId": 209,
+  "paletteColors": [
+    "292910",
+    "ffffff",
+    "eff7ff",
+    "c6bda5",
+    "c6a531",
+    "adad73",
+    "8c8c73",
+    "8c6318",
+    "6b735a",
+    "6b6329",
+    "425252",
+    "393929"
+  ],
+  "cellsPerFrame": 12,
+  "canvas": [
+    64,
+    64
+  ],
+  "tiles": 616,
+  "graphicsBytes": 19712,
+  "compressedGraphicsBytes": 16626,
+  "assemblyBytes": 2520,
+  "original": {
+    "tiles": 343,
+    "graphicsBytes": 10976,
+    "compressedGraphicsBytes": 8830,
+    "assemblyBytes": 2520
+  },
+  "sources": [
+    {
+      "file": "assets/imagegen/sir-bram-ghost/source-movement-v1.png",
+      "sha256": "7a80e44d39f132629e245749fee623c17ec87fb015be63be19a70cdd5bec5255",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/sir-bram-ghost/source-actions-v1.png",
+      "sha256": "2de736bb18fdf47e3997ea0b20cb107360cb61a4ff14817c8e234226a28f352f",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/sir-bram-ghost/source-dispersal-v1.png",
+      "sha256": "17dc5f2cd0e385373fcb581ea1f0567902eea07120ca58537bb2d989fd2bd9c0",
+      "sourceType": "image-generation"
+    }
+  ],
+  "validation": {
+    "all21SlotsPresent": true,
+    "original12ColorPalette": true,
+    "twelveCellsEveryFrame": true,
+    "assemblyCapacityUnchanged": true,
+    "noClippedOpaquePixels": true,
+    "compressionRoundTrip": true,
+    "all4bppFramesRoundTrip": true,
+    "canonicalRegistryInactive": true
+  },
+  "nativeUploaded": false,
+  "compressedGraphicsDelta": 7796,
+  "exactPacking": {
+    "method": "Draft-local cell placement to share exact tiles and native horizontal mirrors; indexed images unchanged",
+    "initialTiles": 649,
+    "initialGraphicsBytes": 20768,
+    "initialCompressedGraphicsBytes": 16675,
+    "decodedBytesSaved": 1056,
+    "compressedBytesSaved": 49
+  },
+  "visualReview": {
+    "status": "Lead visual review approved; inactive pending native integration",
+    "reviewer": "/root/sprite_art_pass",
+    "date": "2026-10-31",
+    "all21NativeSlotsAt1xAnd3x": true,
+    "approved": true,
+    "nativeUploaded": false,
+    "findings": "Helmet, beard and hatchet identity survives the spectral palette. Directional contacts read clearly; raised attacks retain body proportions; slot 20 reads as armor dispersal.",
+    "nativeCandidateReview": "Indexed source and native-format frame reconstruction reviewed. Candidate was not activated or uploaded to a ROM."
+  },
+  "heapProof": "heap-audit.json"
+}

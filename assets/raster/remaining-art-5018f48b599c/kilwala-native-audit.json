@@ -1,0 +1,4852 @@
+{
+  "status": "Proposed next family: complete original resource audit, awaiting direction review",
+  "activation": false,
+  "generationStarted": false,
+  "baseline": {
+    "path": ".local/qa/storm-breath-5018f48b599c/candidate.sfc",
+    "sha256": "5018f48b599c67f33131c3d05350115484625450d2e8b44e5389f27144e21770"
+  },
+  "original": {
+    "path": ".local/chrono-trigger-usa.sfc",
+    "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+  },
+  "family": {
+    "sourceName": "Kilwala",
+    "gfx": 81,
+    "asm": 36,
+    "palette": 19,
+    "animation": 28,
+    "size": 0,
+    "cells": 4,
+    "frames": 15
+  },
+  "owners": [
+    {
+      "kind": "npc",
+      "id": 77,
+      "header": [
+        81,
+        36,
+        19,
+        28,
+        0
+      ],
+      "name": null,
+      "originalName": null
+    },
+    {
+      "kind": "enemy",
+      "id": 3,
+      "header": [
+        81,
+        36,
+        19,
+        28,
+        0,
+        0,
+        240,
+        12,
+        16,
+        18
+      ],
+      "name": "Kilwala",
+      "originalName": "Kilwala"
+    }
+  ],
+  "ownership": [
+    {
+      "field": 0,
+      "id": 81,
+      "pointer": 14042611,
+      "aliases": [
+        81
+      ],
+      "owners": [
+        {
+          "kind": "npc",
+          "id": 77,
+          "header": [
+            81,
+            36,
+            19,
+            28,
+            0
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 3,
+          "header": [
+            81,
+            36,
+            19,
+            28,
+            0,
+            0,
+            240,
+            12,
+            16,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "id": 36,
+      "pointer": 14487496,
+      "aliases": [
+        36
+      ],
+      "owners": [
+        {
+          "kind": "npc",
+          "id": 77,
+          "header": [
+            81,
+            36,
+            19,
+            28,
+            0
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 3,
+          "header": [
+            81,
+            36,
+            19,
+            28,
+            0,
+            0,
+            240,
+            12,
+            16,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "field": 2,
+      "id": 19,
+      "pointer": 456,
+      "aliases": [
+        19
+      ],
+      "owners": [
+        {
+          "kind": "npc",
+          "id": 77,
+          "header": [
+            81,
+            36,
+            19,
+            28,
+            0
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 3,
+          "header": [
+            81,
+            36,
+            19,
+            28,
+            0,
+            0,
+            240,
+            12,
+            16,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "field": 3,
+      "id": 28,
+      "pointer": 22272,
+      "aliases": [
+        28
+      ],
+      "owners": [
+        {
+          "kind": "npc",
+          "id": 77,
+          "header": [
+            81,
+            36,
+            19,
+            28,
+            0
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 3,
+          "header": [
+            81,
+            36,
+            19,
+            28,
+            0,
+            0,
+            240,
+            12,
+            16,
+            18
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 225,
+          "header": [
+            252,
+            233,
+            10,
+            28,
+            0,
+            0,
+            240,
+            8,
+            16,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "resources": {
+    "graphics": {
+      "original": {
+        "pointer": 14042611,
+        "offset": 1459699,
+        "bytes": 3104,
+        "compressed": 1735,
+        "sha256": "976aa682f1aed5acfd7e7c8d596fe9ba79b0c34a818f9ba5ecefd799f1124bfd"
+      },
+      "current": {
+        "pointer": 14042611,
+        "offset": 1459699,
+        "bytes": 3104,
+        "compressed": 1735,
+        "sha256": "976aa682f1aed5acfd7e7c8d596fe9ba79b0c34a818f9ba5ecefd799f1124bfd"
+      },
+      "unchanged": true
+    },
+    "assembly": {
+      "id": 36,
+      "offset": 1904584,
+      "sourceExtent": 600,
+      "bytes": 600,
+      "sha256": "a19e37dab596da2bf7035bd3236c07dd26ebf22380c998ab5f38e98e28aa0943",
+      "unchanged": true
+    },
+    "compressedPlusAssemblyBytes": 2335,
+    "currentOriginalDecodedCeiling": 3104,
+    "streamPointer": 0,
+    "nativeBankLimit": 32768
+  },
+  "palette": {
+    "id": 19,
+    "offset": 2359752,
+    "bytes": 24,
+    "words": [
+      2213,
+      32767,
+      27516,
+      22335,
+      13983,
+      21240,
+      10933,
+      8598,
+      1489,
+      7533,
+      8431,
+      5351
+    ],
+    "colors": [
+      "292910",
+      "ffffff",
+      "e7ded6",
+      "ffcead",
+      "ffa56b",
+      "c6bda5",
+      "adad52",
+      "b56342",
+      "8c7308",
+      "6b5a39",
+      "7b3942",
+      "393929"
+    ],
+    "sha256": "86f943dbb591256d774cffdf26a86b63d4a7b60ab5f3c936edaf4e1c1d72e5a6",
+    "unchanged": true
+  },
+  "animation": {
+    "id": 28,
+    "frameOffset": 2381568,
+    "durationOffset": 2406416,
+    "stride": 32,
+    "frameBytes": [
+      0,
+      1,
+      2,
+      1,
+      0,
+      1,
+      2,
+      1,
+      255,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      12,
+      255,
+      0,
+      0,
+      12,
+      255,
+      0,
+      0,
+      13,
+      14,
+      255,
+      0,
+      13,
+      14,
+      255,
+      0,
+      3,
+      4,
+      5,
+      4,
+      3,
+      4,
+      5,
+      4,
+      255,
+      0,
+      0,
+      0,
+      3,
+      4,
+      5,
+      4,
+      12,
+      255,
+      0,
+      0,
+      12,
+      255,
+      0,
+      0,
+      13,
+      14,
+      255,
+      0,
+      13,
+      14,
+      255,
+      0,
+      6,
+      7,
+      8,
+      7,
+      6,
+      7,
+      8,
+      7,
+      255,
+      0,
+      0,
+      0,
+      6,
+      7,
+      8,
+      7,
+      12,
+      255,
+      0,
+      0,
+      12,
+      255,
+      0,
+      0,
+      13,
+      14,
+      255,
+      0,
+      13,
+      14,
+      255,
+      0,
+      9,
+      10,
+      11,
+      10,
+      9,
+      10,
+      11,
+      10,
+      255,
+      0,
+      0,
+      0,
+      9,
+      10,
+      11,
+      10,
+      12,
+      255,
+      0,
+      0,
+      12,
+      255,
+      0,
+      0,
+      13,
+      14,
+      255,
+      0,
+      13,
+      14,
+      255,
+      0
+    ],
+    "durationBytes": [
+      15,
+      5,
+      15,
+      5,
+      15,
+      5,
+      15,
+      5,
+      0,
+      0,
+      0,
+      0,
+      15,
+      5,
+      15,
+      5,
+      0,
+      0,
+      0,
+      0,
+      31,
+      0,
+      0,
+      0,
+      5,
+      5,
+      0,
+      0,
+      5,
+      5,
+      0,
+      0
+    ],
+    "frameSha256": "f54f01a3670230f6970756cd47029bc5c1bb7fc61400fd2f460bfce8f07ae03c",
+    "durationSha256": "64294bca0bf7b9bee9729fb5da7fa596db457fd05a7e2a692261f3ce1130733e",
+    "lists": [
+      {
+        "facing": 0,
+        "action": 0,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 15
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 15
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 0,
+            "duration": 15
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 15
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 80
+      },
+      {
+        "facing": 0,
+        "action": 1,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 15
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 15
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 40
+      },
+      {
+        "facing": 0,
+        "action": 2,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 0,
+        "action": 3,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 15
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 15
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 40
+      },
+      {
+        "facing": 0,
+        "action": 4,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 0,
+        "action": 5,
+        "steps": [
+          {
+            "frame": 12,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 31
+      },
+      {
+        "facing": 0,
+        "action": 6,
+        "steps": [
+          {
+            "frame": 13,
+            "duration": 5
+          },
+          {
+            "frame": 14,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 10
+      },
+      {
+        "facing": 0,
+        "action": 7,
+        "steps": [
+          {
+            "frame": 13,
+            "duration": 5
+          },
+          {
+            "frame": 14,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 10
+      },
+      {
+        "facing": 1,
+        "action": 0,
+        "steps": [
+          {
+            "frame": 3,
+            "duration": 15
+          },
+          {
+            "frame": 4,
+            "duration": 5
+          },
+          {
+            "frame": 5,
+            "duration": 15
+          },
+          {
+            "frame": 4,
+            "duration": 5
+          },
+          {
+            "frame": 3,
+            "duration": 15
+          },
+          {
+            "frame": 4,
+            "duration": 5
+          },
+          {
+            "frame": 5,
+            "duration": 15
+          },
+          {
+            "frame": 4,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 80
+      },
+      {
+        "facing": 1,
+        "action": 1,
+        "steps": [
+          {
+            "frame": 3,
+            "duration": 15
+          },
+          {
+            "frame": 4,
+            "duration": 5
+          },
+          {
+            "frame": 5,
+            "duration": 15
+          },
+          {
+            "frame": 4,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 40
+      },
+      {
+        "facing": 1,
+        "action": 2,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 1,
+        "action": 3,
+        "steps": [
+          {
+            "frame": 3,
+            "duration": 15
+          },
+          {
+            "frame": 4,
+            "duration": 5
+          },
+          {
+            "frame": 5,
+            "duration": 15
+          },
+          {
+            "frame": 4,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 40
+      },
+      {
+        "facing": 1,
+        "action": 4,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 1,
+        "action": 5,
+        "steps": [
+          {
+            "frame": 12,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 31
+      },
+      {
+        "facing": 1,
+        "action": 6,
+        "steps": [
+          {
+            "frame": 13,
+            "duration": 5
+          },
+          {
+            "frame": 14,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 10
+      },
+      {
+        "facing": 1,
+        "action": 7,
+        "steps": [
+          {
+            "frame": 13,
+            "duration": 5
+          },
+          {
+            "frame": 14,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 10
+      },
+      {
+        "facing": 2,
+        "action": 0,
+        "steps": [
+          {
+            "frame": 6,
+            "duration": 15
+          },
+          {
+            "frame": 7,
+            "duration": 5
+          },
+          {
+            "frame": 8,
+            "duration": 15
+          },
+          {
+            "frame": 7,
+            "duration": 5
+          },
+          {
+            "frame": 6,
+            "duration": 15
+          },
+          {
+            "frame": 7,
+            "duration": 5
+          },
+          {
+            "frame": 8,
+            "duration": 15
+          },
+          {
+            "frame": 7,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 80
+      },
+      {
+        "facing": 2,
+        "action": 1,
+        "steps": [
+          {
+            "frame": 6,
+            "duration": 15
+          },
+          {
+            "frame": 7,
+            "duration": 5
+          },
+          {
+            "frame": 8,
+            "duration": 15
+          },
+          {
+            "frame": 7,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 40
+      },
+      {
+        "facing": 2,
+        "action": 2,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 2,
+        "action": 3,
+        "steps": [
+          {
+            "frame": 6,
+            "duration": 15
+          },
+          {
+            "frame": 7,
+            "duration": 5
+          },
+          {
+            "frame": 8,
+            "duration": 15
+          },
+          {
+            "frame": 7,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 40
+      },
+      {
+        "facing": 2,
+        "action": 4,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 2,
+        "action": 5,
+        "steps": [
+          {
+            "frame": 12,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 31
+      },
+      {
+        "facing": 2,
+        "action": 6,
+        "steps": [
+          {
+            "frame": 13,
+            "duration": 5
+          },
+          {
+            "frame": 14,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 10
+      },
+      {
+        "facing": 2,
+        "action": 7,
+        "steps": [
+          {
+            "frame": 13,
+            "duration": 5
+          },
+          {
+            "frame": 14,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 10
+      },
+      {
+        "facing": 3,
+        "action": 0,
+        "steps": [
+          {
+            "frame": 9,
+            "duration": 15
+          },
+          {
+            "frame": 10,
+            "duration": 5
+          },
+          {
+            "frame": 11,
+            "duration": 15
+          },
+          {
+            "frame": 10,
+            "duration": 5
+          },
+          {
+            "frame": 9,
+            "duration": 15
+          },
+          {
+            "frame": 10,
+            "duration": 5
+          },
+          {
+            "frame": 11,
+            "duration": 15
+          },
+          {
+            "frame": 10,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 80
+      },
+      {
+        "facing": 3,
+        "action": 1,
+        "steps": [
+          {
+            "frame": 9,
+            "duration": 15
+          },
+          {
+            "frame": 10,
+            "duration": 5
+          },
+          {
+            "frame": 11,
+            "duration": 15
+          },
+          {
+            "frame": 10,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 40
+      },
+      {
+        "facing": 3,
+        "action": 2,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 3,
+        "action": 3,
+        "steps": [
+          {
+            "frame": 9,
+            "duration": 15
+          },
+          {
+            "frame": 10,
+            "duration": 5
+          },
+          {
+            "frame": 11,
+            "duration": 15
+          },
+          {
+            "frame": 10,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 40
+      },
+      {
+        "facing": 3,
+        "action": 4,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 3,
+        "action": 5,
+        "steps": [
+          {
+            "frame": 12,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 31
+      },
+      {
+        "facing": 3,
+        "action": 6,
+        "steps": [
+          {
+            "frame": 13,
+            "duration": 5
+          },
+          {
+            "frame": 14,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 10
+      },
+      {
+        "facing": 3,
+        "action": 7,
+        "steps": [
+          {
+            "frame": 13,
+            "duration": 5
+          },
+          {
+            "frame": 14,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 10
+      }
+    ],
+    "referencedFrames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "unchanged": true
+  },
+  "ai": {
+    "enemy": 3,
+    "offset": 822791,
+    "bytes": 26,
+    "sha256": "91d0fe9b27e3c072a63e9f59774815d4423726cfbfebf5fcf8692aaeb90fd034",
+    "unchanged": true
+  },
+  "geometry": {
+    "atlasWidth": 32,
+    "atlasHeight": 32,
+    "origin": [
+      16,
+      32
+    ],
+    "frames": [
+      {
+        "frame": 0,
+        "cellOrigins": [
+          [
+            -16,
+            -18
+          ],
+          [
+            0,
+            -18
+          ],
+          [
+            -16,
+            -34
+          ],
+          [
+            0,
+            -34
+          ]
+        ],
+        "opaquePixels": 497,
+        "bounds": [
+          -16,
+          -30,
+          31,
+          28
+        ],
+        "sourcePixelSha256": "b814abb07a824a6a90301a28520202dea5828ea8c1858623bd3b83d34fd45ed3",
+        "animationUses": [
+          {
+            "facing": 0,
+            "action": 0,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 0,
+            "action": 1,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 0,
+            "action": 3,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 1,
+        "cellOrigins": [
+          [
+            -16,
+            -16
+          ],
+          [
+            -1,
+            -16
+          ],
+          [
+            -16,
+            -32
+          ],
+          [
+            -1,
+            -32
+          ]
+        ],
+        "opaquePixels": 473,
+        "bounds": [
+          -16,
+          -28,
+          31,
+          26
+        ],
+        "sourcePixelSha256": "328a1d062038800c5f4d543eca821a2aed784eca13850c26912d15567365b0b5",
+        "animationUses": [
+          {
+            "facing": 0,
+            "action": 0,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 0,
+            "action": 1,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 0,
+            "action": 3,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 2,
+        "cellOrigins": [
+          [
+            -17,
+            -18
+          ],
+          [
+            -1,
+            -18
+          ],
+          [
+            -17,
+            -34
+          ],
+          [
+            -1,
+            -34
+          ]
+        ],
+        "opaquePixels": 497,
+        "bounds": [
+          -16,
+          -30,
+          31,
+          28
+        ],
+        "sourcePixelSha256": "31be65175b418dbb871a3dd0788fdf306597ab5dab4b76f2259f7a765758a634",
+        "animationUses": [
+          {
+            "facing": 0,
+            "action": 0,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 0,
+            "action": 1,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 0,
+            "action": 3,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 15
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 3,
+        "cellOrigins": [
+          [
+            -16,
+            -18
+          ],
+          [
+            0,
+            -18
+          ],
+          [
+            -16,
+            -34
+          ],
+          [
+            0,
+            -34
+          ]
+        ],
+        "opaquePixels": 494,
+        "bounds": [
+          -16,
+          -30,
+          31,
+          28
+        ],
+        "sourcePixelSha256": "5563fdbf7a44b721191e50a50f9c03fa54bf6228d5744089b1a0cb2e278257a0",
+        "animationUses": [
+          {
+            "facing": 1,
+            "action": 0,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 5,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 3,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 5,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 1,
+            "action": 1,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 5,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 1,
+            "action": 3,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 5,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 4,
+        "cellOrigins": [
+          [
+            -16,
+            -16
+          ],
+          [
+            -1,
+            -16
+          ],
+          [
+            -16,
+            -32
+          ],
+          [
+            -1,
+            -32
+          ]
+        ],
+        "opaquePixels": 473,
+        "bounds": [
+          -16,
+          -28,
+          31,
+          26
+        ],
+        "sourcePixelSha256": "9cbf48aa090923709badbbc72af066867a681b2a3436eb515f3727ab132241a5",
+        "animationUses": [
+          {
+            "facing": 1,
+            "action": 0,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 5,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 3,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 5,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 1,
+            "action": 1,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 5,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 1,
+            "action": 3,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 5,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 5,
+        "cellOrigins": [
+          [
+            -17,
+            -18
+          ],
+          [
+            -1,
+            -18
+          ],
+          [
+            -17,
+            -34
+          ],
+          [
+            -1,
+            -34
+          ]
+        ],
+        "opaquePixels": 494,
+        "bounds": [
+          -16,
+          -30,
+          31,
+          28
+        ],
+        "sourcePixelSha256": "539a3deefd94e27e0899aeea5b92aa9c07d3109bc6e4a4aa7c3e149985c75b9c",
+        "animationUses": [
+          {
+            "facing": 1,
+            "action": 0,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 5,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 3,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 5,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 1,
+            "action": 1,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 5,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 1,
+            "action": 3,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              },
+              {
+                "frame": 5,
+                "duration": 15
+              },
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 6,
+        "cellOrigins": [
+          [
+            -16,
+            -18
+          ],
+          [
+            0,
+            -18
+          ],
+          [
+            -16,
+            -34
+          ],
+          [
+            0,
+            -34
+          ]
+        ],
+        "opaquePixels": 379,
+        "bounds": [
+          -10,
+          -32,
+          18,
+          29
+        ],
+        "sourcePixelSha256": "cd5b7d42fe3a5bd8ef059a6978c540945fdc94e000f1a53de175e739ea38e35a",
+        "animationUses": [
+          {
+            "facing": 2,
+            "action": 0,
+            "steps": [
+              {
+                "frame": 6,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 8,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 6,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 8,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 2,
+            "action": 1,
+            "steps": [
+              {
+                "frame": 6,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 8,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 2,
+            "action": 3,
+            "steps": [
+              {
+                "frame": 6,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 8,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 7,
+        "cellOrigins": [
+          [
+            -16,
+            -16
+          ],
+          [
+            0,
+            -16
+          ],
+          [
+            -16,
+            -32
+          ],
+          [
+            0,
+            -32
+          ]
+        ],
+        "opaquePixels": 350,
+        "bounds": [
+          -10,
+          -30,
+          18,
+          28
+        ],
+        "sourcePixelSha256": "eabaab2f8ac2f97c26bf13950de8019528450103826e5855336c176da8b07e51",
+        "animationUses": [
+          {
+            "facing": 2,
+            "action": 0,
+            "steps": [
+              {
+                "frame": 6,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 8,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 6,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 8,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 2,
+            "action": 1,
+            "steps": [
+              {
+                "frame": 6,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 8,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 2,
+            "action": 3,
+            "steps": [
+              {
+                "frame": 6,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 8,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 8,
+        "cellOrigins": [
+          [
+            -16,
+            -18
+          ],
+          [
+            0,
+            -18
+          ],
+          [
+            -16,
+            -34
+          ],
+          [
+            0,
+            -34
+          ]
+        ],
+        "opaquePixels": 383,
+        "bounds": [
+          -10,
+          -32,
+          18,
+          29
+        ],
+        "sourcePixelSha256": "8a4c7c7f6e6c00c966eeadfa43079a4b94873f770fc22c9242a5ff917f0b43dd",
+        "animationUses": [
+          {
+            "facing": 2,
+            "action": 0,
+            "steps": [
+              {
+                "frame": 6,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 8,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 6,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 8,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 2,
+            "action": 1,
+            "steps": [
+              {
+                "frame": 6,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 8,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 2,
+            "action": 3,
+            "steps": [
+              {
+                "frame": 6,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              },
+              {
+                "frame": 8,
+                "duration": 15
+              },
+              {
+                "frame": 7,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 9,
+        "cellOrigins": [
+          [
+            -16,
+            -18
+          ],
+          [
+            0,
+            -18
+          ],
+          [
+            -16,
+            -34
+          ],
+          [
+            0,
+            -34
+          ]
+        ],
+        "opaquePixels": 379,
+        "bounds": [
+          -8,
+          -32,
+          18,
+          29
+        ],
+        "sourcePixelSha256": "808a06cdbc79b18faddf392203976f3cc8b9e17d0a36a6002fe8a814b1bb8043",
+        "animationUses": [
+          {
+            "facing": 3,
+            "action": 0,
+            "steps": [
+              {
+                "frame": 9,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 11,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 9,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 11,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 3,
+            "action": 1,
+            "steps": [
+              {
+                "frame": 9,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 11,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 3,
+            "action": 3,
+            "steps": [
+              {
+                "frame": 9,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 11,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 10,
+        "cellOrigins": [
+          [
+            -16,
+            -16
+          ],
+          [
+            0,
+            -16
+          ],
+          [
+            -16,
+            -32
+          ],
+          [
+            0,
+            -32
+          ]
+        ],
+        "opaquePixels": 350,
+        "bounds": [
+          -8,
+          -30,
+          18,
+          28
+        ],
+        "sourcePixelSha256": "fe147074f4014cf6f1fd23717489e34487183c01257eb7fa97313fbab3e81239",
+        "animationUses": [
+          {
+            "facing": 3,
+            "action": 0,
+            "steps": [
+              {
+                "frame": 9,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 11,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 9,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 11,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 3,
+            "action": 1,
+            "steps": [
+              {
+                "frame": 9,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 11,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 3,
+            "action": 3,
+            "steps": [
+              {
+                "frame": 9,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 11,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 11,
+        "cellOrigins": [
+          [
+            -16,
+            -18
+          ],
+          [
+            0,
+            -18
+          ],
+          [
+            -16,
+            -34
+          ],
+          [
+            0,
+            -34
+          ]
+        ],
+        "opaquePixels": 383,
+        "bounds": [
+          -8,
+          -32,
+          18,
+          29
+        ],
+        "sourcePixelSha256": "20ee617bfe2b321acf4929de62bb74b13da667a0aa6bc8046ed936e43c2b54f6",
+        "animationUses": [
+          {
+            "facing": 3,
+            "action": 0,
+            "steps": [
+              {
+                "frame": 9,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 11,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 9,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 11,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 3,
+            "action": 1,
+            "steps": [
+              {
+                "frame": 9,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 11,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 3,
+            "action": 3,
+            "steps": [
+              {
+                "frame": 9,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              },
+              {
+                "frame": 11,
+                "duration": 15
+              },
+              {
+                "frame": 10,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 12,
+        "cellOrigins": [
+          [
+            -12,
+            -16
+          ],
+          [
+            4,
+            -16
+          ],
+          [
+            -12,
+            -32
+          ],
+          [
+            4,
+            -32
+          ]
+        ],
+        "opaquePixels": 408,
+        "bounds": [
+          -12,
+          -27,
+          26,
+          27
+        ],
+        "sourcePixelSha256": "262429a503c5ec0aaa9abcd8fcabcfc4abfb2853cfca33cd6a267b20adb099dc",
+        "animationUses": [
+          {
+            "facing": 0,
+            "action": 5,
+            "steps": [
+              {
+                "frame": 12,
+                "duration": 31
+              }
+            ]
+          },
+          {
+            "facing": 1,
+            "action": 5,
+            "steps": [
+              {
+                "frame": 12,
+                "duration": 31
+              }
+            ]
+          },
+          {
+            "facing": 2,
+            "action": 5,
+            "steps": [
+              {
+                "frame": 12,
+                "duration": 31
+              }
+            ]
+          },
+          {
+            "facing": 3,
+            "action": 5,
+            "steps": [
+              {
+                "frame": 12,
+                "duration": 31
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 13,
+        "cellOrigins": [
+          [
+            -12,
+            -16
+          ],
+          [
+            4,
+            -16
+          ],
+          [
+            -12,
+            -32
+          ],
+          [
+            4,
+            -32
+          ]
+        ],
+        "opaquePixels": 384,
+        "bounds": [
+          -12,
+          -28,
+          23,
+          27
+        ],
+        "sourcePixelSha256": "7665db8d9aa4d1e37c2e044ef1484cccb3e7015ee27626b17f008aaba5826325",
+        "animationUses": [
+          {
+            "facing": 0,
+            "action": 6,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 0,
+            "action": 7,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 1,
+            "action": 6,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 1,
+            "action": 7,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 2,
+            "action": 6,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 2,
+            "action": 7,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 3,
+            "action": 6,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 3,
+            "action": 7,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 14,
+        "cellOrigins": [
+          [
+            -13,
+            -16
+          ],
+          [
+            3,
+            -16
+          ],
+          [
+            -13,
+            -32
+          ],
+          [
+            3,
+            -32
+          ]
+        ],
+        "opaquePixels": 384,
+        "bounds": [
+          -12,
+          -28,
+          23,
+          27
+        ],
+        "sourcePixelSha256": "e466f32c807f4d5f3a3577c933e548a21ceb1c22c712ba3d1ddde48df0ce9383",
+        "animationUses": [
+          {
+            "facing": 0,
+            "action": 6,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 0,
+            "action": 7,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 1,
+            "action": 6,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 1,
+            "action": 7,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 2,
+            "action": 6,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 2,
+            "action": 7,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 3,
+            "action": 6,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "facing": 3,
+            "action": 7,
+            "steps": [
+              {
+                "frame": 13,
+                "duration": 5
+              },
+              {
+                "frame": 14,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "location": 53,
+      "name": "Snail Stop",
+      "loads": [
+        {
+          "kind": "npc",
+          "id": 77,
+          "bodyOffset": 640
+        }
+      ],
+      "originalPacketUnchanged": true,
+      "battleCommands": [],
+      "eventId": 115,
+      "currentPacketSha256": "e1c147b2f5f60816e6858f7af0bd1fe6d0ae4c2043e142076bce0803145b852d",
+      "unresolvedLoadOffsets": 0,
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 495,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 22,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 22,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 578,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 15,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 15,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 594,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 25,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 25,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 615,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 14,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 14,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 640,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 77,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 77,
+          "currentSlotFlags": null
+        }
+      ],
+      "banks": [
+        {
+          "gfx": 11,
+          "decodedBytes": 2336,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 126,
+          "decodedBytes": 2336,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 35,
+          "decodedBytes": 3936,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 125,
+          "decodedBytes": 2656,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 81,
+          "decodedBytes": 3104,
+          "streamPointer": 0,
+          "streamed": false
+        }
+      ],
+      "legacyHeapUnionBytes": 14368,
+      "spareTo32768": 18400,
+      "unionWithout81": 11264,
+      "scope": "All-branch verified load union; excludes banks already explicitly streamed in5018. It is not a simultaneous-residency or runtime visibility claim."
+    },
+    {
+      "location": 93,
+      "name": "Ending: People of the Times (Part 3)",
+      "loads": [
+        {
+          "kind": "npc",
+          "id": 77,
+          "bodyOffset": 509
+        }
+      ],
+      "originalPacketUnchanged": true,
+      "battleCommands": [],
+      "eventId": 151,
+      "currentPacketSha256": "8805d02865f9cac180746a3b851601b49749d95c46686ba694bea05e7610ffde",
+      "unresolvedLoadOffsets": 0,
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 487,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 75,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 75,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 498,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 509,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 77,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 77,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 520,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 59,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 59,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 531,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 179,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 179,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 542,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 180,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 180,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 553,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 2,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 2,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 564,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 170,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 170,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 575,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 170,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 170,
+          "currentSlotFlags": null
+        }
+      ],
+      "banks": [
+        {
+          "gfx": 78,
+          "decodedBytes": 7104,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 79,
+          "decodedBytes": 5536,
+          "streamPointer": 4855232,
+          "streamed": true
+        },
+        {
+          "gfx": 81,
+          "decodedBytes": 3104,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 43,
+          "decodedBytes": 960,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 14,
+          "decodedBytes": 2336,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 138,
+          "decodedBytes": 2464,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 37,
+          "decodedBytes": 6944,
+          "streamPointer": 4788032,
+          "streamed": true
+        },
+        {
+          "gfx": 97,
+          "decodedBytes": 8032,
+          "streamPointer": 4915200,
+          "streamed": true
+        }
+      ],
+      "legacyHeapUnionBytes": 15968,
+      "spareTo32768": 16800,
+      "unionWithout81": 12864,
+      "scope": "All-branch verified load union; excludes banks already explicitly streamed in5018. It is not a simultaneous-residency or runtime visibility claim."
+    },
+    {
+      "location": 119,
+      "name": "Guardia Forest (Middle Ages)",
+      "loads": [
+        {
+          "kind": "npc",
+          "id": 77,
+          "bodyOffset": 3779
+        }
+      ],
+      "originalPacketUnchanged": false,
+      "battleCommands": [
+        {
+          "bodyOffset": 2594,
+          "opcode": 216,
+          "args": [
+            0,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 2660,
+          "opcode": 216,
+          "args": [
+            0,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 2875,
+          "opcode": 216,
+          "args": [
+            0,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 2937,
+          "opcode": 216,
+          "args": [
+            0,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 3092,
+          "opcode": 216,
+          "args": [
+            2,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 3139,
+          "opcode": 216,
+          "args": [
+            2,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 3261,
+          "opcode": 216,
+          "args": [
+            2,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 3308,
+          "opcode": 216,
+          "args": [
+            2,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 3466,
+          "opcode": 216,
+          "args": [
+            2,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 3924,
+          "opcode": 216,
+          "args": [
+            0,
+            0
+          ]
+        }
+      ],
+      "eventId": 116,
+      "currentPacketSha256": "f6354011ceb1a55e92d41d107933ff4e981c923cf344414a80736cf1197193aa",
+      "unresolvedLoadOffsets": 0,
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 2230,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 46,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 53,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2284,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 41,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 54,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2329,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 182,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 182,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2382,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 182,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 182,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2435,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 182,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 182,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2488,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 182,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 182,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2673,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 161,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 161,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2697,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 16,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 16,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 2738,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 16,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 16,
+          "currentSlotFlags": 7
+        },
+        {
+          "bodyOffset": 2782,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 16,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 16,
+          "currentSlotFlags": 9
+        },
+        {
+          "bodyOffset": 2950,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 16,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 16,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 2986,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 16,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 16,
+          "currentSlotFlags": 7
+        },
+        {
+          "bodyOffset": 3022,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 13,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 13,
+          "currentSlotFlags": 9
+        },
+        {
+          "bodyOffset": 3143,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 21,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 21,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 3168,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 21,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 21,
+          "currentSlotFlags": 4
+        },
+        {
+          "bodyOffset": 3193,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 21,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 21,
+          "currentSlotFlags": 5
+        },
+        {
+          "bodyOffset": 3312,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 19,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 19,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 3337,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 19,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 19,
+          "currentSlotFlags": 7
+        },
+        {
+          "bodyOffset": 3362,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 19,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 19,
+          "currentSlotFlags": 9
+        },
+        {
+          "bodyOffset": 3387,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 112,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 112,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 3479,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 133,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 133,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 3499,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 133,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 133,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 3519,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 16,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 16,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 3543,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 16,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 16,
+          "currentSlotFlags": 4
+        },
+        {
+          "bodyOffset": 3567,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 13,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 13,
+          "currentSlotFlags": 5
+        },
+        {
+          "bodyOffset": 3600,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 13,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 13,
+          "currentSlotFlags": 6
+        },
+        {
+          "bodyOffset": 3633,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 19,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 19,
+          "currentSlotFlags": 7
+        },
+        {
+          "bodyOffset": 3666,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 19,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 19,
+          "currentSlotFlags": 9
+        },
+        {
+          "bodyOffset": 3699,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 161,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 161,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 3779,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 77,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 77,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 3816,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 161,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 161,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 3928,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 16,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 16,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 3959,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 16,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 16,
+          "currentSlotFlags": 4
+        },
+        {
+          "bodyOffset": 3990,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 13,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 13,
+          "currentSlotFlags": 5
+        },
+        {
+          "bodyOffset": 4023,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 13,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 13,
+          "currentSlotFlags": 6
+        },
+        {
+          "bodyOffset": 4056,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 19,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 19,
+          "currentSlotFlags": 7
+        },
+        {
+          "bodyOffset": 4089,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 19,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 19,
+          "currentSlotFlags": 9
+        },
+        {
+          "bodyOffset": 4146,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 183,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 183,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 4207,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 112,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 112,
+          "currentSlotFlags": null
+        }
+      ],
+      "banks": [
+        {
+          "gfx": 254,
+          "decodedBytes": 6560,
+          "streamPointer": 5518272,
+          "streamed": true
+        },
+        {
+          "gfx": 71,
+          "decodedBytes": 5568,
+          "streamPointer": 4849664,
+          "streamed": true
+        },
+        {
+          "gfx": 21,
+          "decodedBytes": 1312,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 147,
+          "decodedBytes": 928,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 86,
+          "decodedBytes": 8704,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 85,
+          "decodedBytes": 8192,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 49,
+          "decodedBytes": 160,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 117,
+          "decodedBytes": 768,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 81,
+          "decodedBytes": 3104,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 221,
+          "decodedBytes": 160,
+          "streamPointer": 0,
+          "streamed": false
+        }
+      ],
+      "legacyHeapUnionBytes": 23328,
+      "spareTo32768": 9440,
+      "unionWithout81": 20224,
+      "scope": "All-branch verified load union; excludes banks already explicitly streamed in5018. It is not a simultaneous-residency or runtime visibility claim."
+    },
+    {
+      "location": 148,
+      "name": "Denadoro Mountain Vista",
+      "loads": [
+        {
+          "kind": "npc",
+          "id": 77,
+          "bodyOffset": 683
+        }
+      ],
+      "originalPacketUnchanged": true,
+      "battleCommands": [
+        {
+          "bodyOffset": 563,
+          "opcode": 216,
+          "args": [
+            146,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 608,
+          "opcode": 216,
+          "args": [
+            146,
+            0
+          ]
+        }
+      ],
+      "eventId": 147,
+      "currentPacketSha256": "950659da078a9f865666881841b302e46eb4ca6dc8c932240b8ec33b79938461",
+      "unresolvedLoadOffsets": 0,
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 614,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 8,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 8,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 637,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 8,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 8,
+          "currentSlotFlags": 5
+        },
+        {
+          "bodyOffset": 660,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 8,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 8,
+          "currentSlotFlags": 7
+        },
+        {
+          "bodyOffset": 683,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 77,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 77,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 795,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 112,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 112,
+          "currentSlotFlags": null
+        }
+      ],
+      "banks": [
+        {
+          "gfx": 85,
+          "decodedBytes": 8192,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 81,
+          "decodedBytes": 3104,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 49,
+          "decodedBytes": 160,
+          "streamPointer": 0,
+          "streamed": false
+        }
+      ],
+      "legacyHeapUnionBytes": 11456,
+      "spareTo32768": 21312,
+      "unionWithout81": 8352,
+      "scope": "All-branch verified load union; excludes banks already explicitly streamed in5018. It is not a simultaneous-residency or runtime visibility claim."
+    },
+    {
+      "location": 240,
+      "name": "Ending: Goodnight",
+      "loads": [
+        {
+          "kind": "npc",
+          "id": 77,
+          "bodyOffset": 2805
+        }
+      ],
+      "originalPacketUnchanged": true,
+      "battleCommands": [],
+      "eventId": 160,
+      "currentPacketSha256": "7e25b0e47c2c6d29275a051633a112956387b7f3a2296122fbbbe42b859df7f8",
+      "unresolvedLoadOffsets": 0,
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 1528,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 0,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 0,
+          "currentSlotFlags": 5
+        },
+        {
+          "bodyOffset": 1844,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 79,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 79,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 2195,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 0,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 0,
+          "currentSlotFlags": 6
+        },
+        {
+          "bodyOffset": 2305,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 79,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 79,
+          "currentSlotFlags": 4
+        },
+        {
+          "bodyOffset": 2805,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 77,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 77,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2891,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 173,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 173,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2936,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 173,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 173,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2949,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 173,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 173,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2964,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 173,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 173,
+          "currentSlotFlags": null
+        }
+      ],
+      "banks": [
+        {
+          "gfx": 99,
+          "decodedBytes": 8352,
+          "streamPointer": 4923232,
+          "streamed": true
+        },
+        {
+          "gfx": 98,
+          "decodedBytes": 3456,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 81,
+          "decodedBytes": 3104,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 211,
+          "decodedBytes": 1312,
+          "streamPointer": 0,
+          "streamed": false
+        }
+      ],
+      "legacyHeapUnionBytes": 7872,
+      "spareTo32768": 24896,
+      "unionWithout81": 4768,
+      "scope": "All-branch verified load union; excludes banks already explicitly streamed in5018. It is not a simultaneous-residency or runtime visibility claim."
+    },
+    {
+      "location": 252,
+      "name": "Millennial Fair (Ending: Dino Age)",
+      "loads": [
+        {
+          "kind": "npc",
+          "id": 77,
+          "bodyOffset": 694
+        }
+      ],
+      "originalPacketUnchanged": true,
+      "battleCommands": [],
+      "eventId": 352,
+      "currentPacketSha256": "d01f412b7ea5925b31b2f112a42500622611f252bb961fb8e84c5351f5250764",
+      "unresolvedLoadOffsets": 0,
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 529,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 61,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 61,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 587,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 596,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 615,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 624,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 633,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 642,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 649,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 658,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 665,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 75,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 75,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 694,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 77,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 77,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 725,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 54,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 54,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 756,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 176,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 176,
+          "currentSlotFlags": null
+        }
+      ],
+      "banks": [
+        {
+          "gfx": 79,
+          "decodedBytes": 5536,
+          "streamPointer": 4855232,
+          "streamed": true
+        },
+        {
+          "gfx": 78,
+          "decodedBytes": 7104,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 81,
+          "decodedBytes": 3104,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 71,
+          "decodedBytes": 5568,
+          "streamPointer": 4849664,
+          "streamed": true
+        },
+        {
+          "gfx": 43,
+          "decodedBytes": 960,
+          "streamPointer": 0,
+          "streamed": false
+        }
+      ],
+      "legacyHeapUnionBytes": 11168,
+      "spareTo32768": 21600,
+      "unionWithout81": 8064,
+      "scope": "All-branch verified load union; excludes banks already explicitly streamed in5018. It is not a simultaneous-residency or runtime visibility claim."
+    },
+    {
+      "location": 274,
+      "name": "Mystic Mtn Gulch",
+      "loads": [
+        {
+          "kind": "enemy",
+          "id": 3,
+          "bodyOffset": 1907
+        },
+        {
+          "kind": "enemy",
+          "id": 3,
+          "bodyOffset": 1944
+        },
+        {
+          "kind": "enemy",
+          "id": 3,
+          "bodyOffset": 2262
+        },
+        {
+          "kind": "enemy",
+          "id": 3,
+          "bodyOffset": 2305
+        },
+        {
+          "kind": "enemy",
+          "id": 3,
+          "bodyOffset": 2334
+        },
+        {
+          "kind": "enemy",
+          "id": 3,
+          "bodyOffset": 2365
+        }
+      ],
+      "originalPacketUnchanged": false,
+      "battleCommands": [
+        {
+          "bodyOffset": 1356,
+          "opcode": 216,
+          "args": [
+            0,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 1860,
+          "opcode": 216,
+          "args": [
+            2,
+            128
+          ]
+        },
+        {
+          "bodyOffset": 2040,
+          "opcode": 216,
+          "args": [
+            18,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 2144,
+          "opcode": 216,
+          "args": [
+            2,
+            0
+          ]
+        }
+      ],
+      "eventId": 365,
+      "currentPacketSha256": "5a66818d94676367d22cc30fff6519cc364dcb7a1e9fbf275563dac5b1f35047",
+      "unresolvedLoadOffsets": 0,
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 1377,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 136,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 136,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 1493,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 136,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 136,
+          "currentSlotFlags": 4
+        },
+        {
+          "bodyOffset": 1587,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 136,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 136,
+          "currentSlotFlags": 5
+        },
+        {
+          "bodyOffset": 1689,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 136,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 136,
+          "currentSlotFlags": 6
+        },
+        {
+          "bodyOffset": 1907,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 3,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 3,
+          "currentSlotFlags": 9
+        },
+        {
+          "bodyOffset": 1944,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 3,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 3,
+          "currentSlotFlags": 10
+        },
+        {
+          "bodyOffset": 2170,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 136,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 136,
+          "currentSlotFlags": 7
+        },
+        {
+          "bodyOffset": 2216,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 136,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 136,
+          "currentSlotFlags": 8
+        },
+        {
+          "bodyOffset": 2262,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 3,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 3,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 2305,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 3,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 3,
+          "currentSlotFlags": 4
+        },
+        {
+          "bodyOffset": 2334,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 3,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 3,
+          "currentSlotFlags": 5
+        },
+        {
+          "bodyOffset": 2365,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 3,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 3,
+          "currentSlotFlags": 6
+        }
+      ],
+      "banks": [
+        {
+          "gfx": 101,
+          "decodedBytes": 4064,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 81,
+          "decodedBytes": 3104,
+          "streamPointer": 0,
+          "streamed": false
+        }
+      ],
+      "legacyHeapUnionBytes": 7168,
+      "spareTo32768": 25600,
+      "unionWithout81": 4064,
+      "scope": "All-branch verified load union; excludes banks already explicitly streamed in5018. It is not a simultaneous-residency or runtime visibility claim."
+    },
+    {
+      "location": 282,
+      "name": "Forest Maze",
+      "loads": [
+        {
+          "kind": "enemy",
+          "id": 3,
+          "bodyOffset": 2725
+        },
+        {
+          "kind": "enemy",
+          "id": 3,
+          "bodyOffset": 2790
+        },
+        {
+          "kind": "enemy",
+          "id": 3,
+          "bodyOffset": 2858
+        }
+      ],
+      "originalPacketUnchanged": false,
+      "battleCommands": [
+        {
+          "bodyOffset": 2304,
+          "opcode": 216,
+          "args": [
+            18,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 2345,
+          "opcode": 216,
+          "args": [
+            18,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 2375,
+          "opcode": 216,
+          "args": [
+            0,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 2415,
+          "opcode": 216,
+          "args": [
+            2,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 2450,
+          "opcode": 216,
+          "args": [
+            18,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 2505,
+          "opcode": 216,
+          "args": [
+            18,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 2543,
+          "opcode": 216,
+          "args": [
+            0,
+            0
+          ]
+        },
+        {
+          "bodyOffset": 2586,
+          "opcode": 216,
+          "args": [
+            18,
+            0
+          ]
+        }
+      ],
+      "eventId": 490,
+      "currentPacketSha256": "d3a43eff4104770610cfd9b098d63d94f0a9683c089f2b8cf7ad22a1f68e7fc8",
+      "unresolvedLoadOffsets": 0,
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 1784,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 1844,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 1904,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 1930,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 1956,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 1982,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2008,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2034,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2060,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 76,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 76,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2086,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 30,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 30,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2122,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 30,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 30,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2153,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 6,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 6,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2597,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 121,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 121,
+          "currentSlotFlags": 9
+        },
+        {
+          "bodyOffset": 2651,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 136,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 136,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 2688,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 136,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 136,
+          "currentSlotFlags": 4
+        },
+        {
+          "bodyOffset": 2725,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 3,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 3,
+          "currentSlotFlags": 6
+        },
+        {
+          "bodyOffset": 2790,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 3,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 3,
+          "currentSlotFlags": 7
+        },
+        {
+          "bodyOffset": 2858,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 3,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 3,
+          "currentSlotFlags": 8
+        },
+        {
+          "bodyOffset": 2914,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 22,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 22,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 2953,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 22,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 22,
+          "currentSlotFlags": 4
+        },
+        {
+          "bodyOffset": 2992,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 22,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 22,
+          "currentSlotFlags": 5
+        },
+        {
+          "bodyOffset": 3021,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 23,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 23,
+          "currentSlotFlags": 6
+        },
+        {
+          "bodyOffset": 3050,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 23,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 23,
+          "currentSlotFlags": 7
+        },
+        {
+          "bodyOffset": 3079,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 23,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 23,
+          "currentSlotFlags": 8
+        }
+      ],
+      "banks": [
+        {
+          "gfx": 79,
+          "decodedBytes": 5536,
+          "streamPointer": 4855232,
+          "streamed": true
+        },
+        {
+          "gfx": 24,
+          "decodedBytes": 5856,
+          "streamPointer": 4724352,
+          "streamed": true
+        },
+        {
+          "gfx": 32,
+          "decodedBytes": 3904,
+          "streamPointer": 4784128,
+          "streamed": true
+        },
+        {
+          "gfx": 88,
+          "decodedBytes": 8160,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 101,
+          "decodedBytes": 4064,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 81,
+          "decodedBytes": 3104,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 85,
+          "decodedBytes": 8192,
+          "streamPointer": 0,
+          "streamed": false
+        }
+      ],
+      "legacyHeapUnionBytes": 23520,
+      "spareTo32768": 9248,
+      "unionWithout81": 20416,
+      "scope": "All-branch verified load union; excludes banks already explicitly streamed in5018. It is not a simultaneous-residency or runtime visibility claim."
+    },
+    {
+      "location": 379,
+      "name": "End of Time (Ending: The Dream Project)",
+      "loads": [
+        {
+          "kind": "npc",
+          "id": 77,
+          "bodyOffset": 837
+        }
+      ],
+      "originalPacketUnchanged": true,
+      "battleCommands": [],
+      "eventId": 19,
+      "currentPacketSha256": "3aefae9d59409e373bf60538dccb0e882eeb22e493a2c9bd9d7f75c480119b56",
+      "unresolvedLoadOffsets": 0,
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 790,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 72,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 72,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 837,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 77,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 77,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 861,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 79,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 79,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 876,
+          "sourceOpcode": 131,
+          "sourceKind": "enemy",
+          "sourceId": 0,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 0,
+          "currentSlotFlags": 3
+        },
+        {
+          "bodyOffset": 914,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 100,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 100,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 947,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 95,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 95,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 1004,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 177,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 177,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 1019,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 108,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 108,
+          "currentSlotFlags": null
+        }
+      ],
+      "banks": [
+        {
+          "gfx": 132,
+          "decodedBytes": 3392,
+          "streamPointer": 4939424,
+          "streamed": true
+        },
+        {
+          "gfx": 81,
+          "decodedBytes": 3104,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 125,
+          "decodedBytes": 2656,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 99,
+          "decodedBytes": 8352,
+          "streamPointer": 4923232,
+          "streamed": true
+        },
+        {
+          "gfx": 69,
+          "decodedBytes": 160,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 194,
+          "decodedBytes": 960,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 43,
+          "decodedBytes": 960,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 77,
+          "decodedBytes": 288,
+          "streamPointer": 0,
+          "streamed": false
+        }
+      ],
+      "legacyHeapUnionBytes": 8128,
+      "spareTo32768": 24640,
+      "unionWithout81": 5024,
+      "scope": "All-branch verified load union; excludes banks already explicitly streamed in5018. It is not a simultaneous-residency or runtime visibility claim."
+    },
+    {
+      "location": 434,
+      "name": "Bekkler's Lab",
+      "loads": [
+        {
+          "kind": "npc",
+          "id": 77,
+          "bodyOffset": 2459
+        },
+        {
+          "kind": "npc",
+          "id": 77,
+          "bodyOffset": 2523
+        },
+        {
+          "kind": "npc",
+          "id": 77,
+          "bodyOffset": 2587
+        }
+      ],
+      "originalPacketUnchanged": true,
+      "battleCommands": [],
+      "eventId": 71,
+      "currentPacketSha256": "6c3f098ae3982126f69f036f0d92ecd2e5e2db75d786117a590b698eaeed397b",
+      "unresolvedLoadOffsets": 0,
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 1209,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 113,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 113,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2111,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 163,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 163,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2357,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 56,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 56,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2391,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 56,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 56,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2425,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 56,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 56,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2459,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 77,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 77,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2523,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 77,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 77,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2587,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 77,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 77,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2651,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 100,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 100,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2662,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 59,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 59,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2673,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 43,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 43,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2782,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 43,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 43,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2840,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 43,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 43,
+          "currentSlotFlags": null
+        },
+        {
+          "bodyOffset": 2894,
+          "sourceOpcode": 130,
+          "sourceKind": "npc",
+          "sourceId": 153,
+          "sameOpcodeAtCurrentOffset": true,
+          "currentId": 153,
+          "currentSlotFlags": null
+        }
+      ],
+      "banks": [
+        {
+          "gfx": 46,
+          "decodedBytes": 256,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 196,
+          "decodedBytes": 448,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 51,
+          "decodedBytes": 128,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 81,
+          "decodedBytes": 3104,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 69,
+          "decodedBytes": 160,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 43,
+          "decodedBytes": 960,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 30,
+          "decodedBytes": 3072,
+          "streamPointer": 0,
+          "streamed": false
+        },
+        {
+          "gfx": 147,
+          "decodedBytes": 928,
+          "streamPointer": 0,
+          "streamed": false
+        }
+      ],
+      "legacyHeapUnionBytes": 9056,
+      "spareTo32768": 23712,
+      "unionWithout81": 5952,
+      "scope": "All-branch verified load union; excludes banks already explicitly streamed in5018. It is not a simultaneous-residency or runtime visibility claim."
+    }
+  ],
+  "limitations": [
+    "Current/source native bytes and authored load sites only; no encounter or NPC interaction has been executed for this audit.",
+    "No new name/cast or source rendering is approved by this audit. Original portraits below are choreography evidence.",
+    "If a future source exceeds3,104 decoded bytes, it must use explicit guarded streaming or fit honestly; no cap bypass is proposed."
+  ]
+}

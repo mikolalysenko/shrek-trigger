@@ -1,0 +1,4788 @@
+{
+  "activePath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateSha256": "7496a07c2ba7d62f05e5576c79ac977dc1ce21673e5ea71da2d9a0dbf98cecb5",
+  "placements": [
+    {
+      "key": "shell",
+      "graphicsOffset": 8192000,
+      "assemblyOffset": 8194256
+    },
+    {
+      "key": "head",
+      "graphicsOffset": 8194736,
+      "assemblyOffset": 8195168
+    }
+  ],
+  "palette208Unchanged": true,
+  "headersAiProgramsUnchanged": true,
+  "streamingUsed": false,
+  "status": "Original native programs exercised",
+  "setup": "Reversible isolated native enemy object; animation pointers, facing and mode fixture initialized once per case. Native CPU advances every subsequent tick; no frame, VRAM, OAM, program, AI or cartridge writes during observation.",
+  "cases": 104,
+  "ticks": 7136,
+  "maximumRequestDisplayDelay": 0,
+  "rows": [
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 0,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 10,
+          "index": 0
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 10,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 0,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 4
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 0,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 12
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 0,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 15,
+          "index": 20
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 0,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 24
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 0,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 28
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 0,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 32
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 1,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 10,
+          "index": 0
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 10,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 1,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 4
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 1,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 12
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 1,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 15,
+          "index": 20
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 1,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 24
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 1,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 28
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 1,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 32
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 2,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 10,
+          "index": 0
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 10,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 2,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 4
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 2,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 12
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 2,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 15,
+          "index": 20
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 2,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 24
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 2,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 28
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 2,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 32
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 3,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 10,
+          "index": 0
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 10,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 3,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 4
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 3,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 12
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 3,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 15,
+          "index": 20
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 3,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 24
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 3,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 28
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 111,
+      "facing": 3,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 32
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 0,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 10,
+          "index": 0
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 10,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 0,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 4
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 0,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 12
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 0,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 15,
+          "index": 20
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 0,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 24
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 0,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 28
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 0,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 32
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 1,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 10,
+          "index": 0
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 10,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 1,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 4
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 1,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 12
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 1,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 15,
+          "index": 20
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 1,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 24
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 1,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 28
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 1,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 32
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 2,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 10,
+          "index": 0
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 10,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 2,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 4
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 2,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 12
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 2,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 15,
+          "index": 20
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 2,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 24
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 2,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 28
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 2,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 32
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 3,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 10,
+          "index": 0
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 10,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 3,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 4
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 3,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 12
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 3,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 15,
+          "index": 20
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 3,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 24
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 3,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 28
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "shell",
+      "enemy": 215,
+      "facing": 3,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 32
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 255,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": true
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 0,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 0
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 0,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 4
+        },
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 5
+        }
+      ],
+      "period": 62,
+      "ticks": 124,
+      "exactTicks": 124,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 31,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        },
+        {
+          "tick": 62,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 93,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 0,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 12
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 0,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 20
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 0,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 24
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 25
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 0,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 28
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 29
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 1,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 0
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 1,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 4
+        },
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 5
+        }
+      ],
+      "period": 62,
+      "ticks": 124,
+      "exactTicks": 124,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 31,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        },
+        {
+          "tick": 62,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 93,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 1,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 12
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 1,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 20
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 1,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 24
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 25
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 1,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 28
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 29
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 2,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 0
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 2,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 4
+        },
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 5
+        }
+      ],
+      "period": 62,
+      "ticks": 124,
+      "exactTicks": 124,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 31,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        },
+        {
+          "tick": 62,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 93,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 2,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 12
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 2,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 20
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 2,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 24
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 25
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 2,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 28
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 29
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 3,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 0
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 3,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 4
+        },
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 5
+        }
+      ],
+      "period": 62,
+      "ticks": 124,
+      "exactTicks": 124,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 31,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        },
+        {
+          "tick": 62,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 93,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 3,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 12
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 3,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 20
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 3,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 24
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 25
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 110,
+      "facing": 3,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 28
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 29
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 0,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 0
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 0,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 4
+        },
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 5
+        }
+      ],
+      "period": 62,
+      "ticks": 124,
+      "exactTicks": 124,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 31,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        },
+        {
+          "tick": 62,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 93,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 0,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 12
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 0,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 20
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 0,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 24
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 25
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 0,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 28
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 29
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 1,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 0
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 1,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 4
+        },
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 5
+        }
+      ],
+      "period": 62,
+      "ticks": 124,
+      "exactTicks": 124,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 31,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        },
+        {
+          "tick": 62,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 93,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 1,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 12
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 1,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 20
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 1,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 24
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 25
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 1,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 28
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 29
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 2,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 0
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 2,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 4
+        },
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 5
+        }
+      ],
+      "period": 62,
+      "ticks": 124,
+      "exactTicks": 124,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 31,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        },
+        {
+          "tick": 62,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 93,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 2,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 12
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 2,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 20
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 2,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 24
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 25
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 2,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 28
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 29
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 3,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 15,
+          "index": 0
+        }
+      ],
+      "period": 15,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 15,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 3,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 4
+        },
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 5
+        }
+      ],
+      "period": 62,
+      "ticks": 124,
+      "exactTicks": 124,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 31,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        },
+        {
+          "tick": 62,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        },
+        {
+          "tick": 93,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 1
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 3,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 31,
+          "index": 12
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 3,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 31,
+          "index": 20
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 31,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 3,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 24
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 25
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    },
+    {
+      "key": "head",
+      "enemy": 216,
+      "facing": 3,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 5,
+          "index": 28
+        },
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 29
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "exactTicks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 5,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 10,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 15,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 20,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 25,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 30,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 35,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 40,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 45,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 50,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        },
+        {
+          "tick": 55,
+          "phase": 1,
+          "requested": 1,
+          "displayed": 1,
+          "timer": 5,
+          "index": 1
+        },
+        {
+          "tick": 60,
+          "phase": 0,
+          "requested": 0,
+          "displayed": 0,
+          "timer": 5,
+          "index": 0
+        }
+      ],
+      "fixedBody": false
+    }
+  ],
+  "shellBlank": "Original blank assembly1 preserved and round-tripped. Size3 field rendering remains fixed at assembly0 for all inspected original AA modes, including lists whose table byte is1; no claim that blank1 is an ordinary field upload."
+}

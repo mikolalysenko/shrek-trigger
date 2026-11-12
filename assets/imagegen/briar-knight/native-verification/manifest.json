@@ -1,0 +1,117 @@
+{
+  "status": "Private saved-build compressed solo overlay passed; full scenes remain unproven and active family-size guard is unchanged",
+  "activeRomPath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateRomSha256": "379a3a1f71ec918c636467cc1f788552b2d53d0a2ea2503ac6e96031ae0fc1b1",
+  "nativeFrameUploads": 344,
+  "variants": 4,
+  "framesPerVariant": 86,
+  "blankFrames": [
+    39,
+    40,
+    41
+  ],
+  "allOpaqueNativePixelsVerified": true,
+  "opaquePixelChecks": 178584,
+  "colorsObserved": 12,
+  "sourceType": "image-generation",
+  "sourceProvenance": [
+    {
+      "file": "assets/imagegen/briar-knight/source-base-v1.png",
+      "sha256": "5f5fa5a769892bae9788c07870dbe0afaacdf5d277a436eb8ea3889390f59e31",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/briar-knight/source-combat-v2.png",
+      "sha256": "b6ededbe3168ae698b0962b92e93f15ba8dc8aea4c92f8b80edea9c797fbf20c",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/briar-knight/source-reactions-v1.png",
+      "sha256": "7af277e8d93371cc66f7b3915eb5342c0a5d90bae9006dc35d2dde2959bd0ec1",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/briar-knight/source-aerial-v1.png",
+      "sha256": "b79b01737af36f1a7b2a74b153d0354a4e8a2cd2d8e4291fd03e651ec9446a69",
+      "sourceType": "image-generation"
+    }
+  ],
+  "rawGraphicsBytes": 25856,
+  "compressedBytes": 16905,
+  "assemblyBytes": 6880,
+  "originalRawBytes": 12384,
+  "strictFamilyGrowthGuard": "Retained. No ordinary integration until large-bank streaming or actual complete-scene residency is proved.",
+  "placement": {
+    "packetOffset": 8192000,
+    "assemblyOffset": 8208912,
+    "ownedUnusedExtendedMirror": true
+  },
+  "sceneUnionBudget": [
+    {
+      "location": 63,
+      "candidateBytes": 36480,
+      "spareBytes": -3712,
+      "exceedsBudget": true
+    },
+    {
+      "location": 92,
+      "candidateBytes": 37664,
+      "spareBytes": -4896,
+      "exceedsBudget": true
+    },
+    {
+      "location": 169,
+      "candidateBytes": 38688,
+      "spareBytes": -5920,
+      "exceedsBudget": true
+    },
+    {
+      "location": 180,
+      "candidateBytes": 34272,
+      "spareBytes": -1504,
+      "exceedsBudget": true
+    },
+    {
+      "location": 184,
+      "candidateBytes": 30592,
+      "spareBytes": 2176,
+      "exceedsBudget": false
+    }
+  ],
+  "isolatedPreviewHeaps": [
+    {
+      "actor": "briar-unarmed",
+      "heapEnd": 59584,
+      "heapBytes": 26816
+    },
+    {
+      "actor": "briar-knight",
+      "heapEnd": 59584,
+      "heapBytes": 26816
+    },
+    {
+      "actor": "briar-trio",
+      "heapEnd": 59584,
+      "heapBytes": 26816
+    },
+    {
+      "actor": "briar-master",
+      "heapEnd": 59584,
+      "heapBytes": 26816
+    }
+  ],
+  "nativeFrameOffsets": {
+    "66": [
+      0,
+      2
+    ],
+    "84": [
+      0,
+      14
+    ]
+  },
+  "settledCaptureMinimumFrames": 30,
+  "extraVramBytes": 0,
+  "wholeSceneOrBattleProof": false
+}

@@ -1,0 +1,35 @@
+{
+  "status": "Source-native audit before replacement generation; visual descriptions are separate from executed gameplay proof",
+  "dalton": {
+    "slots": 28,
+    "blankSlots": [],
+    "roles": [
+      {"frames": [0,1,2], "visual": "Rear-facing passing pose, contact A, contact B", "native": "Facing 0 idle is 1; mode 11 is 0,1,0,2. Repeated passing pose0 sits one pixel higher than1/2."},
+      {"frames": [3,4,5], "visual": "Front-facing passing pose, contact A, contact B", "native": "Facing 1 idle is 4; mode 11 is 3,4,3,5. Repeated passing pose3 sits one pixel higher than4/5."},
+      {"frames": [6,7,8], "visual": "Left profile passing pose and two opposed contacts", "native": "Facing 2 idle is 7; mode 11 is 6,7,6,8. Repeated passing pose6 sits one pixel higher than7/8."},
+      {"frames": [9,10,11], "visual": "Right profile passing pose and two opposed contacts", "native": "Facing 3 idle is 10; mode 11 is 9,10,9,11. Repeated passing pose9 sits one pixel higher than10/11."},
+      {"frames": [12,13,14], "visual": "Cloak closed, body/cape turns, arms open", "native": "Mode 7: 12/15 ticks, 13/5, 14/30; preserve the action progression"},
+      {"frames": [15,16,27], "visual": "Three airborne/front cloak silhouettes, all shifted upward by the native cells", "native": "Modes 1 and 3 use 15,16,27 at 5 or 15 ticks per slot; do not flatten them to idle"},
+      {"frames": [17,18], "visual": "Two small front torso/hand beats", "native": "Mode 6: 17,18 at 10 ticks each"},
+      {"frames": [19,20], "visual": "Front reaction with alternating small white side accents", "native": "Mode 8: 19,20 at 5 ticks each; accents are source pixels"},
+      {"frames": [21,22], "visual": "Two front facial/upper-body speaking or laughing beats", "native": "Mode 9: 21,22 at 10 ticks each; dialogue semantics require encounter review"},
+      {"frames": [23,24,25], "visual": "Side cloak wrap, rear turn, open upward/outward gesture", "native": "Mode 10: 23/10 ticks, 24/5, 25/30"},
+      {"frames": [26], "visual": "Compact front crouch/kneel reaction", "native": "Mode 5 uses 26 for 31 ticks; the apparent mode 12 entry has zero duration"}
+    ],
+    "timing": "52 facing/mode entries, 40 nonempty. Gait duration is 10,15,10,15 ticks. Original source contains no blank image.",
+    "geometry": "Four 16x16 cells. Keep each signed XY record, including the 16-pixel airborne displacement and compact/reaction overlap. The replacement's short stature must not alter event movement or collision."
+  },
+  "summonedGolems": {
+    "slots": 8,
+    "blankSlots": [],
+    "roles": [
+      {"frames": [0,1,2], "visual": "Arms spread; three vertical hover/body positions", "native": "Modes 1 and 3: 0,1,2,1 at 15,10,15,10 ticks"},
+      {"frames": [3], "visual": "Arms spread with a crown of small white reaction particles", "native": "Mode 5: 3 for 15 ticks"},
+      {"frames": [4,5], "visual": "Contracted arms/body, two jaw/body beats", "native": "Mode 6: 4,5 at 10 ticks each"},
+      {"frames": [6], "visual": "Front torso with both forearms raised; native rest", "native": "Mode 0: 6 for 5 ticks; mode 7 alternates 6,5 at 15 ticks"},
+      {"frames": [7], "visual": "Forearms partway toward the extended pose", "native": "Mode 8: 6,7,2 at 10,10,47 ticks"}
+    ],
+    "timing": "36 facing/mode entries, 28 nonempty. All four directions use identical source frame lists: no authored back/profile view is missing.",
+    "geometry": "Twelve 16x16 cells in three groups, with wide separated hands, narrow crown/top cell and a floating anchor. Native XY varies by slot and overlaps. Retain both palette variants and the two simultaneous twins."
+  }
+}

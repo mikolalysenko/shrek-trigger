@@ -1,0 +1,142 @@
+{
+  "status": "Approved generated model; frozen inactive packet",
+  "activation": false,
+  "generationStarted": true,
+  "baselineSha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+  "scope": "Shared gfx 86 family only; no named major-character casting, stat, AI, event, palette or animation change.",
+  "model": {
+    "imp": "A small point-eared swamp trickster with a knobbly pointed head, prominent nose, toothy grin, short ragged waistcoat and simple sash. Native blue/green/stone/mud color variants remain the same identity. Bare hands and expressive little feet; no added weapon or major character likeness.",
+    "roly": "An enchanted round swamp creature with two long leaf-shaped ears, a pale small face/belly and tiny paws. Its ears and limbs tuck into a compact rolling seed-like ball, while the face visibly changes orientation through the authored roll phases. Keep the actual creature anatomy, not a generic sphere or mechanical wheel.",
+    "rider": "The exact same generated Imp and Roly components follow the original native component translations and overlap order. The unique turned slot15 uses one additional generated Imp source; slot28 retains the original upper-body crop."
+  },
+  "nativeGroups": [
+    {
+      "key": "imp",
+      "asm": 43,
+      "frames": 28,
+      "cells": 4,
+      "fullSize": 0,
+      "owners": [
+        "NPC 78",
+        "enemy 12",
+        "enemy 13",
+        "enemy 14",
+        "enemy 15"
+      ],
+      "animations": [
+        33
+      ],
+      "assemblyBytes": 1120
+    },
+    {
+      "key": "roly",
+      "asm": 63,
+      "frames": 26,
+      "cells": 4,
+      "fullSize": 0,
+      "owners": [
+        "enemy 16",
+        "enemy 17",
+        "enemy 18",
+        "enemy 242"
+      ],
+      "animations": [
+        44,
+        100
+      ],
+      "assemblyBytes": 1040
+    },
+    {
+      "key": "rider",
+      "asm": 65,
+      "frames": 29,
+      "cells": 8,
+      "fullSize": 1,
+      "owners": [
+        "enemy 19"
+      ],
+      "animations": [
+        83
+      ],
+      "assemblyBytes": 2320
+    }
+  ],
+  "preservation": {
+    "palettes": [
+      63,
+      64,
+      65,
+      67,
+      68,
+      167,
+      231
+    ],
+    "paletteWrites": false,
+    "externalPaletteOwners": {
+      "67": [
+        "NPC 152",
+        "NPC 226",
+        "NPC 230"
+      ],
+      "167": [
+        "enemy 27, gfx 85"
+      ]
+    },
+    "externalAnimationOwner": "AA 44 is shared with accepted Scrap Rat NPC 164; retain every pointer, frame and duration byte.",
+    "sourceEffects": "Audit and preserve native detached shadow/star/motion effects explicitly. Prefer unchanged tiny original raster components where separable; generate body/action anatomy through imagegen.",
+    "geometry": "Retain original native body/contact anchors, all authored mounted separation heights and four/eight-cell limits; record any source-width adaptation for review. No silent slot collapse."
+  },
+  "resources": {
+    "originalAndCurrentDecodedBytes": 8704,
+    "originalAndCurrentCompressedBytes": 6152,
+    "assemblyBytes": 4480,
+    "originalAndCurrentCompressedPlusAssemblyBytes": 10632,
+    "plan": "Use legitimate cross-group source/tile reuse to approach the original bank size. If the quality candidate exceeds 8,704 decoded bytes, report the exact growth and request explicit gfx 86 streaming through the existing size 0/1 path; preserve default guards and the native 32 KiB raw-bank limit. Root owns allocation and activation."
+  },
+  "proofPlan": {
+    "nativeOwnerPoseUploads": 273,
+    "nativeDisplayedCells": 1208,
+    "timedNativeCases": 320,
+    "originalSceneLoadLocations": [
+      19,
+      31,
+      33,
+      34,
+      35,
+      36,
+      39,
+      47,
+      80,
+      108,
+      112,
+      113,
+      119,
+      176,
+      179,
+      238,
+      254,
+      266,
+      339,
+      387,
+      388,
+      390,
+      391,
+      392,
+      394,
+      446
+    ],
+    "targets": "One original mixed imp/mount/rider encounter in 112 or119, shared NPC78 field dialogue/animation, plus relevant late rolling-only actor initialization if feasible. Keep source-load occurrence distinct from an actual route claim."
+  },
+  "review": {
+    "originalSheets": [
+      "review/original-imp-1x.png",
+      "review/original-imp-4x.png",
+      "review/original-roly-1x.png",
+      "review/original-roly-4x.png",
+      "review/original-rider-1x.png",
+      "review/original-rider-4x.png"
+    ],
+    "layout": "Six columns, row-major; native slots0–27,0–25 and0–28 respectively.",
+    "next": "Static source/native art approved by root and lead. Freeze retains successful private native proofs; root owns independent cores, production placement and activation."
+  }
+}

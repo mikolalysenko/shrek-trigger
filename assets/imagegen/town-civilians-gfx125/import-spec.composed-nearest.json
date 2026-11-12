@@ -1,0 +1,87 @@
+{
+  "key": "duloc-town-resident",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/town-civilians-gfx125/draft-preview",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "313131",
+    "dedede",
+    "ffe7ad",
+    "ff9c6b",
+    "734221",
+    "dead31",
+    "bd5208",
+    "8494c6",
+    "6b4284",
+    "d6634a",
+    "a53129",
+    "73738c"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/town-civilians-gfx125/source-base-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 32,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "bottom": 51,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "8": {
+          "scale": 1.032258064516129
+        },
+        "11": {
+          "scale": 0.96875
+        },
+        "13": {
+          "scale": 0.967741935483871
+        },
+        "14": {
+          "scale": 1.1111111111111112
+        },
+        "15": {
+          "scale": 1.0384615384615385
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  },
+  "nativeComposition": {
+    "map": "assets/imagegen/town-civilians-gfx125/full-nearest/native-composition.json",
+    "overlay": "assets/imagegen/town-civilians-gfx125/original-sweat-raster.json"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "key": "onion-bread-plate",
+  "frames": 4,
+  "width": 32,
+  "height": 32,
+  "opaqueColors": 12,
+  "palette": [
+    "382b2d",
+    "71452e",
+    "b87744",
+    "e5ad67",
+    "fff0c9",
+    "2f5d58",
+    "5e9280",
+    "b6cbb1",
+    "fff7e5",
+    "8c364b",
+    "da7787",
+    "d9b05f"
+  ],
+  "samplingPalette": [
+    "382b2d",
+    "71452e",
+    "b87744",
+    "e5ad67",
+    "fff0c9",
+    "2f5d58",
+    "5e9280",
+    "b6cbb1",
+    "fff7e5",
+    "8c364b",
+    "da7787",
+    "d9b05f"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/bakery-feast/source-platter-v1.png",
+      "sha256": "b7e309aa88fb4db633470ce94fc7fce8d7314894c0cbc243789954b893b2a0f3",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "scale": 0.04693140794223827,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            124,
+            174,
+            584,
+            277
+          ],
+          "componentPixels": 124189
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            860,
+            235,
+            537,
+            232
+          ],
+          "componentPixels": 79848
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            149,
+            571,
+            542,
+            316
+          ],
+          "componentPixels": 126315
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            847,
+            630,
+            581,
+            263
+          ],
+          "componentPixels": 121652
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        3,
+        3
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "adapted",
+        "reason": "Four actual generated views fill eight native slots using the original repeated low/high/level roles and existing project eaten-state pair. Native anchors and timing stay in the family geometry."
+      }
+    }
+  }
+}

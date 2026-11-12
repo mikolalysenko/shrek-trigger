@@ -1,0 +1,197 @@
+{
+  "status": "Six source-derived native phases, zero procedural fallback. Original slots, animation189 and shared palette233 retained.",
+  "sourceType": "image-generation",
+  "nativeFrames": 6,
+  "generatedSourcePoses": 6,
+  "proceduralFrames": 0,
+  "blankFrames": [],
+  "nativeAnimation": {
+    "id": 189,
+    "facings": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sameProgramInAllFacings": true,
+    "idleSequence": [
+      0,
+      1,
+      2,
+      1,
+      0,
+      1,
+      2,
+      1
+    ],
+    "idleDurations": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "shortLoop": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "shortLoopTicks": 10,
+    "staticActionFrame": 0,
+    "note": "Original slots animate a repeated hover/pulse; there are no new broken, revival or attack frame states."
+  },
+  "sharedPalette": {
+    "id": 233,
+    "unchangedOwners": [
+      11,
+      206,
+      237,
+      239
+    ],
+    "unchangedColors": [
+      "211b22",
+      "593426",
+      "975535",
+      "ce8c55",
+      "751b30",
+      "cf3541",
+      "f3dfba",
+      "252735",
+      "4b5272",
+      "e3b65c",
+      "f5c783",
+      "fff5d2"
+    ],
+    "tysonOutsideScope": true
+  },
+  "families": [
+    {
+      "key": "sugar-ward",
+      "enemy": 237,
+      "graphics": 237,
+      "assembly": 223,
+      "animation": 189,
+      "size": 0,
+      "cells": 4,
+      "canvas": [
+        32,
+        32
+      ],
+      "rasterPose": "native",
+      "rasterFacing": 1,
+      "frames": [
+        {
+          "frame": 0,
+          "role": "resting hover",
+          "source": "source-ward-v1.png",
+          "sourceCell": 0,
+          "kind": "source",
+          "sourcePixelSha256": "2a14b253051c05c966dcc2e465fab8ec3e9d19ea502d85b5a09d0283ab2ae2c3",
+          "bounds": [
+            5,
+            1,
+            26,
+            29
+          ],
+          "notes": "Quieter inner glow, unchanged crystal body."
+        },
+        {
+          "frame": 1,
+          "role": "middle hover/pulse",
+          "source": "source-ward-v1.png",
+          "sourceCell": 1,
+          "kind": "source",
+          "sourcePixelSha256": "d0fafb6bccc0158b80b591da58579e6f0bbb6d3f6404f19b7ed04fb2dc8065bc",
+          "bounds": [
+            5,
+            1,
+            26,
+            29
+          ],
+          "notes": "Growing central light and changed bright facet."
+        },
+        {
+          "frame": 2,
+          "role": "peak hover/pulse",
+          "source": "source-ward-v1.png",
+          "sourceCell": 2,
+          "kind": "source",
+          "sourcePixelSha256": "c525c2a5f566b030a6edfaa3e51cd4814be665b4705268192f0142e14c791c36",
+          "bounds": [
+            5,
+            1,
+            27,
+            29
+          ],
+          "notes": "Bounded brightest vein and generated close glints; intact crystal."
+        }
+      ]
+    },
+    {
+      "key": "muffin-core",
+      "enemy": 239,
+      "graphics": 248,
+      "assembly": 254,
+      "animation": 189,
+      "size": 0,
+      "cells": 4,
+      "canvas": [
+        32,
+        32
+      ],
+      "rasterPose": "native",
+      "rasterFacing": 1,
+      "frames": [
+        {
+          "frame": 0,
+          "role": "resting hover",
+          "source": "source-core-v1.png",
+          "sourceCell": 0,
+          "kind": "source",
+          "sourcePixelSha256": "d19aa168fae50f351807c45d05093e66c88e2c48d0a96a2b1a84a520f4f9a2fe",
+          "bounds": [
+            1,
+            6,
+            30,
+            30
+          ],
+          "notes": "Relaxed crust and starter fissure."
+        },
+        {
+          "frame": 1,
+          "role": "middle hover/pulse",
+          "source": "source-core-v1.png",
+          "sourceCell": 1,
+          "kind": "source",
+          "sourcePixelSha256": "8889c0e708415f5c401a3cf09f20e23b94a38c3a7a92b6a8ffba64f598a7c9c5",
+          "bounds": [
+            1,
+            4,
+            31,
+            30
+          ],
+          "notes": "Raised crust and stretching wrapper."
+        },
+        {
+          "frame": 2,
+          "role": "peak hover/pulse",
+          "source": "source-core-v1.png",
+          "sourceCell": 2,
+          "kind": "source",
+          "sourcePixelSha256": "4e7e10bbd82b2cab099be38fdf390573638e31f296846898f9c49a6c53721e1b",
+          "bounds": [
+            0,
+            4,
+            31,
+            30
+          ],
+          "notes": "Fuller crust and brighter internal fissure; not a destruction pose."
+        }
+      ]
+    }
+  ]
+}

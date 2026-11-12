@@ -1,0 +1,165 @@
+{
+  "key": "master-glaze",
+  "sourceType": "image-generation",
+  "width": 32,
+  "height": 32,
+  "palette": [
+    "2c2630",
+    "634345",
+    "b77754",
+    "eab789",
+    "ffdfaf",
+    "533542",
+    "914154",
+    "c65c59",
+    "566466",
+    "9ca8a3",
+    "f4ead0",
+    "e0b65d"
+  ],
+  "directory": "assets/imagegen/master-glaze/compare-remap-area",
+  "sheets": [
+    {
+      "file": "assets/imagegen/master-glaze/source-base-v1.png",
+      "columns": 3,
+      "rows": 4,
+      "nativeHeight": 31,
+      "scaleCells": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    },
+    {
+      "file": "assets/imagegen/master-glaze/source-actions-v1.png",
+      "columns": 4,
+      "rows": 2,
+      "nativeHeight": 31,
+      "scaleCells": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Each of the twenty original native slots consumes its own corresponding source-generated full-body pose; original IDs, facing sequence, four-cell footprint and authored X/Y offsets are preserved. Visual contact/prop audit pending."
+      }
+    }
+  },
+  "notes": {
+    "status": "Inactive draft, visual audit in progress",
+    "nativeFrames": 20,
+    "blankFrames": [],
+    "owners": [
+      154
+    ],
+    "graphics": 141,
+    "assembly": 135,
+    "animation": 101,
+    "nativeCells": 4,
+    "frameOffsets": {
+      "1": [
+        0,
+        1
+      ],
+      "4": [
+        0,
+        1
+      ],
+      "7": [
+        0,
+        1
+      ],
+      "10": [
+        0,
+        1
+      ],
+      "12": [
+        0,
+        1
+      ],
+      "13": [
+        1,
+        1
+      ],
+      "14": [
+        0,
+        2
+      ],
+      "15": [
+        0,
+        5
+      ],
+      "16": [
+        0,
+        4
+      ],
+      "17": [
+        0,
+        5
+      ]
+    },
+    "palette": "Existing twelve-color Master Glaze hardware palette; no palette changes.",
+    "nativeOrder": "Four three-phase directional gaits followed by the eight fixed gesture/action slots. The full original animation program is retained in native-audit.json."
+  },
+  "samplingPalette": [
+    "211b22",
+    "63412f",
+    "ad603a",
+    "df925f",
+    "faba84",
+    "3c2230",
+    "723048",
+    "a2485c",
+    "807761",
+    "b5a88a",
+    "ead6b2",
+    "c29128"
+  ]
+}

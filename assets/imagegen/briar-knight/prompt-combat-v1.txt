@@ -1,0 +1,25 @@
+Use case: stylized-concept
+Asset type: production pixel sprite action sheet for a Chrono Trigger-style SNES RPG.
+Input image: the existing Briar Knight sheet is a strict character, costume, palette and pixel-style reference. Make NEW action poses of that exact knight, not a redesign.
+Primary request: exactly sixteen fully separated full-body sprites in a 4-column by 4-row grid on a genuinely transparent background. No labels, text, grid, shadows or scenery.
+Identity invariants: closed slate-steel helmet, dark narrow visor with two tiny warm ivory eye glints, two-leaf green crest, articulated steel armor, small thorny vines around shoulder plates and shins, berry-purple split tabard, gold rose chest clasp and gold belt buckle, short muted green cape. Same compact adult proportions, head size, armor and costume as the reference. Sword is the same straight silver longsword with small gold crossguard and berry grip. No shield, horns or exposed face.
+Style: crisp premium 16-bit pixel art, expressive readable silhouettes and deliberate armor highlight clusters. Restrained palette: #202a2f #3c4c50 #70858a #adbec1 #e5eddb #28493c #50734a #91ad63 #522e3d #a64e65 #c2994d #f5dfa2. Dark outline. No glossy 3D, smooth painting or lighting background.
+Composition: same slightly elevated RPG battle camera and exact body scale in all cells. Wide transparent gutters. Keep the full sword and every foot/hand inside each cell. The body is intended to stand about 38 native pixels tall in a 64×80 native frame; crouches shorten naturally without changing head/body scale. Dynamic actions must retain the compact silhouette of the source knight.
+Pose order, left to right then top to bottom:
+0 FRONT-LEFT sword windup: knees slightly bent, both gauntlets draw the sword back at waist level, blade diagonally behind the body.
+1 LEFT facing sword slash A: low lunging step, arms extended to the LEFT, silver blade sweeps almost horizontally to the left, clearly visible.
+2 LEFT facing sword follow-through: torso twists, both arms extended left, blade low and forward, bent front knee.
+3 LEFT facing running sword charge: one leg stretched behind, other stepping, sword drawn back beside the body ready to attack.
+4 LEFT facing sword slash B: different phase of the same horizontal slash, body further rotated and arms more extended, straight blade clear.
+5 LEFT facing sword slash C: recovery from the sweep, torso leaning forward and sword low to the left; a visibly distinct motion phase.
+6 FRONT-LEFT low sword crouch windup: bent deep at both knees, blade held back beside the hip, poised to spring.
+7 LEFT facing UNARMED crouch A: one knee deeply bent, empty front gauntlet extended low and other gauntlet drawn back.
+8 LEFT facing UNARMED crouch B: same move next phase, shoulders lower and front empty fist farther forward.
+9 LEFT facing UNARMED rapid punch A: leaning left, front empty gauntlet punching straight left; two small adjacent steel fist afterimages trace the arm at chest height. No sword or energy.
+10 LEFT facing UNARMED rapid punch B: next distinct punching phase, empty gauntlet fully extended and torso turned more left; two small nearby steel fist afterimages. No sword.
+11 LEFT facing UNARMED punch follow-through: empty gauntlet extended left, rear leg braced and torso following the strike. No afterimage or weapon.
+12 FRONT-LEFT UNARMED punch windup: empty gauntlet pulled back at the hip, other hand forward and knees bent. No sword.
+13 FRONT downward sword plunge: a short airborne drop with BOTH HANDS above the belly gripping the hilt, sword blade pointing straight DOWN between the bent legs, tip below the boots. Visibly armed; not a fallen body. Full blade visible.
+14 FRONT overhead rising sword strike: both gauntlets lifted above the helmet, narrow sword nearly vertical straight UP, boots braced. The blade and hands extend high above the head. Fit the entire tall blade inside the cell.
+15 FRONT relaxed UNARMED standing pose matching the very first sprite in the reference, for a body-scale anchor.
+Constraints: cells 0–6 and 13–14 visibly hold the silver longsword. Cells 7–12 and 15 are entirely unarmed. All sixteen are the same character. No giant detached blade, slash beam, spell effects, shields, smoke, ground shadows or touching neighboring sprites. Transparent background including between all limbs.

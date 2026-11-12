@@ -1,0 +1,146 @@
+{
+  "activeRomPath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateRomSha256": "bc5f67801d9d3d906ff24790a073003ece82b050f2048310eb131c70b46654a1",
+  "sourceOnlyInactive": true,
+  "unusedExpandedMirrorProved": true,
+  "originalHeadersProgramsAiUnchanged": true,
+  "sharedPaletteUnchanged": true,
+  "protectedResources": [
+    {
+      "label": "All twelve shared palette233 colors",
+      "bytes": 24,
+      "sha256": "8b361c8362b6ac7d880fb1c46588c9e1a4feb4ae10c7a94124926fcdcbe96544",
+      "owners": [
+        11,
+        206,
+        237,
+        239
+      ]
+    },
+    {
+      "label": "Unchanged shared owner11",
+      "gfx": 238,
+      "asm": 224,
+      "rawGraphicsBytes": 5024,
+      "graphicsSha256": "9f477f03c90cffa706355f09f0199a531896df50fd9960347eaa2b660d9d581e",
+      "assemblyBytes": 960,
+      "assemblySha256": "0d7e1e11ec1660e069249ea881b88ff36eefeaad037b6d41a98fcb034e0db51b",
+      "framesChecked": 8
+    },
+    {
+      "label": "Unchanged shared owner206",
+      "gfx": 214,
+      "asm": 208,
+      "rawGraphicsBytes": 14976,
+      "graphicsSha256": "5939cec5d3e567fee2a505eeff3af084b2f99c9b13b1b2afe2d54c161c090ec6",
+      "assemblyBytes": 5400,
+      "assemblySha256": "6479a86e42b70c6004888282c5181dec06836c92296498602d74e6d86efae115",
+      "framesChecked": 45
+    }
+  ],
+  "status": "All six frames upload and display their exact source-derived pixels through the original four-cell native path.",
+  "nativeUploads": 6,
+  "opaquePixelChecks": 2690,
+  "frameChecks": [
+    {
+      "key": "sugar-ward",
+      "enemy": 237,
+      "frame": 0,
+      "exactNativeUpload": true,
+      "exactOpaquePixels": 346,
+      "cgramStarts": [
+        145
+      ],
+      "heapBytes": 2080,
+      "originalCellXY": true
+    },
+    {
+      "key": "sugar-ward",
+      "enemy": 237,
+      "frame": 1,
+      "exactNativeUpload": true,
+      "exactOpaquePixels": 347,
+      "cgramStarts": [
+        145
+      ],
+      "heapBytes": 2080,
+      "originalCellXY": true
+    },
+    {
+      "key": "sugar-ward",
+      "enemy": 237,
+      "frame": 2,
+      "exactNativeUpload": true,
+      "exactOpaquePixels": 367,
+      "cgramStarts": [
+        145
+      ],
+      "heapBytes": 2080,
+      "originalCellXY": true
+    },
+    {
+      "key": "muffin-core",
+      "enemy": 239,
+      "frame": 0,
+      "exactNativeUpload": true,
+      "exactOpaquePixels": 501,
+      "cgramStarts": [
+        145
+      ],
+      "heapBytes": 2336,
+      "originalCellXY": true
+    },
+    {
+      "key": "muffin-core",
+      "enemy": 239,
+      "frame": 1,
+      "exactNativeUpload": true,
+      "exactOpaquePixels": 555,
+      "cgramStarts": [
+        145
+      ],
+      "heapBytes": 2336,
+      "originalCellXY": true
+    },
+    {
+      "key": "muffin-core",
+      "enemy": 239,
+      "frame": 2,
+      "exactNativeUpload": true,
+      "exactOpaquePixels": 574,
+      "cgramStarts": [
+        145
+      ],
+      "heapBytes": 2336,
+      "originalCellXY": true
+    }
+  ],
+  "placements": [
+    {
+      "label": "Sugar Ward compressed graphics",
+      "offset": 8192000,
+      "bytes": 751,
+      "sha256": "be98203b57eb1690c3dfed7875aaf1ecb931f693a03ee5d98f1cb11560e07f65"
+    },
+    {
+      "label": "Sugar Ward assembly",
+      "offset": 8192752,
+      "bytes": 120,
+      "sha256": "29084a0e7ef94c1dc6e82e2d68a24c0cfc7c47483aa07056bfc0b705ba705903"
+    },
+    {
+      "label": "Muffin Core compressed graphics",
+      "offset": 8192880,
+      "bytes": 787,
+      "sha256": "21b465d31f0be6f60bac3ff003a48820e4651239cf84df306b8fa3fc9e84146e"
+    },
+    {
+      "label": "Muffin Core assembly",
+      "offset": 8193680,
+      "bytes": 120,
+      "sha256": "e2b38ffe79ae1d59bf2c1b172d6634d68241b8a5ec020e2a3632fe24d7860d6c"
+    }
+  ],
+  "scope": "Solo native loader and palette proof. Full final-formation readability is recorded separately."
+}

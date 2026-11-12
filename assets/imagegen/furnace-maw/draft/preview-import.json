@@ -1,0 +1,256 @@
+{
+  "key": "furnace-maw",
+  "frames": 6,
+  "width": 64,
+  "height": 96,
+  "opaqueColors": 12,
+  "palette": [
+    "24272c",
+    "39434a",
+    "607477",
+    "99ada5",
+    "d3dfc4",
+    "553a32",
+    "926044",
+    "c4935b",
+    "81312c",
+    "d96032",
+    "ffd777",
+    "fff0c8"
+  ],
+  "samplingPalette": [
+    "24272c",
+    "39434a",
+    "607477",
+    "99ada5",
+    "d3dfc4",
+    "553a32",
+    "926044",
+    "c4935b",
+    "81312c",
+    "d96032",
+    "ffd777",
+    "fff0c8"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/furnace-maw/source-heads-v3.png",
+      "sha256": "6cac65943030529ded7063ba4d6287a3023b300fe30b5f15ef9100a79265da85",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1275,
+        1234
+      ],
+      "scale": 0.12355212355212356,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 79,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {
+        "0": {
+          "scale": 1,
+          "bottom": 79
+        },
+        "1": {
+          "scale": 1.0631020140105079,
+          "bottom": 87,
+          "scaleX": 0.97
+        },
+        "2": {
+          "scale": 0.924566947565543,
+          "bottom": 76,
+          "dx": -8
+        },
+        "3": {
+          "scale": 0.9758421985815603,
+          "bottom": 78,
+          "dx": -8,
+          "scaleX": 0.97
+        },
+        "4": {
+          "scale": 1.0746887966804979,
+          "bottom": 79
+        },
+        "5": {
+          "scale": 1.0724637681159421,
+          "bottom": 79,
+          "scaleX": 0.97
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            52,
+            49,
+            378,
+            518
+          ],
+          "componentPixels": 128246
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            450,
+            49,
+            376,
+            571
+          ],
+          "componentPixels": 127491
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            856,
+            54,
+            396,
+            534
+          ],
+          "componentPixels": 126007
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            54,
+            625,
+            398,
+            564
+          ],
+          "componentPixels": 126991
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            459,
+            662,
+            364,
+            482
+          ],
+          "componentPixels": 117382
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            840,
+            661,
+            369,
+            483
+          ],
+          "componentPixels": 118430
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/furnace-maw/source-heads-v4.png",
+      "sha256": "773435775b4410312b143cc037281e984fda9b455a00979812e0f5d9982ef89c",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1275,
+        1233
+      ],
+      "scale": 0.13168724279835392,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 79,
+        "scaleX": 0.97,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            49,
+            48,
+            383,
+            519
+          ],
+          "componentPixels": 130689
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            448,
+            48,
+            379,
+            574
+          ],
+          "componentPixels": 130432
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            856,
+            52,
+            400,
+            538
+          ],
+          "componentPixels": 129018
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            53,
+            624,
+            401,
+            565
+          ],
+          "componentPixels": 129647
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            456,
+            659,
+            369,
+            486
+          ],
+          "componentPixels": 119691
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            838,
+            659,
+            373,
+            486
+          ],
+          "componentPixels": 120651
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 3,
+          "flip": true
+        },
+        4,
+        5
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Six viewed generated head poses provide all eight native slots; right-facing bites are explicit whole-source mirrors. Original eye-and-small-mouth phases6/7 remain distinct from the wide-open bite."
+      }
+    }
+  }
+}

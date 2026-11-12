@@ -1,0 +1,2457 @@
+{
+  "status": "Inactive four-cell proposal; root review required for changed source-driven cell positions",
+  "baselineSha256": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+  "canvas": [
+    64,
+    48
+  ],
+  "origin": [
+    32,
+    40
+  ],
+  "nativeCells": 4,
+  "nativeSize": 0,
+  "originalAnchorUnchanged": true,
+  "extraVramBytes": 0,
+  "extraWramBytes": 0,
+  "changedFrames": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    21,
+    26,
+    27,
+    28,
+    29
+  ],
+  "unchangedFrames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    20,
+    22,
+    23,
+    24,
+    25,
+    30
+  ],
+  "overlapFrames": [
+    12,
+    13,
+    14,
+    15,
+    17
+  ],
+  "rule": "Try every original cell first. Where generated source pixels exceed it, translate only its original upper/lower pair of16×16 cells by the minimum feasible weighted row displacement. Preserve cell count/order, native actor origin, original opaque center/foot placements and full source pixels. Overlapping cells sample identical source colors; compile/redecode must prove all duplicates agree.",
+  "frames": [
+    {
+      "frame": 0,
+      "sourceSelection": {
+        "frame": 0,
+        "dx": 1
+      },
+      "sourcePixels": 466,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          8
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          36,
+          24
+        ],
+        [
+          20,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 1,
+      "sourceSelection": {
+        "frame": 1,
+        "dx": 1
+      },
+      "sourcePixels": 475,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          8
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          36,
+          24
+        ],
+        [
+          20,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 2,
+      "sourceSelection": {
+        "frame": 2,
+        "dx": 1
+      },
+      "sourcePixels": 345,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -8,
+          -16
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          24,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          8,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -8,
+          -16
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 3,
+      "sourceSelection": {
+        "frame": 2,
+        "flip": true
+      },
+      "sourcePixels": 345,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -8,
+          -16
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          24,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          8,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -8,
+          -16
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 4,
+      "sourceSelection": {
+        "frame": 8
+      },
+      "sourcePixels": 452,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          8
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          36,
+          24
+        ],
+        [
+          20,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 5,
+      "sourceSelection": {
+        "frame": 9,
+        "dx": 1
+      },
+      "sourcePixels": 425,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -31
+        ],
+        [
+          -12,
+          -31
+        ],
+        [
+          4,
+          -15
+        ],
+        [
+          -12,
+          -15
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          9
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          36,
+          25
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -31
+        ],
+        [
+          -12,
+          -31
+        ],
+        [
+          4,
+          -15
+        ],
+        [
+          -12,
+          -15
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 6,
+      "sourceSelection": {
+        "frame": 10
+      },
+      "sourcePixels": 445,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          8
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          36,
+          24
+        ],
+        [
+          20,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 7,
+      "sourceSelection": {
+        "frame": 11,
+        "dx": 1
+      },
+      "sourcePixels": 428,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -31
+        ],
+        [
+          -12,
+          -31
+        ],
+        [
+          4,
+          -15
+        ],
+        [
+          -12,
+          -15
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          9
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          36,
+          25
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -31
+        ],
+        [
+          -12,
+          -31
+        ],
+        [
+          4,
+          -15
+        ],
+        [
+          -12,
+          -15
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 8,
+      "sourceSelection": {
+        "frame": 3
+      },
+      "sourcePixels": 439,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          8
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          36,
+          24
+        ],
+        [
+          20,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 9,
+      "sourceSelection": {
+        "frame": 4,
+        "dy": 1
+      },
+      "sourcePixels": 444,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -31
+        ],
+        [
+          -12,
+          -31
+        ],
+        [
+          4,
+          -15
+        ],
+        [
+          -12,
+          -15
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          9
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          36,
+          25
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -31
+        ],
+        [
+          -12,
+          -31
+        ],
+        [
+          4,
+          -15
+        ],
+        [
+          -12,
+          -15
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 10,
+      "sourceSelection": {
+        "frame": 5,
+        "dx": 1
+      },
+      "sourcePixels": 450,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          8
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          36,
+          24
+        ],
+        [
+          20,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 11,
+      "sourceSelection": {
+        "frame": 6,
+        "dx": 1,
+        "dy": 1
+      },
+      "sourcePixels": 442,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -31
+        ],
+        [
+          -12,
+          -31
+        ],
+        [
+          4,
+          -15
+        ],
+        [
+          -12,
+          -15
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          9
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          36,
+          25
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -31
+        ],
+        [
+          -12,
+          -31
+        ],
+        [
+          4,
+          -15
+        ],
+        [
+          -12,
+          -15
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 12,
+      "sourceSelection": {
+        "frame": 7,
+        "dx": 1
+      },
+      "sourcePixels": 419,
+      "sourcePixelsOutsideOriginalCells": 37,
+      "originalSignedCellOrigins": [
+        [
+          -8,
+          -31
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -8,
+          -15
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          26,
+          9
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          27,
+          25
+        ],
+        [
+          11,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -6,
+          -31
+        ],
+        [
+          -22,
+          -32
+        ],
+        [
+          -5,
+          -15
+        ],
+        [
+          -21,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 1,
+      "overlappingOpaquePixels": 1,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 13,
+      "sourceSelection": {
+        "frame": 22
+      },
+      "sourcePixels": 378,
+      "sourcePixelsOutsideOriginalCells": 7,
+      "originalSignedCellOrigins": [
+        [
+          -8,
+          -31
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -8,
+          -15
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          24,
+          9
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          26,
+          25
+        ],
+        [
+          10,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -8,
+          -31
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -6,
+          -15
+        ],
+        [
+          -22,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 2,
+      "overlappingOpaquePixels": 1,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 14,
+      "sourceSelection": {
+        "frame": 7,
+        "flip": true
+      },
+      "sourcePixels": 419,
+      "sourcePixelsOutsideOriginalCells": 11,
+      "originalSignedCellOrigins": [
+        [
+          -8,
+          -31
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -8,
+          -15
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          25,
+          9
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          26,
+          25
+        ],
+        [
+          10,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -7,
+          -31
+        ],
+        [
+          -23,
+          -32
+        ],
+        [
+          -6,
+          -15
+        ],
+        [
+          -22,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 1,
+      "overlappingOpaquePixels": 1,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 15,
+      "sourceSelection": {
+        "frame": 22,
+        "flip": true,
+        "dx": 1
+      },
+      "sourcePixels": 378,
+      "sourcePixelsOutsideOriginalCells": 10,
+      "originalSignedCellOrigins": [
+        [
+          -8,
+          -31
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -8,
+          -15
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          25,
+          9
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          27,
+          25
+        ],
+        [
+          11,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -7,
+          -31
+        ],
+        [
+          -23,
+          -32
+        ],
+        [
+          -5,
+          -15
+        ],
+        [
+          -21,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 2,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 16,
+      "sourceSelection": {
+        "frame": 12,
+        "dx": 1
+      },
+      "sourcePixels": 370,
+      "sourcePixelsOutsideOriginalCells": 17,
+      "originalSignedCellOrigins": [
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -8,
+          -16
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          25,
+          8
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          26,
+          24
+        ],
+        [
+          10,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -7,
+          -32
+        ],
+        [
+          -23,
+          -32
+        ],
+        [
+          -6,
+          -16
+        ],
+        [
+          -22,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 17,
+      "sourceSelection": {
+        "frame": 13,
+        "dx": -3
+      },
+      "sourcePixels": 395,
+      "sourcePixelsOutsideOriginalCells": 7,
+      "originalSignedCellOrigins": [
+        [
+          -10,
+          -32
+        ],
+        [
+          -26,
+          -32
+        ],
+        [
+          -8,
+          -16
+        ],
+        [
+          -24,
+          -18
+        ]
+      ],
+      "cellOrigins": [
+        [
+          22,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          24,
+          26
+        ],
+        [
+          8,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -10,
+          -30
+        ],
+        [
+          -26,
+          -30
+        ],
+        [
+          -8,
+          -14
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 32,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 18,
+      "sourceSelection": {
+        "frame": 15,
+        "dx": -2,
+        "dy": -1
+      },
+      "sourcePixels": 406,
+      "sourcePixelsOutsideOriginalCells": 9,
+      "originalSignedCellOrigins": [
+        [
+          -9,
+          -32
+        ],
+        [
+          -25,
+          -32
+        ],
+        [
+          -10,
+          -16
+        ],
+        [
+          -26,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          24,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          7,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -9,
+          -16
+        ],
+        [
+          -25,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 19,
+      "sourceSelection": {
+        "frame": 16,
+        "dx": -2,
+        "dy": -1
+      },
+      "sourcePixels": 384,
+      "sourcePixelsOutsideOriginalCells": 12,
+      "originalSignedCellOrigins": [
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -10,
+          -16
+        ],
+        [
+          -26,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          24,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          8,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -8,
+          -16
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 20,
+      "sourceSelection": {
+        "frame": 15,
+        "flip": true,
+        "dx": 3,
+        "dy": -1
+      },
+      "sourcePixels": 406,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          9,
+          -32
+        ],
+        [
+          -7,
+          -32
+        ],
+        [
+          10,
+          -16
+        ],
+        [
+          -6,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          41,
+          8
+        ],
+        [
+          25,
+          8
+        ],
+        [
+          42,
+          24
+        ],
+        [
+          26,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          9,
+          -32
+        ],
+        [
+          -7,
+          -32
+        ],
+        [
+          10,
+          -16
+        ],
+        [
+          -6,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 21,
+      "sourceSelection": {
+        "frame": 16,
+        "flip": true,
+        "dx": 3,
+        "dy": -1
+      },
+      "sourcePixels": 384,
+      "sourcePixelsOutsideOriginalCells": 4,
+      "originalSignedCellOrigins": [
+        [
+          8,
+          -32
+        ],
+        [
+          -8,
+          -32
+        ],
+        [
+          10,
+          -16
+        ],
+        [
+          -6,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          40,
+          8
+        ],
+        [
+          24,
+          8
+        ],
+        [
+          41,
+          24
+        ],
+        [
+          25,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          8,
+          -32
+        ],
+        [
+          -8,
+          -32
+        ],
+        [
+          9,
+          -16
+        ],
+        [
+          -7,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 22,
+      "sourceSelection": {
+        "frame": 17,
+        "dx": -2
+      },
+      "sourcePixels": 398,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          -1,
+          -32
+        ],
+        [
+          -17,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          31,
+          8
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          32,
+          24
+        ],
+        [
+          16,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -1,
+          -32
+        ],
+        [
+          -17,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 23,
+      "sourceSelection": {
+        "frame": 18,
+        "dx": -2
+      },
+      "sourcePixels": 437,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          32,
+          8
+        ],
+        [
+          16,
+          8
+        ],
+        [
+          32,
+          24
+        ],
+        [
+          16,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 24,
+      "sourceSelection": {
+        "frame": 17,
+        "flip": true,
+        "dx": 3
+      },
+      "sourcePixels": 398,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          1,
+          -32
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          33,
+          8
+        ],
+        [
+          17,
+          8
+        ],
+        [
+          32,
+          24
+        ],
+        [
+          16,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          1,
+          -32
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 25,
+      "sourceSelection": {
+        "frame": 18,
+        "flip": true,
+        "dx": 3
+      },
+      "sourcePixels": 437,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          32,
+          8
+        ],
+        [
+          16,
+          8
+        ],
+        [
+          32,
+          24
+        ],
+        [
+          16,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 26,
+      "sourceSelection": {
+        "frame": 14,
+        "dx": -1,
+        "dy": -1
+      },
+      "sourcePixels": 353,
+      "sourcePixelsOutsideOriginalCells": 15,
+      "originalSignedCellOrigins": [
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -10,
+          -16
+        ],
+        [
+          -26,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          24,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          8,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -8,
+          -16
+        ],
+        [
+          -24,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 27,
+      "sourceSelection": {
+        "frame": 14,
+        "flip": true,
+        "dx": 1,
+        "dy": -1
+      },
+      "sourcePixels": 353,
+      "sourcePixelsOutsideOriginalCells": 2,
+      "originalSignedCellOrigins": [
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -6,
+          -16
+        ],
+        [
+          -22,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          24,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          27,
+          24
+        ],
+        [
+          11,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -5,
+          -16
+        ],
+        [
+          -21,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 28,
+      "sourceSelection": {
+        "frame": 19,
+        "dy": 1
+      },
+      "sourcePixels": 440,
+      "sourcePixelsOutsideOriginalCells": 3,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -30
+        ],
+        [
+          -12,
+          -30
+        ],
+        [
+          4,
+          -14
+        ],
+        [
+          -12,
+          -14
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          10
+        ],
+        [
+          20,
+          10
+        ],
+        [
+          35,
+          26
+        ],
+        [
+          19,
+          26
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -30
+        ],
+        [
+          -12,
+          -30
+        ],
+        [
+          3,
+          -14
+        ],
+        [
+          -13,
+          -14
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 29,
+      "sourceSelection": {
+        "frame": 20
+      },
+      "sourcePixels": 457,
+      "sourcePixelsOutsideOriginalCells": 2,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          8
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          35,
+          24
+        ],
+        [
+          19,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          3,
+          -16
+        ],
+        [
+          -13,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "originalXYUnchanged": false,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    },
+    {
+      "frame": 30,
+      "sourceSelection": {
+        "frame": 21,
+        "dx": 1
+      },
+      "sourcePixels": 492,
+      "sourcePixelsOutsideOriginalCells": 0,
+      "originalSignedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "cellOrigins": [
+        [
+          36,
+          8
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          36,
+          24
+        ],
+        [
+          20,
+          24
+        ]
+      ],
+      "signedCellOrigins": [
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ]
+      ],
+      "rowTranslations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "originalXYUnchanged": true,
+      "overlappingCanvasPixels": 0,
+      "overlappingOpaquePixels": 0,
+      "allSourcePixelsCovered": true
+    }
+  ]
+}

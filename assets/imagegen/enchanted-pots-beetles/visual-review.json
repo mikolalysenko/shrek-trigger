@@ -1,0 +1,34 @@
+{
+  "status": "Approved frozen candidate",
+  "date": "2026-11-01",
+  "baseModels": {
+    "reviewer": "/root/sprite_art_pass",
+    "scope": "All three pot constructions and beetle gait silhouettes"
+  },
+  "completeStatic": {
+    "reviewer": "/root/sprite_art_pass",
+    "scope": "All nine palette variants and all53 native pose layouts"
+  },
+  "nativeSize": {
+    "reviewer": "/root",
+    "scope": "contact-sheet-1x.png across all nine palettes"
+  },
+  "actualScenes": {
+    "reviewer": "/root/sprite_art_pass",
+    "scope": [
+      "forest-pots-original-battle.png",
+      "forest-beetles-original-battle.png",
+      "conveyor-original-battle.png"
+    ],
+    "note": "Original occlusion/party overlap remains reasonable; source models read against terrain."
+  },
+  "separateExecutionEvidence": [
+    "native-verification/manifest.json",
+    "motion-verification/manifest.json",
+    "scene-verification/manifest.json"
+  ],
+  "limitations": [
+    "Tiny pot/beetle faces reflect the native object footprint; silhouette/material/gesture carry identity.",
+    "Beetle21–28 are unreferenced source adaptations, preserved and clearly tagged; no observed original semantics are claimed."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "status": "Private compressed native proof; all three actual NPC owners passed",
+  "activeRomPath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateRomSha256": "10f681250945d48f139123e42d83fa04db59ddadb4d47a11cba9859bb6f58664",
+  "nativeFrameUploads": 49,
+  "opaquePixelChecks": 15755,
+  "exactPaletteRgb": true,
+  "actualNpcLoads": [
+    32,
+    64,
+    33
+  ],
+  "paletteChecks": [
+    {
+      "actor": "bakery-child",
+      "npc": 32,
+      "palette": 123,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 6
+    },
+    {
+      "actor": "north-bakery-child",
+      "npc": 64,
+      "palette": 124,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 6
+    },
+    {
+      "actor": "bakery-elder",
+      "npc": 33,
+      "palette": 123,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 11
+    }
+  ],
+  "paletteBytesUnchanged": true,
+  "originalSharedAssemblyTablesUnchanged": true,
+  "sharedPaletteOwnerSnapshot": "shared-village-owners.json",
+  "cartridgeUnchanged": true,
+  "isolatedPreviewHeaps": [
+    {
+      "actor": "bakery-child",
+      "heapEnd": 36096,
+      "heapBytes": 3328
+    },
+    {
+      "actor": "north-bakery-child",
+      "heapEnd": 36096,
+      "heapBytes": 3328
+    },
+    {
+      "actor": "bakery-elder",
+      "heapEnd": 39488,
+      "heapBytes": 6720
+    }
+  ],
+  "candidates": [
+    {
+      "key": "child",
+      "rawGraphicsBytes": 2368,
+      "compressedBytes": 1610,
+      "assemblyBytes": 600,
+      "originalRawBytes": 1312,
+      "blankFrames": [
+        14
+      ],
+      "headFragmentFrames": [],
+      "sourceProvenance": [
+        {
+          "file": "assets/imagegen/bakery-children-elder/source-child-base-v1.png",
+          "sha256": "646f3af8b30b60260e9a851414dd2c930ba474bff892efe40a8ed9412d23549e",
+          "sourceType": "image-generation"
+        }
+      ]
+    },
+    {
+      "key": "elder",
+      "rawGraphicsBytes": 5760,
+      "compressedBytes": 3322,
+      "assemblyBytes": 760,
+      "originalRawBytes": 2336,
+      "blankFrames": [
+        16
+      ],
+      "headFragmentFrames": [
+        17,
+        18
+      ],
+      "sourceProvenance": [
+        {
+          "file": "assets/imagegen/bakery-children-elder/source-elder-base-v1.png",
+          "sha256": "4bb78d4ce146c292a9c75a8f46fa25b15c47ab96ca4e628b7e2c9ac274af78bb",
+          "sourceType": "image-generation"
+        },
+        {
+          "file": "assets/imagegen/bakery-children-elder/derived-elder-head-left.png",
+          "sha256": "d648418c814c82c7c9eb2d8075412d1d39b88a806225244cb90e1e5badff95e3",
+          "sourceType": "image-generation"
+        }
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "key": "child",
+      "packetOffset": 8192000,
+      "assemblyOffset": 8193616
+    },
+    {
+      "key": "elder",
+      "packetOffset": 8194224,
+      "assemblyOffset": 8197552
+    }
+  ],
+  "sceneUnionBudget": [
+    {
+      "location": 91,
+      "candidateBytes": 29728,
+      "spareBytes": 3040,
+      "exceedsBudget": false
+    },
+    {
+      "location": 95,
+      "candidateBytes": 19840,
+      "spareBytes": 12928,
+      "exceedsBudget": false
+    },
+    {
+      "location": 276,
+      "candidateBytes": 6080,
+      "spareBytes": 26688,
+      "exceedsBudget": false
+    },
+    {
+      "location": 277,
+      "candidateBytes": 9472,
+      "spareBytes": 23296,
+      "exceedsBudget": false
+    },
+    {
+      "location": 279,
+      "candidateBytes": 13696,
+      "spareBytes": 19072,
+      "exceedsBudget": false
+    },
+    {
+      "location": 292,
+      "candidateBytes": 16992,
+      "spareBytes": 15776,
+      "exceedsBudget": false
+    },
+    {
+      "location": 306,
+      "candidateBytes": 6400,
+      "spareBytes": 26368,
+      "exceedsBudget": false
+    }
+  ],
+  "settledCaptureMinimumFrames": 30,
+  "extraVramBytes": 0,
+  "cellCount": 4,
+  "overlap": false,
+  "wholeSceneOrIndependentCoreProof": false,
+  "strictOriginalFamilyGuard": "Retained; root owns production streaming and actual shared scene loads."
+}

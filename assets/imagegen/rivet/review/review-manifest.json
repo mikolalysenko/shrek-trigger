@@ -1,0 +1,261 @@
+{
+  "status": "Source-native pose and actual original-timing review",
+  "nativeScale": 1,
+  "fieldFrames": 25,
+  "fieldSourcePoses": 18,
+  "additionalRaceSourcePoses": 1,
+  "raceFrames": 6,
+  "minimapFrames": 2,
+  "fieldRoleNames": [
+    "rear stand",
+    "front stand",
+    "left stand",
+    "right stand",
+    "rear ride A",
+    "front ride A",
+    "left ride A",
+    "right ride A",
+    "walk left boot forward",
+    "walk right boot forward",
+    "rear ride B",
+    "front ride B",
+    "left ride B",
+    "right ride B",
+    "unfolded left lean",
+    "large heel exhaust",
+    "small heel exhaust",
+    "both hands raised",
+    "low ride left A",
+    "low ride left B",
+    "low ride right A",
+    "low ride right B",
+    "half fold left",
+    "left ride lower",
+    "unfolded right lean"
+  ],
+  "nativeProof": {
+    "uploads": 50,
+    "pixels": 21846
+  },
+  "motion": {
+    "nativeScenarios": 72,
+    "nativeTicks": 12960,
+    "selected": [
+      {
+        "animation": 77,
+        "facing": 1,
+        "mode": 2,
+        "list": [
+          {
+            "frame": 8,
+            "ticks": 15,
+            "programIndex": 8
+          },
+          {
+            "frame": 1,
+            "ticks": 15,
+            "programIndex": 9
+          },
+          {
+            "frame": 9,
+            "ticks": 15,
+            "programIndex": 10
+          },
+          {
+            "frame": 1,
+            "ticks": 15,
+            "programIndex": 11
+          }
+        ],
+        "period": 60,
+        "label": "Front walk"
+      },
+      {
+        "animation": 77,
+        "facing": 2,
+        "mode": 4,
+        "list": [
+          {
+            "frame": 6,
+            "ticks": 5,
+            "programIndex": 16
+          },
+          {
+            "frame": 12,
+            "ticks": 5,
+            "programIndex": 17
+          }
+        ],
+        "period": 10,
+        "label": "Profile wheel cycle"
+      },
+      {
+        "animation": 77,
+        "facing": 2,
+        "mode": 5,
+        "list": [
+          {
+            "frame": 2,
+            "ticks": 10,
+            "programIndex": 20
+          },
+          {
+            "frame": 22,
+            "ticks": 8,
+            "programIndex": 21
+          },
+          {
+            "frame": 23,
+            "ticks": 5,
+            "programIndex": 22
+          },
+          {
+            "frame": 6,
+            "ticks": 10,
+            "programIndex": 23
+          }
+        ],
+        "period": 33,
+        "label": "Fold into wheels"
+      },
+      {
+        "animation": 77,
+        "facing": 2,
+        "mode": 7,
+        "list": [
+          {
+            "frame": 6,
+            "ticks": 5,
+            "programIndex": 28
+          },
+          {
+            "frame": 4,
+            "ticks": 5,
+            "programIndex": 29
+          },
+          {
+            "frame": 7,
+            "ticks": 5,
+            "programIndex": 30
+          },
+          {
+            "frame": 5,
+            "ticks": 5,
+            "programIndex": 31
+          },
+          {
+            "frame": 6,
+            "ticks": 10,
+            "programIndex": 32
+          }
+        ],
+        "period": 30,
+        "label": "Directional spin"
+      },
+      {
+        "animation": 77,
+        "facing": 2,
+        "mode": 9,
+        "list": [
+          {
+            "frame": 23,
+            "ticks": 5,
+            "programIndex": 36
+          },
+          {
+            "frame": 22,
+            "ticks": 8,
+            "programIndex": 37
+          },
+          {
+            "frame": 14,
+            "ticks": 30,
+            "programIndex": 38
+          },
+          {
+            "frame": 15,
+            "ticks": 5,
+            "programIndex": 39
+          },
+          {
+            "frame": 16,
+            "ticks": 8,
+            "programIndex": 40
+          },
+          {
+            "frame": 14,
+            "ticks": 20,
+            "programIndex": 41
+          }
+        ],
+        "period": 76,
+        "label": "Unfold and exhaust"
+      },
+      {
+        "animation": 77,
+        "facing": 2,
+        "mode": 12,
+        "list": [
+          {
+            "frame": 18,
+            "ticks": 5,
+            "programIndex": 48
+          },
+          {
+            "frame": 19,
+            "ticks": 5,
+            "programIndex": 49
+          }
+        ],
+        "period": 10,
+        "label": "Low ride left"
+      },
+      {
+        "animation": 77,
+        "facing": 3,
+        "mode": 12,
+        "list": [
+          {
+            "frame": 20,
+            "ticks": 5,
+            "programIndex": 48
+          },
+          {
+            "frame": 21,
+            "ticks": 5,
+            "programIndex": 49
+          }
+        ],
+        "period": 10,
+        "label": "Low ride right"
+      },
+      {
+        "animation": 142,
+        "facing": 2,
+        "mode": 6,
+        "list": [
+          {
+            "frame": 16,
+            "ticks": 10,
+            "programIndex": 24
+          },
+          {
+            "frame": 14,
+            "ticks": 20,
+            "programIndex": 25
+          }
+        ],
+        "period": 30,
+        "label": "Enemy recoil/recovery"
+      }
+    ],
+    "gifRate": 60,
+    "gifTicks": 240,
+    "gifNote": "GIF time resolution rounds to centiseconds; HTML preserves60Hz integer tick arithmetic."
+  },
+  "limitations": [
+    "The8×8miniatures preserve vehicle silhouettes/material clusters; facial readability is not claimed.",
+    "Source resampling uses original fixed ramps; narrow joint and goggle details are a few native pixels.",
+    "Private saved-build scene/native checks are separate from root integration and independent cores."
+  ]
+}

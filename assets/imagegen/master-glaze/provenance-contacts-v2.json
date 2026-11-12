@@ -1,0 +1,31 @@
+{
+  "status": "Generated source saved and selected partly or fully in inactive Master Glaze draft.",
+  "mode": "built-in image_gen",
+  "tool": "image_gen.imagegen",
+  "sourceType": "image-generation",
+  "sourceFile": "assets/imagegen/master-glaze/source-contacts-v2.png",
+  "sha256": "99beb10dee03c3633dc3699dd3466e1d823b001fe32050f115a76481b2d1ffda",
+  "decodedRgbaSha256": "31ee9fffea6dcc9fed8d2748a19b1dfdcca1b7ae70758cc994c0e6ec41cb540b",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "promptFile": "assets/imagegen/master-glaze/prompt-contacts-v2.txt",
+  "promptSha256": "b5e7fcbdb1b921b16e57103efbe1115f4a72003cedde8e9a039666559abc0e86",
+  "generatedOutputBasename": "exec-3ada0ab6-41b7-4cc2-9638-2b38059bf927.png",
+  "transparentBackgroundRequested": true,
+  "alphaPreserved": true,
+  "references": [
+    {
+      "file": "assets/imagegen/master-glaze/front-contact-reference.png",
+      "sha256": "e7a3e6d733398f3ed7052bb777d79390e43a8f725353fbe5ca70b46c39b5f439",
+      "role": "Identity / material / pose reference; explicit gray visibility composite of prior generated source pixels."
+    },
+    {
+      "file": "assets/imagegen/master-glaze/left-contact-reference.png",
+      "sha256": "ce6ef6ceed38270acf3f67715fd9cb18be763d34fa351f0c10fafa587a4b0113",
+      "role": "Identity / material / pose reference; explicit gray visibility composite of prior generated source pixels."
+    }
+  ],
+  "limitations": "The generator produces a higher-resolution pixel-style raster rather than literal32px/12-color art. The recorded importer performs native sampling and unchanged-palette quantization; native source selection is documented in native-roles.json. Source alpha is partial, so component and sampling thresholds are explicit."
+}

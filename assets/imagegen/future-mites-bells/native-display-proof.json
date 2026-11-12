@@ -1,0 +1,398 @@
+{
+  "status": "Private inactive source override",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "baselineManifestSha256": "a2211d196c01ddfcb6a04af336889a45bfb44a867e47da0a5248958b06365711",
+  "baselineRecordsSha256": "43a77085c5a6ba97feb790202d55acdd28fbd3b9eaa7972c3641c3899e349c4e",
+  "candidateSha256": "a0285a7c9b7a85c7d21f98ad578f99bf49cc8d2d1e94707965323a3186d2d5f5",
+  "candidatePath": ".local/qa/future-mites-bells-native-proof/candidate.sfc",
+  "changedBytes": 7663,
+  "defaultProductionGuardInvoked": false,
+  "requiredStreamedGraphics": [
+    96,
+    197
+  ],
+  "nativeHelpersUnchanged": true,
+  "streams": [
+    {
+      "gfx": 96,
+      "address": 4683392,
+      "bytes": 2272,
+      "compressedSource": 1341246,
+      "compressedBytes": 1589,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 84,
+          "assembly": 55,
+          "palette": 48,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 85,
+          "assembly": 55,
+          "palette": 49,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 86,
+          "assembly": 55,
+          "palette": 50,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "gfx": 197,
+      "address": 4747264,
+      "bytes": 2240,
+      "compressedSource": 1342836,
+      "compressedBytes": 1397,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 207,
+          "assembly": 165,
+          "palette": 201,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 208,
+          "assembly": 165,
+          "palette": 201,
+          "size": 0
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "offset": 1341246,
+      "bytes": 1589,
+      "label": "Private mite compressed graphics",
+      "sha256": "b5bb6e6c2242172185ad0ef788c9f28dcdb649bf682057bf679c206e51d22316"
+    },
+    {
+      "offset": 2367776,
+      "bytes": 3,
+      "label": "Private mite graphics pointer",
+      "sha256": "c734c651a5df911c9346c234b73d51e25d7c991b74b9111c402f44b98213bd74"
+    },
+    {
+      "offset": 3823480,
+      "bytes": 360,
+      "label": "Private mite native assembly",
+      "sha256": "b9ec8292dc369b8a713fd34d38adfa2e04aa4dd62aa6340a6ff70c0a295ebf0e"
+    },
+    {
+      "offset": 1342836,
+      "bytes": 1397,
+      "label": "Private bell compressed graphics",
+      "sha256": "6c5f57eb10e509be0a432b73a82163620ac209bbbcea1f6bd0d7ea904385006b"
+    },
+    {
+      "offset": 2368079,
+      "bytes": 3,
+      "label": "Private bell graphics pointer",
+      "sha256": "b0bc7e6d108bb6a591cbfb619c1cedaebe05ea7c3c6f363ae7b281f5b6afa3dc"
+    },
+    {
+      "offset": 3667410,
+      "bytes": 200,
+      "label": "Private bell native assembly",
+      "sha256": "d2e124597a53b97d674e969e22a8ec7e7d282d71f1c3394fa0c598879ecd4ebf"
+    },
+    {
+      "offset": 4683392,
+      "bytes": 2272,
+      "label": "NPC 96 direct-ROM graphics",
+      "sha256": "c2585d03e371cfe97028028534bafc738716ca224c3600f08402602f58fdb839"
+    },
+    {
+      "offset": 4747264,
+      "bytes": 2240,
+      "label": "NPC 197 direct-ROM graphics",
+      "sha256": "d92ff4f6810c89f9cf6b7a7e78caef4af3e8b1f79f157f0bc50a0269c195c148"
+    },
+    {
+      "offset": 1331260,
+      "bytes": 3,
+      "label": "Private selected gfx96 raw stream",
+      "sha256": "53090d64917dcc6716ab5ed577174fc73e552b5231598e48ff5fcea89c060777"
+    },
+    {
+      "offset": 1331563,
+      "bytes": 3,
+      "label": "Private selected gfx197 raw stream",
+      "sha256": "05b54f32a478986ac6e7c189e4f3c6b3e53283621ddf6f0ae5bbb5e9da3c3bae"
+    }
+  ],
+  "nativeFrameUploads": 37,
+  "exactDisplayedCells": 148,
+  "exactDisplayedOpaquePixels": 14050,
+  "allOpaquePixelsVisible": true,
+  "originalFrameAndDurationListsUnchanged": true,
+  "currentPalettePacketsUnchanged": true,
+  "originalHeadersAiAndStatsUnchanged": true,
+  "bellAnchorAndOffsetsExact": true,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "isolatedHeapBytes": [
+    {
+      "key": "sweep-mite",
+      "bytes": 960
+    },
+    {
+      "key": "scour-mite",
+      "bytes": 960
+    },
+    {
+      "key": "scrub-mite",
+      "bytes": 960
+    },
+    {
+      "key": "watch-bell",
+      "bytes": 960
+    },
+    {
+      "key": "alarm-bell",
+      "bytes": 960
+    }
+  ],
+  "evidence": ".local/qa/future-mites-bells-native-proof",
+  "evidenceFiles": [
+    {
+      "file": "candidate.json",
+      "bytes": 3620,
+      "sha256": "ae9242d205f41fdd0ede9334d3335c13c6b35ec7b0a70899ed6e18cd1569ddb3"
+    },
+    {
+      "file": "display-report.json",
+      "bytes": 40884,
+      "sha256": "aca9b64925e51ea989724a6ffbc178b479ee55fd354682c2bb33d2bcdff778a1"
+    },
+    {
+      "file": "sweep-mite-native-1x.png",
+      "bytes": 116841,
+      "sha256": "9ae1d51ed90d35dd77c9fde58097915056568e581a92073fa5825c7d4cfffb31"
+    },
+    {
+      "file": "scour-mite-native-1x.png",
+      "bytes": 117151,
+      "sha256": "417c48ca1648b58cc9510d320792c0dabcea20cbbd75e86bb27cad76a83e473d"
+    },
+    {
+      "file": "scrub-mite-native-1x.png",
+      "bytes": 116902,
+      "sha256": "7be56f59052543621d94c02d800e10dd7472ef2e4dc89b9976788a05d0c32440"
+    },
+    {
+      "file": "watch-bell-native-1x.png",
+      "bytes": 62657,
+      "sha256": "5cceee77aa7c55651cf569193fdf2ffe2b8d1966766adf8fc5c97fd981cc9ce8"
+    },
+    {
+      "file": "alarm-bell-native-1x.png",
+      "bytes": 62657,
+      "sha256": "5cceee77aa7c55651cf569193fdf2ffe2b8d1966766adf8fc5c97fd981cc9ce8"
+    },
+    {
+      "file": "sweep-mite-00.png",
+      "bytes": 56662,
+      "sha256": "b398d3b9b3f9e3053ad66851c48c8a43063a01a7083cf788f49c0a5dfa1d44cd"
+    },
+    {
+      "file": "sweep-mite-01.png",
+      "bytes": 56786,
+      "sha256": "7c8af738f2580645cc33f9f6e42364a28e95f63604cb79112ad647666a3040c0"
+    },
+    {
+      "file": "sweep-mite-02.png",
+      "bytes": 56649,
+      "sha256": "4a7f3c70c75861faf01144485595dc3265cfa4cd846f79325c7c35fe4cab7632"
+    },
+    {
+      "file": "sweep-mite-03.png",
+      "bytes": 56790,
+      "sha256": "7e4e766a56ec7e90b456d1b843c43e768011192ff34cf2ecbad66d7aa31377b2"
+    },
+    {
+      "file": "sweep-mite-04.png",
+      "bytes": 56569,
+      "sha256": "918da74fb80693afa9f87252c2f7d99fa50192ad3c6940de93b1d1b02aa8bb55"
+    },
+    {
+      "file": "sweep-mite-05.png",
+      "bytes": 56619,
+      "sha256": "fb668a248b0064e6e0aa634518957491dea68d249de3f08244f8c4515f86d5e5"
+    },
+    {
+      "file": "sweep-mite-06.png",
+      "bytes": 56523,
+      "sha256": "7b36356f8c2fa1b77613ce5aaaf5ba32318605c761c93e572f530269151c95f2"
+    },
+    {
+      "file": "sweep-mite-07.png",
+      "bytes": 56529,
+      "sha256": "5f265cb3b8f3acbbda602825f59451047a3e7dcc9ca52d07e722b087e2f46e3f"
+    },
+    {
+      "file": "sweep-mite-08.png",
+      "bytes": 56497,
+      "sha256": "36716728806c8db083eccd5404f4f5480ee5e24ee944d24855662e935d13f474"
+    },
+    {
+      "file": "scour-mite-00.png",
+      "bytes": 56705,
+      "sha256": "369a8cb024bc25527b44f765f76c7515c776653e1dc1593bcb12c2b3ead747c5"
+    },
+    {
+      "file": "scour-mite-01.png",
+      "bytes": 56827,
+      "sha256": "84a0c8097aa1f7d9321659c2307277b10c37134024f7ad992551e5aa4d51201d"
+    },
+    {
+      "file": "scour-mite-02.png",
+      "bytes": 56695,
+      "sha256": "e89b2c6bc8f997e869286dc1a19d6e5baf4e5495f20db82be361f41f8a44d7fa"
+    },
+    {
+      "file": "scour-mite-03.png",
+      "bytes": 56824,
+      "sha256": "5e0dd8950cf8b1ce0df88cd397e672323d6b4b38414a34878b1ccafe5c6d8954"
+    },
+    {
+      "file": "scour-mite-04.png",
+      "bytes": 56612,
+      "sha256": "fbaeceb09431351cf03971cce560db71ab5b87dd0468edbc96a74c122da9fbd7"
+    },
+    {
+      "file": "scour-mite-05.png",
+      "bytes": 56671,
+      "sha256": "2140927b25f47720056e683582ad814572c237ebeb88a74bb696907d382c8215"
+    },
+    {
+      "file": "scour-mite-06.png",
+      "bytes": 56565,
+      "sha256": "b751d8ee3e7220ccd0e8961dbd0ff92522dacbc5e55b5e7df3c85a0463a26fe9"
+    },
+    {
+      "file": "scour-mite-07.png",
+      "bytes": 56572,
+      "sha256": "cbc60affee21b8e1b007a557e42f839d986a0eb3991a8d557a59c69f710b4faa"
+    },
+    {
+      "file": "scour-mite-08.png",
+      "bytes": 56537,
+      "sha256": "57c07fe38394c33573ca751b12524cf62acd450fa410795c314369bde60f1fee"
+    },
+    {
+      "file": "scrub-mite-00.png",
+      "bytes": 56654,
+      "sha256": "279aeeec5e64122331f35d53cf04020eac375a43129992123d14ce6fbeb2d05f"
+    },
+    {
+      "file": "scrub-mite-01.png",
+      "bytes": 56778,
+      "sha256": "15da229e97a7e6b4a74c4464b69085f99a7c338a2761e837249f04e7898e70b5"
+    },
+    {
+      "file": "scrub-mite-02.png",
+      "bytes": 56631,
+      "sha256": "888c04dc1afac5485577c999cf5b4c78761a7d9447b2458b1af9945ef52b8775"
+    },
+    {
+      "file": "scrub-mite-03.png",
+      "bytes": 56773,
+      "sha256": "e770df6890138962d6e0f1bca65da0485fb8dacd9d4a81e79b414df81310628b"
+    },
+    {
+      "file": "scrub-mite-04.png",
+      "bytes": 56576,
+      "sha256": "99df36d38215502bdcc5a784b0f5fa8ef947d9049f56ff59abbc31e9f8e41802"
+    },
+    {
+      "file": "scrub-mite-05.png",
+      "bytes": 56625,
+      "sha256": "6ec7b017d188a6c10403da59ead9ce3ca5bae9642a9fbe18fa95a1e5b717b567"
+    },
+    {
+      "file": "scrub-mite-06.png",
+      "bytes": 56524,
+      "sha256": "e5a8a17feed3a42a32995563e1f66a25a6bf0fae86054788ed2d04a5b9fcf832"
+    },
+    {
+      "file": "scrub-mite-07.png",
+      "bytes": 56530,
+      "sha256": "c2e46b853c24ed2f9e3b3b47e3a9a82e766f5d5e40dba038be366ddd7b8176fe"
+    },
+    {
+      "file": "scrub-mite-08.png",
+      "bytes": 56502,
+      "sha256": "d9ca18b1d5d388024f1a9ca95e9ac77962e89c67af323d13bfeb6c4d91b5fbc7"
+    },
+    {
+      "file": "watch-bell-00.png",
+      "bytes": 56450,
+      "sha256": "0a5bbbea8871b980891c43c4d691635b5e4594c16686ed4f89cf10e5226b582e"
+    },
+    {
+      "file": "watch-bell-01.png",
+      "bytes": 56443,
+      "sha256": "3c45c75334663652f9e3535aeddea4c247cf2e4f6a6049b31f0d6348f75495b8"
+    },
+    {
+      "file": "watch-bell-02.png",
+      "bytes": 56438,
+      "sha256": "56de5e12543d0045eff2dab5cf786e57750e7e85e94e1ef13ba1edebc8a6a719"
+    },
+    {
+      "file": "watch-bell-03.png",
+      "bytes": 56369,
+      "sha256": "4abc771b366dc147566eb1e7353240ec1b8d17cad3b06017573ee10e0df50fd6"
+    },
+    {
+      "file": "watch-bell-04.png",
+      "bytes": 56362,
+      "sha256": "975d54e79b7f74779e6f662c79c5cc2509b0e3f310a7bf8ffd82d26c8fe3f40e"
+    },
+    {
+      "file": "alarm-bell-00.png",
+      "bytes": 56450,
+      "sha256": "0a5bbbea8871b980891c43c4d691635b5e4594c16686ed4f89cf10e5226b582e"
+    },
+    {
+      "file": "alarm-bell-01.png",
+      "bytes": 56443,
+      "sha256": "3c45c75334663652f9e3535aeddea4c247cf2e4f6a6049b31f0d6348f75495b8"
+    },
+    {
+      "file": "alarm-bell-02.png",
+      "bytes": 56438,
+      "sha256": "56de5e12543d0045eff2dab5cf786e57750e7e85e94e1ef13ba1edebc8a6a719"
+    },
+    {
+      "file": "alarm-bell-03.png",
+      "bytes": 56369,
+      "sha256": "4abc771b366dc147566eb1e7353240ec1b8d17cad3b06017573ee10e0df50fd6"
+    },
+    {
+      "file": "alarm-bell-04.png",
+      "bytes": 56362,
+      "sha256": "975d54e79b7f74779e6f662c79c5cc2509b0e3f310a7bf8ffd82d26c8fe3f40e"
+    }
+  ],
+  "runner": {
+    "file": "assets/imagegen/future-mites-bells/verify-native.mjs",
+    "sha256": "d8f6ebe548a7dc15bb7ffe97d6e952126df32436382c2204cdf434a8bbfb2de7"
+  },
+  "limitations": [
+    "Bounded native field preview only; no full route, encounter choreography or combat claim.",
+    "Native animation/timing lists are byte-identical, but static scrubbing does not establish live encounter transitions.",
+    "Both banks exceed their original decoded allowance and require explicit selected-family streaming; no default guard bypass is proposed.",
+    "Independent-core validation remains an integration check."
+  ],
+  "activation": false
+}

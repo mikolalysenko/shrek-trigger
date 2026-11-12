@@ -1,0 +1,830 @@
+{
+  "status": "Frozen inactive source and verification packet; root approved static model, gait, roles, geometry and the bounded parade limitation",
+  "baselineSha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+  "privateSha256": "76089bdcc69d5e29eb97845d40845fe145ca7bd960e0309bc86bb870d10a3371",
+  "sourceNativeProof": {
+    "status": "Frozen inactive source and verification packet; root approved static model, gait, roles, geometry and the bounded parade limitation",
+    "key": "duloc-town-resident",
+    "baselineSha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+    "privateSha256": "76089bdcc69d5e29eb97845d40845fe145ca7bd960e0309bc86bb870d10a3371",
+    "source": {
+      "tool": "built-in image_gen__imagegen",
+      "generatedPNGs": 1,
+      "selectedSourcePoses": 16,
+      "prompt": "assets/imagegen/town-civilians-gfx125/prompt-base-v1.txt",
+      "source": "assets/imagegen/town-civilians-gfx125/source-base-v1.png",
+      "sourceSha256": "57e4a80400c96a84bb38e0000cf64ff0089961160185f654881b35fab839a681",
+      "sampling": "AREA, shared32px standing reference. Uniform per-source corrections32/31,31/32,30/31,30/27,27/26 retain native role heights and all source pixels; no anisotropic distortion.",
+      "anatomyPaintedInCode": false,
+      "mirroredNativeSlots": [
+        3,
+        14,
+        15,
+        18
+      ],
+      "preservedOriginalRaster": {
+        "frame": 16,
+        "pixels": 3,
+        "paletteIndex": 2,
+        "provenance": "assets/imagegen/town-civilians-gfx125/original-sweat-raster.json"
+      },
+      "unreferencedKneelingFrame": {
+        "frame": 19,
+        "originalSourceIsNotBlank": true,
+        "selectedSource": 15,
+        "scope": "Original source role preserved and isolated native upload verified; no AA7 list or target-scene direct AC19 consumer found."
+      }
+    },
+    "native": {
+      "slots": 20,
+      "blankSlots": [],
+      "fragmentSlots": [],
+      "owners": [
+        [
+          "npc",
+          14
+        ],
+        [
+          "npc",
+          79
+        ]
+      ],
+      "paletteIds": [
+        135,
+        133
+      ],
+      "paletteWrites": 0,
+      "rawBytes": 4992,
+      "compressedBytes": 3586,
+      "assemblyBytes": 800,
+      "graphicsSha256": "ba7662858cad77a4adcf03436a8dbe71ef8e3d86fa71e2b06e80b5a93346234c",
+      "compressedSha256": "469420e872d84e7d83da04dc3b77cf0cd1ded82f69bfaa261e5a9a896f92f936",
+      "assemblySha256": "69888630fe5caf6130955c0fae68dc28e8316b812f60c4167e7ded24bb5fed4c",
+      "targetUploads": 40,
+      "targetExactCells": 160,
+      "targetExactOpaquePixels": 13778,
+      "sentinelUploads": 42,
+      "sentinelExactOpaquePixels": 12348,
+      "sentinelOwners": [
+        21,
+        22,
+        39
+      ],
+      "animationCases": 32,
+      "animationTicks": 2496,
+      "maximumDisplayDelay": 0,
+      "originalSignedXYBytesPreserved": 159,
+      "geometryChange": [
+        {
+          "frame": 19,
+          "cell": 3,
+          "axis": "y",
+          "before": -9,
+          "after": -14
+        }
+      ],
+      "overlapFrames": []
+    },
+    "sceneEvidence": [
+      {
+        "name": "truce-inn",
+        "location": 12,
+        "setup": {
+          "id": 12,
+          "x": 54,
+          "y": 13,
+          "facing": 0
+        },
+        "nativeTicks": 1300,
+        "result": {
+          "location": 12,
+          "sourceFrames": [
+            15,
+            2,
+            4,
+            6
+          ],
+          "dialogueIds": [
+            79,
+            81
+          ],
+          "scope": "Diagnostic E0 entry into unchanged original event; original initialization, dialogue and bounded controller interaction. Any prerequisite story bits are explicitly recorded in setup. No complete service transaction, natural approach or ending completion is claimed."
+        },
+        "heapMax": 7296,
+        "objPaletteRows": [
+          1
+        ],
+        "manifest": "assets/imagegen/town-civilians-gfx125/scene-verification/truce-inn.json"
+      },
+      {
+        "name": "merchant-inn",
+        "location": 62,
+        "setup": {
+          "id": 62,
+          "x": 3,
+          "y": 26,
+          "facing": 0
+        },
+        "nativeTicks": 1332,
+        "result": {
+          "location": 62,
+          "sourceFrames": [
+            14,
+            9
+          ],
+          "dialogueIds": [
+            56
+          ],
+          "scope": "Diagnostic E0 entry into unchanged original event; original initialization, dialogue and bounded controller interaction. Any prerequisite story bits are explicitly recorded in setup. No complete service transaction, natural approach or ending completion is claimed."
+        },
+        "heapMax": 15744,
+        "objPaletteRows": [
+          1
+        ],
+        "manifest": "assets/imagegen/town-civilians-gfx125/scene-verification/merchant-inn.json"
+      },
+      {
+        "name": "marco",
+        "location": 158,
+        "setup": {
+          "id": 158,
+          "x": 60,
+          "y": 56,
+          "facing": 0,
+          "diagnosticSeed": {
+            "address": "7F00F7",
+            "setBits": 2,
+            "reason": "Original returned-husband load condition"
+          }
+        },
+        "nativeTicks": 1332,
+        "result": {
+          "location": 158,
+          "sourceFrames": [
+            8,
+            10,
+            11,
+            2
+          ],
+          "dialogueIds": [
+            106,
+            107
+          ],
+          "scope": "Diagnostic E0 entry into unchanged original event; original initialization, dialogue and bounded controller interaction. Any prerequisite story bits are explicitly recorded in setup. No complete service transaction, natural approach or ending completion is claimed."
+        },
+        "heapMax": 2784,
+        "objPaletteRows": [
+          1
+        ],
+        "manifest": "assets/imagegen/town-civilians-gfx125/scene-verification/marco.json"
+      },
+      {
+        "name": "parade",
+        "location": 80,
+        "setup": {
+          "id": 80,
+          "x": 10,
+          "y": 33,
+          "facing": 2,
+          "story": 200,
+          "party": [
+            0,
+            1,
+            2
+          ],
+          "endgame": true,
+          "diagnosticSeed": {
+            "storyAddress": "7F0000",
+            "storyValue": 200,
+            "address": "7F006D",
+            "setBits": 64,
+            "reason": "Original post-parade branch; story200 and a diagnostic entry avoid replaying the completed procession"
+          }
+        },
+        "nativeTicks": 1329,
+        "result": {
+          "location": 80,
+          "sourceFrames": [
+            18
+          ],
+          "dialogueIds": [
+            56
+          ],
+          "scope": "Diagnostic E0 entry into unchanged original event; original initialization, dialogue and bounded controller interaction. Any prerequisite story bits are explicitly recorded in setup. No complete service transaction, natural approach or ending completion is claimed."
+        },
+        "heapMax": 16832,
+        "objPaletteRows": [
+          7
+        ],
+        "manifest": "assets/imagegen/town-civilians-gfx125/scene-verification/parade.json"
+      },
+      {
+        "name": "dream-end-time",
+        "location": 379,
+        "setup": {
+          "id": 379,
+          "x": 33,
+          "y": 19,
+          "facing": 0,
+          "party": [
+            0,
+            1,
+            2
+          ],
+          "endgame": true
+        },
+        "nativeTicks": 1329,
+        "result": {
+          "location": 379,
+          "sourceFrames": [
+            5,
+            16,
+            4
+          ],
+          "dialogueIds": [
+            35
+          ],
+          "scope": "Diagnostic E0 entry into unchanged original event; original initialization, dialogue and bounded controller interaction. Any prerequisite story bits are explicitly recorded in setup. No complete service transaction, natural approach or ending completion is claimed."
+        },
+        "heapMax": 5472,
+        "objPaletteRows": [
+          2
+        ],
+        "manifest": "assets/imagegen/town-civilians-gfx125/scene-verification/dream-end-time.json"
+      }
+    ],
+    "sceneCoverage": {
+      "auditedPrograms": [
+        5,
+        12,
+        13,
+        14,
+        16,
+        18,
+        24,
+        27,
+        32,
+        52,
+        53,
+        62,
+        80,
+        91,
+        158,
+        188,
+        204,
+        338,
+        340,
+        378,
+        379,
+        438,
+        439
+      ],
+      "auditedLoadStatements": 30,
+      "observedSourceLocations": [
+        12,
+        62,
+        80,
+        158,
+        379
+      ],
+      "untraversedPrograms": [
+        5,
+        13,
+        14,
+        16,
+        18,
+        24,
+        27,
+        32,
+        52,
+        53,
+        91,
+        188,
+        204,
+        338,
+        340,
+        378,
+        438,
+        439
+      ],
+      "totalSceneTicks": 6622,
+      "limitations": [
+        "Diagnostic E0 entries and explicitly seeded prerequisite story flags are followed by original event/controller execution. No full natural approach, purchase/stay completion or complete ending is claimed.",
+        "Parade80 frame18/dialogue56 proves original seating and actual tile/coordinate rendering. Its intended palette133 is overwritten on pinned af338; actual row7 colors and occlusion counts are recorded separately in the integration proposal and scene manifest.",
+        "Frame19 is a genuine kneeling source, not a blank. It has isolated native proof but no observed original campaign action consumer.",
+        "All23 target event packets remain byte-identical. The source scan attempted512 locations; eight unrelated invalid packets are retained as errors. All-branch source-bank unions are not measured simultaneous heap.",
+        "The scene actors retain original dialogue. Naming, broader narrative edits, all remaining scene branches, production allocation and independent current-cartridge cores remain root work."
+      ]
+    },
+    "reproduction": "assets/imagegen/town-civilians-gfx125/reproduction.json",
+    "proposal": "assets/imagegen/town-civilians-gfx125/integration-proposal.json",
+    "activeFilesChanged": false
+  },
+  "files": [
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/.gitignore",
+      "bytes": 9,
+      "sha256": "7f1449aa6b5c22585727e0d7ef4b16a112119fb0b8f472d7ab4d3a974369dc6d"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/README.md",
+      "bytes": 4598,
+      "sha256": "69d805bb0161b86a9f6acd31ff448dec63c1a240c27adc2521f2d796f4ef0979"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/audit-dialogue.mjs",
+      "bytes": 3040,
+      "sha256": "9c688796e1e5961ea72de30453d9607e3b114a61f4f58c6c855151ed8d09f9ac"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/audit-event-uses.py",
+      "bytes": 3700,
+      "sha256": "e6f7e4b769403b582d051430e3de368b6a72fe14fe4668786dc1a337ecf593d8"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/audit-native.mjs",
+      "bytes": 8460,
+      "sha256": "58b8b8ca20bfc6cbf28ea83f63c414879a7c1385ba2e1070cec8a5a6be9d07e2"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/build-review.mjs",
+      "bytes": 7874,
+      "sha256": "c0d46bab30b436aadca65efdfa1425c6749716182b54454c8eae3703f8e4b671"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/create-spec.mjs",
+      "bytes": 1259,
+      "sha256": "a1cef227df1d37e655b7fe071fd7ed950a08952e4246516a16a275de08e5067e"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/current-event-audit.json",
+      "bytes": 423948,
+      "sha256": "a0b2d9e4edb1a5a20699de0208a5ced41d6e4c9723148883799d5a776c4ce23a"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/design-proposal.json",
+      "bytes": 5938,
+      "sha256": "dd35bf32661c6e61dbb9f473079c5d4f79f7d2936cc85b9a0f722691baeebd81"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/dialogue-context-audit.json",
+      "bytes": 60625,
+      "sha256": "0aed09996da1e8b7764fd09374b3a4591cc7aa7f375651cb4ae34a5d307d17c0"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/draft-preview/preview-import.json",
+      "bytes": 4720,
+      "sha256": "d8b32f1e8f4569273514fdf438e43e8722856e8a4f180095551f75925f5b9db0"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/draft-preview/preview-native-indexed.png",
+      "bytes": 14399,
+      "sha256": "062f9ff5c1863bfc04fa1d83df3e8bdb77e3cf1dc654e88933bddfd57cba583c"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/draft-preview/preview-raster.json",
+      "bytes": 82656,
+      "sha256": "90555019728c8445bf138f58912d339d84675e43a93beec0bf9eb1d2dd8d7963"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/extract-events.mjs",
+      "bytes": 1348,
+      "sha256": "86e9dafb189eb939237b14ea51cbb938bf66db4e63beabd8d3c2a25595293b80"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/freeze-packet.mjs",
+      "bytes": 4983,
+      "sha256": "28b6faa7f033920b0560cbaa7c0915b6ce39558a510db4a0fdd3219c58d40e25"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/assembly.bin",
+      "bytes": 800,
+      "sha256": "69888630fe5caf6130955c0fae68dc28e8316b812f60c4167e7ded24bb5fed4c"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/audit.json",
+      "bytes": 4452,
+      "sha256": "64dddcc6aef1e972ac079eb892b00d53f24ab4b6492beeb27e161b986217447b"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/family.json",
+      "bytes": 5244,
+      "sha256": "7429372ac2a5ff3971e40e748e9e9bc7f2ec69b869d296113c55e59d52f69e8e"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/graphics.4bpp",
+      "bytes": 4992,
+      "sha256": "ba7662858cad77a4adcf03436a8dbe71ef8e3d86fa71e2b06e80b5a93346234c"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/graphics.ct-lz",
+      "bytes": 3586,
+      "sha256": "469420e872d84e7d83da04dc3b77cf0cd1ded82f69bfaa261e5a9a896f92f936"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/native-composition.json",
+      "bytes": 5523,
+      "sha256": "8a50ed32adde45501c87e34b2ba28c737c9a13b7d0d752d9956103f438382f2f"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/native-frames.json",
+      "bytes": 81982,
+      "sha256": "963983042408719e988b772f8a8f1a5973e3387a4fbfa570d09c4a3056549482"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/native-source-map.json",
+      "bytes": 16183,
+      "sha256": "32f7009a291da83350ab11317ffbb421d15779347ae3835af72d8aaa888c3499"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/palette133-1x.png",
+      "bytes": 15576,
+      "sha256": "466432cdfb3299ff75b797af5bf7abaa0deb8cca6cdcca2fc378edc12aec863c"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/palette133-4x.png",
+      "bytes": 26188,
+      "sha256": "eb3af0cac67920db58a4c409d72f85c29108a7fd3cfa41bbcb66c292ea746490"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/palette135-1x.png",
+      "bytes": 15109,
+      "sha256": "c8db4e42f1443377734fad81dfd2814cbd9f7f5c02ac1a03a2ade2fa290e6158"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/palette135-4x.png",
+      "bytes": 25797,
+      "sha256": "f89766682f9bc01377b374d874101cf8b8fdc7f8d76dac115ffe85b27edf3fdc"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/preview-import.json",
+      "bytes": 4682,
+      "sha256": "747909d966e9a24ee275947681f7ba606767234fb10ee06886654899fd03b293"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/preview-native-indexed.png",
+      "bytes": 11373,
+      "sha256": "7d47db67cdb282d59542df7143d8da58df6a7199f35925860d5622b536645df5"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/full-area/preview-raster.json",
+      "bytes": 66131,
+      "sha256": "3323e1606afdcf7c1d6b8c85c908ca6c2d30f20084055b6ba451684138b129b0"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/handoff.json",
+      "bytes": 9266,
+      "sha256": "f0922ed4347e4671f3c75812ae441140e6379a16c8a21024b4ca4bc116a9cc7b"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/import-spec.composed-area.json",
+      "bytes": 1555,
+      "sha256": "384ee371c29344ebc8cce790dd8225dcbfdd6877b89df4aa35fcbcca5620b475"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/import-spec.draft.json",
+      "bytes": 1555,
+      "sha256": "384ee371c29344ebc8cce790dd8225dcbfdd6877b89df4aa35fcbcca5620b475"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/import-spec.full-area.json",
+      "bytes": 2432,
+      "sha256": "1574fea853925ce1c3b726f15bc2845a6f32f84b26c7a7f597b65bed4de3f336"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/integration-proposal.json",
+      "bytes": 4738,
+      "sha256": "afafa2ffa42611c78e8817c5d0590c89dd83c70aff41be27da0bbb3f596abc40"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/motion-verification/manifest.json",
+      "bytes": 26009,
+      "sha256": "e46b653d6da8f57a184f4b89d93f04b6df362c2801e8e91f1dd42d5946614d28"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/native-audit.json",
+      "bytes": 80037,
+      "sha256": "fbc720a0ef1e2ac3ae5c5a1167b3ed5bc9bc6178df38adcd013ddcff873a91de"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/native-proof-utils.mjs",
+      "bytes": 3436,
+      "sha256": "64e6a45cf9690caa479d5b74dee7ced1378088eece42fa6d5b57d1936cb01782"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/native-role-notes.json",
+      "bytes": 15354,
+      "sha256": "13e93da9c98ba09c377334b2e4a2039b8c15dbe85098877221555e4bcc26d668"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/native-verification/manifest.json",
+      "bytes": 60465,
+      "sha256": "adbed71b95b609b01a1dbad853df811eca858c7f2a7eb8cd406d8091c091e2e8"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/native-verification/npc14-1.png",
+      "bytes": 56608,
+      "sha256": "a9d3c16f60d186001b68780a0842ed0d0f9d61f2c7d5510d4103be79bc54e790"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/native-verification/npc14-16.png",
+      "bytes": 56493,
+      "sha256": "668727f71eb575faaa68084a10efc8c54e2beaf4a2ee166314b294984d22d763"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/native-verification/npc14-17.png",
+      "bytes": 56423,
+      "sha256": "1054825410bf49e8bc23c4ebfc70dd989fa440760c5a07a546bb63613f983c60"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/native-verification/npc14-19.png",
+      "bytes": 56438,
+      "sha256": "730e5adcb85b6e3004d52b25f5e05ca3a7094a03e9167031516e36cc92303bcf"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/native-verification/npc79-1.png",
+      "bytes": 56617,
+      "sha256": "f70863baf055f0cfa473beaab1ea3be68b9433659a4558d466330f57a835561c"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/native-verification/npc79-18.png",
+      "bytes": 56483,
+      "sha256": "bd20da700790709bf35f1b9564ca81b261b907c940e7e6a535c6e40a10c2425e"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/native-verification/npc79-19.png",
+      "bytes": 56453,
+      "sha256": "25eda4f580a847a38d64dab0f8f4aa00f8b7a29e260da5cdc79df504b327a5f5"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/original-sweat-raster.json",
+      "bytes": 897,
+      "sha256": "e0c090c35b8b3ee952540bfcd001dfe9ec683f56a695b6f6c63cdb485b8fcab7"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/prepare-native.mjs",
+      "bytes": 9075,
+      "sha256": "3970f021085558591474dad625e67696b25bd3f4ca0cc2a34319caf3f27ac27c"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/private-overlay.mjs",
+      "bytes": 4945,
+      "sha256": "541bc3433dd84049d4a68282b7d374f21080495cf9ac01472f582ea24d982047"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/prompt-base-v1.txt",
+      "bytes": 3601,
+      "sha256": "4d40832cee2f5e167b07071f88728d48d186ac7d93c8adefcb1668d1e331ead5"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/provenance-base-v1.json",
+      "bytes": 1380,
+      "sha256": "aadf37b02377aef8dd4a54a73748182aabc9f7437664a96ccffb3523d866de25"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/reproduce-draft.mjs",
+      "bytes": 2651,
+      "sha256": "796ceedbf52ffe3dcbf428c6a0df529cc3d3a7b956cf438adb24593047302832"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/reproduction.json",
+      "bytes": 3414,
+      "sha256": "9d86b8795057196f02a47498e26d5d1f2122ce4f32ebd78a594decceecea1cc5"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/review/contact-sheet-1x.png",
+      "bytes": 167014,
+      "sha256": "169e7b562f0e1be5966a932381f312cd31be51961eb7733c2d06c82d80ec06b9"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/review/contact-sheet.html",
+      "bytes": 52657,
+      "sha256": "814c13c4797d063fe71ba52e5f75e0530014178e7a4d35628616d7ab22fe5849"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/review/gait-contacts.html",
+      "bytes": 39396,
+      "sha256": "c55a6d0aac1f456b426a793f70f683fac586db417db3b73d717d61140c6acd22"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/review/gait-contacts.png",
+      "bytes": 124165,
+      "sha256": "8767f6262a148e4a0d635e3ce50c6178bd9c08fa5f2aee47cfe6cae352618f0a"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/review/motion-review.html",
+      "bytes": 335356,
+      "sha256": "9e90fa8eb00af509aef7585b0bd67861d5afec4f2cbb5e1e161133e1bed56a09"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/review/role-review.html",
+      "bytes": 101525,
+      "sha256": "8772957734ab232b9a6303a367e526011d5da71af3310384b6ed501ac70daed4"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/review/role-review.png",
+      "bytes": 205045,
+      "sha256": "a38022e1f8f6265c1bc75c6a909d3361dbf3efb8fab2cc5044cf8e64f5a7bfc6"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/review/ui-check.json",
+      "bytes": 1581,
+      "sha256": "4c7d465b1d75e1f49317355972acb38495df150feacb399084148a9acc764356"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-contexts.json",
+      "bytes": 17621,
+      "sha256": "3dc7728498f3a62a764c85a9eee5f85398111151707df6840fbd217c1a40a302"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-resource-audit.json",
+      "bytes": 25495,
+      "sha256": "db3a8cff76b18763f410a282cf4b65fec8e548a613a3db407529a9d97b97d256"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-verification/dream-end-time-dialogue-0.png",
+      "bytes": 51063,
+      "sha256": "90d561489ee687af9377d1328339ca1f37ff1492a71b188f17a159853bded44a"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-verification/dream-end-time.json",
+      "bytes": 14571,
+      "sha256": "a6a1cff46aed1322df28479deb8eb818672316e333c606bdde96c9541600c498"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-verification/marco-dialogue-0.png",
+      "bytes": 63006,
+      "sha256": "c799a5c91ef128fcce7cf49f3d7f489ff27f7ee5049d6c882e212535b4b0d15a"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-verification/marco.json",
+      "bytes": 14326,
+      "sha256": "3edecbd55ff0fe51e68683e1cd25053c06b6465557fef5cab87933fe3cf505d7"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-verification/merchant-inn-interaction.png",
+      "bytes": 69354,
+      "sha256": "9a0eda70ef1ef9c42f8a6d25e2f4255416dfb4762c51181ba85ce5a2a18c6ae9"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-verification/merchant-inn.json",
+      "bytes": 13506,
+      "sha256": "5ec7889a4b10d21bb759f8fb298a7bfa0172a973fdd8b57e09ef34893d1c3a31"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-verification/parade-arrival.png",
+      "bytes": 99653,
+      "sha256": "da1263cabfc95c289c97d04f693f97c3b16f88fbdf731b881f1e1bebbb23de1f"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-verification/parade-interaction.png",
+      "bytes": 100465,
+      "sha256": "484c2a23f31bef5f7d5fc40e78c991d09f9f400e7d7a99743b70b16a10d2f614"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-verification/parade.json",
+      "bytes": 18826,
+      "sha256": "552bfc8884c23f6b7f9cc64aca14300637295b1b8a47a50bdcc8ca1fd91ee0a1"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-verification/truce-inn-interaction.png",
+      "bytes": 59792,
+      "sha256": "eb0851144bbd628722473c10b66c5b6f5ec06423c1bfd325d1dce26ba07579a8"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/scene-verification/truce-inn.json",
+      "bytes": 17634,
+      "sha256": "bc5ba0060a5509537536ef56282fa58db0702fe4358e87e07f2741d717bf24fb"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/source-base-v1.png",
+      "bytes": 1018866,
+      "sha256": "57e4a80400c96a84bb38e0000cf64ff0089961160185f654881b35fab839a681"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/verify-freeze.mjs",
+      "bytes": 823,
+      "sha256": "497dc1f78e3b16ba36bb7b74d904fecdfe94325cd0c9a5d9b3d8b84c9c12e92b"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/verify-motion.mjs",
+      "bytes": 3672,
+      "sha256": "a337f01821135adf4aa986c38a5d437cc76d8ebe20a8c1a74d5750ad221bc0ab"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/verify-native.mjs",
+      "bytes": 5407,
+      "sha256": "5c99903f8fc620b76a827503c3b355f17677132d7dc1c713193bb75b08478761"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/verify-scenes.mjs",
+      "bytes": 9504,
+      "sha256": "92113f982577c88ecba7f565efdcb936fd355bdbc03e933b11c14cec053dce5e"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/write-handoff.mjs",
+      "bytes": 9170,
+      "sha256": "1db7f1a1345021f48991591c3a61b1f36fe3e36b285265cc157997ae3551ebea"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "scripts/import-raster-art.mjs",
+      "sha256": "c0cb6e8292c646f4d7fb3845e411f2b3a550b385b59fc23f897e4c8ff8234ca4"
+    },
+    {
+      "path": "engine/native-sprites.js",
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "path": "engine/sprites.js",
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "path": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "path": "scripts/native-sprite-view.mjs",
+      "sha256": "5ad09bed2da5887837208c7ccf58dc7e9822a383b9a05dc9433031508fc404b9"
+    },
+    {
+      "path": "engine/rom.js",
+      "sha256": "06b336022840d63cc8295bce22f19ee3527484a06739b76ce90dc5bafa2a9b04"
+    },
+    {
+      "path": "engine/raster-art.js",
+      "sha256": "84d0833e8427cd9ee5097d8ad9bcdcef4ec03f1babf71cb659226a87dd483b9c"
+    },
+    {
+      "path": "engine/npc-graphics-streaming.js",
+      "sha256": "0dd90dca70436ed2863c448b11e66e549b71d9e85b2ec7603312000e74d2d8c2"
+    },
+    {
+      "path": "engine/expanded-rom.js",
+      "sha256": "de8f528ce60b4488df9d7742c38e8c9af2ae58e74df641fe6fd1c605dbeedde2"
+    },
+    {
+      "path": "scripts/core.mjs",
+      "sha256": "7ab30045a06ef89154004a3cc25e1c2dab1cad1c426f4a585e4a68a058bceef4"
+    },
+    {
+      "path": "engine/devtools.js",
+      "sha256": "fe92b027caa015f4f327cb07b50668b2881b93c41038ab80bdfa79deff549feb"
+    },
+    {
+      "path": "engine/automation.js",
+      "sha256": "8af377558a467f16747a8dbb120b8a047c2512cee9b4945ec5f657660a36fe28"
+    },
+    {
+      "path": "engine/hooks.js",
+      "sha256": "795fd4248bfaf669e53753df0636b4d24cf5ae98062d82f6e50b147516af7a2a"
+    },
+    {
+      "path": "engine/save.js",
+      "sha256": "c3ea24d67274d089090ebf5cb2776471cd8da323d878fcf398ae74390fd3d8ad"
+    },
+    {
+      "path": "content/hooks.json",
+      "sha256": "bf37708d2862de0a3a6766ef8f9a5c05079e454e262750e001e42a02532783a5"
+    },
+    {
+      "path": "content/areas.js",
+      "sha256": "52f51e6b779d07c2f5f1cf2d947732737ff1e75668d9b29da2faafbdb3d3f739"
+    },
+    {
+      "path": "content/native-preview.js",
+      "sha256": "4a2d59070e36257a3d69c7d26b205d6587d08ba7a45738896ade4388609f9760"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "64a6a819820c608b0efc612e049a872b68b3159ec6d3cc95ae13261893a980b5"
+    }
+  ],
+  "auditDependencies": [
+    {
+      "path": ".local/reference/jot-current/sourcefiles/eventcommand.py",
+      "sha256": "c6bce64666d313132e1c2122ba7300303fb9ee7749605db5cf3b7133063d4f87",
+      "scope": "Optional original ownership/scene audit regeneration only; selected source compilation uses preserved audit JSON."
+    },
+    {
+      "path": ".local/reference/temporal-redux/sourcefiles/editorui/lookups.py",
+      "sha256": "8c4cb21a32d9b0010d764266e6822a14584962c3bae8b74ed2e60b6662f4d3c3",
+      "scope": "Optional original ownership/scene audit regeneration only; selected source compilation uses preserved audit JSON."
+    }
+  ],
+  "externalRomInputs": [
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/private/baseline-af3383746691.sfc",
+      "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7"
+    },
+    {
+      "path": ".local/chrono-trigger-usa.sfc",
+      "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+    }
+  ],
+  "exclusions": [
+    "ROMs and snapshots; superseded nearest samples; failed parade approaches before the correct original checkpoint; redundant screenshots; unlabeled original reference exports."
+  ],
+  "activation": false
+}

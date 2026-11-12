@@ -1,0 +1,2961 @@
+{
+  "status": "Inactive original native resource audit",
+  "sourceRomSha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+  "graphics": {
+    "id": 133,
+    "offset": 2042147,
+    "decodedBytes": 8512,
+    "compressedBytes": 6977,
+    "sha256": "91d082942de88224acfeeff85bc42e8b971e655cc636d162d43a3e243391054d"
+  },
+  "assembly": {
+    "id": 127,
+    "offset": 2298440,
+    "bytes": 2480,
+    "frames": 31,
+    "cells": 8,
+    "sizeClass": 1,
+    "sha256": "73e2fb67fe176201d8e81cd4ab551cfb0090d4cefeff78e5cb65290c5c9356da"
+  },
+  "ownership": [
+    {
+      "field": 0,
+      "id": 133,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 144
+        },
+        {
+          "kind": "enemy",
+          "id": 199
+        }
+      ],
+      "pointerAliases": [
+        133
+      ]
+    },
+    {
+      "field": 1,
+      "id": 127,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 144
+        },
+        {
+          "kind": "enemy",
+          "id": 199
+        }
+      ],
+      "pointerAliases": [
+        127
+      ]
+    },
+    {
+      "field": 2,
+      "id": 185,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 144
+        }
+      ],
+      "pointerAliases": [
+        185
+      ]
+    },
+    {
+      "field": 2,
+      "id": 249,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 199
+        }
+      ],
+      "pointerAliases": [
+        249
+      ]
+    },
+    {
+      "field": 3,
+      "id": 99,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 144
+        },
+        {
+          "kind": "enemy",
+          "id": 199
+        }
+      ],
+      "pointerAliases": [
+        99
+      ]
+    }
+  ],
+  "actors": [
+    {
+      "key": "masquerader",
+      "enemy": 144,
+      "header": [
+        133,
+        127,
+        185,
+        99,
+        1,
+        0,
+        236,
+        16,
+        16,
+        33
+      ],
+      "palette": 185,
+      "paletteOffset": 2363736,
+      "originalColors": [
+        "292910",
+        "ffffff",
+        "f7e784",
+        "84b5ff",
+        "c6a542",
+        "8c9473",
+        "637bb5",
+        "ad1839",
+        "8c6b08",
+        "085a84",
+        "4a5231",
+        "393929"
+      ],
+      "approvedColors": [
+        "252333",
+        "3d3656",
+        "5b4e7b",
+        "8a719c",
+        "c4b3c6",
+        "f3e4ba",
+        "5e213a",
+        "9d3c4f",
+        "bd8e45",
+        "d8e05d",
+        "193a38",
+        "fff8e8"
+      ],
+      "ai": {
+        "offset": 829183,
+        "bytes": 102,
+        "sha256": "b2a9c8cd37391d556b2bf88678993094cbdcbac93342868928db8de0baf5ad81"
+      }
+    },
+    {
+      "key": "court-beast",
+      "enemy": 199,
+      "header": [
+        133,
+        127,
+        249,
+        99,
+        1,
+        0,
+        224,
+        24,
+        16,
+        17
+      ],
+      "palette": 249,
+      "paletteOffset": 2365272,
+      "originalColors": [
+        "292910",
+        "ffffff",
+        "a5bdce",
+        "bd9c52",
+        "6b8c7b",
+        "948c52",
+        "b55263",
+        "085a84",
+        "425263",
+        "846329",
+        "5a4a29",
+        "393929"
+      ],
+      "approvedColors": [
+        "252333",
+        "303d50",
+        "4b6670",
+        "789a9b",
+        "bdcdd0",
+        "f3e4ba",
+        "4d295d",
+        "845488",
+        "d3a756",
+        "f1a250",
+        "38283a",
+        "fff8e8"
+      ],
+      "ai": {
+        "offset": 833874,
+        "bytes": 193,
+        "sha256": "8303822bf7e4112cd991063c0c18e89ca37ed1b5cbbb12db215ce042d44a3703"
+      }
+    }
+  ],
+  "animation": {
+    "id": 99,
+    "offset": 2390272,
+    "bytes": 160,
+    "directionStride": 40,
+    "sha256": "3181be74921758577583e2c32de6efbd096813394a18edbe1ac16941f510b189",
+    "directions": [
+      {
+        "facing": 0,
+        "bytes": [
+          1,
+          255,
+          0,
+          0,
+          0,
+          1,
+          2,
+          1,
+          255,
+          0,
+          0,
+          0,
+          16,
+          17,
+          18,
+          17,
+          0,
+          255,
+          0,
+          0,
+          12,
+          255,
+          0,
+          0,
+          4,
+          13,
+          255,
+          0,
+          20,
+          21,
+          22,
+          0,
+          13,
+          14,
+          15,
+          255,
+          0,
+          2,
+          255,
+          0
+        ]
+      },
+      {
+        "facing": 1,
+        "bytes": [
+          4,
+          255,
+          0,
+          0,
+          3,
+          4,
+          5,
+          4,
+          255,
+          0,
+          0,
+          0,
+          16,
+          17,
+          18,
+          17,
+          0,
+          255,
+          0,
+          0,
+          12,
+          255,
+          0,
+          0,
+          4,
+          13,
+          255,
+          0,
+          17,
+          23,
+          24,
+          0,
+          13,
+          14,
+          15,
+          255,
+          3,
+          5,
+          255,
+          0
+        ]
+      },
+      {
+        "facing": 2,
+        "bytes": [
+          7,
+          255,
+          0,
+          0,
+          6,
+          7,
+          8,
+          7,
+          255,
+          0,
+          0,
+          0,
+          16,
+          17,
+          18,
+          17,
+          0,
+          255,
+          0,
+          0,
+          12,
+          255,
+          0,
+          0,
+          4,
+          13,
+          255,
+          0,
+          25,
+          26,
+          27,
+          0,
+          13,
+          14,
+          15,
+          255,
+          6,
+          8,
+          255,
+          0
+        ]
+      },
+      {
+        "facing": 3,
+        "bytes": [
+          10,
+          255,
+          0,
+          0,
+          9,
+          10,
+          11,
+          10,
+          255,
+          0,
+          0,
+          0,
+          16,
+          17,
+          18,
+          17,
+          0,
+          255,
+          0,
+          0,
+          12,
+          255,
+          0,
+          0,
+          4,
+          13,
+          255,
+          0,
+          28,
+          29,
+          30,
+          0,
+          13,
+          14,
+          15,
+          255,
+          9,
+          11,
+          255,
+          0
+        ]
+      }
+    ]
+  },
+  "sceneUses": [
+    {
+      "location": 198,
+      "eventPointer": 3753004,
+      "offset": 1064,
+      "command": [
+        131,
+        144,
+        3
+      ],
+      "nearby": [
+        [
+          1048,
+          144,
+          []
+        ],
+        [
+          1049,
+          23,
+          []
+        ],
+        [
+          1050,
+          29,
+          []
+        ],
+        [
+          1051,
+          145,
+          []
+        ],
+        [
+          1052,
+          144,
+          []
+        ],
+        [
+          1053,
+          15,
+          []
+        ],
+        [
+          1054,
+          144,
+          []
+        ],
+        [
+          1055,
+          27,
+          []
+        ],
+        [
+          1056,
+          115,
+          [
+            15
+          ]
+        ],
+        [
+          1058,
+          17,
+          [
+            17
+          ]
+        ],
+        [
+          1060,
+          145,
+          []
+        ],
+        [
+          1061,
+          11,
+          [
+            18
+          ]
+        ],
+        [
+          1063,
+          0,
+          []
+        ],
+        [
+          1064,
+          131,
+          [
+            144,
+            3
+          ]
+        ],
+        [
+          1067,
+          139,
+          [
+            7,
+            10
+          ]
+        ],
+        [
+          1070,
+          135,
+          [
+            3
+          ]
+        ],
+        [
+          1072,
+          145,
+          []
+        ],
+        [
+          1073,
+          0,
+          []
+        ],
+        [
+          1074,
+          146,
+          [
+            16,
+            36
+          ]
+        ],
+        [
+          1077,
+          18,
+          [
+            19,
+            0,
+            2,
+            17
+          ]
+        ],
+        [
+          1082,
+          172,
+          [
+            17
+          ]
+        ],
+        [
+          1084,
+          173,
+          [
+            2
+          ]
+        ],
+        [
+          1086,
+          172,
+          [
+            18
+          ]
+        ],
+        [
+          1088,
+          173,
+          [
+            2
+          ]
+        ],
+        [
+          1090,
+          172,
+          [
+            17
+          ]
+        ],
+        [
+          1092,
+          173,
+          [
+            2
+          ]
+        ],
+        [
+          1094,
+          172,
+          [
+            16
+          ]
+        ],
+        [
+          1096,
+          173,
+          [
+            2
+          ]
+        ],
+        [
+          1098,
+          17,
+          [
+            22
+          ]
+        ],
+        [
+          1100,
+          0,
+          []
+        ],
+        [
+          1101,
+          79,
+          [
+            2,
+            17
+          ]
+        ],
+        [
+          1104,
+          144,
+          []
+        ],
+        [
+          1105,
+          18,
+          [
+            17,
+            0,
+            2,
+            17
+          ]
+        ],
+        [
+          1110,
+          145,
+          []
+        ],
+        [
+          1111,
+          177,
+          []
+        ],
+        [
+          1112,
+          144,
+          []
+        ],
+        [
+          1113,
+          23,
+          []
+        ],
+        [
+          1114,
+          144,
+          []
+        ],
+        [
+          1115,
+          29,
+          []
+        ],
+        [
+          1116,
+          145,
+          []
+        ],
+        [
+          1117,
+          177,
+          []
+        ],
+        [
+          1118,
+          144,
+          []
+        ],
+        [
+          1119,
+          15,
+          []
+        ],
+        [
+          1120,
+          144,
+          []
+        ],
+        [
+          1121,
+          27,
+          []
+        ],
+        [
+          1122,
+          115,
+          [
+            17
+          ]
+        ],
+        [
+          1124,
+          17,
+          [
+            20
+          ]
+        ],
+        [
+          1126,
+          145,
+          []
+        ],
+        [
+          1127,
+          173,
+          [
+            12
+          ]
+        ],
+        [
+          1129,
+          79,
+          [
+            2,
+            17
+          ]
+        ],
+        [
+          1132,
+          144,
+          []
+        ],
+        [
+          1133,
+          18,
+          [
+            17,
+            0,
+            2,
+            14
+          ]
+        ],
+        [
+          1138,
+          145,
+          []
+        ],
+        [
+          1139,
+          144,
+          []
+        ],
+        [
+          1140,
+          23,
+          []
+        ],
+        [
+          1141,
+          29,
+          []
+        ],
+        [
+          1142,
+          145,
+          []
+        ],
+        [
+          1143,
+          144,
+          []
+        ],
+        [
+          1144,
+          15,
+          []
+        ]
+      ]
+    },
+    {
+      "location": 438,
+      "eventPointer": 3600244,
+      "offset": 2004,
+      "command": [
+        131,
+        199,
+        3
+      ],
+      "nearby": [
+        [
+          1989,
+          137,
+          [
+            64
+          ]
+        ],
+        [
+          1991,
+          150,
+          [
+            8,
+            23
+          ]
+        ],
+        [
+          1994,
+          0,
+          []
+        ],
+        [
+          1995,
+          130,
+          [
+            162
+          ]
+        ],
+        [
+          1997,
+          139,
+          [
+            6,
+            14
+          ]
+        ],
+        [
+          2000,
+          145,
+          []
+        ],
+        [
+          2001,
+          0,
+          []
+        ],
+        [
+          2002,
+          178,
+          []
+        ],
+        [
+          2003,
+          0,
+          []
+        ],
+        [
+          2004,
+          131,
+          [
+            199,
+            3
+          ]
+        ],
+        [
+          2007,
+          139,
+          [
+            4,
+            16
+          ]
+        ],
+        [
+          2010,
+          145,
+          []
+        ],
+        [
+          2011,
+          0,
+          []
+        ],
+        [
+          2012,
+          178,
+          []
+        ],
+        [
+          2013,
+          0,
+          []
+        ],
+        [
+          2014,
+          144,
+          []
+        ],
+        [
+          2015,
+          136,
+          [
+            32,
+            30,
+            4
+          ]
+        ],
+        [
+          2019,
+          173,
+          [
+            24
+          ]
+        ],
+        [
+          2021,
+          136,
+          [
+            0
+          ]
+        ],
+        [
+          2023,
+          0,
+          []
+        ],
+        [
+          2024,
+          130,
+          [
+            86
+          ]
+        ],
+        [
+          2026,
+          139,
+          [
+            4,
+            16
+          ]
+        ],
+        [
+          2029,
+          145,
+          []
+        ],
+        [
+          2030,
+          0,
+          []
+        ],
+        [
+          2031,
+          178,
+          []
+        ],
+        [
+          2032,
+          0,
+          []
+        ],
+        [
+          2033,
+          144,
+          []
+        ],
+        [
+          2034,
+          170,
+          [
+            27
+          ]
+        ],
+        [
+          2036,
+          0,
+          []
+        ],
+        [
+          2037,
+          130,
+          [
+            86
+          ]
+        ],
+        [
+          2039,
+          139,
+          [
+            4,
+            16
+          ]
+        ],
+        [
+          2042,
+          145,
+          []
+        ],
+        [
+          2043,
+          0,
+          []
+        ],
+        [
+          2044,
+          178,
+          []
+        ],
+        [
+          2045,
+          0,
+          []
+        ],
+        [
+          2046,
+          144,
+          []
+        ],
+        [
+          2047,
+          170,
+          [
+            31
+          ]
+        ],
+        [
+          2049,
+          0,
+          []
+        ],
+        [
+          2050,
+          130,
+          [
+            86
+          ]
+        ],
+        [
+          2052,
+          139,
+          [
+            4,
+            16
+          ]
+        ],
+        [
+          2055,
+          145,
+          []
+        ],
+        [
+          2056,
+          0,
+          []
+        ],
+        [
+          2057,
+          178,
+          []
+        ],
+        [
+          2058,
+          0,
+          []
+        ],
+        [
+          2059,
+          144,
+          []
+        ],
+        [
+          2060,
+          170,
+          [
+            29
+          ]
+        ],
+        [
+          2062,
+          0,
+          []
+        ],
+        [
+          2063,
+          130,
+          [
+            86
+          ]
+        ],
+        [
+          2065,
+          139,
+          [
+            4,
+            16
+          ]
+        ],
+        [
+          2068,
+          145,
+          []
+        ],
+        [
+          2069,
+          0,
+          []
+        ],
+        [
+          2070,
+          178,
+          []
+        ],
+        [
+          2071,
+          0,
+          []
+        ],
+        [
+          2072,
+          144,
+          []
+        ],
+        [
+          2073,
+          170,
+          [
+            33
+          ]
+        ],
+        [
+          2075,
+          0,
+          []
+        ],
+        [
+          2076,
+          130,
+          [
+            86
+          ]
+        ],
+        [
+          2078,
+          141,
+          [
+            1088,
+            4864
+          ]
+        ],
+        [
+          2083,
+          170,
+          [
+            8
+          ]
+        ]
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "id": 0,
+      "originalBounds": [
+        -22,
+        -30,
+        44,
+        34
+      ],
+      "opaquePixels": 1038,
+      "pixelSha256": "ef03772bbcc9316fbd23cf684af0fcc7ab576ceca413bf5d68f7c906de3a916f",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -8,
+          "y": -43
+        },
+        {
+          "cell": 1,
+          "x": -8,
+          "y": -11
+        },
+        {
+          "cell": 2,
+          "x": 16,
+          "y": -27
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -27
+        },
+        {
+          "cell": 4,
+          "x": 8,
+          "y": -11
+        },
+        {
+          "cell": 5,
+          "x": -31,
+          "y": -27
+        },
+        {
+          "cell": 6,
+          "x": -15,
+          "y": -27
+        },
+        {
+          "cell": 7,
+          "x": -23,
+          "y": -11
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 0,
+        "pose": "walk",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 1,
+      "originalBounds": [
+        -23,
+        -31,
+        47,
+        34
+      ],
+      "opaquePixels": 1070,
+      "pixelSha256": "812a0aa5075a35d44117be62023896aa366eba82a93805ef1e96c34712fd7ed8",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -8,
+          "y": -44
+        },
+        {
+          "cell": 1,
+          "x": -8,
+          "y": -12
+        },
+        {
+          "cell": 2,
+          "x": 16,
+          "y": -28
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -28
+        },
+        {
+          "cell": 4,
+          "x": 8,
+          "y": -12
+        },
+        {
+          "cell": 5,
+          "x": -31,
+          "y": -28
+        },
+        {
+          "cell": 6,
+          "x": -15,
+          "y": -28
+        },
+        {
+          "cell": 7,
+          "x": -23,
+          "y": -12
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 0,
+        "pose": "walk",
+        "phase": 1
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 2,
+      "originalBounds": [
+        -21,
+        -30,
+        44,
+        34
+      ],
+      "opaquePixels": 1038,
+      "pixelSha256": "ce17dfaf708f9976ffe170969b38684c829f134ab0a459c7700ef3ed50778871",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -8,
+          "y": -43
+        },
+        {
+          "cell": 1,
+          "x": -8,
+          "y": -11
+        },
+        {
+          "cell": 2,
+          "x": -31,
+          "y": -27
+        },
+        {
+          "cell": 3,
+          "x": -15,
+          "y": -27
+        },
+        {
+          "cell": 4,
+          "x": -23,
+          "y": -11
+        },
+        {
+          "cell": 5,
+          "x": 16,
+          "y": -27
+        },
+        {
+          "cell": 6,
+          "x": 0,
+          "y": -27
+        },
+        {
+          "cell": 7,
+          "x": 8,
+          "y": -11
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 0,
+        "pose": "walk",
+        "phase": 2
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 3,
+      "originalBounds": [
+        -22,
+        -30,
+        44,
+        34
+      ],
+      "opaquePixels": 1038,
+      "pixelSha256": "2aa26063032a39a34aba2833d86d36937f3324f6e0682037a58c90ae2bd78ad7",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -8,
+          "y": -43
+        },
+        {
+          "cell": 1,
+          "x": -8,
+          "y": -27
+        },
+        {
+          "cell": 2,
+          "x": 8,
+          "y": -27
+        },
+        {
+          "cell": 3,
+          "x": 16,
+          "y": -11
+        },
+        {
+          "cell": 4,
+          "x": 0,
+          "y": -11
+        },
+        {
+          "cell": 5,
+          "x": -23,
+          "y": -27
+        },
+        {
+          "cell": 6,
+          "x": -15,
+          "y": -11
+        },
+        {
+          "cell": 7,
+          "x": -31,
+          "y": -11
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "walk",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 4,
+      "originalBounds": [
+        -23,
+        -31,
+        47,
+        34
+      ],
+      "opaquePixels": 1070,
+      "pixelSha256": "f585b5abd3ae8f9442a9a555c531d2b3f5017663ddce712a5503830cb7c8794b",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -8,
+          "y": -44
+        },
+        {
+          "cell": 1,
+          "x": -8,
+          "y": -28
+        },
+        {
+          "cell": 2,
+          "x": 8,
+          "y": -28
+        },
+        {
+          "cell": 3,
+          "x": 16,
+          "y": -12
+        },
+        {
+          "cell": 4,
+          "x": 0,
+          "y": -12
+        },
+        {
+          "cell": 5,
+          "x": -23,
+          "y": -28
+        },
+        {
+          "cell": 6,
+          "x": -31,
+          "y": -12
+        },
+        {
+          "cell": 7,
+          "x": -15,
+          "y": -12
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "walk",
+        "phase": 1
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 5,
+      "originalBounds": [
+        -21,
+        -30,
+        44,
+        34
+      ],
+      "opaquePixels": 1038,
+      "pixelSha256": "25b8a20d362dbf0042a9fd3d0ffef700cad749daa63de96565e379d4879bc4d2",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -8,
+          "y": -43
+        },
+        {
+          "cell": 1,
+          "x": -8,
+          "y": -27
+        },
+        {
+          "cell": 2,
+          "x": 16,
+          "y": -11
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -11
+        },
+        {
+          "cell": 4,
+          "x": 8,
+          "y": -27
+        },
+        {
+          "cell": 5,
+          "x": -15,
+          "y": -11
+        },
+        {
+          "cell": 6,
+          "x": -31,
+          "y": -11
+        },
+        {
+          "cell": 7,
+          "x": -23,
+          "y": -27
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "walk",
+        "phase": 2
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 6,
+      "originalBounds": [
+        -22,
+        -30,
+        47,
+        33
+      ],
+      "opaquePixels": 1040,
+      "pixelSha256": "fe9c7cf62cf429b8520afe40f9346f7551a03b144fc725b21d0a6a75b7366b94",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 9,
+          "y": -45
+        },
+        {
+          "cell": 1,
+          "x": -7,
+          "y": -45
+        },
+        {
+          "cell": 2,
+          "x": 9,
+          "y": -29
+        },
+        {
+          "cell": 3,
+          "x": -7,
+          "y": -29
+        },
+        {
+          "cell": 4,
+          "x": -23,
+          "y": -29
+        },
+        {
+          "cell": 5,
+          "x": 9,
+          "y": -13
+        },
+        {
+          "cell": 6,
+          "x": -7,
+          "y": -13
+        },
+        {
+          "cell": 7,
+          "x": -23,
+          "y": -13
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 3,
+        "pose": "walk",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 7,
+      "originalBounds": [
+        -23,
+        -31,
+        47,
+        33
+      ],
+      "opaquePixels": 1077,
+      "pixelSha256": "3a9cae498aeae7e1335f948e9955e46e9b0a4b213659c1d0e30b1b03a683a1ef",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 8,
+          "y": -46
+        },
+        {
+          "cell": 1,
+          "x": -8,
+          "y": -46
+        },
+        {
+          "cell": 2,
+          "x": 8,
+          "y": -30
+        },
+        {
+          "cell": 3,
+          "x": -8,
+          "y": -30
+        },
+        {
+          "cell": 4,
+          "x": -24,
+          "y": -30
+        },
+        {
+          "cell": 5,
+          "x": 8,
+          "y": -14
+        },
+        {
+          "cell": 6,
+          "x": -8,
+          "y": -14
+        },
+        {
+          "cell": 7,
+          "x": -24,
+          "y": -14
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 3,
+        "pose": "walk",
+        "phase": 1
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 8,
+      "originalBounds": [
+        -24,
+        -30,
+        47,
+        33
+      ],
+      "opaquePixels": 1038,
+      "pixelSha256": "f7f0ed1fcd64e648a3fd1fc1da5f5f291a2fa018302a3cf9519085af77cab7c2",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 7,
+          "y": -45
+        },
+        {
+          "cell": 1,
+          "x": -9,
+          "y": -45
+        },
+        {
+          "cell": 2,
+          "x": 7,
+          "y": -29
+        },
+        {
+          "cell": 3,
+          "x": -9,
+          "y": -29
+        },
+        {
+          "cell": 4,
+          "x": -25,
+          "y": -29
+        },
+        {
+          "cell": 5,
+          "x": 7,
+          "y": -13
+        },
+        {
+          "cell": 6,
+          "x": -9,
+          "y": -13
+        },
+        {
+          "cell": 7,
+          "x": -25,
+          "y": -13
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 3,
+        "pose": "walk",
+        "phase": 2
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 9,
+      "originalBounds": [
+        -25,
+        -30,
+        47,
+        33
+      ],
+      "opaquePixels": 1040,
+      "pixelSha256": "452bc003ef1af96194ffb2dd1bc4a6f956579d90bfc1bcadabfbc58042c8dbb1",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -25,
+          "y": -45
+        },
+        {
+          "cell": 1,
+          "x": -9,
+          "y": -45
+        },
+        {
+          "cell": 2,
+          "x": 7,
+          "y": -29
+        },
+        {
+          "cell": 3,
+          "x": -9,
+          "y": -29
+        },
+        {
+          "cell": 4,
+          "x": -25,
+          "y": -29
+        },
+        {
+          "cell": 5,
+          "x": 7,
+          "y": -13
+        },
+        {
+          "cell": 6,
+          "x": -9,
+          "y": -13
+        },
+        {
+          "cell": 7,
+          "x": -25,
+          "y": -13
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 2,
+        "pose": "walk",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 10,
+      "originalBounds": [
+        -24,
+        -31,
+        47,
+        33
+      ],
+      "opaquePixels": 1077,
+      "pixelSha256": "bd3ce65b86045af2265a329333bf275b876955639d67f2464882609b1a120054",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -24,
+          "y": -46
+        },
+        {
+          "cell": 1,
+          "x": -8,
+          "y": -46
+        },
+        {
+          "cell": 2,
+          "x": 8,
+          "y": -30
+        },
+        {
+          "cell": 3,
+          "x": -8,
+          "y": -30
+        },
+        {
+          "cell": 4,
+          "x": -24,
+          "y": -30
+        },
+        {
+          "cell": 5,
+          "x": 8,
+          "y": -14
+        },
+        {
+          "cell": 6,
+          "x": -8,
+          "y": -14
+        },
+        {
+          "cell": 7,
+          "x": -24,
+          "y": -14
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 2,
+        "pose": "walk",
+        "phase": 1
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 11,
+      "originalBounds": [
+        -23,
+        -30,
+        47,
+        33
+      ],
+      "opaquePixels": 1038,
+      "pixelSha256": "febbeee17c243a0181a98166e2d852a8ed05ca5e45316b49c157f67118a2ad01",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -23,
+          "y": -45
+        },
+        {
+          "cell": 1,
+          "x": -7,
+          "y": -45
+        },
+        {
+          "cell": 2,
+          "x": 9,
+          "y": -29
+        },
+        {
+          "cell": 3,
+          "x": -7,
+          "y": -29
+        },
+        {
+          "cell": 4,
+          "x": -23,
+          "y": -29
+        },
+        {
+          "cell": 5,
+          "x": 9,
+          "y": -13
+        },
+        {
+          "cell": 6,
+          "x": -7,
+          "y": -13
+        },
+        {
+          "cell": 7,
+          "x": -23,
+          "y": -13
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 2,
+        "pose": "walk",
+        "phase": 2
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 12,
+      "originalBounds": [
+        -23,
+        -31,
+        47,
+        34
+      ],
+      "opaquePixels": 1086,
+      "pixelSha256": "a7061123e6046b43223939d20f49fad08dd0c3f6b84d7f2af598c506409ef51d",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -8,
+          "y": -44
+        },
+        {
+          "cell": 1,
+          "x": -8,
+          "y": -28
+        },
+        {
+          "cell": 2,
+          "x": 8,
+          "y": -28
+        },
+        {
+          "cell": 3,
+          "x": 16,
+          "y": -12
+        },
+        {
+          "cell": 4,
+          "x": 0,
+          "y": -12
+        },
+        {
+          "cell": 5,
+          "x": -23,
+          "y": -28
+        },
+        {
+          "cell": 6,
+          "x": -31,
+          "y": -12
+        },
+        {
+          "cell": 7,
+          "x": -15,
+          "y": -12
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "guard",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 13,
+      "originalBounds": [
+        -23,
+        -31,
+        47,
+        34
+      ],
+      "opaquePixels": 1104,
+      "pixelSha256": "9bd8ef34a5294163cb7789b10773047513191e082a79a5fc83b2dd5100a8cd6a",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -8,
+          "y": -44
+        },
+        {
+          "cell": 1,
+          "x": -8,
+          "y": -28
+        },
+        {
+          "cell": 2,
+          "x": 8,
+          "y": -28
+        },
+        {
+          "cell": 3,
+          "x": 16,
+          "y": -12
+        },
+        {
+          "cell": 4,
+          "x": 0,
+          "y": -12
+        },
+        {
+          "cell": 5,
+          "x": -23,
+          "y": -28
+        },
+        {
+          "cell": 6,
+          "x": -31,
+          "y": -12
+        },
+        {
+          "cell": 7,
+          "x": -15,
+          "y": -12
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "guard",
+        "phase": 1
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 14,
+      "originalBounds": [
+        -18,
+        -31,
+        37,
+        36
+      ],
+      "opaquePixels": 1036,
+      "pixelSha256": "1de52953bcb2990892bd2cd88af3cf308b4ed08c79019cbd740eb9966cd41d55",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 0,
+          "y": -43
+        },
+        {
+          "cell": 1,
+          "x": -15,
+          "y": -43
+        },
+        {
+          "cell": 2,
+          "x": 0,
+          "y": -27
+        },
+        {
+          "cell": 3,
+          "x": 16,
+          "y": -11
+        },
+        {
+          "cell": 4,
+          "x": 0,
+          "y": -11
+        },
+        {
+          "cell": 5,
+          "x": -15,
+          "y": -27
+        },
+        {
+          "cell": 6,
+          "x": -15,
+          "y": -11
+        },
+        {
+          "cell": 7,
+          "x": -31,
+          "y": -11
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "charge",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 15,
+      "originalBounds": [
+        -17,
+        -36,
+        35,
+        42
+      ],
+      "opaquePixels": 1099,
+      "pixelSha256": "18daed10f93c0f072dee9b22eac41648b5c471f9f057ff507f5ce433ee23e97e",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -8,
+          "y": -42
+        },
+        {
+          "cell": 1,
+          "x": -8,
+          "y": -10
+        },
+        {
+          "cell": 2,
+          "x": -15,
+          "y": -42
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -26
+        },
+        {
+          "cell": 4,
+          "x": 8,
+          "y": -10
+        },
+        {
+          "cell": 5,
+          "x": 7,
+          "y": -42
+        },
+        {
+          "cell": 6,
+          "x": -15,
+          "y": -26
+        },
+        {
+          "cell": 7,
+          "x": -23,
+          "y": -10
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "leap",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 16,
+      "originalBounds": [
+        -20,
+        -40,
+        43,
+        40
+      ],
+      "opaquePixels": 1168,
+      "pixelSha256": "67dbf871a750c38251c928cf137748fb2251866ae69f72bfea2000df021f1ec7",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 16,
+          "y": -32
+        },
+        {
+          "cell": 1,
+          "x": 0,
+          "y": -16
+        },
+        {
+          "cell": 2,
+          "x": 0,
+          "y": -32
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -48
+        },
+        {
+          "cell": 4,
+          "x": -31,
+          "y": -32
+        },
+        {
+          "cell": 5,
+          "x": -15,
+          "y": -16
+        },
+        {
+          "cell": 6,
+          "x": -15,
+          "y": -32
+        },
+        {
+          "cell": 7,
+          "x": -15,
+          "y": -48
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "roar",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 17,
+      "originalBounds": [
+        -22,
+        -39,
+        45,
+        40
+      ],
+      "opaquePixels": 1264,
+      "pixelSha256": "e3d6c3a3ad4461bc3752755067b1c988fedf67dee0663bf3a5e0c973a60955ba",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 16,
+          "y": -31
+        },
+        {
+          "cell": 1,
+          "x": 0,
+          "y": -15
+        },
+        {
+          "cell": 2,
+          "x": 0,
+          "y": -31
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -47
+        },
+        {
+          "cell": 4,
+          "x": -31,
+          "y": -31
+        },
+        {
+          "cell": 5,
+          "x": -15,
+          "y": -15
+        },
+        {
+          "cell": 6,
+          "x": -15,
+          "y": -31
+        },
+        {
+          "cell": 7,
+          "x": -15,
+          "y": -47
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "roar",
+        "phase": 1
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 18,
+      "originalBounds": [
+        -22,
+        -40,
+        43,
+        40
+      ],
+      "opaquePixels": 1168,
+      "pixelSha256": "4d6a901faa543e66092d9fbb15ccc67298c5b81aab17fac116ac83914dd41b7d",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -31,
+          "y": -32
+        },
+        {
+          "cell": 1,
+          "x": -15,
+          "y": -16
+        },
+        {
+          "cell": 2,
+          "x": -15,
+          "y": -32
+        },
+        {
+          "cell": 3,
+          "x": -15,
+          "y": -48
+        },
+        {
+          "cell": 4,
+          "x": 16,
+          "y": -32
+        },
+        {
+          "cell": 5,
+          "x": 0,
+          "y": -16
+        },
+        {
+          "cell": 6,
+          "x": 0,
+          "y": -32
+        },
+        {
+          "cell": 7,
+          "x": 0,
+          "y": -48
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "roar",
+        "phase": 2
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 19,
+      "originalBounds": [
+        -23,
+        -31,
+        47,
+        35
+      ],
+      "opaquePixels": 1085,
+      "pixelSha256": "92919977b8736d949eead7645a722963eabff3278efddc1e627ce55457794a5d",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -8,
+          "y": -44
+        },
+        {
+          "cell": 1,
+          "x": -8,
+          "y": -28
+        },
+        {
+          "cell": 2,
+          "x": 8,
+          "y": -28
+        },
+        {
+          "cell": 3,
+          "x": 16,
+          "y": -12
+        },
+        {
+          "cell": 4,
+          "x": 0,
+          "y": -12
+        },
+        {
+          "cell": 5,
+          "x": -23,
+          "y": -28
+        },
+        {
+          "cell": 6,
+          "x": -31,
+          "y": -12
+        },
+        {
+          "cell": 7,
+          "x": -15,
+          "y": -12
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "crouch",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 20,
+      "originalBounds": [
+        -22,
+        -39,
+        45,
+        40
+      ],
+      "opaquePixels": 1246,
+      "pixelSha256": "c72d99ebd22303d1a53f7013f40f6b69e178a65c2961783008dbbee12e791a27",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 16,
+          "y": -31
+        },
+        {
+          "cell": 1,
+          "x": 0,
+          "y": -47
+        },
+        {
+          "cell": 2,
+          "x": 0,
+          "y": -31
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -15
+        },
+        {
+          "cell": 4,
+          "x": -31,
+          "y": -31
+        },
+        {
+          "cell": 5,
+          "x": -15,
+          "y": -47
+        },
+        {
+          "cell": 6,
+          "x": -15,
+          "y": -31
+        },
+        {
+          "cell": 7,
+          "x": -15,
+          "y": -15
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 0,
+        "pose": "roar",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 21,
+      "originalBounds": [
+        -23,
+        -40,
+        47,
+        41
+      ],
+      "opaquePixels": 1325,
+      "pixelSha256": "b9ad6552f9153319e1212ff4d8b10a53f99dffda06117a42741e27e863e65e2d",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 16,
+          "y": -31
+        },
+        {
+          "cell": 1,
+          "x": -31,
+          "y": -31
+        },
+        {
+          "cell": 2,
+          "x": 0,
+          "y": -47
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -31
+        },
+        {
+          "cell": 4,
+          "x": 0,
+          "y": -15
+        },
+        {
+          "cell": 5,
+          "x": -15,
+          "y": -47
+        },
+        {
+          "cell": 6,
+          "x": -15,
+          "y": -31
+        },
+        {
+          "cell": 7,
+          "x": -15,
+          "y": -15
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 0,
+        "pose": "roar",
+        "phase": 1
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 22,
+      "originalBounds": [
+        -21,
+        -38,
+        43,
+        40
+      ],
+      "opaquePixels": 1200,
+      "pixelSha256": "9b2dafd4aa663bb5815aa635bb4f22cc145b4c19684f2b120a369db2304d85c7",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 16,
+          "y": -30
+        },
+        {
+          "cell": 1,
+          "x": 0,
+          "y": -46
+        },
+        {
+          "cell": 2,
+          "x": 0,
+          "y": -30
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -14
+        },
+        {
+          "cell": 4,
+          "x": -31,
+          "y": -30
+        },
+        {
+          "cell": 5,
+          "x": -15,
+          "y": -46
+        },
+        {
+          "cell": 6,
+          "x": -15,
+          "y": -30
+        },
+        {
+          "cell": 7,
+          "x": -15,
+          "y": -14
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 0,
+        "pose": "roar",
+        "phase": 2
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 23,
+      "originalBounds": [
+        -22,
+        -38,
+        45,
+        39
+      ],
+      "opaquePixels": 1265,
+      "pixelSha256": "6ca62d53fd3769f90b46005d6c2a16dd010932e18e0160a8549e20c46dc7f117",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 16,
+          "y": -31
+        },
+        {
+          "cell": 1,
+          "x": 0,
+          "y": -47
+        },
+        {
+          "cell": 2,
+          "x": 0,
+          "y": -31
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -15
+        },
+        {
+          "cell": 4,
+          "x": -31,
+          "y": -31
+        },
+        {
+          "cell": 5,
+          "x": -15,
+          "y": -47
+        },
+        {
+          "cell": 6,
+          "x": -15,
+          "y": -31
+        },
+        {
+          "cell": 7,
+          "x": -15,
+          "y": -15
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "swipe",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 24,
+      "originalBounds": [
+        -22,
+        -38,
+        45,
+        39
+      ],
+      "opaquePixels": 1237,
+      "pixelSha256": "3f1f007f354c3e5678717cb0895c7629109f52c22e5b5a4c4f028b4512715329",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 16,
+          "y": -30
+        },
+        {
+          "cell": 1,
+          "x": -31,
+          "y": -30
+        },
+        {
+          "cell": 2,
+          "x": 0,
+          "y": -22
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -38
+        },
+        {
+          "cell": 4,
+          "x": 0,
+          "y": -7
+        },
+        {
+          "cell": 5,
+          "x": -15,
+          "y": -22
+        },
+        {
+          "cell": 6,
+          "x": -15,
+          "y": -38
+        },
+        {
+          "cell": 7,
+          "x": -15,
+          "y": -7
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 1,
+        "pose": "swipe",
+        "phase": 1
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 25,
+      "originalBounds": [
+        -8,
+        -38,
+        36,
+        39
+      ],
+      "opaquePixels": 1004,
+      "pixelSha256": "2eb82ef4c9d140a50297c14902bba8c5193694ac6f92108698c1d909728f3e61",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 16,
+          "y": -39
+        },
+        {
+          "cell": 1,
+          "x": 0,
+          "y": -39
+        },
+        {
+          "cell": 2,
+          "x": -16,
+          "y": -39
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -23
+        },
+        {
+          "cell": 4,
+          "x": -16,
+          "y": -23
+        },
+        {
+          "cell": 5,
+          "x": 16,
+          "y": -23
+        },
+        {
+          "cell": 6,
+          "x": 16,
+          "y": -7
+        },
+        {
+          "cell": 7,
+          "x": 0,
+          "y": -7
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 3,
+        "pose": "swipe",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 26,
+      "originalBounds": [
+        -7,
+        -39,
+        36,
+        40
+      ],
+      "opaquePixels": 1058,
+      "pixelSha256": "a8964d6826716f87dddd93eea04227d1b86918ba37e80ea780f02b4aaba59e77",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 25,
+          "y": -39
+        },
+        {
+          "cell": 1,
+          "x": 9,
+          "y": -39
+        },
+        {
+          "cell": 2,
+          "x": -7,
+          "y": -39
+        },
+        {
+          "cell": 3,
+          "x": 1,
+          "y": -23
+        },
+        {
+          "cell": 4,
+          "x": -15,
+          "y": -23
+        },
+        {
+          "cell": 5,
+          "x": 17,
+          "y": -23
+        },
+        {
+          "cell": 6,
+          "x": 16,
+          "y": -7
+        },
+        {
+          "cell": 7,
+          "x": 0,
+          "y": -7
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 3,
+        "pose": "swipe",
+        "phase": 1
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 27,
+      "originalBounds": [
+        -10,
+        -38,
+        38,
+        39
+      ],
+      "opaquePixels": 1062,
+      "pixelSha256": "4972583711fbe6ef9d9bf46adf2a9b40cbd607601ec44876acf9c0d30e509062",
+      "cells": [
+        {
+          "cell": 0,
+          "x": 16,
+          "y": -39
+        },
+        {
+          "cell": 1,
+          "x": 0,
+          "y": -39
+        },
+        {
+          "cell": 2,
+          "x": -16,
+          "y": -39
+        },
+        {
+          "cell": 3,
+          "x": 0,
+          "y": -23
+        },
+        {
+          "cell": 4,
+          "x": -16,
+          "y": -23
+        },
+        {
+          "cell": 5,
+          "x": 16,
+          "y": -23
+        },
+        {
+          "cell": 6,
+          "x": 16,
+          "y": -7
+        },
+        {
+          "cell": 7,
+          "x": 0,
+          "y": -7
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 3,
+        "pose": "swipe",
+        "phase": 2
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 28,
+      "originalBounds": [
+        -29,
+        -38,
+        36,
+        39
+      ],
+      "opaquePixels": 1004,
+      "pixelSha256": "fcfec48c2fd64fb2843c1172377f49ad83af5699bdbb2de3f3fcddb2187ac376",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -33,
+          "y": -39
+        },
+        {
+          "cell": 1,
+          "x": -17,
+          "y": -39
+        },
+        {
+          "cell": 2,
+          "x": -1,
+          "y": -39
+        },
+        {
+          "cell": 3,
+          "x": -17,
+          "y": -23
+        },
+        {
+          "cell": 4,
+          "x": -1,
+          "y": -23
+        },
+        {
+          "cell": 5,
+          "x": -33,
+          "y": -23
+        },
+        {
+          "cell": 6,
+          "x": -33,
+          "y": -7
+        },
+        {
+          "cell": 7,
+          "x": -17,
+          "y": -7
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 2,
+        "pose": "swipe",
+        "phase": 0
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 29,
+      "originalBounds": [
+        -30,
+        -39,
+        36,
+        40
+      ],
+      "opaquePixels": 1058,
+      "pixelSha256": "3b0aa45a915f11ab3ef402048d7d7aed618c45e8a7e224955f3fb7e0fe85b638",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -34,
+          "y": -39
+        },
+        {
+          "cell": 1,
+          "x": -18,
+          "y": -39
+        },
+        {
+          "cell": 2,
+          "x": -2,
+          "y": -39
+        },
+        {
+          "cell": 3,
+          "x": -18,
+          "y": -23
+        },
+        {
+          "cell": 4,
+          "x": -2,
+          "y": -23
+        },
+        {
+          "cell": 5,
+          "x": -34,
+          "y": -23
+        },
+        {
+          "cell": 6,
+          "x": -33,
+          "y": -7
+        },
+        {
+          "cell": 7,
+          "x": -17,
+          "y": -7
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 2,
+        "pose": "swipe",
+        "phase": 1
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    },
+    {
+      "id": 30,
+      "originalBounds": [
+        -29,
+        -38,
+        38,
+        39
+      ],
+      "opaquePixels": 1062,
+      "pixelSha256": "804c7839e040fd26ecf9f178604539a1e4bb49f3b1c80fce99b361aab5189668",
+      "cells": [
+        {
+          "cell": 0,
+          "x": -33,
+          "y": -39
+        },
+        {
+          "cell": 1,
+          "x": -17,
+          "y": -39
+        },
+        {
+          "cell": 2,
+          "x": -1,
+          "y": -39
+        },
+        {
+          "cell": 3,
+          "x": -17,
+          "y": -23
+        },
+        {
+          "cell": 4,
+          "x": -1,
+          "y": -23
+        },
+        {
+          "cell": 5,
+          "x": -33,
+          "y": -23
+        },
+        {
+          "cell": 6,
+          "x": -33,
+          "y": -7
+        },
+        {
+          "cell": 7,
+          "x": -17,
+          "y": -7
+        }
+      ],
+      "currentProceduralRole": {
+        "facing": 2,
+        "pose": "swipe",
+        "phase": 2
+      },
+      "roleStatus": "Pending direct visual review of original native frame"
+    }
+  ],
+  "activation": false
+}

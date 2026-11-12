@@ -1,0 +1,6985 @@
+{
+  "status": "Read-only af338 authored post-parade row occupancy diagnosis",
+  "baseline": {
+    "path": "assets/imagegen/town-tradesmen/private-qa/baseline.sfc",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+    "bytes": 8388608,
+    "originalAuditBaseline": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+    "reason": "Root preferred current published cartridge for native proof; source/audit resources are rechecked unchanged before override."
+  },
+  "location": 80,
+  "cases": [
+    {
+      "view": {
+        "name": "center",
+        "x": 20,
+        "y": 32
+      },
+      "checkpoint": {
+        "story": 200,
+        "flag7F006D": 64,
+        "party": [
+          0,
+          1,
+          2
+        ],
+        "endgameKit": true
+      },
+      "nativeTicks": 1100,
+      "camera": {
+        "referenceObject": 40,
+        "world": [
+          360,
+          527
+        ],
+        "origin": [
+          168,
+          143
+        ],
+        "offset": [
+          192,
+          384
+        ]
+      },
+      "objects": [
+        {
+          "object": 2,
+          "kind": "pc",
+          "id": 0,
+          "header": null,
+          "sourceLoadBody": 1714,
+          "explicitRowCommand": {
+            "frame": 8903,
+            "location": 80,
+            "pc": 12605696,
+            "object": 2,
+            "scriptPC": 1715,
+            "opcode": 51,
+            "tick": 47,
+            "row": 0,
+            "sourcePointer": 0
+          },
+          "runtimeRow": 0,
+          "palettePointer": 0,
+          "nativeFrame": 3,
+          "world": [
+            328,
+            527
+          ],
+          "tileAllocation": 8,
+          "visibleScope": "PC rows are covered by actual OAM occupancy below; no source-cell ownership reconstruction for this PC."
+        },
+        {
+          "object": 3,
+          "kind": "pc",
+          "id": 1,
+          "header": null,
+          "sourceLoadBody": 1757,
+          "explicitRowCommand": {
+            "frame": 8903,
+            "location": 80,
+            "pc": 12605696,
+            "object": 3,
+            "scriptPC": 1758,
+            "opcode": 51,
+            "tick": 47,
+            "row": 1,
+            "sourcePointer": 24
+          },
+          "runtimeRow": 1,
+          "palettePointer": 24,
+          "nativeFrame": 0,
+          "world": [
+            328,
+            527
+          ],
+          "tileAllocation": 32,
+          "visibleScope": "PC rows are covered by actual OAM occupancy below; no source-cell ownership reconstruction for this PC."
+        },
+        {
+          "object": 4,
+          "kind": "pc",
+          "id": 2,
+          "header": null,
+          "sourceLoadBody": 1800,
+          "explicitRowCommand": {
+            "frame": 8903,
+            "location": 80,
+            "pc": 12605696,
+            "object": 4,
+            "scriptPC": 1801,
+            "opcode": 51,
+            "tick": 47,
+            "row": 2,
+            "sourcePointer": 48
+          },
+          "runtimeRow": 2,
+          "palettePointer": 48,
+          "nativeFrame": 255,
+          "world": [
+            328,
+            527
+          ],
+          "tileAllocation": 40,
+          "visibleScope": "PC rows are covered by actual OAM occupancy below; no source-cell ownership reconstruction for this PC."
+        },
+        {
+          "object": 5,
+          "kind": "npc",
+          "id": 78,
+          "header": [
+            86,
+            43,
+            67,
+            33,
+            0
+          ],
+          "sourceLoadBody": 1815,
+          "explicitRowCommand": {
+            "frame": 8903,
+            "location": 80,
+            "pc": 12605696,
+            "object": 5,
+            "scriptPC": 1817,
+            "opcode": 51,
+            "tick": 47,
+            "row": 3,
+            "sourcePointer": 1608
+          },
+          "runtimeRow": 3,
+          "palettePointer": 1608,
+          "nativeFrame": 1,
+          "world": [
+            213,
+            430
+          ],
+          "tileAllocation": 160,
+          "expectedScreenOrigin": [
+            21,
+            46
+          ],
+          "matchingNativeOamCells": [
+            80,
+            81
+          ],
+          "visibleExactActualColorPixels": 61,
+          "occludedOrDifferent": 148,
+          "sourceVisible": true,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 6,
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ],
+          "sourceLoadBody": 2054,
+          "explicitRowCommand": {
+            "frame": 8904,
+            "location": 80,
+            "pc": 12605696,
+            "object": 6,
+            "scriptPC": 2056,
+            "opcode": 51,
+            "tick": 48,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 0,
+          "world": [
+            196,
+            470
+          ],
+          "tileAllocation": 200,
+          "expectedScreenOrigin": [
+            4,
+            86
+          ],
+          "matchingNativeOamCells": [
+            72,
+            73,
+            74,
+            75
+          ],
+          "visibleExactActualColorPixels": 183,
+          "occludedOrDifferent": 410,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 7,
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ],
+          "sourceLoadBody": 2129,
+          "explicitRowCommand": {
+            "frame": 8904,
+            "location": 80,
+            "pc": 12605696,
+            "object": 7,
+            "scriptPC": 2131,
+            "opcode": 51,
+            "tick": 48,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 1,
+          "world": [
+            178,
+            534
+          ],
+          "tileAllocation": 128,
+          "expectedScreenOrigin": [
+            -14,
+            150
+          ],
+          "matchingNativeOamCells": [
+            48,
+            50
+          ],
+          "visibleExactActualColorPixels": 42,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 8,
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ],
+          "sourceLoadBody": 2204,
+          "explicitRowCommand": {
+            "frame": 8904,
+            "location": 80,
+            "pc": 12605696,
+            "object": 8,
+            "scriptPC": 2206,
+            "opcode": 51,
+            "tick": 48,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            384,
+            607
+          ],
+          "tileAllocation": 392,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 9,
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ],
+          "sourceLoadBody": 2248,
+          "explicitRowCommand": {
+            "frame": 8904,
+            "location": 80,
+            "pc": 12605696,
+            "object": 9,
+            "scriptPC": 2250,
+            "opcode": 51,
+            "tick": 48,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            384,
+            607
+          ],
+          "tileAllocation": 384,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 10,
+          "kind": "npc",
+          "id": 190,
+          "header": [
+            43,
+            32,
+            133,
+            57,
+            0
+          ],
+          "sourceLoadBody": 2292,
+          "explicitRowCommand": {
+            "frame": 8905,
+            "location": 80,
+            "pc": 12605696,
+            "object": 10,
+            "scriptPC": 2294,
+            "opcode": 51,
+            "tick": 49,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 6,
+          "world": [
+            209,
+            440
+          ],
+          "tileAllocation": 168,
+          "expectedScreenOrigin": [
+            17,
+            56
+          ],
+          "matchingNativeOamCells": [
+            79
+          ],
+          "visibleExactActualColorPixels": 44,
+          "occludedOrDifferent": 60,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 11,
+          "kind": "npc",
+          "id": 196,
+          "header": [
+            234,
+            218,
+            245,
+            184,
+            0
+          ],
+          "sourceLoadBody": 2379,
+          "explicitRowCommand": {
+            "frame": 8905,
+            "location": 80,
+            "pc": 12605696,
+            "object": 11,
+            "scriptPC": 2381,
+            "opcode": 51,
+            "tick": 49,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 0,
+          "world": [
+            284,
+            291
+          ],
+          "tileAllocation": 136,
+          "expectedScreenOrigin": [
+            92,
+            -93
+          ],
+          "matchingNativeOamCells": [],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 0,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 12,
+          "kind": "npc",
+          "id": 196,
+          "header": [
+            234,
+            218,
+            245,
+            184,
+            0
+          ],
+          "sourceLoadBody": 2415,
+          "explicitRowCommand": {
+            "frame": 8905,
+            "location": 80,
+            "pc": 12605696,
+            "object": 12,
+            "scriptPC": 2417,
+            "opcode": 51,
+            "tick": 49,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 0,
+          "world": [
+            404,
+            262
+          ],
+          "tileAllocation": 192,
+          "expectedScreenOrigin": [
+            212,
+            -122
+          ],
+          "matchingNativeOamCells": [],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 0,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 14,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2478,
+          "explicitRowCommand": {
+            "frame": 8906,
+            "location": 80,
+            "pc": 12605696,
+            "object": 14,
+            "scriptPC": 2480,
+            "opcode": 51,
+            "tick": 50,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            344,
+            415
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 15,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2507,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 15,
+            "scriptPC": 2509,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            376,
+            415
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 16,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2536,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 16,
+            "scriptPC": 2538,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            408,
+            415
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 17,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2565,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 17,
+            "scriptPC": 2567,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            440,
+            415
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 18,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2594,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 18,
+            "scriptPC": 2596,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 20,
+          "world": [
+            296,
+            607
+          ],
+          "tileAllocation": 392,
+          "expectedScreenOrigin": [
+            104,
+            223
+          ],
+          "matchingNativeOamCells": [
+            32,
+            33,
+            35
+          ],
+          "visibleExactActualColorPixels": 151,
+          "occludedOrDifferent": 117,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 19,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2650,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 19,
+            "scriptPC": 2652,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 20,
+          "world": [
+            344,
+            591
+          ],
+          "tileAllocation": 384,
+          "expectedScreenOrigin": [
+            152,
+            207
+          ],
+          "matchingNativeOamCells": [
+            40,
+            41,
+            43
+          ],
+          "visibleExactActualColorPixels": 268,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 20,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2691,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 20,
+            "scriptPC": 2693,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 20,
+          "world": [
+            424,
+            591
+          ],
+          "tileAllocation": 360,
+          "expectedScreenOrigin": [
+            232,
+            207
+          ],
+          "matchingNativeOamCells": [
+            36,
+            37,
+            39
+          ],
+          "visibleExactActualColorPixels": 268,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 21,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2732,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 21,
+            "scriptPC": 2734,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 19,
+          "world": [
+            472,
+            607
+          ],
+          "tileAllocation": 352,
+          "expectedScreenOrigin": [
+            280,
+            223
+          ],
+          "matchingNativeOamCells": [],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 0,
+          "sourceVisible": false,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 22,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2780,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 22,
+            "scriptPC": 2782,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            384,
+            607
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 23,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2793,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 23,
+            "scriptPC": 2795,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 0,
+          "world": [
+            344,
+            415
+          ],
+          "tileAllocation": 328,
+          "expectedScreenOrigin": [
+            152,
+            31
+          ],
+          "matchingNativeOamCells": [
+            116,
+            117
+          ],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 288,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 24,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2819,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 24,
+            "scriptPC": 2821,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 2,
+          "world": [
+            376,
+            415
+          ],
+          "tileAllocation": 320,
+          "expectedScreenOrigin": [
+            184,
+            31
+          ],
+          "matchingNativeOamCells": [],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 0,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 25,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2845,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 25,
+            "scriptPC": 2847,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 1,
+          "world": [
+            408,
+            415
+          ],
+          "tileAllocation": 296,
+          "expectedScreenOrigin": [
+            216,
+            31
+          ],
+          "matchingNativeOamCells": [
+            108,
+            109
+          ],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 90,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 26,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2871,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 26,
+            "scriptPC": 2873,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 1,
+          "world": [
+            440,
+            415
+          ],
+          "tileAllocation": 288,
+          "expectedScreenOrigin": [
+            248,
+            31
+          ],
+          "matchingNativeOamCells": [
+            104,
+            105
+          ],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 87,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 27,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2897,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 27,
+            "scriptPC": 2899,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            280,
+            671
+          ],
+          "tileAllocation": 15111,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 28,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2919,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 28,
+            "scriptPC": 2921,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            328,
+            671
+          ],
+          "tileAllocation": 32520,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 29,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2941,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 29,
+            "scriptPC": 2943,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            440,
+            671
+          ],
+          "tileAllocation": 47617,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 30,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2963,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 30,
+            "scriptPC": 2965,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            488,
+            671
+          ],
+          "tileAllocation": 50151,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 31,
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 2985,
+          "explicitRowCommand": {
+            "frame": 8909,
+            "location": 80,
+            "pc": 12605696,
+            "object": 31,
+            "scriptPC": 2987,
+            "opcode": 51,
+            "tick": 53,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            600,
+            639
+          ],
+          "tileAllocation": 46598,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 32,
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 2999,
+          "explicitRowCommand": {
+            "frame": 8909,
+            "location": 80,
+            "pc": 12605696,
+            "object": 32,
+            "scriptPC": 3001,
+            "opcode": 51,
+            "tick": 53,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            632,
+            623
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 33,
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 3013,
+          "explicitRowCommand": {
+            "frame": 8909,
+            "location": 80,
+            "pc": 12605696,
+            "object": 33,
+            "scriptPC": 3015,
+            "opcode": 51,
+            "tick": 53,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            152,
+            639
+          ],
+          "tileAllocation": 8192,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 34,
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 3027,
+          "explicitRowCommand": {
+            "frame": 8909,
+            "location": 80,
+            "pc": 12605696,
+            "object": 34,
+            "scriptPC": 3029,
+            "opcode": 51,
+            "tick": 53,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            128,
+            552
+          ],
+          "tileAllocation": 438,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 35,
+          "kind": "npc",
+          "id": 79,
+          "header": [
+            125,
+            188,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 3048,
+          "explicitRowCommand": {
+            "frame": 8910,
+            "location": 80,
+            "pc": 12605696,
+            "object": 35,
+            "scriptPC": 3050,
+            "opcode": 51,
+            "tick": 54,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            128,
+            536
+          ],
+          "tileAllocation": 32768,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 36,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 3069,
+          "explicitRowCommand": {
+            "frame": 8910,
+            "location": 80,
+            "pc": 12605696,
+            "object": 36,
+            "scriptPC": 3071,
+            "opcode": 51,
+            "tick": 54,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            584,
+            671
+          ],
+          "tileAllocation": 183,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 37,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 3084,
+          "explicitRowCommand": {
+            "frame": 8910,
+            "location": 80,
+            "pc": 12605696,
+            "object": 37,
+            "scriptPC": 3086,
+            "opcode": 51,
+            "tick": 54,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            104,
+            591
+          ],
+          "tileAllocation": 8192,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 38,
+          "kind": "npc",
+          "id": 0,
+          "header": [
+            28,
+            17,
+            139,
+            11,
+            0
+          ],
+          "sourceLoadBody": 3099,
+          "explicitRowCommand": {
+            "frame": 8910,
+            "location": 80,
+            "pc": 12605696,
+            "object": 38,
+            "scriptPC": 3101,
+            "opcode": 51,
+            "tick": 54,
+            "row": 7,
+            "sourcePointer": 3336
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3336,
+          "nativeFrame": 7,
+          "world": [
+            440,
+            479
+          ],
+          "tileAllocation": 264,
+          "expectedScreenOrigin": [
+            248,
+            95
+          ],
+          "matchingNativeOamCells": [
+            68,
+            69,
+            70,
+            71
+          ],
+          "visibleExactActualColorPixels": 329,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": false,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 39,
+          "kind": "npc",
+          "id": 213,
+          "header": [
+            36,
+            25,
+            8,
+            16,
+            0
+          ],
+          "sourceLoadBody": 3114,
+          "explicitRowCommand": {
+            "frame": 8912,
+            "location": 80,
+            "pc": 12605696,
+            "object": 39,
+            "scriptPC": 3116,
+            "opcode": 51,
+            "tick": 56,
+            "row": 6,
+            "sourcePointer": 192
+          },
+          "runtimeRow": 6,
+          "palettePointer": 192,
+          "nativeFrame": 19,
+          "world": [
+            360,
+            543
+          ],
+          "tileAllocation": 256,
+          "expectedScreenOrigin": [
+            168,
+            159
+          ],
+          "matchingNativeOamCells": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "visibleExactActualColorPixels": 292,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 40,
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ],
+          "sourceLoadBody": 3158,
+          "explicitRowCommand": {
+            "frame": 8914,
+            "location": 80,
+            "pc": 12605696,
+            "object": 40,
+            "scriptPC": 3160,
+            "opcode": 51,
+            "tick": 58,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 18,
+          "world": [
+            360,
+            527
+          ],
+          "tileAllocation": 232,
+          "expectedScreenOrigin": [
+            168,
+            143
+          ],
+          "matchingNativeOamCells": [
+            60,
+            61,
+            62
+          ],
+          "visibleExactActualColorPixels": 296,
+          "occludedOrDifferent": 98,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 41,
+          "kind": "npc",
+          "id": 215,
+          "header": [
+            249,
+            231,
+            138,
+            16,
+            0
+          ],
+          "sourceLoadBody": 3189,
+          "explicitRowCommand": {
+            "frame": 8914,
+            "location": 80,
+            "pc": 12605696,
+            "object": 41,
+            "scriptPC": 3191,
+            "opcode": 51,
+            "tick": 58,
+            "row": 7,
+            "sourcePointer": 3312
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3312,
+          "nativeFrame": 3,
+          "world": [
+            232,
+            495
+          ],
+          "tileAllocation": 224,
+          "expectedScreenOrigin": [
+            40,
+            111
+          ],
+          "matchingNativeOamCells": [
+            64,
+            65,
+            66,
+            67
+          ],
+          "visibleExactActualColorPixels": 386,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        }
+      ],
+      "objectsWithoutSpriteLoad": [
+        0,
+        1,
+        13
+      ],
+      "assignments": [
+        {
+          "frame": 8903,
+          "location": 80,
+          "pc": 12605696,
+          "object": 2,
+          "scriptPC": 1715,
+          "opcode": 51,
+          "tick": 47,
+          "row": 0,
+          "sourcePointer": 0
+        },
+        {
+          "frame": 8903,
+          "location": 80,
+          "pc": 12605696,
+          "object": 3,
+          "scriptPC": 1758,
+          "opcode": 51,
+          "tick": 47,
+          "row": 1,
+          "sourcePointer": 24
+        },
+        {
+          "frame": 8903,
+          "location": 80,
+          "pc": 12605696,
+          "object": 4,
+          "scriptPC": 1801,
+          "opcode": 51,
+          "tick": 47,
+          "row": 2,
+          "sourcePointer": 48
+        },
+        {
+          "frame": 8903,
+          "location": 80,
+          "pc": 12605696,
+          "object": 5,
+          "scriptPC": 1817,
+          "opcode": 51,
+          "tick": 47,
+          "row": 3,
+          "sourcePointer": 1608
+        },
+        {
+          "frame": 8904,
+          "location": 80,
+          "pc": 12605696,
+          "object": 6,
+          "scriptPC": 2056,
+          "opcode": 51,
+          "tick": 48,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8904,
+          "location": 80,
+          "pc": 12605696,
+          "object": 7,
+          "scriptPC": 2131,
+          "opcode": 51,
+          "tick": 48,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8904,
+          "location": 80,
+          "pc": 12605696,
+          "object": 8,
+          "scriptPC": 2206,
+          "opcode": 51,
+          "tick": 48,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8904,
+          "location": 80,
+          "pc": 12605696,
+          "object": 9,
+          "scriptPC": 2250,
+          "opcode": 51,
+          "tick": 48,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8905,
+          "location": 80,
+          "pc": 12605696,
+          "object": 10,
+          "scriptPC": 2294,
+          "opcode": 51,
+          "tick": 49,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8905,
+          "location": 80,
+          "pc": 12605696,
+          "object": 11,
+          "scriptPC": 2381,
+          "opcode": 51,
+          "tick": 49,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8905,
+          "location": 80,
+          "pc": 12605696,
+          "object": 12,
+          "scriptPC": 2417,
+          "opcode": 51,
+          "tick": 49,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8906,
+          "location": 80,
+          "pc": 12605696,
+          "object": 14,
+          "scriptPC": 2480,
+          "opcode": 51,
+          "tick": 50,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 15,
+          "scriptPC": 2509,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 16,
+          "scriptPC": 2538,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 17,
+          "scriptPC": 2567,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 18,
+          "scriptPC": 2596,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 19,
+          "scriptPC": 2652,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 20,
+          "scriptPC": 2693,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 21,
+          "scriptPC": 2734,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 22,
+          "scriptPC": 2782,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 23,
+          "scriptPC": 2795,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 24,
+          "scriptPC": 2821,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 25,
+          "scriptPC": 2847,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 26,
+          "scriptPC": 2873,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 27,
+          "scriptPC": 2899,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 28,
+          "scriptPC": 2921,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 29,
+          "scriptPC": 2943,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 30,
+          "scriptPC": 2965,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8909,
+          "location": 80,
+          "pc": 12605696,
+          "object": 31,
+          "scriptPC": 2987,
+          "opcode": 51,
+          "tick": 53,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8909,
+          "location": 80,
+          "pc": 12605696,
+          "object": 32,
+          "scriptPC": 3001,
+          "opcode": 51,
+          "tick": 53,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8909,
+          "location": 80,
+          "pc": 12605696,
+          "object": 33,
+          "scriptPC": 3015,
+          "opcode": 51,
+          "tick": 53,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8909,
+          "location": 80,
+          "pc": 12605696,
+          "object": 34,
+          "scriptPC": 3029,
+          "opcode": 51,
+          "tick": 53,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8910,
+          "location": 80,
+          "pc": 12605696,
+          "object": 35,
+          "scriptPC": 3050,
+          "opcode": 51,
+          "tick": 54,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8910,
+          "location": 80,
+          "pc": 12605696,
+          "object": 36,
+          "scriptPC": 3071,
+          "opcode": 51,
+          "tick": 54,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8910,
+          "location": 80,
+          "pc": 12605696,
+          "object": 37,
+          "scriptPC": 3086,
+          "opcode": 51,
+          "tick": 54,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8910,
+          "location": 80,
+          "pc": 12605696,
+          "object": 38,
+          "scriptPC": 3101,
+          "opcode": 51,
+          "tick": 54,
+          "row": 7,
+          "sourcePointer": 3336
+        },
+        {
+          "frame": 8912,
+          "location": 80,
+          "pc": 12605696,
+          "object": 39,
+          "scriptPC": 3116,
+          "opcode": 51,
+          "tick": 56,
+          "row": 6,
+          "sourcePointer": 192
+        },
+        {
+          "frame": 8914,
+          "location": 80,
+          "pc": 12605696,
+          "object": 40,
+          "scriptPC": 3160,
+          "opcode": 51,
+          "tick": 58,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8914,
+          "location": 80,
+          "pc": 12605696,
+          "object": 41,
+          "scriptPC": 3191,
+          "opcode": 51,
+          "tick": 58,
+          "row": 7,
+          "sourcePointer": 3312
+        }
+      ],
+      "rows": [
+        {
+          "row": 0,
+          "cgramWords": [
+            3204,
+            5481,
+            8849,
+            14134,
+            20283,
+            6444,
+            10772,
+            4262,
+            25535,
+            4325,
+            18266,
+            20115,
+            2739,
+            2837,
+            3928
+          ],
+          "explicitObjects": [
+            2
+          ],
+          "runtimeObjects": [
+            2
+          ],
+          "onscreenNonemptyOamEntries": [
+            52,
+            53,
+            54,
+            55
+          ],
+          "visibleActualColorPixels": 428,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 1,
+          "cgramWords": [
+            4228,
+            8650,
+            13009,
+            18295,
+            22428,
+            9606,
+            12873,
+            5357,
+            26558,
+            5380,
+            9784,
+            5428,
+            3928,
+            3928,
+            3928
+          ],
+          "explicitObjects": [
+            3
+          ],
+          "runtimeObjects": [
+            3
+          ],
+          "onscreenNonemptyOamEntries": [
+            56,
+            57,
+            58,
+            59
+          ],
+          "visibleActualColorPixels": 69,
+          "occludedOrDifferent": 345
+        },
+        {
+          "row": 2,
+          "cgramWords": [
+            5253,
+            11594,
+            17969,
+            22231,
+            24411,
+            6345,
+            9616,
+            6310,
+            26558,
+            4228,
+            13879,
+            20116,
+            31775,
+            31775,
+            31775
+          ],
+          "explicitObjects": [
+            4
+          ],
+          "runtimeObjects": [
+            4
+          ],
+          "onscreenNonemptyOamEntries": [],
+          "visibleActualColorPixels": 0,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 3,
+          "cgramWords": [
+            2213,
+            32767,
+            32631,
+            32446,
+            32399,
+            14269,
+            28087,
+            8857,
+            6490,
+            23943,
+            17648,
+            5351,
+            31775,
+            31775,
+            31775
+          ],
+          "explicitObjects": [
+            5
+          ],
+          "runtimeObjects": [
+            5
+          ],
+          "onscreenNonemptyOamEntries": [
+            80,
+            81
+          ],
+          "visibleActualColorPixels": 61,
+          "occludedOrDifferent": 148
+        },
+        {
+          "row": 4,
+          "cgramWords": [
+            28506,
+            23221,
+            17936,
+            14797,
+            7399,
+            1107,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775
+          ],
+          "explicitObjects": [],
+          "runtimeObjects": [],
+          "onscreenNonemptyOamEntries": [],
+          "visibleActualColorPixels": 0,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 5,
+          "cgramWords": [
+            9383,
+            31677,
+            13563,
+            8280,
+            8212,
+            22721,
+            31172,
+            26913,
+            5823,
+            1535,
+            30388,
+            1467,
+            32767,
+            32297,
+            2591
+          ],
+          "explicitObjects": [
+            11,
+            12,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "runtimeObjects": [
+            11,
+            12,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "onscreenNonemptyOamEntries": [
+            104,
+            105,
+            108,
+            109,
+            116,
+            117
+          ],
+          "visibleActualColorPixels": 0,
+          "occludedOrDifferent": 465
+        },
+        {
+          "row": 6,
+          "cgramWords": [
+            6342,
+            28539,
+            22431,
+            13951,
+            7476,
+            25052,
+            11443,
+            7935,
+            3440,
+            24172,
+            15784,
+            20015,
+            22196,
+            12752,
+            9515
+          ],
+          "explicitObjects": [
+            39
+          ],
+          "runtimeObjects": [
+            39
+          ],
+          "onscreenNonemptyOamEntries": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "visibleActualColorPixels": 292,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 7,
+          "cgramWords": [
+            3204,
+            5481,
+            8849,
+            14134,
+            20283,
+            6444,
+            10772,
+            4262,
+            25535,
+            4325,
+            18266,
+            20115,
+            22196,
+            12752,
+            9515
+          ],
+          "explicitObjects": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            40,
+            41
+          ],
+          "runtimeObjects": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            40,
+            41
+          ],
+          "onscreenNonemptyOamEntries": [
+            32,
+            33,
+            35,
+            36,
+            37,
+            39,
+            40,
+            41,
+            43,
+            48,
+            50,
+            60,
+            61,
+            62,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            79
+          ],
+          "visibleActualColorPixels": 1965,
+          "occludedOrDifferent": 683
+        }
+      ],
+      "screenshot": "assets/imagegen/town-tradesmen/scene-verification/parade-rows-center.png",
+      "coVisibleSpecial": [
+        {
+          "npc": 0,
+          "object": 38,
+          "row": 7,
+          "visiblePixels": 329
+        },
+        {
+          "npc": 39,
+          "object": 40,
+          "row": 7,
+          "visiblePixels": 296
+        },
+        {
+          "npc": 215,
+          "object": 41,
+          "row": 7,
+          "visiblePixels": 386
+        }
+      ]
+    },
+    {
+      "view": {
+        "name": "west",
+        "x": 12,
+        "y": 33
+      },
+      "checkpoint": {
+        "story": 200,
+        "flag7F006D": 64,
+        "party": [
+          0,
+          1,
+          2
+        ],
+        "endgameKit": true
+      },
+      "nativeTicks": 1100,
+      "camera": {
+        "referenceObject": 41,
+        "world": [
+          232,
+          495
+        ],
+        "origin": [
+          168,
+          95
+        ],
+        "offset": [
+          64,
+          400
+        ]
+      },
+      "objects": [
+        {
+          "object": 2,
+          "kind": "pc",
+          "id": 0,
+          "header": null,
+          "sourceLoadBody": 1714,
+          "explicitRowCommand": {
+            "frame": 8903,
+            "location": 80,
+            "pc": 12605696,
+            "object": 2,
+            "scriptPC": 1715,
+            "opcode": 51,
+            "tick": 47,
+            "row": 0,
+            "sourcePointer": 0
+          },
+          "runtimeRow": 0,
+          "palettePointer": 0,
+          "nativeFrame": 3,
+          "world": [
+            200,
+            543
+          ],
+          "tileAllocation": 8,
+          "visibleScope": "PC rows are covered by actual OAM occupancy below; no source-cell ownership reconstruction for this PC."
+        },
+        {
+          "object": 3,
+          "kind": "pc",
+          "id": 1,
+          "header": null,
+          "sourceLoadBody": 1757,
+          "explicitRowCommand": {
+            "frame": 8903,
+            "location": 80,
+            "pc": 12605696,
+            "object": 3,
+            "scriptPC": 1758,
+            "opcode": 51,
+            "tick": 47,
+            "row": 1,
+            "sourcePointer": 24
+          },
+          "runtimeRow": 1,
+          "palettePointer": 24,
+          "nativeFrame": 0,
+          "world": [
+            200,
+            543
+          ],
+          "tileAllocation": 32,
+          "visibleScope": "PC rows are covered by actual OAM occupancy below; no source-cell ownership reconstruction for this PC."
+        },
+        {
+          "object": 4,
+          "kind": "pc",
+          "id": 2,
+          "header": null,
+          "sourceLoadBody": 1800,
+          "explicitRowCommand": {
+            "frame": 8903,
+            "location": 80,
+            "pc": 12605696,
+            "object": 4,
+            "scriptPC": 1801,
+            "opcode": 51,
+            "tick": 47,
+            "row": 2,
+            "sourcePointer": 48
+          },
+          "runtimeRow": 2,
+          "palettePointer": 48,
+          "nativeFrame": 255,
+          "world": [
+            200,
+            543
+          ],
+          "tileAllocation": 40,
+          "visibleScope": "PC rows are covered by actual OAM occupancy below; no source-cell ownership reconstruction for this PC."
+        },
+        {
+          "object": 5,
+          "kind": "npc",
+          "id": 78,
+          "header": [
+            86,
+            43,
+            67,
+            33,
+            0
+          ],
+          "sourceLoadBody": 1815,
+          "explicitRowCommand": {
+            "frame": 8903,
+            "location": 80,
+            "pc": 12605696,
+            "object": 5,
+            "scriptPC": 1817,
+            "opcode": 51,
+            "tick": 47,
+            "row": 3,
+            "sourcePointer": 1608
+          },
+          "runtimeRow": 3,
+          "palettePointer": 1608,
+          "nativeFrame": 10,
+          "world": [
+            255,
+            426
+          ],
+          "tileAllocation": 392,
+          "expectedScreenOrigin": [
+            191,
+            26
+          ],
+          "matchingNativeOamCells": [
+            76,
+            77
+          ],
+          "visibleExactActualColorPixels": 112,
+          "occludedOrDifferent": 95,
+          "sourceVisible": true,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 6,
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ],
+          "sourceLoadBody": 2054,
+          "explicitRowCommand": {
+            "frame": 8904,
+            "location": 80,
+            "pc": 12605696,
+            "object": 6,
+            "scriptPC": 2056,
+            "opcode": 51,
+            "tick": 48,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 5,
+          "world": [
+            210,
+            430
+          ],
+          "tileAllocation": 224,
+          "expectedScreenOrigin": [
+            146,
+            30
+          ],
+          "matchingNativeOamCells": [
+            70,
+            71
+          ],
+          "visibleExactActualColorPixels": 290,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 7,
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ],
+          "sourceLoadBody": 2129,
+          "explicitRowCommand": {
+            "frame": 8904,
+            "location": 80,
+            "pc": 12605696,
+            "object": 7,
+            "scriptPC": 2131,
+            "opcode": 51,
+            "tick": 48,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 5,
+          "world": [
+            191,
+            490
+          ],
+          "tileAllocation": 256,
+          "expectedScreenOrigin": [
+            127,
+            90
+          ],
+          "matchingNativeOamCells": [],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 0,
+          "sourceVisible": false,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 8,
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ],
+          "sourceLoadBody": 2204,
+          "explicitRowCommand": {
+            "frame": 8904,
+            "location": 80,
+            "pc": 12605696,
+            "object": 8,
+            "scriptPC": 2206,
+            "opcode": 51,
+            "tick": 48,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            384,
+            607
+          ],
+          "tileAllocation": 392,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 9,
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ],
+          "sourceLoadBody": 2248,
+          "explicitRowCommand": {
+            "frame": 8904,
+            "location": 80,
+            "pc": 12605696,
+            "object": 9,
+            "scriptPC": 2250,
+            "opcode": 51,
+            "tick": 48,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            384,
+            607
+          ],
+          "tileAllocation": 384,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 10,
+          "kind": "npc",
+          "id": 190,
+          "header": [
+            43,
+            32,
+            133,
+            57,
+            0
+          ],
+          "sourceLoadBody": 2292,
+          "explicitRowCommand": {
+            "frame": 8905,
+            "location": 80,
+            "pc": 12605696,
+            "object": 10,
+            "scriptPC": 2294,
+            "opcode": 51,
+            "tick": 49,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 16,
+          "world": [
+            250,
+            425
+          ],
+          "tileAllocation": 232,
+          "expectedScreenOrigin": [
+            186,
+            25
+          ],
+          "matchingNativeOamCells": [
+            75
+          ],
+          "visibleExactActualColorPixels": 147,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 11,
+          "kind": "npc",
+          "id": 196,
+          "header": [
+            234,
+            218,
+            245,
+            184,
+            0
+          ],
+          "sourceLoadBody": 2379,
+          "explicitRowCommand": {
+            "frame": 8905,
+            "location": 80,
+            "pc": 12605696,
+            "object": 11,
+            "scriptPC": 2381,
+            "opcode": 51,
+            "tick": 49,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 0,
+          "world": [
+            325,
+            196
+          ],
+          "tileAllocation": 192,
+          "expectedScreenOrigin": [
+            261,
+            -204
+          ],
+          "matchingNativeOamCells": [],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 0,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 12,
+          "kind": "npc",
+          "id": 196,
+          "header": [
+            234,
+            218,
+            245,
+            184,
+            0
+          ],
+          "sourceLoadBody": 2415,
+          "explicitRowCommand": {
+            "frame": 8905,
+            "location": 80,
+            "pc": 12605696,
+            "object": 12,
+            "scriptPC": 2417,
+            "opcode": 51,
+            "tick": 49,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 0,
+          "world": [
+            254,
+            410
+          ],
+          "tileAllocation": 200,
+          "expectedScreenOrigin": [
+            190,
+            10
+          ],
+          "matchingNativeOamCells": [],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 0,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 14,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2478,
+          "explicitRowCommand": {
+            "frame": 8906,
+            "location": 80,
+            "pc": 12605696,
+            "object": 14,
+            "scriptPC": 2480,
+            "opcode": 51,
+            "tick": 50,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            344,
+            415
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 15,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2507,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 15,
+            "scriptPC": 2509,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            376,
+            415
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 16,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2536,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 16,
+            "scriptPC": 2538,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            408,
+            415
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 17,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2565,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 17,
+            "scriptPC": 2567,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            440,
+            415
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 18,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2594,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 18,
+            "scriptPC": 2596,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 20,
+          "world": [
+            296,
+            607
+          ],
+          "tileAllocation": 384,
+          "expectedScreenOrigin": [
+            232,
+            207
+          ],
+          "matchingNativeOamCells": [
+            32,
+            33,
+            35
+          ],
+          "visibleExactActualColorPixels": 268,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 19,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2650,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 19,
+            "scriptPC": 2652,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 20,
+          "world": [
+            344,
+            591
+          ],
+          "tileAllocation": 360,
+          "expectedScreenOrigin": [
+            280,
+            191
+          ],
+          "matchingNativeOamCells": [],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 0,
+          "sourceVisible": false,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 20,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2691,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 20,
+            "scriptPC": 2693,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            424,
+            591
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 21,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2732,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 21,
+            "scriptPC": 2734,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            472,
+            607
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 22,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2780,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 22,
+            "scriptPC": 2782,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            384,
+            607
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 23,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2793,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 23,
+            "scriptPC": 2795,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 1,
+          "world": [
+            344,
+            415
+          ],
+          "tileAllocation": 352,
+          "expectedScreenOrigin": [
+            280,
+            15
+          ],
+          "matchingNativeOamCells": [],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 0,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 24,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2819,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 24,
+            "scriptPC": 2821,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            376,
+            415
+          ],
+          "tileAllocation": 3939,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 25,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2845,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 25,
+            "scriptPC": 2847,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            408,
+            415
+          ],
+          "tileAllocation": 12544,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 26,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2871,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 26,
+            "scriptPC": 2873,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            440,
+            415
+          ],
+          "tileAllocation": 52736,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 27,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2897,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 27,
+            "scriptPC": 2899,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            280,
+            671
+          ],
+          "tileAllocation": 15111,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 28,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2919,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 28,
+            "scriptPC": 2921,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            328,
+            671
+          ],
+          "tileAllocation": 32520,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 29,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2941,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 29,
+            "scriptPC": 2943,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            440,
+            671
+          ],
+          "tileAllocation": 47617,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 30,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2963,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 30,
+            "scriptPC": 2965,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            488,
+            671
+          ],
+          "tileAllocation": 50151,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 31,
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 2985,
+          "explicitRowCommand": {
+            "frame": 8909,
+            "location": 80,
+            "pc": 12605696,
+            "object": 31,
+            "scriptPC": 2987,
+            "opcode": 51,
+            "tick": 53,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            600,
+            639
+          ],
+          "tileAllocation": 46598,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 32,
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 2999,
+          "explicitRowCommand": {
+            "frame": 8909,
+            "location": 80,
+            "pc": 12605696,
+            "object": 32,
+            "scriptPC": 3001,
+            "opcode": 51,
+            "tick": 53,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            632,
+            623
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 33,
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 3013,
+          "explicitRowCommand": {
+            "frame": 8909,
+            "location": 80,
+            "pc": 12605696,
+            "object": 33,
+            "scriptPC": 3015,
+            "opcode": 51,
+            "tick": 53,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 3,
+          "world": [
+            152,
+            639
+          ],
+          "tileAllocation": 328,
+          "expectedScreenOrigin": [
+            88,
+            239
+          ],
+          "matchingNativeOamCells": [],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 0,
+          "sourceVisible": false,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 34,
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 3027,
+          "explicitRowCommand": {
+            "frame": 8909,
+            "location": 80,
+            "pc": 12605696,
+            "object": 34,
+            "scriptPC": 3029,
+            "opcode": 51,
+            "tick": 53,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 18,
+          "world": [
+            128,
+            552
+          ],
+          "tileAllocation": 320,
+          "expectedScreenOrigin": [
+            64,
+            152
+          ],
+          "matchingNativeOamCells": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "visibleExactActualColorPixels": 257,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 35,
+          "kind": "npc",
+          "id": 79,
+          "header": [
+            125,
+            188,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 3048,
+          "explicitRowCommand": {
+            "frame": 8910,
+            "location": 80,
+            "pc": 12605696,
+            "object": 35,
+            "scriptPC": 3050,
+            "opcode": 51,
+            "tick": 54,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 18,
+          "world": [
+            128,
+            536
+          ],
+          "tileAllocation": 296,
+          "expectedScreenOrigin": [
+            64,
+            136
+          ],
+          "matchingNativeOamCells": [
+            56,
+            57,
+            58,
+            59
+          ],
+          "visibleExactActualColorPixels": 235,
+          "occludedOrDifferent": 56,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 36,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 3069,
+          "explicitRowCommand": {
+            "frame": 8910,
+            "location": 80,
+            "pc": 12605696,
+            "object": 36,
+            "scriptPC": 3071,
+            "opcode": 51,
+            "tick": 54,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            584,
+            671
+          ],
+          "tileAllocation": 183,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 37,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 3084,
+          "explicitRowCommand": {
+            "frame": 8910,
+            "location": 80,
+            "pc": 12605696,
+            "object": 37,
+            "scriptPC": 3086,
+            "opcode": 51,
+            "tick": 54,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 28,
+          "world": [
+            104,
+            591
+          ],
+          "tileAllocation": 288,
+          "expectedScreenOrigin": [
+            40,
+            191
+          ],
+          "matchingNativeOamCells": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "visibleExactActualColorPixels": 288,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 38,
+          "kind": "npc",
+          "id": 0,
+          "header": [
+            28,
+            17,
+            139,
+            11,
+            0
+          ],
+          "sourceLoadBody": 3099,
+          "explicitRowCommand": {
+            "frame": 8910,
+            "location": 80,
+            "pc": 12605696,
+            "object": 38,
+            "scriptPC": 3101,
+            "opcode": 51,
+            "tick": 54,
+            "row": 7,
+            "sourcePointer": 3336
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3336,
+          "nativeFrame": 255,
+          "world": [
+            440,
+            479
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 39,
+          "kind": "npc",
+          "id": 213,
+          "header": [
+            36,
+            25,
+            8,
+            16,
+            0
+          ],
+          "sourceLoadBody": 3114,
+          "explicitRowCommand": {
+            "frame": 8912,
+            "location": 80,
+            "pc": 12605696,
+            "object": 39,
+            "scriptPC": 3116,
+            "opcode": 51,
+            "tick": 56,
+            "row": 6,
+            "sourcePointer": 192
+          },
+          "runtimeRow": 6,
+          "palettePointer": 192,
+          "nativeFrame": 255,
+          "world": [
+            360,
+            543
+          ],
+          "tileAllocation": 32768,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 40,
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ],
+          "sourceLoadBody": 3158,
+          "explicitRowCommand": {
+            "frame": 8914,
+            "location": 80,
+            "pc": 12605696,
+            "object": 40,
+            "scriptPC": 3160,
+            "opcode": 51,
+            "tick": 58,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            360,
+            527
+          ],
+          "tileAllocation": 65535,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 41,
+          "kind": "npc",
+          "id": 215,
+          "header": [
+            249,
+            231,
+            138,
+            16,
+            0
+          ],
+          "sourceLoadBody": 3189,
+          "explicitRowCommand": {
+            "frame": 8914,
+            "location": 80,
+            "pc": 12605696,
+            "object": 41,
+            "scriptPC": 3191,
+            "opcode": 51,
+            "tick": 58,
+            "row": 7,
+            "sourcePointer": 3312
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3312,
+          "nativeFrame": 1,
+          "world": [
+            232,
+            495
+          ],
+          "tileAllocation": 264,
+          "expectedScreenOrigin": [
+            168,
+            95
+          ],
+          "matchingNativeOamCells": [
+            60,
+            61,
+            62,
+            63
+          ],
+          "visibleExactActualColorPixels": 405,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        }
+      ],
+      "objectsWithoutSpriteLoad": [
+        0,
+        1,
+        13
+      ],
+      "assignments": [
+        {
+          "frame": 8903,
+          "location": 80,
+          "pc": 12605696,
+          "object": 2,
+          "scriptPC": 1715,
+          "opcode": 51,
+          "tick": 47,
+          "row": 0,
+          "sourcePointer": 0
+        },
+        {
+          "frame": 8903,
+          "location": 80,
+          "pc": 12605696,
+          "object": 3,
+          "scriptPC": 1758,
+          "opcode": 51,
+          "tick": 47,
+          "row": 1,
+          "sourcePointer": 24
+        },
+        {
+          "frame": 8903,
+          "location": 80,
+          "pc": 12605696,
+          "object": 4,
+          "scriptPC": 1801,
+          "opcode": 51,
+          "tick": 47,
+          "row": 2,
+          "sourcePointer": 48
+        },
+        {
+          "frame": 8903,
+          "location": 80,
+          "pc": 12605696,
+          "object": 5,
+          "scriptPC": 1817,
+          "opcode": 51,
+          "tick": 47,
+          "row": 3,
+          "sourcePointer": 1608
+        },
+        {
+          "frame": 8904,
+          "location": 80,
+          "pc": 12605696,
+          "object": 6,
+          "scriptPC": 2056,
+          "opcode": 51,
+          "tick": 48,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8904,
+          "location": 80,
+          "pc": 12605696,
+          "object": 7,
+          "scriptPC": 2131,
+          "opcode": 51,
+          "tick": 48,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8904,
+          "location": 80,
+          "pc": 12605696,
+          "object": 8,
+          "scriptPC": 2206,
+          "opcode": 51,
+          "tick": 48,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8904,
+          "location": 80,
+          "pc": 12605696,
+          "object": 9,
+          "scriptPC": 2250,
+          "opcode": 51,
+          "tick": 48,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8905,
+          "location": 80,
+          "pc": 12605696,
+          "object": 10,
+          "scriptPC": 2294,
+          "opcode": 51,
+          "tick": 49,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8905,
+          "location": 80,
+          "pc": 12605696,
+          "object": 11,
+          "scriptPC": 2381,
+          "opcode": 51,
+          "tick": 49,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8905,
+          "location": 80,
+          "pc": 12605696,
+          "object": 12,
+          "scriptPC": 2417,
+          "opcode": 51,
+          "tick": 49,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8906,
+          "location": 80,
+          "pc": 12605696,
+          "object": 14,
+          "scriptPC": 2480,
+          "opcode": 51,
+          "tick": 50,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 15,
+          "scriptPC": 2509,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 16,
+          "scriptPC": 2538,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 17,
+          "scriptPC": 2567,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 18,
+          "scriptPC": 2596,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 19,
+          "scriptPC": 2652,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 20,
+          "scriptPC": 2693,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 21,
+          "scriptPC": 2734,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 22,
+          "scriptPC": 2782,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 23,
+          "scriptPC": 2795,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 24,
+          "scriptPC": 2821,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 25,
+          "scriptPC": 2847,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 26,
+          "scriptPC": 2873,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 27,
+          "scriptPC": 2899,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 28,
+          "scriptPC": 2921,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 29,
+          "scriptPC": 2943,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 30,
+          "scriptPC": 2965,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8909,
+          "location": 80,
+          "pc": 12605696,
+          "object": 31,
+          "scriptPC": 2987,
+          "opcode": 51,
+          "tick": 53,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8909,
+          "location": 80,
+          "pc": 12605696,
+          "object": 32,
+          "scriptPC": 3001,
+          "opcode": 51,
+          "tick": 53,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8909,
+          "location": 80,
+          "pc": 12605696,
+          "object": 33,
+          "scriptPC": 3015,
+          "opcode": 51,
+          "tick": 53,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8909,
+          "location": 80,
+          "pc": 12605696,
+          "object": 34,
+          "scriptPC": 3029,
+          "opcode": 51,
+          "tick": 53,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8910,
+          "location": 80,
+          "pc": 12605696,
+          "object": 35,
+          "scriptPC": 3050,
+          "opcode": 51,
+          "tick": 54,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8910,
+          "location": 80,
+          "pc": 12605696,
+          "object": 36,
+          "scriptPC": 3071,
+          "opcode": 51,
+          "tick": 54,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8910,
+          "location": 80,
+          "pc": 12605696,
+          "object": 37,
+          "scriptPC": 3086,
+          "opcode": 51,
+          "tick": 54,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8910,
+          "location": 80,
+          "pc": 12605696,
+          "object": 38,
+          "scriptPC": 3101,
+          "opcode": 51,
+          "tick": 54,
+          "row": 7,
+          "sourcePointer": 3336
+        },
+        {
+          "frame": 8912,
+          "location": 80,
+          "pc": 12605696,
+          "object": 39,
+          "scriptPC": 3116,
+          "opcode": 51,
+          "tick": 56,
+          "row": 6,
+          "sourcePointer": 192
+        },
+        {
+          "frame": 8914,
+          "location": 80,
+          "pc": 12605696,
+          "object": 40,
+          "scriptPC": 3160,
+          "opcode": 51,
+          "tick": 58,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8914,
+          "location": 80,
+          "pc": 12605696,
+          "object": 41,
+          "scriptPC": 3191,
+          "opcode": 51,
+          "tick": 58,
+          "row": 7,
+          "sourcePointer": 3312
+        }
+      ],
+      "rows": [
+        {
+          "row": 0,
+          "cgramWords": [
+            3204,
+            5481,
+            8849,
+            14134,
+            20283,
+            6444,
+            10772,
+            4262,
+            25535,
+            4325,
+            18266,
+            20115,
+            2739,
+            2837,
+            3928
+          ],
+          "explicitObjects": [
+            2
+          ],
+          "runtimeObjects": [
+            2
+          ],
+          "onscreenNonemptyOamEntries": [
+            48,
+            49,
+            50,
+            51
+          ],
+          "visibleActualColorPixels": 428,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 1,
+          "cgramWords": [
+            4228,
+            8650,
+            13009,
+            18295,
+            22428,
+            9606,
+            12873,
+            5357,
+            26558,
+            5380,
+            9784,
+            5428,
+            3928,
+            3928,
+            3928
+          ],
+          "explicitObjects": [
+            3
+          ],
+          "runtimeObjects": [
+            3
+          ],
+          "onscreenNonemptyOamEntries": [
+            52,
+            53,
+            54,
+            55
+          ],
+          "visibleActualColorPixels": 69,
+          "occludedOrDifferent": 345
+        },
+        {
+          "row": 2,
+          "cgramWords": [
+            5253,
+            11594,
+            17969,
+            22231,
+            24411,
+            6345,
+            9616,
+            6310,
+            26558,
+            4228,
+            13879,
+            20116,
+            31775,
+            31775,
+            31775
+          ],
+          "explicitObjects": [
+            4
+          ],
+          "runtimeObjects": [
+            4
+          ],
+          "onscreenNonemptyOamEntries": [],
+          "visibleActualColorPixels": 0,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 3,
+          "cgramWords": [
+            2213,
+            32767,
+            32631,
+            32446,
+            32399,
+            14269,
+            28087,
+            8857,
+            6490,
+            23943,
+            17648,
+            5351,
+            31775,
+            31775,
+            31775
+          ],
+          "explicitObjects": [
+            5
+          ],
+          "runtimeObjects": [
+            5
+          ],
+          "onscreenNonemptyOamEntries": [
+            76,
+            77
+          ],
+          "visibleActualColorPixels": 112,
+          "occludedOrDifferent": 95
+        },
+        {
+          "row": 4,
+          "cgramWords": [
+            28506,
+            23221,
+            17936,
+            14797,
+            7399,
+            1107,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775
+          ],
+          "explicitObjects": [],
+          "runtimeObjects": [],
+          "onscreenNonemptyOamEntries": [],
+          "visibleActualColorPixels": 0,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 5,
+          "cgramWords": [
+            9383,
+            31677,
+            13563,
+            8280,
+            8212,
+            22721,
+            31172,
+            26913,
+            5823,
+            1535,
+            30388,
+            1467,
+            32767,
+            32297,
+            2591
+          ],
+          "explicitObjects": [
+            11,
+            12,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "runtimeObjects": [
+            11,
+            12,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "onscreenNonemptyOamEntries": [],
+          "visibleActualColorPixels": 0,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 6,
+          "cgramWords": [
+            6342,
+            28539,
+            22431,
+            13951,
+            7476,
+            25052,
+            11443,
+            7935,
+            3440,
+            24172,
+            15784,
+            20015,
+            22196,
+            12752,
+            9515
+          ],
+          "explicitObjects": [
+            39
+          ],
+          "runtimeObjects": [
+            39
+          ],
+          "onscreenNonemptyOamEntries": [],
+          "visibleActualColorPixels": 0,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 7,
+          "cgramWords": [
+            3204,
+            5481,
+            8849,
+            14134,
+            20283,
+            6444,
+            10772,
+            4262,
+            25535,
+            4325,
+            18266,
+            20115,
+            22196,
+            12752,
+            9515
+          ],
+          "explicitObjects": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            40,
+            41
+          ],
+          "runtimeObjects": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            40,
+            41
+          ],
+          "onscreenNonemptyOamEntries": [
+            28,
+            29,
+            32,
+            33,
+            35,
+            36,
+            37,
+            38,
+            39,
+            44,
+            45,
+            46,
+            47,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            70,
+            71,
+            75
+          ],
+          "visibleActualColorPixels": 2435,
+          "occludedOrDifferent": 134
+        }
+      ],
+      "screenshot": "assets/imagegen/town-tradesmen/scene-verification/parade-rows-west.png",
+      "coVisibleSpecial": [
+        {
+          "npc": 79,
+          "object": 35,
+          "row": 7,
+          "visiblePixels": 235
+        },
+        {
+          "npc": 215,
+          "object": 41,
+          "row": 7,
+          "visiblePixels": 405
+        }
+      ]
+    },
+    {
+      "view": {
+        "name": "east",
+        "x": 26,
+        "y": 30
+      },
+      "checkpoint": {
+        "story": 200,
+        "flag7F006D": 64,
+        "party": [
+          0,
+          1,
+          2
+        ],
+        "endgameKit": true
+      },
+      "nativeTicks": 1100,
+      "camera": {
+        "referenceObject": 40,
+        "world": [
+          360,
+          527
+        ],
+        "origin": [
+          72,
+          175
+        ],
+        "offset": [
+          288,
+          352
+        ]
+      },
+      "objects": [
+        {
+          "object": 2,
+          "kind": "pc",
+          "id": 0,
+          "header": null,
+          "sourceLoadBody": 1714,
+          "explicitRowCommand": {
+            "frame": 8903,
+            "location": 80,
+            "pc": 12605696,
+            "object": 2,
+            "scriptPC": 1715,
+            "opcode": 51,
+            "tick": 47,
+            "row": 0,
+            "sourcePointer": 0
+          },
+          "runtimeRow": 0,
+          "palettePointer": 0,
+          "nativeFrame": 3,
+          "world": [
+            424,
+            495
+          ],
+          "tileAllocation": 8,
+          "visibleScope": "PC rows are covered by actual OAM occupancy below; no source-cell ownership reconstruction for this PC."
+        },
+        {
+          "object": 3,
+          "kind": "pc",
+          "id": 1,
+          "header": null,
+          "sourceLoadBody": 1757,
+          "explicitRowCommand": {
+            "frame": 8903,
+            "location": 80,
+            "pc": 12605696,
+            "object": 3,
+            "scriptPC": 1758,
+            "opcode": 51,
+            "tick": 47,
+            "row": 1,
+            "sourcePointer": 24
+          },
+          "runtimeRow": 1,
+          "palettePointer": 24,
+          "nativeFrame": 0,
+          "world": [
+            424,
+            495
+          ],
+          "tileAllocation": 32,
+          "visibleScope": "PC rows are covered by actual OAM occupancy below; no source-cell ownership reconstruction for this PC."
+        },
+        {
+          "object": 4,
+          "kind": "pc",
+          "id": 2,
+          "header": null,
+          "sourceLoadBody": 1800,
+          "explicitRowCommand": {
+            "frame": 8903,
+            "location": 80,
+            "pc": 12605696,
+            "object": 4,
+            "scriptPC": 1801,
+            "opcode": 51,
+            "tick": 47,
+            "row": 2,
+            "sourcePointer": 48
+          },
+          "runtimeRow": 2,
+          "palettePointer": 48,
+          "nativeFrame": 255,
+          "world": [
+            424,
+            495
+          ],
+          "tileAllocation": 40,
+          "visibleScope": "PC rows are covered by actual OAM occupancy below; no source-cell ownership reconstruction for this PC."
+        },
+        {
+          "object": 5,
+          "kind": "npc",
+          "id": 78,
+          "header": [
+            86,
+            43,
+            67,
+            33,
+            0
+          ],
+          "sourceLoadBody": 1815,
+          "explicitRowCommand": {
+            "frame": 8903,
+            "location": 80,
+            "pc": 12605696,
+            "object": 5,
+            "scriptPC": 1817,
+            "opcode": 51,
+            "tick": 47,
+            "row": 3,
+            "sourcePointer": 1608
+          },
+          "runtimeRow": 3,
+          "palettePointer": 1608,
+          "nativeFrame": 11,
+          "world": [
+            261,
+            425
+          ],
+          "tileAllocation": 224,
+          "expectedScreenOrigin": [
+            -27,
+            73
+          ],
+          "matchingNativeOamCells": [],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 0,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 6,
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ],
+          "sourceLoadBody": 2054,
+          "explicitRowCommand": {
+            "frame": 8904,
+            "location": 80,
+            "pc": 12605696,
+            "object": 6,
+            "scriptPC": 2056,
+            "opcode": 51,
+            "tick": 48,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            216,
+            430
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 7,
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ],
+          "sourceLoadBody": 2129,
+          "explicitRowCommand": {
+            "frame": 8904,
+            "location": 80,
+            "pc": 12605696,
+            "object": 7,
+            "scriptPC": 2131,
+            "opcode": 51,
+            "tick": 48,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            193,
+            484
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 8,
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ],
+          "sourceLoadBody": 2204,
+          "explicitRowCommand": {
+            "frame": 8904,
+            "location": 80,
+            "pc": 12605696,
+            "object": 8,
+            "scriptPC": 2206,
+            "opcode": 51,
+            "tick": 48,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            384,
+            607
+          ],
+          "tileAllocation": 392,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 9,
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ],
+          "sourceLoadBody": 2248,
+          "explicitRowCommand": {
+            "frame": 8904,
+            "location": 80,
+            "pc": 12605696,
+            "object": 9,
+            "scriptPC": 2250,
+            "opcode": 51,
+            "tick": 48,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            384,
+            607
+          ],
+          "tileAllocation": 384,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 10,
+          "kind": "npc",
+          "id": 190,
+          "header": [
+            43,
+            32,
+            133,
+            57,
+            0
+          ],
+          "sourceLoadBody": 2292,
+          "explicitRowCommand": {
+            "frame": 8905,
+            "location": 80,
+            "pc": 12605696,
+            "object": 10,
+            "scriptPC": 2294,
+            "opcode": 51,
+            "tick": 49,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            209,
+            429
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 11,
+          "kind": "npc",
+          "id": 196,
+          "header": [
+            234,
+            218,
+            245,
+            184,
+            0
+          ],
+          "sourceLoadBody": 2379,
+          "explicitRowCommand": {
+            "frame": 8905,
+            "location": 80,
+            "pc": 12605696,
+            "object": 11,
+            "scriptPC": 2381,
+            "opcode": 51,
+            "tick": 49,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 0,
+          "world": [
+            325,
+            196
+          ],
+          "tileAllocation": 224,
+          "expectedScreenOrigin": [
+            37,
+            -156
+          ],
+          "matchingNativeOamCells": [],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 0,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 12,
+          "kind": "npc",
+          "id": 196,
+          "header": [
+            234,
+            218,
+            245,
+            184,
+            0
+          ],
+          "sourceLoadBody": 2415,
+          "explicitRowCommand": {
+            "frame": 8905,
+            "location": 80,
+            "pc": 12605696,
+            "object": 12,
+            "scriptPC": 2417,
+            "opcode": 51,
+            "tick": 49,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 0,
+          "world": [
+            268,
+            392
+          ],
+          "tileAllocation": 200,
+          "expectedScreenOrigin": [
+            -20,
+            40
+          ],
+          "matchingNativeOamCells": [
+            4,
+            6
+          ],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 12,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 14,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2478,
+          "explicitRowCommand": {
+            "frame": 8906,
+            "location": 80,
+            "pc": 12605696,
+            "object": 14,
+            "scriptPC": 2480,
+            "opcode": 51,
+            "tick": 50,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            344,
+            415
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 15,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2507,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 15,
+            "scriptPC": 2509,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            376,
+            415
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 16,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2536,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 16,
+            "scriptPC": 2538,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            408,
+            415
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 17,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2565,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 17,
+            "scriptPC": 2567,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            440,
+            415
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 18,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2594,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 18,
+            "scriptPC": 2596,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 21,
+          "world": [
+            296,
+            607
+          ],
+          "tileAllocation": 392,
+          "expectedScreenOrigin": [
+            8,
+            255
+          ],
+          "matchingNativeOamCells": [
+            32,
+            33
+          ],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 2,
+          "sourceVisible": false,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 19,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2650,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 19,
+            "scriptPC": 2652,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 21,
+          "world": [
+            344,
+            591
+          ],
+          "tileAllocation": 384,
+          "expectedScreenOrigin": [
+            56,
+            239
+          ],
+          "matchingNativeOamCells": [
+            40,
+            41,
+            43
+          ],
+          "visibleExactActualColorPixels": 6,
+          "occludedOrDifferent": 100,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 20,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2691,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 20,
+            "scriptPC": 2693,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 21,
+          "world": [
+            424,
+            591
+          ],
+          "tileAllocation": 360,
+          "expectedScreenOrigin": [
+            136,
+            239
+          ],
+          "matchingNativeOamCells": [
+            36,
+            37,
+            39
+          ],
+          "visibleExactActualColorPixels": 6,
+          "occludedOrDifferent": 100,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 21,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 2732,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 21,
+            "scriptPC": 2734,
+            "opcode": 51,
+            "tick": 51,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 21,
+          "world": [
+            472,
+            607
+          ],
+          "tileAllocation": 352,
+          "expectedScreenOrigin": [
+            184,
+            255
+          ],
+          "matchingNativeOamCells": [
+            28,
+            29
+          ],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 2,
+          "sourceVisible": false,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 22,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2780,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 22,
+            "scriptPC": 2782,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            384,
+            607
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 23,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2793,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 23,
+            "scriptPC": 2795,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 0,
+          "world": [
+            344,
+            415
+          ],
+          "tileAllocation": 328,
+          "expectedScreenOrigin": [
+            56,
+            63
+          ],
+          "matchingNativeOamCells": [
+            116,
+            117,
+            118,
+            119
+          ],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 417,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 24,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2819,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 24,
+            "scriptPC": 2821,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 2,
+          "world": [
+            376,
+            415
+          ],
+          "tileAllocation": 320,
+          "expectedScreenOrigin": [
+            88,
+            63
+          ],
+          "matchingNativeOamCells": [
+            114,
+            115
+          ],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 226,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 25,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2845,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 25,
+            "scriptPC": 2847,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 1,
+          "world": [
+            408,
+            415
+          ],
+          "tileAllocation": 296,
+          "expectedScreenOrigin": [
+            120,
+            63
+          ],
+          "matchingNativeOamCells": [
+            108,
+            109,
+            110,
+            111
+          ],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 461,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 26,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2871,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 26,
+            "scriptPC": 2873,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 1,
+          "world": [
+            440,
+            415
+          ],
+          "tileAllocation": 288,
+          "expectedScreenOrigin": [
+            152,
+            63
+          ],
+          "matchingNativeOamCells": [
+            104,
+            105,
+            106,
+            107
+          ],
+          "visibleExactActualColorPixels": 0,
+          "occludedOrDifferent": 461,
+          "sourceVisible": false,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 27,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2897,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 27,
+            "scriptPC": 2899,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            280,
+            671
+          ],
+          "tileAllocation": 15111,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 28,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2919,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 28,
+            "scriptPC": 2921,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            328,
+            671
+          ],
+          "tileAllocation": 32520,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 29,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2941,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 29,
+            "scriptPC": 2943,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            440,
+            671
+          ],
+          "tileAllocation": 47617,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 30,
+          "kind": "npc",
+          "id": 214,
+          "header": [
+            58,
+            100,
+            245,
+            69,
+            0
+          ],
+          "sourceLoadBody": 2963,
+          "explicitRowCommand": {
+            "frame": 8907,
+            "location": 80,
+            "pc": 12605696,
+            "object": 30,
+            "scriptPC": 2965,
+            "opcode": 51,
+            "tick": 51,
+            "row": 5,
+            "sourcePointer": 5880
+          },
+          "runtimeRow": 5,
+          "palettePointer": 5880,
+          "nativeFrame": 255,
+          "world": [
+            488,
+            671
+          ],
+          "tileAllocation": 50151,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 31,
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 2985,
+          "explicitRowCommand": {
+            "frame": 8909,
+            "location": 80,
+            "pc": 12605696,
+            "object": 31,
+            "scriptPC": 2987,
+            "opcode": 51,
+            "tick": 53,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            600,
+            639
+          ],
+          "tileAllocation": 46598,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 32,
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 2999,
+          "explicitRowCommand": {
+            "frame": 8909,
+            "location": 80,
+            "pc": 12605696,
+            "object": 32,
+            "scriptPC": 3001,
+            "opcode": 51,
+            "tick": 53,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            632,
+            623
+          ],
+          "tileAllocation": 0,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 33,
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 3013,
+          "explicitRowCommand": {
+            "frame": 8909,
+            "location": 80,
+            "pc": 12605696,
+            "object": 33,
+            "scriptPC": 3015,
+            "opcode": 51,
+            "tick": 53,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            152,
+            639
+          ],
+          "tileAllocation": 8192,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 34,
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 3027,
+          "explicitRowCommand": {
+            "frame": 8909,
+            "location": 80,
+            "pc": 12605696,
+            "object": 34,
+            "scriptPC": 3029,
+            "opcode": 51,
+            "tick": 53,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            128,
+            552
+          ],
+          "tileAllocation": 438,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 35,
+          "kind": "npc",
+          "id": 79,
+          "header": [
+            125,
+            188,
+            133,
+            7,
+            0
+          ],
+          "sourceLoadBody": 3048,
+          "explicitRowCommand": {
+            "frame": 8910,
+            "location": 80,
+            "pc": 12605696,
+            "object": 35,
+            "scriptPC": 3050,
+            "opcode": 51,
+            "tick": 54,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            128,
+            536
+          ],
+          "tileAllocation": 32768,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 36,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 3069,
+          "explicitRowCommand": {
+            "frame": 8910,
+            "location": 80,
+            "pc": 12605696,
+            "object": 36,
+            "scriptPC": 3071,
+            "opcode": 51,
+            "tick": 54,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            584,
+            671
+          ],
+          "tileAllocation": 183,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 37,
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ],
+          "sourceLoadBody": 3084,
+          "explicitRowCommand": {
+            "frame": 8910,
+            "location": 80,
+            "pc": 12605696,
+            "object": 37,
+            "scriptPC": 3086,
+            "opcode": 51,
+            "tick": 54,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 255,
+          "world": [
+            104,
+            591
+          ],
+          "tileAllocation": 8192,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        },
+        {
+          "object": 38,
+          "kind": "npc",
+          "id": 0,
+          "header": [
+            28,
+            17,
+            139,
+            11,
+            0
+          ],
+          "sourceLoadBody": 3099,
+          "explicitRowCommand": {
+            "frame": 8910,
+            "location": 80,
+            "pc": 12605696,
+            "object": 38,
+            "scriptPC": 3101,
+            "opcode": 51,
+            "tick": 54,
+            "row": 7,
+            "sourcePointer": 3336
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3336,
+          "nativeFrame": 8,
+          "world": [
+            440,
+            479
+          ],
+          "tileAllocation": 264,
+          "expectedScreenOrigin": [
+            152,
+            127
+          ],
+          "matchingNativeOamCells": [
+            60,
+            61,
+            62,
+            63
+          ],
+          "visibleExactActualColorPixels": 313,
+          "occludedOrDifferent": 1,
+          "sourceVisible": true,
+          "source133Requested": false,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 39,
+          "kind": "npc",
+          "id": 213,
+          "header": [
+            36,
+            25,
+            8,
+            16,
+            0
+          ],
+          "sourceLoadBody": 3114,
+          "explicitRowCommand": {
+            "frame": 8912,
+            "location": 80,
+            "pc": 12605696,
+            "object": 39,
+            "scriptPC": 3116,
+            "opcode": 51,
+            "tick": 56,
+            "row": 6,
+            "sourcePointer": 192
+          },
+          "runtimeRow": 6,
+          "palettePointer": 192,
+          "nativeFrame": 19,
+          "world": [
+            360,
+            543
+          ],
+          "tileAllocation": 256,
+          "expectedScreenOrigin": [
+            72,
+            191
+          ],
+          "matchingNativeOamCells": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "visibleExactActualColorPixels": 292,
+          "occludedOrDifferent": 0,
+          "sourceVisible": true,
+          "source133Requested": false,
+          "actualRowMatchesSource": true
+        },
+        {
+          "object": 40,
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ],
+          "sourceLoadBody": 3158,
+          "explicitRowCommand": {
+            "frame": 8914,
+            "location": 80,
+            "pc": 12605696,
+            "object": 40,
+            "scriptPC": 3160,
+            "opcode": 51,
+            "tick": 58,
+            "row": 7,
+            "sourcePointer": 3192
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3192,
+          "nativeFrame": 18,
+          "world": [
+            360,
+            527
+          ],
+          "tileAllocation": 232,
+          "expectedScreenOrigin": [
+            72,
+            175
+          ],
+          "matchingNativeOamCells": [
+            48,
+            49,
+            50
+          ],
+          "visibleExactActualColorPixels": 296,
+          "occludedOrDifferent": 98,
+          "sourceVisible": true,
+          "source133Requested": true,
+          "actualRowMatchesSource": false
+        },
+        {
+          "object": 41,
+          "kind": "npc",
+          "id": 215,
+          "header": [
+            249,
+            231,
+            138,
+            16,
+            0
+          ],
+          "sourceLoadBody": 3189,
+          "explicitRowCommand": {
+            "frame": 8914,
+            "location": 80,
+            "pc": 12605696,
+            "object": 41,
+            "scriptPC": 3191,
+            "opcode": 51,
+            "tick": 58,
+            "row": 7,
+            "sourcePointer": 3312
+          },
+          "runtimeRow": 7,
+          "palettePointer": 3312,
+          "nativeFrame": 255,
+          "world": [
+            232,
+            495
+          ],
+          "tileAllocation": 6,
+          "sourceVisible": false,
+          "nativeFrameNotResident": true,
+          "visibleScope": "Native cached-frame sentinel255: no source-frame visibility claim. Palette row assignment still executed."
+        }
+      ],
+      "objectsWithoutSpriteLoad": [
+        0,
+        1,
+        13
+      ],
+      "assignments": [
+        {
+          "frame": 8903,
+          "location": 80,
+          "pc": 12605696,
+          "object": 2,
+          "scriptPC": 1715,
+          "opcode": 51,
+          "tick": 47,
+          "row": 0,
+          "sourcePointer": 0
+        },
+        {
+          "frame": 8903,
+          "location": 80,
+          "pc": 12605696,
+          "object": 3,
+          "scriptPC": 1758,
+          "opcode": 51,
+          "tick": 47,
+          "row": 1,
+          "sourcePointer": 24
+        },
+        {
+          "frame": 8903,
+          "location": 80,
+          "pc": 12605696,
+          "object": 4,
+          "scriptPC": 1801,
+          "opcode": 51,
+          "tick": 47,
+          "row": 2,
+          "sourcePointer": 48
+        },
+        {
+          "frame": 8903,
+          "location": 80,
+          "pc": 12605696,
+          "object": 5,
+          "scriptPC": 1817,
+          "opcode": 51,
+          "tick": 47,
+          "row": 3,
+          "sourcePointer": 1608
+        },
+        {
+          "frame": 8904,
+          "location": 80,
+          "pc": 12605696,
+          "object": 6,
+          "scriptPC": 2056,
+          "opcode": 51,
+          "tick": 48,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8904,
+          "location": 80,
+          "pc": 12605696,
+          "object": 7,
+          "scriptPC": 2131,
+          "opcode": 51,
+          "tick": 48,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8904,
+          "location": 80,
+          "pc": 12605696,
+          "object": 8,
+          "scriptPC": 2206,
+          "opcode": 51,
+          "tick": 48,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8904,
+          "location": 80,
+          "pc": 12605696,
+          "object": 9,
+          "scriptPC": 2250,
+          "opcode": 51,
+          "tick": 48,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8905,
+          "location": 80,
+          "pc": 12605696,
+          "object": 10,
+          "scriptPC": 2294,
+          "opcode": 51,
+          "tick": 49,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8905,
+          "location": 80,
+          "pc": 12605696,
+          "object": 11,
+          "scriptPC": 2381,
+          "opcode": 51,
+          "tick": 49,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8905,
+          "location": 80,
+          "pc": 12605696,
+          "object": 12,
+          "scriptPC": 2417,
+          "opcode": 51,
+          "tick": 49,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8906,
+          "location": 80,
+          "pc": 12605696,
+          "object": 14,
+          "scriptPC": 2480,
+          "opcode": 51,
+          "tick": 50,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 15,
+          "scriptPC": 2509,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 16,
+          "scriptPC": 2538,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 17,
+          "scriptPC": 2567,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 18,
+          "scriptPC": 2596,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 19,
+          "scriptPC": 2652,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 20,
+          "scriptPC": 2693,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 21,
+          "scriptPC": 2734,
+          "opcode": 51,
+          "tick": 51,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 22,
+          "scriptPC": 2782,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 23,
+          "scriptPC": 2795,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 24,
+          "scriptPC": 2821,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 25,
+          "scriptPC": 2847,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 26,
+          "scriptPC": 2873,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 27,
+          "scriptPC": 2899,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 28,
+          "scriptPC": 2921,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 29,
+          "scriptPC": 2943,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8907,
+          "location": 80,
+          "pc": 12605696,
+          "object": 30,
+          "scriptPC": 2965,
+          "opcode": 51,
+          "tick": 51,
+          "row": 5,
+          "sourcePointer": 5880
+        },
+        {
+          "frame": 8909,
+          "location": 80,
+          "pc": 12605696,
+          "object": 31,
+          "scriptPC": 2987,
+          "opcode": 51,
+          "tick": 53,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8909,
+          "location": 80,
+          "pc": 12605696,
+          "object": 32,
+          "scriptPC": 3001,
+          "opcode": 51,
+          "tick": 53,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8909,
+          "location": 80,
+          "pc": 12605696,
+          "object": 33,
+          "scriptPC": 3015,
+          "opcode": 51,
+          "tick": 53,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8909,
+          "location": 80,
+          "pc": 12605696,
+          "object": 34,
+          "scriptPC": 3029,
+          "opcode": 51,
+          "tick": 53,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8910,
+          "location": 80,
+          "pc": 12605696,
+          "object": 35,
+          "scriptPC": 3050,
+          "opcode": 51,
+          "tick": 54,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8910,
+          "location": 80,
+          "pc": 12605696,
+          "object": 36,
+          "scriptPC": 3071,
+          "opcode": 51,
+          "tick": 54,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8910,
+          "location": 80,
+          "pc": 12605696,
+          "object": 37,
+          "scriptPC": 3086,
+          "opcode": 51,
+          "tick": 54,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8910,
+          "location": 80,
+          "pc": 12605696,
+          "object": 38,
+          "scriptPC": 3101,
+          "opcode": 51,
+          "tick": 54,
+          "row": 7,
+          "sourcePointer": 3336
+        },
+        {
+          "frame": 8912,
+          "location": 80,
+          "pc": 12605696,
+          "object": 39,
+          "scriptPC": 3116,
+          "opcode": 51,
+          "tick": 56,
+          "row": 6,
+          "sourcePointer": 192
+        },
+        {
+          "frame": 8914,
+          "location": 80,
+          "pc": 12605696,
+          "object": 40,
+          "scriptPC": 3160,
+          "opcode": 51,
+          "tick": 58,
+          "row": 7,
+          "sourcePointer": 3192
+        },
+        {
+          "frame": 8914,
+          "location": 80,
+          "pc": 12605696,
+          "object": 41,
+          "scriptPC": 3191,
+          "opcode": 51,
+          "tick": 58,
+          "row": 7,
+          "sourcePointer": 3312
+        }
+      ],
+      "rows": [
+        {
+          "row": 0,
+          "cgramWords": [
+            3204,
+            5481,
+            8849,
+            14134,
+            20283,
+            6444,
+            10772,
+            4262,
+            25535,
+            4325,
+            18266,
+            20115,
+            2739,
+            2837,
+            3928
+          ],
+          "explicitObjects": [
+            2
+          ],
+          "runtimeObjects": [
+            2
+          ],
+          "onscreenNonemptyOamEntries": [
+            52,
+            53,
+            54,
+            55
+          ],
+          "visibleActualColorPixels": 428,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 1,
+          "cgramWords": [
+            4228,
+            8650,
+            13009,
+            18295,
+            22428,
+            9606,
+            12873,
+            5357,
+            26558,
+            5380,
+            9784,
+            5428,
+            3928,
+            3928,
+            3928
+          ],
+          "explicitObjects": [
+            3
+          ],
+          "runtimeObjects": [
+            3
+          ],
+          "onscreenNonemptyOamEntries": [
+            56,
+            57,
+            58,
+            59
+          ],
+          "visibleActualColorPixels": 69,
+          "occludedOrDifferent": 345
+        },
+        {
+          "row": 2,
+          "cgramWords": [
+            5253,
+            11594,
+            17969,
+            22231,
+            24411,
+            6345,
+            9616,
+            6310,
+            26558,
+            4228,
+            13879,
+            20116,
+            31775,
+            31775,
+            31775
+          ],
+          "explicitObjects": [
+            4
+          ],
+          "runtimeObjects": [
+            4
+          ],
+          "onscreenNonemptyOamEntries": [],
+          "visibleActualColorPixels": 0,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 3,
+          "cgramWords": [
+            2213,
+            32767,
+            32631,
+            32446,
+            32399,
+            14269,
+            28087,
+            8857,
+            6490,
+            23943,
+            17648,
+            5351,
+            31775,
+            31775,
+            31775
+          ],
+          "explicitObjects": [
+            5
+          ],
+          "runtimeObjects": [
+            5
+          ],
+          "onscreenNonemptyOamEntries": [],
+          "visibleActualColorPixels": 0,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 4,
+          "cgramWords": [
+            28506,
+            23221,
+            17936,
+            14797,
+            7399,
+            1107,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775,
+            31775
+          ],
+          "explicitObjects": [],
+          "runtimeObjects": [],
+          "onscreenNonemptyOamEntries": [],
+          "visibleActualColorPixels": 0,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 5,
+          "cgramWords": [
+            9383,
+            31677,
+            13563,
+            8280,
+            8212,
+            22721,
+            31172,
+            26913,
+            5823,
+            1535,
+            30388,
+            1467,
+            32767,
+            32297,
+            2591
+          ],
+          "explicitObjects": [
+            11,
+            12,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "runtimeObjects": [
+            11,
+            12,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "onscreenNonemptyOamEntries": [
+            4,
+            6,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "visibleActualColorPixels": 0,
+          "occludedOrDifferent": 1577
+        },
+        {
+          "row": 6,
+          "cgramWords": [
+            6342,
+            28539,
+            22431,
+            13951,
+            7476,
+            25052,
+            11443,
+            7935,
+            3440,
+            24172,
+            15784,
+            20015,
+            22196,
+            12752,
+            9515
+          ],
+          "explicitObjects": [
+            39
+          ],
+          "runtimeObjects": [
+            39
+          ],
+          "onscreenNonemptyOamEntries": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "visibleActualColorPixels": 292,
+          "occludedOrDifferent": 0
+        },
+        {
+          "row": 7,
+          "cgramWords": [
+            3204,
+            5481,
+            8849,
+            14134,
+            20283,
+            6444,
+            10772,
+            4262,
+            25535,
+            4325,
+            18266,
+            20115,
+            22196,
+            12752,
+            9515
+          ],
+          "explicitObjects": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            40,
+            41
+          ],
+          "runtimeObjects": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            40,
+            41
+          ],
+          "onscreenNonemptyOamEntries": [
+            28,
+            29,
+            32,
+            33,
+            36,
+            37,
+            39,
+            40,
+            41,
+            43,
+            48,
+            49,
+            50,
+            60,
+            61,
+            62,
+            63
+          ],
+          "visibleActualColorPixels": 621,
+          "occludedOrDifferent": 303
+        }
+      ],
+      "screenshot": "assets/imagegen/town-tradesmen/scene-verification/parade-rows-east.png",
+      "coVisibleSpecial": [
+        {
+          "npc": 0,
+          "object": 38,
+          "row": 7,
+          "visiblePixels": 313
+        },
+        {
+          "npc": 39,
+          "object": 40,
+          "row": 7,
+          "visiblePixels": 296
+        }
+      ]
+    }
+  ],
+  "scope": "Three explicit camera entry checkpoints of the same original post-parade branch. All object palette assignments are actual initialization and native RAM; visibility is exact source-cell match plus actual PPU pixels for NPCs, with all OAM row occupancy recorded. A row absent from these views is not globally free in every route or parade phase. No active fix or source changes."
+}

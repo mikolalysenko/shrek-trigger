@@ -1,0 +1,144 @@
+{
+  "status": "Inactive audit ready for root review; generation not started",
+  "activation": false,
+  "generationStarted": false,
+  "baseline": {
+    "path": "assets/raster/town-npc35-audit/private/baseline.sfc",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "sha256": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+    "bytes": 8388608
+  },
+  "family": {
+    "gfx": 35,
+    "asm": 24,
+    "palette": 9,
+    "animation": 15,
+    "size": 0,
+    "frames": 31
+  },
+  "owners": [
+    {
+      "kind": "npc",
+      "id": 25,
+      "offset": 2420896,
+      "header": [
+        35,
+        24,
+        9,
+        15,
+        0
+      ],
+      "originalHeader": [
+        35,
+        24,
+        9,
+        15,
+        0
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 39,
+      "offset": 2420966,
+      "header": [
+        35,
+        24,
+        133,
+        15,
+        0
+      ],
+      "originalHeader": [
+        35,
+        24,
+        133,
+        15,
+        0
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 52,
+      "offset": 2421031,
+      "header": [
+        35,
+        24,
+        9,
+        15,
+        0
+      ],
+      "originalHeader": [
+        35,
+        24,
+        9,
+        15,
+        0
+      ]
+    }
+  ],
+  "styling": {
+    "workingLabel": "Storybook village tradesman / yeoman",
+    "identity": "A sturdy middle-aged human commoner with an expressive broad face, russet hair and moustache, simple cloth headband, green waistcoat over rolled linen sleeves, blue work trousers, belt and boots.",
+    "scale": "Keep the original roughly32px standing height and compact stocky mass. Match CT material shading and the Shrek fairy-tale world without a new named or celebrity cameo.",
+    "propRule": "Empty hands in the original neutral/walk/gesture poses; hand hammer only16/17; cup only18–25. Empty seated26/27 remain distinct. No permanent baker hat, blacksmith apron or tool that conflicts with tutor, mayor, inn and family roles.",
+    "paletteRule": "Use the exact twelve material indices of shared palette9 and133. They are not actor-private palettes. Show both variants at1× before approval.",
+    "acceptedDirection": "Root approved flexible tradesman styling on this audit turn; complete role and geometry sheets still await review."
+  },
+  "nativeContract": {
+    "frames": 31,
+    "blankFrames": [],
+    "cells": 4,
+    "size": 0,
+    "gfx": 35,
+    "asm": 24,
+    "animation": 15,
+    "palettes": [
+      9,
+      133
+    ],
+    "preserve": [
+      "All three headers and pointer ownership",
+      "Both24-byte palette packets and all unrelated palette owners",
+      "All160 animation-frame bytes and40 duration bytes",
+      "All31 poses, original cell order and signed XY anchors",
+      "Original prop direction, seated/standing distinction, opposing gait contacts and one-pixel passing bob",
+      "All25 source-load locations/29 object loads, including ending doubles and doppelganger disguise"
+    ],
+    "growthBaseline": {
+      "originalCT": {
+        "rawGraphics": 3936,
+        "compressedGraphics": 2802,
+        "assembly": 1240,
+        "totalCompressedAndAssembly": 4042
+      },
+      "pinnedActive": {
+        "rawGraphics": 3936,
+        "compressedGraphics": 2802,
+        "assembly": 1240,
+        "totalCompressedAndAssembly": 4042
+      },
+      "candidate": "No generated art yet; size/growth unknown. Four-cell layout remains fixed even if root later elects validated raw streaming."
+    }
+  },
+  "requiredFutureProof": [
+    "31 original slots for each of NPC25/39/52 with exact four-cell upload and pixel checks",
+    "Both shared palette variants, unchanged hardware row overrides in ending38/80",
+    "All36 nonempty facing/mode lists; preserve empty mode2 without inventing a blank sprite",
+    "Original timed hammer, seat/standing cup, reaction and gait contacts",
+    "Festival8 machinery, smith115 prop contact, seated inn62/188 anchors, repair65/186 exits and soda host439",
+    "Ending80/81/90 shared and three-double staging;398 conditional reaction;338 credit room;125 disguise-to-separate-enemy handoff",
+    "Mixed scene palette ownership and native heap/cell limits before integration"
+  ],
+  "notClaimed": [
+    "New generated art",
+    "Native scheduler execution or scene visibility",
+    "Connected story/quest/ending acceptance",
+    "Resolution of recorded BAKER/TABAN dialogue inconsistencies"
+  ],
+  "excludedGraphics": [
+    11,
+    81,
+    86,
+    90,
+    158
+  ]
+}

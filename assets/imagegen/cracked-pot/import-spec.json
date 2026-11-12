@@ -1,0 +1,99 @@
+{
+  "key": "cracked-pot",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 96,
+  "palette": [
+    "252c2a",
+    "4b3b30",
+    "7d6047",
+    "b58b60",
+    "e2bc87",
+    "2c4337",
+    "557754",
+    "95ae76",
+    "364f5b",
+    "79949a",
+    "dfa84f",
+    "f9e9b6"
+  ],
+  "directory": "assets/imagegen/cracked-pot/active",
+  "sheets": [
+    {
+      "file": "assets/imagegen/enchanted-pots-beetles/plain-pot-source-v1.png",
+      "columns": 3,
+      "rows": 2,
+      "nativeHeight": 24,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 74,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        {
+          "frame": 0,
+          "dx": 0,
+          "dy": 2
+        },
+        {
+          "frame": 1,
+          "dx": 2,
+          "dy": 1
+        },
+        {
+          "frame": 2,
+          "dx": 1,
+          "dy": 2
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": -15
+        },
+        {
+          "frame": 1,
+          "dx": 1,
+          "dy": 1
+        },
+        {
+          "frame": 1,
+          "dx": 3,
+          "dy": 1
+        },
+        {
+          "frame": 4,
+          "dx": 0,
+          "dy": 5
+        },
+        {
+          "frame": 5,
+          "dx": 0,
+          "dy": 1
+        }
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Six actual generated poses cover the eight original slots, including original1/4/5 translated reuse and the Ember6/7 reversed low-pose order. No anatomy drawn, no frames omitted."
+      }
+    }
+  },
+  "notes": {
+    "status": "Active approved generated artwork; original palette, pose offsets and cells are preserved."
+  }
+}

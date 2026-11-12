@@ -1,0 +1,99 @@
+{
+  "key": "three-pigs",
+  "palette": [
+    "3a2932",
+    "b16964",
+    "e4a498",
+    "f8cfb6",
+    "fff0d0",
+    "8b403b",
+    "cb7054",
+    "654b39",
+    "fff1d7",
+    "aa8a4d",
+    "d9bd73",
+    "6a9f9b"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/three-pigs/source-base-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 24,
+      "sample": {
+        "method": "area",
+        "scaleX": 0.95
+      },
+      "componentSelection": "union"
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        6,
+        1,
+        {
+          "frame": 7,
+          "flip": true
+        }
+      ],
+      "1": [
+        4,
+        0,
+        5
+      ],
+      "2": [
+        8,
+        9
+      ],
+      "3": [
+        10,
+        11
+      ]
+    },
+    "work": {
+      "3": [
+        12,
+        13
+      ]
+    },
+    "sit": {
+      "1": [
+        14
+      ]
+    },
+    "talk": {
+      "1": [
+        15
+      ]
+    }
+  },
+  "samplingPalette": [
+    "2b151a",
+    "a65550",
+    "eca89b",
+    "ffc4b0",
+    "ffe2cd",
+    "95652e",
+    "c18d4a",
+    "5d3e21",
+    "fff1d7",
+    "ac8017",
+    "f3c92b",
+    "9fa2a3"
+  ]
+}

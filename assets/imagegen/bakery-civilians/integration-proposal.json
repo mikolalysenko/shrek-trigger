@@ -1,0 +1,370 @@
+{
+  "status": "Frozen inactive proposal; root owns all production edits",
+  "families": [
+    {
+      "key": "porter",
+      "familyKey": "bread-porters",
+      "rasterKey": "bread-porter",
+      "native": {
+        "gfx": 24,
+        "assembly": 12,
+        "animation": 21,
+        "frames": 23,
+        "width": 32,
+        "height": 32,
+        "cells": 4,
+        "size": 0,
+        "owners": [
+          {
+            "npc": 30,
+            "palette": 123
+          },
+          {
+            "npc": 62,
+            "palette": 124
+          }
+        ],
+        "blankFrames": [],
+        "frameOffsets": {},
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ]
+      },
+      "inputs": {
+        "spec": "porter-import-spec.draft.json",
+        "specSha256": "2611fb742f468c8ccb4959038bd926f16a74edb9d3d653132526a61dbe48c103",
+        "geometry": "porter-draft/family.json",
+        "geometrySha256": "01c14b7b5561ef67502e35be3ec1a1675726f3473e3fea6e310ec29a3954f467",
+        "roles": "porter-native-roles.json",
+        "rolesSha256": "23cbabeb7a8135952607ccc59a098d5ed3b64c00c5c9c11ffcb721e0bbf42ffd"
+      },
+      "compiled": {
+        "rawGraphicsBytes": 5856,
+        "compressedBytes": 3146,
+        "assemblyBytes": 920,
+        "graphicsSha256": "1d3233030da3151180d8e68dfacc94b73d93533b9ec45e8406adee3fdda667b8",
+        "compressedSha256": "59e0bc83df6b897f9e7c8f43aaab29cffbbba464e51c669f126695118fa23b13",
+        "assemblySha256": "589d51e26115dd978dc3ea4a8e4688d866da35103eba6261fdf8de9a6962e2bc",
+        "paletteSha256": {
+          "123": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08",
+          "124": "d1489b7af1ae7fc04c913aa817fed2a6e9edd9ad5b6f03deb53f21b214afff76"
+        }
+      },
+      "cost": {
+        "candidate": {
+          "raw": 5856,
+          "compressed": 3146,
+          "assembly": 920,
+          "totalCompressedAndAssembly": 4066
+        },
+        "originalCT": {
+          "graphicsOffset": 1669447,
+          "graphicsBytes": 2752,
+          "compressedBytes": 2241,
+          "assemblyOffset": 1950344,
+          "assemblyBytes": 920,
+          "totalCompressedAndAssembly": 3161,
+          "compressedAllocationGrowth": 905,
+          "rawGrowth": 3104
+        },
+        "activeEarlierArt": {
+          "raw": 2048,
+          "compressed": 881,
+          "assembly": 920,
+          "totalCompressedAndAssembly": 1801,
+          "compressedAllocationGrowth": 2265,
+          "rawGrowth": 3808,
+          "graphicsSha256": "225a97feefd1c74d4dcd9900832545e33dbb551ce0c10f273185ba9860be8a84",
+          "compressedSha256": "a114fae49392f5d5803f6e5570a5a075be5b8f64bc4024faaa9b9b171b09e50c",
+          "assemblySha256": "77e18171b87d0471c6602d1a23496998d5dce2a4684521921788ca291dce15d3",
+          "matchesActiveSourceFamilySnapshot": true
+        }
+      }
+    },
+    {
+      "key": "baker",
+      "familyKey": "cinnamon-bakers",
+      "rasterKey": "cinnamon-baker",
+      "native": {
+        "gfx": 25,
+        "assembly": 13,
+        "animation": 22,
+        "frames": 23,
+        "width": 32,
+        "height": 32,
+        "cells": 4,
+        "size": 0,
+        "owners": [
+          {
+            "npc": 31,
+            "palette": 123
+          },
+          {
+            "npc": 63,
+            "palette": 124
+          }
+        ],
+        "blankFrames": [],
+        "frameOffsets": {},
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ]
+      },
+      "inputs": {
+        "spec": "baker-import-spec.draft.json",
+        "specSha256": "ded9ed116be59a5bba4a2920afb6df3b7c83665373d5ebb0402f08e0985d02ac",
+        "geometry": "baker-draft/family.json",
+        "geometrySha256": "03965e6009a55cdaed9bc4cab0b4c07a875a10bc1c40351e5ef606637a4cd49c",
+        "roles": "baker-native-roles.json",
+        "rolesSha256": "e8d30740b42fdb87a5f5a60a29c3293bc9ea3f25fe126ea4c5ede2b7ade34561"
+      },
+      "compiled": {
+        "rawGraphicsBytes": 7008,
+        "compressedBytes": 4074,
+        "assemblyBytes": 920,
+        "graphicsSha256": "0c41309126f1a67bc163fd5d1adb0f1156d5d31a3811ce8886c1443af53d087a",
+        "compressedSha256": "40fa6486dbddb03c852c7398480e0d1d4eefd27849bd1b166a50191add22553c",
+        "assemblySha256": "7e3129c82fcc92351aeaaae82dec8beb224f1b295afeaa88e9bddbbb06d24202",
+        "paletteSha256": {
+          "123": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08",
+          "124": "d1489b7af1ae7fc04c913aa817fed2a6e9edd9ad5b6f03deb53f21b214afff76"
+        }
+      },
+      "cost": {
+        "candidate": {
+          "raw": 7008,
+          "compressed": 4074,
+          "assembly": 920,
+          "totalCompressedAndAssembly": 4994
+        },
+        "originalCT": {
+          "graphicsOffset": 1671688,
+          "graphicsBytes": 2560,
+          "compressedBytes": 2395,
+          "assemblyOffset": 1951264,
+          "assemblyBytes": 920,
+          "totalCompressedAndAssembly": 3315,
+          "compressedAllocationGrowth": 1679,
+          "rawGrowth": 4448
+        },
+        "activeEarlierArt": {
+          "raw": 1664,
+          "compressed": 680,
+          "assembly": 920,
+          "totalCompressedAndAssembly": 1600,
+          "compressedAllocationGrowth": 3394,
+          "rawGrowth": 5344,
+          "graphicsSha256": "3b14cfef0c3a1ee34492ff824f1f51d99a9bd6a9cc472311ae37e07e1f99f1f4",
+          "compressedSha256": "e0d09a2bf270a916d457c27bd19c5636b3be01831ffa8e3753799506b32213ef",
+          "assemblySha256": "352016a0f3d72256d9befcdd5e2c44acd1e81ba50ae801fa4922e06c7ad05397",
+          "matchesActiveSourceFamilySnapshot": true
+        }
+      }
+    }
+  ],
+  "sharedPaletteContract": {
+    "paletteIds": [
+      123,
+      124
+    ],
+    "unchangedBytes": true,
+    "privateOverlayPaletteWrites": 0,
+    "completeProjectOwners": "shared-village-owners.json",
+    "note": "These ramps also serve children, elder and feast props. Register both families with the existing complete village owner group; do not make a separate palette replacement."
+  },
+  "combinedCost": {
+    "raw": 12864,
+    "compressed": 7220,
+    "assembly": 1840,
+    "totalCompressedAndAssembly": 9060,
+    "originalCTTotal": 6476,
+    "originalCTGrowth": 2584,
+    "currentEarlierArtTotal": 3401,
+    "currentPlanningGrowth": 5659,
+    "rawGrowthVersusCurrent": 9152
+  },
+  "acceptance": {
+    "leadBaseAndFullSheets": true,
+    "leadNorthRecolors": true,
+    "rootVisual": false,
+    "nativeUploads": 92,
+    "nativeOpaquePixels": 39608,
+    "nativeTimedTicks": 3600,
+    "nativeTimedScenarios": 18,
+    "actualNpcLoads": [
+      30,
+      62,
+      31,
+      63
+    ],
+    "privateRomSha256": "f68b467ce635581fa6124b8c482af06190b20e26599a0b128a4e034678f43e79",
+    "paletteBytesUnchanged": true,
+    "independentCores": false,
+    "completeSharedScenes": false,
+    "candidateRawStreaming": false
+  },
+  "motionReadThrough": {
+    "explanation": "Original Baker lists lack a terminating byte within their last mode. Native code reads the next facing idle (or next animation first byte) with the following duration5, then duration0 loops. These original adjacent bytes are retained, not synthesized.",
+    "animationTail": [
+      0
+    ],
+    "durationTail": [
+      5,
+      0
+    ],
+    "extendedAnimationSha256": "75973698672fb99854b5da4be529f3c1337e7b42f2ce0db19dfe0397d37a7f28",
+    "extendedDurationSha256": "ec677b3ed3e89539d22b6f0092acff7a3dde4d8a7ee42c21ccc997768ef558ed"
+  },
+  "review": {
+    "contact": "review/contact-sheet-1x.png",
+    "motion": "review/motion-review.html",
+    "timingStrip": "review/motion-strip-1x.png",
+    "nativeCaptureCrops": "review/actual-native-front-crops-6x.png"
+  },
+  "rootSteps": [
+    "Activate both draft specs through catalogue entries or separate top-level import-spec directories. The current importer scans one spec per immediate assets/imagegen child; this inactive package intentionally keeps two named draft specs.",
+    "Use strict native raster sequences for bread-porter/cinnamon-baker. Preserve four owners, all12shared palette values, original animation/timing bytes, and standard four-cell geometry.",
+    "Select graphics24and25 under the validated <=32KiBfour-cell streaming contract or establish actual whole-scene residency. Recompute all current co-loads. No compiler geometry change is required.",
+    "Require the exact graphics/assembly hashes and reproduce92owner frames and exact palettes through the production path.",
+    "Run original Bakery village/feast/chapter/return routes and both independent cores, including shared story uses outside the villages."
+  ],
+  "suggestedVerification": [
+    "node assets/imagegen/bakery-civilians/verify-frozen.mjs",
+    "node --test tests/bakery-villagers.test.mjs",
+    "node --test tests/bakery-chapter.test.mjs tests/bakery-return.test.mjs",
+    "node scripts/independent.mjs all"
+  ],
+  "sceneScope": [
+    {
+      "key": "bread-porters",
+      "locations": [
+        7,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        282,
+        292,
+        430
+      ]
+    },
+    {
+      "key": "cinnamon-bakers",
+      "locations": [
+        7,
+        95,
+        276,
+        277,
+        278,
+        279,
+        280,
+        292
+      ]
+    }
+  ],
+  "savedBuildSceneUnions": [
+    {
+      "location": 7,
+      "candidateBytes": 19232,
+      "spareBytes": 13536,
+      "exceedsBudget": false
+    },
+    {
+      "location": 95,
+      "candidateBytes": 24064,
+      "spareBytes": 8704,
+      "exceedsBudget": false
+    },
+    {
+      "location": 275,
+      "candidateBytes": 7872,
+      "spareBytes": 24896,
+      "exceedsBudget": false
+    },
+    {
+      "location": 276,
+      "candidateBytes": 14112,
+      "spareBytes": 18656,
+      "exceedsBudget": false
+    },
+    {
+      "location": 277,
+      "candidateBytes": 13824,
+      "spareBytes": 18944,
+      "exceedsBudget": false
+    },
+    {
+      "location": 278,
+      "candidateBytes": 12864,
+      "spareBytes": 19904,
+      "exceedsBudget": false
+    },
+    {
+      "location": 279,
+      "candidateBytes": 16928,
+      "spareBytes": 15840,
+      "exceedsBudget": false
+    },
+    {
+      "location": 280,
+      "candidateBytes": 16256,
+      "spareBytes": 16512,
+      "exceedsBudget": false
+    },
+    {
+      "location": 282,
+      "candidateBytes": 32960,
+      "spareBytes": -192,
+      "exceedsBudget": true
+    },
+    {
+      "location": 292,
+      "candidateBytes": 20224,
+      "spareBytes": 12544,
+      "exceedsBudget": false
+    },
+    {
+      "location": 430,
+      "candidateBytes": 31488,
+      "spareBytes": 1280,
+      "exceedsBudget": false
+    }
+  ],
+  "limitations": [
+    "All-branch saved-build union282is32,960bytes; conservative union is not actual residency proof.",
+    "Original bank-size guard remains unchanged; raw streaming is a production integration decision.",
+    "Solo compressed proof does not certify original complete chapters or independent cores."
+  ]
+}

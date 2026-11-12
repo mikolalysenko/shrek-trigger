@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import {readFile,writeFile} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+import {futureWildlife} from '../../../content/future-wildlife.js';
+import {compileSpriteFrames} from '../../../engine/native-sprites.js';
+import {compress,decompress} from '../../../engine/compression.js';
+import {put16} from '../../../engine/rom.js';
+import {snesColor} from '../../../engine/sprites.js';
+import {nativeSpriteCells} from '../../../scripts/native-sprite-view.mjs';
+import {packMachineCells as packCells} from './pack-cells.mjs';
+const dir='assets/imagegen/drain-imps',folder=dir+'/imp',hash=b=>createHash('sha256').update(b).digest('hex'),json=async f=>JSON.parse(await readFile(folder+'/'+f));
+export const nativeMap=[0,{frame:0,flip:true},1,{frame:1,flip:true},2,3,{frame:2,flip:true},{frame:3,flip:true},4,1,5,6,7,8,5,6,9,10,{frame:9,flip:true},{frame:10,flip:true}];
+export const nativePixels=raster=>nativeMap.map(n=>{const f=typeof n==='number'?n:n.frame,p=Uint8Array.from(raster.frames[f],c=>parseInt(c,16));return n.flip?Uint8Array.from(p,(_,i)=>p[(i>>6)*64+63-i%64]):p;});
+export async function compileDraft(){
+ const resource=await json('native-resource-audit.json'),roles=await json('native-role-audit.json'),actors=futureWildlife.filter(a=>a.art==='drain-imp'),palette=actors.find(a=>a.palette===43).colors;
+ const spec={key:'drain-imps',sourceType:'image-generation',directory:folder,width:64,height:64,palette,sheets:[{file:dir+'/source-v1.png',columns:4,rows:3,nativeHeight:28,scaleCells:[6,8,10,11],componentAlpha:128,componentSelection:'union',sample:{method:'nearest',bottom:59}}],sequences:{native:{1:nativeMap}},notes:{status:'Inactive complete source/native mapping',native:'20 native slots, four cells, full size0, IDs and programs preserved. Approved current palette43/42 unchanged.',unusedSourceFrames:[11],sourceMirrors:roles.exactSourceMirrors,sourceDuplicates:roles.exactSourceDuplicates,geometry:'Preserve every original lowest opaque pixel and horizontal center, including horizontal wake movement. Generated body, ripple and droplets stay one source raster.'}};
+ const run=async()=>{await writeFile(folder+'/import-spec.draft.json',JSON.stringify(spec,null,2)+'\n');execFileSync(process.execPath,['scripts/import-raster-art.mjs','--preview-spec',folder+'/import-spec.draft.json'],{stdio:'pipe'});return json('preview-raster.json');};
+ const raster=await run(),frames=nativePixels(raster),packing=packCells(frames),compiled=compileSpriteFrames(frames,{width:64,height:64,size:0,frameCellOrigins:packing.map(p=>p.origins)});
+ const bounds=frames.map(p=>{let x0=64,y0=64,x1=-1,y1=-1;for(let i=0;i<p.length;i++)if(p[i]){x0=Math.min(x0,i%64);x1=Math.max(x1,i%64);y0=Math.min(y0,i>>6);y1=Math.max(y1,i>>6);}return[x0,y0,x1-x0+1,y1-y0+1];});
+ const anchor=[0,0],offsets=bounds.map((b,f)=>{const o=resource.originalFrames[f];return[Math.round(o.bounds[0]+o.bounds[2]/2-(b[0]+b[2]/2-32)),o.nativeBottomPixel-(b[1]+b[3]-1-64)];});
+ for(let f=0;f<20;f++)for(let c=0;c<4;c++)for(let axis=0;axis<2;axis++)compiled.assembly[f*40+32+c*2+axis]+=offsets[f][axis];
+ for(let f=0;f<20;f++)for(const c of nativeSpriteCells({...compiled,cells:4,frames:20},f)){const[ox,oy]=packing[f].origins[c.cell];assert.equal(c.x,ox-32+offsets[f][0]);assert.equal(c.y,oy-64+offsets[f][1]);for(let y=0;y<16;y++)for(let x=0;x<16;x++)assert.equal(c.pixels[y*16+x],frames[f][(oy+y)*64+ox+x]);}
+ const packed=compress(compiled.graphics);assert.deepEqual(decompress(packed,0).bytes,compiled.graphics);assert.equal(compiled.assembly.length,800);
+ for(const[file,b]of[['graphics.4bpp',compiled.graphics],['graphics.ct-lz',packed],['assembly.bin',compiled.assembly]])await writeFile(folder+'/'+file,b);
+ for(const a of actors){const b=new Uint8Array(24);a.colors.forEach((c,i)=>put16(b,i*2,snesColor(c)));assert.equal(hash(b),resource.actors.find(o=>o.palette===a.palette).preservedPaletteSha256);await writeFile(folder+'/palette-'+a.palette+'.bin',b);}
+ const map={status:'Inactive generated source and exact native geometry proposal',nativeFrames:20,authoredSourcePoses:11,unusedSourceFrames:[11],width:64,height:64,size:0,cells:4,anchor,frameOffsets:offsets,nativeMap,frames:roles.frames.map((r,f)=>({...r,source:nativeMap[f],sampledBounds:bounds[f],proposedNativeBounds:[bounds[f][0]-32+offsets[f][0],bounds[f][1]-64+offsets[f][1],...bounds[f].slice(2)],cellOrigins:packing[f].origins,occupiedCells:packing[f].occupied,stripAxis:packing[f].stripAxis,sourcePixelSha256:hash(frames[f])})),integration:'Keep20 native slots, four cells, full size0, IDs, programs, current palettes. Use authored cell origins and frameOffsets. Only verified original source duplicates and whole-source horizontal mirrors are reused.'};await writeFile(folder+'/native-frame-map.draft.json',JSON.stringify(map,null,2)+'\n');
+ const audit={status:'Inactive exact compile passed',graphicsBytes:compiled.graphics.length,compressedBytes:packed.length,assemblyBytes:compiled.assembly.length,tiles:compiled.tiles,graphicsSha256:hash(compiled.graphics),compressedSha256:hash(packed),assemblySha256:hash(compiled.assembly),uniqueNativeSourceImages:new Set(frames.map(hash)).size,original:{...resource.originalGraphics,rawDelta:compiled.graphics.length-resource.originalGraphics.decodedBytes,compressedPlusAssemblyDelta:packed.length-resource.originalGraphics.compressedBytes},current:{...resource.currentBaseline,rawDelta:compiled.graphics.length-resource.currentBaseline.graphics.decodedBytes,compressedPlusAssemblyDelta:packed.length-resource.currentBaseline.graphics.compressedBytes},underOriginalDecodedBudget:compiled.graphics.length<=resource.originalGraphics.decodedBytes,sourcePixelsNotDrawnOrClipped:true,activation:false};await writeFile(folder+'/draft-audit.json',JSON.stringify(audit,null,2)+'\n');return audit;
+}
+if(process.argv[1]&&new URL('file://'+process.argv[1]).href===import.meta.url)console.log(JSON.stringify(await compileDraft()));

@@ -1,0 +1,125 @@
+{
+  "key": "guy-fieri",
+  "status": "Frozen inactive generated-source replacement for all six training tiers; root owns activation and native emulator integration",
+  "importSpecs": {
+    "body": "assets/imagegen/guy-fieri/body/import-spec.draft.json",
+    "mantle": "assets/imagegen/guy-fieri/guy-fieri-mantle/import-spec.draft.json",
+    "halo": "assets/imagegen/guy-fieri/guy-fieri-halo/import-spec.draft.json"
+  },
+  "rasterKeys": [
+    "guy-fieri",
+    "guy-fieri-mantle",
+    "guy-fieri-halo"
+  ],
+  "nativeMaps": "assets/imagegen/guy-fieri/native-roles.draft.json",
+  "nativeContract": "assets/imagegen/guy-fieri/native-contract.json",
+  "palettes": "assets/imagegen/guy-fieri/palettes.draft.json",
+  "rendererReference": "assets/imagegen/guy-fieri/compile-draft.mjs",
+  "composition": "Tiers0/1/2/5 use the32×32 body. Tier3 layers it at0,32 over32×64 mantle. Tier4 layers it at8,32 over48×64 halo. Effect phase equals native role.phase modulo2. Only actual source sampling, recorded whole-source mirrors and transparent composition are used.",
+  "coverage": {
+    "nativeSlots": 133,
+    "consumedBodySourceDrawings": 35,
+    "sourceEffectDrawings": 4,
+    "missingRoles": [],
+    "proceduralNativeSlots": 0,
+    "limitations": [
+      "Back opposite contact and right-profile gait use complete-source mirrors.",
+      "The side second generated contact changes foreground arm crossing; its sole positions remain similar, so it is not claimed as a perfect opposite-foot support drawing.",
+      "Tier4 native directions0/2 retain the original shared left-facing walk IDs.",
+      "All six palettes deliberately preserve the same blond/skin/flame/charcoal identity; large tiers differ by their generated flame silhouettes."
+    ]
+  },
+  "budgets": {
+    "sharedTiles": 936,
+    "tileLimit": 1024,
+    "rawGraphicsBytes": 29952,
+    "compressedGraphicsBytes": 21693,
+    "assemblyBytes": 7760,
+    "previousRawBytes": 29056,
+    "previousCompressedBytes": 19370,
+    "rawDelta": 896,
+    "compressedDelta": 2323,
+    "extraWramBytes": 0,
+    "extraVramBytes": 0,
+    "nativeCellBudgets": [
+      4,
+      4,
+      4,
+      8,
+      12,
+      4
+    ]
+  },
+  "capacity": {
+    "requiresExistingRawStreamForGfx252": true,
+    "decodedBankBelow32768": true,
+    "ordinaryDecompressionUnionBytes": 33024,
+    "roomPropsOnlyBytes": 3072,
+    "rootConfirmedCurrentProductionStreams252": true,
+    "actualCandidateSceneValidationPending": true
+  },
+  "verification": {
+    "all133Native4bppReconstructionsPassed": true,
+    "compressionRoundTripPassed": true,
+    "allSixNativePosePagesVisuallyReviewed": true,
+    "sourceFacingAndAliasesReviewed": true,
+    "originalNativeFrameListsAndOffsetsPreserved": true,
+    "reviewClockHz": 6,
+    "nativeEmulatorUpload": "Pending activation; no candidate emulator or end-to-end practice claim"
+  },
+  "nativeAssemblyHashesAfterAuthoredXY": [
+    {
+      "tier": 0,
+      "owner": 224,
+      "asm": 232,
+      "bytes": 1040,
+      "sha256": "3b376e9396f04370bce1e4f4800a9bb7d88dda02e40e69ba438ea6aa5cc13277"
+    },
+    {
+      "tier": 1,
+      "owner": 225,
+      "asm": 233,
+      "bytes": 600,
+      "sha256": "90f2effc271520d8f5205307c1d602fa23732544ea9825eb48cd20b1a59e829f"
+    },
+    {
+      "tier": 2,
+      "owner": 226,
+      "asm": 234,
+      "bytes": 1080,
+      "sha256": "6741dc25c9acf0465f0c11c41b79701020d56d9b7ac12d7ea466f9753c064ad6"
+    },
+    {
+      "tier": 3,
+      "owner": 227,
+      "asm": 235,
+      "bytes": 1680,
+      "sha256": "4f6410f4bb530fea96561050e16686d10537e2f2b0ce0e4af0eda13319ac0e0d"
+    },
+    {
+      "tier": 4,
+      "owner": 228,
+      "asm": 236,
+      "bytes": 2400,
+      "sha256": "5ed16bc0aede328b37dedb9aecdc40c4c3f6ae161e5c9393fedca873b974c448"
+    },
+    {
+      "tier": 5,
+      "owner": 229,
+      "asm": 237,
+      "bytes": 960,
+      "sha256": "85446e09d07e3165dfc66e4c5cf8892c68e56ee46ace515335ac740577023991"
+    }
+  ],
+  "review": {
+    "allFrames": "assets/imagegen/guy-fieri/native-frames.html",
+    "motion": "assets/imagegen/guy-fieri/motion.html",
+    "walkContacts": "assets/imagegen/guy-fieri/walk-contact-strip.png",
+    "walkProof": "assets/imagegen/guy-fieri/walk-contact-audit.json",
+    "baseNative": "assets/imagegen/guy-fieri/base-preview/preview-native-indexed.png",
+    "largeHalo": "assets/imagegen/guy-fieri/native-tier4.png"
+  },
+  "reproduction": "node assets/imagegen/guy-fieri/reproduce-draft.mjs",
+  "noActiveWrites": true,
+  "canonicalRomWritten": false
+}

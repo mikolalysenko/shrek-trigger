@@ -1,0 +1,168 @@
+{
+  "status": "Frozen inactive generated-source candidate",
+  "date": "2026-10-31",
+  "design": "Original thorn-bound Briar Knight fairy-tale enforcer; existing project design and native Slash animation semantics provide identity/role constraints.",
+  "generationMode": "Built-in image_gen only; no API/CLI fallback, key access, external source scraping or procedural character drawing.",
+  "outputs": [
+    {
+      "id": "base-v1",
+      "file": "source-base-v1.png",
+      "sha256": "5f5fa5a769892bae9788c07870dbe0afaacdf5d277a436eb8ea3889390f59e31",
+      "prompt": "prompt-base-v1.txt",
+      "promptSha256": "687528f3824059e693de35528e61eeeb96403699746eb03f14fdcd7c3e042bdd",
+      "tool": "built-in image_gen",
+      "model": "Not exposed in the tool result",
+      "sourceType": "image-generation",
+      "selectedForSampling": true,
+      "referenceImage": null,
+      "originalToolOutput": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-f0581334-cfa2-43c9-a556-d0292e6f8aa6.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "actualAlpha": {
+        "transparentPixels": 1020094,
+        "pixelsAtOrAbove128": 402419
+      }
+    },
+    {
+      "id": "combat-v1",
+      "file": "source-combat-v1.png",
+      "sha256": "847e0f33bf0e7142c993a9fc42c610e41714bb968d7e25115bc3419eff044466",
+      "prompt": "prompt-combat-v1.txt",
+      "promptSha256": "4079fd1e4952ecd07d938382a3bce08216f1118ed81275261e0779c3576a0f1f",
+      "tool": "built-in image_gen",
+      "model": "Not exposed in the tool result",
+      "sourceType": "image-generation",
+      "selectedForSampling": false,
+      "referenceImage": "source-base-v1.png",
+      "originalToolOutput": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-19983b56-a01e-4419-b8ab-4802d6619f53.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "actualAlpha": {
+        "transparentPixels": 989612,
+        "pixelsAtOrAbove128": 448433
+      },
+      "exclusionReason": "Outer blade tips clipped by original atlas edge. Retained solely as the recorded input to framing-corrected combat-v2; no native frame consumes its pixels."
+    },
+    {
+      "id": "combat-v2",
+      "file": "source-combat-v2.png",
+      "sha256": "b6ededbe3168ae698b0962b92e93f15ba8dc8aea4c92f8b80edea9c797fbf20c",
+      "prompt": "prompt-combat-v2.txt",
+      "promptSha256": "04c7028d17f93b61ab7b87fe48efcef0b373c59f6d395fc351100d828de4242e",
+      "tool": "built-in image_gen",
+      "model": "Not exposed in the tool result",
+      "sourceType": "image-generation",
+      "selectedForSampling": true,
+      "referenceImage": "source-combat-v1.png",
+      "originalToolOutput": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-bbdec63c-cef6-43d8-80e6-1f8b15f0a310.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "actualAlpha": {
+        "transparentPixels": 1111432,
+        "pixelsAtOrAbove128": 343407
+      }
+    },
+    {
+      "id": "reactions-v1",
+      "file": "source-reactions-v1.png",
+      "sha256": "7af277e8d93371cc66f7b3915eb5342c0a5d90bae9006dc35d2dde2959bd0ec1",
+      "prompt": "prompt-reactions-v1.txt",
+      "promptSha256": "60e3962b3a742b0e11e553a5a9ce50880fa52b05e04df6d44eb2a95ea7c9b8eb",
+      "tool": "built-in image_gen",
+      "model": "Not exposed in the tool result",
+      "sourceType": "image-generation",
+      "selectedForSampling": true,
+      "referenceImage": "source-base-v1.png",
+      "originalToolOutput": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-42957457-da3b-49f1-83ce-9be40bfe627a.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "actualAlpha": {
+        "transparentPixels": 923061,
+        "pixelsAtOrAbove128": 511209
+      }
+    },
+    {
+      "id": "aerial-v1",
+      "file": "source-aerial-v1.png",
+      "sha256": "b79b01737af36f1a7b2a74b153d0354a4e8a2cd2d8e4291fd03e651ec9446a69",
+      "prompt": "prompt-aerial-v1.txt",
+      "promptSha256": "9201330ebef5648f926697238d6a11a4488db713126a24e45ace10dd663e25ea",
+      "tool": "built-in image_gen",
+      "model": "Not exposed in the tool result",
+      "sourceType": "image-generation",
+      "selectedForSampling": true,
+      "referenceImage": "source-base-v1.png",
+      "originalToolOutput": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-c7eab198-00d1-4c1d-9e2f-ac16f098d94d.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "actualAlpha": {
+        "transparentPixels": 981482,
+        "pixelsAtOrAbove128": 476591
+      }
+    }
+  ],
+  "derivation": {
+    "importer": "scripts/import-raster-art.mjs --preview-spec assets/imagegen/briar-knight/import-spec.draft.json",
+    "recipe": "prepare-draft.mjs",
+    "compiler": "compile-draft.mjs",
+    "nativeDimensions": [
+      64,
+      80
+    ],
+    "standingBodyHeight": 38,
+    "opaquePaletteColors": 12,
+    "method": "Actual alpha-connected source pixels, majority-area palette sampling; whole-pose native scale, mirror and anchor transforms only. Nonoverlapping eight-cell packing never edits source pixels.",
+    "selectedSheetCount": 4,
+    "sourceCellCount": 64,
+    "uniqueConsumedSourcePoses": 59,
+    "nativeFrames": 86,
+    "visibleFrames": 83,
+    "blankFrames": [
+      39,
+      40,
+      41
+    ],
+    "unusedSourceCells": {
+      "base-v1": [],
+      "combat-v2": [
+        0,
+        15
+      ],
+      "reactions-v1": [
+        15
+      ],
+      "aerial-v1": [
+        12,
+        14
+      ]
+    }
+  },
+  "review": {
+    "reviewer": "/root/sprite_art_pass",
+    "base": "Approved actual38px native identity/scale",
+    "fullSheet": "Approved coherent model, gesture coverage, separate armed/unarmed actions, true front/back aerial rotation and downward plunge84",
+    "native": "Private isolated uploads passed; settled0/20/84/85 captures viewed by this agent",
+    "limits": "Fine thorn/eye detail is necessarily small; steel helmet, leaf crest, berry tabard, green cape, full sword and body gesture carry recognition at native scale."
+  },
+  "nativeProof": {
+    "file": "native-verification/manifest.json",
+    "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+    "privateRomSha256": "379a3a1f71ec918c636467cc1f788552b2d53d0a2ea2503ac6e96031ae0fc1b1",
+    "nativeUploads": 344,
+    "opaquePixelChecks": 178584,
+    "variants": 4,
+    "settledFrames": 30,
+    "scope": "Four isolated native field previews, not complete fortress/trio/hideout battles or original story choreography."
+  },
+  "integration": "No active spec, engine registry or canonical ROM changes. Original decoded family-size guard remains; first four current scene union budgets exceed32KiB. Root must integrate proved size1 streaming or complete-scene residency before activation."
+}

@@ -1,0 +1,363 @@
+[
+  {
+    "key": "pots",
+    "name": "Enchanted clay pots",
+    "gfx": 112,
+    "groups": [
+      {
+        "asm": 79,
+        "size": 0,
+        "frames": 8,
+        "width": 32,
+        "height": 32,
+        "art": "cracked-pot",
+        "frameOffsets": {
+          "1": [
+            0,
+            -1
+          ],
+          "3": [
+            0,
+            -12
+          ],
+          "6": [
+            0,
+            4
+          ]
+        }
+      },
+      {
+        "asm": 78,
+        "size": 0,
+        "frames": 8,
+        "width": 32,
+        "height": 32,
+        "art": "spore-pot",
+        "frameOffsets": {
+          "1": [
+            0,
+            -1
+          ],
+          "3": [
+            0,
+            -12
+          ],
+          "6": [
+            0,
+            4
+          ]
+        }
+      },
+      {
+        "asm": 77,
+        "size": 0,
+        "frames": 8,
+        "width": 32,
+        "height": 32,
+        "art": "ember-pot",
+        "frameOffsets": {
+          "1": [
+            0,
+            -1
+          ],
+          "3": [
+            0,
+            -12
+          ],
+          "7": [
+            0,
+            4
+          ]
+        }
+      }
+    ],
+    "actors": [
+      {
+        "key": "cracked-pot",
+        "name": "Cracked Pot",
+        "short": "Cracked Pot",
+        "enemy": 91,
+        "asm": 79,
+        "palette": 111,
+        "animation": 48,
+        "colors": [
+          "252c2a",
+          "4b3b30",
+          "7d6047",
+          "b58b60",
+          "e2bc87",
+          "2c4337",
+          "557754",
+          "95ae76",
+          "364f5b",
+          "79949a",
+          "dfa84f",
+          "f9e9b6"
+        ]
+      },
+      {
+        "key": "clay-pot",
+        "name": "Clay Pot",
+        "short": "Clay Pot",
+        "enemy": 92,
+        "asm": 79,
+        "palette": 108,
+        "animation": 48,
+        "colors": [
+          "2c272a",
+          "583632",
+          "935548",
+          "ca8462",
+          "edb78b",
+          "374038",
+          "68734f",
+          "a3ae71",
+          "433e53",
+          "91819a",
+          "e8b55d",
+          "ffedbc"
+        ]
+      },
+      {
+        "key": "spore-pot",
+        "name": "Spore Pot",
+        "short": "Spore Pot",
+        "enemy": 93,
+        "asm": 78,
+        "palette": 109,
+        "animation": 48,
+        "colors": [
+          "252b30",
+          "3c414b",
+          "606a74",
+          "91a0a1",
+          "c8d6c0",
+          "294b38",
+          "4b8251",
+          "91b86c",
+          "354959",
+          "6a94a2",
+          "d9b66b",
+          "f7ecc2"
+        ]
+      },
+      {
+        "key": "thorn-spore",
+        "name": "Thorn Spore",
+        "short": "Thorn Spore",
+        "enemy": 94,
+        "asm": 78,
+        "palette": 110,
+        "animation": 48,
+        "colors": [
+          "2c2730",
+          "4d3547",
+          "825168",
+          "b9828d",
+          "e4b5b1",
+          "42324b",
+          "78506d",
+          "bb8c9b",
+          "4a3a57",
+          "9a789c",
+          "dcae69",
+          "ffebc0"
+        ]
+      },
+      {
+        "key": "ember-pot",
+        "name": "Ember Pot",
+        "short": "Ember Pot",
+        "enemy": 95,
+        "asm": 77,
+        "palette": 107,
+        "animation": 48,
+        "colors": [
+          "2b2529",
+          "51332f",
+          "86503b",
+          "ba7c43",
+          "e4af66",
+          "493c30",
+          "786749",
+          "b5a36c",
+          "78352f",
+          "b95b3c",
+          "edab4f",
+          "fff0b3"
+        ]
+      },
+      {
+        "key": "spell-pot",
+        "name": "Spell Pot",
+        "short": "Spell Pot",
+        "enemy": 97,
+        "asm": 77,
+        "palette": 109,
+        "animation": 48,
+        "colors": [
+          "252b30",
+          "3c414b",
+          "606a74",
+          "91a0a1",
+          "c8d6c0",
+          "294b38",
+          "4b8251",
+          "91b86c",
+          "354959",
+          "6a94a2",
+          "d9b66b",
+          "f7ecc2"
+        ]
+      },
+      {
+        "key": "moss-urn",
+        "name": "Moss Urn",
+        "short": "Moss Urn",
+        "enemy": 98,
+        "asm": 79,
+        "palette": 109,
+        "animation": 48,
+        "colors": [
+          "252b30",
+          "3c414b",
+          "606a74",
+          "91a0a1",
+          "c8d6c0",
+          "294b38",
+          "4b8251",
+          "91b86c",
+          "354959",
+          "6a94a2",
+          "d9b66b",
+          "f7ecc2"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "beetles",
+    "name": "Scrap and briar beetles",
+    "gfx": 92,
+    "groups": [
+      {
+        "asm": 49,
+        "size": 0,
+        "frames": 29,
+        "width": 32,
+        "height": 32,
+        "art": "beetle",
+        "frameOffsets": {
+          "0": [
+            -2,
+            0
+          ],
+          "2": [
+            2,
+            0
+          ],
+          "7": [
+            -1,
+            0
+          ],
+          "10": [
+            1,
+            0
+          ],
+          "13": [
+            0,
+            -1
+          ],
+          "15": [
+            1,
+            0
+          ],
+          "16": [
+            -1,
+            0
+          ],
+          "21": [
+            8,
+            -24
+          ],
+          "22": [
+            8,
+            -23
+          ],
+          "23": [
+            8,
+            -22
+          ],
+          "24": [
+            0,
+            -16
+          ],
+          "25": [
+            8,
+            -16
+          ],
+          "26": [
+            0,
+            -24
+          ],
+          "27": [
+            0,
+            -24
+          ],
+          "28": [
+            4,
+            -12
+          ]
+        }
+      }
+    ],
+    "actors": [
+      {
+        "key": "scrap-beetle",
+        "name": "Scrap Beetle",
+        "short": "ScrapBeetle",
+        "enemy": 140,
+        "asm": 49,
+        "palette": 111,
+        "animation": 144,
+        "colors": [
+          "252c2a",
+          "4b3b30",
+          "7d6047",
+          "b58b60",
+          "e2bc87",
+          "2c4337",
+          "557754",
+          "95ae76",
+          "364f5b",
+          "79949a",
+          "dfa84f",
+          "f9e9b6"
+        ]
+      },
+      {
+        "key": "briar-beetle",
+        "name": "Briar Beetle",
+        "short": "BriarBeetle",
+        "enemy": 141,
+        "asm": 49,
+        "palette": 41,
+        "animation": 144,
+        "colors": [
+          "252d29",
+          "423e32",
+          "7b7048",
+          "b1a161",
+          "e3ce8c",
+          "42374a",
+          "775a79",
+          "ad90ac",
+          "35543b",
+          "7eac65",
+          "e5ad55",
+          "ffedc2"
+        ]
+      }
+    ]
+  }
+]

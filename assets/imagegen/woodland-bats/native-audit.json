@@ -1,0 +1,8511 @@
+{
+  "status": "Inactive read-only organic-bat source audit; no generation or activation",
+  "activation": false,
+  "generationStarted": false,
+  "baseline": {
+    "path": ".local/qa/hench-audit-af3383746691/baseline.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7"
+  },
+  "original": {
+    "path": ".local/chrono-trigger-usa.sfc",
+    "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+  },
+  "evidence": {
+    "manifest": {
+      "path": ".local/qa/hench-audit-af3383746691/manifest.json",
+      "sha256": "edadf3c70434706eaf18a736978e6de7ce0d100ce72c9f187397ccef3b06de60"
+    },
+    "sourceEvents": {
+      "path": ".local/reference/events.json",
+      "sha256": "e329977c8d7d41db7540d3f59d3a87ae6a3dfa8abf9f442abd16b62f6478273c"
+    }
+  },
+  "family": {
+    "gfx": 103,
+    "asm": 66,
+    "palettes": [
+      78,
+      79
+    ],
+    "animation": 47,
+    "size": 0,
+    "cells": 4,
+    "frames": 8
+  },
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 80,
+      "header": [
+        103,
+        66,
+        78,
+        47,
+        192,
+        0,
+        216,
+        2,
+        2,
+        68
+      ],
+      "name": "Mad Bat"
+    },
+    {
+      "kind": "enemy",
+      "id": 81,
+      "header": [
+        103,
+        66,
+        79,
+        47,
+        192,
+        0,
+        216,
+        2,
+        2,
+        18
+      ],
+      "name": "Vamp"
+    },
+    {
+      "kind": "enemy",
+      "id": 115,
+      "header": [
+        103,
+        66,
+        78,
+        47,
+        224,
+        0,
+        216,
+        2,
+        2,
+        68
+      ],
+      "name": "Cave Bat"
+    }
+  ],
+  "ownership": [
+    {
+      "field": 0,
+      "id": 103,
+      "pointer": 14090240,
+      "aliases": [
+        103
+      ],
+      "directOwners": [
+        {
+          "kind": "enemy",
+          "id": 80,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Mad Bat"
+        },
+        {
+          "kind": "enemy",
+          "id": 81,
+          "header": [
+            103,
+            66,
+            79,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            18
+          ],
+          "name": "Vamp"
+        },
+        {
+          "kind": "enemy",
+          "id": 115,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            224,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Cave Bat"
+        }
+      ],
+      "allAliasOwners": [
+        {
+          "kind": "enemy",
+          "id": 80,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Mad Bat"
+        },
+        {
+          "kind": "enemy",
+          "id": 81,
+          "header": [
+            103,
+            66,
+            79,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            18
+          ],
+          "name": "Vamp"
+        },
+        {
+          "kind": "enemy",
+          "id": 115,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            224,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Cave Bat"
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "id": 66,
+      "pointer": 14507736,
+      "aliases": [
+        66
+      ],
+      "directOwners": [
+        {
+          "kind": "enemy",
+          "id": 80,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Mad Bat"
+        },
+        {
+          "kind": "enemy",
+          "id": 81,
+          "header": [
+            103,
+            66,
+            79,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            18
+          ],
+          "name": "Vamp"
+        },
+        {
+          "kind": "enemy",
+          "id": 115,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            224,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Cave Bat"
+        }
+      ],
+      "allAliasOwners": [
+        {
+          "kind": "enemy",
+          "id": 80,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Mad Bat"
+        },
+        {
+          "kind": "enemy",
+          "id": 81,
+          "header": [
+            103,
+            66,
+            79,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            18
+          ],
+          "name": "Vamp"
+        },
+        {
+          "kind": "enemy",
+          "id": 115,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            224,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Cave Bat"
+        }
+      ]
+    },
+    {
+      "field": 2,
+      "id": 78,
+      "pointer": 1872,
+      "aliases": [
+        78
+      ],
+      "directOwners": [
+        {
+          "kind": "enemy",
+          "id": 80,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Mad Bat"
+        },
+        {
+          "kind": "enemy",
+          "id": 115,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            224,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Cave Bat"
+        }
+      ],
+      "allAliasOwners": [
+        {
+          "kind": "enemy",
+          "id": 80,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Mad Bat"
+        },
+        {
+          "kind": "enemy",
+          "id": 115,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            224,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Cave Bat"
+        }
+      ]
+    },
+    {
+      "field": 2,
+      "id": 79,
+      "pointer": 1896,
+      "aliases": [
+        79
+      ],
+      "directOwners": [
+        {
+          "kind": "enemy",
+          "id": 81,
+          "header": [
+            103,
+            66,
+            79,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            18
+          ],
+          "name": "Vamp"
+        }
+      ],
+      "allAliasOwners": [
+        {
+          "kind": "enemy",
+          "id": 81,
+          "header": [
+            103,
+            66,
+            79,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            18
+          ],
+          "name": "Vamp"
+        }
+      ]
+    },
+    {
+      "field": 3,
+      "id": 47,
+      "pointer": 25184,
+      "aliases": [
+        47
+      ],
+      "directOwners": [
+        {
+          "kind": "enemy",
+          "id": 80,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Mad Bat"
+        },
+        {
+          "kind": "enemy",
+          "id": 81,
+          "header": [
+            103,
+            66,
+            79,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            18
+          ],
+          "name": "Vamp"
+        },
+        {
+          "kind": "enemy",
+          "id": 115,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            224,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Cave Bat"
+        }
+      ],
+      "allAliasOwners": [
+        {
+          "kind": "enemy",
+          "id": 80,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Mad Bat"
+        },
+        {
+          "kind": "enemy",
+          "id": 81,
+          "header": [
+            103,
+            66,
+            79,
+            47,
+            192,
+            0,
+            216,
+            2,
+            2,
+            18
+          ],
+          "name": "Vamp"
+        },
+        {
+          "kind": "enemy",
+          "id": 115,
+          "header": [
+            103,
+            66,
+            78,
+            47,
+            224,
+            0,
+            216,
+            2,
+            2,
+            68
+          ],
+          "name": "Cave Bat"
+        }
+      ]
+    }
+  ],
+  "resources": {
+    "graphics": {
+      "current": {
+        "pointer": 14090240,
+        "offset": 1507328,
+        "decodedBytes": 1760,
+        "compressedBytes": 1281,
+        "sha256": "2e952df92c62fb56a24cef87ff85c14fa72c36e56e6cc17898ade6c02102e05f"
+      },
+      "original": {
+        "pointer": 14090240,
+        "offset": 1507328,
+        "decodedBytes": 1760,
+        "compressedBytes": 1281,
+        "sha256": "2e952df92c62fb56a24cef87ff85c14fa72c36e56e6cc17898ade6c02102e05f"
+      },
+      "unchanged": true
+    },
+    "assembly": {
+      "offset": 1924824,
+      "extent": 320,
+      "sha256": "1d0abb3c78f46d2e5e03ace34cb257cb0c3eee4ef960cac8f7912491efc6ac3b",
+      "unchanged": true
+    },
+    "compressedPlusAssemblyBytes": 1601,
+    "originalDecodedCeiling": 1760,
+    "streamPointer": 0,
+    "nativeHeapLimit": 32768
+  },
+  "palettes": [
+    {
+      "id": 78,
+      "offset": 2361168,
+      "words": [
+        3204,
+        32767,
+        25434,
+        18068,
+        11759,
+        8588,
+        237,
+        4360,
+        136,
+        101,
+        99,
+        6342
+      ],
+      "colors": [
+        "212118",
+        "ffffff",
+        "d6d6c6",
+        "a5a58c",
+        "7b7b5a",
+        "636342",
+        "6b3900",
+        "424221",
+        "422100",
+        "291800",
+        "181800",
+        "313131"
+      ],
+      "sha256": "d4c86e657332a2e44902fa3390fdd3585c18646d0656f9cc87266ae824d3a159",
+      "unchanged": true
+    },
+    {
+      "id": 79,
+      "offset": 2361192,
+      "words": [
+        3204,
+        32767,
+        21343,
+        17084,
+        14872,
+        11633,
+        9448,
+        8329,
+        7334,
+        6277,
+        99,
+        6342
+      ],
+      "colors": [
+        "212118",
+        "ffffff",
+        "ffd6a5",
+        "e7ad84",
+        "c68473",
+        "8c5a5a",
+        "42394a",
+        "4a2142",
+        "312939",
+        "292131",
+        "181800",
+        "313131"
+      ],
+      "sha256": "a6f7e75b09e601347b93d6c56cd600f3483e55c039dd38862669716cd01254e1",
+      "unchanged": true
+    }
+  ],
+  "animation": {
+    "id": 47,
+    "frameOffset": 2384480,
+    "durationOffset": 2407144,
+    "frameBytes": [
+      0,
+      1,
+      2,
+      1,
+      0,
+      1,
+      2,
+      1,
+      255,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      0,
+      255,
+      0,
+      0,
+      3,
+      255,
+      0,
+      0,
+      4,
+      255,
+      0,
+      0,
+      1,
+      255,
+      0,
+      0,
+      5,
+      6,
+      255,
+      0,
+      0,
+      1,
+      2,
+      1,
+      0,
+      1,
+      2,
+      1,
+      255,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      0,
+      255,
+      0,
+      0,
+      3,
+      255,
+      0,
+      0,
+      4,
+      255,
+      0,
+      0,
+      1,
+      255,
+      0,
+      0,
+      5,
+      6,
+      255,
+      0,
+      0,
+      1,
+      2,
+      1,
+      0,
+      1,
+      2,
+      1,
+      255,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      0,
+      255,
+      0,
+      0,
+      3,
+      255,
+      0,
+      0,
+      4,
+      255,
+      0,
+      0,
+      1,
+      255,
+      0,
+      0,
+      5,
+      6,
+      255,
+      0,
+      0,
+      1,
+      2,
+      1,
+      0,
+      1,
+      2,
+      1,
+      255,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      0,
+      255,
+      0,
+      0,
+      3,
+      255,
+      0,
+      0,
+      4,
+      255,
+      0,
+      0,
+      1,
+      255,
+      0,
+      0,
+      5,
+      6,
+      255,
+      0
+    ],
+    "durationBytes": [
+      10,
+      5,
+      10,
+      5,
+      10,
+      5,
+      10,
+      5,
+      0,
+      0,
+      0,
+      0,
+      10,
+      5,
+      10,
+      5,
+      0,
+      0,
+      0,
+      0,
+      31,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      15,
+      0,
+      0,
+      0,
+      10,
+      10,
+      0,
+      0
+    ],
+    "frameSha256": "dea8d690a4c8767e053c706f9300c2c7bd263811f8d22aa8873c0379de9f99b8",
+    "durationSha256": "b6c09432016ae49403a4e65cad6a16874ecdf803da7b4d87411116e15ca7a292",
+    "framePointerAliases": [
+      47
+    ],
+    "durationPointerAliases": [
+      47
+    ],
+    "durationAliasOwners": [
+      {
+        "kind": "enemy",
+        "id": 80,
+        "header": [
+          103,
+          66,
+          78,
+          47,
+          192,
+          0,
+          216,
+          2,
+          2,
+          68
+        ],
+        "name": "Mad Bat"
+      },
+      {
+        "kind": "enemy",
+        "id": 81,
+        "header": [
+          103,
+          66,
+          79,
+          47,
+          192,
+          0,
+          216,
+          2,
+          2,
+          18
+        ],
+        "name": "Vamp"
+      },
+      {
+        "kind": "enemy",
+        "id": 115,
+        "header": [
+          103,
+          66,
+          78,
+          47,
+          224,
+          0,
+          216,
+          2,
+          2,
+          68
+        ],
+        "name": "Cave Bat"
+      }
+    ],
+    "stride": 36,
+    "lists": [
+      {
+        "facing": 0,
+        "action": 0,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 60
+      },
+      {
+        "facing": 0,
+        "action": 1,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 30
+      },
+      {
+        "facing": 0,
+        "action": 2,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 0,
+        "action": 3,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 30
+      },
+      {
+        "facing": 0,
+        "action": 4,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 0,
+        "action": 5,
+        "steps": [
+          {
+            "frame": 3,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 31
+      },
+      {
+        "facing": 0,
+        "action": 6,
+        "steps": [
+          {
+            "frame": 4,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 5
+      },
+      {
+        "facing": 0,
+        "action": 7,
+        "steps": [
+          {
+            "frame": 1,
+            "duration": 15
+          }
+        ],
+        "cycleTicks": 15
+      },
+      {
+        "facing": 0,
+        "action": 8,
+        "steps": [
+          {
+            "frame": 5,
+            "duration": 10
+          },
+          {
+            "frame": 6,
+            "duration": 10
+          }
+        ],
+        "cycleTicks": 20
+      },
+      {
+        "facing": 1,
+        "action": 0,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 60
+      },
+      {
+        "facing": 1,
+        "action": 1,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 30
+      },
+      {
+        "facing": 1,
+        "action": 2,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 1,
+        "action": 3,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 30
+      },
+      {
+        "facing": 1,
+        "action": 4,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 1,
+        "action": 5,
+        "steps": [
+          {
+            "frame": 3,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 31
+      },
+      {
+        "facing": 1,
+        "action": 6,
+        "steps": [
+          {
+            "frame": 4,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 5
+      },
+      {
+        "facing": 1,
+        "action": 7,
+        "steps": [
+          {
+            "frame": 1,
+            "duration": 15
+          }
+        ],
+        "cycleTicks": 15
+      },
+      {
+        "facing": 1,
+        "action": 8,
+        "steps": [
+          {
+            "frame": 5,
+            "duration": 10
+          },
+          {
+            "frame": 6,
+            "duration": 10
+          }
+        ],
+        "cycleTicks": 20
+      },
+      {
+        "facing": 2,
+        "action": 0,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 60
+      },
+      {
+        "facing": 2,
+        "action": 1,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 30
+      },
+      {
+        "facing": 2,
+        "action": 2,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 2,
+        "action": 3,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 30
+      },
+      {
+        "facing": 2,
+        "action": 4,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 2,
+        "action": 5,
+        "steps": [
+          {
+            "frame": 3,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 31
+      },
+      {
+        "facing": 2,
+        "action": 6,
+        "steps": [
+          {
+            "frame": 4,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 5
+      },
+      {
+        "facing": 2,
+        "action": 7,
+        "steps": [
+          {
+            "frame": 1,
+            "duration": 15
+          }
+        ],
+        "cycleTicks": 15
+      },
+      {
+        "facing": 2,
+        "action": 8,
+        "steps": [
+          {
+            "frame": 5,
+            "duration": 10
+          },
+          {
+            "frame": 6,
+            "duration": 10
+          }
+        ],
+        "cycleTicks": 20
+      },
+      {
+        "facing": 3,
+        "action": 0,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 60
+      },
+      {
+        "facing": 3,
+        "action": 1,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 30
+      },
+      {
+        "facing": 3,
+        "action": 2,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 3,
+        "action": 3,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 30
+      },
+      {
+        "facing": 3,
+        "action": 4,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 3,
+        "action": 5,
+        "steps": [
+          {
+            "frame": 3,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 31
+      },
+      {
+        "facing": 3,
+        "action": 6,
+        "steps": [
+          {
+            "frame": 4,
+            "duration": 5
+          }
+        ],
+        "cycleTicks": 5
+      },
+      {
+        "facing": 3,
+        "action": 7,
+        "steps": [
+          {
+            "frame": 1,
+            "duration": 15
+          }
+        ],
+        "cycleTicks": 15
+      },
+      {
+        "facing": 3,
+        "action": 8,
+        "steps": [
+          {
+            "frame": 5,
+            "duration": 10
+          },
+          {
+            "frame": 6,
+            "duration": 10
+          }
+        ],
+        "cycleTicks": 20
+      }
+    ],
+    "referencedFrames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "unchanged": true
+  },
+  "ai": [
+    {
+      "id": 80,
+      "offset": 826189,
+      "bytes": 56,
+      "sha256": "0367069bd8e3cdedc82f8f262f50e953ff321e09b26ca68b9da0491aec005340",
+      "unchanged": true,
+      "statsSha256": "60d73c7759c4aa981bfb56cebffba625a5e1519492c4e87e8a1a9fa84a59e6b7",
+      "rewardsSha256": "c55933c4cf9da8e62b48b10ad19c50dacdb5511b94a35a066a7085f0ccac1402"
+    },
+    {
+      "id": 81,
+      "offset": 826245,
+      "bytes": 63,
+      "sha256": "2e733b8fc090116fa8278f7c44e0aa47c5cf5fb8e5a90f4f26faab4d90eda757",
+      "unchanged": true,
+      "statsSha256": "95d5fb761487563e6e890086054aa6b53781f378aa13b7f88bdf4780a9f54ad2",
+      "rewardsSha256": "585966af994f6cdcb45861810998b00ef977d02ff103e3956a7f4bc924af5c8f"
+    },
+    {
+      "id": 115,
+      "offset": 827856,
+      "bytes": 37,
+      "sha256": "b73ab0a9dd2b2087bb1adf0eb71489af20dbfe78c245d0278af72ae63daecadd",
+      "unchanged": true,
+      "statsSha256": "b37526c5982d30090bab5fdafb8ad8c3182bc3c331b472e9df58a9d33ceda08d",
+      "rewardsSha256": "38bf117e64c5e4784f567b5c6693f16509f9417af02f67e1a164322a17890326"
+    }
+  ],
+  "geometry": {
+    "atlasWidth": 48,
+    "atlasHeight": 56,
+    "origin": [
+      24,
+      64
+    ],
+    "frames": [
+      {
+        "frame": 0,
+        "cellOrigins": [
+          [
+            -8,
+            -56
+          ],
+          [
+            -24,
+            -56
+          ],
+          [
+            -8,
+            -40
+          ],
+          [
+            8,
+            -56
+          ]
+        ],
+        "bounds": [
+          -18,
+          -56,
+          36,
+          22
+        ],
+        "opaquePixels": 406,
+        "pixelSha256": "a4505d86a93567ef8b52e18b205ac57f014fca4e4e2950517c6ad897a38954c1",
+        "animationUses": [
+          {
+            "action": 0,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 1,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 3,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 0,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 1,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 3,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 0,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 1,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 3,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 0,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 1,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 3,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 1,
+        "cellOrigins": [
+          [
+            -8,
+            -59
+          ],
+          [
+            -24,
+            -59
+          ],
+          [
+            -8,
+            -43
+          ],
+          [
+            8,
+            -59
+          ]
+        ],
+        "bounds": [
+          -20,
+          -56,
+          40,
+          19
+        ],
+        "opaquePixels": 304,
+        "pixelSha256": "c94d3ad0718ab4c314373bc2b1b91174d8fcc33970c77cbda25da579a57e4476",
+        "animationUses": [
+          {
+            "action": 0,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 1,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 3,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 7,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 1,
+                "duration": 15
+              }
+            ]
+          },
+          {
+            "action": 0,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 1,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 3,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 7,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 1,
+                "duration": 15
+              }
+            ]
+          },
+          {
+            "action": 0,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 1,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 3,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 7,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 1,
+                "duration": 15
+              }
+            ]
+          },
+          {
+            "action": 0,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 1,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 3,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 7,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 1,
+                "duration": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 2,
+        "cellOrigins": [
+          [
+            -8,
+            -58
+          ],
+          [
+            -24,
+            -50
+          ],
+          [
+            -8,
+            -42
+          ],
+          [
+            8,
+            -50
+          ]
+        ],
+        "bounds": [
+          -16,
+          -58,
+          32,
+          21
+        ],
+        "opaquePixels": 290,
+        "pixelSha256": "14c81d8e67950177c251c7624991c1904b498126212021fedc8e4e185beb0a1e",
+        "animationUses": [
+          {
+            "action": 0,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 1,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 3,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 0,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 1,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 3,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 0,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 1,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 3,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 0,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 1,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 3,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 0,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              },
+              {
+                "frame": 2,
+                "duration": 10
+              },
+              {
+                "frame": 1,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 3,
+        "cellOrigins": [
+          [
+            5,
+            -62
+          ],
+          [
+            -11,
+            -62
+          ],
+          [
+            5,
+            -46
+          ],
+          [
+            -11,
+            -46
+          ]
+        ],
+        "bounds": [
+          -11,
+          -59,
+          24,
+          21
+        ],
+        "opaquePixels": 350,
+        "pixelSha256": "c7922ff27d23d6a58610546673197f10e3ce22b5e72c7303b03b54fcced35a3f",
+        "animationUses": [
+          {
+            "action": 5,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 31
+              }
+            ]
+          },
+          {
+            "action": 5,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 31
+              }
+            ]
+          },
+          {
+            "action": 5,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 31
+              }
+            ]
+          },
+          {
+            "action": 5,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 3,
+                "duration": 31
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 4,
+        "cellOrigins": [
+          [
+            -16,
+            -64
+          ],
+          [
+            -1,
+            -64
+          ],
+          [
+            -16,
+            -48
+          ],
+          [
+            -1,
+            -48
+          ]
+        ],
+        "bounds": [
+          -10,
+          -61,
+          19,
+          28
+        ],
+        "opaquePixels": 268,
+        "pixelSha256": "19f7667703f9ba514f4756384f83ac0ec23027db94b9d286f4526580031beb79",
+        "animationUses": [
+          {
+            "action": 6,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 6,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 6,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          },
+          {
+            "action": 6,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 4,
+                "duration": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 5,
+        "cellOrigins": [
+          [
+            -14,
+            -41
+          ],
+          [
+            -9,
+            -47
+          ],
+          [
+            7,
+            -31
+          ],
+          [
+            -9,
+            -31
+          ]
+        ],
+        "bounds": [
+          -10,
+          -36,
+          19,
+          21
+        ],
+        "opaquePixels": 290,
+        "pixelSha256": "58e54fba27f1468208cbb6902d0989a40949cd62ad888da2f8886ab9020a970a",
+        "animationUses": [
+          {
+            "action": 8,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 5,
+                "duration": 10
+              },
+              {
+                "frame": 6,
+                "duration": 10
+              }
+            ]
+          },
+          {
+            "action": 8,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 5,
+                "duration": 10
+              },
+              {
+                "frame": 6,
+                "duration": 10
+              }
+            ]
+          },
+          {
+            "action": 8,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 5,
+                "duration": 10
+              },
+              {
+                "frame": 6,
+                "duration": 10
+              }
+            ]
+          },
+          {
+            "action": 8,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 5,
+                "duration": 10
+              },
+              {
+                "frame": 6,
+                "duration": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 6,
+        "cellOrigins": [
+          [
+            -14,
+            -42
+          ],
+          [
+            -9,
+            -47
+          ],
+          [
+            7,
+            -31
+          ],
+          [
+            -9,
+            -31
+          ]
+        ],
+        "bounds": [
+          -10,
+          -37,
+          19,
+          22
+        ],
+        "opaquePixels": 298,
+        "pixelSha256": "925dd9c7990e058b1dec4a1dc6fe55d383b3d0a57e43da140a73d3f77fcc499c",
+        "animationUses": [
+          {
+            "action": 8,
+            "facing": 0,
+            "steps": [
+              {
+                "frame": 5,
+                "duration": 10
+              },
+              {
+                "frame": 6,
+                "duration": 10
+              }
+            ]
+          },
+          {
+            "action": 8,
+            "facing": 1,
+            "steps": [
+              {
+                "frame": 5,
+                "duration": 10
+              },
+              {
+                "frame": 6,
+                "duration": 10
+              }
+            ]
+          },
+          {
+            "action": 8,
+            "facing": 2,
+            "steps": [
+              {
+                "frame": 5,
+                "duration": 10
+              },
+              {
+                "frame": 6,
+                "duration": 10
+              }
+            ]
+          },
+          {
+            "action": 8,
+            "facing": 3,
+            "steps": [
+              {
+                "frame": 5,
+                "duration": 10
+              },
+              {
+                "frame": 6,
+                "duration": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 7,
+        "cellOrigins": [
+          [
+            -16,
+            -64
+          ],
+          [
+            -1,
+            -64
+          ],
+          [
+            -16,
+            -48
+          ],
+          [
+            -1,
+            -48
+          ]
+        ],
+        "bounds": [
+          -10,
+          -61,
+          19,
+          28
+        ],
+        "opaquePixels": 268,
+        "pixelSha256": "c807d15270a72fb6ed17a570bd1798c5189a2ce8307f1eb9ba7d24a5b671886c",
+        "animationUses": []
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "location": 47,
+      "name": "Heckran Cave Passageways",
+      "eventId": 428,
+      "packetOffset": 1911200,
+      "packetSha256": "e910847d1309c70cac0411974ee791abd5ce5777fd6dd4cb11c84f0c17c6859f",
+      "originalPacketUnchanged": false,
+      "unresolvedLoadOffsets": 0,
+      "loads": [
+        {
+          "bodyOffset": 1601,
+          "kind": "enemy",
+          "sourceId": 115,
+          "sameOpcode": true,
+          "currentId": 115,
+          "slotFlags": 8,
+          "objectHint": {
+            "object": 18,
+            "entry": 1601
+          },
+          "followingSourceCommands": [
+            [
+              1601,
+              131,
+              [
+                115,
+                8
+              ]
+            ],
+            [
+              1604,
+              139,
+              [
+                34,
+                47
+              ]
+            ],
+            [
+              1607,
+              170,
+              [
+                6
+              ]
+            ],
+            [
+              1609,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              1611,
+              22,
+              [
+                174,
+                32,
+                134,
+                2
+              ]
+            ],
+            [
+              1616,
+              145,
+              []
+            ],
+            [
+              1617,
+              0,
+              []
+            ],
+            [
+              1618,
+              13,
+              [
+                0
+              ]
+            ],
+            [
+              1620,
+              178,
+              []
+            ],
+            [
+              1621,
+              0,
+              []
+            ],
+            [
+              1622,
+              139,
+              [
+                12,
+                9
+              ]
+            ],
+            [
+              1625,
+              144,
+              []
+            ],
+            [
+              1626,
+              0,
+              []
+            ],
+            [
+              1627,
+              156,
+              [
+                64,
+                32
+              ]
+            ],
+            [
+              1630,
+              174,
+              []
+            ],
+            [
+              1631,
+              137,
+              [
+                48
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1637,
+          "kind": "enemy",
+          "sourceId": 115,
+          "sameOpcode": true,
+          "currentId": 115,
+          "slotFlags": 9,
+          "objectHint": {
+            "object": 19,
+            "entry": 1637
+          },
+          "followingSourceCommands": [
+            [
+              1637,
+              131,
+              [
+                115,
+                9
+              ]
+            ],
+            [
+              1640,
+              139,
+              [
+                39,
+                45
+              ]
+            ],
+            [
+              1643,
+              170,
+              [
+                6
+              ]
+            ],
+            [
+              1645,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              1647,
+              22,
+              [
+                174,
+                32,
+                134,
+                2
+              ]
+            ],
+            [
+              1652,
+              145,
+              []
+            ],
+            [
+              1653,
+              0,
+              []
+            ],
+            [
+              1654,
+              13,
+              [
+                0
+              ]
+            ],
+            [
+              1656,
+              178,
+              []
+            ],
+            [
+              1657,
+              0,
+              []
+            ],
+            [
+              1658,
+              139,
+              [
+                14,
+                11
+              ]
+            ],
+            [
+              1661,
+              144,
+              []
+            ],
+            [
+              1662,
+              0,
+              []
+            ],
+            [
+              1663,
+              131,
+              [
+                115,
+                10
+              ]
+            ],
+            [
+              1666,
+              139,
+              [
+                41,
+                46
+              ]
+            ],
+            [
+              1669,
+              170,
+              [
+                6
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1663,
+          "kind": "enemy",
+          "sourceId": 115,
+          "sameOpcode": true,
+          "currentId": 115,
+          "slotFlags": 10,
+          "objectHint": {
+            "object": 20,
+            "entry": 1663
+          },
+          "followingSourceCommands": [
+            [
+              1663,
+              131,
+              [
+                115,
+                10
+              ]
+            ],
+            [
+              1666,
+              139,
+              [
+                41,
+                46
+              ]
+            ],
+            [
+              1669,
+              170,
+              [
+                6
+              ]
+            ],
+            [
+              1671,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              1673,
+              22,
+              [
+                174,
+                32,
+                134,
+                2
+              ]
+            ],
+            [
+              1678,
+              145,
+              []
+            ],
+            [
+              1679,
+              0,
+              []
+            ],
+            [
+              1680,
+              13,
+              [
+                0
+              ]
+            ],
+            [
+              1682,
+              178,
+              []
+            ],
+            [
+              1683,
+              0,
+              []
+            ],
+            [
+              1684,
+              139,
+              [
+                8,
+                10
+              ]
+            ],
+            [
+              1687,
+              144,
+              []
+            ],
+            [
+              1688,
+              0,
+              []
+            ],
+            [
+              1689,
+              22,
+              [
+                174,
+                128,
+                134,
+                3
+              ]
+            ],
+            [
+              1694,
+              16,
+              [
+                7
+              ]
+            ],
+            [
+              1696,
+              131,
+              [
+                69,
+                3
+              ]
+            ]
+          ]
+        }
+      ],
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 1278,
+          "kind": "npc",
+          "sourceId": 128,
+          "sameOpcode": true,
+          "currentId": 128,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 1296,
+          "kind": "npc",
+          "sourceId": 183,
+          "sameOpcode": true,
+          "currentId": 183,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 1370,
+          "kind": "enemy",
+          "sourceId": 169,
+          "sameOpcode": true,
+          "currentId": 169,
+          "slotFlags": 131
+        },
+        {
+          "bodyOffset": 1446,
+          "kind": "enemy",
+          "sourceId": 18,
+          "sameOpcode": true,
+          "currentId": 18,
+          "slotFlags": 3
+        },
+        {
+          "bodyOffset": 1488,
+          "kind": "enemy",
+          "sourceId": 18,
+          "sameOpcode": true,
+          "currentId": 18,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 1534,
+          "kind": "enemy",
+          "sourceId": 18,
+          "sameOpcode": true,
+          "currentId": 18,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 1576,
+          "kind": "enemy",
+          "sourceId": 18,
+          "sameOpcode": true,
+          "currentId": 18,
+          "slotFlags": 6
+        },
+        {
+          "bodyOffset": 1601,
+          "kind": "enemy",
+          "sourceId": 115,
+          "sameOpcode": true,
+          "currentId": 115,
+          "slotFlags": 8
+        },
+        {
+          "bodyOffset": 1637,
+          "kind": "enemy",
+          "sourceId": 115,
+          "sameOpcode": true,
+          "currentId": 115,
+          "slotFlags": 9
+        },
+        {
+          "bodyOffset": 1663,
+          "kind": "enemy",
+          "sourceId": 115,
+          "sameOpcode": true,
+          "currentId": 115,
+          "slotFlags": 10
+        },
+        {
+          "bodyOffset": 1696,
+          "kind": "enemy",
+          "sourceId": 69,
+          "sameOpcode": true,
+          "currentId": 69,
+          "slotFlags": 3
+        },
+        {
+          "bodyOffset": 1758,
+          "kind": "enemy",
+          "sourceId": 35,
+          "sameOpcode": true,
+          "currentId": 35,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 1783,
+          "kind": "enemy",
+          "sourceId": 35,
+          "sameOpcode": true,
+          "currentId": 35,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 1808,
+          "kind": "enemy",
+          "sourceId": 35,
+          "sameOpcode": true,
+          "currentId": 35,
+          "slotFlags": 6
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 841,
+          "opcode": 216,
+          "args": [
+            147,
+            192
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 929,
+          "opcode": 216,
+          "args": [
+            0,
+            64
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 996,
+          "opcode": 216,
+          "args": [
+            0,
+            64
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 1078,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 1132,
+          "opcode": 216,
+          "args": [
+            18,
+            64
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 1754,
+          "opcode": 216,
+          "args": [
+            18,
+            64
+          ],
+          "unchangedInstruction": true
+        }
+      ],
+      "banks": [
+        {
+          "pointer": 14298468,
+          "offset": 1715556,
+          "decodedBytes": 992,
+          "compressedBytes": 527,
+          "sha256": "6282371bd5c077c4cb5bbe41130e7356b581e06fbe0d7d818c1bfacc2bf8b05e",
+          "gfx": 57,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 4346592,
+          "offset": 4346592,
+          "decodedBytes": 9024,
+          "compressedBytes": 6976,
+          "sha256": "15c917e39ed6536633d3914e87bb74dbcca8481fa291ca1341724cd92ba407ff",
+          "gfx": 86,
+          "streamPointer": 4934176
+        },
+        {
+          "pointer": 4414432,
+          "offset": 4414432,
+          "decodedBytes": 12352,
+          "compressedBytes": 8079,
+          "sha256": "5e2b15f0a252e8ca12f0bd5dd7e124ef801daae10fbd8f5736f387606aeff671",
+          "gfx": 89,
+          "streamPointer": 4980736
+        },
+        {
+          "pointer": 14111761,
+          "offset": 1528849,
+          "decodedBytes": 1728,
+          "compressedBytes": 1451,
+          "sha256": "f7524f355cc488d778bc63949806ecabb000eaaf287e6b37e13550f4fbd11457",
+          "gfx": 95,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14090240,
+          "offset": 1507328,
+          "decodedBytes": 1760,
+          "compressedBytes": 1281,
+          "sha256": "2e952df92c62fb56a24cef87ff85c14fa72c36e56e6cc17898ade6c02102e05f",
+          "gfx": 103,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 13979488,
+          "offset": 1396576,
+          "decodedBytes": 14176,
+          "compressedBytes": 11372,
+          "sha256": "969b00e031603f01a0fb7574904e321ecd88e85256a8efefb9604e81e3f268c1",
+          "gfx": 140,
+          "streamPointer": 5242880
+        },
+        {
+          "pointer": 13891339,
+          "offset": 1308427,
+          "decodedBytes": 160,
+          "compressedBytes": 156,
+          "sha256": "a9085a6b82cfa94c56770717bf1960e4811bda449f7395931166ae2cf5d85b11",
+          "gfx": 221,
+          "streamPointer": 0
+        }
+      ],
+      "legacyHeapUnionBytes": 4640,
+      "with103StreamUnion": 2880,
+      "spareTo32768": 28128,
+      "scope": "Verified original load sites/current IDs and all-branch graphic union; not native execution, full decoded-event scanning or guaranteed simultaneous residency."
+    },
+    {
+      "location": 60,
+      "name": "Castle Magus Hall of Aggression (Ending: Legendary Hero)",
+      "eventId": 434,
+      "packetOffset": 3946517,
+      "packetSha256": "605e0ac2d126843bf0e2213a94b73a3feb4d2f12483cb29096bc2bcff2e9a521",
+      "originalPacketUnchanged": true,
+      "unresolvedLoadOffsets": 0,
+      "loads": [
+        {
+          "bodyOffset": 463,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 5,
+          "objectHint": {
+            "object": 7,
+            "entry": 463
+          },
+          "followingSourceCommands": [
+            [
+              463,
+              131,
+              [
+                81,
+                5
+              ]
+            ],
+            [
+              466,
+              139,
+              [
+                39,
+                8
+              ]
+            ],
+            [
+              469,
+              145,
+              []
+            ],
+            [
+              470,
+              0,
+              []
+            ],
+            [
+              471,
+              13,
+              [
+                0
+              ]
+            ],
+            [
+              473,
+              178,
+              []
+            ],
+            [
+              474,
+              172,
+              [
+                5
+              ]
+            ],
+            [
+              476,
+              144,
+              []
+            ],
+            [
+              477,
+              137,
+              [
+                128
+              ]
+            ],
+            [
+              479,
+              160,
+              [
+                42,
+                8
+              ]
+            ],
+            [
+              482,
+              180,
+              []
+            ],
+            [
+              483,
+              0,
+              []
+            ],
+            [
+              484,
+              131,
+              [
+                81,
+                6
+              ]
+            ],
+            [
+              487,
+              139,
+              [
+                39,
+                8
+              ]
+            ],
+            [
+              490,
+              145,
+              []
+            ],
+            [
+              491,
+              0,
+              []
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 484,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 6,
+          "objectHint": {
+            "object": 8,
+            "entry": 484
+          },
+          "followingSourceCommands": [
+            [
+              484,
+              131,
+              [
+                81,
+                6
+              ]
+            ],
+            [
+              487,
+              139,
+              [
+                39,
+                8
+              ]
+            ],
+            [
+              490,
+              145,
+              []
+            ],
+            [
+              491,
+              0,
+              []
+            ],
+            [
+              492,
+              13,
+              [
+                0
+              ]
+            ],
+            [
+              494,
+              178,
+              []
+            ],
+            [
+              495,
+              172,
+              [
+                5
+              ]
+            ],
+            [
+              497,
+              144,
+              []
+            ],
+            [
+              498,
+              137,
+              [
+                128
+              ]
+            ],
+            [
+              500,
+              160,
+              [
+                36,
+                8
+              ]
+            ],
+            [
+              503,
+              180,
+              []
+            ],
+            [
+              504,
+              0,
+              []
+            ]
+          ]
+        }
+      ],
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 350,
+          "kind": "npc",
+          "sourceId": 4,
+          "sameOpcode": true,
+          "currentId": 4,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 396,
+          "kind": "npc",
+          "sourceId": 129,
+          "sameOpcode": true,
+          "currentId": 129,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 407,
+          "kind": "enemy",
+          "sourceId": 87,
+          "sameOpcode": true,
+          "currentId": 87,
+          "slotFlags": 7
+        },
+        {
+          "bodyOffset": 419,
+          "kind": "enemy",
+          "sourceId": 5,
+          "sameOpcode": true,
+          "currentId": 5,
+          "slotFlags": 3
+        },
+        {
+          "bodyOffset": 441,
+          "kind": "enemy",
+          "sourceId": 5,
+          "sameOpcode": true,
+          "currentId": 5,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 463,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 484,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 6
+        }
+      ],
+      "battleCommands": [],
+      "banks": [
+        {
+          "pointer": 14311808,
+          "offset": 1728896,
+          "decodedBytes": 1504,
+          "compressedBytes": 1348,
+          "sha256": "e14cfb38fc3cd76b6a532c0f6b33c7e63c2053b35b7cec63ad13c8086f79f0c4",
+          "gfx": 41,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14299656,
+          "offset": 1716744,
+          "decodedBytes": 1024,
+          "compressedBytes": 771,
+          "sha256": "127751fc2d3b2481b174bed2f1d164580631a864f2e48b6d331d485af0cfb7ca",
+          "gfx": 58,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14130803,
+          "offset": 1547891,
+          "decodedBytes": 8928,
+          "compressedBytes": 7491,
+          "sha256": "38ce6c8e49dff3b722f2eff0157d18206af7d927d0712fe9a17e74069eab20ac",
+          "gfx": 83,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14057398,
+          "offset": 1474486,
+          "decodedBytes": 3680,
+          "compressedBytes": 3053,
+          "sha256": "1c47da48ae34bd83066701017bdb741093e41d37d55e3590172654953f300c16",
+          "gfx": 100,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14090240,
+          "offset": 1507328,
+          "decodedBytes": 1760,
+          "compressedBytes": 1281,
+          "sha256": "2e952df92c62fb56a24cef87ff85c14fa72c36e56e6cc17898ade6c02102e05f",
+          "gfx": 103,
+          "streamPointer": 0
+        }
+      ],
+      "legacyHeapUnionBytes": 16896,
+      "with103StreamUnion": 15136,
+      "spareTo32768": 15872,
+      "scope": "Verified original load sites/current IDs and all-branch graphic union; not native execution, full decoded-event scanning or guaranteed simultaneous residency."
+    },
+    {
+      "location": 125,
+      "name": "Castle Magus Doppleganger Corridor",
+      "eventId": 245,
+      "packetOffset": 3810268,
+      "packetSha256": "7b67965e9595d95582019597c6787248bf69a039fbed3193acbf16041684d4e0",
+      "originalPacketUnchanged": true,
+      "unresolvedLoadOffsets": 0,
+      "loads": [
+        {
+          "bodyOffset": 2015,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 5,
+          "objectHint": {
+            "object": 20,
+            "entry": 2015
+          },
+          "followingSourceCommands": [
+            [
+              2015,
+              131,
+              [
+                81,
+                5
+              ]
+            ],
+            [
+              2018,
+              139,
+              [
+                3,
+                37
+              ]
+            ],
+            [
+              2021,
+              145,
+              []
+            ],
+            [
+              2022,
+              0,
+              []
+            ],
+            [
+              2023,
+              178,
+              []
+            ],
+            [
+              2024,
+              0,
+              []
+            ],
+            [
+              2025,
+              172,
+              [
+                5
+              ]
+            ],
+            [
+              2027,
+              140,
+              [
+                8,
+                9
+              ]
+            ],
+            [
+              2030,
+              144,
+              []
+            ],
+            [
+              2031,
+              137,
+              [
+                255
+              ]
+            ],
+            [
+              2033,
+              13,
+              [
+                0
+              ]
+            ],
+            [
+              2035,
+              151,
+              [
+                16,
+                19
+              ]
+            ],
+            [
+              2038,
+              23,
+              []
+            ],
+            [
+              2039,
+              174,
+              []
+            ],
+            [
+              2040,
+              0,
+              []
+            ],
+            [
+              2041,
+              131,
+              [
+                81,
+                6
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 2041,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 6,
+          "objectHint": {
+            "object": 21,
+            "entry": 2041
+          },
+          "followingSourceCommands": [
+            [
+              2041,
+              131,
+              [
+                81,
+                6
+              ]
+            ],
+            [
+              2044,
+              139,
+              [
+                10,
+                37
+              ]
+            ],
+            [
+              2047,
+              145,
+              []
+            ],
+            [
+              2048,
+              0,
+              []
+            ],
+            [
+              2049,
+              178,
+              []
+            ],
+            [
+              2050,
+              0,
+              []
+            ],
+            [
+              2051,
+              172,
+              [
+                5
+              ]
+            ],
+            [
+              2053,
+              140,
+              [
+                8,
+                9
+              ]
+            ],
+            [
+              2056,
+              144,
+              []
+            ],
+            [
+              2057,
+              137,
+              [
+                255
+              ]
+            ],
+            [
+              2059,
+              13,
+              [
+                0
+              ]
+            ],
+            [
+              2061,
+              151,
+              [
+                18,
+                19
+              ]
+            ],
+            [
+              2064,
+              23,
+              []
+            ],
+            [
+              2065,
+              174,
+              []
+            ],
+            [
+              2066,
+              0,
+              []
+            ]
+          ]
+        }
+      ],
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 913,
+          "kind": "npc",
+          "sourceId": 126,
+          "sameOpcode": true,
+          "currentId": 126,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 993,
+          "kind": "npc",
+          "sourceId": 37,
+          "sameOpcode": true,
+          "currentId": 37,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 1145,
+          "kind": "npc",
+          "sourceId": 3,
+          "sameOpcode": true,
+          "currentId": 3,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 1470,
+          "kind": "npc",
+          "sourceId": 39,
+          "sameOpcode": true,
+          "currentId": 39,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 1778,
+          "kind": "npc",
+          "sourceId": 1,
+          "sameOpcode": true,
+          "currentId": 1,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 1932,
+          "kind": "npc",
+          "sourceId": 129,
+          "sameOpcode": true,
+          "currentId": 129,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 1948,
+          "kind": "enemy",
+          "sourceId": 87,
+          "sameOpcode": true,
+          "currentId": 87,
+          "slotFlags": 7
+        },
+        {
+          "bodyOffset": 1963,
+          "kind": "enemy",
+          "sourceId": 5,
+          "sameOpcode": true,
+          "currentId": 5,
+          "slotFlags": 3
+        },
+        {
+          "bodyOffset": 1989,
+          "kind": "enemy",
+          "sourceId": 5,
+          "sameOpcode": true,
+          "currentId": 5,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 2015,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 2041,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 6
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 1125,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 1277,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 1426,
+          "opcode": 216,
+          "args": [
+            48,
+            192
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 1604,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 1758,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 1912,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ],
+          "unchangedInstruction": true
+        }
+      ],
+      "banks": [
+        {
+          "pointer": 16684454,
+          "offset": 4101542,
+          "decodedBytes": 3360,
+          "compressedBytes": 2314,
+          "sha256": "0a462799cd792e78b7939966b0023506346e56bbb9066f980f3571c16d7963e0",
+          "gfx": 29,
+          "streamPointer": 4616704
+        },
+        {
+          "pointer": 14272458,
+          "offset": 1689546,
+          "decodedBytes": 3936,
+          "compressedBytes": 2802,
+          "sha256": "91fb13cbe16c72c30d6e1ac91ee3a957aa226597253879a18ab61cd230f4141d",
+          "gfx": 35,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 13870098,
+          "offset": 1287186,
+          "decodedBytes": 5312,
+          "compressedBytes": 3854,
+          "sha256": "24ca627512366e0f7c95c9c0a57311ca06eed7db5fea53fd6304a87fe6baf7b3",
+          "gfx": 39,
+          "streamPointer": 4849664
+        },
+        {
+          "pointer": 14299656,
+          "offset": 1716744,
+          "decodedBytes": 1024,
+          "compressedBytes": 771,
+          "sha256": "127751fc2d3b2481b174bed2f1d164580631a864f2e48b6d331d485af0cfb7ca",
+          "gfx": 58,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14130803,
+          "offset": 1547891,
+          "decodedBytes": 8928,
+          "compressedBytes": 7491,
+          "sha256": "38ce6c8e49dff3b722f2eff0157d18206af7d927d0712fe9a17e74069eab20ac",
+          "gfx": 83,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14057398,
+          "offset": 1474486,
+          "decodedBytes": 3680,
+          "compressedBytes": 3053,
+          "sha256": "1c47da48ae34bd83066701017bdb741093e41d37d55e3590172654953f300c16",
+          "gfx": 100,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14090240,
+          "offset": 1507328,
+          "decodedBytes": 1760,
+          "compressedBytes": 1281,
+          "sha256": "2e952df92c62fb56a24cef87ff85c14fa72c36e56e6cc17898ade6c02102e05f",
+          "gfx": 103,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14339881,
+          "offset": 1756969,
+          "decodedBytes": 576,
+          "compressedBytes": 271,
+          "sha256": "e992e5a138aa705ae8d7cf5890ad7f7df9f8645dffcf56437193a527c96c712e",
+          "gfx": 159,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14673834,
+          "offset": 2090922,
+          "decodedBytes": 6624,
+          "compressedBytes": 4455,
+          "sha256": "c9c40b6c503d806d002908b4de9cd483ad4d71c0ed56feaac4464ee2dfc49393",
+          "gfx": 249,
+          "streamPointer": 5595840
+        }
+      ],
+      "legacyHeapUnionBytes": 19904,
+      "with103StreamUnion": 18144,
+      "spareTo32768": 12864,
+      "scope": "Verified original load sites/current IDs and all-branch graphic union; not native execution, full decoded-event scanning or guaranteed simultaneous residency."
+    },
+    {
+      "location": 131,
+      "name": "Manoria Headquarters",
+      "eventId": 179,
+      "packetOffset": 2110690,
+      "packetSha256": "a7e39529cc5dd8639e87a14c5458281bd5d7078e64cf3b388027941c4ca8471f",
+      "originalPacketUnchanged": false,
+      "unresolvedLoadOffsets": 0,
+      "loads": [
+        {
+          "bodyOffset": 2847,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 6,
+          "objectHint": {
+            "object": 16,
+            "entry": 2847
+          },
+          "followingSourceCommands": [
+            [
+              2847,
+              131,
+              [
+                80,
+                6
+              ]
+            ],
+            [
+              2850,
+              139,
+              [
+                13,
+                5
+              ]
+            ],
+            [
+              2853,
+              170,
+              [
+                6
+              ]
+            ],
+            [
+              2855,
+              13,
+              [
+                0
+              ]
+            ],
+            [
+              2857,
+              137,
+              [
+                32
+              ]
+            ],
+            [
+              2859,
+              0,
+              []
+            ],
+            [
+              2860,
+              178,
+              []
+            ],
+            [
+              2861,
+              0,
+              []
+            ],
+            [
+              2862,
+              170,
+              [
+                0
+              ]
+            ],
+            [
+              2864,
+              150,
+              [
+                13,
+                8
+              ]
+            ],
+            [
+              2867,
+              0,
+              []
+            ],
+            [
+              2868,
+              131,
+              [
+                75,
+                5
+              ]
+            ],
+            [
+              2871,
+              139,
+              [
+                6,
+                12
+              ]
+            ],
+            [
+              2874,
+              145,
+              []
+            ],
+            [
+              2875,
+              137,
+              [
+                96
+              ]
+            ],
+            [
+              2877,
+              13,
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 3003,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 6,
+          "objectHint": {
+            "object": 20,
+            "entry": 3003
+          },
+          "followingSourceCommands": [
+            [
+              3003,
+              131,
+              [
+                80,
+                6
+              ]
+            ],
+            [
+              3006,
+              139,
+              [
+                36,
+                6
+              ]
+            ],
+            [
+              3009,
+              135,
+              [
+                8
+              ]
+            ],
+            [
+              3011,
+              13,
+              [
+                2
+              ]
+            ],
+            [
+              3013,
+              170,
+              [
+                6
+              ]
+            ],
+            [
+              3015,
+              0,
+              []
+            ],
+            [
+              3016,
+              178,
+              []
+            ],
+            [
+              3017,
+              0,
+              []
+            ],
+            [
+              3018,
+              170,
+              [
+                0
+              ]
+            ],
+            [
+              3020,
+              150,
+              [
+                36,
+                7
+              ]
+            ],
+            [
+              3023,
+              0,
+              []
+            ],
+            [
+              3024,
+              131,
+              [
+                80,
+                5
+              ]
+            ],
+            [
+              3027,
+              139,
+              [
+                30,
+                5
+              ]
+            ],
+            [
+              3030,
+              135,
+              [
+                8
+              ]
+            ],
+            [
+              3032,
+              13,
+              [
+                2
+              ]
+            ],
+            [
+              3034,
+              170,
+              [
+                6
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 3024,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 5,
+          "objectHint": {
+            "object": 21,
+            "entry": 3024
+          },
+          "followingSourceCommands": [
+            [
+              3024,
+              131,
+              [
+                80,
+                5
+              ]
+            ],
+            [
+              3027,
+              139,
+              [
+                30,
+                5
+              ]
+            ],
+            [
+              3030,
+              135,
+              [
+                8
+              ]
+            ],
+            [
+              3032,
+              13,
+              [
+                2
+              ]
+            ],
+            [
+              3034,
+              170,
+              [
+                6
+              ]
+            ],
+            [
+              3036,
+              0,
+              []
+            ],
+            [
+              3037,
+              178,
+              []
+            ],
+            [
+              3038,
+              0,
+              []
+            ],
+            [
+              3039,
+              170,
+              [
+                0
+              ]
+            ],
+            [
+              3041,
+              150,
+              [
+                30,
+                8
+              ]
+            ],
+            [
+              3044,
+              0,
+              []
+            ],
+            [
+              3045,
+              131,
+              [
+                75,
+                4
+              ]
+            ],
+            [
+              3048,
+              139,
+              [
+                31,
+                11
+              ]
+            ],
+            [
+              3051,
+              135,
+              [
+                8
+              ]
+            ],
+            [
+              3053,
+              137,
+              [
+                40
+              ]
+            ],
+            [
+              3055,
+              13,
+              [
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 3266,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 10,
+          "objectHint": {
+            "object": 25,
+            "entry": 3266
+          },
+          "followingSourceCommands": [
+            [
+              3266,
+              131,
+              [
+                80,
+                10
+              ]
+            ],
+            [
+              3269,
+              139,
+              [
+                36,
+                22
+              ]
+            ],
+            [
+              3272,
+              0,
+              []
+            ],
+            [
+              3273,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              3275,
+              150,
+              [
+                34,
+                22
+              ]
+            ],
+            [
+              3278,
+              177,
+              []
+            ],
+            [
+              3279,
+              150,
+              [
+                39,
+                22
+              ]
+            ],
+            [
+              3282,
+              177,
+              []
+            ],
+            [
+              3283,
+              17,
+              [
+                9
+              ]
+            ],
+            [
+              3285,
+              0,
+              []
+            ],
+            [
+              3286,
+              135,
+              [
+                2
+              ]
+            ],
+            [
+              3288,
+              227,
+              [
+                0
+              ]
+            ],
+            [
+              3290,
+              232,
+              [
+                111
+              ]
+            ],
+            [
+              3292,
+              232,
+              [
+                111
+              ]
+            ],
+            [
+              3294,
+              232,
+              [
+                111
+              ]
+            ],
+            [
+              3296,
+              217,
+              [
+                34,
+                149,
+                39,
+                149,
+                36,
+                24
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 3710,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 4,
+          "objectHint": {
+            "object": 32,
+            "entry": 3710
+          },
+          "followingSourceCommands": [
+            [
+              3710,
+              131,
+              [
+                80,
+                4
+              ]
+            ],
+            [
+              3713,
+              139,
+              [
+                38,
+                39
+              ]
+            ],
+            [
+              3716,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              3718,
+              137,
+              [
+                32
+              ]
+            ],
+            [
+              3720,
+              13,
+              [
+                2
+              ]
+            ],
+            [
+              3722,
+              0,
+              []
+            ],
+            [
+              3723,
+              150,
+              [
+                35,
+                43
+              ]
+            ],
+            [
+              3726,
+              150,
+              [
+                39,
+                43
+              ]
+            ],
+            [
+              3729,
+              17,
+              [
+                7
+              ]
+            ],
+            [
+              3731,
+              0,
+              []
+            ],
+            [
+              3732,
+              135,
+              [
+                2
+              ]
+            ],
+            [
+              3734,
+              227,
+              [
+                0
+              ]
+            ],
+            [
+              3736,
+              232,
+              [
+                111
+              ]
+            ],
+            [
+              3738,
+              232,
+              [
+                111
+              ]
+            ],
+            [
+              3740,
+              232,
+              [
+                111
+              ]
+            ],
+            [
+              3742,
+              12,
+              [
+                66
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 4449,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 9,
+          "objectHint": {
+            "object": 47,
+            "entry": 4449
+          },
+          "followingSourceCommands": [
+            [
+              4449,
+              131,
+              [
+                80,
+                9
+              ]
+            ],
+            [
+              4452,
+              139,
+              [
+                6,
+                22
+              ]
+            ],
+            [
+              4455,
+              135,
+              [
+                16
+              ]
+            ],
+            [
+              4457,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              4459,
+              0,
+              []
+            ],
+            [
+              4460,
+              150,
+              [
+                7,
+                22
+              ]
+            ],
+            [
+              4463,
+              150,
+              [
+                5,
+                22
+              ]
+            ],
+            [
+              4466,
+              17,
+              [
+                7
+              ]
+            ],
+            [
+              4468,
+              0,
+              []
+            ],
+            [
+              4469,
+              135,
+              [
+                2
+              ]
+            ],
+            [
+              4471,
+              227,
+              [
+                0
+              ]
+            ],
+            [
+              4473,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              4475,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              4477,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              4479,
+              217,
+              [
+                7,
+                148,
+                132,
+                151,
+                137,
+                23
+              ]
+            ],
+            [
+              4486,
+              227,
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 4497,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 7,
+          "objectHint": {
+            "object": 48,
+            "entry": 4497
+          },
+          "followingSourceCommands": [
+            [
+              4497,
+              131,
+              [
+                80,
+                7
+              ]
+            ],
+            [
+              4500,
+              139,
+              [
+                7,
+                25
+              ]
+            ],
+            [
+              4503,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              4505,
+              13,
+              [
+                0
+              ]
+            ],
+            [
+              4507,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              4509,
+              0,
+              []
+            ],
+            [
+              4510,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              4512,
+              160,
+              [
+                6,
+                25
+              ]
+            ],
+            [
+              4515,
+              160,
+              [
+                9,
+                25
+              ]
+            ],
+            [
+              4518,
+              17,
+              [
+                7
+              ]
+            ],
+            [
+              4520,
+              0,
+              []
+            ],
+            [
+              4521,
+              131,
+              [
+                80,
+                10
+              ]
+            ],
+            [
+              4524,
+              139,
+              [
+                4,
+                24
+              ]
+            ],
+            [
+              4527,
+              135,
+              [
+                16
+              ]
+            ],
+            [
+              4529,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              4531,
+              145,
+              []
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 4521,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 10,
+          "objectHint": {
+            "object": 49,
+            "entry": 4521
+          },
+          "followingSourceCommands": [
+            [
+              4521,
+              131,
+              [
+                80,
+                10
+              ]
+            ],
+            [
+              4524,
+              139,
+              [
+                4,
+                24
+              ]
+            ],
+            [
+              4527,
+              135,
+              [
+                16
+              ]
+            ],
+            [
+              4529,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              4531,
+              145,
+              []
+            ],
+            [
+              4532,
+              11,
+              [
+                98
+              ]
+            ],
+            [
+              4534,
+              0,
+              []
+            ],
+            [
+              4535,
+              150,
+              [
+                3,
+                24
+              ]
+            ],
+            [
+              4538,
+              150,
+              [
+                4,
+                24
+              ]
+            ],
+            [
+              4541,
+              17,
+              [
+                7
+              ]
+            ],
+            [
+              4543,
+              0,
+              []
+            ],
+            [
+              4544,
+              135,
+              [
+                2
+              ]
+            ],
+            [
+              4546,
+              227,
+              [
+                0
+              ]
+            ],
+            [
+              4548,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              4550,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              4552,
+              232,
+              [
+                143
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 4574,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 6,
+          "objectHint": {
+            "object": 50,
+            "entry": 4574
+          },
+          "followingSourceCommands": [
+            [
+              4574,
+              131,
+              [
+                80,
+                6
+              ]
+            ],
+            [
+              4577,
+              139,
+              [
+                7,
+                21
+              ]
+            ],
+            [
+              4580,
+              135,
+              [
+                16
+              ]
+            ],
+            [
+              4582,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              4584,
+              145,
+              []
+            ],
+            [
+              4585,
+              11,
+              [
+                100
+              ]
+            ],
+            [
+              4587,
+              0,
+              []
+            ],
+            [
+              4588,
+              150,
+              [
+                7,
+                21
+              ]
+            ],
+            [
+              4591,
+              150,
+              [
+                8,
+                21
+              ]
+            ],
+            [
+              4594,
+              17,
+              [
+                7
+              ]
+            ],
+            [
+              4596,
+              0,
+              []
+            ],
+            [
+              4597,
+              135,
+              [
+                2
+              ]
+            ],
+            [
+              4599,
+              227,
+              [
+                0
+              ]
+            ],
+            [
+              4601,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              4603,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              4605,
+              232,
+              [
+                143
+              ]
+            ]
+          ]
+        }
+      ],
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 2558,
+          "kind": "npc",
+          "sourceId": 120,
+          "sameOpcode": true,
+          "currentId": 120,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 2620,
+          "kind": "npc",
+          "sourceId": 120,
+          "sameOpcode": true,
+          "currentId": 120,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 2658,
+          "kind": "npc",
+          "sourceId": 120,
+          "sameOpcode": true,
+          "currentId": 120,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 2720,
+          "kind": "npc",
+          "sourceId": 120,
+          "sameOpcode": true,
+          "currentId": 120,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 2847,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 6
+        },
+        {
+          "bodyOffset": 2868,
+          "kind": "enemy",
+          "sourceId": 75,
+          "sameOpcode": true,
+          "currentId": 75,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 2915,
+          "kind": "enemy",
+          "sourceId": 75,
+          "sameOpcode": true,
+          "currentId": 75,
+          "slotFlags": 8
+        },
+        {
+          "bodyOffset": 2960,
+          "kind": "enemy",
+          "sourceId": 75,
+          "sameOpcode": true,
+          "currentId": 75,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 3003,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 6
+        },
+        {
+          "bodyOffset": 3024,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 3045,
+          "kind": "enemy",
+          "sourceId": 75,
+          "sameOpcode": true,
+          "currentId": 75,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 3167,
+          "kind": "enemy",
+          "sourceId": 75,
+          "sameOpcode": true,
+          "currentId": 75,
+          "slotFlags": 7
+        },
+        {
+          "bodyOffset": 3266,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 10
+        },
+        {
+          "bodyOffset": 3314,
+          "kind": "enemy",
+          "sourceId": 72,
+          "sameOpcode": true,
+          "currentId": 72,
+          "slotFlags": 8
+        },
+        {
+          "bodyOffset": 3387,
+          "kind": "enemy",
+          "sourceId": 72,
+          "sameOpcode": true,
+          "currentId": 72,
+          "slotFlags": 9
+        },
+        {
+          "bodyOffset": 3462,
+          "kind": "npc",
+          "sourceId": 121,
+          "sameOpcode": true,
+          "currentId": 121,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 3710,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 3765,
+          "kind": "enemy",
+          "sourceId": 75,
+          "sameOpcode": true,
+          "currentId": 75,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 3863,
+          "kind": "npc",
+          "sourceId": 100,
+          "sameOpcode": true,
+          "currentId": 100,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 4208,
+          "kind": "enemy",
+          "sourceId": 72,
+          "sameOpcode": true,
+          "currentId": 72,
+          "slotFlags": 6
+        },
+        {
+          "bodyOffset": 4245,
+          "kind": "enemy",
+          "sourceId": 72,
+          "sameOpcode": true,
+          "currentId": 72,
+          "slotFlags": 7
+        },
+        {
+          "bodyOffset": 4282,
+          "kind": "enemy",
+          "sourceId": 75,
+          "sameOpcode": true,
+          "currentId": 75,
+          "slotFlags": 3
+        },
+        {
+          "bodyOffset": 4335,
+          "kind": "enemy",
+          "sourceId": 75,
+          "sameOpcode": true,
+          "currentId": 75,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 4364,
+          "kind": "enemy",
+          "sourceId": 75,
+          "sameOpcode": true,
+          "currentId": 75,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 4449,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 9
+        },
+        {
+          "bodyOffset": 4497,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 7
+        },
+        {
+          "bodyOffset": 4521,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 10
+        },
+        {
+          "bodyOffset": 4574,
+          "kind": "enemy",
+          "sourceId": 80,
+          "sameOpcode": true,
+          "currentId": 80,
+          "slotFlags": 6
+        },
+        {
+          "bodyOffset": 4851,
+          "kind": "enemy",
+          "sourceId": 75,
+          "sameOpcode": true,
+          "currentId": 75,
+          "slotFlags": 6
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 2833,
+          "opcode": 216,
+          "args": [
+            6,
+            0
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 3945,
+          "opcode": 216,
+          "args": [
+            146,
+            0
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 4825,
+          "opcode": 216,
+          "args": [
+            16,
+            0
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 4842,
+          "opcode": 216,
+          "args": [
+            16,
+            0
+          ],
+          "unchangedInstruction": true
+        }
+      ],
+      "banks": [
+        {
+          "pointer": 14302712,
+          "offset": 1719800,
+          "decodedBytes": 224,
+          "compressedBytes": 51,
+          "sha256": "52b942562023fe926a5fd30adf68c6df9dbd1aa26b2a1926a1f32570d1eba486",
+          "gfx": 64,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14303187,
+          "offset": 1720275,
+          "decodedBytes": 160,
+          "compressedBytes": 141,
+          "sha256": "0191c03817543044f85da4dd806e49f16dcb23b56ab4edf39dad77e47e4f92d8",
+          "gfx": 69,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14130803,
+          "offset": 1547891,
+          "decodedBytes": 8928,
+          "compressedBytes": 7491,
+          "sha256": "38ce6c8e49dff3b722f2eff0157d18206af7d927d0712fe9a17e74069eab20ac",
+          "gfx": 83,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14090240,
+          "offset": 1507328,
+          "decodedBytes": 1760,
+          "compressedBytes": 1281,
+          "sha256": "2e952df92c62fb56a24cef87ff85c14fa72c36e56e6cc17898ade6c02102e05f",
+          "gfx": 103,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14093592,
+          "offset": 1510680,
+          "decodedBytes": 10112,
+          "compressedBytes": 7616,
+          "sha256": "8a778da303b35cc875c99e4015d328fcb932b790818d0f06f99b271f6c86f215",
+          "gfx": 111,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14342151,
+          "offset": 1759239,
+          "decodedBytes": 160,
+          "compressedBytes": 83,
+          "sha256": "d5fc359b98c11320b5df7cfc7a49b18ce815009d6fe976898931bff4042807c5",
+          "gfx": 186,
+          "streamPointer": 0
+        }
+      ],
+      "legacyHeapUnionBytes": 21344,
+      "with103StreamUnion": 19584,
+      "spareTo32768": 11424,
+      "scope": "Verified original load sites/current IDs and all-branch graphic union; not native execution, full decoded-event scanning or guaranteed simultaneous residency."
+    },
+    {
+      "location": 164,
+      "name": "Magic Cave Interior",
+      "eventId": 38,
+      "packetOffset": 1328184,
+      "packetSha256": "4956aa51b2a77fe4bfabfa67ceaeffde299677687ddb7fd46a9dd3f862cf23ce",
+      "originalPacketUnchanged": false,
+      "unresolvedLoadOffsets": 0,
+      "loads": [
+        {
+          "bodyOffset": 1035,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 3,
+          "objectHint": {
+            "object": 8,
+            "entry": 1035
+          },
+          "followingSourceCommands": [
+            [
+              1035,
+              131,
+              [
+                81,
+                3
+              ]
+            ],
+            [
+              1038,
+              139,
+              [
+                10,
+                24
+              ]
+            ],
+            [
+              1041,
+              22,
+              [
+                106,
+                32,
+                6,
+                2
+              ]
+            ],
+            [
+              1046,
+              145,
+              []
+            ],
+            [
+              1047,
+              0,
+              []
+            ],
+            [
+              1048,
+              178,
+              []
+            ],
+            [
+              1049,
+              0,
+              []
+            ],
+            [
+              1050,
+              131,
+              [
+                135,
+                4
+              ]
+            ],
+            [
+              1053,
+              139,
+              [
+                10,
+                27
+              ]
+            ],
+            [
+              1056,
+              22,
+              [
+                106,
+                32,
+                6,
+                2
+              ]
+            ],
+            [
+              1061,
+              145,
+              []
+            ],
+            [
+              1062,
+              0,
+              []
+            ],
+            [
+              1063,
+              178,
+              []
+            ],
+            [
+              1064,
+              0,
+              []
+            ],
+            [
+              1065,
+              131,
+              [
+                135,
+                5
+              ]
+            ],
+            [
+              1068,
+              139,
+              [
+                13,
+                25
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1091,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 9,
+          "objectHint": {
+            "object": 12,
+            "entry": 1091
+          },
+          "followingSourceCommands": [
+            [
+              1091,
+              131,
+              [
+                81,
+                9
+              ]
+            ],
+            [
+              1094,
+              139,
+              [
+                16,
+                9
+              ]
+            ],
+            [
+              1097,
+              13,
+              [
+                1
+              ]
+            ],
+            [
+              1099,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              1101,
+              0,
+              []
+            ],
+            [
+              1102,
+              150,
+              [
+                19,
+                11
+              ]
+            ],
+            [
+              1105,
+              173,
+              [
+                16
+              ]
+            ],
+            [
+              1107,
+              150,
+              [
+                16,
+                9
+              ]
+            ],
+            [
+              1110,
+              173,
+              [
+                8
+              ]
+            ],
+            [
+              1112,
+              17,
+              [
+                11
+              ]
+            ],
+            [
+              1114,
+              117,
+              [
+                12
+              ]
+            ],
+            [
+              1116,
+              0,
+              []
+            ],
+            [
+              1117,
+              131,
+              [
+                81,
+                10
+              ]
+            ],
+            [
+              1120,
+              139,
+              [
+                18,
+                9
+              ]
+            ],
+            [
+              1123,
+              13,
+              [
+                1
+              ]
+            ],
+            [
+              1125,
+              132,
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1117,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 10,
+          "objectHint": {
+            "object": 13,
+            "entry": 1117
+          },
+          "followingSourceCommands": [
+            [
+              1117,
+              131,
+              [
+                81,
+                10
+              ]
+            ],
+            [
+              1120,
+              139,
+              [
+                18,
+                9
+              ]
+            ],
+            [
+              1123,
+              13,
+              [
+                1
+              ]
+            ],
+            [
+              1125,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              1127,
+              0,
+              []
+            ],
+            [
+              1128,
+              150,
+              [
+                17,
+                13
+              ]
+            ],
+            [
+              1131,
+              173,
+              [
+                16
+              ]
+            ],
+            [
+              1133,
+              150,
+              [
+                18,
+                9
+              ]
+            ],
+            [
+              1136,
+              173,
+              [
+                8
+              ]
+            ],
+            [
+              1138,
+              17,
+              [
+                11
+              ]
+            ],
+            [
+              1140,
+              117,
+              [
+                12
+              ]
+            ],
+            [
+              1142,
+              0,
+              []
+            ],
+            [
+              1143,
+              131,
+              [
+                81,
+                3
+              ]
+            ],
+            [
+              1146,
+              139,
+              [
+                40,
+                18
+              ]
+            ],
+            [
+              1149,
+              137,
+              [
+                64
+              ]
+            ],
+            [
+              1151,
+              145,
+              []
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1143,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 3,
+          "objectHint": {
+            "object": 14,
+            "entry": 1143
+          },
+          "followingSourceCommands": [
+            [
+              1143,
+              131,
+              [
+                81,
+                3
+              ]
+            ],
+            [
+              1146,
+              139,
+              [
+                40,
+                18
+              ]
+            ],
+            [
+              1149,
+              137,
+              [
+                64
+              ]
+            ],
+            [
+              1151,
+              145,
+              []
+            ],
+            [
+              1152,
+              0,
+              []
+            ],
+            [
+              1153,
+              178,
+              []
+            ],
+            [
+              1154,
+              0,
+              []
+            ],
+            [
+              1155,
+              144,
+              []
+            ],
+            [
+              1156,
+              232,
+              [
+                71
+              ]
+            ],
+            [
+              1158,
+              150,
+              [
+                40,
+                22
+              ]
+            ],
+            [
+              1161,
+              150,
+              [
+                38,
+                24
+              ]
+            ],
+            [
+              1164,
+              0,
+              []
+            ],
+            [
+              1165,
+              131,
+              [
+                81,
+                4
+              ]
+            ],
+            [
+              1168,
+              139,
+              [
+                40,
+                16
+              ]
+            ],
+            [
+              1171,
+              137,
+              [
+                64
+              ]
+            ],
+            [
+              1173,
+              145,
+              []
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1165,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 4,
+          "objectHint": {
+            "object": 15,
+            "entry": 1165
+          },
+          "followingSourceCommands": [
+            [
+              1165,
+              131,
+              [
+                81,
+                4
+              ]
+            ],
+            [
+              1168,
+              139,
+              [
+                40,
+                16
+              ]
+            ],
+            [
+              1171,
+              137,
+              [
+                64
+              ]
+            ],
+            [
+              1173,
+              145,
+              []
+            ],
+            [
+              1174,
+              0,
+              []
+            ],
+            [
+              1175,
+              178,
+              []
+            ],
+            [
+              1176,
+              0,
+              []
+            ],
+            [
+              1177,
+              144,
+              []
+            ],
+            [
+              1178,
+              150,
+              [
+                40,
+                22
+              ]
+            ],
+            [
+              1181,
+              150,
+              [
+                42,
+                24
+              ]
+            ],
+            [
+              1184,
+              232,
+              [
+                255
+              ]
+            ],
+            [
+              1186,
+              0,
+              []
+            ],
+            [
+              1187,
+              131,
+              [
+                135,
+                3
+              ]
+            ],
+            [
+              1190,
+              139,
+              [
+                12,
+                14
+              ]
+            ],
+            [
+              1193,
+              137,
+              [
+                128
+              ]
+            ],
+            [
+              1195,
+              145,
+              []
+            ]
+          ]
+        }
+      ],
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 1035,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 3
+        },
+        {
+          "bodyOffset": 1050,
+          "kind": "enemy",
+          "sourceId": 135,
+          "sameOpcode": true,
+          "currentId": 135,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 1065,
+          "kind": "enemy",
+          "sourceId": 135,
+          "sameOpcode": true,
+          "currentId": 135,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 1080,
+          "kind": "enemy",
+          "sourceId": 135,
+          "sameOpcode": true,
+          "currentId": 135,
+          "slotFlags": 7
+        },
+        {
+          "bodyOffset": 1091,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 9
+        },
+        {
+          "bodyOffset": 1117,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 10
+        },
+        {
+          "bodyOffset": 1143,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 3
+        },
+        {
+          "bodyOffset": 1165,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 1187,
+          "kind": "enemy",
+          "sourceId": 135,
+          "sameOpcode": true,
+          "currentId": 135,
+          "slotFlags": 3
+        },
+        {
+          "bodyOffset": 1252,
+          "kind": "enemy",
+          "sourceId": 135,
+          "sameOpcode": true,
+          "currentId": 135,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 1275,
+          "kind": "enemy",
+          "sourceId": 135,
+          "sameOpcode": true,
+          "currentId": 135,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 1298,
+          "kind": "enemy",
+          "sourceId": 135,
+          "sameOpcode": true,
+          "currentId": 135,
+          "slotFlags": 6
+        },
+        {
+          "bodyOffset": 1321,
+          "kind": "enemy",
+          "sourceId": 135,
+          "sameOpcode": true,
+          "currentId": 135,
+          "slotFlags": 7
+        },
+        {
+          "bodyOffset": 1344,
+          "kind": "enemy",
+          "sourceId": 135,
+          "sameOpcode": true,
+          "currentId": 135,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 1361,
+          "kind": "enemy",
+          "sourceId": 135,
+          "sameOpcode": true,
+          "currentId": 135,
+          "slotFlags": 6
+        },
+        {
+          "bodyOffset": 1378,
+          "kind": "npc",
+          "sourceId": 126,
+          "sameOpcode": true,
+          "currentId": 126,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 1424,
+          "kind": "npc",
+          "sourceId": 43,
+          "sameOpcode": true,
+          "currentId": 43,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 1436,
+          "kind": "npc",
+          "sourceId": 183,
+          "sameOpcode": true,
+          "currentId": 183,
+          "slotFlags": null
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 853,
+          "opcode": 216,
+          "args": [
+            0,
+            0
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 898,
+          "opcode": 216,
+          "args": [
+            0,
+            192
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 922,
+          "opcode": 216,
+          "args": [
+            0,
+            64
+          ],
+          "unchangedInstruction": true
+        },
+        {
+          "bodyOffset": 959,
+          "opcode": 216,
+          "args": [
+            0,
+            128
+          ],
+          "unchangedInstruction": true
+        }
+      ],
+      "banks": [
+        {
+          "pointer": 14266376,
+          "offset": 1683464,
+          "decodedBytes": 3072,
+          "compressedBytes": 2182,
+          "sha256": "093c5169952b39288d60ced865166673b0bb1ca874e7a1841715f9d84f31920b",
+          "gfx": 30,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14090240,
+          "offset": 1507328,
+          "decodedBytes": 1760,
+          "compressedBytes": 1281,
+          "sha256": "2e952df92c62fb56a24cef87ff85c14fa72c36e56e6cc17898ade6c02102e05f",
+          "gfx": 103,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 16537296,
+          "offset": 3954384,
+          "decodedBytes": 2560,
+          "compressedBytes": 2039,
+          "sha256": "dd9b64bdfee8696efaa1dab8f3310801b16d0c9ddb3469af1e8f8ee449d37441",
+          "gfx": 105,
+          "streamPointer": 5010944
+        },
+        {
+          "pointer": 14339881,
+          "offset": 1756969,
+          "decodedBytes": 576,
+          "compressedBytes": 271,
+          "sha256": "e992e5a138aa705ae8d7cf5890ad7f7df9f8645dffcf56437193a527c96c712e",
+          "gfx": 159,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 13891339,
+          "offset": 1308427,
+          "decodedBytes": 160,
+          "compressedBytes": 156,
+          "sha256": "a9085a6b82cfa94c56770717bf1960e4811bda449f7395931166ae2cf5d85b11",
+          "gfx": 221,
+          "streamPointer": 0
+        }
+      ],
+      "legacyHeapUnionBytes": 5568,
+      "with103StreamUnion": 3808,
+      "spareTo32768": 27200,
+      "scope": "Verified original load sites/current IDs and all-branch graphic union; not native execution, full decoded-event scanning or guaranteed simultaneous residency."
+    },
+    {
+      "location": 166,
+      "name": "Castle Magus Entrance",
+      "eventId": 247,
+      "packetOffset": 3823480,
+      "packetSha256": "6f1b2c4495c1f41afdf3f194c18b5c695636fa0d854ef1f1513fffff9346a7cd",
+      "originalPacketUnchanged": false,
+      "unresolvedLoadOffsets": 0,
+      "loads": [
+        {
+          "bodyOffset": 1464,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 7,
+          "objectHint": {
+            "object": 14,
+            "entry": 1464
+          },
+          "followingSourceCommands": [
+            [
+              1464,
+              131,
+              [
+                81,
+                7
+              ]
+            ],
+            [
+              1467,
+              139,
+              [
+                8,
+                7
+              ]
+            ],
+            [
+              1470,
+              145,
+              []
+            ],
+            [
+              1471,
+              0,
+              []
+            ],
+            [
+              1472,
+              178,
+              []
+            ],
+            [
+              1473,
+              0,
+              []
+            ],
+            [
+              1474,
+              131,
+              [
+                81,
+                8
+              ]
+            ],
+            [
+              1477,
+              139,
+              [
+                14,
+                7
+              ]
+            ],
+            [
+              1480,
+              145,
+              []
+            ],
+            [
+              1481,
+              0,
+              []
+            ],
+            [
+              1482,
+              178,
+              []
+            ],
+            [
+              1483,
+              0,
+              []
+            ],
+            [
+              1484,
+              131,
+              [
+                5,
+                9
+              ]
+            ],
+            [
+              1487,
+              139,
+              [
+                10,
+                13
+              ]
+            ],
+            [
+              1490,
+              15,
+              []
+            ],
+            [
+              1491,
+              145,
+              []
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1474,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 8,
+          "objectHint": {
+            "object": 15,
+            "entry": 1474
+          },
+          "followingSourceCommands": [
+            [
+              1474,
+              131,
+              [
+                81,
+                8
+              ]
+            ],
+            [
+              1477,
+              139,
+              [
+                14,
+                7
+              ]
+            ],
+            [
+              1480,
+              145,
+              []
+            ],
+            [
+              1481,
+              0,
+              []
+            ],
+            [
+              1482,
+              178,
+              []
+            ],
+            [
+              1483,
+              0,
+              []
+            ],
+            [
+              1484,
+              131,
+              [
+                5,
+                9
+              ]
+            ],
+            [
+              1487,
+              139,
+              [
+                10,
+                13
+              ]
+            ],
+            [
+              1490,
+              15,
+              []
+            ],
+            [
+              1491,
+              145,
+              []
+            ],
+            [
+              1492,
+              0,
+              []
+            ],
+            [
+              1493,
+              178,
+              []
+            ],
+            [
+              1494,
+              0,
+              []
+            ],
+            [
+              1495,
+              131,
+              [
+                5,
+                10
+              ]
+            ],
+            [
+              1498,
+              139,
+              [
+                12,
+                13
+              ]
+            ],
+            [
+              1501,
+              15,
+              []
+            ]
+          ]
+        }
+      ],
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 943,
+          "kind": "npc",
+          "sourceId": 126,
+          "sameOpcode": true,
+          "currentId": 126,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 1031,
+          "kind": "npc",
+          "sourceId": 121,
+          "sameOpcode": true,
+          "currentId": 121,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 1396,
+          "kind": "enemy",
+          "sourceId": 166,
+          "sameOpcode": true,
+          "currentId": 166,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 1442,
+          "kind": "enemy",
+          "sourceId": 5,
+          "sameOpcode": true,
+          "currentId": 5,
+          "slotFlags": 3
+        },
+        {
+          "bodyOffset": 1453,
+          "kind": "enemy",
+          "sourceId": 5,
+          "sameOpcode": true,
+          "currentId": 5,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 1464,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 7
+        },
+        {
+          "bodyOffset": 1474,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 8
+        },
+        {
+          "bodyOffset": 1484,
+          "kind": "enemy",
+          "sourceId": 5,
+          "sameOpcode": true,
+          "currentId": 5,
+          "slotFlags": 9
+        },
+        {
+          "bodyOffset": 1495,
+          "kind": "enemy",
+          "sourceId": 5,
+          "sameOpcode": true,
+          "currentId": 5,
+          "slotFlags": 10
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 1377,
+          "opcode": 216,
+          "args": [
+            144,
+            64
+          ],
+          "unchangedInstruction": true
+        }
+      ],
+      "banks": [
+        {
+          "pointer": 14130803,
+          "offset": 1547891,
+          "decodedBytes": 8928,
+          "compressedBytes": 7491,
+          "sha256": "38ce6c8e49dff3b722f2eff0157d18206af7d927d0712fe9a17e74069eab20ac",
+          "gfx": 83,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14090240,
+          "offset": 1507328,
+          "decodedBytes": 1760,
+          "compressedBytes": 1281,
+          "sha256": "2e952df92c62fb56a24cef87ff85c14fa72c36e56e6cc17898ade6c02102e05f",
+          "gfx": 103,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 13990860,
+          "offset": 1407948,
+          "decodedBytes": 13760,
+          "compressedBytes": 11526,
+          "sha256": "17e491ccabdd9ec5a740597f4b3b45a3e01b6fe7492db28e59dc583d6c737288",
+          "gfx": 155,
+          "streamPointer": 5327072
+        },
+        {
+          "pointer": 14339881,
+          "offset": 1756969,
+          "decodedBytes": 576,
+          "compressedBytes": 271,
+          "sha256": "e992e5a138aa705ae8d7cf5890ad7f7df9f8645dffcf56437193a527c96c712e",
+          "gfx": 159,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14342151,
+          "offset": 1759239,
+          "decodedBytes": 160,
+          "compressedBytes": 83,
+          "sha256": "d5fc359b98c11320b5df7cfc7a49b18ce815009d6fe976898931bff4042807c5",
+          "gfx": 186,
+          "streamPointer": 0
+        }
+      ],
+      "legacyHeapUnionBytes": 11424,
+      "with103StreamUnion": 9664,
+      "spareTo32768": 21344,
+      "scope": "Verified original load sites/current IDs and all-branch graphic union; not native execution, full decoded-event scanning or guaranteed simultaneous residency."
+    },
+    {
+      "location": 176,
+      "name": "Castle Magus Lower Battlements",
+      "eventId": 257,
+      "packetOffset": 3822847,
+      "packetSha256": "66349cff96312e6e569a071207d2e233f9dbd4b75c55ca0d0c596490e2084a90",
+      "originalPacketUnchanged": true,
+      "unresolvedLoadOffsets": 0,
+      "loads": [
+        {
+          "bodyOffset": 1306,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 5,
+          "objectHint": {
+            "object": 18,
+            "entry": 1306
+          },
+          "followingSourceCommands": [
+            [
+              1306,
+              131,
+              [
+                81,
+                5
+              ]
+            ],
+            [
+              1309,
+              139,
+              [
+                14,
+                27
+              ]
+            ],
+            [
+              1312,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              1314,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              1316,
+              0,
+              []
+            ],
+            [
+              1317,
+              13,
+              [
+                2
+              ]
+            ],
+            [
+              1319,
+              22,
+              [
+                223,
+                1,
+                6,
+                3
+              ]
+            ],
+            [
+              1324,
+              16,
+              [
+                3
+              ]
+            ],
+            [
+              1326,
+              143,
+              [
+                0
+              ]
+            ],
+            [
+              1328,
+              17,
+              [
+                10
+              ]
+            ],
+            [
+              1330,
+              0,
+              []
+            ],
+            [
+              1331,
+              232,
+              [
+                71
+              ]
+            ],
+            [
+              1333,
+              137,
+              [
+                128
+              ]
+            ],
+            [
+              1335,
+              143,
+              [
+                0
+              ]
+            ],
+            [
+              1337,
+              0,
+              []
+            ],
+            [
+              1338,
+              131,
+              [
+                81,
+                6
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1338,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 6,
+          "objectHint": {
+            "object": 19,
+            "entry": 1338
+          },
+          "followingSourceCommands": [
+            [
+              1338,
+              131,
+              [
+                81,
+                6
+              ]
+            ],
+            [
+              1341,
+              139,
+              [
+                23,
+                24
+              ]
+            ],
+            [
+              1344,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              1346,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              1348,
+              0,
+              []
+            ],
+            [
+              1349,
+              13,
+              [
+                2
+              ]
+            ],
+            [
+              1351,
+              22,
+              [
+                223,
+                1,
+                6,
+                3
+              ]
+            ],
+            [
+              1356,
+              16,
+              [
+                3
+              ]
+            ],
+            [
+              1358,
+              143,
+              [
+                0
+              ]
+            ],
+            [
+              1360,
+              17,
+              [
+                10
+              ]
+            ],
+            [
+              1362,
+              0,
+              []
+            ],
+            [
+              1363,
+              232,
+              [
+                71
+              ]
+            ],
+            [
+              1365,
+              137,
+              [
+                128
+              ]
+            ],
+            [
+              1367,
+              143,
+              [
+                0
+              ]
+            ],
+            [
+              1369,
+              0,
+              []
+            ],
+            [
+              1370,
+              131,
+              [
+                81,
+                7
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1370,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 7,
+          "objectHint": {
+            "object": 20,
+            "entry": 1370
+          },
+          "followingSourceCommands": [
+            [
+              1370,
+              131,
+              [
+                81,
+                7
+              ]
+            ],
+            [
+              1373,
+              139,
+              [
+                14,
+                18
+              ]
+            ],
+            [
+              1376,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              1378,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              1380,
+              0,
+              []
+            ],
+            [
+              1381,
+              13,
+              [
+                2
+              ]
+            ],
+            [
+              1383,
+              22,
+              [
+                223,
+                1,
+                6,
+                3
+              ]
+            ],
+            [
+              1388,
+              16,
+              [
+                3
+              ]
+            ],
+            [
+              1390,
+              143,
+              [
+                0
+              ]
+            ],
+            [
+              1392,
+              17,
+              [
+                10
+              ]
+            ],
+            [
+              1394,
+              0,
+              []
+            ],
+            [
+              1395,
+              232,
+              [
+                71
+              ]
+            ],
+            [
+              1397,
+              137,
+              [
+                128
+              ]
+            ],
+            [
+              1399,
+              143,
+              [
+                0
+              ]
+            ],
+            [
+              1401,
+              0,
+              []
+            ],
+            [
+              1402,
+              131,
+              [
+                57,
+                9
+              ]
+            ]
+          ]
+        }
+      ],
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 1049,
+          "kind": "enemy",
+          "sourceId": 16,
+          "sameOpcode": true,
+          "currentId": 16,
+          "slotFlags": 3
+        },
+        {
+          "bodyOffset": 1173,
+          "kind": "enemy",
+          "sourceId": 16,
+          "sameOpcode": true,
+          "currentId": 16,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 1306,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 1338,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 6
+        },
+        {
+          "bodyOffset": 1370,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 7
+        },
+        {
+          "bodyOffset": 1402,
+          "kind": "enemy",
+          "sourceId": 57,
+          "sameOpcode": true,
+          "currentId": 57,
+          "slotFlags": 9
+        },
+        {
+          "bodyOffset": 1418,
+          "kind": "enemy",
+          "sourceId": 57,
+          "sameOpcode": true,
+          "currentId": 57,
+          "slotFlags": 10
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 840,
+          "opcode": 216,
+          "args": [
+            128,
+            0
+          ],
+          "unchangedInstruction": true
+        }
+      ],
+      "banks": [
+        {
+          "pointer": 4346592,
+          "offset": 4346592,
+          "decodedBytes": 9024,
+          "compressedBytes": 6976,
+          "sha256": "15c917e39ed6536633d3914e87bb74dbcca8481fa291ca1341724cd92ba407ff",
+          "gfx": 86,
+          "streamPointer": 4934176
+        },
+        {
+          "pointer": 14122752,
+          "offset": 1539840,
+          "decodedBytes": 2432,
+          "compressedBytes": 2324,
+          "sha256": "26c2e4404af5665b4ac842e90e64be72af37004e12748dadee739dae39601209",
+          "gfx": 91,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14090240,
+          "offset": 1507328,
+          "decodedBytes": 1760,
+          "compressedBytes": 1281,
+          "sha256": "2e952df92c62fb56a24cef87ff85c14fa72c36e56e6cc17898ade6c02102e05f",
+          "gfx": 103,
+          "streamPointer": 0
+        }
+      ],
+      "legacyHeapUnionBytes": 4192,
+      "with103StreamUnion": 2432,
+      "spareTo32768": 28576,
+      "scope": "Verified original load sites/current IDs and all-branch graphic union; not native execution, full decoded-event scanning or guaranteed simultaneous residency."
+    },
+    {
+      "location": 447,
+      "name": "Castle Magus Grand Stairway",
+      "eventId": 282,
+      "packetOffset": 3841913,
+      "packetSha256": "ca90a20f03f984fa43bf050c0ec5dc5cc0cf039003a78f8db7eea09ee5e2381e",
+      "originalPacketUnchanged": true,
+      "unresolvedLoadOffsets": 0,
+      "loads": [
+        {
+          "bodyOffset": 1566,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 3,
+          "objectHint": {
+            "object": 24,
+            "entry": 1566
+          },
+          "followingSourceCommands": [
+            [
+              1566,
+              131,
+              [
+                81,
+                3
+              ]
+            ],
+            [
+              1569,
+              170,
+              [
+                6
+              ]
+            ],
+            [
+              1571,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              1573,
+              139,
+              [
+                60,
+                7
+              ]
+            ],
+            [
+              1576,
+              142,
+              [
+                0
+              ]
+            ],
+            [
+              1578,
+              0,
+              []
+            ],
+            [
+              1579,
+              18,
+              [
+                6,
+                60,
+                0,
+                56
+              ]
+            ],
+            [
+              1584,
+              18,
+              [
+                8,
+                0,
+                0,
+                50
+              ]
+            ],
+            [
+              1589,
+              137,
+              [
+                64
+              ]
+            ],
+            [
+              1591,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              1593,
+              18,
+              [
+                14,
+                0,
+                0,
+                30
+              ]
+            ],
+            [
+              1598,
+              136,
+              [
+                80,
+                31,
+                0,
+                1
+              ]
+            ],
+            [
+              1603,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              1605,
+              3,
+              [
+                50,
+                67
+              ]
+            ],
+            [
+              1608,
+              2,
+              [
+                52,
+                67
+              ]
+            ],
+            [
+              1611,
+              2,
+              [
+                54,
+                67
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1656,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 4,
+          "objectHint": {
+            "object": 25,
+            "entry": 1656
+          },
+          "followingSourceCommands": [
+            [
+              1656,
+              131,
+              [
+                81,
+                4
+              ]
+            ],
+            [
+              1659,
+              170,
+              [
+                6
+              ]
+            ],
+            [
+              1661,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              1663,
+              139,
+              [
+                52,
+                11
+              ]
+            ],
+            [
+              1666,
+              142,
+              [
+                0
+              ]
+            ],
+            [
+              1668,
+              0,
+              []
+            ],
+            [
+              1669,
+              18,
+              [
+                6,
+                52,
+                0,
+                24
+              ]
+            ],
+            [
+              1674,
+              18,
+              [
+                9,
+                0,
+                0,
+                18
+              ]
+            ],
+            [
+              1679,
+              137,
+              [
+                64
+              ]
+            ],
+            [
+              1681,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              1683,
+              173,
+              [
+                5
+              ]
+            ],
+            [
+              1685,
+              232,
+              [
+                71
+              ]
+            ],
+            [
+              1687,
+              179,
+              []
+            ],
+            [
+              1688,
+              117,
+              [
+                9
+              ]
+            ],
+            [
+              1690,
+              132,
+              [
+                1
+              ]
+            ],
+            [
+              1692,
+              182,
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1714,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 5,
+          "objectHint": {
+            "object": 26,
+            "entry": 1714
+          },
+          "followingSourceCommands": [
+            [
+              1714,
+              131,
+              [
+                81,
+                5
+              ]
+            ],
+            [
+              1717,
+              170,
+              [
+                6
+              ]
+            ],
+            [
+              1719,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              1721,
+              139,
+              [
+                44,
+                15
+              ]
+            ],
+            [
+              1724,
+              142,
+              [
+                0
+              ]
+            ],
+            [
+              1726,
+              0,
+              []
+            ],
+            [
+              1727,
+              18,
+              [
+                6,
+                44,
+                0,
+                24
+              ]
+            ],
+            [
+              1732,
+              18,
+              [
+                10,
+                0,
+                0,
+                18
+              ]
+            ],
+            [
+              1737,
+              137,
+              [
+                64
+              ]
+            ],
+            [
+              1739,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              1741,
+              173,
+              [
+                5
+              ]
+            ],
+            [
+              1743,
+              232,
+              [
+                71
+              ]
+            ],
+            [
+              1745,
+              179,
+              []
+            ],
+            [
+              1746,
+              117,
+              [
+                10
+              ]
+            ],
+            [
+              1748,
+              132,
+              [
+                1
+              ]
+            ],
+            [
+              1750,
+              182,
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1772,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 6,
+          "objectHint": {
+            "object": 27,
+            "entry": 1772
+          },
+          "followingSourceCommands": [
+            [
+              1772,
+              131,
+              [
+                81,
+                6
+              ]
+            ],
+            [
+              1775,
+              170,
+              [
+                6
+              ]
+            ],
+            [
+              1777,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              1779,
+              139,
+              [
+                36,
+                19
+              ]
+            ],
+            [
+              1782,
+              142,
+              [
+                0
+              ]
+            ],
+            [
+              1784,
+              0,
+              []
+            ],
+            [
+              1785,
+              18,
+              [
+                6,
+                36,
+                0,
+                24
+              ]
+            ],
+            [
+              1790,
+              18,
+              [
+                11,
+                0,
+                0,
+                18
+              ]
+            ],
+            [
+              1795,
+              137,
+              [
+                64
+              ]
+            ],
+            [
+              1797,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              1799,
+              173,
+              [
+                5
+              ]
+            ],
+            [
+              1801,
+              232,
+              [
+                71
+              ]
+            ],
+            [
+              1803,
+              179,
+              []
+            ],
+            [
+              1804,
+              117,
+              [
+                11
+              ]
+            ],
+            [
+              1806,
+              132,
+              [
+                1
+              ]
+            ],
+            [
+              1808,
+              182,
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1831,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 7,
+          "objectHint": {
+            "object": 28,
+            "entry": 1831
+          },
+          "followingSourceCommands": [
+            [
+              1831,
+              131,
+              [
+                81,
+                7
+              ]
+            ],
+            [
+              1834,
+              170,
+              [
+                6
+              ]
+            ],
+            [
+              1836,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              1838,
+              139,
+              [
+                28,
+                23
+              ]
+            ],
+            [
+              1841,
+              142,
+              [
+                0
+              ]
+            ],
+            [
+              1843,
+              0,
+              []
+            ],
+            [
+              1844,
+              18,
+              [
+                6,
+                28,
+                0,
+                24
+              ]
+            ],
+            [
+              1849,
+              18,
+              [
+                12,
+                0,
+                0,
+                18
+              ]
+            ],
+            [
+              1854,
+              137,
+              [
+                64
+              ]
+            ],
+            [
+              1856,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              1858,
+              173,
+              [
+                5
+              ]
+            ],
+            [
+              1860,
+              232,
+              [
+                71
+              ]
+            ],
+            [
+              1862,
+              179,
+              []
+            ],
+            [
+              1863,
+              117,
+              [
+                12
+              ]
+            ],
+            [
+              1865,
+              132,
+              [
+                1
+              ]
+            ],
+            [
+              1867,
+              182,
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        {
+          "bodyOffset": 1888,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 8,
+          "objectHint": {
+            "object": 29,
+            "entry": 1888
+          },
+          "followingSourceCommands": [
+            [
+              1888,
+              131,
+              [
+                81,
+                8
+              ]
+            ],
+            [
+              1891,
+              170,
+              [
+                6
+              ]
+            ],
+            [
+              1893,
+              132,
+              [
+                0
+              ]
+            ],
+            [
+              1895,
+              139,
+              [
+                20,
+                27
+              ]
+            ],
+            [
+              1898,
+              142,
+              [
+                0
+              ]
+            ],
+            [
+              1900,
+              0,
+              []
+            ],
+            [
+              1901,
+              18,
+              [
+                6,
+                20,
+                0,
+                56
+              ]
+            ],
+            [
+              1906,
+              18,
+              [
+                13,
+                0,
+                0,
+                50
+              ]
+            ],
+            [
+              1911,
+              137,
+              [
+                64
+              ]
+            ],
+            [
+              1913,
+              232,
+              [
+                143
+              ]
+            ],
+            [
+              1915,
+              18,
+              [
+                14,
+                0,
+                0,
+                30
+              ]
+            ],
+            [
+              1920,
+              136,
+              [
+                80,
+                31,
+                0,
+                1
+              ]
+            ],
+            [
+              1925,
+              142,
+              [
+                51
+              ]
+            ],
+            [
+              1927,
+              3,
+              [
+                48,
+                67
+              ]
+            ],
+            [
+              1930,
+              2,
+              [
+                50,
+                67
+              ]
+            ],
+            [
+              1933,
+              2,
+              [
+                52,
+                67
+              ]
+            ]
+          ]
+        }
+      ],
+      "allVerifiedLoads": [
+        {
+          "bodyOffset": 1266,
+          "kind": "npc",
+          "sourceId": 121,
+          "sameOpcode": true,
+          "currentId": 121,
+          "slotFlags": null
+        },
+        {
+          "bodyOffset": 1566,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 3
+        },
+        {
+          "bodyOffset": 1656,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 4
+        },
+        {
+          "bodyOffset": 1714,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 5
+        },
+        {
+          "bodyOffset": 1772,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 6
+        },
+        {
+          "bodyOffset": 1831,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 7
+        },
+        {
+          "bodyOffset": 1888,
+          "kind": "enemy",
+          "sourceId": 81,
+          "sameOpcode": true,
+          "currentId": 81,
+          "slotFlags": 8
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 1070,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ],
+          "unchangedInstruction": true
+        }
+      ],
+      "banks": [
+        {
+          "pointer": 14090240,
+          "offset": 1507328,
+          "decodedBytes": 1760,
+          "compressedBytes": 1281,
+          "sha256": "2e952df92c62fb56a24cef87ff85c14fa72c36e56e6cc17898ade6c02102e05f",
+          "gfx": 103,
+          "streamPointer": 0
+        },
+        {
+          "pointer": 14342151,
+          "offset": 1759239,
+          "decodedBytes": 160,
+          "compressedBytes": 83,
+          "sha256": "d5fc359b98c11320b5df7cfc7a49b18ce815009d6fe976898931bff4042807c5",
+          "gfx": 186,
+          "streamPointer": 0
+        }
+      ],
+      "legacyHeapUnionBytes": 1920,
+      "with103StreamUnion": 160,
+      "spareTo32768": 30848,
+      "scope": "Verified original load sites/current IDs and all-branch graphic union; not native execution, full decoded-event scanning or guaranteed simultaneous residency."
+    }
+  ],
+  "unresolved": [],
+  "limitations": [
+    "Header/program/graphics ownership and verified source load sites only; no native scene or actor-display execution is claimed.",
+    "Modified event layouts and newly inserted actor-load commands require full event decoding to exhaust; all selected original load sites are verified against current bytes.",
+    "Preserve full size flags192/224, flying geometry and native folded/inverted states; source roles alone do not prove battle behavior.",
+    "No new major casting, title/music, active modules or previously frozen source files are changed."
+  ]
+}

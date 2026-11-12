@@ -1,0 +1,908 @@
+{
+  "status": "Private native raw-stream uploads and exact displayed PPU pixels passed",
+  "baseline": {
+    "path": "assets/imagegen/town-tradesmen/private-qa/baseline.sfc",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+    "bytes": 8388608,
+    "originalAuditBaseline": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+    "reason": "Root preferred current published cartridge for native proof; source/audit resources are rechecked unchanged before override."
+  },
+  "privateRomSha256": "fc9fa6cd47aabe251f9a2d5363f6409d909ea9e883bb563a55a69c07fc6d9e36",
+  "nativeFrameUploads": 93,
+  "opaquePixelChecks": 38580,
+  "actualNpcLoads": [
+    {
+      "npc": 25,
+      "object": 15,
+      "scriptPC": 1332
+    },
+    {
+      "npc": 52,
+      "object": 15,
+      "scriptPC": 1332
+    },
+    {
+      "npc": 39,
+      "object": 15,
+      "scriptPC": 1332
+    }
+  ],
+  "proofs": [
+    {
+      "npc": 25,
+      "frame": 0,
+      "opaquePixelChecks": 466,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 1,
+      "opaquePixelChecks": 475,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 2,
+      "opaquePixelChecks": 345,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 3,
+      "opaquePixelChecks": 345,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 4,
+      "opaquePixelChecks": 452,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 5,
+      "opaquePixelChecks": 425,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 6,
+      "opaquePixelChecks": 445,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 7,
+      "opaquePixelChecks": 428,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 8,
+      "opaquePixelChecks": 439,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 9,
+      "opaquePixelChecks": 444,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 10,
+      "opaquePixelChecks": 450,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 11,
+      "opaquePixelChecks": 442,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 12,
+      "opaquePixelChecks": 419,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 13,
+      "opaquePixelChecks": 378,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 14,
+      "opaquePixelChecks": 419,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 15,
+      "opaquePixelChecks": 378,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 16,
+      "opaquePixelChecks": 370,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 17,
+      "opaquePixelChecks": 395,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 18,
+      "opaquePixelChecks": 406,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 19,
+      "opaquePixelChecks": 384,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 20,
+      "opaquePixelChecks": 406,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 21,
+      "opaquePixelChecks": 384,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 22,
+      "opaquePixelChecks": 398,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 23,
+      "opaquePixelChecks": 437,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 24,
+      "opaquePixelChecks": 398,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 25,
+      "opaquePixelChecks": 437,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 26,
+      "opaquePixelChecks": 353,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 27,
+      "opaquePixelChecks": 353,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 28,
+      "opaquePixelChecks": 440,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 29,
+      "opaquePixelChecks": 457,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 25,
+      "frame": 30,
+      "opaquePixelChecks": 492,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 0,
+      "opaquePixelChecks": 466,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 1,
+      "opaquePixelChecks": 475,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 2,
+      "opaquePixelChecks": 345,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 3,
+      "opaquePixelChecks": 345,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 4,
+      "opaquePixelChecks": 452,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 5,
+      "opaquePixelChecks": 425,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 6,
+      "opaquePixelChecks": 445,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 7,
+      "opaquePixelChecks": 428,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 8,
+      "opaquePixelChecks": 439,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 9,
+      "opaquePixelChecks": 444,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 10,
+      "opaquePixelChecks": 450,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 11,
+      "opaquePixelChecks": 442,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 12,
+      "opaquePixelChecks": 419,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 13,
+      "opaquePixelChecks": 378,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 14,
+      "opaquePixelChecks": 419,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 15,
+      "opaquePixelChecks": 378,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 16,
+      "opaquePixelChecks": 370,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 17,
+      "opaquePixelChecks": 395,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 18,
+      "opaquePixelChecks": 406,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 19,
+      "opaquePixelChecks": 384,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 20,
+      "opaquePixelChecks": 406,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 21,
+      "opaquePixelChecks": 384,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 22,
+      "opaquePixelChecks": 398,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 23,
+      "opaquePixelChecks": 437,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 24,
+      "opaquePixelChecks": 398,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 25,
+      "opaquePixelChecks": 437,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 26,
+      "opaquePixelChecks": 353,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 27,
+      "opaquePixelChecks": 353,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 28,
+      "opaquePixelChecks": 440,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 29,
+      "opaquePixelChecks": 457,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 52,
+      "frame": 30,
+      "opaquePixelChecks": 492,
+      "heapBytes": 960,
+      "palette": 9,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 0,
+      "opaquePixelChecks": 466,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 1,
+      "opaquePixelChecks": 475,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 2,
+      "opaquePixelChecks": 345,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 3,
+      "opaquePixelChecks": 345,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 4,
+      "opaquePixelChecks": 452,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 5,
+      "opaquePixelChecks": 425,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 6,
+      "opaquePixelChecks": 445,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 7,
+      "opaquePixelChecks": 428,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 8,
+      "opaquePixelChecks": 439,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 9,
+      "opaquePixelChecks": 444,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 10,
+      "opaquePixelChecks": 450,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 11,
+      "opaquePixelChecks": 442,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 12,
+      "opaquePixelChecks": 419,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 13,
+      "opaquePixelChecks": 378,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 14,
+      "opaquePixelChecks": 419,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 15,
+      "opaquePixelChecks": 378,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 16,
+      "opaquePixelChecks": 370,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 17,
+      "opaquePixelChecks": 395,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 18,
+      "opaquePixelChecks": 406,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 19,
+      "opaquePixelChecks": 384,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 20,
+      "opaquePixelChecks": 406,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 21,
+      "opaquePixelChecks": 384,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 22,
+      "opaquePixelChecks": 398,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 23,
+      "opaquePixelChecks": 437,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 24,
+      "opaquePixelChecks": 398,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 25,
+      "opaquePixelChecks": 437,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 26,
+      "opaquePixelChecks": 353,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 27,
+      "opaquePixelChecks": 353,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 28,
+      "opaquePixelChecks": 440,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 29,
+      "opaquePixelChecks": 457,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    },
+    {
+      "npc": 39,
+      "frame": 30,
+      "opaquePixelChecks": 492,
+      "heapBytes": 960,
+      "palette": 133,
+      "nativeCells": 4,
+      "rawPointer": 8133920
+    }
+  ],
+  "placements": [
+    {
+      "label": "Private gfx35 compressed packet",
+      "offset": 8126464,
+      "bytes": 6199,
+      "sha256": "2d1d50ebaa8071344ea312e6bb7230eff0de7070f5f1306480aea6c0db9bafe6",
+      "pointer": 2367593
+    },
+    {
+      "label": "Private asm24",
+      "offset": 8132672,
+      "bytes": 1240,
+      "sha256": "4c5065aa61f080c5e23e1e4deb82b514be12d2da830e229d30710a3b9be35180",
+      "pointer": 2368328
+    },
+    {
+      "label": "Private gfx35 raw stream",
+      "offset": 8133920,
+      "bytes": 10112,
+      "sha256": "e1c2ac0fed846720b1897a9e1a39df5f02797c635ab440ba769aba048c8bcc9f",
+      "pointer": 1332761
+    }
+  ],
+  "streamingUsed": true,
+  "geometryProposal": "geometry-proposal.json",
+  "overlapFrames": [
+    12,
+    13,
+    14,
+    15,
+    17
+  ],
+  "allDuplicateOverlapPixelsAgree": true,
+  "palettes9And133Unchanged": true,
+  "headersAndAnimation15Unchanged": true,
+  "cartridgeUnchanged": true,
+  "extraVramBytes": 0,
+  "scope": "All three native NPC owners and all31 slots through the native four-cell loader. Action timing and original scenes are separate evidence."
+}

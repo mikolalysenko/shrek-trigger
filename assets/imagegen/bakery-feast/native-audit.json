@@ -1,0 +1,1826 @@
+{
+  "status": "Original resource and pose audit before source generation",
+  "families": [
+    {
+      "family": {
+        "key": "bakery-drummer",
+        "name": "Bread drummer",
+        "gfx": 52,
+        "groups": [
+          {
+            "art": "bread-drummer",
+            "asm": 94,
+            "size": 0,
+            "width": 32,
+            "height": 32,
+            "frames": 2
+          }
+        ],
+        "actors": [
+          {
+            "key": "bakery-drummer",
+            "name": "Bread drummer",
+            "npcs": [
+              122
+            ],
+            "npc": 122,
+            "asm": 94,
+            "palette": 123,
+            "sourcePalette": 174,
+            "animation": 63,
+            "colors": [
+              "382b2d",
+              "71452e",
+              "b87744",
+              "e5ad67",
+              "fff0c9",
+              "2f5d58",
+              "5e9280",
+              "b6cbb1",
+              "fff7e5",
+              "8c364b",
+              "da7787",
+              "d9b05f"
+            ]
+          }
+        ]
+      },
+      "sourceAssembly": 94,
+      "sourceAssemblyOwners": [
+        {
+          "kind": "npc",
+          "id": 122
+        }
+      ],
+      "source": {
+        "graphicsOffset": 1713777,
+        "graphicsBytes": 480,
+        "compressedBytes": 393,
+        "assemblyOffset": 1981400,
+        "assemblyBytes": 80,
+        "animationOffset": 2386112,
+        "animationBytes": 16,
+        "animationProgram": [
+          0,
+          1,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0
+        ],
+        "animationSha256": "f39ca77df53ef115591edef2c3942efa38435528c2f6a9fac09ea73d8c6e9ce8",
+        "durationOffset": 2407554,
+        "durationBytes": 5,
+        "durationProgram": [
+          15,
+          15,
+          0,
+          0,
+          0
+        ],
+        "durationSha256": "f4c2b97e4b59af990a8dbe46449bd6c05b79bf1d1dfa576cb600135fa67b472a"
+      },
+      "owners": {
+        "0/52": [
+          {
+            "kind": "npc",
+            "id": 122
+          }
+        ],
+        "1/94": [
+          {
+            "kind": "npc",
+            "id": 122
+          }
+        ]
+      },
+      "npcHeaders": [
+        {
+          "id": 122,
+          "bytes": [
+            52,
+            94,
+            174,
+            63,
+            0
+          ]
+        }
+      ],
+      "animationDirections": [
+        {
+          "facing": 0,
+          "program": [
+            0,
+            1,
+            255,
+            0
+          ],
+          "times": [
+            15,
+            15,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "facing": 1,
+          "program": [
+            0,
+            1,
+            255,
+            0
+          ],
+          "times": [
+            15,
+            15,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "facing": 2,
+          "program": [
+            0,
+            1,
+            255,
+            0
+          ],
+          "times": [
+            15,
+            15,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "facing": 3,
+          "program": [
+            0,
+            1,
+            255,
+            0
+          ],
+          "times": [
+            15,
+            15,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "normalizedMirrorPairs": [],
+      "normalizedCopyPairs": [],
+      "frames": [
+        {
+          "frame": 0,
+          "xy": [
+            [
+              -8,
+              0
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              0,
+              -16
+            ],
+            [
+              -16,
+              -16
+            ]
+          ],
+          "opaquePixels": 414,
+          "bounds": [
+            -8,
+            -32,
+            8,
+            1
+          ],
+          "pixelSha256": "5575db95d5152d5b683c8f132e0d5140132621b5bcaf8ee7a2e067cd823ecbb2"
+        },
+        {
+          "frame": 1,
+          "xy": [
+            [
+              -8,
+              0
+            ],
+            [
+              -8,
+              -32
+            ],
+            [
+              0,
+              -16
+            ],
+            [
+              -16,
+              -16
+            ]
+          ],
+          "opaquePixels": 414,
+          "bounds": [
+            -8,
+            -32,
+            8,
+            1
+          ],
+          "pixelSha256": "c489eb6f6f7ac8105f8149213191d27b5e378435f6cb627e358f789163f5f123"
+        }
+      ],
+      "scenes": [
+        {
+          "location": 91,
+          "eventPointer": 3717488,
+          "civilianLoads": [
+            [
+              816,
+              130,
+              [
+                122
+              ]
+            ]
+          ],
+          "allEnemyIds": [
+            151,
+            152
+          ],
+          "allNpcIds": [
+            33,
+            5,
+            14,
+            4,
+            163,
+            24,
+            70,
+            123,
+            122,
+            197,
+            164
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 28192,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 15,
+                "bytes": 2336
+              },
+              {
+                "gfx": 40,
+                "bytes": 2432
+              },
+              {
+                "gfx": 125,
+                "bytes": 2656
+              },
+              {
+                "gfx": 41,
+                "bytes": 1504
+              },
+              {
+                "gfx": 196,
+                "bytes": 448
+              },
+              {
+                "gfx": 33,
+                "bytes": 3968
+              },
+              {
+                "gfx": 131,
+                "bytes": 2016
+              },
+              {
+                "gfx": 53,
+                "bytes": 800
+              },
+              {
+                "gfx": 52,
+                "bytes": 480
+              },
+              {
+                "gfx": 164,
+                "bytes": 6368
+              },
+              {
+                "gfx": 236,
+                "bytes": 2816
+              },
+              {
+                "gfx": 105,
+                "bytes": 2368
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 280,
+          "eventPointer": 3905086,
+          "civilianLoads": [
+            [
+              2491,
+              130,
+              [
+                122
+              ]
+            ],
+            [
+              2551,
+              130,
+              [
+                122
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            31,
+            30,
+            6,
+            122,
+            123,
+            94,
+            96
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 10592,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 32,
+                "bytes": 3232
+              },
+              {
+                "gfx": 52,
+                "bytes": 480
+              },
+              {
+                "gfx": 53,
+                "bytes": 800
+              },
+              {
+                "gfx": 191,
+                "bytes": 608
+              },
+              {
+                "gfx": 65,
+                "bytes": 160
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 306,
+          "eventPointer": 3731975,
+          "civilianLoads": [
+            [
+              264,
+              130,
+              [
+                122
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            33,
+            122,
+            134
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 3104,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 15,
+                "bytes": 2336
+              },
+              {
+                "gfx": 52,
+                "bytes": 480
+              },
+              {
+                "gfx": 63,
+                "bytes": 288
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 339,
+          "eventPointer": 4036534,
+          "civilianLoads": [
+            [
+              566,
+              130,
+              [
+                122
+              ]
+            ]
+          ],
+          "allEnemyIds": [
+            76,
+            174,
+            16
+          ],
+          "allNpcIds": [
+            4,
+            122,
+            123
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 17152,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 98,
+                "bytes": 3488
+              },
+              {
+                "gfx": 193,
+                "bytes": 2176
+              },
+              {
+                "gfx": 86,
+                "bytes": 8704
+              },
+              {
+                "gfx": 41,
+                "bytes": 1504
+              },
+              {
+                "gfx": 52,
+                "bytes": 480
+              },
+              {
+                "gfx": 53,
+                "bytes": 800
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        }
+      ]
+    },
+    {
+      "family": {
+        "key": "bakery-log-drummer",
+        "name": "Bun percussionist",
+        "gfx": 53,
+        "groups": [
+          {
+            "art": "bun-percussionist",
+            "asm": 95,
+            "size": 0,
+            "width": 32,
+            "height": 32,
+            "frames": 2
+          }
+        ],
+        "actors": [
+          {
+            "key": "bakery-log-drummer",
+            "name": "Bun percussionist",
+            "npcs": [
+              123
+            ],
+            "npc": 123,
+            "asm": 95,
+            "palette": 123,
+            "sourcePalette": 174,
+            "animation": 63,
+            "colors": [
+              "382b2d",
+              "71452e",
+              "b87744",
+              "e5ad67",
+              "fff0c9",
+              "2f5d58",
+              "5e9280",
+              "b6cbb1",
+              "fff7e5",
+              "8c364b",
+              "da7787",
+              "d9b05f"
+            ]
+          }
+        ]
+      },
+      "sourceAssembly": 95,
+      "sourceAssemblyOwners": [
+        {
+          "kind": "npc",
+          "id": 123
+        }
+      ],
+      "source": {
+        "graphicsOffset": 1714170,
+        "graphicsBytes": 800,
+        "compressedBytes": 728,
+        "assemblyOffset": 1981480,
+        "assemblyBytes": 80,
+        "animationOffset": 2386112,
+        "animationBytes": 16,
+        "animationProgram": [
+          0,
+          1,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0
+        ],
+        "animationSha256": "f39ca77df53ef115591edef2c3942efa38435528c2f6a9fac09ea73d8c6e9ce8",
+        "durationOffset": 2407554,
+        "durationBytes": 5,
+        "durationProgram": [
+          15,
+          15,
+          0,
+          0,
+          0
+        ],
+        "durationSha256": "f4c2b97e4b59af990a8dbe46449bd6c05b79bf1d1dfa576cb600135fa67b472a"
+      },
+      "owners": {
+        "0/53": [
+          {
+            "kind": "npc",
+            "id": 123
+          }
+        ],
+        "1/95": [
+          {
+            "kind": "npc",
+            "id": 123
+          }
+        ]
+      },
+      "npcHeaders": [
+        {
+          "id": 123,
+          "bytes": [
+            53,
+            95,
+            174,
+            63,
+            0
+          ]
+        }
+      ],
+      "animationDirections": [
+        {
+          "facing": 0,
+          "program": [
+            0,
+            1,
+            255,
+            0
+          ],
+          "times": [
+            15,
+            15,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "facing": 1,
+          "program": [
+            0,
+            1,
+            255,
+            0
+          ],
+          "times": [
+            15,
+            15,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "facing": 2,
+          "program": [
+            0,
+            1,
+            255,
+            0
+          ],
+          "times": [
+            15,
+            15,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "facing": 3,
+          "program": [
+            0,
+            1,
+            255,
+            0
+          ],
+          "times": [
+            15,
+            15,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "normalizedMirrorPairs": [],
+      "normalizedCopyPairs": [],
+      "frames": [
+        {
+          "frame": 0,
+          "xy": [
+            [
+              0,
+              -32
+            ],
+            [
+              -16,
+              -32
+            ],
+            [
+              0,
+              -16
+            ],
+            [
+              -16,
+              -16
+            ]
+          ],
+          "opaquePixels": 745,
+          "bounds": [
+            -16,
+            -32,
+            15,
+            0
+          ],
+          "pixelSha256": "4f25f7e8f8add2c564e1b41b9f2392c96e69e42e3538bf309bb53c1e78981be7"
+        },
+        {
+          "frame": 1,
+          "xy": [
+            [
+              0,
+              -32
+            ],
+            [
+              -16,
+              -32
+            ],
+            [
+              0,
+              -16
+            ],
+            [
+              -16,
+              -16
+            ]
+          ],
+          "opaquePixels": 748,
+          "bounds": [
+            -16,
+            -32,
+            15,
+            0
+          ],
+          "pixelSha256": "0563bf8ef1e04ac78f02e2563a36640b26072206271d1852d869228da5087ef5"
+        }
+      ],
+      "scenes": [
+        {
+          "location": 7,
+          "eventPointer": 3670314,
+          "civilianLoads": [
+            [
+              668,
+              130,
+              [
+                123
+              ]
+            ],
+            [
+              678,
+              130,
+              [
+                123
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            31,
+            30,
+            123,
+            15,
+            191,
+            192
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 11936,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 53,
+                "bytes": 800
+              },
+              {
+                "gfx": 126,
+                "bytes": 2336
+              },
+              {
+                "gfx": 226,
+                "bytes": 1312
+              },
+              {
+                "gfx": 227,
+                "bytes": 2176
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 91,
+          "eventPointer": 3717488,
+          "civilianLoads": [
+            [
+              805,
+              130,
+              [
+                123
+              ]
+            ]
+          ],
+          "allEnemyIds": [
+            151,
+            152
+          ],
+          "allNpcIds": [
+            33,
+            5,
+            14,
+            4,
+            163,
+            24,
+            70,
+            123,
+            122,
+            197,
+            164
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 28192,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 15,
+                "bytes": 2336
+              },
+              {
+                "gfx": 40,
+                "bytes": 2432
+              },
+              {
+                "gfx": 125,
+                "bytes": 2656
+              },
+              {
+                "gfx": 41,
+                "bytes": 1504
+              },
+              {
+                "gfx": 196,
+                "bytes": 448
+              },
+              {
+                "gfx": 33,
+                "bytes": 3968
+              },
+              {
+                "gfx": 131,
+                "bytes": 2016
+              },
+              {
+                "gfx": 53,
+                "bytes": 800
+              },
+              {
+                "gfx": 52,
+                "bytes": 480
+              },
+              {
+                "gfx": 164,
+                "bytes": 6368
+              },
+              {
+                "gfx": 236,
+                "bytes": 2816
+              },
+              {
+                "gfx": 105,
+                "bytes": 2368
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 280,
+          "eventPointer": 3905086,
+          "civilianLoads": [
+            [
+              2521,
+              130,
+              [
+                123
+              ]
+            ],
+            [
+              2581,
+              130,
+              [
+                123
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            31,
+            30,
+            6,
+            122,
+            123,
+            94,
+            96
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 10592,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 32,
+                "bytes": 3232
+              },
+              {
+                "gfx": 52,
+                "bytes": 480
+              },
+              {
+                "gfx": 53,
+                "bytes": 800
+              },
+              {
+                "gfx": 191,
+                "bytes": 608
+              },
+              {
+                "gfx": 65,
+                "bytes": 160
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        },
+        {
+          "location": 339,
+          "eventPointer": 4036534,
+          "civilianLoads": [
+            [
+              576,
+              130,
+              [
+                123
+              ]
+            ]
+          ],
+          "allEnemyIds": [
+            76,
+            174,
+            16
+          ],
+          "allNpcIds": [
+            4,
+            122,
+            123
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 17152,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 98,
+                "bytes": 3488
+              },
+              {
+                "gfx": 193,
+                "bytes": 2176
+              },
+              {
+                "gfx": 86,
+                "bytes": 8704
+              },
+              {
+                "gfx": 41,
+                "bytes": 1504
+              },
+              {
+                "gfx": 52,
+                "bytes": 480
+              },
+              {
+                "gfx": 53,
+                "bytes": 800
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        }
+      ]
+    },
+    {
+      "family": {
+        "key": "onion-bread-plates",
+        "name": "Onion bread platters",
+        "gfx": 191,
+        "groups": [
+          {
+            "art": "onion-bread-plate",
+            "asm": 187,
+            "size": 0,
+            "width": 32,
+            "height": 32,
+            "frames": 8,
+            "anchor": [
+              0,
+              8
+            ],
+            "frameOffsets": {
+              "2": [
+                0,
+                -9
+              ],
+              "3": [
+                0,
+                -28
+              ],
+              "4": [
+                0,
+                -14
+              ],
+              "5": [
+                0,
+                -30
+              ],
+              "6": [
+                0,
+                -5
+              ],
+              "7": [
+                0,
+                -5
+              ]
+            }
+          }
+        ],
+        "actors": [
+          {
+            "key": "onion-bread-plate",
+            "name": "Onion bread platter",
+            "npcs": [
+              94
+            ],
+            "npc": 94,
+            "asm": 187,
+            "palette": 123,
+            "sourcePalette": 5,
+            "animation": 150,
+            "colors": [
+              "382b2d",
+              "71452e",
+              "b87744",
+              "e5ad67",
+              "fff0c9",
+              "2f5d58",
+              "5e9280",
+              "b6cbb1",
+              "fff7e5",
+              "8c364b",
+              "da7787",
+              "d9b05f"
+            ]
+          }
+        ]
+      },
+      "sourceAssembly": 187,
+      "sourceAssemblyOwners": [
+        {
+          "kind": "npc",
+          "id": 94
+        }
+      ],
+      "source": {
+        "graphicsOffset": 1304745,
+        "graphicsBytes": 608,
+        "compressedBytes": 434,
+        "assemblyOffset": 2008360,
+        "assemblyBytes": 320,
+        "animationOffset": 2396288,
+        "animationBytes": 32,
+        "animationProgram": [
+          2,
+          3,
+          255,
+          0,
+          4,
+          5,
+          255,
+          0,
+          2,
+          3,
+          255,
+          0,
+          4,
+          5,
+          255,
+          0,
+          2,
+          3,
+          255,
+          0,
+          4,
+          5,
+          255,
+          0,
+          2,
+          3,
+          255,
+          0,
+          4,
+          5,
+          255,
+          0
+        ],
+        "animationSha256": "966053f6a674da7a867cd8f4a6d6ed98069542c19199557c2d8d14104074be06",
+        "durationOffset": 2410103,
+        "durationBytes": 8,
+        "durationProgram": [
+          15,
+          15,
+          0,
+          0,
+          15,
+          15,
+          0,
+          0
+        ],
+        "durationSha256": "94a7bb2401a45341add623b65def52add44acab0b7acade0a430b2fe55a573e2"
+      },
+      "owners": {
+        "0/191": [
+          {
+            "kind": "npc",
+            "id": 94
+          }
+        ],
+        "1/187": [
+          {
+            "kind": "npc",
+            "id": 94
+          }
+        ]
+      },
+      "npcHeaders": [
+        {
+          "id": 94,
+          "bytes": [
+            191,
+            187,
+            5,
+            150,
+            0
+          ]
+        }
+      ],
+      "animationDirections": [
+        {
+          "facing": 0,
+          "program": [
+            2,
+            3,
+            255,
+            0,
+            4,
+            5,
+            255,
+            0
+          ],
+          "times": [
+            15,
+            15,
+            0,
+            0,
+            15,
+            15,
+            0,
+            0
+          ]
+        },
+        {
+          "facing": 1,
+          "program": [
+            2,
+            3,
+            255,
+            0,
+            4,
+            5,
+            255,
+            0
+          ],
+          "times": [
+            15,
+            15,
+            0,
+            0,
+            15,
+            15,
+            0,
+            0
+          ]
+        },
+        {
+          "facing": 2,
+          "program": [
+            2,
+            3,
+            255,
+            0,
+            4,
+            5,
+            255,
+            0
+          ],
+          "times": [
+            15,
+            15,
+            0,
+            0,
+            15,
+            15,
+            0,
+            0
+          ]
+        },
+        {
+          "facing": 3,
+          "program": [
+            2,
+            3,
+            255,
+            0,
+            4,
+            5,
+            255,
+            0
+          ],
+          "times": [
+            15,
+            15,
+            0,
+            0,
+            15,
+            15,
+            0,
+            0
+          ]
+        }
+      ],
+      "normalizedMirrorPairs": [],
+      "normalizedCopyPairs": [
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "frames": [
+        {
+          "frame": 0,
+          "xy": [
+            [
+              -8,
+              -4
+            ],
+            [
+              -16,
+              -32
+            ],
+            [
+              4,
+              -8
+            ],
+            [
+              -12,
+              -8
+            ]
+          ],
+          "opaquePixels": 276,
+          "bounds": [
+            -12,
+            -6,
+            12,
+            8
+          ],
+          "pixelSha256": "033bca18da5ae26a249c12c7e93d30a665cb53977fbbd8ff27c7f285aee91275"
+        },
+        {
+          "frame": 1,
+          "xy": [
+            [
+              0,
+              -32
+            ],
+            [
+              -16,
+              -32
+            ],
+            [
+              4,
+              -8
+            ],
+            [
+              -12,
+              -8
+            ]
+          ],
+          "opaquePixels": 276,
+          "bounds": [
+            -12,
+            -6,
+            12,
+            8
+          ],
+          "pixelSha256": "033bca18da5ae26a249c12c7e93d30a665cb53977fbbd8ff27c7f285aee91275"
+        },
+        {
+          "frame": 2,
+          "xy": [
+            [
+              0,
+              -32
+            ],
+            [
+              -16,
+              -32
+            ],
+            [
+              4,
+              -16
+            ],
+            [
+              -12,
+              -16
+            ]
+          ],
+          "opaquePixels": 234,
+          "bounds": [
+            -12,
+            -13,
+            12,
+            -1
+          ],
+          "pixelSha256": "47af36f7a69954a6df83e2a91aad253e7e7e22857ff6aa9f83fec73671b9870f"
+        },
+        {
+          "frame": 3,
+          "xy": [
+            [
+              4,
+              -32
+            ],
+            [
+              -12,
+              -32
+            ],
+            [
+              0,
+              -16
+            ],
+            [
+              -16,
+              -16
+            ]
+          ],
+          "opaquePixels": 285,
+          "bounds": [
+            -12,
+            -32,
+            12,
+            -16
+          ],
+          "pixelSha256": "4a18ff7a5eb54631c663a9ecd1ff71c2cb749ce2953cc9b47783426e53c5ee8c"
+        },
+        {
+          "frame": 4,
+          "xy": [
+            [
+              0,
+              -37
+            ],
+            [
+              -16,
+              -37
+            ],
+            [
+              4,
+              -21
+            ],
+            [
+              -12,
+              -21
+            ]
+          ],
+          "opaquePixels": 234,
+          "bounds": [
+            -12,
+            -18,
+            12,
+            -6
+          ],
+          "pixelSha256": "38ed9f3506f3f8dae16dbfb03501726774c7eb7bb5a6e4745ac12e6f34639a6d"
+        },
+        {
+          "frame": 5,
+          "xy": [
+            [
+              4,
+              -34
+            ],
+            [
+              -12,
+              -34
+            ],
+            [
+              0,
+              -16
+            ],
+            [
+              -16,
+              -16
+            ]
+          ],
+          "opaquePixels": 285,
+          "bounds": [
+            -12,
+            -34,
+            12,
+            -18
+          ],
+          "pixelSha256": "df16e9c390967a78e3aa5f16546307f663040718f516bfe1a2b70c55d294d63f"
+        },
+        {
+          "frame": 6,
+          "xy": [
+            [
+              -8,
+              -9
+            ],
+            [
+              -16,
+              -32
+            ],
+            [
+              4,
+              -13
+            ],
+            [
+              -12,
+              -13
+            ]
+          ],
+          "opaquePixels": 276,
+          "bounds": [
+            -12,
+            -11,
+            12,
+            3
+          ],
+          "pixelSha256": "bd0ad75e63325a1f486b90e661c8276760a97a7406c89accff0ff5de6a0ff1cb"
+        },
+        {
+          "frame": 7,
+          "xy": [
+            [
+              0,
+              -32
+            ],
+            [
+              -16,
+              -32
+            ],
+            [
+              4,
+              -13
+            ],
+            [
+              -12,
+              -13
+            ]
+          ],
+          "opaquePixels": 276,
+          "bounds": [
+            -12,
+            -11,
+            12,
+            3
+          ],
+          "pixelSha256": "bd0ad75e63325a1f486b90e661c8276760a97a7406c89accff0ff5de6a0ff1cb"
+        }
+      ],
+      "scenes": [
+        {
+          "location": 280,
+          "eventPointer": 3905086,
+          "civilianLoads": [
+            [
+              2613,
+              130,
+              [
+                94
+              ]
+            ],
+            [
+              2646,
+              130,
+              [
+                94
+              ]
+            ]
+          ],
+          "allEnemyIds": [],
+          "allNpcIds": [
+            31,
+            30,
+            6,
+            122,
+            123,
+            94,
+            96
+          ],
+          "originalWholeLocationLoadUpperBound": {
+            "bytes": 10592,
+            "limit": 32768,
+            "parts": [
+              {
+                "gfx": 25,
+                "bytes": 2560
+              },
+              {
+                "gfx": 24,
+                "bytes": 2752
+              },
+              {
+                "gfx": 32,
+                "bytes": 3232
+              },
+              {
+                "gfx": 52,
+                "bytes": 480
+              },
+              {
+                "gfx": 53,
+                "bytes": 800
+              },
+              {
+                "gfx": 191,
+                "bytes": 608
+              },
+              {
+                "gfx": 65,
+                "bytes": 160
+              }
+            ],
+            "note": "Conservative union across all event branches, not simultaneous residency proof"
+          }
+        }
+      ]
+    }
+  ],
+  "paletteRecords": [
+    {
+      "palette": 123,
+      "offset": 2362248,
+      "originalOwners": [
+        {
+          "kind": "npc",
+          "id": 30
+        },
+        {
+          "kind": "npc",
+          "id": 31
+        },
+        {
+          "kind": "npc",
+          "id": 32
+        },
+        {
+          "kind": "npc",
+          "id": 33
+        }
+      ],
+      "projectOwners": [
+        {
+          "key": "bakery-porter",
+          "npcs": [
+            30
+          ],
+          "gfx": 24,
+          "asm": 12,
+          "sourcePalette": 123
+        },
+        {
+          "key": "bakery-baker",
+          "npcs": [
+            31
+          ],
+          "gfx": 25,
+          "asm": 13,
+          "sourcePalette": 123
+        },
+        {
+          "key": "bakery-child",
+          "npcs": [
+            32
+          ],
+          "gfx": 20,
+          "asm": 245,
+          "sourcePalette": 123
+        },
+        {
+          "key": "bakery-elder",
+          "npcs": [
+            33
+          ],
+          "gfx": 15,
+          "asm": 246,
+          "sourcePalette": 123
+        },
+        {
+          "key": "bakery-drummer",
+          "npcs": [
+            122
+          ],
+          "gfx": 52,
+          "asm": 94,
+          "sourcePalette": 174
+        },
+        {
+          "key": "bakery-log-drummer",
+          "npcs": [
+            123
+          ],
+          "gfx": 53,
+          "asm": 95,
+          "sourcePalette": 174
+        },
+        {
+          "key": "onion-bread-plate",
+          "npcs": [
+            94
+          ],
+          "gfx": 191,
+          "asm": 187,
+          "sourcePalette": 5
+        }
+      ],
+      "aliases": [
+        123
+      ],
+      "originalSha256": "26600c0b0b55d6c0d9ab33bd1b49c400f73fdc0dd94dd5ce33cf9d47d09cda0a",
+      "projectColors": [
+        "382b2d",
+        "71452e",
+        "b87744",
+        "e5ad67",
+        "fff0c9",
+        "2f5d58",
+        "5e9280",
+        "b6cbb1",
+        "fff7e5",
+        "8c364b",
+        "da7787",
+        "d9b05f"
+      ]
+    },
+    {
+      "palette": 124,
+      "offset": 2362272,
+      "originalOwners": [
+        {
+          "kind": "npc",
+          "id": 62
+        },
+        {
+          "kind": "npc",
+          "id": 63
+        },
+        {
+          "kind": "npc",
+          "id": 64
+        }
+      ],
+      "projectOwners": [
+        {
+          "key": "north-bakery-porter",
+          "npcs": [
+            62
+          ],
+          "gfx": 24,
+          "asm": 12,
+          "sourcePalette": 124
+        },
+        {
+          "key": "north-bakery-baker",
+          "npcs": [
+            63
+          ],
+          "gfx": 25,
+          "asm": 13,
+          "sourcePalette": 124
+        },
+        {
+          "key": "north-bakery-child",
+          "npcs": [
+            64
+          ],
+          "gfx": 20,
+          "asm": 245,
+          "sourcePalette": 124
+        }
+      ],
+      "aliases": [
+        124
+      ],
+      "originalSha256": "f96566b34b66182b41eec28b68bab1a2ed5482e32d66462561bfb9edc9c7cbd8",
+      "projectColors": [
+        "302932",
+        "674235",
+        "a76d50",
+        "dba57b",
+        "f3ddbb",
+        "55415f",
+        "8b698b",
+        "cbb2c5",
+        "fff2dd",
+        "87454f",
+        "d48a91",
+        "d6b574"
+      ]
+    },
+    {
+      "palette": 174,
+      "offset": 2363472,
+      "originalOwners": [
+        {
+          "kind": "npc",
+          "id": 100
+        },
+        {
+          "kind": "npc",
+          "id": 101
+        },
+        {
+          "kind": "npc",
+          "id": 118
+        },
+        {
+          "kind": "npc",
+          "id": 122
+        },
+        {
+          "kind": "npc",
+          "id": 123
+        }
+      ],
+      "projectOwners": [],
+      "aliases": [
+        174
+      ],
+      "originalSha256": "c163f9fd2c7f26ddfe6f58df547a88034fe247726d5d326d5b6f02b85c029b03",
+      "projectColors": null
+    },
+    {
+      "palette": 5,
+      "offset": 2359416,
+      "originalOwners": [
+        {
+          "kind": "pc",
+          "id": 5
+        },
+        {
+          "kind": "npc",
+          "id": 6
+        },
+        {
+          "kind": "npc",
+          "id": 94
+        }
+      ],
+      "projectOwners": [],
+      "aliases": [
+        5
+      ],
+      "originalSha256": "688862b3ce85576eb22b3c22320207d089a5ec1c991cc0905e717c1ec21d3236",
+      "projectColors": null
+    }
+  ]
+}

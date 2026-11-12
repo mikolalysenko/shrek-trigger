@@ -1,0 +1,321 @@
+{
+  "status": "Frozen inactive generated fortress jugglers",
+  "activation": false,
+  "baseline": {
+    "path": ".local/qa/next-family-417914abe589/baseline.sfc",
+    "sha256": "417914abe589d25e377b774009f983867c14617cbf7a7f176c52691c8c9f2e35"
+  },
+  "original": {
+    "path": ".local/chrono-trigger-usa.sfc",
+    "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+  },
+  "nativeCandidate": {
+    "path": ".local/qa/fortress-jugglers-native-proof/candidate.sfc",
+    "sha256": "241264e89c0e735106a7d4ab6efae798209dfd49ad6d345ed1cc9994bd814bbd"
+  },
+  "minimalReproductionFiles": [
+    {
+      "file": "assets/imagegen/fortress-jugglers/source-v1.png",
+      "bytes": 1928081,
+      "sha256": "a65f0b34fc9cae281c79bb96712d5e7cf7fe7412c2be223d079e576ccefe7eac"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/prompts/source-v1.txt",
+      "bytes": 3514,
+      "sha256": "9117e2a88802ac9fbfb5d3d3615e89528e4cbd958f5b615567480dc00ef4ffdc"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/provenance.json",
+      "bytes": 5370,
+      "sha256": "0b91b6cfef565bc9358dc46397087f1fe0bdaa66a980a3676daf0a1e50226c74"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/import-spec.draft.json",
+      "bytes": 2189,
+      "sha256": "de9e27dbbabbc0b0b7331a66671922a8ae3a47204d8070e97b2b563446633b46"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/compose-native.js",
+      "bytes": 2051,
+      "sha256": "d7fbcab532fb61e123943d75a4fb690310d8104ae00de65d3e0255c819cecd77"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/native-composition.json",
+      "bytes": 1573,
+      "sha256": "3718dc7c9cfafe2d19d55a09317cd09d3b8475afb40b17feeb7a8f2ef2371d78"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/original-effects.draft.json",
+      "bytes": 23832,
+      "sha256": "aafd8d6eb29e986ac2a81595d4612585b27aa501786bb6aae3c3be115ef6f698"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/native-raster.json",
+      "bytes": 47109,
+      "sha256": "ffa883626385520d4aeb7ca5e1d83b1300b8107a01a108d05e95d952e1991c22"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/native-frame-map.draft.json",
+      "bytes": 10754,
+      "sha256": "941bad1c08e24cf1e37a0378e745023f714c4ee9705e3186cb7cf1a79102542c"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/native-family-proposal.draft.json",
+      "bytes": 4750,
+      "sha256": "03cdc54ed42df0ac2dd49225d634aded7c323448a8ffd51f926d21de2c4767fb"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/native-audit.json",
+      "bytes": 104701,
+      "sha256": "8e21180cea21a66448b2646e753a790f69bcb6d603029765c25a05b9e39cfb9b"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/native-role-audit.json",
+      "bytes": 48386,
+      "sha256": "f26a33b0ffb9d6d8ccde78428b2150ca89594ffe085776d14765555396d44482"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/compile-native.js",
+      "bytes": 2384,
+      "sha256": "d84f3b4144538a35da5a751f0f96136f18d877cebd3dbb3ab17558815edaf1ff"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/prepare-draft.mjs",
+      "bytes": 7770,
+      "sha256": "cd04202d96a8e6503c3cab708a3f482b317309812644135c86010491ca10da75"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/graphics.4bpp",
+      "bytes": 4000,
+      "sha256": "2b9d84e8ab0f0b36020904fb78caa427561eaf038366a2b3e7543844c104014e"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/graphics.ct-lz",
+      "bytes": 3535,
+      "sha256": "481da80d767234944bfbed9077cae1859dc760e5ca18aa4915abe4ea09f86bb0"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/assembly.bin",
+      "bytes": 360,
+      "sha256": "124758ee84cc055654c84abb576ac24d00a877fcdda7e77ff04559817a68a03a"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/palette-40.bin",
+      "bytes": 24,
+      "sha256": "2f5520c149f25395ab410f6662eb97f212a1555ed42e8bd6c1589801b145a2ec"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/draft-audit.json",
+      "bytes": 1245,
+      "sha256": "252032b39f6b3b5d2ed00b81c13a83d0431d628e91734b89cfd6b03263bad130"
+    }
+  ],
+  "reviewAndProofFiles": [
+    {
+      "file": "assets/imagegen/fortress-jugglers/README.md",
+      "bytes": 6272,
+      "sha256": "b589b28383c94bea6cabfa1676b76dbc8ce599b4a038d1f19bc0bdd70b54af07"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/source-proposal.json",
+      "bytes": 22712,
+      "sha256": "327cec2a4a69d8edf3cf9263a668c8ce90c36500c04c89bda552fe2e1b3af748"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/handoff.json",
+      "bytes": 9009,
+      "sha256": "8baac6501813190023c7bf8f072719000327db3721c22a008f60d53f75dff535"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/visual-review.json",
+      "bytes": 2338,
+      "sha256": "1d94643fa54e453add8ee979b2f14e9dbc1164fbf1b5c34b99abfd4cb435ee53"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/geometry-audit.json",
+      "bytes": 41083,
+      "sha256": "afd4f79b761712b7d64c7fd07cd636a015cac5cf71d2048bd6602f50e0e45826"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/scene-budget-audit.json",
+      "bytes": 36447,
+      "sha256": "2d7fb43774b44cb77b4acb2a24dd55cc1d9c7ffc9d71e769198a272ecebeccec"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/motion-review.json",
+      "bytes": 6990,
+      "sha256": "3d8f9802ad685ac2592c0fc1296039977534ba64c9fca378690156ee7d1c6ac6"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/native-display-proof.json",
+      "bytes": 23160,
+      "sha256": "ab6145295ce47f57e88c2dbb3f87b0418f87bd2ed0673b88a319bbe0950a230a"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/native-timing-proof.json",
+      "bytes": 47935,
+      "sha256": "095612a7064a977491f30c5752c0e26be75d130cedc800101c093e70bc785871"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/native-scene-proof.json",
+      "bytes": 70566,
+      "sha256": "bd7f2b0122931fa12992a0f8e4ae857b2becb72b576dc5e5c57d5d95cfaf3726"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/native-proof-manifest.json",
+      "bytes": 27955,
+      "sha256": "d8bb1e298acfd569292cc9ea1805dff96a943adea5538607ecf03710eec97770"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/audit-native.mjs",
+      "bytes": 11329,
+      "sha256": "0153e6cfdc548e499b297f9b8fbf666192bd8da92655a3785bd1a3170b71968f"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/audit-roles.mjs",
+      "bytes": 7236,
+      "sha256": "b0828fb5c42d31fddad8fd5baaa323e6b23e9169c8f7a393727cda4dedcee406"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/audit-effects.mjs",
+      "bytes": 3672,
+      "sha256": "5adfc61c5261a57cb9bdd847dc1bc411556ea7fd9dc253a94f62234bc0516d8a"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/propose-source.mjs",
+      "bytes": 8151,
+      "sha256": "8c1ebec1aae77d20075745b33f778be36b452ea0dd5cb3bfe45a8f6c37524279"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/record-draft.mjs",
+      "bytes": 5804,
+      "sha256": "0d9b09f7672df4de8c10d44fee875432429857436fe6da27727de4ca92da995f"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review-draft.mjs",
+      "bytes": 4927,
+      "sha256": "a093653f9d4e895f6e3e95f7afd2cfcd81c0ec7c82fcf46aedf70b9ebacf5ff8"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/build-private.mjs",
+      "bytes": 5008,
+      "sha256": "fa10a82564dbb92beaf9f51d287b8101440c98758e474b05fd52c3ddeb630aa9"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/private-preview.mjs",
+      "bytes": 1646,
+      "sha256": "e50ab54b987b289cfa6fd06bc8f9d61dc74e89d6c21a01f47e6bf178c6bdb84e"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/native-proof-utils.mjs",
+      "bytes": 927,
+      "sha256": "f81afb3500082f15bc7ca130f47e2c1f24cd45b0366566ec86f3cc2ab130bb8d"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/verify-native.mjs",
+      "bytes": 5403,
+      "sha256": "f5a80d7b18460f19afbb4deb93a34b174719d78d31e39359efc45268d59120d7"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/verify-timing.mjs",
+      "bytes": 6745,
+      "sha256": "308c841ba75636fb8804776346368bdd3609c4d5885eb4be077788947a9315ea"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/verify-scenes.mjs",
+      "bytes": 15688,
+      "sha256": "52e75a9daf5230a4fd0f4e5cadcde325fea7b0b7059992ab3679c7f9890c2e3e"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/freeze-draft.mjs",
+      "bytes": 13674,
+      "sha256": "ba3fd39e633f8e2bbe827356e96243e4160d567e4b36ea3be91c453be4361346"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/verify-frozen.mjs",
+      "bytes": 3974,
+      "sha256": "984e9ecc42c3fe834854ca37548326a17ceccfa86baaa9c2855e13ead4f309fe"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/motion-original-vs-new.html",
+      "bytes": 45518,
+      "sha256": "9617e3880566833aa702f066e99179e664ee730cb29d64f4af2e0d5110539156"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/native-frames-0-5-3x.png",
+      "bytes": 79466,
+      "sha256": "619d5c2311c82c6ddbc0f5acba5e9afe062140d778dabcd8442dcb427d8a101e"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/native-frames-1x.png",
+      "bytes": 82330,
+      "sha256": "b421c9229a5801ab60c8aa08a7c3557a1b1b3fb03522b4ea8752fc1fcba20538"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/native-frames-6-8-3x.png",
+      "bytes": 49269,
+      "sha256": "132cb2e3ca8ca6913820fac4267d8ce4a1aa81fb85d990cdf81bcf17443a1fc6"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/native-frames.html",
+      "bytes": 23146,
+      "sha256": "dcd75f5e4240dcbcedb25fe131b850419e7bbec9e8ffea929482b44b10735fe6"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/original-effects-proposal-4x.png",
+      "bytes": 6767,
+      "sha256": "bef46dbdcb8a7215af1234c1dd192bd843f4401584ec3c080fbd04b820cfa110"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/original-frames-0-5-3x.png",
+      "bytes": 80896,
+      "sha256": "7efd94dcbf22e3c917a78693a40128e71fdeaa9bcb35c2ba76f6ab6dda270e63"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/original-frames-6-8-3x.png",
+      "bytes": 51463,
+      "sha256": "6b90f39dd5b160f563d3f1bb250d2fc260c596d208c3f568b5d6d7407aaf0177"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/original-motion.html",
+      "bytes": 27222,
+      "sha256": "c697e28f86cbec9a990175dc735d12fa4745656897d0ca569a20dbcac0442db7"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/original-native-1x.png",
+      "bytes": 78218,
+      "sha256": "18bb2c0a52358897a870abf404f31a691683f9ddaa2edf0d6fa8608d4f1df2d9"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/original-native.html",
+      "bytes": 23888,
+      "sha256": "6f915fc9f8d41d59c7baff0ed02b1611f398009b28d7564a1d7044f70bca2baa"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/original-palette40-1x.png",
+      "bytes": 15283,
+      "sha256": "9061c8acc12afe066ee67393c0a6de7e445d3080d352df7566d8cae2715e20f9"
+    },
+    {
+      "file": "assets/imagegen/fortress-jugglers/review/original-palette40-4x.png",
+      "bytes": 21888,
+      "sha256": "fb92d1ddf3ed900b8ed7055c3ac1401959f01d689886d57d16efdd43dd5d1b35"
+    }
+  ],
+  "minimalBytes": 2201628,
+  "reproduce": [
+    "node scripts/import-raster-art.mjs --preview-spec assets/imagegen/fortress-jugglers/import-spec.draft.json",
+    "composeJugglerArt(sampledSource,nativeComposition,originalEffects)",
+    "compileFortressJugglers(nativeRaster,nativeFrameMap)",
+    "node assets/imagegen/fortress-jugglers/verify-frozen.mjs --sources --proof"
+  ],
+  "limits": [
+    "This approval and proof apply to the exact frozen source and private ROM fingerprint. Final production allocation and independent-core validation remain root-owned.",
+    "All original visible bounds, lowest pixels and native cell origins/order are preserved. Whole-source aspect sampling differs by pose as recorded; the cap/coat silhouette is the newly approved model.",
+    "The original flash overlays 247 generated body pixels by design. The 363 retained effect pixels are original source samples, not newly drawn geometry or an original body layer.",
+    "Two bounded scene routes were executed after reversible diagnostic entry with development party resources. This is not full campaign traversal or ordinary-level balance validation, and not every native AI counter branch was exercised.",
+    "Zero display delay was observed in all isolated AA82 cases and three Juggler/decoy battle samples. This does not claim universally identical field/battle latency.",
+    "Original party/map/effect overlap hides 41 final pixels in one sampled regular Juggler layer. Complete cells/palettes and unobstructed final pixels are separately proved for all 18 isolated poses.",
+    "Three other audited locations were not executed. All-branch scene unions are source resource inventories, not proofs of every simultaneous resident set."
+  ]
+}

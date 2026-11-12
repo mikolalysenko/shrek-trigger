@@ -1,0 +1,635 @@
+{
+  "status": "Frozen inactive; source and native scene appearance approved by root",
+  "key": "native-guard",
+  "baselineSha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+  "privateSha256": "3e391158bb31e62de259da97c188586e47342c3c74279b95dfba08294ceb1aac",
+  "sourceNativeProof": {
+    "status": "Frozen inactive source packet; root static and native scene reviews approved",
+    "identity": "Human Duloc civic soldier; original spectral Sentry recolor",
+    "key": "native-guard",
+    "sourceSpec": "assets/imagegen/native-guards/import-spec.draft.json",
+    "geometry": "assets/imagegen/native-guards/draft/family.json",
+    "baselineSha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+    "privateSha256": "3e391158bb31e62de259da97c188586e47342c3c74279b95dfba08294ceb1aac",
+    "sourcePoses": 20,
+    "nativeSlots": 26,
+    "blankSlots": [],
+    "owners": [
+      [
+        "npc",
+        75
+      ],
+      [
+        "enemy",
+        49
+      ],
+      [
+        "enemy",
+        50
+      ]
+    ],
+    "paletteIds": [
+      14,
+      15
+    ],
+    "palettesUnchanged": true,
+    "nativeFrames": 78,
+    "nativeCells": 312,
+    "nativePixels": 32649,
+    "motionCases": 84,
+    "motionTicks": 7200,
+    "nativeDisplayDelay": 0,
+    "sceneEvidence": [
+      {
+        "name": "prison-rescue",
+        "nativeTicks": 10305,
+        "result": {
+          "location": 30,
+          "story": 46,
+          "party": [
+            0,
+            2,
+            128
+          ],
+          "knockedOutFieldGuardCount": 2
+        },
+        "heapMax": 23040,
+        "manifest": "assets/imagegen/native-guards/scene-verification/prison-rescue.json"
+      },
+      {
+        "name": "prison-breakout",
+        "nativeTicks": 3883,
+        "result": {
+          "fought": true,
+          "captured": true,
+          "finished": true,
+          "story": 45,
+          "flag190": 7
+        },
+        "heapMax": 20736,
+        "manifest": "assets/imagegen/native-guards/scene-verification/prison-breakout.json"
+      },
+      {
+        "name": "sentry",
+        "nativeTicks": 4634,
+        "result": {
+          "formation": [
+            50,
+            50,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "presses": 7,
+          "magic": {
+            "selection": {
+              "slot": 0,
+              "techId": 8,
+              "index": 7
+            },
+            "mpBefore": 99,
+            "mpAfter": 94
+          },
+          "location": 66,
+          "flags": {
+            "7F019F": 0,
+            "7F01A3": 0
+          }
+        },
+        "heapMax": 1248,
+        "manifest": "assets/imagegen/native-guards/scene-verification/sentry.json"
+      },
+      {
+        "name": "festival",
+        "nativeTicks": 1000,
+        "result": {
+          "location": 5,
+          "scope": "Original festival shared NPC initialization and acting, entered diagnostically; not a complete festival route"
+        },
+        "heapMax": 18784,
+        "manifest": "assets/imagegen/native-guards/scene-verification/festival.json"
+      },
+      {
+        "name": "ending-shared",
+        "nativeTicks": 1100,
+        "result": {
+          "location": 391,
+          "scope": "Original Dream Project room shared palette14 NPC and palette15 enemy load/acting; no claim of a complete ending route"
+        },
+        "heapMax": 11776,
+        "manifest": "assets/imagegen/native-guards/scene-verification/ending-shared.json"
+      }
+    ],
+    "budgets": {
+      "rawBytes": 9088,
+      "compressedBytes": 6646,
+      "assemblyBytes": 1040,
+      "newStoredRomBytesBeforeAlignment": 10015,
+      "extraWram": 0,
+      "extraVram": 0,
+      "streamRequired": [
+        78
+      ]
+    },
+    "graphicsSha256": "38c3d7c9d63a491c4c2cbc77e36880fa0387fded25ed0195545ff35a24e449b4",
+    "compressedSha256": "ac55fb7a961d392f6bc4f82f764f8c41a2ffd077ca5cd37cd5fbbd6380dd3e66",
+    "assemblySha256": "8652f1ff0c821a393953c0fea0b071a8ed2f93993731c8a1dcac4d0756b7e9ca",
+    "approval": {
+      "static": "Root reviewed both full palette sheets and approved model/action direction, including blade arcs and horizontal collapse.",
+      "native": "Root reviewed actual prison knockouts and Sentry battle; silhouettes, horizontal collapse and spectral palette approved."
+    },
+    "limits": [
+      "Diagnostic scene entry, followed by native controller input; no continuous new-game or complete ending claim.",
+      "Original spectral effects and party occlusion remain visible in real Sentry encounter. Fully visible source RGB verified separately in all78 isolated owner/pose cases.",
+      "Native slot25 is direct event-selected, not in the normal AA25 lists. Both original field bodies in the rescue were observed.",
+      "Fallen source is36x16 rather than original42x26; complete source pixels retained.",
+      "Full four-cell geometry and new decoded size require explicit selected stream78 integration; no active/default-guard edits.",
+      "Independent-core validation remains parent integration work."
+    ],
+    "activation": false,
+    "unrelatedActor": {
+      "evidence": "assets/imagegen/native-guards/scene-verification/unrelated-executioner-provenance.json",
+      "npc": 16,
+      "gfx": 158,
+      "asm": 151,
+      "palette": 160,
+      "nativeFrame": 19,
+      "note": "Original execution-room soldier remains unchanged; outside this packet."
+    }
+  },
+  "sourceAndSelectedProofBytes": 6699436,
+  "sourceFileCount": 79,
+  "files": [
+    {
+      "path": "assets/imagegen/native-guards/.gitignore",
+      "bytes": 9,
+      "sha256": "7f1449aa6b5c22585727e0d7ef4b16a112119fb0b8f472d7ab4d3a974369dc6d"
+    },
+    {
+      "path": "assets/imagegen/native-guards/README.md",
+      "bytes": 4681,
+      "sha256": "b2f9841f10f1f8300091d209831d331a82f86c5e526593eacb26e1f4be9ed2e0"
+    },
+    {
+      "path": "assets/imagegen/native-guards/audit-native.mjs",
+      "bytes": 7791,
+      "sha256": "8fc81c79125254f144e7110fe24e99e14f83f432e8920932e89aff3d3fd59370"
+    },
+    {
+      "path": "assets/imagegen/native-guards/build-review.mjs",
+      "bytes": 9462,
+      "sha256": "6da6ce14f379265c04f3fdc3696f5438fbc030a557612353c69ed46e24af4fca"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/assembly.bin",
+      "bytes": 1040,
+      "sha256": "8652f1ff0c821a393953c0fea0b071a8ed2f93993731c8a1dcac4d0756b7e9ca"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/audit.json",
+      "bytes": 28778,
+      "sha256": "9ba4b915f9e5a188e2468411cac95f29b371cac4b7ebef783aff52e3a6b50c13"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/family.json",
+      "bytes": 10701,
+      "sha256": "bcc3d0abb6707a9c609ab62dda573ae77fdef9fca6d23da9b1649f24af30dd1f"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/fit-audit.json",
+      "bytes": 23749,
+      "sha256": "a975e65dff7ba6a2081b92984bec9d90b9acfb9f6f7be8531d79a8f3ef4a5aaa"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/graphics.4bpp",
+      "bytes": 9088,
+      "sha256": "38c3d7c9d63a491c4c2cbc77e36880fa0387fded25ed0195545ff35a24e449b4"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/graphics.ct-lz",
+      "bytes": 6646,
+      "sha256": "ac55fb7a961d392f6bc4f82f764f8c41a2ffd077ca5cd37cd5fbbd6380dd3e66"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/palette14-1x.png",
+      "bytes": 27732,
+      "sha256": "38342c9be03bb510d31e6d6f246008b00d543d76f845391f4651864af1305853"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/palette14-4x.png",
+      "bytes": 39854,
+      "sha256": "d232d32b5e042a45ad7717ba727dbc000ee650ae2a91407020df5efbe59f9469"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/palette15-1x.png",
+      "bytes": 27768,
+      "sha256": "0ad966d78d33a828b33763b4a16641c0b93bb4e64f681d294a04eed0079dbe66"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/palette15-4x.png",
+      "bytes": 39929,
+      "sha256": "1db3f99cca099b6bf9bfe77b05232c026f4e5d953eb065041fdde06b6e6e9661"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/preview-import.json",
+      "bytes": 8992,
+      "sha256": "fb82b9e41cff15bf2a267df6b50a15d926b159dd36fd5530b9d253fa7aa5952f"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/preview-native-indexed.png",
+      "bytes": 20916,
+      "sha256": "6fb6c2cd995cf7082df0050a92c6a7e89665e4928f0f2fef84163a30b22aacf8"
+    },
+    {
+      "path": "assets/imagegen/native-guards/draft/preview-raster.json",
+      "bytes": 83552,
+      "sha256": "6cbf3dfafffcb7f9a180bba7e98bf114bd3e1bff7a7dcf404c05ba550a52f7af"
+    },
+    {
+      "path": "assets/imagegen/native-guards/handoff.json",
+      "bytes": 4856,
+      "sha256": "b83d4041d23611eaee06847ea26118213401d49d01f0a91eae9d92c1c85b216c"
+    },
+    {
+      "path": "assets/imagegen/native-guards/import-spec.draft.json",
+      "bytes": 3711,
+      "sha256": "35fb4dbc8d57f12116ba40a9318704cad3e0cdb98c61436444bdbe97dba138e5"
+    },
+    {
+      "path": "assets/imagegen/native-guards/integration-proposal.json",
+      "bytes": 1932,
+      "sha256": "33b28a489bee61056fd2a8b6cb69bf5c879a757daea56c67e62464169d87d399"
+    },
+    {
+      "path": "assets/imagegen/native-guards/motion-verification/manifest.json",
+      "bytes": 75226,
+      "sha256": "77a87cd26baa0b8f4de3586132cb29ea175f95f209461d537db55dc11946ed85"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-proof-utils.mjs",
+      "bytes": 3436,
+      "sha256": "64e6a45cf9690caa479d5b74dee7ced1378088eece42fa6d5b57d1936cb01782"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-resource-audit.json",
+      "bytes": 513918,
+      "sha256": "f2b767404c61fad75976092753fa642c4592bb62d8a08e074dd8390a5cba5b4b"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-role-notes.json",
+      "bytes": 2902,
+      "sha256": "b85b032af8595257071f97be9ded1d2e9d5be04109cda93976812fff742bb739"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-source-map.draft.json",
+      "bytes": 20538,
+      "sha256": "59e5488b31086597694f552fd0973f15e0cab8b6424698770104c535f811663b"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-verification/enemy49-17.png",
+      "bytes": 56483,
+      "sha256": "8cb0d66af65e73f9d659aee991b21f5b53b58f530f9ddef4344dae1446e47ca7"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-verification/enemy49-19.png",
+      "bytes": 56660,
+      "sha256": "06a02a11a7be9702ba754d9dc7d4a8c46b0d6216a0b2cc1e96755cd5c874d09f"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-verification/enemy49-21.png",
+      "bytes": 56473,
+      "sha256": "d8995aa483564d944dfdac9ee5c42e89db0815f29976c7e4c22368b413708a5a"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-verification/enemy49-3.png",
+      "bytes": 56562,
+      "sha256": "f4674f6404c2f66ac2b2eacee2ec31a8b065e9fea76bcc77dc1f6fdbca64a4c4"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-verification/enemy50-25.png",
+      "bytes": 56494,
+      "sha256": "0f69980fa2465a91e8f771c5bdb66c681f139c3484c205a64d33d2289300dc6c"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-verification/enemy50-4.png",
+      "bytes": 56532,
+      "sha256": "fc77b5c953642475f1081800cddc06d5ca31bd37ff58a4c13302fa29cda7cdad"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-verification/manifest.json",
+      "bytes": 60445,
+      "sha256": "ebe445a885b66051033821d0dccb53e38c9fc7d33cbf20af91bf8e9e8459ec37"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-verification/npc75-0.png",
+      "bytes": 56685,
+      "sha256": "4906841c0dcd24403ece2fc39b24c023feb7fcc82afc05363cd52d1d30068fa6"
+    },
+    {
+      "path": "assets/imagegen/native-guards/native-verification/npc75-25.png",
+      "bytes": 56485,
+      "sha256": "232ed2570e2e4796c14847cf8cdb83244b82b707e5b3a9ecb8eb3e4567205439"
+    },
+    {
+      "path": "assets/imagegen/native-guards/pack-cells.mjs",
+      "bytes": 3245,
+      "sha256": "ccec9f6b99c1fa2a3219986da9a01e94d7c36b5418dc56b24b3b4b8bbf61e794"
+    },
+    {
+      "path": "assets/imagegen/native-guards/prepare-native.mjs",
+      "bytes": 4871,
+      "sha256": "fb62ea94c6b8c7ba895af2b00805d683f6b97267b8633eb2272797c95991fc64"
+    },
+    {
+      "path": "assets/imagegen/native-guards/private-overlay.mjs",
+      "bytes": 3996,
+      "sha256": "bf5170bb81ceb43de7ada3c0e6498747c005d9ecdc328bc13feb0cbb07e6d4c1"
+    },
+    {
+      "path": "assets/imagegen/native-guards/prompt-actions-v1.txt",
+      "bytes": 3416,
+      "sha256": "c6daa5612f6e61a98814d2def1090fc817bcc45e07b9545039dd042c3e1d04eb"
+    },
+    {
+      "path": "assets/imagegen/native-guards/prompt-base-v1.txt",
+      "bytes": 2948,
+      "sha256": "5caa260ac5a2a835da0e0ffb67d66a79a7c0426f12cf03997e5f9e822222a076"
+    },
+    {
+      "path": "assets/imagegen/native-guards/prompt-sweeps-v2.txt",
+      "bytes": 2217,
+      "sha256": "42de2923513a0ed824ed744fde6ba754fef2a82e2c7af2a9220d950e6db3218c"
+    },
+    {
+      "path": "assets/imagegen/native-guards/prompt-windups-v2.txt",
+      "bytes": 1911,
+      "sha256": "5cf7424c0880110f9ad339ceee223fe69f99b3f472f4f51e700618d3e7277d8a"
+    },
+    {
+      "path": "assets/imagegen/native-guards/provenance-actions-v1.json",
+      "bytes": 1050,
+      "sha256": "2774004f0870e1054767e66a3c49a22d72133026e6ec7f2a5882150db1f2b3b4"
+    },
+    {
+      "path": "assets/imagegen/native-guards/provenance-base-v1.json",
+      "bytes": 1189,
+      "sha256": "bc0ac9aac3cd5a442c5e4c0e2f90fe93c08b16a16e021cc392022ef59e2d8d6c"
+    },
+    {
+      "path": "assets/imagegen/native-guards/provenance-sweeps-v2.json",
+      "bytes": 1290,
+      "sha256": "6d7e71063f75f939b73ae84767960cc09c3cd99f9f63689634baea162c24d1b0"
+    },
+    {
+      "path": "assets/imagegen/native-guards/provenance-windups-v2.json",
+      "bytes": 1025,
+      "sha256": "5df275cd3836b73b3615feae56f0970041a5002a578c577fa5327a779cb7ab3e"
+    },
+    {
+      "path": "assets/imagegen/native-guards/reproduce-draft.mjs",
+      "bytes": 1074,
+      "sha256": "9ebfadab514a9358810d7f82c70be7dc2526576139a931e59997113edf101a09"
+    },
+    {
+      "path": "assets/imagegen/native-guards/review/contact-sheet-1x.png",
+      "bytes": 178123,
+      "sha256": "a138af48ad3098f8892432aa012bca243467ea8d016d49a8a3e6594a81bd6ef7"
+    },
+    {
+      "path": "assets/imagegen/native-guards/review/contact-sheet.html",
+      "bytes": 87067,
+      "sha256": "9edd54b45b8595007dcf1f86c495b6d9e514a65125facad3cfa5f70127b63da3"
+    },
+    {
+      "path": "assets/imagegen/native-guards/review/gait-contacts.html",
+      "bytes": 13482,
+      "sha256": "ba0b349fe3d34315c1638fa391ba51f129a33df2cb1991b40fd1d0a7390cde23"
+    },
+    {
+      "path": "assets/imagegen/native-guards/review/gait-contacts.png",
+      "bytes": 46224,
+      "sha256": "46a63ee4945191d1cd8c435241c3220d99fddeb56492bf5026a24e59a9433ac4"
+    },
+    {
+      "path": "assets/imagegen/native-guards/review/motion-review.html",
+      "bytes": 439697,
+      "sha256": "1acab4ed36839345045e3ea0f9421c113904ab1114b21196c2523d9238443604"
+    },
+    {
+      "path": "assets/imagegen/native-guards/review/role-review.html",
+      "bytes": 169943,
+      "sha256": "a551c0aa4b02fb057ea9c56cc3cd29f34c23d4af5b6d5d203609f8e2decfe2f3"
+    },
+    {
+      "path": "assets/imagegen/native-guards/review/ui-check.json",
+      "bytes": 1217,
+      "sha256": "17f10d7f9ea8a9c35a87d7012df5e1234964838a737caed34226d80af1e9314d"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-resource-audit.json",
+      "bytes": 12599,
+      "sha256": "a37bc172b79964d863b678b98f1113df53593a3a175511c687e6a28d984593a0"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/ending-shared-acting.png",
+      "bytes": 52709,
+      "sha256": "c00967c7c6a9a57dd936ed0ec8cc5c82637dccd394a39d254fa2cc626556a9c1"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/ending-shared-arrival.png",
+      "bytes": 52427,
+      "sha256": "8a3e4325b86f1dcedf78bd589e06e3ae0b1a485cf487fa4e01a9fb965b6463dd"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/ending-shared.json",
+      "bytes": 7903,
+      "sha256": "684328e7250a9324a64c10dc917a5305a62f675fc153ac3699c1a128b8e2f2ff"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/festival-acting.png",
+      "bytes": 110110,
+      "sha256": "bb09b62fa9fa7913dba76a88040e45d3cb02bfa86c2d79e72c9ed93cf6f1fc26"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/festival-arrival.png",
+      "bytes": 109798,
+      "sha256": "fb4692761de1f12273372986eaeb46d48dec0b47d9dc8773b2b13518f0e5dd59"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/festival.json",
+      "bytes": 9277,
+      "sha256": "74d96d965df62c129c4d730951c7d581b7272b0ef8d038b43d1d2895137156b3"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/prison-breakout-field-return.png",
+      "bytes": 51072,
+      "sha256": "29a792c59aa028243d5270f5edd8535638095f3779d0fd964c8a887f87b1afa0"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/prison-breakout-original-guard-battle.png",
+      "bytes": 66713,
+      "sha256": "fbe6c0868ce165c1b380c86cea37137ec027fafad67923c542b8a8f3a55197af"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/prison-breakout.json",
+      "bytes": 26001,
+      "sha256": "e273471be87eaef8775c9473cf2bdd40c0a100654bf0ed0e9fc84dcb8c849bce"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/prison-rescue-entry.png",
+      "bytes": 65027,
+      "sha256": "ec773ab02adeaaeafab9ca7b20f8a559834a71dbfee496d6285308be98796604"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/prison-rescue-guards-knocked-out.png",
+      "bytes": 30797,
+      "sha256": "5610cb7109e1cec4ea1afc2d0a6e439095a63d44ad8fc6434a3c268ed116acbb"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/prison-rescue.json",
+      "bytes": 30010,
+      "sha256": "59d99a770fcbe6ad38e92c45b595b4bf55e4baa872cc82165ce76d903525197b"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/sentry-arrival.png",
+      "bytes": 73771,
+      "sha256": "c3a8d667a6c9533e88e898ae9e03f90033feee67687ee2bb68ad69c8145a6206"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/sentry-original-battle.png",
+      "bytes": 73723,
+      "sha256": "83a090a00855a1607fc0f6d5ae0fcedf7b5a8fb298e8725542e73a40058a2da0"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/sentry-victory.png",
+      "bytes": 70424,
+      "sha256": "0a605d879d4989f13d6b0df2980f13a644de5217b760f561ba0c9924c29d297f"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/sentry.json",
+      "bytes": 8721,
+      "sha256": "95e4760edd1f8307219a5d21544b354392dc7890aaa8595a49d80d39802609ac"
+    },
+    {
+      "path": "assets/imagegen/native-guards/scene-verification/unrelated-executioner-provenance.json",
+      "bytes": 1224,
+      "sha256": "76fa47664caf56bcf11923706421c381f352c06c87364983e4c9a3a71e62338c"
+    },
+    {
+      "path": "assets/imagegen/native-guards/source-actions-v1.png",
+      "bytes": 1151483,
+      "sha256": "ddaa0cf1254ea4d65033ff460f3c28dea02aa4aa916fe3061f4403c665266e31"
+    },
+    {
+      "path": "assets/imagegen/native-guards/source-base-v1.png",
+      "bytes": 975492,
+      "sha256": "9ca43bc6ed11d4cf24a9f42a776b11b009757529b5cf580ecf61be79ec7e6b90"
+    },
+    {
+      "path": "assets/imagegen/native-guards/source-selection.json",
+      "bytes": 9553,
+      "sha256": "f06b73d1120ef62a0f9310f16f37e72d9e81572b6ea35967021d12a74b5cd242"
+    },
+    {
+      "path": "assets/imagegen/native-guards/source-sweeps-v2.png",
+      "bytes": 689630,
+      "sha256": "8df26a1b28a12d766c2cd33c7d755191e3768d7ffb74cfee90126ddf8bffb1d8"
+    },
+    {
+      "path": "assets/imagegen/native-guards/source-windups-v2.png",
+      "bytes": 550659,
+      "sha256": "1ab069a17864e79db31a9265ddafa28dd37fdeccec09714af131de673f859a01"
+    },
+    {
+      "path": "assets/imagegen/native-guards/verify-motion.mjs",
+      "bytes": 3648,
+      "sha256": "1e98e5538260575b6fcc5e9c587a0ee49beba0439e6f0fe001ce4427d7ab5625"
+    },
+    {
+      "path": "assets/imagegen/native-guards/verify-native.mjs",
+      "bytes": 3542,
+      "sha256": "c7bec1c220b9736917f55c4d86faa44f8ca42b019e1fd12ae547652badb9eecd"
+    },
+    {
+      "path": "assets/imagegen/native-guards/verify-scenes.mjs",
+      "bytes": 9112,
+      "sha256": "9c81dedcd33d5b6222dca7a72fec725472ba45988fe0150d70ebf4af6a8a4db0"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "scripts/import-raster-art.mjs",
+      "sha256": "08b0a00e2024125932a88c5ef6c5b6e00e1c49c94fc5c79a775341520440c497"
+    },
+    {
+      "path": "scripts/native-sprite-view.mjs",
+      "sha256": "5ad09bed2da5887837208c7ccf58dc7e9822a383b9a05dc9433031508fc404b9"
+    },
+    {
+      "path": "engine/native-sprites.js",
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "path": "engine/sprites.js",
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "path": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "path": "engine/rom.js",
+      "sha256": "06b336022840d63cc8295bce22f19ee3527484a06739b76ce90dc5bafa2a9b04"
+    },
+    {
+      "path": "engine/expanded-rom.js",
+      "sha256": "de8f528ce60b4488df9d7742c38e8c9af2ae58e74df641fe6fd1c605dbeedde2"
+    },
+    {
+      "path": "engine/npc-graphics-streaming.js",
+      "sha256": "0dd90dca70436ed2863c448b11e66e549b71d9e85b2ec7603312000e74d2d8c2"
+    },
+    {
+      "path": "engine/devtools.js",
+      "sha256": "b7e430d17c97a3c66a9ed983ebff5e9207c49f5c53970fd9bbfaa64d3854689f"
+    },
+    {
+      "path": "engine/automation.js",
+      "sha256": "8af377558a467f16747a8dbb120b8a047c2512cee9b4945ec5f657660a36fe28"
+    },
+    {
+      "path": "engine/hooks.js",
+      "sha256": "795fd4248bfaf669e53753df0636b4d24cf5ae98062d82f6e50b147516af7a2a"
+    },
+    {
+      "path": "engine/save.js",
+      "sha256": "c3ea24d67274d089090ebf5cb2776471cd8da323d878fcf398ae74390fd3d8ad"
+    },
+    {
+      "path": "scripts/core.mjs",
+      "sha256": "7ab30045a06ef89154004a3cc25e1c2dab1cad1c426f4a585e4a68a058bceef4"
+    },
+    {
+      "path": "tests/battle-controller.mjs",
+      "sha256": "06ae1aa95fbd19f23436c8d442ff4fffafb093f553a7702a6cd89206a24fdb18"
+    },
+    {
+      "path": "content/areas.js",
+      "sha256": "6f8d610883820950caa68b7c840e1f4c83bdcb8b71a3b47a79f339570e63598b"
+    },
+    {
+      "path": "content/hooks.json",
+      "sha256": "bf37708d2862de0a3a6766ef8f9a5c05079e454e262750e001e42a02532783a5"
+    },
+    {
+      "path": "content/native-preview.js",
+      "sha256": "bdbf865c458b7ea6ed2eaa9827b0645abbc500f3e3846fc7410deac86983cfbc"
+    }
+  ],
+  "retention": "Selected representative native screenshots are whitelisted; full78 pose reports are preserved in native-verification/manifest.json and all frames are reproducible by verify-native.mjs. Historical candidates, failures, private ROMs and unselected repeat screenshots are excluded.",
+  "reproduction": "node assets/imagegen/native-guards/reproduce-draft.mjs",
+  "activation": false
+}

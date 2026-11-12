@@ -1,0 +1,1705 @@
+{
+  "status": "Frozen inactive candidate; root owns production integration",
+  "castingDecision": {
+    "date": "2026-11-01",
+    "approvedBy": "root",
+    "dalton": "Rumpelstiltskin",
+    "golems": "Enchanted wishworks constructs",
+    "designLog": "Root consolidated the implementation decision in docs/game-design.md and docs/decisions.md"
+  },
+  "baseline": {
+    "path": ".local/qa/rumpelstiltskin-wishworks/baseline.sfc",
+    "sha256": "f33843436880bf0b7988308e2d684065c8ef6c715641cfc0d3038232f1f8ca15",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "scope": "Fixed private copy; never rewritten by candidate generation"
+  },
+  "privateRomSha256": "b8640dd2f77cd6109cfa366ddbe973a95f8e9135fe33a6f2b9cf74d0af8a3c40",
+  "sourceSpecs": [
+    "rumpelstiltskin-import-spec.draft.json",
+    "wishworks-golems-import-spec.draft.json"
+  ],
+  "geometryProposal": [
+    {
+      "key": "rumpelstiltskin",
+      "name": "Rumpelstiltskin",
+      "gfx": 143,
+      "groups": [
+        {
+          "asm": 137,
+          "art": "rumpelstiltskin",
+          "frames": 28,
+          "size": 0,
+          "width": 64,
+          "height": 80,
+          "anchor": [
+            0,
+            16
+          ],
+          "frameCellOrigins": [
+            [
+              [
+                32,
+                32
+              ],
+              [
+                16,
+                32
+              ],
+              [
+                32,
+                48
+              ],
+              [
+                16,
+                48
+              ]
+            ],
+            [
+              [
+                34,
+                33
+              ],
+              [
+                18,
+                33
+              ],
+              [
+                34,
+                49
+              ],
+              [
+                18,
+                49
+              ]
+            ],
+            [
+              [
+                38,
+                33
+              ],
+              [
+                22,
+                33
+              ],
+              [
+                38,
+                49
+              ],
+              [
+                22,
+                49
+              ]
+            ],
+            [
+              [
+                36,
+                32
+              ],
+              [
+                20,
+                32
+              ],
+              [
+                36,
+                48
+              ],
+              [
+                20,
+                48
+              ]
+            ],
+            [
+              [
+                36,
+                33
+              ],
+              [
+                20,
+                33
+              ],
+              [
+                36,
+                49
+              ],
+              [
+                20,
+                49
+              ]
+            ],
+            [
+              [
+                36,
+                33
+              ],
+              [
+                20,
+                33
+              ],
+              [
+                36,
+                49
+              ],
+              [
+                20,
+                49
+              ]
+            ],
+            [
+              [
+                32,
+                32
+              ],
+              [
+                16,
+                32
+              ],
+              [
+                32,
+                48
+              ],
+              [
+                16,
+                48
+              ]
+            ],
+            [
+              [
+                32,
+                32
+              ],
+              [
+                16,
+                32
+              ],
+              [
+                32,
+                48
+              ],
+              [
+                16,
+                48
+              ]
+            ],
+            [
+              [
+                32,
+                32
+              ],
+              [
+                16,
+                32
+              ],
+              [
+                32,
+                48
+              ],
+              [
+                16,
+                48
+              ]
+            ],
+            [
+              [
+                32,
+                32
+              ],
+              [
+                16,
+                32
+              ],
+              [
+                32,
+                48
+              ],
+              [
+                16,
+                48
+              ]
+            ],
+            [
+              [
+                32,
+                32
+              ],
+              [
+                16,
+                32
+              ],
+              [
+                32,
+                48
+              ],
+              [
+                16,
+                48
+              ]
+            ],
+            [
+              [
+                32,
+                32
+              ],
+              [
+                16,
+                32
+              ],
+              [
+                32,
+                48
+              ],
+              [
+                16,
+                48
+              ]
+            ],
+            [
+              [
+                36,
+                32
+              ],
+              [
+                20,
+                32
+              ],
+              [
+                36,
+                48
+              ],
+              [
+                20,
+                48
+              ]
+            ],
+            [
+              [
+                38,
+                32
+              ],
+              [
+                22,
+                32
+              ],
+              [
+                38,
+                48
+              ],
+              [
+                22,
+                48
+              ]
+            ],
+            [
+              [
+                31,
+                32
+              ],
+              [
+                15,
+                32
+              ],
+              [
+                31,
+                48
+              ],
+              [
+                15,
+                48
+              ]
+            ],
+            [
+              [
+                36,
+                16
+              ],
+              [
+                20,
+                16
+              ],
+              [
+                36,
+                32
+              ],
+              [
+                20,
+                32
+              ]
+            ],
+            [
+              [
+                36,
+                16
+              ],
+              [
+                20,
+                16
+              ],
+              [
+                36,
+                32
+              ],
+              [
+                20,
+                32
+              ]
+            ],
+            [
+              [
+                36,
+                32
+              ],
+              [
+                20,
+                32
+              ],
+              [
+                36,
+                48
+              ],
+              [
+                20,
+                48
+              ]
+            ],
+            [
+              [
+                36,
+                32
+              ],
+              [
+                20,
+                32
+              ],
+              [
+                36,
+                48
+              ],
+              [
+                20,
+                48
+              ]
+            ],
+            [
+              [
+                36,
+                32
+              ],
+              [
+                20,
+                32
+              ],
+              [
+                36,
+                48
+              ],
+              [
+                20,
+                48
+              ]
+            ],
+            [
+              [
+                36,
+                32
+              ],
+              [
+                20,
+                32
+              ],
+              [
+                36,
+                48
+              ],
+              [
+                20,
+                48
+              ]
+            ],
+            [
+              [
+                36,
+                32
+              ],
+              [
+                20,
+                32
+              ],
+              [
+                36,
+                48
+              ],
+              [
+                20,
+                48
+              ]
+            ],
+            [
+              [
+                36,
+                32
+              ],
+              [
+                20,
+                32
+              ],
+              [
+                36,
+                48
+              ],
+              [
+                20,
+                48
+              ]
+            ],
+            [
+              [
+                37,
+                32
+              ],
+              [
+                21,
+                32
+              ],
+              [
+                36,
+                48
+              ],
+              [
+                20,
+                48
+              ]
+            ],
+            [
+              [
+                32,
+                32
+              ],
+              [
+                16,
+                32
+              ],
+              [
+                32,
+                48
+              ],
+              [
+                16,
+                48
+              ]
+            ],
+            [
+              [
+                26,
+                32
+              ],
+              [
+                10,
+                32
+              ],
+              [
+                26,
+                48
+              ],
+              [
+                10,
+                48
+              ]
+            ],
+            [
+              [
+                36,
+                36
+              ],
+              [
+                20,
+                36
+              ],
+              [
+                36,
+                48
+              ],
+              [
+                20,
+                48
+              ]
+            ],
+            [
+              [
+                36,
+                16
+              ],
+              [
+                20,
+                16
+              ],
+              [
+                36,
+                32
+              ],
+              [
+                20,
+                32
+              ]
+            ]
+          ],
+          "cellOverlapFrames": [
+            26
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "key": "rumpel",
+          "name": "Rumpelstiltskin",
+          "short": "Rumpel",
+          "enemy": 161,
+          "asm": 137,
+          "palette": 192,
+          "animation": 107,
+          "size": 64,
+          "colors": [
+            "312108",
+            "ffffff",
+            "e7dea5",
+            "dea563",
+            "ffb500",
+            "d67b31",
+            "738c7b",
+            "9c6b31",
+            "a53929",
+            "10425a",
+            "524200",
+            "4a2129"
+          ]
+        },
+        {
+          "key": "rumpel-king",
+          "name": "Rumpelstiltskin (usurper)",
+          "short": "King Rumpel",
+          "enemy": 162,
+          "asm": 137,
+          "palette": 192,
+          "animation": 107,
+          "size": 0,
+          "colors": [
+            "312108",
+            "ffffff",
+            "e7dea5",
+            "dea563",
+            "ffb500",
+            "d67b31",
+            "738c7b",
+            "9c6b31",
+            "a53929",
+            "10425a",
+            "524200",
+            "4a2129"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "wishworks-golems",
+      "name": "Wishworks Golems",
+      "gfx": 216,
+      "groups": [
+        {
+          "asm": 209,
+          "art": "wishworks-golems",
+          "frames": 8,
+          "size": 2,
+          "width": 96,
+          "height": 112,
+          "anchor": [
+            0,
+            16
+          ],
+          "frameCellOrigins": [
+            [
+              [
+                40,
+                46
+              ],
+              [
+                40,
+                14
+              ],
+              [
+                64,
+                30
+              ],
+              [
+                48,
+                30
+              ],
+              [
+                72,
+                46
+              ],
+              [
+                56,
+                46
+              ],
+              [
+                48,
+                62
+              ],
+              [
+                33,
+                30
+              ],
+              [
+                17,
+                30
+              ],
+              [
+                9,
+                46
+              ],
+              [
+                25,
+                46
+              ],
+              [
+                33,
+                62
+              ]
+            ],
+            [
+              [
+                40,
+                48
+              ],
+              [
+                40,
+                16
+              ],
+              [
+                64,
+                32
+              ],
+              [
+                48,
+                32
+              ],
+              [
+                72,
+                48
+              ],
+              [
+                56,
+                48
+              ],
+              [
+                48,
+                64
+              ],
+              [
+                33,
+                32
+              ],
+              [
+                17,
+                32
+              ],
+              [
+                9,
+                48
+              ],
+              [
+                25,
+                48
+              ],
+              [
+                33,
+                64
+              ]
+            ],
+            [
+              [
+                40,
+                50
+              ],
+              [
+                40,
+                18
+              ],
+              [
+                64,
+                34
+              ],
+              [
+                48,
+                34
+              ],
+              [
+                71,
+                50
+              ],
+              [
+                56,
+                50
+              ],
+              [
+                48,
+                66
+              ],
+              [
+                33,
+                34
+              ],
+              [
+                17,
+                34
+              ],
+              [
+                10,
+                50
+              ],
+              [
+                25,
+                50
+              ],
+              [
+                33,
+                66
+              ]
+            ],
+            [
+              [
+                40,
+                48
+              ],
+              [
+                40,
+                16
+              ],
+              [
+                64,
+                32
+              ],
+              [
+                48,
+                32
+              ],
+              [
+                72,
+                48
+              ],
+              [
+                56,
+                48
+              ],
+              [
+                48,
+                64
+              ],
+              [
+                33,
+                32
+              ],
+              [
+                17,
+                32
+              ],
+              [
+                9,
+                48
+              ],
+              [
+                25,
+                48
+              ],
+              [
+                33,
+                64
+              ]
+            ],
+            [
+              [
+                40,
+                77
+              ],
+              [
+                56,
+                29
+              ],
+              [
+                40,
+                29
+              ],
+              [
+                24,
+                29
+              ],
+              [
+                64,
+                45
+              ],
+              [
+                48,
+                45
+              ],
+              [
+                64,
+                61
+              ],
+              [
+                48,
+                61
+              ],
+              [
+                16,
+                45
+              ],
+              [
+                32,
+                45
+              ],
+              [
+                16,
+                61
+              ],
+              [
+                32,
+                61
+              ]
+            ],
+            [
+              [
+                40,
+                78
+              ],
+              [
+                56,
+                30
+              ],
+              [
+                40,
+                30
+              ],
+              [
+                24,
+                30
+              ],
+              [
+                64,
+                46
+              ],
+              [
+                48,
+                46
+              ],
+              [
+                64,
+                62
+              ],
+              [
+                48,
+                62
+              ],
+              [
+                16,
+                46
+              ],
+              [
+                32,
+                46
+              ],
+              [
+                16,
+                62
+              ],
+              [
+                32,
+                62
+              ]
+            ],
+            [
+              [
+                40,
+                48
+              ],
+              [
+                40,
+                16
+              ],
+              [
+                64,
+                32
+              ],
+              [
+                48,
+                32
+              ],
+              [
+                72,
+                48
+              ],
+              [
+                56,
+                48
+              ],
+              [
+                48,
+                64
+              ],
+              [
+                33,
+                32
+              ],
+              [
+                17,
+                32
+              ],
+              [
+                9,
+                48
+              ],
+              [
+                25,
+                48
+              ],
+              [
+                33,
+                64
+              ]
+            ],
+            [
+              [
+                40,
+                48
+              ],
+              [
+                40,
+                16
+              ],
+              [
+                64,
+                32
+              ],
+              [
+                48,
+                32
+              ],
+              [
+                72,
+                40
+              ],
+              [
+                56,
+                48
+              ],
+              [
+                48,
+                64
+              ],
+              [
+                33,
+                32
+              ],
+              [
+                17,
+                32
+              ],
+              [
+                9,
+                40
+              ],
+              [
+                25,
+                48
+              ],
+              [
+                33,
+                64
+              ]
+            ]
+          ],
+          "cellOverlapFrames": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "key": "wish-golem",
+          "name": "Wishworks Golem",
+          "short": "Wish Golem",
+          "enemy": 149,
+          "asm": 209,
+          "palette": 234,
+          "animation": 167,
+          "size": 66,
+          "colors": [
+            "292910",
+            "ffffff",
+            "bdd6d6",
+            "637bb5",
+            "bdd6ff",
+            "f7e784",
+            "ce9c42",
+            "848c6b",
+            "944a52",
+            "8c6308",
+            "525a6b",
+            "393929"
+          ]
+        },
+        {
+          "key": "wish-golem-boss",
+          "name": "Wishworks Golem Boss",
+          "short": "Wish Boss",
+          "enemy": 243,
+          "asm": 209,
+          "palette": 235,
+          "animation": 167,
+          "size": 66,
+          "colors": [
+            "292910",
+            "ffffff",
+            "a5a594",
+            "636363",
+            "d6d6ff",
+            "e7c6b5",
+            "c6847b",
+            "6b7363",
+            "736bb5",
+            "7b4242",
+            "524231",
+            "393929"
+          ]
+        }
+      ]
+    }
+  ],
+  "geometryContract": {
+    "rumpel": {
+      "gfx": 143,
+      "asm": 137,
+      "cells": 4,
+      "nativeSlots": 28,
+      "logicalCanvas": [
+        64,
+        80
+      ],
+      "logicalOrigin": [
+        32,
+        64
+      ],
+      "anchor": [
+        0,
+        16
+      ],
+      "sourceHeight": 27,
+      "sourcePlacementAdjustments": {
+        "16": [
+          3,
+          0
+        ]
+      },
+      "overlapFrames": [
+        26
+      ]
+    },
+    "golem": {
+      "gfx": 216,
+      "asm": 209,
+      "cells": 12,
+      "nativeSlots": 8,
+      "logicalCanvas": [
+        96,
+        112
+      ],
+      "logicalOrigin": [
+        48,
+        96
+      ],
+      "anchor": [
+        0,
+        16
+      ],
+      "sourceHeight": 52,
+      "reactionFullHeightIncludingSparks": 60,
+      "sourcePlacementAdjustments": {
+        "3": [
+          0,
+          -4
+        ],
+        "4": [
+          0,
+          2
+        ],
+        "5": [
+          0,
+          4
+        ]
+      },
+      "overlapFrames": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    "allSignedXYBytesPreserved": 416,
+    "duplicateOpaqueSamplesAgree": 373,
+    "extraCells": 0,
+    "extraVramBytes": 0,
+    "originalSizeFlags": "Retain enemy161 size64,162 size0 and149/243 size66; low size classes0/2 remain four/twelve cells."
+  },
+  "ownership": [
+    {
+      "gfx": 143,
+      "asm": 137,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 161,
+          "name": "Dalton",
+          "header": [
+            143,
+            137,
+            192,
+            107,
+            64,
+            0,
+            240,
+            8,
+            16,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 162,
+          "name": "Dalton Plus",
+          "header": [
+            143,
+            137,
+            192,
+            107,
+            0,
+            0,
+            240,
+            8,
+            16,
+            17
+          ]
+        }
+      ],
+      "resourceAliases": [
+        {
+          "field": 0,
+          "id": 143,
+          "pointerAliases": [
+            143
+          ],
+          "owners": [
+            {
+              "kind": "enemy",
+              "id": 161
+            },
+            {
+              "kind": "enemy",
+              "id": 162
+            }
+          ]
+        },
+        {
+          "field": 1,
+          "id": 137,
+          "pointerAliases": [
+            137
+          ],
+          "owners": [
+            {
+              "kind": "enemy",
+              "id": 161
+            },
+            {
+              "kind": "enemy",
+              "id": 162
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "id": 192,
+          "pointerAliases": [
+            192
+          ],
+          "owners": [
+            {
+              "kind": "enemy",
+              "id": 161
+            },
+            {
+              "kind": "enemy",
+              "id": 162
+            }
+          ]
+        },
+        {
+          "field": 3,
+          "id": 107,
+          "pointerAliases": [
+            107
+          ],
+          "owners": [
+            {
+              "kind": "enemy",
+              "id": 161
+            },
+            {
+              "kind": "enemy",
+              "id": 162
+            }
+          ]
+        }
+      ],
+      "animation": 107,
+      "palettes": [
+        192
+      ]
+    },
+    {
+      "gfx": 216,
+      "asm": 209,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 149,
+          "name": "Golem",
+          "header": [
+            216,
+            209,
+            234,
+            167,
+            66,
+            0,
+            224,
+            12,
+            12,
+            20
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 243,
+          "name": "Golem Boss",
+          "header": [
+            216,
+            209,
+            235,
+            167,
+            66,
+            0,
+            224,
+            12,
+            12,
+            17
+          ]
+        }
+      ],
+      "resourceAliases": [
+        {
+          "field": 0,
+          "id": 216,
+          "pointerAliases": [
+            216
+          ],
+          "owners": [
+            {
+              "kind": "enemy",
+              "id": 149
+            },
+            {
+              "kind": "enemy",
+              "id": 243
+            }
+          ]
+        },
+        {
+          "field": 1,
+          "id": 209,
+          "pointerAliases": [
+            209
+          ],
+          "owners": [
+            {
+              "kind": "enemy",
+              "id": 149
+            },
+            {
+              "kind": "enemy",
+              "id": 243
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "id": 234,
+          "pointerAliases": [
+            234
+          ],
+          "owners": [
+            {
+              "kind": "enemy",
+              "id": 149
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "id": 235,
+          "pointerAliases": [
+            235
+          ],
+          "owners": [
+            {
+              "kind": "enemy",
+              "id": 243
+            }
+          ]
+        },
+        {
+          "field": 3,
+          "id": 167,
+          "pointerAliases": [
+            167
+          ],
+          "owners": [
+            {
+              "kind": "enemy",
+              "id": 149
+            },
+            {
+              "kind": "enemy",
+              "id": 243
+            }
+          ]
+        }
+      ],
+      "animation": 167,
+      "palettes": [
+        234,
+        235
+      ]
+    }
+  ],
+  "costs": [
+    {
+      "key": "rumpelstiltskin",
+      "gfx": 143,
+      "rawBytes": 8256,
+      "compressedBytes": 5334,
+      "assemblyBytes": 1120,
+      "compressedPlusAssembly": 6454,
+      "graphicsSha256": "14f95d66f837fd4dd2fbdaaec3c53bec081b55f61a718290d43577bdcec6145e",
+      "compressedSha256": "957d3fdfd4c3edf392e211183965d96a4fa8847cd19fcde12deba8c8869fb3f4",
+      "groups": [
+        {
+          "asm": 137,
+          "frames": 28,
+          "cells": 4,
+          "assemblyBytes": 1120,
+          "assemblySha256": "ffedc29ed9b74830a26392bac19e6e6681a979ae566ddf6abb82c8732ec203d9",
+          "originalSignedXYBytes": 224,
+          "overlapFrames": [
+            26
+          ]
+        }
+      ],
+      "originalCT": {
+        "rawBytes": 6656,
+        "compressedBytes": 5721,
+        "assemblyBytes": 1120,
+        "compressedPlusAssembly": 6841
+      },
+      "currentEarlierArt": {
+        "sameAsOriginal": true,
+        "rawBytes": 6656,
+        "compressedBytes": 5721,
+        "assemblyBytes": 1120,
+        "compressedPlusAssembly": 6841
+      },
+      "rawGrowth": 1600,
+      "compressedPlusAssemblyGrowth": -387,
+      "nativeSourcePixels": 8786,
+      "agreeingOverlappingOpaquePixels": 55
+    },
+    {
+      "key": "wishworks-golems",
+      "gfx": 216,
+      "rawBytes": 8000,
+      "compressedBytes": 6313,
+      "assemblyBytes": 960,
+      "compressedPlusAssembly": 7273,
+      "graphicsSha256": "ccfe6018e5bd804d7f1747a7de2525c9a30a24ff9c2ec5159c5ff210b86d853b",
+      "compressedSha256": "720c398ed51a1b99cec2fc9df39bd855e30adb6061da81b04e1e2471dac890af",
+      "groups": [
+        {
+          "asm": 209,
+          "frames": 8,
+          "cells": 12,
+          "assemblyBytes": 960,
+          "assemblySha256": "3a8afdc6b81a869d4c19ee26457712faff29da6bd77de2eedd80e90043ade3f1",
+          "originalSignedXYBytes": 192,
+          "overlapFrames": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7
+          ]
+        }
+      ],
+      "originalCT": {
+        "rawBytes": 3264,
+        "compressedBytes": 2617,
+        "assemblyBytes": 960,
+        "compressedPlusAssembly": 3577
+      },
+      "currentEarlierArt": {
+        "sameAsOriginal": true,
+        "rawBytes": 3264,
+        "compressedBytes": 2617,
+        "assemblyBytes": 960,
+        "compressedPlusAssembly": 3577
+      },
+      "rawGrowth": 4736,
+      "compressedPlusAssemblyGrowth": 3696,
+      "nativeSourcePixels": 9083,
+      "agreeingOverlappingOpaquePixels": 318
+    }
+  ],
+  "totals": {
+    "rawBytes": 16256,
+    "compressedPlusAssembly": 13727,
+    "compressedPlusAssemblyGrowth": 3309
+  },
+  "palettes": [
+    {
+      "id": 192,
+      "colors": [
+        "312108",
+        "ffffff",
+        "e7dea5",
+        "dea563",
+        "ffb500",
+        "d67b31",
+        "738c7b",
+        "9c6b31",
+        "a53929",
+        "10425a",
+        "524200",
+        "4a2129"
+      ],
+      "offset": 2363904,
+      "sha256": "3837bbc881eebb7d7512e9d286b568b674ffe5eb6145a7758c48c795b406f92f"
+    },
+    {
+      "id": 234,
+      "colors": [
+        "292910",
+        "ffffff",
+        "bdd6d6",
+        "637bb5",
+        "bdd6ff",
+        "f7e784",
+        "ce9c42",
+        "848c6b",
+        "944a52",
+        "8c6308",
+        "525a6b",
+        "393929"
+      ],
+      "offset": 2364912,
+      "sha256": "aa3f3bc25e63e48cbe674828164ed96442809e6bbda35026f8a97070506ad86e"
+    },
+    {
+      "id": 235,
+      "colors": [
+        "292910",
+        "ffffff",
+        "a5a594",
+        "636363",
+        "d6d6ff",
+        "e7c6b5",
+        "c6847b",
+        "6b7363",
+        "736bb5",
+        "7b4242",
+        "524231",
+        "393929"
+      ],
+      "offset": 2364936,
+      "sha256": "621f0cc8a4149854887b25071ff51cc8feea2a62764758f7682cfcad331f4333"
+    }
+  ],
+  "paletteWritesRequired": false,
+  "productionInstructions": [
+    "Register the two source specs under distinct active catalogue entries and place active output outside this frozen directory. Do not modify the frozen specs to activate them.",
+    "Use family.draft.json frameCellOrigins and anchor verbatim; no extra frameOffsets or cell rectangles are required. Original signed XY and native OAM order are exact.",
+    "Select native raw streaming for graphics143 and216. Each raw bank is below32KiB; allocating both complete raw banks costs16,256 extended bytes before alignment. Retain compressed resource packets and original byte-size assembly tables.",
+    "Net compressed+assembly growth is3,309 bytes against both original CT and the unchanged selected active earlier art. Use current native resource allocator; private7D0000 addresses are proof-only and must not be copied into production.",
+    "Preserve every native header field, animation program, AI, statistics, rewards, palette and authored actor/formation ownership. Proposed short names are optional root-owned dialogue/content work.",
+    "Update active naming/dialogue consistently with the approved Rumpel/Wishworks casting; this inactive image overlay deliberately retains existing battle names/dialogue for event invariance proof."
+  ],
+  "proof": {
+    "nativeUploads": 72,
+    "exactVisiblePpuPixels": 35738,
+    "uniqueNativeSlots": 36,
+    "allOwnerSlots": 72,
+    "nativeTimedLists": 68,
+    "nativeTimedTicks": 16320,
+    "authoredEncounterCount": 4,
+    "authoredEncounterTicks": 31995,
+    "measuredHeapMax": 4416,
+    "scenes": [
+      {
+        "name": "night-throne",
+        "location": 334,
+        "originalEnemyOwners": [
+          161
+        ],
+        "nativeTicks": 7603,
+        "returnLocation": 334,
+        "returnStory": 189,
+        "returnD2": 0,
+        "survivingParty": [
+          {
+            "id": 0,
+            "hp": 177
+          },
+          {
+            "id": 1,
+            "hp": 62
+          },
+          {
+            "id": 2,
+            "hp": 194
+          }
+        ],
+        "heapMax": 1248,
+        "report": "night-throne.json",
+        "battleImage": "night-throne-battle.png",
+        "returnImage": "night-throne-return.png"
+      },
+      {
+        "name": "golem-twins",
+        "location": 414,
+        "originalEnemyOwners": [
+          149,
+          149
+        ],
+        "nativeTicks": 12565,
+        "returnLocation": 414,
+        "returnStory": 201,
+        "returnD2": 0,
+        "survivingParty": [
+          {
+            "id": 0,
+            "hp": 861
+          },
+          {
+            "id": 1,
+            "hp": 866
+          },
+          {
+            "id": 2,
+            "hp": 852
+          }
+        ],
+        "heapMax": 1248,
+        "report": "golem-twins.json",
+        "battleImage": "golem-twins-battle.png",
+        "returnImage": "golem-twins-return.png"
+      },
+      {
+        "name": "blackbird-wing",
+        "location": 363,
+        "originalEnemyOwners": [
+          243
+        ],
+        "nativeTicks": 5540,
+        "returnLocation": 271,
+        "returnStory": 207,
+        "returnD2": 1,
+        "survivingParty": [
+          {
+            "id": 1,
+            "hp": 999
+          },
+          {
+            "id": 2,
+            "hp": 999
+          },
+          {
+            "id": 3,
+            "hp": 999
+          }
+        ],
+        "heapMax": 4416,
+        "report": "blackbird-wing.json",
+        "battleImage": "blackbird-wing-battle.png",
+        "returnImage": "blackbird-wing-return.png"
+      },
+      {
+        "name": "dragon-deck",
+        "location": 377,
+        "originalEnemyOwners": [
+          162
+        ],
+        "nativeTicks": 6287,
+        "returnLocation": 363,
+        "returnStory": 207,
+        "returnD2": 8,
+        "survivingParty": [
+          {
+            "id": 1,
+            "hp": 485
+          },
+          {
+            "id": 2,
+            "hp": 452
+          },
+          {
+            "id": 3,
+            "hp": 500
+          }
+        ],
+        "heapMax": 4416,
+        "report": "dragon-deck.json",
+        "battleImage": "dragon-deck-battle.png",
+        "returnImage": "dragon-deck-return.png"
+      }
+    ],
+    "staticSceneOwnership": "current-co-loads.json contains ten original location load unions and unchanged current event hashes. Other shared story/ending uses are not claimed as traversed."
+  },
+  "reviewPaths": [
+    "review/gait-contacts.png",
+    "review/role-review.html",
+    "review/role-review.png",
+    "review/contact-sheet-1x.png",
+    "review/motion-review.html",
+    "scene-verification/manifest.json"
+  ],
+  "limitations": [
+    "Rumpel face landmarks and hands are necessarily small at27px body scale; silhouette, red hair, nose, hunch and gestures carry identity.",
+    "Front contact B and the complete right profile cycle use documented whole-source mirrors; no limb is painted or procedurally repositioned.",
+    "Golems intentionally keep the original frontal-only animation lists in all four facing tables. A new back/side cycle is neither required nor claimed.",
+    "Static ownership audit covers all ten locations, including Dream Project340, grotto382 and usurpation424. Four actual encounter checks start from explicit diagnostic checkpoints; no connected Blackbird or whole-chapter playthrough claim.",
+    "Independent Snes9x/bsnes checks and active naming/dialogue are root-owned integration work.",
+    "Superseded pre-gait proof9f3260b9 and unsuccessful checkpoint/defeat probes are explicitly separated in proof-history.json and excluded from current acceptance."
+  ],
+  "activation": false
+}

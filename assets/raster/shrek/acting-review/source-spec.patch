@@ -1,0 +1,402 @@
+--- a/assets/raster/shrek/import-spec.json
++++ b/assets/raster/shrek/import-spec.json
+@@ -1097,6 +1097,19 @@
+           "scale": 1,
+           "scaleX": 1.2
+         }
++      }
++    },
++    {
++      "file": "assets/raster/shrek/acting-review/vertical-source-transforms.png",
++      "columns": 2,
++      "rows": 1,
++      "nativeHeight": 28.524590163934427,
++      "scaleCells": [
++        0
++      ],
++      "sample": {
++        "method": "area",
++        "scaleX": 1.2
+       }
+     }
+   ],
+@@ -1286,22 +1299,19 @@
+     },
+     "down": {
+       "1": [
+-        168,
++        169,
+         169
+       ],
+       "2": [
+-        168,
++        169,
+         169
+       ],
+       "3": [
+         {
+-          "frame": 168,
+-          "flip": true
+-        },
+-        {
+           "frame": 169,
+           "flip": true
+-        }
++        },
++        174
+       ]
+     },
+     "kneel": {
+@@ -1536,22 +1546,6 @@
+       "3": [
+         8,
+         9
+-      ]
+-    },
+-    "bow": {
+-      "1": [
+-        73,
+-        126,
+-        73
+-      ],
+-      "2": [
+-        {
+-          "frame": 19,
+-          "flip": true
+-        }
+-      ],
+-      "3": [
+-        19
+       ]
+     },
+     "arms-folded": {
+@@ -1668,7 +1662,7 @@
+         35
+       ],
+       "1": [
+-        173
++        175
+       ]
+     },
+     "lunge": {
+@@ -1788,7 +1782,32 @@
+       "1": [
+         161,
+         167
++      ]
++    },
++    "close-eyes": {
++      "1": [
++        56,
++        61
++      ],
++      "2": [
++        {
++          "frame": 3,
++          "flip": true
++        },
++        {
++          "frame": 8,
++          "flip": true
++        }
++      ],
++      "3": [
++        3,
++        8
+       ]
++    },
++    "wink": {
++      "1": [
++        61
++      ]
+     }
+   },
+   "semanticRoles": {
+@@ -1885,15 +1904,15 @@
+     "down": {
+       "1": {
+         "kind": "fallback",
+-        "reason": "The frozen Death Peak NPC uses the same provisional whole-source horizontal knockout adaptation; no separate frontal down pose exists."
++        "reason": "Death Peak uses the same whole-source horizontal knockout adaptation with genuine closed eyes. A true collapsed body drawing is absent."
+       },
+       "2": {
+         "kind": "fallback",
+-        "reason": "Whole genuine front standing poses rotated onto their side provide a provisional horizontal knockout. The V.Smile sheet has no true fallen/unconscious drawing; dedicated knockout acting remains missing."
++        "reason": "Genuine closed-eye front pose61 rotated horizontally. This improves unconscious expression while retaining an explicit body-acting gap; no true fallen drawing exists in the chosen sheet."
+       },
+       "3": {
+         "kind": "fallback",
+-        "reason": "Mirrored whole-source horizontal knockout adaptation. True fallen/unconscious source acting is absent."
++        "reason": "Native70 uses the mirrored horizontal closed-eye pose; native219 is a vertical head-first fall and uses the same closed-eye source rotated180degrees. True fallen body acting is still absent."
+       }
+     },
+     "kneel": {
+@@ -2088,20 +2107,6 @@
+         "reason": "Genuine source head/body turns supply the small look-around gesture."
+       }
+     },
+-    "bow": {
+-      "1": {
+-        "kind": "fallback",
+-        "reason": "Closest genuine forward crouches are provisional; true bow acting is not present."
+-      },
+-      "2": {
+-        "kind": "fallback",
+-        "reason": "Closest genuine crouch is provisional; a true head-and-torso bow performance is missing."
+-      },
+-      "3": {
+-        "kind": "fallback",
+-        "reason": "Closest genuine crouch is provisional; a true head-and-torso bow performance is missing."
+-      }
+-    },
+     "arms-folded": {
+       "0": {
+         "kind": "fallback",
+@@ -2173,7 +2178,7 @@
+       },
+       "1": {
+         "kind": "fallback",
+-        "reason": "Whole frontal airborne source pose turned sideways is provisional; true diving source acting is absent."
++        "reason": "Native195 is a vertical head-first descending attack. The complete V.Smile frontal airborne source71 is rotated180degrees to match that orientation; a dedicated dive drawing is absent."
+       }
+     },
+     "lunge": {
+@@ -2251,11 +2256,32 @@
+         "kind": "fallback",
+         "reason": "Closest genuine near-body arm gestures are provisional. The source contains no cup or sipping performance."
+       }
++    },
++    "close-eyes": {
++      "1": {
++        "kind": "adapted",
++        "reason": "Native159/160 are face-only eye-closing states, not torso bows. Genuine V.Smile frontal open/closed-eye pair56/61 preserves the standing body; the original half-lidded intermediate is approximated by the open state."
++      },
++      "2": {
++        "kind": "adapted",
++        "reason": "Native161/162 alter only eye pixels. Complete-source mirrors of genuine V.Smile profile open/closed-eye pair3/8 preserve the standing body; the half-lidded intermediate is approximated by the open state."
++      },
++      "3": {
++        "kind": "adapted",
++        "reason": "Native163/164 alter only eye pixels. Genuine V.Smile profile open/closed-eye pair3/8 preserves the standing body; the half-lidded intermediate is approximated by the open state."
++      }
++    },
++    "wink": {
++      "1": {
++        "kind": "fallback",
++        "reason": "Native234 is a one-eye wink. The V.Smile sheet has a genuine both-eyes-closed expression61 but no confirmed one-eye wink; this remains an explicit expression substitution."
++      }
+     }
+   },
+   "notes": [
+     "Coherent V.Smile506339-only body artwork; no GBA/mobile character pixels are mixed in.",
+     "Original 12-color hardware palette, native32×32cells, frame IDs and animation clocks retained.",
+-    "Whole-source quarter-turns only adapt missing fall/tumble silhouettes; dedicated knockout/dive/seated/drinking acting remains explicitly incomplete."
++    "Whole-source quarter-turns only adapt missing fall/tumble silhouettes; dedicated knockout/dive/seated/drinking acting remains explicitly incomplete.",
++    "Inactive acting correction:159–164 are eye-closing states,234 is a wink;195/219 are vertical head-first poses. Native frame IDs, animation programs and timings are unchanged. Horizontal unconscious poses now use the genuine closed-eye source."
+   ]
+ }
+--- a/assets/raster/shrek/import-spec.vsmile-full-draft.json
++++ b/assets/raster/shrek/import-spec.vsmile-full-draft.json
+@@ -1,6 +1,6 @@
+ {
+   "key": "shrek",
+-  "directory": "assets/raster/shrek/vsmile-full-preview",
++  "directory": "assets/raster/shrek",
+   "sourceType": "reused-game-sheet",
+   "palette": [
+     "20221a",
+@@ -1097,6 +1097,19 @@
+           "scale": 1,
+           "scaleX": 1.2
+         }
++      }
++    },
++    {
++      "file": "assets/raster/shrek/acting-review/vertical-source-transforms.png",
++      "columns": 2,
++      "rows": 1,
++      "nativeHeight": 28.524590163934427,
++      "scaleCells": [
++        0
++      ],
++      "sample": {
++        "method": "area",
++        "scaleX": 1.2
+       }
+     }
+   ],
+@@ -1286,22 +1299,19 @@
+     },
+     "down": {
+       "1": [
+-        168,
++        169,
+         169
+       ],
+       "2": [
+-        168,
++        169,
+         169
+       ],
+       "3": [
+         {
+-          "frame": 168,
+-          "flip": true
+-        },
+-        {
+           "frame": 169,
+           "flip": true
+-        }
++        },
++        174
+       ]
+     },
+     "kneel": {
+@@ -1538,22 +1548,6 @@
+         9
+       ]
+     },
+-    "bow": {
+-      "1": [
+-        73,
+-        126,
+-        73
+-      ],
+-      "2": [
+-        {
+-          "frame": 19,
+-          "flip": true
+-        }
+-      ],
+-      "3": [
+-        19
+-      ]
+-    },
+     "arms-folded": {
+       "0": [
+         26
+@@ -1668,7 +1662,7 @@
+         35
+       ],
+       "1": [
+-        173
++        175
+       ]
+     },
+     "lunge": {
+@@ -1788,7 +1782,32 @@
+       "1": [
+         161,
+         167
++      ]
++    },
++    "close-eyes": {
++      "1": [
++        56,
++        61
++      ],
++      "2": [
++        {
++          "frame": 3,
++          "flip": true
++        },
++        {
++          "frame": 8,
++          "flip": true
++        }
++      ],
++      "3": [
++        3,
++        8
+       ]
++    },
++    "wink": {
++      "1": [
++        61
++      ]
+     }
+   },
+   "semanticRoles": {
+@@ -1885,15 +1904,15 @@
+     "down": {
+       "1": {
+         "kind": "fallback",
+-        "reason": "The frozen Death Peak NPC uses the same provisional whole-source horizontal knockout adaptation; no separate frontal down pose exists."
++        "reason": "Death Peak uses the same whole-source horizontal knockout adaptation with genuine closed eyes. A true collapsed body drawing is absent."
+       },
+       "2": {
+         "kind": "fallback",
+-        "reason": "Whole genuine front standing poses rotated onto their side provide a provisional horizontal knockout. The V.Smile sheet has no true fallen/unconscious drawing; dedicated knockout acting remains missing."
++        "reason": "Genuine closed-eye front pose61 rotated horizontally. This improves unconscious expression while retaining an explicit body-acting gap; no true fallen drawing exists in the chosen sheet."
+       },
+       "3": {
+         "kind": "fallback",
+-        "reason": "Mirrored whole-source horizontal knockout adaptation. True fallen/unconscious source acting is absent."
++        "reason": "Native70 uses the mirrored horizontal closed-eye pose; native219 is a vertical head-first fall and uses the same closed-eye source rotated180degrees. True fallen body acting is still absent."
+       }
+     },
+     "kneel": {
+@@ -2086,20 +2105,6 @@
+       "3": {
+         "kind": "adapted",
+         "reason": "Genuine source head/body turns supply the small look-around gesture."
+-      }
+-    },
+-    "bow": {
+-      "1": {
+-        "kind": "fallback",
+-        "reason": "Closest genuine forward crouches are provisional; true bow acting is not present."
+-      },
+-      "2": {
+-        "kind": "fallback",
+-        "reason": "Closest genuine crouch is provisional; a true head-and-torso bow performance is missing."
+-      },
+-      "3": {
+-        "kind": "fallback",
+-        "reason": "Closest genuine crouch is provisional; a true head-and-torso bow performance is missing."
+       }
+     },
+     "arms-folded": {
+@@ -2173,7 +2178,7 @@
+       },
+       "1": {
+         "kind": "fallback",
+-        "reason": "Whole frontal airborne source pose turned sideways is provisional; true diving source acting is absent."
++        "reason": "Native195 is a vertical head-first descending attack. The complete V.Smile frontal airborne source71 is rotated180degrees to match that orientation; a dedicated dive drawing is absent."
+       }
+     },
+     "lunge": {
+@@ -2251,11 +2256,32 @@
+         "kind": "fallback",
+         "reason": "Closest genuine near-body arm gestures are provisional. The source contains no cup or sipping performance."
+       }
++    },
++    "close-eyes": {
++      "1": {
++        "kind": "adapted",
++        "reason": "Native159/160 are face-only eye-closing states, not torso bows. Genuine V.Smile frontal open/closed-eye pair56/61 preserves the standing body; the original half-lidded intermediate is approximated by the open state."
++      },
++      "2": {
++        "kind": "adapted",
++        "reason": "Native161/162 alter only eye pixels. Complete-source mirrors of genuine V.Smile profile open/closed-eye pair3/8 preserve the standing body; the half-lidded intermediate is approximated by the open state."
++      },
++      "3": {
++        "kind": "adapted",
++        "reason": "Native163/164 alter only eye pixels. Genuine V.Smile profile open/closed-eye pair3/8 preserves the standing body; the half-lidded intermediate is approximated by the open state."
++      }
++    },
++    "wink": {
++      "1": {
++        "kind": "fallback",
++        "reason": "Native234 is a one-eye wink. The V.Smile sheet has a genuine both-eyes-closed expression61 but no confirmed one-eye wink; this remains an explicit expression substitution."
++      }
+     }
+   },
+   "notes": [
+     "Coherent V.Smile506339-only body artwork; no GBA/mobile character pixels are mixed in.",
+     "Original 12-color hardware palette, native32×32cells, frame IDs and animation clocks retained.",
+-    "Whole-source quarter-turns only adapt missing fall/tumble silhouettes; dedicated knockout/dive/seated/drinking acting remains explicitly incomplete."
++    "Whole-source quarter-turns only adapt missing fall/tumble silhouettes; dedicated knockout/dive/seated/drinking acting remains explicitly incomplete.",
++    "Inactive acting correction:159–164 are eye-closing states,234 is a wink;195/219 are vertical head-first poses. Native frame IDs, animation programs and timings are unchanged. Horizontal unconscious poses now use the genuine closed-eye source."
+   ]
+ }

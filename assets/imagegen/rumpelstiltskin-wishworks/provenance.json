@@ -1,0 +1,110 @@
+{
+  "status": "Frozen inactive source candidate",
+  "decision": {
+    "date": "2026-11-01",
+    "approvedBy": "root",
+    "counterparts": {
+      "dalton": "Rumpelstiltskin",
+      "summonedGolems": "Enchanted wishworks constructs"
+    },
+    "scope": "Implementation design decision under the full-cast request; gameplay and active files unchanged"
+  },
+  "nativeAudit": "assets/imagegen/rumpelstiltskin-wishworks/native-audit.json",
+  "references": [
+    {
+      "url": "https://www.dreamworks.com/movies/shrek-forever-after",
+      "purpose": "Official film/character identity"
+    },
+    {
+      "url": "https://tv.dreamworks.com/printables/Shrek/craft/rumplestiltskin_art.pdf",
+      "file": "assets/imagegen/rumpelstiltskin-wishworks/references/official-rumpelstiltskin.pdf",
+      "sha256": "592c16edf832b79a33a2c968b3655f91e72ae046d4c41e1cc3ed608877f02b96",
+      "derivedImage": "assets/imagegen/rumpelstiltskin-wishworks/references/official-rumpelstiltskin.png",
+      "derivation": "First PDF page rendered at1.8× using PyMuPDF; unedited identity/clothing reference only",
+      "copyright": "Shrek Forever After ©2010 DreamWorks Animation LLC; page also credits Hewlett-Packard. Reference only, no license transfer asserted."
+    }
+  ],
+  "generations": [
+    {
+      "file": "assets/imagegen/rumpelstiltskin-wishworks/rumpel-base-source-v1.png",
+      "sha256": "c6d3ece7701bd1c3d0e3b4fcbd22f6c0a71833d2e042f800c87a8a13907c1ad4",
+      "prompt": "assets/imagegen/rumpelstiltskin-wishworks/prompt-rumpel-base-v1.txt",
+      "tool": "built-in image_gen",
+      "transparentBackground": true,
+      "reference": "assets/imagegen/rumpelstiltskin-wishworks/references/official-rumpelstiltskin.png",
+      "sourceType": "image-generation",
+      "notes": "Twelve generated figures; final native mapping consumes source cells 0,1,2,3,4,6,7 only. Cell 8 faces right and is unused; front contact B uses a documented whole-source mirror of cell 3. Corrected profile B uses the separate v3 source.",
+      "promptSha256": "ed93351323e6eb84f96a0cb4ec344917bc59ad2fdb62a1998950f4ff2daef4b1",
+      "referenceSha256": "5b9293e1533b7e145dcafb46d98e1867f70caed24d96c2331f01f6bf0b90c2db"
+    },
+    {
+      "file": "assets/imagegen/rumpelstiltskin-wishworks/rumpel-actions-source-v1.png",
+      "sha256": "cd63e88b39dfa9d478ac97dc4730b2f43edf59f0479b0688d3dfa8ac00ecc8d3",
+      "prompt": "assets/imagegen/rumpelstiltskin-wishworks/prompt-rumpel-actions-v1.txt",
+      "tool": "built-in image_gen",
+      "transparentBackground": true,
+      "reference": "assets/imagegen/rumpelstiltskin-wishworks/rumpel-base-source-v1.png",
+      "sourceType": "image-generation",
+      "promptSha256": "412cb02cfd233ac4cc6ed849bc54012e623bc067ecc00e00ddb6c487b3c4aeb2",
+      "referenceSha256": "c6d3ece7701bd1c3d0e3b4fcbd22f6c0a71833d2e042f800c87a8a13907c1ad4"
+    },
+    {
+      "file": "assets/imagegen/rumpelstiltskin-wishworks/golems-source-v1.png",
+      "sha256": "3241b0c0befe5f8789447a81c351727dff72b3dfb05e1d32c2b554b593469936",
+      "prompt": "assets/imagegen/rumpelstiltskin-wishworks/prompt-golems-v1.txt",
+      "tool": "built-in image_gen",
+      "transparentBackground": true,
+      "reference": null,
+      "sourceType": "image-generation",
+      "promptSha256": "354eab127186f9aefba919a9a08deccaf182f403fdfb2e4f9b8c35fa2646c428",
+      "notes": "Eight generated figures; cell 3 is superseded by the separate narrow-spark source v2. All remaining seven figures are consumed."
+    },
+    {
+      "file": "assets/imagegen/rumpelstiltskin-wishworks/golem-reaction-source-v2.png",
+      "sha256": "08ad50d9c40742bfe9bd0e96700ab983a8256530a46e5972bc3dc80bb868c632",
+      "prompt": "assets/imagegen/rumpelstiltskin-wishworks/prompt-golem-reaction-v2.txt",
+      "tool": "built-in image_gen",
+      "transparentBackground": true,
+      "reference": "assets/imagegen/rumpelstiltskin-wishworks/golems-source-v1.png",
+      "sourceType": "image-generation",
+      "promptSha256": "b9696a249dbd07b5a2dd36918c0bee5fe9aa6d2ff4ec21803f5b7180023ca5c6",
+      "referenceSha256": "3241b0c0befe5f8789447a81c351727dff72b3dfb05e1d32c2b554b593469936"
+    },
+    {
+      "file": "assets/imagegen/rumpelstiltskin-wishworks/rumpel-contact-b-source-v3.png",
+      "sha256": "2ae36bf9899eea5e25aefa157a8592859c7b8256e06835dc907d473b43923dc7",
+      "prompt": "assets/imagegen/rumpelstiltskin-wishworks/prompt-rumpel-contact-b-v3.txt",
+      "tool": "built-in image_gen",
+      "transparentBackground": true,
+      "reference": "assets/imagegen/rumpelstiltskin-wishworks/references/rumpel-left-contact-A.png",
+      "sourceType": "image-generation",
+      "promptSha256": "a330c8b0359d37ed2bdde0dd7c8becfa19423ee9ff9ea94f75a6983c5c1b38c0",
+      "referenceSha256": "dfc004f008adb89d4d019e868542055766e4fb38d65f7ef3fcb0b70621703139"
+    }
+  ],
+  "rootDesignConsolidation": "Root reported recording the casting choice in docs/decisions.md and docs/game-design.md on 2026-11-01; no active files edited by this worker.",
+  "unusedSources": [
+    {
+      "file": "assets/imagegen/rumpelstiltskin-wishworks/rumpel-gait-source-v2-unused.png",
+      "sha256": "6527603b9caf151768b52c360eb75e5f61084e289fd5f9c3ee576ac6ce549b73",
+      "prompt": "assets/imagegen/rumpelstiltskin-wishworks/prompt-rumpel-gait-v2.txt",
+      "reason": "Both requested opposite profiles repeated the same near-side contact. Rejected on visual quality, not consumed by any native slot.",
+      "reproducibilityRequired": false,
+      "scope": "Archived quality iteration only; excluded from minimal selected-source whitelist."
+    }
+  ],
+  "sourceAccounting": {
+    "selectedSourcePngs": 5,
+    "generatedFiguresInSelectedSources": 38,
+    "uniqueSourceFiguresConsumed": 32,
+    "nativeUniqueSlots": 36,
+    "ownerSlots": 72,
+    "unusedQualityIterationPngs": 1
+  },
+  "approvals": {
+    "root": "Final gait contact page approved after the separate source correction; earlier static approval did not waive the correction.",
+    "lead": "Final front/rear and profile opposed contacts approved; original-program execution remains separate.",
+    "leadScenes": "Viewed and approved all four final authored scene captures; Rumpel reads against throne/Dragon backgrounds and both golem palettes remain clear. Static appearance approval is separate from execution/timing proof.",
+    "rootScenes": "Root viewed final Golem twins and Dragon deck captures, approved their native composition, and reaffirmed the corrected gait for this inactive packet."
+  }
+}

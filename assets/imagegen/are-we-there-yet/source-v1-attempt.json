@@ -1,0 +1,21 @@
+{
+  "status": "no usable output",
+  "httpStatus": 400,
+  "errorCode": "moderation_blocked",
+  "errorType": "image_generation_user_error",
+  "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID req_69c6f977dfce420d9aada9760797518d.",
+  "requestId": "req_69c6f977dfce420d9aada9760797518d",
+  "endpoint": "https://api.openai.com/v1/images/generations",
+  "parameters": {
+    "model": "gpt-image-2.6-sunburst",
+    "size": "1024x1024",
+    "quality": "high",
+    "output_format": "png",
+    "n": 1
+  },
+  "prompt": {
+    "file": "assets/imagegen/are-we-there-yet/prompt-v1.txt",
+    "sha256": "8f1fddaa5b54a028dffb05ed22158584d347e707d412caf0642655f8d8ddf137"
+  },
+  "referenceImages": []
+}

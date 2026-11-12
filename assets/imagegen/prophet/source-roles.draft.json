@@ -1,0 +1,453 @@
+{
+  "status": "Lead visual review approved; root approved15-distinct-slot proposal; inactive pending capacity/integration work",
+  "importSpecSha256": "641028f20fa2436e1d056c7dacca7127b622d899aabc296ba7bd0e7355628d44",
+  "coverage": {
+    "nativeSlots": 15,
+    "generatedSlots": 15,
+    "proceduralSlots": 0,
+    "missing": []
+  },
+  "roles": [
+    {
+      "id": 0,
+      "facing": 0,
+      "pose": "idle",
+      "phase": 0,
+      "direction": "back",
+      "sourceIndex": 1,
+      "sourceCell": 1,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceBounds": [
+        385,
+        42,
+        196,
+        264
+      ],
+      "nativePixelHash": "6b5b7c7f3f49eebb45059661778c025a1377c61157205277cfbcab1d0331984c",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Rear idle: broad closed hood, no visible face or throat clasp; connected cloak folds and two dark boots."
+      }
+    },
+    {
+      "id": 1,
+      "facing": 1,
+      "pose": "idle",
+      "phase": 0,
+      "direction": "front",
+      "sourceIndex": 0,
+      "sourceCell": 0,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceBounds": [
+        69,
+        42,
+        185,
+        265
+      ],
+      "nativePixelHash": "f1b875f7558bde38701d53337446d63be073bf13b85327ad9495009a5daafe38",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Front idle: both brows/eyes and squared adult jaw remain legible; gold clasp separates face from red tunic."
+      }
+    },
+    {
+      "id": 2,
+      "facing": 2,
+      "pose": "idle",
+      "phase": 0,
+      "direction": "left",
+      "sourceIndex": 2,
+      "sourceCell": 2,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceBounds": [
+        704,
+        43,
+        171,
+        263
+      ],
+      "nativePixelHash": "d6f6ca42ef16efc9e790d3fbe4612f1002388a682aaf4794e99a94c2178af46d",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Left idle: prominent nose points left; face remains inside hood opening; entire cloak/boots fit the cell."
+      }
+    },
+    {
+      "id": 3,
+      "facing": 3,
+      "pose": "idle",
+      "phase": 0,
+      "direction": "right",
+      "sourceIndex": 3,
+      "sourceCell": 3,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceBounds": [
+        1008,
+        43,
+        171,
+        263
+      ],
+      "nativePixelHash": "ea0b87791b836f2999982bbed9725bfe2de09bcca963e6abba8842269006f700",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Right idle: distinct generated right profile, nose points right; no mirroring used."
+      }
+    },
+    {
+      "id": 4,
+      "facing": 0,
+      "pose": "walk",
+      "phase": 0,
+      "direction": "back",
+      "sourceIndex": 7,
+      "sourceCell": 7,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceBounds": [
+        1005,
+        343,
+        190,
+        271
+      ],
+      "nativePixelHash": "10f01927f811b7e1063aeadb040599f173ff0d44f2fe2323b9eea8bfde46dba1",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Rear contact A: central visible boot and asymmetrical hem distinguish it from rear idle."
+      }
+    },
+    {
+      "id": 5,
+      "facing": 0,
+      "pose": "walk",
+      "phase": 2,
+      "direction": "back",
+      "sourceIndex": 17,
+      "sourceCell": 1,
+      "sourceFile": "assets/imagegen/prophet/source-v2-corrections.png",
+      "sourceBounds": [
+        717,
+        69,
+        396,
+        524
+      ],
+      "nativePixelHash": "d093bf8197655d5f1b2ed000df6ca0465c9b3ca5fe928552063f729f05476d31",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Rear contact B: generated correction has left planted boot and raised opposite boot, with tilted hem."
+      }
+    },
+    {
+      "id": 6,
+      "facing": 0,
+      "pose": "walk",
+      "phase": 0,
+      "direction": "back",
+      "sourceIndex": 7,
+      "sourceCell": 7,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceBounds": [
+        1005,
+        343,
+        190,
+        271
+      ],
+      "nativePixelHash": "10f01927f811b7e1063aeadb040599f173ff0d44f2fe2323b9eea8bfde46dba1",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Current-map limitation documented",
+        "observations": "Exact repeat of slot4 under the current mapper; recorded as a logical duplicate, not a new source phase."
+      }
+    },
+    {
+      "id": 7,
+      "facing": 1,
+      "pose": "walk",
+      "phase": 0,
+      "direction": "front",
+      "sourceIndex": 4,
+      "sourceCell": 4,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceBounds": [
+        71,
+        343,
+        181,
+        271
+      ],
+      "nativePixelHash": "5096b1fd718028176fa5fbeb96c5e6f5361acf82ee5026c4dba0f3527d092983",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Front contact A: screen-left boot projects below the hem; compact bent arms keep adult body scale."
+      }
+    },
+    {
+      "id": 8,
+      "facing": 1,
+      "pose": "walk",
+      "phase": 1,
+      "direction": "front",
+      "sourceIndex": 20,
+      "sourceCell": 0,
+      "sourceFile": "assets/imagegen/prophet/source-v3-front-passing.png",
+      "sourceBounds": [
+        315,
+        81,
+        470,
+        728
+      ],
+      "nativePixelHash": "8a8ea443378fe8731e308e3582eacef81a890efd336fe61b7048bafff55c0c58",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Front passing: new focused source has close vertical boots, one heel raised; compact silhouette between the contacts."
+      }
+    },
+    {
+      "id": 9,
+      "facing": 1,
+      "pose": "walk",
+      "phase": 2,
+      "direction": "front",
+      "sourceIndex": 6,
+      "sourceCell": 6,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceBounds": [
+        691,
+        343,
+        183,
+        271
+      ],
+      "nativePixelHash": "b568f3f0b358d6bf8de6ef0a321504bff1e18616fbede635cb6146a57eed7b9b",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Front contact B: screen-right boot projects below the hem; source is separate from contact A."
+      }
+    },
+    {
+      "id": 10,
+      "facing": 1,
+      "pose": "walk",
+      "phase": 0,
+      "direction": "front",
+      "sourceIndex": 4,
+      "sourceCell": 4,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceBounds": [
+        71,
+        343,
+        181,
+        271
+      ],
+      "nativePixelHash": "5096b1fd718028176fa5fbeb96c5e6f5361acf82ee5026c4dba0f3527d092983",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Current-map limitation documented",
+        "observations": "Exact repeat of slot7 under the current mapper; recorded as a logical duplicate, not a new source phase."
+      }
+    },
+    {
+      "id": 11,
+      "facing": 2,
+      "pose": "walk",
+      "phase": 0,
+      "direction": "left",
+      "sourceIndex": 12,
+      "sourceCell": 12,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceBounds": [
+        74,
+        942,
+        200,
+        263
+      ],
+      "nativePixelHash": "2330cec2af47c867fb9577187247ca44f156642fe498cd48a12e591e9075a6c7",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Left contact A: left-facing nose, hand forward near chest and leading boot; cloak trails right."
+      }
+    },
+    {
+      "id": 12,
+      "facing": 2,
+      "pose": "walk",
+      "phase": 2,
+      "direction": "left",
+      "sourceIndex": 18,
+      "sourceCell": 2,
+      "sourceFile": "assets/imagegen/prophet/source-v2-corrections.png",
+      "sourceBounds": [
+        184,
+        662,
+        383,
+        503
+      ],
+      "nativePixelHash": "287e8b9e4526bb16125951476dc714e910a37df62897b2fedeec0a06188ca126",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Left contact B: actual correction drawing swings near hand behind the waist to the right; rear hand and different foot contact survive native sampling."
+      }
+    },
+    {
+      "id": 13,
+      "facing": 3,
+      "pose": "walk",
+      "phase": 0,
+      "direction": "right",
+      "sourceIndex": 10,
+      "sourceCell": 10,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceBounds": [
+        666,
+        648,
+        199,
+        256
+      ],
+      "nativePixelHash": "89590942327abf555a26a697e6604508139b559b1588dbd23552dbaf6c350982",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Right contact A: right-facing nose, hand forward near chest and leading boot; cloak trails left."
+      }
+    },
+    {
+      "id": 14,
+      "facing": 3,
+      "pose": "walk",
+      "phase": 2,
+      "direction": "right",
+      "sourceIndex": 19,
+      "sourceCell": 3,
+      "sourceFile": "assets/imagegen/prophet/source-v2-corrections.png",
+      "sourceBounds": [
+        700,
+        662,
+        374,
+        503
+      ],
+      "nativePixelHash": "2db4c340e4d9b342f5a573b29122c12136a65cda9416fadeffb53964dcabce4f",
+      "visualReview": {
+        "scales": [
+          1,
+          3
+        ],
+        "result": "Source role visually retained",
+        "observations": "Right contact B: actual correction drawing swings near hand behind waist to the left; keeps true right profile and alternate cloth/boot gesture."
+      }
+    }
+  ],
+  "sourceUsage": [
+    {
+      "file": "assets/imagegen/prophet/source-v1.png",
+      "usedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        10,
+        12
+      ],
+      "unusedCells": [
+        5,
+        8,
+        9,
+        11,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "file": "assets/imagegen/prophet/source-v2-corrections.png",
+      "usedCells": [
+        1,
+        2,
+        3
+      ],
+      "unusedCells": [
+        0
+      ]
+    },
+    {
+      "file": "assets/imagegen/prophet/source-v3-front-passing.png",
+      "usedCells": [
+        0
+      ],
+      "unusedCells": [
+        1
+      ]
+    }
+  ],
+  "uniqueNativeImages": 13,
+  "repeatedLogicalSlots": [
+    [
+      4,
+      6
+    ],
+    [
+      7,
+      10
+    ]
+  ],
+  "separateMappingProposal": "mapping-proposal.draft.json",
+  "leadReview": {
+    "approved": true,
+    "scales": [
+      1,
+      3
+    ],
+    "approvedProposal": "Preserve all15 distinct native slots via explicit phase3 mapping for slots6/10",
+    "nativeUploaded": false
+  }
+}

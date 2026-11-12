@@ -1,0 +1,15 @@
+Use case: stylized-concept
+Asset type: production sprite source atlas for Shrek Trigger, a native SNES role-playing game.
+Primary request: Make original Chrono Trigger-style pixel sprites of Prince Charming from Shrek, faithfully recognizable from the supplied identity reference.
+Reference role: use the provided film render for face, swept blond hairstyle and blue/gold costume identity only. Render new poses and new original pixel artwork.
+Subject: a vain handsome adult prince with a long strong chin, arched brows, smug smile, thick shoulder-length swept golden-blond hair; blue/slate court tunic with restrained gold trim and a few large readable gold fleur-de-lis accents, striped blue sleeves, belt, pale blue leggings and dark tall boots. A small sheathed sword at the hip may remain compact, but no held sword: hands need to act through court gestures.
+Proportions: authentic compact SNES JRPG field character, approximately 2.5 heads tall, head about 10 logical pixels wide, readable hands, broad shoulders and tapered waist. Preserve his distinctive face and hair. Do not draw a long thin realistic figure or generic blond medieval villager.
+Style: logical 32x32 native cells, standing28 pixels high; top-left directional light, nuanced clustered pixel shading on hair and woven clothing, dark selective one-pixel contour. Large deliberate clusters and 12 opaque colors plus transparency. Crisp true pixel edges, no smooth gradients, no antialiasing, no noisy texture. Same proportions and lighting in every pose.
+Composition: exactly20 full-body separate figures in4columns by5rows, all completely contained with generous transparent gaps. No titles, labels, numbers, grid, extra figures, scenery, cast shadows, sparkles or other detached elements. True transparent alpha background.
+Exact row-major poses:
+Row1: FRONT idle facing viewer; REAR idle facing away; LEFT profile idle; RIGHT profile idle.
+Row2: FRONT walk contactA; FRONT walk contactB; REAR walk contactA; REAR walk contactB.
+Row3: LEFT walk contactA; LEFT walk contactB; RIGHT walk contactA; RIGHT walk contactB.
+Row4: FRONT beginning a shallow formal bow, hand across chest; FRONT deep formal bow, head and shoulders clearly lowered; RIGHT profile shallow bow, hand across chest; RIGHT profile deep bow, torso visibly bent forward.
+Row5: REAR raising one arm halfway; REAR both arms raised overhead in a theatrical gesture; FRONT shocked, eyebrows raised, mouth open and hands out; FRONT talking with a self-satisfied smile and one open palm.
+Constraints: Preserve the exact grid order, consistent character scale, native-friendly outlines, readable directional anatomy and clothing folds. Every silhouette must remain inside its cell including raised hands and bowed hair. No copied pixels, only the identity reference.

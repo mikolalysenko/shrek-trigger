@@ -1,0 +1,349 @@
+{
+  "key": "blind-mouse",
+  "frames": 20,
+  "width": 32,
+  "height": 32,
+  "opaqueColors": 12,
+  "palette": [
+    "292931",
+    "e7e7ef",
+    "ffe7ad",
+    "ff9c6b",
+    "633118",
+    "ff8c29",
+    "b54208",
+    "397b94",
+    "394263",
+    "7bad4a",
+    "525a29",
+    "73738c"
+  ],
+  "samplingPalette": [
+    "212121",
+    "e7e7e7",
+    "ffe7b5",
+    "ff9c6b",
+    "6b3010",
+    "ff8c29",
+    "9c4a18",
+    "10b0d0",
+    "394263",
+    "7bad4a",
+    "525a29",
+    "84848c"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/blind-mouse/source-base-v1.png",
+      "sha256": "e985140267eb29c518b06a6d56ea5bccb364ba01a7f1cc24b13c7b170d80ec5a",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "scale": 0.10087719298245613,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "coverageThreshold": 0.4
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            107,
+            81,
+            167,
+            226
+          ],
+          "componentPixels": 28856
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            480,
+            79,
+            182,
+            228
+          ],
+          "componentPixels": 29695
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            866,
+            79,
+            160,
+            228
+          ],
+          "componentPixels": 24284
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1203,
+            72,
+            275,
+            235
+          ],
+          "componentPixels": 35508
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            98,
+            405,
+            176,
+            231
+          ],
+          "componentPixels": 29384
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            480,
+            405,
+            177,
+            231
+          ],
+          "componentPixels": 29328
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            859,
+            404,
+            183,
+            232
+          ],
+          "componentPixels": 30572
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            1250,
+            404,
+            176,
+            232
+          ],
+          "componentPixels": 30481
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            100,
+            743,
+            176,
+            232
+          ],
+          "componentPixels": 24024
+        },
+        {
+          "cell": 9,
+          "bounds": [
+            486,
+            744,
+            164,
+            231
+          ],
+          "componentPixels": 22585
+        },
+        {
+          "cell": 10,
+          "bounds": [
+            846,
+            742,
+            193,
+            233
+          ],
+          "componentPixels": 32080
+        },
+        {
+          "cell": 11,
+          "bounds": [
+            1217,
+            731,
+            230,
+            244
+          ],
+          "componentPixels": 33138
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/blind-mouse/source-actions-v1.png",
+      "sha256": "8c357a28564f3097b4eb3dd8c1b5bc3dc533748fd7207e76e0666e91a0690ce0",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "scale": 0.08070175438596491,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "coverageThreshold": 0.4
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            107,
+            99,
+            188,
+            290
+          ],
+          "componentPixels": 30403
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            422,
+            153,
+            256,
+            236
+          ],
+          "componentPixels": 31459
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            836,
+            112,
+            228,
+            272
+          ],
+          "componentPixels": 35772
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1198,
+            112,
+            232,
+            272
+          ],
+          "componentPixels": 35523
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            89,
+            608,
+            214,
+            285
+          ],
+          "componentPixels": 33846
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            427,
+            607,
+            224,
+            286
+          ],
+          "componentPixels": 35601
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            828,
+            608,
+            205,
+            289
+          ],
+          "componentPixels": 35208
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            1210,
+            613,
+            215,
+            280
+          ],
+          "componentPixels": 41203
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        0
+      ],
+      "1": [
+        1
+      ],
+      "2": [
+        2
+      ]
+    },
+    "walk": {
+      "0": [
+        4,
+        0,
+        5,
+        0
+      ],
+      "1": [
+        6,
+        1,
+        7,
+        1
+      ],
+      "2": [
+        8,
+        9
+      ]
+    },
+    "surprise": {
+      "1": [
+        3
+      ]
+    },
+    "offer": {
+      "1": [
+        10
+      ]
+    },
+    "raise": {
+      "1": [
+        11
+      ]
+    },
+    "hammer": {
+      "2": [
+        12,
+        13
+      ]
+    },
+    "sip": {
+      "2": [
+        14,
+        15
+      ]
+    },
+    "drink": {
+      "2": [
+        16,
+        17
+      ]
+    },
+    "sit": {
+      "2": [
+        18
+      ]
+    },
+    "greet": {
+      "1": [
+        19
+      ]
+    }
+  }
+}

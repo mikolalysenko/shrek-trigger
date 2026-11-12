@@ -1,0 +1,331 @@
+{
+  "key": "crag-keeper",
+  "frames": 18,
+  "width": 64,
+  "height": 64,
+  "opaqueColors": 12,
+  "palette": [
+    "232b30",
+    "3d4852",
+    "63737d",
+    "93a5a5",
+    "c7d0b5",
+    "2c4338",
+    "4e7350",
+    "91ac67",
+    "3b3547",
+    "736883",
+    "d2aa57",
+    "f6e9b9"
+  ],
+  "samplingPalette": [
+    "232b30",
+    "3d4852",
+    "63737d",
+    "93a5a5",
+    "c7d0b5",
+    "2c4338",
+    "4e7350",
+    "91ac67",
+    "3b3547",
+    "736883",
+    "d2aa57",
+    "f6e9b9"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/crag-keeper/source-base-v2.png",
+      "sha256": "f87bc1bd38cd562e980b9498be5486a155794af06fce72f8e292a103792ec278",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "scale": 0.13836477987421383,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 63,
+        "scaleX": 0.85,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            124,
+            16,
+            373,
+            318
+          ],
+          "componentPixels": 76701
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            591,
+            40,
+            348,
+            287
+          ],
+          "componentPixels": 66394
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            1044,
+            16,
+            364,
+            321
+          ],
+          "componentPixels": 74805
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            114,
+            357,
+            343,
+            294
+          ],
+          "componentPixels": 67475
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            641,
+            357,
+            250,
+            290
+          ],
+          "componentPixels": 55476
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            1101,
+            363,
+            256,
+            289
+          ],
+          "componentPixels": 53805
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            126,
+            687,
+            296,
+            309
+          ],
+          "componentPixels": 63595
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            601,
+            687,
+            340,
+            313
+          ],
+          "componentPixels": 72350
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            1088,
+            697,
+            342,
+            303
+          ],
+          "componentPixels": 68430
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/crag-keeper/source-actions-v2.png",
+      "sha256": "fd62d19c0c623abe8b7df0920d35759d252fe3b97987ea053273616bff6567d6",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "scale": 0.14332247557003258,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 63,
+        "scaleX": 0.85,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {
+        "6": {
+          "scale": 0.97
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            158,
+            22,
+            326,
+            303
+          ],
+          "componentPixels": 67194
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            615,
+            23,
+            307,
+            301
+          ],
+          "componentPixels": 66408
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            1096,
+            19,
+            301,
+            307
+          ],
+          "componentPixels": 67240
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            145,
+            355,
+            302,
+            289
+          ],
+          "componentPixels": 64804
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            610,
+            336,
+            316,
+            308
+          ],
+          "componentPixels": 67538
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            1095,
+            345,
+            316,
+            303
+          ],
+          "componentPixels": 65445
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            141,
+            679,
+            321,
+            296
+          ],
+          "componentPixels": 66739
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            621,
+            659,
+            285,
+            316
+          ],
+          "componentPixels": 64725
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            1052,
+            704,
+            371,
+            277
+          ],
+          "componentPixels": 74606
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        {
+          "frame": 0,
+          "flip": true
+        },
+        2,
+        3,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        4,
+        5,
+        6,
+        {
+          "frame": 4,
+          "flip": true
+        },
+        {
+          "frame": 5,
+          "flip": true
+        },
+        {
+          "frame": 6,
+          "flip": true
+        },
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        {
+          "frame": 11,
+          "flip": true
+        },
+        {
+          "frame": 12,
+          "flip": true
+        },
+        13,
+        14,
+        15,
+        16,
+        {
+          "frame": 15,
+          "flip": true
+        },
+        {
+          "frame": 16,
+          "flip": true
+        },
+        17
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "All27 original nonblank slots consume18 viewed generated full-body poses. Exact original mirror pairs and the existing per-frame anchor offsets are retained; source13 correctly faces back and source26 remains a leaning collapse. No idle substitution."
+      }
+    }
+  }
+}

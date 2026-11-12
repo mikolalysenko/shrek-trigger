@@ -1,0 +1,515 @@
+{
+  "status": "Frozen inactive generated-art packet; root integration only",
+  "date": "2026-11-01",
+  "whitelistFiles": 101,
+  "hashedFiles": 99,
+  "totalHashedBytes": 12087046,
+  "whitelistSha256": "338df7085c67fa46085d61b910e2bc5d9395ff90dfa75064cc303c8da2d78aa9",
+  "privateRomSha256": "25848a5b60b210d9b599dc0f0847085f724a125dfd3549a04dfa9142bdd34df7",
+  "baselineRomSha256": "cb2983da9aeaa3516e34e6017a05c4a62a87cbbeead40640282272adfd4d71c5",
+  "sourceSheets": 5,
+  "usedSourceFigures": 34,
+  "nativeUniqueSlots": 53,
+  "ownerFrames": 114,
+  "nativeSchedulerTicks": 26880,
+  "exactPpuPixels": 41225,
+  "sceneTicks": 17717,
+  "activeChanges": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8916,
+      "sha256": "eaadf1008bbb29fb1e0fed0638c6e8e34c2bd118d0c2879e48800577ac8414f3"
+    },
+    {
+      "path": "audit-native.mjs",
+      "bytes": 10577,
+      "sha256": "c12f57b7b5fe08711ca9d93b3129f6113df3a7ce1b0eccc21aa0698a7ee4abba"
+    },
+    {
+      "path": "beetle-action-source-v1-prompt.txt",
+      "bytes": 2883,
+      "sha256": "c21c78a0f6ef9c0427061b1cf78242b215c260ddb8cc90b359ab8610b1addf08"
+    },
+    {
+      "path": "beetle-action-source-v1.png",
+      "bytes": 1923998,
+      "sha256": "281c6d7422a13ae16ccbf517486344ea7d5d81d852b19ffabb01155a6578ad43"
+    },
+    {
+      "path": "beetle-base-source-v1-prompt.txt",
+      "bytes": 2239,
+      "sha256": "9a5d8bea8bdcc7e2693a237268aaf52f584b1ebebdcf39e3ed045709526724e9"
+    },
+    {
+      "path": "beetle-base-source-v1.png",
+      "bytes": 1828181,
+      "sha256": "3c2b4566a9f66c2e7ed5c37639a52b6225fdc843590d945fa1ecfbb1242ff003"
+    },
+    {
+      "path": "beetle-draft/preview-import.json",
+      "bytes": 6099,
+      "sha256": "02d83f20fd28cde962d82c1ff7e3087de55b421ca1a70b067529f503ddfa327a"
+    },
+    {
+      "path": "beetle-draft/preview-raster.json",
+      "bytes": 179529,
+      "sha256": "3bbe789e5e2f21c0c2f0367fe84073af6168aa71e5f8ea79c7be26330104c5db"
+    },
+    {
+      "path": "beetle-import-spec.draft.json",
+      "bytes": 13995,
+      "sha256": "c8b5c9ae722bee2f43c0b554651561197db7771a0757afcc2a3884df2f3d199c"
+    },
+    {
+      "path": "beetle-native-composition.json",
+      "bytes": 6255,
+      "sha256": "103534950f01daebdb401bd88a2c50dcc8c1c70de2556503a7a02499c139c2a0"
+    },
+    {
+      "path": "beetle-native-shadows.json",
+      "bytes": 3234,
+      "sha256": "0481ae4875d815e97eaa0dbb36cd22df91acfd25f6a1e2c578f3f4083d0e5169"
+    },
+    {
+      "path": "build-review.mjs",
+      "bytes": 4994,
+      "sha256": "3ec087e52e9cafd516b4fa6026029c92c4a2708062c62a69df0a8be1fb3f1722"
+    },
+    {
+      "path": "compile-draft.mjs",
+      "bytes": 6565,
+      "sha256": "866543f371402b706c5b083b58c06d9cf14abc234f7cde5836831d20b614f7c9"
+    },
+    {
+      "path": "compiled/asm49.bin",
+      "bytes": 1160,
+      "sha256": "72921191ff791f7aec341317749ca75d3acb16862e728edb814cb386637868aa"
+    },
+    {
+      "path": "compiled/asm77.bin",
+      "bytes": 320,
+      "sha256": "b10efd6c0dad5546627e9681a530a92323983f05af646e3f07c76082b1fb9720"
+    },
+    {
+      "path": "compiled/asm78.bin",
+      "bytes": 320,
+      "sha256": "3ddf68d5295ddf1f408d6e1bdcdf7c69af348b5f95aeecbfe2d503a527443ce6"
+    },
+    {
+      "path": "compiled/asm79.bin",
+      "bytes": 320,
+      "sha256": "30e1afd975c32f4c185e521ccfca8b63c8d620bf458b6ba083907fd58decfbc7"
+    },
+    {
+      "path": "compiled/gfx112.4bpp",
+      "bytes": 7840,
+      "sha256": "2d6e5960732d5e1c333c13628ff6743e15b7a90a01ce222e469e140b4269a1c9"
+    },
+    {
+      "path": "compiled/gfx112.ct-lz",
+      "bytes": 5385,
+      "sha256": "3ec34aff0bef849214c4e898cf97c41df0ebb6165ca2dea1f9d716e9757b1bb9"
+    },
+    {
+      "path": "compiled/gfx92.4bpp",
+      "bytes": 6144,
+      "sha256": "2d1fd905773eb698469c7942b0a1784ab972c7d3f1d5b24d4b14ee17a3b62ddd"
+    },
+    {
+      "path": "compiled/gfx92.ct-lz",
+      "bytes": 3229,
+      "sha256": "bbb5529acfbf2d992cde8d93a2c37d2182c07d9b22fd72b4d6b7b4d76e9327f2"
+    },
+    {
+      "path": "compiled/palette107.bin",
+      "bytes": 24,
+      "sha256": "af4865ea24a0b9b3c1246200e5ca283d13029802cab5adf25aba2339c963f4ad"
+    },
+    {
+      "path": "compiled/palette108.bin",
+      "bytes": 24,
+      "sha256": "ae0d5b4e9b0bbd95a676d416b1235bc6e8143969b72ba58e78b2e49ff1926265"
+    },
+    {
+      "path": "compiled/palette109.bin",
+      "bytes": 24,
+      "sha256": "279f007e1bac9793dbed93cd8b6ac44340a3598ab7c33ac41c61900f04f12b7d"
+    },
+    {
+      "path": "compiled/palette110.bin",
+      "bytes": 24,
+      "sha256": "5ce855de5dcad6b9b0db446ab2e4e895ecc887092ec3f4d4b05ee797b42b0e76"
+    },
+    {
+      "path": "compiled/palette111.bin",
+      "bytes": 24,
+      "sha256": "219e71f526e44c72bc2bb75b94d269cf9fe97a04d4af4e1e405fb1162ce38f17"
+    },
+    {
+      "path": "compiled/palette41.bin",
+      "bytes": 24,
+      "sha256": "e112ef6f78fa5bab4fb973399d91dae4d5655b34a948331fdebcd781cff3ddc2"
+    },
+    {
+      "path": "compiled/verification.json",
+      "bytes": 7182,
+      "sha256": "85bc7fad58ca4e37c58a32cab238c85a97178fdcd1a2b68d5b567cbd7ff31ecf"
+    },
+    {
+      "path": "cracked-pot-draft/preview-import.json",
+      "bytes": 3092,
+      "sha256": "46282e7ab623f764fc229e231183a40cf1db675073f8612099b793d7ea73baea"
+    },
+    {
+      "path": "cracked-pot-draft/preview-raster.json",
+      "bytes": 37749,
+      "sha256": "517e2d3c556d22757bd02bef0fa88fc1c283c15b98fd08590ea5042f06afcc7a"
+    },
+    {
+      "path": "cracked-pot-import-spec.draft.json",
+      "bytes": 5181,
+      "sha256": "7de5d80978cedff077da73e66bc0342c8ceb77844dee6932e90ba416ab106ea0"
+    },
+    {
+      "path": "current-co-loads.json",
+      "bytes": 18138,
+      "sha256": "93e93641fe41a829cbce9b145fc901d393f7b63b0c59ffb5777cd8556b592ae5"
+    },
+    {
+      "path": "earlier-art-frames.json",
+      "bytes": 54488,
+      "sha256": "479e307f78ad5c0cc2a452b4662de83531e5097255e99461a9d0712a7b2cbd41"
+    },
+    {
+      "path": "ember-pot-draft/preview-import.json",
+      "bytes": 3093,
+      "sha256": "3993f9c239070c49ac8e969a7c732cb8f6f02557bafc83502c8b7c44424d40e4"
+    },
+    {
+      "path": "ember-pot-draft/preview-raster.json",
+      "bytes": 37751,
+      "sha256": "b869faf1de2020826bbcf62e655bffc66be7cd49e40f473b1ee3774d6a5ad184"
+    },
+    {
+      "path": "ember-pot-import-spec.draft.json",
+      "bytes": 5183,
+      "sha256": "c13930ca09f0614ded605a5ce5c13b88b57bcc54741d72a0bce2399ceb7c5bb9"
+    },
+    {
+      "path": "ember-pot-source-v1-prompt.txt",
+      "bytes": 1603,
+      "sha256": "639869f2771fe0a4ba7c935d5f28b8786beeb5609e97c633c8a1f3b210536871"
+    },
+    {
+      "path": "ember-pot-source-v1.png",
+      "bytes": 1804537,
+      "sha256": "3519abcf035d3a916c98a9ec6a5bc7b69e983791b52658b4eec5960b202c1417"
+    },
+    {
+      "path": "family.draft.json",
+      "bytes": 20728,
+      "sha256": "eed1050ee1226d71df88703347d270a9208708e3a4ebebf8208df1b3203d9d47"
+    },
+    {
+      "path": "integration-handoff.json",
+      "bytes": 27222,
+      "sha256": "91778acae81e82f79fe5f0b8fa0cd63c1e4b85848ddb3ea27d43fdbf5cc4a5b8"
+    },
+    {
+      "path": "motion-verification/manifest.json",
+      "bytes": 236014,
+      "sha256": "1eb0710a92e449c6873991e5eb742250806d63822effb021ed71744c643fec8d"
+    },
+    {
+      "path": "native-audit.json",
+      "bytes": 140963,
+      "sha256": "eb1779e69b8835a7bfd9e041800cf3a81482370525edd113341925ca4d6fa819"
+    },
+    {
+      "path": "native-roles.json",
+      "bytes": 20543,
+      "sha256": "78d32545438c46c9f64b76ad7296028d61eee087bcccc446028fa637934c29d0"
+    },
+    {
+      "path": "native-verification/briar-beetle-1.png",
+      "bytes": 56486,
+      "sha256": "029bb6e24e919bed9354aa4c45712f785cf7a8bbaea74e6d0b4eb2f9eb8a0d37"
+    },
+    {
+      "path": "native-verification/cracked-pot-1.png",
+      "bytes": 56339,
+      "sha256": "6b15c3143b2e26a651ebfee4ac260f31150f78c2702f1890f2409051f7f5deea"
+    },
+    {
+      "path": "native-verification/ember-pot-7.png",
+      "bytes": 56362,
+      "sha256": "8ddff56c43f0afda30e47e94cbb040d704f838f3d3db2ca79f8b81434355e8a9"
+    },
+    {
+      "path": "native-verification/manifest.json",
+      "bytes": 26442,
+      "sha256": "5320e511b74de88ff10a236170b5590211942799e4c32649fee6f51c9faf89ee"
+    },
+    {
+      "path": "native-verification/scrap-beetle-17.png",
+      "bytes": 56365,
+      "sha256": "94aacd1ad82f0b9286368a4c17ec469a3a65e70dc040e674a0a0841c6a26dfb9"
+    },
+    {
+      "path": "native-verification/scrap-beetle-21.png",
+      "bytes": 56515,
+      "sha256": "c67828d64143ea2733bff092318233bb4bad7cee23de86ba25354084f615eed6"
+    },
+    {
+      "path": "native-verification/spore-pot-3.png",
+      "bytes": 56410,
+      "sha256": "f2f67a994f1d016da6c8a5282bcfb5d308a22bfc650cea5f105cf59bf7c5b753"
+    },
+    {
+      "path": "plain-pot-source-v1-prompt.txt",
+      "bytes": 2674,
+      "sha256": "f4f72385d5cfd3af2bbe8fba84eb81336754e6a8e64e3aa102075ae939c67134"
+    },
+    {
+      "path": "plain-pot-source-v1.png",
+      "bytes": 1712055,
+      "sha256": "78356ff02916c537d9088a7004a9467423d1f1cd6d0bfa39c239e5e64e18e516"
+    },
+    {
+      "path": "prepare-draft.mjs",
+      "bytes": 11010,
+      "sha256": "45d577ce2c535d5da0c207058065962f2387b0527e29c7cf3d81ffd19b096c47"
+    },
+    {
+      "path": "private-overlay.mjs",
+      "bytes": 2532,
+      "sha256": "3d011f8880c334d5c6bcf5fa8e85fb6e4d50a2a6031a767c9628a4b141c4d985"
+    },
+    {
+      "path": "review/beetle-original-4x.png",
+      "bytes": 47094,
+      "sha256": "54435cb7d7880812b718890dbff0b31e52424f5069e70dc3b73780dfaac4079e"
+    },
+    {
+      "path": "review/briar-beetle-native-4x.png",
+      "bytes": 31256,
+      "sha256": "91c8d9e1dfd4edd6a674e6aa3b302de552613fbd29bdaf850a9a22fba59444e3"
+    },
+    {
+      "path": "review/browser-check.json",
+      "bytes": 291,
+      "sha256": "6a6c9c6771e76d47f5e91631912bb3edd12ff0a1170ade454745c9c5910c9541"
+    },
+    {
+      "path": "review/clay-pot-native-4x.png",
+      "bytes": 11692,
+      "sha256": "2ec631de044d274b47ed7aa5d5b83effe55290181af4f5e917d9f410beccfa8f"
+    },
+    {
+      "path": "review/contact-sheet-1x.html",
+      "bytes": 128895,
+      "sha256": "339f8b7a5db53f5a22d12e97be9751b31e5d9b524a075edb388138edddefe12c"
+    },
+    {
+      "path": "review/contact-sheet-1x.png",
+      "bytes": 247983,
+      "sha256": "b7248dd92f03a44960a2bb87f7e6148fe005407bad3104c752c7319f36b7c948"
+    },
+    {
+      "path": "review/cracked-pot-native-4x.png",
+      "bytes": 11701,
+      "sha256": "966d516141efe1a11ea9c9ffefe6a011c742abf71cf12a4074080be36299d3d4"
+    },
+    {
+      "path": "review/cracked-pot-original-4x.png",
+      "bytes": 13726,
+      "sha256": "04ce7cadc33a024bd40fcb4e98653f28ab489d86bb32f2705e704759ccb02785"
+    },
+    {
+      "path": "review/ember-pot-native-4x.png",
+      "bytes": 13170,
+      "sha256": "bb287838f0ff4647ba79fa4b7a9ee9aaee13010f6c1790c078d6a85ac5e84052"
+    },
+    {
+      "path": "review/ember-pot-original-4x.png",
+      "bytes": 13939,
+      "sha256": "ff5cf2b2bf785bf33fefcc73fbff13e126fd09d86c94f332002d8b39c958a8ff"
+    },
+    {
+      "path": "review/moss-urn-native-4x.png",
+      "bytes": 11870,
+      "sha256": "aeb0a0f0b7169c21f2b7193fd984385ec329c09fcad6e81ff28caceca434fade"
+    },
+    {
+      "path": "review/motion-review.html",
+      "bytes": 152325,
+      "sha256": "a684c2072ab4fe9e899e18fcc124bbfb0409701163ecf786b35024d3ff97c18e"
+    },
+    {
+      "path": "review/scrap-beetle-native-4x.png",
+      "bytes": 30746,
+      "sha256": "84c8bf5493c31d4a6b04803ca652a4c49c8bc7c9a4f781bda2d7a1e80889f32f"
+    },
+    {
+      "path": "review/spell-pot-native-4x.png",
+      "bytes": 13384,
+      "sha256": "2b43269054583718285a3f3c73e64c4f1fc766c1ba67b0e209c4e4d411f1bcd1"
+    },
+    {
+      "path": "review/spore-pot-native-4x.png",
+      "bytes": 12851,
+      "sha256": "a07bb4bb8c28e4e3be61eb3cdecc3e7e570e9dfd5c1c841a882448820bb33e4f"
+    },
+    {
+      "path": "review/spore-pot-original-4x.png",
+      "bytes": 14566,
+      "sha256": "5b2a0bfff151f281891890d51910796173d0cb9929b41f070fc82eed0704ef02"
+    },
+    {
+      "path": "review/thorn-spore-native-4x.png",
+      "bytes": 12819,
+      "sha256": "b522dc0d8412fda760a437e3ff86f17f9132f8332398ec3602f5ad6b57215e59"
+    },
+    {
+      "path": "scene-verification/arris-original-battle.png",
+      "bytes": 88951,
+      "sha256": "ccdc098ca30fe6c3fc66bdfb30ee2509e66bbdafe53900be281c560896207516"
+    },
+    {
+      "path": "scene-verification/arris.json",
+      "bytes": 5025,
+      "sha256": "3d4c8cf468077230b7b4aed42ac01ba833a4953ffe5cec0397952a3ebbbdfa09"
+    },
+    {
+      "path": "scene-verification/conveyor-original-battle.png",
+      "bytes": 63441,
+      "sha256": "a5e033051a54bca6054da1db23424dc8cc69a83834f6bd4b653bd2a32843ffe3"
+    },
+    {
+      "path": "scene-verification/conveyor-patrol.png",
+      "bytes": 60338,
+      "sha256": "930b94b8cb73b59221398fa8d9c90da24571dbcc1a1ecec18b142211c88199d9"
+    },
+    {
+      "path": "scene-verification/conveyor.json",
+      "bytes": 4511,
+      "sha256": "f67091777fc046aee50e101d7c26bccd067ba42bd17664319a692ead03e1b093"
+    },
+    {
+      "path": "scene-verification/forest-beetles-original-battle.png",
+      "bytes": 115726,
+      "sha256": "7462bc3347e36e2a783268d7e37976bc12d3a25a2650f6ab4b3392b37bcb6abc"
+    },
+    {
+      "path": "scene-verification/forest-beetles.json",
+      "bytes": 5750,
+      "sha256": "51462e56fd960421640426704c5e0f3dd45f4e63082ae39340ec9adec9e18018"
+    },
+    {
+      "path": "scene-verification/forest-pots-entry.png",
+      "bytes": 126506,
+      "sha256": "7116880155b99a81a6d0739fa98bf345420025e57dc503c5c9b47c2d3063b39d"
+    },
+    {
+      "path": "scene-verification/forest-pots-original-battle.png",
+      "bytes": 115892,
+      "sha256": "90af0ed93266f4ea8e6b16fee443ba1232eb217ed453955a6201462eb0f9c5a5"
+    },
+    {
+      "path": "scene-verification/forest-pots.json",
+      "bytes": 6298,
+      "sha256": "9b611fff3094d1bb5c71a1cf16a6119c29eca6104f5f7f7beeb9c79d4f7a253b"
+    },
+    {
+      "path": "scene-verification/lab16-entry.png",
+      "bytes": 104210,
+      "sha256": "fd0247251ccf31551ef1d758095b0246338701a4f4dbd3a20cf7914535cc4a6b"
+    },
+    {
+      "path": "scene-verification/lab16-original-battle.png",
+      "bytes": 96383,
+      "sha256": "70d37516db46f4a4367572afd5ceda0ea958495e2b1f7a5747198078a8c9250c"
+    },
+    {
+      "path": "scene-verification/lab16.json",
+      "bytes": 5627,
+      "sha256": "ce8f0d85481d791ac1e3bdacdae2ff6cd92c0d1bba860c702beb231b1848d100"
+    },
+    {
+      "path": "scene-verification/manifest.json",
+      "bytes": 3055,
+      "sha256": "58cefc57d674ed4a6eafcebf15f0c4a956a42541db04d6fd6af15dc67961704c"
+    },
+    {
+      "path": "scene-verification/shared111-diagnostic-diagnostic-battle.png",
+      "bytes": 109821,
+      "sha256": "dbbbd30f9a739b0caf2bb287fee7ed32625dea07c811d8b02be66533673a581c"
+    },
+    {
+      "path": "scene-verification/shared111-diagnostic.json",
+      "bytes": 1734,
+      "sha256": "4895413ad06ee29f7fe956a2f051b77d8eeed48b7b9bb1537aebca5a412edb74"
+    },
+    {
+      "path": "source-families.json",
+      "bytes": 6621,
+      "sha256": "61e9faf289828503424542899f954cc54bd14841eb75b6fb81ce7177a79f9361"
+    },
+    {
+      "path": "source-provenance.json",
+      "bytes": 5624,
+      "sha256": "03edfbf4576b1b57a1ad2dde4022e166c52a45c05f34cfe3a3bd83fa76e863cc"
+    },
+    {
+      "path": "spore-pot-draft/preview-import.json",
+      "bytes": 3148,
+      "sha256": "66d2a99568f885fe4d5e310fa9a9ef66ba4d038b49824ec1b2632b7d75b9dd64"
+    },
+    {
+      "path": "spore-pot-draft/preview-raster.json",
+      "bytes": 37750,
+      "sha256": "f33da36fdbb1334355a46237278f85c1891db3280edba5067051a8b9c5634f53"
+    },
+    {
+      "path": "spore-pot-import-spec.draft.json",
+      "bytes": 5258,
+      "sha256": "e44e381ae988ee37b4abb941ffd2a716bd4b3cd948e88147602bd5662a547f4a"
+    },
+    {
+      "path": "spore-pot-source-v1-prompt.txt",
+      "bytes": 1816,
+      "sha256": "7d2ab21b15b7b14ac67414821bf1de16cd92d7bb66da931efbcbf5d7093ffe04"
+    },
+    {
+      "path": "spore-pot-source-v1.png",
+      "bytes": 1786451,
+      "sha256": "de30c99d46f4112eeefe3d993a12030dd1894c55db818796e436df80c7cb297b"
+    },
+    {
+      "path": "verify-frozen.mjs",
+      "bytes": 4035,
+      "sha256": "30e485f50b65b0d30d2b883cd47721b3a66e4a253d244ddd2e763743b4428e75"
+    },
+    {
+      "path": "verify-motion.mjs",
+      "bytes": 2815,
+      "sha256": "ff5733df1ea48aba23d282cde468d93de6c8fbcdb8eb792108f12b2e5efb8112"
+    },
+    {
+      "path": "verify-native.mjs",
+      "bytes": 3701,
+      "sha256": "dd7f035428fba80ee89b8e69805c44b0f2a7fdce7567fc7ed863fc160d00acd3"
+    },
+    {
+      "path": "verify-scenes.mjs",
+      "bytes": 8079,
+      "sha256": "8b0d634ec7067cc85c32be3f43539172cdbbb132d612eb5c1eacba60957cc1ff"
+    },
+    {
+      "path": "visual-review.json",
+      "bytes": 1188,
+      "sha256": "ff61b5e44063d5f2794d6c0da3c4cae6be8645a517044092b905ab953691d44b"
+    }
+  ]
+}

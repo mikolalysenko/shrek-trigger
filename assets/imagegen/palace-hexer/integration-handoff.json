@@ -1,0 +1,845 @@
+{
+  "status": "Frozen inactive candidate",
+  "activation": false,
+  "designDecision": "Explicitly approved Palace Hexer, an original Fairy Godmother court minion, replaces original Mage59 appearance. Root consolidates this implementation casting decision in design docs.",
+  "baseline": {
+    "path": "assets/imagegen/palace-hexer/private-baseline.sfc",
+    "sha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "scope": "Pinned published cartridge; read-only audit; private copy excluded from source handoff"
+  },
+  "privateRomSha256": "7969140b436eb39bcfced1aa46fae5fa12f46e32260a36388ad2ec1cea7c1f7a",
+  "graphics": {
+    "id": 90,
+    "rawBytes": 9440,
+    "compressedBytes": 6009,
+    "rawSha256": "8a77209c3b7167c962f2f202b251babdd709a82eb0ba655aaa2edfc63e0135cb",
+    "compressedSha256": "6442a627c7363d26b94b2b7db234b026f21ab9d3a51dcd5ad0116d73a4805b28",
+    "nativeTileCount": 295,
+    "streamingSelectedAndProved": true,
+    "streamingContract": "Existing size0 raw loader; complete 24-bit pointer, four native cells and <=32 KiB family bank",
+    "legacySourceAllocation": 5824,
+    "legacyExpandedHeapNotTested": true
+  },
+  "assembly": {
+    "id": 47,
+    "bytes": 1120,
+    "sha256": "44bebe7c0fb1f921f78fb05acaee73f50c79dc3fead380fb1b93c953e40e7f73",
+    "sizeClass": 0,
+    "frames": 28,
+    "cells": 4,
+    "canvas": [
+      64,
+      64
+    ],
+    "origin": [
+      32,
+      40
+    ],
+    "anchor": [
+      0,
+      24
+    ],
+    "originalSignedXYBytes": 224,
+    "originalSignedXYUnchanged": true,
+    "cellOverlapFrames": [
+      1,
+      4,
+      12,
+      13,
+      14,
+      15
+    ],
+    "overlappingOpaquePixels": 141,
+    "maxCellCoverage": 2
+  },
+  "owners": [
+    {
+      "field": 0,
+      "id": 90,
+      "pointer": 14024704,
+      "pointerAliases": [
+        90
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 59,
+          "header": [
+            90,
+            47,
+            39,
+            92,
+            0,
+            0,
+            240,
+            10,
+            16,
+            17
+          ],
+          "name": "Mage"
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "id": 47,
+      "pointer": 14491536,
+      "pointerAliases": [
+        47
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 59,
+          "header": [
+            90,
+            47,
+            39,
+            92,
+            0,
+            0,
+            240,
+            10,
+            16,
+            17
+          ],
+          "name": "Mage"
+        }
+      ]
+    },
+    {
+      "field": 2,
+      "id": 39,
+      "pointer": 936,
+      "pointerAliases": [
+        39
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 59,
+          "header": [
+            90,
+            47,
+            39,
+            92,
+            0,
+            0,
+            240,
+            10,
+            16,
+            17
+          ],
+          "name": "Mage"
+        }
+      ]
+    },
+    {
+      "field": 3,
+      "id": 92,
+      "pointer": 29936,
+      "pointerAliases": [
+        92
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 59,
+          "header": [
+            90,
+            47,
+            39,
+            92,
+            0,
+            0,
+            240,
+            10,
+            16,
+            17
+          ],
+          "name": "Mage"
+        }
+      ]
+    }
+  ],
+  "palette": {
+    "id": 39,
+    "offset": 2360232,
+    "bytes": [
+      165,
+      8,
+      255,
+      127,
+      95,
+      87,
+      26,
+      115,
+      15,
+      27,
+      248,
+      45,
+      167,
+      97,
+      146,
+      85,
+      15,
+      21,
+      204,
+      60,
+      133,
+      5,
+      231,
+      20
+    ],
+    "sha256": "bf9c2d97b47363dfb4b1ec4018c2d969c348668b8545eceaa59fc6f2376914df",
+    "colors": [
+      "292910",
+      "ffffff",
+      "ffd6ad",
+      "d6c6e7",
+      "7bc631",
+      "c67b5a",
+      "396bc6",
+      "9463ad",
+      "7b4229",
+      "63317b",
+      "296308",
+      "393929"
+    ],
+    "unchangedFromCT": true
+  },
+  "animation": {
+    "id": 92,
+    "frameSha256": "d1a3364a6b77e201620de002e6f25c5c4faac37cdfa738a1b3a4889580c08a3c",
+    "durationSha256": "b2edccfd6ae3447ffb9625bf27b8fec4901835d41e1b2a52885a16e8bd34de7e",
+    "unchanged": true
+  },
+  "spec": "assets/imagegen/palace-hexer/import-spec.draft.json",
+  "family": "assets/imagegen/palace-hexer/family.draft.json",
+  "geometry": "assets/imagegen/palace-hexer/geometry-proposal.json",
+  "rootIntegration": [
+    "Activate the frozen import spec as raster key palace-hexer through the shared importer.",
+    "Register gfx90/asm47 from family.draft.json with its 64×64 build canvas, anchor[0,24], all28 frameCellOrigins and explicit cellOverlapFrames; preserve original signed XY.",
+    "Select gfx90 in the production size0 raw-stream contract and allocate a separate9440-byte raw stream in addition to6009 compressed graphics and1120 assembly bytes.",
+    "Preserve original palette39, header, animation92, AI/statistics and all original event packets. The proposed short enemy name is Hexer; root owns name/design integration.",
+    "Use strict raster coverage for all28 roles. Run integrated native/independent frame and palace/lift checks before publishing; hidden ending ownership must remain explicit."
+  ],
+  "costs": {
+    "key": "palace-hexers",
+    "gfx": 90,
+    "rawBytes": 9440,
+    "compressedBytes": 6009,
+    "assemblyBytes": 1120,
+    "compressedPlusAssembly": 7129,
+    "graphicsSha256": "8a77209c3b7167c962f2f202b251babdd709a82eb0ba655aaa2edfc63e0135cb",
+    "compressedSha256": "6442a627c7363d26b94b2b7db234b026f21ab9d3a51dcd5ad0116d73a4805b28",
+    "assemblySha256": "44bebe7c0fb1f921f78fb05acaee73f50c79dc3fead380fb1b93c953e40e7f73",
+    "originalCT": {
+      "offset": 1441792,
+      "rawBytes": 5824,
+      "compressedBytes": 5359,
+      "rawSha256": "3e38cfea61056db06e1ba115e651d8b2852e72848a5a633670eedb2e40ede9d1",
+      "compressedSha256": "77a614f314207a04825f9bcfff9f9a10b3386320407002dca341a97ff359b2ed",
+      "assemblyBytes": 1120,
+      "compressedPlusAssembly": 6479
+    },
+    "currentActiveArt": {
+      "offset": 1441792,
+      "rawBytes": 5824,
+      "compressedBytes": 5359,
+      "rawSha256": "3e38cfea61056db06e1ba115e651d8b2852e72848a5a633670eedb2e40ede9d1",
+      "compressedSha256": "77a614f314207a04825f9bcfff9f9a10b3386320407002dca341a97ff359b2ed",
+      "assemblyBytes": 1120,
+      "compressedPlusAssembly": 6479,
+      "sameAsOriginal": true
+    },
+    "rawGrowthVsOriginal": 3616,
+    "rawGrowthVsCurrent": 3616,
+    "compressedAssemblyGrowthVsOriginal": 650,
+    "compressedAssemblyGrowthVsCurrent": 650,
+    "nativeSourcePixels": 10184,
+    "agreeingOverlappingOpaquePixels": 141,
+    "overlapFrames": [
+      1,
+      4,
+      12,
+      13,
+      14,
+      15
+    ],
+    "originalSignedXYBytes": 224,
+    "originalSignedXYUnchanged": true,
+    "extraVramBytes": 0,
+    "extraWramBytes": 0,
+    "sourceType": "Actual built-in imagegen PNG samples; whole-frame mirrors and translations explicitly recorded",
+    "proofs": [
+      {
+        "frame": 0,
+        "pixels": 378,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 1,
+        "pixels": 328,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 27,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 2,
+        "pixels": 362,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 3,
+        "pixels": 354,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 4,
+        "pixels": 330,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 26,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 5,
+        "pixels": 354,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 6,
+        "pixels": 340,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 7,
+        "pixels": 292,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 8,
+        "pixels": 365,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 9,
+        "pixels": 340,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 10,
+        "pixels": 292,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 11,
+        "pixels": 365,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 12,
+        "pixels": 448,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 21,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 13,
+        "pixels": 285,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 22,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 14,
+        "pixels": 407,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 23,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 15,
+        "pixels": 369,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 22,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 16,
+        "pixels": 393,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 17,
+        "pixels": 417,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 18,
+        "pixels": 296,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 19,
+        "pixels": 408,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 20,
+        "pixels": 406,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 21,
+        "pixels": 285,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 22,
+        "pixels": 360,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 23,
+        "pixels": 459,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 24,
+        "pixels": 366,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 25,
+        "pixels": 360,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 26,
+        "pixels": 459,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      },
+      {
+        "frame": 27,
+        "pixels": 366,
+        "nativeCells": 4,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true,
+        "originalSignedXYUnchanged": true
+      }
+    ]
+  },
+  "nativeProof": {
+    "uploads": 28,
+    "uniquePpuPixelChecks": 10184
+  },
+  "motionProof": {
+    "lists": 28,
+    "ticks": 6720
+  },
+  "sceneProof": {
+    "status": "Private authored scene proofs passed",
+    "baseline": {
+      "path": "assets/imagegen/palace-hexer/private-baseline.sfc",
+      "sha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+      "sourcePath": ".local/shrek-trigger.sfc",
+      "scope": "Pinned published cartridge; read-only audit; private copy excluded from source handoff"
+    },
+    "privateRomSha256": "7969140b436eb39bcfced1aa46fae5fa12f46e32260a36388ad2ec1cea7c1f7a",
+    "nativeTicks": 19217,
+    "scenes": [
+      {
+        "name": "piazza",
+        "nativeTicks": 4680,
+        "heapMax": 1248,
+        "heapByLocation": [
+          {
+            "location": 2,
+            "min": 1248,
+            "max": 1248
+          },
+          {
+            "location": 405,
+            "min": 0,
+            "max": 1248
+          }
+        ],
+        "result": {
+          "formation": [
+            59,
+            82,
+            82,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "controllerAttackIterations": 35,
+          "progressFlag": {
+            "address": "7F0163",
+            "mask": 16,
+            "value": 16
+          },
+          "returnLocation": 405,
+          "scope": "Original random-trigger mixed encounter, battle, progression bit and exploration return; diagnostic room entry only, not the complete palace route."
+        },
+        "party": [
+          {
+            "id": 0,
+            "hp": 999
+          },
+          {
+            "id": 1,
+            "hp": 999
+          },
+          {
+            "id": 2,
+            "hp": 999
+          }
+        ],
+        "proof": "assets/imagegen/palace-hexer/scene-verification/piazza.json"
+      },
+      {
+        "name": "lift",
+        "nativeTicks": 8057,
+        "heapMax": 11872,
+        "heapByLocation": [
+          {
+            "location": 2,
+            "min": 1248,
+            "max": 1248
+          },
+          {
+            "location": 410,
+            "min": 0,
+            "max": 3840
+          },
+          {
+            "location": 411,
+            "min": 256,
+            "max": 3840
+          },
+          {
+            "location": 416,
+            "min": 0,
+            "max": 11872
+          }
+        ],
+        "result": {
+          "formation": [
+            214,
+            82,
+            82,
+            214,
+            59,
+            255,
+            255,
+            255
+          ],
+          "controllerAttackIterations": 54,
+          "returnLocation": 416,
+          "scope": "Connected native 410 → 411 entry, mixed lift encounter and original DF411 → 416, with shared palace staging. Diagnostic entry at410 and endgame kit only; later lift waves/chapter completion are not claimed.",
+          "path": [
+            410,
+            411,
+            416
+          ]
+        },
+        "party": [
+          {
+            "id": 0,
+            "hp": 886
+          },
+          {
+            "id": 1,
+            "hp": 999
+          },
+          {
+            "id": 2,
+            "hp": 999
+          }
+        ],
+        "proof": "assets/imagegen/palace-hexer/scene-verification/lift.json"
+      },
+      {
+        "name": "ending",
+        "nativeTicks": 2880,
+        "heapMax": 11872,
+        "heapByLocation": [
+          {
+            "location": 2,
+            "min": 1248,
+            "max": 1248
+          },
+          {
+            "location": 398,
+            "min": 0,
+            "max": 6112
+          },
+          {
+            "location": 416,
+            "min": 3680,
+            "max": 11872
+          },
+          {
+            "location": 399,
+            "min": 0,
+            "max": 11872
+          }
+        ],
+        "result": {
+          "path": [
+            398,
+            416,
+            399
+          ],
+          "scope": "Original montage segment from diagnostic ending entry through the shared palace and kitchen return; subsequent ending scenes and acquisition route are not claimed."
+        },
+        "party": [
+          {
+            "id": 0,
+            "hp": 999
+          },
+          {
+            "id": 1,
+            "hp": 999
+          },
+          {
+            "id": 2,
+            "hp": 999
+          }
+        ],
+        "proof": "assets/imagegen/palace-hexer/scene-verification/ending.json"
+      },
+      {
+        "name": "side-rooms",
+        "nativeTicks": 1200,
+        "heapMax": 4000,
+        "heapByLocation": [
+          {
+            "location": 2,
+            "min": 1248,
+            "max": 1248
+          },
+          {
+            "location": 406,
+            "min": 320,
+            "max": 4000
+          }
+        ],
+        "result": {
+          "scope": "Original location initialization and native actor staging only. No local encounter or chapter continuation is claimed."
+        },
+        "party": [
+          {
+            "id": 0,
+            "hp": 999
+          },
+          {
+            "id": 1,
+            "hp": 999
+          },
+          {
+            "id": 2,
+            "hp": 999
+          }
+        ],
+        "proof": "assets/imagegen/palace-hexer/scene-verification/side-rooms.json"
+      },
+      {
+        "name": "forward-area",
+        "nativeTicks": 1200,
+        "heapMax": 1248,
+        "heapByLocation": [
+          {
+            "location": 2,
+            "min": 1248,
+            "max": 1248
+          },
+          {
+            "location": 407,
+            "min": 320,
+            "max": 1248
+          }
+        ],
+        "result": {
+          "scope": "Original location initialization and native actor staging only. No local encounter or chapter continuation is claimed."
+        },
+        "party": [
+          {
+            "id": 0,
+            "hp": 999
+          },
+          {
+            "id": 1,
+            "hp": 999
+          },
+          {
+            "id": 2,
+            "hp": 999
+          }
+        ],
+        "proof": "assets/imagegen/palace-hexer/scene-verification/forward-area.json"
+      },
+      {
+        "name": "stairwell",
+        "nativeTicks": 1200,
+        "heapMax": 18624,
+        "heapByLocation": [
+          {
+            "location": 2,
+            "min": 1248,
+            "max": 1248
+          },
+          {
+            "location": 409,
+            "min": 1184,
+            "max": 18624
+          }
+        ],
+        "result": {
+          "scope": "Original location initialization and native actor staging only. No local encounter or chapter continuation is claimed."
+        },
+        "party": [
+          {
+            "id": 0,
+            "hp": 999
+          },
+          {
+            "id": 1,
+            "hp": 999
+          },
+          {
+            "id": 2,
+            "hp": 999
+          }
+        ],
+        "proof": "assets/imagegen/palace-hexer/scene-verification/stairwell.json"
+      }
+    ],
+    "scope": "Diagnostic entry followed by unchanged native events/controllers. Two controller victories and bounded lift/ending transitions. Other rooms are initialization/opening only; ending Hexer ownership is hidden. Independent cores and complete connected chapter coverage remain root-owned."
+  },
+  "review": {
+    "native": "assets/imagegen/palace-hexer/review/contact-sheet-1x.png",
+    "enlarged": "assets/imagegen/palace-hexer/review/native-6x.png",
+    "gait": "assets/imagegen/palace-hexer/review/gait-contacts.png",
+    "roles": "assets/imagegen/palace-hexer/review/role-review.html",
+    "motion": "assets/imagegen/palace-hexer/review/motion-review.html",
+    "piazza": "assets/imagegen/palace-hexer/scene-verification/piazza-battle.png",
+    "lift": "assets/imagegen/palace-hexer/scene-verification/lift-battle.png"
+  },
+  "dependencies": [
+    {
+      "path": "scripts/import-raster-art.mjs",
+      "sha256": "da2199e4f16c3a0dd7425b2a3b05fccadd85b25b5140779b398c468fbc23d1c4"
+    },
+    {
+      "path": "engine/actor-families.js",
+      "sha256": "3eb0d529e30129185a5f45ec7164a925d0b14b417083a965c7974ad9e36dad54"
+    },
+    {
+      "path": "engine/sprites.js",
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "path": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "path": "scripts/native-sprite-view.mjs",
+      "sha256": "5ad09bed2da5887837208c7ccf58dc7e9822a383b9a05dc9433031508fc404b9"
+    },
+    {
+      "path": "engine/npc-graphics-streaming.js",
+      "sha256": "0dd90dca70436ed2863c448b11e66e549b71d9e85b2ec7603312000e74d2d8c2"
+    },
+    {
+      "path": "engine/expanded-rom.js",
+      "sha256": "de8f528ce60b4488df9d7742c38e8c9af2ae58e74df641fe6fd1c605dbeedde2"
+    },
+    {
+      "path": "tests/helpers.mjs",
+      "sha256": "4a77a84d238f495d30837a92547b46981ec7c1ee529f6805e12ec92217cc1a80"
+    }
+  ],
+  "limitations": [
+    "Tiny eyebrow/finger marks are limited by the 27–28 px body; silhouette, nose, mantle and gloves carry identity.",
+    "Four-cell source conversions retain all original signed XY. The side-release source has 94% horizontal sampling width, and complete-source mirrors are documented adaptations.",
+    "Reaction alpha128 selection excludes source ambient glow, with no painted replacement anatomy.",
+    "Authored scenes begin at explicit diagnostic checkpoints with an endgame kit. Piazza and first lift encounter are victories; other room openings, later lift waves, whole palace route and complete ending are not accepted by this packet.",
+    "The ending branch loads both Hexer resources but keeps them hidden; this is ownership/load compatibility only.",
+    "Independent cores and production allocator/registry integration remain root-owned."
+  ]
+}

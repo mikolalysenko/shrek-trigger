@@ -1,0 +1,324 @@
+{
+  "status": "All 32 source/native frames render in both exact current palettes without opaque overlap or clipping",
+  "paletteIds": [
+    194,
+    195
+  ],
+  "actions": [
+    {
+      "facing": 0,
+      "animation": 1,
+      "name": "rear walk"
+    },
+    {
+      "facing": 1,
+      "animation": 1,
+      "name": "front walk"
+    },
+    {
+      "facing": 2,
+      "animation": 1,
+      "name": "left walk"
+    },
+    {
+      "facing": 3,
+      "animation": 1,
+      "name": "right walk"
+    },
+    {
+      "facing": 1,
+      "animation": 3,
+      "name": "front compression"
+    },
+    {
+      "facing": 1,
+      "animation": 5,
+      "name": "tilted hit"
+    },
+    {
+      "facing": 1,
+      "animation": 6,
+      "name": "front gesture"
+    },
+    {
+      "facing": 2,
+      "animation": 6,
+      "name": "left gesture"
+    },
+    {
+      "facing": 3,
+      "animation": 6,
+      "name": "right gesture"
+    },
+    {
+      "facing": 0,
+      "animation": 8,
+      "name": "rear airborne fast"
+    },
+    {
+      "facing": 1,
+      "animation": 8,
+      "name": "front airborne fast"
+    },
+    {
+      "facing": 2,
+      "animation": 8,
+      "name": "left airborne fast"
+    },
+    {
+      "facing": 3,
+      "animation": 8,
+      "name": "right airborne fast"
+    },
+    {
+      "facing": 0,
+      "animation": 9,
+      "name": "rear airborne slow"
+    },
+    {
+      "facing": 1,
+      "animation": 9,
+      "name": "front airborne slow"
+    },
+    {
+      "facing": 2,
+      "animation": 9,
+      "name": "left airborne slow"
+    },
+    {
+      "facing": 3,
+      "animation": 9,
+      "name": "right airborne slow"
+    },
+    {
+      "facing": 1,
+      "animation": 10,
+      "name": "rapid turn"
+    }
+  ],
+  "loops": [
+    [
+      "rear walk",
+      [
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        10,
+        5,
+        10,
+        5
+      ]
+    ],
+    [
+      "front walk",
+      [
+        3,
+        4,
+        5,
+        4
+      ],
+      [
+        10,
+        5,
+        10,
+        5
+      ]
+    ],
+    [
+      "left walk",
+      [
+        6,
+        7,
+        8,
+        7
+      ],
+      [
+        10,
+        5,
+        10,
+        5
+      ]
+    ],
+    [
+      "right walk",
+      [
+        9,
+        10,
+        11,
+        10
+      ],
+      [
+        10,
+        5,
+        10,
+        5
+      ]
+    ],
+    [
+      "front compression",
+      [
+        22,
+        30,
+        31,
+        30
+      ],
+      [
+        15,
+        10,
+        15,
+        10
+      ]
+    ],
+    [
+      "tilted hit",
+      [
+        12
+      ],
+      [
+        10
+      ]
+    ],
+    [
+      "front gesture",
+      [
+        21,
+        22
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    [
+      "left gesture",
+      [
+        23,
+        24
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    [
+      "right gesture",
+      [
+        25,
+        26
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    [
+      "rear airborne fast",
+      [
+        13,
+        14
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    [
+      "front airborne fast",
+      [
+        15,
+        16
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    [
+      "left airborne fast",
+      [
+        17,
+        18
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    [
+      "right airborne fast",
+      [
+        19,
+        20
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    [
+      "rear airborne slow",
+      [
+        13,
+        14
+      ],
+      [
+        15,
+        15
+      ]
+    ],
+    [
+      "front airborne slow",
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        15
+      ]
+    ],
+    [
+      "left airborne slow",
+      [
+        17,
+        18
+      ],
+      [
+        15,
+        15
+      ]
+    ],
+    [
+      "right airborne slow",
+      [
+        19,
+        20
+      ],
+      [
+        15,
+        15
+      ]
+    ],
+    [
+      "rapid turn",
+      [
+        29,
+        7,
+        27,
+        28
+      ],
+      [
+        5,
+        5,
+        5,
+        5
+      ]
+    ]
+  ],
+  "sourceStandingHeight": 58,
+  "originalShadowReused": true,
+  "scope": "Static source geometry and compiled motion; native execution proof remains separate."
+}

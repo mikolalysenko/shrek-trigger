@@ -1,0 +1,930 @@
+[
+  {
+    "id": 1,
+    "source": "Cyclone",
+    "name": "Fart",
+    "short": "Fart",
+    "concept": "Shrek spins three times faster, blanketing nearby enemies in gas. Original damage and 2 MP cost; 25% poison chance, respecting immunity.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 2,
+    "source": "Slash",
+    "name": "Eye Lasers",
+    "short": "Eye Lasers",
+    "concept": "Paired beams sweep the original line target, with brief flame flashes on hit. Air damage and the source 2 MP cost; no added burn status.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 3,
+    "source": "Lightning",
+    "name": "My Swamp!",
+    "short": "My Swamp!",
+    "concept": "“What are you doing in my swamp?!” The roar sends shockwaves across the scene; one selected enemy takes the original Air damage.",
+    "status": "native-label; source-mechanics; native-shockwaves; native-mouth-poses; native-audio"
+  },
+  {
+    "id": 4,
+    "source": "Spincut",
+    "name": "Swamp Piledriver",
+    "short": "Pile Driver",
+    "concept": "Grab one enemy, jump, somersault, and slam it down. Large, flying and rooted enemies stay anchored. Single-target physical damage; no new stun.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 5,
+    "source": "Lightning II",
+    "name": "Run Away!",
+    "short": "Run Away!",
+    "concept": "“This is the part where you run away.” Shrek plants his feet, inhales and roars sparks into a storm over every enemy that did not. Original Air damage and 8 MP cost; no added status.",
+    "status": "native-label; source-mechanics; native-planted-roar; native-mouth-poses; native-storm; native-audio"
+  },
+  {
+    "id": 6,
+    "source": "Life",
+    "name": "Love & Life",
+    "short": "Love&Life",
+    "concept": "Shrek is love, Shrek is life: he bellows a fallen ally back onto their feet, and because Shrek is life, they come back at full health. Life's target and MP cost with Life II's full revival.",
+    "status": "native-label; source-mechanics; native-wake-up-roar; native-mouth-poses; life-ii-revival-effect"
+  },
+  {
+    "id": 7,
+    "source": "Confuse",
+    "name": "Four Layer Slam",
+    "short": "Layer Slams",
+    "concept": "Three body blows lead into one finishing throw. Large, flying and rooted enemies stay anchored. Original four hits, 12 MP cost and progression.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 8,
+    "source": "Luminaire",
+    "name": "Swamp Belch",
+    "short": "SwampBelch",
+    "concept": "A giant translucent fart cloud expands around every enemy, then rises and dissipates. Preserve Luminaire's Air damage, targets and 20 MP cost.",
+    "status": "native-label; native-cloud; native-audio; source-mechanics"
+  },
+  {
+    "id": 9,
+    "source": "Aura",
+    "name": "Sing-Along",
+    "short": "Sing-Along",
+    "concept": "Fiona sings so sweetly that music notes dance over the party and everyone feels better. Aura's healing, targets and MP; generated music-note sprites.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 10,
+    "source": "Provoke",
+    "name": "Hi-Yah!",
+    "short": "Hi-Yah!",
+    "concept": "A Matrix-style taunt that makes a foe come at her. Original mechanics; pink color theme.",
+    "status": "native-label; source-mechanics; native-theme-pink"
+  },
+  {
+    "id": 11,
+    "source": "Ice",
+    "name": "High C",
+    "short": "High C",
+    "concept": "One piercing high note at a singing bluebird. The bird swells, and the crystal that forms is what is left of it. Ice's damage, target and MP; generated bluebird sprites.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 12,
+    "source": "Cure",
+    "name": "Fresh Eggs",
+    "short": "Fresh Eggs",
+    "concept": "Breakfast, courtesy of the bluebird from High C: Fiona fries its eggs for one ally. Cure's healing, target and MP; generated fried-egg sprites.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 13,
+    "source": "Haste",
+    "name": "Web Candy",
+    "short": "Web Candy",
+    "concept": "Fiona twirls a spiderweb full of flies into cotton candy; the sugar rush puts one ally in fast-forward. Haste's effect, target and MP; generated cotton-candy sprites.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 14,
+    "source": "Ice II",
+    "name": "Bird Pop",
+    "short": "Bird Pop",
+    "concept": "The full aria. A bluebird swells to the size of the battlefield and nothing in the flock survives the last note. Ice II's damage, targets and MP; Luminaire's scene with a generated bluebird picture.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 15,
+    "source": "Cure II",
+    "name": "Balloon Pet",
+    "short": "BalloonPet",
+    "concept": "Fiona inflates a snake, twists it into a balloon animal and hands it to one ally. Cure II's healing, targets and MP; generated balloon sprites.",
+    "status": "native-label; source-mechanics; native-animation; native-theme-swamp"
+  },
+  {
+    "id": 16,
+    "source": "Life II",
+    "name": "True Kiss",
+    "short": "True Kiss",
+    "concept": "True love’s kiss brings a fallen ally back on their feet. Original mechanics; pink color theme.",
+    "status": "native-label; source-mechanics; native-theme-pink"
+  },
+  {
+    "id": 17,
+    "source": "Flame Toss",
+    "name": "Waffle Toss",
+    "short": "WaffleToss",
+    "concept": "Donkey flings his famous morning waffles, buttered, across the battlefield. Flame Toss's Fire damage, targets and MP; generated waffle sprites replace the flames.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 18,
+    "source": "Hypno Wave",
+    "name": "Are We There Yet?",
+    "short": "ThereYet?",
+    "concept": "“Are we there yet?” Donkey's face fills the screen, much too close, for much too long, until the enemies fall asleep to escape it. Hypno Wave's effect, targets and MP; Luminaire's scene with a generated Donkey picture.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 19,
+    "source": "Fire",
+    "name": "Dragon Kiss",
+    "short": "DragonKiss",
+    "concept": "Donkey calls in his sweetheart: flaming hearts blown at one foe in Dragon's pink fire. Fire's damage, element, target and MP; generated flaming-heart sprites with the pink color theme.",
+    "status": "native-label; source-mechanics; native-animation; native-theme-pink"
+  },
+  {
+    "id": 20,
+    "source": "Napalm",
+    "name": "Waffle Bomb",
+    "short": "Waffle Bomb",
+    "concept": "A breakfast tray of waffles, lobbed and detonated. Napalm's Fire damage, targets and MP; generated waffle sprites.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 21,
+    "source": "Protect",
+    "name": "Noble Steed",
+    "short": "NobleSteed",
+    "concept": "Donkey stands guard like a noble steed; lucky golden horseshoes ring the party and physical damage bounces off. Protect's effect, targets and MP; generated horseshoe sprites.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 22,
+    "source": "Fire II",
+    "name": "Hot Sauce",
+    "short": "Hot Sauce",
+    "concept": "Donkey chugs hot sauce and breathes it over every foe. Fire II's damage, targets and MP; the original fire, which is already the right color.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 23,
+    "source": "Mega Bomb",
+    "name": "Parfait Bomb",
+    "short": "ParfaitBomb",
+    "concept": "Everybody loves parfait. Especially when it explodes. Mega Bomb's Fire damage, targets and MP; generated parfait sprites.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 24,
+    "source": "Flare",
+    "name": "Call My Wife",
+    "short": "CallMyWife",
+    "concept": "Donkey calls his wife. Dragon fills the sky over the battlefield, torches every foe and flies home. Flare's damage, cost, targets and progression; Luminaire's scene with a generated Dragon picture.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 25,
+    "source": "Rocket Punch",
+    "name": "Nose Job",
+    "short": "Nose Job",
+    "concept": "Extend Pinocchio's nose into a physical strike; preserve Rocket Punch mechanics.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 26,
+    "source": "Cure Beam",
+    "name": "Blue Fairy",
+    "short": "Blue Fairy",
+    "concept": "The Blue Fairy herself flutters down and waves her wand over one ally. Cure Beam's healing, target and MP; generated fairy sprites with the fairy color theme.",
+    "status": "native-label; source-mechanics; native-animation; native-theme-fairy"
+  },
+  {
+    "id": 27,
+    "source": "Laser Spin",
+    "name": "Nose Spin",
+    "short": "Nose Spin",
+    "concept": "He tells a whopper and spins; the nose does the rest. Original mechanics; wood color theme.",
+    "status": "native-label; source-mechanics; native-theme-wood"
+  },
+  {
+    "id": 28,
+    "source": "Robo Tackle",
+    "name": "Timber!",
+    "short": "Timber!",
+    "concept": "A full-body wooden shoulder charge; preserve Robo Tackle mechanics.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 29,
+    "source": "Heal Beam",
+    "name": "Wish Star",
+    "short": "Wish Star",
+    "concept": "When you wish upon a star, the whole party heals. Original mechanics; fairy color theme.",
+    "status": "native-label; source-mechanics; native-theme-fairy"
+  },
+  {
+    "id": 30,
+    "source": "Uzzi Punch",
+    "name": "Wood Chipper",
+    "short": "WoodChipper",
+    "concept": "A rapid series of hinged-arm punches; preserve Uzzi Punch mechanics.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 31,
+    "source": "Area Bomb",
+    "name": "Sawdust",
+    "short": "Sawdust",
+    "concept": "A burst of splinters, shavings and sawdust around him. Area Bomb's damage, targets and MP; generated wood-chip sprites with the wood color theme.",
+    "status": "native-label; source-mechanics; native-animation; native-theme-wood"
+  },
+  {
+    "id": 32,
+    "source": "Shock",
+    "name": "Magnets!",
+    "short": "Magnets!",
+    "concept": "Nobody knows how magnets work. A giant horseshoe magnet appears anyway and every foe gets zapped. Shock's damage, targets and MP; Luminaire's scene with a generated magnet picture.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 33,
+    "source": "Slurp",
+    "name": "Cat Kiss",
+    "short": "Cat Kiss",
+    "concept": "An affectionate cat-kiss restores one ally with the original Slurp healing, cost and targeting.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 34,
+    "source": "Slurp Cut",
+    "name": "Hook & Whisker",
+    "short": "Hook&Whisk",
+    "concept": "A cape flourish and hook fencing strike; preserve Slurp Cut mechanics and actor footprint.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 35,
+    "source": "Water",
+    "name": "Milk",
+    "short": "Milk",
+    "concept": "Puss splashes a foe with a saucer's worth of milk. Water's damage, element, target and MP; the water palette is swapped to milk white.",
+    "status": "native-label; source-mechanics; native-milk-palette"
+  },
+  {
+    "id": 36,
+    "source": "Heal slot / Ayla Charm",
+    "name": "Big Eyes",
+    "short": "Big Eyes",
+    "concept": "Puss takes off his hat and gives the enemy the big, glistening eyes. Nobody can say no; they hand over an item. Ayla's Charm cost, rules and restrictions.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 37,
+    "source": "Leap Slash",
+    "name": "Flying Fur",
+    "short": "Flying Fur",
+    "concept": "An airborne fencing attack; preserve Leap Slash mechanics.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 38,
+    "source": "Water II",
+    "name": "Milk 2",
+    "short": "Milk 2",
+    "concept": "A tidal wave of milk floods every foe. Water II's damage, element, targets and MP; the wave and droplets are milk white.",
+    "status": "native-label; source-mechanics; native-milk-palette"
+  },
+  {
+    "id": 39,
+    "source": "Cure II",
+    "name": "Nine Lives",
+    "short": "Nine Lives",
+    "concept": "Heal a living ally with Cure II strength or revive a fallen ally with Life II-equivalent restoration; retain Cure II unlock and MP cost.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 40,
+    "source": "Frog Squash",
+    "name": "Yarn Bomb",
+    "short": "Yarn Bomb",
+    "concept": "A giant ball of yarn drops and bounces across every enemy, hitting harder as Puss weakens. Source physical damage, all-enemy targets, MP cost and low-HP rule; a soft glint replaces the frog’s rainbow.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 41,
+    "source": "Kiss",
+    "name": "Sugar Kiss",
+    "short": "Sugar Kiss",
+    "concept": "A giant gingerbread smooch: candy lips and icing hearts heal one ally. Kiss's healing, target and MP; generated sweet sprites.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 42,
+    "source": "Rollo Kick",
+    "name": "Ginger Roll",
+    "short": "Ginger Roll",
+    "concept": "A rolling gingerbread kick; preserve Rollo Kick mechanics.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 43,
+    "source": "Cat Attack",
+    "name": "Crumb & Punishment",
+    "short": "CrumbPunish",
+    "concept": "A fast crumb-scattering scratch sequence; preserve Cat Attack mechanics.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 44,
+    "source": "Rock Throw",
+    "name": "Dough Hurl",
+    "short": "Dough Hurl",
+    "concept": "Lift and hurl one eligible enemy; preserve Rock Throw restrictions and mechanics.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 45,
+    "source": "Charm slot / Frog Heal",
+    "name": "Icing Patch",
+    "short": "Icing Patch",
+    "concept": "Frosting piped over the whole party patches everyone up. Original mechanics; icing color theme.",
+    "status": "native-label; source-mechanics; native-theme-icing"
+  },
+  {
+    "id": 46,
+    "source": "Tail Spin",
+    "name": "Crumb Cyclone",
+    "short": "CrumbSpin",
+    "concept": "A heavy cookie spin hits the source nearby area.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 47,
+    "source": "Dino Tail",
+    "name": "Last Crumb",
+    "short": "Last Crumb",
+    "concept": "A giant-cookie desperation attack with the source low-HP scaling.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 48,
+    "source": "Triple Kick",
+    "name": "My Buttons!",
+    "short": "MyButtons!",
+    "concept": "“Not my gumdrop buttons!” Three emphatic gingerbread stomps strike one target with Triple Kick mechanics.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 49,
+    "source": "Lightning II",
+    "name": "Royal Decree",
+    "short": "Decree",
+    "concept": "By order of Lord Farquaad: a royal proclamation unrolls over the battlefield, and everyone named in it is struck. Lightning II's damage, targets and MP; Luminaire's scene with a generated scroll picture.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 50,
+    "source": "Ice II",
+    "name": "Cold Snub",
+    "short": "Cold Snub",
+    "concept": "The lord’s icy disdain, made literal. Original mechanics; royal color theme.",
+    "status": "native-label; source-mechanics; native-theme-royal"
+  },
+  {
+    "id": 51,
+    "source": "Fire II",
+    "name": "Torch Mob",
+    "short": "Torch Mob",
+    "concept": "A loyal mob with torches and pitchforks marches over the battlefield, on command, and sets fire to everything. Fire II's damage, targets and MP; Luminaire's scene with a generated mob picture.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 52,
+    "source": "Dark Bomb",
+    "name": "Compensate",
+    "short": "Compensate",
+    "concept": "“Do you think maybe he’s compensating for something?” An absurdly tall tower rises over the battlefield, followed by the biggest explosion in the game, from the smallest man. Dark Bomb's damage, targets and MP; Luminaire's scene with a generated tower picture.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 53,
+    "source": "Magic Wall",
+    "name": "Mirror Wall",
+    "short": "MirrorWall",
+    "concept": "The Magic Mirror hangs itself in front of the party and refuses to show magic anything it wants to see. Magic Wall's effect, targets and MP; generated mirror sprites.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 54,
+    "source": "Dark Mist",
+    "name": "Duloc Fog",
+    "short": "Duloc Fog",
+    "concept": "Perfectly regulated, perfectly gloomy Duloc fog. Original mechanics; royal color theme.",
+    "status": "native-label; source-mechanics; native-theme-royal"
+  },
+  {
+    "id": 55,
+    "source": "Black Hole",
+    "name": "Dungeon",
+    "short": "Dungeon",
+    "concept": "Off to the dungeon with them: a huge iron cage drops out of the sky and the dark takes whoever is inside. Black Hole's effect, targets and MP; Luminaire's scene with a generated cage picture.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 56,
+    "source": "Dark Matter",
+    "name": "Some May Die",
+    "short": "SomeMayDie",
+    "concept": "“Some of you may die, but it is a sacrifice I am willing to make.” Farquaad's smug face fills the sky. It costs him nothing at all: 0 MP. His two allies are left with 1 HP. Dark Matter's damage and targets; Luminaire's scene with a generated picture.",
+    "status": "native-label; joke-mechanics; native-animation"
+  },
+  {
+    "id": 57,
+    "source": "Aura Whirl",
+    "name": "Heal Fart",
+    "short": "Heal Fart",
+    "concept": "Shrek spins and lets one go; Fiona insists it is medicinal. The whole party breathes in and feels better. Aura Whirl's healing, targets and MP; swamp-green gas and a toot.",
+    "status": "native-label; source-mechanics; native-theme-swamp"
+  },
+  {
+    "id": 58,
+    "source": "Ice Sword",
+    "name": "Frosty Club",
+    "short": "Frosty Club",
+    "concept": "Fiona ices Shrek’s fist before he swings. Original mechanics; swamp color theme.",
+    "status": "native-label; source-mechanics; native-theme-swamp"
+  },
+  {
+    "id": 59,
+    "source": "Ice Sword II",
+    "name": "Big Chill",
+    "short": "Big Chill",
+    "concept": "The same, with feelings. Original mechanics; swamp color theme.",
+    "status": "native-label; source-mechanics; native-theme-swamp"
+  },
+  {
+    "id": 60,
+    "source": "Fire Whirl",
+    "name": "Flaming Fart",
+    "short": "Flame Fart",
+    "concept": "Donkey holds the torch. Shrek does the rest: fire shoots out of his behind and burns everything near him. Fire Whirl's damage, targets and MP; the Fart's gas clouds and buzz with the original flames.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 61,
+    "source": "Fire Sword",
+    "name": "Torch Club",
+    "short": "Torch Club",
+    "concept": "Donkey lights Shrek’s club. Donkey regrets nothing. Original mechanics; gold color theme.",
+    "status": "native-label; source-mechanics; native-theme-gold"
+  },
+  {
+    "id": 62,
+    "source": "Fire Sword II",
+    "name": "Bonfire",
+    "short": "Bonfire",
+    "concept": "A swamp bonfire, with an ogre in the middle. Original mechanics; gold color theme.",
+    "status": "native-label; source-mechanics; native-theme-gold"
+  },
+  {
+    "id": 63,
+    "source": "Rocket Roll",
+    "name": "Fart Rocket",
+    "short": "Fart Rocket",
+    "concept": "Shrek's gas launches Pinocchio as a rolling wooden rocket through every foe. Rocket Roll's damage, targets and MP.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 64,
+    "source": "Max Cyclone",
+    "name": "Mega Fart",
+    "short": "Mega Fart",
+    "concept": "Pinocchio winds Shrek up like a toy and lets go: the biggest one yet, spinning through everything nearby. Max Cyclone's damage, targets and MP.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 65,
+    "source": "Super Volt",
+    "name": "Nose Zap",
+    "short": "Nose Zap",
+    "concept": "Shrek charges up Pinocchio’s nose like a lightning rod. Original mechanics; wood color theme.",
+    "status": "native-label; source-mechanics; native-theme-wood"
+  },
+  {
+    "id": 66,
+    "source": "X Strike",
+    "name": "Crop Duster",
+    "short": "CropDuster",
+    "concept": "Puss and Shrek cross the same foe from both sides. Shrek leaves something behind on the way past. X Strike's damage, target and MP.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 67,
+    "source": "Sword Stream",
+    "name": "Swashbuckle",
+    "short": "Swashbuckle",
+    "concept": "Puss shows Shrek how a gentleman fences. Original mechanics; swamp color theme.",
+    "status": "native-label; source-mechanics; native-theme-swamp"
+  },
+  {
+    "id": 68,
+    "source": "Spire",
+    "name": "Rapier Rain",
+    "short": "Rapier Rain",
+    "concept": "A rain of tiny swords from a very small cat. Original mechanics; swamp color theme.",
+    "status": "native-label; source-mechanics; native-theme-swamp"
+  },
+  {
+    "id": 69,
+    "source": "Drill Kick",
+    "name": "Gas Drill",
+    "short": "Gas Drill",
+    "concept": "Mongo is launched by a well-timed fart into a drilling kick. Drill Kick's damage, target and MP.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 70,
+    "source": "Volt Bite",
+    "name": "Big Bite",
+    "short": "Big Bite",
+    "concept": "Shrek takes a bite out of the problem. Original mechanics; icing color theme.",
+    "status": "native-label; source-mechanics; native-theme-icing"
+  },
+  {
+    "id": 71,
+    "source": "Falcon Hit",
+    "name": "Swamp Airlift",
+    "short": "OgreAirlift",
+    "concept": "Mongo launches Shrek for a high-speed slam across the original line of targets.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 72,
+    "source": "Antipode",
+    "name": "Hot & Cold",
+    "short": "Hot & Cold",
+    "concept": "Fiona and Donkey argue about the thermostat. Original mechanics; pink color theme.",
+    "status": "native-label; source-mechanics; native-theme-pink"
+  },
+  {
+    "id": 73,
+    "source": "Antipode II",
+    "name": "Hot & Cold 2",
+    "short": "Hot&Cold 2",
+    "concept": "They are still arguing. Original mechanics; pink color theme.",
+    "status": "native-label; source-mechanics; native-theme-pink"
+  },
+  {
+    "id": 74,
+    "source": "Antipode III",
+    "name": "Hot & Cold 3",
+    "short": "Hot&Cold 3",
+    "concept": "Now everyone is involved. Original mechanics; pink color theme.",
+    "status": "native-label; source-mechanics; native-theme-pink"
+  },
+  {
+    "id": 75,
+    "source": "Aura Beam",
+    "name": "Fairy Ray",
+    "short": "Fairy Ray",
+    "concept": "Fiona aims Pinocchio’s fairy light. Original mechanics; fairy color theme.",
+    "status": "native-label; source-mechanics; native-theme-fairy"
+  },
+  {
+    "id": 76,
+    "source": "Ice Tackle",
+    "name": "Snow Plow",
+    "short": "Snow Plow",
+    "concept": "Pinocchio, iced and pushed headfirst. Original mechanics; wood color theme.",
+    "status": "native-label; source-mechanics; native-theme-wood"
+  },
+  {
+    "id": 77,
+    "source": "Cure Touch",
+    "name": "Patch Up",
+    "short": "Patch Up",
+    "concept": "Wood glue and a kiss on the boo-boo. Original mechanics; fairy color theme.",
+    "status": "native-label; source-mechanics; native-theme-fairy"
+  },
+  {
+    "id": 78,
+    "source": "Ice Water",
+    "name": "Milkshake",
+    "short": "Milkshake",
+    "concept": "Fiona chills Puss’s milk into a milkshake. Brain freeze for everyone. Original mechanics; milk color theme.",
+    "status": "native-label; source-mechanics; native-theme-milk"
+  },
+  {
+    "id": 79,
+    "source": "Glacier",
+    "name": "Brain Freeze",
+    "short": "BrainFreeze",
+    "concept": "The milkshake, all at once. Original mechanics; milk color theme.",
+    "status": "native-label; source-mechanics; native-theme-milk"
+  },
+  {
+    "id": 80,
+    "source": "Double Cure",
+    "name": "Group Hug",
+    "short": "Group Hug",
+    "concept": "Fiona and Mongo hug the whole party better. Original mechanics; pink color theme.",
+    "status": "native-label; source-mechanics; native-theme-pink"
+  },
+  {
+    "id": 81,
+    "source": "Twin Charm",
+    "name": "Purrfect Heist",
+    "short": "Purr Heist",
+    "concept": "Fiona distracts while Puss steals; native Twin Charm effect with participants moved to Fiona and Puss.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 82,
+    "source": "Ice Toss",
+    "name": "Snowball",
+    "short": "Snowball",
+    "concept": "Mongo throws one snowball. It is the size of a cottage. Original mechanics; icing color theme.",
+    "status": "native-label; source-mechanics; native-theme-icing"
+  },
+  {
+    "id": 83,
+    "source": "Cube Toss",
+    "name": "Sugar Cube",
+    "short": "Sugar Cube",
+    "concept": "A sugar cube, also the size of a cottage. Original mechanics; icing color theme.",
+    "status": "native-label; source-mechanics; native-theme-icing"
+  },
+  {
+    "id": 84,
+    "source": "Fire Punch",
+    "name": "Kindling",
+    "short": "Kindling",
+    "concept": "Donkey learns what pine is for. Original mechanics; wood color theme.",
+    "status": "native-label; source-mechanics; native-theme-wood"
+  },
+  {
+    "id": 85,
+    "source": "Fire Tackle",
+    "name": "Hot Seat",
+    "short": "Hot Seat",
+    "concept": "Pinocchio rides a rocket of Donkey’s breath. Original mechanics; wood color theme.",
+    "status": "native-label; source-mechanics; native-theme-wood"
+  },
+  {
+    "id": 86,
+    "source": "DoublevBomb",
+    "name": "Firewood",
+    "short": "Firewood",
+    "concept": "Two bombs, one puppet, no remorse. Original mechanics; wood color theme.",
+    "status": "native-label; source-mechanics; native-theme-wood"
+  },
+  {
+    "id": 87,
+    "source": "Flame Kick",
+    "name": "Oven Kick",
+    "short": "Oven Kick",
+    "concept": "Donkey preheats Mongo, Mongo kicks. Original mechanics; gold color theme.",
+    "status": "native-label; source-mechanics; native-theme-gold"
+  },
+  {
+    "id": 88,
+    "source": "Flame Whirl",
+    "name": "Bake Spin",
+    "short": "Bake Spin",
+    "concept": "Gingerbread at 350 degrees, spinning. Original mechanics; gold color theme.",
+    "status": "native-label; source-mechanics; native-theme-gold"
+  },
+  {
+    "id": 89,
+    "source": "Blaze Kick",
+    "name": "Burnt Toast",
+    "short": "Burnt Toast",
+    "concept": "Mongo, slightly overdone, lands on someone. Original mechanics; gold color theme.",
+    "status": "native-label; source-mechanics; native-theme-gold"
+  },
+  {
+    "id": 90,
+    "source": "Blade Toss",
+    "name": "String Fencing",
+    "short": "StringFence",
+    "concept": "Pinocchio whips Puss through a sword strike.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 91,
+    "source": "Bubble Snap",
+    "name": "Bubble Bath",
+    "short": "BubbleBath",
+    "concept": "Puss insists on a bath. Pinocchio provides the bubbles. Original mechanics; milk color theme.",
+    "status": "native-label; source-mechanics; native-theme-milk"
+  },
+  {
+    "id": 92,
+    "source": "Cure Wave",
+    "name": "Sugar Rush",
+    "short": "Sugar Rush",
+    "concept": "Mongo and Pinocchio hand out candy until everyone feels better. Original mechanics; icing color theme.",
+    "status": "native-label; source-mechanics; native-theme-icing"
+  },
+  {
+    "id": 93,
+    "source": "Boogie",
+    "name": "Cat's Cradle",
+    "short": "Cat Cradle",
+    "concept": "An absurd puppet-and-cat dance applies the native Boogie status effect with Pinocchio and Puss.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 94,
+    "source": "Spin Kick",
+    "name": "Cookie Lathe",
+    "short": "CookieLathe",
+    "concept": "Pinocchio supplies rotation to Mongo’s kick.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 95,
+    "source": "Beast Toss",
+    "name": "Cookie Catapult",
+    "short": "Cookiepult",
+    "concept": "A wood-and-gingerbread catapult toss; preserve Beast Toss mechanics.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 96,
+    "source": "Slurp Kiss",
+    "name": "Milk & Cookie",
+    "short": "MilkCookie",
+    "concept": "Puss brings the milk, Mongo brings the cookie. Original mechanics; milk color theme.",
+    "status": "native-label; source-mechanics; native-theme-milk"
+  },
+  {
+    "id": 97,
+    "source": "Bubble Hit",
+    "name": "Spit Bubble",
+    "short": "Spit Bubble",
+    "concept": "A hairball, gift-wrapped in a bubble. Original mechanics; milk color theme.",
+    "status": "native-label; source-mechanics; native-theme-milk"
+  },
+  {
+    "id": 98,
+    "source": "Drop Kick",
+    "name": "Boots & Buttons",
+    "short": "Boot&Button",
+    "concept": "Puss and Mongo descend together in the native Drop Kick finisher.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 99,
+    "source": "Red Pin",
+    "name": "Hot Pin",
+    "short": "Hot Pin",
+    "concept": "Puss’s rapier, heated by Donkey. Original mechanics; gold color theme.",
+    "status": "native-label; source-mechanics; native-theme-gold"
+  },
+  {
+    "id": 100,
+    "source": "Line Bomb",
+    "name": "Fuse Line",
+    "short": "Fuse Line",
+    "concept": "Puss lights the fuse with style. Original mechanics; gold color theme.",
+    "status": "native-label; source-mechanics; native-theme-gold"
+  },
+  {
+    "id": 101,
+    "source": "Frog Flare",
+    "name": "Cat Flare",
+    "short": "Cat Flare",
+    "concept": "The big eyes, weaponized. Original mechanics; onion color theme.",
+    "status": "native-label; source-mechanics; native-theme-onion"
+  },
+  {
+    "id": 102,
+    "source": "Delta Force",
+    "name": "Fairy Tale",
+    "short": "Fairy Tale",
+    "concept": "Ogre, princess and Donkey: once upon a time, then a beating. Original mechanics; swamp color theme.",
+    "status": "native-label; source-mechanics; native-theme-swamp"
+  },
+  {
+    "id": 103,
+    "source": "Life Line",
+    "name": "Rescue Team",
+    "short": "RescueTeam",
+    "concept": "Shrek, Fiona and Pinocchio revive everyone, eventually. Original mechanics; fairy color theme.",
+    "status": "native-label; source-mechanics; native-theme-fairy"
+  },
+  {
+    "id": 104,
+    "source": "Arc Impulse",
+    "name": "Big Finish",
+    "short": "Big Finish",
+    "concept": "Shrek, Fiona and Puss end it like a movie. Original mechanics; swamp color theme.",
+    "status": "native-label; source-mechanics; native-theme-swamp"
+  },
+  {
+    "id": 105,
+    "source": "Final Kick",
+    "name": "Royal Crumb Stomp",
+    "short": "Royal Crumb",
+    "concept": "Coordinated kicks end with an enormous cookie footprint; preserve Final Kick mechanics.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 106,
+    "source": "Fire Zone",
+    "name": "Barbecue",
+    "short": "Barbecue",
+    "concept": "Shrek, Donkey and Pinocchio host a swamp cookout. Original mechanics; gold color theme.",
+    "status": "native-label; source-mechanics; native-theme-gold"
+  },
+  {
+    "id": 107,
+    "source": "Delta Storm",
+    "name": "Mud Storm",
+    "short": "Mud Storm",
+    "concept": "Shrek, Donkey and Puss whip up a swamp storm. Original mechanics; swamp color theme.",
+    "status": "native-label; source-mechanics; native-theme-swamp"
+  },
+  {
+    "id": 108,
+    "source": "Gatling Kick",
+    "name": "Ogre Bakery Brawl",
+    "short": "BakeryBrawl",
+    "concept": "A rapid kick combination with a final burst of flame.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 109,
+    "source": "Triple Raid",
+    "name": "Pointy Trio",
+    "short": "Pointy Trio",
+    "concept": "A sword, rapier and extending nose strike in sequence; preserve Triple Raid mechanics.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 110,
+    "source": "Twister",
+    "name": "Fart Tornado",
+    "short": "FartTornado",
+    "concept": "Shrek, Pinocchio and Mongo spin up a whirlwind of gas, splinters and crumbs. Twister's damage, targets and MP.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 111,
+    "source": "3D Attack",
+    "name": "Silent But Deadly",
+    "short": "S.B.D.",
+    "concept": "Three attackers from three sides, and nobody hears a thing. 3D Attack's damage, target and MP; the only fart combination with no sound.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 112,
+    "source": "Dark Eternal",
+    "name": "Duloc Doom",
+    "short": "Duloc Doom",
+    "concept": "Fiona, Donkey and Farquaad agree on one thing: doom. Original mechanics; royal color theme.",
+    "status": "native-label; source-mechanics; native-theme-royal"
+  },
+  {
+    "id": 113,
+    "source": "Omega Flare",
+    "name": "Onion Flare",
+    "short": "OnionFlare",
+    "concept": "Every layer at once. Ogres are like onions. Original mechanics; onion color theme.",
+    "status": "native-label; source-mechanics; native-theme-onion"
+  },
+  {
+    "id": 114,
+    "source": "Spin Strike",
+    "name": "Three-Ring Circus",
+    "short": "3RingCircus",
+    "concept": "A three-character spinning assault; preserve Spin Strike mechanics and Silver Button unlock.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 115,
+    "source": "Poyozo Dance",
+    "name": "Swamp Hoedown",
+    "short": "SwampDance",
+    "concept": "Swamp Hoedown • White Button. An absurd dance produces the original battle effect.",
+    "status": "native-label; source-mechanics; native-animation"
+  },
+  {
+    "id": 116,
+    "source": "Grand Dream",
+    "name": "Ever After",
+    "short": "Ever After",
+    "concept": "Shrek, Puss and Farquaad dream of happily ever after. Original mechanics; pink color theme.",
+    "status": "native-label; source-mechanics; native-theme-pink"
+  }
+]

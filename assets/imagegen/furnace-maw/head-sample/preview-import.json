@@ -1,0 +1,144 @@
+{
+  "key": "furnace-maw",
+  "frames": 6,
+  "width": 64,
+  "height": 96,
+  "opaqueColors": 12,
+  "palette": [
+    "24272c",
+    "39434a",
+    "607477",
+    "99ada5",
+    "d3dfc4",
+    "553a32",
+    "926044",
+    "c4935b",
+    "81312c",
+    "d96032",
+    "ffd777",
+    "fff0c8"
+  ],
+  "samplingPalette": [
+    "24272c",
+    "39434a",
+    "607477",
+    "99ada5",
+    "d3dfc4",
+    "553a32",
+    "926044",
+    "c4935b",
+    "81312c",
+    "d96032",
+    "ffd777",
+    "fff0c8"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/furnace-maw/source-heads-v1.png",
+      "sha256": "e4eacc4869bdfc254b544d234091e6372961e1e6543df5bd931e111df7fd9d8a",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1274,
+        1235
+      ],
+      "scale": 0.12403100775193798,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 79,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {
+        "1": {
+          "bottom": 87
+        },
+        "3": {
+          "bottom": 78
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            54,
+            60,
+            386,
+            516
+          ],
+          "componentPixels": 143409
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            453,
+            60,
+            372,
+            580
+          ],
+          "componentPixels": 157379
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            858,
+            58,
+            396,
+            536
+          ],
+          "componentPixels": 135303
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            67,
+            642,
+            399,
+            557
+          ],
+          "componentPixels": 131190
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            474,
+            681,
+            360,
+            481
+          ],
+          "componentPixels": 129110
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            854,
+            681,
+            360,
+            481
+          ],
+          "componentPixels": 128901
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 3,
+          "flip": true
+        },
+        4,
+        5
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "key": "cosmic-muffin-spawn-head",
+  "frames": 2,
+  "width": 64,
+  "height": 48,
+  "opaqueColors": 12,
+  "palette": [
+    "ffffff",
+    "292910",
+    "d6efad",
+    "de9c84",
+    "d6bd21",
+    "0884ff",
+    "b5735a",
+    "8c9c6b",
+    "8c5200",
+    "732118",
+    "525a29",
+    "393929"
+  ],
+  "samplingPalette": [
+    "ffffff",
+    "292910",
+    "d6efad",
+    "de9c84",
+    "d6bd21",
+    "0884ff",
+    "b5735a",
+    "8c9c6b",
+    "8c5200",
+    "732118",
+    "525a29",
+    "393929"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/cosmic-muffin-spawn/source-head-v1.png",
+      "sha256": "35115bbb7f24fecbf335ca817c859dbcf2751b5a2c2843923643402402ab2b36",
+      "sourceType": "image-generation",
+      "dimensions": [
+        2103,
+        748
+      ],
+      "scale": 0.051643192488262914,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 37,
+        "dx": 4,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.9
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            353,
+            211,
+            403,
+            366
+          ],
+          "componentPixels": 106889
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            1348,
+            166,
+            442,
+            426
+          ],
+          "componentPixels": 132317
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Two actual generated source apertures preserve closed/rest and taller open/active phases. Both retain the original bottom anchor and4cell reservation."
+      }
+    }
+  }
+}

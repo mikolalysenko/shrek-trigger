@@ -1,0 +1,62 @@
+{
+  "key": "puss-portrait",
+  "width": 48,
+  "height": 48,
+  "palette": [
+    "2a2423",
+    "9c552e",
+    "db8b38",
+    "f3b757",
+    "f2d9aa",
+    "3d302b",
+    "785236",
+    "281f24",
+    "fff1c9",
+    "274c35",
+    "dc3c39",
+    "b9c6cc"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/puss-portrait/source-v1.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 46,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 47
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "samplingPalette": [
+    "141115",
+    "9d4b18",
+    "e98717",
+    "f8b840",
+    "f5d69a",
+    "26252c",
+    "515056",
+    "100f13",
+    "fff0c8",
+    "6ebd27",
+    "b71b28",
+    "b4bdc0"
+  ],
+  "notes": {
+    "material": "Every opaque native pixel is sampled from the recorded generated portrait; no anatomy or facial feature is drawn in the converter.",
+    "palette": "Use the frozen field model’s source material-color mapping to the unchanged native12-color palette.",
+    "activation": "Draft only; no active portrait loader or registry change."
+  }
+}

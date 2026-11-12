@@ -1,0 +1,238 @@
+{
+  "key": "duloc-court-soldier",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/duloc-executioner/draft",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "212918",
+    "eff7ef",
+    "ffc684",
+    "e79c63",
+    "946329",
+    "c6ded6",
+    "5a8cad",
+    "5a52d6",
+    "423973",
+    "4adeb5",
+    "6b84a5",
+    "393921"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/duloc-executioner/source-base-v1.png",
+      "columns": 4,
+      "rows": 3,
+      "cells": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "nativeHeight": 34,
+      "scaleCells": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "sample": {
+        "method": "area",
+        "bottom": 51
+      }
+    },
+    {
+      "file": "assets/imagegen/duloc-executioner/source-contacts-v2.png",
+      "columns": 3,
+      "rows": 1,
+      "nativeHeight": 34,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "sample": {
+        "method": "area",
+        "bottom": 51
+      },
+      "overrides": {
+        "2": {
+          "scaleX": 0.9
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/duloc-executioner/source-actions-v1.png",
+      "columns": 4,
+      "rows": 2,
+      "cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "nativeHeight": 34,
+      "scaleCells": [
+        0
+      ],
+      "componentSelection": "union",
+      "sample": {
+        "method": "area",
+        "bottom": 51
+      }
+    },
+    {
+      "file": "assets/imagegen/duloc-executioner/derived-head-fragment.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 14,
+      "scaleCells": [
+        0
+      ],
+      "sample": {
+        "method": "nearest",
+        "bottom": 51
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        {
+          "frame": 0,
+          "dy": 1
+        },
+        {
+          "frame": 3,
+          "dy": 1
+        },
+        {
+          "frame": 6,
+          "dx": 1,
+          "dy": 1
+        },
+        {
+          "frame": 6,
+          "flip": true,
+          "dy": 1
+        },
+        {
+          "frame": 1,
+          "dy": 2
+        },
+        {
+          "frame": 2,
+          "dy": 1
+        },
+        {
+          "frame": 9,
+          "dx": 1,
+          "dy": 2
+        },
+        {
+          "frame": 4,
+          "dx": 1,
+          "dy": 2
+        },
+        {
+          "frame": 5,
+          "dx": 1,
+          "dy": 1
+        },
+        {
+          "frame": 10,
+          "dx": 1,
+          "dy": 2
+        },
+        {
+          "frame": 7,
+          "dx": 1,
+          "dy": 2
+        },
+        {
+          "frame": 8,
+          "dy": 1
+        },
+        {
+          "frame": 11,
+          "dx": 1,
+          "dy": 1
+        },
+        {
+          "frame": 7,
+          "flip": true,
+          "dx": -1,
+          "dy": 2
+        },
+        {
+          "frame": 8,
+          "flip": true,
+          "dy": 1
+        },
+        {
+          "frame": 11,
+          "flip": true,
+          "dy": 1
+        },
+        {
+          "frame": 12,
+          "dx": 10,
+          "dy": -1
+        },
+        {
+          "frame": 12,
+          "flip": true,
+          "dx": -9,
+          "dy": -1
+        },
+        {
+          "frame": 13,
+          "dx": -1,
+          "dy": 2
+        },
+        {
+          "frame": 14,
+          "dx": 4
+        },
+        {
+          "frame": 15,
+          "dx": -1,
+          "dy": 2
+        },
+        {
+          "frame": 15,
+          "flip": true,
+          "dx": 2,
+          "dy": 2
+        },
+        {
+          "frame": 16,
+          "dy": 6
+        },
+        {
+          "frame": 19,
+          "dy": -19
+        },
+        {
+          "frame": 17,
+          "dx": 1,
+          "dy": -10
+        },
+        {
+          "frame": 18,
+          "dy": -9
+        }
+      ]
+    }
+  }
+}

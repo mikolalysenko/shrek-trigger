@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "original supporting atlas generation with identity/style reference",
+  "source": "source-v1.png",
+  "prompt": "prompt-v1.txt",
+  "generatedOriginal": "/Users/mikolalysenko/.codex/generated_images/01a1935b-5006-7e50-b583-516a4020afaf/exec-f36a58ee-1426-4d9a-9187-1eae07fdea98.png",
+  "sourceSha256": "551be393fcddc77bd50b6ac0a0194cff03570238fb86907fe7a9c9f160b79456",
+  "promptSha256": "17ad544966a5c32d8bf7b8a199bd5d7789285f14781b581316f2e559b71b37e8",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "references": [
+    {
+      "file": "assets/imagegen/farquaad/source-base-v1.png",
+      "sha256": "079ea1290013f67bbeb1ed40360756bf56f5da8747241ac2cf8943c9c12e06be"
+    }
+  ],
+  "observedLayout": {
+    "columns": 4,
+    "rows": 4
+  },
+  "observations": [
+    "Source cells10/11 face right, and12/13 face left, opposite the requested row labels; final mapping will use observed directions.",
+    "Front passing cell5 resembles another contact pose; a genuine passing correction is needed.",
+    "Side source contact pairs share the same arm extension; do not claim them as distinct opposite contacts before correction."
+  ],
+  "activation": "Inactive source; no native registry/engine changes"
+}

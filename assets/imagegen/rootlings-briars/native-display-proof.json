@@ -1,0 +1,693 @@
+{
+  "status": "Private inactive source override",
+  "baselineSha256": "cb2983da9aeaa3516e34e6017a05c4a62a87cbbeead40640282272adfd4d71c5",
+  "baselineManifestSha256": "5e68eb01f47500eba1b01260b0621f269f4fe9946331fc2f63659e9b7d93979b",
+  "baselineRecordsSha256": "408c36c116959c109e9734ea578faef0088bb63fc79f3ec18fce5610b6a3c1a7",
+  "candidateSha256": "deb6be67607ac8ceb06da2117e45d52e72ce81d79a9a862cd6b75eec0c20a985",
+  "candidatePath": ".local/qa/rootlings-briars-native-proof/candidate.sfc",
+  "changedBytes": 20428,
+  "defaultProductionGuardInvoked": false,
+  "requiredStreamedGraphics": [
+    89
+  ],
+  "compressedStorage": "standard owned extended lower-half packet",
+  "originalHalfLargestFreeSpan": 5992,
+  "nativeHelpersUnchanged": true,
+  "streams": [
+    {
+      "gfx": 89,
+      "address": 5316496,
+      "bytes": 12352,
+      "compressedSource": 5308416,
+      "compressedBytes": 8079,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 34,
+          "assembly": 46,
+          "palette": 33,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 35,
+          "assembly": 46,
+          "palette": 32,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 36,
+          "assembly": 46,
+          "palette": 32,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 38,
+          "assembly": 51,
+          "palette": 36,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 39,
+          "assembly": 51,
+          "palette": 37,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 40,
+          "assembly": 51,
+          "palette": 38,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 175,
+          "assembly": 50,
+          "palette": 32,
+          "size": 1
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "offset": 5308416,
+      "bytes": 8079,
+      "label": "Private plant family compressed graphics",
+      "sha256": "c7136a153377d76af23298eb8e4d39cb04524370aa534370e2c5b1a7ec78fe03"
+    },
+    {
+      "offset": 2367755,
+      "bytes": 3,
+      "label": "Private plant family graphics pointer",
+      "sha256": "0804982a7cadeba50e1438a228725bc9116587e4962900c9d3c8d634dfdd5bc2"
+    },
+    {
+      "offset": 2345200,
+      "bytes": 680,
+      "label": "Private rootling native assembly",
+      "sha256": "13af018fcfc2862eb57130fd32648852664284a33b7f64b8b6548c0035618041"
+    },
+    {
+      "offset": 3656530,
+      "bytes": 240,
+      "label": "Private snap-briar native assembly",
+      "sha256": "6070b8068497614dc8fd685058735b32477923dcb42fcda0acd1c38c0f3dbffd"
+    },
+    {
+      "offset": 1858368,
+      "bytes": 1920,
+      "label": "Private briar-rider native assembly",
+      "sha256": "9cb779df6066bc0542082476b0d27e79f1984e0a5b387851ecf70642aff69f5a"
+    },
+    {
+      "offset": 5316496,
+      "bytes": 12352,
+      "label": "NPC 89 direct-ROM graphics",
+      "sha256": "5e2b15f0a252e8ca12f0bd5dd7e124ef801daae10fbd8f5736f387606aeff671"
+    },
+    {
+      "offset": 1333021,
+      "bytes": 3,
+      "label": "Private selected gfx89 raw stream",
+      "sha256": "03e845d4963c5c521fc468e706861d64db16c9a808dbd7e8d3505376c8d6ad5c"
+    }
+  ],
+  "nativeFrameUploads": 93,
+  "exactDisplayedCells": 468,
+  "exactDisplayedOpaquePixels": 32301,
+  "allOpaquePixelsVisible": true,
+  "originalFrameAndDurationListsUnchanged": true,
+  "currentPalettePacketsUnchanged": true,
+  "originalHeadersAiAndStatsUnchanged": true,
+  "originalPerSlotBottomExact": true,
+  "horizontalCenterDifferencePixels": {
+    "rootling": 0.5,
+    "snapBriar": 0.5,
+    "briarRider": 2
+  },
+  "geometryAudit": "geometry-and-guards.json",
+  "paletteWrites": 0,
+  "fullSizeBytes0And1Unchanged": true,
+  "asm50OriginalSourceReserved": true,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "isolatedHeapBytes": [
+    {
+      "key": "rootling",
+      "bytes": 960
+    },
+    {
+      "key": "briar-root",
+      "bytes": 960
+    },
+    {
+      "key": "root-guard",
+      "bytes": 960
+    },
+    {
+      "key": "snap-briar",
+      "bytes": 960
+    },
+    {
+      "key": "hungry-briar",
+      "bytes": 960
+    },
+    {
+      "key": "dire-briar",
+      "bytes": 960
+    },
+    {
+      "key": "briar-rider",
+      "bytes": 960
+    }
+  ],
+  "evidence": ".local/qa/rootlings-briars-native-proof",
+  "evidenceFiles": [
+    {
+      "file": "candidate.json",
+      "bytes": 3285,
+      "sha256": "e0cc751984c7e997ebe196fc90a0ca7e7dbde72db5d258f31dd473dee193b551"
+    },
+    {
+      "file": "display-report.json",
+      "bytes": 118700,
+      "sha256": "2e39342ba375329799d71c3a61886e5865a9fd9f195be74ad195cab2b3788495"
+    },
+    {
+      "file": "rootling-native-1x.png",
+      "bytes": 257985,
+      "sha256": "95c62ad01b906631117e71ca87369b0f6222cfb531a7a59faafffe8c7273107c"
+    },
+    {
+      "file": "briar-root-native-1x.png",
+      "bytes": 257692,
+      "sha256": "67ab871192bb636a85d39ceeb041f0f24869718868de611363d10391958de226"
+    },
+    {
+      "file": "root-guard-native-1x.png",
+      "bytes": 257692,
+      "sha256": "67ab871192bb636a85d39ceeb041f0f24869718868de611363d10391958de226"
+    },
+    {
+      "file": "snap-briar-native-1x.png",
+      "bytes": 94447,
+      "sha256": "bac38adf42823b6e50f207a8b1427b10c575cfa79bdab37e321ebaa73908f1ed"
+    },
+    {
+      "file": "hungry-briar-native-1x.png",
+      "bytes": 93894,
+      "sha256": "da499c263137b6d9360c3c4890be6ac781d2a4cc9be85864242ecfeedeb9e430"
+    },
+    {
+      "file": "dire-briar-native-1x.png",
+      "bytes": 93934,
+      "sha256": "d6fca2198395d8ff4d6c268e87459be1e7cbe9c7c0bb61f2fe3b039ec69cc11e"
+    },
+    {
+      "file": "briar-rider-native-1x.png",
+      "bytes": 367858,
+      "sha256": "d12ec4cbba78f77ffd2b064fa8ef16c88893da7e7dd27db417a3b82847ac5b7a"
+    },
+    {
+      "file": "rootling-00.png",
+      "bytes": 56501,
+      "sha256": "73ad7826ceaf584d903f4e1b5a905cb26c0d54364e74b656128d4253ce32c38a"
+    },
+    {
+      "file": "rootling-01.png",
+      "bytes": 56601,
+      "sha256": "51f64bb93c916042981e8bf438dfc47f52f99f5a661a21efa0d178ca1f791d67"
+    },
+    {
+      "file": "rootling-02.png",
+      "bytes": 56538,
+      "sha256": "ae79426e6daa97c68ff9624ab550996fc2511e9b6adb661c7a0fc5622227dc1c"
+    },
+    {
+      "file": "rootling-03.png",
+      "bytes": 56541,
+      "sha256": "d5a67e06651e003f1eda566450b1f03c169538b588bf04b88bb7359112321725"
+    },
+    {
+      "file": "rootling-04.png",
+      "bytes": 56539,
+      "sha256": "5de71578bacd75759d144f39a738c7c2e3f847ea3b215de3341af0544c8f332d"
+    },
+    {
+      "file": "rootling-05.png",
+      "bytes": 56495,
+      "sha256": "247a17697bb5a76ea3282f0194a7be2b86ee4299cf1c7d6e8e9f25b1650f1aea"
+    },
+    {
+      "file": "rootling-06.png",
+      "bytes": 56422,
+      "sha256": "5d6e1dbe93f003ad40eaeb24ad4ceec4d163b5873baf7e522a62e8c7d3dc46a8"
+    },
+    {
+      "file": "rootling-07.png",
+      "bytes": 56490,
+      "sha256": "7237c38962d0ebd046f7c8b1750f63cfa33af2a7ebefa4d1dd2935ed08b48a76"
+    },
+    {
+      "file": "rootling-08.png",
+      "bytes": 56467,
+      "sha256": "81449eb60ab4e145c9575dd5cb122c141c7e0055de52ec79f1847bb4b995df43"
+    },
+    {
+      "file": "rootling-09.png",
+      "bytes": 56420,
+      "sha256": "885eb21555d310b70ed9372d063883b05498017b7492bb63bab56ba03ba90858"
+    },
+    {
+      "file": "rootling-10.png",
+      "bytes": 56521,
+      "sha256": "66b47742cb3318a8452917ecc566fe7b1a2b72566878a19151d6a4fe8e3a1003"
+    },
+    {
+      "file": "rootling-11.png",
+      "bytes": 56487,
+      "sha256": "b060a8e6710a89b70b452a2c4813a83d4ec9b64bda911a5004efd9ebcb83c70f"
+    },
+    {
+      "file": "rootling-12.png",
+      "bytes": 56425,
+      "sha256": "b4efc719c191cf86467a95cf4df6846974cf0fdace2309ad8844b408ffcc612d"
+    },
+    {
+      "file": "rootling-13.png",
+      "bytes": 56488,
+      "sha256": "71d6dd873242d1a3315ea8cf57691db9f830fa446b9f374211a12a827126fd67"
+    },
+    {
+      "file": "rootling-14.png",
+      "bytes": 56544,
+      "sha256": "ae29f762ace641e96b48b349e2429343aa5371a79190f1cf3a8d1cbb217cc100"
+    },
+    {
+      "file": "rootling-15.png",
+      "bytes": 56497,
+      "sha256": "3b5570eb772c44f1e2df1e3fce2c35c59c5665412017a8ec88910833d632fad3"
+    },
+    {
+      "file": "rootling-16.png",
+      "bytes": 56584,
+      "sha256": "0b7233e4e9dd77ebf9b552315dbe834ac67adf3fb7ad94d55ad0de3340f31975"
+    },
+    {
+      "file": "briar-root-00.png",
+      "bytes": 56510,
+      "sha256": "fbaf538adbedd328d8a627ae5c3d1ef206853e682e9c598563d22cddd30f9ecf"
+    },
+    {
+      "file": "briar-root-01.png",
+      "bytes": 56598,
+      "sha256": "6ff3c668b2d30668e06c373123a61e3b1c9b2e859be5f78ee11e3dec68f83a10"
+    },
+    {
+      "file": "briar-root-02.png",
+      "bytes": 56538,
+      "sha256": "bdecc3c0e3a8d12ff195968bfd84cd9dbe1d97c784dbde76fc7b5c96512641b2"
+    },
+    {
+      "file": "briar-root-03.png",
+      "bytes": 56558,
+      "sha256": "07905865585baffe0f6681116c1cd8ce9274c9b1d1ea1514ceee87cb2ead8371"
+    },
+    {
+      "file": "briar-root-04.png",
+      "bytes": 56548,
+      "sha256": "2615e0b46d28712d02b0144a901a000f3058cdc3ed09eabba0c6449fe895bce3"
+    },
+    {
+      "file": "briar-root-05.png",
+      "bytes": 56517,
+      "sha256": "ff7c00168dd2e8b324dbec9a87f177e90096c4fcadfad676e1f12b58aaefa56a"
+    },
+    {
+      "file": "briar-root-06.png",
+      "bytes": 56435,
+      "sha256": "b1221fd4dd79778bfa094218f7ca5fc8b8d4b43eec15ad7c6986c196b304a849"
+    },
+    {
+      "file": "briar-root-07.png",
+      "bytes": 56499,
+      "sha256": "b1a667bf436f7d7990409d60315444913caec6cb2c5f6056f9a8bedb2efcac61"
+    },
+    {
+      "file": "briar-root-08.png",
+      "bytes": 56476,
+      "sha256": "988b89d91b4d7cb53af5219730e191004d206573efb1c96e31c5e565e7629d68"
+    },
+    {
+      "file": "briar-root-09.png",
+      "bytes": 56444,
+      "sha256": "a5cd52c179c5e39f321966c5b9c2e692dc9dca69b616e183c09ba74545bfb381"
+    },
+    {
+      "file": "briar-root-10.png",
+      "bytes": 56521,
+      "sha256": "e01cc0a36c8ab9350d7dfa74d7281882428225da040238a274552450605d7581"
+    },
+    {
+      "file": "briar-root-11.png",
+      "bytes": 56505,
+      "sha256": "bfd680abb0aab67a0ba16ac589ca2d2313b8970a2caca2931f9c74dccd8e7220"
+    },
+    {
+      "file": "briar-root-12.png",
+      "bytes": 56451,
+      "sha256": "b69fea13c77254b54d4997cbcb77ab6ad8d6e0da3b2cfdf0f1d3c8ae71ff5d22"
+    },
+    {
+      "file": "briar-root-13.png",
+      "bytes": 56503,
+      "sha256": "36676658d626766156d287fbfc085304e59b7dd709b164112b9e8a1cf89e1ca1"
+    },
+    {
+      "file": "briar-root-14.png",
+      "bytes": 56551,
+      "sha256": "355a869c982d8a61c963c44beb77a8c1f53b187b866e75ab7f590f83a29243fd"
+    },
+    {
+      "file": "briar-root-15.png",
+      "bytes": 56512,
+      "sha256": "55f367f5b0eabe227917f680b0632769918480635d9b6034ef127998ccadca3f"
+    },
+    {
+      "file": "briar-root-16.png",
+      "bytes": 56600,
+      "sha256": "27967fa2755d42cfe251350b71bece62addd9a27cb22fb8de8024c80f2b71b6a"
+    },
+    {
+      "file": "root-guard-00.png",
+      "bytes": 56510,
+      "sha256": "fbaf538adbedd328d8a627ae5c3d1ef206853e682e9c598563d22cddd30f9ecf"
+    },
+    {
+      "file": "root-guard-01.png",
+      "bytes": 56598,
+      "sha256": "6ff3c668b2d30668e06c373123a61e3b1c9b2e859be5f78ee11e3dec68f83a10"
+    },
+    {
+      "file": "root-guard-02.png",
+      "bytes": 56538,
+      "sha256": "bdecc3c0e3a8d12ff195968bfd84cd9dbe1d97c784dbde76fc7b5c96512641b2"
+    },
+    {
+      "file": "root-guard-03.png",
+      "bytes": 56558,
+      "sha256": "07905865585baffe0f6681116c1cd8ce9274c9b1d1ea1514ceee87cb2ead8371"
+    },
+    {
+      "file": "root-guard-04.png",
+      "bytes": 56548,
+      "sha256": "2615e0b46d28712d02b0144a901a000f3058cdc3ed09eabba0c6449fe895bce3"
+    },
+    {
+      "file": "root-guard-05.png",
+      "bytes": 56517,
+      "sha256": "ff7c00168dd2e8b324dbec9a87f177e90096c4fcadfad676e1f12b58aaefa56a"
+    },
+    {
+      "file": "root-guard-06.png",
+      "bytes": 56435,
+      "sha256": "b1221fd4dd79778bfa094218f7ca5fc8b8d4b43eec15ad7c6986c196b304a849"
+    },
+    {
+      "file": "root-guard-07.png",
+      "bytes": 56499,
+      "sha256": "b1a667bf436f7d7990409d60315444913caec6cb2c5f6056f9a8bedb2efcac61"
+    },
+    {
+      "file": "root-guard-08.png",
+      "bytes": 56476,
+      "sha256": "988b89d91b4d7cb53af5219730e191004d206573efb1c96e31c5e565e7629d68"
+    },
+    {
+      "file": "root-guard-09.png",
+      "bytes": 56444,
+      "sha256": "a5cd52c179c5e39f321966c5b9c2e692dc9dca69b616e183c09ba74545bfb381"
+    },
+    {
+      "file": "root-guard-10.png",
+      "bytes": 56521,
+      "sha256": "e01cc0a36c8ab9350d7dfa74d7281882428225da040238a274552450605d7581"
+    },
+    {
+      "file": "root-guard-11.png",
+      "bytes": 56505,
+      "sha256": "bfd680abb0aab67a0ba16ac589ca2d2313b8970a2caca2931f9c74dccd8e7220"
+    },
+    {
+      "file": "root-guard-12.png",
+      "bytes": 56451,
+      "sha256": "b69fea13c77254b54d4997cbcb77ab6ad8d6e0da3b2cfdf0f1d3c8ae71ff5d22"
+    },
+    {
+      "file": "root-guard-13.png",
+      "bytes": 56503,
+      "sha256": "36676658d626766156d287fbfc085304e59b7dd709b164112b9e8a1cf89e1ca1"
+    },
+    {
+      "file": "root-guard-14.png",
+      "bytes": 56551,
+      "sha256": "355a869c982d8a61c963c44beb77a8c1f53b187b866e75ab7f590f83a29243fd"
+    },
+    {
+      "file": "root-guard-15.png",
+      "bytes": 56512,
+      "sha256": "55f367f5b0eabe227917f680b0632769918480635d9b6034ef127998ccadca3f"
+    },
+    {
+      "file": "root-guard-16.png",
+      "bytes": 56600,
+      "sha256": "27967fa2755d42cfe251350b71bece62addd9a27cb22fb8de8024c80f2b71b6a"
+    },
+    {
+      "file": "snap-briar-00.png",
+      "bytes": 56808,
+      "sha256": "0ca6ce9a52f29e1e0e1fdaab0cb834f31b711eaa963cd747dd6a1bb251540991"
+    },
+    {
+      "file": "snap-briar-01.png",
+      "bytes": 56907,
+      "sha256": "06bf00c16de9e81cecefea2a52d0dc4533010cb9f4367aac7f03e6931ef1b795"
+    },
+    {
+      "file": "snap-briar-02.png",
+      "bytes": 56785,
+      "sha256": "44ad6d35ea1d928e4b9657de84279c00d1c5434f5d2550314d08073b1e95e3eb"
+    },
+    {
+      "file": "snap-briar-03.png",
+      "bytes": 56709,
+      "sha256": "6d9d61477a8770461157a084a1772ff7e44e6f6f9338f281ea405242d936aa95"
+    },
+    {
+      "file": "snap-briar-04.png",
+      "bytes": 56618,
+      "sha256": "53fdd24604bacbb3202d0a91aa214d2a47bb9ddd4f1124dac65b3ccb8bc50718"
+    },
+    {
+      "file": "snap-briar-05.png",
+      "bytes": 56788,
+      "sha256": "0ea742ec39817652b6243a21a2bc35291a34d786e8f6124266c873771cc04046"
+    },
+    {
+      "file": "hungry-briar-00.png",
+      "bytes": 56789,
+      "sha256": "de7f06f7504e05d2aa778bf6b35f3f65d36ad5fe054ea90817c35fe5faa08de2"
+    },
+    {
+      "file": "hungry-briar-01.png",
+      "bytes": 56902,
+      "sha256": "1c5a6a1ca1f46da17c65bf46364765fb36e809099c9db44673a4c044dddaaa68"
+    },
+    {
+      "file": "hungry-briar-02.png",
+      "bytes": 56787,
+      "sha256": "7f23f5a9350c64f36199646e218ebed7e26e91095678f0af5dec197b76d3551d"
+    },
+    {
+      "file": "hungry-briar-03.png",
+      "bytes": 56693,
+      "sha256": "d7df3e1a3399491aed9e8e142340c4090a3407e0cee1b583809cde98073c2c12"
+    },
+    {
+      "file": "hungry-briar-04.png",
+      "bytes": 56618,
+      "sha256": "1f30e870a2e310249ec3d590fc9aca2cfc04392e4c479333c4c6196e05208033"
+    },
+    {
+      "file": "hungry-briar-05.png",
+      "bytes": 56755,
+      "sha256": "36bde6f28270d7360b3a9bb818261484921befcd89932df28149a520b2e05cee"
+    },
+    {
+      "file": "dire-briar-00.png",
+      "bytes": 56839,
+      "sha256": "6234d5594fc20d354e6a1dbc06d9b05da77224d581cb73d689f1a7666ddc2395"
+    },
+    {
+      "file": "dire-briar-01.png",
+      "bytes": 56925,
+      "sha256": "4dfd946dad2a0c6b5829065c4b7ff1cea202bea4f1a6c51011de4b652f1c8519"
+    },
+    {
+      "file": "dire-briar-02.png",
+      "bytes": 56788,
+      "sha256": "40035c285af6dd2530ba1a109e9243b80e9b95c4579298ba7bc310256defdc84"
+    },
+    {
+      "file": "dire-briar-03.png",
+      "bytes": 56710,
+      "sha256": "6cae3eb681381fac29c161a09eb7e28db19f01a32721d888d11872473205d8ee"
+    },
+    {
+      "file": "dire-briar-04.png",
+      "bytes": 56621,
+      "sha256": "4d7701a83bad683727b1325aa13e8159c44b1ff89714210ed5e2696fcc667ddf"
+    },
+    {
+      "file": "dire-briar-05.png",
+      "bytes": 56761,
+      "sha256": "a12dc4baf12813bed6d212af2475b2b34805053f9188938ab5aa7b50074402eb"
+    },
+    {
+      "file": "briar-rider-00.png",
+      "bytes": 56479,
+      "sha256": "80f1a22306b75d84a61d295fcb5d367a5433f8ce5ae428b9f09aecc2b7937fad"
+    },
+    {
+      "file": "briar-rider-01.png",
+      "bytes": 56639,
+      "sha256": "df3ba820593c5c00a9c62fb75630b3435959f62ea921547b964feab4a4f36720"
+    },
+    {
+      "file": "briar-rider-02.png",
+      "bytes": 56492,
+      "sha256": "ee7a71149f220366ff90d2aac70f8c409c23b3c1bf53050b45aff460df6e0f0a"
+    },
+    {
+      "file": "briar-rider-03.png",
+      "bytes": 56733,
+      "sha256": "08e7f3801426273cf75a9bb003f7bd1d25334e1340543c1d2e2f2b2c62c5018d"
+    },
+    {
+      "file": "briar-rider-04.png",
+      "bytes": 56702,
+      "sha256": "b67fecd7179ab16be255348405a3e7eaabda7d9787b5fd22320a7dfcf12c86e5"
+    },
+    {
+      "file": "briar-rider-05.png",
+      "bytes": 56664,
+      "sha256": "56b4e10cade7d18bbfdc8d6c6ee49508cb16e3eaffa7c6febc420a280d540223"
+    },
+    {
+      "file": "briar-rider-06.png",
+      "bytes": 56431,
+      "sha256": "6e8dcddf29b29858251abed32b695ebc4ebefda4042fe66263ab6efd48a19cc0"
+    },
+    {
+      "file": "briar-rider-07.png",
+      "bytes": 56480,
+      "sha256": "2c55359d058de3dda7e2d87db687eb89d3761ffb740b0a44cc0e10fff6d89a87"
+    },
+    {
+      "file": "briar-rider-08.png",
+      "bytes": 56451,
+      "sha256": "744356ade09452239cdd3d3e0ce5b7a4a2e1f349f7156702246c707d3f17a8a8"
+    },
+    {
+      "file": "briar-rider-09.png",
+      "bytes": 56470,
+      "sha256": "4bbe28fb5450ee2f6f5ef105745f2814e23c5895b96608596a7c3e165a9a27e3"
+    },
+    {
+      "file": "briar-rider-10.png",
+      "bytes": 56535,
+      "sha256": "f18e711c699c2e8b4fc91f99cf4bb62cbaaa1226e6bf74ae1978d9de048d11ae"
+    },
+    {
+      "file": "briar-rider-11.png",
+      "bytes": 56526,
+      "sha256": "f851640a18a0a6aacac764c686bec2f2dbabea778e5bc4fb0053e2eed9c54ef3"
+    },
+    {
+      "file": "briar-rider-12.png",
+      "bytes": 56787,
+      "sha256": "1bcd26d5b6c9f7d935caccf327d780b7976071f627486390493952ffec790faa"
+    },
+    {
+      "file": "briar-rider-13.png",
+      "bytes": 56693,
+      "sha256": "40470cd69b78460b776095fc72da30342c142e4effe2b612c24292eb886d562b"
+    },
+    {
+      "file": "briar-rider-14.png",
+      "bytes": 56683,
+      "sha256": "ebe57de5bae31536d22ffc4d7ed5e91ae2da3893fdf9fd37f23c7093e2fe86fb"
+    },
+    {
+      "file": "briar-rider-15.png",
+      "bytes": 56697,
+      "sha256": "446af15777788ed874ba195591c45b11524f61ae2f8e871b70aae7b04d90f284"
+    },
+    {
+      "file": "briar-rider-16.png",
+      "bytes": 56788,
+      "sha256": "6f8ecf316143e334dc28a0a70de5f543e7ef0890f4f63d7521ed7e32252c09a5"
+    },
+    {
+      "file": "briar-rider-17.png",
+      "bytes": 56473,
+      "sha256": "72b0e960f1718896520404a19146f0c0af13512a8ac4074ff32d7c8eefe95f70"
+    },
+    {
+      "file": "briar-rider-18.png",
+      "bytes": 56973,
+      "sha256": "3b3e8f5f7a5dae3aa9c6753e10253cd83f10f4c04b17cbd20633d10ccf89ec49"
+    },
+    {
+      "file": "briar-rider-19.png",
+      "bytes": 56547,
+      "sha256": "71227eafbe4080007f986dd54531f6e3fb41e25c643dff60e907ddb5eba8c95d"
+    },
+    {
+      "file": "briar-rider-20.png",
+      "bytes": 56492,
+      "sha256": "3de7c21d8f34ab251bcf64b493bd54a723ce3b9f7a36b7b0713c7ff3ede938d7"
+    },
+    {
+      "file": "briar-rider-21.png",
+      "bytes": 56543,
+      "sha256": "e946e7fb08cad37bad48052de8f86775fa7d19b8adc84af911032a085a5efd2c"
+    },
+    {
+      "file": "briar-rider-22.png",
+      "bytes": 56519,
+      "sha256": "a21fb159081bb9feb9dda48646a8aceb5a8bb159bfdfa4bf529b5132928f973e"
+    },
+    {
+      "file": "briar-rider-23.png",
+      "bytes": 56574,
+      "sha256": "61a6bc7305a13fe547ff38b918c85985402818c43e4bec3cc68fd416d4b18ee2"
+    }
+  ],
+  "runner": {
+    "file": "assets/imagegen/rootlings-briars/verify-native.mjs",
+    "sha256": "99f31f8bc8a62bb640f32bec484ad31b71fcbe26b12e2d8231cf59ad54dfc571"
+  },
+  "limitations": [
+    "Bounded native field preview only; no full route, encounter choreography or combat claim.",
+    "Native animation/timing lists are byte-identical, but static scrubbing does not establish live encounter transitions.",
+    "This bank exceeds its original decoded allowance and requires explicit gfx89 streaming; no default guard bypass is proposed.",
+    "Independent-core validation remains an integration check."
+  ],
+  "activation": false
+}

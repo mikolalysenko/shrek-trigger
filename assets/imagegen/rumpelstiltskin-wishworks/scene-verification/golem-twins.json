@@ -1,0 +1,429 @@
+{
+  "status": "Passed",
+  "name": "golem-twins",
+  "baseline": {
+    "path": ".local/qa/rumpelstiltskin-wishworks/baseline.sfc",
+    "sha256": "f33843436880bf0b7988308e2d684065c8ef6c715641cfc0d3038232f1f8ca15",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "scope": "Fixed private copy; never rewritten by candidate generation"
+  },
+  "privateRomSha256": "b8640dd2f77cd6109cfa366ddbe973a95f8e9135fe33a6f2b9cf74d0af8a3c40",
+  "scope": "Authored current location event, original actors/formation/AI and controller battle, followed by the authored progression flag and return. Initial diagnostic warp/story flags and endgame party only; no event/pose/enemy writes after entry. This is not a connected whole-chapter playthrough.",
+  "checkpoint": {
+    "id": 414,
+    "story": 200,
+    "x": 8,
+    "y": 22,
+    "d2": 0,
+    "formation": [
+      149,
+      149
+    ],
+    "up": 80,
+    "finalStory": 201
+  },
+  "nativeTicks": 12565,
+  "formation": [
+    149,
+    255,
+    255,
+    149,
+    255,
+    255,
+    255,
+    255
+  ],
+  "controllerIterations": 9,
+  "controllerActions": [
+    {
+      "item": 197
+    },
+    {
+      "slot": 0,
+      "tech": 8
+    },
+    {
+      "item": 197
+    },
+    {
+      "slot": 1,
+      "tech": 14
+    },
+    {
+      "slot": 0,
+      "tech": 8
+    },
+    {
+      "slot": 2,
+      "tech": 20
+    },
+    {
+      "slot": 1,
+      "tech": 14
+    },
+    {
+      "slot": 0,
+      "tech": 8
+    },
+    {
+      "slot": 2,
+      "tech": 20
+    }
+  ],
+  "continuationTaps": 17,
+  "survivingParty": [
+    {
+      "id": 0,
+      "hp": 861
+    },
+    {
+      "id": 1,
+      "hp": 866
+    },
+    {
+      "id": 2,
+      "hp": 852
+    }
+  ],
+  "returnLocation": 414,
+  "returnStory": 201,
+  "returnD2": 0,
+  "heapMin": 0,
+  "heapMax": 1248,
+  "loads": [
+    {
+      "frame": 8931,
+      "location": 414,
+      "pc": 12605696,
+      "object": 14,
+      "scriptPC": 982,
+      "opcode": 131,
+      "enemy": 161
+    },
+    {
+      "frame": 8931,
+      "location": 414,
+      "pc": 12605696,
+      "object": 15,
+      "scriptPC": 1277,
+      "opcode": 131,
+      "enemy": 149
+    },
+    {
+      "frame": 8931,
+      "location": 414,
+      "pc": 12605696,
+      "object": 16,
+      "scriptPC": 1367,
+      "opcode": 131,
+      "enemy": 149
+    }
+  ],
+  "battleDispatches": [
+    {
+      "frame": 10526,
+      "location": 414,
+      "pc": 12606115,
+      "object": 13,
+      "scriptPC": 973,
+      "opcode": 216
+    },
+    {
+      "frame": 19418,
+      "location": 414,
+      "pc": 12606115,
+      "object": 13,
+      "scriptPC": 973,
+      "opcode": 216
+    }
+  ],
+  "messages": [
+    {
+      "frame": 9396,
+      "location": 414,
+      "pc": 12591393,
+      "object": 14,
+      "stringId": 69,
+      "table": 14209024
+    },
+    {
+      "frame": 9602,
+      "location": 414,
+      "pc": 12591393,
+      "object": 14,
+      "stringId": 70,
+      "table": 14209024
+    },
+    {
+      "frame": 9803,
+      "location": 414,
+      "pc": 12591393,
+      "object": 14,
+      "stringId": 71,
+      "table": 14209024
+    },
+    {
+      "frame": 19494,
+      "location": 414,
+      "pc": 12591393,
+      "object": 14,
+      "stringId": 72,
+      "table": 14209024
+    },
+    {
+      "frame": 19830,
+      "location": 414,
+      "pc": 12591393,
+      "object": 14,
+      "stringId": 73,
+      "table": 14209024
+    },
+    {
+      "frame": 20226,
+      "location": 414,
+      "pc": 12591393,
+      "object": 3,
+      "stringId": 74,
+      "table": 14209024
+    },
+    {
+      "frame": 20667,
+      "location": 414,
+      "pc": 12591393,
+      "object": 14,
+      "stringId": 75,
+      "table": 14209024
+    }
+  ],
+  "techs": [
+    {
+      "frame": 10643,
+      "location": 414,
+      "pc": 12687933,
+      "object": 15,
+      "actor": 6,
+      "enemyId": 149,
+      "aiPC": 43130,
+      "operand": 65
+    },
+    {
+      "frame": 10865,
+      "location": 414,
+      "pc": 12687933,
+      "object": 15,
+      "actor": 3,
+      "enemyId": 149,
+      "aiPC": 43130,
+      "operand": 65
+    },
+    {
+      "frame": 11225,
+      "location": 414,
+      "pc": 12687933,
+      "object": 15,
+      "actor": 6,
+      "enemyId": 149,
+      "aiPC": 43136,
+      "operand": 128
+    },
+    {
+      "frame": 11731,
+      "location": 414,
+      "pc": 12687933,
+      "object": 15,
+      "actor": 3,
+      "enemyId": 149,
+      "aiPC": 43136,
+      "operand": 128
+    },
+    {
+      "frame": 12120,
+      "location": 414,
+      "pc": 12687933,
+      "object": 15,
+      "actor": 6,
+      "enemyId": 149,
+      "aiPC": 43130,
+      "operand": 65
+    },
+    {
+      "frame": 12349,
+      "location": 414,
+      "pc": 12696448,
+      "object": 15,
+      "techId": 8,
+      "actor": 0
+    },
+    {
+      "frame": 13387,
+      "location": 414,
+      "pc": 12687933,
+      "object": 15,
+      "actor": 3,
+      "enemyId": 149,
+      "aiPC": 43118,
+      "operand": 39
+    },
+    {
+      "frame": 13792,
+      "location": 414,
+      "pc": 12696448,
+      "object": 15,
+      "techId": 14,
+      "actor": 1
+    },
+    {
+      "frame": 14260,
+      "location": 414,
+      "pc": 12696448,
+      "object": 15,
+      "techId": 8,
+      "actor": 0
+    },
+    {
+      "frame": 14923,
+      "location": 414,
+      "pc": 12696448,
+      "object": 15,
+      "techId": 20,
+      "actor": 2
+    },
+    {
+      "frame": 15517,
+      "location": 414,
+      "pc": 12696448,
+      "object": 15,
+      "techId": 14,
+      "actor": 1
+    },
+    {
+      "frame": 15990,
+      "location": 414,
+      "pc": 12696448,
+      "object": 15,
+      "techId": 8,
+      "actor": 0
+    },
+    {
+      "frame": 16589,
+      "location": 414,
+      "pc": 12687933,
+      "object": 15,
+      "actor": 3,
+      "enemyId": 149,
+      "aiPC": 43149,
+      "operand": 93
+    },
+    {
+      "frame": 16972,
+      "location": 414,
+      "pc": 12687933,
+      "object": 15,
+      "actor": 6,
+      "enemyId": 149,
+      "aiPC": 43149,
+      "operand": 93
+    }
+  ],
+  "fieldPointers": [
+    {
+      "location": 414,
+      "enemy": 161,
+      "object": 14,
+      "gfx": 143,
+      "pointer": 8198464,
+      "palette": 192,
+      "palettePointer": 4608
+    },
+    {
+      "location": 414,
+      "enemy": 149,
+      "object": 15,
+      "gfx": 216,
+      "pointer": 8214000,
+      "palette": 234,
+      "palettePointer": 5616
+    },
+    {
+      "location": 414,
+      "enemy": 149,
+      "object": 16,
+      "gfx": 216,
+      "pointer": 8214000,
+      "palette": 234,
+      "palettePointer": 5616
+    }
+  ],
+  "observedNativeFieldFrames": [
+    {
+      "key": "414:wish-golem:15:6",
+      "sampledTicks": 131
+    },
+    {
+      "key": "414:rumpel:14:1",
+      "sampledTicks": 154
+    },
+    {
+      "key": "414:rumpel:14:4",
+      "sampledTicks": 111
+    },
+    {
+      "key": "414:rumpel:14:13",
+      "sampledTicks": 1
+    },
+    {
+      "key": "414:rumpel:14:14",
+      "sampledTicks": 47
+    },
+    {
+      "key": "414:rumpel:14:27",
+      "sampledTicks": 149
+    },
+    {
+      "key": "414:rumpel:14:15",
+      "sampledTicks": 10
+    },
+    {
+      "key": "414:wish-golem:15:7",
+      "sampledTicks": 2
+    },
+    {
+      "key": "414:wish-golem:15:2",
+      "sampledTicks": 24
+    },
+    {
+      "key": "414:wish-golem:15:0",
+      "sampledTicks": 17
+    },
+    {
+      "key": "414:wish-golem:15:1",
+      "sampledTicks": 289
+    },
+    {
+      "key": "414:wish-golem:16:7",
+      "sampledTicks": 2
+    },
+    {
+      "key": "414:wish-golem:16:2",
+      "sampledTicks": 20
+    },
+    {
+      "key": "414:wish-golem:16:0",
+      "sampledTicks": 9
+    },
+    {
+      "key": "414:wish-golem:16:1",
+      "sampledTicks": 286
+    },
+    {
+      "key": "414:rumpel:14:16",
+      "sampledTicks": 8
+    },
+    {
+      "key": "414:rumpel:14:26",
+      "sampledTicks": 2
+    }
+  ],
+  "allThreePalettesUnchanged": true,
+  "cartridgeUnchanged": true
+}

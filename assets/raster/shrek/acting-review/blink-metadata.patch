@@ -1,0 +1,50 @@
+--- a/assets/raster/shrek/import-spec.json
++++ b/assets/raster/shrek/import-spec.json
+@@ -2058,16 +2058,16 @@
+         "reason": "Rear stance has no visible eyes."
+       },
+       "1": {
+-        "kind": "fallback",
+-        "reason": "Closest genuine frontal idle expression; a clearly closed-eye source pose is absent."
++        "kind": "source",
++        "reason": "Genuine frontal V.Smile closed-eye variant61 of idle56; both eye whites disappear beneath lowered lids while the smiling face and body remain consistent."
+       },
+       "2": {
+-        "kind": "fallback",
+-        "reason": "Closest authentic idle expression; a clearly closed-eye directional source pose is absent."
++        "kind": "adapted",
++        "reason": "Complete-source horizontal mirror of genuine right-profile closed-eye variant8; the visible eye is closed, matching native left-facing blink."
+       },
+       "3": {
+-        "kind": "fallback",
+-        "reason": "Closest authentic idle expression; a clearly closed-eye directional source pose is absent."
++        "kind": "source",
++        "reason": "Genuine V.Smile right-profile closed-eye variant8 of idle3; the open eye-white patch is replaced by a closed dark lid."
+       }
+     },
+     "look": {
+--- a/assets/raster/shrek/import-spec.vsmile-full-draft.json
++++ b/assets/raster/shrek/import-spec.vsmile-full-draft.json
+@@ -2058,16 +2058,16 @@
+         "reason": "Rear stance has no visible eyes."
+       },
+       "1": {
+-        "kind": "fallback",
+-        "reason": "Closest genuine frontal idle expression; a clearly closed-eye source pose is absent."
++        "kind": "source",
++        "reason": "Genuine frontal V.Smile closed-eye variant61 of idle56; both eye whites disappear beneath lowered lids while the smiling face and body remain consistent."
+       },
+       "2": {
+-        "kind": "fallback",
+-        "reason": "Closest authentic idle expression; a clearly closed-eye directional source pose is absent."
++        "kind": "adapted",
++        "reason": "Complete-source horizontal mirror of genuine right-profile closed-eye variant8; the visible eye is closed, matching native left-facing blink."
+       },
+       "3": {
+-        "kind": "fallback",
+-        "reason": "Closest authentic idle expression; a clearly closed-eye directional source pose is absent."
++        "kind": "source",
++        "reason": "Genuine V.Smile right-profile closed-eye variant8 of idle3; the open eye-white patch is replaced by a closed dark lid."
+       }
+     },
+     "look": {

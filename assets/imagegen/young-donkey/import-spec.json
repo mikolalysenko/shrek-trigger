@@ -1,0 +1,89 @@
+{
+  "key": "young-donkey",
+  "notes": {
+    "material": "Every opaque native pixel is sampled from source-base-v1.png; right-facing slots are whole-frame mirrors made by the cartridge sprite convention.",
+    "background": "The Images API returned real alpha for this sheet (the provenance file's transparentBackground:false is the generator script's fixed field), so no key-color mask is used; components and samples use the PNG's own alpha.",
+    "reference": "reference-donkey-v1.png is the party Donkey's own imported frames in the same nine poses, built by scripts/donkey-family-references.mjs.",
+    "palette": "The palette is stock NPC palette 130 exactly (the child he replaces in the workshop) and is not rewritten: its three slate greys, cream, white and brown carry the foal. samplingPalette lists the sheet's own color for each entry. Palette 13, the only unowned slot, went to Ma, so the foal is a little bluer than the party Donkey.",
+    "roles": "The child program's slot 14 is blank in the source bank and stays blank.",
+    "placement": "bottom 31 puts the hooves on the source actor's ground line; nativeHeight 23 against the adult Donkey's 29."
+  },
+  "palette": [
+    "313131",
+    "dedede",
+    "ffe7ad",
+    "ff9c6b",
+    "a54a39",
+    "efce10",
+    "9c6318",
+    "8c9cad",
+    "52526b",
+    "b552e7",
+    "6b2963",
+    "73738c"
+  ],
+  "samplingPalette": [
+    "211818",
+    "f7efc6",
+    "e7cead",
+    "ff9c6b",
+    "b84038",
+    "efce10",
+    "a8744e",
+    "a8a0a0",
+    "5a4c4c",
+    "b552e7",
+    "6b2963",
+    "8c8484"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/young-donkey/source-base-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 23,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "coverageThreshold": 0.4
+      },
+      "overrides": {}
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        0
+      ],
+      "1": [
+        1
+      ],
+      "2": [
+        2
+      ]
+    },
+    "walk": {
+      "0": [
+        3,
+        0,
+        4
+      ],
+      "1": [
+        5,
+        1,
+        6
+      ],
+      "2": [
+        7,
+        8
+      ]
+    }
+  }
+}

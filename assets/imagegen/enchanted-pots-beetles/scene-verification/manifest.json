@@ -1,0 +1,129 @@
+{
+  "status": "Five original encounters and one explicitly diagnostic palette pair passed",
+  "privateRomSha256": "25848a5b60b210d9b599dc0f0847085f724a125dfd3549a04dfa9142bdd34df7",
+  "nativeTicks": 17717,
+  "originalEncounterTicks": 15152,
+  "diagnosticTicks": 2565,
+  "scenarios": [
+    {
+      "name": "forest-pots",
+      "nativeTicks": 2704,
+      "heapMax": 23424,
+      "formation": [
+        94,
+        94,
+        94,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "controllerATaps": 15,
+      "fieldOwnerLoads": 14,
+      "originalEncounter": true,
+      "proof": "scene-verification/forest-pots.json"
+    },
+    {
+      "name": "forest-beetles",
+      "nativeTicks": 2681,
+      "heapMax": 23424,
+      "formation": [
+        255,
+        141,
+        141,
+        141,
+        255,
+        255,
+        255,
+        255
+      ],
+      "controllerATaps": 13,
+      "fieldOwnerLoads": 14,
+      "originalEncounter": true,
+      "proof": "scene-verification/forest-beetles.json"
+    },
+    {
+      "name": "lab16",
+      "nativeTicks": 3382,
+      "heapMax": 9088,
+      "formation": [
+        91,
+        91,
+        91,
+        255,
+        39,
+        255,
+        255,
+        255
+      ],
+      "controllerATaps": 22,
+      "fieldOwnerLoads": 8,
+      "originalEncounter": true,
+      "proof": "scene-verification/lab16.json"
+    },
+    {
+      "name": "arris",
+      "nativeTicks": 2429,
+      "heapMax": 1984,
+      "formation": [
+        140,
+        140,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "controllerATaps": 13,
+      "fieldOwnerLoads": 4,
+      "originalEncounter": true,
+      "proof": "scene-verification/arris.json"
+    },
+    {
+      "name": "conveyor",
+      "nativeTicks": 3956,
+      "heapMax": 1248,
+      "formation": [
+        140,
+        140,
+        140,
+        140,
+        255,
+        255,
+        255,
+        255
+      ],
+      "controllerATaps": 25,
+      "fieldOwnerLoads": 4,
+      "originalEncounter": true,
+      "proof": "scene-verification/conveyor.json"
+    },
+    {
+      "name": "shared111-diagnostic",
+      "nativeTicks": 2565,
+      "heapMax": 1248,
+      "formation": [
+        91,
+        140,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "controllerATaps": 15,
+      "fieldOwnerLoads": 2,
+      "originalEncounter": false,
+      "proof": "scene-verification/shared111-diagnostic.json"
+    }
+  ],
+  "limitations": [
+    "Original palette111 owners91/140 occur in separate game encounters. Their simultaneous pairing is explicitly diagnostic.",
+    "The original forest location co-loads both banks but its pot and beetle battle formations are separate.",
+    "The Lab16 proof is the original mixed pot/Briar encounter, not a whole-region traversal. The existing full-route helper was blocked after an unrelated first fight.",
+    "Other original location uses are audited as all-branch unions; complete chapter play and independent cores remain root-owned."
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "key": "rowan",
+  "palette": [
+    "242b32",
+    "875e46",
+    "cfa27a",
+    "f5cd9d",
+    "f2e1bb",
+    "365d62",
+    "578c88",
+    "503b33",
+    "fff0ce",
+    "9b6c45",
+    "c5945c",
+    "daab57"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/rowan/source-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "scaleX": 1.2
+      },
+      "overrides": {}
+    },
+    {
+      "file": "assets/imagegen/rowan/source-walk-v2.png",
+      "columns": 2,
+      "rows": 2,
+      "cells": [
+        0
+      ],
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "scaleX": 1.2
+      }
+    },
+    {
+      "file": "assets/imagegen/rowan/source-walk-v4.png",
+      "columns": 2,
+      "rows": 2,
+      "cells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "scaleX": 1.2
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        {
+          "frame": 1,
+          "flip": true
+        }
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        {
+          "frame": 17,
+          "flip": true
+        },
+        {
+          "frame": 1,
+          "flip": true
+        },
+        {
+          "frame": 18,
+          "flip": true
+        }
+      ],
+      "1": [
+        4,
+        0,
+        16
+      ],
+      "2": [
+        8,
+        19
+      ],
+      "3": [
+        10,
+        20
+      ]
+    },
+    "talk": {
+      "2": [
+        12,
+        13
+      ],
+      "3": [
+        14,
+        15
+      ]
+    }
+  },
+  "notes": {
+    "status": "Frozen inactive draft; all native slots and corrections visually reviewed at1× and enlarged; pending lead integration review.",
+    "source": "Actual built-in image-generation PNGs with exact prompt/provenance; every opaque native pixel is sampled from source.",
+    "selectedSampling": "Compared area and nearest at28 native pixels with horizontalX1 andX1.2. Area/X1.2 selected to retain facial contours and coherent material clusters with fewer stray samples. Same method across each actor.",
+    "sourceDirections": "Front1,back0,left2,right3. Genuine rear views stay rear. Native right Alder/Bram walk/attack slots mirror genuine left pixels; Rowan side views use explicitly generated opposite directions to preserve the satchel.",
+    "nativeTiming": "Original frame IDs, animation timing and four-cell reservations unchanged. Two-phase walks use observed planted versus raised-foot contacts; three-phase front/rear walks include the original standing passing posture.",
+    "gaitCorrections": "Frontal opposite contact from walk-v2 cell0. Rearwalk-v4 cells0/1 visibly alternate the supporting boot, and all rear poses are mirrored to keep the single satchel on anatomical left hip and feather on the correct side. Sidewalk-v4 cells2/3 lift the forward boot while the rear/supporting boot is planted. Rejected duplicate-bag v2 rear and repeated-contact v3 are not imported.",
+    "wideFit": "No per-pose scale changes.",
+    "effects": "No code-drawn anatomy or effects."
+  }
+}

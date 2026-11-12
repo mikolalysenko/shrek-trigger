@@ -1,0 +1,163 @@
+{
+  "status": "Frozen inactive integration proposal; parent owns activation",
+  "key": "duloc-town-keeper",
+  "sourceSpec": "assets/imagegen/town-civilians-gfx11/import-spec.draft.json",
+  "family": "assets/imagegen/town-civilians-gfx11/full-nearest/family.json",
+  "headerOwners": [
+    {
+      "kind": "npc",
+      "id": 22,
+      "originalHeader": [
+        11,
+        7,
+        9,
+        7,
+        0
+      ],
+      "proposedHeader": [
+        11,
+        247,
+        9,
+        7,
+        0
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 49,
+      "originalHeader": [
+        11,
+        7,
+        9,
+        7,
+        0
+      ],
+      "proposedHeader": [
+        11,
+        247,
+        9,
+        7,
+        0
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 89,
+      "originalHeader": [
+        11,
+        7,
+        133,
+        7,
+        0
+      ],
+      "proposedHeader": [
+        11,
+        247,
+        133,
+        7,
+        0
+      ]
+    }
+  ],
+  "pointerAliases": [
+    {
+      "field": 0,
+      "id": 11,
+      "aliases": [
+        11
+      ],
+      "ownerCount": 3
+    },
+    {
+      "field": 1,
+      "id": 7,
+      "aliases": [
+        7
+      ],
+      "ownerCount": 25
+    },
+    {
+      "field": 2,
+      "id": 9,
+      "aliases": [
+        9
+      ],
+      "ownerCount": 11
+    },
+    {
+      "field": 2,
+      "id": 133,
+      "aliases": [
+        133
+      ],
+      "ownerCount": 43
+    },
+    {
+      "field": 3,
+      "id": 7,
+      "aliases": [
+        7
+      ],
+      "ownerCount": 29
+    }
+  ],
+  "paletteIds": [
+    9,
+    133
+  ],
+  "palettes": [
+    {
+      "id": 9,
+      "sha256": "191c34f2807d3f072839d0b0e92d41cb5522a2005d5a24887053671793fc7641"
+    },
+    {
+      "id": 133,
+      "sha256": "3bd0f2c658dc3ac58c30ccfa68eb5738671b0c4bc928901f320fe09217654bef"
+    }
+  ],
+  "paletteWrites": 0,
+  "graphics": {
+    "gfx": 11,
+    "rawBytes": 4192,
+    "compressedBytes": 3092,
+    "rawSha256": "504764bf8be5e45cd6830d5903c5261e17961f6c3d38b8ea255e8857d0d6fa9c",
+    "compressedSha256": "fc91e07a515a38f0fd022b12db649811b5bcb8a7129d350d2c9c67e9e329c3df",
+    "originalDecodedBytes": 2336,
+    "originalCompressedBytes": 1476,
+    "rawStreamRequired": true,
+    "streamGuard": "Explicit selected gfx11 ownership contract; ordinary guards for unrelated banks remain unchanged.",
+    "extraWramBytes": 0,
+    "extraVramBytes": 0,
+    "storedGrowthBeforeAlignment": 6568
+  },
+  "assembly": {
+    "asm": 247,
+    "originalSharedAssembly": 7,
+    "reservedOwnersOnly": [
+      22,
+      49,
+      89
+    ],
+    "frames": 19,
+    "cells": 4,
+    "bytes": 760,
+    "sha256": "0d8ea71fb41f1eb9284e205ac52cbefab58b0e9c738a497097c5eba6117399a8",
+    "anchor": [
+      0,
+      12
+    ],
+    "originalSignedXYBytesPreserved": 152,
+    "cellOverlapFrames": [],
+    "originalAssemblyReclaimable": false,
+    "condition": "Parent repeats current slot247 owner/pointer/claim checks before production allocation. Original asm7 pointer and760-byte packet remain exact for22 unrelated owners."
+  },
+  "animation": {
+    "id": 7,
+    "programSha256": "ae62da40171981f42ac5d000675ed98cefbeca54218c6c2e7e34916a5167c198",
+    "durationSha256": "8a7f58a78ab9b3565165c503bec3eb3b73ad2f79b6d96b5ad0d5b849eff9150f",
+    "sharedOwnerCount": 29,
+    "changes": 0
+  },
+  "permittedChanges": "GFX11 graphics pointer and scoped raw-stream pointer; one new assembly247 pointer and packet; only NPC22/49/89 assembly header fields7→247. No palettes, AA7, original asm7, AI, stats, events, collision, title, audio or unrelated assets.",
+  "activation": false
+}

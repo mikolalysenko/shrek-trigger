@@ -1,0 +1,252 @@
+{
+  "key": "kilnback",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "252a30",
+    "3e474c",
+    "677776",
+    "9da998",
+    "d5d9b6",
+    "5c3934",
+    "9d5438",
+    "ca8050",
+    "8e302c",
+    "dc5a31",
+    "ffd36f",
+    "fff0bf"
+  ],
+  "directory": "assets/imagegen/kilnback/scale50-preview",
+  "sheets": [
+    {
+      "file": "assets/imagegen/kilnback/source-base-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 50,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 63,
+        "scaleX": 0.75,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    },
+    {
+      "file": "assets/imagegen/kilnback/source-actions-v2.png",
+      "columns": 2,
+      "rows": 5,
+      "nativeHeight": 50,
+      "scaleCells": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 192,
+      "sample": {
+        "method": "area",
+        "bottom": 63,
+        "scaleX": 0.75,
+        "alphaThreshold": 192,
+        "coverageThreshold": 0.28
+      },
+      "cells": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "file": "assets/imagegen/kilnback/source-back-tremor-v1.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 50,
+      "scaleCells": [
+        0
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 63,
+        "scaleX": 0.75,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        {
+          "frame": 8,
+          "flip": true
+        },
+        9,
+        10,
+        11,
+        12,
+        18,
+        13,
+        {
+          "frame": 18,
+          "flip": true
+        },
+        14,
+        15,
+        {
+          "frame": 14,
+          "flip": true
+        },
+        16,
+        17,
+        8,
+        {
+          "frame": 16,
+          "flip": true
+        },
+        {
+          "frame": 17,
+          "flip": true
+        },
+        {
+          "frame": 8,
+          "flip": true
+        }
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "All 28 original visible slots consume 19 distinct viewed generated poses. Original gait, airborne, overhead release/charge and rapid directional tremor roles are explicit. Exact original mirror and reused-gait relationships remain; no idle substitution."
+      }
+    }
+  },
+  "notes": {
+    "status": "Inactive source-art draft; root owns activation",
+    "nativeFrames": 28,
+    "blankFrames": [],
+    "owners": [
+      155,
+      156
+    ],
+    "graphics": 139,
+    "assembly": 132,
+    "animation": 104,
+    "nativeCells": 12,
+    "frameOffsets": {
+      "1": [
+        0,
+        2
+      ],
+      "4": [
+        0,
+        2
+      ],
+      "7": [
+        0,
+        2
+      ],
+      "10": [
+        0,
+        2
+      ],
+      "13": [
+        0,
+        2
+      ],
+      "14": [
+        0,
+        2
+      ],
+      "15": [
+        0,
+        2
+      ],
+      "17": [
+        0,
+        2
+      ],
+      "20": [
+        0,
+        2
+      ],
+      "23": [
+        0,
+        2
+      ],
+      "26": [
+        0,
+        2
+      ]
+    },
+    "alternatePalette": {
+      "enemy": 156,
+      "palette": 187,
+      "colors": [
+        "29252d",
+        "4e4246",
+        "80625d",
+        "ad8d78",
+        "dbc5a0",
+        "4d313e",
+        "835064",
+        "ba7b88",
+        "943747",
+        "e66e60",
+        "ffcc81",
+        "fff0c5"
+      ]
+    },
+    "rejectedCells": [
+      {
+        "sheet": "actions-v2",
+        "cell": 4,
+        "reason": "Two tails; replaced by a genuinely generated single-tail back tremor pose"
+      }
+    ],
+    "sampling": "Uniform 0.75 horizontal sampling across all sources; 54px standing body scale. Pose-specific placement changes, if any, must be explicit in this spec."
+  }
+}

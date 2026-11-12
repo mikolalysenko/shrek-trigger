@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+const d=import.meta.dirname,root=path.resolve(d,'../../..'),freeze=JSON.parse(fs.readFileSync(path.join(d,'freeze.json'))),sha=b=>createHash('sha256').update(b).digest('hex');
+for(const f of freeze.files)assert.equal(sha(fs.readFileSync(path.join(root,f.path))),f.sha256,'Frozen source changed: '+f.path);
+for(const spec of freeze.importSpecs)execFileSync(process.execPath,['scripts/import-raster-art.mjs','--preview-spec',spec],{cwd:root,stdio:'inherit'});
+const {compileGuyDraft}=await import('./compile-draft.mjs'),{merged,packed,nativeAssemblies}=compileGuyDraft();
+assert.equal(sha(merged.graphics),freeze.native.graphicsSha256);assert.equal(sha(packed),freeze.native.compressedSha256);assert.deepEqual(merged.assemblies.map(sha),freeze.native.assemblySha256);
+assert.deepEqual(nativeAssemblies.map(sha),freeze.native.offsetAssemblySha256);
+const roles=JSON.parse(fs.readFileSync(path.join(d,'native-roles.draft.json'))).maps;assert.equal(roles.flat().length,133);
+console.log(JSON.stringify({key:'guy-fieri',frozenFiles:freeze.files.length,nativeFrames:133,tiles:merged.tiles,rawBytes:merged.graphics.length,compressedBytes:packed.length,allSourceAndNativeHashesMatch:true,activeRegistryWritten:false},null,2));

@@ -1,0 +1,119 @@
+{
+  "key": "fiona-portrait",
+  "mode": "exact RGBA crop of approved generated source atlas",
+  "sourceType": "image-generation",
+  "source": "assets/imagegen/fiona-portrait/source-crop-front-v1.png",
+  "sourceSha256": "c8c626566cd391493c1088977fef9264e483298aa212bd1ae84f5c96a93db0f1",
+  "originalSource": "assets/imagegen/fiona/source-v3.png",
+  "originalSourceSha256": "fc5433abb505c25145b3a3884d40d4957844a5fd8066e15e0627410276680e61",
+  "originalSourceDimensions": [
+    1254,
+    1254
+  ],
+  "originalGenerationProvenance": "assets/imagegen/fiona/provenance-source-v3.json",
+  "cropRectangle": [
+    66,
+    20,
+    180,
+    165
+  ],
+  "cropCoordinates": "[x,y,width,height], origin at top-left of pristine approved source PNG",
+  "operation": "Copy each RGBA source pixel in the rectangle without recoloring, repainting, alpha edits, mirroring or interpolation. Importer subsequently downsamples into the existing actor palette.",
+  "authorization": "Root explicitly requested source-pixel crop feasibility after new portrait generation returned no image. No generation retry or API call was made.",
+  "failedNewGeneration": "provenance-v1.json",
+  "sampling": {
+    "method": "area",
+    "nativeHeight": 44,
+    "bottom": 47,
+    "output": [
+      48,
+      48
+    ],
+    "palette": [
+      "212721",
+      "507345",
+      "8fb561",
+      "bfd889",
+      "e2e5ad",
+      "37664d",
+      "4f9165",
+      "68392d",
+      "f6edca",
+      "26402d",
+      "c48a4a",
+      "a34a2b"
+    ],
+    "samplingPalette": [
+      "212721",
+      "507345",
+      "8fb561",
+      "bfd889",
+      "e2e5ad",
+      "37664d",
+      "4f9165",
+      "68392d",
+      "f6edca",
+      "26402d",
+      "c48a4a",
+      "a34a2b"
+    ]
+  },
+  "status": "frozen inactive draft; lead and root approved front/area for Fiona and laugh/area for Donkey",
+  "limitations": [
+    "Field-source frontal expression and hairstyle are retained; braid lies behind the body and is not visible in this crop."
+  ],
+  "alternatives": [
+    {
+      "key": "fiona",
+      "label": "front",
+      "source": "assets/imagegen/fiona/source-v3.png",
+      "sourceSha256": "fc5433abb505c25145b3a3884d40d4957844a5fd8066e15e0627410276680e61",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": [
+        66,
+        20,
+        180,
+        165
+      ],
+      "cropFile": "assets/imagegen/fiona-portrait/source-crop-front-v1.png",
+      "cropSha256": "c8c626566cd391493c1088977fef9264e483298aa212bd1ae84f5c96a93db0f1",
+      "cropOpaqueBounds": [
+        8,
+        7,
+        164,
+        158
+      ],
+      "nativeHeight": 44
+    },
+    {
+      "key": "fiona",
+      "label": "shoulders",
+      "source": "assets/imagegen/fiona/source-v3.png",
+      "sourceSha256": "fc5433abb505c25145b3a3884d40d4957844a5fd8066e15e0627410276680e61",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": [
+        54,
+        15,
+        200,
+        185
+      ],
+      "cropFile": "assets/imagegen/fiona-portrait/source-crop-shoulders-v1.png",
+      "cropSha256": "2e269d60f878e692c57940308f3911d0415ea645b7db2f5967e90cddeefa7515",
+      "cropOpaqueBounds": [
+        18,
+        12,
+        173,
+        173
+      ],
+      "nativeHeight": 46
+    }
+  ],
+  "importSpecSha256": "0a92ad6fb8193833039ee642b8b806e2dd5ca5139e535e02d00b0653061d1071",
+  "sourceReuse": "exact crop of an approved generated field atlas; no new portrait generation"
+}

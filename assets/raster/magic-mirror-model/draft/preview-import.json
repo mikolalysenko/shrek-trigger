@@ -1,0 +1,80 @@
+{
+  "key": "magic-mirror",
+  "frames": 1,
+  "width": 48,
+  "height": 96,
+  "opaqueColors": 12,
+  "palette": [
+    "161727",
+    "222844",
+    "3f5875",
+    "667a8e",
+    "93a6b1",
+    "b8ced0",
+    "e5f3e9",
+    "4a321c",
+    "80602d",
+    "b68a3e",
+    "ddb854",
+    "f4dfa0"
+  ],
+  "samplingPalette": [
+    "0b0c1a",
+    "030530",
+    "15246a",
+    "617d88",
+    "8faab3",
+    "b7d5dc",
+    "e5ffff",
+    "211b06",
+    "3e3105",
+    "594907",
+    "776215",
+    "a18b35"
+  ],
+  "sources": [
+    {
+      "file": "assets/raster/magic-mirror-model/source-front.png",
+      "sha256": "31ee2ecfe734c266c1450795d10030f7028cc3d7ccb07794f6e2102807fd4c36",
+      "sourceType": "existing-game-model-render",
+      "dimensions": [
+        384,
+        768
+      ],
+      "scale": 0.12605042016806722,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 94
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            4,
+            27,
+            377,
+            714
+          ],
+          "componentPixels": 174212
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "semanticRoles": {
+    "idle": {
+      "1": {
+        "kind": "source",
+        "reason": "The actual Shrek Xbox static Magic Mirror model, front orthographic render. No recovered animation or newly drawn sprite anatomy."
+      }
+    }
+  }
+}

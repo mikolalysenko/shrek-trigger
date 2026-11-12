@@ -1,0 +1,125 @@
+{
+  "key": "furnace-maw",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 96,
+  "palette": [
+    "24272c",
+    "39434a",
+    "607477",
+    "99ada5",
+    "d3dfc4",
+    "553a32",
+    "926044",
+    "c4935b",
+    "81312c",
+    "d96032",
+    "ffd777",
+    "fff0c8"
+  ],
+  "directory": "assets/imagegen/furnace-maw/draft",
+  "sheets": [
+    {
+      "file": "assets/imagegen/furnace-maw/source-heads-v3.png",
+      "columns": 3,
+      "rows": 2,
+      "scaleCells": [
+        0
+      ],
+      "nativeHeight": 64,
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 79,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {
+        "0": {
+          "scale": 1,
+          "bottom": 79
+        },
+        "1": {
+          "scale": 1.0631020140105079,
+          "bottom": 87,
+          "scaleX": 0.97
+        },
+        "2": {
+          "scale": 0.924566947565543,
+          "bottom": 76,
+          "dx": -8
+        },
+        "3": {
+          "scale": 0.9758421985815603,
+          "bottom": 78,
+          "dx": -8,
+          "scaleX": 0.97
+        },
+        "4": {
+          "scale": 1.0746887966804979,
+          "bottom": 79
+        },
+        "5": {
+          "scale": 1.0724637681159421,
+          "bottom": 79,
+          "scaleX": 0.97
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 3,
+          "flip": true
+        },
+        4,
+        5
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Six viewed generated head poses provide all eight native slots; right-facing bites are explicit whole-source mirrors. Original eye-and-small-mouth phases6/7 remain distinct from the wide-open bite."
+      }
+    }
+  },
+  "notes": {
+    "status": "Inactive. Root owns production activation.",
+    "sizeByte": 6,
+    "cells": 12,
+    "graphics": 34,
+    "assembly": 23,
+    "animation": 164,
+    "owners": [
+      188,
+      189
+    ],
+    "stagingOriginRelativeActor": [
+      -32,
+      -64
+    ],
+    "nativeHeadPixelExtent": "Original front open jaw is75px tall; larger transparent staging preserves its native range without adding cells.",
+    "paletteUnchanged": true,
+    "sourceScaleNormalization": "Generated head5/6 were smaller drawings in the atlas; their whole-source scale is normalized to the same64px closed-head height. Side closed/open heights61/68 and open front75 match the original native pixel extents. No pixel anatomy is drawn.",
+    "sourceModel": "The generated body provides the iron/bronze/ember material identity.",
+    "rejectedSourceCells": [
+      {
+        "file": "source-heads-v1.png",
+        "cell": 1,
+        "reason": "The lower jaw is too wide to fit the fixed twelve-cell reservation at the original open-head height; replaced by a targeted generated correction."
+      }
+    ]
+  }
+}

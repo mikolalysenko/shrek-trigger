@@ -1,0 +1,4363 @@
+{
+  "baseline": {
+    "path": "assets/imagegen/townswomen-gfx36/private/baseline.sfc",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "sha256": "0758f532bcbf0322997553f1e11b40463e15ab463a54555e4a624b4cd4bacd3f",
+    "bytes": 8388608
+  },
+  "counts": {
+    "recordsAttempted": 512,
+    "recordsDecoded": 504,
+    "locations": 15,
+    "loads": 16,
+    "objects": 16
+  },
+  "scenes": [
+    {
+      "location": 4,
+      "name": "Lucca's Workshop",
+      "context": "Donkey family rescue flashback: machinery approach, repeated startled/sweat pose and original outcome flags. Preserve the existing disabled/saved story alternatives without changing mechanics.",
+      "eventId": 26,
+      "packetSha256": "31e24d0b64e6f11b4b0517efb80d753ace1b2a3b40a5f913cd124b25cd3ff512",
+      "originalPacketUnchanged": true,
+      "objects": [
+        {
+          "object": 11,
+          "npcs": [
+            213
+          ],
+          "sourceLoads": [
+            {
+              "offset": 1198,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                213
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 1198,
+              "endExclusive": 1220,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 1220,
+              "endExclusive": 1221,
+              "aliases": [
+                1,
+                2
+              ]
+            },
+            {
+              "start": 1221,
+              "endExclusive": 1281,
+              "aliases": [
+                3
+              ]
+            },
+            {
+              "start": 1281,
+              "endExclusive": 1308,
+              "aliases": [
+                4
+              ]
+            },
+            {
+              "start": 1308,
+              "endExclusive": 1312,
+              "aliases": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 1200,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                90,
+                2,
+                6,
+                6
+              ],
+              "length": 5
+            },
+            {
+              "offset": 1205,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                6,
+                17
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1210,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                124,
+                32,
+                6,
+                4
+              ],
+              "length": 5
+            },
+            {
+              "offset": 1221,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                9,
+                17
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1226,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                9,
+                18
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1229,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                13,
+                18
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1232,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                14,
+                13
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1235,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1238,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1246,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1255,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1265,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1283,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1285,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                124,
+                32,
+                6,
+                18
+              ],
+              "length": 5
+            }
+          ],
+          "texts": [
+            {
+              "id": 15,
+              "tableAddress": 16162816,
+              "offset": 3580758,
+              "text": "LARA: What IS this thing?{br}Taban says to keep away from it,{br}but it's so dusty.{br}I'll just…"
+            },
+            {
+              "id": 16,
+              "tableAddress": 16162816,
+              "offset": 3580824,
+              "text": "LARA: Dear me!{br}My skirt…it's…I'm STUCK!{br}{Donkey}!{br}{Donkey}, HELP!"
+            },
+            {
+              "id": 18,
+              "tableAddress": 16162816,
+              "offset": 3580891,
+              "text": "LARA: !!{br}{Donkey}!{br}Enter the password!{br}Stop this machine!{full}{Donkey}: But I don't know it, mommie!"
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [
+        {
+          "offset": 669,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            84,
+            0,
+            128,
+            248,
+            4
+          ],
+          "length": 6
+        },
+        {
+          "offset": 778,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            84,
+            0,
+            128,
+            143,
+            1
+          ],
+          "length": 6
+        }
+      ],
+      "allNpcIds": [
+        39,
+        38,
+        92,
+        213,
+        112
+      ],
+      "allEnemyIds": [],
+      "transitions": [
+        {
+          "offset": 573,
+          "opcode": 225,
+          "name": "Change Location",
+          "args": [
+            4618,
+            25,
+            9
+          ],
+          "length": 5
+        },
+        {
+          "offset": 913,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            1008,
+            43,
+            55
+          ],
+          "length": 5
+        },
+        {
+          "offset": 1453,
+          "opcode": 225,
+          "name": "Change Location",
+          "args": [
+            4618,
+            25,
+            9
+          ],
+          "length": 5
+        }
+      ],
+      "battles": []
+    },
+    {
+      "location": 9,
+      "name": "Lara's Room",
+      "context": "Donkey family room: conditional seated parent, standing/walking recovery and raised-hand gestures.",
+      "eventId": 29,
+      "packetSha256": "d862132cc0751e5c8d617e413a743b09ea8e7f26a82c5b2c8706a7d7dd83d617",
+      "originalPacketUnchanged": true,
+      "objects": [
+        {
+          "object": 9,
+          "npcs": [
+            213
+          ],
+          "sourceLoads": [
+            {
+              "offset": 416,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                213
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 416,
+              "endExclusive": 487,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 487,
+              "endExclusive": 505,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 505,
+              "endExclusive": 506,
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 418,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                2432,
+                6592
+              ],
+              "length": 5
+            },
+            {
+              "offset": 424,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                51
+              ],
+              "length": 2
+            },
+            {
+              "offset": 426,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                19
+              ],
+              "length": 2
+            },
+            {
+              "offset": 428,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                90,
+                2,
+                6,
+                2
+              ],
+              "length": 5
+            },
+            {
+              "offset": 433,
+              "opcode": 145,
+              "name": "Drawing Off (corrected reference label)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 434,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                124,
+                128,
+                6,
+                3
+              ],
+              "length": 5
+            },
+            {
+              "offset": 442,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                124,
+                128,
+                6,
+                40
+              ],
+              "length": 5
+            },
+            {
+              "offset": 447,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 449,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                25
+              ],
+              "length": 3
+            },
+            {
+              "offset": 452,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 454,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                28
+              ],
+              "length": 3
+            },
+            {
+              "offset": 458,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 460,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                11,
+                26
+              ],
+              "length": 3
+            },
+            {
+              "offset": 467,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 469,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 471,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 474,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 476,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 478,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 481,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                27
+              ],
+              "length": 3
+            },
+            {
+              "offset": 487,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                15,
+                5
+              ],
+              "length": 3
+            },
+            {
+              "offset": 494,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                124,
+                128,
+                6,
+                5
+              ],
+              "length": 5
+            }
+          ],
+          "texts": [
+            {
+              "id": 1,
+              "tableAddress": 16162816,
+              "offset": 3580137,
+              "text": "LARA: Oh, hi {Shrek}.{br}{Donkey}'s off at Leene Square with{br}her father, Taban, unveiling her new{br}invention."
+            },
+            {
+              "id": 3,
+              "tableAddress": 16162816,
+              "offset": 3580243,
+              "text": "LARA: What a beautiful day!{br}I'll finish the housework and take a{br}walk."
+            },
+            {
+              "id": 2,
+              "tableAddress": 16162816,
+              "offset": 3580203,
+              "text": "LARA: {Donkey} and Taban only care{br}about their silly toys!"
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [],
+      "allNpcIds": [
+        39,
+        213
+      ],
+      "allEnemyIds": [],
+      "transitions": [],
+      "battles": []
+    },
+    {
+      "location": 50,
+      "name": "Porre Mayor's Manor 1F (Present)",
+      "context": "Mayor household woman, moving and facing branches.",
+      "eventId": 118,
+      "packetSha256": "9e12aa006bc7650c37416d035b9630dae6e847e014d1c95abd36bfdf1c166a50",
+      "originalPacketUnchanged": true,
+      "objects": [
+        {
+          "object": 9,
+          "npcs": [
+            13
+          ],
+          "sourceLoads": [
+            {
+              "offset": 1116,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                13
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 1116,
+              "endExclusive": 1150,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 1150,
+              "endExclusive": 1161,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 1161,
+              "endExclusive": 1162,
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 1118,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                3712,
+                10080
+              ],
+              "length": 5
+            },
+            {
+              "offset": 1123,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1126,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1128,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1130,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                20
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1132,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1134,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                11,
+                39
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1137,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1139,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1141,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                20
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1143,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1145,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                14,
+                39
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1150,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                210,
+                4,
+                134,
+                5
+              ],
+              "length": 5
+            }
+          ],
+          "texts": [
+            {
+              "id": 37,
+              "tableAddress": 14607104,
+              "offset": 2025514,
+              "text": "I wish my husband were a little less{br}generous."
+            },
+            {
+              "id": 36,
+              "tableAddress": 14607104,
+              "offset": 2025474,
+              "text": "The children are slipping away from us.{br}It's so sad…"
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [],
+      "allNpcIds": [
+        25,
+        13,
+        15,
+        191
+      ],
+      "allEnemyIds": [],
+      "transitions": [],
+      "battles": []
+    },
+    {
+      "location": 56,
+      "name": "Porre Ticket Office",
+      "context": "Ticket-office attendant, front raised-hand response.",
+      "eventId": 123,
+      "packetSha256": "f05c5500b83f788847d81ba379281f6e830a1e892e06e908c64a14d897957b30",
+      "originalPacketUnchanged": true,
+      "objects": [
+        {
+          "object": 12,
+          "npcs": [
+            13
+          ],
+          "sourceLoads": [
+            {
+              "offset": 652,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                13
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 652,
+              "endExclusive": 665,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 665,
+              "endExclusive": 673,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 673,
+              "endExclusive": 674,
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 654,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                13952,
+                9920
+              ],
+              "length": 5
+            },
+            {
+              "offset": 659,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                51
+              ],
+              "length": 2
+            },
+            {
+              "offset": 661,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 665,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                17
+              ],
+              "length": 2
+            },
+            {
+              "offset": 669,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 671,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            }
+          ],
+          "texts": [
+            {
+              "id": 25,
+              "tableAddress": 14607104,
+              "offset": 2025104,
+              "text": "I take the ferry every chance I get!"
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [],
+      "allNpcIds": [
+        22,
+        13,
+        191
+      ],
+      "allEnemyIds": [],
+      "transitions": [
+        {
+          "offset": 539,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            1008,
+            63,
+            40
+          ],
+          "length": 5
+        },
+        {
+          "offset": 586,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            1008,
+            63,
+            40
+          ],
+          "length": 5
+        },
+        {
+          "offset": 633,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            1008,
+            63,
+            40
+          ],
+          "length": 5
+        }
+      ],
+      "battles": []
+    },
+    {
+      "location": 58,
+      "name": "Choras Mayor's Manor 1F",
+      "context": "Two simultaneous seated townswomen with different palettes9 and131; one also uses startled reaction.",
+      "eventId": 432,
+      "packetSha256": "3a4fed56fe0510dcc59f6d303d1c458a52485751f3cd6ba73bf6bbdfbdd9ed7f",
+      "originalPacketUnchanged": true,
+      "objects": [
+        {
+          "object": 9,
+          "npcs": [
+            13
+          ],
+          "sourceLoads": [
+            {
+              "offset": 442,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                13
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 442,
+              "endExclusive": 455,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 455,
+              "endExclusive": 466,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 466,
+              "endExclusive": 467,
+              "aliases": [
+                2
+              ]
+            },
+            {
+              "start": 467,
+              "endExclusive": 474,
+              "aliases": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 444,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                11680,
+                15040
+              ],
+              "length": 5
+            },
+            {
+              "offset": 449,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 451,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                51
+              ],
+              "length": 2
+            },
+            {
+              "offset": 455,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                163,
+                64,
+                134,
+                5
+              ],
+              "length": 5
+            },
+            {
+              "offset": 467,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 471,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                5
+              ],
+              "length": 2
+            }
+          ],
+          "texts": [
+            {
+              "id": 44,
+              "tableAddress": 16271952,
+              "offset": 3708399,
+              "text": "I'm bored…{br}Maybe I'll check out the Millennial Fair!"
+            },
+            {
+              "id": 43,
+              "tableAddress": 16271952,
+              "offset": 3708381,
+              "text": "Ghosts lurk in the ruins."
+            },
+            {
+              "id": 46,
+              "tableAddress": 16271952,
+              "offset": 3708482,
+              "text": "Scary!"
+            }
+          ]
+        },
+        {
+          "object": 10,
+          "npcs": [
+            40
+          ],
+          "sourceLoads": [
+            {
+              "offset": 474,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                40
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 474,
+              "endExclusive": 488,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 488,
+              "endExclusive": 504,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 504,
+              "endExclusive": 505,
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 477,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                13408,
+                15296
+              ],
+              "length": 5
+            },
+            {
+              "offset": 482,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 484,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                51
+              ],
+              "length": 2
+            },
+            {
+              "offset": 488,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                163,
+                64,
+                134,
+                5
+              ],
+              "length": 5
+            }
+          ],
+          "texts": [
+            {
+              "id": 48,
+              "tableAddress": 16271952,
+              "offset": 3708536,
+              "text": "A peaceful world is a boring world…"
+            },
+            {
+              "id": 45,
+              "tableAddress": 16271952,
+              "offset": 3708439,
+              "text": "They say some brain-dead ghost hangs{br}out in the ruins to the north."
+            },
+            {
+              "id": 47,
+              "tableAddress": 16271952,
+              "offset": 3708488,
+              "text": "Spirits, still attached to the real world,{br}live in places like that."
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [],
+      "allNpcIds": [
+        28,
+        13,
+        40,
+        21
+      ],
+      "allEnemyIds": [],
+      "transitions": [],
+      "battles": []
+    },
+    {
+      "location": 61,
+      "name": "Choras Carpenter's Residence (Present)",
+      "context": "Carpenter household woman; waving and idle alternation in the tools/ruins sidequest.",
+      "eventId": 435,
+      "packetSha256": "a334baefb23d4c25873569cbfdf95fb67549c406844d4358dee13a11e5f297e4",
+      "originalPacketUnchanged": true,
+      "objects": [
+        {
+          "object": 8,
+          "npcs": [
+            13
+          ],
+          "sourceLoads": [
+            {
+              "offset": 355,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                13
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 355,
+              "endExclusive": 367,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 367,
+              "endExclusive": 442,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 442,
+              "endExclusive": 443,
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 357,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                20,
+                56
+              ],
+              "length": 3
+            },
+            {
+              "offset": 360,
+              "opcode": 180,
+              "name": "Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 369,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                158,
+                128,
+                134,
+                5
+              ],
+              "length": 5
+            },
+            {
+              "offset": 378,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 382,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                158,
+                32,
+                134,
+                54
+              ],
+              "length": 5
+            },
+            {
+              "offset": 394,
+              "opcode": 180,
+              "name": "Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 397,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                22,
+                54
+              ],
+              "length": 3
+            },
+            {
+              "offset": 400,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 403,
+              "opcode": 179,
+              "name": "Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 405,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 407,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 409,
+              "opcode": 179,
+              "name": "Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 410,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 412,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 418,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                20,
+                56
+              ],
+              "length": 3
+            },
+            {
+              "offset": 440,
+              "opcode": 180,
+              "name": "Animation",
+              "args": [],
+              "length": 1
+            }
+          ],
+          "texts": [
+            {
+              "id": 78,
+              "tableAddress": 16271952,
+              "offset": 3709778,
+              "text": "Careful with 'em."
+            },
+            {
+              "id": 76,
+              "tableAddress": 16271952,
+              "offset": 3709674,
+              "text": "My husband's never around!{br}I'm gonna show him who's BOSS.{br}Next time, POW, right in the kisser!"
+            },
+            {
+              "id": 77,
+              "tableAddress": 16271952,
+              "offset": 3709743,
+              "text": "What?{br}His tools?{br}Oh, hold on, they're right here."
+            },
+            {
+              "id": 0,
+              "tableAddress": 16271952,
+              "offset": 3706897,
+              "text": "{br}            Got 1 {item}!"
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [],
+      "allNpcIds": [
+        13,
+        191
+      ],
+      "allEnemyIds": [],
+      "transitions": [],
+      "battles": []
+    },
+    {
+      "location": 80,
+      "name": "Millennial Fair (Ending: Moonlight Parade)",
+      "context": "Family parent seated at the original parade table, forced hardware OBJ row6 with sourcepalette8. Root owns the separate row7 correction.",
+      "eventId": 84,
+      "packetSha256": "6d388d4b78aadb2922d32119214065cdc5591b09064cc084039cbe0b0deb2b8c",
+      "originalPacketUnchanged": true,
+      "objects": [
+        {
+          "object": 39,
+          "npcs": [
+            213
+          ],
+          "sourceLoads": [
+            {
+              "offset": 3114,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                213
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 3114,
+              "endExclusive": 3141,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 3141,
+              "endExclusive": 3157,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 3157,
+              "endExclusive": 3158,
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 3116,
+              "opcode": 51,
+              "name": "Change Palette",
+              "args": [
+                6
+              ],
+              "length": 2
+            },
+            {
+              "offset": 3118,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                124,
+                128,
+                6,
+                7
+              ],
+              "length": 5
+            },
+            {
+              "offset": 3123,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                21,
+                32
+              ],
+              "length": 3
+            },
+            {
+              "offset": 3129,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                22,
+                33
+              ],
+              "length": 3
+            },
+            {
+              "offset": 3133,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                19
+              ],
+              "length": 2
+            },
+            {
+              "offset": 3141,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                124,
+                128,
+                6,
+                5
+              ],
+              "length": 5
+            }
+          ],
+          "texts": [
+            {
+              "id": 58,
+              "tableAddress": 16167472,
+              "offset": 3586865,
+              "text": "LARA: Honey, don't just be a sack of{br}potatoes!{br}Dance with me!"
+            },
+            {
+              "id": 57,
+              "tableAddress": 16167472,
+              "offset": 3586834,
+              "text": "LARA: What a dreamy night…{br}Thank you darling."
+            },
+            {
+              "id": 59,
+              "tableAddress": 16167472,
+              "offset": 3586912,
+              "text": "LARA: {Shrek}, the King says YOU{br}saved the future!{br}Wait 'till I tell my friends!"
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [
+        {
+          "offset": 1715,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            0
+          ],
+          "length": 2
+        },
+        {
+          "offset": 1758,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            1
+          ],
+          "length": 2
+        },
+        {
+          "offset": 1801,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            2
+          ],
+          "length": 2
+        },
+        {
+          "offset": 1817,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            3
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2056,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2131,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2206,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2250,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2294,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2381,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2417,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2480,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2509,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2538,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2567,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2596,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2652,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2693,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2734,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2782,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2795,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2821,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2847,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2873,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2899,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2921,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2943,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2965,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2987,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3001,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3015,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3029,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3050,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3071,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3086,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3101,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3116,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            6
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3160,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3191,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        }
+      ],
+      "allNpcIds": [
+        78,
+        197,
+        190,
+        196,
+        85,
+        214,
+        80,
+        79,
+        0,
+        213,
+        39,
+        215
+      ],
+      "allEnemyIds": [],
+      "transitions": [],
+      "battles": []
+    },
+    {
+      "location": 114,
+      "name": "Truce Couple's Residence (Middle Ages)",
+      "context": "Middle-Ages couple household citizen.",
+      "eventId": 335,
+      "packetSha256": "208a85607ed326e8d7314c7a966e03bb4616ef0449476f7f3868e4e9e047a143",
+      "originalPacketUnchanged": false,
+      "objects": [
+        {
+          "object": 8,
+          "npcs": [
+            40
+          ],
+          "sourceLoads": [
+            {
+              "offset": 355,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                40
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 355,
+              "endExclusive": 393,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 393,
+              "endExclusive": 424,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 424,
+              "endExclusive": 425,
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 357,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                5,
+                8
+              ],
+              "length": 3
+            },
+            {
+              "offset": 362,
+              "opcode": 166,
+              "name": "NPC Facing",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 367,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                8
+              ],
+              "length": 3
+            },
+            {
+              "offset": 370,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 373,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                10,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 376,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 378,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 381,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                8
+              ],
+              "length": 3
+            },
+            {
+              "offset": 384,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                5,
+                8
+              ],
+              "length": 3
+            },
+            {
+              "offset": 387,
+              "opcode": 166,
+              "name": "NPC Facing",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 389,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 395,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                138,
+                25
+              ],
+              "length": 3
+            },
+            {
+              "offset": 398,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                43,
+                18
+              ],
+              "length": 3
+            }
+          ],
+          "texts": [
+            {
+              "id": 154,
+              "tableAddress": 13912572,
+              "offset": 1330057,
+              "text": "A festival in Duloc?{br}This is the year 600. King Alder{br}has a war to worry about."
+            },
+            {
+              "id": 187,
+              "tableAddress": 13912572,
+              "offset": 1330246,
+              "text": "Farquaad has reached the bridge.{br}Please tell me the guards can{br}keep him on the other side."
+            },
+            {
+              "id": 197,
+              "tableAddress": 13912572,
+              "offset": 1330358,
+              "text": "Peace. We made it.{br}I hardly know what to do first."
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [],
+      "allNpcIds": [
+        40,
+        41
+      ],
+      "allEnemyIds": [],
+      "transitions": [],
+      "battles": []
+    },
+    {
+      "location": 122,
+      "name": "Guardia Queen's Chamber (Middle Ages)",
+      "context": "Middle-Ages queen chamber attendant.",
+      "eventId": 242,
+      "packetSha256": "bbe8a468ab291ef4eb0d7a34c4c074b022287c1505584ab03dd680abdc72892f",
+      "originalPacketUnchanged": false,
+      "objects": [
+        {
+          "object": 11,
+          "npcs": [
+            40
+          ],
+          "sourceLoads": [
+            {
+              "offset": 1392,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                40
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 1392,
+              "endExclusive": 1417,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 1417,
+              "endExclusive": 1461,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 1461,
+              "endExclusive": 1462,
+              "aliases": [
+                2
+              ]
+            },
+            {
+              "start": 1462,
+              "endExclusive": 1465,
+              "aliases": [
+                3
+              ]
+            },
+            {
+              "start": 1465,
+              "endExclusive": 1485,
+              "aliases": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 1394,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                161,
+                1,
+                6,
+                7
+              ],
+              "length": 5
+            },
+            {
+              "offset": 1399,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                54,
+                59
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1405,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                44,
+                44
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1409,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                84,
+                3
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1414,
+              "opcode": 145,
+              "name": "Drawing Off (corrected reference label)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1419,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                161,
+                1,
+                6,
+                36
+              ],
+              "length": 5
+            },
+            {
+              "offset": 1424,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                28,
+                22
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1471,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                43,
+                46
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1474,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                41,
+                46
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1477,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                42,
+                52
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1480,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                54,
+                59
+              ],
+              "length": 3
+            }
+          ],
+          "texts": [
+            {
+              "id": 39,
+              "tableAddress": 16462956,
+              "offset": 3881234,
+              "text": "Finished already?{br}I trust you were courteous."
+            },
+            {
+              "id": 40,
+              "tableAddress": 16462956,
+              "offset": 3881263,
+              "text": "Did you cause any trouble?{br}   Of course not!{br}   Well... yes."
+            },
+            {
+              "id": 41,
+              "tableAddress": 16462956,
+              "offset": 3881311,
+              "text": "Quite sure?"
+            },
+            {
+              "id": 42,
+              "tableAddress": 16462956,
+              "offset": 3881319,
+              "text": "Oh! I must not tell anyone.{br}Certainly not before supper."
+            },
+            {
+              "id": 190,
+              "tableAddress": 16462956,
+              "offset": 3882050,
+              "text": "Leaving already?{br}Take care of one another."
+            },
+            {
+              "id": 188,
+              "tableAddress": 16462956,
+              "offset": 3881993,
+              "text": "You really do look like her."
+            },
+            {
+              "id": 20,
+              "tableAddress": 16462956,
+              "offset": 3880447,
+              "text": "You rescued the queen?{br}I suppose appearances can deceive."
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [
+        {
+          "offset": 905,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            86,
+            16,
+            112,
+            240,
+            1
+          ],
+          "length": 6
+        },
+        {
+          "offset": 1818,
+          "opcode": 136,
+          "name": "Mem Copy",
+          "args": [
+            64,
+            31,
+            8,
+            1
+          ],
+          "length": 5
+        },
+        {
+          "offset": 1930,
+          "opcode": 136,
+          "name": "Mem Copy",
+          "args": [
+            64,
+            31,
+            8,
+            4
+          ],
+          "length": 5
+        },
+        {
+          "offset": 2141,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            86,
+            16,
+            112,
+            240,
+            6
+          ],
+          "length": 6
+        },
+        {
+          "offset": 2317,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            86,
+            16,
+            112,
+            15,
+            8
+          ],
+          "length": 6
+        }
+      ],
+      "allNpcIds": [
+        51,
+        48,
+        40,
+        112,
+        69
+      ],
+      "allEnemyIds": [],
+      "transitions": [],
+      "battles": []
+    },
+    {
+      "location": 123,
+      "name": "Guardia Kitchen (Middle Ages)",
+      "context": "Middle-Ages castle kitchen worker with native walking routes.",
+      "eventId": 243,
+      "packetSha256": "9db5ce4e95acddab1008081dde449773457328bfd7e2f49c6d33f8eea09b2a62",
+      "originalPacketUnchanged": false,
+      "objects": [
+        {
+          "object": 11,
+          "npcs": [
+            40
+          ],
+          "sourceLoads": [
+            {
+              "offset": 1243,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                40
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 1243,
+              "endExclusive": 1279,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 1279,
+              "endExclusive": 1323,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 1323,
+              "endExclusive": 1324,
+              "aliases": [
+                2
+              ]
+            },
+            {
+              "start": 1324,
+              "endExclusive": 1349,
+              "aliases": [
+                3
+              ]
+            },
+            {
+              "start": 1349,
+              "endExclusive": 1375,
+              "aliases": [
+                4
+              ]
+            },
+            {
+              "start": 1375,
+              "endExclusive": 1378,
+              "aliases": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 1245,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1247,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                84,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1250,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                7,
+                28
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1256,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                8,
+                27
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1261,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                84,
+                4
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1267,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                9,
+                27
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1270,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                20
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1272,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                8,
+                27
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1275,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                20
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1279,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                138,
+                40
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1282,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                84,
+                23
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1285,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                28,
+                15
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1288,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                160,
+                16,
+                6,
+                6
+              ],
+              "length": 5
+            },
+            {
+              "offset": 1307,
+              "opcode": 22,
+              "name": "If",
+              "args": [
+                169,
+                8,
+                6,
+                6
+              ],
+              "length": 5
+            },
+            {
+              "offset": 1327,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                28
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1330,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                3,
+                28
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1333,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                3,
+                17
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1336,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                16,
+                17
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1341,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                17,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1344,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                17,
+                14
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1351,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                17,
+                18
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1354,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                16,
+                18
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1359,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                3,
+                18
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1362,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                3,
+                28
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1365,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                28
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1368,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                28
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1372,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            }
+          ],
+          "texts": [
+            {
+              "id": 68,
+              "tableAddress": 14854706,
+              "offset": 2273063,
+              "text": "My husband chose the kitchen{br}because he hates fighting.{br}Life has a strange sense of humor."
+            },
+            {
+              "id": 55,
+              "tableAddress": 14854706,
+              "offset": 2272499,
+              "text": "The kitchen has its own battles."
+            },
+            {
+              "id": 191,
+              "tableAddress": 14854706,
+              "offset": 2273461,
+              "text": "Elowen is truly home?{br}Then we need a feast!"
+            },
+            {
+              "id": 176,
+              "tableAddress": 14854706,
+              "offset": 2273374,
+              "text": "He can season anything{br}except his own words."
+            },
+            {
+              "id": 169,
+              "tableAddress": 14854706,
+              "offset": 2273133,
+              "text": "Will this help King Alder{br}regain his strength?"
+            },
+            {
+              "id": 235,
+              "tableAddress": 14854706,
+              "offset": 2274052,
+              "text": "The chef is inventing{br}a victory feast."
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [],
+      "allNpcIds": [
+        134,
+        70,
+        40,
+        48,
+        43,
+        24,
+        51
+      ],
+      "allEnemyIds": [],
+      "transitions": [],
+      "battles": []
+    },
+    {
+      "location": 124,
+      "name": "Guardia Barracks (Middle Ages)",
+      "context": "Middle-Ages barracks civilian attendant.",
+      "eventId": 244,
+      "packetSha256": "e59d53a2c27d1430860c0b508b7b3b8f431ce8621d8dc5f725b66b2d842ce235",
+      "originalPacketUnchanged": false,
+      "objects": [
+        {
+          "object": 25,
+          "npcs": [
+            40
+          ],
+          "sourceLoads": [
+            {
+              "offset": 1868,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                40
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 1868,
+              "endExclusive": 1890,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 1890,
+              "endExclusive": 1899,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 1899,
+              "endExclusive": 1900,
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 1870,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                28,
+                24
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1873,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                84,
+                4
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1876,
+              "opcode": 145,
+              "name": "Drawing Off (corrected reference label)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1879,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                138,
+                3
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1884,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                26,
+                22
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1890,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                138,
+                5
+              ],
+              "length": 3
+            }
+          ],
+          "texts": [
+            {
+              "id": 166,
+              "tableAddress": 14064792,
+              "offset": 1483067,
+              "text": "Alder is doing all he can.{br}We must do the same."
+            },
+            {
+              "id": 231,
+              "tableAddress": 14064792,
+              "offset": 1483358,
+              "text": "Everyone is recovering!"
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [],
+      "allNpcIds": [
+        48,
+        150,
+        24,
+        43,
+        40
+      ],
+      "allEnemyIds": [],
+      "transitions": [],
+      "battles": []
+    },
+    {
+      "location": 137,
+      "name": "Sandorino Elder's House",
+      "context": "Sandorino elder household woman.",
+      "eventId": 182,
+      "packetSha256": "5d55590bc20f5d3ab277717158f0759a4e4be49e65a304a84b229dbaa7575f69",
+      "originalPacketUnchanged": false,
+      "objects": [
+        {
+          "object": 12,
+          "npcs": [
+            40
+          ],
+          "sourceLoads": [
+            {
+              "offset": 836,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                40
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 836,
+              "endExclusive": 864,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 864,
+              "endExclusive": 890,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 890,
+              "endExclusive": 891,
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 838,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                24,
+                58
+              ],
+              "length": 3
+            },
+            {
+              "offset": 843,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                51
+              ],
+              "length": 2
+            },
+            {
+              "offset": 850,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                23,
+                58
+              ],
+              "length": 3
+            },
+            {
+              "offset": 854,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 856,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                25,
+                58
+              ],
+              "length": 3
+            },
+            {
+              "offset": 860,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            }
+          ],
+          "texts": [
+            {
+              "id": 63,
+              "tableAddress": 14344270,
+              "offset": 1761768,
+              "text": "Farquaad has three lieutenants.{br}Jack Horner and two enforcers.{full}One collects magic.{br}The others collect trouble."
+            },
+            {
+              "id": 64,
+              "tableAddress": 14344270,
+              "offset": 1761853,
+              "text": "Farquaad's three lieutenants{br}fled to an island.{full}They have not given up.{br}Please be careful out there."
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [],
+      "allNpcIds": [
+        44,
+        5,
+        41,
+        45,
+        40,
+        47,
+        42
+      ],
+      "allEnemyIds": [],
+      "transitions": [],
+      "battles": []
+    },
+    {
+      "location": 138,
+      "name": "Sandorino Inn",
+      "context": "Sandorino inn civilian.",
+      "eventId": 183,
+      "packetSha256": "5fa39178b462bc1f8e8744900eddb9496fa45a6d0988d7a1a24c57cbcef70311",
+      "originalPacketUnchanged": false,
+      "objects": [
+        {
+          "object": 26,
+          "npcs": [
+            40
+          ],
+          "sourceLoads": [
+            {
+              "offset": 2527,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                40
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 2527,
+              "endExclusive": 2553,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 2553,
+              "endExclusive": 2573,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 2573,
+              "endExclusive": 2574,
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 2529,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                2304,
+                2176
+              ],
+              "length": 5
+            },
+            {
+              "offset": 2539,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                8,
+                8
+              ],
+              "length": 3
+            },
+            {
+              "offset": 2543,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 2545,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                10,
+                8
+              ],
+              "length": 3
+            },
+            {
+              "offset": 2549,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            }
+          ],
+          "texts": [
+            {
+              "id": 92,
+              "tableAddress": 14852570,
+              "offset": 2270794,
+              "text": "An old magic hatchet...{br}Carnival something?{full}No smith can make another{br}like it. That much I remember."
+            },
+            {
+              "id": 64,
+              "tableAddress": 14852570,
+              "offset": 2269946,
+              "text": "Farquaad's three lieutenants{br}fled to an island.{full}They have not given up.{br}Please be careful out there."
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [],
+      "allNpcIds": [
+        150,
+        42,
+        41,
+        49,
+        52,
+        111,
+        44,
+        5,
+        48,
+        50,
+        40
+      ],
+      "allEnemyIds": [],
+      "transitions": [
+        {
+          "offset": 2175,
+          "opcode": 223,
+          "name": "Change Location",
+          "args": [
+            62,
+            11,
+            26
+          ],
+          "length": 5
+        }
+      ],
+      "battles": []
+    },
+    {
+      "location": 139,
+      "name": "Sandorino Market",
+      "context": "Sandorino market walking worker/customer.",
+      "eventId": 184,
+      "packetSha256": "0d3379da4756b6e1e1516769bf3d3705de6ab393bc2f44b52ecb8eaa81b2005a",
+      "originalPacketUnchanged": false,
+      "objects": [
+        {
+          "object": 10,
+          "npcs": [
+            40
+          ],
+          "sourceLoads": [
+            {
+              "offset": 480,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                40
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 480,
+              "endExclusive": 494,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 494,
+              "endExclusive": 505,
+              "aliases": [
+                1
+              ]
+            },
+            {
+              "start": 505,
+              "endExclusive": 506,
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 482,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                54,
+                26
+              ],
+              "length": 3
+            },
+            {
+              "offset": 487,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                51
+              ],
+              "length": 2
+            },
+            {
+              "offset": 491,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 496,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                138,
+                5
+              ],
+              "length": 3
+            }
+          ],
+          "texts": [
+            {
+              "id": 49,
+              "tableAddress": 16570358,
+              "offset": 3987585,
+              "text": "The hero has appeared?{full}Then the next battle is close.{br}Please be ready."
+            },
+            {
+              "id": 50,
+              "tableAddress": 16570358,
+              "offset": 3987630,
+              "text": "Peace at last!{br}Three cheers for the hero!{full}And one for everyone who kept{br}the village standing until now."
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [],
+      "allNpcIds": [
+        49,
+        40,
+        48
+      ],
+      "allEnemyIds": [],
+      "transitions": [],
+      "battles": []
+    },
+    {
+      "location": 155,
+      "name": "Porre Cafe (Middle Ages)",
+      "context": "Middle-Ages cafe patron with walking and raised-hand celebration branches.",
+      "eventId": 189,
+      "packetSha256": "767766100524aae57755a315ce04c5ec0d649412477a86791bffd1aac9559498",
+      "originalPacketUnchanged": false,
+      "objects": [
+        {
+          "object": 11,
+          "npcs": [
+            40
+          ],
+          "sourceLoads": [
+            {
+              "offset": 942,
+              "opcode": 130,
+              "name": "Load NPC",
+              "args": [
+                40
+              ],
+              "length": 2
+            }
+          ],
+          "functions": [
+            {
+              "start": 942,
+              "endExclusive": 1179,
+              "aliases": [
+                0
+              ]
+            },
+            {
+              "start": 1179,
+              "endExclusive": 1180,
+              "aliases": [
+                1,
+                2
+              ]
+            },
+            {
+              "start": 1180,
+              "endExclusive": 1246,
+              "aliases": [
+                3
+              ]
+            },
+            {
+              "start": 1246,
+              "endExclusive": 1252,
+              "aliases": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "offset": 944,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                25,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 949,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                35
+              ],
+              "length": 2
+            },
+            {
+              "offset": 954,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 973,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                23,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 977,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 985,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 988,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 991,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 994,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 997,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1000,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1003,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1008,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1010,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                24,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1013,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1022,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                23,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1026,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1028,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                25,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1032,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                24,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1041,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1043,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                25,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1046,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1048,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                24,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1052,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1054,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                23,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1058,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1060,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                24,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1063,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1081,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                23,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1085,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1094,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1097,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1100,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1103,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1106,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1109,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1112,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1117,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1119,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                24,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1122,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1132,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                23,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1136,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1138,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                25,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1142,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                24,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1151,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1153,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                25,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1156,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1158,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                24,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1162,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1164,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                23,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1168,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1170,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                24,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1173,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1188,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1198,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                25,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1207,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                24,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1220,
+              "opcode": 24,
+              "name": "Check Storyline",
+              "args": [
+                96,
+                5
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1238,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                24,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1246,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1248,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            }
+          ],
+          "texts": [
+            {
+              "id": 170,
+              "tableAddress": 13776958,
+              "offset": 1194576,
+              "text": "MISTRESS: Little Tata must be away…{br}We haven't seen him in awhile.{page}But things are a lot quieter without{br}that brat around."
+            },
+            {
+              "id": 171,
+              "tableAddress": 13776958,
+              "offset": 1194662,
+              "text": "MISTRESS: I guess Tata's home now.{br}It was so quiet without him…{page}But I'm glad he's back.{br}It was a bit TOO quiet around here…"
+            },
+            {
+              "id": 172,
+              "tableAddress": 13776958,
+              "offset": 1194760,
+              "text": "MISTRESS: And I have plans of my own…{page}Now that the boy's back, it's time to{br}set my sights on his father, hee hee."
+            }
+          ]
+        }
+      ],
+      "paletteCommands": [
+        {
+          "offset": 768,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            128,
+            13,
+            8,
+            27381529209789
+          ],
+          "length": 11
+        },
+        {
+          "offset": 810,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            83,
+            16,
+            239,
+            240,
+            2
+          ],
+          "length": 6
+        }
+      ],
+      "allNpcIds": [
+        4,
+        40,
+        48,
+        44,
+        52,
+        49,
+        5
+      ],
+      "allEnemyIds": [],
+      "transitions": [
+        {
+          "offset": 899,
+          "opcode": 223,
+          "name": "Change Location",
+          "args": [
+            402,
+            55,
+            9
+          ],
+          "length": 5
+        }
+      ],
+      "battles": []
+    }
+  ],
+  "decodeExceptions": [
+    {
+      "location": 448,
+      "eventId": 231,
+      "address": 16363497,
+      "offset": 3780585,
+      "referenceName": "corrupt",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 231,
+      "originalAddress": 16363497,
+      "originalOffset": 3780585,
+      "originalError": "Invalid LZ back-reference"
+    },
+    {
+      "location": 452,
+      "eventId": 232,
+      "address": 16363497,
+      "offset": 3780585,
+      "referenceName": "corrupt",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 232,
+      "originalAddress": 16363497,
+      "originalOffset": 3780585,
+      "originalError": "Invalid LZ back-reference"
+    },
+    {
+      "location": 453,
+      "eventId": 233,
+      "address": 16363497,
+      "offset": 3780585,
+      "referenceName": "corrupt",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 233,
+      "originalAddress": 16363497,
+      "originalOffset": 3780585,
+      "originalError": "Invalid LZ back-reference"
+    },
+    {
+      "location": 454,
+      "eventId": 234,
+      "address": 16363497,
+      "offset": 3780585,
+      "referenceName": "corrupt",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 234,
+      "originalAddress": 16363497,
+      "originalOffset": 3780585,
+      "originalError": "Invalid LZ back-reference"
+    },
+    {
+      "location": 455,
+      "eventId": 235,
+      "address": 16363497,
+      "offset": 3780585,
+      "referenceName": "corrupt",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 235,
+      "originalAddress": 16363497,
+      "originalOffset": 3780585,
+      "originalError": "Invalid LZ back-reference"
+    },
+    {
+      "location": 461,
+      "eventId": 320,
+      "address": 16448160,
+      "offset": 3865248,
+      "referenceName": "empty",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 320,
+      "originalAddress": 16448160,
+      "originalOffset": 3865248,
+      "originalError": "Invalid LZ back-reference"
+    },
+    {
+      "location": 462,
+      "eventId": 321,
+      "address": 16448160,
+      "offset": 3865248,
+      "referenceName": "empty",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 321,
+      "originalAddress": 16448160,
+      "originalOffset": 3865248,
+      "originalError": "Invalid LZ back-reference"
+    },
+    {
+      "location": 463,
+      "eventId": 322,
+      "address": 16448160,
+      "offset": 3865248,
+      "referenceName": "empty",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 322,
+      "originalAddress": 16448160,
+      "originalOffset": 3865248,
+      "originalError": "Invalid LZ back-reference"
+    }
+  ],
+  "paletteRules": "Preserve exact source palettes9/131/8. Opcode33 selects a hardware OBJ row, not a source palette. NPC213 uses row6 in parade80; sourcepalette8 remains exact. Latest parent event80 row7 fix is outside this older immutable audit and must be included in later integrated proof.",
+  "semanticCorrection": "Original19/20 are seated left/right. Do not reuse the Granny wrapper bow/recoil labels as pose meaning.",
+  "scope": "Static complete current packet decode and dialogue ownership; live visibility and whole rescue/ending acceptance have not been claimed."
+}

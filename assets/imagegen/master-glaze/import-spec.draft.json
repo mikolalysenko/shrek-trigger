@@ -1,0 +1,220 @@
+{
+  "key": "master-glaze",
+  "sourceType": "image-generation",
+  "width": 32,
+  "height": 32,
+  "palette": [
+    "2c2630",
+    "634345",
+    "b77754",
+    "eab789",
+    "ffdfaf",
+    "533542",
+    "914154",
+    "c65c59",
+    "566466",
+    "9ca8a3",
+    "f4ead0",
+    "e0b65d"
+  ],
+  "directory": "assets/imagegen/master-glaze/draft",
+  "sheets": [
+    {
+      "file": "assets/imagegen/master-glaze/source-base-v1.png",
+      "columns": 3,
+      "rows": 4,
+      "nativeHeight": 31,
+      "scaleCells": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "cells": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "file": "assets/imagegen/master-glaze/source-actions-v1.png",
+      "columns": 4,
+      "rows": 2,
+      "nativeHeight": 31,
+      "scaleCells": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    },
+    {
+      "file": "assets/imagegen/master-glaze/source-contacts-v1.png",
+      "columns": 2,
+      "rows": 2,
+      "cells": [
+        0
+      ],
+      "nativeHeight": 31,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    },
+    {
+      "file": "assets/imagegen/master-glaze/source-contacts-v2.png",
+      "columns": 2,
+      "rows": 1,
+      "nativeHeight": 31,
+      "scaleCells": [
+        0,
+        1
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        14,
+        2,
+        3,
+        15,
+        4,
+        5,
+        16,
+        {
+          "frame": 4,
+          "flip": true
+        },
+        {
+          "frame": 5,
+          "flip": true
+        },
+        {
+          "frame": 16,
+          "flip": true
+        },
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "adapted",
+        "reason": "Seventeen source-generated complete body poses cover all twenty native slots. Right profile gait is an exact whole-source mirror of the corresponding left gait, matching the native mirror relationship. Corrected rear/front contacts retain the spoon hand; the new left profile phase bends the rearward near leg. All IDs, four-cell footprint, choreography and offsets are retained."
+      }
+    }
+  },
+  "notes": {
+    "status": "Frozen inactive full-source candidate; all twenty native upload and pixel checks pass.",
+    "nativeFrames": 20,
+    "blankFrames": [],
+    "owners": [
+      154
+    ],
+    "graphics": 141,
+    "assembly": 135,
+    "animation": 101,
+    "nativeCells": 4,
+    "frameOffsets": {
+      "1": [
+        0,
+        1
+      ],
+      "4": [
+        0,
+        1
+      ],
+      "7": [
+        0,
+        1
+      ],
+      "10": [
+        0,
+        1
+      ],
+      "12": [
+        0,
+        1
+      ],
+      "13": [
+        1,
+        1
+      ],
+      "14": [
+        0,
+        2
+      ],
+      "15": [
+        0,
+        5
+      ],
+      "16": [
+        0,
+        4
+      ],
+      "17": [
+        0,
+        5
+      ]
+    },
+    "palette": "Existing twelve-color Master Glaze hardware palette; no palette changes.",
+    "nativeOrder": "Four three-phase directional gaits followed by the eight fixed gesture/action slots. The full original animation program is retained in native-audit.json.",
+    "sourceMaterialMapping": "Source ivory is quantized to the existing ivory/gray cloth indices, skin to its existing brown/peach indices, plum coat and gold spoon to their existing ramps. samplingPalette affects source classification only; emitted hardware palette is unchanged.",
+    "gait": "Base contact candidates that swapped the spoon hand or repeated support were rejected. The selected rear alternative is contact-v1 cell0; front alternative and bent-leg left contact are contact-v2 cells0/1. Rear/profile passing poses occlude the spoon behind the near arm/body; native slots1,7,10 contain no visible gold spoon pixels. This intentional source occlusion is retained, not repaired with drawn pixels."
+  },
+  "samplingPalette": [
+    "211b22",
+    "63412f",
+    "ad603a",
+    "df925f",
+    "faba84",
+    "3c2230",
+    "723048",
+    "a2485c",
+    "807761",
+    "b5a88a",
+    "ead6b2",
+    "c29128"
+  ]
+}

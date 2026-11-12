@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "activation": false,
+  "baselineSha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+  "candidateSha256": "8565c1f02e1d49920be0618a9f0848883e54048898a378d0c7bdb2533c77765b",
+  "core": "repository native65816/PPU",
+  "location": 164,
+  "entry": {
+    "x": 16,
+    "y": 13,
+    "party": [
+      0,
+      1,
+      2
+    ],
+    "endgame": true,
+    "story": 3,
+    "settlingVideoFrames": 450
+  },
+  "scope": "Two original event-driven Vamp patrols, no controller input after entry. Compare world XY at1/16px and original frame request/timer/phase/mode on original-art baseline and private generated candidate.",
+  "results": [
+    {
+      "object": 12,
+      "enemy": 81,
+      "fullSize": 192,
+      "baselineStartTick": 1,
+      "candidateStartTick": 0,
+      "comparedTicks": 899,
+      "phaseOffsetVideoFrames": 1,
+      "framesObserved": [
+        0,
+        1,
+        2
+      ],
+      "worldPositionCount": 216
+    },
+    {
+      "object": 13,
+      "enemy": 81,
+      "fullSize": 192,
+      "baselineStartTick": 1,
+      "candidateStartTick": 0,
+      "comparedTicks": 899,
+      "phaseOffsetVideoFrames": 1,
+      "framesObserved": [
+        0,
+        1,
+        2
+      ],
+      "worldPositionCount": 234
+    }
+  ],
+  "traces": [
+    {
+      "file": ".local/qa/woodland-bats-native-proof/flight-baseline.json",
+      "sha256": "ea69e8569b55969170192ff0cd15bf432aa87a96fd65b00fa20f594adeef3c2c",
+      "firstVideoFrame": 9306,
+      "ticks": 900,
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/flight-candidate.json",
+      "sha256": "99a3cf34874ff7d1c077cc43eb493bf8e42cd35b5947ce4ccf7dbf754dcd82b1",
+      "firstVideoFrame": 9306,
+      "ticks": 900,
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    }
+  ],
+  "limits": [
+    "Route and native request comparison only. Exact displayed cells/palettes are in separate all-pose and actual-scene proofs.",
+    "Any startup phase shift is explicit; this does not assert universal field/battle latency.",
+    "Slot7 has no observed consumer in these original flying routes."
+  ]
+}

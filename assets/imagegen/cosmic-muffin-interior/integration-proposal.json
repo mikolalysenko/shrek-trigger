@@ -1,0 +1,499 @@
+{
+  "status": "Frozen inactive source proposal; root owns activation",
+  "model": "Cosmic Muffin living oven heart and paired baked oven-door/claw arms",
+  "owners": [
+    203,
+    204,
+    205
+  ],
+  "unchangedPlaceholder": {
+    "enemy": 203,
+    "gfx": 167,
+    "asm": 159,
+    "frames": 2,
+    "blank": true,
+    "sharedOwners": [
+      9,
+      10,
+      203,
+      241
+    ]
+  },
+  "background": {
+    "location": 475,
+    "map": 32,
+    "tileset": 46,
+    "palette": 56,
+    "paletteSlot": 7,
+    "canvas": [
+      256,
+      144
+    ],
+    "sourceOrigin": [
+      0,
+      4
+    ],
+    "nativeBodyScreenOffset": [
+      0,
+      -9
+    ],
+    "graphics": [
+      {
+        "file": "body-draft/bg181.4bpp",
+        "bytes": 4096,
+        "sha256": "e2a881a7b6c202ece979d4d126a9b7547e03f523f6682795cddd91ceb4b538e8",
+        "id": 181,
+        "compressed": {
+          "file": "body-draft/bg181.ct-lz",
+          "bytes": 3421,
+          "sha256": "485dceffae69a09c3ff24fcf6753dc95bd52379a5ec1fcf8aa6721139c0ff899"
+        },
+        "originalRaw": 4096,
+        "originalCompressed": 3102
+      },
+      {
+        "file": "body-draft/bg182.4bpp",
+        "bytes": 4096,
+        "sha256": "8e36362e4ee9c69d3c8cbdcdb7e52722fd0f637cf93bbe2fa4616102bb2b46e3",
+        "id": 182,
+        "compressed": {
+          "file": "body-draft/bg182.ct-lz",
+          "bytes": 3037,
+          "sha256": "4d323772f87c67da54accc8b93bda665e4f7c40d9762d83430908963b24df832"
+        },
+        "originalRaw": 4096,
+        "originalCompressed": 3020
+      }
+    ],
+    "metatiles": {
+      "file": "body-draft/tileset46.bin",
+      "bytes": 4096,
+      "sha256": "59e843f8e0267094abdaa505aab050d06d143591bd9f9a7b95e108a2016fa9fb",
+      "compressed": {
+        "file": "body-draft/tileset46.ct-lz",
+        "bytes": 2821,
+        "sha256": "54860f29bd6d88293c732c4523be0e3e4e522faa692814272279e328f88315f8"
+      },
+      "modifiedMetatiles": [
+        1,
+        143
+      ],
+      "metatile0BlankExact": true,
+      "lowerMetatiles144To511Exact": true,
+      "mapCollisionBytesExact": true
+    },
+    "pulse": {
+      "graphics": {
+        "file": "pulse-draft/bg22.4bpp",
+        "bytes": 8192,
+        "sha256": "d9bd08bdded71d299d8c6b69d6ff5a5fcfb4d5cbcd703b4efd3f283a6ab41f32",
+        "compressed": {
+          "file": "pulse-draft/bg22.ct-lz",
+          "bytes": 3581,
+          "sha256": "0b66d53853262bf495060ffd2555c794dbe23b1a795da6fd80fcff04ec608f82"
+        }
+      },
+      "sourceTiles": [
+        116,
+        164
+      ],
+      "destinationTiles": [
+        416,
+        428
+      ],
+      "rangesHalfOpen": true,
+      "unchangedOtherSourceTiles": 208,
+      "originalProgramsExact": true,
+      "threeRegions": [
+        {
+          "part": 0,
+          "origin": [
+            96,
+            40
+          ],
+          "dest": 416,
+          "phases": [
+            {
+              "phase": 0,
+              "source": "source-pulse-dim-v1.png",
+              "sourceTile": 116,
+              "ticksByte": 26,
+              "pixelsSha256": "92932636d643172ad808708364a2e0bbfeb52a12a1065f60e6bd0143f3e15864",
+              "baseSilhouetteSamples": 0
+            },
+            {
+              "phase": 1,
+              "source": "source-body-v2.png",
+              "sourceTile": 120,
+              "ticksByte": 32,
+              "pixelsSha256": "9ebac5f9347bf9e515079115739e8bb560d4547dafc756aa3ff987b47c31ef7f",
+              "baseSilhouetteSamples": 0
+            },
+            {
+              "phase": 2,
+              "source": "source-pulse-bright-v1.png",
+              "sourceTile": 124,
+              "ticksByte": 26,
+              "pixelsSha256": "151be24aca379353625caf47fa9c20fb3e967dadaf946f37f6cc947863be8945",
+              "baseSilhouetteSamples": 0
+            },
+            {
+              "phase": 3,
+              "source": "source-body-v2.png",
+              "sourceTile": 128,
+              "ticksByte": 32,
+              "pixelsSha256": "9ebac5f9347bf9e515079115739e8bb560d4547dafc756aa3ff987b47c31ef7f",
+              "baseSilhouetteSamples": 0
+            }
+          ]
+        },
+        {
+          "part": 1,
+          "origin": [
+            120,
+            72
+          ],
+          "dest": 420,
+          "phases": [
+            {
+              "phase": 0,
+              "source": "source-pulse-dim-v1.png",
+              "sourceTile": 132,
+              "ticksByte": 26,
+              "pixelsSha256": "948afdd07f539dbf84db7843bc1909d17ea11e6024b3a01e7624179759c7c7b5",
+              "baseSilhouetteSamples": 0
+            },
+            {
+              "phase": 1,
+              "source": "source-body-v2.png",
+              "sourceTile": 136,
+              "ticksByte": 32,
+              "pixelsSha256": "a410034441dd942cac98087841191b3134155fb7b4115a8159df7d3b8597681e",
+              "baseSilhouetteSamples": 0
+            },
+            {
+              "phase": 2,
+              "source": "source-pulse-bright-v1.png",
+              "sourceTile": 140,
+              "ticksByte": 26,
+              "pixelsSha256": "1ce4b854d45553b0969a37b1bdb88001d8d90c24f31a43580c1822c5e014ab29",
+              "baseSilhouetteSamples": 0
+            },
+            {
+              "phase": 3,
+              "source": "source-body-v2.png",
+              "sourceTile": 144,
+              "ticksByte": 32,
+              "pixelsSha256": "a410034441dd942cac98087841191b3134155fb7b4115a8159df7d3b8597681e",
+              "baseSilhouetteSamples": 0
+            }
+          ]
+        },
+        {
+          "part": 2,
+          "origin": [
+            120,
+            120
+          ],
+          "dest": 424,
+          "phases": [
+            {
+              "phase": 0,
+              "source": "source-pulse-dim-v1.png",
+              "sourceTile": 148,
+              "ticksByte": 26,
+              "pixelsSha256": "12656e732e68682686b2ba9528dcdb9a75d65c2b735f08e4e85f6ae4d79c074b",
+              "baseSilhouetteSamples": 0
+            },
+            {
+              "phase": 1,
+              "source": "source-body-v2.png",
+              "sourceTile": 152,
+              "ticksByte": 32,
+              "pixelsSha256": "e99d4704539aaf08aab1e4be981f3ec38e31a8f1606777da5120b98ad77e0f4f",
+              "baseSilhouetteSamples": 0
+            },
+            {
+              "phase": 2,
+              "source": "source-pulse-bright-v1.png",
+              "sourceTile": 156,
+              "ticksByte": 26,
+              "pixelsSha256": "e4eb8d8e9edbcfe8906cfc6d18917f384f99c83c9cecd7a5d634878fa82ccbdc",
+              "baseSilhouetteSamples": 0
+            },
+            {
+              "phase": 3,
+              "source": "source-body-v2.png",
+              "sourceTile": 160,
+              "ticksByte": 32,
+              "pixelsSha256": "e99d4704539aaf08aab1e4be981f3ec38e31a8f1606777da5120b98ad77e0f4f",
+              "baseSilhouetteSamples": 0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "arms": {
+    "graphics": {
+      "file": "arms-draft/shared.4bpp",
+      "bytes": 12640,
+      "sha256": "74629eac03910b616daeccabd44c8a26b05a3c023b6ec51cc03e163aec45e928",
+      "compressed": {
+        "file": "arms-draft/shared.ct-lz",
+        "bytes": 12128,
+        "sha256": "2d8edc883c00709c6cb7d6fd4f182efb1d30752677ea60484ec8cfb6666aac52"
+      }
+    },
+    "shareGraphicsBetweenIds": [
+      208,
+      209
+    ],
+    "nativeSize": 2,
+    "cells": 12,
+    "framesPerOwner": 12,
+    "assemblies": [
+      {
+        "file": "arms-draft/assembly201.bin",
+        "bytes": 1440,
+        "sha256": "352cd3c5577aacce3181ff50da389d327f7ac0aa1eec3fa3696c0f65397eb699",
+        "enemy": 204,
+        "asm": 201,
+        "alreadyAdjustedNativeCoordinates": true,
+        "doNotApplyAnotherOffset": true
+      },
+      {
+        "file": "arms-draft/assembly202.bin",
+        "bytes": 1440,
+        "sha256": "afc74c17cd1bffbfe025a97b39111bb2dcde7ef6bdbcaa49db62738d65ab3f2b",
+        "enemy": 205,
+        "asm": 202,
+        "alreadyAdjustedNativeCoordinates": true,
+        "doNotApplyAnotherOffset": true
+      }
+    ],
+    "sampling": "Each original pose bounding height multiplied by0.9, source horizontal sampling0.9; original top anchor retained.",
+    "cellOverlapFrames": [
+      3,
+      4
+    ],
+    "allOverlappingSourcePixelsIdentical": true,
+    "originalMirrorAdjustments": [
+      {
+        "frame": 0,
+        "leftOpaque": 2079,
+        "rightOpaque": 2079,
+        "dx": 0,
+        "dy": 0,
+        "matches": 2079,
+        "covered": 2079,
+        "score": 2079,
+        "pixelDifferences": 0
+      },
+      {
+        "frame": 1,
+        "leftOpaque": 1253,
+        "rightOpaque": 1253,
+        "dx": 0,
+        "dy": 0,
+        "matches": 1253,
+        "covered": 1253,
+        "score": 1253,
+        "pixelDifferences": 0
+      },
+      {
+        "frame": 2,
+        "leftOpaque": 1584,
+        "rightOpaque": 1584,
+        "dx": -4,
+        "dy": -4,
+        "matches": 1584,
+        "covered": 1584,
+        "score": 1584,
+        "pixelDifferences": 0
+      },
+      {
+        "frame": 3,
+        "leftOpaque": 2232,
+        "rightOpaque": 2232,
+        "dx": 0,
+        "dy": 0,
+        "matches": 2231,
+        "covered": 2232,
+        "score": 2230,
+        "pixelDifferences": 2
+      },
+      {
+        "frame": 4,
+        "leftOpaque": 2306,
+        "rightOpaque": 2306,
+        "dx": 0,
+        "dy": 0,
+        "matches": 2294,
+        "covered": 2306,
+        "score": 2282,
+        "pixelDifferences": 24
+      },
+      {
+        "frame": 5,
+        "leftOpaque": 1760,
+        "rightOpaque": 1760,
+        "dx": 2,
+        "dy": 0,
+        "matches": 1133,
+        "covered": 1668,
+        "score": 598,
+        "pixelDifferences": 1254
+      },
+      {
+        "frame": 6,
+        "leftOpaque": 1032,
+        "rightOpaque": 1036,
+        "dx": 2,
+        "dy": 0,
+        "matches": 737,
+        "covered": 984,
+        "score": 490,
+        "pixelDifferences": 594
+      },
+      {
+        "frame": 7,
+        "leftOpaque": 1940,
+        "rightOpaque": 1940,
+        "dx": 0,
+        "dy": 0,
+        "matches": 1940,
+        "covered": 1940,
+        "score": 1940,
+        "pixelDifferences": 0
+      },
+      {
+        "frame": 8,
+        "leftOpaque": 1699,
+        "rightOpaque": 1699,
+        "dx": 0,
+        "dy": 0,
+        "matches": 1699,
+        "covered": 1699,
+        "score": 1699,
+        "pixelDifferences": 0
+      },
+      {
+        "frame": 9,
+        "leftOpaque": 1627,
+        "rightOpaque": 1627,
+        "dx": -8,
+        "dy": 0,
+        "matches": 1627,
+        "covered": 1627,
+        "score": 1627,
+        "pixelDifferences": 0
+      },
+      {
+        "frame": 10,
+        "leftOpaque": 1754,
+        "rightOpaque": 1754,
+        "dx": -8,
+        "dy": 0,
+        "matches": 1754,
+        "covered": 1754,
+        "score": 1754,
+        "pixelDifferences": 0
+      },
+      {
+        "frame": 11,
+        "leftOpaque": 1831,
+        "rightOpaque": 1816,
+        "dx": -8,
+        "dy": 0,
+        "matches": 1795,
+        "covered": 1816,
+        "score": 1774,
+        "pixelDifferences": 57
+      }
+    ],
+    "sourceMirrorLimit": "Source body/gestures are new generated art. Original right-frame6 has four isolated remote pixels; right-frame5/11 also differ slightly from a full reflection. New right art is an explicit whole-source mirror with the best native integer offset; those original incidental pixels are not copied.",
+    "requiredProductionStreamingBanks": [
+      208,
+      209
+    ],
+    "rawBytesPerBank": 12640,
+    "rawLimit": 32768,
+    "originalRawBytesPerBank": 11296
+  },
+  "palettes": {
+    "object226": [
+      "211b22",
+      "fff5d2",
+      "f5c783",
+      "e3b65c",
+      "ce8c55",
+      "975535",
+      "593426",
+      "4a221b",
+      "362127",
+      "751b30",
+      "180f16",
+      "e77520"
+    ],
+    "background56Slot7": [
+      4196,
+      27615,
+      17182,
+      11996,
+      10809,
+      6482,
+      4299,
+      3209,
+      4230,
+      6254,
+      2083,
+      4572,
+      8409,
+      14045,
+      5558
+    ]
+  },
+  "nativeAttachments": {
+    "fieldObject205": [
+      78,
+      109
+    ],
+    "fieldObject204": [
+      178,
+      109
+    ],
+    "observedOamOrigins": {
+      "204": [
+        178,
+        93
+      ],
+      "205": [
+        78,
+        93
+      ]
+    },
+    "screenAddsY": 8,
+    "bodyCanvasCompositeOrigins": {
+      "204": [
+        178,
+        110
+      ],
+      "205": [
+        78,
+        110
+      ]
+    }
+  },
+  "protected": [
+    "Blank gfx167/asm159 and all four owners",
+    "Map32/collision/layer1 cave",
+    "Unchanged cave tiles in BG182 plus every byte of BG183/184/185/174",
+    "BG22 tiles outside116..163 and all animation programs",
+    "Other palettes, original headers, AI, damage, formation, event scripts",
+    "Tyson and final phase art"
+  ],
+  "extraOamCells": 0,
+  "extraVramBytes": 0,
+  "extraWramReservations": 0
+}

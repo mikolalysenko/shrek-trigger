@@ -1,0 +1,136 @@
+{
+  "key": "sir-sludge-base",
+  "sourceType": "image-generation",
+  "width": 128,
+  "height": 144,
+  "palette": [
+    "252b2c",
+    "354b3e",
+    "5e7d54",
+    "91a86d",
+    "c5ce94",
+    "343c49",
+    "606e7a",
+    "9aa7ab",
+    "4f3831",
+    "926349",
+    "d5ab60",
+    "f5e5b9"
+  ],
+  "directory": "assets/imagegen/sir-sludge/base-preview",
+  "sheets": [
+    {
+      "file": "assets/imagegen/sir-sludge/base-source-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 42,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 79,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    },
+    {
+      "file": "assets/imagegen/sir-sludge/contacts-source-v2.png",
+      "columns": 3,
+      "rows": 1,
+      "nativeHeight": 42,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 79,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        {
+          "frame": 0,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 1
+        },
+        {
+          "frame": 9,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "frame": 4,
+          "dx": 0,
+          "dy": 1
+        },
+        {
+          "frame": 10,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "frame": 6,
+          "dx": -5,
+          "dy": 0
+        },
+        {
+          "frame": 7,
+          "dx": -4,
+          "dy": 1
+        },
+        {
+          "frame": 11,
+          "dx": -6,
+          "dy": 0
+        },
+        {
+          "frame": 6,
+          "flip": true,
+          "dx": 5,
+          "dy": 0
+        },
+        {
+          "frame": 7,
+          "flip": true,
+          "dx": 4,
+          "dy": 1
+        },
+        {
+          "frame": 11,
+          "flip": true,
+          "dx": 7,
+          "dy": 0
+        }
+      ]
+    }
+  }
+}

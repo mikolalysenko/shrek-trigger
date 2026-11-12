@@ -1,0 +1,417 @@
+{
+  "status": "Frozen inactive proposal; root owns production activation",
+  "families": [
+    {
+      "key": "drummer",
+      "familyKey": "bakery-drummer",
+      "rasterKey": "bread-drummer",
+      "native": {
+        "gfx": 52,
+        "assembly": 94,
+        "animation": 63,
+        "frames": 2,
+        "width": 32,
+        "height": 32,
+        "cells": 4,
+        "size": 0,
+        "owners": [
+          {
+            "npc": 122,
+            "palette": 123,
+            "originalPalette": 174
+          }
+        ],
+        "anchor": [
+          0,
+          0
+        ],
+        "frameOffsets": {},
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ],
+        "baseCellXY": [
+          [
+            -16,
+            -32
+          ],
+          [
+            0,
+            -32
+          ],
+          [
+            -16,
+            -16
+          ],
+          [
+            0,
+            -16
+          ]
+        ],
+        "overlap": false
+      },
+      "inputs": {
+        "spec": "drummer-import-spec.draft.json",
+        "specSha256": "53087cf5f708281d09d57dacbca8b9f49a3e1d22b4cd010533472fa6b66b61aa",
+        "geometry": "drummer-draft/family.json",
+        "geometrySha256": "9893c7cabf9c4e123ed8afad4066ce1f29b83cfcfcdf849d70a0164cde209f04",
+        "roles": "drummer-native-roles.json",
+        "rolesSha256": "e6a52ab070b49540e796d4fabfd1199a06793c402a6ec4c2fedd8caf4b74cbe9"
+      },
+      "compiled": {
+        "rawGraphicsBytes": 928,
+        "compressedBytes": 581,
+        "assemblyBytes": 80,
+        "graphicsSha256": "9a904fa64f512eced0ee36a08f6901b34e332c16083b0c5c7a29ac5ab8f78ac7",
+        "compressedSha256": "319a41d6f92c1118a46f27863abdade2c4c3b082bcd2a0395fd6b495b6b8da20",
+        "assemblySha256": "017648c68faf81376f807178f47cd790e50b9b91a0c6319295483381eee09b88",
+        "pixelsSha256": "d728c2716eefb4c2d7bb535dc6dbb97f9aade887b52f43d5c85ded5fcb7d6681",
+        "paletteSha256": {
+          "123": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+        }
+      },
+      "cost": {
+        "key": "drummer",
+        "candidate": {
+          "raw": 928,
+          "compressed": 581,
+          "assembly": 80,
+          "totalCompressedAndAssembly": 661
+        },
+        "originalCT": {
+          "graphicsOffset": 1713777,
+          "graphicsBytes": 480,
+          "compressedBytes": 393,
+          "assemblyOffset": 1981400,
+          "assemblyBytes": 80,
+          "totalCompressedAndAssembly": 473,
+          "compressedAllocationGrowth": 188,
+          "rawGrowth": 448
+        },
+        "activeEarlierArt": {
+          "raw": 352,
+          "compressed": 229,
+          "assembly": 80,
+          "totalCompressedAndAssembly": 309,
+          "compressedAllocationGrowth": 352,
+          "rawGrowth": 576,
+          "graphicsSha256": "a76794c0d3c09ede51614e1a9bbeecccf8f3b65559539c5ed9bf61254257c30c",
+          "compressedSha256": "672162fc59d7543ed9a5e12e907763df1178f7b6f8ecafe48f9c69f1c1e5ee51",
+          "assemblySha256": "2a276ee59f8b968a7b90a1cb44bc46b2d103beced3822c5b16744a341817e12d",
+          "matchesActiveSourceFamilySnapshot": true
+        }
+      }
+    },
+    {
+      "key": "percussionist",
+      "familyKey": "bakery-log-drummer",
+      "rasterKey": "bun-percussionist",
+      "native": {
+        "gfx": 53,
+        "assembly": 95,
+        "animation": 63,
+        "frames": 2,
+        "width": 32,
+        "height": 32,
+        "cells": 4,
+        "size": 0,
+        "owners": [
+          {
+            "npc": 123,
+            "palette": 123,
+            "originalPalette": 174
+          }
+        ],
+        "anchor": [
+          0,
+          0
+        ],
+        "frameOffsets": {},
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ],
+        "baseCellXY": [
+          [
+            -16,
+            -32
+          ],
+          [
+            0,
+            -32
+          ],
+          [
+            -16,
+            -16
+          ],
+          [
+            0,
+            -16
+          ]
+        ],
+        "overlap": false
+      },
+      "inputs": {
+        "spec": "percussionist-import-spec.draft.json",
+        "specSha256": "6c09f20fafe1b6598a847c06fe301f097048ca4855d37dc1123404060da54921",
+        "geometry": "percussionist-draft/family.json",
+        "geometrySha256": "b181ece6cc3da6ff3791e1baefe832ea252b57a8c25a4375e2e9c9247480e11a",
+        "roles": "percussionist-native-roles.json",
+        "rolesSha256": "5b890b256510d25044a547a780405722d46475d8805bab048e6d1dd84b76326a"
+      },
+      "compiled": {
+        "rawGraphicsBytes": 928,
+        "compressedBytes": 604,
+        "assemblyBytes": 80,
+        "graphicsSha256": "ac9c65f9f682362b64cda1d58bedb6920d4c1f5ea3166ac342ee4ce18c2313f3",
+        "compressedSha256": "97d8c112f366751cb737245300af743ce71a3a07e1a37d044590929e1c98e1f3",
+        "assemblySha256": "60d9b1c5bfce9af9819275732904f8e26d603b6304ed32473ee7d353a57ff22b",
+        "pixelsSha256": "707499eeaaed03a8245cb56f3bffa7b724d5c60f6928338b9a05b53c016deac8",
+        "paletteSha256": {
+          "123": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+        }
+      },
+      "cost": {
+        "key": "percussionist",
+        "candidate": {
+          "raw": 928,
+          "compressed": 604,
+          "assembly": 80,
+          "totalCompressedAndAssembly": 684
+        },
+        "originalCT": {
+          "graphicsOffset": 1714170,
+          "graphicsBytes": 800,
+          "compressedBytes": 728,
+          "assemblyOffset": 1981480,
+          "assemblyBytes": 80,
+          "totalCompressedAndAssembly": 808,
+          "compressedAllocationGrowth": -124,
+          "rawGrowth": 128
+        },
+        "activeEarlierArt": {
+          "raw": 544,
+          "compressed": 300,
+          "assembly": 80,
+          "totalCompressedAndAssembly": 380,
+          "compressedAllocationGrowth": 304,
+          "rawGrowth": 384,
+          "graphicsSha256": "e7dde8b480296e8bcaa4015751b50130d947cd67466dde25c6c1fcdebee848e5",
+          "compressedSha256": "f56a28889a78e9f7ec3a1da91b619b050e5d5d5b96ef3fe6bb8aed2f01da4414",
+          "assemblySha256": "b55befce0ff8f20000dd08b5d9d4fb15bddc65380c7d60a92131e2c67ad1bfbd",
+          "matchesActiveSourceFamilySnapshot": true
+        }
+      }
+    },
+    {
+      "key": "platter",
+      "familyKey": "onion-bread-plates",
+      "rasterKey": "onion-bread-plate",
+      "native": {
+        "gfx": 191,
+        "assembly": 187,
+        "animation": 150,
+        "frames": 8,
+        "width": 32,
+        "height": 32,
+        "cells": 4,
+        "size": 0,
+        "owners": [
+          {
+            "npc": 94,
+            "palette": 123,
+            "originalPalette": 5
+          }
+        ],
+        "anchor": [
+          0,
+          8
+        ],
+        "frameOffsets": {
+          "2": [
+            0,
+            -9
+          ],
+          "3": [
+            0,
+            -28
+          ],
+          "4": [
+            0,
+            -14
+          ],
+          "5": [
+            0,
+            -30
+          ],
+          "6": [
+            0,
+            -5
+          ],
+          "7": [
+            0,
+            -5
+          ]
+        },
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ],
+        "baseCellXY": [
+          [
+            -16,
+            -32
+          ],
+          [
+            0,
+            -32
+          ],
+          [
+            -16,
+            -16
+          ],
+          [
+            0,
+            -16
+          ]
+        ],
+        "overlap": false
+      },
+      "inputs": {
+        "spec": "platter-import-spec.draft.json",
+        "specSha256": "4522b1eebb3a4f63112b80fdb61e4e6df4dbbcb04c592bbc3ea0088e6dec62f0",
+        "geometry": "platter-draft/family.json",
+        "geometrySha256": "80465ff38402ba379d6e88c2891ff825911d5e1d14843124f928cdd73c6823cf",
+        "roles": "platter-native-roles.json",
+        "rolesSha256": "5c54ce772cb832266a28a0a994b92ae817383988796fe86aab018ebae7fa7f57"
+      },
+      "compiled": {
+        "rawGraphicsBytes": 1024,
+        "compressedBytes": 654,
+        "assemblyBytes": 320,
+        "graphicsSha256": "e8042f1ad5840724db88a533b01d691ad062c6fa12a0f928b75297d162f668ca",
+        "compressedSha256": "9162441195d90c7ad508d79a4c4a222ac11f03734c24d2c07128422d8cd873c2",
+        "assemblySha256": "252ed5eda5918497644e279437ee6ac4c3f30d0752fcc4e83faed6f84756750d",
+        "pixelsSha256": "623e1b9be66e57ef31974090ff4aa0a55a006049ef39efb91eff368b951f8f7d",
+        "paletteSha256": {
+          "123": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+        }
+      },
+      "cost": {
+        "key": "platter",
+        "candidate": {
+          "raw": 1024,
+          "compressed": 654,
+          "assembly": 320,
+          "totalCompressedAndAssembly": 974
+        },
+        "originalCT": {
+          "graphicsOffset": 1304745,
+          "graphicsBytes": 608,
+          "compressedBytes": 434,
+          "assemblyOffset": 2008360,
+          "assemblyBytes": 320,
+          "totalCompressedAndAssembly": 754,
+          "compressedAllocationGrowth": 220,
+          "rawGrowth": 416
+        },
+        "activeEarlierArt": {
+          "raw": 480,
+          "compressed": 255,
+          "assembly": 320,
+          "totalCompressedAndAssembly": 575,
+          "compressedAllocationGrowth": 399,
+          "rawGrowth": 544,
+          "graphicsSha256": "2dc057fa62d4deadb3a1e4bfbb29cc887524f8c32b6ed85b68bccd2c31c8b669",
+          "compressedSha256": "d7c8fd926b36f61e4acf3b4f81ccd03d0070d1bd51b1987da1fbde1f6034e865",
+          "assemblySha256": "e01b066c450ff945c7cab5f581d920d3700f001aaa0359c9fd4fad74bf63620b",
+          "matchesActiveSourceFamilySnapshot": true
+        }
+      }
+    }
+  ],
+  "totals": {
+    "raw": 2880,
+    "compressed": 1839,
+    "assembly": 480,
+    "compressedAndAssembly": 2319,
+    "compressedGrowthVsActive": 1055,
+    "rawGrowthVsActive": 1504,
+    "compressedGrowthVsOriginal": 284,
+    "rawGrowthVsOriginal": 992
+  },
+  "guards": [
+    "Only gfx52/53/191 and asm94/95/187 are owned by this packet.",
+    "Preserve all12native slots and all original animation/duration bytes, including animation63 fifth padding byte.",
+    "Preserve original project platter anchor[0,8] and all six per-frame offsets; preserve full/eaten repeated pairs.",
+    "Keep shared palette123 exact; no bytes or pointer changes to123/124/174/5. Existing NPC header palette selections stay123.",
+    "Exactly four16×16cells, no overlap or extraVRAM; all three banks fit32KiB.",
+    "Root may scope production streaming to gfx52/53/191; retain original size guards for unrelated families.",
+    "Recalculate current shared scene budgets and run integrated independent/controller feast checks."
+  ],
+  "proof": {
+    "nativeUploads": 12,
+    "nativeOpaquePixels": 4220,
+    "nativeOwners": [
+      122,
+      123,
+      94
+    ],
+    "timedTicks": 2400,
+    "timedScenarios": 16,
+    "privateRomSha256": "ce30ec27afdb4115d613446f0b8fa4f9e5c92bbcde2f6f58958629449ee44731",
+    "sceneEvidence": "scene-verification/manifest.json",
+    "paletteBytesUnchanged": true,
+    "fullContestOrIndependentProof": false
+  },
+  "suggestedChecks": [
+    "node assets/imagegen/bakery-feast/verify-frozen.mjs",
+    "node assets/imagegen/bakery-feast/verify-native.mjs",
+    "node assets/imagegen/bakery-feast/verify-motion.mjs",
+    "node assets/imagegen/bakery-feast/verify-scene.mjs",
+    "Root: run integrated tests/bakery-villagers.test.mjs and tests/bakery-chapter.test.mjs.",
+    "Root: scripts/independent.mjs all includes bakeryVillagers and their native pixel/anchor checks."
+  ]
+}

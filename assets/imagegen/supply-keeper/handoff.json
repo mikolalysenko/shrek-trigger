@@ -1,0 +1,106 @@
+{
+  "status": "Frozen inactive generated Storekeeper body and all four original overlay slots. Root approved final compound and owns active integration.",
+  "rootApproval": "Final corrected compound reviewed after exact native attachment was measured; source remains inactive.",
+  "keys": [
+    "supply-keeper",
+    "supply-keeper-body"
+  ],
+  "specs": [
+    "assets/imagegen/supply-keeper/import-spec.draft.json",
+    "assets/imagegen/supply-keeper/import-spec.body.draft.json"
+  ],
+  "geometry": "assets/imagegen/supply-keeper/draft/family.json",
+  "owners": {
+    "enemy": [
+      212
+    ],
+    "graphics": 172,
+    "assembly": 167,
+    "palette": 202,
+    "backgroundGraphics": 186,
+    "tileset": 43,
+    "paletteGroup": 57,
+    "paletteSlot": 6,
+    "locations": [
+      219,
+      346
+    ],
+    "maps": [
+      123,
+      20
+    ]
+  },
+  "budgets": {
+    "overlayRaw": 1344,
+    "overlayCompressed": 863,
+    "assembly": 480,
+    "originalOverlayRaw": 1216,
+    "priorProjectOverlayRaw": 1088,
+    "overlayRawGrowthOverOriginal": 128,
+    "overlayRawGrowthOverPriorProject": 256,
+    "bodyRaw": 4096,
+    "bodyCompressed": 1960,
+    "bodyRawGrowth": 0,
+    "compressedGrowthOverPriorProject": 1003,
+    "extraVramBytes": 0,
+    "extraOamCells": 0,
+    "observedRealEncounterHeap": 6944,
+    "heapLimit": 32768
+  },
+  "nativeGeometry": {
+    "size": 6,
+    "cells": 12,
+    "width": 64,
+    "height": 64,
+    "anchor": [
+      0,
+      16
+    ],
+    "frameOffsets": {},
+    "blankFrames": [
+      3
+    ],
+    "bodyLocalActorAttachment": [
+      64,
+      120
+    ],
+    "nativeAnchorUnchanged": true,
+    "note": "Use complete emitted geometry; do not reapply the anchor to compiled assembly. The source keyhole at canvasY40 matches the actual body attachment."
+  },
+  "hashes": {
+    "graphics": "2b0d0fa78562135e3aa61d237d0e1d8a7dfc0aae2dc080fb9c8d434409b3708e",
+    "compressed": "f26dfbc8ebf0f9078a2b9c02360258be18ee276b5f7e861311cfebaee355b70f",
+    "assembly": "dfdb9e87ba5aa4991d8d73c97a13707c539282c7b67aec7c518b2255c7fe4626",
+    "bodyGraphics": "68511f0672faea3d2800fa911b9b473c170bb11d972bb54cd56475b949cc74fa",
+    "bodyCompressed": "a35a6aee1d48c2ebcc475c29a1feb3a47bf93f0ac5f905aae8dacdd35b5c3ea3"
+  },
+  "verification": {
+    "privateRomSha256": "91d5021ce3b69b94d6371517fac337c5ab78ef85f724199cbbdab01690cf157c",
+    "baselineRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+    "nativeUploads": 4,
+    "overlaySourcePixels": 1872,
+    "nativeTimedTicks": 1280,
+    "bodyVramBytes": 4096,
+    "bodySourcePixels": 8284,
+    "bodyMismatches": 0,
+    "originalRevealBattleAftermathAndFoodReturn": true,
+    "naturallyObservedAttackFrames": [
+      0
+    ],
+    "laterSharedMapInitialized": 346,
+    "allOtherOverlayFramesProvedSeparately": true
+  },
+  "integrationRequirements": [
+    "Keep the strict old decoded guard unless explicitly selecting the proved raw-streaming path or a scoped measured family heap contract; candidate grows128 decoded bytes over original.",
+    "Preserve original fourth blank frame, all native animation/duration bytes, AI, stats, map bytes, background dictionary aliases and unchanged palettes.",
+    "Only94owned BG tiles change; all34other BG186tiles and both original maps remain exact.",
+    "Final canonical and independent-core checks belong to root. Full later shell-pattern finale choreography has not been claimed."
+  ],
+  "reproduce": "node assets/imagegen/supply-keeper/reproduce-draft.mjs",
+  "review": [
+    "assets/imagegen/supply-keeper/compound-2x.png",
+    "assets/imagegen/supply-keeper/motion.html",
+    "assets/imagegen/supply-keeper/scene-verification/battle.png",
+    "assets/imagegen/supply-keeper/scene-verification/attack-overlay-0.png"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "key": "furnace-maw-body",
+  "sourceType": "image-generation",
+  "width": 112,
+  "height": 152,
+  "palette": [
+    "24272c",
+    "39434a",
+    "607477",
+    "99ada5",
+    "d3dfc4",
+    "553a32",
+    "926044",
+    "c4935b",
+    "81312c",
+    "d96032",
+    "ffd777",
+    "fff0c8"
+  ],
+  "directory": "assets/imagegen/furnace-maw/body-draft",
+  "sheets": [
+    {
+      "file": "assets/imagegen/furnace-maw/source-body-native-v1.png",
+      "columns": 1,
+      "rows": 1,
+      "scaleCells": [
+        0
+      ],
+      "nativeHeight": 144,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 143,
+        "alphaThreshold": 128
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "notes": {
+    "derivation": "assets/imagegen/furnace-maw/body-derivation.json",
+    "originalGeneratedSource": "assets/imagegen/furnace-maw/source-body-v1.png",
+    "storage": "Stationary BG190 body plus BG171 edge tiles; not an OBJ frame.",
+    "status": "Inactive draft, exact native source-pixel mirror. Root owns activation."
+  }
+}

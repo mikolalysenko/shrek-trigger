@@ -1,0 +1,2742 @@
+{
+  "status": "passed",
+  "scope": "Native AA event animation execution in an isolated field object; exact original frame-request lists and durations, two complete steady cycles per action and owner. Complete VRAM and all eight OAM cells agree on every tick. The request cache can lead display by one native video frame at a phase boundary; this is recorded explicitly. Not full encounter transition order.",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "candidateSha256": "a17c76dda82743f8ed542a897954ad4bd8a16861b6b863c55f4070c07eb993be",
+  "core": "repository SNES JS native 65816/PPU",
+  "cases": 36,
+  "cycles": 72,
+  "exactNativeVideoTicks": 1560,
+  "maximumRequestToDisplayDelay": 1,
+  "delayedPhaseBoundaries": 4,
+  "nativeProgramBytesUnchanged": true,
+  "nativeMotion": [
+    {
+      "file": "timed/mire-golem-walk-0.apng",
+      "bytes": 47025,
+      "sha256": "c5181e757906571eca6431438f14c89f4ffcb18de6fce6c3b1283293870c8160",
+      "nativeVideoTicks": 30,
+      "framesPerSecond": 60
+    },
+    {
+      "file": "timed/mire-golem-walk-1.apng",
+      "bytes": 47053,
+      "sha256": "4096dcbb50f228311196ddab0678fd3ff2203f8d5e0b49a0030fa11aaf446364",
+      "nativeVideoTicks": 30,
+      "framesPerSecond": 60
+    },
+    {
+      "file": "timed/iron-golem-walk-0.apng",
+      "bytes": 47172,
+      "sha256": "2936163d18728271d34bdf6c55c4c2c91094ad508830e99fc0e1f9f0f7297f40",
+      "nativeVideoTicks": 30,
+      "framesPerSecond": 60
+    },
+    {
+      "file": "timed/iron-golem-walk-1.apng",
+      "bytes": 47254,
+      "sha256": "cbdeabe67fbdc77535bb03a67c014f6c3cb4e6f19a49ca206fa70be389834862",
+      "nativeVideoTicks": 30,
+      "framesPerSecond": 60
+    }
+  ],
+  "cpuRegistersOrPpuNotPatched": true,
+  "cartridgeUnchanged": true,
+  "reports": [
+    {
+      "family": "golem",
+      "key": "mire-golem",
+      "enemy": 163,
+      "palette": 194,
+      "fullSizeByte": 1,
+      "cases": [
+        {
+          "role": "rear walk",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10,
+              "uploadedFrame": 0,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5,
+              "uploadedFrame": 1,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10,
+              "uploadedFrame": 2,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5,
+              "uploadedFrame": 1,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10,
+              "uploadedFrame": 0,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5,
+              "uploadedFrame": 1,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10,
+              "uploadedFrame": 2,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5,
+              "uploadedFrame": 1,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-1-direction-0.json",
+          "traceSha256": "a24a3d1362520030bb325812bec3e9d41a82f970056f6d7a24cfa1c8a6e2442f",
+          "screenshot": "timed/mire-golem-animation-1-direction-0.png"
+        },
+        {
+          "role": "front walk",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            3,
+            4,
+            5,
+            4
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 1,
+          "delayedPhaseBoundaries": 1,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10,
+              "uploadedFrame": 3,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5,
+              "uploadedFrame": 3,
+              "handoffDelay": 1
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10,
+              "uploadedFrame": 5,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5,
+              "uploadedFrame": 4,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10,
+              "uploadedFrame": 3,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5,
+              "uploadedFrame": 4,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10,
+              "uploadedFrame": 5,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5,
+              "uploadedFrame": 4,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-1-direction-1.json",
+          "traceSha256": "bd71dba7eb3ff90ccef320e887a002b1815fcd1c9da16c0f42e822801bbb0227",
+          "screenshot": "timed/mire-golem-animation-1-direction-1.png"
+        },
+        {
+          "role": "left walk",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            6,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10,
+              "uploadedFrame": 6,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5,
+              "uploadedFrame": 7,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10,
+              "uploadedFrame": 8,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5,
+              "uploadedFrame": 7,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10,
+              "uploadedFrame": 6,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5,
+              "uploadedFrame": 7,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10,
+              "uploadedFrame": 8,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5,
+              "uploadedFrame": 7,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-1-direction-2.json",
+          "traceSha256": "1619c18c740faea26654fd89493542a127b57d6c7b41d01044b63d05245e1b02",
+          "screenshot": "timed/mire-golem-animation-1-direction-2.png"
+        },
+        {
+          "role": "right walk",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            9,
+            10,
+            11,
+            10
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 1,
+          "delayedPhaseBoundaries": 1,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10,
+              "uploadedFrame": 9,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5,
+              "uploadedFrame": 9,
+              "handoffDelay": 1
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10,
+              "uploadedFrame": 11,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5,
+              "uploadedFrame": 10,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10,
+              "uploadedFrame": 9,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5,
+              "uploadedFrame": 10,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10,
+              "uploadedFrame": 11,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5,
+              "uploadedFrame": 10,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-1-direction-3.json",
+          "traceSha256": "617338368632d639a66720819d54c400e0a0f87032d65baab12fad9ef1989fb7",
+          "screenshot": "timed/mire-golem-animation-1-direction-3.png"
+        },
+        {
+          "role": "front compression",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            22,
+            30,
+            31,
+            30
+          ],
+          "durations": [
+            15,
+            10,
+            15,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 100,
+          "exactCompleteVramStates": 100,
+          "coherentOamCells": 800,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 91,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 22,
+              "duration": 15,
+              "uploadedFrame": 22,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 30,
+              "duration": 10,
+              "uploadedFrame": 30,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 2,
+              "frame": 31,
+              "duration": 15,
+              "uploadedFrame": 31,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 3,
+              "frame": 30,
+              "duration": 10,
+              "uploadedFrame": 30,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 50,
+              "loop": 1,
+              "phase": 0,
+              "frame": 22,
+              "duration": 15,
+              "uploadedFrame": 22,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 65,
+              "loop": 1,
+              "phase": 1,
+              "frame": 30,
+              "duration": 10,
+              "uploadedFrame": 30,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 2,
+              "frame": 31,
+              "duration": 15,
+              "uploadedFrame": 31,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 3,
+              "frame": 30,
+              "duration": 10,
+              "uploadedFrame": 30,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-3-direction-1.json",
+          "traceSha256": "6dc163ca9a3604b906f2bb14962342bdac52c9fb34f4755edd24d483dc1228dc",
+          "screenshot": "timed/mire-golem-animation-3-direction-1.png"
+        },
+        {
+          "role": "tilted hit",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            12
+          ],
+          "durations": [
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 16,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 12,
+              "duration": 10,
+              "uploadedFrame": 12,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 12,
+              "duration": 10,
+              "uploadedFrame": 12,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-5-direction-1.json",
+          "traceSha256": "fcb6c35cca2f319d6552f56f5226fa61e00a0be708e88dad032b0c7c707de517",
+          "screenshot": "timed/mire-golem-animation-5-direction-1.png"
+        },
+        {
+          "role": "front gesture",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            21,
+            22
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 21,
+              "duration": 5,
+              "uploadedFrame": 21,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 22,
+              "duration": 5,
+              "uploadedFrame": 22,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 21,
+              "duration": 5,
+              "uploadedFrame": 21,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 22,
+              "duration": 5,
+              "uploadedFrame": 22,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-6-direction-1.json",
+          "traceSha256": "e829a8eaf02f67b5bd68bd6441a9f270f7d4d067a4f5161ce0f92a0b1d5ae54a",
+          "screenshot": "timed/mire-golem-animation-6-direction-1.png"
+        },
+        {
+          "role": "left gesture",
+          "animation": 6,
+          "facing": 2,
+          "frames": [
+            23,
+            24
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 23,
+              "duration": 5,
+              "uploadedFrame": 23,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 24,
+              "duration": 5,
+              "uploadedFrame": 24,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 23,
+              "duration": 5,
+              "uploadedFrame": 23,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 24,
+              "duration": 5,
+              "uploadedFrame": 24,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-6-direction-2.json",
+          "traceSha256": "a374369bb9f8b25bf9b62e2b4461b58be8edeed3e193dbea29488b7d68efe00b",
+          "screenshot": "timed/mire-golem-animation-6-direction-2.png"
+        },
+        {
+          "role": "right gesture",
+          "animation": 6,
+          "facing": 3,
+          "frames": [
+            25,
+            26
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 25,
+              "duration": 5,
+              "uploadedFrame": 25,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 26,
+              "duration": 5,
+              "uploadedFrame": 26,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 25,
+              "duration": 5,
+              "uploadedFrame": 25,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 26,
+              "duration": 5,
+              "uploadedFrame": 26,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-6-direction-3.json",
+          "traceSha256": "f11552bd28282db9dfacf7d1f487530a53c2dcc2a5d57d2c84fc51a27ac7c06c",
+          "screenshot": "timed/mire-golem-animation-6-direction-3.png"
+        },
+        {
+          "role": "rear airborne fast",
+          "animation": 8,
+          "facing": 0,
+          "frames": [
+            13,
+            14
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 13,
+              "duration": 5,
+              "uploadedFrame": 13,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 14,
+              "duration": 5,
+              "uploadedFrame": 14,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 13,
+              "duration": 5,
+              "uploadedFrame": 13,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 14,
+              "duration": 5,
+              "uploadedFrame": 14,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-8-direction-0.json",
+          "traceSha256": "21b8d22cc9f4119d03934f2f6700aa9c222b3f0879082786d3bb30f337ffc80b",
+          "screenshot": "timed/mire-golem-animation-8-direction-0.png"
+        },
+        {
+          "role": "front airborne fast",
+          "animation": 8,
+          "facing": 1,
+          "frames": [
+            15,
+            16
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 15,
+              "duration": 5,
+              "uploadedFrame": 15,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 16,
+              "duration": 5,
+              "uploadedFrame": 16,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 15,
+              "duration": 5,
+              "uploadedFrame": 15,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 16,
+              "duration": 5,
+              "uploadedFrame": 16,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-8-direction-1.json",
+          "traceSha256": "21b3adb786e088fd64501fa4b9429dbcc8a5c1c61860d6a427ba633b32df16cd",
+          "screenshot": "timed/mire-golem-animation-8-direction-1.png"
+        },
+        {
+          "role": "left airborne fast",
+          "animation": 8,
+          "facing": 2,
+          "frames": [
+            17,
+            18
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 17,
+              "duration": 5,
+              "uploadedFrame": 17,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 18,
+              "duration": 5,
+              "uploadedFrame": 18,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 17,
+              "duration": 5,
+              "uploadedFrame": 17,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 18,
+              "duration": 5,
+              "uploadedFrame": 18,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-8-direction-2.json",
+          "traceSha256": "38731201fa36c858edea95247ac338c43fb6969d28d7071d0078e9121718cc24",
+          "screenshot": "timed/mire-golem-animation-8-direction-2.png"
+        },
+        {
+          "role": "right airborne fast",
+          "animation": 8,
+          "facing": 3,
+          "frames": [
+            19,
+            20
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 19,
+              "duration": 5,
+              "uploadedFrame": 19,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 20,
+              "duration": 5,
+              "uploadedFrame": 20,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 19,
+              "duration": 5,
+              "uploadedFrame": 19,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 20,
+              "duration": 5,
+              "uploadedFrame": 20,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-8-direction-3.json",
+          "traceSha256": "e356ab0ff53391dc469145310c1ef332fd74e298e5fb43a29e02acdb60227495",
+          "screenshot": "timed/mire-golem-animation-8-direction-3.png"
+        },
+        {
+          "role": "rear airborne slow",
+          "animation": 9,
+          "facing": 0,
+          "frames": [
+            13,
+            14
+          ],
+          "durations": [
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 51,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 13,
+              "duration": 15,
+              "uploadedFrame": 13,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 14,
+              "duration": 15,
+              "uploadedFrame": 14,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 13,
+              "duration": 15,
+              "uploadedFrame": 13,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 1,
+              "frame": 14,
+              "duration": 15,
+              "uploadedFrame": 14,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-9-direction-0.json",
+          "traceSha256": "208510d83f5301b1df01094f8dd8e03722ba7f5d009abdc6eeea534e86b081c4",
+          "screenshot": "timed/mire-golem-animation-9-direction-0.png"
+        },
+        {
+          "role": "front airborne slow",
+          "animation": 9,
+          "facing": 1,
+          "frames": [
+            15,
+            16
+          ],
+          "durations": [
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 51,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 15,
+              "duration": 15,
+              "uploadedFrame": 15,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 16,
+              "duration": 15,
+              "uploadedFrame": 16,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 15,
+              "duration": 15,
+              "uploadedFrame": 15,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 1,
+              "frame": 16,
+              "duration": 15,
+              "uploadedFrame": 16,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-9-direction-1.json",
+          "traceSha256": "ef5f8571650a08dae0b3b649d73d8d6201899407c5d8a564f1a56d825099fb52",
+          "screenshot": "timed/mire-golem-animation-9-direction-1.png"
+        },
+        {
+          "role": "left airborne slow",
+          "animation": 9,
+          "facing": 2,
+          "frames": [
+            17,
+            18
+          ],
+          "durations": [
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 51,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 17,
+              "duration": 15,
+              "uploadedFrame": 17,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 18,
+              "duration": 15,
+              "uploadedFrame": 18,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 17,
+              "duration": 15,
+              "uploadedFrame": 17,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 1,
+              "frame": 18,
+              "duration": 15,
+              "uploadedFrame": 18,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-9-direction-2.json",
+          "traceSha256": "f01819929cd7bfe702aa156836ca5ffba70bbf5d1e69799a0bd8911940209270",
+          "screenshot": "timed/mire-golem-animation-9-direction-2.png"
+        },
+        {
+          "role": "right airborne slow",
+          "animation": 9,
+          "facing": 3,
+          "frames": [
+            19,
+            20
+          ],
+          "durations": [
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 51,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 19,
+              "duration": 15,
+              "uploadedFrame": 19,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 20,
+              "duration": 15,
+              "uploadedFrame": 20,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 19,
+              "duration": 15,
+              "uploadedFrame": 19,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 1,
+              "frame": 20,
+              "duration": 15,
+              "uploadedFrame": 20,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-9-direction-3.json",
+          "traceSha256": "1da210afc55e25f16f7cbb447be94896a1826e178f1df488eef8bf6e5a3c1e02",
+          "screenshot": "timed/mire-golem-animation-9-direction-3.png"
+        },
+        {
+          "role": "rapid turn",
+          "animation": 10,
+          "facing": 1,
+          "frames": [
+            29,
+            7,
+            27,
+            28
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactCompleteVramStates": 40,
+          "coherentOamCells": 320,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 29,
+              "duration": 5,
+              "uploadedFrame": 29,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5,
+              "uploadedFrame": 7,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 27,
+              "duration": 5,
+              "uploadedFrame": 27,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 28,
+              "duration": 5,
+              "uploadedFrame": 28,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 29,
+              "duration": 5,
+              "uploadedFrame": 29,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5,
+              "uploadedFrame": 7,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 27,
+              "duration": 5,
+              "uploadedFrame": 27,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 28,
+              "duration": 5,
+              "uploadedFrame": 28,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/mire-golem-animation-10-direction-1.json",
+          "traceSha256": "ed51338571d90da217659ec6a06b90c2fa40579879dca4579430ace0f7cc5cdf",
+          "screenshot": "timed/mire-golem-animation-10-direction-1.png"
+        }
+      ]
+    },
+    {
+      "family": "golem",
+      "key": "iron-golem",
+      "enemy": 164,
+      "palette": 195,
+      "fullSizeByte": 1,
+      "cases": [
+        {
+          "role": "rear walk",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10,
+              "uploadedFrame": 0,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5,
+              "uploadedFrame": 1,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10,
+              "uploadedFrame": 2,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5,
+              "uploadedFrame": 1,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10,
+              "uploadedFrame": 0,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5,
+              "uploadedFrame": 1,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10,
+              "uploadedFrame": 2,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5,
+              "uploadedFrame": 1,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-1-direction-0.json",
+          "traceSha256": "a24a3d1362520030bb325812bec3e9d41a82f970056f6d7a24cfa1c8a6e2442f",
+          "screenshot": "timed/iron-golem-animation-1-direction-0.png"
+        },
+        {
+          "role": "front walk",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            3,
+            4,
+            5,
+            4
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 1,
+          "delayedPhaseBoundaries": 1,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10,
+              "uploadedFrame": 3,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5,
+              "uploadedFrame": 3,
+              "handoffDelay": 1
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10,
+              "uploadedFrame": 5,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5,
+              "uploadedFrame": 4,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10,
+              "uploadedFrame": 3,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5,
+              "uploadedFrame": 4,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10,
+              "uploadedFrame": 5,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5,
+              "uploadedFrame": 4,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-1-direction-1.json",
+          "traceSha256": "bd71dba7eb3ff90ccef320e887a002b1815fcd1c9da16c0f42e822801bbb0227",
+          "screenshot": "timed/iron-golem-animation-1-direction-1.png"
+        },
+        {
+          "role": "left walk",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            6,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10,
+              "uploadedFrame": 6,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5,
+              "uploadedFrame": 7,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10,
+              "uploadedFrame": 8,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5,
+              "uploadedFrame": 7,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10,
+              "uploadedFrame": 6,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5,
+              "uploadedFrame": 7,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10,
+              "uploadedFrame": 8,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5,
+              "uploadedFrame": 7,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-1-direction-2.json",
+          "traceSha256": "1619c18c740faea26654fd89493542a127b57d6c7b41d01044b63d05245e1b02",
+          "screenshot": "timed/iron-golem-animation-1-direction-2.png"
+        },
+        {
+          "role": "right walk",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            9,
+            10,
+            11,
+            10
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 1,
+          "delayedPhaseBoundaries": 1,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10,
+              "uploadedFrame": 9,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5,
+              "uploadedFrame": 9,
+              "handoffDelay": 1
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10,
+              "uploadedFrame": 11,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5,
+              "uploadedFrame": 10,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10,
+              "uploadedFrame": 9,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5,
+              "uploadedFrame": 10,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10,
+              "uploadedFrame": 11,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5,
+              "uploadedFrame": 10,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-1-direction-3.json",
+          "traceSha256": "617338368632d639a66720819d54c400e0a0f87032d65baab12fad9ef1989fb7",
+          "screenshot": "timed/iron-golem-animation-1-direction-3.png"
+        },
+        {
+          "role": "front compression",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            22,
+            30,
+            31,
+            30
+          ],
+          "durations": [
+            15,
+            10,
+            15,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 100,
+          "exactCompleteVramStates": 100,
+          "coherentOamCells": 800,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 91,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 22,
+              "duration": 15,
+              "uploadedFrame": 22,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 30,
+              "duration": 10,
+              "uploadedFrame": 30,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 2,
+              "frame": 31,
+              "duration": 15,
+              "uploadedFrame": 31,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 3,
+              "frame": 30,
+              "duration": 10,
+              "uploadedFrame": 30,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 50,
+              "loop": 1,
+              "phase": 0,
+              "frame": 22,
+              "duration": 15,
+              "uploadedFrame": 22,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 65,
+              "loop": 1,
+              "phase": 1,
+              "frame": 30,
+              "duration": 10,
+              "uploadedFrame": 30,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 2,
+              "frame": 31,
+              "duration": 15,
+              "uploadedFrame": 31,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 3,
+              "frame": 30,
+              "duration": 10,
+              "uploadedFrame": 30,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-3-direction-1.json",
+          "traceSha256": "6dc163ca9a3604b906f2bb14962342bdac52c9fb34f4755edd24d483dc1228dc",
+          "screenshot": "timed/iron-golem-animation-3-direction-1.png"
+        },
+        {
+          "role": "tilted hit",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            12
+          ],
+          "durations": [
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 16,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 12,
+              "duration": 10,
+              "uploadedFrame": 12,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 12,
+              "duration": 10,
+              "uploadedFrame": 12,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-5-direction-1.json",
+          "traceSha256": "fcb6c35cca2f319d6552f56f5226fa61e00a0be708e88dad032b0c7c707de517",
+          "screenshot": "timed/iron-golem-animation-5-direction-1.png"
+        },
+        {
+          "role": "front gesture",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            21,
+            22
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 21,
+              "duration": 5,
+              "uploadedFrame": 21,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 22,
+              "duration": 5,
+              "uploadedFrame": 22,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 21,
+              "duration": 5,
+              "uploadedFrame": 21,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 22,
+              "duration": 5,
+              "uploadedFrame": 22,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-6-direction-1.json",
+          "traceSha256": "e829a8eaf02f67b5bd68bd6441a9f270f7d4d067a4f5161ce0f92a0b1d5ae54a",
+          "screenshot": "timed/iron-golem-animation-6-direction-1.png"
+        },
+        {
+          "role": "left gesture",
+          "animation": 6,
+          "facing": 2,
+          "frames": [
+            23,
+            24
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 23,
+              "duration": 5,
+              "uploadedFrame": 23,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 24,
+              "duration": 5,
+              "uploadedFrame": 24,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 23,
+              "duration": 5,
+              "uploadedFrame": 23,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 24,
+              "duration": 5,
+              "uploadedFrame": 24,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-6-direction-2.json",
+          "traceSha256": "a374369bb9f8b25bf9b62e2b4461b58be8edeed3e193dbea29488b7d68efe00b",
+          "screenshot": "timed/iron-golem-animation-6-direction-2.png"
+        },
+        {
+          "role": "right gesture",
+          "animation": 6,
+          "facing": 3,
+          "frames": [
+            25,
+            26
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 25,
+              "duration": 5,
+              "uploadedFrame": 25,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 26,
+              "duration": 5,
+              "uploadedFrame": 26,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 25,
+              "duration": 5,
+              "uploadedFrame": 25,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 26,
+              "duration": 5,
+              "uploadedFrame": 26,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-6-direction-3.json",
+          "traceSha256": "f11552bd28282db9dfacf7d1f487530a53c2dcc2a5d57d2c84fc51a27ac7c06c",
+          "screenshot": "timed/iron-golem-animation-6-direction-3.png"
+        },
+        {
+          "role": "rear airborne fast",
+          "animation": 8,
+          "facing": 0,
+          "frames": [
+            13,
+            14
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 13,
+              "duration": 5,
+              "uploadedFrame": 13,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 14,
+              "duration": 5,
+              "uploadedFrame": 14,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 13,
+              "duration": 5,
+              "uploadedFrame": 13,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 14,
+              "duration": 5,
+              "uploadedFrame": 14,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-8-direction-0.json",
+          "traceSha256": "21b8d22cc9f4119d03934f2f6700aa9c222b3f0879082786d3bb30f337ffc80b",
+          "screenshot": "timed/iron-golem-animation-8-direction-0.png"
+        },
+        {
+          "role": "front airborne fast",
+          "animation": 8,
+          "facing": 1,
+          "frames": [
+            15,
+            16
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 15,
+              "duration": 5,
+              "uploadedFrame": 15,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 16,
+              "duration": 5,
+              "uploadedFrame": 16,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 15,
+              "duration": 5,
+              "uploadedFrame": 15,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 16,
+              "duration": 5,
+              "uploadedFrame": 16,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-8-direction-1.json",
+          "traceSha256": "21b3adb786e088fd64501fa4b9429dbcc8a5c1c61860d6a427ba633b32df16cd",
+          "screenshot": "timed/iron-golem-animation-8-direction-1.png"
+        },
+        {
+          "role": "left airborne fast",
+          "animation": 8,
+          "facing": 2,
+          "frames": [
+            17,
+            18
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 17,
+              "duration": 5,
+              "uploadedFrame": 17,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 18,
+              "duration": 5,
+              "uploadedFrame": 18,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 17,
+              "duration": 5,
+              "uploadedFrame": 17,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 18,
+              "duration": 5,
+              "uploadedFrame": 18,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-8-direction-2.json",
+          "traceSha256": "38731201fa36c858edea95247ac338c43fb6969d28d7071d0078e9121718cc24",
+          "screenshot": "timed/iron-golem-animation-8-direction-2.png"
+        },
+        {
+          "role": "right airborne fast",
+          "animation": 8,
+          "facing": 3,
+          "frames": [
+            19,
+            20
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactCompleteVramStates": 20,
+          "coherentOamCells": 160,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 19,
+              "duration": 5,
+              "uploadedFrame": 19,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 20,
+              "duration": 5,
+              "uploadedFrame": 20,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 19,
+              "duration": 5,
+              "uploadedFrame": 19,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 20,
+              "duration": 5,
+              "uploadedFrame": 20,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-8-direction-3.json",
+          "traceSha256": "e356ab0ff53391dc469145310c1ef332fd74e298e5fb43a29e02acdb60227495",
+          "screenshot": "timed/iron-golem-animation-8-direction-3.png"
+        },
+        {
+          "role": "rear airborne slow",
+          "animation": 9,
+          "facing": 0,
+          "frames": [
+            13,
+            14
+          ],
+          "durations": [
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 51,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 13,
+              "duration": 15,
+              "uploadedFrame": 13,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 14,
+              "duration": 15,
+              "uploadedFrame": 14,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 13,
+              "duration": 15,
+              "uploadedFrame": 13,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 1,
+              "frame": 14,
+              "duration": 15,
+              "uploadedFrame": 14,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-9-direction-0.json",
+          "traceSha256": "208510d83f5301b1df01094f8dd8e03722ba7f5d009abdc6eeea534e86b081c4",
+          "screenshot": "timed/iron-golem-animation-9-direction-0.png"
+        },
+        {
+          "role": "front airborne slow",
+          "animation": 9,
+          "facing": 1,
+          "frames": [
+            15,
+            16
+          ],
+          "durations": [
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 51,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 15,
+              "duration": 15,
+              "uploadedFrame": 15,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 16,
+              "duration": 15,
+              "uploadedFrame": 16,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 15,
+              "duration": 15,
+              "uploadedFrame": 15,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 1,
+              "frame": 16,
+              "duration": 15,
+              "uploadedFrame": 16,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-9-direction-1.json",
+          "traceSha256": "ef5f8571650a08dae0b3b649d73d8d6201899407c5d8a564f1a56d825099fb52",
+          "screenshot": "timed/iron-golem-animation-9-direction-1.png"
+        },
+        {
+          "role": "left airborne slow",
+          "animation": 9,
+          "facing": 2,
+          "frames": [
+            17,
+            18
+          ],
+          "durations": [
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 51,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 17,
+              "duration": 15,
+              "uploadedFrame": 17,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 18,
+              "duration": 15,
+              "uploadedFrame": 18,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 17,
+              "duration": 15,
+              "uploadedFrame": 17,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 1,
+              "frame": 18,
+              "duration": 15,
+              "uploadedFrame": 18,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-9-direction-2.json",
+          "traceSha256": "f01819929cd7bfe702aa156836ca5ffba70bbf5d1e69799a0bd8911940209270",
+          "screenshot": "timed/iron-golem-animation-9-direction-2.png"
+        },
+        {
+          "role": "right airborne slow",
+          "animation": 9,
+          "facing": 3,
+          "frames": [
+            19,
+            20
+          ],
+          "durations": [
+            15,
+            15
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactCompleteVramStates": 60,
+          "coherentOamCells": 480,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 51,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 19,
+              "duration": 15,
+              "uploadedFrame": 19,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 20,
+              "duration": 15,
+              "uploadedFrame": 20,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 19,
+              "duration": 15,
+              "uploadedFrame": 19,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 1,
+              "frame": 20,
+              "duration": 15,
+              "uploadedFrame": 20,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-9-direction-3.json",
+          "traceSha256": "1da210afc55e25f16f7cbb447be94896a1826e178f1df488eef8bf6e5a3c1e02",
+          "screenshot": "timed/iron-golem-animation-9-direction-3.png"
+        },
+        {
+          "role": "rapid turn",
+          "animation": 10,
+          "facing": 1,
+          "frames": [
+            29,
+            7,
+            27,
+            28
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactCompleteVramStates": 40,
+          "coherentOamCells": 320,
+          "maxRequestToDisplayDelay": 0,
+          "delayedPhaseBoundaries": 0,
+          "script": 75074,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 29,
+              "duration": 5,
+              "uploadedFrame": 29,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5,
+              "uploadedFrame": 7,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 27,
+              "duration": 5,
+              "uploadedFrame": 27,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 28,
+              "duration": 5,
+              "uploadedFrame": 28,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 29,
+              "duration": 5,
+              "uploadedFrame": 29,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5,
+              "uploadedFrame": 7,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 27,
+              "duration": 5,
+              "uploadedFrame": 27,
+              "handoffDelay": 0
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 28,
+              "duration": 5,
+              "uploadedFrame": 28,
+              "handoffDelay": 0
+            }
+          ],
+          "trace": "timed/iron-golem-animation-10-direction-1.json",
+          "traceSha256": "ed51338571d90da217659ec6a06b90c2fa40579879dca4579430ace0f7cc5cdf",
+          "screenshot": "timed/iron-golem-animation-10-direction-1.png"
+        }
+      ]
+    }
+  ],
+  "evidence": ".local/qa/mire-golems-native-proof",
+  "runner": {
+    "file": "assets/imagegen/mire-golems/verify-timed-animation.mjs",
+    "sha256": "9abdc624b86e53b9b030bfc49bcfc8c11c026f37f700cbfb03c87f0c61c6bd18"
+  }
+}

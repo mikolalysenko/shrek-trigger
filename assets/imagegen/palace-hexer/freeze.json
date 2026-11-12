@@ -1,0 +1,373 @@
+{
+  "status": "Frozen inactive",
+  "activation": false,
+  "baseline": {
+    "path": "assets/imagegen/palace-hexer/private-baseline.sfc",
+    "sha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "scope": "Pinned published cartridge; read-only audit; private copy excluded from source handoff"
+  },
+  "privateRomSha256": "7969140b436eb39bcfced1aa46fae5fa12f46e32260a36388ad2ec1cea7c1f7a",
+  "graphicsSha256": "8a77209c3b7167c962f2f202b251babdd709a82eb0ba655aaa2edfc63e0135cb",
+  "compressedSha256": "6442a627c7363d26b94b2b7db234b026f21ab9d3a51dcd5ad0116d73a4805b28",
+  "assemblySha256": "44bebe7c0fb1f921f78fb05acaee73f50c79dc3fead380fb1b93c953e40e7f73",
+  "nativeProof": {
+    "nativeFrameUploads": 28,
+    "opaquePixelChecks": 10184
+  },
+  "motionProof": {
+    "listExecutions": 28,
+    "nativeTimedTicks": 6720
+  },
+  "whitelistPaths": 69,
+  "whitelistSha256": "95e6bed80d28fd9c2fac9724dd1ce6c23ac791c9d2bbeacf353253391855a1a0",
+  "hashedFiles": 67,
+  "totalHashedBytes": 6149808,
+  "files": [
+    {
+      "path": "assets/imagegen/palace-hexer/README.md",
+      "bytes": 5654,
+      "sha256": "64104d54a3b31aa4a374159571426e2ffc80eff1d082fe015662d744160de78f"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/audit-co-loads.mjs",
+      "bytes": 2172,
+      "sha256": "cbcc4726b80a36b2ded6abfbde1d02965b99e08ba12b5705230fbf0eab8950b1"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/audit-native.mjs",
+      "bytes": 7215,
+      "sha256": "c82623b0a63f4a02c3f9e9309d159dba9ba49aac59c02db3892730fcea03a851"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/base-source-v1.png",
+      "bytes": 918105,
+      "sha256": "379939e7b4fddf20367b1eafdf20f5c3b33bef68e64ffb766253d9e376ada0b1"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/baseline.json",
+      "bytes": 291,
+      "sha256": "1ca8b7133b494e1cfefa909fbb228ab5b19bf3ccd47704ee694eb3f5e7be33ec"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/build-review.mjs",
+      "bytes": 6798,
+      "sha256": "f3cb295b8d54caff872d1b060f9c0327bfc4b132b68c8c661ce259e3a7d07203"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/casts-source-v1.png",
+      "bytes": 1056856,
+      "sha256": "255deecbf1641cb570c0b18a34c5e4d9e823d2d5e29e22578495aa32201122d4"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/compile-draft.mjs",
+      "bytes": 4925,
+      "sha256": "83ab51d9b87ed53246bb088f5f0c0361b88e8d33cfe666ee6acdc453e7de94d7"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/compiled/asm47.bin",
+      "bytes": 1120,
+      "sha256": "44bebe7c0fb1f921f78fb05acaee73f50c79dc3fead380fb1b93c953e40e7f73"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/compiled/gfx90.4bpp",
+      "bytes": 9440,
+      "sha256": "8a77209c3b7167c962f2f202b251babdd709a82eb0ba655aaa2edfc63e0135cb"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/compiled/gfx90.ct-lz",
+      "bytes": 6009,
+      "sha256": "6442a627c7363d26b94b2b7db234b026f21ab9d3a51dcd5ad0116d73a4805b28"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/compiled/palette39.bin",
+      "bytes": 24,
+      "sha256": "bf9c2d97b47363dfb4b1ec4018c2d969c348668b8545eceaa59fc6f2376914df"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/compiled/verification.json",
+      "bytes": 7892,
+      "sha256": "7988ee86301dc0c5a4f6d2e70d9be76f4b0e1daed01808adda48348ec45ee20b"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/current-co-loads.json",
+      "bytes": 14370,
+      "sha256": "787fd35ae0321be0001b57d58c72ab7700eb13bbf774ca86329e9e1f0ff538d3"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/design-proposal.json",
+      "bytes": 29370,
+      "sha256": "95d2b4a5d5cb7d345dc9d3fca0d4b7e1eacf046d7dadd7cbb8cd6fd17f196ea5"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/draft/preview-import.json",
+      "bytes": 9747,
+      "sha256": "5c62c0135226ee5fe7703a31cf07a5631f8ab7ce2259861c123928a3dd81dae7"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/draft/preview-raster.json",
+      "bytes": 91952,
+      "sha256": "e3551933e3961f76c2a661684b44b999f65b6c8317182ca5efb8c6e5b5f35808"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/family.draft.json",
+      "bytes": 7651,
+      "sha256": "9fd2dbbf7df381dc3e79ba2b735da3f2f078feb4cf1b408fa6628efe251e07d7"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/freeze-package.mjs",
+      "bytes": 10343,
+      "sha256": "47d2a2cde14c5ba3477f77ff9bc24619a0b8201f429b908f14dcd2956009b1c1"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/gait-source-v2.png",
+      "bytes": 737747,
+      "sha256": "de175220269afb1fb92d3228581ae147d774eab4f0b0f50157eecb7db8f0a1ae"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/geometry-proposal.json",
+      "bytes": 38303,
+      "sha256": "160a01fcd8d87810ec22eca4c179784504b90ffca42d079965f8c9ed3a5f1667"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/import-spec.draft.json",
+      "bytes": 4425,
+      "sha256": "57c96d3e22f0e64428e6619da98db78e42a93ce73d0129b4036e30052049c076"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/integration-handoff.json",
+      "bytes": 22614,
+      "sha256": "e0cdb2157cf7c8ca238be8a3db2bae8850194d90762eec49edadfd982e6a98a3"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/motion-verification/manifest.json",
+      "bytes": 52680,
+      "sha256": "3cc3bf6cc4fff673c939faae76055472ef2c279cf6fa77c1c66a83848c24629b"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/native-audit.json",
+      "bytes": 33309,
+      "sha256": "a4e900719573a5d8b8a3e343b7b8b6025171fa278fa443c878609dcc6d1f26ed"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/native-role-notes.json",
+      "bytes": 2459,
+      "sha256": "99abbe29e329eaa79330b3e3b7ead1dfd28ff1d7b14820f0058b7782a81019cd"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/native-verification/manifest.json",
+      "bytes": 7423,
+      "sha256": "3425d75e426d9bb0bccd22e70ac19e57883a4a2975a97bc40c57c0694b94d9ac"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/native-verification/palace-hexer-12.png",
+      "bytes": 56584,
+      "sha256": "967bde7f8a4b4a7ba292fae944a8263c334d7c93c228a8f431be80f6d776f0b4"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/native-verification/palace-hexer-17.png",
+      "bytes": 56517,
+      "sha256": "37d65197d68fed3e889ee7de9b8b28b9b45b9e9e2ddc845c4e55fab7bdfe9648"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/native-verification/palace-hexer-20.png",
+      "bytes": 56569,
+      "sha256": "d54bc37f6b17f52d9b1e60a51a00554e4d026f2416caad5bb8963efe73c2a779"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/native-verification/palace-hexer-23.png",
+      "bytes": 56456,
+      "sha256": "bb57f94c7638b85d48f6f54134634ce9c5df9fe94c10e942d025424ef227e373"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/native-verification/palace-hexer-3.png",
+      "bytes": 56579,
+      "sha256": "acca8ae7f2e8d1dfe01f5e8e7275611dce25c46d4f3705858e3f9ee07e52200e"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/prepare-draft.mjs",
+      "bytes": 6511,
+      "sha256": "3f8a121e187f41357bd8b35a9cb97735ca7612e142b18694ecdf14528841b99e"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/private-overlay.mjs",
+      "bytes": 3147,
+      "sha256": "630b1bac6ca8b3f1207f7ebbefe819b403758f321ec117926fd94cc6cf6fb6bd"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/prompt-base-v1.txt",
+      "bytes": 3193,
+      "sha256": "3c21f6e27e31afef556e54e7482922e0a8bf661727cfc418fe4fb4323291462d"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/prompt-casts-v1.txt",
+      "bytes": 2912,
+      "sha256": "e0dedd513cd9e9e7fe997db6a0875b89b42da35962bd7481a002b4feb8fc2aab"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/prompt-gait-v2.txt",
+      "bytes": 2255,
+      "sha256": "6e3535350e8f18df9feb5042be386a797763cf9b562e761db1794c0103acddb8"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/prompt-reactions-v1.txt",
+      "bytes": 2526,
+      "sha256": "015991a6f1b5c3ef895f7578dc9b8d7d1dfe9f4c4dfc42b4343aa3e71ef3955a"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/provenance.json",
+      "bytes": 5661,
+      "sha256": "124ff266cbf94d9f7470cb00dc9349c68eacf53a59668efe6e49a301a7f7b59b"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/reactions-source-v1.png",
+      "bytes": 1655695,
+      "sha256": "c5d5dd4ce4ecc6d971ce1244341a3917666d4bee1cee93db695f959053fdadba"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/review/contact-sheet-1x.png",
+      "bytes": 57706,
+      "sha256": "3b5eb24c0dfb492a375eb0865d9adfe41f05b66d983bd30419d3daf90e74a5a3"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/review/contact-sheet.html",
+      "bytes": 36653,
+      "sha256": "2570f03f2745f4183ca6a4ab8586d1c551c393df52b08c797495204481aa0b3f"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/review/gait-contacts.png",
+      "bytes": 40243,
+      "sha256": "5f570fdb2034c6c610a05a00abb374ada94839fb1b225a5651925f46e9040953"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/review/motion-review.html",
+      "bytes": 121505,
+      "sha256": "81e35efe9d62490756d6c8e638c75f28bb62933c9e19806bbf142aed2e80a754"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/review/native-1x.png",
+      "bytes": 21369,
+      "sha256": "13ba3866a6a97c82efb00daaff71fdec7e4b58fa91bd025f3057e210efd50c6a"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/review/native-6x.png",
+      "bytes": 33516,
+      "sha256": "927987b634dd53706940fce45c5f4b95c987d646d29bf9f87438629e4ca9e1f0"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/review/role-review.html",
+      "bytes": 101632,
+      "sha256": "b48d0fd461e05214d42043640446f0a7d983e780638015038cdf5bdfd825e365"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/review/ui-verification.json",
+      "bytes": 784,
+      "sha256": "3627b21da2edda7ecd6cb6d0f9a9396868a5a0c0acef8234fde918b5989ce4cf"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/ending-bounded-return.png",
+      "bytes": 57263,
+      "sha256": "5bee04220fd0a12093acdcea47b30e8c43319ff2ca62469003bdcacd48f959b7"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/ending-shared416-540.png",
+      "bytes": 88364,
+      "sha256": "6d2b4f44f30b931fb8e9d9a8658484ef83c4700e2767af21d8bb0daf1c910403"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/ending.json",
+      "bytes": 11708,
+      "sha256": "654b99c170d33854e4ed4a71ffc04bb3719ee47bf2c3e10b810473bf406f99a5"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/forward-area.json",
+      "bytes": 9144,
+      "sha256": "5db37ee2ff8d43b79b46200ba6315f4b3e8bdcaceb010f9bed641561d47258b0"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/lift-battle.png",
+      "bytes": 90347,
+      "sha256": "630b0f2263f4f45ec77e11cb232e35a8eda5ac5690e5c3c9e5f0a7cf59990479"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/lift-shared-palace-staging.png",
+      "bytes": 92318,
+      "sha256": "2df060da153999b4d184f6bc8d493f53448f135506d582b1d4c75f55d4a962ef"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/lift-victory.png",
+      "bytes": 91747,
+      "sha256": "ebf6fbba156b14b32bc4eb3541d7c6a23106fcd12edf7f1653d9868169822b79"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/lift.json",
+      "bytes": 48220,
+      "sha256": "e733c9a296d2bc0d7d6ad8aa90bd21d2d4b8be323b2ad6f211b5f7035031a611"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/manifest.json",
+      "bytes": 6566,
+      "sha256": "59623d944b63641b19688b3dffa9298029b37aef7439cf59205d961667bb11e0"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/piazza-battle.png",
+      "bytes": 51809,
+      "sha256": "7bdc44d7ec346323d91c94c60efdd0d7807ebb1712794486de487b036600621b"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/piazza-victory.png",
+      "bytes": 43006,
+      "sha256": "62be00c3df9b626a267a3abdffa6897485fadbc9902d4b68708a9bbb8324b0c8"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/piazza.json",
+      "bytes": 9724,
+      "sha256": "d2d21595dbd122dfcc726fcf8a47b93a3e978c2b4f928110bca9d007b73547f6"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/side-rooms-native-staging.png",
+      "bytes": 47566,
+      "sha256": "6e89559601103429d55831e3be53ed4e89ab10af623aa99cbe7485fbb2d1f971"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/side-rooms.json",
+      "bytes": 9370,
+      "sha256": "e195caf570db6297cef386af7d6b59fda613f8d45cdf60173ccbbe1ce1f276a7"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/scene-verification/stairwell.json",
+      "bytes": 9307,
+      "sha256": "927e0d719a28dfcad1d51866b144c21e954a87836449aeece86df2118dc4d98f"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/verify-frozen.mjs",
+      "bytes": 1739,
+      "sha256": "584ecce5f3ed3614e74d0b3d1af84b2f4e6b9e2bfabc1619378692ed4afe0d60"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/verify-motion.mjs",
+      "bytes": 2979,
+      "sha256": "a51fb50a7abc38492eff65f6a11ec28d11ba2ae55a8a4760b9017e11217b7a97"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/verify-native.mjs",
+      "bytes": 4065,
+      "sha256": "3841cc468d2588f9b913a330ff9dfdaacbd1c35e67984651b44109798b4d3b9e"
+    },
+    {
+      "path": "assets/imagegen/palace-hexer/verify-scenes.mjs",
+      "bytes": 7659,
+      "sha256": "f678108b394bcb474493dcc4d2dce241ebe5e91a727a825e904f5fcb0bb6d7e9"
+    }
+  ],
+  "excluded": [
+    "private-baseline.sfc",
+    "private-qa/",
+    "probe-scenes.mjs",
+    "base-preview/",
+    "earlier base and exploratory scene captures",
+    "failed-route lift-unfinished.json",
+    "unselected duplicate native screenshots"
+  ],
+  "notes": "Final frozen source compiles to the exact graphics, assembly and private cartridge used by all final native evidence. No active code, import registry, canonical cartridge, gallery, title or music files changed."
+}

@@ -1,0 +1,45 @@
+{
+  "source": "source-base-v1.png",
+  "sourceSha256": "8d2b8c20042892c62b063153a18ec3c0d5b80c2ba7fcd6c71bc051cde41dc220",
+  "background": [
+    128,
+    128,
+    128
+  ],
+  "method": "For each RGBA pixel, composite RGB as round(sourceRGB*alpha/255 +128*(1-alpha/255)); output alpha255. This affects reference display only, never native input pixels.",
+  "references": [
+    {
+      "file": "reference-base-v1.png",
+      "bounds": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "padding": 0,
+      "sha256": "721389691d0506fd5e7ae2a11a3768de62e0fbdbb45d06d9ecc87ebaa2343dec"
+    },
+    {
+      "file": "front-contact-reference.png",
+      "bounds": [
+        770,
+        368,
+        204,
+        320
+      ],
+      "padding": 20,
+      "sha256": "e7a3e6d733398f3ed7052bb777d79390e43a8f725353fbe5ca70b46c39b5f439"
+    },
+    {
+      "file": "left-contact-reference.png",
+      "bounds": [
+        98,
+        705,
+        199,
+        314
+      ],
+      "padding": 20,
+      "sha256": "ce6ef6ceed38270acf3f67715fd9cb18be763d34fa351f0c10fafa587a4b0113"
+    }
+  ]
+}

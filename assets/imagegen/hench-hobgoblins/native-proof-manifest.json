@@ -1,0 +1,1168 @@
+{
+  "status": "Frozen bounded private native evidence",
+  "activation": false,
+  "baseline": {
+    "path": ".local/qa/hench-audit-af3383746691/baseline.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7"
+  },
+  "candidate": {
+    "path": ".local/qa/hench-hobgoblins-native-proof/candidate.sfc",
+    "sha256": "9d6988fc1b04a340d0a64c42fa5ecb891d4b06bbcc128855204fd00ae0dffcc3"
+  },
+  "core": "repository native65816/PPU",
+  "familyDisplay": {
+    "uploads": 74,
+    "cells": 296,
+    "pixels": 35322
+  },
+  "timing": {
+    "cases": 72,
+    "cycles": 144,
+    "ticks": 3392,
+    "startupTicks": 3080,
+    "fieldDelayTicks": 0,
+    "startupDelayTicks": 0
+  },
+  "authoredScenePhases": [
+    {
+      "key": "storage",
+      "location": 201,
+      "formation": [
+        75,
+        75,
+        75
+      ],
+      "positiveDamageResults": 3,
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "key": "fortress",
+      "location": 170,
+      "formation": [
+        5,
+        5
+      ],
+      "positiveDamageResults": 4,
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "key": "medina-peaceful-inn",
+      "location": 35,
+      "formation": null,
+      "positiveDamageResults": 0,
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "key": "medina-inn",
+      "location": 35,
+      "formation": [
+        75,
+        255,
+        72,
+        72,
+        255,
+        255,
+        255,
+        255
+      ],
+      "positiveDamageResults": 3,
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "key": "medina-peaceful-market",
+      "location": 39,
+      "formation": null,
+      "positiveDamageResults": 0,
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "key": "medina-square",
+      "location": 31,
+      "formation": null,
+      "positiveDamageResults": 0,
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "key": "kitchen",
+      "location": 202,
+      "formation": null,
+      "positiveDamageResults": 0,
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    }
+  ],
+  "battleLayers": [
+    {
+      "phase": "storage",
+      "location": 201,
+      "enemy": 75,
+      "slot": 0,
+      "requestedFrame": 1,
+      "displayedFrame": 1,
+      "requestedOrigin": [
+        138,
+        139
+      ],
+      "displayedOrigin": [
+        138,
+        139
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 525,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "storage",
+      "location": 201,
+      "enemy": 75,
+      "slot": 2,
+      "requestedFrame": 10,
+      "displayedFrame": 10,
+      "requestedOrigin": [
+        178,
+        147
+      ],
+      "displayedOrigin": [
+        178,
+        147
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 449,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "storage",
+      "location": 201,
+      "enemy": 75,
+      "slot": 4,
+      "requestedFrame": 0,
+      "displayedFrame": 0,
+      "requestedOrigin": [
+        97,
+        147
+      ],
+      "displayedOrigin": [
+        97,
+        147
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 468,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "fortress",
+      "location": 170,
+      "enemy": 5,
+      "slot": 2,
+      "requestedFrame": 4,
+      "displayedFrame": 4,
+      "requestedOrigin": [
+        88,
+        86
+      ],
+      "displayedOrigin": [
+        88,
+        86
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 538,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "fortress",
+      "location": 170,
+      "enemy": 5,
+      "slot": 3,
+      "requestedFrame": 4,
+      "displayedFrame": 4,
+      "requestedOrigin": [
+        152,
+        86
+      ],
+      "displayedOrigin": [
+        152,
+        86
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 538,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "medina-inn",
+      "location": 35,
+      "enemy": 75,
+      "slot": 0,
+      "requestedFrame": 1,
+      "displayedFrame": 1,
+      "requestedOrigin": [
+        136,
+        79
+      ],
+      "displayedOrigin": [
+        136,
+        79
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 525,
+      "occludedOrNonRawPixels": 0
+    }
+  ],
+  "privateArtifacts": [
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/candidate.json",
+      "bytes": 2207,
+      "sha256": "ed5d3489ad42922ded40920bb04aa13cb32796d82fe8d2150cdaa8e884e328a6"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/candidate.sfc",
+      "bytes": 8388608,
+      "sha256": "9d6988fc1b04a340d0a64c42fa5ecb891d4b06bbcc128855204fd00ae0dffcc3"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/bedroom.json",
+      "bytes": 1670565,
+      "sha256": "356526e0dc99caec59fbdde72d538d2b7b044e6fa0f99d160f6b809d77f65264"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-00.png",
+      "bytes": 56520,
+      "sha256": "8ad9b7b0aac5cf8061320ccf6e26c77a45c3a997fcc36dd134a06a4227131c98"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-01.png",
+      "bytes": 56434,
+      "sha256": "a77f6096a16d091e68c85a1b32cefe927215480a05fc1a4502da5442a938a233"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-02.png",
+      "bytes": 56439,
+      "sha256": "b7e071129fb2c3718e416c50cbaeb48c7c74dbd2f071e8b310937875efa4103b"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-03.png",
+      "bytes": 56538,
+      "sha256": "8d327a508affd2ac1c71d7a96263b62569969ae64648d428cb16c34a7e8c474f"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-04.png",
+      "bytes": 56474,
+      "sha256": "2d3ba430ad29f2dca0a61f658bbf9642be2aa57710407165fd8914dfa7e3a575"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-05.png",
+      "bytes": 56586,
+      "sha256": "9682c4f0891e8ecaed9e628003982c4d3ecb0c1fd73fcf557a6971611f730587"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-06.png",
+      "bytes": 56511,
+      "sha256": "47192ef1ea1fbc70936a3cb163be85cdf0224a8f5ac6037e01265f8bd6db47bf"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-07.png",
+      "bytes": 56488,
+      "sha256": "45e75beccff0a368a7201323999aa676f4990fe2f25df47939363b0cde4c0929"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-08.png",
+      "bytes": 56550,
+      "sha256": "8848d56f6562e11c115e68528e34dba41c3ea28f8be43dbde9586a33c7cc31cd"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-09.png",
+      "bytes": 56554,
+      "sha256": "d63c095e36635a689e7cec7ad61ab8f48e1021e3196524d58be4edf494f59d7e"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-10.png",
+      "bytes": 56546,
+      "sha256": "090e30b9ed2aed58b136619d62b7f1256b6052954cd9d97163e112d4ca431d99"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-11.png",
+      "bytes": 56566,
+      "sha256": "ff03e85def9f9a4a6c20b2dfc201b5415e89931ca587bb50f26703b67f07e12a"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-12.png",
+      "bytes": 56623,
+      "sha256": "0a0ea456b0c6c5b31807aea54db9cf05f7bccb1b35b62675357c3b2379e9ff9b"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-13.png",
+      "bytes": 56377,
+      "sha256": "8a9b7c05da935400e142a705f9cb35c050b06aef34b7b2c6d85994fb9458f12b"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-14.png",
+      "bytes": 56383,
+      "sha256": "1a0fd5c9b763a57c33932f792d083bbf3339ecc7951dc49a72ef54a2fa714e9f"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-15.png",
+      "bytes": 56271,
+      "sha256": "db7868bf40598fc6b35b845ae8f99e1d23767a0247623b980bc8bf4a3ff37484"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-16.png",
+      "bytes": 56562,
+      "sha256": "7aa1cba8f88676452b88ca868d66f364d7f1585d49317166e4c499c884c989a1"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-17.png",
+      "bytes": 56495,
+      "sha256": "5255c0df87b79105fe38e5051ede9e55c80d96545b3aa312f245d5a218eebe17"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-18.png",
+      "bytes": 56543,
+      "sha256": "fa57b1c969551d7b40d7bea638c0ee7c292a55928fd859f83b872aeb9a67f635"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-19.png",
+      "bytes": 56490,
+      "sha256": "e91944191199346f6e1ffe77c903e3478589b392b55bc7b35e781198a054d49f"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-20.png",
+      "bytes": 56508,
+      "sha256": "af06c3fb8e182d689a240fe7162203c04d43ebf1978f2ddf1f7f5ea18a70fded"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-21.png",
+      "bytes": 56339,
+      "sha256": "3295fe48a052902fe0c651088a788310bf5e3b3b2434a9cd636ec37d7b2dac79"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-22.png",
+      "bytes": 56489,
+      "sha256": "06dd074551228de685ba4503a000e4ef0f298b3b3478a1ebd6c43cdb5654344f"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-23.png",
+      "bytes": 56592,
+      "sha256": "27543bdc200deb974e8b10fc2e79d2849f90a186d14ceb813f42e30218bfe8f4"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-24.png",
+      "bytes": 56420,
+      "sha256": "e0d8ae2e9c4101101795eb617144aa5fa5fda2863fed92ce82a6aa9983ff9150"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-25.png",
+      "bytes": 56365,
+      "sha256": "51bfc6d9e023d95d2e0192a7c2d42eff4537036992eff5de2c02eedfd570402f"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-26.png",
+      "bytes": 56329,
+      "sha256": "a81cbd8051f7ec168195026fa6850deefeb23f5de6981ea723729470f9f12576"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-27.png",
+      "bytes": 56193,
+      "sha256": "b18a9e2cc9978e1bb6084b02f99e32ffa45f2993cfb2552e07a9d6c35291e7cf"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-28.png",
+      "bytes": 56301,
+      "sha256": "66c0d2e098e90ca75f1fdbace1a366d8a694e49645f09fcdcdd8e57fdbee1733"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-29.png",
+      "bytes": 56192,
+      "sha256": "60f51f5b4906ce31378aaf15a1421d7bcfaa5d1dcfdfdc6288027e3c211e9196"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-30.png",
+      "bytes": 56358,
+      "sha256": "a13e4dbaa1b60ae26da57236a2f968c8d4534db0a434a455f95e9674aa7eeabb"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-31.png",
+      "bytes": 56392,
+      "sha256": "fb7bc6bae98a1ce0c136b8e174839109124e5dfccffa7351a14c78179ba30f7e"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-32.png",
+      "bytes": 56294,
+      "sha256": "f07f87a726756884117a2eaa8c0a0d2a628783eb841a5092da35912f78257679"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-33.png",
+      "bytes": 56322,
+      "sha256": "5f61b279f3b5fd1d2e446bcbdaec50f0f90353e3869984863ee0bceecb403774"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-34.png",
+      "bytes": 56415,
+      "sha256": "b73133b69b8f00f1b77341edc9b5172a33c369768dfa8156612eabc082d99038"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-35.png",
+      "bytes": 56269,
+      "sha256": "a67f8d205bbfec0ab71b9c7cd3be4f447593e6ffb210905535dae26fb5c75db4"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy5-36.png",
+      "bytes": 56361,
+      "sha256": "6e6bad807b32a25f2091ca3d27c18f3b6c6714776de90ed2881327feac0cd189"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-00.png",
+      "bytes": 56545,
+      "sha256": "03fedfc3cf9478022bd5cafa046b571290fd5cd4ce09936b92269d4aff0c8f21"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-01.png",
+      "bytes": 56464,
+      "sha256": "cb9d63501f17f7d55614ddca3b6ed91a43d8c7e8b7209d6f21fa8a6d1567db75"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-02.png",
+      "bytes": 56474,
+      "sha256": "ba61bad0f06aa465616d5f5042e305935b52cd2dfab18f8ab1f03c3ebbda9201"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-03.png",
+      "bytes": 56576,
+      "sha256": "c0f2a6990a398978e6f81f8b765456c015b1ae4cd83e50858d8c5cb48ca72919"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-04.png",
+      "bytes": 56511,
+      "sha256": "567da8049f1a438d6b99c8005d30adfd25269878e7bb8850db7870718301d970"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-05.png",
+      "bytes": 56633,
+      "sha256": "4fb6557b7ca01d0d11e26c06bfe2e8c72b01ccb1d1b5976f7efcd63f30792154"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-06.png",
+      "bytes": 56551,
+      "sha256": "f1715c4a4250377419f4c5822d8ad4e53a5e80503eaf7f79f34bbb9834e20f2f"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-07.png",
+      "bytes": 56509,
+      "sha256": "ea061abdde46fd7aad6be26558501a9e67d86bceec0ffd8e6fc55bf4c3049a94"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-08.png",
+      "bytes": 56594,
+      "sha256": "366b5e4479f01377989ccf21be743b6d22f6045deb66990aa9fdecead139cae6"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-09.png",
+      "bytes": 56589,
+      "sha256": "32e54f707458be1eff2373761c294f045c0d860ef88eea0425b48e555c20a5f0"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-10.png",
+      "bytes": 56589,
+      "sha256": "5334202fe7c3b5d17020983235ac5a970d2cc7cfb423d9b03efbfc484cebe435"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-11.png",
+      "bytes": 56609,
+      "sha256": "94421f52a53f876ebfbae3ee1223029cfe98de0253ef27ae59b6ee0bfffd0203"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-12.png",
+      "bytes": 56692,
+      "sha256": "8d9a6b8a98114562d1019dc46f3953872474b954347e58710e0ed59e5a287d21"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-13.png",
+      "bytes": 56409,
+      "sha256": "54946ad8dc48bf864250e977755f4a6576f3a21d112aa87b210816990af2f39e"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-14.png",
+      "bytes": 56448,
+      "sha256": "c8123c8896a4086d0bb948306725c19db3028fa3b9be6c24a7607fdf1c58dd6d"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-15.png",
+      "bytes": 56297,
+      "sha256": "e5940516079d128f121f00218c3fc4471e5ac43d4dd361d98b599da9f0540960"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-16.png",
+      "bytes": 56582,
+      "sha256": "ebfdfa6c247130d5d9182089b19df0e3f80a5a2ff185bdb31b147a281d47661a"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-17.png",
+      "bytes": 56543,
+      "sha256": "3b8b7772df9c2c26bf19d99a4a69f4bd024536502bd1798c5b05fb8595d797f4"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-18.png",
+      "bytes": 56575,
+      "sha256": "5574df446a06b1a366a5af584022ce7af4130da5447d6d43062c338d09b55d9c"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-19.png",
+      "bytes": 56508,
+      "sha256": "2f427cc795b378a6fb8d3ff1816728721b46e649415021a263d3a4e61085834e"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-20.png",
+      "bytes": 56547,
+      "sha256": "c8d8ab0fa0901ea0c640b3fa44f009596a5bd29ff993f8535eea2096d0c85c53"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-21.png",
+      "bytes": 56359,
+      "sha256": "b4a2c7855de46fcb852cb3266578cbfd9757351e4d31cc9abee4a974f36bb3c0"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-22.png",
+      "bytes": 56522,
+      "sha256": "cd6f158ce2aaec9d79d2e02eb42e918dab089064ec57030e3ba2146afcd46d6b"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-23.png",
+      "bytes": 56633,
+      "sha256": "33b2a354a3491e6b3f7e5d623bf0e451aaa8bad5a54637ab5e3410bcf44e1999"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-24.png",
+      "bytes": 56463,
+      "sha256": "741e723dbd1a744c516107200d6150d0cf11b2fcb32c28d7117eb82c178745cc"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-25.png",
+      "bytes": 56396,
+      "sha256": "b88cc55a5dc7f3fa336ae732ba32baaf9befcbb3f47bac3638c983b12bfa2be7"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-26.png",
+      "bytes": 56353,
+      "sha256": "62fcd24b8067718a18e7f7b9433e95942c59d494d85d4f526ff44b68a5107b50"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-27.png",
+      "bytes": 56211,
+      "sha256": "36545daf1fd4783bbbf7cad1728c033030355793a3c8bf67c4fb702dfedf9001"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-28.png",
+      "bytes": 56324,
+      "sha256": "6e40f7e41606a3a215393b5036e0593cf4d8240985629653ee98c67da8c7b9d1"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-29.png",
+      "bytes": 56204,
+      "sha256": "075e1a466cbe27211f70f1b5c9b483f0aacdb476b744f46532d4388e58a3758e"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-30.png",
+      "bytes": 56390,
+      "sha256": "79046751f0e62b01d4e2c746e4d5bc92f9a74ad698d6a76b6f48e1d4e804ddc3"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-31.png",
+      "bytes": 56419,
+      "sha256": "e9a42e4427a0d97d4c8a2024919f8e9b9cfb9ac3274cccb606db12442b15da28"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-32.png",
+      "bytes": 56313,
+      "sha256": "0e4c1f66842b32618a05a9beb7e890a8aa10b4b130866ab22b36bfb85e076afc"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-33.png",
+      "bytes": 56336,
+      "sha256": "72698526b7c6aa07e6c20b989af067d0ccd33af949962e601c89084a53d3f607"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-34.png",
+      "bytes": 56454,
+      "sha256": "0702eef58c4582c22992d69ff0df59eae59014af3cdb53fa2a055b2235f3a0d5"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-35.png",
+      "bytes": 56292,
+      "sha256": "ef851182582462df14ecf58eab1ae3f53c28317e3d279c5f864802e0cbe3e3c1"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/display/enemy75-36.png",
+      "bytes": 56393,
+      "sha256": "dc0885a0031c6b6198c46c780014f01bbbd71110c781d0d64b9246f027890305"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action0-facing0.json",
+      "bytes": 1764,
+      "sha256": "1ef8fb36b66a58d12e484db3fd63f31b36c6633224fe470317b85f9543d3b7ea"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action0-facing1.json",
+      "bytes": 1764,
+      "sha256": "46b51171fc280b8c2920f0272540908dd7dd176248746abef1005e7d3c3b144d"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action0-facing2.json",
+      "bytes": 1764,
+      "sha256": "fb0eddb8097cd87041c17d659b11b9cfe5c62885ebb0010c7cf335b2130335d0"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action0-facing3.json",
+      "bytes": 1804,
+      "sha256": "14e91c0eb65e0583e928152611aa13dc797bbb37a06bcc9a5da9fc7f66d6748a"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action1-facing0.json",
+      "bytes": 18345,
+      "sha256": "afc2e5314e58eda5f08b8ddf8822cf40967a8870fa45e6e02a5d5ad9cd5957d4"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action1-facing1.json",
+      "bytes": 18345,
+      "sha256": "ea6a0494846a47504fb89c0b19f4194d7030361f421e8a2602d402f911bf965e"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action1-facing2.json",
+      "bytes": 18345,
+      "sha256": "31b7d16f162b6e04db1e22863bf35cabb12b25f3c088cecb2df097071e626ffd"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action1-facing3.json",
+      "bytes": 18673,
+      "sha256": "3df4a084ecd1294c096d0c84700bdb23b013f4509168a8e1d6b1ad073103db87"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action3-facing0.json",
+      "bytes": 8201,
+      "sha256": "dd17beab9a0e336ceda13ec0664e9c7d6c4f4320e5f6822c754203d8bd85d394"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action3-facing1.json",
+      "bytes": 8201,
+      "sha256": "4cdb9718af5d39024eabdaa3dc5bdedd4fb973f2c495e22ae53003f0c3417394"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action3-facing2.json",
+      "bytes": 8201,
+      "sha256": "add0e5885bb983000c55c983df201bf08ee932e2d2b312e1121009eae56cc6b5"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action3-facing3.json",
+      "bytes": 8397,
+      "sha256": "303529acb77635696a164e1881b0e82a2c9ffec32ad3ec4f7a84a9722adb19b0"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action4-facing0.json",
+      "bytes": 16483,
+      "sha256": "126f59ddcc79a2ffb49408b4a3cf0919436d1418704e88546494c21b8d549710"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action4-facing1.json",
+      "bytes": 16483,
+      "sha256": "0d0e553a601b9597b0e0cf9267e7ca5b27a7436c8baf702fa6e6df266387df01"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action4-facing2.json",
+      "bytes": 16483,
+      "sha256": "572e9e887d2c533a4749ba35fa9e2235da7f9e410f18594c5a053df5ea18ac64"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action4-facing3.json",
+      "bytes": 16491,
+      "sha256": "6682ad9c71a49c92f370f68ed475e543712850c6aa232b678da69ca986af144b"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action5-facing0.json",
+      "bytes": 1796,
+      "sha256": "416c3f4da5e944b22c7a710fb094fdcec5d859eeeb701ae19fb355cd3eb3cb62"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action5-facing1.json",
+      "bytes": 1796,
+      "sha256": "200ac77833399c3e0afe4e54191b203f050b04813e41eaa64f2b11b475a9cb4e"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action5-facing2.json",
+      "bytes": 1796,
+      "sha256": "c5e4630a4fc1bf1cd43f1c7a36a051bf3eb4521506afb90a98816d301e2a472c"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action5-facing3.json",
+      "bytes": 1804,
+      "sha256": "a14ed571c4a45033c998d82668b6ea89828eed11c9c6b3fa70d847aae46ce3de"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action6-facing0.json",
+      "bytes": 1764,
+      "sha256": "5cbb4a1b2fd4ab2eab050a3435d1ef3416a5e1644034cb5bac54f447e5dd04e6"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action6-facing1.json",
+      "bytes": 1764,
+      "sha256": "5383978e2ab4abe9515e871084435a6992df8c030244fe0ce9e3e3d06e6a789b"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action6-facing2.json",
+      "bytes": 1764,
+      "sha256": "2eb590c5171c0fc2e59c8e6ad484ab5ac8db295750904e80dc2920b0d11652c0"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action6-facing3.json",
+      "bytes": 1804,
+      "sha256": "7a1cb11d1848eed4b526b006ed3946d188dbc51a740de13d34facd021bc263c7"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action7-facing0.json",
+      "bytes": 7651,
+      "sha256": "99f63fad1eaf9b4562f2252e553e47a0006c3c8575e7c3f96a7ac9ab88f386fd"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action7-facing1.json",
+      "bytes": 7651,
+      "sha256": "f1f1a9e8faa154b61368d678375e4267cdae9d64c9e2fc8458243a6bb4a23870"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action7-facing2.json",
+      "bytes": 7651,
+      "sha256": "a3ab97c22a045a2be87031429b5ba67d4bb149af49fc9c8b9a1d3387ece82d86"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action7-facing3.json",
+      "bytes": 7659,
+      "sha256": "8081db8dc38a20362852c219889f82e84675a3cedf615b2f746b9ded3c082bb6"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action8-facing0.json",
+      "bytes": 5076,
+      "sha256": "5e561d6934fa3daf51127a4380c7ea46a2f5155b04635ee8f1893b9ec308a157"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action8-facing1.json",
+      "bytes": 5076,
+      "sha256": "b62745ddbbdaa6ec434e209d8ef4129907cc9670c30502ef66b037c41b9c63d4"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action8-facing2.json",
+      "bytes": 5076,
+      "sha256": "e0476508670c97df599eed6abb827a10df126c4a01953887966249596c618760"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action8-facing3.json",
+      "bytes": 5084,
+      "sha256": "b75994529aedd194dadafc676cea8c17294e3caa8c535f2e3b15bf304f071728"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action9-facing0.json",
+      "bytes": 5076,
+      "sha256": "284d2324e65d32072e10f196c2ba41456f8725d2a50c0fc2553cff2054cf2ba9"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action9-facing1.json",
+      "bytes": 5076,
+      "sha256": "5919be388a4c5093f374083f97ba7f187922897bdc694552aa3f96555ad80e92"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action9-facing2.json",
+      "bytes": 5076,
+      "sha256": "18e80f9661252227471f2949115ebd1cd5529e0f62b374bd1b1779638f4793c4"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy5-AA30-action9-facing3.json",
+      "bytes": 5084,
+      "sha256": "7de1e7f411ac4c80da920203dfd88a73ccfe1995bbe40d2e5a057fa08e5a7d6c"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action0-facing0.json",
+      "bytes": 1764,
+      "sha256": "1ef8fb36b66a58d12e484db3fd63f31b36c6633224fe470317b85f9543d3b7ea"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action0-facing1.json",
+      "bytes": 1764,
+      "sha256": "46b51171fc280b8c2920f0272540908dd7dd176248746abef1005e7d3c3b144d"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action0-facing2.json",
+      "bytes": 1764,
+      "sha256": "fb0eddb8097cd87041c17d659b11b9cfe5c62885ebb0010c7cf335b2130335d0"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action0-facing3.json",
+      "bytes": 1804,
+      "sha256": "14e91c0eb65e0583e928152611aa13dc797bbb37a06bcc9a5da9fc7f66d6748a"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action1-facing0.json",
+      "bytes": 18345,
+      "sha256": "afc2e5314e58eda5f08b8ddf8822cf40967a8870fa45e6e02a5d5ad9cd5957d4"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action1-facing1.json",
+      "bytes": 18345,
+      "sha256": "ea6a0494846a47504fb89c0b19f4194d7030361f421e8a2602d402f911bf965e"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action1-facing2.json",
+      "bytes": 18345,
+      "sha256": "31b7d16f162b6e04db1e22863bf35cabb12b25f3c088cecb2df097071e626ffd"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action1-facing3.json",
+      "bytes": 18673,
+      "sha256": "3df4a084ecd1294c096d0c84700bdb23b013f4509168a8e1d6b1ad073103db87"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action3-facing0.json",
+      "bytes": 8201,
+      "sha256": "dd17beab9a0e336ceda13ec0664e9c7d6c4f4320e5f6822c754203d8bd85d394"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action3-facing1.json",
+      "bytes": 8201,
+      "sha256": "4cdb9718af5d39024eabdaa3dc5bdedd4fb973f2c495e22ae53003f0c3417394"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action3-facing2.json",
+      "bytes": 8201,
+      "sha256": "add0e5885bb983000c55c983df201bf08ee932e2d2b312e1121009eae56cc6b5"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action3-facing3.json",
+      "bytes": 8397,
+      "sha256": "303529acb77635696a164e1881b0e82a2c9ffec32ad3ec4f7a84a9722adb19b0"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action4-facing0.json",
+      "bytes": 16483,
+      "sha256": "126f59ddcc79a2ffb49408b4a3cf0919436d1418704e88546494c21b8d549710"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action4-facing1.json",
+      "bytes": 16483,
+      "sha256": "0d0e553a601b9597b0e0cf9267e7ca5b27a7436c8baf702fa6e6df266387df01"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action4-facing2.json",
+      "bytes": 16483,
+      "sha256": "572e9e887d2c533a4749ba35fa9e2235da7f9e410f18594c5a053df5ea18ac64"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action4-facing3.json",
+      "bytes": 16491,
+      "sha256": "6682ad9c71a49c92f370f68ed475e543712850c6aa232b678da69ca986af144b"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action5-facing0.json",
+      "bytes": 1796,
+      "sha256": "416c3f4da5e944b22c7a710fb094fdcec5d859eeeb701ae19fb355cd3eb3cb62"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action5-facing1.json",
+      "bytes": 1796,
+      "sha256": "200ac77833399c3e0afe4e54191b203f050b04813e41eaa64f2b11b475a9cb4e"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action5-facing2.json",
+      "bytes": 1796,
+      "sha256": "c5e4630a4fc1bf1cd43f1c7a36a051bf3eb4521506afb90a98816d301e2a472c"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action5-facing3.json",
+      "bytes": 1804,
+      "sha256": "a14ed571c4a45033c998d82668b6ea89828eed11c9c6b3fa70d847aae46ce3de"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action6-facing0.json",
+      "bytes": 1764,
+      "sha256": "5cbb4a1b2fd4ab2eab050a3435d1ef3416a5e1644034cb5bac54f447e5dd04e6"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action6-facing1.json",
+      "bytes": 1764,
+      "sha256": "5383978e2ab4abe9515e871084435a6992df8c030244fe0ce9e3e3d06e6a789b"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action6-facing2.json",
+      "bytes": 1764,
+      "sha256": "2eb590c5171c0fc2e59c8e6ad484ab5ac8db295750904e80dc2920b0d11652c0"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action6-facing3.json",
+      "bytes": 1804,
+      "sha256": "7a1cb11d1848eed4b526b006ed3946d188dbc51a740de13d34facd021bc263c7"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action7-facing0.json",
+      "bytes": 7651,
+      "sha256": "99f63fad1eaf9b4562f2252e553e47a0006c3c8575e7c3f96a7ac9ab88f386fd"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action7-facing1.json",
+      "bytes": 7651,
+      "sha256": "f1f1a9e8faa154b61368d678375e4267cdae9d64c9e2fc8458243a6bb4a23870"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action7-facing2.json",
+      "bytes": 7651,
+      "sha256": "a3ab97c22a045a2be87031429b5ba67d4bb149af49fc9c8b9a1d3387ece82d86"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action7-facing3.json",
+      "bytes": 7659,
+      "sha256": "8081db8dc38a20362852c219889f82e84675a3cedf615b2f746b9ded3c082bb6"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action8-facing0.json",
+      "bytes": 5076,
+      "sha256": "5e561d6934fa3daf51127a4380c7ea46a2f5155b04635ee8f1893b9ec308a157"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action8-facing1.json",
+      "bytes": 5076,
+      "sha256": "b62745ddbbdaa6ec434e209d8ef4129907cc9670c30502ef66b037c41b9c63d4"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action8-facing2.json",
+      "bytes": 5076,
+      "sha256": "e0476508670c97df599eed6abb827a10df126c4a01953887966249596c618760"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action8-facing3.json",
+      "bytes": 5084,
+      "sha256": "b75994529aedd194dadafc676cea8c17294e3caa8c535f2e3b15bf304f071728"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action9-facing0.json",
+      "bytes": 5076,
+      "sha256": "284d2324e65d32072e10f196c2ba41456f8725d2a50c0fc2553cff2054cf2ba9"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action9-facing1.json",
+      "bytes": 5076,
+      "sha256": "5919be388a4c5093f374083f97ba7f187922897bdc694552aa3f96555ad80e92"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action9-facing2.json",
+      "bytes": 5076,
+      "sha256": "18e80f9661252227471f2949115ebd1cd5529e0f62b374bd1b1779638f4793c4"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/timing/enemy75-AA30-action9-facing3.json",
+      "bytes": 5084,
+      "sha256": "7de1e7f411ac4c80da920203dfd88a73ccfe1995bbe40d2e5a057fa08e5a7d6c"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scene-proof-storage.json",
+      "bytes": 63795,
+      "sha256": "6f27f24fdaf4b56b691c425d52aa1f19a570adae1db37f5a881b3cf4ff520754"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scene-proof-fortress.json",
+      "bytes": 19724,
+      "sha256": "7831d520c229fca8f9f21db9ec5c431c59a4e789d59927e74b832a88454cb126"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scene-proof-medina-peaceful-inn.json",
+      "bytes": 3787,
+      "sha256": "795e032aeebb6fd194d3eea1c80e27487b297ba12d08c8529e3470cf299cb80b"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scene-proof-medina-inn.json",
+      "bytes": 11735,
+      "sha256": "8eec8e1a6c00c484943554361b9453cc77bed9e3bc2269d2ec4d8ce399858484"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scene-proof-medina-peaceful-market.json",
+      "bytes": 2699,
+      "sha256": "a7989a99a11e969a9520b12194395b1e28be445420d1e4dca697aca16ffebff0"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scene-proof-medina-square.json",
+      "bytes": 9633,
+      "sha256": "30724755d82f635e97c51a67835ce02f8e14875d7dcca70871b60d8016286a49"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scene-proof-kitchen.json",
+      "bytes": 10491,
+      "sha256": "2340aca2f07a9b70e2aef44a53be0116a83931806b888acd664b5823d123c8b7"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/storage-arrival.png",
+      "bytes": 40350,
+      "sha256": "3f8e28819c364e99ee5986e5b55b388168fb6b85659d32db1b7b8503dbb15499"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/storage-portrait.png",
+      "bytes": 55672,
+      "sha256": "ddf5a591d9aaf12605032b04282dc3032faee3126c52f1337ebb66fd5aac4bd0"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/storage-battle-ready.png",
+      "bytes": 54285,
+      "sha256": "a4ef74be0402b5f6dc04f16302e4588ad66df1931ea315e2bd4cd7f16126cdb5"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/storage-victory.png",
+      "bytes": 40397,
+      "sha256": "d332e0536b99895aacffa057934647225a006bb728ae3b2b3c6929bcde28980d"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/fortress-arrival.png",
+      "bytes": 56580,
+      "sha256": "e209ffb5bef3c5ff92834add34b2f56af41d6a73a486bafafcab87624329bb4b"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/fortress-battle-ready.png",
+      "bytes": 60803,
+      "sha256": "f5b67e4b66c68bc77daa3ac04fff1c6d41f2f997564a7594e9acb7ea420f0911"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/fortress-victory.png",
+      "bytes": 55503,
+      "sha256": "ed0aaa5bc2e12abc246f2cabac1cb70dbe551083a665f72d28bd081c43b06985"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-peaceful-inn-arrival.png",
+      "bytes": 62040,
+      "sha256": "e129f7a1b4f09c5645f0a73970a1a90207c501c2d9acbd32531f482c0348bfa2"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-peaceful-inn-medina-inn-price.png",
+      "bytes": 73545,
+      "sha256": "a3844b59458a1eb4bac0863140977d52689a928655e7aecabf4ec11aa718bab4"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-peaceful-inn-medina-inn-rested.png",
+      "bytes": 51318,
+      "sha256": "89151883e732df1f50e925aa81027322c0c56c1230519a193dde56ccdbda01a6"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-inn-arrival.png",
+      "bytes": 62259,
+      "sha256": "71b8279d67e81d851d546358d6fe8e319b79dbfaf403ca743526d836134124f4"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-inn-medina-inn-battle.png",
+      "bytes": 77350,
+      "sha256": "0e822cab886ca02d60555f9929c2bcc7e7c39931e56cff4c9bf53b219dbb7e88"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-inn-medina-inn-price.png",
+      "bytes": 73840,
+      "sha256": "6f8ec921aa0d0c1e8122da5cf19fb633b9520a7d08da67b1d3bc046050bba9af"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-inn-medina-inn-rested.png",
+      "bytes": 51318,
+      "sha256": "89151883e732df1f50e925aa81027322c0c56c1230519a193dde56ccdbda01a6"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-peaceful-market-arrival.png",
+      "bytes": 41596,
+      "sha256": "eee562a12a17a3e851d28d1a79babe96f50f3fdfc6a9fe7adc4bd914dcf27046"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-peaceful-market-medina-onion-selected.png",
+      "bytes": 69782,
+      "sha256": "4dc7e0a981b1791fd0488f3654508a95ebbc00400fbc4fa35626e5ad7e64710f"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-peaceful-market-medina-onion-purchased.png",
+      "bytes": 69841,
+      "sha256": "7c0c16c0982150533fe05d94259dc82377b5fc8c240f149bcae8df8686d0a506"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-square-arrival.png",
+      "bytes": 97028,
+      "sha256": "4d6421fa06652d4c9c850b05f43763b628a831a25b6abd6cb7d60848635f423a"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-square-dialogue.png",
+      "bytes": 97294,
+      "sha256": "3cadda0bd014e2b2e75ba73a95df2db5a3b50a13d92607349d1d7cfa3d88a736"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/medina-square-returned.png",
+      "bytes": 113867,
+      "sha256": "4e5b27199a435be09531c1f645bdfd3ec358697e761cb24ed6bca455dfebc6db"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/kitchen-arrival.png",
+      "bytes": 51546,
+      "sha256": "e803f2b7e34c55e931b4462e96f0308c9d3e6760a74668c831107b8935b3e549"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/kitchen-dialogue.png",
+      "bytes": 60762,
+      "sha256": "6256a0575c01f03aff3b6fd515cd80891e38f29496d5fb0e6c611c092ff60514"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/scenes/kitchen-returned.png",
+      "bytes": 45632,
+      "sha256": "b7f61ce2abf0da6f8d0ea60d9b2e000176ff1d43c1c6bdd6fbb805cb1ad5938f"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/motion-storage-battle-motion.apng",
+      "bytes": 174399,
+      "sha256": "58de01896ddced033b9c00f0c7c77b3370c0bdc89310eafd071ea4559a0a2633"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/motion-fortress-battle-motion.apng",
+      "bytes": 119051,
+      "sha256": "5206d5c23ef03e2635ee7c79a9fe6589d1327597b71c9d01711bff56f61313a8"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/motion-medina-peaceful-inn-field-motion.apng",
+      "bytes": 67584,
+      "sha256": "23fad4ca8318e7559f90d9ded740b3c50d7098cebe3273115e838580ee33f836"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/motion-medina-inn-field-motion.apng",
+      "bytes": 71715,
+      "sha256": "f88f39720f677d3095bcc51969f1a978b7469fe288c8624c6bf4345b9b94cc6f"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/motion-medina-inn-battle-motion.apng",
+      "bytes": 190892,
+      "sha256": "7280347d6be1a5a8439e1acf9d738dfe2bfb3baa1472eae2f364971bcbef2a9c"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/motion-medina-peaceful-market-field-motion.apng",
+      "bytes": 68515,
+      "sha256": "edbc3d99f99aa9c9c4e5a9bbf6c57af68a893f35b52c84d729cda4d791eef406"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/motion-medina-square-native-patrol.apng",
+      "bytes": 248067,
+      "sha256": "2d645b3aa0416fec8b986a30ab854d4611df1c2d226576ef43d9fb6db555af4e"
+    },
+    {
+      "file": ".local/qa/hench-hobgoblins-native-proof/motion-kitchen-native-reaction.apng",
+      "bytes": 188315,
+      "sha256": "ae189fc3f5a809577d1259fddd4de969250b58debcbc391119d932958e21ae22"
+    }
+  ],
+  "proofReproduce": [
+    "node assets/imagegen/hench-hobgoblins/build-private.mjs",
+    "node assets/imagegen/hench-hobgoblins/verify-native.mjs",
+    "node assets/imagegen/hench-hobgoblins/verify-timing.mjs",
+    "node assets/imagegen/hench-hobgoblins/verify-scenes.mjs"
+  ],
+  "limits": [
+    "Approval and proof apply to this exact source and private ROM fingerprint. Final production allocation and independent-core validation remain root-owned.",
+    "Source-normalized widths, two shortened action silhouettes and authored placements differ as recorded; original lowest body pixels, six flecks and all native cell origins remain fixed.",
+    "Only seven phases in six locations were executed after reversible diagnostics with development party resources. This is not full campaign traversal or normal-level balance validation.",
+    "Peaceful inn35 and market39 load enemy13/gfx86 instead of Hench75. Their success is unrelated-owner/branch evidence; peaceful square31 separately proves visible Hench75.",
+    "Zero delay was observed in isolated AA30 field tests and six battle layer samples. This does not claim every gameplay transition has identical display latency.",
+    "Map, dialogue and party overlap can obscure native pixels in real scenes. Exact full cells/palettes and unobstructed final pixels are separately proved in all74 isolated poses.",
+    "Source scene unions combine verified conditional loads. They are conservative resource inventories, not proof of every simultaneous resident set."
+  ]
+}

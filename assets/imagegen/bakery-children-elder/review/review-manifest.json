@@ -1,0 +1,50 @@
+{
+  "status": "Labeled source-derived indexed art and original native timing review",
+  "nativeScale": 1,
+  "paletteVariants": [
+    {
+      "actor": "child",
+      "palette": 123,
+      "npc": 32
+    },
+    {
+      "actor": "child",
+      "palette": 124,
+      "npc": 64
+    },
+    {
+      "actor": "elder",
+      "palette": 123,
+      "npc": 33
+    }
+  ],
+  "contactSheet": "Three sections: Child123, Child124, Elder123. Row-major native0–14,0–14,0–18. Explicit blank14/16 and fragments17/18.",
+  "motionGif": {
+    "ticks": 240,
+    "rate": 60,
+    "scope": "All12lists, repeated for both child palettes; each40/60/15tick list closes exactly. GIF quantizes time to centiseconds; HTML uses60Hztick arithmetic."
+  },
+  "nativeTraceScenarios": 12,
+  "nativeTraceTicks": 2160,
+  "blankFrames": {
+    "child": [
+      14
+    ],
+    "elder": [
+      16
+    ]
+  },
+  "headFragments": {
+    "frames": [
+      17,
+      18
+    ],
+    "leftOpaquePixels": 56,
+    "derivation": "Pointwise upper9rows of generated indexed left idle; exact horizontal mirror for18."
+  },
+  "limitations": [
+    "Static and indexed motion review is distinct from original scene/chapter proof.",
+    "Elder has no North Bakery owner; only the child is shown in palette124.",
+    "No source pixels, palettes, animation programs or duration bytes are edited by this review."
+  ]
+}

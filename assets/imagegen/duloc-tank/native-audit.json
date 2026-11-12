@@ -1,0 +1,1574 @@
+{
+  "status": "Original native resource audit before source generation",
+  "actors": [
+    {
+      "actor": {
+        "key": "duloc-tank",
+        "name": "Duloc Tank",
+        "short": "Duloc Tank",
+        "enemy": 147,
+        "gfx": 124,
+        "asm": 119,
+        "palette": 184,
+        "animation": 160,
+        "size": 35,
+        "frames": 1,
+        "width": 128,
+        "height": 112,
+        "anchor": [
+          0,
+          16
+        ],
+        "roles": [
+          "chassis"
+        ]
+      },
+      "cells": 24,
+      "source": {
+        "graphicsOffset": 2039859,
+        "graphicsBytes": 2944,
+        "compressedBytes": 2288,
+        "graphicsSha256": "7b91165decc9c9326fa60ff7bdf0b4973b4111c8e14784a12afe77c90247d72b",
+        "assemblyOffset": 2297960,
+        "assemblyAllocatedBytes": 480,
+        "assemblyUsableBytes": 240,
+        "assemblySha256": "58b1478a45abd45a16ab43e0bae4959e39dcde76c398160a078e6a270fdc194b",
+        "assemblyPaddingBytes": 240,
+        "assemblyPaddingSha256": "f494a1e505e5acb506a9aefd13e3061d80ed9ba1ed0054bc05fb1972caadd462",
+        "animationOffset": 2397440,
+        "animationProgram": [
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0
+        ],
+        "animationSha256": "f31fa10eb9b811575caff7991053b7e25f127cc2b202595076c99be0fe5faf56",
+        "durationOffset": 2410391,
+        "durationProgram": [
+          10,
+          0,
+          0,
+          0,
+          10,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          10,
+          10,
+          0,
+          0
+        ],
+        "durationSha256": "c52d9c550ab1c218efbb4234405c7053cba0c91b8d8c2f0fa84da3b9e69dea70",
+        "header": [
+          124,
+          119,
+          184,
+          160,
+          35,
+          248,
+          232,
+          0,
+          0,
+          65
+        ],
+        "ai": {
+          "start": 829347,
+          "bytes": 66,
+          "sha256": "4840fb2e9fb884ed16ef98c117b50dc5a9d0cf309f0940a87c79f1e1b9bddffd"
+        },
+        "paddingNonzeroOffsets": [
+          [
+            192,
+            32
+          ],
+          [
+            193,
+            192
+          ],
+          [
+            194,
+            16
+          ],
+          [
+            195,
+            192
+          ],
+          [
+            197,
+            192
+          ],
+          [
+            198,
+            240
+          ],
+          [
+            199,
+            192
+          ],
+          [
+            200,
+            224
+          ],
+          [
+            201,
+            192
+          ],
+          [
+            202,
+            208
+          ],
+          [
+            203,
+            192
+          ],
+          [
+            204,
+            32
+          ],
+          [
+            205,
+            208
+          ],
+          [
+            206,
+            16
+          ],
+          [
+            207,
+            208
+          ],
+          [
+            209,
+            208
+          ],
+          [
+            210,
+            240
+          ],
+          [
+            211,
+            208
+          ],
+          [
+            212,
+            224
+          ],
+          [
+            213,
+            208
+          ],
+          [
+            214,
+            208
+          ],
+          [
+            215,
+            208
+          ],
+          [
+            216,
+            32
+          ],
+          [
+            217,
+            224
+          ],
+          [
+            218,
+            16
+          ],
+          [
+            219,
+            224
+          ],
+          [
+            221,
+            224
+          ],
+          [
+            222,
+            240
+          ],
+          [
+            223,
+            224
+          ],
+          [
+            224,
+            224
+          ],
+          [
+            225,
+            224
+          ],
+          [
+            226,
+            208
+          ],
+          [
+            227,
+            224
+          ],
+          [
+            228,
+            32
+          ],
+          [
+            229,
+            240
+          ],
+          [
+            230,
+            16
+          ],
+          [
+            231,
+            240
+          ],
+          [
+            233,
+            240
+          ],
+          [
+            234,
+            240
+          ],
+          [
+            235,
+            240
+          ],
+          [
+            236,
+            224
+          ],
+          [
+            237,
+            240
+          ],
+          [
+            238,
+            208
+          ],
+          [
+            239,
+            240
+          ]
+        ]
+      },
+      "owners": {
+        "0": [
+          {
+            "kind": "enemy",
+            "id": 147
+          }
+        ],
+        "1": [
+          {
+            "kind": "enemy",
+            "id": 147
+          }
+        ]
+      },
+      "currentEarlierArt": {
+        "graphicsBytes": 2688,
+        "compressedBytes": 1230,
+        "assemblyBytes": 240,
+        "graphicsSha256": "71c4e60df065bccb446488ffe4c38d1fd4e4b64743712097ce70b6fc2236e6ad"
+      },
+      "frames": [
+        {
+          "frame": 0,
+          "xy": [
+            [
+              16,
+              -64
+            ],
+            [
+              0,
+              -64
+            ],
+            [
+              -16,
+              -64
+            ],
+            [
+              -32,
+              -64
+            ],
+            [
+              16,
+              -80
+            ],
+            [
+              -40,
+              0
+            ],
+            [
+              16,
+              -48
+            ],
+            [
+              0,
+              -48
+            ],
+            [
+              -16,
+              -48
+            ],
+            [
+              -32,
+              -48
+            ],
+            [
+              0,
+              -80
+            ],
+            [
+              32,
+              -88
+            ],
+            [
+              16,
+              -32
+            ],
+            [
+              0,
+              -32
+            ],
+            [
+              -16,
+              -32
+            ],
+            [
+              -32,
+              -32
+            ],
+            [
+              -48,
+              -32
+            ],
+            [
+              -64,
+              -32
+            ],
+            [
+              32,
+              -72
+            ],
+            [
+              0,
+              -16
+            ],
+            [
+              -16,
+              -16
+            ],
+            [
+              -32,
+              -16
+            ],
+            [
+              -48,
+              -16
+            ],
+            [
+              -64,
+              -16
+            ]
+          ],
+          "opaquePixels": 3669,
+          "bounds": [
+            -63,
+            -78,
+            46,
+            5
+          ],
+          "pixelSha256": "466b21d26d8d0ecbb834287884602f9aed51faf4f433e36c7018fa6d2ac3acd8"
+        }
+      ]
+    },
+    {
+      "actor": {
+        "key": "tank-head",
+        "name": "Repair Head",
+        "short": "Repair Head",
+        "enemy": 173,
+        "gfx": 145,
+        "asm": 139,
+        "palette": 184,
+        "animation": 106,
+        "size": 32,
+        "frames": 5,
+        "width": 32,
+        "height": 32,
+        "anchor": [
+          32,
+          -49
+        ],
+        "roles": [
+          "sealed",
+          "venting",
+          "charging",
+          "firing",
+          "repairing"
+        ]
+      },
+      "cells": 4,
+      "source": {
+        "graphicsOffset": 2080758,
+        "graphicsBytes": 1056,
+        "compressedBytes": 724,
+        "graphicsSha256": "fffa886519b2da3b2c81a41fc9802fe2d7720e3dbeed05424495938271b8da42",
+        "assemblyOffset": 2310680,
+        "assemblyAllocatedBytes": 200,
+        "assemblyUsableBytes": 200,
+        "assemblySha256": "81db8b50a4a755a7445ecc5811aca48162c71d00474da244588c90c6664df248",
+        "assemblyPaddingBytes": 0,
+        "assemblyPaddingSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "animationOffset": 2391360,
+        "animationProgram": [
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          1,
+          2,
+          3,
+          255,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          1,
+          2,
+          3,
+          255,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          1,
+          2,
+          3,
+          255,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          1,
+          2,
+          3,
+          255
+        ],
+        "animationSha256": "3e681b570e9de51166d429a52b3bb2eced8275d15f09e552373cd159f590d46d",
+        "durationOffset": 2408871,
+        "durationProgram": [
+          15,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          31,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          31,
+          0,
+          0,
+          0,
+          15,
+          15,
+          0,
+          0,
+          5,
+          5,
+          25,
+          0
+        ],
+        "durationSha256": "f73dcd02f90a2f97d27d2abf86a974c2df1828c6ebf0d3bc87b23012fc5b16fc",
+        "header": [
+          145,
+          139,
+          184,
+          106,
+          32,
+          32,
+          192,
+          0,
+          0,
+          65
+        ],
+        "ai": {
+          "start": 831604,
+          "bytes": 54,
+          "sha256": "1171a0924fc0797a7ae69dd7f8b31af12b88b39029adfcaeb4be0887a5442922"
+        }
+      },
+      "owners": {
+        "0": [
+          {
+            "kind": "enemy",
+            "id": 173
+          }
+        ],
+        "1": [
+          {
+            "kind": "enemy",
+            "id": 173
+          }
+        ]
+      },
+      "currentEarlierArt": {
+        "graphicsBytes": 1024,
+        "compressedBytes": 487,
+        "assemblyBytes": 200,
+        "graphicsSha256": "303dc0ea3292fa42318eeab1ae227818522e18177b69313b781b18d2335734b2"
+      },
+      "frames": [
+        {
+          "frame": 0,
+          "xy": [
+            [
+              32,
+              -81
+            ],
+            [
+              16,
+              -81
+            ],
+            [
+              32,
+              -65
+            ],
+            [
+              16,
+              -65
+            ]
+          ],
+          "opaquePixels": 543,
+          "bounds": [
+            16,
+            -73,
+            47,
+            -49
+          ],
+          "pixelSha256": "9ff34ce0f9b532c1cf9ba25b7bec3f513619b09dc34bc549cd8675c5bc816ab7"
+        },
+        {
+          "frame": 1,
+          "xy": [
+            [
+              32,
+              -73
+            ],
+            [
+              16,
+              -73
+            ],
+            [
+              32,
+              -57
+            ],
+            [
+              16,
+              -57
+            ]
+          ],
+          "opaquePixels": 608,
+          "bounds": [
+            16,
+            -73,
+            47,
+            -46
+          ],
+          "pixelSha256": "2ac05243f4864250af53568b6fd8026552f5764a7dbb9576556ec720d258477d"
+        },
+        {
+          "frame": 2,
+          "xy": [
+            [
+              32,
+              -73
+            ],
+            [
+              16,
+              -73
+            ],
+            [
+              32,
+              -57
+            ],
+            [
+              16,
+              -57
+            ]
+          ],
+          "opaquePixels": 638,
+          "bounds": [
+            16,
+            -73,
+            47,
+            -46
+          ],
+          "pixelSha256": "f59d8be966d540dd81dccb2826fb490cf502747c56fb27047370cb409cb9a0c1"
+        },
+        {
+          "frame": 3,
+          "xy": [
+            [
+              32,
+              -73
+            ],
+            [
+              16,
+              -73
+            ],
+            [
+              32,
+              -57
+            ],
+            [
+              16,
+              -57
+            ]
+          ],
+          "opaquePixels": 665,
+          "bounds": [
+            16,
+            -73,
+            47,
+            -46
+          ],
+          "pixelSha256": "f5b83819a8806713146c0a25ef26e2112f538cc6c31b7f3d05f9c81df1dfdf94"
+        },
+        {
+          "frame": 4,
+          "xy": [
+            [
+              32,
+              -80
+            ],
+            [
+              16,
+              -80
+            ],
+            [
+              32,
+              -64
+            ],
+            [
+              16,
+              -64
+            ]
+          ],
+          "opaquePixels": 543,
+          "bounds": [
+            16,
+            -72,
+            47,
+            -48
+          ],
+          "pixelSha256": "6a762bff4771470f0d5f79d67c1dcf08a35f21359f2e1c8d61d4bc7b9784758f"
+        }
+      ]
+    },
+    {
+      "actor": {
+        "key": "tank-wheel",
+        "name": "Duloc Wheel",
+        "short": "Duloc Wheel",
+        "enemy": 148,
+        "gfx": 144,
+        "asm": 138,
+        "palette": 184,
+        "animation": 105,
+        "size": 40,
+        "frames": 2,
+        "width": 32,
+        "height": 32,
+        "anchor": [
+          -2,
+          6
+        ],
+        "roles": [
+          "wheel-a",
+          "wheel-b"
+        ]
+      },
+      "cells": 4,
+      "source": {
+        "graphicsOffset": 2080345,
+        "graphicsBytes": 512,
+        "compressedBytes": 413,
+        "graphicsSha256": "8ff57d7107f8637eaa3051cbe38e28a3a53f4686aa1363f5bea5a3d3f551273e",
+        "assemblyOffset": 2310600,
+        "assemblyAllocatedBytes": 80,
+        "assemblyUsableBytes": 80,
+        "assemblySha256": "871e45dd6f8d657512990a74789fdb7a5876e089315596481b27ab5d5b681c35",
+        "assemblyPaddingBytes": 0,
+        "assemblyPaddingSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "animationOffset": 2391232,
+        "animationProgram": [
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          0,
+          1,
+          255,
+          0,
+          0,
+          1,
+          255,
+          0
+        ],
+        "animationSha256": "cfcf548b8f8a0625bbe4446e07715452f8650c81ea8b878dd48831d2f2532f72",
+        "durationOffset": 2408839,
+        "durationProgram": [
+          15,
+          0,
+          0,
+          0,
+          31,
+          31,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          31,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          31,
+          0,
+          0,
+          0,
+          5,
+          5,
+          0,
+          0,
+          5,
+          5,
+          0,
+          16
+        ],
+        "durationSha256": "cbee3a0fecd6af0f619a73f5db673aba39d7ebf3a6b0648308f43bc7df08d99b",
+        "header": [
+          144,
+          138,
+          184,
+          105,
+          40,
+          0,
+          240,
+          0,
+          0,
+          33
+        ],
+        "ai": {
+          "start": 829413,
+          "bytes": 52,
+          "sha256": "d6f4dbd2db5c0ca11c2c9c670eb7ef5153c1816768cf450fd43019d2125bae0e"
+        }
+      },
+      "owners": {
+        "0": [
+          {
+            "kind": "enemy",
+            "id": 148
+          }
+        ],
+        "1": [
+          {
+            "kind": "enemy",
+            "id": 148
+          }
+        ]
+      },
+      "currentEarlierArt": {
+        "graphicsBytes": 864,
+        "compressedBytes": 530,
+        "assemblyBytes": 80,
+        "graphicsSha256": "a2f43742e1a62e0c2d79cabd9024cb0747d61b07806fdb5d5587d9fc24b2b307"
+      },
+      "frames": [
+        {
+          "frame": 0,
+          "xy": [
+            [
+              -2,
+              -26
+            ],
+            [
+              -18,
+              -26
+            ],
+            [
+              -2,
+              -10
+            ],
+            [
+              -18,
+              -10
+            ]
+          ],
+          "opaquePixels": 536,
+          "bounds": [
+            -16,
+            -24,
+            12,
+            4
+          ],
+          "pixelSha256": "73673db147b69ee5ee9331f1d48e51cde29aee533d97ce78fd922f1d5be3025c"
+        },
+        {
+          "frame": 1,
+          "xy": [
+            [
+              -2,
+              -26
+            ],
+            [
+              -18,
+              -26
+            ],
+            [
+              -2,
+              -10
+            ],
+            [
+              -18,
+              -10
+            ]
+          ],
+          "opaquePixels": 544,
+          "bounds": [
+            -17,
+            -26,
+            13,
+            5
+          ],
+          "pixelSha256": "0dc6f7e5c68ff7d7d8729bdb415ddf936f83f263e175a7d7aca25ab24871a49d"
+        }
+      ]
+    }
+  ],
+  "palette": {
+    "id": 184,
+    "offset": 2363712,
+    "sourceColors": [
+      "292910",
+      "ffffff",
+      "dea573",
+      "848c94",
+      "ad7b5a",
+      "636b7b",
+      "945a42",
+      "ad3929",
+      "7b4a39",
+      "5a524a",
+      "733931",
+      "393929"
+    ],
+    "projectColors": [
+      "211b24",
+      "3c3f46",
+      "687378",
+      "b4c3b6",
+      "563226",
+      "885039",
+      "244955",
+      "42788a",
+      "917239",
+      "c9a554",
+      "efdb96",
+      "fcf2ce"
+    ],
+    "sourceSha256": "e827e7a4029dab425f3c5b1e19fe09f25ff3097943b1269ffd3f0b089e2455ae",
+    "owners": [
+      {
+        "kind": "enemy",
+        "id": 147
+      },
+      {
+        "kind": "enemy",
+        "id": 148
+      },
+      {
+        "kind": "enemy",
+        "id": 173
+      }
+    ],
+    "aliases": [
+      184
+    ]
+  },
+  "scenes": [
+    {
+      "location": 28,
+      "eventPointer": 3932160,
+      "ownedLoads": [
+        [
+          1867,
+          131,
+          [
+            147,
+            131
+          ]
+        ],
+        [
+          1893,
+          131,
+          [
+            147,
+            131
+          ]
+        ],
+        [
+          1926,
+          131,
+          [
+            173,
+            9
+          ]
+        ],
+        [
+          1950,
+          131,
+          [
+            173,
+            9
+          ]
+        ],
+        [
+          1992,
+          131,
+          [
+            148,
+            10
+          ]
+        ],
+        [
+          2018,
+          131,
+          [
+            148,
+            10
+          ]
+        ]
+      ],
+      "allLoads": [
+        [
+          1480,
+          130,
+          [
+            7
+          ]
+        ],
+        [
+          1653,
+          130,
+          [
+            16
+          ]
+        ],
+        [
+          1773,
+          130,
+          [
+            16
+          ]
+        ],
+        [
+          1867,
+          131,
+          [
+            147,
+            131
+          ]
+        ],
+        [
+          1893,
+          131,
+          [
+            147,
+            131
+          ]
+        ],
+        [
+          1926,
+          131,
+          [
+            173,
+            9
+          ]
+        ],
+        [
+          1950,
+          131,
+          [
+            173,
+            9
+          ]
+        ],
+        [
+          1992,
+          131,
+          [
+            148,
+            10
+          ]
+        ],
+        [
+          2018,
+          131,
+          [
+            148,
+            10
+          ]
+        ],
+        [
+          2066,
+          131,
+          [
+            49,
+            3
+          ]
+        ],
+        [
+          2096,
+          131,
+          [
+            49,
+            4
+          ]
+        ],
+        [
+          2117,
+          130,
+          [
+            86
+          ]
+        ],
+        [
+          2177,
+          130,
+          [
+            116
+          ]
+        ],
+        [
+          2258,
+          130,
+          [
+            117
+          ]
+        ],
+        [
+          2319,
+          130,
+          [
+            129
+          ]
+        ]
+      ],
+      "originalWholeLocationUnion": {
+        "bytes": 24000,
+        "parts": [
+          {
+            "gfx": 27,
+            "bytes": 3904
+          },
+          {
+            "gfx": 158,
+            "bytes": 4096
+          },
+          {
+            "gfx": 124,
+            "bytes": 2944
+          },
+          {
+            "gfx": 145,
+            "bytes": 1056
+          },
+          {
+            "gfx": 144,
+            "bytes": 512
+          },
+          {
+            "gfx": 78,
+            "bytes": 7104
+          },
+          {
+            "gfx": 134,
+            "bytes": 1760
+          },
+          {
+            "gfx": 47,
+            "bytes": 416
+          },
+          {
+            "gfx": 44,
+            "bytes": 1184
+          },
+          {
+            "gfx": 58,
+            "bytes": 1024
+          }
+        ],
+        "note": "Conservative union across event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 347,
+      "eventPointer": 3863556,
+      "ownedLoads": [
+        [
+          208,
+          131,
+          [
+            147,
+            131
+          ]
+        ],
+        [
+          236,
+          131,
+          [
+            173,
+            9
+          ]
+        ],
+        [
+          254,
+          131,
+          [
+            148,
+            10
+          ]
+        ]
+      ],
+      "allLoads": [
+        [
+          208,
+          131,
+          [
+            147,
+            131
+          ]
+        ],
+        [
+          236,
+          131,
+          [
+            173,
+            9
+          ]
+        ],
+        [
+          254,
+          131,
+          [
+            148,
+            10
+          ]
+        ]
+      ],
+      "originalWholeLocationUnion": {
+        "bytes": 4512,
+        "parts": [
+          {
+            "gfx": 124,
+            "bytes": 2944
+          },
+          {
+            "gfx": 145,
+            "bytes": 1056
+          },
+          {
+            "gfx": 144,
+            "bytes": 512
+          }
+        ],
+        "note": "Conservative union across event branches, not simultaneous residency proof"
+      }
+    }
+  ],
+  "limits": {
+    "chassis": "Fixed size class 3: exactly one 24-cell / 96-tile / 3072-byte VRAM upload. Decoded graphics must stay <= original graphics allocation. No streaming integration assumed. Following 240-byte assembly padding is reserved, not a second frame.",
+    "smallParts": "Four-cell native split uploads, five head frames and two wheel frames; native anchors and timings unchanged."
+  }
+}

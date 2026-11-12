@@ -1,0 +1,101 @@
+{
+  "key": "sewer-pods",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/future-sewer-creatures/pods",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "282b28",
+    "3f4432",
+    "69704b",
+    "9ba56a",
+    "d4d898",
+    "503b42",
+    "885267",
+    "c28691",
+    "2b4847",
+    "5d8580",
+    "e3b865",
+    "fbebc8"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/future-sewer-creatures/source-pods-v1.png",
+      "columns": 4,
+      "rows": 3,
+      "nativeHeight": 30,
+      "scaleCells": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        11
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        {
+          "frame": 8,
+          "flip": true
+        },
+        {
+          "frame": 9,
+          "flip": true
+        },
+        {
+          "frame": 9,
+          "flip": true
+        },
+        9
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive complete source/native mapping",
+    "native": "Original IDs, four-cell budget, full size bytes and programs preserved. Current palette packets unchanged.",
+    "unusedSourceFrames": [
+      10,
+      11
+    ],
+    "sourceMirrors": [
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "translatedSourceDuplicates": [
+      [
+        11,
+        12
+      ],
+      [
+        9,
+        13
+      ]
+    ],
+    "geometry": "Preserve original per-slot lowest opaque pixel and horizontal center; all role silhouettes are generated source poses. Bat sizebyte64/flying flag stays unchanged."
+  }
+}

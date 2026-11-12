@@ -1,0 +1,195 @@
+{
+  "status": "Private saved-build compressed solo overlay passed; full scenes remain unproven and active family-size guard is unchanged",
+  "activeRomPath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateRomSha256": "03843402e03dbf1b687b5f975facfa8dca42c1ad27a53c4d7a4f0b89c3ba00f1",
+  "nativeFrameUploads": 63,
+  "npc76Loads": 1,
+  "cartridgeUnchanged": true,
+  "variants": 2,
+  "owners": 3,
+  "framesPerVariant": 21,
+  "blankFrames": [],
+  "allOpaqueNativePixelsVerified": true,
+  "pixelProof": "Every opaque source pixel equals its exact CGRAM RGB at the native PPU brightness; coordinates include the original project frame offset.",
+  "opaquePixelChecks": 23175,
+  "paletteChecks": [
+    {
+      "actor": "crumb-hunter",
+      "palette": 16,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 10
+    },
+    {
+      "actor": "kiln-hunter",
+      "palette": 17,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 10
+    },
+    {
+      "actor": "crumb-hunter-npc76",
+      "palette": 16,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 10
+    }
+  ],
+  "sourceType": "image-generation",
+  "sourceProvenance": [
+    {
+      "file": "assets/imagegen/crumb-hunters/source-base-v2.png",
+      "sha256": "dab7bba8118b48708391980520f5317e6dc1d3779c0ff1988b98accd48825014",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/crumb-hunters/source-actions-v1.png",
+      "sha256": "ae734f6b3521bc0729ca9807d70eded7c2276dc0753e8ea406901232b3f57322",
+      "sourceType": "image-generation"
+    }
+  ],
+  "rawGraphicsBytes": 5536,
+  "compressedBytes": 3197,
+  "assemblyBytes": 840,
+  "originalRawBytes": 3808,
+  "strictFamilyGrowthGuard": "Retained. Root owns selected four-cell streaming and all actual shared scene loads.",
+  "placement": {
+    "packetOffset": 8192000,
+    "assemblyOffset": 8195200,
+    "ownedUnusedExtendedMirror": true
+  },
+  "sceneUnionBudget": [
+    {
+      "location": 1,
+      "candidateBytes": 10464,
+      "spareBytes": 22304,
+      "exceedsBudget": false
+    },
+    {
+      "location": 2,
+      "candidateBytes": 14848,
+      "spareBytes": 17920,
+      "exceedsBudget": false
+    },
+    {
+      "location": 5,
+      "candidateBytes": 35872,
+      "spareBytes": -3104,
+      "exceedsBudget": true
+    },
+    {
+      "location": 12,
+      "candidateBytes": 15488,
+      "spareBytes": 17280,
+      "exceedsBudget": false
+    },
+    {
+      "location": 93,
+      "candidateBytes": 28384,
+      "spareBytes": 4384,
+      "exceedsBudget": false
+    },
+    {
+      "location": 252,
+      "candidateBytes": 22272,
+      "spareBytes": 10496,
+      "exceedsBudget": false
+    },
+    {
+      "location": 270,
+      "candidateBytes": 6688,
+      "spareBytes": 26080,
+      "exceedsBudget": false
+    },
+    {
+      "location": 273,
+      "candidateBytes": 5536,
+      "spareBytes": 27232,
+      "exceedsBudget": false
+    },
+    {
+      "location": 282,
+      "candidateBytes": 32960,
+      "spareBytes": -192,
+      "exceedsBudget": true
+    },
+    {
+      "location": 287,
+      "candidateBytes": 19424,
+      "spareBytes": 13344,
+      "exceedsBudget": false
+    },
+    {
+      "location": 288,
+      "candidateBytes": 31008,
+      "spareBytes": 1760,
+      "exceedsBudget": false
+    },
+    {
+      "location": 298,
+      "candidateBytes": 26432,
+      "spareBytes": 6336,
+      "exceedsBudget": false
+    },
+    {
+      "location": 299,
+      "candidateBytes": 15552,
+      "spareBytes": 17216,
+      "exceedsBudget": false
+    },
+    {
+      "location": 302,
+      "candidateBytes": 29440,
+      "spareBytes": 3328,
+      "exceedsBudget": false
+    },
+    {
+      "location": 305,
+      "candidateBytes": 26432,
+      "spareBytes": 6336,
+      "exceedsBudget": false
+    },
+    {
+      "location": 378,
+      "candidateBytes": 24064,
+      "spareBytes": 8704,
+      "exceedsBudget": false
+    },
+    {
+      "location": 430,
+      "candidateBytes": 31488,
+      "spareBytes": 1280,
+      "exceedsBudget": false
+    }
+  ],
+  "isolatedPreviewHeaps": [
+    {
+      "actor": "crumb-hunter",
+      "heapEnd": 39264,
+      "heapBytes": 6496
+    },
+    {
+      "actor": "kiln-hunter",
+      "heapEnd": 39264,
+      "heapBytes": 6496
+    },
+    {
+      "actor": "crumb-hunter-npc76",
+      "heapEnd": 39264,
+      "heapBytes": 6496
+    }
+  ],
+  "nativeFrameOffsets": {
+    "12": [
+      0,
+      3
+    ]
+  },
+  "settledCaptureMinimumFrames": 30,
+  "extraVramBytes": 0,
+  "wholeSceneOrBattleProof": false
+}

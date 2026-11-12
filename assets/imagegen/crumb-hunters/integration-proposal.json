@@ -1,0 +1,1072 @@
+{
+  "status": "Frozen inactive proposal; root owns all production edits",
+  "familyKey": "crumb-hunters",
+  "rasterKey": "crumb-hunter",
+  "native": {
+    "gfx": 79,
+    "assembly": 34,
+    "animation": 26,
+    "width": 32,
+    "height": 32,
+    "frames": 21,
+    "blankFrames": [],
+    "size": 0,
+    "cells": 4,
+    "owners": [
+      {
+        "kind": "enemy",
+        "id": 1,
+        "palette": 16
+      },
+      {
+        "kind": "enemy",
+        "id": 61,
+        "palette": 17
+      },
+      {
+        "kind": "npc",
+        "id": 76,
+        "palette": 16
+      }
+    ],
+    "unchanged": [
+      "All owner headers and palette indices",
+      "All twelve colors in each existing project palette",
+      "Animation and duration programs",
+      "AI, statistics and rewards",
+      "Existing project frameOffsets"
+    ]
+  },
+  "inputs": {
+    "importSpec": "import-spec.draft.json",
+    "importSpecSha256": "560ec9456e7284e33a5fc7c5d14672ae71d59b6aa65f4d6475a50954f52c9c3d",
+    "geometry": "draft/family.json",
+    "geometrySha256": "a1728440c0bd7df371cf30cee9532233569e547cc26d30df791769364fde92c6",
+    "roles": "native-roles.json",
+    "rolesSha256": "2e8860b2b0975d7f57a7ef750f401caea76ab6f7fc7ec4099d76f9534978f9f9"
+  },
+  "cost": {
+    "candidate": {
+      "raw": 5536,
+      "tiles": 173,
+      "compressed": 3197,
+      "assembly": 840,
+      "compressedAndAssembly": 4037,
+      "rawAndAssembly": 6376
+    },
+    "originalChronoTrigger": {
+      "raw": 3808,
+      "compressed": 3266,
+      "assembly": 840,
+      "compressedAndAssembly": 4106,
+      "compressedAllocationGrowth": -69,
+      "rawGrowth": 1728
+    },
+    "activeEarlierArt": {
+      "confirmedCurrentSourceFamilyMatchesSnapshot": true,
+      "savedRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+      "raw": 1728,
+      "compressed": 769,
+      "assembly": 840,
+      "compressedAndAssembly": 1609,
+      "compressedAllocationGrowth": 2428,
+      "rawGrowth": 3808,
+      "rawSha256": "1125fec9cad1a1074f13347203adc44fdefbaaffd61b9324c6ca16c3d6f45e16",
+      "compressedSha256": "6dfe7adab00e34099690e781b29418169f395a72f3a9b1e47dc075c717fb8758",
+      "assemblySha256": "1b562e1fc9d6b03be00b32ff096df1be77c356d745da5e64bf953556cade4d32"
+    },
+    "planningFigure": "Use +2,428 compressed/assembly bytes against the current earlier art; -69 is the original-CT baseline. Streaming allocates5,536raw bytes in its separate pool plus840assembly bytes."
+  },
+  "hashes": {
+    "rawGraphics": "a0c11d35a537fca6f7f2c83943a62ed35ed1d63aa0f479983c3e9b2a2e06b5bb",
+    "compressedGraphics": "c80d7155ee1621cc18159a0ca484812899d15e446acae899c89a43ec29730409",
+    "assembly": "18146ef10965d0a7c29cb46acae992b79ff79f8b0d9b87f20b8b1afeab23bd1a",
+    "palette16": "46d3bc25f9c4e6ffd57cb6094f0b10247ac101e9537f720565cfdb616c7d80c6",
+    "palette17": "a4664a0ace255bdfe830e881aba517a2fec55a89bba6b682764b6ee5f14f6617",
+    "nativeAnimation": "879d7ef3f98bb349142fbba50b8f3a741ac7b4453cd528081e6b598764e2cf5e",
+    "nativeDurations": "ff1631224a85b0f7d1ff2d09a57af1d1e3db90cf9cc290ef79e48892b98abf57"
+  },
+  "geometryProposal": {
+    "standardCellOrigins": [
+      [
+        0,
+        0
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        16,
+        16
+      ]
+    ],
+    "frameOffsets": {
+      "12": [
+        0,
+        3
+      ]
+    },
+    "overlap": false,
+    "extraVramBytes": 0,
+    "compilerChangeRequired": false,
+    "strictOriginalFamilyGrowthGuard": "Still rejects the larger raw bank unless root explicitly selects the proven four-cell streamed-family contract."
+  },
+  "acceptance": {
+    "leadVisual": true,
+    "rootVisual": false,
+    "nativeUploads": 63,
+    "nativeOpaquePixels": 23175,
+    "nativeTimedTicks": 1950,
+    "nativeTimedScenarios": 13,
+    "actualNpc76Loads": 1,
+    "privateRomSha256": "03843402e03dbf1b687b5f975facfa8dca42c1ad27a53c4d7a4f0b89c3ba00f1",
+    "exactPaletteRgb": true,
+    "independentCores": false,
+    "originalSharedScenes": false,
+    "rawStreamerOnCandidate": false
+  },
+  "review": {
+    "contact": "review/contact-sheet-1x.png",
+    "enlarged": "draft/native-6x.png",
+    "timedStrip": "review/motion-strip-1x.png",
+    "interactive": "review/motion-review.html",
+    "gif": "review/motion-review.gif",
+    "actualNpc": "native-verification/crumb-hunter-npc76-native-frame-4.png"
+  },
+  "rootSteps": [
+    "Review the labeled palette pair and freeze hashes before activation.",
+    "Activate the selected source spec and consume only the native sequence for crumb-hunter; retain strict raster source coverage for both enemies and NPC76.",
+    "Keep the unchanged32×32four-cell group geometry and frame12offset[0,3]; no compiler exception is necessary.",
+    "Select graphics79 under the guarded <=32KiBfour-cell streaming contract or prove all actual scene residency. Recompute current co-loads.",
+    "Run all63owner frames, exact palettes and pixels under the production path. Replay the real Bakery theft/key/chase battles and representative alternate town/ending branches.",
+    "Extend independent actor selection explicitly to enemy1, enemy61 andNPC76; the existing NPC/boss helper lists do not currently cover these Bakery owners. Run Snes9x andbsnes on the activated artifact."
+  ],
+  "suggestedVerification": [
+    "node assets/imagegen/crumb-hunters/verify-frozen.mjs",
+    "node --test tests/bakery-art.test.mjs",
+    "node --test tests/bakery.test.mjs"
+  ],
+  "sceneScope": [
+    {
+      "location": 1,
+      "enemyIds": [
+        61
+      ],
+      "npcIds": [
+        59,
+        176,
+        175,
+        177,
+        76,
+        37
+      ],
+      "hunterLoads": [
+        [
+          925,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          1328,
+          130,
+          [
+            76
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 2,
+      "enemyIds": [
+        61
+      ],
+      "npcIds": [
+        16,
+        76,
+        37,
+        59,
+        150,
+        176,
+        175,
+        100
+      ],
+      "hunterLoads": [
+        [
+          1026,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          1305,
+          130,
+          [
+            76
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 5,
+      "enemyIds": [],
+      "npcIds": [
+        75,
+        76,
+        59,
+        81,
+        79,
+        82,
+        0,
+        22,
+        80,
+        83,
+        198,
+        84,
+        56
+      ],
+      "hunterLoads": [
+        [
+          1609,
+          130,
+          [
+            76
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 12,
+      "enemyIds": [
+        61
+      ],
+      "npcIds": [
+        76,
+        22,
+        15,
+        14,
+        21,
+        150,
+        183
+      ],
+      "hunterLoads": [
+        [
+          783,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          1173,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1266,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1463,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1564,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1671,
+          130,
+          [
+            76
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 93,
+      "enemyIds": [],
+      "npcIds": [
+        75,
+        76,
+        77,
+        59,
+        179,
+        180,
+        2,
+        170
+      ],
+      "hunterLoads": [
+        [
+          498,
+          130,
+          [
+            76
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 252,
+      "enemyIds": [
+        61
+      ],
+      "npcIds": [
+        76,
+        75,
+        77,
+        54,
+        176
+      ],
+      "hunterLoads": [
+        [
+          529,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          587,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          596,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          615,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          624,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          633,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          642,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          649,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          658,
+          130,
+          [
+            76
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 270,
+      "enemyIds": [
+        61
+      ],
+      "npcIds": [
+        125,
+        76
+      ],
+      "hunterLoads": [
+        [
+          289,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          327,
+          131,
+          [
+            61,
+            4
+          ]
+        ],
+        [
+          374,
+          130,
+          [
+            76
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 273,
+      "enemyIds": [
+        1
+      ],
+      "npcIds": [],
+      "hunterLoads": [
+        [
+          2226,
+          131,
+          [
+            1,
+            5
+          ]
+        ],
+        [
+          2268,
+          131,
+          [
+            1,
+            6
+          ]
+        ],
+        [
+          2315,
+          131,
+          [
+            1,
+            10
+          ]
+        ],
+        [
+          2362,
+          131,
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          2431,
+          131,
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          2490,
+          131,
+          [
+            1,
+            8
+          ]
+        ],
+        [
+          2547,
+          131,
+          [
+            1,
+            9
+          ]
+        ],
+        [
+          2621,
+          131,
+          [
+            1,
+            7
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 282,
+      "enemyIds": [
+        121,
+        136,
+        3,
+        22,
+        23
+      ],
+      "npcIds": [
+        76,
+        30,
+        6
+      ],
+      "hunterLoads": [
+        [
+          1784,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1844,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1904,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1930,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1956,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1982,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          2008,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          2034,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          2060,
+          130,
+          [
+            76
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 287,
+      "enemyIds": [
+        123,
+        1
+      ],
+      "npcIds": [],
+      "hunterLoads": [
+        [
+          1032,
+          131,
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          1050,
+          131,
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          1068,
+          131,
+          [
+            1,
+            5
+          ]
+        ],
+        [
+          1151,
+          131,
+          [
+            1,
+            6
+          ]
+        ],
+        [
+          1232,
+          131,
+          [
+            1,
+            7
+          ]
+        ],
+        [
+          1313,
+          131,
+          [
+            1,
+            8
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 288,
+      "enemyIds": [
+        93,
+        121,
+        1,
+        123
+      ],
+      "npcIds": [
+        121
+      ],
+      "hunterLoads": [
+        [
+          1044,
+          131,
+          [
+            1,
+            6
+          ]
+        ],
+        [
+          1078,
+          131,
+          [
+            1,
+            5
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 298,
+      "enemyIds": [
+        92,
+        131,
+        61,
+        2
+      ],
+      "npcIds": [],
+      "hunterLoads": [
+        [
+          2175,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          2196,
+          131,
+          [
+            61,
+            4
+          ]
+        ],
+        [
+          2323,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          2350,
+          131,
+          [
+            61,
+            4
+          ]
+        ],
+        [
+          2376,
+          131,
+          [
+            61,
+            5
+          ]
+        ],
+        [
+          2548,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          2626,
+          131,
+          [
+            61,
+            7
+          ]
+        ],
+        [
+          2904,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          2963,
+          131,
+          [
+            61,
+            6
+          ]
+        ],
+        [
+          3035,
+          131,
+          [
+            61,
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 299,
+      "enemyIds": [
+        122,
+        61
+      ],
+      "npcIds": [
+        6
+      ],
+      "hunterLoads": [
+        [
+          694,
+          131,
+          [
+            61,
+            5
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 302,
+      "enemyIds": [
+        61,
+        122,
+        2
+      ],
+      "npcIds": [
+        6
+      ],
+      "hunterLoads": [
+        [
+          1325,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          1358,
+          131,
+          [
+            61,
+            5
+          ]
+        ],
+        [
+          1391,
+          131,
+          [
+            61,
+            7
+          ]
+        ],
+        [
+          1424,
+          131,
+          [
+            61,
+            5
+          ]
+        ],
+        [
+          1455,
+          131,
+          [
+            61,
+            5
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 305,
+      "enemyIds": [
+        2,
+        61,
+        92,
+        131
+      ],
+      "npcIds": [],
+      "hunterLoads": [
+        [
+          1049,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          1147,
+          131,
+          [
+            61,
+            5
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 378,
+      "enemyIds": [
+        192
+      ],
+      "npcIds": [
+        76,
+        14,
+        168,
+        170
+      ],
+      "hunterLoads": [
+        [
+          483,
+          130,
+          [
+            76
+          ]
+        ]
+      ]
+    },
+    {
+      "location": 430,
+      "enemyIds": [
+        61,
+        122,
+        2
+      ],
+      "npcIds": [
+        62,
+        6
+      ],
+      "hunterLoads": [
+        [
+          929,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          944,
+          131,
+          [
+            61,
+            4
+          ]
+        ],
+        [
+          959,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          975,
+          131,
+          [
+            61,
+            4
+          ]
+        ],
+        [
+          1235,
+          131,
+          [
+            61,
+            5
+          ]
+        ],
+        [
+          1249,
+          131,
+          [
+            61,
+            6
+          ]
+        ]
+      ]
+    }
+  ],
+  "savedBuildSceneUnion": [
+    {
+      "location": 1,
+      "candidateBytes": 10464,
+      "spareBytes": 22304,
+      "exceedsBudget": false
+    },
+    {
+      "location": 2,
+      "candidateBytes": 14848,
+      "spareBytes": 17920,
+      "exceedsBudget": false
+    },
+    {
+      "location": 5,
+      "candidateBytes": 35872,
+      "spareBytes": -3104,
+      "exceedsBudget": true
+    },
+    {
+      "location": 12,
+      "candidateBytes": 15488,
+      "spareBytes": 17280,
+      "exceedsBudget": false
+    },
+    {
+      "location": 93,
+      "candidateBytes": 28384,
+      "spareBytes": 4384,
+      "exceedsBudget": false
+    },
+    {
+      "location": 252,
+      "candidateBytes": 22272,
+      "spareBytes": 10496,
+      "exceedsBudget": false
+    },
+    {
+      "location": 270,
+      "candidateBytes": 6688,
+      "spareBytes": 26080,
+      "exceedsBudget": false
+    },
+    {
+      "location": 273,
+      "candidateBytes": 5536,
+      "spareBytes": 27232,
+      "exceedsBudget": false
+    },
+    {
+      "location": 282,
+      "candidateBytes": 32960,
+      "spareBytes": -192,
+      "exceedsBudget": true
+    },
+    {
+      "location": 287,
+      "candidateBytes": 19424,
+      "spareBytes": 13344,
+      "exceedsBudget": false
+    },
+    {
+      "location": 288,
+      "candidateBytes": 31008,
+      "spareBytes": 1760,
+      "exceedsBudget": false
+    },
+    {
+      "location": 298,
+      "candidateBytes": 26432,
+      "spareBytes": 6336,
+      "exceedsBudget": false
+    },
+    {
+      "location": 299,
+      "candidateBytes": 15552,
+      "spareBytes": 17216,
+      "exceedsBudget": false
+    },
+    {
+      "location": 302,
+      "candidateBytes": 29440,
+      "spareBytes": 3328,
+      "exceedsBudget": false
+    },
+    {
+      "location": 305,
+      "candidateBytes": 26432,
+      "spareBytes": 6336,
+      "exceedsBudget": false
+    },
+    {
+      "location": 378,
+      "candidateBytes": 24064,
+      "spareBytes": 8704,
+      "exceedsBudget": false
+    },
+    {
+      "location": 430,
+      "candidateBytes": 31488,
+      "spareBytes": 1280,
+      "exceedsBudget": false
+    }
+  ],
+  "limitations": [
+    "The conservative all-branch saved-build unions at5and282exceed32KiB; these are not actual simultaneous residency measurements.",
+    "The private proof is a compressed solo overlay, not candidate raw streaming or original scene/battle proof.",
+    "Front eye details are small at native scale. No procedural pixel detail was added.",
+    "13dynamic/held scenarios are verified; unrelated event choreography and battle transitions remain root-owned."
+  ]
+}

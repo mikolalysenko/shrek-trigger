@@ -1,0 +1,618 @@
+{
+  "status": "Frozen inactive actual-imagegen source packet; native model direction approved by root; production integration pending.",
+  "scope": "Master Glaze only. No active engine, content, registry, title, music or canonical output edits.",
+  "inputs": [
+    {
+      "path": "assets/imagegen/master-glaze/.gitignore",
+      "bytes": 9,
+      "sha256": "7f1449aa6b5c22585727e0d7ef4b16a112119fb0b8f472d7ab4d3a974369dc6d"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/README.md",
+      "bytes": 4632,
+      "sha256": "ec6a851d23a13b53641dde2c816d79c728d396404f8640445d72dec2afa3ead7"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/source-family.json",
+      "bytes": 1209,
+      "sha256": "58534a66848c7ae86c3282b41ea2b226db44d205f003d0de737100cf5e0214fd"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/native-audit.json",
+      "bytes": 16277,
+      "sha256": "aefdf9790f493e610a5a6b1f4953f84119c5fefee4da125d1fb579490c524cd8"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/native-roles.json",
+      "bytes": 5846,
+      "sha256": "c245971108fc6cadd3c867fe3712f2b9720728b18ee92f00c5369612cc126ca8"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/import-spec.draft.json",
+      "bytes": 4849,
+      "sha256": "b53915254a9dd892a14ae22b02c4ec6bd2d5388ddfa5c81a02be4065aa0c5c75"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/reference-derivations.json",
+      "bytes": 1084,
+      "sha256": "11d68a6a9d806546b20e542105a8bba6cdbecc9f387bb9819780e572253df7d8"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/reference-base-v1.png",
+      "bytes": 937818,
+      "sha256": "721389691d0506fd5e7ae2a11a3768de62e0fbdbb45d06d9ecc87ebaa2343dec"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/front-contact-reference.png",
+      "bytes": 76606,
+      "sha256": "e7a3e6d733398f3ed7052bb777d79390e43a8f725353fbe5ca70b46c39b5f439"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/left-contact-reference.png",
+      "bytes": 76195,
+      "sha256": "ce6ef6ceed38270acf3f67715fd9cb18be763d34fa351f0c10fafa587a4b0113"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/audit-native.mjs",
+      "bytes": 5572,
+      "sha256": "9118935fe0a4e5a947784592f3ce6eca8ad8d650cf0c365a89e0161ba23f7277"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/prepare-draft.mjs",
+      "bytes": 6457,
+      "sha256": "554196138a4d109c8d76249c767246575018fd8210a28cfdc05132249d2cb726"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/compile-draft.mjs",
+      "bytes": 4273,
+      "sha256": "48efc0d33a695646ce941d97d79db78d5c6fef9add8c1251c98c2c96fb86d198"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/review-draft.mjs",
+      "bytes": 6548,
+      "sha256": "8cbcffbef9fd855a244b43bff7283c87205337c84e1baa94d1b63f6b0b42959a"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/reproduce-references.mjs",
+      "bytes": 1138,
+      "sha256": "a74698712dd3906d3d6330c0e4c412884203176ccf04344d47eaebc4ab799885"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/reproduce-draft.mjs",
+      "bytes": 1566,
+      "sha256": "3b8ee4ceac287c077fc7bcabad49e9530c4f65220ff57be718d9b21e809e33ee"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/freeze-draft.mjs",
+      "bytes": 5538,
+      "sha256": "f88938b19d5388bb6d3c9e6cd52a736b3ea8717a2d49eff9462115e434906c8c"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/verify-native.mjs",
+      "bytes": 6042,
+      "sha256": "88148d2662c8b2c80ac94f30d7f0cac7a06241977b590b4f86592c6d7ca4f250"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/source-base-v1.png",
+      "bytes": 1096067,
+      "sha256": "8d2b8c20042892c62b063153a18ec3c0d5b80c2ba7fcd6c71bc051cde41dc220"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/prompt-base-v1.txt",
+      "bytes": 3662,
+      "sha256": "0945c1da68f2841aa8b40c3cc96aa0339353cb2ec61bd3ad9f9382616a4b5def"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/provenance-base-v1.json",
+      "bytes": 1140,
+      "sha256": "d9161a75a65a67e3dc370e2c438c18a23d86165b8afd192769476226d78bb164"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/source-actions-v1.png",
+      "bytes": 955545,
+      "sha256": "d06aa4c52158210d569bbc04e39e361264624d12039b42179a1f09073ee1dfd2"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/prompt-actions-v1.txt",
+      "bytes": 3833,
+      "sha256": "f9ad1528a3ef1229605c2d0fad3a231d2a58d01e4fc099051fc6b396f50da74f"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/provenance-actions-v1.json",
+      "bytes": 1435,
+      "sha256": "8fc376d4bfc0b17e765e72db55c2431dd68cb9ac838d6de97ded90ce06b92442"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/source-contacts-v1.png",
+      "bytes": 648378,
+      "sha256": "6d581e0751628358d8191044b037c37a269f9d4f1cc842af261894f93dee65f7"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/prompt-contacts-v1.txt",
+      "bytes": 2821,
+      "sha256": "39a84d67057d4e6719fb1dcfa1cf61c100a5ced8fdef9e89e3b1064db7ab6ff1"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/provenance-contacts-v1.json",
+      "bytes": 1438,
+      "sha256": "9f5f08d61f2a1eb76c5f31dadd0b49985015a56dbeec00768f03299adb792071"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/source-contacts-v2.png",
+      "bytes": 1269157,
+      "sha256": "99beb10dee03c3633dc3699dd3466e1d823b001fe32050f115a76481b2d1ffda"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/prompt-contacts-v2.txt",
+      "bytes": 2080,
+      "sha256": "b5e7fcbdb1b921b16e57103efbe1115f4a72003cedde8e9a039666559abc0e86"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/provenance-contacts-v2.json",
+      "bytes": 1737,
+      "sha256": "06156af18c750838f919df4def8ed7043e2cce17171549f92697ec1a7db67ea2"
+    }
+  ],
+  "derivedArtifacts": [
+    {
+      "path": "assets/imagegen/master-glaze/draft/preview-raster.json",
+      "bytes": 18929,
+      "sha256": "85bd0e5d98f93ccb42430baf046a631a393d43a2957bd9b59ffe40150fdc68db"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/draft/preview-import.json",
+      "bytes": 8140,
+      "sha256": "b6276eb7d8ce39067d9b4067e25d124c19c8b87148cf30a008c255c4a7565fa9"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/draft/preview-native-indexed.png",
+      "bytes": 14011,
+      "sha256": "3422d658fbb93f7125953453df75669c93995aa36aa89cb4a1e6243a6a888db7"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/draft/graphics.4bpp",
+      "bytes": 5728,
+      "sha256": "0eafac5c5b77f79ff9bfc88f1cc910bd31d90a91cb69fc538ad6dc1eb89631de"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/draft/graphics.ct-lz",
+      "bytes": 3965,
+      "sha256": "43ff10c0339a3bfc240cb0e7c5926bd983e331c857a59ea0cd3c033904b7dcc0"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/draft/assembly.bin",
+      "bytes": 800,
+      "sha256": "20d3ef9fb0d28547e13192bfc210cab727e65505cbe181bd47a19e3e8c7d4081"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/draft-audit.json",
+      "bytes": 10097,
+      "sha256": "bba1931edafa033896dd0a59c29301465a81a91ee2bbee277b4ea48ad3f453cd"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/native-1x.png",
+      "bytes": 14993,
+      "sha256": "eb2577aaf76b19396b8c3efd5769e1ea7945b6ecb105c5b8bd7dc905d91efdb3"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/native-4x.png",
+      "bytes": 22228,
+      "sha256": "80e0655f5c8dbfb5300d9386a9b9f931861a386679c06334653b59d12074d62e"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/native-frames.html",
+      "bytes": 57637,
+      "sha256": "a1215ca9d1e22a87868358dc3125ceee7e687dee05ca33f30667cf72fc1104e7"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/native-frames.png",
+      "bytes": 188274,
+      "sha256": "42dce7ef2629abdf4963785849b589bae4681943188fc9dceaa9ebda1186d998"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/motion.html",
+      "bytes": 36868,
+      "sha256": "618af5c12b37520752ec6a4de3d39bb606bbfd5bfb8bfa7290f7dffff5ad43c3"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/motion.png",
+      "bytes": 76164,
+      "sha256": "0802b179d7662b29ffe7be2576a656de24ae15c88d93b5bfb99649df98aae1f5"
+    },
+    {
+      "path": "assets/imagegen/master-glaze/animation-review.json",
+      "bytes": 1028,
+      "sha256": "fdfe3d26e44507d6762795b2064b88d47e01ba92ec52b8d6f95483299a6da98b"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "scripts/import-raster-art.mjs",
+      "bytes": 10773,
+      "sha256": "932f6a4558afc571610f2ae10790b7623e0524fa8b541eb3dc03a596172db1f1"
+    },
+    {
+      "path": "engine/actor-families.js",
+      "bytes": 7058,
+      "sha256": "6675e55ea9c2b14bec6e62ee3ef384aa44ec18d81d2d66fda99e2b83fcfbfc9a"
+    },
+    {
+      "path": "engine/native-sprites.js",
+      "bytes": 8178,
+      "sha256": "53e9b53ef655f7d3c0648cc44ba12356d73e0f921a06f922b0fac289e724c089"
+    },
+    {
+      "path": "engine/sprites.js",
+      "bytes": 8935,
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "path": "engine/compression.js",
+      "bytes": 4100,
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "path": "engine/rom.js",
+      "bytes": 2199,
+      "sha256": "06b336022840d63cc8295bce22f19ee3527484a06739b76ce90dc5bafa2a9b04"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1210,
+      "sha256": "8f60ddf182b8e3a6ac93880d211b857ca12032e90317fd695b43653c977c4447"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 2116,
+      "sha256": "64a6a819820c608b0efc612e049a872b68b3159ec6d3cc95ae13261893a980b5"
+    }
+  ],
+  "native": {
+    "nativeFrames": 20,
+    "sourcePoses": 17,
+    "blankFrames": [],
+    "proceduralFrames": 0,
+    "width": 32,
+    "height": 32,
+    "cells": 4,
+    "palette": 190,
+    "colors": [
+      "2c2630",
+      "634345",
+      "b77754",
+      "eab789",
+      "ffdfaf",
+      "533542",
+      "914154",
+      "c65c59",
+      "566466",
+      "9ca8a3",
+      "f4ead0",
+      "e0b65d"
+    ],
+    "paletteChanged": false,
+    "rawGraphicsBytes": 5728,
+    "compressedBytes": 3965,
+    "tiles": 179,
+    "assemblyBytes": 800,
+    "graphicsSha256": "0eafac5c5b77f79ff9bfc88f1cc910bd31d90a91cb69fc538ad6dc1eb89631de",
+    "compressedSha256": "43ff10c0339a3bfc240cb0e7c5926bd983e331c857a59ea0cd3c033904b7dcc0",
+    "assemblyAfterAuthoredOffsetsSha256": "20d3ef9fb0d28547e13192bfc210cab727e65505cbe181bd47a19e3e8c7d4081",
+    "frames": [
+      {
+        "nativeFrame": 0,
+        "role": "back contact A",
+        "sourceFrame": 0,
+        "sheet": "source-base-v1.png",
+        "cell": 0,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "opaquePixels": 387,
+        "pixelSha256": "618ccc9a637c512565cf317ca1153cc208dff20704a6e8de5a003b6c0024fd14"
+      },
+      {
+        "nativeFrame": 1,
+        "role": "back passing / stand",
+        "sourceFrame": 1,
+        "sheet": "source-base-v1.png",
+        "cell": 1,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          1
+        ],
+        "opaquePixels": 356,
+        "pixelSha256": "f4b5feb228a7eb3c6f29ce47dfeafa96467afc5a762802ec0a4013933f5c1215"
+      },
+      {
+        "nativeFrame": 2,
+        "role": "back contact B",
+        "sourceFrame": 14,
+        "sheet": "source-contacts-v1.png",
+        "cell": 0,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "opaquePixels": 394,
+        "pixelSha256": "49f10069242baca728582f174db370f1c8fac4aaf8d5fa06a4ae9c4d487304ab"
+      },
+      {
+        "nativeFrame": 3,
+        "role": "front contact A",
+        "sourceFrame": 2,
+        "sheet": "source-base-v1.png",
+        "cell": 3,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "opaquePixels": 403,
+        "pixelSha256": "840ebdd17cb718f851c2b4ba04ce5eb58ffa4389bb0d86aedb575f7f2956ae59"
+      },
+      {
+        "nativeFrame": 4,
+        "role": "front passing / stand",
+        "sourceFrame": 3,
+        "sheet": "source-base-v1.png",
+        "cell": 4,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          1
+        ],
+        "opaquePixels": 399,
+        "pixelSha256": "fecf566dda2bd172cf303875011c5828b96abcbab55c0ea191b7956e12324ef6"
+      },
+      {
+        "nativeFrame": 5,
+        "role": "front contact B",
+        "sourceFrame": 15,
+        "sheet": "source-contacts-v2.png",
+        "cell": 0,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "opaquePixels": 414,
+        "pixelSha256": "18fba654fada4ac8521c5912fae52f7afa6bb6bd48567250e22dea51a28cfc6c"
+      },
+      {
+        "nativeFrame": 6,
+        "role": "left contact A",
+        "sourceFrame": 4,
+        "sheet": "source-base-v1.png",
+        "cell": 6,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "opaquePixels": 389,
+        "pixelSha256": "df402986c8801a48d023a00d338bc8e4147fccbb3fb6016f2a9b146a00be35e7"
+      },
+      {
+        "nativeFrame": 7,
+        "role": "left passing / stand",
+        "sourceFrame": 5,
+        "sheet": "source-base-v1.png",
+        "cell": 7,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          1
+        ],
+        "opaquePixels": 356,
+        "pixelSha256": "3d97ed2bda54a2f7ae372e105294255c87a71d5025d7f517545c7939ed16c942"
+      },
+      {
+        "nativeFrame": 8,
+        "role": "left contact B",
+        "sourceFrame": 16,
+        "sheet": "source-contacts-v2.png",
+        "cell": 1,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "opaquePixels": 402,
+        "pixelSha256": "e6499aec05a1bc311d7516f485db10e2b83c308f361a501e5bf600f47807686f"
+      },
+      {
+        "nativeFrame": 9,
+        "role": "right contact A",
+        "sourceFrame": 4,
+        "sheet": "source-base-v1.png",
+        "cell": 6,
+        "mirror": true,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "opaquePixels": 389,
+        "pixelSha256": "91442b0828c38c96c2b6a0bf469715b0ab1b45fbe654f7a72a65cf1d0062dbf1"
+      },
+      {
+        "nativeFrame": 10,
+        "role": "right passing / stand",
+        "sourceFrame": 5,
+        "sheet": "source-base-v1.png",
+        "cell": 7,
+        "mirror": true,
+        "frameOffset": [
+          0,
+          1
+        ],
+        "opaquePixels": 356,
+        "pixelSha256": "93a36803747b41f98998878c299c14609f609dd720dce8e622b7a973460d7623"
+      },
+      {
+        "nativeFrame": 11,
+        "role": "right contact B",
+        "sourceFrame": 16,
+        "sheet": "source-contacts-v2.png",
+        "cell": 1,
+        "mirror": true,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "opaquePixels": 402,
+        "pixelSha256": "4803a1a2b6d8eb10129ba90baf7528a6c1b93c6e157d7e3b6df650f1f61d09e8"
+      },
+      {
+        "nativeFrame": 12,
+        "role": "front raised-hands alarm / cast",
+        "sourceFrame": 6,
+        "sheet": "source-actions-v1.png",
+        "cell": 0,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          1
+        ],
+        "opaquePixels": 441,
+        "pixelSha256": "db006568374d2e05425654e8eb5a0c430208c042b58c6d17bc932aeb8eaf8d0d"
+      },
+      {
+        "nativeFrame": 13,
+        "role": "front tilted raised-hands recoil / gesture",
+        "sourceFrame": 7,
+        "sheet": "source-actions-v1.png",
+        "cell": 1,
+        "mirror": false,
+        "frameOffset": [
+          1,
+          1
+        ],
+        "opaquePixels": 501,
+        "pixelSha256": "b0e315e45c1d8fbe34ec53b93fdc178589a026f758e83e497c0044687301344d"
+      },
+      {
+        "nativeFrame": 14,
+        "role": "front centered raised-hands recoil / gesture",
+        "sourceFrame": 8,
+        "sheet": "source-actions-v1.png",
+        "cell": 2,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          2
+        ],
+        "opaquePixels": 401,
+        "pixelSha256": "c936a3c559a60b65f3fc60a3fab9080f2ac825dc0400aac171021feafc123d3f"
+      },
+      {
+        "nativeFrame": 15,
+        "role": "front lowered-head kneel A",
+        "sourceFrame": 9,
+        "sheet": "source-actions-v1.png",
+        "cell": 3,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          5
+        ],
+        "opaquePixels": 322,
+        "pixelSha256": "57b58efb60ce134dfa5ce1eca16fb61acbf41090c5ea77bfda14cce21b37682a"
+      },
+      {
+        "nativeFrame": 16,
+        "role": "front lowered-head kneel passing",
+        "sourceFrame": 10,
+        "sheet": "source-actions-v1.png",
+        "cell": 4,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          4
+        ],
+        "opaquePixels": 335,
+        "pixelSha256": "0272db574761c990d093bb3a4d3cb3580f22436675815092b5acf172f91095aa"
+      },
+      {
+        "nativeFrame": 17,
+        "role": "front lowered-head kneel B",
+        "sourceFrame": 11,
+        "sheet": "source-actions-v1.png",
+        "cell": 5,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          5
+        ],
+        "opaquePixels": 344,
+        "pixelSha256": "dee5b5ca6b439aee7dc4327a5e4fdb68effc827fa6d1007ffbff1d5fbf4c7edd"
+      },
+      {
+        "nativeFrame": 18,
+        "role": "front speaking / cast preparation",
+        "sourceFrame": 12,
+        "sheet": "source-actions-v1.png",
+        "cell": 6,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "opaquePixels": 444,
+        "pixelSha256": "b46cd317df416023fd3abfc431c17a4fd51509e5b1c55e017d795a33b1ea6300"
+      },
+      {
+        "nativeFrame": 19,
+        "role": "front speaking / cast release",
+        "sourceFrame": 13,
+        "sheet": "source-actions-v1.png",
+        "cell": 7,
+        "mirror": false,
+        "frameOffset": [
+          0,
+          0
+        ],
+        "opaquePixels": 442,
+        "pixelSha256": "26bddbd3ad68edb750ed5092c4fb7b86eb7872e9770b86dfe089898ef081f81c"
+      }
+    ]
+  },
+  "sourcePolicy": "Four pristine generated PNGs, exact prompts/references, source material quantization and three whole-source horizontal mirrors only; no code-drawn anatomy or procedural fallback.",
+  "nativeProof": {
+    "manifest": {
+      "path": "assets/imagegen/master-glaze/native-verification/manifest.json",
+      "bytes": 5154,
+      "sha256": "22bc97234a7ca54c27f5aa8b562e9bb032a07e56dde4912e0d66e59c9b3f6d5e"
+    },
+    "nativeUploads": 20,
+    "opaquePixelChecks": 7877,
+    "colorsObserved": 12,
+    "heapBytes": 6688,
+    "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+    "privateRomSha256": "d3d9f5a475249a3f946a2c39331f02439a87c3b3908a2d86bb3a5271605e2654",
+    "fullSceneOrBattleProof": false
+  },
+  "integration": {
+    "key": "master-glaze",
+    "spec": "assets/imagegen/master-glaze/import-spec.draft.json",
+    "role": {
+      "pose": "native",
+      "facing": 1,
+      "phase": "original native frame ID0..19"
+    },
+    "family": "assets/imagegen/master-glaze/source-family.json",
+    "width": 32,
+    "height": 32,
+    "cells": 4,
+    "graphics": 141,
+    "assembly": 135,
+    "palette": 190,
+    "animation": 101,
+    "enemy": 154,
+    "originalBudgetGuard": "Preserve the strict family-size guard. Candidate raw bank exceeds the original by960bytes; root should explicitly select proven raw-ROM streaming or validate current full-scene residency before activation."
+  }
+}

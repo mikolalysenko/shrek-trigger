@@ -1,0 +1,171 @@
+{
+  "key": "cosmic-muffin-mouth",
+  "frames": 7,
+  "width": 64,
+  "height": 64,
+  "opaqueColors": 12,
+  "palette": [
+    "211b22",
+    "fff5d2",
+    "f5c783",
+    "e3b65c",
+    "cf3541",
+    "ce8c55",
+    "975535",
+    "593426",
+    "4a221b",
+    "362127",
+    "751b30",
+    "180f16"
+  ],
+  "samplingPalette": [
+    "211b22",
+    "fff5d2",
+    "f5c783",
+    "e3b65c",
+    "cf3541",
+    "ce8c55",
+    "975535",
+    "593426",
+    "4a221b",
+    "362127",
+    "751b30",
+    "180f16"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/cosmic-muffin-shell/source-mouths-v1.png",
+      "sha256": "1b1f6fc533f9b8b4cb5d89647f2773dbf1980bc61929cf78a19792201a43d777",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "scale": 0.1044776119402985,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 49,
+        "dx": 1,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.9142857142857143,
+          "bottom": 47
+        },
+        "1": {
+          "scale": 0.9714285714285714,
+          "bottom": 48
+        },
+        "5": {
+          "scale": 0.9714285714285714
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            50,
+            72,
+            352,
+            334
+          ],
+          "componentPixels": 85482
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            492,
+            72,
+            355,
+            334
+          ],
+          "componentPixels": 86451
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            925,
+            71,
+            366,
+            335
+          ],
+          "componentPixels": 87713
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1368,
+            71,
+            366,
+            335
+          ],
+          "componentPixels": 87570
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            40,
+            502,
+            367,
+            339
+          ],
+          "componentPixels": 88449
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            483,
+            503,
+            369,
+            338
+          ],
+          "componentPixels": 88679
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            925,
+            503,
+            368,
+            338
+          ],
+          "componentPixels": 88568
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            1377,
+            503,
+            351,
+            338
+          ],
+          "componentPixels": 86270
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Seven actual generated phases preserve the original closed→partial→open mouth, left/right light and two charged-center variants. The eighth generated source is deliberately unused."
+      }
+    }
+  }
+}

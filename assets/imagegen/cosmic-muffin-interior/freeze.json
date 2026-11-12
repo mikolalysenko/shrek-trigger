@@ -1,0 +1,570 @@
+{
+  "status": "Frozen inactive actual-imagegen body/arms/pulse packet",
+  "sourceAndProofFiles": 98,
+  "files": [
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/.gitignore",
+      "bytes": 9,
+      "sha256": "7f1449aa6b5c22585727e0d7ef4b16a112119fb0b8f472d7ab4d3a974369dc6d"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/README.md",
+      "bytes": 5229,
+      "sha256": "5434329e0abb484c9ee6cfee45b698e130eece8a023840448b7e6baf516b7d5e"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/audit-native.mjs",
+      "bytes": 6756,
+      "sha256": "52984a967dc1e5a8e3f8d677c90cf0bebb8cae0cf63e1ccbb63455051d8f56fa"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/audit-arm-mirrors.mjs",
+      "bytes": 1558,
+      "sha256": "b88b4439adcafb8ad250415c1087cae2c7ae456855fa6b5f7c1ad7a4324e2d61"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/native-audit.json",
+      "bytes": 156670,
+      "sha256": "a58cd25ae0cf2df74216e1387486723e07919315a5d66c0064886306797f510e"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/native-cells.json",
+      "bytes": 354664,
+      "sha256": "5811c846bc6c8bcaf7456283707ea8d15cad9925aa2b8ad4b25bccb84b5c7500"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/original-arm-mirrors.json",
+      "bytes": 2672,
+      "sha256": "576350aaa819f3f437650a8cc6504b52b6e14961bcaa7e2e283269d4ced57dd5"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/prepare-import.mjs",
+      "bytes": 2502,
+      "sha256": "eba1cae89c9ed14a52dbf89ff2e189b0a8270e9594cf2b95805d40918fe3cbf2"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/sample-body.mjs",
+      "bytes": 4761,
+      "sha256": "0ea7a748844e2635e5e34d175ac80b1d37acd6a48ee1a75abed662eaed0f15c4"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/compile-body.mjs",
+      "bytes": 5580,
+      "sha256": "ff9349f0c135387e7cc91773ec1a4e54d371e446c43b8b0da47ebcbe588e3b6a"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/compile-pulse.mjs",
+      "bytes": 5551,
+      "sha256": "4efaacd2c5066ac63caa1f2376ed48beab042ac478b9582a8cf4b7fe08dfabe4"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/compile-arms.mjs",
+      "bytes": 5329,
+      "sha256": "e65dcfb8151cb1eaaac326be81b845527297cadcf4fcab811d9af5495d14c496"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/pack-cells.mjs",
+      "bytes": 4002,
+      "sha256": "b6d196bc7e130704e8ffc784df88fff0fc5e71ecfca126409e4d05de89246d63"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/cover-solver.mjs",
+      "bytes": 1731,
+      "sha256": "c29a3c11f41eeb0b866f70f76d6ffb47f13b393dff5ef8dd228a6b0ef0d849a6"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/record-provenance.mjs",
+      "bytes": 3692,
+      "sha256": "b25f8abe86294a211dd29776d3ff6e13892576148c079c36f8f8a8bab46f4582"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/provenance.json",
+      "bytes": 8495,
+      "sha256": "1c9745db391bd4b61255f8b1e3cdd82db94494a1ba87fc020c679ecc58e74ee3"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/source-components.json",
+      "bytes": 2851,
+      "sha256": "454ea7c1931326f90735fc30d7593a42e42ea570df4b989f9dc035c11c123b04"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/import-arms-warm-area.draft.json",
+      "bytes": 2674,
+      "sha256": "f47ce355573e44564f9eeb383a176a6725a81f2d7dce1475d373be78349c9e2a"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/arms-warm-area/preview-raster.json",
+      "bytes": 197271,
+      "sha256": "7d693c214ccb889942f737531a7dae6692229b33636e95a3480fc764e6f769d8"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/arms-warm-area/preview-import.json",
+      "bytes": 5213,
+      "sha256": "030968c94b4e6363844a2e8362fb9daf0953b65f2434510f191b4c6cdb2ab163"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/private-overlay.mjs",
+      "bytes": 4308,
+      "sha256": "372d025b1bea7806fa4e541badd8b38c4aa2751a9a48de8adff8f8039eb9037e"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/native-proof-utils.mjs",
+      "bytes": 3359,
+      "sha256": "edde8f6396888ee5effdd6cc4a44dae29376afd632ca2821c933aa5106f5ebfd"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/verify-native.mjs",
+      "bytes": 3135,
+      "sha256": "d6cbde9c3d8c56de4701355d8d97a2249a676114fee881b6e756aebb5afd0e44"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/verify-motion.mjs",
+      "bytes": 3907,
+      "sha256": "413ad41d71489a858edd1a0f63a8cc293cebf000001a11f0fa8b08e160aee864"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/verify-scene.mjs",
+      "bytes": 5873,
+      "sha256": "fc9b554e79d9663048b6bf1c89c1a31de4aa7c30d1b7331cdb3bd9f7c6944712"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/verify-background.mjs",
+      "bytes": 3967,
+      "sha256": "db0bb11b042c17334c9973c1b19da90def3efc865bcbf65506bd097301513688"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/verify-pulse.mjs",
+      "bytes": 3462,
+      "sha256": "703cd4e1692ad852524f4ead2088db2a8d3aa014fe888c678601baa64c8c1b22"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/capture-pulse.mjs",
+      "bytes": 2769,
+      "sha256": "44fb0d0a8cad7a2406924905187098060e4f53aa0722f367d3c5905507092330"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/verify-reveal.mjs",
+      "bytes": 2467,
+      "sha256": "00b1e9d263c2a6e3300721e4640b3575a4eeaa3fc39ae00bb1eafdf5fab29d7d"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/prepare-handoff.mjs",
+      "bytes": 12548,
+      "sha256": "d344c3eb56e03da65048a4b8e27379e795d8ceca420068e26c8cdd48f11d8be7"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/integration-proposal.json",
+      "bytes": 12891,
+      "sha256": "ef2caa9c42a75ad05f8b9b6e0580679f207689fc4e43f74968ed861f1a87b87f"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/ownership-proof.json",
+      "bytes": 12928,
+      "sha256": "8a894e10f446df41a3b6ee1f4e6c39b857189cc904dcc5456c219311336372d7"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/handoff.json",
+      "bytes": 2734,
+      "sha256": "0f40bf4284f64105e7a4ef48e4c9da2e4fcf39f481e7b32b81aa9973fdc44fc2"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/reproduce-draft.mjs",
+      "bytes": 1322,
+      "sha256": "8737b4b8eeefe2b9662c612429354b7d17a279db876b1a1fa68cbdc7021cbb36"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/freeze-draft.mjs",
+      "bytes": 3886,
+      "sha256": "c85a8573c58c6bd575ebc487e8775c7347a073b4b8979416e57d510184a4cc70"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/source-body-v1.png",
+      "bytes": 1112468,
+      "sha256": "e3a4c67fa7540053d74980ce22370b4f34e9a16b794c9aa7b80e3b9ca4142bbc"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/prompt-body-v1.txt",
+      "bytes": 2397,
+      "sha256": "555d74525877b7ce5902a7dfc54f601481edfdb8dc1d9abe713712aa40ce7ed4"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/source-body-v2.png",
+      "bytes": 1107779,
+      "sha256": "47d514bcd2a093a00d00f73721c32e66de59e9c6d52fd112d9461d9fb477fbee"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/prompt-body-v2.txt",
+      "bytes": 802,
+      "sha256": "dec31f5b329df69d928b6c0c21dac147d27766e19a67acc1c97afe86edd1c854"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/source-arm-base-v1.png",
+      "bytes": 2023429,
+      "sha256": "b93608ceca4fc24a227981005965f6c2118d014fa24a60159fa57ab2d85ca760"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/prompt-arm-base-v1.txt",
+      "bytes": 2537,
+      "sha256": "ab08e83440ab8a45edee8ac46c70a2a15bb1dca8e29c28a9be3d3a72553004c0"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/source-arm-base-v2.png",
+      "bytes": 2086609,
+      "sha256": "8a62f3d38f16387a26ccc28ebbdc2adb9de6bf202d19c8c604b289b3e1791a98"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/prompt-arm-base-v2.txt",
+      "bytes": 864,
+      "sha256": "34919dbf770f36c6aa2a1296b28f8109a4d64ec2b51f1f14becee6d39addd5ec"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/source-arm-actions-v1.png",
+      "bytes": 1899352,
+      "sha256": "6e9149e1a64e444574fe0578bac14d9971028b896312e7bb28bcd8ae3cb79408"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/prompt-arm-actions-v1.txt",
+      "bytes": 2362,
+      "sha256": "7e965cef2d25afada5dc75914497532edd329080e83d4c3f7481f9f3c7b6e8a2"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/source-pulse-dim-v1.png",
+      "bytes": 1058433,
+      "sha256": "0d41b98ff00d5884a7598ee6c0b05ca5025c7b3f198055d307a61cf51837eb0e"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/prompt-pulse-dim-v1.txt",
+      "bytes": 899,
+      "sha256": "27b28b7fcdafe5bc05f515754541310edafc065bf780bb6c53847a7a6ce8c8d3"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/source-pulse-bright-v1.png",
+      "bytes": 1084459,
+      "sha256": "283a1416fab02569710daf8da9ff67ff9a38c6be6e55ed30ea18cdcf90c2bd92"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/prompt-pulse-bright-v1.txt",
+      "bytes": 883,
+      "sha256": "e9258d8b56debca17f5ee99a61b6e945484bdadc2450f868fb2c22c05e3d9746"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/body-draft/bg181.4bpp",
+      "bytes": 4096,
+      "sha256": "e2a881a7b6c202ece979d4d126a9b7547e03f523f6682795cddd91ceb4b538e8"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/body-draft/bg181.ct-lz",
+      "bytes": 3421,
+      "sha256": "485dceffae69a09c3ff24fcf6753dc95bd52379a5ec1fcf8aa6721139c0ff899"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/body-draft/bg182.4bpp",
+      "bytes": 4096,
+      "sha256": "8e36362e4ee9c69d3c8cbdcdb7e52722fd0f637cf93bbe2fa4616102bb2b46e3"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/body-draft/bg182.ct-lz",
+      "bytes": 3037,
+      "sha256": "4d323772f87c67da54accc8b93bda665e4f7c40d9762d83430908963b24df832"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/body-draft/tileset46.bin",
+      "bytes": 4096,
+      "sha256": "59e843f8e0267094abdaa505aab050d06d143591bd9f9a7b95e108a2016fa9fb"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/body-draft/tileset46.ct-lz",
+      "bytes": 2821,
+      "sha256": "54860f29bd6d88293c732c4523be0e3e4e522faa692814272279e328f88315f8"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/body-draft/body.pixels",
+      "bytes": 36864,
+      "sha256": "600acca490b076608cde18917411916874f4adb78ac4ab4d6e4f51c324444d92"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/body-draft/audit.json",
+      "bytes": 61794,
+      "sha256": "988e146a48cc86222f5a4e1b7cc2feec8fa0610ce752f9d3418308c98f59aa87"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/body-draft/native-1x.png",
+      "bytes": 25080,
+      "sha256": "b172fea1a5c81e30b394e4d04275802b1f72a81a772f4af52152007fa4e0182a"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/body-draft/native-3x.png",
+      "bytes": 28503,
+      "sha256": "882621126e40a1ac148f67967621efcb496d4ef450c9d016528ba01c493ca86f"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/pulse-draft/bg22.4bpp",
+      "bytes": 8192,
+      "sha256": "d9bd08bdded71d299d8c6b69d6ff5a5fcfb4d5cbcd703b4efd3f283a6ab41f32"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/pulse-draft/bg22.ct-lz",
+      "bytes": 3581,
+      "sha256": "0b66d53853262bf495060ffd2555c794dbe23b1a795da6fd80fcff04ec608f82"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/pulse-draft/audit.json",
+      "bytes": 8999,
+      "sha256": "c7a640064ae96c9e6924b91d44aaf298edf13e027f8079bec4ad06971821bf7a"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/pulse-draft/parts-6x.png",
+      "bytes": 8355,
+      "sha256": "402ccc59fd5ff878198f7fc2739e028287a59ff678743c665c53d8c786098a38"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/pulse-draft/body-0-3x.png",
+      "bytes": 28449,
+      "sha256": "01eec3cc1de13575942373a4fc3916f90f7ab12f61ade670ddae897e90511e6e"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/pulse-draft/body-1-3x.png",
+      "bytes": 28503,
+      "sha256": "882621126e40a1ac148f67967621efcb496d4ef450c9d016528ba01c493ca86f"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/pulse-draft/body-2-3x.png",
+      "bytes": 28522,
+      "sha256": "4c5228c461b2ccbb9d4ab67b9d42f066f101ddd7785889a67ab52b0378ba15a8"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/pulse-draft/body-3-3x.png",
+      "bytes": 28503,
+      "sha256": "882621126e40a1ac148f67967621efcb496d4ef450c9d016528ba01c493ca86f"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/arms-draft/shared.4bpp",
+      "bytes": 12640,
+      "sha256": "74629eac03910b616daeccabd44c8a26b05a3c023b6ec51cc03e163aec45e928"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/arms-draft/shared.ct-lz",
+      "bytes": 12128,
+      "sha256": "2d8edc883c00709c6cb7d6fd4f182efb1d30752677ea60484ec8cfb6666aac52"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/arms-draft/assembly201.bin",
+      "bytes": 1440,
+      "sha256": "352cd3c5577aacce3181ff50da389d327f7ac0aa1eec3fa3696c0f65397eb699"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/arms-draft/assembly202.bin",
+      "bytes": 1440,
+      "sha256": "afc74c17cd1bffbfe025a97b39111bb2dcde7ef6bdbcaa49db62738d65ab3f2b"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/arms-draft/audit.json",
+      "bytes": 39626,
+      "sha256": "887cbd7f3d34ace04e3645676460ecd4f2bf0af036efe436ab457e5dbabf2dea"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/arms-draft/enemy204-1x.png",
+      "bytes": 41112,
+      "sha256": "1084d6ea0a827dbc5200760f2ba35cd0e60e9db5e717d684fffe64ce02c1226b"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/arms-draft/enemy205-1x.png",
+      "bytes": 38868,
+      "sha256": "b3e0420c9c87037ec3d866f1024b71129399dc5fc7fa2ce4f0c5f8caf7ac5bdf"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/native-verification/manifest.json",
+      "bytes": 17811,
+      "sha256": "c503b3d345dea076b8dfef77d80735267b234f66d0fccb037dc558286f06e875"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/native-verification/204-0.png",
+      "bytes": 56566,
+      "sha256": "ab251c396d92d906fde5acb60460df0f4dba1d2679ccdec3046d5515c846d002"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/native-verification/204-3.png",
+      "bytes": 56558,
+      "sha256": "6916de9011b9dbd69f65cc057d6913131b32df03cd7ebe802125ac50958b2ebd"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/native-verification/204-11.png",
+      "bytes": 57446,
+      "sha256": "b1e4ecec5c41f261add7ed0b0646565e75159536fb984721ad7cfe54ddb5cf86"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/native-verification/205-0.png",
+      "bytes": 56136,
+      "sha256": "928d08b5a10aa96babe6ea21030a681f88316f64f9dc38a48b58d2a2aaf083aa"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/native-verification/205-11.png",
+      "bytes": 57018,
+      "sha256": "09d8b4b6a73a7bbb0d0f3864159d56b46eae067615f7626c028abb0d80804280"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/motion-verification/manifest.json",
+      "bytes": 78526,
+      "sha256": "0b6945c532cd1d3dc98c715bfd78c35654e194363a80679f6d4baea13d0d1873"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/pulse-verification/manifest.json",
+      "bytes": 33518,
+      "sha256": "b922cb2669b436b95fcaf32d58743542eaf2e0d6246533e183832dd8097082d6"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/pulse-verification/display-manifest.json",
+      "bytes": 30238,
+      "sha256": "dac73683c6d64543525e0e7b72f679ae2509d19f1e07813e10fa197fe65ae526"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/scene-verification/manifest.json",
+      "bytes": 71946,
+      "sha256": "560506f609c7b69aa264bc4ee76bf760b7e76d2e161c7a6d58bbfd15475ec21d"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/scene-verification/background-manifest.json",
+      "bytes": 3060,
+      "sha256": "f3452af81d737b53e5c46e542452886d22575690b4a28164023938c4b0d90496"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/scene-verification/reveal-manifest.json",
+      "bytes": 11405,
+      "sha256": "017cd3b7232f7b00b152dbea06e72e0670794d986d744bb788ef324ab558c2fe"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/scene-verification/arrival-dialogue.png",
+      "bytes": 75424,
+      "sha256": "8727da777fc13ea0c48f1ae4f941e6ba62c11c346d3e00b6fa243236b29a2ab6"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/scene-verification/original-battle-ready.png",
+      "bytes": 83481,
+      "sha256": "9b07e6e7210282f43c150fa2924561e788de69c115f9e256abe204f82189c2e6"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/scene-verification/field-11-11.png",
+      "bytes": 82113,
+      "sha256": "73cb6917575b1b10c3281e16d6abfc7b33534873900eb0f71274d61b494aefbe"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/scene-verification/battle-0-0.png",
+      "bytes": 85287,
+      "sha256": "9e52b2136b7bd5c506a42e368586973af6a32c6167d3ee1776069b7cbf2deffa"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/scene-verification/battle-3-3.png",
+      "bytes": 80723,
+      "sha256": "05637c830b4e093cfea626a1c9d9b3bdb8d1dddd2120439953eba02997d2f718"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/scene-verification/native-body-open-claw.png",
+      "bytes": 83481,
+      "sha256": "9b07e6e7210282f43c150fa2924561e788de69c115f9e256abe204f82189c2e6"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/scene-verification/after-battle.png",
+      "bytes": 81085,
+      "sha256": "021cf74f1d75f0678995fefd323cc88a5a9518855818e26295edf179c323262c"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/scene-verification/reveal-15.png",
+      "bytes": 72407,
+      "sha256": "886d2fa4145bf2355fd54b807703b10d142ec0bb4e3c5fa1051e080e80f9edd2"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/scene-verification/native-final-formation.png",
+      "bytes": 50999,
+      "sha256": "f111208aab43f7d39980743472a7c600b9d81d7a2000c43522e61d02a452c3f9"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/review/index.html",
+      "bytes": 474470,
+      "sha256": "2547d0b889fb1de48ec50eabcb44b9aff3ebd11f258a07a5609e6709619ca3f9"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/review/compound-sheet-1x.png",
+      "bytes": 348038,
+      "sha256": "508eb6da4fda8c71bca1791acd379fb163c42f37dc0024f97970457736c69cf0"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-interior/review/native-pulse.apng",
+      "bytes": 97274,
+      "sha256": "4b15ee586724a9a4c24f2fe7362c6a6d48f0d8e1f087d2b13e1b5219e414624a"
+    }
+  ],
+  "dependencies": [
+    {
+      "file": "scripts/import-raster-art.mjs",
+      "sha256": "3c3e375e007e0e190474abb1c1587c05f3d572be819e3c799fdd7879255f5836"
+    },
+    {
+      "file": "engine/rom.js",
+      "sha256": "06b336022840d63cc8295bce22f19ee3527484a06739b76ce90dc5bafa2a9b04"
+    },
+    {
+      "file": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "file": "engine/native-sprites.js",
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "file": "engine/sprites.js",
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "file": "engine/scene-map.js",
+      "sha256": "8ca356f20526740a37c8df8dbafadb8e7a0a9c75a47ee65f9154e2bb94999568"
+    },
+    {
+      "file": "scripts/native-sprite-view.mjs",
+      "sha256": "5ad09bed2da5887837208c7ccf58dc7e9822a383b9a05dc9433031508fc404b9"
+    },
+    {
+      "file": "scripts/core.mjs",
+      "sha256": "7ab30045a06ef89154004a3cc25e1c2dab1cad1c426f4a585e4a68a058bceef4"
+    },
+    {
+      "file": "engine/save.js",
+      "sha256": "c3ea24d67274d089090ebf5cb2776471cd8da323d878fcf398ae74390fd3d8ad"
+    },
+    {
+      "file": "engine/automation.js",
+      "sha256": "8af377558a467f16747a8dbb120b8a047c2512cee9b4945ec5f657660a36fe28"
+    },
+    {
+      "file": "engine/hooks.js",
+      "sha256": "795fd4248bfaf669e53753df0636b4d24cf5ae98062d82f6e50b147516af7a2a"
+    },
+    {
+      "file": "engine/devtools.js",
+      "sha256": "4a0fc1a37ec243405c8db4e4e1d2a0f8bed6c07fca62452cb53e793521617309"
+    },
+    {
+      "file": "content/hooks.json",
+      "sha256": "bf37708d2862de0a3a6766ef8f9a5c05079e454e262750e001e42a02532783a5"
+    },
+    {
+      "file": "content/native-preview.js",
+      "sha256": "6a7990e7dae10a912b82645c59ebcd6b75aa9afeca32affe8f34a014f092540d"
+    },
+    {
+      "file": "tests/battle-controller.mjs",
+      "sha256": "5c495e42c97c06fd7b07273cceb74cbaf17186ab7f7e5cae80b63c2a7dba42e7"
+    },
+    {
+      "file": "assets/imagegen/cosmic-muffin-shell/source-body-v3.png",
+      "sha256": "1075f5d4dac1c1bdf4851c9ae77102dbd6eddf94ce2b9b879401d54ef6ddcbe5"
+    }
+  ],
+  "dependencyNote": "Shared helper hashes identify the freeze environment. Source import and final byte equality are verified by reproduce-draft.mjs; runtime proof uses the pinned historical ROM described in handoff.json.",
+  "privateExcluded": [
+    "Original ROM/reference images",
+    "Historical baseline and private overlay ROM",
+    "Save states",
+    "Failed controller attempts",
+    "Unused original-palette/nearest sampling candidates"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "status": "Original location280 staging and all six owned NPC loads passed",
+  "privateRomSha256": "ce30ec27afdb4115d613446f0b8fa4f9e5c92bbcde2f6f58958629449ee44731",
+  "location": 280,
+  "story": 111,
+  "loads": [
+    {
+      "npc": 122,
+      "object": 16,
+      "scriptPC": 2491,
+      "frame": 8903
+    },
+    {
+      "npc": 123,
+      "object": 17,
+      "scriptPC": 2521,
+      "frame": 8904
+    },
+    {
+      "npc": 122,
+      "object": 18,
+      "scriptPC": 2551,
+      "frame": 8904
+    },
+    {
+      "npc": 123,
+      "object": 19,
+      "scriptPC": 2581,
+      "frame": 8904
+    },
+    {
+      "npc": 94,
+      "object": 20,
+      "scriptPC": 2613,
+      "frame": 8904
+    },
+    {
+      "npc": 94,
+      "object": 21,
+      "scriptPC": 2646,
+      "frame": 8905
+    }
+  ],
+  "heapBytes": 8608,
+  "welcomeTaps": 6,
+  "controllerOnlyAfterCheckpoint": true,
+  "musicianFrames": {
+    "16": [
+      0,
+      1
+    ],
+    "17": [
+      0,
+      1
+    ],
+    "18": [
+      0
+    ],
+    "19": [
+      0
+    ]
+  },
+  "nativeEventOrTimingBytesChanged": false,
+  "romUnchanged": true,
+  "scope": "Original feast checkpoint, controller-only welcome closure and walk through the open staging area to visible musician objects16/17. Those two alternate0/1; duplicate staging objects18/19 remain held on0 in this branch. All supplied animation lists have a separate exact native timed-list proof. Plate actors initialize hidden, as in the original scene. Full eating contest and morning transition are not run here; separate solo native proof covers all8platter frames and offsets."
+}

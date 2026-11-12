@@ -1,0 +1,44 @@
+{
+  "status": "Inactive audit and design proposal; no image generation started",
+  "workingKey": "duloc-court-soldier",
+  "identity": "Duloc court and jail sergeant, also reused as the pre-disaster civic soldier",
+  "reason": "NPC16 is the execution-room soldier in one scene, but the same exclusive graphics bank serves64 loads across22 location programs. An executioner-only hood or carried axe would conflict with court, kitchen, barracks, pursuit, parade and1999 disaster appearances.",
+  "appearance": {
+    "body": "Compact adult human with a broad readable jaw, small brown moustache, open face and modest officer's cap; Chrono Trigger clustered shading and native-scale proportions.",
+    "uniform": "Deep blue-violet short court coat/tabard, pale steel collar and shoulder guards, small turquoise heraldic badge, dark belt, gloves and boots. The exact current palette160 supplies all materials.",
+    "hands": "Unarmed, preserving original clasped-hand idles and unobstructed seated/kneeling gestures. The original guillotine and other map props remain separate scenery.",
+    "scale": "Target original34px standing height, with a narrow upper head and compact shoulders to fit the original four staggered16x16 cells. Use a64x64 staging canvas; this is not a32x32 bounding-box assumption.",
+    "relationshipToGuard78": "Shares Duloc military materials and face style while remaining the unarmed blue court officer, distinct from the red visor/shield/sword civic guard. No gfx78 files change."
+  },
+  "nativeContract": {
+    "owners": [{"kind":"npc","id":16}],
+    "gfx":158,
+    "asm":151,
+    "palette":160,
+    "animation":120,
+    "frames":26,
+    "cells":4,
+    "sizeByte":0,
+    "blankFrames":[],
+    "originalDecodedBytes":4096,
+    "originalCompressedBytes":3078,
+    "assemblyBytes":1040,
+    "paletteWrites":0,
+    "animationCases":36,
+    "frameProgramBytes":176,
+    "durationProgramBytes":44,
+    "growthPolicy":"Measure generated native cost. Preserve the ordinary4096-byte decoded guard unless root explicitly integrates selected streaming; no extra cells or silently increased scene heap."
+  },
+  "poseGroups": [
+    {"slots":[0,1,2,3],"role":"Four true facing idles with clasped hands"},
+    {"slots":[4,5,6,7,8,9,10,11,12,13,14,15],"role":"Three native gait phases in each direction; genuine opposite contacts, original16/6/16/6-tick walk and6/6/6/6 fast mode"},
+    {"slots":[16,17],"role":"Left/right seated poses, native offset anchors retained"},
+    {"slots":[18,19],"role":"Front stunned reaction and diagonal fallen body, complete native source silhouette"},
+    {"slots":[20,21,22],"role":"Left/right/back kneeling or bowed bodies"},
+    {"slots":[23],"role":"Original front head-and-shoulders fragment, used by original prison ledge/office events; source-only crop of accepted generated frontal art, no invented full body"},
+    {"slots":[24,25],"role":"Horizontal prone/sleeping pair, native15/15-tick loop and tiny white sleep marks retained or actually generated with explicit provenance"}
+  ],
+  "generationPlan": "After parent design review, generate a coherent movement sheet and a matching acting sheet. Use actual raster sources for all anatomy, preserve exact source roles and review1x before native fitting. No generation has started.",
+  "auditFiles": ["native-audit.json","current-event-audit.json","review/original-1x.png","review/original-4x.png"],
+  "activation":false
+}

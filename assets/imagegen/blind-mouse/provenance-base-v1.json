@@ -1,0 +1,43 @@
+{
+  "tool": "OpenAI Images API",
+  "sourceType": "image-generation",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.6-sunburst",
+  "parameters": {
+    "model": "gpt-image-2.6-sunburst",
+    "size": "1536x1024",
+    "quality": "high",
+    "output_format": "png",
+    "n": 1
+  },
+  "requestId": "req_e789f7d7740e44629f15792b2c32f450",
+  "savedFile": "assets/imagegen/blind-mouse/source-base-v1.png",
+  "sha256": "e985140267eb29c518b06a6d56ea5bccb364ba01a7f1cc24b13c7b170d80ec5a",
+  "created": "2026-11-11T21:17:18.000Z",
+  "prompt": {
+    "file": "assets/imagegen/blind-mouse/prompt-base-v1.txt",
+    "sha256": "4ba773eb59a2533a312d877dfbd8a887c09393bb4e1736cc979396e4e549d053"
+  },
+  "referenceImages": [
+    {
+      "file": ".local/qa/ma-beans/reference/mouse-base-pose-guide-v1.png",
+      "sha256": "779aecb6eb692031c0c8192927602d5a46b8df8cd46d4a6a7ce21539d67bd8be"
+    }
+  ],
+  "revisedPrompt": null,
+  "usage": {
+    "input_tokens": 2304,
+    "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 768
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+    },
+    "total_tokens": 3676
+  },
+  "transparentBackground": false,
+  "postGenerationEditing": "None. Source PNG saved unchanged from the API response; background masking, native extraction and palette indexing are recorded by the importer."
+}

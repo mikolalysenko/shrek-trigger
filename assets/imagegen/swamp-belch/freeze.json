@@ -1,0 +1,51 @@
+{
+  "status": "Accepted imagegen source and deterministic native sampling",
+  "inputs": [
+    {
+      "path": "assets/imagegen/swamp-belch/README.md",
+      "bytes": 1270,
+      "sha256": "a40e1197aedfc6e81127190d9950852de0ccbb279c838d3a3778d952246fc17a"
+    },
+    {
+      "path": "assets/imagegen/swamp-belch/source-v1.png",
+      "bytes": 652533,
+      "sha256": "57e2e1bf18b86af2d41a75c710811f189bf15c7f055863d74f626afbb1a4a6ea"
+    },
+    {
+      "path": "assets/imagegen/swamp-belch/prompt-v1.txt",
+      "bytes": 2486,
+      "sha256": "277bc007fff6499a03a52cfcd3131f17ef6e8bd48abe06e5732eacddf5425e37"
+    },
+    {
+      "path": "assets/imagegen/swamp-belch/provenance-v1.json",
+      "bytes": 1363,
+      "sha256": "59345e3fd67437e8b658b635e65a1b5dc4312237822045a1289dee17ef0fc5bd"
+    },
+    {
+      "path": "assets/imagegen/swamp-belch/build-preview.mjs",
+      "bytes": 8431,
+      "sha256": "09796224573edb6e8911f69691bf5d20d5fdd9e9ea50f5297e5e6dfe11ff2fa6"
+    },
+    {
+      "path": "assets/imagegen/swamp-belch/native-64/indexed.json",
+      "bytes": 33813,
+      "sha256": "2aaa6dbfb3362aeede5a85148245ca26ecd8257525c1e671e1dd3e41640c3c28"
+    },
+    {
+      "path": "assets/imagegen/swamp-belch/native-64/phase-07.png",
+      "bytes": 1437,
+      "sha256": "6d2d63a91ff3fcddd874bdd7d00b7c0d7ced191f3346d0803ba581858f52efc6"
+    }
+  ],
+  "acceptedPhase": 7,
+  "nativeSource": [
+    64,
+    64
+  ],
+  "cartridgeScale": 3,
+  "colors": 3,
+  "transparentIndex": 0,
+  "generatedModule": "engine/swamp-belch-raster.js",
+  "moduleSha256": "6f99a2a9443cf9de145b4d90c0c5bce3c0b26af9f0247d698852bc2ec630cfb0",
+  "sourceOnlyReproduction": ".local/qa/swamp-belch-source-reproduction.json"
+}

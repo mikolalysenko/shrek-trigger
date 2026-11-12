@@ -1,0 +1,1600 @@
+{
+  "status": "Awaiting root counterpart decision before generation",
+  "activation": false,
+  "generationStarted": false,
+  "baseline": {
+    "path": "assets/raster/palace-mage-audit/private-baseline.sfc",
+    "sha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "scope": "Pinned published cartridge; read-only audit; private copy excluded from source handoff"
+  },
+  "selectedFamily": {
+    "sourceName": "Mage",
+    "enemy": 59,
+    "gfx": 90,
+    "asm": 47,
+    "palette": 39,
+    "animation": 92,
+    "nativeSlots": 28,
+    "blankSlots": 0,
+    "sizeClass": 0,
+    "cells": 4,
+    "assemblyBytes": 1120
+  },
+  "whyThisFamily": "Untouched original art repeatedly visible in mandatory Ocean Palace rooms, directly alongside the newly completed Godmother/Rumpel chapter cast. One exclusive bank and palette make this a compact next pass without interfering with assigned shared families.",
+  "proposedCounterpart": {
+    "name": "Palace Hexer",
+    "shortName": "Hexer",
+    "identity": "An original fairy-tale court spell-worker in Fairy Godmother's palace; a minion, not another named Godmother or Lyra model.",
+    "appearance": "Compact cream face and sharp nose, crooked mauve court cap, violet shoulder mantle, green gloves/cuffs and blue shoes. Expressive hand casting and short white wish-magic arcs; no long staff or extra held prop that would conceal the original hand roles.",
+    "nativeScale": "Approximately28-pixel standing body with hands/arcs inside the original four-cell footprint; all28 slots preserved. Exact placement follows the original signed cell origins wherever source coverage permits.",
+    "palette": "Retain all12 original palette39 entries exactly; exclusive/unaliased though no change is needed.",
+    "designAuthority": "docs/game-design.md: other guards/witches/refugees fit the era and Shrek world, and all required cast must receive reviewed art. This specific enemy counterpart is proposed, not yet approved."
+  },
+  "originalRoles": [
+    {
+      "frame": 0,
+      "role": "Rear walk contact A",
+      "sourceBounds": [
+        -14,
+        -32,
+        30,
+        32
+      ],
+      "cellOrigins": [
+        [
+          2,
+          -32
+        ],
+        [
+          -14,
+          -32
+        ],
+        [
+          2,
+          -16
+        ],
+        [
+          -14,
+          -16
+        ]
+      ]
+    },
+    {
+      "frame": 1,
+      "role": "Rear centered / idle",
+      "sourceBounds": [
+        -15,
+        -29,
+        31,
+        31
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -29
+        ],
+        [
+          -15,
+          -29
+        ],
+        [
+          0,
+          -13
+        ],
+        [
+          -15,
+          -13
+        ]
+      ]
+    },
+    {
+      "frame": 2,
+      "role": "Rear walk contact B",
+      "sourceBounds": [
+        -15,
+        -32,
+        30,
+        32
+      ],
+      "cellOrigins": [
+        [
+          -1,
+          -32
+        ],
+        [
+          -17,
+          -32
+        ],
+        [
+          -1,
+          -16
+        ],
+        [
+          -17,
+          -16
+        ]
+      ]
+    },
+    {
+      "frame": 3,
+      "role": "Front walk contact A",
+      "sourceBounds": [
+        -13,
+        -32,
+        29,
+        32
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ]
+    },
+    {
+      "frame": 4,
+      "role": "Front centered / idle",
+      "sourceBounds": [
+        -15,
+        -30,
+        31,
+        32
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -30
+        ],
+        [
+          -15,
+          -30
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          -15,
+          -14
+        ]
+      ]
+    },
+    {
+      "frame": 5,
+      "role": "Front walk contact B",
+      "sourceBounds": [
+        -15,
+        -32,
+        29,
+        32
+      ],
+      "cellOrigins": [
+        [
+          1,
+          -32
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          1,
+          -16
+        ],
+        [
+          -15,
+          -16
+        ]
+      ]
+    },
+    {
+      "frame": 6,
+      "role": "Left contact A",
+      "sourceBounds": [
+        -11,
+        -32,
+        24,
+        32
+      ],
+      "cellOrigins": [
+        [
+          -3,
+          -32
+        ],
+        [
+          -19,
+          -32
+        ],
+        [
+          -3,
+          -16
+        ],
+        [
+          -19,
+          -16
+        ]
+      ]
+    },
+    {
+      "frame": 7,
+      "role": "Left centered / idle",
+      "sourceBounds": [
+        -11,
+        -30,
+        24,
+        32
+      ],
+      "cellOrigins": [
+        [
+          -3,
+          -30
+        ],
+        [
+          -19,
+          -30
+        ],
+        [
+          -3,
+          -14
+        ],
+        [
+          -19,
+          -14
+        ]
+      ]
+    },
+    {
+      "frame": 8,
+      "role": "Left contact B",
+      "sourceBounds": [
+        -10,
+        -32,
+        23,
+        32
+      ],
+      "cellOrigins": [
+        [
+          -3,
+          -32
+        ],
+        [
+          -19,
+          -32
+        ],
+        [
+          -3,
+          -16
+        ],
+        [
+          -19,
+          -16
+        ]
+      ]
+    },
+    {
+      "frame": 9,
+      "role": "Right contact A",
+      "sourceBounds": [
+        -13,
+        -32,
+        24,
+        32
+      ],
+      "cellOrigins": [
+        [
+          3,
+          -32
+        ],
+        [
+          -13,
+          -32
+        ],
+        [
+          3,
+          -16
+        ],
+        [
+          -13,
+          -16
+        ]
+      ]
+    },
+    {
+      "frame": 10,
+      "role": "Right centered / idle",
+      "sourceBounds": [
+        -13,
+        -30,
+        24,
+        32
+      ],
+      "cellOrigins": [
+        [
+          3,
+          -30
+        ],
+        [
+          -13,
+          -30
+        ],
+        [
+          3,
+          -14
+        ],
+        [
+          -13,
+          -14
+        ]
+      ]
+    },
+    {
+      "frame": 11,
+      "role": "Right contact B",
+      "sourceBounds": [
+        -13,
+        -32,
+        23,
+        32
+      ],
+      "cellOrigins": [
+        [
+          3,
+          -32
+        ],
+        [
+          -13,
+          -32
+        ],
+        [
+          3,
+          -16
+        ],
+        [
+          -13,
+          -16
+        ]
+      ]
+    },
+    {
+      "frame": 12,
+      "role": "Front reaction with white marks",
+      "sourceBounds": [
+        -15,
+        -33,
+        31,
+        32
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -33
+        ],
+        [
+          -15,
+          -33
+        ],
+        [
+          0,
+          -17
+        ],
+        [
+          -15,
+          -17
+        ]
+      ]
+    },
+    {
+      "frame": 13,
+      "role": "Front compact gathering / crouch",
+      "sourceBounds": [
+        -14,
+        -26,
+        29,
+        27
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -31
+        ],
+        [
+          -15,
+          -31
+        ],
+        [
+          0,
+          -15
+        ],
+        [
+          -15,
+          -15
+        ]
+      ]
+    },
+    {
+      "frame": 14,
+      "role": "Front raised-arm threat or casting",
+      "sourceBounds": [
+        -15,
+        -32,
+        31,
+        32
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -32
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -15,
+          -16
+        ]
+      ]
+    },
+    {
+      "frame": 15,
+      "role": "Front reaction compact with white marks",
+      "sourceBounds": [
+        -14,
+        -31,
+        29,
+        32
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -31
+        ],
+        [
+          -15,
+          -31
+        ],
+        [
+          0,
+          -15
+        ],
+        [
+          -15,
+          -15
+        ]
+      ]
+    },
+    {
+      "frame": 16,
+      "role": "Rear attack windup",
+      "sourceBounds": [
+        -11,
+        -30,
+        24,
+        31
+      ],
+      "cellOrigins": [
+        [
+          5,
+          -30
+        ],
+        [
+          -11,
+          -30
+        ],
+        [
+          5,
+          -14
+        ],
+        [
+          -11,
+          -14
+        ]
+      ]
+    },
+    {
+      "frame": 17,
+      "role": "Rear/angled overhead white arc",
+      "sourceBounds": [
+        -11,
+        -29,
+        27,
+        32
+      ],
+      "cellOrigins": [
+        [
+          1,
+          -29
+        ],
+        [
+          -15,
+          -29
+        ],
+        [
+          -1,
+          -13
+        ],
+        [
+          -17,
+          -13
+        ]
+      ]
+    },
+    {
+      "frame": 18,
+      "role": "Rear/angled recovery",
+      "sourceBounds": [
+        -11,
+        -28,
+        26,
+        31
+      ],
+      "cellOrigins": [
+        [
+          1,
+          -29
+        ],
+        [
+          -15,
+          -29
+        ],
+        [
+          -1,
+          -13
+        ],
+        [
+          -17,
+          -13
+        ]
+      ]
+    },
+    {
+      "frame": 19,
+      "role": "Front attack windup",
+      "sourceBounds": [
+        -13,
+        -29,
+        27,
+        30
+      ],
+      "cellOrigins": [
+        [
+          -2,
+          -31
+        ],
+        [
+          -18,
+          -31
+        ],
+        [
+          -2,
+          -15
+        ],
+        [
+          -18,
+          -15
+        ]
+      ]
+    },
+    {
+      "frame": 20,
+      "role": "Front/downward white arc",
+      "sourceBounds": [
+        -14,
+        -31,
+        30,
+        32
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -31
+        ],
+        [
+          -16,
+          -31
+        ],
+        [
+          0,
+          -15
+        ],
+        [
+          -16,
+          -15
+        ]
+      ]
+    },
+    {
+      "frame": 21,
+      "role": "Front compact follow-through",
+      "sourceBounds": [
+        -14,
+        -28,
+        30,
+        29
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -31
+        ],
+        [
+          -16,
+          -31
+        ],
+        [
+          0,
+          -15
+        ],
+        [
+          -16,
+          -15
+        ]
+      ]
+    },
+    {
+      "frame": 22,
+      "role": "Left attack windup",
+      "sourceBounds": [
+        -12,
+        -31,
+        24,
+        31
+      ],
+      "cellOrigins": [
+        [
+          4,
+          -31
+        ],
+        [
+          -12,
+          -31
+        ],
+        [
+          4,
+          -15
+        ],
+        [
+          -12,
+          -15
+        ]
+      ]
+    },
+    {
+      "frame": 23,
+      "role": "Left broad white arc",
+      "sourceBounds": [
+        -17,
+        -30,
+        30,
+        31
+      ],
+      "cellOrigins": [
+        [
+          -1,
+          -31
+        ],
+        [
+          -17,
+          -31
+        ],
+        [
+          -1,
+          -15
+        ],
+        [
+          -17,
+          -15
+        ]
+      ]
+    },
+    {
+      "frame": 24,
+      "role": "Left follow-through",
+      "sourceBounds": [
+        -17,
+        -30,
+        30,
+        31
+      ],
+      "cellOrigins": [
+        [
+          -1,
+          -31
+        ],
+        [
+          -17,
+          -31
+        ],
+        [
+          -1,
+          -15
+        ],
+        [
+          -17,
+          -15
+        ]
+      ]
+    },
+    {
+      "frame": 25,
+      "role": "Right attack windup",
+      "sourceBounds": [
+        -12,
+        -31,
+        24,
+        31
+      ],
+      "cellOrigins": [
+        [
+          -4,
+          -31
+        ],
+        [
+          -20,
+          -31
+        ],
+        [
+          -4,
+          -15
+        ],
+        [
+          -20,
+          -15
+        ]
+      ]
+    },
+    {
+      "frame": 26,
+      "role": "Right broad white arc",
+      "sourceBounds": [
+        -13,
+        -30,
+        30,
+        31
+      ],
+      "cellOrigins": [
+        [
+          1,
+          -31
+        ],
+        [
+          -15,
+          -31
+        ],
+        [
+          1,
+          -15
+        ],
+        [
+          -15,
+          -15
+        ]
+      ]
+    },
+    {
+      "frame": 27,
+      "role": "Right follow-through",
+      "sourceBounds": [
+        -13,
+        -30,
+        30,
+        31
+      ],
+      "cellOrigins": [
+        [
+          1,
+          -31
+        ],
+        [
+          -15,
+          -31
+        ],
+        [
+          1,
+          -15
+        ],
+        [
+          -15,
+          -15
+        ]
+      ]
+    }
+  ],
+  "timing": {
+    "nativeAnimation": 92,
+    "nonemptyFacingModeLists": 28,
+    "allSlotsReferenced": true,
+    "gait": "A → centered → B → centered,10ticks each; four facings",
+    "idle": "Centered slot at5ticks for modes0/3",
+    "reaction": "Frame12 at10ticks; mode6 alternates12/15 at10each",
+    "casting": "13 at5ticks →14 at15ticks",
+    "attacks": "Directional windup/arc/recovery triples16–18,19–21,22–24,25–27 at15/5/31ticks",
+    "note": "Visual role names are based on the viewed original raster and table references, not a claim of new art or executed timing."
+  },
+  "resources": {
+    "originalAndCurrentIdentical": true,
+    "rawBytes": 5824,
+    "compressedBytes": 5359,
+    "assemblyBytes": 1120,
+    "compressedPlusAssembly": 6479,
+    "worstCaseUniqueTileRawBound": 14368,
+    "plannedContract": "Four native cells,512VRAMbytes per frame; raw stream only if generated bank outgrows5824, with root-owned integration and actual co-load proof. No gameplay or palette changes."
+  },
+  "sceneScope": {
+    "locations": [
+      {
+        "id": 405,
+        "name": "Ocean Palace Piazza",
+        "mageLoadCommands": 1,
+        "allBattleCommands": 5,
+        "otherEnemyIds": [
+          82,
+          213,
+          214
+        ]
+      },
+      {
+        "id": 406,
+        "name": "Ocean Palace Side Rooms",
+        "mageLoadCommands": 2,
+        "allBattleCommands": 6,
+        "otherEnemyIds": [
+          88,
+          89,
+          213,
+          214,
+          82
+        ]
+      },
+      {
+        "id": 407,
+        "name": "Ocean Palace Forward Area",
+        "mageLoadCommands": 4,
+        "allBattleCommands": 6,
+        "otherEnemyIds": [
+          213,
+          214
+        ]
+      },
+      {
+        "id": 409,
+        "name": "Ocean Palace Grand Stairwell",
+        "mageLoadCommands": 2,
+        "allBattleCommands": 4,
+        "otherEnemyIds": [
+          109,
+          112,
+          6,
+          151
+        ]
+      },
+      {
+        "id": 411,
+        "name": "Ocean Palace Southern Access Lift",
+        "mageLoadCommands": 1,
+        "allBattleCommands": 1,
+        "otherEnemyIds": [
+          214,
+          82
+        ]
+      },
+      {
+        "id": 416,
+        "name": "Ocean Palace",
+        "mageLoadCommands": 2,
+        "allBattleCommands": 1,
+        "otherEnemyIds": [
+          88,
+          89,
+          109,
+          112,
+          82,
+          213,
+          214
+        ]
+      }
+    ],
+    "fieldExits": [
+      {
+        "from": 404,
+        "to": 405,
+        "offset": 2430709,
+        "sourceTile": [
+          7,
+          30
+        ],
+        "destinationTile": [
+          24,
+          5
+        ],
+        "flags": 5
+      },
+      {
+        "from": 405,
+        "to": 404,
+        "offset": 2430716,
+        "sourceTile": [
+          23,
+          4
+        ],
+        "destinationTile": [
+          8,
+          28
+        ],
+        "flags": 4
+      },
+      {
+        "from": 405,
+        "to": 406,
+        "offset": 2430723,
+        "sourceTile": [
+          35,
+          9
+        ],
+        "destinationTile": [
+          11,
+          16
+        ],
+        "flags": 7
+      },
+      {
+        "from": 405,
+        "to": 406,
+        "offset": 2430730,
+        "sourceTile": [
+          47,
+          24
+        ],
+        "destinationTile": [
+          34,
+          12
+        ],
+        "flags": 11
+      },
+      {
+        "from": 405,
+        "to": 407,
+        "offset": 2430737,
+        "sourceTile": [
+          35,
+          42
+        ],
+        "destinationTile": [
+          33,
+          23
+        ],
+        "flags": 3
+      },
+      {
+        "from": 405,
+        "to": 408,
+        "offset": 2430744,
+        "sourceTile": [
+          23,
+          47
+        ],
+        "destinationTile": [
+          40,
+          5
+        ],
+        "flags": 5
+      },
+      {
+        "from": 405,
+        "to": 407,
+        "offset": 2430751,
+        "sourceTile": [
+          11,
+          42
+        ],
+        "destinationTile": [
+          14,
+          23
+        ],
+        "flags": 2
+      },
+      {
+        "from": 405,
+        "to": 406,
+        "offset": 2430758,
+        "sourceTile": [
+          0,
+          24
+        ],
+        "destinationTile": [
+          20,
+          53
+        ],
+        "flags": 2
+      },
+      {
+        "from": 405,
+        "to": 406,
+        "offset": 2430765,
+        "sourceTile": [
+          12,
+          8
+        ],
+        "destinationTile": [
+          44,
+          56
+        ],
+        "flags": 6
+      },
+      {
+        "from": 406,
+        "to": 405,
+        "offset": 2430772,
+        "sourceTile": [
+          9,
+          18
+        ],
+        "destinationTile": [
+          34,
+          9
+        ],
+        "flags": 1
+      },
+      {
+        "from": 406,
+        "to": 405,
+        "offset": 2430779,
+        "sourceTile": [
+          32,
+          12
+        ],
+        "destinationTile": [
+          45,
+          25
+        ],
+        "flags": 10
+      },
+      {
+        "from": 406,
+        "to": 405,
+        "offset": 2430786,
+        "sourceTile": [
+          22,
+          52
+        ],
+        "destinationTile": [
+          1,
+          25
+        ],
+        "flags": 11
+      },
+      {
+        "from": 406,
+        "to": 405,
+        "offset": 2430793,
+        "sourceTile": [
+          44,
+          59
+        ],
+        "destinationTile": [
+          13,
+          10
+        ],
+        "flags": 11
+      },
+      {
+        "from": 406,
+        "to": 406,
+        "offset": 2430800,
+        "sourceTile": [
+          21,
+          17
+        ],
+        "destinationTile": [
+          35,
+          11
+        ],
+        "flags": 11
+      },
+      {
+        "from": 406,
+        "to": 406,
+        "offset": 2430807,
+        "sourceTile": [
+          33,
+          9
+        ],
+        "destinationTile": [
+          21,
+          15
+        ],
+        "flags": 6
+      },
+      {
+        "from": 406,
+        "to": 406,
+        "offset": 2430814,
+        "sourceTile": [
+          20,
+          50
+        ],
+        "destinationTile": [
+          34,
+          57
+        ],
+        "flags": 7
+      },
+      {
+        "from": 406,
+        "to": 406,
+        "offset": 2430821,
+        "sourceTile": [
+          32,
+          58
+        ],
+        "destinationTile": [
+          19,
+          52
+        ],
+        "flags": 10
+      },
+      {
+        "from": 406,
+        "to": 412,
+        "offset": 2430828,
+        "sourceTile": [
+          38,
+          38
+        ],
+        "destinationTile": [
+          29,
+          13
+        ],
+        "flags": 5
+      },
+      {
+        "from": 406,
+        "to": 412,
+        "offset": 2430835,
+        "sourceTile": [
+          15,
+          38
+        ],
+        "destinationTile": [
+          5,
+          13
+        ],
+        "flags": 5
+      },
+      {
+        "from": 407,
+        "to": 405,
+        "offset": 2430842,
+        "sourceTile": [
+          31,
+          22
+        ],
+        "destinationTile": [
+          35,
+          40
+        ],
+        "flags": 4
+      },
+      {
+        "from": 407,
+        "to": 405,
+        "offset": 2430849,
+        "sourceTile": [
+          15,
+          22
+        ],
+        "destinationTile": [
+          13,
+          40
+        ],
+        "flags": 4
+      },
+      {
+        "from": 408,
+        "to": 405,
+        "offset": 2430856,
+        "sourceTile": [
+          39,
+          4
+        ],
+        "destinationTile": [
+          24,
+          45
+        ],
+        "flags": 4
+      },
+      {
+        "from": 408,
+        "to": 409,
+        "offset": 2430870,
+        "sourceTile": [
+          26,
+          15
+        ],
+        "destinationTile": [
+          10,
+          2
+        ],
+        "flags": 2
+      },
+      {
+        "from": 409,
+        "to": 408,
+        "offset": 2430877,
+        "sourceTile": [
+          10,
+          1
+        ],
+        "destinationTile": [
+          28,
+          14
+        ],
+        "flags": 3
+      },
+      {
+        "from": 409,
+        "to": 410,
+        "offset": 2430884,
+        "sourceTile": [
+          18,
+          122
+        ],
+        "destinationTile": [
+          22,
+          2
+        ],
+        "flags": 2
+      },
+      {
+        "from": 410,
+        "to": 409,
+        "offset": 2430891,
+        "sourceTile": [
+          22,
+          1
+        ],
+        "destinationTile": [
+          19,
+          121
+        ],
+        "flags": 3
+      },
+      {
+        "from": 410,
+        "to": 411,
+        "offset": 2430898,
+        "sourceTile": [
+          7,
+          14
+        ],
+        "destinationTile": [
+          8,
+          13
+        ],
+        "flags": 5
+      },
+      {
+        "from": 411,
+        "to": 410,
+        "offset": 2430905,
+        "sourceTile": [
+          7,
+          12
+        ],
+        "destinationTile": [
+          8,
+          12
+        ],
+        "flags": 4
+      },
+      {
+        "from": 412,
+        "to": 406,
+        "offset": 2430919,
+        "sourceTile": [
+          28,
+          12
+        ],
+        "destinationTile": [
+          39,
+          36
+        ],
+        "flags": 4
+      },
+      {
+        "from": 412,
+        "to": 406,
+        "offset": 2430926,
+        "sourceTile": [
+          4,
+          12
+        ],
+        "destinationTile": [
+          16,
+          36
+        ],
+        "flags": 4
+      }
+    ],
+    "eventTransitions": [
+      {
+        "from": 398,
+        "to": 416,
+        "bodyOffset": 746,
+        "opcode": 223,
+        "args": [
+          416,
+          55,
+          16
+        ]
+      },
+      {
+        "from": 409,
+        "to": 415,
+        "bodyOffset": 2742,
+        "opcode": 223,
+        "args": [
+          415,
+          0,
+          0
+        ]
+      },
+      {
+        "from": 411,
+        "to": 416,
+        "bodyOffset": 793,
+        "opcode": 223,
+        "args": [
+          416,
+          7,
+          14
+        ]
+      },
+      {
+        "from": 415,
+        "to": 409,
+        "bodyOffset": 2822,
+        "opcode": 225,
+        "args": [
+          1433,
+          19,
+          121
+        ]
+      },
+      {
+        "from": 416,
+        "to": 399,
+        "bodyOffset": 1268,
+        "opcode": 223,
+        "args": [
+          1935,
+          8,
+          8
+        ]
+      },
+      {
+        "from": 416,
+        "to": 418,
+        "bodyOffset": 1427,
+        "opcode": 223,
+        "args": [
+          418,
+          7,
+          16
+        ]
+      }
+    ],
+    "extraEndingUse": "Location398, What the Prophet Seeks ending, enters416 through nativeDF at body746; preserve this shared event branch too.",
+    "interpretation": "416 is a real continuation from Southern Access Lift411 (DF at793), and is also reused by the Prophet ending. Do not call it an unused duplicate. This is authored-byte/connectivity evidence, not a live route test."
+  },
+  "coLoads": [
+    {
+      "location": 405,
+      "parts": [
+        {
+          "gfx": 104,
+          "rawBytes": 2016,
+          "streamed": true,
+          "eventGraphicsHeapBytes": 0
+        },
+        {
+          "gfx": 90,
+          "rawBytes": 5824,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 5824
+        }
+      ],
+      "eventGraphicsHeapBytes": 5824,
+      "scope": "Event graphics union only, excluding common loader and party allocations; no runtime heap measurement in this audit"
+    },
+    {
+      "location": 406,
+      "parts": [
+        {
+          "gfx": 100,
+          "rawBytes": 3680,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 3680
+        },
+        {
+          "gfx": 104,
+          "rawBytes": 2016,
+          "streamed": true,
+          "eventGraphicsHeapBytes": 0
+        },
+        {
+          "gfx": 90,
+          "rawBytes": 5824,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 5824
+        },
+        {
+          "gfx": 200,
+          "rawBytes": 320,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 320
+        }
+      ],
+      "eventGraphicsHeapBytes": 9824,
+      "scope": "Event graphics union only, excluding common loader and party allocations; no runtime heap measurement in this audit"
+    },
+    {
+      "location": 407,
+      "parts": [
+        {
+          "gfx": 104,
+          "rawBytes": 2016,
+          "streamed": true,
+          "eventGraphicsHeapBytes": 0
+        },
+        {
+          "gfx": 90,
+          "rawBytes": 5824,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 5824
+        },
+        {
+          "gfx": 200,
+          "rawBytes": 320,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 320
+        }
+      ],
+      "eventGraphicsHeapBytes": 6144,
+      "scope": "Event graphics union only, excluding common loader and party allocations; no runtime heap measurement in this audit"
+    },
+    {
+      "location": 409,
+      "parts": [
+        {
+          "gfx": 90,
+          "rawBytes": 5824,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 5824
+        },
+        {
+          "gfx": 109,
+          "rawBytes": 8192,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 8192
+        },
+        {
+          "gfx": 84,
+          "rawBytes": 9248,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 9248
+        },
+        {
+          "gfx": 164,
+          "rawBytes": 8512,
+          "streamed": true,
+          "eventGraphicsHeapBytes": 0
+        },
+        {
+          "gfx": 44,
+          "rawBytes": 1184,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 1184
+        }
+      ],
+      "eventGraphicsHeapBytes": 24448,
+      "scope": "Event graphics union only, excluding common loader and party allocations; no runtime heap measurement in this audit"
+    },
+    {
+      "location": 411,
+      "parts": [
+        {
+          "gfx": 104,
+          "rawBytes": 2016,
+          "streamed": true,
+          "eventGraphicsHeapBytes": 0
+        },
+        {
+          "gfx": 90,
+          "rawBytes": 5824,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 5824
+        },
+        {
+          "gfx": 46,
+          "rawBytes": 256,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 256
+        }
+      ],
+      "eventGraphicsHeapBytes": 6080,
+      "scope": "Event graphics union only, excluding common loader and party allocations; no runtime heap measurement in this audit"
+    },
+    {
+      "location": 416,
+      "parts": [
+        {
+          "gfx": 100,
+          "rawBytes": 3680,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 3680
+        },
+        {
+          "gfx": 109,
+          "rawBytes": 8192,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 8192
+        },
+        {
+          "gfx": 90,
+          "rawBytes": 5824,
+          "streamed": false,
+          "eventGraphicsHeapBytes": 5824
+        },
+        {
+          "gfx": 104,
+          "rawBytes": 2016,
+          "streamed": true,
+          "eventGraphicsHeapBytes": 0
+        }
+      ],
+      "eventGraphicsHeapBytes": 17696,
+      "scope": "Event graphics union only, excluding common loader and party allocations; no runtime heap measurement in this audit"
+    }
+  ],
+  "coverageChecks": {
+    "acceptedManifestBank90": false,
+    "activeMageRasterKeys": [],
+    "currentGraphicsAssemblyPaletteAllOriginal": true,
+    "existingPackageSearch": [
+      "Only prior late-cast and frog-guard coverage inventories mention gfx90/asm47",
+      "future-sewer-creatures scene-budget-audit mentions the Mage only as a co-loaded actor",
+      "No gfx90 entry found in any active/frozen generated packet"
+    ],
+    "excludedAssignments": [
+      "Guard gfx78 assigned",
+      "Imp/Roly/Rider gfx86 assigned",
+      "Frog Guards gfx98 frozen",
+      "Sir Sludge gfx82 frozen",
+      "Rejected Shrek/Pinocchio/Sky Drake image requests excluded"
+    ]
+  },
+  "nextIfApproved": [
+    "Generate coherent base and all action roles using actual built-in imagegen; preserve source PNGs/prompts/provenance.",
+    "Review native-size opposite gait contacts, all28 pose roles and white arcs before freezing.",
+    "Prove four-cell source coverage, all28 native uploads/pixels, all28 original timed lists, original palace mixed encounters and the416/ending branch ownership.",
+    "Freeze an inactive source packet with both original/current growth baselines; root activates and verifies integrated independent cores."
+  ]
+}

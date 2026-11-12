@@ -1,0 +1,7150 @@
+{
+  "baselineSha256": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+  "counts": {
+    "recordsAttempted": 512,
+    "recordsDecoded": 504,
+    "locations": 25,
+    "loads": 29,
+    "objects": 29
+  },
+  "scope": "Static decode and text/resource ownership, not runtime visibility or connected-route proof.",
+  "nativePaletteCommand": {
+    "opcode": 51,
+    "meaning": "Selects hardware OBJ palette row; copies existing source palette from object $1400,X. Values6/7 do not mean source palette IDs6/7.",
+    "source": "C0:3711–3756; local ct_disassembly/bank_C0.asm",
+    "sites": [
+      {
+        "location": 38,
+        "object": 15,
+        "bodyOffset": 1060,
+        "slot": 6,
+        "sourcePalette": 9
+      },
+      {
+        "location": 80,
+        "object": 40,
+        "bodyOffset": 3160,
+        "slot": 7,
+        "sourcePalette": 133
+      }
+    ]
+  },
+  "decodeExceptions": [
+    {
+      "location": 448,
+      "eventId": 231,
+      "address": 16363497,
+      "offset": 3780585,
+      "referenceName": "corrupt",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 231,
+      "originalAddress": 16363497,
+      "originalOffset": 3780585,
+      "originalError": "Invalid LZ back-reference",
+      "exceptionScope": "This record is not decoded; the local CTViewer catalogue calls it corrupt. Both current/original packet errors and pointer identity are retained. No reachability or absence-of-load claim is inferred."
+    },
+    {
+      "location": 452,
+      "eventId": 232,
+      "address": 16363497,
+      "offset": 3780585,
+      "referenceName": "corrupt",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 232,
+      "originalAddress": 16363497,
+      "originalOffset": 3780585,
+      "originalError": "Invalid LZ back-reference",
+      "exceptionScope": "This record is not decoded; the local CTViewer catalogue calls it corrupt. Both current/original packet errors and pointer identity are retained. No reachability or absence-of-load claim is inferred."
+    },
+    {
+      "location": 453,
+      "eventId": 233,
+      "address": 16363497,
+      "offset": 3780585,
+      "referenceName": "corrupt",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 233,
+      "originalAddress": 16363497,
+      "originalOffset": 3780585,
+      "originalError": "Invalid LZ back-reference",
+      "exceptionScope": "This record is not decoded; the local CTViewer catalogue calls it corrupt. Both current/original packet errors and pointer identity are retained. No reachability or absence-of-load claim is inferred."
+    },
+    {
+      "location": 454,
+      "eventId": 234,
+      "address": 16363497,
+      "offset": 3780585,
+      "referenceName": "corrupt",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 234,
+      "originalAddress": 16363497,
+      "originalOffset": 3780585,
+      "originalError": "Invalid LZ back-reference",
+      "exceptionScope": "This record is not decoded; the local CTViewer catalogue calls it corrupt. Both current/original packet errors and pointer identity are retained. No reachability or absence-of-load claim is inferred."
+    },
+    {
+      "location": 455,
+      "eventId": 235,
+      "address": 16363497,
+      "offset": 3780585,
+      "referenceName": "corrupt",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 235,
+      "originalAddress": 16363497,
+      "originalOffset": 3780585,
+      "originalError": "Invalid LZ back-reference",
+      "exceptionScope": "This record is not decoded; the local CTViewer catalogue calls it corrupt. Both current/original packet errors and pointer identity are retained. No reachability or absence-of-load claim is inferred."
+    },
+    {
+      "location": 461,
+      "eventId": 320,
+      "address": 16448160,
+      "offset": 3865248,
+      "referenceName": "empty",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 320,
+      "originalAddress": 16448160,
+      "originalOffset": 3865248,
+      "originalError": "Invalid LZ back-reference",
+      "exceptionScope": "This record is not decoded; the local CTViewer catalogue calls it empty. Both current/original packet errors and pointer identity are retained. No reachability or absence-of-load claim is inferred."
+    },
+    {
+      "location": 462,
+      "eventId": 321,
+      "address": 16448160,
+      "offset": 3865248,
+      "referenceName": "empty",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 321,
+      "originalAddress": 16448160,
+      "originalOffset": 3865248,
+      "originalError": "Invalid LZ back-reference",
+      "exceptionScope": "This record is not decoded; the local CTViewer catalogue calls it empty. Both current/original packet errors and pointer identity are retained. No reachability or absence-of-load claim is inferred."
+    },
+    {
+      "location": 463,
+      "eventId": 322,
+      "address": 16448160,
+      "offset": 3865248,
+      "referenceName": "empty",
+      "error": "Invalid LZ back-reference",
+      "originalEventId": 322,
+      "originalAddress": 16448160,
+      "originalOffset": 3865248,
+      "originalError": "Invalid LZ back-reference",
+      "exceptionScope": "This record is not decoded; the local CTViewer catalogue calls it empty. Both current/original packet errors and pointer identity are retained. No reachability or absence-of-load claim is inferred."
+    }
+  ],
+  "dialogueFollowup": {
+    "status": "Recorded for root later dialogue pass; no wording changed",
+    "reason": "One shared body is called BAKER in adapted exhibit8, TABAN in unchanged family/ending scenes, and is also Tata father/fair host/credit-room resident. Art must not silently resolve distinct story identities.",
+    "records": [
+      {
+        "location": 4,
+        "object": 8,
+        "npc": [
+          39
+        ],
+        "stringId": 9,
+        "stringTableAddress": 16162816,
+        "romTextOffset": 3580497,
+        "text": "TABAN: Hey, {Donkey}!"
+      },
+      {
+        "location": 4,
+        "object": 8,
+        "npc": [
+          39
+        ],
+        "stringId": 7,
+        "stringTableAddress": 16162816,
+        "romTextOffset": 3580443,
+        "text": "TABAN: You're {Donkey}'s friend right?"
+      },
+      {
+        "location": 4,
+        "object": 8,
+        "npc": [
+          39
+        ],
+        "stringId": 10,
+        "stringTableAddress": 16162816,
+        "romTextOffset": 3580512,
+        "text": "TABAN: I'd like to see more of her.{br}I've been making items she'd like."
+      },
+      {
+        "location": 4,
+        "object": 8,
+        "npc": [
+          39
+        ],
+        "stringId": 11,
+        "stringTableAddress": 16162816,
+        "romTextOffset": 3580568,
+        "text": "TABAN: Oh you're just in time."
+      },
+      {
+        "location": 4,
+        "object": 8,
+        "npc": [
+          39
+        ],
+        "stringId": 12,
+        "stringTableAddress": 16162816,
+        "romTextOffset": 3580592,
+        "text": "TABAN: It's my finest work!{br}The ultimate in defense for my,{br}daughter!"
+      },
+      {
+        "location": 4,
+        "object": 8,
+        "npc": [
+          39
+        ],
+        "stringId": 30,
+        "stringTableAddress": 16162816,
+        "romTextOffset": 3581454,
+        "text": "TABAN: Take a look {Donkey}!{br}I borrowed a bit of the Sun Stone to{br}create something nifty!"
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 111,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3745502,
+        "text": "BAKER: What do we do?"
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 84,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3744715,
+        "text": "BAKER: It worked!{br}Precisely as we intended!{br}Please ignore my surprise."
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 82,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3744599,
+        "text": "BAKER: A volunteer!{br}Shrek, the platform is reinforced."
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 83,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3744640,
+        "text": "BAKER: We tested it on an onion.{br}It arrived in one piece.{br}Mostly the same piece.{page}Please step up!"
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 79,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3744441,
+        "text": "BAKER: Step up! Donkey presents{br}a machine that will make{br}walking almost unnecessary!"
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 80,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3744508,
+        "text": "BAKER: Start on this platform..."
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 81,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3744534,
+        "text": "BAKER: ...and arrive over there!{br}Donkey built it. I supplied{br}the heatproof parts."
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 94,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3745023,
+        "text": "BAKER: Our next volunteer!{br}Please keep all royal jewelry{br}inside the machine."
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 98,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3745153,
+        "text": "BAKER: A round of applause{br}when she returns, please!"
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 99,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3745195,
+        "text": "BAKER: Power is ready!"
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 106,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3745337,
+        "text": "BAKER: Donkey! Where is she?"
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 108,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3745360,
+        "text": "BAKER: The show is over!{br}Please leave in an orderly panic."
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 109,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3745401,
+        "text": "BAKER: That was not a landing!{br}Where did you send her?"
+      },
+      {
+        "location": 8,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 114,
+        "stringTableAddress": 16327086,
+        "romTextOffset": 3745569,
+        "text": "BAKER: You are going after her?{br}Then hold on to that pendant."
+      },
+      {
+        "location": 9,
+        "object": 8,
+        "npc": [
+          39
+        ],
+        "stringId": 5,
+        "stringTableAddress": 16162816,
+        "romTextOffset": 3580398,
+        "text": "TABAN: Here's what we earned today!"
+      },
+      {
+        "location": 9,
+        "object": 8,
+        "npc": [
+          39
+        ],
+        "stringId": 6,
+        "stringTableAddress": 16162816,
+        "romTextOffset": 3580424,
+        "text": "LARA: You're so thoughtful."
+      },
+      {
+        "location": 80,
+        "object": 40,
+        "npc": [
+          39
+        ],
+        "stringId": 60,
+        "stringTableAddress": 16167472,
+        "romTextOffset": 3586971,
+        "text": "TABAN: Yum!{br}Lemonade sure tastes great{br}outdoors!"
+      },
+      {
+        "location": 80,
+        "object": 40,
+        "npc": [
+          39
+        ],
+        "stringId": 61,
+        "stringTableAddress": 16167472,
+        "romTextOffset": 3587008,
+        "text": "TABAN: {Shrek}, have a sip!{br}You're the Hero today."
+      },
+      {
+        "location": 81,
+        "object": 10,
+        "npc": [
+          39
+        ],
+        "stringId": 139,
+        "stringTableAddress": 16167472,
+        "romTextOffset": 3589880,
+        "text": "TABAN: Phew!{br}Made it just in time!{br}Shall I fire one off?{delay 10}{instant}KING: Uh, no Taban.{br}Actually, I could really use your help…{delay 6}{delay 0}"
+      },
+      {
+        "location": 338,
+        "object": 9,
+        "npc": [
+          39
+        ],
+        "stringId": 26,
+        "stringTableAddress": 16729184,
+        "romTextOffset": 4148177,
+        "text": "Keita Eto: It'll cost you 10,000,000G to{br}fix a broken map!"
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "location": 4,
+      "name": "Lucca's Workshop",
+      "eventId": 26,
+      "packetOffset": 1769916,
+      "packetSha256": "31e24d0b64e6f11b4b0517efb80d753ace1b2a3b40a5f913cd124b25cd3ff512",
+      "originalPacketUnchanged": true,
+      "role": "Workshop mentor/craftsman and equipment gifts; unchanged TABAN/daughter wording remains.",
+      "targetObjects": [
+        {
+          "object": 8,
+          "npcs": [
+            39
+          ],
+          "sourceLoadOffsets": [
+            939
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 939,
+              "endExclusive": 971
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 971,
+              "endExclusive": 1075
+            },
+            {
+              "aliases": [
+                2
+              ],
+              "start": 1075,
+              "endExclusive": 1076
+            },
+            {
+              "aliases": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 1076,
+              "endExclusive": 1095
+            }
+          ],
+          "actions": [
+            {
+              "offset": 946,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                10,
+                12
+              ],
+              "length": 3
+            },
+            {
+              "offset": 951,
+              "opcode": 145,
+              "name": "Drawing Off (corrected from reference decoder label)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 957,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                2048,
+                2800
+              ],
+              "length": 5
+            },
+            {
+              "offset": 962,
+              "opcode": 145,
+              "name": "Drawing Off (corrected from reference decoder label)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 968,
+              "opcode": 145,
+              "name": "Drawing Off (corrected from reference decoder label)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1086,
+              "opcode": 144,
+              "name": "Drawing On",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1089,
+              "opcode": 146,
+              "name": "Vector Move",
+              "args": [
+                64,
+                48
+              ],
+              "length": 3
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        39,
+        38,
+        92,
+        213,
+        112
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [
+        {
+          "offset": 669,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            84,
+            0,
+            128,
+            248,
+            4
+          ],
+          "length": 6
+        },
+        {
+          "offset": 778,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            84,
+            0,
+            128,
+            143,
+            1
+          ],
+          "length": 6
+        }
+      ],
+      "battleCommands": [],
+      "transitions": [
+        {
+          "offset": 573,
+          "opcode": 225,
+          "name": "Change Location",
+          "args": [
+            4618,
+            25,
+            9
+          ],
+          "length": 5
+        },
+        {
+          "offset": 913,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            1008,
+            43,
+            55
+          ],
+          "length": 5
+        },
+        {
+          "offset": 1453,
+          "opcode": 225,
+          "name": "Change Location",
+          "args": [
+            4618,
+            25,
+            9
+          ],
+          "length": 5
+        }
+      ]
+    },
+    {
+      "location": 8,
+      "name": "Telepod Exhibit",
+      "eventId": 28,
+      "packetOffset": 1862552,
+      "packetSha256": "7bccb9bac6271a3ced08d5f6e1352b89f640f95dbc3a89251305dae3978c4acf",
+      "originalPacketUnchanged": false,
+      "role": "Required festival demonstration: current BAKER supplies Donkey heatproof parts, operates machinery and reacts to Fiona disappearing.",
+      "targetObjects": [
+        {
+          "object": 10,
+          "npcs": [
+            39
+          ],
+          "sourceLoadOffsets": [
+            1403
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 1403,
+              "endExclusive": 1425
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 1425,
+              "endExclusive": 1453
+            },
+            {
+              "aliases": [
+                2
+              ],
+              "start": 1453,
+              "endExclusive": 1454
+            },
+            {
+              "aliases": [
+                3
+              ],
+              "start": 1454,
+              "endExclusive": 1482
+            },
+            {
+              "aliases": [
+                4
+              ],
+              "start": 1482,
+              "endExclusive": 1490
+            },
+            {
+              "aliases": [
+                5
+              ],
+              "start": 1490,
+              "endExclusive": 1504
+            },
+            {
+              "aliases": [
+                6
+              ],
+              "start": 1504,
+              "endExclusive": 1522
+            },
+            {
+              "aliases": [
+                7
+              ],
+              "start": 1522,
+              "endExclusive": 1530
+            },
+            {
+              "aliases": [
+                8
+              ],
+              "start": 1530,
+              "endExclusive": 1549
+            },
+            {
+              "aliases": [
+                9
+              ],
+              "start": 1549,
+              "endExclusive": 1557
+            },
+            {
+              "aliases": [
+                10
+              ],
+              "start": 1557,
+              "endExclusive": 1563
+            },
+            {
+              "aliases": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 1563,
+              "endExclusive": 1568
+            }
+          ],
+          "actions": [
+            {
+              "offset": 1405,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                6,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1408,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1456,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                5,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1459,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                29
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1463,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                64
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1465,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                11,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1468,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                29
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1475,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1477,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                6,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1480,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1482,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                2,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1485,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                29
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1493,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                6,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1496,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                29
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1500,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1504,
+              "opcode": 174,
+              "name": "Reset Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1505,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                6,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1508,
+              "opcode": 15,
+              "name": "Set NPC Facing (up)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1511,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1517,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1519,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1522,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                28
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1524,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                64
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1530,
+              "opcode": 174,
+              "name": "Reset Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1531,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                8,
+                5
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1534,
+              "opcode": 15,
+              "name": "Set NPC Facing (up)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1535,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1537,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                30
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1541,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1544,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                29
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1549,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                9,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1552,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                29
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1557,
+              "opcode": 146,
+              "name": "Vector Move",
+              "args": [
+                128,
+                6
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1563,
+              "opcode": 174,
+              "name": "Reset Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1564,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                6,
+                7
+              ],
+              "length": 3
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 84,
+          "header": [
+            226,
+            11,
+            133,
+            8,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 82,
+          "header": [
+            9,
+            7,
+            133,
+            7,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        39,
+        99,
+        113,
+        112,
+        86,
+        80,
+        84,
+        82,
+        151,
+        87,
+        88
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [
+        {
+          "offset": 1273,
+          "opcode": 136,
+          "name": "Mem Copy",
+          "args": [
+            32,
+            30,
+            8
+          ],
+          "length": 4
+        },
+        {
+          "offset": 3068,
+          "opcode": 136,
+          "name": "Mem Copy",
+          "args": [
+            141,
+            8,
+            0,
+            53065403354340
+          ],
+          "length": 10
+        },
+        {
+          "offset": 3078,
+          "opcode": 136,
+          "name": "Mem Copy",
+          "args": [
+            32,
+            30,
+            4
+          ],
+          "length": 4
+        },
+        {
+          "offset": 3083,
+          "opcode": 136,
+          "name": "Mem Copy",
+          "args": [
+            0
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3086,
+          "opcode": 136,
+          "name": "Mem Copy",
+          "args": [
+            129,
+            32,
+            0,
+            2.0619329270711596e+71
+          ],
+          "length": 34
+        }
+      ],
+      "battleCommands": [],
+      "transitions": [
+        {
+          "offset": 1685,
+          "opcode": 221,
+          "name": "Change Location",
+          "args": [
+            625,
+            8,
+            7
+          ],
+          "length": 5
+        },
+        {
+          "offset": 2928,
+          "opcode": 221,
+          "name": "Change Location",
+          "args": [
+            625,
+            8,
+            7
+          ],
+          "length": 5
+        },
+        {
+          "offset": 2941,
+          "opcode": 221,
+          "name": "Change Location",
+          "args": [
+            976,
+            14,
+            13
+          ],
+          "length": 5
+        },
+        {
+          "offset": 3047,
+          "opcode": 222,
+          "name": "Change Location",
+          "args": [
+            467,
+            7,
+            10
+          ],
+          "length": 5
+        }
+      ]
+    },
+    {
+      "location": 9,
+      "name": "Lara's Room",
+      "eventId": 29,
+      "packetOffset": 1774959,
+      "packetSha256": "d862132cc0751e5c8d617e413a743b09ea8e7f26a82c5b2c8706a7d7dd83d617",
+      "originalPacketUnchanged": true,
+      "role": "Family-room vignette; unchanged TABAN/LARA earnings exchange remains.",
+      "targetObjects": [
+        {
+          "object": 8,
+          "npcs": [
+            39
+          ],
+          "sourceLoadOffsets": [
+            365
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 365,
+              "endExclusive": 415
+            },
+            {
+              "aliases": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 415,
+              "endExclusive": 416
+            }
+          ],
+          "actions": [
+            {
+              "offset": 367,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                8,
+                34
+              ],
+              "length": 3
+            },
+            {
+              "offset": 370,
+              "opcode": 145,
+              "name": "Drawing Off (corrected from reference decoder label)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 384,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 386,
+              "opcode": 144,
+              "name": "Drawing On",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 391,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                12,
+                30
+              ],
+              "length": 3
+            },
+            {
+              "offset": 394,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                9,
+                26
+              ],
+              "length": 3
+            },
+            {
+              "offset": 404,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                12,
+                30
+              ],
+              "length": 3
+            },
+            {
+              "offset": 407,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                11,
+                31
+              ],
+              "length": 3
+            },
+            {
+              "offset": 410,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                35
+              ],
+              "length": 3
+            },
+            {
+              "offset": 413,
+              "opcode": 145,
+              "name": "Drawing Off (corrected from reference decoder label)",
+              "args": [],
+              "length": 1
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        39,
+        213
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 23,
+      "name": "Queen's Chamber (Present)",
+      "eventId": 237,
+      "packetOffset": 3782870,
+      "packetSha256": "0e31ff80a31d96bc8cb74a8e2e9ea45f8dce60af603cc8f02f84db38f43bd234",
+      "originalPacketUnchanged": false,
+      "role": "Royal athletics tutor in Fiona court dialogue.",
+      "targetObjects": [
+        {
+          "object": 12,
+          "npcs": [
+            25
+          ],
+          "sourceLoadOffsets": [
+            615
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 615,
+              "endExclusive": 622
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 622,
+              "endExclusive": 633
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 633,
+              "endExclusive": 634
+            }
+          ],
+          "actions": [
+            {
+              "offset": 617,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                42,
+                48
+              ],
+              "length": 3
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 25,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        100,
+        17,
+        25,
+        23
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 32,
+      "name": "Zenan Bridge (Present)",
+      "eventId": 413,
+      "packetOffset": 3731226,
+      "packetSha256": "f4ef49d0c63fb54af3d50764cd814316bc0664053184aafa9eab51d135c0d9f2",
+      "originalPacketUnchanged": false,
+      "role": "Two moving ticket attendants; both independent objects must remain.",
+      "targetObjects": [
+        {
+          "object": 14,
+          "npcs": [
+            25
+          ],
+          "sourceLoadOffsets": [
+            787
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 787,
+              "endExclusive": 805
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 805,
+              "endExclusive": 810
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 810,
+              "endExclusive": 811
+            }
+          ],
+          "actions": [
+            {
+              "offset": 789,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                51,
+                9
+              ],
+              "length": 3
+            },
+            {
+              "offset": 792,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 797,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                64,
+                9
+              ],
+              "length": 3
+            },
+            {
+              "offset": 800,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                0,
+                9
+              ],
+              "length": 3
+            },
+            {
+              "offset": 805,
+              "opcode": 169,
+              "name": "NPC Facing",
+              "args": [
+                0
+              ],
+              "length": 2
+            }
+          ]
+        },
+        {
+          "object": 15,
+          "npcs": [
+            25
+          ],
+          "sourceLoadOffsets": [
+            811
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 811,
+              "endExclusive": 829
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 829,
+              "endExclusive": 834
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 834,
+              "endExclusive": 835
+            }
+          ],
+          "actions": [
+            {
+              "offset": 813,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                3,
+                8
+              ],
+              "length": 3
+            },
+            {
+              "offset": 816,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 821,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                64,
+                8
+              ],
+              "length": 3
+            },
+            {
+              "offset": 824,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                0,
+                8
+              ],
+              "length": 3
+            },
+            {
+              "offset": 829,
+              "opcode": 169,
+              "name": "NPC Facing",
+              "args": [
+                0
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 22,
+          "header": [
+            11,
+            7,
+            9,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 25,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 192,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        17,
+        14,
+        22,
+        25,
+        192
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 33,
+      "name": "Medina Elder's House 1F",
+      "eventId": 414,
+      "packetOffset": 3987886,
+      "packetSha256": "3225550a23f7d6af096094e38b74e9c4cdd295e404e889256037f0f400cba1cc",
+      "originalPacketUnchanged": false,
+      "role": "Medina–Duloc ferry builder/neighbor.",
+      "targetObjects": [
+        {
+          "object": 10,
+          "npcs": [
+            52
+          ],
+          "sourceLoadOffsets": [
+            613
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 608,
+              "endExclusive": 620
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 620,
+              "endExclusive": 625
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 625,
+              "endExclusive": 626
+            }
+          ],
+          "actions": [
+            {
+              "offset": 615,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                17,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 620,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 624,
+              "opcode": 174,
+              "name": "Reset Animation",
+              "args": [],
+              "length": 1
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 52,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        78,
+        52,
+        112
+      ],
+      "allEnemyIds": [
+        166,
+        72,
+        13
+      ],
+      "paletteCommands": [
+        {
+          "offset": 483,
+          "opcode": 136,
+          "name": "Mem Copy",
+          "args": [
+            129,
+            24,
+            0,
+            7.69063553542748e+51
+          ],
+          "length": 26
+        }
+      ],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 38,
+      "name": "Guardia Throneroom (Ending: Legendary Hero)",
+      "eventId": 419,
+      "packetOffset": 3939402,
+      "packetSha256": "02a4baa6e657b87182493ae530a007683b42f648a1217a817006d74bca057eb9",
+      "originalPacketUnchanged": true,
+      "role": "Conditional cheering court extra in Legendary Hero ending; hardware palette slot6.",
+      "targetObjects": [
+        {
+          "object": 15,
+          "npcs": [
+            25
+          ],
+          "sourceLoadOffsets": [
+            1058
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 1058,
+              "endExclusive": 1076
+            },
+            {
+              "aliases": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 1076,
+              "endExclusive": 1078
+            }
+          ],
+          "actions": [
+            {
+              "offset": 1060,
+              "opcode": 51,
+              "name": "Change Palette",
+              "args": [
+                6
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1069,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                32,
+                27
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1072,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1076,
+              "opcode": 179,
+              "name": "Animation",
+              "args": [],
+              "length": 1
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 25,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        1,
+        3,
+        11,
+        24,
+        51,
+        4,
+        25
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [
+        {
+          "offset": 540,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            128,
+            13,
+            8,
+            59302421031869
+          ],
+          "length": 11
+        },
+        {
+          "offset": 679,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            0
+          ],
+          "length": 2
+        },
+        {
+          "offset": 706,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            1
+          ],
+          "length": 2
+        },
+        {
+          "offset": 733,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            2
+          ],
+          "length": 2
+        },
+        {
+          "offset": 757,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            3
+          ],
+          "length": 2
+        },
+        {
+          "offset": 783,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            4
+          ],
+          "length": 2
+        },
+        {
+          "offset": 808,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            4
+          ],
+          "length": 2
+        },
+        {
+          "offset": 833,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            4
+          ],
+          "length": 2
+        },
+        {
+          "offset": 858,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            4
+          ],
+          "length": 2
+        },
+        {
+          "offset": 883,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            4
+          ],
+          "length": 2
+        },
+        {
+          "offset": 908,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            4
+          ],
+          "length": 2
+        },
+        {
+          "offset": 933,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            4
+          ],
+          "length": 2
+        },
+        {
+          "offset": 958,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            4
+          ],
+          "length": 2
+        },
+        {
+          "offset": 983,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 1060,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            6
+          ],
+          "length": 2
+        }
+      ],
+      "battleCommands": [],
+      "transitions": [
+        {
+          "offset": 593,
+          "opcode": 223,
+          "name": "Change Location",
+          "args": [
+            37,
+            0,
+            0
+          ],
+          "length": 5
+        },
+        {
+          "offset": 655,
+          "opcode": 223,
+          "name": "Change Location",
+          "args": [
+            37,
+            0,
+            10
+          ],
+          "length": 5
+        }
+      ]
+    },
+    {
+      "location": 50,
+      "name": "Porre Mayor's Manor 1F (Present)",
+      "eventId": 118,
+      "packetOffset": 3676117,
+      "packetSha256": "9e12aa006bc7650c37416d035b9630dae6e847e014d1c95abd36bfdf1c166a50",
+      "originalPacketUnchanged": true,
+      "role": "Mayor/elder, greed-versus-generosity branches and Moon Stone sidequest.",
+      "targetObjects": [
+        {
+          "object": 8,
+          "npcs": [
+            25
+          ],
+          "sourceLoadOffsets": [
+            994
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 994,
+              "endExclusive": 1007
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 1007,
+              "endExclusive": 1115
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 1115,
+              "endExclusive": 1116
+            }
+          ],
+          "actions": [
+            {
+              "offset": 996,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                6016,
+                10016
+              ],
+              "length": 5
+            },
+            {
+              "offset": 1001,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                51
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1003,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1035,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1040,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1063,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                30
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1067,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1069,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                29
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1087,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                30
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1103,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1109,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1111,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                29
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 25,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 13,
+          "header": [
+            36,
+            25,
+            9,
+            16,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 191,
+          "header": [
+            226,
+            11,
+            133,
+            8,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        25,
+        13,
+        15,
+        191
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 53,
+      "name": "Snail Stop",
+      "eventId": 115,
+      "packetOffset": 3672972,
+      "packetSha256": "e1c147b2f5f60816e6858f7af0bd1fe6d0ae4c2043e142076bce0803145b852d",
+      "originalPacketUnchanged": true,
+      "role": "Standing drinker/patron at Snail Stop.",
+      "targetObjects": [
+        {
+          "object": 11,
+          "npcs": [
+            25
+          ],
+          "sourceLoadOffsets": [
+            594
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 594,
+              "endExclusive": 612
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 612,
+              "endExclusive": 614
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 614,
+              "endExclusive": 615
+            }
+          ],
+          "actions": [
+            {
+              "offset": 596,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                42,
+                56
+              ],
+              "length": 3
+            },
+            {
+              "offset": 599,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                51
+              ],
+              "length": 2
+            },
+            {
+              "offset": 602,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                23
+              ],
+              "length": 2
+            },
+            {
+              "offset": 604,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 606,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                22
+              ],
+              "length": 2
+            },
+            {
+              "offset": 608,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                16
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 22,
+          "header": [
+            11,
+            7,
+            9,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 25,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        22,
+        15,
+        25,
+        14,
+        77
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 62,
+      "name": "Choras Inn (Present)",
+      "eventId": 436,
+      "packetOffset": 3946987,
+      "packetSha256": "822c7051e0d9d8c5c03ac6cc11bc74c4651da7497b6866f19fdaa9efb9f20fa0",
+      "originalPacketUnchanged": true,
+      "role": "Seated soda-drinking carpenter; borrowing-tools sidequest.",
+      "targetObjects": [
+        {
+          "object": 11,
+          "npcs": [
+            52
+          ],
+          "sourceLoadOffsets": [
+            831
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 831,
+              "endExclusive": 845
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 845,
+              "endExclusive": 937
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 937,
+              "endExclusive": 938
+            }
+          ],
+          "actions": [
+            {
+              "offset": 833,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                3136,
+                6368
+              ],
+              "length": 5
+            },
+            {
+              "offset": 838,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                51
+              ],
+              "length": 2
+            },
+            {
+              "offset": 840,
+              "opcode": 27,
+              "name": "Set NPC Facing (left)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 841,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 881,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 885,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 905,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 912,
+              "opcode": 179,
+              "name": "Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 921,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 925,
+              "opcode": 27,
+              "name": "Set NPC Facing (left)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 926,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 22,
+          "header": [
+            11,
+            7,
+            9,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 52,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 79,
+          "header": [
+            125,
+            188,
+            133,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        22,
+        52,
+        79,
+        5,
+        17,
+        18,
+        80,
+        48,
+        150
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 65,
+      "name": "Northern Ruins Entrance",
+      "eventId": 438,
+      "packetOffset": 3948228,
+      "packetSha256": "8d76f9d7e4ff3c16b7b86cda09e466d1dc7b13d2343c81d04f7769b60619d713",
+      "originalPacketUnchanged": true,
+      "role": "Northern Ruins repair worker, staged conditional presence and exit; battle elsewhere in same packet is not this NPC becoming an enemy.",
+      "targetObjects": [
+        {
+          "object": 9,
+          "npcs": [
+            52
+          ],
+          "sourceLoadOffsets": [
+            763
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 753,
+              "endExclusive": 775
+            },
+            {
+              "aliases": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 775,
+              "endExclusive": 785
+            }
+          ],
+          "actions": [
+            {
+              "offset": 765,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                16,
+                9
+              ],
+              "length": 3
+            },
+            {
+              "offset": 768,
+              "opcode": 180,
+              "name": "Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 772,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                40
+              ],
+              "length": 2
+            },
+            {
+              "offset": 775,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                16,
+                9
+              ],
+              "length": 3
+            },
+            {
+              "offset": 778,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                16,
+                13
+              ],
+              "length": 3
+            },
+            {
+              "offset": 781,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                255,
+                255
+              ],
+              "length": 3
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 52,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 41,
+          "header": [
+            7,
+            191,
+            9,
+            154,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        52,
+        41
+      ],
+      "allEnemyIds": [
+        143
+      ],
+      "paletteCommands": [],
+      "battleCommands": [
+        {
+          "offset": 678,
+          "opcode": 216,
+          "name": "Battle",
+          "args": [
+            49297
+          ],
+          "length": 3
+        }
+      ],
+      "transitions": [
+        {
+          "offset": 569,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            1008,
+            155,
+            87
+          ],
+          "length": 5
+        },
+        {
+          "offset": 576,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            1009,
+            155,
+            87
+          ],
+          "length": 5
+        }
+      ]
+    },
+    {
+      "location": 80,
+      "name": "Millennial Fair (Ending: Moonlight Parade)",
+      "eventId": 84,
+      "packetOffset": 3591776,
+      "packetSha256": "6d388d4b78aadb2922d32119214065cdc5591b09064cc084039cbe0b0deb2b8c",
+      "originalPacketUnchanged": true,
+      "role": "Seated lemonade drinker in Moonlight Parade; TABAN text and forced hardware palette slot7.",
+      "targetObjects": [
+        {
+          "object": 40,
+          "npcs": [
+            39
+          ],
+          "sourceLoadOffsets": [
+            3158
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 3158,
+              "endExclusive": 3181
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 3181,
+              "endExclusive": 3188
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 3188,
+              "endExclusive": 3189
+            }
+          ],
+          "actions": [
+            {
+              "offset": 3160,
+              "opcode": 51,
+              "name": "Change Palette",
+              "args": [
+                7
+              ],
+              "length": 2
+            },
+            {
+              "offset": 3162,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                22,
+                32
+              ],
+              "length": 3
+            },
+            {
+              "offset": 3165,
+              "opcode": 27,
+              "name": "Set NPC Facing (left)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 3166,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 190,
+          "header": [
+            43,
+            32,
+            133,
+            57,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 80,
+          "header": [
+            126,
+            7,
+            133,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 79,
+          "header": [
+            125,
+            188,
+            133,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        78,
+        197,
+        190,
+        196,
+        85,
+        214,
+        80,
+        79,
+        0,
+        213,
+        39,
+        215
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [
+        {
+          "offset": 1715,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            0
+          ],
+          "length": 2
+        },
+        {
+          "offset": 1758,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            1
+          ],
+          "length": 2
+        },
+        {
+          "offset": 1801,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            2
+          ],
+          "length": 2
+        },
+        {
+          "offset": 1817,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            3
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2056,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2131,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2206,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2250,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2294,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2381,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2417,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2480,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2509,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2538,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2567,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2596,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2652,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2693,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2734,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2782,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2795,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2821,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2847,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2873,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2899,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2921,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2943,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2965,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            5
+          ],
+          "length": 2
+        },
+        {
+          "offset": 2987,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3001,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3015,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3029,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3050,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3071,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3086,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3101,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3116,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            6
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3160,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        },
+        {
+          "offset": 3191,
+          "opcode": 51,
+          "name": "Change Palette",
+          "args": [
+            7
+          ],
+          "length": 2
+        }
+      ],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 81,
+      "name": "Leene Square (Ending: Moonlight Parade)",
+      "eventId": 85,
+      "packetOffset": 3593359,
+      "packetSha256": "81ab7b169cef8a76150530a406e5a8f50fff3dde41ec5c9533ac58d39485fc1c",
+      "originalPacketUnchanged": true,
+      "role": "Moonlight Parade machinery/fireworks operator; raised/strike hammer beats synchronize with original Mode7 effects.",
+      "targetObjects": [
+        {
+          "object": 10,
+          "npcs": [
+            39
+          ],
+          "sourceLoadOffsets": [
+            2327
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 2327,
+              "endExclusive": 2337
+            },
+            {
+              "aliases": [
+                1,
+                2
+              ],
+              "start": 2337,
+              "endExclusive": 2338
+            },
+            {
+              "aliases": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 2338,
+              "endExclusive": 2436
+            }
+          ],
+          "actions": [
+            {
+              "offset": 2329,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                6272,
+                5248
+              ],
+              "length": 5
+            },
+            {
+              "offset": 2334,
+              "opcode": 145,
+              "name": "Drawing Off (corrected from reference decoder label)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 2338,
+              "opcode": 144,
+              "name": "Drawing On",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 2339,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 2341,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                24,
+                14
+              ],
+              "length": 3
+            },
+            {
+              "offset": 2344,
+              "opcode": 15,
+              "name": "Set NPC Facing (up)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 2345,
+              "opcode": 124,
+              "name": "Turn Drawing On",
+              "args": [
+                22
+              ],
+              "length": 2
+            },
+            {
+              "offset": 2347,
+              "opcode": 146,
+              "name": "Vector Move",
+              "args": [
+                0,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 2350,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 2351,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 2355,
+              "opcode": 174,
+              "name": "Reset Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 2356,
+              "opcode": 27,
+              "name": "Set NPC Facing (left)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 2357,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 2359,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 2361,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                17
+              ],
+              "length": 2
+            },
+            {
+              "offset": 2371,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                10
+              ],
+              "length": 2
+            },
+            {
+              "offset": 2375,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 2400,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 197,
+          "header": [
+            236,
+            221,
+            133,
+            185,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        196,
+        199,
+        1,
+        39,
+        110,
+        16,
+        197,
+        113,
+        214,
+        85
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": [
+        {
+          "offset": 1173,
+          "opcode": 223,
+          "name": "Change Location",
+          "args": [
+            85,
+            8,
+            12
+          ],
+          "length": 5
+        },
+        {
+          "offset": 1283,
+          "opcode": 223,
+          "name": "Change Location",
+          "args": [
+            598,
+            8,
+            8
+          ],
+          "length": 5
+        },
+        {
+          "offset": 2428,
+          "opcode": 222,
+          "name": "Change Location",
+          "args": [
+            557,
+            8,
+            8
+          ],
+          "length": 5
+        }
+      ]
+    },
+    {
+      "location": 90,
+      "name": "Prison Catwalks (Ending: Moonlight Parade)",
+      "eventId": 11,
+      "packetOffset": 4035211,
+      "packetSha256": "ce244827a8af0d4b9ca95c941893c14465407fe8e2a8e2974ff7776059c7929d",
+      "originalPacketUnchanged": true,
+      "role": "Three simultaneous workshop-man doubles: hammer loop, alternating gestures, seated drink. Retain all three objects and anchors.",
+      "targetObjects": [
+        {
+          "object": 6,
+          "npcs": [
+            39
+          ],
+          "sourceLoadOffsets": [
+            759
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 759,
+              "endExclusive": 768
+            },
+            {
+              "aliases": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 768,
+              "endExclusive": 769
+            }
+          ],
+          "actions": [
+            {
+              "offset": 761,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                44,
+                9
+              ],
+              "length": 3
+            },
+            {
+              "offset": 765,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                3
+              ],
+              "length": 2
+            }
+          ]
+        },
+        {
+          "object": 7,
+          "npcs": [
+            39
+          ],
+          "sourceLoadOffsets": [
+            769
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 769,
+              "endExclusive": 785
+            },
+            {
+              "aliases": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 785,
+              "endExclusive": 786
+            }
+          ],
+          "actions": [
+            {
+              "offset": 771,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                43,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 775,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 777,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 779,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 781,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            }
+          ]
+        },
+        {
+          "object": 8,
+          "npcs": [
+            39
+          ],
+          "sourceLoadOffsets": [
+            786
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 786,
+              "endExclusive": 796
+            },
+            {
+              "aliases": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 796,
+              "endExclusive": 797
+            }
+          ],
+          "actions": [
+            {
+              "offset": 788,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                44,
+                4
+              ],
+              "length": 3
+            },
+            {
+              "offset": 791,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 793,
+              "opcode": 27,
+              "name": "Set NPC Facing (left)",
+              "args": [],
+              "length": 1
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        203,
+        112,
+        55,
+        3,
+        39,
+        11
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": [
+        {
+          "offset": 618,
+          "opcode": 222,
+          "name": "Change Location",
+          "args": [
+            598,
+            8,
+            8
+          ],
+          "length": 5
+        }
+      ]
+    },
+    {
+      "location": 115,
+      "name": "Truce Smithy's Residence",
+      "eventId": 336,
+      "packetOffset": 3706272,
+      "packetSha256": "bcf6194adcf3ef428c7eed923bfe21a844516b6f6ae79a688c1ff93712e37d6d",
+      "originalPacketUnchanged": false,
+      "role": "Bell smith; hammer, walking, drink and celebration branches across original story flags.",
+      "targetObjects": [
+        {
+          "object": 9,
+          "npcs": [
+            52
+          ],
+          "sourceLoadOffsets": [
+            463
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 463,
+              "endExclusive": 565
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 565,
+              "endExclusive": 616
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 616,
+              "endExclusive": 617
+            }
+          ],
+          "actions": [
+            {
+              "offset": 468,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                22,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 473,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                25,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 476,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                51
+              ],
+              "length": 2
+            },
+            {
+              "offset": 481,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 487,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 489,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 491,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                17
+              ],
+              "length": 2
+            },
+            {
+              "offset": 528,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 530,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                25,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 533,
+              "opcode": 166,
+              "name": "NPC Facing",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 535,
+              "opcode": 125,
+              "name": "Turn Drawing Off",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 537,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                51
+              ],
+              "length": 2
+            },
+            {
+              "offset": 539,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 541,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 543,
+              "opcode": 124,
+              "name": "Turn Drawing On",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 545,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 547,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                22,
+                7
+              ],
+              "length": 3
+            },
+            {
+              "offset": 550,
+              "opcode": 166,
+              "name": "NPC Facing",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 552,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 556,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 568,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 577,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 583,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 595,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 599,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 603,
+              "opcode": 124,
+              "name": "Turn Drawing On",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 605,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 609,
+              "opcode": 166,
+              "name": "NPC Facing",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 611,
+              "opcode": 125,
+              "name": "Turn Drawing Off",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 613,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                5
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 52,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 42,
+          "header": [
+            8,
+            7,
+            9,
+            7,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        111,
+        52,
+        42,
+        125
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 116,
+      "name": "Truce Inn 1F (Middle Ages)",
+      "eventId": 337,
+      "packetOffset": 1344382,
+      "packetSha256": "500f37ea97498e773ca9f4fbc29d9af8adc313218817603922bd7d3d1cdafe0e",
+      "originalPacketUnchanged": false,
+      "role": "Two inn patrons with separately timed wandering, drink, hammer/dance and toast actions.",
+      "targetObjects": [
+        {
+          "object": 12,
+          "npcs": [
+            52
+          ],
+          "sourceLoadOffsets": [
+            883
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 883,
+              "endExclusive": 898
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 898,
+              "endExclusive": 918
+            },
+            {
+              "aliases": [
+                2
+              ],
+              "start": 918,
+              "endExclusive": 919
+            },
+            {
+              "aliases": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 919,
+              "endExclusive": 934
+            }
+          ],
+          "actions": [
+            {
+              "offset": 885,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                4480,
+                6256
+              ],
+              "length": 5
+            },
+            {
+              "offset": 890,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 892,
+              "opcode": 135,
+              "name": "Script Speed",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 894,
+              "opcode": 166,
+              "name": "NPC Facing",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 898,
+              "opcode": 169,
+              "name": "NPC Facing",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 916,
+              "opcode": 166,
+              "name": "NPC Facing",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 922,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                6
+              ],
+              "length": 2
+            },
+            {
+              "offset": 927,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 929,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 931,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            }
+          ]
+        },
+        {
+          "object": 15,
+          "npcs": [
+            52
+          ],
+          "sourceLoadOffsets": [
+            993
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 983,
+              "endExclusive": 1010
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 1010,
+              "endExclusive": 1034
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 1034,
+              "endExclusive": 1035
+            }
+          ],
+          "actions": [
+            {
+              "offset": 999,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                27,
+                26
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1002,
+              "opcode": 166,
+              "name": "NPC Facing",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1004,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                34
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1006,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1010,
+              "opcode": 169,
+              "name": "NPC Facing",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1026,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1030,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1032,
+              "opcode": 166,
+              "name": "NPC Facing",
+              "args": [
+                0
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 49,
+          "header": [
+            11,
+            7,
+            9,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 52,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 41,
+          "header": [
+            7,
+            191,
+            9,
+            154,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        49,
+        111,
+        48,
+        52,
+        43,
+        41,
+        5
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": [
+        {
+          "offset": 850,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            783,
+            8,
+            8
+          ],
+          "length": 5
+        }
+      ]
+    },
+    {
+      "location": 125,
+      "name": "Castle Magus Doppleganger Corridor",
+      "eventId": 245,
+      "packetOffset": 3810268,
+      "packetSha256": "7b67965e9595d95582019597c6787248bf69a039fbed3193acbf16041684d4e0",
+      "originalPacketUnchanged": true,
+      "role": "Farquaad fortress doppelganger lure in Donkey-facing family dialogue. NPC hides before the separately loaded enemies fight; preserve those other owners.",
+      "targetObjects": [
+        {
+          "object": 13,
+          "npcs": [
+            39
+          ],
+          "sourceLoadOffsets": [
+            1470
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 1470,
+              "endExclusive": 1509
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 1509,
+              "endExclusive": 1510
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 1510,
+              "endExclusive": 1624
+            }
+          ],
+          "actions": [
+            {
+              "offset": 1472,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                7,
+                37
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1480,
+              "opcode": 145,
+              "name": "Drawing Off (corrected from reference decoder label)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1486,
+              "opcode": 145,
+              "name": "Drawing Off (corrected from reference decoder label)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1497,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                10
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1517,
+              "opcode": 169,
+              "name": "NPC Facing",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1572,
+              "opcode": 145,
+              "name": "Drawing Off (corrected from reference decoder label)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1576,
+              "opcode": 125,
+              "name": "Turn Drawing Off",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1619,
+              "opcode": 169,
+              "name": "NPC Facing",
+              "args": [
+                0
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        126,
+        37,
+        3,
+        39,
+        1,
+        129
+      ],
+      "allEnemyIds": [
+        87,
+        5,
+        81
+      ],
+      "paletteCommands": [],
+      "battleCommands": [
+        {
+          "offset": 1125,
+          "opcode": 216,
+          "name": "Battle",
+          "args": [
+            16400
+          ],
+          "length": 3
+        },
+        {
+          "offset": 1277,
+          "opcode": 216,
+          "name": "Battle",
+          "args": [
+            16400
+          ],
+          "length": 3
+        },
+        {
+          "offset": 1426,
+          "opcode": 216,
+          "name": "Battle",
+          "args": [
+            49200
+          ],
+          "length": 3
+        },
+        {
+          "offset": 1604,
+          "opcode": 216,
+          "name": "Battle",
+          "args": [
+            16400
+          ],
+          "length": 3
+        },
+        {
+          "offset": 1758,
+          "opcode": 216,
+          "name": "Battle",
+          "args": [
+            16400
+          ],
+          "length": 3
+        },
+        {
+          "offset": 1912,
+          "opcode": 216,
+          "name": "Battle",
+          "args": [
+            16400
+          ],
+          "length": 3
+        }
+      ],
+      "transitions": [
+        {
+          "offset": 1440,
+          "opcode": 225,
+          "name": "Change Location",
+          "args": [
+            945,
+            0,
+            0
+          ],
+          "length": 5
+        },
+        {
+          "offset": 1461,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            433,
+            0,
+            0
+          ],
+          "length": 5
+        }
+      ]
+    },
+    {
+      "location": 138,
+      "name": "Sandorino Inn",
+      "eventId": 183,
+      "packetOffset": 1650920,
+      "packetSha256": "204dd0a23945b9a65d0da9dd2dcff521c11b0a22801ca7f14d94f570e17595f3",
+      "originalPacketUnchanged": false,
+      "role": "Sandorino innkeeper; walking/drinking/celebration branches and scripted movement.",
+      "targetObjects": [
+        {
+          "object": 14,
+          "npcs": [
+            52
+          ],
+          "sourceLoadOffsets": [
+            1686
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 1686,
+              "endExclusive": 1804
+            },
+            {
+              "aliases": [
+                1,
+                2
+              ],
+              "start": 1804,
+              "endExclusive": 1805
+            },
+            {
+              "aliases": [
+                3
+              ],
+              "start": 1805,
+              "endExclusive": 1897
+            },
+            {
+              "aliases": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 1897,
+              "endExclusive": 1937
+            }
+          ],
+          "actions": [
+            {
+              "offset": 1688,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                8,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1691,
+              "opcode": 135,
+              "name": "Script Speed",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1693,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                35
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1698,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1712,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                8,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1715,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1716,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1718,
+              "opcode": 27,
+              "name": "Set NPC Facing (left)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1719,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1722,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1724,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1726,
+              "opcode": 27,
+              "name": "Set NPC Facing (left)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1727,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1729,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1730,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1732,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1734,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                10,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1742,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                11,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1745,
+              "opcode": 15,
+              "name": "Set NPC Facing (up)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1751,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1753,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1762,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1763,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                9,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1771,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1772,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                10,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1775,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1777,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1779,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1781,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1783,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                7,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1786,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1788,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                8,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1791,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1793,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1795,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1797,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1798,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1811,
+              "opcode": 135,
+              "name": "Script Speed",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1813,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1815,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1824,
+              "opcode": 27,
+              "name": "Set NPC Facing (left)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1825,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                6,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1833,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                8,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1836,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1842,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                10,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1845,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1851,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                9,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1854,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1857,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1859,
+              "opcode": 135,
+              "name": "Script Speed",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1884,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1886,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                6
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1888,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1890,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1891,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                8,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1897,
+              "opcode": 135,
+              "name": "Script Speed",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1899,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1901,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1905,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                9,
+                16
+              ],
+              "length": 3
+            },
+            {
+              "offset": 1908,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                30
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1910,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                29
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1916,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1918,
+              "opcode": 27,
+              "name": "Set NPC Facing (left)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1919,
+              "opcode": 15,
+              "name": "Set NPC Facing (up)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1921,
+              "opcode": 23,
+              "name": "Set NPC Facing (down)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1922,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                2
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1924,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                30
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1926,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1928,
+              "opcode": 135,
+              "name": "Script Speed",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1930,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                16
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1932,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 42,
+          "header": [
+            8,
+            7,
+            9,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 41,
+          "header": [
+            7,
+            191,
+            9,
+            154,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 49,
+          "header": [
+            11,
+            7,
+            9,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 52,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 44,
+          "header": [
+            9,
+            7,
+            9,
+            7,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        150,
+        42,
+        41,
+        49,
+        52,
+        111,
+        44,
+        5,
+        48,
+        50,
+        40
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": [
+        {
+          "offset": 2175,
+          "opcode": 223,
+          "name": "Change Location",
+          "args": [
+            62,
+            11,
+            26
+          ],
+          "length": 5
+        }
+      ]
+    },
+    {
+      "location": 152,
+      "name": "Tata's House 1F",
+      "eventId": 124,
+      "packetOffset": 3677719,
+      "packetSha256": "895df0aa0ba3c989f3738aaa0ee4229f05ffe411f8a5141adfdb32dff4cfb4b6",
+      "originalPacketUnchanged": true,
+      "role": "Tata father in hero-boast/disappointment branches; shared body does not imply same person as workshop mentor.",
+      "targetObjects": [
+        {
+          "object": 8,
+          "npcs": [
+            39
+          ],
+          "sourceLoadOffsets": [
+            415
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 415,
+              "endExclusive": 426
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 426,
+              "endExclusive": 451
+            },
+            {
+              "aliases": [
+                2
+              ],
+              "start": 451,
+              "endExclusive": 452
+            },
+            {
+              "aliases": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 452,
+              "endExclusive": 466
+            }
+          ],
+          "actions": [
+            {
+              "offset": 417,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                45,
+                41
+              ],
+              "length": 3
+            },
+            {
+              "offset": 431,
+              "opcode": 169,
+              "name": "NPC Facing",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 435,
+              "opcode": 166,
+              "name": "NPC Facing",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 439,
+              "opcode": 169,
+              "name": "NPC Facing",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 441,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 443,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 447,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 449,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 452,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                7
+              ],
+              "length": 2
+            },
+            {
+              "offset": 454,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                20
+              ],
+              "length": 2
+            },
+            {
+              "offset": 456,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                48
+              ],
+              "length": 2
+            },
+            {
+              "offset": 458,
+              "opcode": 174,
+              "name": "Reset Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 459,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                45,
+                43
+              ],
+              "length": 3
+            },
+            {
+              "offset": 462,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                43,
+                43
+              ],
+              "length": 3
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        39,
+        4
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 155,
+      "name": "Porre Cafe (Middle Ages)",
+      "eventId": 189,
+      "packetOffset": 1900544,
+      "packetSha256": "dbb29f8241dc7e7aa833190f24444e08ac9057633c6f0ac311aedb5587a586a1",
+      "originalPacketUnchanged": false,
+      "role": "Cafe patron and hero rumor dialogue; scripted standing drink.",
+      "targetObjects": [
+        {
+          "object": 16,
+          "npcs": [
+            52
+          ],
+          "sourceLoadOffsets": [
+            1380
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 1380,
+              "endExclusive": 1396
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 1396,
+              "endExclusive": 1425
+            },
+            {
+              "aliases": [
+                2
+              ],
+              "start": 1425,
+              "endExclusive": 1426
+            },
+            {
+              "aliases": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 1426,
+              "endExclusive": 1434
+            }
+          ],
+          "actions": [
+            {
+              "offset": 1382,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                6016,
+                2448
+              ],
+              "length": 5
+            },
+            {
+              "offset": 1387,
+              "opcode": 135,
+              "name": "Script Speed",
+              "args": [
+                8
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1389,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                35
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1391,
+              "opcode": 15,
+              "name": "Set NPC Facing (up)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1393,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1396,
+              "opcode": 169,
+              "name": "NPC Facing",
+              "args": [
+                0
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1424,
+              "opcode": 15,
+              "name": "Set NPC Facing (up)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 1426,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                25
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1428,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                6
+              ],
+              "length": 2
+            },
+            {
+              "offset": 1430,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                24
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 44,
+          "header": [
+            9,
+            7,
+            9,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 52,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 49,
+          "header": [
+            11,
+            7,
+            9,
+            7,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        4,
+        40,
+        48,
+        44,
+        52,
+        49,
+        5
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [
+        {
+          "offset": 768,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            128,
+            13,
+            8,
+            27381529209789
+          ],
+          "length": 11
+        },
+        {
+          "offset": 810,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            83,
+            16,
+            239,
+            240,
+            2
+          ],
+          "length": 6
+        }
+      ],
+      "battleCommands": [],
+      "transitions": [
+        {
+          "offset": 899,
+          "opcode": 223,
+          "name": "Change Location",
+          "args": [
+            402,
+            55,
+            9
+          ],
+          "length": 5
+        }
+      ]
+    },
+    {
+      "location": 186,
+      "name": "Choras Carpenter's Residence 1F (Middle Ages)",
+      "eventId": 481,
+      "packetOffset": 3967685,
+      "packetSha256": "6dde9348bb80105b20f96fad2bb272f89cc9b40f26b55608032da9be5f7fe1aa",
+      "originalPacketUnchanged": true,
+      "role": "Carpenter boss; tools/money/ruin-repair quest, departure with workers.",
+      "targetObjects": [
+        {
+          "object": 8,
+          "npcs": [
+            52
+          ],
+          "sourceLoadOffsets": [
+            463
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 451,
+              "endExclusive": 475
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 475,
+              "endExclusive": 618
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 618,
+              "endExclusive": 619
+            }
+          ],
+          "actions": [
+            {
+              "offset": 465,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                8,
+                42
+              ],
+              "length": 3
+            },
+            {
+              "offset": 468,
+              "opcode": 180,
+              "name": "Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 583,
+              "opcode": 27,
+              "name": "Set NPC Facing (left)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 589,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                7
+              ],
+              "length": 2
+            },
+            {
+              "offset": 594,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                7
+              ],
+              "length": 2
+            },
+            {
+              "offset": 599,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                7
+              ],
+              "length": 2
+            },
+            {
+              "offset": 604,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                32
+              ],
+              "length": 2
+            },
+            {
+              "offset": 606,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                11,
+                43
+              ],
+              "length": 3
+            },
+            {
+              "offset": 609,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                11,
+                47
+              ],
+              "length": 3
+            },
+            {
+              "offset": 612,
+              "opcode": 145,
+              "name": "Drawing Off (corrected from reference decoder label)",
+              "args": [],
+              "length": 1
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 52,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 41,
+          "header": [
+            7,
+            191,
+            9,
+            154,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        52,
+        41
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 188,
+      "name": "Choras Cafe",
+      "eventId": 483,
+      "packetOffset": 3968149,
+      "packetSha256": "7b642ef5e4ca64cc3d03b3909f10276e4997295fc0783588b326ab98bec73fc2",
+      "originalPacketUnchanged": true,
+      "role": "Seated carpenter lacking tools; tool handoff and leave-table movement.",
+      "targetObjects": [
+        {
+          "object": 15,
+          "npcs": [
+            52
+          ],
+          "sourceLoadOffsets": [
+            828
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 821,
+              "endExclusive": 844
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 844,
+              "endExclusive": 893
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 893,
+              "endExclusive": 894
+            }
+          ],
+          "actions": [
+            {
+              "offset": 830,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                51
+              ],
+              "length": 2
+            },
+            {
+              "offset": 832,
+              "opcode": 141,
+              "name": "Set Object Pixel Position",
+              "args": [
+                9680,
+                4832
+              ],
+              "length": 5
+            },
+            {
+              "offset": 838,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 847,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 867,
+              "opcode": 137,
+              "name": "NPC Speed",
+              "args": [
+                48
+              ],
+              "length": 2
+            },
+            {
+              "offset": 869,
+              "opcode": 142,
+              "name": "Set Sprite Priority",
+              "args": [
+                128
+              ],
+              "length": 2
+            },
+            {
+              "offset": 871,
+              "opcode": 174,
+              "name": "Reset Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 872,
+              "opcode": 150,
+              "name": "NPC move",
+              "args": [
+                35,
+                23
+              ],
+              "length": 3
+            },
+            {
+              "offset": 875,
+              "opcode": 145,
+              "name": "Drawing Off (corrected from reference decoder label)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 881,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                7
+              ],
+              "length": 2
+            },
+            {
+              "offset": 891,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                4
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 22,
+          "header": [
+            11,
+            7,
+            9,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 44,
+          "header": [
+            9,
+            7,
+            9,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 79,
+          "header": [
+            125,
+            188,
+            133,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 52,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        22,
+        21,
+        5,
+        44,
+        79,
+        52
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 338,
+      "name": "Present Age Home Room (Ending: The Dream Project)",
+      "eventId": 13,
+      "packetOffset": 4036267,
+      "packetSha256": "86964f2d92074a912345b4a6357910a6f057ae56e9818dcb3bebe4f7b0d05be3",
+      "originalPacketUnchanged": true,
+      "role": "Dream Project developer room; original Keita Eto credit/dialogue. This is not a new celebrity cameo.",
+      "targetObjects": [
+        {
+          "object": 9,
+          "npcs": [
+            39
+          ],
+          "sourceLoadOffsets": [
+            495
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 495,
+              "endExclusive": 503
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 503,
+              "endExclusive": 526
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 526,
+              "endExclusive": 527
+            }
+          ],
+          "actions": [
+            {
+              "offset": 497,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                9,
+                10
+              ],
+              "length": 3
+            },
+            {
+              "offset": 500,
+              "opcode": 180,
+              "name": "Animation",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 503,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                9
+              ],
+              "length": 2
+            },
+            {
+              "offset": 507,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                3
+              ],
+              "length": 2
+            },
+            {
+              "offset": 511,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 515,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 519,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 523,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 525,
+              "opcode": 180,
+              "name": "Animation",
+              "args": [],
+              "length": 1
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 41,
+          "header": [
+            7,
+            191,
+            9,
+            154,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 89,
+          "header": [
+            11,
+            7,
+            133,
+            7,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        162,
+        39,
+        5,
+        41,
+        14,
+        89
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": []
+    },
+    {
+      "location": 398,
+      "name": "Leene Square (Ending: What the Prophet Seeks)",
+      "eventId": 214,
+      "packetOffset": 3767591,
+      "packetSha256": "76c2edd6ef258d13fdace2eb7ad1ea3ea5b6099ba4c827dca4bfab3a76d8e8e2",
+      "originalPacketUnchanged": true,
+      "role": "What Prophet Seeks ending drink/reaction extra; preserve hidden/visible choreography rather than claiming full ending completion.",
+      "targetObjects": [
+        {
+          "object": 9,
+          "npcs": [
+            25
+          ],
+          "sourceLoadOffsets": [
+            752
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 752,
+              "endExclusive": 771
+            },
+            {
+              "aliases": [
+                1,
+                2
+              ],
+              "start": 771,
+              "endExclusive": 772
+            },
+            {
+              "aliases": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 772,
+              "endExclusive": 780
+            }
+          ],
+          "actions": [
+            {
+              "offset": 754,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                41,
+                14
+              ],
+              "length": 3
+            },
+            {
+              "offset": 757,
+              "opcode": 135,
+              "name": "Script Speed",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 760,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                7
+              ],
+              "length": 2
+            },
+            {
+              "offset": 762,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                4
+              ],
+              "length": 2
+            },
+            {
+              "offset": 764,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 766,
+              "opcode": 27,
+              "name": "Set NPC Facing (left)",
+              "args": [],
+              "length": 1
+            },
+            {
+              "offset": 767,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                6
+              ],
+              "length": 2
+            },
+            {
+              "offset": 772,
+              "opcode": 170,
+              "name": "Animation",
+              "args": [
+                5
+              ],
+              "length": 2
+            },
+            {
+              "offset": 774,
+              "opcode": 173,
+              "name": "Pause",
+              "args": [
+                20
+              ],
+              "length": 2
+            },
+            {
+              "offset": 776,
+              "opcode": 172,
+              "name": "Static Animation",
+              "args": [
+                28
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 25,
+          "header": [
+            35,
+            24,
+            9,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        25,
+        85
+      ],
+      "allEnemyIds": [
+        0
+      ],
+      "paletteCommands": [
+        {
+          "offset": 415,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            128,
+            13,
+            8,
+            27381529209789
+          ],
+          "length": 11
+        },
+        {
+          "offset": 517,
+          "opcode": 46,
+          "name": "Color Math",
+          "args": [
+            83,
+            16,
+            239,
+            244,
+            2
+          ],
+          "length": 6
+        }
+      ],
+      "battleCommands": [],
+      "transitions": [
+        {
+          "offset": 746,
+          "opcode": 223,
+          "name": "Change Location",
+          "args": [
+            416,
+            55,
+            16
+          ],
+          "length": 5
+        }
+      ]
+    },
+    {
+      "location": 439,
+      "name": "Leene Square",
+      "eventId": 74,
+      "packetOffset": 1696238,
+      "packetSha256": "9ddfd83d6fdf6de884c63301270c71ca28ab6f0ca1745510f4bf128bdbcdacd6",
+      "originalPacketUnchanged": false,
+      "role": "Present fair soda-contest host; talk, currency and contest controller logic unchanged.",
+      "targetObjects": [
+        {
+          "object": 27,
+          "npcs": [
+            39
+          ],
+          "sourceLoadOffsets": [
+            2377
+          ],
+          "functions": [
+            {
+              "aliases": [
+                0
+              ],
+              "start": 2377,
+              "endExclusive": 2385
+            },
+            {
+              "aliases": [
+                1
+              ],
+              "start": 2385,
+              "endExclusive": 2624
+            },
+            {
+              "aliases": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "start": 2624,
+              "endExclusive": 2625
+            }
+          ],
+          "actions": [
+            {
+              "offset": 2379,
+              "opcode": 139,
+              "name": "Set Object Position",
+              "args": [
+                42,
+                14
+              ],
+              "length": 3
+            },
+            {
+              "offset": 2449,
+              "opcode": 135,
+              "name": "Script Speed",
+              "args": [
+                1
+              ],
+              "length": 2
+            },
+            {
+              "offset": 2530,
+              "opcode": 135,
+              "name": "Script Speed",
+              "args": [
+                3
+              ],
+              "length": 2
+            }
+          ]
+        }
+      ],
+      "sharedPaletteLoads": [
+        {
+          "kind": "npc",
+          "id": 79,
+          "header": [
+            125,
+            188,
+            133,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 82,
+          "header": [
+            9,
+            7,
+            133,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 85,
+          "header": [
+            227,
+            222,
+            133,
+            186,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 39,
+          "header": [
+            35,
+            24,
+            133,
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 22,
+          "header": [
+            11,
+            7,
+            9,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 89,
+          "header": [
+            11,
+            7,
+            133,
+            7,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 83,
+          "header": [
+            10,
+            7,
+            133,
+            7,
+            0
+          ]
+        }
+      ],
+      "allNpcIds": [
+        127,
+        79,
+        82,
+        85,
+        59,
+        112,
+        99,
+        125,
+        98,
+        39,
+        101,
+        22,
+        89,
+        83
+      ],
+      "allEnemyIds": [],
+      "paletteCommands": [],
+      "battleCommands": [],
+      "transitions": [
+        {
+          "offset": 1054,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            27,
+            8,
+            17
+          ],
+          "length": 5
+        },
+        {
+          "offset": 1143,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            27,
+            8,
+            17
+          ],
+          "length": 5
+        },
+        {
+          "offset": 1178,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            27,
+            8,
+            17
+          ],
+          "length": 5
+        },
+        {
+          "offset": 1203,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            27,
+            8,
+            17
+          ],
+          "length": 5
+        },
+        {
+          "offset": 1230,
+          "opcode": 224,
+          "name": "Change Location",
+          "args": [
+            27,
+            8,
+            17
+          ],
+          "length": 5
+        }
+      ]
+    }
+  ]
+}

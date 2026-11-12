@@ -1,0 +1,169 @@
+{
+  "status": "Five authored scene scenarios passed; inherited parade palette regression separately diagnosed",
+  "baseline": {
+    "path": "assets/imagegen/town-tradesmen/private-qa/baseline.sfc",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+    "bytes": 8388608,
+    "originalAuditBaseline": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+    "reason": "Root preferred current published cartridge for native proof; source/audit resources are rechecked unchanged before override."
+  },
+  "privateRomSha256": "fc9fa6cd47aabe251f9a2d5363f6409d909ea9e883bb563a55a69c07fc6d9e36",
+  "nativeTicks": 7800,
+  "scenes": [
+    {
+      "name": "smithy-hammer",
+      "location": 115,
+      "nativeTicks": 900,
+      "visibleFrames": [
+        16,
+        17
+      ],
+      "heapByLocation": [
+        {
+          "location": 2,
+          "min": 1248,
+          "max": 1248
+        },
+        {
+          "location": 115,
+          "min": 1248,
+          "max": 3648
+        }
+      ],
+      "eventSha256": "bcf6194adcf3ef428c7eed923bfe21a844516b6f6ae79a688c1ff93712e37d6d",
+      "proof": "assets/imagegen/town-tradesmen/scene-verification/smithy-hammer.json"
+    },
+    {
+      "name": "smithy-drink",
+      "location": 115,
+      "nativeTicks": 3000,
+      "visibleFrames": [
+        1,
+        14,
+        3,
+        15,
+        25,
+        24,
+        12,
+        2,
+        13,
+        10
+      ],
+      "heapByLocation": [
+        {
+          "location": 2,
+          "min": 1248,
+          "max": 1248
+        },
+        {
+          "location": 115,
+          "min": 1248,
+          "max": 3648
+        }
+      ],
+      "eventSha256": "bcf6194adcf3ef428c7eed923bfe21a844516b6f6ae79a688c1ff93712e37d6d",
+      "proof": "assets/imagegen/town-tradesmen/scene-verification/smithy-drink.json"
+    },
+    {
+      "name": "choras-inn",
+      "location": 62,
+      "nativeTicks": 1000,
+      "visibleFrames": [
+        18,
+        19
+      ],
+      "heapByLocation": [
+        {
+          "location": 2,
+          "min": 1248,
+          "max": 1248
+        },
+        {
+          "location": 62,
+          "min": 1248,
+          "max": 14464
+        }
+      ],
+      "eventSha256": "822c7051e0d9d8c5c03ac6cc11bc74c4651da7497b6866f19fdaa9efb9f20fa0",
+      "proof": "assets/imagegen/town-tradesmen/scene-verification/choras-inn.json"
+    },
+    {
+      "name": "telepod-exhibit",
+      "location": 8,
+      "nativeTicks": 1200,
+      "visibleFrames": [
+        1
+      ],
+      "heapByLocation": [
+        {
+          "location": 2,
+          "min": 1248,
+          "max": 1248
+        },
+        {
+          "location": 8,
+          "min": 1248,
+          "max": 10496
+        }
+      ],
+      "eventSha256": "7bccb9bac6271a3ced08d5f6e1352b89f640f95dbc3a89251305dae3978c4acf",
+      "proof": "assets/imagegen/town-tradesmen/scene-verification/telepod-exhibit.json"
+    },
+    {
+      "name": "hero-ending-row6",
+      "location": 38,
+      "nativeTicks": 1700,
+      "visibleFrames": [
+        30,
+        1
+      ],
+      "heapByLocation": [
+        {
+          "location": 2,
+          "min": 1248,
+          "max": 1248
+        },
+        {
+          "location": 38,
+          "min": 1248,
+          "max": 5472
+        },
+        {
+          "location": 37,
+          "min": 416,
+          "max": 416
+        },
+        {
+          "location": 60,
+          "min": 416,
+          "max": 16896
+        }
+      ],
+      "eventSha256": "02a4baa6e657b87182493ae530a007683b42f648a1217a817006d74bca057eb9",
+      "proof": "assets/imagegen/town-tradesmen/scene-verification/hero-ending-row6.json"
+    }
+  ],
+  "paradeDiagnosis": {
+    "originalSha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+    "source133Correct": [
+      {
+        "name": "original-usa",
+        "correct": true
+      },
+      {
+        "name": "af338",
+        "correct": false
+      },
+      {
+        "name": "candidate",
+        "correct": false
+      }
+    ],
+    "proof": "assets/imagegen/town-tradesmen/scene-verification/parade-palette-sharing.json",
+    "rowOwnership": "assets/imagegen/town-tradesmen/scene-verification/parade-row-ownership.json",
+    "sourceArtChanged": false,
+    "activeFixMade": false
+  },
+  "scope": "Actual native scene scripts after explicit diagnostic location/story entry; no complete chapter or ending claim. Parade source colors are explicitly not accepted."
+}

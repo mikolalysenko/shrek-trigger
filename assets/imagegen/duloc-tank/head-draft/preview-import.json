@@ -1,0 +1,126 @@
+{
+  "key": "tank-head",
+  "frames": 5,
+  "width": 32,
+  "height": 32,
+  "opaqueColors": 12,
+  "palette": [
+    "211b24",
+    "3c3f46",
+    "687378",
+    "b4c3b6",
+    "563226",
+    "885039",
+    "244955",
+    "42788a",
+    "917239",
+    "c9a554",
+    "efdb96",
+    "fcf2ce"
+  ],
+  "samplingPalette": [
+    "211b24",
+    "3c3f46",
+    "687378",
+    "b4c3b6",
+    "563226",
+    "885039",
+    "244955",
+    "42788a",
+    "917239",
+    "c9a554",
+    "efdb96",
+    "fcf2ce"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/duloc-tank/source-head-v1.png",
+      "sha256": "2a837f20de47aa3d1c6058d23ea27088c1b27487a57a9de4737f955cceca374f",
+      "sourceType": "image-generation",
+      "dimensions": [
+        2170,
+        725
+      ],
+      "scale": 0.07124681933842239,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 30,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            34,
+            155,
+            380,
+            393
+          ],
+          "componentPixels": 103121
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            465,
+            155,
+            392,
+            393
+          ],
+          "componentPixels": 104987
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            886,
+            155,
+            377,
+            393
+          ],
+          "componentPixels": 102455
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1304,
+            155,
+            441,
+            393
+          ],
+          "componentPixels": 105804
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            1748,
+            155,
+            389,
+            393
+          ],
+          "componentPixels": 103132
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Five actual generated mechanical states preserve the project sealed/venting/charging/firing/repairing model. Original animation byte lists and durations remain unchanged."
+      }
+    }
+  }
+}

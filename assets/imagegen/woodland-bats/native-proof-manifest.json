@@ -1,0 +1,894 @@
+{
+  "status": "Frozen bounded private native evidence",
+  "activation": false,
+  "baseline": {
+    "path": ".local/qa/hench-audit-af3383746691/baseline.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7"
+  },
+  "candidate": {
+    "path": ".local/qa/woodland-bats-native-proof/candidate.sfc",
+    "sha256": "8565c1f02e1d49920be0618a9f0848883e54048898a378d0c7bdb2533c77765b"
+  },
+  "core": "repository native65816/PPU",
+  "familyDisplay": {
+    "uploads": 24,
+    "cells": 96,
+    "pixels": 7542
+  },
+  "timing": {
+    "cases": 84,
+    "cycles": 168,
+    "ticks": 4584,
+    "startupTicks": 4080,
+    "fieldDelayTicks": 0,
+    "startupDelayTicks": 0
+  },
+  "authoredScenePhases": [
+    {
+      "key": "cathedral",
+      "location": 131,
+      "formation": [
+        75,
+        75,
+        80,
+        75
+      ],
+      "positiveDamageResults": 6,
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "key": "cave",
+      "location": 47,
+      "formation": [
+        115,
+        115,
+        115
+      ],
+      "positiveDamageResults": 20,
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "key": "magic-cave",
+      "location": 164,
+      "formation": [
+        135,
+        81,
+        81
+      ],
+      "positiveDamageResults": 9,
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    }
+  ],
+  "battleLayers": [
+    {
+      "phase": "cathedral",
+      "location": 131,
+      "enemy": 80,
+      "slot": 3,
+      "requestedFrame": 1,
+      "displayedFrame": 1,
+      "requestedOrigin": [
+        128,
+        122
+      ],
+      "displayedOrigin": [
+        128,
+        122
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 329,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "cave",
+      "location": 47,
+      "enemy": 115,
+      "slot": 5,
+      "requestedFrame": 0,
+      "displayedFrame": 0,
+      "requestedOrigin": [
+        78,
+        173
+      ],
+      "displayedOrigin": [
+        78,
+        173
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 371,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "cave",
+      "location": 47,
+      "enemy": 115,
+      "slot": 6,
+      "requestedFrame": 1,
+      "displayedFrame": 1,
+      "requestedOrigin": [
+        98,
+        171
+      ],
+      "displayedOrigin": [
+        98,
+        171
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 269,
+      "occludedOrNonRawPixels": 60
+    },
+    {
+      "phase": "cave",
+      "location": 47,
+      "enemy": 115,
+      "slot": 7,
+      "requestedFrame": 1,
+      "displayedFrame": 1,
+      "requestedOrigin": [
+        189,
+        167
+      ],
+      "displayedOrigin": [
+        189,
+        167
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 329,
+      "occludedOrNonRawPixels": 0
+    },
+    {
+      "phase": "magic-cave",
+      "location": 164,
+      "enemy": 81,
+      "slot": 6,
+      "requestedFrame": 1,
+      "displayedFrame": 1,
+      "requestedOrigin": [
+        184,
+        102
+      ],
+      "displayedOrigin": [
+        184,
+        102
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 112,
+      "occludedOrNonRawPixels": 217
+    },
+    {
+      "phase": "magic-cave",
+      "location": 164,
+      "enemy": 81,
+      "slot": 7,
+      "requestedFrame": 1,
+      "displayedFrame": 1,
+      "requestedOrigin": [
+        190,
+        168
+      ],
+      "displayedOrigin": [
+        190,
+        168
+      ],
+      "delayVideoFrames": 0,
+      "exactFinalPixels": 329,
+      "occludedOrNonRawPixels": 0
+    }
+  ],
+  "flyingRouteComparison": [
+    {
+      "object": 12,
+      "enemy": 81,
+      "fullSize": 192,
+      "baselineStartTick": 1,
+      "candidateStartTick": 0,
+      "comparedTicks": 899,
+      "phaseOffsetVideoFrames": 1,
+      "framesObserved": [
+        0,
+        1,
+        2
+      ],
+      "worldPositionCount": 216
+    },
+    {
+      "object": 13,
+      "enemy": 81,
+      "fullSize": 192,
+      "baselineStartTick": 1,
+      "candidateStartTick": 0,
+      "comparedTicks": 899,
+      "phaseOffsetVideoFrames": 1,
+      "framesObserved": [
+        0,
+        1,
+        2
+      ],
+      "worldPositionCount": 234
+    }
+  ],
+  "staticOnlySlots": [
+    7
+  ],
+  "privateArtifacts": [
+    {
+      "file": ".local/qa/woodland-bats-native-proof/candidate.json",
+      "bytes": 2365,
+      "sha256": "6b96bd47fe64253f04993a5052e53332ba6cfd44f48369a9ee0eb39cad331d6c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/candidate.sfc",
+      "bytes": 8388608,
+      "sha256": "8565c1f02e1d49920be0618a9f0848883e54048898a378d0c7bdb2533c77765b"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/bedroom.json",
+      "bytes": 1670565,
+      "sha256": "7914e242ee5e1a46ea3c59e404d30af70d1d39b7bdc7bc41c29683e39d97f431"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/baseline-bedroom.json",
+      "bytes": 1670564,
+      "sha256": "9c0e2664c067fedfea2afbdfe2f7982522bac133393b6f76cbcfe6548af8b3c0"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy115-00.png",
+      "bytes": 56671,
+      "sha256": "fb7265500e00b7b055bd0c903b5efe6bcf59c69baf14639275059ceac1d3dcd7"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy115-01.png",
+      "bytes": 56733,
+      "sha256": "fb15a897665ecf0040f2f0d6f0ee4d4a2e4532216c35fb132d6b4f6afd9d3530"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy115-02.png",
+      "bytes": 56615,
+      "sha256": "65fba24eebe5d822526c61bde0e28813456c26e3a0793026c4dee72f2130b2ff"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy115-03.png",
+      "bytes": 56575,
+      "sha256": "a34ba3ac53a530447b1ca8c534e0f6bc97817d86203efacd7ea33a157e795296"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy115-04.png",
+      "bytes": 56589,
+      "sha256": "397b654eca62e3f9e2f3e6c72627356f98cc0a245f3d89566366aa4a72008805"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy115-05.png",
+      "bytes": 56672,
+      "sha256": "4c08f965f9af390a03abcf89366e11a0b4eeb48bf415cb263ad8352498e378fa"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy115-06.png",
+      "bytes": 56697,
+      "sha256": "69200d0ba2b0cbcebe9bbd5455a4fb2765bef7c188f51d1875ca41ec62f4a34d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy115-07.png",
+      "bytes": 56544,
+      "sha256": "ed4a35e55f514051fe609c8604b09d71d4f9355b7c19150c64c05aad0fa2c245"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy80-00.png",
+      "bytes": 56671,
+      "sha256": "fb7265500e00b7b055bd0c903b5efe6bcf59c69baf14639275059ceac1d3dcd7"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy80-01.png",
+      "bytes": 56733,
+      "sha256": "fb15a897665ecf0040f2f0d6f0ee4d4a2e4532216c35fb132d6b4f6afd9d3530"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy80-02.png",
+      "bytes": 56615,
+      "sha256": "65fba24eebe5d822526c61bde0e28813456c26e3a0793026c4dee72f2130b2ff"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy80-03.png",
+      "bytes": 56575,
+      "sha256": "a34ba3ac53a530447b1ca8c534e0f6bc97817d86203efacd7ea33a157e795296"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy80-04.png",
+      "bytes": 56589,
+      "sha256": "397b654eca62e3f9e2f3e6c72627356f98cc0a245f3d89566366aa4a72008805"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy80-05.png",
+      "bytes": 56672,
+      "sha256": "4c08f965f9af390a03abcf89366e11a0b4eeb48bf415cb263ad8352498e378fa"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy80-06.png",
+      "bytes": 56697,
+      "sha256": "69200d0ba2b0cbcebe9bbd5455a4fb2765bef7c188f51d1875ca41ec62f4a34d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy80-07.png",
+      "bytes": 56544,
+      "sha256": "ed4a35e55f514051fe609c8604b09d71d4f9355b7c19150c64c05aad0fa2c245"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy81-00.png",
+      "bytes": 56662,
+      "sha256": "7eeb3f602f97a2bd64d308d62be80bb5cdb80d3397043bbf8353f694ca0a8854"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy81-01.png",
+      "bytes": 56730,
+      "sha256": "7d0358b089448cf8807414259f59a90a8a87309b5f868bbaaba1db6db528ace1"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy81-02.png",
+      "bytes": 56625,
+      "sha256": "78a6f36e4c9bdd80aaa258b101f6d7488e873727c5a1e2aaa64e5a76989dffab"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy81-03.png",
+      "bytes": 56577,
+      "sha256": "446b94fa3039abfdb8d6e5de13094d97181ac7e7092e35de30a15b93b8151554"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy81-04.png",
+      "bytes": 56578,
+      "sha256": "df72a0bc2ab6107bae0862e9bb08ec00c325bc52b18a655120522fbe7826ed82"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy81-05.png",
+      "bytes": 56698,
+      "sha256": "9ed8876ce9eb35ad97cf8057217e13b0dba079317bdddc6c46fa4fb52dc517d7"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy81-06.png",
+      "bytes": 56717,
+      "sha256": "4af683de0440d0a45f0b577e8397ad0f37155279116172cfc405dfaa09fa748a"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/display/enemy81-07.png",
+      "bytes": 56547,
+      "sha256": "058cd5f5d713f76ff64e6b9687499e44e201355eb44de23edab77e088e43b5b1"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action0-facing0.json",
+      "bytes": 19026,
+      "sha256": "45f7891219b71ec849aed3edaaac22b39169db789784cda3e71d1e58dd64a94d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action0-facing1.json",
+      "bytes": 19026,
+      "sha256": "45f7891219b71ec849aed3edaaac22b39169db789784cda3e71d1e58dd64a94d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action0-facing2.json",
+      "bytes": 19026,
+      "sha256": "45f7891219b71ec849aed3edaaac22b39169db789784cda3e71d1e58dd64a94d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action0-facing3.json",
+      "bytes": 19026,
+      "sha256": "45f7891219b71ec849aed3edaaac22b39169db789784cda3e71d1e58dd64a94d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action1-facing0.json",
+      "bytes": 9398,
+      "sha256": "17f3e8d598b294e2f451c2219b3cd55ee6718a6ce21eb31ca80ec8c00867a2ba"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action1-facing1.json",
+      "bytes": 9398,
+      "sha256": "17f3e8d598b294e2f451c2219b3cd55ee6718a6ce21eb31ca80ec8c00867a2ba"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action1-facing2.json",
+      "bytes": 9398,
+      "sha256": "17f3e8d598b294e2f451c2219b3cd55ee6718a6ce21eb31ca80ec8c00867a2ba"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action1-facing3.json",
+      "bytes": 9398,
+      "sha256": "17f3e8d598b294e2f451c2219b3cd55ee6718a6ce21eb31ca80ec8c00867a2ba"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action3-facing0.json",
+      "bytes": 9398,
+      "sha256": "41e3d6271b909a82425ca5506814ef945476c58dda9190680bfdfe4e28cc6c8f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action3-facing1.json",
+      "bytes": 9398,
+      "sha256": "41e3d6271b909a82425ca5506814ef945476c58dda9190680bfdfe4e28cc6c8f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action3-facing2.json",
+      "bytes": 9398,
+      "sha256": "41e3d6271b909a82425ca5506814ef945476c58dda9190680bfdfe4e28cc6c8f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action3-facing3.json",
+      "bytes": 9398,
+      "sha256": "41e3d6271b909a82425ca5506814ef945476c58dda9190680bfdfe4e28cc6c8f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action5-facing0.json",
+      "bytes": 8202,
+      "sha256": "27581cdae5006c6e565e346b263994a92d054d86ca9f58276b3c16e8dd70863f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action5-facing1.json",
+      "bytes": 8202,
+      "sha256": "27581cdae5006c6e565e346b263994a92d054d86ca9f58276b3c16e8dd70863f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action5-facing2.json",
+      "bytes": 8202,
+      "sha256": "27581cdae5006c6e565e346b263994a92d054d86ca9f58276b3c16e8dd70863f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action5-facing3.json",
+      "bytes": 8202,
+      "sha256": "27581cdae5006c6e565e346b263994a92d054d86ca9f58276b3c16e8dd70863f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action6-facing0.json",
+      "bytes": 1765,
+      "sha256": "771c74f6492917e0049ccc596fa6ec8d8624daac8470d0432a8e9856dbb71179"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action6-facing1.json",
+      "bytes": 1765,
+      "sha256": "771c74f6492917e0049ccc596fa6ec8d8624daac8470d0432a8e9856dbb71179"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action6-facing2.json",
+      "bytes": 1765,
+      "sha256": "771c74f6492917e0049ccc596fa6ec8d8624daac8470d0432a8e9856dbb71179"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action6-facing3.json",
+      "bytes": 1765,
+      "sha256": "771c74f6492917e0049ccc596fa6ec8d8624daac8470d0432a8e9856dbb71179"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action7-facing0.json",
+      "bytes": 4234,
+      "sha256": "3d014aeec354c026934cfe3536e4caee68bc8ca636893a1c46a47afd81db7452"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action7-facing1.json",
+      "bytes": 4234,
+      "sha256": "3d014aeec354c026934cfe3536e4caee68bc8ca636893a1c46a47afd81db7452"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action7-facing2.json",
+      "bytes": 4234,
+      "sha256": "3d014aeec354c026934cfe3536e4caee68bc8ca636893a1c46a47afd81db7452"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action7-facing3.json",
+      "bytes": 4234,
+      "sha256": "3d014aeec354c026934cfe3536e4caee68bc8ca636893a1c46a47afd81db7452"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action8-facing0.json",
+      "bytes": 6198,
+      "sha256": "95b3415b3112599ba790b2dc0e275e6d16424293082cbeb94ff154d432d71a5c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action8-facing1.json",
+      "bytes": 6198,
+      "sha256": "95b3415b3112599ba790b2dc0e275e6d16424293082cbeb94ff154d432d71a5c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action8-facing2.json",
+      "bytes": 6198,
+      "sha256": "95b3415b3112599ba790b2dc0e275e6d16424293082cbeb94ff154d432d71a5c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy115-AA47-action8-facing3.json",
+      "bytes": 6198,
+      "sha256": "95b3415b3112599ba790b2dc0e275e6d16424293082cbeb94ff154d432d71a5c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action0-facing0.json",
+      "bytes": 19026,
+      "sha256": "45f7891219b71ec849aed3edaaac22b39169db789784cda3e71d1e58dd64a94d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action0-facing1.json",
+      "bytes": 19026,
+      "sha256": "45f7891219b71ec849aed3edaaac22b39169db789784cda3e71d1e58dd64a94d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action0-facing2.json",
+      "bytes": 19026,
+      "sha256": "45f7891219b71ec849aed3edaaac22b39169db789784cda3e71d1e58dd64a94d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action0-facing3.json",
+      "bytes": 19026,
+      "sha256": "45f7891219b71ec849aed3edaaac22b39169db789784cda3e71d1e58dd64a94d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action1-facing0.json",
+      "bytes": 9398,
+      "sha256": "17f3e8d598b294e2f451c2219b3cd55ee6718a6ce21eb31ca80ec8c00867a2ba"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action1-facing1.json",
+      "bytes": 9398,
+      "sha256": "17f3e8d598b294e2f451c2219b3cd55ee6718a6ce21eb31ca80ec8c00867a2ba"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action1-facing2.json",
+      "bytes": 9398,
+      "sha256": "17f3e8d598b294e2f451c2219b3cd55ee6718a6ce21eb31ca80ec8c00867a2ba"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action1-facing3.json",
+      "bytes": 9398,
+      "sha256": "17f3e8d598b294e2f451c2219b3cd55ee6718a6ce21eb31ca80ec8c00867a2ba"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action3-facing0.json",
+      "bytes": 9398,
+      "sha256": "41e3d6271b909a82425ca5506814ef945476c58dda9190680bfdfe4e28cc6c8f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action3-facing1.json",
+      "bytes": 9398,
+      "sha256": "41e3d6271b909a82425ca5506814ef945476c58dda9190680bfdfe4e28cc6c8f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action3-facing2.json",
+      "bytes": 9398,
+      "sha256": "41e3d6271b909a82425ca5506814ef945476c58dda9190680bfdfe4e28cc6c8f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action3-facing3.json",
+      "bytes": 9398,
+      "sha256": "41e3d6271b909a82425ca5506814ef945476c58dda9190680bfdfe4e28cc6c8f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action5-facing0.json",
+      "bytes": 8202,
+      "sha256": "27581cdae5006c6e565e346b263994a92d054d86ca9f58276b3c16e8dd70863f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action5-facing1.json",
+      "bytes": 8202,
+      "sha256": "27581cdae5006c6e565e346b263994a92d054d86ca9f58276b3c16e8dd70863f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action5-facing2.json",
+      "bytes": 8202,
+      "sha256": "27581cdae5006c6e565e346b263994a92d054d86ca9f58276b3c16e8dd70863f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action5-facing3.json",
+      "bytes": 8202,
+      "sha256": "27581cdae5006c6e565e346b263994a92d054d86ca9f58276b3c16e8dd70863f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action6-facing0.json",
+      "bytes": 1765,
+      "sha256": "771c74f6492917e0049ccc596fa6ec8d8624daac8470d0432a8e9856dbb71179"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action6-facing1.json",
+      "bytes": 1765,
+      "sha256": "771c74f6492917e0049ccc596fa6ec8d8624daac8470d0432a8e9856dbb71179"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action6-facing2.json",
+      "bytes": 1765,
+      "sha256": "771c74f6492917e0049ccc596fa6ec8d8624daac8470d0432a8e9856dbb71179"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action6-facing3.json",
+      "bytes": 1765,
+      "sha256": "771c74f6492917e0049ccc596fa6ec8d8624daac8470d0432a8e9856dbb71179"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action7-facing0.json",
+      "bytes": 4234,
+      "sha256": "3d014aeec354c026934cfe3536e4caee68bc8ca636893a1c46a47afd81db7452"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action7-facing1.json",
+      "bytes": 4234,
+      "sha256": "3d014aeec354c026934cfe3536e4caee68bc8ca636893a1c46a47afd81db7452"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action7-facing2.json",
+      "bytes": 4234,
+      "sha256": "3d014aeec354c026934cfe3536e4caee68bc8ca636893a1c46a47afd81db7452"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action7-facing3.json",
+      "bytes": 4234,
+      "sha256": "3d014aeec354c026934cfe3536e4caee68bc8ca636893a1c46a47afd81db7452"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action8-facing0.json",
+      "bytes": 6198,
+      "sha256": "95b3415b3112599ba790b2dc0e275e6d16424293082cbeb94ff154d432d71a5c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action8-facing1.json",
+      "bytes": 6198,
+      "sha256": "95b3415b3112599ba790b2dc0e275e6d16424293082cbeb94ff154d432d71a5c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action8-facing2.json",
+      "bytes": 6198,
+      "sha256": "95b3415b3112599ba790b2dc0e275e6d16424293082cbeb94ff154d432d71a5c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy80-AA47-action8-facing3.json",
+      "bytes": 6198,
+      "sha256": "95b3415b3112599ba790b2dc0e275e6d16424293082cbeb94ff154d432d71a5c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action0-facing0.json",
+      "bytes": 19026,
+      "sha256": "45f7891219b71ec849aed3edaaac22b39169db789784cda3e71d1e58dd64a94d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action0-facing1.json",
+      "bytes": 19026,
+      "sha256": "45f7891219b71ec849aed3edaaac22b39169db789784cda3e71d1e58dd64a94d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action0-facing2.json",
+      "bytes": 19026,
+      "sha256": "45f7891219b71ec849aed3edaaac22b39169db789784cda3e71d1e58dd64a94d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action0-facing3.json",
+      "bytes": 19026,
+      "sha256": "45f7891219b71ec849aed3edaaac22b39169db789784cda3e71d1e58dd64a94d"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action1-facing0.json",
+      "bytes": 9398,
+      "sha256": "17f3e8d598b294e2f451c2219b3cd55ee6718a6ce21eb31ca80ec8c00867a2ba"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action1-facing1.json",
+      "bytes": 9398,
+      "sha256": "17f3e8d598b294e2f451c2219b3cd55ee6718a6ce21eb31ca80ec8c00867a2ba"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action1-facing2.json",
+      "bytes": 9398,
+      "sha256": "17f3e8d598b294e2f451c2219b3cd55ee6718a6ce21eb31ca80ec8c00867a2ba"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action1-facing3.json",
+      "bytes": 9398,
+      "sha256": "17f3e8d598b294e2f451c2219b3cd55ee6718a6ce21eb31ca80ec8c00867a2ba"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action3-facing0.json",
+      "bytes": 9398,
+      "sha256": "41e3d6271b909a82425ca5506814ef945476c58dda9190680bfdfe4e28cc6c8f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action3-facing1.json",
+      "bytes": 9398,
+      "sha256": "41e3d6271b909a82425ca5506814ef945476c58dda9190680bfdfe4e28cc6c8f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action3-facing2.json",
+      "bytes": 9398,
+      "sha256": "41e3d6271b909a82425ca5506814ef945476c58dda9190680bfdfe4e28cc6c8f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action3-facing3.json",
+      "bytes": 9398,
+      "sha256": "41e3d6271b909a82425ca5506814ef945476c58dda9190680bfdfe4e28cc6c8f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action5-facing0.json",
+      "bytes": 8202,
+      "sha256": "27581cdae5006c6e565e346b263994a92d054d86ca9f58276b3c16e8dd70863f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action5-facing1.json",
+      "bytes": 8202,
+      "sha256": "27581cdae5006c6e565e346b263994a92d054d86ca9f58276b3c16e8dd70863f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action5-facing2.json",
+      "bytes": 8202,
+      "sha256": "27581cdae5006c6e565e346b263994a92d054d86ca9f58276b3c16e8dd70863f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action5-facing3.json",
+      "bytes": 8202,
+      "sha256": "27581cdae5006c6e565e346b263994a92d054d86ca9f58276b3c16e8dd70863f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action6-facing0.json",
+      "bytes": 1765,
+      "sha256": "771c74f6492917e0049ccc596fa6ec8d8624daac8470d0432a8e9856dbb71179"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action6-facing1.json",
+      "bytes": 1765,
+      "sha256": "771c74f6492917e0049ccc596fa6ec8d8624daac8470d0432a8e9856dbb71179"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action6-facing2.json",
+      "bytes": 1765,
+      "sha256": "771c74f6492917e0049ccc596fa6ec8d8624daac8470d0432a8e9856dbb71179"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action6-facing3.json",
+      "bytes": 1765,
+      "sha256": "771c74f6492917e0049ccc596fa6ec8d8624daac8470d0432a8e9856dbb71179"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action7-facing0.json",
+      "bytes": 4234,
+      "sha256": "3d014aeec354c026934cfe3536e4caee68bc8ca636893a1c46a47afd81db7452"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action7-facing1.json",
+      "bytes": 4234,
+      "sha256": "3d014aeec354c026934cfe3536e4caee68bc8ca636893a1c46a47afd81db7452"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action7-facing2.json",
+      "bytes": 4234,
+      "sha256": "3d014aeec354c026934cfe3536e4caee68bc8ca636893a1c46a47afd81db7452"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action7-facing3.json",
+      "bytes": 4234,
+      "sha256": "3d014aeec354c026934cfe3536e4caee68bc8ca636893a1c46a47afd81db7452"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action8-facing0.json",
+      "bytes": 6198,
+      "sha256": "95b3415b3112599ba790b2dc0e275e6d16424293082cbeb94ff154d432d71a5c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action8-facing1.json",
+      "bytes": 6198,
+      "sha256": "95b3415b3112599ba790b2dc0e275e6d16424293082cbeb94ff154d432d71a5c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action8-facing2.json",
+      "bytes": 6198,
+      "sha256": "95b3415b3112599ba790b2dc0e275e6d16424293082cbeb94ff154d432d71a5c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/timing/enemy81-AA47-action8-facing3.json",
+      "bytes": 6198,
+      "sha256": "95b3415b3112599ba790b2dc0e275e6d16424293082cbeb94ff154d432d71a5c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/scene-proof-cathedral.json",
+      "bytes": 102486,
+      "sha256": "2e5e6249b3ca7c8900172fd30fd2b665bbfe1b1916397e25063b8eb09530c134"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/scene-proof-cave.json",
+      "bytes": 28563,
+      "sha256": "dad6733088d380f5ef284fb39e0943d1962ed41f2319e2f62031248fd9b95678"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/scene-proof-magic-cave.json",
+      "bytes": 55557,
+      "sha256": "772cf1efea3898808840bd38d6f56fc30e196eab0ec5787526cd570118d96e10"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/scenes/cathedral-arrival.png",
+      "bytes": 51532,
+      "sha256": "240dff5aa7f9db6bdbd890e10632712fe43f7a07d76e64a4b2b74216fe1ce91a"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/scenes/cathedral-battle-ready.png",
+      "bytes": 67911,
+      "sha256": "6d7baa57fd01bd2d656f38c4c7d2cfb6237dcc7a56c20f9ad91233fce64775c8"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/scenes/cathedral-victory.png",
+      "bytes": 49602,
+      "sha256": "f14985802a4829b0e1de0b034e71b9bbb7567ea79ca694e9dc971a44d8a72258"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/scenes/cave-arrival.png",
+      "bytes": 77557,
+      "sha256": "56e1c2975a0baa96cb1afbf60d66e5b35008f3d4f895133886fcac79e3b0944a"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/scenes/cave-battle-ready.png",
+      "bytes": 80532,
+      "sha256": "031605e526a6027ed278309a7970e35ab48a4f2ab4183e0bd941c7147ecd20af"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/scenes/cave-victory.png",
+      "bytes": 68865,
+      "sha256": "780d99a5b125e17330712951b4a4248344fcd410f44bd4e1f8de05ffce808141"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/scenes/magic-cave-arrival.png",
+      "bytes": 51592,
+      "sha256": "6e6e203ff79071e78d93cc43096b255d4b6305528b7ba6f9444c2bbd2aa17334"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/scenes/magic-cave-battle-ready.png",
+      "bytes": 54348,
+      "sha256": "e548511e371fd43d32b9b1788c6e0cbef6feccd5a221efb3964725f7be35df25"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/scenes/magic-cave-victory.png",
+      "bytes": 50159,
+      "sha256": "dc30e96a98a2ad65d2b039768695ec49aa956b3c0cae347750234ca2a0edb2a6"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/motion-cathedral-original-field-motion.apng",
+      "bytes": 35915,
+      "sha256": "aeb2d1dab592cdfae4ddf9db425212a0fe77e85ad4e5842a5d97a656751574ce"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/motion-cathedral-original-battle-motion.apng",
+      "bytes": 306962,
+      "sha256": "1c730eb123217a0f7be17b8af3f2e8aaf5c7c79a9d1db8a0b5c32baebd9cf82c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/motion-cave-original-field-motion.apng",
+      "bytes": 57251,
+      "sha256": "9ca09cdc00594c3d00dba0ad78864cbbdb2538ac6c8112d6e973808f1ea6fa51"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/motion-cave-original-battle-motion.apng",
+      "bytes": 267418,
+      "sha256": "21ddd48a5fe3497fb1dcb9adc46ffef6f8e81325899d7bb20185bf857ed3a67c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/motion-magic-cave-original-field-motion.apng",
+      "bytes": 213974,
+      "sha256": "7aa9145dd5d8a1bca6b16f529086761ed73cca194225be7299d175e66ec02408"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/motion-magic-cave-original-battle-motion.apng",
+      "bytes": 184607,
+      "sha256": "db2b0e975deb7ba44e32e55f591d4b8c0e5984b8af188d22173f957acdfaa74f"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/flight-baseline.json",
+      "bytes": 200185,
+      "sha256": "ea69e8569b55969170192ff0cd15bf432aa87a96fd65b00fa20f594adeef3c2c"
+    },
+    {
+      "file": ".local/qa/woodland-bats-native-proof/flight-candidate.json",
+      "bytes": 200186,
+      "sha256": "99a3cf34874ff7d1c077cc43eb493bf8e42cd35b5947ce4ccf7dbf754dcd82b1"
+    }
+  ],
+  "proofReproduce": [
+    "node assets/imagegen/woodland-bats/build-private.mjs",
+    "node assets/imagegen/woodland-bats/verify-native.mjs",
+    "node assets/imagegen/woodland-bats/verify-timing.mjs",
+    "node assets/imagegen/woodland-bats/verify-scenes.mjs",
+    "node assets/imagegen/woodland-bats/verify-flight.mjs"
+  ],
+  "limits": [
+    "This approval and proof apply to the exact frozen source and private ROM fingerprint. Final production allocation and independent-core validation remain root-owned.",
+    "Folded poses 5/6 are sampled 17 px wide instead of 19 px. Their center, height, lowest pixels and original four-cell coordinates/order remain unchanged; every other visible bound matches the original.",
+    "Slot 7 is fully authored and statically uploaded for all three owners, but AA47 references only slots 0–6 and no original timing consumer for slot 7 was observed.",
+    "Three encounters were executed after reversible diagnostic entry with development party resources and story 3. This is not full campaign traversal or ordinary-level balance validation.",
+    "The two Magic Cave patrols match baseline state for 899 ticks each after a one-video-frame startup phase alignment. This route/request comparison does not assert universally identical field or battle display latency.",
+    "Zero display delay was observed in isolated AA47 tests and six battle layer samples. Original map/party overlap obscures some actual-scene final pixels; complete cells and all unobstructed opaque pixels are proved separately in 24 isolated poses.",
+    "Scene-load unions combine verified conditional loads. Five audited locations were not executed; these inventories are not proofs of every simultaneous resident set."
+  ]
+}

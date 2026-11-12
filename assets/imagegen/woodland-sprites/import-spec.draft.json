@@ -1,0 +1,156 @@
+{
+  "key": "woodland-sprites",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/woodland-sprites",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "292910",
+    "ffffff",
+    "e7ded6",
+    "ffcead",
+    "ffa56b",
+    "c6bda5",
+    "adad52",
+    "b56342",
+    "8c7308",
+    "6b5a39",
+    "7b3942",
+    "393929"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/woodland-sprites/source-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "cells": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        8
+      ],
+      "nativeHeight": 28,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      },
+      "overrides": {
+        "0": {
+          "scaleX": 1.0209580838323353
+        },
+        "1": {
+          "scale": 1.079245283018868,
+          "scaleX": 0.9692071731949032
+        },
+        "2": {
+          "scale": 1.0198675496688743
+        },
+        "3": {
+          "scale": 1.0437956204379562,
+          "scaleX": 0.958041958041958
+        },
+        "7": {
+          "scale": 0.8241042345276872
+        },
+        "8": {
+          "scale": 0.9933110367892976
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/woodland-sprites/source-profile-v2.png",
+      "columns": 3,
+      "rows": 1,
+      "cells": [
+        0,
+        1
+      ],
+      "nativeHeight": 29,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      },
+      "overrides": {
+        "0": {
+          "scaleX": 0.9535650501442505
+        },
+        "1": {
+          "scale": 1.0239350912778904,
+          "scaleX": 0.9725400457665904
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/woodland-sprites/source-contact-b-v3.png",
+      "columns": 1,
+      "rows": 1,
+      "cells": [
+        0
+      ],
+      "nativeHeight": 29,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 200,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59,
+        "alphaThreshold": 200
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive exact source/geometry proposal; root static review approved",
+    "native": "15 native slots, four cells, size0. Palette19 and shared AA28 unchanged.",
+    "sampling": "Nearest sampling of generated sources, whole-source mirrors only where verified in original. Front/rear/pass width normalizations are at most one native pixel. Profile widths22/20 versus original18; spinning width27 versus23. No procedural anatomy.",
+    "sourceOmissions": {
+      "source-v1.png": [
+        4,
+        5,
+        6
+      ],
+      "source-profile-v2.png": [
+        2
+      ]
+    },
+    "originalEffects": "Twelve detached original single-pixel motion dots retained at exact native coordinates in slots12–14."
+  },
+  "nativeComposition": {
+    "map": "assets/imagegen/woodland-sprites/native-composition.json",
+    "overlay": "assets/imagegen/woodland-sprites/original-effects.json"
+  }
+}

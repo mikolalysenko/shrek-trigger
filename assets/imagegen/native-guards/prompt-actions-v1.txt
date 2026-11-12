@@ -1,0 +1,19 @@
+Use case: stylized-concept
+Asset type: additional native SNES sprite action atlas.
+Input image1 is the ACCEPTED identity/style reference. Keep that exact compact human Duloc civic soldier, armor proportions, dark closed visor, short purple plume, warm pale-steel armor, brick-red cloth/boots/gloves, small round red shield and short sword. Generate actual new action poses, not repaints of one stance.
+Make a clean FOUR-column by THREE-row atlas on true transparency. Exactly twelve complete separated figures, one per cell. Same camera scale as the reference, logical standing body height31-32 pixels, Chrono Trigger top-down RPG pixel perspective, same top-left clustered shading, selective dark outlines. Keep all figures fully inside their cells with generous clear margins, including each sword/arc/plume/foot. The last cell is an explicitly spare identity pose.
+Shield is always anatomical LEFT, sword anatomical RIGHT: front view shield screen-right, rear view shield screen-left. No swapping equipment within a facing.
+Exact row-major pose order:
+0: REAR view, sword hand raised behind the helmet in an overhead wind-up, shield held on the left. Full rear helmet/backplate, not a face.
+1: FRONT view, sword arm raised vertically overhead, shield beside body. Open planted stance.
+2: RIGHT-facing three-quarter profile anticipation, sword arm cocked upward behind head, shield forward; weight planted, ready to slash right.
+3: FRONT three-quarter hurt/recoil, helmet thrown slightly back/left, knees buckling, short sword lowered and shield still attached. This is one complete stagger, not a fall.
+4: REAR view sword strike, body twisted into follow-through, a compact pale sword-motion crescent sweeps from the upper-right toward the shoulder. Shield stays left.
+5: REAR view recovery of the previous strike, sword lowered, same body and shield, no motion crescent.
+6: FRONT view downward sword strike, a pale crescent begins left of the raised helmet and sweeps down across the left side of the body. Sword hand low by the end, shield on screen-right.
+7: FRONT view follow-through of previous strike, short sword low and shield held up; no motion crescent.
+8: LEFT-facing profile sword strike with a short compact forward lunge, blade and pale crescent extend to screen-left; raised shield behind the near shoulder. Total silhouette including arc should be at most about37 native pixels wide and32 tall.
+9: LEFT-facing profile recovery of previous strike, sword low/forward, no motion crescent, body returning upright.
+10: horizontal knocked-down soldier lying on the ground, FRONT armor visible, helmet/head to screen-right and feet to screen-left. Complete sword, shield and plume retained. The full fallen figure is about42 native pixels wide and26 high, not a small crouching or standing figure. No blood, no injury detail, no ground shadow.
+11: spare FRONT standing low guard, same exact identity/scale/equipment, no effect.
+Style: actual crisp pixel-art source suitable for reduction into four16x16 SNES cells per pose. Twelve opaque colors only:212110 ffffff d6d6b5 d6ad42 f7948c a5a584 848463 8452de c6635a a5524a 5a5a39 393929. Preserve expressive body weight and material clusters. No glossy3D rendering, no painterly antialiasing, no labels or text, no borders, no background, no extra characters, no detached random sparkles. The sword crescents are actual generated pixels in only cells4,6,8.

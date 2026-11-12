@@ -1,0 +1,20 @@
+{
+  "sourceType": "User-supplied existing-game sprite sheet",
+  "source": "/Users/mikolalysenko/Downloads/32931.png",
+  "projectSource": "source-user-32931.png",
+  "sha256": "0d6cd570db1c2ed707c593dab54656ead61bd04be73c28fcaf01295c6459ab0c",
+  "dimensions": [
+    932,
+    388
+  ],
+  "attribution": "Punch-Out!! / Mike Tyson sprite sheet supplied by the user. Original in-sheet captions and palette variants are preserved in the source PNG.",
+  "processing": "Exact green matte removal, explicit source-frame regions, fixed horizontal/vertical resampling and palette-index remapping. Tyson-only line-aware sampling retains covered source-black outlines and white facial highlights instead of allowing area-majority body colors to erase them. No anatomy is redrawn.",
+  "review": "All 45 native slots are rendered in the before/after contact sheet at 3x. Focused checks require dark outlines on at least 75 percent of each silhouette, paired eye highlights on front-facing guard frames, all 45 native 48x64 slots, twelve OBJ cells per frame and the recorded compressed budget. Native animation program 166, AI, equipment/stat data, frame 24 wind-up and the shared finale palette remain unchanged. Profile poses do not receive invented frontal eye pixels.",
+  "verification": {
+    "comparison": ".local/qa/tyson-linework-contact-sheet.png",
+    "nativeScript": "scripts/import-tyson-linework.mjs",
+    "reviewScript": "scripts/review-tyson-linework.mjs",
+    "pixelTest": "tests/tyson-linework.test.mjs",
+    "routeTest": "tests/finale.test.mjs: native final battle names its target"
+  }
+}

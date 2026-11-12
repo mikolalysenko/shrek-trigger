@@ -1,0 +1,376 @@
+{
+  "status": "Frozen inactive source candidate; no production import or canonical build",
+  "familyKey": "crumb-hunters",
+  "manifestFiles": 48,
+  "manifest": "reproducibility-files.txt",
+  "manifestSha256": "b53782cc30ed18db670bbf7a80f1065cb05d38481923a243840281768e31434a",
+  "inputs": {
+    "importSpec": "import-spec.draft.json",
+    "importSpecSha256": "560ec9456e7284e33a5fc7c5d14672ae71d59b6aa65f4d6475a50954f52c9c3d",
+    "geometry": "draft/family.json",
+    "geometrySha256": "a1728440c0bd7df371cf30cee9532233569e547cc26d30df791769364fde92c6",
+    "roles": "native-roles.json",
+    "rolesSha256": "2e8860b2b0975d7f57a7ef750f401caea76ab6f7fc7ec4099d76f9534978f9f9"
+  },
+  "compiled": {
+    "rawGraphicsBytes": 5536,
+    "compressedBytes": 3197,
+    "assemblyBytes": 840,
+    "graphicsSha256": "a0c11d35a537fca6f7f2c83943a62ed35ed1d63aa0f479983c3e9b2a2e06b5bb",
+    "compressedSha256": "c80d7155ee1621cc18159a0ca484812899d15e446acae899c89a43ec29730409",
+    "assemblySha256": "18146ef10965d0a7c29cb46acae992b79ff79f8b0d9b87f20b8b1afeab23bd1a",
+    "pixelsSha256": "a871acc205624b0f007cd7069ac2e9521c5a5953ebf305f173ff422c31d8d871",
+    "paletteSha256": {
+      "16": "46d3bc25f9c4e6ffd57cb6094f0b10247ac101e9537f720565cfdb616c7d80c6",
+      "17": "a4664a0ace255bdfe830e881aba517a2fec55a89bba6b682764b6ee5f14f6617"
+    }
+  },
+  "native": {
+    "gfx": 79,
+    "assembly": 34,
+    "animation": 26,
+    "frames": 21,
+    "cells": 4,
+    "width": 32,
+    "height": 32,
+    "blankFrames": [],
+    "sourcePoses": 16,
+    "palettes": [
+      16,
+      17
+    ],
+    "owners": [
+      {
+        "kind": "enemy",
+        "id": 1,
+        "palette": 16
+      },
+      {
+        "kind": "enemy",
+        "id": 61,
+        "palette": 17
+      },
+      {
+        "kind": "npc",
+        "id": 76,
+        "palette": 16
+      }
+    ],
+    "frameOffsets": {
+      "12": [
+        0,
+        3
+      ]
+    },
+    "cellOrigins": [
+      [
+        0,
+        0
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        16,
+        16
+      ]
+    ],
+    "overlap": false
+  },
+  "acceptance": {
+    "leadVisual": true,
+    "rootVisual": false,
+    "nativeUploads": 63,
+    "nativeOpaquePixels": 23175,
+    "nativeTimedTicks": 1950,
+    "nativeTimedScenarios": 13,
+    "actualNpc76Loads": 1,
+    "privateRomSha256": "03843402e03dbf1b687b5f975facfa8dca42c1ad27a53c4d7a4f0b89c3ba00f1",
+    "exactPaletteRgb": true,
+    "independentCores": false,
+    "originalSharedScenes": false,
+    "rawStreamerOnCandidate": false
+  },
+  "cost": {
+    "candidate": {
+      "raw": 5536,
+      "tiles": 173,
+      "compressed": 3197,
+      "assembly": 840,
+      "compressedAndAssembly": 4037,
+      "rawAndAssembly": 6376
+    },
+    "originalChronoTrigger": {
+      "raw": 3808,
+      "compressed": 3266,
+      "assembly": 840,
+      "compressedAndAssembly": 4106,
+      "compressedAllocationGrowth": -69,
+      "rawGrowth": 1728
+    },
+    "activeEarlierArt": {
+      "confirmedCurrentSourceFamilyMatchesSnapshot": true,
+      "savedRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+      "raw": 1728,
+      "compressed": 769,
+      "assembly": 840,
+      "compressedAndAssembly": 1609,
+      "compressedAllocationGrowth": 2428,
+      "rawGrowth": 3808,
+      "rawSha256": "1125fec9cad1a1074f13347203adc44fdefbaaffd61b9324c6ca16c3d6f45e16",
+      "compressedSha256": "6dfe7adab00e34099690e781b29418169f395a72f3a9b1e47dc075c717fb8758",
+      "assemblySha256": "1b562e1fc9d6b03be00b32ff096df1be77c356d745da5e64bf953556cade4d32"
+    },
+    "planningFigure": "Use +2,428 compressed/assembly bytes against the current earlier art; -69 is the original-CT baseline. Streaming allocates5,536raw bytes in its separate pool plus840assembly bytes."
+  },
+  "requiredArtifacts": [
+    {
+      "path": "README.md",
+      "bytes": 8317,
+      "sha256": "97c0585175e2ef893f019987810de95d5b12db836684f034d5091067ec3a7d61"
+    },
+    {
+      "path": "source-family.json",
+      "bytes": 1200,
+      "sha256": "a1728440c0bd7df371cf30cee9532233569e547cc26d30df791769364fde92c6"
+    },
+    {
+      "path": "native-audit.json",
+      "bytes": 40273,
+      "sha256": "1c140cba255e5f825f871b48bfc2a2311c4d7e0ad162809aa0d9d9d7e553e7b4"
+    },
+    {
+      "path": "native-roles.json",
+      "bytes": 11929,
+      "sha256": "2e8860b2b0975d7f57a7ef750f401caea76ab6f7fc7ec4099d76f9534978f9f9"
+    },
+    {
+      "path": "audit-native.mjs",
+      "bytes": 6893,
+      "sha256": "b8f2242b043eba45c3179be84eef898a417b9ead315b76bf36af0ef0d90852bc"
+    },
+    {
+      "path": "prepare-draft.mjs",
+      "bytes": 3724,
+      "sha256": "0fef92029b2e55e36f89f1780920011ed2232cb0c7b5fdf437edfeffc2482cc4"
+    },
+    {
+      "path": "compile-draft.mjs",
+      "bytes": 5989,
+      "sha256": "92aec8158cbc1d62da903d5ac535d230b214781896328ad64e8ae77a093a0e67"
+    },
+    {
+      "path": "verify-native.mjs",
+      "bytes": 8756,
+      "sha256": "b3943c26b5e3b6473c92de5a9302f2bcd6f0bb2719fba43bd1bc194406c9ef8e"
+    },
+    {
+      "path": "verify-motion.mjs",
+      "bytes": 5713,
+      "sha256": "a2f7c913d2204f2f8d326b6df4a502ec7bca2e812308a18bf0551db51053012d"
+    },
+    {
+      "path": "build-review.mjs",
+      "bytes": 10789,
+      "sha256": "eebaf95381045dcc5a01ef798d44f385732c8b4a22bcca4fb9fe0876f55e848f"
+    },
+    {
+      "path": "verify-frozen.mjs",
+      "bytes": 2493,
+      "sha256": "ae97a2da4b253cd981b3c9667b495396213d9ca65fa4cf3e155cf4426ebbadb3"
+    },
+    {
+      "path": "prompt-base-v1.txt",
+      "bytes": 3271,
+      "sha256": "2c1e491feac67187a1f3da6a77e9f4009703529a90148795792be7cdb4b4a809"
+    },
+    {
+      "path": "prompt-base-v2.txt",
+      "bytes": 1367,
+      "sha256": "3fb993faaf32a82c59a79584309dc33e346e9430d9e36b71994c72b7c4d59a3f"
+    },
+    {
+      "path": "prompt-actions-v1.txt",
+      "bytes": 3359,
+      "sha256": "655b6ff5cae8433f08bbfdf801ee28bbef81547eb7ddeec04d15dbab2b71c567"
+    },
+    {
+      "path": "source-base-v1.png",
+      "bytes": 1085561,
+      "sha256": "6c324959aca76a3a53c76beb72eddb7297c1e3bb33dc4ce5ba604bb2e1d2b1af"
+    },
+    {
+      "path": "source-base-v2.png",
+      "bytes": 1085536,
+      "sha256": "dab7bba8118b48708391980520f5317e6dc1d3779c0ff1988b98accd48825014"
+    },
+    {
+      "path": "source-actions-v1.png",
+      "bytes": 955476,
+      "sha256": "ae734f6b3521bc0729ca9807d70eded7c2276dc0753e8ea406901232b3f57322"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 4011,
+      "sha256": "5b930673da4a856e816796e85202abcef8658d32317d2fb1b4a126333a2c354d"
+    },
+    {
+      "path": "import-spec.draft.json",
+      "bytes": 3688,
+      "sha256": "560ec9456e7284e33a5fc7c5d14672ae71d59b6aa65f4d6475a50954f52c9c3d"
+    },
+    {
+      "path": "draft/preview-import.json",
+      "bytes": 5897,
+      "sha256": "78c9750a4bc9930a0c9c3f49cc389da378cf1a63a9c09f81c81e89f038cb0562"
+    },
+    {
+      "path": "draft/preview-raster.json",
+      "bytes": 17411,
+      "sha256": "14af5417b000b896baeb74fad32361e3dbf079c4cbcf1c7da676ddfcc2387841"
+    },
+    {
+      "path": "draft/family.json",
+      "bytes": 1200,
+      "sha256": "a1728440c0bd7df371cf30cee9532233569e547cc26d30df791769364fde92c6"
+    },
+    {
+      "path": "draft/graphics.4bpp",
+      "bytes": 5536,
+      "sha256": "a0c11d35a537fca6f7f2c83943a62ed35ed1d63aa0f479983c3e9b2a2e06b5bb"
+    },
+    {
+      "path": "draft/graphics.ct-lz",
+      "bytes": 3197,
+      "sha256": "c80d7155ee1621cc18159a0ca484812899d15e446acae899c89a43ec29730409"
+    },
+    {
+      "path": "draft/assembly.bin",
+      "bytes": 840,
+      "sha256": "18146ef10965d0a7c29cb46acae992b79ff79f8b0d9b87f20b8b1afeab23bd1a"
+    },
+    {
+      "path": "draft/palette-16.bin",
+      "bytes": 24,
+      "sha256": "46d3bc25f9c4e6ffd57cb6094f0b10247ac101e9537f720565cfdb616c7d80c6"
+    },
+    {
+      "path": "draft/palette-17.bin",
+      "bytes": 24,
+      "sha256": "a4664a0ace255bdfe830e881aba517a2fec55a89bba6b682764b6ee5f14f6617"
+    },
+    {
+      "path": "draft/verification.json",
+      "bytes": 15489,
+      "sha256": "45f06a9360a8ab1bc2ff98e6738d61dde176a1afff69199008d1669c31f1b0bc"
+    },
+    {
+      "path": "draft/current-co-loads.json",
+      "bytes": 15526,
+      "sha256": "391534f39bb4cdbbd31a144ff55da7dd9b738aad51c8447c4eb5d2c06afa55bb"
+    },
+    {
+      "path": "draft/native-6x.png",
+      "bytes": 23406,
+      "sha256": "3774107844dca05d14a49e9e71484e0cf06f8870a21e2f3350d25725dc913cac"
+    },
+    {
+      "path": "review/contact-sheet-1x.png",
+      "bytes": 37908,
+      "sha256": "78d52d7b1cfcc203d780a9b0ce986c5c3913283e45a9d3b404ec4d2c2b77bfc0"
+    },
+    {
+      "path": "review/motion-strip-1x.png",
+      "bytes": 37595,
+      "sha256": "1ba6dc4604ee99c1e4855d5c91a10f89037649ee66540280f408f44995a871f1"
+    },
+    {
+      "path": "review/motion-review.html",
+      "bytes": 56803,
+      "sha256": "d8198ee3d41ba0df748294bd7ac5c5f9676e601da2bb7c6ea718f0ccc86dd562"
+    },
+    {
+      "path": "review/motion-review.gif",
+      "bytes": 241189,
+      "sha256": "c672f890f296f754d7694cc6ab19b2c56f3609c4052b8a7e0386d086f932460f"
+    },
+    {
+      "path": "review/review-manifest.json",
+      "bytes": 1119,
+      "sha256": "ad83dce7864e81df01d675112d7135090fc8f9d672aa0605de383654104aba0d"
+    },
+    {
+      "path": "review/npc76-frame4-native-crop-6x.png",
+      "bytes": 3632,
+      "sha256": "fc13dea6d802567358a909c22d4dc923a7f113f93b8088aa259ee31d583a6f47"
+    },
+    {
+      "path": "native-verification/manifest.json",
+      "bytes": 4602,
+      "sha256": "bcb1fc192281dbe6953112ad346b617dc6485ccaa31dee06c0edcc3fa98d19dd"
+    },
+    {
+      "path": "native-verification/crumb-hunter-npc76-native-frame-0.png",
+      "bytes": 56521,
+      "sha256": "4b56557efb36b65ec30ecd30ae142806d277bd4a43fa941d85833e064bb0c270"
+    },
+    {
+      "path": "native-verification/crumb-hunter-npc76-native-frame-4.png",
+      "bytes": 56520,
+      "sha256": "bf3b5180dec32b07dcb3216dc13a02f6f3c9a27814c83aa76e160815039eb52f"
+    },
+    {
+      "path": "native-verification/crumb-hunter-native-frame-6.png",
+      "bytes": 56489,
+      "sha256": "2c056325c9261520dbde3bccc7230a0a6f3de58057e0117a51f8a22f6f8d484e"
+    },
+    {
+      "path": "native-verification/crumb-hunter-native-frame-12.png",
+      "bytes": 56297,
+      "sha256": "dd81976f5a97704882fd88400d0e475907b811c6f51fd2c20dbb7cb26df63e1b"
+    },
+    {
+      "path": "native-verification/crumb-hunter-native-frame-16.png",
+      "bytes": 56414,
+      "sha256": "b5bbe8697bda3a26ff422b44ac43c8dce3c8467277869abda575029ed0614375"
+    },
+    {
+      "path": "native-verification/kiln-hunter-native-frame-17.png",
+      "bytes": 56315,
+      "sha256": "9c92f4a4c209a74393dcbebc73aa2d3ca9f6ab48e0b7725b6e985845f2ff57ca"
+    },
+    {
+      "path": "native-verification/kiln-hunter-native-frame-19.png",
+      "bytes": 56390,
+      "sha256": "9e1b53bc8d1eae7c41c07b1d7325d2218b5c858b402103e2a13a66ca983ed8d0"
+    },
+    {
+      "path": "motion-verification/manifest.json",
+      "bytes": 240752,
+      "sha256": "406a2780b55741d8d95c7589da716d3d117bbdc14000db1d6fd998db684b1656"
+    },
+    {
+      "path": "integration-proposal.json",
+      "bytes": 18622,
+      "sha256": "5742e4575d2f05c7ee87d61223f99b6e3aec418eb7e1863dcc91e414d72c702e"
+    }
+  ],
+  "excluded": [
+    "Unselected base/detail sampling trials",
+    "Original extracted cartridge-art review PNGs",
+    "Redundant native capture PNGs",
+    "Active import-spec.json",
+    "Any ROM, checkpoint or active registry/engine/content change"
+  ],
+  "limitations": [
+    "The conservative all-branch saved-build unions at5and282exceed32KiB; these are not actual simultaneous residency measurements.",
+    "The private proof is a compressed solo overlay, not candidate raw streaming or original scene/battle proof.",
+    "Front eye details are small at native scale. No procedural pixel detail was added.",
+    "13dynamic/held scenarios are verified; unrelated event choreography and battle transitions remain root-owned."
+  ]
+}

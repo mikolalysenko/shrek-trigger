@@ -1,0 +1,392 @@
+{
+  "status": "Frozen inactive generated source packet; visual, exact native display, timed animation, Lab32 encounter and Iron initialization checks passed",
+  "activation": false,
+  "key": "mire-golems",
+  "directory": "assets/imagegen/mire-golems/golem",
+  "gfx": 154,
+  "asm": 147,
+  "animation": 117,
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 163,
+      "key": "mire-golem",
+      "palette": 194,
+      "header": [
+        154,
+        147,
+        194,
+        117,
+        1,
+        0,
+        208,
+        16,
+        16,
+        68
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 164,
+      "key": "iron-golem",
+      "palette": 195,
+      "header": [
+        154,
+        147,
+        195,
+        117,
+        1,
+        0,
+        208,
+        16,
+        16,
+        68
+      ]
+    }
+  ],
+  "native": {
+    "frames": 32,
+    "distinctSourcePoses": 26,
+    "distinctNativeImages": 32,
+    "cells": 8,
+    "size": 1,
+    "canvas": [
+      64,
+      64
+    ],
+    "artifact": "golem/native-raster.json",
+    "geometry": "golem/native-frame-map.draft.json",
+    "anchor": [
+      0,
+      0
+    ],
+    "frameOffsets": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "exactWholeSourceMirrors": [
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        23,
+        25
+      ],
+      [
+        24,
+        26
+      ]
+    ],
+    "bodyMirrorsWithSeparateNativeShadow": [
+      [
+        17,
+        19
+      ]
+    ],
+    "originalShadow": {
+      "slots": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "size": [
+        14,
+        4
+      ],
+      "opaquePixels": 48,
+      "source": "golem/source-native-shadow.json",
+      "sourceRomSha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+      "pixelsSha256": "a73c836502647870d0d3e925e4d2edc309933939654cca56b4bb8da500a0767a"
+    }
+  },
+  "resources": {
+    "decodedBytes": 18656,
+    "compressedBytes": 14778,
+    "assemblyBytes": 2560,
+    "tiles": 583,
+    "originalCT": {
+      "decodedBytes": 9280,
+      "compressedBytes": 7130,
+      "assemblyBytes": 2560,
+      "decodedDelta": 9376,
+      "compressedPlusAssemblyDelta": 7648,
+      "alignedRomDelta": 7648
+    },
+    "earlierArt": {
+      "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+      "decodedBytes": 4736,
+      "compressedBytes": 2488,
+      "assemblyBytes": 2560,
+      "decodedDelta": 13920,
+      "compressedPlusAssemblyDelta": 12290,
+      "alignedRomDelta": 12290
+    },
+    "nativeStreamRequired": true,
+    "streamedRawBytes": 18656,
+    "extraWramBytes": 0,
+    "extraVramBytes": 0
+  },
+  "hashes": {
+    "graphics": "8ceb16af03ab0e3911ae8632a88d0b51cb941371203936e47ae2d976cba0f4d4",
+    "compressed": "bb61422b8a8d00c9798da20abde7a21a65bd06853048ce839374c18df9f81d08",
+    "assembly": "479f6a007db9171b509e632f3a6a7d6b9a8d71185e38c2f85dd76ea1a9f00b45"
+  },
+  "visualReview": {
+    "self": "All 32 slots in both preserved palettes reviewed at 1×/enlarged, exact native atlases and actual Lab32/scene312 captures inspected.",
+    "root": "Approved full 32-slot model, directional airborne shapes and shadows; specifically accepted two-pixel new walk top bob versus one original, original one-pixel foot-anchor movement, and unchanged selected source pixels.",
+    "lead": "Approved all 32 slots/two palettes and enlarged action pages. Stone planes, moss, face and joints remain coherent; airborne pairs retain orientation, compression31 remains the same body and original shadows remain clear.",
+    "nativeLatencyAcceptance": "Root accepted four one-video-frame delayed phase boundaries across 1,560 native ticks with unchanged requests/timers and coherent full-frame transfers. Production placement/scene checks remain root-owned."
+  },
+  "proof": {
+    "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+    "candidateSha256": "a17c76dda82743f8ed542a897954ad4bd8a16861b6b863c55f4070c07eb993be",
+    "nativeManifest": "native-display-proof.json",
+    "uploads": 64,
+    "cells": 512,
+    "opaquePixels": 67144,
+    "timingManifest": "native-timing-proof.json",
+    "cases": 36,
+    "cycles": 72,
+    "ticks": 1560,
+    "maximumDisplayDelay": 1,
+    "delayedBoundaries": 4,
+    "completeVramAndOamCoherent": true,
+    "legacyManifest": "legacy-handoff-proof.json",
+    "legacyWalkTicks": 480,
+    "legacyMaximumDisplayDelay": 0,
+    "visibleTimingIdentical": false,
+    "walkComparisonManifest": "walk-comparison-proof.json",
+    "sceneManifest": "native-scene-proof.json",
+    "roadBattles": 4,
+    "roadDamageResults": 20,
+    "roadDestination": 225,
+    "actualFieldHeapBytes": {
+      "224": 3136,
+      "312": 1440
+    },
+    "ironInitializationOwners": 4,
+    "independentCore": false
+  },
+  "sceneBudget": {
+    "manifest": "scene-budget-audit.json",
+    "originalLocations": [
+      213,
+      224,
+      312
+    ],
+    "maxLegacyUnion": 21792,
+    "maxStreamedUnion": 3136,
+    "minimumSpare": 29632,
+    "limit": 32768,
+    "scope": "Conservative union of all original event load branches using emitted e136 headers/resources. Baseline raw streams are excluded only when selected by that immutable cartridge; candidate additionally selects gfx154. The newer private Usher stream is not assumed. No full scene residency/choreography claim."
+  },
+  "integration": [
+    "Register golem/native-raster.json as the complete native-order32-frame artifact under mire-golems, or reproduce the identical composition from raw sources using prepare-draft.mjs. Its provenance includes five sampled imagegen sheets plus the separately retained original shadow.",
+    "Do not feed the raw42-frame preview-raster/nativeMap directly to the actor: it lacks final body positioning and source shadows. The native-raster sequence is0..31; the source mapping is a separate earlier stage.",
+    "Compile width64,height64,size1 using native-frame-map.draft.json frames[].cellOrigins. Then add frameOffsets[f][x/y] to each of eight native cell coordinates at assembly[f*80+64+cell*2+axis]. This exact artifact path is checked against source-built4bpp/compressed/assembly hashes in freeze-draft.mjs.",
+    "Preserve enemy163/164, gfx154, asm147, animation117, full size byte1, both current palette194/195 packets, all original headers/AI/stats/events and animation tables.",
+    "Select gfx154 through the established per-family size1 native stream contract, validating both emitted owners. Preserve default original decoded limits for unselected banks. Allocate compressed graphics and raw streams using production pools; private addresses are not activation addresses.",
+    "Root owns active source/registry integration, current baseline reconstruction, independent-core and connected-scene checks."
+  ],
+  "limitations": [
+    "Standing body height is 57–58 pixels versus original63–64; compression31 is47 pixels versus58. Bottom and horizontal center stay at original coordinates, with integer center rounding at most0.5px. No approved pixels were changed after review.",
+    "Generated walk passing frames1/4 have a two-pixel top bob versus one original; foot-anchor movement remains one pixel. The aligned original/new 60fps comparison records this accepted difference.",
+    "Source generation included direction deviations: movement cell8 and tumble cell4 were actually right-facing, so the correct native left slots use exact mirrors. Separately authored source18/20 retain distinct original curl anatomy.",
+    "The source shadow is an explicitly retained original-ROM indexed raster; all body anatomy comes from actual image generation. Raw imported body mappings alone are incomplete without composition.",
+    "The candidate exceeds the original decoded family allowance and requires explicit gfx154 streaming; original guards remain required for unselected families. No additional WRAM/VRAM is requested.",
+    "Native frame requests/timers match original lists; visible timing is not identical. Four boundaries display the preceding complete pose for one extra native video frame; the legacy walk comparison observed none.",
+    "Only Lab32 scene224 establishes encounter order, damage, victory and the native exit. Scene312 proves initialization/ownership/heap, and scene213 has static load-union evidence only.",
+    "Independent-core execution and actual production allocation/placement are integration checks. This private proof uses immutable e136 resources, without assuming newer private replacements or stream exclusions."
+  ],
+  "reproduce": [
+    "node assets/imagegen/mire-golems/prepare-draft.mjs",
+    "node assets/imagegen/mire-golems/review-draft.mjs",
+    "node assets/imagegen/mire-golems/compare-walk.mjs",
+    "node assets/imagegen/mire-golems/freeze-draft.mjs"
+  ],
+  "proofReproduce": [
+    "node assets/imagegen/mire-golems/verify-native.mjs",
+    "node assets/imagegen/mire-golems/verify-timed-animation.mjs",
+    "node assets/imagegen/mire-golems/verify-legacy-handoff.mjs",
+    "node assets/imagegen/mire-golems/verify-scenes.mjs"
+  ],
+  "compilerDependencies": [
+    {
+      "file": "scripts/import-raster-art.mjs",
+      "bytes": 10773,
+      "sha256": "932f6a4558afc571610f2ae10790b7623e0524fa8b541eb3dc03a596172db1f1"
+    },
+    {
+      "file": "engine/native-sprites.js",
+      "bytes": 8636,
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "file": "engine/compression.js",
+      "bytes": 4100,
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "file": "engine/sprites.js",
+      "bytes": 8935,
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "file": "scripts/native-sprite-view.mjs",
+      "bytes": 3205,
+      "sha256": "72d8109582ba67316c7d448af1b8424da58174745ac634fe40685672a6b4af99"
+    },
+    {
+      "file": "content/future-wildlife.js",
+      "bytes": 11157,
+      "sha256": "c1ad2f1d09c3fa7fcff901a4aa5d661dfbba3d83ac0fe24bdc86b9dcc70d2f9d"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 2116,
+      "sha256": "64a6a819820c608b0efc612e049a872b68b3159ec6d3cc95ae13261893a980b5"
+    }
+  ],
+  "freeze": "freeze.json"
+}

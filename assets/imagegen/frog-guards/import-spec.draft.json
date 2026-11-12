@@ -1,0 +1,173 @@
+{
+  "key": "frog-guards",
+  "directory": "assets/imagegen/frog-guards",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "242c2c",
+    "2f503e",
+    "527f52",
+    "87ad70",
+    "c3d59b",
+    "3c4149",
+    "737d82",
+    "b0bbb3",
+    "5e4035",
+    "a27550",
+    "d8b966",
+    "fff0c8"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/frog-guards/source-base-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 22,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 61,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.8181818181818182
+        },
+        "1": {
+          "scale": 0.8273092369477912
+        },
+        "2": {
+          "scale": 0.805018510900864
+        },
+        "3": {
+          "scale": 0.8174603174603176
+        },
+        "4": {
+          "scale": 0.8551266085512661
+        },
+        "5": {
+          "scale": 0.800608313619466
+        },
+        "6": {
+          "scale": 0.752435064935065
+        },
+        "7": {
+          "scale": 0.7369528619528619
+        },
+        "8": {
+          "scale": 0.7508576329331047
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/frog-guards/source-actions-v1.png",
+      "columns": 2,
+      "rows": 5,
+      "nativeHeight": 22,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 61,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "0": {
+          "scale": 1
+        },
+        "1": {
+          "scale": 1.019164619164619
+        },
+        "2": {
+          "scale": 1.0635118306351181
+        },
+        "3": {
+          "scale": 1.0808936825885977
+        },
+        "4": {
+          "scale": 1.1844660194174756
+        },
+        "5": {
+          "scale": 0.9580187254605859
+        },
+        "6": {
+          "scale": 1.1317254174397031
+        },
+        "7": {
+          "scale": 1.6553595658073268
+        },
+        "8": {
+          "scale": 1.0397727272727273
+        },
+        "9": {
+          "scale": 1.1375291375291374
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/frog-guards/source-down-tongue-v2.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 22,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 61,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "0": {
+          "scale": 1.8181818181818181
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "source": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive source extraction only. Native-raster.json and native-frame-map.draft.json contain the complete composed native frames.",
+    "unusedSourceFrames": [
+      16
+    ],
+    "pixels": "Actual generated anatomy; nearest source sampling, exact palette indexing, native-proven mirrors and original raster shadows only. No procedural anatomy.",
+    "directionCorrection": "Base source6 faces right and is mirrored for native8; native11 uses it unmirrored.",
+    "shadow": "Original index1 bottom masks under generated body; overlap is explicitly counted, body has priority.",
+    "activation": false
+  }
+}

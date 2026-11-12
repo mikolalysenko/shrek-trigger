@@ -1,0 +1,88 @@
+{
+  "key": "donkey-portrait",
+  "width": 48,
+  "height": 48,
+  "sourceType": "reused-generated-source",
+  "directory": "assets/imagegen/donkey-portrait/candidates/laugh-area",
+  "palette": [
+    "29252a",
+    "56515a",
+    "8e8a8e",
+    "beb6ae",
+    "dcd0b9",
+    "4a3430",
+    "85604a",
+    "302b31",
+    "f7edce",
+    "262027",
+    "bf8c6e",
+    "a5a19b"
+  ],
+  "samplingPalette": [
+    "29252a",
+    "5f544a",
+    "95877b",
+    "b8aca0",
+    "dcd0b9",
+    "60371d",
+    "a76f2e",
+    "302b31",
+    "f7edce",
+    "161313",
+    "d59b38",
+    "899397"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/donkey-portrait/source-crop-laugh-v1.png",
+      "columns": 1,
+      "rows": 1,
+      "scaleCells": [
+        0
+      ],
+      "nativeHeight": 42,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "area",
+        "bottom": 47
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "notes": {
+    "material": "The source is an exact rectangular RGBA crop from an already approved generated field atlas. No anatomy, expression, clothing, or alpha pixels are painted.",
+    "cropSource": {
+      "key": "donkey",
+      "label": "laugh",
+      "source": "assets/imagegen/donkey/source-gestures-v1.png",
+      "sourceSha256": "af05f3da0c215c5d041540b77e9ab944ded36e8b4283d18359c4b4b4e83088ae",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": [
+        42,
+        638,
+        180,
+        165
+      ],
+      "cropFile": "assets/imagegen/donkey-portrait/source-crop-laugh-v1.png",
+      "cropSha256": "178efc8b4aae61f615b921cbf0421028c63df23021bb21063547ca2cbfdacc80",
+      "cropOpaqueBounds": [
+        3,
+        3,
+        177,
+        162
+      ],
+      "nativeHeight": 42
+    },
+    "activation": "Inactive portrait feasibility draft; no active registry or engine change."
+  }
+}

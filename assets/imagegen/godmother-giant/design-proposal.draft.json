@@ -1,0 +1,15 @@
+{
+  "status": "Inactive source design after native audit; no active files changed",
+  "identity": "Accepted Fairy Godmother: silver bun, narrow cat-eye glasses, round mature peach face and blue gown cuffs",
+  "reference": "assets/imagegen/godmother/source-v1.png",
+  "nativeGroups": [
+    {"key":"face","gfx":161,"asm":153,"owners":[176],"size":130,"cells":12,"frames":2,"animation":[177],"design":"Whole hovering head, closed/open mouth; reuse identical source pixels outside the mouth where possible."},
+    {"key":"hands","gfx":162,"asm":154,"owners":[177,178],"size":1,"cells":8,"frames":20,"animation":[179,178],"design":"Consistent bare fairy hands and blue cuffs, all original gestures, mirrored partners, compact stages and long vertical streak preserved."}
+  ],
+  "paletteProposal": {"ids":[205,206],"reference":88,"colorsFrom":"assets/imagegen/godmother/import-spec.json","ownership":"205 is enemy176 only;206 is enemies177/178 only. Neither has a pointer alias.88 and story actors remain untouched."},
+  "background": {"replacementProposed":false,"reason":"Original scene107 battle shows the entire face and both hands in native OBJ cells over its unchanged tileset23/map44 scenery. Scenes102–106 use inherited transition scenery; no separate background portrait has been identified. All background graphics, palettes, map bytes and effects remain unchanged."},
+  "attachments": {"originalScene107FieldOrigins":{"176":[128,80],"178":[184,110],"177":[72,110]},"policy":"Retain actor origins, original header offsets, native lowest-pixel anchors and hand mirrors. The head and hands float separately; no body attachment is invented."},
+  "animationOwnership": {"177":[111,176,203,215],"178":[178],"179":[177],"policy":"All shared frame and duration programs remain byte-identical, including unrelated owners of177."},
+  "mechanics": "Retain IDs, AI, stats, rewards, event programs, native targeting and blank hand names.",
+  "activation": false
+}

@@ -1,0 +1,593 @@
+{
+  "status": "Passed",
+  "name": "piazza",
+  "baseline": {
+    "path": "assets/imagegen/palace-hexer/private-baseline.sfc",
+    "sha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "scope": "Pinned published cartridge; read-only audit; private copy excluded from source handoff"
+  },
+  "privateRomSha256": "7969140b436eb39bcfced1aa46fae5fa12f46e32260a36388ad2ec1cea7c1f7a",
+  "checkpoint": {
+    "id": 405,
+    "x": 13,
+    "y": 40,
+    "formation": [
+      59,
+      82,
+      82
+    ],
+    "story": 200,
+    "party": [
+      0,
+      1,
+      2
+    ],
+    "endgameKit": true,
+    "clearedFlags": [
+      "7F0162",
+      "7F0163"
+    ],
+    "endingFlag7F00F8": 0
+  },
+  "nativeTicks": 4680,
+  "result": {
+    "formation": [
+      59,
+      82,
+      82,
+      255,
+      255,
+      255,
+      255,
+      255
+    ],
+    "controllerAttackIterations": 35,
+    "progressFlag": {
+      "address": "7F0163",
+      "mask": 16,
+      "value": 16
+    },
+    "returnLocation": 405,
+    "scope": "Original random-trigger mixed encounter, battle, progression bit and exploration return; diagnostic room entry only, not the complete palace route."
+  },
+  "party": [
+    {
+      "id": 0,
+      "hp": 999
+    },
+    {
+      "id": 1,
+      "hp": 999
+    },
+    {
+      "id": 2,
+      "hp": 999
+    }
+  ],
+  "heapMax": 1248,
+  "heapByLocation": [
+    {
+      "location": 2,
+      "min": 1248,
+      "max": 1248
+    },
+    {
+      "location": 405,
+      "min": 0,
+      "max": 1248
+    }
+  ],
+  "loads": [
+    {
+      "frame": 8933,
+      "location": 405,
+      "pc": 12605696,
+      "object": 10,
+      "scriptPC": 1262,
+      "opcode": 131,
+      "id": 82
+    },
+    {
+      "frame": 8933,
+      "location": 405,
+      "pc": 12605696,
+      "object": 11,
+      "scriptPC": 1316,
+      "opcode": 131,
+      "id": 82
+    },
+    {
+      "frame": 8933,
+      "location": 405,
+      "pc": 12605696,
+      "object": 12,
+      "scriptPC": 1367,
+      "opcode": 131,
+      "id": 213
+    },
+    {
+      "frame": 8933,
+      "location": 405,
+      "pc": 12605696,
+      "object": 13,
+      "scriptPC": 1423,
+      "opcode": 131,
+      "id": 213
+    },
+    {
+      "frame": 8934,
+      "location": 405,
+      "pc": 12605696,
+      "object": 14,
+      "scriptPC": 1479,
+      "opcode": 131,
+      "id": 213
+    },
+    {
+      "frame": 8934,
+      "location": 405,
+      "pc": 12605696,
+      "object": 15,
+      "scriptPC": 1535,
+      "opcode": 131,
+      "id": 82
+    },
+    {
+      "frame": 8934,
+      "location": 405,
+      "pc": 12605696,
+      "object": 16,
+      "scriptPC": 1613,
+      "opcode": 131,
+      "id": 82
+    },
+    {
+      "frame": 8934,
+      "location": 405,
+      "pc": 12605696,
+      "object": 18,
+      "scriptPC": 1726,
+      "opcode": 131,
+      "id": 214
+    },
+    {
+      "frame": 8934,
+      "location": 405,
+      "pc": 12605696,
+      "object": 19,
+      "scriptPC": 1764,
+      "opcode": 131,
+      "id": 214
+    },
+    {
+      "frame": 8934,
+      "location": 405,
+      "pc": 12605696,
+      "object": 20,
+      "scriptPC": 1811,
+      "opcode": 131,
+      "id": 214
+    },
+    {
+      "frame": 8934,
+      "location": 405,
+      "pc": 12605696,
+      "object": 23,
+      "scriptPC": 1990,
+      "opcode": 131,
+      "id": 59
+    },
+    {
+      "frame": 8934,
+      "location": 405,
+      "pc": 12605696,
+      "object": 24,
+      "scriptPC": 2028,
+      "opcode": 131,
+      "id": 82
+    },
+    {
+      "frame": 8934,
+      "location": 405,
+      "pc": 12605696,
+      "object": 25,
+      "scriptPC": 2061,
+      "opcode": 131,
+      "id": 82
+    }
+  ],
+  "dispatches": [
+    {
+      "frame": 8856,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8857,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8858,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8860,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8860,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8861,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8862,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8864,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8864,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8865,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8866,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8868,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8868,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8869,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8870,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        149,
+        3,
+        13,
+        40,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 9536,
+      "location": 405,
+      "pc": 12606115,
+      "object": 7,
+      "scriptPC": 1162,
+      "opcode": 216,
+      "args": [
+        18,
+        64,
+        119,
+        6,
+        101,
+        132
+      ]
+    },
+    {
+      "frame": 13277,
+      "location": 405,
+      "pc": 12606115,
+      "object": 7,
+      "scriptPC": 1162,
+      "opcode": 216,
+      "args": [
+        18,
+        64,
+        119,
+        6,
+        101,
+        132
+      ]
+    },
+    {
+      "frame": 13281,
+      "location": 405,
+      "pc": 12606115,
+      "object": 7,
+      "scriptPC": 1167,
+      "opcode": 101,
+      "args": [
+        132,
+        99,
+        0,
+        0,
+        178,
+        231
+      ]
+    }
+  ],
+  "messages": [],
+  "techs": [
+    {
+      "frame": 10931,
+      "location": 405,
+      "pc": 12687933,
+      "object": 24,
+      "actor": 4,
+      "enemyId": 82,
+      "aiPC": 39889,
+      "operand": 8
+    },
+    {
+      "frame": 11500,
+      "location": 405,
+      "pc": 12687933,
+      "object": 24,
+      "actor": 5,
+      "enemyId": 82,
+      "aiPC": 39889,
+      "operand": 8
+    }
+  ],
+  "pointers": [
+    {
+      "location": 405,
+      "object": 23,
+      "enemy": 59,
+      "pointer": 8133600,
+      "palette": 39
+    }
+  ],
+  "observedNativeFrames": [
+    {
+      "key": "405:23:4",
+      "samples": 102
+    },
+    {
+      "key": "405:23:5",
+      "samples": 7
+    },
+    {
+      "key": "405:23:3",
+      "samples": 2
+    }
+  ],
+  "shots": [
+    {
+      "key": "entry",
+      "tick": 500,
+      "location": 405,
+      "brightness": 15,
+      "battle": 0,
+      "formation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "battle",
+      "tick": 1185,
+      "location": 405,
+      "brightness": 15,
+      "battle": 1,
+      "formation": [
+        59,
+        82,
+        82,
+        255,
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "key": "victory",
+      "tick": 4680,
+      "location": 405,
+      "brightness": 15,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ]
+    }
+  ],
+  "palette39Unchanged": true,
+  "allAuthoredEventBytesUnchanged": true,
+  "cartridgeUnchanged": true,
+  "scope": "No event, enemy, pose or HP writes after the initial diagnostic checkpoint. Scope of each original scene is bounded in result; this is not whole-chapter or complete-ending acceptance."
+}

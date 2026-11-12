@@ -1,0 +1,112 @@
+{
+  "key": "fiona-human",
+  "palette": [
+    "272e28",
+    "a56e4e",
+    "dfa77d",
+    "f8d2a4",
+    "fff0ce",
+    "27543d",
+    "4e8b5b",
+    "4f2d27",
+    "fff3d6",
+    "9a4930",
+    "cb7442",
+    "dfb852"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/fiona-human/source-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1.2
+      },
+      "overrides": {}
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ]
+    },
+    "walk": {
+      "0": [
+        6,
+        1,
+        7
+      ],
+      "1": [
+        4,
+        0,
+        5
+      ],
+      "2": [
+        8,
+        9
+      ]
+    },
+    "bow": {
+      "1": [
+        10
+      ]
+    },
+    "pray": {
+      "3": [
+        11
+      ]
+    },
+    "raise": {
+      "0": [
+        15
+      ],
+      "1": [
+        12
+      ]
+    },
+    "cast": {
+      "1": [
+        13,
+        14
+      ]
+    }
+  },
+  "notes": {
+    "status": "Draft preview only; not registered in stable generated runtime.",
+    "generation": "Built-in image_gen__imagegen actual raster source; no procedural pixel anatomy.",
+    "mirroring": "Side idle and walk use generated left-facing pixels mirrored for native right-facing slots. Explicit right-facing special gestures use their generated direction.",
+    "poseTiming": "Original native animation timing and slot identities remain. The two-slot side walks use both generated contact poses. Three-slot walks use contact, standing passing and opposite contact. Godmother uses her native two-slot phase IDs; no missing animation frame falls back to unrelated art.",
+    "samplingPalette": "The two cloth reference colors match dominant source-raster shadow/highlight clusters, preserving cloth folds during index assignment. The twelve hardware colors and all anatomy are unchanged.",
+    "selectedSampling": "Compared nearest/area at28 and29 pixels, with X1 and X1.2. Selected28px standing height and uniform X1.2 to keep small faces readable; only documented wide-gesture caps differ. Nearest sampling retains facial marks; the two source-cloth shade references preserve source folds."
+  },
+  "samplingPalette": [
+    "272e28",
+    "a56e4e",
+    "dfa77d",
+    "f8d2a4",
+    "fff0ce",
+    "184828",
+    "386838",
+    "4f2d27",
+    "fff3d6",
+    "9a4930",
+    "cb7442",
+    "dfb852"
+  ]
+}

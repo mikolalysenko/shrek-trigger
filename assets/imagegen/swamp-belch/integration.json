@@ -1,0 +1,69 @@
+{
+  "status": "Active native cartridge, BPS and review gallery; validation passed",
+  "sha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "sourceFreeze": "assets/imagegen/swamp-belch/freeze.json",
+  "sourceFreezeSha256": "3e7cdf2fd669b47cecb9ec1323dbaeaf1e356e3243cbcdaf649f513fe51c8f7c",
+  "sourcePhase": 7,
+  "mechanics": "Source Luminaire; Air, all enemies,20MP, unchanged unlock and damage",
+  "payloadBytes": 6970,
+  "alignedBytes": 6972,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "freeOriginalBytes": 36808,
+  "freeExtendedBytes": 1639072,
+  "checks": {
+    "focused": 5,
+    "sourceOnlyReproduction": true,
+    "browser": true,
+    "fullRegression": {
+      "passed": 248,
+      "failed": 0
+    },
+    "independent": {
+      "snes9x": {
+        "frames": 31320,
+        "casts": 3,
+        "followingEyeLasers": [
+          "dispatch",
+          "flames",
+          "damage"
+        ],
+        "exactVram": true
+      },
+      "bsnes": {
+        "frames": 31320,
+        "casts": 3,
+        "followingEyeLasers": [
+          "dispatch",
+          "flames",
+          "damage"
+        ]
+      }
+    },
+    "nativeContour": {
+      "allRadii": 100,
+      "playerSlots": 3,
+      "maxCpuCycles": 25736,
+      "liveMasks": 239,
+      "maxMasterTicks": 197084
+    },
+    "independentBpsReconstruction": true,
+    "stagedSourceReproduction": true
+  },
+  "evidence": [
+    ".local/qa/swamp-belch-native-casts.txt",
+    ".local/qa/swamp-belch-source-reproduction.json",
+    ".local/qa/swamp-belch-browser.txt",
+    ".local/qa/swamp-belch-independent-final.txt",
+    ".local/qa/swamp-belch-staged-reproduction.json",
+    ".local/qa/swamp-belch-bps-verification.json",
+    ".local/qa/belch-native/report.json",
+    ".local/qa/swamp-belch-e13648757bbe/report.json",
+    ".local/qa/swamp-belch-full-regression.txt",
+    ".local/qa/swamp-belch-art-review.txt"
+  ],
+  "limitations": [
+    "Complete campaign choreography, special final-battle rendering and physical hardware remain acceptance work."
+  ],
+  "canonicalPublished": true
+}

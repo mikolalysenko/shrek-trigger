@@ -1,0 +1,163 @@
+{
+  "key": "doris",
+  "status": "Frozen inactive source and native proof; root owns active integration",
+  "selectedModel": "Actual built-in generated Doris: broad adult jaw/nose, crown braid, plum brocade/apron, compact spoon/wand teaching actions. All body/effect pixels are sampled from the five selected PNGs; no anatomy or effect geometry painted in code.",
+  "importSpecs": {
+    "body": "assets/imagegen/doris/body/import-spec.draft.json",
+    "mantle": "assets/imagegen/doris/doris-mantle/import-spec.draft.json",
+    "halo": "assets/imagegen/doris/doris-halo/import-spec.draft.json"
+  },
+  "rasterKeys": [
+    "doris",
+    "doris-mantle",
+    "doris-halo"
+  ],
+  "nativeMaps": "assets/imagegen/doris/native-roles.draft.json",
+  "rendererReference": "assets/imagegen/doris/compile-draft.mjs",
+  "composition": "For tiers0/1/2/5, use the32×32 generated body. For tier3, place body at0,32 over the32×64 mantle. For tier4, place body at8,32 over48×64 halo. Both effect layers use aura/1 phase modulo2. Only transparent composition and whole-source mirror are performed; native assembly preserves original4/8/12cell budgets and authored offsets.",
+  "nativeRoleCorrections": [
+    {
+      "tier": 2,
+      "slot": 26,
+      "before": {
+        "facing": 1,
+        "pose": "down",
+        "phase": 0,
+        "x": 0,
+        "y": 0
+      },
+      "after": {
+        "facing": 0,
+        "pose": "idle",
+        "phase": 0,
+        "x": 0,
+        "y": 0
+      },
+      "evidence": "Original Goblin frame26 is rear standing, not a fallen front pose."
+    },
+    {
+      "tier": 5,
+      "slot": 17,
+      "before": {
+        "facing": 0,
+        "pose": "jump",
+        "phase": 0,
+        "x": 0,
+        "y": -12
+      },
+      "after": {
+        "facing": 0,
+        "pose": "tuck",
+        "phase": 0,
+        "x": 0,
+        "y": -12
+      },
+      "evidence": "Original Nu uses a rear tucked aerial preparation. All authored Shrek Trigger frame offsets are preserved."
+    },
+    {
+      "tier": 5,
+      "slot": 19,
+      "before": {
+        "facing": 1,
+        "pose": "jump",
+        "phase": 0,
+        "x": 0,
+        "y": 5
+      },
+      "after": {
+        "facing": 1,
+        "pose": "impact",
+        "phase": 0,
+        "x": 0,
+        "y": 5
+      },
+      "evidence": "Original Nu uses a low frontal headbutt/impact. New source is Doris’s low frontal landing; no upside-down or rear image substitution."
+    }
+  ],
+  "sampling": "Area sampling31px body reference; wide thrust/sit source poses have0.97 horizontal cap (one native pixel). Source hair references target fixed hair shades8/10; effect references cannot use varying dress indices6/7. Hardware palettes are unchanged.",
+  "coverage": {
+    "nativeSlots": 133,
+    "bodySourceDrawings": 49,
+    "effectSourceDrawings": 4,
+    "generatedNativeSlots": 133,
+    "proceduralNativeSlots": 0,
+    "missingRoles": [],
+    "limitations": [
+      "Tier4 native directions0/2 intentionally share the original left-facing walk IDs; this is not claimed as a separate back walk.",
+      "The native Nu-derived master impact is represented by Doris’s actual generated low frontal landing pose; the original creature anatomy is intentionally not retained.",
+      "Face landmarks and spoon/wand tips are compact at32px; approved native reduction preserves their silhouettes within existing cells."
+    ]
+  },
+  "budgets": {
+    "sharedTiles": 908,
+    "tileLimit": 1024,
+    "rawGraphicsBytes": 29056,
+    "compressedGraphicsBytes": 19370,
+    "assemblyBytes": 7760,
+    "previousRawGraphicsBytes": 11584,
+    "previousCompressedGraphicsBytes": 5022,
+    "rawDelta": 17472,
+    "compressedDelta": 14348,
+    "paletteBytesUnchanged": true,
+    "extraWramBytes": 0,
+    "extraVramBytes": 0
+  },
+  "nativeProof": {
+    "privateRomSha256": "d5616880bb4a3b5f317d4cdf13df859f675ef5bcc67108935804d5ed5e14e0cf",
+    "manifest": "assets/imagegen/doris/native-verification/manifest.json",
+    "exactUploads": 133,
+    "palettes": 6,
+    "ordinaryPracticeTiers": [
+      0,
+      3,
+      4,
+      5
+    ],
+    "nativeMagicAndVictoryTier": 0,
+    "roomHeap": {
+      "location": 465,
+      "allConditionalResourceUnion": [
+        {
+          "gfx": 252,
+          "bytes": 29056,
+          "owners": "Doris224–229 (mutually exclusive level selection)"
+        },
+        {
+          "gfx": 45,
+          "bytes": 800,
+          "owners": "Native reward NPC115"
+        },
+        {
+          "gfx": 57,
+          "bytes": 992,
+          "owners": "Native reward NPC128"
+        },
+        {
+          "gfx": 60,
+          "bytes": 1280,
+          "owners": "Native reward NPC136"
+        }
+      ],
+      "conservativeBytes": 32128,
+      "limit": 32768,
+      "spareBytes": 640
+    },
+    "independentEmulators": "Not run for this Doris candidate; root integration and independent-core checks remain."
+  },
+  "review": {
+    "allNativeFrames": "assets/imagegen/doris/native-frames.html",
+    "motion": "assets/imagegen/doris/motion.html",
+    "paletteComparison": "assets/imagegen/doris/palette-comparison.png",
+    "nativeRoom": "assets/imagegen/doris/native-verification/tier0-frame4.png",
+    "nativeMagicMantle": "assets/imagegen/doris/native-verification/tier4-frame13.png",
+    "nativeBattle": "assets/imagegen/doris/native-verification/tier4-battle-menu.png"
+  },
+  "reproduction": [
+    "node assets/imagegen/doris/reproduce-draft.mjs",
+    "node assets/imagegen/doris/build-private.mjs",
+    "node assets/imagegen/doris/verify-native.mjs",
+    "node assets/imagegen/doris/capture-battles.mjs"
+  ],
+  "noActiveFileWrites": true,
+  "canonicalRomWritten": false
+}

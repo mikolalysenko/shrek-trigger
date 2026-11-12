@@ -1,0 +1,138 @@
+{
+  "key": "violent-j",
+  "palette": [
+    "171521",
+    "363442",
+    "b77b59",
+    "e6b58a",
+    "f7f3df",
+    "b7bab7",
+    "dc3942",
+    "842137",
+    "293444",
+    "546779",
+    "c5a66a",
+    "f2ce73"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/violent-j/source-base-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 28,
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest"
+      }
+    },
+    {
+      "file": "assets/imagegen/violent-j/source-combat-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 28,
+      "scaleCells": [
+        12,
+        13
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "cells": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12
+      ],
+      "sample": {
+        "method": "nearest"
+      }
+    }
+  ],
+  "sequences": {
+    "walk": {
+      "0": [
+        6,
+        1,
+        7
+      ],
+      "1": [
+        4,
+        0,
+        5
+      ],
+      "2": [
+        8,
+        2,
+        9
+      ]
+    },
+    "hit": {
+      "1": [
+        10
+      ]
+    },
+    "windup": {
+      "0": [
+        12
+      ],
+      "1": [
+        11
+      ],
+      "2": [
+        {
+          "frame": 13,
+          "flip": true
+        }
+      ]
+    },
+    "recover": {
+      "0": [
+        15
+      ],
+      "1": [
+        14
+      ],
+      "2": [
+        25
+      ]
+    },
+    "attack": {
+      "0": [
+        17,
+        20,
+        23
+      ],
+      "1": [
+        16,
+        19,
+        22
+      ],
+      "2": [
+        18,
+        21,
+        {
+          "frame": 24,
+          "flip": true
+        }
+      ]
+    }
+  },
+  "notes": {
+    "status": "Draft only; not registered in stable runtime.",
+    "generation": "Actual built-in image-generation raster sources. No code-drawn face paint, weapon, anatomy or swing arc.",
+    "nativeCoverage": "37 battle slots and15 field slots. Native directional timing, frame IDs and assembly x/y offsets remain unchanged.",
+    "nativeMirrors": "Right-facing native roles mirror left-facing generated pixels; source-right drawings remain archived.",
+    "directionCorrections": [
+      "Both combat sheets drew source cell10 facing right; flip its imported frame24 for left-facing late follow-through.",
+      "Base cell13 wind-up faces right; flip for the native left-facing role."
+    ],
+    "arc": "Attack phase1 samples the actual generated short swing arc. Combat component union preserves any detached arc pixels within its source cell; phases0/2 have no arc.",
+    "selectedSampling": "Compared nearest/area at28/29px and a uniform1.15 horizontal trial. Selected nearest28 with original horizontal proportions: it keeps more of the distinct black-and-white paint marks and the generated short arcs. No sampler palette remap or hardware palette change.",
+    "remaining": "Draft coverage is complete. Native integration, resource allocation, sprite-upload checks and in-scene review remain pending; stable runtime is unchanged."
+  }
+}

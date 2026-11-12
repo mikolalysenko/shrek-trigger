@@ -1,0 +1,255 @@
+{
+  "status": "Frozen inactive proposal; root owns activation",
+  "sourcePackage": "assets/imagegen/duloc-tank/",
+  "registration": [
+    {
+      "key": "duloc-tank",
+      "draftSpec": "assets/imagegen/duloc-tank/chassis-import-spec.draft.json",
+      "suggestedActiveSpec": "assets/imagegen/duloc-tank/import-spec.json",
+      "rasterRole": {
+        "pose": "native",
+        "facing": 1,
+        "frame": "Native frame index"
+      },
+      "geometry": {
+        "width": 128,
+        "height": 112,
+        "size": 35,
+        "cells": 24,
+        "anchor": [
+          0,
+          16
+        ],
+        "cellOrigins": [
+          [
+            80,
+            32
+          ],
+          [
+            64,
+            32
+          ],
+          [
+            48,
+            32
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            80,
+            16
+          ],
+          [
+            24,
+            96
+          ],
+          [
+            80,
+            48
+          ],
+          [
+            64,
+            48
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            32,
+            48
+          ],
+          [
+            64,
+            16
+          ],
+          [
+            96,
+            8
+          ],
+          [
+            80,
+            64
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            48,
+            64
+          ],
+          [
+            32,
+            64
+          ],
+          [
+            16,
+            64
+          ],
+          [
+            0,
+            64
+          ],
+          [
+            96,
+            24
+          ],
+          [
+            64,
+            80
+          ],
+          [
+            48,
+            80
+          ],
+          [
+            32,
+            80
+          ],
+          [
+            16,
+            80
+          ],
+          [
+            0,
+            80
+          ]
+        ]
+      },
+      "graphics": "assets/imagegen/duloc-tank/chassis-draft/graphics.4bpp",
+      "compressed": "assets/imagegen/duloc-tank/chassis-draft/graphics.ct-lz",
+      "assembly": "assets/imagegen/duloc-tank/chassis-draft/assembly.bin",
+      "graphicsSha256": "9e184efb31c986d73565376bd5d1e6348992102b03c569e180a6df21b7d61729",
+      "assemblySha256": "1ffc01adb85ba6254c35de670b239625c9ede424898744b45d2c720b204b2214"
+    },
+    {
+      "key": "tank-head",
+      "draftSpec": "assets/imagegen/duloc-tank/head-import-spec.draft.json",
+      "suggestedActiveSpec": "assets/imagegen/tank-head/import-spec.json",
+      "rasterRole": {
+        "pose": "native",
+        "facing": 1,
+        "frame": "Native frame index"
+      },
+      "geometry": {
+        "width": 32,
+        "height": 32,
+        "size": 32,
+        "cells": 4,
+        "anchor": [
+          32,
+          -49
+        ],
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ]
+      },
+      "graphics": "assets/imagegen/duloc-tank/head-draft/graphics.4bpp",
+      "compressed": "assets/imagegen/duloc-tank/head-draft/graphics.ct-lz",
+      "assembly": "assets/imagegen/duloc-tank/head-draft/assembly.bin",
+      "graphicsSha256": "7bbd9248ddfeca09931aafffecff4d889e456b421cc7a93de595dae78c864183",
+      "assemblySha256": "2d0ffd5fdf5860b796a8ff08adc13befc19faa730857b7662778a95ce399c757"
+    },
+    {
+      "key": "tank-wheel",
+      "draftSpec": "assets/imagegen/duloc-tank/wheel-import-spec.draft.json",
+      "suggestedActiveSpec": "assets/imagegen/tank-wheel/import-spec.json",
+      "rasterRole": {
+        "pose": "native",
+        "facing": 1,
+        "frame": "Native frame index"
+      },
+      "geometry": {
+        "width": 32,
+        "height": 32,
+        "size": 40,
+        "cells": 4,
+        "anchor": [
+          -2,
+          6
+        ],
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ]
+      },
+      "graphics": "assets/imagegen/duloc-tank/wheel-draft/graphics.4bpp",
+      "compressed": "assets/imagegen/duloc-tank/wheel-draft/graphics.ct-lz",
+      "assembly": "assets/imagegen/duloc-tank/wheel-draft/assembly.bin",
+      "graphicsSha256": "ccf25cc74982bef0f6d29fe0f3db0b9827e90af59c24d1b5c4dda942dd22fc32",
+      "assemblySha256": "81163c3b40c984197e5e72a5127980962acce47b174413f42b48ae2bb2a81ebf"
+    }
+  ],
+  "totals": {
+    "rawGraphicsBytes": 5568,
+    "compressedBytes": 3715,
+    "assemblyBytes": 520,
+    "compressedAndAssembly": 4235,
+    "rawGrowthFromOriginal": 1056,
+    "rawGrowthFromEarlier": 992,
+    "compressedAndAssemblyGrowthFromOriginal": 290,
+    "compressedAndAssemblyGrowthFromEarlier": 1468
+  },
+  "guards": [
+    "gfx124 fixed size-class3 retains original2944-byte decoded ceiling; candidate2432. Preserve single240-byte assembly and all following240 bytes, including nonzero XY offsets.",
+    "No header, AI, palette, animation/duration, scene objects, target slots or collapse program changes.",
+    "Head145 and wheel144 are ordinary4-cell paths; their growth is proved through compressed native co-load and actual scene28. No streaming is required by this private packet. Root must recalculate integrated scene budget.",
+    "No new WRAM/VRAM or additional native cell reservations.",
+    "Keep palette184 exact current twelve-color ramp and exclusive owners147/148/173."
+  ],
+  "scope": {
+    "nativeUploads": 8,
+    "smallPartOpaquePixels": 3810,
+    "nativeTicks": 7200,
+    "modeFacingLists": 48,
+    "originalScene": 28,
+    "sceneHeapBytes": 24800,
+    "controllerTaps": 57,
+    "completedCollapseFlag": "7F021A=1",
+    "secondaryScene347": "Ownership and original event functions audited; not controller-executed here",
+    "independentCores": "Root integration followup, not claimed"
+  },
+  "nativeVerificationCommands": [
+    "node assets/imagegen/duloc-tank/verify-frozen.mjs",
+    "node assets/imagegen/duloc-tank/verify-native.mjs",
+    "node assets/imagegen/duloc-tank/verify-motion.mjs",
+    "node assets/imagegen/duloc-tank/verify-scene.mjs"
+  ],
+  "suggestedIntegratedChecks": [
+    "node --test tests/duloc-tank.test.mjs",
+    "node --test --test-name-pattern=\"Duloc Tank formation\" tests/trial.test.mjs",
+    "Existing scripts/independent.mjs tank8frame and original catwalk/controller checks in Snes9x and bsnes after root activation"
+  ]
+}

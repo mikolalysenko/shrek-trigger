@@ -1,0 +1,1986 @@
+{
+  "status": "Original resource and geometry audit. Legacy descriptor labels are not authoritative; corrected viewed semantics are in native-roles.json. Selected source and native proof are documented separately",
+  "family": {
+    "key": "crag-keeper",
+    "name": "Crag Keeper",
+    "gfx": 140,
+    "groups": [
+      {
+        "art": "crag-keeper",
+        "asm": 134,
+        "size": 1,
+        "width": 64,
+        "height": 64,
+        "frames": 27,
+        "cellOrigins": [
+          [
+            16,
+            16
+          ],
+          [
+            32,
+            16
+          ],
+          [
+            16,
+            32
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            16,
+            48
+          ],
+          [
+            32,
+            48
+          ],
+          [
+            0,
+            32
+          ],
+          [
+            48,
+            32
+          ]
+        ],
+        "frameOffsets": {
+          "1": [
+            0,
+            1
+          ],
+          "4": [
+            0,
+            1
+          ],
+          "7": [
+            0,
+            1
+          ],
+          "10": [
+            0,
+            1
+          ],
+          "12": [
+            0,
+            -2
+          ],
+          "13": [
+            0,
+            2
+          ],
+          "14": [
+            0,
+            2
+          ],
+          "15": [
+            0,
+            3
+          ],
+          "17": [
+            -4,
+            2
+          ],
+          "19": [
+            4,
+            2
+          ],
+          "20": [
+            0,
+            3
+          ],
+          "22": [
+            -4,
+            2
+          ],
+          "23": [
+            -2,
+            1
+          ],
+          "24": [
+            4,
+            2
+          ],
+          "25": [
+            2,
+            1
+          ],
+          "26": [
+            0,
+            6
+          ]
+        }
+      }
+    ],
+    "actors": [
+      {
+        "key": "crag-keeper",
+        "name": "Crag Keeper",
+        "short": "Crag Keeper",
+        "enemy": 169,
+        "asm": 134,
+        "palette": 188,
+        "animation": 102,
+        "colors": [
+          "232b30",
+          "3d4852",
+          "63737d",
+          "93a5a5",
+          "c7d0b5",
+          "2c4338",
+          "4e7350",
+          "91ac67",
+          "3b3547",
+          "736883",
+          "d2aa57",
+          "f6e9b9"
+        ]
+      },
+      {
+        "key": "crag-echo",
+        "name": "Crag Echo",
+        "short": "Crag Echo",
+        "enemy": 200,
+        "asm": 134,
+        "palette": 189,
+        "animation": 102,
+        "colors": [
+          "292636",
+          "443c53",
+          "73617c",
+          "a18a9c",
+          "d5b8bf",
+          "384157",
+          "586b86",
+          "94a7b5",
+          "4b3540",
+          "925e71",
+          "ddb060",
+          "ffedc9"
+        ]
+      }
+    ]
+  },
+  "paletteRecords": [
+    {
+      "palette": 188,
+      "enemy": 169,
+      "offset": 2363808,
+      "aliases": [
+        188
+      ],
+      "sha256": "d9e4018bb4a341eb6bb711a4c82171fabb027d31a14f8a429f78e0a2649f1358"
+    },
+    {
+      "palette": 189,
+      "enemy": 200,
+      "offset": 2363832,
+      "aliases": [
+        189
+      ],
+      "sha256": "5b297b68d4037537a0f870921578dbb8a46dff542da03a49b4e18918cdf42a22"
+    }
+  ],
+  "source": {
+    "graphicsOffset": 2057747,
+    "graphicsBytes": 8832,
+    "compressedBytes": 7976,
+    "assemblyOffset": 2305320,
+    "assemblyBytes": 2160,
+    "paletteOffset": 2363808,
+    "paletteAliases": [
+      188
+    ],
+    "animationOffset": 2390752,
+    "animationBytes": 144,
+    "animationProgram": [
+      1,
+      255,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      255,
+      0,
+      0,
+      0,
+      17,
+      16,
+      19,
+      18,
+      1,
+      255,
+      0,
+      0,
+      21,
+      255,
+      0,
+      0,
+      26,
+      255,
+      0,
+      0,
+      12,
+      13,
+      255,
+      0,
+      12,
+      13,
+      255,
+      0,
+      4,
+      255,
+      0,
+      0,
+      3,
+      4,
+      5,
+      4,
+      255,
+      0,
+      0,
+      0,
+      17,
+      16,
+      19,
+      18,
+      4,
+      255,
+      0,
+      0,
+      21,
+      255,
+      0,
+      0,
+      26,
+      255,
+      0,
+      0,
+      14,
+      15,
+      255,
+      0,
+      14,
+      15,
+      255,
+      0,
+      7,
+      255,
+      0,
+      0,
+      6,
+      7,
+      8,
+      7,
+      255,
+      0,
+      0,
+      0,
+      17,
+      16,
+      19,
+      18,
+      7,
+      255,
+      0,
+      0,
+      21,
+      255,
+      0,
+      0,
+      26,
+      255,
+      0,
+      0,
+      16,
+      17,
+      255,
+      0,
+      16,
+      17,
+      255,
+      0,
+      10,
+      255,
+      0,
+      0,
+      9,
+      10,
+      11,
+      10,
+      255,
+      0,
+      0,
+      0,
+      17,
+      16,
+      19,
+      18,
+      10,
+      255,
+      0,
+      0,
+      21,
+      255,
+      0,
+      0,
+      26,
+      255,
+      0,
+      0,
+      18,
+      19,
+      255,
+      0,
+      18,
+      19,
+      255,
+      0
+    ],
+    "animationSha256": "a77aef4f708f97933af3ed75d64b491a35fcb9d85eefe9f238dc6979dbfb33b0"
+  },
+  "owners": {
+    "0/140": [
+      {
+        "kind": "enemy",
+        "id": 169
+      },
+      {
+        "kind": "enemy",
+        "id": 200
+      }
+    ],
+    "1/134": [
+      {
+        "kind": "enemy",
+        "id": 169
+      },
+      {
+        "kind": "enemy",
+        "id": 200
+      }
+    ],
+    "2/188": [
+      {
+        "kind": "enemy",
+        "id": 169
+      }
+    ],
+    "2/189": [
+      {
+        "kind": "enemy",
+        "id": 200
+      }
+    ]
+  },
+  "headers": [
+    {
+      "id": 169,
+      "bytes": [
+        140,
+        134,
+        188,
+        102,
+        1,
+        0,
+        232,
+        20,
+        20,
+        33
+      ],
+      "ai": {
+        "offset": 831249,
+        "bytes": 111,
+        "sha256": "d3b8d2c1f480fa36ef73d8fb8290bf945a634504b5b4d3d7e03d1b3fec0de7c3"
+      }
+    },
+    {
+      "id": 200,
+      "bytes": [
+        140,
+        134,
+        189,
+        102,
+        1,
+        0,
+        240,
+        16,
+        16,
+        65
+      ],
+      "ai": {
+        "offset": 834067,
+        "bytes": 26,
+        "sha256": "457cf9e2e30074e43a6838a505eedb689f76412b71ab5361bf522acd5dfef144"
+      }
+    }
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "legacyDescriptor": {
+        "facing": 0,
+        "phase": 0
+      },
+      "xy": [
+        [
+          16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          0,
+          -48
+        ],
+        [
+          -31,
+          -32
+        ],
+        [
+          -15,
+          -16
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          -15,
+          -48
+        ]
+      ],
+      "opaquePixels": 1744,
+      "bounds": [
+        -31,
+        -48,
+        32,
+        0
+      ],
+      "pixelSha256": "b69728c4ff6deb43d06aaa19c777e1d8169937e103155bda2ede8e10a039ba58"
+    },
+    {
+      "frame": 1,
+      "legacyDescriptor": {
+        "facing": 0,
+        "phase": 1
+      },
+      "xy": [
+        [
+          16,
+          -30
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          0,
+          -46
+        ],
+        [
+          -31,
+          -30
+        ],
+        [
+          -15,
+          -14
+        ],
+        [
+          -15,
+          -30
+        ],
+        [
+          -15,
+          -46
+        ]
+      ],
+      "opaquePixels": 1754,
+      "bounds": [
+        -31,
+        -46,
+        32,
+        2
+      ],
+      "pixelSha256": "21d2e16240573751c28f488c196b1a9825a69d290b14693ec085b5b84055cd15"
+    },
+    {
+      "frame": 2,
+      "legacyDescriptor": {
+        "facing": 0,
+        "phase": 2
+      },
+      "xy": [
+        [
+          -15,
+          -16
+        ],
+        [
+          -31,
+          -32
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          -15,
+          -48
+        ],
+        [
+          16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          0,
+          -48
+        ]
+      ],
+      "opaquePixels": 1744,
+      "bounds": [
+        -31,
+        -48,
+        32,
+        0
+      ],
+      "pixelSha256": "d30dbeebf71ddb9acc28be9bb164ec00925dee9da197a4350efb4ce7317b04fb"
+    },
+    {
+      "frame": 3,
+      "legacyDescriptor": {
+        "facing": 1,
+        "phase": 0
+      },
+      "xy": [
+        [
+          16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          0,
+          -48
+        ],
+        [
+          -31,
+          -32
+        ],
+        [
+          -15,
+          -16
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          -15,
+          -48
+        ]
+      ],
+      "opaquePixels": 1723,
+      "bounds": [
+        -30,
+        -48,
+        31,
+        -1
+      ],
+      "pixelSha256": "3f43a89cfcf3b165d38ae732d36773d06eccfac89ce4156efba0ab4e79d66084"
+    },
+    {
+      "frame": 4,
+      "legacyDescriptor": {
+        "facing": 1,
+        "phase": 1
+      },
+      "xy": [
+        [
+          16,
+          -30
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          0,
+          -46
+        ],
+        [
+          -31,
+          -30
+        ],
+        [
+          -15,
+          -14
+        ],
+        [
+          -15,
+          -30
+        ],
+        [
+          -15,
+          -46
+        ]
+      ],
+      "opaquePixels": 1778,
+      "bounds": [
+        -30,
+        -46,
+        31,
+        2
+      ],
+      "pixelSha256": "abaae12574cecccbae064014c1685aa69b4605d8122266cfd1a9622f2caa2b77"
+    },
+    {
+      "frame": 5,
+      "legacyDescriptor": {
+        "facing": 1,
+        "phase": 2
+      },
+      "xy": [
+        [
+          -31,
+          -32
+        ],
+        [
+          -15,
+          -16
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          -15,
+          -48
+        ],
+        [
+          16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          0,
+          -48
+        ]
+      ],
+      "opaquePixels": 1723,
+      "bounds": [
+        -30,
+        -48,
+        31,
+        -1
+      ],
+      "pixelSha256": "489a29ee89305e411d0ee3965e01f23e6dbdee2c9f4e5961d4310254e3f2cce9"
+    },
+    {
+      "frame": 6,
+      "legacyDescriptor": {
+        "facing": 2,
+        "phase": 0
+      },
+      "xy": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          8,
+          -32
+        ],
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          3,
+          -16
+        ],
+        [
+          -13,
+          -16
+        ],
+        [
+          -29,
+          -16
+        ]
+      ],
+      "opaquePixels": 1464,
+      "bounds": [
+        -24,
+        -48,
+        19,
+        0
+      ],
+      "pixelSha256": "8a123935141b1e42aadceffa12a132e47ac0f77904640bd45f9e83a04bca8fe0"
+    },
+    {
+      "frame": 7,
+      "legacyDescriptor": {
+        "facing": 2,
+        "phase": 1
+      },
+      "xy": [
+        [
+          0,
+          -46
+        ],
+        [
+          -16,
+          -46
+        ],
+        [
+          8,
+          -30
+        ],
+        [
+          -8,
+          -30
+        ],
+        [
+          -24,
+          -30
+        ],
+        [
+          3,
+          -14
+        ],
+        [
+          -13,
+          -14
+        ],
+        [
+          -29,
+          -14
+        ]
+      ],
+      "opaquePixels": 1417,
+      "bounds": [
+        -24,
+        -46,
+        19,
+        2
+      ],
+      "pixelSha256": "1fdfd30dbc625652ff40b5d8ee927c259b5de57946d22b4029edd35d63c4c786"
+    },
+    {
+      "frame": 8,
+      "legacyDescriptor": {
+        "facing": 2,
+        "phase": 2
+      },
+      "xy": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          8,
+          -32
+        ],
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          3,
+          -16
+        ],
+        [
+          -13,
+          -16
+        ],
+        [
+          -29,
+          -16
+        ]
+      ],
+      "opaquePixels": 1364,
+      "bounds": [
+        -24,
+        -48,
+        19,
+        0
+      ],
+      "pixelSha256": "f300ad7e5d5fb09bb5a9ed9bbc83576c98e2509ec46d206f0fc13af7d1f0ed28"
+    },
+    {
+      "frame": 9,
+      "legacyDescriptor": {
+        "facing": 3,
+        "phase": 0
+      },
+      "xy": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          8,
+          -32
+        ],
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          13,
+          -16
+        ],
+        [
+          -3,
+          -16
+        ],
+        [
+          -19,
+          -16
+        ]
+      ],
+      "opaquePixels": 1464,
+      "bounds": [
+        -19,
+        -48,
+        24,
+        0
+      ],
+      "pixelSha256": "e95f464eb01cc30c260da982af2d2456a1beb9e5c87a8c4281f37b445cdd0ade"
+    },
+    {
+      "frame": 10,
+      "legacyDescriptor": {
+        "facing": 3,
+        "phase": 1
+      },
+      "xy": [
+        [
+          0,
+          -46
+        ],
+        [
+          -16,
+          -46
+        ],
+        [
+          8,
+          -30
+        ],
+        [
+          -8,
+          -30
+        ],
+        [
+          -24,
+          -30
+        ],
+        [
+          13,
+          -14
+        ],
+        [
+          -3,
+          -14
+        ],
+        [
+          -19,
+          -14
+        ]
+      ],
+      "opaquePixels": 1417,
+      "bounds": [
+        -19,
+        -46,
+        24,
+        2
+      ],
+      "pixelSha256": "689d2b57fbf9d3827ece232a08d907dbd11795da5d8e1c591c955d54f744233a"
+    },
+    {
+      "frame": 11,
+      "legacyDescriptor": {
+        "facing": 3,
+        "phase": 2
+      },
+      "xy": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          8,
+          -32
+        ],
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          13,
+          -16
+        ],
+        [
+          -3,
+          -16
+        ],
+        [
+          -19,
+          -16
+        ]
+      ],
+      "opaquePixels": 1364,
+      "bounds": [
+        -19,
+        -48,
+        24,
+        0
+      ],
+      "pixelSha256": "37556d1e57081c9859edba7405086eb4ede4fbfc5ab998bc745aad9ca3b54e94"
+    },
+    {
+      "frame": 12,
+      "legacyDescriptor": {
+        "facing": 0,
+        "wide": true
+      },
+      "xy": [
+        [
+          16,
+          -40
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          0,
+          -48
+        ],
+        [
+          -31,
+          -40
+        ],
+        [
+          -15,
+          -16
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          -15,
+          -48
+        ]
+      ],
+      "opaquePixels": 1658,
+      "bounds": [
+        -31,
+        -48,
+        32,
+        0
+      ],
+      "pixelSha256": "ee041f335fae917aacd11d8eb6982b9e6bc8ff9651a0684a7126a978aa94c516"
+    },
+    {
+      "frame": 13,
+      "legacyDescriptor": {
+        "facing": 1,
+        "curl": true
+      },
+      "xy": [
+        [
+          16,
+          -38
+        ],
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          -31
+        ],
+        [
+          0,
+          -47
+        ],
+        [
+          -31,
+          -38
+        ],
+        [
+          -15,
+          -15
+        ],
+        [
+          -15,
+          -31
+        ],
+        [
+          -15,
+          -47
+        ]
+      ],
+      "opaquePixels": 1338,
+      "bounds": [
+        -18,
+        -45,
+        19,
+        1
+      ],
+      "pixelSha256": "6f13ebf009ad92939066b7f8c95458bef042af64977b692541c4cd120ef5f652"
+    },
+    {
+      "frame": 14,
+      "legacyDescriptor": {
+        "facing": 1,
+        "wide": true
+      },
+      "xy": [
+        [
+          16,
+          -31
+        ],
+        [
+          0,
+          -13
+        ],
+        [
+          0,
+          -29
+        ],
+        [
+          0,
+          -45
+        ],
+        [
+          -31,
+          -31
+        ],
+        [
+          -15,
+          -13
+        ],
+        [
+          -15,
+          -29
+        ],
+        [
+          -15,
+          -45
+        ]
+      ],
+      "opaquePixels": 1678,
+      "bounds": [
+        -31,
+        -43,
+        32,
+        3
+      ],
+      "pixelSha256": "91ce15019b7f55013d09c353c7d38a3f908ab57bce7183e4a973930b19cc444b"
+    },
+    {
+      "frame": 15,
+      "legacyDescriptor": {
+        "facing": 1,
+        "lunge": true
+      },
+      "xy": [
+        [
+          16,
+          -30
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          0,
+          -46
+        ],
+        [
+          -31,
+          -30
+        ],
+        [
+          -15,
+          -14
+        ],
+        [
+          -15,
+          -30
+        ],
+        [
+          -15,
+          -46
+        ]
+      ],
+      "opaquePixels": 1309,
+      "bounds": [
+        -20,
+        -42,
+        21,
+        2
+      ],
+      "pixelSha256": "b71f4ed41a94751dda30f31720878422e704e0f88dcd59cf8b6dbf5c261afcec"
+    },
+    {
+      "frame": 16,
+      "legacyDescriptor": {
+        "facing": 2
+      },
+      "xy": [
+        [
+          1,
+          -48
+        ],
+        [
+          -15,
+          -48
+        ],
+        [
+          9,
+          -32
+        ],
+        [
+          -7,
+          -32
+        ],
+        [
+          -23,
+          -32
+        ],
+        [
+          1,
+          -64
+        ],
+        [
+          5,
+          -16
+        ],
+        [
+          -11,
+          -16
+        ]
+      ],
+      "opaquePixels": 1291,
+      "bounds": [
+        -22,
+        -48,
+        18,
+        0
+      ],
+      "pixelSha256": "745415c093dc426cf8a4b376711c2a45e07d400e0fce7d5720a420369ee03110"
+    },
+    {
+      "frame": 17,
+      "legacyDescriptor": {
+        "facing": 2,
+        "lunge": true
+      },
+      "xy": [
+        [
+          -4,
+          -44
+        ],
+        [
+          -20,
+          -44
+        ],
+        [
+          4,
+          -28
+        ],
+        [
+          -12,
+          -28
+        ],
+        [
+          -28,
+          -28
+        ],
+        [
+          4,
+          -12
+        ],
+        [
+          -12,
+          -12
+        ],
+        [
+          -28,
+          -12
+        ]
+      ],
+      "opaquePixels": 1424,
+      "bounds": [
+        -27,
+        -44,
+        15,
+        3
+      ],
+      "pixelSha256": "f024b6bf254fd3886a0a476efad5ac7663b40faa51a1502eca151fcfd19aa97b"
+    },
+    {
+      "frame": 18,
+      "legacyDescriptor": {
+        "facing": 3
+      },
+      "xy": [
+        [
+          -1,
+          -48
+        ],
+        [
+          -17,
+          -48
+        ],
+        [
+          7,
+          -32
+        ],
+        [
+          -9,
+          -32
+        ],
+        [
+          -25,
+          -32
+        ],
+        [
+          -17,
+          -64
+        ],
+        [
+          -5,
+          -16
+        ],
+        [
+          -21,
+          -16
+        ]
+      ],
+      "opaquePixels": 1291,
+      "bounds": [
+        -18,
+        -48,
+        22,
+        0
+      ],
+      "pixelSha256": "860896cce8f6625a2063540a4b0b668a240e42cafe8714c2b73cecab558ce6d0"
+    },
+    {
+      "frame": 19,
+      "legacyDescriptor": {
+        "facing": 3,
+        "lunge": true
+      },
+      "xy": [
+        [
+          4,
+          -44
+        ],
+        [
+          -12,
+          -44
+        ],
+        [
+          12,
+          -28
+        ],
+        [
+          -4,
+          -28
+        ],
+        [
+          -20,
+          -28
+        ],
+        [
+          12,
+          -12
+        ],
+        [
+          -4,
+          -12
+        ],
+        [
+          -20,
+          -12
+        ]
+      ],
+      "opaquePixels": 1424,
+      "bounds": [
+        -15,
+        -44,
+        27,
+        3
+      ],
+      "pixelSha256": "1f088648c57cadfee09a78380e545387fe844b3340c1567fda87f4cd150fa5ac"
+    },
+    {
+      "frame": 20,
+      "legacyDescriptor": {
+        "facing": 1,
+        "curl": true,
+        "roar": true
+      },
+      "xy": [
+        [
+          16,
+          -30
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          0,
+          -46
+        ],
+        [
+          -31,
+          -30
+        ],
+        [
+          -15,
+          -14
+        ],
+        [
+          -15,
+          -30
+        ],
+        [
+          -15,
+          -46
+        ]
+      ],
+      "opaquePixels": 1309,
+      "bounds": [
+        -20,
+        -42,
+        21,
+        2
+      ],
+      "pixelSha256": "d6819fc0f2530f357597c1015fbff402a251df006eec20c73a658d6c2b04f967"
+    },
+    {
+      "frame": 21,
+      "legacyDescriptor": {
+        "facing": 1,
+        "wide": true,
+        "roar": true
+      },
+      "xy": [
+        [
+          16,
+          -32
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          0,
+          -46
+        ],
+        [
+          -31,
+          -32
+        ],
+        [
+          -15,
+          -14
+        ],
+        [
+          -15,
+          -30
+        ],
+        [
+          -15,
+          -46
+        ]
+      ],
+      "opaquePixels": 1683,
+      "bounds": [
+        -31,
+        -45,
+        32,
+        2
+      ],
+      "pixelSha256": "713970b321583fd972ac58c8b9ee1f463cb5e4faac9ac6abf6d1e47ff6a66206"
+    },
+    {
+      "frame": 22,
+      "legacyDescriptor": {
+        "facing": 2,
+        "lunge": true
+      },
+      "xy": [
+        [
+          -4,
+          -44
+        ],
+        [
+          -20,
+          -44
+        ],
+        [
+          4,
+          -28
+        ],
+        [
+          -12,
+          -28
+        ],
+        [
+          -28,
+          -28
+        ],
+        [
+          4,
+          -12
+        ],
+        [
+          -12,
+          -12
+        ],
+        [
+          -28,
+          -12
+        ]
+      ],
+      "opaquePixels": 1424,
+      "bounds": [
+        -27,
+        -44,
+        15,
+        3
+      ],
+      "pixelSha256": "b48b2c666cb227de1545f7725ccf43c529718bf54132d814c336f0b92d53d7a7"
+    },
+    {
+      "frame": 23,
+      "legacyDescriptor": {
+        "facing": 2,
+        "roar": true
+      },
+      "xy": [
+        [
+          3,
+          -14
+        ],
+        [
+          -13,
+          -14
+        ],
+        [
+          8,
+          -30
+        ],
+        [
+          -8,
+          -30
+        ],
+        [
+          -24,
+          -30
+        ],
+        [
+          8,
+          -46
+        ],
+        [
+          -8,
+          -46
+        ],
+        [
+          -24,
+          -46
+        ]
+      ],
+      "opaquePixels": 1435,
+      "bounds": [
+        -21,
+        -46,
+        24,
+        2
+      ],
+      "pixelSha256": "dc07b28d7407fab80237e3891493beec58a1d0ca36c42f54c162885bfc8b85d7"
+    },
+    {
+      "frame": 24,
+      "legacyDescriptor": {
+        "facing": 3,
+        "lunge": true
+      },
+      "xy": [
+        [
+          4,
+          -44
+        ],
+        [
+          -12,
+          -44
+        ],
+        [
+          12,
+          -28
+        ],
+        [
+          -4,
+          -28
+        ],
+        [
+          -20,
+          -28
+        ],
+        [
+          12,
+          -12
+        ],
+        [
+          -4,
+          -12
+        ],
+        [
+          -20,
+          -12
+        ]
+      ],
+      "opaquePixels": 1424,
+      "bounds": [
+        -15,
+        -44,
+        27,
+        3
+      ],
+      "pixelSha256": "4dfef92e0dcd9e017959528c1fa7b7206905df3649202efb8c8ddeed118a4f72"
+    },
+    {
+      "frame": 25,
+      "legacyDescriptor": {
+        "facing": 3,
+        "roar": true
+      },
+      "xy": [
+        [
+          -3,
+          -14
+        ],
+        [
+          -19,
+          -14
+        ],
+        [
+          8,
+          -30
+        ],
+        [
+          -8,
+          -30
+        ],
+        [
+          -24,
+          -30
+        ],
+        [
+          8,
+          -46
+        ],
+        [
+          -8,
+          -46
+        ],
+        [
+          -24,
+          -46
+        ]
+      ],
+      "opaquePixels": 1435,
+      "bounds": [
+        -24,
+        -46,
+        21,
+        2
+      ],
+      "pixelSha256": "d27454c424888ef1b4ea9622a04c452d9a222c17ed1748a5bdff6fb2260ce975"
+    },
+    {
+      "frame": 26,
+      "legacyDescriptor": {
+        "facing": 2,
+        "fallen": true
+      },
+      "xy": [
+        [
+          -6,
+          -40
+        ],
+        [
+          -22,
+          -43
+        ],
+        [
+          -6,
+          -24
+        ],
+        [
+          -22,
+          -27
+        ],
+        [
+          10,
+          -30
+        ],
+        [
+          -6,
+          -8
+        ],
+        [
+          -22,
+          -11
+        ],
+        [
+          10,
+          -14
+        ]
+      ],
+      "opaquePixels": 1364,
+      "bounds": [
+        -22,
+        -43,
+        18,
+        8
+      ],
+      "pixelSha256": "dfa6f4157160727c49837a450b6a59cb646d9bc0491c065f326048483b810a53"
+    }
+  ],
+  "scenes": [
+    {
+      "location": 47,
+      "eventPointer": 3943789,
+      "briarLoads": [
+        [
+          1370,
+          131,
+          [
+            169,
+            131
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        169,
+        18,
+        115,
+        69,
+        35
+      ],
+      "allNpcIds": [
+        128,
+        183
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 30368,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 57,
+            "bytes": 992
+          },
+          {
+            "gfx": 221,
+            "bytes": 160
+          },
+          {
+            "gfx": 140,
+            "bytes": 8832
+          },
+          {
+            "gfx": 86,
+            "bytes": 8704
+          },
+          {
+            "gfx": 103,
+            "bytes": 1760
+          },
+          {
+            "gfx": 95,
+            "bytes": 1728
+          },
+          {
+            "gfx": 89,
+            "bytes": 8192
+          }
+        ],
+        "note": "Conservative union across all event branches; not a claim that all actors are simultaneously resident"
+      }
+    },
+    {
+      "location": 316,
+      "eventPointer": 3915746,
+      "briarLoads": [
+        [
+          367,
+          131,
+          [
+            200,
+            3
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        200
+      ],
+      "allNpcIds": [
+        193
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 9728,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 140,
+            "bytes": 8832
+          },
+          {
+            "gfx": 228,
+            "bytes": 896
+          }
+        ],
+        "note": "Conservative union across all event branches; not a claim that all actors are simultaneously resident"
+      }
+    },
+    {
+      "location": 319,
+      "eventPointer": 3917285,
+      "briarLoads": [
+        [
+          843,
+          131,
+          [
+            200,
+            3
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        200,
+        83,
+        7,
+        193
+      ],
+      "allNpcIds": [
+        193,
+        128
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 25792,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 140,
+            "bytes": 8832
+          },
+          {
+            "gfx": 104,
+            "bytes": 1952
+          },
+          {
+            "gfx": 228,
+            "bytes": 896
+          },
+          {
+            "gfx": 57,
+            "bytes": 992
+          },
+          {
+            "gfx": 183,
+            "bytes": 1728
+          },
+          {
+            "gfx": 123,
+            "bytes": 11392
+          }
+        ],
+        "note": "Conservative union across all event branches; not a claim that all actors are simultaneously resident"
+      }
+    },
+    {
+      "location": 324,
+      "eventPointer": 3917943,
+      "briarLoads": [
+        [
+          1246,
+          131,
+          [
+            200,
+            3
+          ]
+        ],
+        [
+          1282,
+          131,
+          [
+            200,
+            7
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        150,
+        142,
+        200
+      ],
+      "allNpcIds": [
+        126,
+        193
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 20064,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 146,
+            "bytes": 4096
+          },
+          {
+            "gfx": 159,
+            "bytes": 576
+          },
+          {
+            "gfx": 142,
+            "bytes": 5664
+          },
+          {
+            "gfx": 140,
+            "bytes": 8832
+          },
+          {
+            "gfx": 228,
+            "bytes": 896
+          }
+        ],
+        "note": "Conservative union across all event branches; not a claim that all actors are simultaneously resident"
+      }
+    },
+    {
+      "location": 348,
+      "eventPointer": 3863730,
+      "briarLoads": [
+        [
+          129,
+          131,
+          [
+            169,
+            3
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        169
+      ],
+      "allNpcIds": [],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 8832,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 140,
+            "bytes": 8832
+          }
+        ],
+        "note": "Conservative union across all event branches; not a claim that all actors are simultaneously resident"
+      }
+    }
+  ]
+}

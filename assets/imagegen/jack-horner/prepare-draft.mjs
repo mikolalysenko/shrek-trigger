@@ -1,0 +1,28 @@
+import{readFile,writeFile,mkdir}from'node:fs/promises';
+import{execFileSync}from'node:child_process';
+import{createHash}from'node:crypto';
+import{PNG}from'pngjs';
+import{medinaFamilies}from'../../../content/medina-actors.js';
+import{compileSpriteFrames}from'../../../engine/native-sprites.js';
+import{compress}from'../../../engine/compression.js';
+import{packHornerCells}from'./pack-cells.mjs';
+const dir='assets/imagegen/jack-horner',family=medinaFamilies.find(f=>f.key==='horner'),hash=b=>createHash('sha256').update(b).digest('hex');
+const definitions=[
+ ['base',3,3,[0,1,2],1,'exec-8a072b2b-7793-413f-84eb-5a2470391a6f.png'],
+ ['float',3,2,[0,1,2,3,4,5],38/32,'exec-1f092f98-445f-42b3-a7a2-337b1c5e5c73.png'],
+ ['actions',3,3,[8],1,'exec-0b3731bf-8db3-4271-8462-4010ff479460.png'],
+ ['dizzy',2,2,[3],1,'exec-97204dcf-86e5-423c-913e-dbd031302af3.png'],
+];
+const native=[0,1,{frame:1,flip:true},2,3,4,{frame:5,flip:true},6,7,9,10,11,12,13,14,{frame:12,flip:true},{frame:13,flip:true},{frame:14,flip:true},15,16,8,17,18,19,20,21,22,24,25,26];
+export function nativePixels(r){return native.map(e=>{const n=typeof e==='number'?e:e.frame,p=Uint8Array.from(r.frames[n],c=>parseInt(c,16));if(!e.flip)return p;const q=p.slice();for(let y=0;y<64;y++)for(let x=0;x<64;x++)q[y*64+x]=p[y*64+63-x];return q;});}
+function spec(height,directory,method='area'){
+ return{key:'horner',directory,width:64,height:64,palette:family.actors[0].colors,sheets:definitions.map(([name,columns,rows,scaleCells,factor])=>({file:dir+'/source-'+name+'-v1.png',columns,rows,nativeHeight:height*factor,scaleCells,componentAlpha:128,...(name==='base'?{}:{componentSelection:'union'}),sample:{method,bottom:55}})),sequences:{native:{1:native},idle:{0:[0],1:[0],2:[1],3:[{frame:1,flip:true}]},float:{0:[9,10,11,10],1:[9,10,11,10],2:[12,13,14,13],3:[{frame:12,flip:true},{frame:13,flip:true},{frame:14,flip:true},{frame:13,flip:true}]},turn:{1:[{frame:5,flip:true},6,7,6]},spin:{1:[15,16]},tumble:{1:[17,18]},shield:{1:[19,20,21,22]},dizzy:{1:[24,25,26,25]}},notes:{status:'Inactive complete source draft; review and native integration pending.',bodyReferenceHeight:height,source:'All opaque pixels sampled from four actual built-in imagegen PNGs; no drawn or procedural anatomy.',nativeContract:'Graphics 155, assembly 148, palette 196, enemies 166–168; 30 original slots, 8 native cells, animation IDs 118 and 161, exact existing family offsets.',staging:'64×64 indexed staging canvas allows eight native cells to follow wide gestures. Eight transparent rows below the source allow exact tile alignment; group anchor [0,8] cancels that staging shift. Native displayed pixels and existing frameOffsets are unchanged. Size 1 and original per-frame VRAM reservation stay unchanged.',stagingAnchor:[0,8],adaptations:'Native slots 2 and 15–17 use whole-source mirrors of native left roles, matching original native mirrored direction pairs. Base source cell 5 generated a rightward shrug and is mirrored for slot 6. Calibration source cells actions8 and dizzy3 are unused.',palette:'Existing purple Horner palette from content/medina-actors.js, ID 196; not the original green source ramp.',budget:'The quality 32px model is intentionally retained, as directed by root and lead. It exceeds the old decoded cap and stays inactive pending proven native streaming or a complete emitted scene budget; no unproven exclusions are counted.',activation:'Draft only; no canonical registry, active engine or ROM file writes.'}};
+}
+async function build(height,directory,method='area'){
+ await mkdir(directory,{recursive:true});const s=spec(height,directory,method);await writeFile(directory+'/import-spec.draft.json',JSON.stringify(s,null,2)+'\n');execFileSync(process.execPath,['scripts/import-raster-art.mjs','--preview-spec',directory+'/import-spec.draft.json'],{stdio:'pipe'});
+ const r=JSON.parse(await readFile(directory+'/preview-raster.json','utf8')),p=nativePixels(r),covering=packHornerCells(p),b=compileSpriteFrames(p,{width:64,height:64,size:1,frameCellOrigins:covering.map(c=>c.origins)});
+ return{height,method,directory,tiles:b.tiles,decodedBytes:b.graphics.length,compressedBytes:compress(b.graphics).length,assemblyBytes:b.assembly.length,occupiedCells:covering.map(c=>c.occupied),underOriginalBudget:b.graphics.length<=8192,underSceneCeiling:b.graphics.length<=9824};
+}
+for(const[name,columns,rows,scaleCells,factor,original]of definitions){const source='source-'+name+'-v1.png',prompt='prompt-'+name+'-v1.txt',bytes=await readFile(dir+'/'+source),im=PNG.sync.read(bytes),refs=name==='base'?[]:[{file:dir+'/source-base-v1.png',sha256:hash(await readFile(dir+'/source-base-v1.png'))}];await writeFile(dir+'/provenance-'+name+'-v1.json',JSON.stringify({tool:'built-in image_gen.imagegen',mode:'new raster sprite source generation',source,prompt,generatedOriginal:'/Users/mikolalysenko/.codex/generated_images/01a19403-ca01-7341-a071-af653bc34995/'+original,sourceSha256:hash(bytes),promptSha256:hash(await readFile(dir+'/'+prompt)),dimensions:[im.width,im.height],references:refs,activation:false},null,2)+'\n');}
+if(process.argv.includes('--candidates')){const costs=[];for(const height of[32,30,28,27,26])try{costs.push(await build(height,dir+'/candidates/height-'+height));}catch(error){costs.push({height,error:error.message});}await writeFile(dir+'/sampling-candidates.json',JSON.stringify(costs,null,2)+'\n');console.log(JSON.stringify(costs));}
+else{const i=process.argv.indexOf('--height'),height=i>=0?Number(process.argv[i+1]):32,method=process.argv.includes('--nearest')?'nearest':'area';console.log(JSON.stringify(await build(height,dir,method)));}

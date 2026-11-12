@@ -1,0 +1,542 @@
+{
+  "key": "fiona",
+  "palette": [
+    "212721",
+    "507345",
+    "8fb561",
+    "bfd889",
+    "e2e5ad",
+    "37664d",
+    "4f9165",
+    "68392d",
+    "f6edca",
+    "26402d",
+    "c48a4a",
+    "a34a2b"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/fiona/source-v3.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 29,
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1
+      },
+      "overrides": {}
+    },
+    {
+      "file": "assets/imagegen/fiona/source-gestures-v2.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 29,
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1
+      },
+      "overrides": {}
+    },
+    {
+      "file": "assets/imagegen/fiona/source-story-v3.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 29,
+      "componentAlpha": 128,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1
+      },
+      "overrides": {}
+    },
+    {
+      "file": "assets/imagegen/fiona/source-combat-v2.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 28,
+      "componentAlpha": 128,
+      "scaleCells": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1
+      },
+      "overrides": {
+        "14": {
+          "bottom": 31,
+          "note": " Full native-row anchor retains tall crown/arms."
+        }
+      },
+      "note": "The full combat sheet uses one shared 28-pixel standing reference scale so the generated overhead crossbow fits the 32-pixel cartridge cell. Relative body and action proportions remain unchanged; no single pose is vertically shrunk."
+    },
+    {
+      "file": "assets/imagegen/fiona/source-finishing-v3.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 29,
+      "componentAlpha": 128,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1
+      },
+      "overrides": {
+        "15": {
+          "scaleX": 0.9659579156108847,
+          "note": "Horizontal-only fit for the wide action; vertical source scale unchanged."
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ]
+    },
+    "walk": {
+      "0": [
+        1,
+        6,
+        77,
+        7,
+        77,
+        6
+      ],
+      "1": [
+        0,
+        4,
+        64,
+        5,
+        64,
+        4
+      ],
+      "2": [
+        8,
+        9,
+        {
+          "frame": 10,
+          "flip": true
+        },
+        {
+          "frame": 11,
+          "flip": true
+        },
+        {
+          "frame": 10,
+          "flip": true
+        },
+        9
+      ]
+    },
+    "run": {
+      "0": [
+        1,
+        6,
+        77,
+        7,
+        77,
+        6
+      ],
+      "1": [
+        0,
+        4,
+        64,
+        5,
+        64,
+        4
+      ],
+      "2": [
+        8,
+        9,
+        {
+          "frame": 10,
+          "flip": true
+        },
+        {
+          "frame": 11,
+          "flip": true
+        },
+        {
+          "frame": 10,
+          "flip": true
+        },
+        9
+      ]
+    },
+    "kneel": {
+      "0": [
+        21
+      ],
+      "1": [
+        20
+      ],
+      "2": [
+        22
+      ]
+    },
+    "cast": {
+      "0": [
+        1,
+        77,
+        17,
+        77
+      ],
+      "1": [
+        76,
+        48,
+        16,
+        48
+      ],
+      "2": [
+        78,
+        50,
+        18,
+        50
+      ]
+    },
+    "cast-walk": {
+      "0": [
+        77,
+        17
+      ],
+      "1": [
+        76,
+        16
+      ],
+      "2": [
+        78,
+        18
+      ]
+    },
+    "heal": {
+      "0": [
+        17,
+        17,
+        77,
+        77
+      ],
+      "1": [
+        16,
+        79,
+        76,
+        76
+      ],
+      "2": [
+        18,
+        18,
+        78,
+        78
+      ]
+    },
+    "raise": {
+      "0": [
+        77,
+        17,
+        17,
+        17
+      ],
+      "1": [
+        76,
+        16,
+        16
+      ]
+    },
+    "victory": {
+      "1": [
+        16,
+        71,
+        16
+      ]
+    },
+    "shoot": {
+      "0": [
+        53,
+        57,
+        55
+      ],
+      "1": [
+        52,
+        56,
+        54
+      ],
+      "2": [
+        28,
+        58,
+        29
+      ]
+    },
+    "down": {
+      "2": [
+        15
+      ]
+    },
+    "laugh": {
+      "1": [
+        36,
+        36
+      ],
+      "2": [
+        25,
+        25
+      ]
+    },
+    "arms-folded": {
+      "0": [
+        34
+      ],
+      "1": [
+        26
+      ],
+      "2": [
+        {
+          "frame": 35,
+          "flip": true
+        }
+      ]
+    },
+    "surprise": {
+      "1": [
+        24,
+        24
+      ]
+    },
+    "draw": {
+      "0": [
+        55,
+        55,
+        53,
+        53
+      ],
+      "1": [
+        54,
+        54,
+        52,
+        52
+      ],
+      "2": [
+        12,
+        12,
+        28,
+        28
+      ]
+    },
+    "blink": {
+      "0": [
+        1
+      ],
+      "1": [
+        32
+      ],
+      "2": [
+        33
+      ]
+    },
+    "look": {
+      "0": [
+        67,
+        {
+          "frame": 67,
+          "flip": true
+        }
+      ],
+      "1": [
+        64,
+        65
+      ],
+      "2": [
+        66,
+        2
+      ]
+    },
+    "wave": {
+      "1": [
+        48
+      ]
+    },
+    "sleep": {
+      "1": [
+        49,
+        49
+      ]
+    },
+    "shock": {
+      "1": [
+        24
+      ],
+      "2": [
+        37
+      ]
+    },
+    "hit": {
+      "0": [
+        69
+      ],
+      "1": [
+        68
+      ],
+      "2": [
+        70
+      ]
+    },
+    "somersault": {
+      "0": [
+        21,
+        72,
+        74
+      ],
+      "1": [
+        20,
+        71,
+        63
+      ],
+      "2": [
+        22,
+        73,
+        {
+          "frame": 75,
+          "flip": true
+        }
+      ]
+    },
+    "kneel-bow": {
+      "0": [
+        57
+      ],
+      "1": [
+        56
+      ],
+      "2": [
+        58
+      ]
+    },
+    "shy": {
+      "0": [
+        39
+      ],
+      "1": [
+        38
+      ],
+      "2": [
+        40
+      ]
+    },
+    "jump-shot": {
+      "0": [
+        53,
+        61
+      ],
+      "1": [
+        56,
+        60
+      ],
+      "2": [
+        {
+          "frame": 59,
+          "flip": true
+        },
+        62
+      ]
+    },
+    "overhead-shot": {
+      "2": [
+        {
+          "frame": 59,
+          "flip": true
+        },
+        62
+      ]
+    },
+    "battle": {
+      "0": [
+        53,
+        55,
+        57
+      ],
+      "1": [
+        52,
+        54,
+        56
+      ],
+      "2": [
+        12,
+        28,
+        58
+      ]
+    },
+    "bow": {
+      "1": [
+        41,
+        41
+      ],
+      "2": [
+        42,
+        42
+      ]
+    },
+    "cry": {
+      "1": [
+        43
+      ],
+      "2": [
+        44
+      ]
+    },
+    "think": {
+      "1": [
+        45
+      ],
+      "2": [
+        46
+      ]
+    },
+    "kiss": {
+      "2": [
+        47,
+        47
+      ]
+    },
+    "embrace": {
+      "2": [
+        50,
+        50
+      ]
+    }
+  },
+  "notes": {
+    "material": "Every native opaque pixel is sampled from built-in image-generation PNGs; transforms only mirror or shift complete imported frames.",
+    "fallback": "Native source frame-map coverage must be zero missing before declaring migration complete.",
+    "walk": "Six native phases retain their timing and use four distinct drawings in symmetric contact/passing order. Front/back walks add existing neutral passing drawings; side walks mirror the two source-right contacts to complete the left-facing cycle.",
+    "orientationCorrections": [
+      "Story cell3 is right-facing arms-folded; mirrored for left.",
+      "Finishing cell11 is right-facing inverted; mirrored for left.",
+      "Broad combat cell11 is right-facing airborne crossbow; mirrored for left."
+    ],
+    "phaseReuse": "Actual generated pose changes retain native animation timing. Cosmetic whole-sprite one-pixel jitter is omitted to avoid duplicating8×8 tiles; cartridge movement/jump trajectories remain native.",
+    "proportions": "Selected broad-ogre generation targets a 10-pixel face, fuller shoulders/hips and temple ears. Five sheets share this identity. Standing reference height is 29 except the combat sheet uses a shared 28 to preserve its overhead arm/weapon extent; no horizontal widening except the explicit wide-action fit.",
+    "nativeMirrors": "Right-facing roles reuse the generated left-facing pixels through native horizontal mirroring, matching the cartridge sprite convention and avoiding duplicate tiles. Explicit source-right drawings remain archived for review."
+  }
+}

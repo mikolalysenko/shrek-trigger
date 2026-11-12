@@ -1,0 +1,72 @@
+{
+  "status": "Actual generated-source inactive candidate",
+  "recordedOn": "2026-11-01",
+  "builtInOnly": true,
+  "paidApiFallback": false,
+  "finalArtSources": [
+    {
+      "part": "chassis",
+      "tool": "image_gen.imagegen, built-in",
+      "useCase": "stylized-concept",
+      "originalOutput": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-0e29fa56-ba96-4b20-9711-3973e35515e8.png",
+      "source": "source-chassis-v1.png",
+      "sourceSha256": "5d93c0bcaf601190589e3a26bdcd1c246ae05cbe343535ddeb7e85a44cfe9f28",
+      "prompt": "prompt-chassis-v1.txt",
+      "promptSha256": "f606c9ecdbf5d0d5738da7c245f7981b5dc8c330c0b92e2691f138d569008250",
+      "transparentBackground": true,
+      "references": [
+        {
+          "path": "review/duloc-tank-earlier-4x.png",
+          "sha256": "2056f277eef81299726be89178f8623e7ab94840dbaded9fb74dff8d53d6a8a6",
+          "role": "Earlier project prototype, shape/pose reference only"
+        }
+      ],
+      "conversion": "Deterministic component-aware area sampling and12color quantization through scripts/import-raster-art.mjs; no pixel drawing, contour clipping, or inpainted missing anatomy."
+    },
+    {
+      "part": "head",
+      "tool": "image_gen.imagegen, built-in",
+      "useCase": "stylized-concept",
+      "originalOutput": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-e5c7382b-8bad-4659-b9d3-dc0fcc9d870e.png",
+      "source": "source-head-v1.png",
+      "sourceSha256": "2a837f20de47aa3d1c6058d23ea27088c1b27487a57a9de4737f955cceca374f",
+      "prompt": "prompt-head-v1.txt",
+      "promptSha256": "f63c9519f15ecc356bc4ff4fd7d7162d382dc3d9f28a672a4fbc6742fc82de43",
+      "transparentBackground": true,
+      "references": [
+        {
+          "path": "source-chassis-v1.png",
+          "sha256": "5d93c0bcaf601190589e3a26bdcd1c246ae05cbe343535ddeb7e85a44cfe9f28",
+          "role": "Generated chassis material/style reference"
+        },
+        {
+          "path": "review/tank-head-earlier-4x.png",
+          "sha256": "a20132c099932d11fc2fa7163868f5f029d1ca28a105ff77677295ae23cc018f",
+          "role": "Earlier project prototype, shape/pose reference only"
+        }
+      ],
+      "conversion": "Deterministic component-aware area sampling and12color quantization through scripts/import-raster-art.mjs; no pixel drawing, contour clipping, or inpainted missing anatomy."
+    },
+    {
+      "part": "wheel",
+      "tool": "image_gen.imagegen, built-in",
+      "useCase": "stylized-concept",
+      "originalOutput": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-549a85c7-ae25-4e72-8e86-c1f840f984ba.png",
+      "source": "source-wheel-v1.png",
+      "sourceSha256": "7bdaf76250891684908f386ba8a252ee51bcfd32f7b6c4f97793aa293dd6a65a",
+      "prompt": "prompt-wheel-v1.txt",
+      "promptSha256": "4ab3b92031f35aaf29fd3c877a0e55e5c240f3ea1457918eb76eedf6b4d6b01b",
+      "transparentBackground": true,
+      "references": [
+        {
+          "path": "source-chassis-v1.png",
+          "sha256": "5d93c0bcaf601190589e3a26bdcd1c246ae05cbe343535ddeb7e85a44cfe9f28",
+          "role": "Generated chassis material/style reference"
+        }
+      ],
+      "conversion": "Deterministic component-aware area sampling and12color quantization through scripts/import-raster-art.mjs; no pixel drawing, contour clipping, or inpainted missing anatomy."
+    }
+  ],
+  "earlierReferenceOnly": "earlier-art-frames.json freezes the pre-pass procedural reference and cost baseline; none of those pixels are substituted for generated candidate art.",
+  "sourceOwnership": "Project-authored Duloc wooden siege-cart adaptation for a Shrek/Chrono Trigger fan project. Native CT sprite/AI/event resources remain local input references, not redistributed ROM content."
+}

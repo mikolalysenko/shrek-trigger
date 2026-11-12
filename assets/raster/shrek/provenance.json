@@ -1,0 +1,109 @@
+{
+  "sourceType": "reused-game-sheet",
+  "sources": [
+    {
+      "file": "source-user-256482.png",
+      "providedPath": "/Users/mikolalysenko/Downloads/256482.png",
+      "url": "https://www.spriters-resource.com/mobile/shrekforeverafterthemobilegamejava/asset/256482/",
+      "sha256": "4a1dab4e05b8f33a36ccfd49983ed3a15ce9e67c7d73bfe76eefc9d0402b99a4",
+      "dimensions": [
+        971,
+        4637
+      ],
+      "credit": "Sheet credit: ripped by Nastito. Shrek Forever After mobile game, DreamWorks Animation/Gameloft.",
+      "usage": "Pristine user-linked mobile source retained for comparison. No current field/body pixels come from this model."
+    },
+    {
+      "file": "source-user-506339.png",
+      "providedPath": "/Users/mikolalysenko/Downloads/506339.png",
+      "url": "https://www.spriters-resource.com/v_smile/shrekdragonstale/asset/506339/",
+      "sha256": "064453761cb693886ce956a58e15c7e4cdb6862618ba2b69f53ab5c718d60de3",
+      "dimensions": [
+        942,
+        683
+      ],
+      "usage": "User explicitly selected this model from the GBA/V.Smile actual-game comparison. All current Shrek body pixels derive from this coherent sheet, including exact quarter-turn crop permutations for documented adaptations. Genuine directional gait phases are preserved.",
+      "credit": "Ya Block; Shrek: Dragon’s Tale (V.Smile)"
+    },
+    {
+      "file": "source-user-7997.png",
+      "url": "https://www.spriters-resource.com/game_boy_advance/shrekreekin/asset/7997/",
+      "sha256": "d15b53d5c21be32846ebd89ee86d17cf1e26c9da5113a4d10162fe777ab77f0d",
+      "dimensions": [
+        1071,
+        1020
+      ],
+      "credit": "A.J. Nitro; Shrek: Reekin’ Havoc (GBA)",
+      "usage": "Earlier coherent GBA model retained as a historical comparison; no current Shrek body pixels come from this model."
+    }
+  ],
+  "authorization": "User linked these existing game sheets and explicitly authorized reuse of existing sprites. No Shrek imagegen retry or filter workaround is involved.",
+  "nativeConstraints": {
+    "width": 32,
+    "height": 32,
+    "opaquePalette": 12,
+    "paletteUnchanged": true,
+    "method": "Exact source crops, native raster sampling and palette quantization, whole-source mirrors and documented quarter-turn pixel permutations. Dissolve removes source pixels only. No drawn anatomy or mixed-model body parts."
+  },
+  "status": "Integrated user-selected V.Smile artwork:58 direct-source native slots,151 documented adaptations,36 provisional acting substitutions and3 preserved native blanks. All248 native player uploads and3 frozen NPC uploads passed. The36 semantic gaps remain unfinished artwork.",
+  "review": {
+    "all248NativeSlotsVisuallyInspected": true,
+    "comparison": "art-review/art-pass/shrek-raster/vsmile-full/comparison.png",
+    "allFrames": "art-review/art-pass/shrek-raster/vsmile-full/native-frames-{0,64,128,192}.png",
+    "motion": "art-review/art-pass/shrek-raster/vsmile-full/motion.html",
+    "semanticAudit": "assets/raster/shrek/semantic-audit.vsmile-draft.json",
+    "budgetAudit": "art-review/art-pass/shrek-raster/vsmile-full/draft-audit.json",
+    "sourcePermutationProof": "art-review/art-pass/shrek-raster/vsmile-full/source-transform-verification.json",
+    "nativeSceneValidation": {
+      "romSha256": "510c664a4388139b566519894d3b91918d3f102c609526e69cd97e81aed5ff48",
+      "exactPlayerUploads": 248,
+      "exactFrozenNpcUploads": 3,
+      "checks": "All native tile rows equal indexed source pixels; twelve-color palette and native transparent frames preserved. Fart retains complete four-facing rotation, three turns per16ticks, cloud palette5 and native sound253.",
+      "evidence": "art-review/art-pass/shrek-raster/native-vsmile-510c/verification.json",
+      "scenes": [
+        "Swamp home",
+        "Swamp overworld",
+        "Native combat sandbox Fart",
+        "Frozen Death Peak NPC static poses"
+      ],
+      "limitation": "Frozen NPC was checked in the native actor preview; complete Death Peak resurrection staging was not replayed in this art pass."
+    },
+    "walking": "Six genuine front/back/profile walking source phases; left-facing motion mirrors complete right-facing drawings. Running uses three genuine directional source poses held twice to preserve native six-slot timing. Repeated samples are not claimed as six unique source drawings.",
+    "physicalAttacks": "Genuine source arm-extension and recovery gestures replace sword artwork; native damage,equipment stats and timing are unchanged.",
+    "remainingArtwork": "36 slots use provisional acting substitutions: true unconscious, drinking, sitting, laughter, closed-eye/folded-arm acting and other audited rare gestures require better source poses. Whole-source rotated knockout looks horizontal but is not claimed as an authored unconscious drawing.",
+    "pendingRuntime": "None for the integrated V.Smile source pass."
+  },
+  "history": [
+    {
+      "model": "Shrek: Reekin’ Havoc GBA",
+      "status": "Integrated GBA raster artwork:38 direct-source native slots,173 documented adaptations,34 provisional acting substitutions,3 preserved native blanks. Every rendered pixel comes from the GBA sheet; the34 semantic gaps remain unfinished artwork.",
+      "review": {
+        "all248NativeSlotsVisuallyInspected": true,
+        "comparison": "art-review/art-pass/shrek-raster/gba-full/comparison.png",
+        "allFrames": "art-review/art-pass/shrek-raster/gba-full/native-frames-{0,64,128,192}.png",
+        "motion": "art-review/art-pass/shrek-raster/gba-full/motion.html",
+        "semanticAudit": "assets/raster/shrek/semantic-audit.draft.json",
+        "budgetAudit": "art-review/art-pass/shrek-raster/gba-full/draft-audit.json",
+        "nativeSceneValidation": {
+          "romSha256": "8013fd5f62cc9156e4533351e28278347ded494a8e623e5c3a429f58bc45b80a",
+          "exactPlayerUploads": 248,
+          "exactFrozenNpcUploads": 3,
+          "checks": "All native tile rows equal indexed raster source; twelve-color palette and native transparent frames retained. Fart complete four-facing rotation retains three turns per16ticks, cloud palette and native sound.",
+          "evidence": "art-review/art-pass/shrek-raster/native-8013/verification.json",
+          "scenes": [
+            "Swamp home",
+            "Swamp overworld",
+            "Native combat sandbox Fart",
+            "Frozen Death Peak NPC static poses"
+          ],
+          "limitation": "Frozen NPC was checked in the native actor preview; complete Death Peak resurrection staging was not replayed in this art pass."
+        },
+        "walking": "Front/rear use two whole-source mirrored foot contacts and a one-pixel rise; repeated samples are not claimed as six original source drawings. Side walking uses six genuine source phases.",
+        "physicalAttacks": "Authentic unarmed punch poses replace sword gestures with native damage/equipment/timing unchanged; authorized by parent task direction.",
+        "pendingRuntime": "None for this integrated source pass. Dedicated source acting remains missing for34 separately audited slots."
+      }
+    }
+  ],
+  "selectedModel": "Shrek: Dragon’s Tale V.Smile",
+  "userSelection": "User explicitly chose the V.Smile model on the right of the actual swamp screenshot comparison, and confirmed the downloaded506339 reference."
+}

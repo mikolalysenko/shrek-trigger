@@ -1,0 +1,88 @@
+{
+  "key": "muffin-man",
+  "palette": [
+    "30252b",
+    "79503b",
+    "c18a63",
+    "efc197",
+    "fff0cb",
+    "763939",
+    "b75f4c",
+    "49362d",
+    "f9f4e2",
+    "8d9a98",
+    "c7d0c6",
+    "e2b656"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/muffin-man/source-base-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 28,
+      "sample": {
+        "method": "nearest"
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        {
+          "frame": 2,
+          "flip": true
+        }
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        6,
+        1,
+        7
+      ],
+      "1": [
+        4,
+        0,
+        5
+      ],
+      "2": [
+        8,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        9
+      ],
+      "3": [
+        10,
+        3,
+        11
+      ]
+    },
+    "talk": {
+      "1": [
+        12
+      ]
+    },
+    "bow": {
+      "1": [
+        13
+      ]
+    },
+    "work": {
+      "3": [
+        14,
+        15
+      ]
+    }
+  }
+}

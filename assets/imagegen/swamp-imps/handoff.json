@@ -1,0 +1,385 @@
+{
+  "status": "Frozen inactive packet, ready for root integration",
+  "activation": false,
+  "graphics": 86,
+  "owners": [
+    {
+      "kind": "npc",
+      "id": 78,
+      "header": [
+        86,
+        43,
+        67,
+        33,
+        0
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 12,
+      "header": [
+        86,
+        43,
+        67,
+        33,
+        0,
+        0,
+        246,
+        8,
+        12,
+        33
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 13,
+      "header": [
+        86,
+        43,
+        63,
+        33,
+        0,
+        0,
+        246,
+        8,
+        12,
+        33
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 14,
+      "header": [
+        86,
+        43,
+        167,
+        33,
+        0,
+        0,
+        246,
+        8,
+        10,
+        18
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 15,
+      "header": [
+        86,
+        43,
+        68,
+        33,
+        0,
+        0,
+        246,
+        8,
+        16,
+        20
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 16,
+      "header": [
+        86,
+        63,
+        63,
+        44,
+        0,
+        0,
+        240,
+        7,
+        14,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 17,
+      "header": [
+        86,
+        63,
+        64,
+        44,
+        0,
+        0,
+        240,
+        7,
+        14,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 18,
+      "header": [
+        86,
+        63,
+        65,
+        100,
+        0,
+        0,
+        240,
+        8,
+        16,
+        33
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "header": [
+        86,
+        65,
+        63,
+        83,
+        1,
+        0,
+        236,
+        8,
+        16,
+        17
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 242,
+      "header": [
+        86,
+        63,
+        231,
+        100,
+        0,
+        0,
+        240,
+        8,
+        16,
+        33
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "key": "imp",
+      "asm": 43,
+      "size": 0,
+      "cells": 4,
+      "frames": 28,
+      "assemblyBytes": 1120,
+      "assemblySha256": "adc28eb4038b0be43b6895062f96b9c82019d2fef3a64ab9628d6244b19e220d"
+    },
+    {
+      "key": "roly",
+      "asm": 63,
+      "size": 0,
+      "cells": 4,
+      "frames": 26,
+      "assemblyBytes": 1040,
+      "assemblySha256": "42b1875951d74dbe5f11ec96f0d71656cb2fe4f9b2914b137302d19a8371f0bb"
+    },
+    {
+      "key": "rider",
+      "asm": 65,
+      "size": 1,
+      "cells": 8,
+      "frames": 29,
+      "assemblyBytes": 2320,
+      "assemblySha256": "166ac62695b520586a6938365d826c102e300d61f1563a993eb685ad082af527"
+    }
+  ],
+  "source": {
+    "raster": "native-cell-raster.json",
+    "compiler": "compile-native-cells.js",
+    "sampling": "prepare-draft.mjs",
+    "fullGeometry": "geometry-audit.json",
+    "components": "source-native-components.json"
+  },
+  "sourceReclamation": [
+    {
+      "field": 0,
+      "id": 86,
+      "offset": 1572864,
+      "length": 6152
+    },
+    {
+      "field": 1,
+      "id": 43,
+      "offset": 1986680,
+      "length": 1120
+    },
+    {
+      "field": 1,
+      "id": 63,
+      "offset": 1920944,
+      "length": 1040
+    },
+    {
+      "field": 1,
+      "id": 65,
+      "offset": 1922504,
+      "length": 2320
+    }
+  ],
+  "storage": {
+    "candidate": {
+      "decodedBytes": 9024,
+      "compressedBytes": 6976,
+      "assemblyBytes": 4480,
+      "compressedPlusAssemblyBytes": 11456
+    },
+    "originalCT": {
+      "decodedBytes": 8704,
+      "compressedBytes": 6152,
+      "assemblyBytes": 4480,
+      "decodedDelta": 320,
+      "compressedPlusAssemblyDelta": 824
+    },
+    "earlierActiveArt": {
+      "baselineSha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+      "decodedBytes": 8704,
+      "compressedBytes": 6152,
+      "assemblyBytes": 4480,
+      "decodedDelta": 320,
+      "compressedPlusAssemblyDelta": 824
+    },
+    "withRequiredRawStream": {
+      "additionalRawBytes": 9024,
+      "totalPacketBytes": 20480,
+      "totalGrowthAgainstBothBaselines": 9848
+    },
+    "paletteBytesWritten": 0,
+    "extraWramBytes": 0,
+    "extraVramBytes": 0,
+    "requiredExplicitStream": [
+      86
+    ],
+    "defaultGuard": "Keep8,704-byte original decoded ceiling for unselected legacy loading. Select86 only through the existing all-owner size0/1 native streaming contract."
+  },
+  "integration": [
+    "Compile the exact independent cell source with compileSwampImpCells; preserve tile0 blank, all83 slots and assembly IDs43/63/65. Do not flatten the mounted source.",
+    "Allocate the6,976-byte compressed bank using the existing extended allocator and the9,024-byte raw bank through explicit gfx86 streaming. Write only graphics/assembly pointers and compiled data; headers, names, AI, stats, events and original AA tables remain untouched.",
+    "Revalidate all ten actual emitted owners, full size flags and seven exact24-byte palette records. Pal67 and167 have unrelated owners; issue no palette writes. AA44 also belongs to NPC164.",
+    "Reclaim only the audited graphics span and exact asm43/63/65 source extents after pointer-owner validation. Root owns production integration and independent-core checks."
+  ],
+  "proof": {
+    "resourceAuditBaselineSha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+    "baselineSha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+    "candidateSha256": "4d4e08bc43ae8791733e53bc7b3e3f57a74aad554442a8bec580e3312373dc39",
+    "nativeUploads": 273,
+    "nativeCells": 1208,
+    "exactDisplayedOpaquePixels": 83271,
+    "timing": {
+      "cases": 320,
+      "cycles": 640,
+      "ticks": 16176,
+      "requestsAndTimersUnchanged": true,
+      "fullFrameTransfersCoherent": true,
+      "delayedVideoTicks": 4,
+      "maximumDelayVideoFrames": 1,
+      "casesWithDelay": [
+        {
+          "kind": "enemy",
+          "id": 19,
+          "program": 83,
+          "action": 6,
+          "facing": 0,
+          "delayTicks": 1,
+          "maxDelay": 1,
+          "trace": "timing/enemy19-AA83-action6-facing0.json"
+        },
+        {
+          "kind": "enemy",
+          "id": 19,
+          "program": 83,
+          "action": 6,
+          "facing": 1,
+          "delayTicks": 1,
+          "maxDelay": 1,
+          "trace": "timing/enemy19-AA83-action6-facing1.json"
+        },
+        {
+          "kind": "enemy",
+          "id": 19,
+          "program": 83,
+          "action": 6,
+          "facing": 2,
+          "delayTicks": 1,
+          "maxDelay": 1,
+          "trace": "timing/enemy19-AA83-action6-facing2.json"
+        },
+        {
+          "kind": "enemy",
+          "id": 19,
+          "program": 83,
+          "action": 6,
+          "facing": 3,
+          "delayTicks": 1,
+          "maxDelay": 1,
+          "trace": "timing/enemy19-AA83-action6-facing3.json"
+        }
+      ],
+      "startupAlignment": {
+        "file": "native-timing-startup-audit.json",
+        "ticks": 14876,
+        "delayedVideoTicks": 31,
+        "casesWithDelay": 31,
+        "maximumConsecutiveDelay": 1
+      },
+      "combinedCapture": {
+        "videoTicks": 31052,
+        "delayedVideoTicks": 35,
+        "maximumConsecutiveDelayVideoFrames": 1
+      }
+    },
+    "encounters": [
+      {
+        "location": 112,
+        "formation": [
+          12,
+          12,
+          16
+        ],
+        "positiveDamageResults": 3,
+        "nativeVictory": true,
+        "observedFieldHeap": 8192,
+        "exactUndo": true
+      },
+      {
+        "location": 119,
+        "formation": [
+          19,
+          19,
+          19
+        ],
+        "positiveDamageResults": 3,
+        "nativeVictory": true,
+        "observedFieldHeap": 14784,
+        "exactUndo": true
+      }
+    ],
+    "npc": {
+      "id": 78,
+      "location": 33,
+      "object": 9,
+      "dialogue": 220,
+      "patrol": true,
+      "observedFieldHeap": 160,
+      "exactUndo": true
+    },
+    "allBranchSceneUnion": {
+      "scenes": 26,
+      "maxLegacyCandidateHeap": 30528,
+      "maxStreamedCandidateHeap": 21504,
+      "limit": 32768,
+      "scope": "Conservative union of all original event load branches, using actual emitted21abd2 headers/resources. Only explicitly selected baseline streams and candidate86 are excluded. This is an upper bound, not a simultaneous residency or full choreography claim."
+    }
+  },
+  "limitations": [
+    "The four Rider delay ticks occur in AA83 action6, one for each facing, at a phase boundary. A complete preceding pose remains visible for one video frame. Visible timing is not claimed identical. The separately recorded startup/alignment phase has31 additional one-tick Rider delays; see native-timing-startup-audit.json.",
+    "Mounted layers preserve complete independent cell uploads; map/party/color-math occlusion in real scenes is recorded separately from exact isolated pixel proof.",
+    "These are bounded original encounters after reversible diagnostic native location entry and an endgame kit, not a complete campaign route or normal-level balance test.",
+    "Other source-load scenes have conservative union bounds; only112/119/33 were executed here.",
+    "Independent cores, the final production allocator/stream addresses and connected campaign routes remain root integration work."
+  ]
+}

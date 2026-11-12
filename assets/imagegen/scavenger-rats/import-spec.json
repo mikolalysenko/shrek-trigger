@@ -1,0 +1,112 @@
+{
+  "key": "scavenger-rats",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/scavenger-rats/active",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "28272c",
+    "51463e",
+    "8b7763",
+    "c5af8c",
+    "eee0bb",
+    "8d5354",
+    "c88776",
+    "354d52",
+    "73918b",
+    "483b3d",
+    "c59a50",
+    "f6edce"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/scavenger-rats/source-v1.png",
+      "columns": 4,
+      "rows": 2,
+      "cells": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "nativeHeight": 28,
+      "scaleCells": [
+        1
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.96
+        },
+        "2": {
+          "scale": 0.825
+        },
+        "3": {
+          "scale": 0.9
+        },
+        "7": {
+          "scale": 0.93
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/scavenger-rats/source-profile-v3.png",
+      "columns": 3,
+      "rows": 1,
+      "nativeHeight": 28,
+      "scaleCells": [
+        1
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        {
+          "frame": 0,
+          "flip": true
+        },
+        2,
+        3,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        5,
+        6,
+        7,
+        {
+          "frame": 5,
+          "flip": true
+        },
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        4
+      ]
+    }
+  },
+  "notes": {
+    "sourceSpec": "assets/imagegen/scavenger-rats/rat/import-spec.draft.json",
+    "status": "Accepted source registered for native cartridge compilation"
+  }
+}

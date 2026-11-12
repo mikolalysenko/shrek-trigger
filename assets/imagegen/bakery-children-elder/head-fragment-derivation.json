@@ -1,0 +1,39 @@
+{
+  "sourceType": "Deterministic crop of actual generated-source native sampling",
+  "source": "source-elder-base-v1.png",
+  "sourceSha256": "4bb78d4ce146c292a9c75a8f46fa25b15c47ab96ca4e628b7e2c9ac274af78bb",
+  "samplingSpec": "elder-base-spec.json",
+  "samplingSpecSha256": "e07dc60eca41525b354dd4487878d6ac1bc82ff2bdf4af74ee1a54d4143a3c26",
+  "sampledRasterSha256": "0057cff79a9d4a0b74e6ee9dd261db736b6a9fb1b7661e3690f18c6334fffde5",
+  "sourcePose": 2,
+  "sourcePixelsSha256": "adf11cc787336f73d9b49e7793155822d111c72b0690fedd884ade7e9a72475f",
+  "crop": [
+    0,
+    0,
+    32,
+    9
+  ],
+  "reason": "Preserve existing upper-head-only native roles17/18; source original occupies an8pxband and current project masks rows9–31.",
+  "changedPixels": "Only hide rows9–31. No added anatomy, outline or color changes.",
+  "derivedPng": "derived-elder-head-left.png",
+  "derivedPngSha256": "d648418c814c82c7c9eb2d8075412d1d39b88a806225244cb90e1e5badff95e3",
+  "nativeFragmentSha256": "83d79ed69e2cb1689e210b8147c9e3cac85300f65a14cdcd5d552d6a464dabf4",
+  "opaquePixels": 56,
+  "bounds": [
+    10,
+    3,
+    14,
+    6
+  ],
+  "importSample": {
+    "nativeHeight": 6,
+    "sample": {
+      "method": "nearest",
+      "bottom": 8,
+      "dx": 1,
+      "alphaThreshold": 128,
+      "coverageThreshold": 0.28
+    }
+  },
+  "rightFragment": "Exact horizontal mirror"
+}

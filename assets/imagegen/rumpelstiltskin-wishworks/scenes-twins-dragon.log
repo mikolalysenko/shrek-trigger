@@ -1,0 +1,9 @@
+file:///Users/mikolalysenko/Projects/shrek-trigger/tests/battle-controller.mjs:7
+  if(await read(0x95db)!==0||await read(0x9609)!==0)throw Error('Battle command menu is not ready');
+                                                          ^
+
+Error: Battle command menu is not ready
+    at chooseNativeTech (file:///Users/mikolalysenko/Projects/shrek-trigger/tests/battle-controller.mjs:7:59)
+    at async file:///Users/mikolalysenko/Projects/shrek-trigger/assets/imagegen/rumpelstiltskin-wishworks/verify-scenes.mjs:53:131
+
+Node.js v24.18.0

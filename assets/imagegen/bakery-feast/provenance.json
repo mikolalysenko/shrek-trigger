@@ -1,0 +1,138 @@
+{
+  "status": "Inactive generated-source package",
+  "sourceType": "image-generation",
+  "sources": [
+    {
+      "key": "drummer",
+      "file": "source-drummer-v1.png",
+      "prompt": "prompt-drummer-v1.txt",
+      "sha256": "cd27169a168993df0ad37811365a606855e3d6682c67da2f886baf54d5efe7c7",
+      "promptSha256": "22f1af985c483a99d1b9cb0f95c976f8c3c0a8f369866c8392127239712ecdac",
+      "generator": "Built-in image_gen tool",
+      "originalGeneratedPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-b5f3aeb0-fe76-484e-8f8c-cc51d79f10e5.png",
+      "reference": {
+        "file": "assets/imagegen/bakery-civilians/source-porter-base-v1.png",
+        "sha256": "a5240abe170af0364d38214a768ec0d7b4807d177a1c694b22c25c913ba6303f",
+        "role": "Previously generated style/material reference, viewed before generation; not sampled during conversion"
+      },
+      "selected": "Two actual opposite strike poses; no mirroring."
+    },
+    {
+      "key": "percussionist",
+      "file": "source-percussionist-v1.png",
+      "prompt": "prompt-percussionist-v1.txt",
+      "sha256": "a42decac0daeee7bb4731a84085c83c80dfb8dce156957bdadfcfc282c95b8c5",
+      "promptSha256": "cf24cb81908e9ceda6025268bbbc160a8d16430f248edcd35d2dc6808c1a533d",
+      "generator": "Built-in image_gen tool",
+      "originalGeneratedPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-7e271bca-ca7b-435a-a2b7-b70a957118a3.png",
+      "reference": {
+        "file": "assets/imagegen/bakery-civilians/source-baker-base-v1.png",
+        "sha256": "8b4d10ffb25c564034287f2aadf640f116710c7e2f9cd919ddb66173ce7ec523",
+        "role": "Previously generated style/material reference, viewed before generation; not sampled during conversion"
+      },
+      "selected": "Two actual opposite strike poses; the log opening stays screen-left."
+    },
+    {
+      "key": "platter",
+      "file": "source-platter-v1.png",
+      "prompt": "prompt-platter-v1.txt",
+      "sha256": "b7e309aa88fb4db633470ce94fc7fce8d7314894c0cbc243789954b893b2a0f3",
+      "promptSha256": "a5a6b16a90288ca9fdcf50deebbf25d2e65558cd5e8fc604372d43b299cdf3c8",
+      "generator": "Built-in image_gen tool",
+      "originalGeneratedPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-cf5442cd-25c4-4221-af25-c584db84acb2.png",
+      "reference": {
+        "file": "assets/imagegen/bakery-civilians/source-porter-base-v1.png",
+        "sha256": "a5240abe170af0364d38214a768ec0d7b4807d177a1c694b22c25c913ba6303f",
+        "role": "Previously generated style/material reference, viewed before generation; not sampled during conversion"
+      },
+      "selected": "Four real views: level full, tilted edge, underside, eaten heel."
+    }
+  ],
+  "designBasis": [
+    "docs/bakery.md",
+    "docs/game-design.md",
+    "docs/credits.md",
+    "content/bakery-villagers.js",
+    "engine/bakery-village-art.js"
+  ],
+  "nativeRoleBasis": "Original user cartridge native sheets, animation/duration allocations, owners and exact event280function boundaries audited before source mapping.",
+  "derivation": {
+    "method": "Area sampling with alpha128 and coverage0.28",
+    "canvas": [
+      32,
+      32
+    ],
+    "palette": "Existing exact12-color shared village ramp123",
+    "nativeHeight": {
+      "drummer": 31,
+      "percussionist": 28,
+      "platterReference": 13
+    },
+    "sourcePoses": 8,
+    "nativeSlots": 12,
+    "mirrors": false,
+    "platterMap": [
+      0,
+      0,
+      1,
+      2,
+      1,
+      2,
+      3,
+      3
+    ],
+    "platterAnchor": [
+      0,
+      8
+    ],
+    "platterFrameOffsets": {
+      "2": [
+        0,
+        -9
+      ],
+      "3": [
+        0,
+        -28
+      ],
+      "4": [
+        0,
+        -14
+      ],
+      "5": [
+        0,
+        -30
+      ],
+      "6": [
+        0,
+        -5
+      ],
+      "7": [
+        0,
+        -5
+      ]
+    },
+    "eatenRole": "Existing project slots6/7 intentionally use generated eaten platter, whereas original source6/7 were lowered level copies.",
+    "proceduralAnatomy": false,
+    "pixelPainting": false,
+    "outlineExpansion": false
+  },
+  "visualReview": {
+    "lead": "sprite_art_pass",
+    "allNativeSheetsApproved": true,
+    "root": {
+      "native1xApproved": true,
+      "exactPlatterAnchorAtlasApproved": true,
+      "actualSoloPpuCropsApproved": true
+    },
+    "assessment": "Distinct loaf and bun musicians; opposing contacts are readable, log opening remains screen-left, and full/edge/underside/eaten plate states are distinct.",
+    "scope": "Static source/direction approval is separate from native frame, timing and original-scene evidence."
+  },
+  "limitations": [
+    "Fine faces and drum lacing simplify at actual size. Scoring, spiral, vest, beater position and instrument silhouette carry identity.",
+    "Plate tilt phases change view and native height; original actor anchor and existing project per-frame offsets are preserved exactly.",
+    "Source palettes174 and5 remain owned by unrelated props and Mongo; only the existing header choice of palette123 is used.",
+    "Full eating-contest and morning transition remain root integrated controller checks.",
+    "Production raw streaming and independent-core coverage remain root integration checks."
+  ],
+  "credentials": "Built-in generation only; no API fallback used."
+}

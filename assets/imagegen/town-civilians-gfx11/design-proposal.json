@@ -1,0 +1,416 @@
+{
+  "status": "Parent-approved design and private assembly proposal; actual source and native proof remain inactive",
+  "workingKey": "duloc-town-keeper",
+  "identity": "Ordinary Duloc/fairy-tale town professional: shopkeeper, innkeeper, clerk and civic witness/advocate",
+  "reason": "The source is identified as shopkeeper for NPC22/49 and fair shopkeeper for 89, but the same model is also Pierre in barracks/court dialogue and appears in both eras, bridge scenes, a parade, the slideshow and Dream Project. A generic versatile human professional fits all current reuse; no new named celebrity or carried trade prop is added.",
+  "look": {
+    "face": "Warm expressive adult human, broad small nose, dark brows, neat brown side hair and restrained short moustache; readable at native size without resembling a named actor.",
+    "clothes": "Soft rounded blue/teal felt cap, ochre-rust short waistcoat over a pale open-collar linen shirt, olive-green trousers, dark belt and practical shoes. Use the original two ramps; avoid a specialized apron, chef toque, uniform armor or carried stock/ledger.",
+    "silhouette": "Compact 32 px standing height and about 16–18 px front width, 12–14 px profile; a readable cap and shoulders with short mobile legs. Top-left clustered Chrono Trigger pixel shading, distinct hands/feet and cloth folds.",
+    "consistency": "The palette 133 variant becomes a darker blue/richer orange version of the same model; no palette writes, body-size changes or special new identity."
+  },
+  "roles": {
+    "slots": 19,
+    "bodySlots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "blank": [
+      16
+    ],
+    "sourceOnlyUpperFragments": [
+      17,
+      18
+    ],
+    "fragmentHeight": 8,
+    "mirrors": [
+      [
+        3,
+        2
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        18,
+        17
+      ]
+    ],
+    "sourceArtPolicy": "After approval, actual generated raster for all anatomy; pointwise source crop for fragments and explicit blank. No procedural anatomy, no Shrek/Pinocchio/Sky Drake retries."
+  },
+  "native": {
+    "gfx": 11,
+    "sourceAssembly": 7,
+    "proposedPrivateAssembly": 247,
+    "privateAssemblyAuthorization": "Root message: reserve private 247 for gfx11 NPC 22/49/89 only; root verifies and applies at integration.",
+    "headerEditsProposed": [
+      {
+        "kind": "npc",
+        "id": 22,
+        "field": 1,
+        "from": 7,
+        "to": 247
+      },
+      {
+        "kind": "npc",
+        "id": 49,
+        "field": 1,
+        "from": 7,
+        "to": 247
+      },
+      {
+        "kind": "npc",
+        "id": 89,
+        "field": 1,
+        "from": 7,
+        "to": 247
+      }
+    ],
+    "sizeByte": 0,
+    "cells": 4,
+    "privateAssemblyBytes": 760,
+    "originalGraphicsDecodedBytes": 2336,
+    "originalGraphicsCompressedBytes": 1476,
+    "originalSharedAssemblyMustRemain": true,
+    "paletteIds": [
+      9,
+      133
+    ],
+    "animationId": 7,
+    "paletteWrites": 0,
+    "timingWrites": 0,
+    "graphicsPolicy": "Measure the generated native bank before deciding legacy versus selected raw streaming. Preserve the ordinary 2336-byte guard until root explicitly integrates a scoped contract; no added VRAM/cells."
+  },
+  "contexts": {
+    "owners": [
+      {
+        "id": 22,
+        "header": [
+          11,
+          7,
+          9,
+          7,
+          0
+        ],
+        "locations": [
+          5,
+          12,
+          17,
+          18,
+          25,
+          32,
+          53,
+          54,
+          56,
+          62,
+          188,
+          190,
+          239,
+          439
+        ],
+        "loadCount": 17
+      },
+      {
+        "id": 49,
+        "header": [
+          11,
+          7,
+          9,
+          7,
+          0
+        ],
+        "locations": [
+          35,
+          116,
+          118,
+          138,
+          139,
+          155,
+          156,
+          157
+        ],
+        "loadCount": 8
+      },
+      {
+        "id": 89,
+        "header": [
+          11,
+          7,
+          133,
+          7,
+          0
+        ],
+        "locations": [
+          27,
+          79,
+          338,
+          439
+        ],
+        "loadCount": 4
+      }
+    ],
+    "programs": [
+      {
+        "location": 5,
+        "name": "Millenial Fair",
+        "loads": [
+          22,
+          22,
+          22
+        ]
+      },
+      {
+        "location": 12,
+        "name": "Truce Inn (Present)",
+        "loads": [
+          22
+        ]
+      },
+      {
+        "location": 17,
+        "name": "Truce Market (Present)",
+        "loads": [
+          22
+        ]
+      },
+      {
+        "location": 18,
+        "name": "Truce Ticket Office",
+        "loads": [
+          22
+        ]
+      },
+      {
+        "location": 25,
+        "name": "Guardia Barracks (Present)",
+        "loads": [
+          22
+        ]
+      },
+      {
+        "location": 27,
+        "name": "Courtroom",
+        "loads": [
+          89
+        ]
+      },
+      {
+        "location": 32,
+        "name": "Zenan Bridge (Present)",
+        "loads": [
+          22,
+          22
+        ]
+      },
+      {
+        "location": 35,
+        "name": "Medina Inn",
+        "loads": [
+          49
+        ]
+      },
+      {
+        "location": 53,
+        "name": "Snail Stop",
+        "loads": [
+          22
+        ]
+      },
+      {
+        "location": 54,
+        "name": "Porre Market (Present)",
+        "loads": [
+          22
+        ]
+      },
+      {
+        "location": 56,
+        "name": "Porre Ticket Office",
+        "loads": [
+          22
+        ]
+      },
+      {
+        "location": 62,
+        "name": "Choras Inn (Present)",
+        "loads": [
+          22
+        ]
+      },
+      {
+        "location": 79,
+        "name": "Guardia Throneroom (Ending: Moonlight Parade)",
+        "loads": [
+          89
+        ]
+      },
+      {
+        "location": 116,
+        "name": "Truce Inn 1F (Middle Ages)",
+        "loads": [
+          49
+        ]
+      },
+      {
+        "location": 118,
+        "name": "Truce Market (Middle Ages)",
+        "loads": [
+          49
+        ]
+      },
+      {
+        "location": 138,
+        "name": "Sandorino Inn",
+        "loads": [
+          49
+        ]
+      },
+      {
+        "location": 139,
+        "name": "Sandorino Market",
+        "loads": [
+          49
+        ]
+      },
+      {
+        "location": 155,
+        "name": "Porre Cafe (Middle Ages)",
+        "loads": [
+          49
+        ]
+      },
+      {
+        "location": 156,
+        "name": "Porre Inn (Middle Ages)",
+        "loads": [
+          49
+        ]
+      },
+      {
+        "location": 157,
+        "name": "Porre Market (Middle Ages)",
+        "loads": [
+          49
+        ]
+      },
+      {
+        "location": 188,
+        "name": "Choras Cafe",
+        "loads": [
+          22
+        ]
+      },
+      {
+        "location": 190,
+        "name": "Choras Market (Middle Ages)",
+        "loads": [
+          22
+        ]
+      },
+      {
+        "location": 239,
+        "name": "Ending: A Slide Show?",
+        "loads": [
+          22
+        ]
+      },
+      {
+        "location": 338,
+        "name": "Present Age Home Room (Ending: The Dream Project)",
+        "loads": [
+          89
+        ]
+      },
+      {
+        "location": 439,
+        "name": "Leene Square",
+        "loads": [
+          22,
+          89
+        ]
+      }
+    ],
+    "totalPrograms": 25,
+    "totalLoadStatements": 29,
+    "storyReferences": [
+      {
+        "file": "content/trial-dialogue.js",
+        "location": 25,
+        "strings": [
+          90,
+          136,
+          137
+        ],
+        "role": "Pierre civic defender/barracks and parade organization"
+      },
+      {
+        "file": "content/trial-dialogue.js",
+        "location": 27,
+        "strings": [
+          149,
+          152,
+          153
+        ],
+        "role": "Pierre trial questioning; these lines execute on NPC89 original object functions"
+      },
+      {
+        "file": ".local/reference/temporal-redux/sourcefiles/editorui/lookups.py",
+        "npcIds": [
+          22,
+          49,
+          89
+        ],
+        "role": "Original shopkeeper/fair shopkeeper source labels"
+      }
+    ]
+  },
+  "evidence": [
+    "native-audit.json",
+    "current-event-audit.json",
+    "native-role-notes.json",
+    "assembly-capacity-audit.json",
+    "review/original-role-sheet.png"
+  ],
+  "coverage": "Read-only current packet parsing, original pixel/timing/ownership audit. No new source, native display proof, scene execution or active change is claimed.",
+  "activation": false,
+  "parentApproval": {
+    "design": "Versatile Duloc town keeper approved for NPC22/49/89",
+    "resource": "Private assembly247 only; shared assembly7, AA7 and palettes9/133 stay exact",
+    "staticArt": "Both-palette role sheet and gait contacts approved after actual image generation"
+  }
+}

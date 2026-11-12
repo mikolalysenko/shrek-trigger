@@ -1,0 +1,126 @@
+{
+  "key": "bone-guards",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/bone-guards",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "212110",
+    "ffffff",
+    "e6d6b5",
+    "ff6b63",
+    "ad9c7b",
+    "e6bd63",
+    "c53a31",
+    "84734a",
+    "a57b3a",
+    "5a523a",
+    "9c1919",
+    "3a3a29"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/bone-guards/source-movement-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 30,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      }
+    },
+    {
+      "file": "assets/imagegen/bone-guards/source-actions-v1.png",
+      "columns": 3,
+      "rows": 2,
+      "nativeHeight": 30,
+      "scaleCells": [
+        3
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.9
+        },
+        "4": {
+          "scale": 0.96
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        {
+          "frame": 0,
+          "flip": true
+        },
+        {
+          "frame": 1,
+          "flip": true
+        },
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 3,
+          "flip": true
+        },
+        {
+          "frame": 4,
+          "flip": true
+        },
+        {
+          "frame": 5,
+          "flip": true
+        },
+        6,
+        7,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        {
+          "frame": 12,
+          "flip": true
+        },
+        {
+          "frame": 13,
+          "flip": true
+        },
+        14
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive source draft",
+    "native": "24 native slots; four cells each; original animation85 and duration list unchanged. All four palettes91–94 unchanged. Palette92 is shared with unrelated enemy47.",
+    "duplicate": "Native13 and14 are pixel-identical in the source ROM and intentionally reuse one authored pose.",
+    "mirrors": "6–11,21 and22 are explicitly mirrored complete source poses; no false independent-source claim."
+  }
+}

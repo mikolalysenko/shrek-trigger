@@ -1,0 +1,80 @@
+# The First Bakery and Glaze's furnaces
+
+The two Bakery chapters adapt 445 referenced strings in 24 native locations. This includes the separate flight/aftermath event at location 261, the shared waking/death scene at 271, both villages, feast, traders, forest, hunter den, rescue, furnace lair and later ruins. Choices, reward IDs and transitions remain native. Five equal-length guarded instructions in the Gingy conversation replace Mongo's strike/impact cue and Gingy's three fallen reactions with a folded-arm listening pose, a half-second pause and upright reactions. Every other instruction and all script offsets are preserved. Both text-table selections in the flight event are relocated. The two waking cues retain their immediate page breaks and original delay operands.
+
+Mongo protects an ancient community of enchanted baked people. Gingy is his friend and spokesman. The feast is an onion-bread contest. Master Glaze is an original confectioner tyrant who treats living people as ingredients. His hunters, Kilnbacks and Furnace Maw supply the hostile cast. Mongo offers Glaze a way out; the catastrophe and immediate aftermath retain a serious tone.
+
+## Native graphics
+
+| Family | Variants | Native poses per variant | Decoded graphics | Cells |
+| --- | ---: | ---: | ---: | ---: |
+| Master Glaze | 1 | 20 | 5,728 bytes | 4 |
+| Furnace Maw / Buried Furnace | 2 | 8 | 7,200 bytes | 12 |
+
+These frames sample the approved generated raster sources in `assets/imagegen/`. The palettes and native resource ownership live in `content/bakery-actors.js`. The three variants contribute 36 poses. Glaze's direct-ROM stream avoids enlarging the original decoded field heap, and his retained compressed packet sits in an owned extended bank. Enemy headers, animation programs, AI, statistics and rewards remain unchanged.
+
+The Kilnbacks are the stock Nizbel and Nizbel II, and Glaze's hunters are the stock Reptites, including the field-NPC slot used during the Gate Key theft. The November 6 art-scope tightening (see [decisions](decisions.md)) retired those redraws: neither is a story character nor a Shrek reference, and the dialogue's scaly hunters already match the stock Reptites. The Nizbels keep the battle names **Kilnback** and **Iron Kiln**, which Glaze's lines use; the Reptites take back their stock name. See [the generated character pass](character-art.md) for exact sources, palette isolation and placement.
+
+The large furnace's moving face is a twelve-cell sprite. Its generated body uses the native background: 215 cells in the keep and 32 additional edge cells for the buried variant. `engine/furnace-background.js` regenerates the existing 4,096-byte body bank and 512-byte edge bank. The live face attaches at body-local `[56,96]`, or `[56,95]` in the buried room. Shared exterior stonework, floor pieces, map data, collision, scrolling and tile assemblies remain unchanged. Ownership guards protect the shared graphics and the two location palette sets. No extra WRAM or VRAM is reserved.
+
+The actor bench exposes every pose. SnesJs checks exact uploaded tiles and indexed pixels; independent pose checks cover every displayed custom variant in Snes9x and bsnes, plus Snes9x VRAM. Background tests check the live battle uploads and palettes as well as unchanged map/architecture data.
+
+The community adds 153 native poses in ten variants: bread porters, cinnamon-bun bakers, crumb children, a brioche elder, two baked percussionists and onion-bread platters. The two villages share civilian graphics with distinct native palettes. The generated Porter and Baker banks use 5,856 and 7,008 decoded bytes and select direct-ROM streaming. Both retain all 23 source poses and their original dance timing. The child and elder retain their earlier 1,248- and 960-byte banks pending the next generated-art integration. The two percussionists use 352 and 544 bytes, and the platter uses 480 bytes; those source-art replacements are in progress.
+
+The sky drakes add four generated salmon field poses with eight cells per pose (`assets/imagegen/sky-drakes/`). Their 3,008-byte bank streams raw from ROM (graphics 42), since it outgrows the original 1,376-byte heap allocation; the assembly uses the original four-frame budget. Palette 129 and the animation program remain unchanged because the palette also serves an unrelated NPC. Nine overworld poses replace 88 tiles in the existing 4,096-byte mount bank. Its remaining 40 tiles and all rider colors are preserved. An ownership guard verifies that only the Bakery-era world selects this bank. Neither replacement reserves additional WRAM or VRAM.
+
+All four field poses and all nine flight poses pass native upload checks in SnesJs. Snes9x and bsnes check every displayed field pose pixel for pixel, with exact Snes9x tile comparisons. The independent preview waits for the kitchen's actual idle script before its approach conversation starts; music loading can change the number of frames needed to enter the room. Reloading an eight-cell NPC into that initialized four-cell preview requires assigning a free native tile-cache pair. This diagnostic preserves the neighboring cat's slot and changes no cartridge or PPU bytes; the ordinary native streamer performs the uploads. Normal chapter initialization allocates the drakes directly.
+
+Children and the elder receive private assembly IDs 245 and 246 because their original assemblies also serve unrelated townspeople. Those original tables remain unchanged and are never reclaimed. The percussionists and platter select the Bakery palette through their NPC headers, preserving the source palettes shared by other props and Mongo. The child's blank frame, the elder's blank and head-only frames, and all original animation programs remain intact. `engine/bakery-village-art.js` contains the original indexed artwork; `content/bakery-villagers.js` records its ownership and palette choices.
+
+All 153 community poses pass exact native upload and pixel checks in SnesJs. The seven village/feast rooms load within their original field heap. All 153 displayed community poses also pass exact pixel checks in Snes9x and bsnes; Snes9x additionally verifies their uploaded VRAM. The browser runner covers all seventeen Bakery actors and eight shortcuts. All 153 baseline unit/integration checks and both complete independent suites passed on cartridge `7ce2505849b199d59d4ee687f43de34c8b1162b4b1e3a751ef37325364c4fc92`. The earlier caption/staging cartridge `3cb6500b336d863286d929f74438e016e3c48c96bf85b8164bf489cddcf6ad04` passes all 161 unit/integration checks and the browser suite, with 82,715 reclaimed bytes free inside the original 4 MiB image. Its graphics and combat programs are unchanged from that independent baseline.
+
+## Reversible shortcuts
+
+| Shortcut | Starting scene | Native result |
+| --- | --- | --- |
+| Mountain arrival | Mountain base, 273 | Two ambushes, Mongo naming and the real descent toward the Bakery |
+| Feast and bread contest | Feast, 280 | Native performances, contest, Dreamstone and Gate Key theft |
+| Wake and recruit Mongo | Mongo's hut, 275 | Waking scene, real party-selection menu and recruitment |
+| Gingy in the forest | Forest entrance, 282 | Confession, three companion reactions and story 123 |
+| Sky drakes and the second chapter | Drake Nest summit, 295 | Mongo joins through the native party menu; drakes take flight; Furnace Lair can be entered normally |
+| Glaze and the stolen Gate Key | Hunter den, 289 | Kilnback defeated; one Gate Key; return to Mongo's hut, story 124 |
+| Iron Kilnback | Furnace passage, 304 | Greeting or passed-by reaction; battle; northern exit to 302 |
+| Furnace Maw and the catastrophe | Keep entrance, 301 | Glaze and Maw; escape; impact; flight conversation; playable world 499, story 153 |
+| Buried furnace beast | Ruined lair, 197 | Native battle and its one-time defeat flag |
+
+The first three shortcuts include Shrek, Fiona, Donkey and Pinocchio; Mongo remains an NPC until the real recruitment command runs. The forest and first Kilnback presets include Mongo and remove the stolen key before entry. Arrival and feast seeds supply one Gate Key and no Dreamstone. Morning and forest seeds supply one Dreamstone and no key. Alternate portal/ending arrival selectors are reset without changing other quest bits. The later Bakery presets include Puss and his first Carnival Hatchet; the buried preset includes the late cast and upgraded hatchet. Shared quest bytes are edited only at the relevant bits. Furnace presets equip the existing Ruby Rhubarb Armor as part of their strong diagnostic loadout. Undo restores the prior machine and cartridge bytes are never changed by a shortcut.
+
+`tests/bakery-controller.mjs` exposes observation and ordinary controller input only. Its eleven cases cover both Glaze answers and all three early companions, both Iron Kilnback greetings, four companion branches through the furnace escape, and the buried battle. Kilnback tests use the original lightning response. The buried fight uses the native Attack, Tech and Item menus, verifies Onion Feast consumption, and leaves HP, AI and action queues cartridge-owned after entry.
+
+The escape driver waits for the flight conversation and the second overworld entry. The first visit to world 499 belongs to the impact cinematic and does not prove the party has returned to play.
+
+The Iron Kilnback driver respects the narrow passage beside the boss and the stairway's diagonal collision before stepping into the northern exit. During the two-target furnace fight, an earlier queued attack can defeat Glaze while another actor is choosing him. The driver cancels that unfinished target selection through the normal B button; it never redirects the attack or changes HP.
+
+## Connected first visit
+
+`tests/bakery-chapter-controller.mjs` follows the mountain arrival, both hunter ambushes, Mongo's naming screen, four descent encounters, native overworld walk, hut invitation, feast, companion performance, bread contest, morning theft, Mongo recruitment, and the overworld walk to Gingy's confession. There is no checkpoint or gameplay write after its initial mountain setup. The standard connected route uses Shrek, Fiona and Donkey, then the native menu recruits Mongo alongside Shrek and Fiona.
+
+`tests/bakery-den-controller.mjs` continues that same run through the complete forest maze, both forest encounters, the southern exit and the westward approach to Hunter Den. It descends through the native floor openings, handles live burrowing enemies and the final corridor encounters, approaches Glaze by the real stairway, defeats Kilnback using native lightning and attacks, and returns to Mongo's hut with exactly one recovered Gate Key and the retained Dreamstone. Enemy movement can change which burrowers join a battle; the controller observes and resolves those encounters without selecting a formation or changing its stats.
+
+The controller verifies one Gate Key before the feast, its actual removal the next morning, one Dreamstone awarded by the event, and the joined-party mask after recruitment. It closes both pages of Mongo's introduction before using Start on his real naming screen and verifies that his name is unchanged. The sleep bubble repeats independently of interaction; short A presses catch the ordinary waking interaction window. The party menu is closed with B after all three active slots are filled.
+
+The chapter checks, browser's eight Bakery presets, and the same connected route in Snes9x and bsnes passed on the caption/staging cartridge above. Both independent cores also run the standalone feast/morning presets and all three early companion reactions in the forest. The forest capture asserts Mongo's folded-arm frame 201 and Gingy's upright frame 2 during the actual confession, for each companion. There is no strike sound or fallen reaction in this exchange. The chapter test is available directly as `node --test tests/bakery-chapter.test.mjs`; its route driver exposes only reads and ordinary controller input.
+
+The extended mountain-to-key-return route and the separate chapter cases pass in SnesJs, Snes9x and bsnes on cartridge `53c0e35aa6691d18867b974df879777241b2042f800422507cd9a28e9fe69362`. The independent suites run 113,048 and 112,897 frames respectively. Both retain the Dreamstone, recover one key through the native reward, and finish at story 124 in Mongo's hut. Their reports are under `.local/qa/bakery-staging-{snes9x,bsnes}/report.json`.
+
+## Connected second visit
+
+`tests/bakery-return-controller.mjs` begins after the actual Farquaad ritual, waits for the completed waking scene, follows the newly opened overworld route to the burned village, climbs both mountain maps through five native encounters, recruits Mongo at the summit, and closes the real party menu before boarding. Flight uses the native two-pixel movement and landing interaction. The party walks into Furnace Lair, frees the four villagers through their wall switch, defeats Gingy's guards and follows him back to the second entrance. There are no gameplay writes or state reloads after initial setup.
+
+This route through Gingy's opening of the lair passes SnesJs, Snes9x and bsnes on cartridge `08146ebb707865016f81af25e9ee24819e015bb29de59821da63393c0b66d800`. The independent runs take 82,529 and 82,525 frames. Their reports are under `.local/qa/bakery-return-{snes9x,bsnes}/report.json`. The summit shortcut and all four native field poses also pass their dedicated checks, and the browser suite includes the new preset and actor preview. The cartridge retains its original 4 MiB size and leaves 76,232 reclaimed bytes free.
+
+The extended run continues through the second entrance, upper balcony, diagonal maze, middle balcony, guarded mouth switch and Iron Kilnback gate. It defeats Iron Kilnback using native lightning, crosses the lower balcony, solves the final switch chamber, walks around Glaze's throne, defeats Glaze and Furnace Maw, and follows the impact and flight conversation to the second, playable overworld return at story 153. The shared traversal uses normal Attack and Item menus, identifies duplicate enemies by their actual battle slots, and accepts a pending item selection being cancelled when an earlier queued attack ends the battle. It never changes HP, action queues, positions, enemy stats or story flags.
+
+Both independent cores pass that complete route on the same cartridge: 200,011 frames in Snes9x and 200,064 in bsnes, each consuming five Onion Feasts and one Onion Juice revival. Their reports at the paths above now contain the complete route. The initial diagnostic loadout equips native Ruby Rhubarb Armor before Farquaad's ritual; there are no loadout changes or state restores during the chapter. The extended SnesJs case also passes, including dialogue branches, native healing consumption, the real playable return, unchanged cartridge bytes and exact undo. It was checked after the 182-check regression, which covered the route through Gingy's opening of the lair. Both complete independent regression suites pass on this cartridge. Their combined summary is archived privately as `.local/qa/independent-summary-08146ebb707865016f81af25e9ee24819e015bb29de59821da63393c0b66d800.json`.
+
+## Remaining chapter work
+
+The strong diagnostic loadout does not establish normal-level balance. Hunting/trading routes and alternate companion routes still need connected acceptance runs. The full arrival and feast with the two Pinocchio party alternatives also remain to be checked. Background feast food, remaining wildlife and the impact imagery need their own artwork passes. Bakery entrance captions now use their original native string slots, including Mongo's Hut, Feast Site, Hunter Den, Drake Nest, Furnace Lair and Kiln Ruins. Broader era scenery remains pending. The later buried-lair quest, including its separate treasure story, is broader than the boss fixture here.
+
+These gaps remain part of the active full-game goal. Hardware verification and full campaign completion are not established by the emulator fixtures.

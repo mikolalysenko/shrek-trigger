@@ -1,0 +1,248 @@
+{
+  "status": "Inactive actual-imagegen source with separate original-raster effects",
+  "activation": false,
+  "baseline": {
+    "path": ".local/qa/next-family-417914abe589/baseline.sfc",
+    "sha256": "417914abe589d25e377b774009f983867c14617cbf7a7f176c52691c8c9f2e35"
+  },
+  "original": {
+    "path": ".local/chrono-trigger-usa.sfc",
+    "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+  },
+  "sources": [
+    {
+      "file": "assets/imagegen/fortress-jugglers/source-v1.png",
+      "generatedPath": "/Users/mikolalysenko/.codex/generated_images/01a19403-ca01-7341-a071-af653bc34995/exec-bb0851c4-76b0-402b-a208-2aeabe335be3.png",
+      "sha256": "a65f0b34fc9cae281c79bb96712d5e7cf7fe7412c2be223d079e576ccefe7eac",
+      "prompt": "assets/imagegen/fortress-jugglers/prompts/source-v1.txt",
+      "promptSha256": "9117e2a88802ac9fbfb5d3d3615e89528e4cbd958f5b615567480dc00ef4ffdc",
+      "tool": "built-in image_gen.imagegen",
+      "sourceType": "image-generation",
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "alphaPreserved": true
+    }
+  ],
+  "references": [],
+  "sourceMap": [
+    0,
+    1,
+    2,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "sampling": {
+    "method": "nearest",
+    "componentAlpha": 128,
+    "alphaThreshold": 128,
+    "palette": "Exact original palette40 indices",
+    "sourceTargets": [
+      {
+        "source": 0,
+        "native": 0,
+        "bounds": [
+          -15,
+          -54,
+          31,
+          31
+        ],
+        "file": "assets/imagegen/fortress-jugglers/source-v1.png",
+        "sourceBounds": [
+          20,
+          140,
+          344,
+          313
+        ],
+        "target": [
+          31,
+          31
+        ],
+        "horizontalAspectFactor": 0.9098837209302325
+      },
+      {
+        "source": 1,
+        "native": 1,
+        "bounds": [
+          -15,
+          -56,
+          31,
+          32
+        ],
+        "file": "assets/imagegen/fortress-jugglers/source-v1.png",
+        "sourceBounds": [
+          414,
+          110,
+          323,
+          319
+        ],
+        "target": [
+          31,
+          32
+        ],
+        "horizontalAspectFactor": 0.9567530959752322
+      },
+      {
+        "source": 2,
+        "native": 2,
+        "bounds": [
+          -15,
+          -58,
+          31,
+          32
+        ],
+        "file": "assets/imagegen/fortress-jugglers/source-v1.png",
+        "sourceBounds": [
+          786,
+          77,
+          350,
+          351
+        ],
+        "target": [
+          31,
+          32
+        ],
+        "horizontalAspectFactor": 0.9715178571428571
+      },
+      {
+        "source": 3,
+        "native": 4,
+        "bounds": [
+          -15,
+          -51,
+          31,
+          29
+        ],
+        "file": "assets/imagegen/fortress-jugglers/source-v1.png",
+        "sourceBounds": [
+          1171,
+          168,
+          352,
+          267
+        ],
+        "target": [
+          31,
+          29
+        ],
+        "horizontalAspectFactor": 0.8108346394984326
+      },
+      {
+        "source": 4,
+        "native": 5,
+        "bounds": [
+          -14,
+          -53,
+          29,
+          29
+        ],
+        "file": "assets/imagegen/fortress-jugglers/source-v1.png",
+        "sourceBounds": [
+          41,
+          616,
+          295,
+          298
+        ],
+        "target": [
+          29,
+          29
+        ],
+        "horizontalAspectFactor": 1.0101694915254238
+      },
+      {
+        "source": 5,
+        "native": 6,
+        "bounds": [
+          -15,
+          -55,
+          31,
+          29
+        ],
+        "file": "assets/imagegen/fortress-jugglers/source-v1.png",
+        "sourceBounds": [
+          389,
+          558,
+          378,
+          333
+        ],
+        "target": [
+          31,
+          29
+        ],
+        "horizontalAspectFactor": 0.9417077175697866
+      },
+      {
+        "source": 6,
+        "native": 7,
+        "bounds": [
+          -15,
+          -55,
+          31,
+          29
+        ],
+        "file": "assets/imagegen/fortress-jugglers/source-v1.png",
+        "sourceBounds": [
+          803,
+          573,
+          338,
+          355
+        ],
+        "target": [
+          31,
+          29
+        ],
+        "horizontalAspectFactor": 1.1227300550907977
+      },
+      {
+        "source": 7,
+        "native": 8,
+        "bounds": [
+          -15,
+          -22,
+          31,
+          24
+        ],
+        "file": "assets/imagegen/fortress-jugglers/source-v1.png",
+        "sourceBounds": [
+          1179,
+          688,
+          333,
+          243
+        ],
+        "target": [
+          31,
+          24
+        ],
+        "horizontalAspectFactor": 0.9425675675675677
+      }
+    ]
+  },
+  "composition": {
+    "compiler": "compose-native.js:composeJugglerArt(source,map,effects)",
+    "map": "native-composition.json",
+    "effects": "original-effects.draft.json",
+    "effectPixelRecordSha256": "7939ec61a966411559940ac73aa5bea49b16e7a5bec3417fd479a9990873252f",
+    "originalEffectPixels": 363,
+    "generatedBodyPixelsCoveredByFlash": 247
+  },
+  "geometryDifferences": [],
+  "nativeOriginsAndLowestPixelsUnchanged": true,
+  "exactSourceReuse": [
+    [
+      1,
+      3
+    ]
+  ],
+  "noProceduralAnatomy": true,
+  "originalBodyPixelsRetained": 0
+}

@@ -1,0 +1,87 @@
+{
+  "key": "supply-keeper",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "29282e",
+    "514038",
+    "765638",
+    "a87d49",
+    "d6b67e",
+    "f4dfae",
+    "2e4241",
+    "50675d",
+    "8d9b79",
+    "644151",
+    "ab6263",
+    "d6efb4"
+  ],
+  "directory": "assets/imagegen/supply-keeper/draft",
+  "sheets": [
+    {
+      "file": "assets/imagegen/supply-keeper/source-overlay-native-0.png",
+      "columns": 1,
+      "rows": 1,
+      "scaleCells": [
+        0
+      ],
+      "nativeHeight": 49,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 56,
+        "alphaThreshold": 128
+      }
+    },
+    {
+      "file": "assets/imagegen/supply-keeper/source-overlay-native-1.png",
+      "columns": 1,
+      "rows": 1,
+      "scaleCells": [
+        0
+      ],
+      "nativeHeight": 53,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 60,
+        "alphaThreshold": 128
+      }
+    },
+    {
+      "file": "assets/imagegen/supply-keeper/source-overlay-native-2.png",
+      "columns": 1,
+      "rows": 1,
+      "scaleCells": [
+        0
+      ],
+      "nativeHeight": 56,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 63,
+        "alphaThreshold": 128
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "notes": {
+    "blankNativeFrames": [
+      3
+    ],
+    "derivation": "assets/imagegen/supply-keeper/overlay-derivation.json",
+    "status": "Inactive source-derived overlays; original blank native3 is returned explicitly by the proposed runtime wrapper."
+  }
+}

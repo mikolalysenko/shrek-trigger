@@ -1,0 +1,25 @@
+Use case: stylized-concept
+Asset type: first production sprite sheet for an original fairy-tale enforcer in a Chrono Trigger-style SNES RPG.
+Primary request: exactly sixteen fully separated poses of the SAME Briar Knight, a thorn-bound armored swordsman. A 4-column by 4-row sheet on a genuinely transparent background. No text, numbers, grid or scenery.
+Character: compact adult male knight in articulated slate-steel plate, dark narrow visor with two tiny warm ivory eye glints, a small two-leaf dark green crest on his helmet, short thorny vines around his shoulder plates and shins, deep berry-purple split tabard, small gold rose-shaped chest clasp and buckle, muted green short cape visible from behind. Closed full helmet, no skin, no beard, no horns, no huge shoulder spikes. Strong recognizable silhouette. His sword is a straight narrow silver longsword with a small gold crossguard and berry-colored grip.
+Style: expressive, carefully clustered 16-bit pixel art like a premium Chrono Trigger enemy sprite. Natural articulated pose changes, readable armor planes and gauntlets, restrained details; crisp pixels and dark outline. Do not use painted gradients, flat vector icons, glossy 3D or a tiny featureless toy figure.
+Palette: #202a2f outline; #3c4c50 steel shadow; #70858a steel; #adbec1 steel highlight; #e5eddb pale metal; #28493c dark leaves; #50734a moss green; #91ad63 leaf highlights; #522e3d cloth shadow; #a64e65 berry cloth; #c2994d muted gold; #f5dfa2 warm highlight.
+Framing: full bodies with generous transparent gutters. Same camera and exact same body scale in all cells. Upright bodies occupy only the lower two-thirds of each cell, leaving plenty of overhead margin for later sword poses. Slightly elevated RPG battle camera. Compact shoulders and cape: the upright body is about 26–28 native pixels wide and 38 native pixels tall, intended to fit within the center of a 64×80 native sprite frame. All hands, feet and crest must be present. No ground shadows.
+Order, left to right then top to bottom:
+0 front relaxed idle, completely UNARMED, gauntlets near belt.
+1 LEFT profile relaxed idle, completely unarmed.
+2 BACK relaxed idle, completely unarmed, short green cape visible.
+3 FRONT boxing-like guard, both empty gauntlets raised at chest level.
+4 LEFT profile guard, both empty gauntlets raised.
+5 BACK guard, empty gauntlets slightly out to the sides.
+6 FRONT sword-ready guard, sword in hand angled outward on the right side of the image, blade fully visible.
+7 LEFT profile sword-ready guard, sword held nearly upright in front of the body, fully visible.
+8 BACK sword-ready guard, sword held outward to the left of the image, fully visible.
+9 FRONT folded-arm hover/walk phase A, no visible sword, legs together, cape/tabard hanging, feet together.
+10 FRONT folded-arm hover/walk phase B, no sword, subtly different leg/tabard position.
+11 FRONT folded-arm hover/walk phase C, no sword, third clear cloth/leg phase.
+12 LEFT folded-arm hover/walk phase A, no sword, legs together and robe/cape trailing subtly.
+13 LEFT folded-arm hover/walk phase B, no sword, subtly different feet and cloth.
+14 LEFT folded-arm hover/walk phase C, no sword, third clear feet/cloth phase.
+15 BACK folded-arm hover/walk phase A, no sword, short green cape and two boots.
+Constraints: only cells 6, 7 and 8 contain a visible sword. Folded arms are crossed at the chest, never raised overhead. Do not invent additional weapons, shields, magical auras, motion trails or cast shadows. Keep all sixteen sprites entirely separated inside equal cells, with matching proportions and consistent equipment. Every pose is full-body. The native importer will handle small hover offsets; do not add a ground shadow.

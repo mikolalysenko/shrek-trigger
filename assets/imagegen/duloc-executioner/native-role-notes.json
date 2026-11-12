@@ -1,0 +1,86 @@
+{
+  "labels": [
+    "Rear idle, hands held together",
+    "Front idle, hands held together",
+    "Left profile idle",
+    "Right profile idle",
+    "Rear walk contact A",
+    "Rear walk passing",
+    "Rear walk contact B",
+    "Front walk contact A",
+    "Front walk passing",
+    "Front walk contact B",
+    "Left walk contact A",
+    "Left walk passing / idle",
+    "Left walk contact B",
+    "Right walk contact A",
+    "Right walk passing / idle",
+    "Right walk contact B",
+    "Left seated / knees forward",
+    "Right seated / knees forward",
+    "Front stunned, white stress marks",
+    "Diagonal fallen body, head left",
+    "Left kneeling / bowed",
+    "Right kneeling / bowed",
+    "Rear low kneeling / bowed",
+    "Front head-and-shoulder fragment",
+    "Horizontal prone / sleeping, head left",
+    "Horizontal prone / sleeping with white dots"
+  ],
+  "gait": {
+    "order": [
+      "contactA",
+      "passing",
+      "contactB",
+      "passing"
+    ],
+    "ticks": [
+      16,
+      6,
+      16,
+      6
+    ],
+    "fastTicks": [
+      6,
+      6,
+      6,
+      6
+    ],
+    "mirrorPairs": [
+      [
+        2,
+        3
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        20,
+        21
+      ]
+    ]
+  },
+  "sourceEdits": "Three actual generated replacements supply opposing rear/front/profile contacts. Base candidates3/7/11 are excluded. Source-only fragment crops the first14 native rows of front idle.",
+  "selectedSourcePoses": 19,
+  "derivedFragments": 1,
+  "pendingSemanticQuestions": [],
+  "nativeBudgets": {
+    "raw": 8448,
+    "compressed": 5507,
+    "assembly": 1040
+  },
+  "paletteWrites": 0
+}

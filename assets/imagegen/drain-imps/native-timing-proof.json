@@ -1,0 +1,2190 @@
+{
+  "status": "passed",
+  "scope": "Native AA event animation execution in an isolated field object; exact original frame lists and durations, two complete steady cycles per selected action and owner with exact VRAM and four-cell OAM every tick. Not full encounter transition order.",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "candidateSha256": "0a449d04bd867cce7f9e7f3c1f59f2820af73b88955ba350cfb5300d45ae039d",
+  "core": "repository SNES JS native 65816/PPU",
+  "cases": 42,
+  "cycles": 84,
+  "exactNativeVideoTicks": 1816,
+  "nativeProgramBytesUnchanged": true,
+  "cpuRegistersOrPpuNotPatched": true,
+  "cartridgeUnchanged": true,
+  "reports": [
+    {
+      "family": "imp",
+      "key": "drain-imp",
+      "enemy": 99,
+      "palette": 43,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "rear submerged slow",
+          "animation": 0,
+          "facing": 0,
+          "frames": [
+            0,
+            1
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-0-direction-0.json",
+          "traceSha256": "39ef00ed80d6d3673c72322e72bb5b27510cc57dcf3037815a784fd43dc24a9f",
+          "screenshot": "timed/drain-imp-animation-0-direction-0.png"
+        },
+        {
+          "role": "rear submerged fast",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            0,
+            1
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/drain-imp-animation-1-direction-0.json",
+          "traceSha256": "6fda824eff458998cf0a821ae82384f4e4cbc0209a7debf0bf33996067f09ed6",
+          "screenshot": "timed/drain-imp-animation-1-direction-0.png"
+        },
+        {
+          "role": "rear submerged alternate",
+          "animation": 3,
+          "facing": 0,
+          "frames": [
+            0,
+            1
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-3-direction-0.json",
+          "traceSha256": "aabbdec205c985f12314de78acebe5c9a96fc756d19817e19076d7a12091a809",
+          "screenshot": "timed/drain-imp-animation-3-direction-0.png"
+        },
+        {
+          "role": "rear rise cycle",
+          "animation": 6,
+          "facing": 0,
+          "frames": [
+            12,
+            13
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 12,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 13,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 12,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 13,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-6-direction-0.json",
+          "traceSha256": "fa1e5212fa5c5f44bb522957c1bc221142a1919d488257aa08d1f81e0138b2d8",
+          "screenshot": "timed/drain-imp-animation-6-direction-0.png"
+        },
+        {
+          "role": "rear rise hold",
+          "animation": 7,
+          "facing": 0,
+          "frames": [
+            12,
+            13
+          ],
+          "durations": [
+            10,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 82,
+          "exactVramUploads": 82,
+          "exactOamCellStates": 328,
+          "script": 75074,
+          "alignmentTicks": 78,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 12,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 13,
+              "duration": 31
+            },
+            {
+              "tick": 41,
+              "loop": 1,
+              "phase": 0,
+              "frame": 12,
+              "duration": 10
+            },
+            {
+              "tick": 51,
+              "loop": 1,
+              "phase": 1,
+              "frame": 13,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/drain-imp-animation-7-direction-0.json",
+          "traceSha256": "270a353a0906d18f6385c058047fd1deda3f4d3bb2a0186fe275f141f1847bfb",
+          "screenshot": "timed/drain-imp-animation-7-direction-0.png"
+        },
+        {
+          "role": "front submerged slow",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            2,
+            3
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-0-direction-1.json",
+          "traceSha256": "665f99103625ef386ed93d2672adb285cd15972a32ba7c7bfc897a7c1f42eb53",
+          "screenshot": "timed/drain-imp-animation-0-direction-1.png"
+        },
+        {
+          "role": "front submerged fast",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            2,
+            3
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 3,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 3,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/drain-imp-animation-1-direction-1.json",
+          "traceSha256": "eba7c0e14b481cea1647b2a47fccde6e1918a5584a8f430b429bc075e1877150",
+          "screenshot": "timed/drain-imp-animation-1-direction-1.png"
+        },
+        {
+          "role": "front submerged alternate",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            2,
+            3
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-3-direction-1.json",
+          "traceSha256": "314fd3bc53f55f9c916421c4f831668c1648cd73c712a90760e43998c4636ba1",
+          "screenshot": "timed/drain-imp-animation-3-direction-1.png"
+        },
+        {
+          "role": "front splash recoil",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            8
+          ],
+          "durations": [
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 16,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 8,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 8,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-5-direction-1.json",
+          "traceSha256": "28a3e424af904662098d8a726900c1104755f4df9c635ecc84973726185783c0",
+          "screenshot": "timed/drain-imp-animation-5-direction-1.png"
+        },
+        {
+          "role": "front rise cycle",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            14,
+            15
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 14,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 15,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 14,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 15,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-6-direction-1.json",
+          "traceSha256": "07314450ac28e512ff3695aaba7d81ffa5e915db8900660c1561c761a6f81e76",
+          "screenshot": "timed/drain-imp-animation-6-direction-1.png"
+        },
+        {
+          "role": "front rise hold",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            14,
+            15
+          ],
+          "durations": [
+            10,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 82,
+          "exactVramUploads": 82,
+          "exactOamCellStates": 328,
+          "script": 75074,
+          "alignmentTicks": 78,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 14,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 15,
+              "duration": 31
+            },
+            {
+              "tick": 41,
+              "loop": 1,
+              "phase": 0,
+              "frame": 14,
+              "duration": 10
+            },
+            {
+              "tick": 51,
+              "loop": 1,
+              "phase": 1,
+              "frame": 15,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/drain-imp-animation-7-direction-1.json",
+          "traceSha256": "faf5cacd5b38f6855f32ab39672ad5b3ce6e3c04cad011ffc9c502805bfd7127",
+          "screenshot": "timed/drain-imp-animation-7-direction-1.png"
+        },
+        {
+          "role": "left submerged slow",
+          "animation": 0,
+          "facing": 2,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-0-direction-2.json",
+          "traceSha256": "2b43341bb09aa6bbe49d6353804b148b71a8e45b1be3a5e9c5099be82d32d718",
+          "screenshot": "timed/drain-imp-animation-0-direction-2.png"
+        },
+        {
+          "role": "left submerged fast",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/drain-imp-animation-1-direction-2.json",
+          "traceSha256": "21f81bbeadc9fac6245da5f9174b6440c6695600e0e6a0310a2472751470fda0",
+          "screenshot": "timed/drain-imp-animation-1-direction-2.png"
+        },
+        {
+          "role": "left submerged alternate",
+          "animation": 3,
+          "facing": 2,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-3-direction-2.json",
+          "traceSha256": "bf58908d58b8565f3fd0e86ee7762aa4725574d3c2373c912bb074f0c5e3379d",
+          "screenshot": "timed/drain-imp-animation-3-direction-2.png"
+        },
+        {
+          "role": "left rise cycle",
+          "animation": 6,
+          "facing": 2,
+          "frames": [
+            16,
+            17
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 16,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 17,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 16,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 17,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-6-direction-2.json",
+          "traceSha256": "f4f02823fae8afee87db505d81a8d59bc12d62b563677f3129fb6a9b53df2f8a",
+          "screenshot": "timed/drain-imp-animation-6-direction-2.png"
+        },
+        {
+          "role": "left rise hold",
+          "animation": 7,
+          "facing": 2,
+          "frames": [
+            16,
+            17
+          ],
+          "durations": [
+            10,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 82,
+          "exactVramUploads": 82,
+          "exactOamCellStates": 328,
+          "script": 75074,
+          "alignmentTicks": 78,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 16,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 17,
+              "duration": 31
+            },
+            {
+              "tick": 41,
+              "loop": 1,
+              "phase": 0,
+              "frame": 16,
+              "duration": 10
+            },
+            {
+              "tick": 51,
+              "loop": 1,
+              "phase": 1,
+              "frame": 17,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/drain-imp-animation-7-direction-2.json",
+          "traceSha256": "5ee682654505f5e6717781e36986778c543b60e26e94925f2fc60d88186085d5",
+          "screenshot": "timed/drain-imp-animation-7-direction-2.png"
+        },
+        {
+          "role": "right submerged slow",
+          "animation": 0,
+          "facing": 3,
+          "frames": [
+            6,
+            7
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-0-direction-3.json",
+          "traceSha256": "5a54bb7b26d8ba04ae8df90203507f243ef8339e6201c4c4857714c605eb950a",
+          "screenshot": "timed/drain-imp-animation-0-direction-3.png"
+        },
+        {
+          "role": "right submerged fast",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            6,
+            7
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/drain-imp-animation-1-direction-3.json",
+          "traceSha256": "54bbb14fcf8a292d0cf0fc58c3dfa2d170483a3513d57916035221bcf8a41a78",
+          "screenshot": "timed/drain-imp-animation-1-direction-3.png"
+        },
+        {
+          "role": "right submerged alternate",
+          "animation": 3,
+          "facing": 3,
+          "frames": [
+            6,
+            7
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-3-direction-3.json",
+          "traceSha256": "8247ecd392869171c49049c8e7883880c5392b6e64fc041084162f0ff43395a5",
+          "screenshot": "timed/drain-imp-animation-3-direction-3.png"
+        },
+        {
+          "role": "right rise cycle",
+          "animation": 6,
+          "facing": 3,
+          "frames": [
+            18,
+            19
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 18,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 19,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 18,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 19,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/drain-imp-animation-6-direction-3.json",
+          "traceSha256": "077f0c40e9f4ca0b20438cc3f2c94f2ac9c774583fc55fd41a5b2af377e487db",
+          "screenshot": "timed/drain-imp-animation-6-direction-3.png"
+        },
+        {
+          "role": "right rise hold",
+          "animation": 7,
+          "facing": 3,
+          "frames": [
+            18,
+            19
+          ],
+          "durations": [
+            10,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 82,
+          "exactVramUploads": 82,
+          "exactOamCellStates": 328,
+          "script": 75074,
+          "alignmentTicks": 78,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 18,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 19,
+              "duration": 31
+            },
+            {
+              "tick": 41,
+              "loop": 1,
+              "phase": 0,
+              "frame": 18,
+              "duration": 10
+            },
+            {
+              "tick": 51,
+              "loop": 1,
+              "phase": 1,
+              "frame": 19,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/drain-imp-animation-7-direction-3.json",
+          "traceSha256": "2067f49193d58cab79774869cf08e932f2d425339c739803db94c023dfa209db",
+          "screenshot": "timed/drain-imp-animation-7-direction-3.png"
+        }
+      ]
+    },
+    {
+      "family": "imp",
+      "key": "river-imp",
+      "enemy": 101,
+      "palette": 42,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "rear submerged slow",
+          "animation": 0,
+          "facing": 0,
+          "frames": [
+            0,
+            1
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-0-direction-0.json",
+          "traceSha256": "39ef00ed80d6d3673c72322e72bb5b27510cc57dcf3037815a784fd43dc24a9f",
+          "screenshot": "timed/river-imp-animation-0-direction-0.png"
+        },
+        {
+          "role": "rear submerged fast",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            0,
+            1
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/river-imp-animation-1-direction-0.json",
+          "traceSha256": "6fda824eff458998cf0a821ae82384f4e4cbc0209a7debf0bf33996067f09ed6",
+          "screenshot": "timed/river-imp-animation-1-direction-0.png"
+        },
+        {
+          "role": "rear submerged alternate",
+          "animation": 3,
+          "facing": 0,
+          "frames": [
+            0,
+            1
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-3-direction-0.json",
+          "traceSha256": "aabbdec205c985f12314de78acebe5c9a96fc756d19817e19076d7a12091a809",
+          "screenshot": "timed/river-imp-animation-3-direction-0.png"
+        },
+        {
+          "role": "rear rise cycle",
+          "animation": 6,
+          "facing": 0,
+          "frames": [
+            12,
+            13
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 12,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 13,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 12,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 13,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-6-direction-0.json",
+          "traceSha256": "fa1e5212fa5c5f44bb522957c1bc221142a1919d488257aa08d1f81e0138b2d8",
+          "screenshot": "timed/river-imp-animation-6-direction-0.png"
+        },
+        {
+          "role": "rear rise hold",
+          "animation": 7,
+          "facing": 0,
+          "frames": [
+            12,
+            13
+          ],
+          "durations": [
+            10,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 82,
+          "exactVramUploads": 82,
+          "exactOamCellStates": 328,
+          "script": 75074,
+          "alignmentTicks": 78,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 12,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 13,
+              "duration": 31
+            },
+            {
+              "tick": 41,
+              "loop": 1,
+              "phase": 0,
+              "frame": 12,
+              "duration": 10
+            },
+            {
+              "tick": 51,
+              "loop": 1,
+              "phase": 1,
+              "frame": 13,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/river-imp-animation-7-direction-0.json",
+          "traceSha256": "270a353a0906d18f6385c058047fd1deda3f4d3bb2a0186fe275f141f1847bfb",
+          "screenshot": "timed/river-imp-animation-7-direction-0.png"
+        },
+        {
+          "role": "front submerged slow",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            2,
+            3
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-0-direction-1.json",
+          "traceSha256": "665f99103625ef386ed93d2672adb285cd15972a32ba7c7bfc897a7c1f42eb53",
+          "screenshot": "timed/river-imp-animation-0-direction-1.png"
+        },
+        {
+          "role": "front submerged fast",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            2,
+            3
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 3,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 3,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/river-imp-animation-1-direction-1.json",
+          "traceSha256": "eba7c0e14b481cea1647b2a47fccde6e1918a5584a8f430b429bc075e1877150",
+          "screenshot": "timed/river-imp-animation-1-direction-1.png"
+        },
+        {
+          "role": "front submerged alternate",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            2,
+            3
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-3-direction-1.json",
+          "traceSha256": "314fd3bc53f55f9c916421c4f831668c1648cd73c712a90760e43998c4636ba1",
+          "screenshot": "timed/river-imp-animation-3-direction-1.png"
+        },
+        {
+          "role": "front splash recoil",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            8
+          ],
+          "durations": [
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 16,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 8,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 8,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-5-direction-1.json",
+          "traceSha256": "28a3e424af904662098d8a726900c1104755f4df9c635ecc84973726185783c0",
+          "screenshot": "timed/river-imp-animation-5-direction-1.png"
+        },
+        {
+          "role": "front rise cycle",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            14,
+            15
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 14,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 15,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 14,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 15,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-6-direction-1.json",
+          "traceSha256": "07314450ac28e512ff3695aaba7d81ffa5e915db8900660c1561c761a6f81e76",
+          "screenshot": "timed/river-imp-animation-6-direction-1.png"
+        },
+        {
+          "role": "front rise hold",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            14,
+            15
+          ],
+          "durations": [
+            10,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 82,
+          "exactVramUploads": 82,
+          "exactOamCellStates": 328,
+          "script": 75074,
+          "alignmentTicks": 78,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 14,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 15,
+              "duration": 31
+            },
+            {
+              "tick": 41,
+              "loop": 1,
+              "phase": 0,
+              "frame": 14,
+              "duration": 10
+            },
+            {
+              "tick": 51,
+              "loop": 1,
+              "phase": 1,
+              "frame": 15,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/river-imp-animation-7-direction-1.json",
+          "traceSha256": "faf5cacd5b38f6855f32ab39672ad5b3ce6e3c04cad011ffc9c502805bfd7127",
+          "screenshot": "timed/river-imp-animation-7-direction-1.png"
+        },
+        {
+          "role": "left submerged slow",
+          "animation": 0,
+          "facing": 2,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-0-direction-2.json",
+          "traceSha256": "2b43341bb09aa6bbe49d6353804b148b71a8e45b1be3a5e9c5099be82d32d718",
+          "screenshot": "timed/river-imp-animation-0-direction-2.png"
+        },
+        {
+          "role": "left submerged fast",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/river-imp-animation-1-direction-2.json",
+          "traceSha256": "21f81bbeadc9fac6245da5f9174b6440c6695600e0e6a0310a2472751470fda0",
+          "screenshot": "timed/river-imp-animation-1-direction-2.png"
+        },
+        {
+          "role": "left submerged alternate",
+          "animation": 3,
+          "facing": 2,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-3-direction-2.json",
+          "traceSha256": "bf58908d58b8565f3fd0e86ee7762aa4725574d3c2373c912bb074f0c5e3379d",
+          "screenshot": "timed/river-imp-animation-3-direction-2.png"
+        },
+        {
+          "role": "left rise cycle",
+          "animation": 6,
+          "facing": 2,
+          "frames": [
+            16,
+            17
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 16,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 17,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 16,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 17,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-6-direction-2.json",
+          "traceSha256": "f4f02823fae8afee87db505d81a8d59bc12d62b563677f3129fb6a9b53df2f8a",
+          "screenshot": "timed/river-imp-animation-6-direction-2.png"
+        },
+        {
+          "role": "left rise hold",
+          "animation": 7,
+          "facing": 2,
+          "frames": [
+            16,
+            17
+          ],
+          "durations": [
+            10,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 82,
+          "exactVramUploads": 82,
+          "exactOamCellStates": 328,
+          "script": 75074,
+          "alignmentTicks": 78,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 16,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 17,
+              "duration": 31
+            },
+            {
+              "tick": 41,
+              "loop": 1,
+              "phase": 0,
+              "frame": 16,
+              "duration": 10
+            },
+            {
+              "tick": 51,
+              "loop": 1,
+              "phase": 1,
+              "frame": 17,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/river-imp-animation-7-direction-2.json",
+          "traceSha256": "5ee682654505f5e6717781e36986778c543b60e26e94925f2fc60d88186085d5",
+          "screenshot": "timed/river-imp-animation-7-direction-2.png"
+        },
+        {
+          "role": "right submerged slow",
+          "animation": 0,
+          "facing": 3,
+          "frames": [
+            6,
+            7
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-0-direction-3.json",
+          "traceSha256": "5a54bb7b26d8ba04ae8df90203507f243ef8339e6201c4c4857714c605eb950a",
+          "screenshot": "timed/river-imp-animation-0-direction-3.png"
+        },
+        {
+          "role": "right submerged fast",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            6,
+            7
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/river-imp-animation-1-direction-3.json",
+          "traceSha256": "54bbb14fcf8a292d0cf0fc58c3dfa2d170483a3513d57916035221bcf8a41a78",
+          "screenshot": "timed/river-imp-animation-1-direction-3.png"
+        },
+        {
+          "role": "right submerged alternate",
+          "animation": 3,
+          "facing": 3,
+          "frames": [
+            6,
+            7
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-3-direction-3.json",
+          "traceSha256": "8247ecd392869171c49049c8e7883880c5392b6e64fc041084162f0ff43395a5",
+          "screenshot": "timed/river-imp-animation-3-direction-3.png"
+        },
+        {
+          "role": "right rise cycle",
+          "animation": 6,
+          "facing": 3,
+          "frames": [
+            18,
+            19
+          ],
+          "durations": [
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 18,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 19,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 18,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 1,
+              "frame": 19,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/river-imp-animation-6-direction-3.json",
+          "traceSha256": "077f0c40e9f4ca0b20438cc3f2c94f2ac9c774583fc55fd41a5b2af377e487db",
+          "screenshot": "timed/river-imp-animation-6-direction-3.png"
+        },
+        {
+          "role": "right rise hold",
+          "animation": 7,
+          "facing": 3,
+          "frames": [
+            18,
+            19
+          ],
+          "durations": [
+            10,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 82,
+          "exactVramUploads": 82,
+          "exactOamCellStates": 328,
+          "script": 75074,
+          "alignmentTicks": 78,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 18,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 19,
+              "duration": 31
+            },
+            {
+              "tick": 41,
+              "loop": 1,
+              "phase": 0,
+              "frame": 18,
+              "duration": 10
+            },
+            {
+              "tick": 51,
+              "loop": 1,
+              "phase": 1,
+              "frame": 19,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/river-imp-animation-7-direction-3.json",
+          "traceSha256": "2067f49193d58cab79774869cf08e932f2d425339c739803db94c023dfa209db",
+          "screenshot": "timed/river-imp-animation-7-direction-3.png"
+        }
+      ]
+    }
+  ],
+  "evidence": ".local/qa/drain-imps-native-proof",
+  "runner": {
+    "file": "assets/imagegen/drain-imps/verify-timed-animation.mjs",
+    "sha256": "f7f0e2f17d850ea03fbdac0edfcbdb5635ad48e4e556531b79af75328f768441"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "status": "Frozen inactive source-based Display183/NPC127 draft; source conversion and private native proof passed",
+  "date": "2026-10-31",
+  "sourceType": "existing-game-model-render",
+  "sourceModelProvenance": "assets/raster/magic-mirror-model/provenance.json",
+  "sourceModelArchiveSha256": "b9eca77a6737e160ab060a87f2d710a35098c9913f5bd279a456b9a0cce53e34",
+  "reproduction": "All rendered, imported and compiled files reproduced byte for byte",
+  "rawGraphicsBytes": 960,
+  "compressedBytes": 509,
+  "assemblyBytes": 320,
+  "paletteOpaqueColors": 12,
+  "nativeFrames": 8,
+  "blankFrames": [
+    7
+  ],
+  "unchangedOriginalCellCoordinates": true,
+  "nativeProof": "native-verification/manifest.json",
+  "nativeProofScope": {
+    "soloUploads": 16,
+    "location268": "Original background/positions/priority states under a temporary diagnostic event, not the original event choreography",
+    "allThreeScreensExact": true,
+    "mirrorForegroundLimit": "Post-reveal priority in the default map state partly occludes the lower16 source rows; upper80 rows/2570 opaque pixels and all native tiles verified"
+  },
+  "compressedPlacement": {
+    "requiresRelocation": true,
+    "originalDisplaySlotBytes": 457,
+    "provenSharedMirrorSpan": {
+      "usedBytes": 1872,
+      "capacityBytes": 1938,
+      "displayPacketOffset": 2211071,
+      "remainingBytes": 66
+    }
+  },
+  "visualReview": {
+    "status": "Approved by sprite-art lead",
+    "date": "2026-10-31",
+    "reviewed": [
+      "draft/native-5x.png"
+    ],
+    "finding": "Gold frame and pale face remain readable at native screen size; scan phases are distinct, original overlap and blank behavior preserved"
+  },
+  "remaining": [
+    "Parent-controlled active build registration and allocation",
+    "Independent-core native checks",
+    "Original location268 reveal, color/tilemap changes and combat choreography",
+    "Shared NPC127 event visibility review in12 other locations"
+  ],
+  "files": [
+    {
+      "file": "source-frames.png",
+      "bytes": 236126,
+      "sha256": "a1a5b233d8dbf1b326a6256423cd0bf0c4d747da578a4cc8702a16faa7ce7d5c"
+    },
+    {
+      "file": "source-recipes.json",
+      "bytes": 1934,
+      "sha256": "26a6302e6beb55a2b7f0673e5e496e1fe50408c1ea257a33cde9e73bc2275266"
+    },
+    {
+      "file": "import-spec.draft.json",
+      "bytes": 2364,
+      "sha256": "7db3bbdce2970aa2d0c7cafbfe0938dfcb66cfbea122bb39751050e859b4d058"
+    },
+    {
+      "file": "draft/preview-raster.json",
+      "bytes": 4343,
+      "sha256": "3cf1b7dee3b25f50c1ae605a00e2fa7fd335807a2d787164838a290a1ba50be4"
+    },
+    {
+      "file": "draft/preview-import.json",
+      "bytes": 3161,
+      "sha256": "343e1a3b88a7fe9a346fe1e3d6ee7df65288a5ad6770caba0dee695ebf6969a7"
+    },
+    {
+      "file": "draft/preview-native-indexed.png",
+      "bytes": 2051,
+      "sha256": "743a6f5d7ebe53ea8b2b0f97b524dd24113e8d43031d0cc74f9419e98e76157c"
+    },
+    {
+      "file": "draft/graphics.4bpp",
+      "bytes": 960,
+      "sha256": "bd3c001869a1f5a44eb0979c0b3312a1eed064347575d30318c0eab8be47d5da"
+    },
+    {
+      "file": "draft/graphics.ct-lz",
+      "bytes": 509,
+      "sha256": "d3e216c70b5793297a95540b81a3efb7830912f15820d52777d56f3613d0f942"
+    },
+    {
+      "file": "draft/assembly.bin",
+      "bytes": 320,
+      "sha256": "98d176890155c73497c90956e0e6f2992c8397f1c6f70d59a867bb2d5b58625c"
+    },
+    {
+      "file": "draft/palette.bin",
+      "bytes": 24,
+      "sha256": "d538beecae729f4bef3b0b737035ab93edc261bbfbdaa54e07f2d8a6732b63a5"
+    },
+    {
+      "file": "draft/verification.json",
+      "bytes": 7560,
+      "sha256": "825a077100d0d5b75b75da0daecb550b825d9c5436ba0823822214962ccd8440"
+    },
+    {
+      "file": "provenance.json",
+      "bytes": 1475,
+      "sha256": "6584687e8b22baff11ab247730283cbed5a30a1a7c5631bd3dbf1f095183034c"
+    },
+    {
+      "file": "render-draft.mjs",
+      "bytes": 4557,
+      "sha256": "5f086e5a35305aa6b0cf626eb00fbd301fa987bf74a926cb73a48c9ffe453690"
+    },
+    {
+      "file": "compile-draft.mjs",
+      "bytes": 7375,
+      "sha256": "b740fa9d225f8cfcd0fd471a8ae2997dce11649459678b0d2179bab0c8fac861"
+    },
+    {
+      "file": "verify-native.mjs",
+      "bytes": 8682,
+      "sha256": "5d81b4edbabaf231345c1f1fc4d2883b7d6f784da4e66aa9606bccbe348caa34"
+    },
+    {
+      "file": "native-frames.json",
+      "bytes": 2917,
+      "sha256": "925278f34e9b3315dc100ebc0ef4539096cdc4088b5f0b4179e4ef12c70927a3"
+    },
+    {
+      "file": "native-verification/manifest.json",
+      "bytes": 1656,
+      "sha256": "01f1e50602289c9b83dfd0c0b4ceaf05685b5df87798a72e39903344aa8831cd"
+    }
+  ]
+}

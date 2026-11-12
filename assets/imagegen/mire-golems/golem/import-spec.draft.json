@@ -1,0 +1,211 @@
+{
+  "key": "mire-golems",
+  "directory": "assets/imagegen/mire-golems/golem",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "232b2b",
+    "443a30",
+    "705643",
+    "a37d56",
+    "cba873",
+    "263e32",
+    "49664c",
+    "86a06a",
+    "3c5056",
+    "71858a",
+    "d7ae51",
+    "f4dfae"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/mire-golems/source-movement-v2.png",
+      "columns": 4,
+      "rows": 3,
+      "nativeHeight": 58,
+      "scaleCells": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      }
+    },
+    {
+      "file": "assets/imagegen/mire-golems/source-actions-v1.png",
+      "columns": 4,
+      "rows": 3,
+      "nativeHeight": 58,
+      "scaleCells": [
+        10,
+        11
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.7897313173066464
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/mire-golems/source-tumble-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 58,
+      "scaleCells": [
+        7,
+        8
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.7482758620689656
+        },
+        "1": {
+          "scale": 0.7686730839527233
+        },
+        "2": {
+          "scale": 0.7653540093858396
+        },
+        "3": {
+          "scale": 0.828448275862069
+        },
+        "4": {
+          "scale": 0.898227969348659
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/mire-golems/source-front-actions-v1.png",
+      "columns": 3,
+      "rows": 2,
+      "nativeHeight": 58,
+      "scaleCells": [
+        5
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.9742990654205608
+        },
+        "2": {
+          "scale": 0.9834905660377359
+        },
+        "3": {
+          "scale": 0.954233409610984
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/mire-golems/source-curl-v1.png",
+      "columns": 3,
+      "rows": 1,
+      "nativeHeight": 58,
+      "scaleCells": [
+        2
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.8898876404494384
+        },
+        "1": {
+          "scale": 0.8898876404494384
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        {
+          "frame": 8,
+          "flip": true
+        },
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        8,
+        12,
+        24,
+        25,
+        26,
+        27,
+        {
+          "frame": 28,
+          "flip": true
+        },
+        39,
+        28,
+        40,
+        33,
+        34,
+        15,
+        16,
+        {
+          "frame": 15,
+          "flip": true
+        },
+        {
+          "frame": 16,
+          "flip": true
+        },
+        35,
+        18,
+        36,
+        37,
+        21
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive source import; composeNative additionally positions generated body and original raster shadow",
+    "bodyReferenceHeight": 58,
+    "source": "Actual generated body pixels; original CT 14×4 ground-shadow raster reused unchanged in native slots12–20.",
+    "geometry": "Use prepared native-raster.json or the explicit composition map, then exact authored cell origins and offsets. The raw imported body sequence alone is incomplete.",
+    "directionCorrections": "Movement source8 and tumble source4 face right in the output and are mirrored for the native left role. Right counterparts use their unmirrored generated source.",
+    "sourceSubstitutions": "Dedicated compact front-action and curl sources replace wider first-pass poses; all retained slots remain real source art.",
+    "activation": false
+  }
+}

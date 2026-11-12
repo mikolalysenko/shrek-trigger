@@ -1,0 +1,17 @@
+Use case: identity-preserve
+Create a NEW THREE-column THREE-row transparent sprite action sheet for this SAME ordinary storybook townswoman.
+Reference image1 (single front idle) is authoritative for the face/head: simple small charcoal eye blocks surrounded by light cheek skin, adult face, green tied kerchief, brown hair, slate bodice, cool ivory sleeves/apron, rust full skirt, blue-gray shoes. Preserve its model and31px-equivalent standing scale.
+Reference image2 (six walking figures) is authoritative for the same low rear hair bun, costume, and clearly opposed foot-contact silhouettes. Update front faces to image1's simple eye/cheek design. Do not carry over large anime eye ovals. At reduction, each eye needs a dark pixel separated from both the hair and the other eye by light skin.
+
+Exact nine equal cells, row-major:
+0 FRONT WALK CONTACT A: screen-left shoe down/forward, right foot receding; screen-RIGHT hand swings forward, left hand back. Whole figure faces front.
+1 FRONT WALK PASSING A: feet pass close beneath the body, near-vertical planted stance, one foot slightly rising. Screen-left hand slightly ahead while right recedes. This is a quieter distinct phase between contacts.
+2 FRONT WALK CONTACT B: screen-RIGHT shoe down/forward, left foot receding; screen-LEFT hand swings forward, right hand back. Clearly oppose cell0.
+3 FRONT WALK PASSING B: same planted body/head height as cell1, opposite foot and hand phase, visibly distinct from cell1.
+4 STARTLED FRONT: shoulders hunched, knees slightly bent, hands spread near chest/waist, worried open mouth. Include two or three small authentic white/pale-blue SWEAT DROPLETS just beside the upper head, separate from the body with transparent gaps. Keep droplets within about2native pixels of her hair and below or level with the kerchief top. These are real sprite pixels, not annotation. No giant exclamation mark, glow or shadow. Total silhouette including droplets should fit32native pixels tall, body close to31.
+5 BOTH HANDS RAISED FRONT: both open hands lifted beside the head at about its top, elbows out, full body front. Cheerful relieved reaction, same simple readable eyes; no object.
+6 SEATED LEFT PROFILE, HANDS IN LAP: whole head and torso face left. Upright seated torso, bent hips and knees, thighs project screen-left, hands rest together on the apron over knees, lower legs/shoes down in front. She is sitting on an invisible chair; DO NOT draw a chair/table. She is neither bowing, crouching, kneeling nor lying. Keep adult body/head scale consistent; seated sprite remains compact roughly30native pixels high and at most25wide.
+7 FRONT IDLE CONTROL: match the approved single idle reference, both hands at sides and feet together. This is a model scale reference.
+8 BOTH HANDS RAISED REAR: back view facing away, same green kerchief, small low brown bun and apron ties; both hands beside the head, elbows out. No face visible.
+
+Deliberate hard-edged16-bit pixel clusters and restrained material shading. Equal cell sizes, full figures centered, uniform body/head scale, generous transparent gutters. No text, labels, background, grounded shadows, painted cell borders or extra props. Genuine transparent alpha. Avoid soft anti-aliased faces; skin and simple eye pixels must stay readable at31pixels total body height.

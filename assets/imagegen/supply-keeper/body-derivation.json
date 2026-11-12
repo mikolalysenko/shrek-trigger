@@ -1,0 +1,97 @@
+{
+  "source": "source-body-v2.png",
+  "sourceSha256": "42a1ec5481ad3c2cc14e808a596122e48028f4058a84c43482877c4d99f7f25b",
+  "sample": "body-sample-v2/preview-raster.json",
+  "sampleSha256": "be0fb9fab7a29d4dcb4f99b25389db3029181d8ae9e36ee5ff60e5e372dc97e6",
+  "method": "Recorded nearest resampling of complete generated mechanical regions, followed by exact whole left-half reflection and native cable tile repetition. No painted anatomy or invented pixels.",
+  "regions": [
+    {
+      "name": "Left suspension and tapered upper shoulder",
+      "source": [
+        0,
+        0,
+        30,
+        72
+      ],
+      "target": [
+        0,
+        0,
+        22,
+        72
+      ]
+    },
+    {
+      "name": "Left bellows forearm and complete pincer",
+      "source": [
+        0,
+        72,
+        30,
+        72
+      ],
+      "target": [
+        0,
+        72,
+        30,
+        72
+      ]
+    },
+    {
+      "name": "Central carved face, cupboard, keyhole and counterweight",
+      "source": [
+        30,
+        47,
+        68,
+        129
+      ],
+      "target": [
+        32,
+        48,
+        64,
+        128
+      ]
+    },
+    {
+      "name": "Paired central suspension cable",
+      "source": [
+        54,
+        0,
+        20,
+        47
+      ],
+      "target": [
+        56,
+        0,
+        16,
+        48
+      ]
+    }
+  ],
+  "nativeSize": [
+    128,
+    176
+  ],
+  "nativePixelSha256": "029cab68960bd2d88e2de201044791b4f761abacb6d2f4a6b82445c442f7fb27",
+  "opaquePixels": 9056,
+  "opaquePixelsOutsideOwnedCells": 0,
+  "mirroredHalf": "left",
+  "repeatedCableSourceSegments": [
+    {
+      "x": 8,
+      "y": 0,
+      "width": 8,
+      "height": 16
+    },
+    {
+      "x": 56,
+      "y": 0,
+      "width": 8,
+      "height": 16
+    }
+  ],
+  "repeatTargetY": [
+    0,
+    16,
+    32
+  ],
+  "note": "The native hardware requires all four cable tiles to repeat vertically and the body to mirror horizontally. The source upper service mechanism is narrowed as a complete region to fit the original stepped shoulder footprint; the face/cupboard keeps its full contents."
+}

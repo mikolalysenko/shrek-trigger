@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "scope": "Immutable e136 earlier-art gfx154 uses legacy 7F decoded loading. All four original walk directions, both owners, two cycles each; requested frame/duration and complete VRAM/eight-cell OAM coherence checked every video tick.",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "core": "repository SNES JS native 65816/PPU",
+  "cases": 8,
+  "cycles": 16,
+  "exactVideoTicks": 480,
+  "maximumRequestToDisplayDelay": 0,
+  "delayedPhaseBoundaries": 0,
+  "reports": [
+    {
+      "key": "mire-golem",
+      "enemy": 163,
+      "facing": 0,
+      "frames": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "durations": [
+        10,
+        5,
+        10,
+        5
+      ],
+      "sourcePointer": 8356800,
+      "exactVideoTicks": 60,
+      "maxDelay": 0,
+      "delayedBoundaries": []
+    },
+    {
+      "key": "mire-golem",
+      "enemy": 163,
+      "facing": 1,
+      "frames": [
+        3,
+        4,
+        5,
+        4
+      ],
+      "durations": [
+        10,
+        5,
+        10,
+        5
+      ],
+      "sourcePointer": 8356800,
+      "exactVideoTicks": 60,
+      "maxDelay": 0,
+      "delayedBoundaries": []
+    },
+    {
+      "key": "mire-golem",
+      "enemy": 163,
+      "facing": 2,
+      "frames": [
+        6,
+        7,
+        8,
+        7
+      ],
+      "durations": [
+        10,
+        5,
+        10,
+        5
+      ],
+      "sourcePointer": 8356800,
+      "exactVideoTicks": 60,
+      "maxDelay": 0,
+      "delayedBoundaries": []
+    },
+    {
+      "key": "mire-golem",
+      "enemy": 163,
+      "facing": 3,
+      "frames": [
+        9,
+        10,
+        11,
+        10
+      ],
+      "durations": [
+        10,
+        5,
+        10,
+        5
+      ],
+      "sourcePointer": 8356800,
+      "exactVideoTicks": 60,
+      "maxDelay": 0,
+      "delayedBoundaries": []
+    },
+    {
+      "key": "iron-golem",
+      "enemy": 164,
+      "facing": 0,
+      "frames": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "durations": [
+        10,
+        5,
+        10,
+        5
+      ],
+      "sourcePointer": 8356800,
+      "exactVideoTicks": 60,
+      "maxDelay": 0,
+      "delayedBoundaries": []
+    },
+    {
+      "key": "iron-golem",
+      "enemy": 164,
+      "facing": 1,
+      "frames": [
+        3,
+        4,
+        5,
+        4
+      ],
+      "durations": [
+        10,
+        5,
+        10,
+        5
+      ],
+      "sourcePointer": 8356800,
+      "exactVideoTicks": 60,
+      "maxDelay": 0,
+      "delayedBoundaries": []
+    },
+    {
+      "key": "iron-golem",
+      "enemy": 164,
+      "facing": 2,
+      "frames": [
+        6,
+        7,
+        8,
+        7
+      ],
+      "durations": [
+        10,
+        5,
+        10,
+        5
+      ],
+      "sourcePointer": 8356800,
+      "exactVideoTicks": 60,
+      "maxDelay": 0,
+      "delayedBoundaries": []
+    },
+    {
+      "key": "iron-golem",
+      "enemy": 164,
+      "facing": 3,
+      "frames": [
+        9,
+        10,
+        11,
+        10
+      ],
+      "durations": [
+        10,
+        5,
+        10,
+        5
+      ],
+      "sourcePointer": 8356800,
+      "exactVideoTicks": 60,
+      "maxDelay": 0,
+      "delayedBoundaries": []
+    }
+  ],
+  "cartridgeUnchanged": true,
+  "runner": {
+    "file": "assets/imagegen/mire-golems/verify-legacy-handoff.mjs",
+    "sha256": "33d7a28d74064e62dc51a87ab148313243af87accf521b79ca09e6df940d17d9"
+  }
+}

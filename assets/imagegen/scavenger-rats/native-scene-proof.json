@@ -1,0 +1,1604 @@
+{
+  "status": "passed",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "candidateSha256": "eaa494d1fb0770ce064b4fa6dbd97e6c56ba1e6abb1f3e2520ee3e5698626e54",
+  "core": "repository SNES JS native65816/PPU",
+  "scope": "Six native Lab16 NPC164 theft branches, real controller-driven password rat chase using enemy134, and bounded original scene91/164 shared owner initialization. Initial chapter/loadout fixtures only; no post-entry gameplay writes.",
+  "theft": [
+    {
+      "preContactExactUploadSamples": 439,
+      "onions": 3,
+      "gold": 1000,
+      "remainingOnions": 2,
+      "remainingGold": 1000,
+      "expectedMessage": 79,
+      "contact": {
+        "scriptPC": 1109,
+        "videoFrame": 9387
+      },
+      "approachTicks": 36,
+      "owners": [
+        {
+          "location": 212,
+          "object": 9,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 10,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 11,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 12,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 13,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 14,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        }
+      ],
+      "maxHeapBytes": 10368,
+      "trace": "scenes/theft-3-1000-trace.json",
+      "traceSha256": "d3699bd1a743e022ec4cf19d2dcbaadaa7e6d86b6d62fb9041542aa7800e5504",
+      "nativeSamples": 1637,
+      "exactUploadedSamples": 1100,
+      "unmatchedUploadSamples": 0,
+      "sourceFramesObserved": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "messages": [
+        {
+          "location": 212,
+          "stringId": 79,
+          "videoFrame": 9395
+        }
+      ],
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "preContactExactUploadSamples": 331,
+      "onions": 1,
+      "gold": 1000,
+      "remainingOnions": 0,
+      "remainingGold": 1000,
+      "expectedMessage": 79,
+      "contact": {
+        "scriptPC": 1109,
+        "videoFrame": 9279
+      },
+      "approachTicks": 24,
+      "owners": [
+        {
+          "location": 212,
+          "object": 9,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 10,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 11,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 12,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 13,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 14,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        }
+      ],
+      "maxHeapBytes": 10368,
+      "trace": "scenes/theft-1-1000-trace.json",
+      "traceSha256": "8c6db75ae176ce64b47ed9cb3e44db82e0c7334d2056ee368ad3ac4610512c9f",
+      "nativeSamples": 1531,
+      "exactUploadedSamples": 1450,
+      "unmatchedUploadSamples": 0,
+      "sourceFramesObserved": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "messages": [
+        {
+          "location": 212,
+          "stringId": 79,
+          "videoFrame": 9287
+        }
+      ],
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "preContactExactUploadSamples": 331,
+      "onions": 0,
+      "gold": 1000,
+      "remainingOnions": 0,
+      "remainingGold": 500,
+      "expectedMessage": 78,
+      "contact": {
+        "scriptPC": 1124,
+        "videoFrame": 9279
+      },
+      "approachTicks": 24,
+      "owners": [
+        {
+          "location": 212,
+          "object": 9,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 10,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 11,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 12,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 13,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 14,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        }
+      ],
+      "maxHeapBytes": 10368,
+      "trace": "scenes/theft-0-1000-trace.json",
+      "traceSha256": "888111a40c1fcbe9f87e09305f7caeb90ed0fa520b987ea39614dce0e0be1b23",
+      "nativeSamples": 1530,
+      "exactUploadedSamples": 1450,
+      "unmatchedUploadSamples": 0,
+      "sourceFramesObserved": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "messages": [
+        {
+          "location": 212,
+          "stringId": 78,
+          "videoFrame": 9287
+        }
+      ],
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "preContactExactUploadSamples": 331,
+      "onions": 0,
+      "gold": 500,
+      "remainingOnions": 0,
+      "remainingGold": 0,
+      "expectedMessage": 78,
+      "contact": {
+        "scriptPC": 1124,
+        "videoFrame": 9279
+      },
+      "approachTicks": 24,
+      "owners": [
+        {
+          "location": 212,
+          "object": 9,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 10,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 11,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 12,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 13,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 14,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        }
+      ],
+      "maxHeapBytes": 10368,
+      "trace": "scenes/theft-0-500-trace.json",
+      "traceSha256": "888111a40c1fcbe9f87e09305f7caeb90ed0fa520b987ea39614dce0e0be1b23",
+      "nativeSamples": 1530,
+      "exactUploadedSamples": 1450,
+      "unmatchedUploadSamples": 0,
+      "sourceFramesObserved": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "messages": [
+        {
+          "location": 212,
+          "stringId": 78,
+          "videoFrame": 9287
+        }
+      ],
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "preContactExactUploadSamples": 331,
+      "onions": 0,
+      "gold": 499,
+      "remainingOnions": 0,
+      "remainingGold": 499,
+      "expectedMessage": null,
+      "contact": {
+        "scriptPC": 1132,
+        "videoFrame": 9279
+      },
+      "approachTicks": 24,
+      "owners": [
+        {
+          "location": 212,
+          "object": 9,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 10,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 11,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 12,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 13,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 14,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        }
+      ],
+      "maxHeapBytes": 10368,
+      "trace": "scenes/theft-0-499-trace.json",
+      "traceSha256": "0a6fc52c41eecc2c47f56f0353b4ba73d44420e1370113aee06875465dcc0d14",
+      "nativeSamples": 1530,
+      "exactUploadedSamples": 1451,
+      "unmatchedUploadSamples": 0,
+      "sourceFramesObserved": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "messages": [],
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "preContactExactUploadSamples": 331,
+      "onions": 0,
+      "gold": 0,
+      "remainingOnions": 0,
+      "remainingGold": 0,
+      "expectedMessage": null,
+      "contact": {
+        "scriptPC": 1132,
+        "videoFrame": 9279
+      },
+      "approachTicks": 24,
+      "owners": [
+        {
+          "location": 212,
+          "object": 9,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 10,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 11,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 12,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 13,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        },
+        {
+          "location": 212,
+          "object": 14,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8940,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        }
+      ],
+      "maxHeapBytes": 10368,
+      "trace": "scenes/theft-0-0-trace.json",
+      "traceSha256": "0a6fc52c41eecc2c47f56f0353b4ba73d44420e1370113aee06875465dcc0d14",
+      "nativeSamples": 1530,
+      "exactUploadedSamples": 1451,
+      "unmatchedUploadSamples": 0,
+      "sourceFramesObserved": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "messages": [],
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    }
+  ],
+  "chase": {
+    "owners": [
+      {
+        "location": 221,
+        "object": 8,
+        "kind": "enemy",
+        "id": 134,
+        "program": 97,
+        "palette": 84,
+        "videoFrame": 8922,
+        "sourcePointer": 4747264,
+        "palettePointer": 2016,
+        "framePointer": 30704,
+        "durationPointer": 49235
+      },
+      {
+        "location": 221,
+        "object": 12,
+        "kind": "enemy",
+        "id": 134,
+        "program": 97,
+        "palette": 84,
+        "videoFrame": 8922,
+        "sourcePointer": 4747264,
+        "palettePointer": 2016,
+        "framePointer": 30704,
+        "durationPointer": 49235
+      },
+      {
+        "location": 221,
+        "object": 13,
+        "kind": "enemy",
+        "id": 134,
+        "program": 97,
+        "palette": 84,
+        "videoFrame": 8922,
+        "sourcePointer": 4747264,
+        "palettePointer": 2016,
+        "framePointer": 30704,
+        "durationPointer": 49235
+      }
+    ],
+    "points": [
+      {
+        "x": 19,
+        "y": 8,
+        "arrived": true,
+        "caught": false
+      },
+      {
+        "x": 4,
+        "y": 8,
+        "arrived": true,
+        "caught": false
+      },
+      {
+        "x": 4,
+        "y": 20,
+        "arrived": true,
+        "caught": false
+      },
+      {
+        "x": 25,
+        "y": 20,
+        "arrived": true,
+        "caught": false
+      },
+      {
+        "x": 25,
+        "y": 32,
+        "arrived": true,
+        "caught": false
+      },
+      {
+        "x": 19,
+        "y": 32,
+        "arrived": true,
+        "caught": false
+      },
+      {
+        "x": 19,
+        "y": 43,
+        "arrived": true,
+        "caught": false
+      },
+      {
+        "x": 4,
+        "y": 43,
+        "arrived": false,
+        "caught": true
+      }
+    ],
+    "finalFlag": 97,
+    "story": 53,
+    "maxHeapBytes": 1248,
+    "trace": "scenes/password-chase-trace.json",
+    "traceSha256": "4e98b3980ade433ccc7c2024c20327d4bd8ad4331be1e5439a3298f7a4627181",
+    "nativeSamples": 1927,
+    "exactUploadedSamples": 1927,
+    "unmatchedUploadSamples": 0,
+    "sourceFramesObserved": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "messages": [
+      {
+        "location": 221,
+        "stringId": 2,
+        "videoFrame": 9270
+      },
+      {
+        "location": 221,
+        "stringId": 3,
+        "videoFrame": 9335
+      },
+      {
+        "location": 221,
+        "stringId": 4,
+        "videoFrame": 10193
+      }
+    ],
+    "cartridgeUnchanged": true,
+    "exactUndo": true
+  },
+  "originalSceneInitializations": [
+    {
+      "location": 91,
+      "owners": [
+        {
+          "location": 91,
+          "object": 14,
+          "kind": "npc",
+          "id": 164,
+          "program": 44,
+          "palette": 84,
+          "videoFrame": 8909,
+          "sourcePointer": 4747264,
+          "palettePointer": 2016,
+          "framePointer": 24720,
+          "durationPointer": 47732
+        }
+      ],
+      "maxHeapBytes": 15264,
+      "trace": "scenes/original-scene-91-trace.json",
+      "traceSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "nativeSamples": 0,
+      "exactUploadedSamples": 0,
+      "unmatchedUploadSamples": 0,
+      "sourceFramesObserved": [],
+      "messages": [],
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    },
+    {
+      "location": 164,
+      "owners": [
+        {
+          "location": 164,
+          "object": 9,
+          "kind": "enemy",
+          "id": 135,
+          "program": 97,
+          "palette": 85,
+          "videoFrame": 8929,
+          "sourcePointer": 4747264,
+          "palettePointer": 2040,
+          "framePointer": 30704,
+          "durationPointer": 49235
+        },
+        {
+          "location": 164,
+          "object": 10,
+          "kind": "enemy",
+          "id": 135,
+          "program": 97,
+          "palette": 85,
+          "videoFrame": 8929,
+          "sourcePointer": 4747264,
+          "palettePointer": 2040,
+          "framePointer": 30704,
+          "durationPointer": 49235
+        },
+        {
+          "location": 164,
+          "object": 11,
+          "kind": "enemy",
+          "id": 135,
+          "program": 97,
+          "palette": 85,
+          "videoFrame": 8929,
+          "sourcePointer": 4747264,
+          "palettePointer": 2040,
+          "framePointer": 30704,
+          "durationPointer": 49235
+        },
+        {
+          "location": 164,
+          "object": 16,
+          "kind": "enemy",
+          "id": 135,
+          "program": 97,
+          "palette": 85,
+          "videoFrame": 8929,
+          "sourcePointer": 4747264,
+          "palettePointer": 2040,
+          "framePointer": 30704,
+          "durationPointer": 49235
+        },
+        {
+          "location": 164,
+          "object": 17,
+          "kind": "enemy",
+          "id": 135,
+          "program": 97,
+          "palette": 85,
+          "videoFrame": 8929,
+          "sourcePointer": 4747264,
+          "palettePointer": 2040,
+          "framePointer": 30704,
+          "durationPointer": 49235
+        },
+        {
+          "location": 164,
+          "object": 18,
+          "kind": "enemy",
+          "id": 135,
+          "program": 97,
+          "palette": 85,
+          "videoFrame": 8929,
+          "sourcePointer": 4747264,
+          "palettePointer": 2040,
+          "framePointer": 30704,
+          "durationPointer": 49235
+        },
+        {
+          "location": 164,
+          "object": 19,
+          "kind": "enemy",
+          "id": 135,
+          "program": 97,
+          "palette": 85,
+          "videoFrame": 8929,
+          "sourcePointer": 4747264,
+          "palettePointer": 2040,
+          "framePointer": 30704,
+          "durationPointer": 49235
+        },
+        {
+          "location": 164,
+          "object": 20,
+          "kind": "enemy",
+          "id": 135,
+          "program": 97,
+          "palette": 85,
+          "videoFrame": 8929,
+          "sourcePointer": 4747264,
+          "palettePointer": 2040,
+          "framePointer": 30704,
+          "durationPointer": 49235
+        },
+        {
+          "location": 164,
+          "object": 21,
+          "kind": "enemy",
+          "id": 135,
+          "program": 97,
+          "palette": 85,
+          "videoFrame": 8929,
+          "sourcePointer": 4747264,
+          "palettePointer": 2040,
+          "framePointer": 30704,
+          "durationPointer": 49235
+        },
+        {
+          "location": 164,
+          "object": 22,
+          "kind": "enemy",
+          "id": 135,
+          "program": 97,
+          "palette": 85,
+          "videoFrame": 8929,
+          "sourcePointer": 4747264,
+          "palettePointer": 2040,
+          "framePointer": 30704,
+          "durationPointer": 49235
+        }
+      ],
+      "maxHeapBytes": 5568,
+      "trace": "scenes/original-scene-164-trace.json",
+      "traceSha256": "38c7d2c03d4c6346fdb10ced4409804539354ecd026b0fdd4bd7e8189a0f9e00",
+      "nativeSamples": 321,
+      "exactUploadedSamples": 320,
+      "unmatchedUploadSamples": 1,
+      "sourceFramesObserved": [
+        5
+      ],
+      "messages": [],
+      "cartridgeUnchanged": true,
+      "exactUndo": true
+    }
+  ],
+  "loads": [
+    {
+      "location": 212,
+      "object": 9,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-3-1000"
+    },
+    {
+      "location": 212,
+      "object": 10,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-3-1000"
+    },
+    {
+      "location": 212,
+      "object": 11,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-3-1000"
+    },
+    {
+      "location": 212,
+      "object": 12,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-3-1000"
+    },
+    {
+      "location": 212,
+      "object": 13,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-3-1000"
+    },
+    {
+      "location": 212,
+      "object": 14,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-3-1000"
+    },
+    {
+      "location": 212,
+      "object": 9,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-1-1000"
+    },
+    {
+      "location": 212,
+      "object": 10,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-1-1000"
+    },
+    {
+      "location": 212,
+      "object": 11,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-1-1000"
+    },
+    {
+      "location": 212,
+      "object": 12,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-1-1000"
+    },
+    {
+      "location": 212,
+      "object": 13,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-1-1000"
+    },
+    {
+      "location": 212,
+      "object": 14,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-1-1000"
+    },
+    {
+      "location": 212,
+      "object": 9,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-1000"
+    },
+    {
+      "location": 212,
+      "object": 10,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-1000"
+    },
+    {
+      "location": 212,
+      "object": 11,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-1000"
+    },
+    {
+      "location": 212,
+      "object": 12,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-1000"
+    },
+    {
+      "location": 212,
+      "object": 13,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-1000"
+    },
+    {
+      "location": 212,
+      "object": 14,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-1000"
+    },
+    {
+      "location": 212,
+      "object": 9,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-500"
+    },
+    {
+      "location": 212,
+      "object": 10,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-500"
+    },
+    {
+      "location": 212,
+      "object": 11,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-500"
+    },
+    {
+      "location": 212,
+      "object": 12,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-500"
+    },
+    {
+      "location": 212,
+      "object": 13,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-500"
+    },
+    {
+      "location": 212,
+      "object": 14,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-500"
+    },
+    {
+      "location": 212,
+      "object": 9,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-499"
+    },
+    {
+      "location": 212,
+      "object": 10,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-499"
+    },
+    {
+      "location": 212,
+      "object": 11,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-499"
+    },
+    {
+      "location": 212,
+      "object": 12,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-499"
+    },
+    {
+      "location": 212,
+      "object": 13,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-499"
+    },
+    {
+      "location": 212,
+      "object": 14,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-499"
+    },
+    {
+      "location": 212,
+      "object": 9,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-0"
+    },
+    {
+      "location": 212,
+      "object": 10,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-0"
+    },
+    {
+      "location": 212,
+      "object": 11,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-0"
+    },
+    {
+      "location": 212,
+      "object": 12,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-0"
+    },
+    {
+      "location": 212,
+      "object": 13,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-0"
+    },
+    {
+      "location": 212,
+      "object": 14,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8940,
+      "fixture": "theft-0-0"
+    },
+    {
+      "location": 221,
+      "object": 8,
+      "kind": "enemy",
+      "id": 134,
+      "program": 97,
+      "palette": 84,
+      "videoFrame": 8922,
+      "fixture": "password-chase"
+    },
+    {
+      "location": 221,
+      "object": 12,
+      "kind": "enemy",
+      "id": 134,
+      "program": 97,
+      "palette": 84,
+      "videoFrame": 8922,
+      "fixture": "password-chase"
+    },
+    {
+      "location": 221,
+      "object": 13,
+      "kind": "enemy",
+      "id": 134,
+      "program": 97,
+      "palette": 84,
+      "videoFrame": 8922,
+      "fixture": "password-chase"
+    },
+    {
+      "location": 91,
+      "object": 14,
+      "kind": "npc",
+      "id": 164,
+      "program": 44,
+      "palette": 84,
+      "videoFrame": 8909,
+      "fixture": "original-scene-91"
+    },
+    {
+      "location": 164,
+      "object": 9,
+      "kind": "enemy",
+      "id": 135,
+      "program": 97,
+      "palette": 85,
+      "videoFrame": 8929,
+      "fixture": "original-scene-164"
+    },
+    {
+      "location": 164,
+      "object": 10,
+      "kind": "enemy",
+      "id": 135,
+      "program": 97,
+      "palette": 85,
+      "videoFrame": 8929,
+      "fixture": "original-scene-164"
+    },
+    {
+      "location": 164,
+      "object": 11,
+      "kind": "enemy",
+      "id": 135,
+      "program": 97,
+      "palette": 85,
+      "videoFrame": 8929,
+      "fixture": "original-scene-164"
+    },
+    {
+      "location": 164,
+      "object": 16,
+      "kind": "enemy",
+      "id": 135,
+      "program": 97,
+      "palette": 85,
+      "videoFrame": 8929,
+      "fixture": "original-scene-164"
+    },
+    {
+      "location": 164,
+      "object": 17,
+      "kind": "enemy",
+      "id": 135,
+      "program": 97,
+      "palette": 85,
+      "videoFrame": 8929,
+      "fixture": "original-scene-164"
+    },
+    {
+      "location": 164,
+      "object": 18,
+      "kind": "enemy",
+      "id": 135,
+      "program": 97,
+      "palette": 85,
+      "videoFrame": 8929,
+      "fixture": "original-scene-164"
+    },
+    {
+      "location": 164,
+      "object": 19,
+      "kind": "enemy",
+      "id": 135,
+      "program": 97,
+      "palette": 85,
+      "videoFrame": 8929,
+      "fixture": "original-scene-164"
+    },
+    {
+      "location": 164,
+      "object": 20,
+      "kind": "enemy",
+      "id": 135,
+      "program": 97,
+      "palette": 85,
+      "videoFrame": 8929,
+      "fixture": "original-scene-164"
+    },
+    {
+      "location": 164,
+      "object": 21,
+      "kind": "enemy",
+      "id": 135,
+      "program": 97,
+      "palette": 85,
+      "videoFrame": 8929,
+      "fixture": "original-scene-164"
+    },
+    {
+      "location": 164,
+      "object": 22,
+      "kind": "enemy",
+      "id": 135,
+      "program": 97,
+      "palette": 85,
+      "videoFrame": 8929,
+      "fixture": "original-scene-164"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "scenes/theft-patrol-arrival.png",
+      "sha256": "52aa84dce6ac01914c8caa6ee2c8ee2539b7c6a45a48b0d13fe752a0ad3cecf8"
+    },
+    {
+      "file": "scenes/theft-3-1000-complete.png",
+      "sha256": "1f2cf06a0989c644203117f67e73d74ad01d995769bf0070798715c9f2ffe614"
+    },
+    {
+      "file": "scenes/theft-1-1000-complete.png",
+      "sha256": "7cfe75c7789f04b45356a91881bcc53b14f4fd1b66d9e57bfe84de5ed8a65f40"
+    },
+    {
+      "file": "scenes/theft-0-1000-complete.png",
+      "sha256": "7cfe75c7789f04b45356a91881bcc53b14f4fd1b66d9e57bfe84de5ed8a65f40"
+    },
+    {
+      "file": "scenes/theft-0-500-complete.png",
+      "sha256": "7cfe75c7789f04b45356a91881bcc53b14f4fd1b66d9e57bfe84de5ed8a65f40"
+    },
+    {
+      "file": "scenes/theft-0-499-complete.png",
+      "sha256": "7cfe75c7789f04b45356a91881bcc53b14f4fd1b66d9e57bfe84de5ed8a65f40"
+    },
+    {
+      "file": "scenes/theft-0-0-complete.png",
+      "sha256": "7cfe75c7789f04b45356a91881bcc53b14f4fd1b66d9e57bfe84de5ed8a65f40"
+    },
+    {
+      "file": "scenes/password-rat-arrival.png",
+      "sha256": "df58185c5609e090cbd147a8f96cb2e79970a5c48f0c3816b1e19dde156efb79"
+    },
+    {
+      "file": "scenes/password-rat-caught.png",
+      "sha256": "35173a9bcce8814ab88197b477441b55811393b85841c860dadf9196a1bef2d1"
+    },
+    {
+      "file": "scenes/original-scene-91-initialization.png",
+      "sha256": "906d3ce94b6162408255c74f0a26cc29500afe882102377972329fc019e3e4b3"
+    },
+    {
+      "file": "scenes/original-scene-164-initialization.png",
+      "sha256": "ae380fb07615e51816e81efe975ad1ad59a2e2515135350e6c1ce585b772b741"
+    }
+  ],
+  "motions": [
+    {
+      "file": "native-patrol.apng",
+      "sha256": "60a7e99ee061c3869a4ab11fdfa35e8c77799070ac8601d5e5774ec746b7c53a",
+      "videoTicks": 96,
+      "framesPerSecond": 60,
+      "firstVideoFrame": 9257,
+      "lastVideoFrame": 9352
+    }
+  ],
+  "originalAiEventsStatsProgramsUnchanged": true,
+  "nativeNpc44VersusEnemy97OwnershipObserved": true,
+  "evidence": ".local/qa/scavenger-rats-native-proof",
+  "runner": {
+    "file": "assets/imagegen/scavenger-rats/verify-rat-scenes.mjs",
+    "sha256": "24851a634519dbe1b8f6251a09514146322acde48812a7a27a80f606dd483c22"
+  },
+  "limitations": [
+    "All six approaches through contact have exact requested/source VRAM frames. Raw trace samples after retreat include stale/reused field cache slots and are retained as diagnostics, not evidence of visible timing. The96-frame patrol capture is before contact. Full pixel and timing exactness is established by the isolated39-pose and55-action proofs.",
+    "Locations91/164 prove original owner initialization, graphics pointer, palette and heap, not full story choreography or Gremlin battle victory.",
+    "The chapter fixture uses its existing strong development loadout; this is a sprite/event regression proof, not a balance test.",
+    "Independent-core execution and final production placement remain root integration checks."
+  ]
+}

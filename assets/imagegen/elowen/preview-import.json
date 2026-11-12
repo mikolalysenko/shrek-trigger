@@ -1,0 +1,273 @@
+{
+  "key": "elowen",
+  "frames": 16,
+  "width": 32,
+  "height": 32,
+  "opaqueColors": 12,
+  "palette": [
+    "292737",
+    "98664b",
+    "dba47a",
+    "f6d5ac",
+    "fff0d7",
+    "314861",
+    "5e91a5",
+    "553b2e",
+    "fff1db",
+    "a87a4f",
+    "d5ad70",
+    "dfbd5f"
+  ],
+  "samplingPalette": [
+    "292737",
+    "98664b",
+    "dba47a",
+    "f6d5ac",
+    "fff0d7",
+    "283858",
+    "587888",
+    "553b2e",
+    "fff1db",
+    "a87a4f",
+    "d5ad70",
+    "dfbd5f"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/elowen/source-v1.png",
+      "sha256": "873354fe1e3fa7af81498f85b190e92118609638483aa523981dd2a988da978a",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "scale": 0.09929078014184398,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1.2
+      },
+      "overrides": {
+        "14": {
+          "scaleX": 1.1677018633540373,
+          "note": "Horizontal-only fit for the wide gesture; vertical scale remains shared across sheet."
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            93,
+            23,
+            160,
+            285
+          ],
+          "componentPixels": 29559
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            388,
+            23,
+            148,
+            281
+          ],
+          "componentPixels": 27568
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            720,
+            27,
+            151,
+            277
+          ],
+          "componentPixels": 27185
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1008,
+            25,
+            150,
+            282
+          ],
+          "componentPixels": 27352
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            89,
+            324,
+            164,
+            288
+          ],
+          "componentPixels": 31095
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            392,
+            324,
+            151,
+            287
+          ],
+          "componentPixels": 28452
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            709,
+            328,
+            162,
+            287
+          ],
+          "componentPixels": 29302
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            1021,
+            328,
+            146,
+            287
+          ],
+          "componentPixels": 28846
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            96,
+            635,
+            171,
+            275
+          ],
+          "componentPixels": 28899
+        },
+        {
+          "cell": 9,
+          "bounds": [
+            386,
+            635,
+            178,
+            270
+          ],
+          "componentPixels": 28224
+        },
+        {
+          "cell": 10,
+          "bounds": [
+            698,
+            650,
+            170,
+            268
+          ],
+          "componentPixels": 30516
+        },
+        {
+          "cell": 11,
+          "bounds": [
+            1010,
+            633,
+            154,
+            285
+          ],
+          "componentPixels": 29005
+        },
+        {
+          "cell": 12,
+          "bounds": [
+            65,
+            930,
+            211,
+            293
+          ],
+          "componentPixels": 36254
+        },
+        {
+          "cell": 13,
+          "bounds": [
+            384,
+            934,
+            168,
+            289
+          ],
+          "componentPixels": 31894
+        },
+        {
+          "cell": 14,
+          "bounds": [
+            642,
+            935,
+            276,
+            294
+          ],
+          "componentPixels": 38326
+        },
+        {
+          "cell": 15,
+          "bounds": [
+            979,
+            939,
+            232,
+            288
+          ],
+          "componentPixels": 36114
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ]
+    },
+    "walk": {
+      "0": [
+        6,
+        1,
+        7
+      ],
+      "1": [
+        4,
+        0,
+        5
+      ],
+      "2": [
+        8,
+        9
+      ]
+    },
+    "bow": {
+      "1": [
+        10
+      ]
+    },
+    "pray": {
+      "3": [
+        11
+      ]
+    },
+    "raise": {
+      "0": [
+        15
+      ],
+      "1": [
+        12
+      ]
+    },
+    "cast": {
+      "1": [
+        13,
+        14
+      ]
+    }
+  }
+}

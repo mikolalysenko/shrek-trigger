@@ -1,0 +1,1382 @@
+{
+  "status": "Original resource and frame audit; selected source and native proof are documented separately",
+  "family": {
+    "key": "moth-witch",
+    "name": "Moth Witch",
+    "gfx": 182,
+    "groups": [
+      {
+        "art": "moth-witch",
+        "asm": 179,
+        "size": 1,
+        "width": 32,
+        "height": 64,
+        "frames": 16,
+        "frameOffsets": {
+          "11": [
+            0,
+            -2
+          ],
+          "12": [
+            0,
+            -2
+          ],
+          "13": [
+            0,
+            -1
+          ],
+          "14": [
+            0,
+            -1
+          ]
+        }
+      }
+    ],
+    "actors": [
+      {
+        "key": "moth-witch",
+        "name": "Moth Witch",
+        "short": "Moth Witch",
+        "enemy": 159,
+        "asm": 179,
+        "palette": 210,
+        "animation": 137,
+        "colors": [
+          "252737",
+          "493654",
+          "795a86",
+          "ad87ab",
+          "e2bfd3",
+          "294d50",
+          "5d8984",
+          "aac8b5",
+          "f6dfa0",
+          "97764e",
+          "cfb380",
+          "fff0d5"
+        ]
+      },
+      {
+        "key": "moth-trio",
+        "name": "Moth Witch (trio)",
+        "short": "Moth Witch",
+        "enemy": 160,
+        "asm": 179,
+        "palette": 210,
+        "animation": 137,
+        "colors": [
+          "252737",
+          "493654",
+          "795a86",
+          "ad87ab",
+          "e2bfd3",
+          "294d50",
+          "5d8984",
+          "aac8b5",
+          "f6dfa0",
+          "97764e",
+          "cfb380",
+          "fff0d5"
+        ]
+      },
+      {
+        "key": "moth-master",
+        "name": "Moth Witch (hideout)",
+        "short": "Moth Witch",
+        "enemy": 187,
+        "asm": 179,
+        "palette": 210,
+        "animation": 137,
+        "colors": [
+          "252737",
+          "493654",
+          "795a86",
+          "ad87ab",
+          "e2bfd3",
+          "294d50",
+          "5d8984",
+          "aac8b5",
+          "f6dfa0",
+          "97764e",
+          "cfb380",
+          "fff0d5"
+        ]
+      }
+    ]
+  },
+  "source": {
+    "graphicsOffset": 2091565,
+    "graphicsBytes": 4320,
+    "compressedBytes": 3376,
+    "assemblyOffset": 2337080,
+    "assemblyBytes": 1280,
+    "paletteOffset": 2364336,
+    "paletteAliases": [
+      210
+    ],
+    "animationOffset": 2394816,
+    "animationBytes": 128,
+    "animationProgram": [
+      0,
+      255,
+      0,
+      0,
+      1,
+      2,
+      3,
+      255,
+      0,
+      255,
+      0,
+      0,
+      4,
+      255,
+      0,
+      0,
+      0,
+      255,
+      0,
+      0,
+      15,
+      255,
+      0,
+      0,
+      11,
+      12,
+      255,
+      0,
+      5,
+      6,
+      7,
+      255,
+      0,
+      255,
+      0,
+      0,
+      1,
+      2,
+      3,
+      255,
+      0,
+      255,
+      0,
+      0,
+      4,
+      255,
+      0,
+      0,
+      0,
+      255,
+      0,
+      0,
+      15,
+      255,
+      0,
+      0,
+      11,
+      12,
+      255,
+      0,
+      5,
+      6,
+      7,
+      255,
+      0,
+      255,
+      0,
+      0,
+      1,
+      2,
+      3,
+      255,
+      0,
+      255,
+      0,
+      0,
+      4,
+      255,
+      0,
+      0,
+      0,
+      255,
+      0,
+      0,
+      15,
+      255,
+      0,
+      0,
+      11,
+      12,
+      255,
+      0,
+      8,
+      9,
+      10,
+      255,
+      0,
+      255,
+      0,
+      0,
+      1,
+      2,
+      3,
+      255,
+      0,
+      255,
+      0,
+      0,
+      4,
+      255,
+      0,
+      0,
+      0,
+      255,
+      0,
+      0,
+      15,
+      255,
+      0,
+      0,
+      13,
+      14,
+      255,
+      0,
+      5,
+      6,
+      7,
+      255
+    ],
+    "animationSha256": "1839680ad5c7efe537708399b5b136a2c337b7e91deac3abcc0a9365e3605e6c"
+  },
+  "owners": {
+    "0": [
+      {
+        "kind": "enemy",
+        "id": 159
+      },
+      {
+        "kind": "enemy",
+        "id": 160
+      },
+      {
+        "kind": "enemy",
+        "id": 187
+      }
+    ],
+    "1": [
+      {
+        "kind": "enemy",
+        "id": 159
+      },
+      {
+        "kind": "enemy",
+        "id": 160
+      },
+      {
+        "kind": "enemy",
+        "id": 187
+      }
+    ],
+    "2": [
+      {
+        "kind": "enemy",
+        "id": 159
+      },
+      {
+        "kind": "enemy",
+        "id": 160
+      },
+      {
+        "kind": "enemy",
+        "id": 187
+      }
+    ]
+  },
+  "headers": [
+    {
+      "id": 159,
+      "bytes": [
+        182,
+        179,
+        210,
+        137,
+        1,
+        0,
+        224,
+        16,
+        16,
+        17
+      ],
+      "ai": {
+        "offset": 830547,
+        "bytes": 138,
+        "sha256": "011015c0e4f675d373789ebfa7e7d1389d89c56a8ef9136d7d3de954a6d95dbd"
+      }
+    },
+    {
+      "id": 160,
+      "bytes": [
+        182,
+        179,
+        210,
+        137,
+        1,
+        0,
+        224,
+        16,
+        16,
+        17
+      ],
+      "ai": {
+        "offset": 830685,
+        "bytes": 74,
+        "sha256": "1ff4c17454fa3b25b38550e5f2e5541bd87bb60ebb41ddedbe501ac8632d8108"
+      }
+    },
+    {
+      "id": 187,
+      "bytes": [
+        182,
+        179,
+        210,
+        137,
+        1,
+        0,
+        224,
+        16,
+        16,
+        17
+      ],
+      "ai": {
+        "offset": 832560,
+        "bytes": 22,
+        "sha256": "1ae47bfb6d8bc6ec47d72c4b4ab059875aa286cbf6b5e30b4977c9b0b313307e"
+      }
+    }
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "xy": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "opaquePixels": 435,
+      "bounds": [
+        -8,
+        -37,
+        7,
+        0
+      ],
+      "pixelSha256": "1c35d8b590b7368c59a691af288348a7bd9be0c98f03ad714be85551075a24c6"
+    },
+    {
+      "frame": 1,
+      "xy": [
+        [
+          -5,
+          -49
+        ],
+        [
+          -9,
+          -33
+        ],
+        [
+          4,
+          -39
+        ],
+        [
+          -12,
+          -39
+        ],
+        [
+          -12,
+          -7
+        ],
+        [
+          4,
+          -23
+        ],
+        [
+          -12,
+          -23
+        ],
+        [
+          4,
+          -7
+        ]
+      ],
+      "opaquePixels": 723,
+      "bounds": [
+        -12,
+        -44,
+        12,
+        1
+      ],
+      "pixelSha256": "32abf854a7f2518ea97972b84aef704b85b65a986b33e6c26197936d5b0ee9da"
+    },
+    {
+      "frame": 2,
+      "xy": [
+        [
+          -5,
+          -49
+        ],
+        [
+          -9,
+          -33
+        ],
+        [
+          4,
+          -39
+        ],
+        [
+          -12,
+          -39
+        ],
+        [
+          -12,
+          -7
+        ],
+        [
+          4,
+          -23
+        ],
+        [
+          -12,
+          -23
+        ],
+        [
+          4,
+          -7
+        ]
+      ],
+      "opaquePixels": 723,
+      "bounds": [
+        -12,
+        -43,
+        12,
+        1
+      ],
+      "pixelSha256": "1ad1de8b9a32e85cb4db21d65680e51bd2d746c4a8a73d1003eb3c521c2788f1"
+    },
+    {
+      "frame": 3,
+      "xy": [
+        [
+          -5,
+          -49
+        ],
+        [
+          -9,
+          -33
+        ],
+        [
+          4,
+          -39
+        ],
+        [
+          -12,
+          -39
+        ],
+        [
+          -12,
+          -7
+        ],
+        [
+          4,
+          -23
+        ],
+        [
+          -12,
+          -23
+        ],
+        [
+          4,
+          -7
+        ]
+      ],
+      "opaquePixels": 739,
+      "bounds": [
+        -12,
+        -45,
+        12,
+        1
+      ],
+      "pixelSha256": "ac5f60d3eb297d14e26abe0cf882b107559a4d23a3af85aaa285fd7561a36de5"
+    },
+    {
+      "frame": 4,
+      "xy": [
+        [
+          5,
+          -42
+        ],
+        [
+          -11,
+          -42
+        ],
+        [
+          5,
+          -26
+        ],
+        [
+          -11,
+          -26
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          5,
+          -10
+        ],
+        [
+          -11,
+          -10
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "opaquePixels": 573,
+      "bounds": [
+        -11,
+        -33,
+        11,
+        0
+      ],
+      "pixelSha256": "a81f8662d47acaad5fae5e7ea49f8cb461ed0e6c0f397f3cf2df8c6e5765c2f4"
+    },
+    {
+      "frame": 5,
+      "xy": [
+        [
+          -8,
+          -48
+        ],
+        [
+          -25,
+          -48
+        ],
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -38,
+          -32
+        ],
+        [
+          -1,
+          -16
+        ],
+        [
+          -17,
+          -16
+        ],
+        [
+          -37,
+          -16
+        ]
+      ],
+      "opaquePixels": 486,
+      "bounds": [
+        -10,
+        -35,
+        8,
+        0
+      ],
+      "pixelSha256": "bc70e13fbe4c36055b83e644236aa5d7fad4f3dc4e83d1717242ddbb590f2b8c"
+    },
+    {
+      "frame": 6,
+      "xy": [
+        [
+          -8,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          -1,
+          -16
+        ],
+        [
+          -17,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "opaquePixels": 493,
+      "bounds": [
+        -10,
+        -35,
+        8,
+        0
+      ],
+      "pixelSha256": "f60a5f4ace8f07c9cac72b4ddee855f362ba08037e4c997cd4616199fc0571ca"
+    },
+    {
+      "frame": 7,
+      "xy": [
+        [
+          -8,
+          -48
+        ],
+        [
+          6,
+          -42
+        ],
+        [
+          -8,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          -1,
+          -16
+        ],
+        [
+          -17,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "opaquePixels": 511,
+      "bounds": [
+        -10,
+        -35,
+        13,
+        0
+      ],
+      "pixelSha256": "52732d50e2685b16fef524bd6b1512d62ba1b57917e15b29c4dac23d8fa657c9"
+    },
+    {
+      "frame": 8,
+      "xy": [
+        [
+          6,
+          -48
+        ],
+        [
+          -10,
+          -48
+        ],
+        [
+          6,
+          -32
+        ],
+        [
+          -10,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          -1,
+          -16
+        ],
+        [
+          -17,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "opaquePixels": 486,
+      "bounds": [
+        -10,
+        -35,
+        8,
+        0
+      ],
+      "pixelSha256": "87fa7b4515f93c84be94af94b7d4cb8b6cd3b2b3fa2f65305ae1bfe969644379"
+    },
+    {
+      "frame": 9,
+      "xy": [
+        [
+          6,
+          -48
+        ],
+        [
+          -10,
+          -48
+        ],
+        [
+          6,
+          -32
+        ],
+        [
+          -10,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          -1,
+          -16
+        ],
+        [
+          -17,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "opaquePixels": 493,
+      "bounds": [
+        -10,
+        -35,
+        8,
+        0
+      ],
+      "pixelSha256": "1aea459b8506c4977350ea82be7a468707e60292118e0aeeaf5a69fbfa5e3ff1"
+    },
+    {
+      "frame": 10,
+      "xy": [
+        [
+          -24,
+          -42
+        ],
+        [
+          -10,
+          -48
+        ],
+        [
+          6,
+          -32
+        ],
+        [
+          -10,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          -1,
+          -16
+        ],
+        [
+          -17,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "opaquePixels": 511,
+      "bounds": [
+        -14,
+        -35,
+        8,
+        0
+      ],
+      "pixelSha256": "52ab496786839055e5e4a5b26d1ed80a16f89643fd18abd3ce57e5bff837ec3a"
+    },
+    {
+      "frame": 11,
+      "xy": [
+        [
+          8,
+          -50
+        ],
+        [
+          -8,
+          -50
+        ],
+        [
+          8,
+          -34
+        ],
+        [
+          -8,
+          -34
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          8,
+          -18
+        ],
+        [
+          -8,
+          -18
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "opaquePixels": 506,
+      "bounds": [
+        -8,
+        -36,
+        10,
+        -2
+      ],
+      "pixelSha256": "5ab81fd1a30c062ff9efa9f0e51c524fbcdb70f8312ab130803738477925d5ac"
+    },
+    {
+      "frame": 12,
+      "xy": [
+        [
+          8,
+          -50
+        ],
+        [
+          -8,
+          -50
+        ],
+        [
+          8,
+          -33
+        ],
+        [
+          -8,
+          -34
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          8,
+          -17
+        ],
+        [
+          -8,
+          -18
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "opaquePixels": 518,
+      "bounds": [
+        -8,
+        -36,
+        10,
+        -2
+      ],
+      "pixelSha256": "00e94ef9229dcaf97f2c9b6ecdaf04ca583eb7cffa6d3b009f969f2bb75985a4"
+    },
+    {
+      "frame": 13,
+      "xy": [
+        [
+          -7,
+          -49
+        ],
+        [
+          -23,
+          -49
+        ],
+        [
+          -7,
+          -33
+        ],
+        [
+          -23,
+          -33
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          -7,
+          -17
+        ],
+        [
+          -23,
+          -17
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "opaquePixels": 506,
+      "bounds": [
+        -9,
+        -35,
+        9,
+        -1
+      ],
+      "pixelSha256": "526d87be2f21703cd30442b7a7fb88bf279d60b0288b76f3fc245c0b0aaec29b"
+    },
+    {
+      "frame": 14,
+      "xy": [
+        [
+          -7,
+          -49
+        ],
+        [
+          -23,
+          -49
+        ],
+        [
+          -7,
+          -33
+        ],
+        [
+          -23,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          -7,
+          -17
+        ],
+        [
+          -23,
+          -17
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "opaquePixels": 518,
+      "bounds": [
+        -9,
+        -35,
+        9,
+        -1
+      ],
+      "pixelSha256": "dc448f73b8540ff2bf34dc8674279a347d3c74fa47379c6297483226346f7b4e"
+    },
+    {
+      "frame": 15,
+      "xy": [
+        [
+          1,
+          -48
+        ],
+        [
+          -15,
+          -48
+        ],
+        [
+          1,
+          -32
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          1,
+          -16
+        ],
+        [
+          -15,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "opaquePixels": 550,
+      "bounds": [
+        -15,
+        -39,
+        9,
+        0
+      ],
+      "pixelSha256": "94a1af04d101afa280c52e30141a0d51b2428b81e4ebe172fc8d764370069e1e"
+    }
+  ],
+  "scenes": [
+    {
+      "location": 63,
+      "eventPointer": 3947622,
+      "mothLoads": [
+        [
+          909,
+          131,
+          [
+            159,
+            7
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        166,
+        159,
+        157
+      ],
+      "allNpcIds": [
+        93,
+        5
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 27712,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 190,
+            "bytes": 384
+          },
+          {
+            "gfx": 40,
+            "bytes": 2432
+          },
+          {
+            "gfx": 155,
+            "bytes": 8192
+          },
+          {
+            "gfx": 182,
+            "bytes": 4320
+          },
+          {
+            "gfx": 166,
+            "bytes": 12384
+          }
+        ],
+        "note": "Conservative union across all event branches; not a claim that all actors are simultaneously resident"
+      }
+    },
+    {
+      "location": 92,
+      "eventPointer": 3717901,
+      "mothLoads": [
+        [
+          306,
+          131,
+          [
+            159,
+            7
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        157,
+        159,
+        167
+      ],
+      "allNpcIds": [
+        72
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 25984,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 166,
+            "bytes": 12384
+          },
+          {
+            "gfx": 182,
+            "bytes": 4320
+          },
+          {
+            "gfx": 155,
+            "bytes": 8192
+          },
+          {
+            "gfx": 132,
+            "bytes": 1088
+          }
+        ],
+        "note": "Conservative union across all event branches; not a claim that all actors are simultaneously resident"
+      }
+    },
+    {
+      "location": 173,
+      "eventPointer": 3819659,
+      "mothLoads": [
+        [
+          950,
+          131,
+          [
+            159,
+            7
+          ]
+        ],
+        [
+          958,
+          131,
+          [
+            159,
+            135
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        240,
+        159
+      ],
+      "allNpcIds": [
+        126,
+        112
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 7488,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 159,
+            "bytes": 576
+          },
+          {
+            "gfx": 91,
+            "bytes": 2432
+          },
+          {
+            "gfx": 182,
+            "bytes": 4320
+          },
+          {
+            "gfx": 49,
+            "bytes": 160
+          }
+        ],
+        "note": "Conservative union across all event branches; not a claim that all actors are simultaneously resident"
+      }
+    },
+    {
+      "location": 180,
+      "eventPointer": 3966021,
+      "mothLoads": [
+        [
+          610,
+          131,
+          [
+            160,
+            9
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        168,
+        165,
+        160
+      ],
+      "allNpcIds": [],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 24896,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 155,
+            "bytes": 8192
+          },
+          {
+            "gfx": 166,
+            "bytes": 12384
+          },
+          {
+            "gfx": 182,
+            "bytes": 4320
+          }
+        ],
+        "note": "Conservative union across all event branches; not a claim that all actors are simultaneously resident"
+      }
+    },
+    {
+      "location": 182,
+      "eventPointer": 3966970,
+      "mothLoads": [
+        [
+          444,
+          131,
+          [
+            187,
+            135
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        168,
+        187
+      ],
+      "allNpcIds": [],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 12512,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 155,
+            "bytes": 8192
+          },
+          {
+            "gfx": 182,
+            "bytes": 4320
+          }
+        ],
+        "note": "Conservative union across all event branches; not a claim that all actors are simultaneously resident"
+      }
+    },
+    {
+      "location": 183,
+      "eventPointer": 3966970,
+      "mothLoads": [
+        [
+          444,
+          131,
+          [
+            187,
+            135
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        168,
+        187
+      ],
+      "allNpcIds": [],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 12512,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 155,
+            "bytes": 8192
+          },
+          {
+            "gfx": 182,
+            "bytes": 4320
+          }
+        ],
+        "note": "Conservative union across all event branches; not a claim that all actors are simultaneously resident"
+      }
+    },
+    {
+      "location": 391,
+      "eventPointer": 3599873,
+      "mothLoads": [
+        [
+          451,
+          131,
+          [
+            187,
+            3
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        187,
+        50,
+        242
+      ],
+      "allNpcIds": [
+        75,
+        43
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 23200,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 182,
+            "bytes": 4320
+          },
+          {
+            "gfx": 78,
+            "bytes": 7104
+          },
+          {
+            "gfx": 86,
+            "bytes": 8704
+          },
+          {
+            "gfx": 30,
+            "bytes": 3072
+          }
+        ],
+        "note": "Conservative union across all event branches; not a claim that all actors are simultaneously resident"
+      }
+    }
+  ]
+}

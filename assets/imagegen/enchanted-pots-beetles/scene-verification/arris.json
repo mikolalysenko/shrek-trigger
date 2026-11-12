@@ -1,0 +1,276 @@
+{
+  "status": "Passed",
+  "name": "arris",
+  "scope": "Original location event/actor IDs/formation/AI/controller battle; only initial diagnostic E0/checkpoint setup. No enemy/pose/event writes after entry.",
+  "privateRomSha256": "25848a5b60b210d9b599dc0f0847085f724a125dfd3549a04dfa9142bdd34df7",
+  "nativeTicks": 2429,
+  "result": {
+    "formation": [
+      140,
+      140,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255
+    ],
+    "taps": 13
+  },
+  "events": [
+    {
+      "frame": 9325,
+      "location": 215,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 536,
+      "opcode": 216
+    },
+    {
+      "frame": 11174,
+      "location": 215,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 536,
+      "opcode": 216
+    }
+  ],
+  "loads": [
+    {
+      "frame": 8928,
+      "location": 215,
+      "pc": 12605696,
+      "object": 8,
+      "scriptPC": 611,
+      "opcode": 131,
+      "enemy": 140
+    },
+    {
+      "frame": 8928,
+      "location": 215,
+      "pc": 12605696,
+      "object": 9,
+      "scriptPC": 650,
+      "opcode": 131,
+      "enemy": 140
+    },
+    {
+      "frame": 8928,
+      "location": 215,
+      "pc": 12605696,
+      "object": 10,
+      "scriptPC": 683,
+      "opcode": 131,
+      "enemy": 140
+    },
+    {
+      "frame": 8928,
+      "location": 215,
+      "pc": 12605696,
+      "object": 11,
+      "scriptPC": 716,
+      "opcode": 131,
+      "enemy": 140
+    },
+    {
+      "frame": 8928,
+      "location": 215,
+      "pc": 12605696,
+      "object": 12,
+      "scriptPC": 749,
+      "opcode": 131,
+      "enemy": 84
+    },
+    {
+      "frame": 8928,
+      "location": 215,
+      "pc": 12605696,
+      "object": 13,
+      "scriptPC": 762,
+      "opcode": 131,
+      "enemy": 134
+    },
+    {
+      "frame": 8929,
+      "location": 215,
+      "pc": 12605696,
+      "object": 14,
+      "scriptPC": 801,
+      "opcode": 131,
+      "enemy": 134
+    }
+  ],
+  "messages": [],
+  "attacks": [
+    {
+      "frame": 9707,
+      "location": 215,
+      "pc": 12687933,
+      "object": 8,
+      "actor": 4,
+      "enemyId": 140,
+      "aiPC": 42596,
+      "operand": 8
+    }
+  ],
+  "heapMin": 0,
+  "heapMax": 1984,
+  "fieldPointers": [
+    {
+      "location": 215,
+      "enemy": 140,
+      "object": 8,
+      "pointer": 8210592,
+      "palettePointer": 2664
+    },
+    {
+      "location": 215,
+      "enemy": 140,
+      "object": 9,
+      "pointer": 8210592,
+      "palettePointer": 2664
+    },
+    {
+      "location": 215,
+      "enemy": 140,
+      "object": 10,
+      "pointer": 8210592,
+      "palettePointer": 2664
+    },
+    {
+      "location": 215,
+      "enemy": 140,
+      "object": 11,
+      "pointer": 8210592,
+      "palettePointer": 2664
+    }
+  ],
+  "observedNativeFieldFrames": [
+    {
+      "key": "scrap-beetle:8:4",
+      "sampledTicks": 9
+    },
+    {
+      "key": "scrap-beetle:9:4",
+      "sampledTicks": 6
+    },
+    {
+      "key": "scrap-beetle:8:5",
+      "sampledTicks": 5
+    },
+    {
+      "key": "scrap-beetle:9:5",
+      "sampledTicks": 3
+    },
+    {
+      "key": "scrap-beetle:8:3",
+      "sampledTicks": 6
+    },
+    {
+      "key": "scrap-beetle:9:3",
+      "sampledTicks": 3
+    },
+    {
+      "key": "scrap-beetle:9:7",
+      "sampledTicks": 19
+    },
+    {
+      "key": "scrap-beetle:9:8",
+      "sampledTicks": 13
+    },
+    {
+      "key": "scrap-beetle:9:6",
+      "sampledTicks": 12
+    },
+    {
+      "key": "scrap-beetle:10:1",
+      "sampledTicks": 6
+    },
+    {
+      "key": "scrap-beetle:10:2",
+      "sampledTicks": 6
+    },
+    {
+      "key": "scrap-beetle:9:19",
+      "sampledTicks": 43
+    },
+    {
+      "key": "scrap-beetle:10:0",
+      "sampledTicks": 3
+    },
+    {
+      "key": "scrap-beetle:8:19",
+      "sampledTicks": 10
+    },
+    {
+      "key": "scrap-beetle:9:1",
+      "sampledTicks": 3
+    },
+    {
+      "key": "scrap-beetle:9:2",
+      "sampledTicks": 2
+    },
+    {
+      "key": "scrap-beetle:8:10",
+      "sampledTicks": 41
+    },
+    {
+      "key": "scrap-beetle:10:17",
+      "sampledTicks": 10
+    },
+    {
+      "key": "scrap-beetle:8:11",
+      "sampledTicks": 24
+    },
+    {
+      "key": "scrap-beetle:9:0",
+      "sampledTicks": 1
+    },
+    {
+      "key": "scrap-beetle:8:9",
+      "sampledTicks": 31
+    },
+    {
+      "key": "scrap-beetle:9:10",
+      "sampledTicks": 2
+    },
+    {
+      "key": "scrap-beetle:9:11",
+      "sampledTicks": 1
+    },
+    {
+      "key": "scrap-beetle:9:9",
+      "sampledTicks": 2
+    },
+    {
+      "key": "scrap-beetle:10:10",
+      "sampledTicks": 24
+    },
+    {
+      "key": "scrap-beetle:10:11",
+      "sampledTicks": 22
+    },
+    {
+      "key": "scrap-beetle:10:9",
+      "sampledTicks": 12
+    },
+    {
+      "key": "scrap-beetle:9:20",
+      "sampledTicks": 16
+    },
+    {
+      "key": "scrap-beetle:10:4",
+      "sampledTicks": 13
+    },
+    {
+      "key": "scrap-beetle:10:5",
+      "sampledTicks": 12
+    },
+    {
+      "key": "scrap-beetle:10:3",
+      "sampledTicks": 8
+    }
+  ],
+  "allSixRomPalettesUnchanged": true,
+  "cartridgeUnchanged": true
+}

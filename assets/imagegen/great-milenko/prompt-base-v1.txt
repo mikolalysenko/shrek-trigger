@@ -1,0 +1,13 @@
+Use case: stylized-concept
+Asset type: native SNES JRPG boss sprite atlas.
+Primary request: Create new original Chrono Trigger-style pixel art of The Great Milenko, the supernatural carnival magician pictured in the supplied reference. Use the reference as visual identity guidance, not as a flat logo pasted into the sprites. Extend his floating face into a full-body purple-robed magician suitable for a 1995 SNES boss encounter.
+Identity: huge pale cream theatrical face, sly black eyebrow, one crossed/X eye, hooked bulbous nose, wide toothy mischievous grin, extravagant green curled moustache and pointed goatee, winglike green hair, pale star-patterned turban with a large curved green feather and central jewel. Purple flowing robe, white gloved hands, slim wand, compact dark shoes. Keep the face, feather and turban large and readable.
+Style: native48x64 pixel sprite design, about58pixels standing height. Large deliberate pixel clusters, thin selective contour, 12 opaque colors: near-black violet, deep/mid/light purples, cream, gray, deep/mid/light greens, gold/brown and pale highlight. Hard edges and coherent upper-left light. No antialiasing, gradients, gloss, painterly shading or tiny texture noise. Imagine a192x320 logical-pixel atlas enlarged four times with nearest-neighbor crisp blocks.
+Layout: exactly4columns by5rows, twenty fully isolated complete figures. Uniform body size and lighting. Each figure centered in its cell with clear blank gaps and no cropping; keep arms/wand inside a compact48x64 silhouette. Transparent background with actual alpha. No labels, text, frames, ground shadows, scenery or extra characters.
+Exact row-major poses:
+Row1: LEFT profile walk contactA; LEFT profile neutral stance; LEFT profile walk contactB; front walk contactA.
+Row2: front neutral stance; front walk contactB; RIGHT profile walk contactA; RIGHT profile neutral stance.
+Row3: RIGHT profile walk contactB; REAR preparing a spell, wand raised and robe lifted slightly; REAR releasing a spell, wand arm extended; FRONT preparing a spell, wand raised.
+Row4: FRONT releasing a spell, one gloved hand extended; LEFT preparing a spell with raised wand; LEFT releasing a spell with wand and arm reaching forward; RIGHT preparing a spell with raised wand.
+Row5: RIGHT releasing a spell; front flinching backward from a hit, surprised open mouth; front triumphantly raising both arms and wand; collapsed sideways in a compact crumpled robe, head/turban/feather still visible.
+Keep all poses faithful to the same character. Do not add magic particles or effects outside the figure. Distinct profile faces must look in the requested direction.

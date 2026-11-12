@@ -1,0 +1,4600 @@
+{
+  "version": 1,
+  "actors": [
+    {
+      "key": "steve",
+      "palette": [
+        "181d22",
+        "8d6249",
+        "c8916b",
+        "efc39a",
+        "d6d8cd",
+        "252c31",
+        "4b565b",
+        "25252a",
+        "f3eee2",
+        "10151b",
+        "5f4b3c",
+        "a29c8b"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/steve/source-v1.png",
+          "columns": 4,
+          "rows": 3,
+          "nativeHeight": 28
+        }
+      ],
+      "sequences": {
+        "idle": {
+          "0": [
+            1
+          ],
+          "1": [
+            0
+          ],
+          "2": [
+            2
+          ],
+          "3": [
+            3
+          ]
+        },
+        "sleep": {
+          "1": [
+            4
+          ]
+        },
+        "laugh": {
+          "1": [
+            5,
+            6
+          ]
+        },
+        "point": {
+          "1": [
+            7
+          ]
+        },
+        "surprise": {
+          "1": [
+            8
+          ]
+        },
+        "eat": {
+          "1": [
+            9,
+            10
+          ]
+        },
+        "hold": {
+          "1": [
+            11
+          ]
+        }
+      }
+    },
+    {
+      "key": "furnace-maw-body",
+      "sourceType": "image-generation",
+      "width": 112,
+      "height": 152,
+      "palette": [
+        "24272c",
+        "39434a",
+        "607477",
+        "99ada5",
+        "d3dfc4",
+        "553a32",
+        "926044",
+        "c4935b",
+        "81312c",
+        "d96032",
+        "ffd777",
+        "fff0c8"
+      ],
+      "directory": "assets/imagegen/furnace-maw/body-draft",
+      "sheets": [
+        {
+          "file": "assets/imagegen/furnace-maw/source-body-native-v1.png",
+          "columns": 1,
+          "rows": 1,
+          "scaleCells": [
+            0
+          ],
+          "nativeHeight": 144,
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 143,
+            "alphaThreshold": 128
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0
+          ]
+        }
+      },
+      "notes": {
+        "derivation": "assets/imagegen/furnace-maw/body-derivation.json",
+        "originalGeneratedSource": "assets/imagegen/furnace-maw/source-body-v1.png",
+        "storage": "Stationary BG190 body plus BG171 edge tiles; not an OBJ frame.",
+        "status": "Inactive draft, exact native source-pixel mirror. Root owns activation."
+      }
+    },
+    {
+      "key": "bread-porter",
+      "sourceType": "image-generation",
+      "width": 32,
+      "height": 32,
+      "palette": [
+        "382b2d",
+        "71452e",
+        "b87744",
+        "e5ad67",
+        "fff0c9",
+        "2f5d58",
+        "5e9280",
+        "b6cbb1",
+        "fff7e5",
+        "8c364b",
+        "da7787",
+        "d9b05f"
+      ],
+      "directory": "assets/imagegen/bakery-civilians/porter-draft",
+      "sheets": [
+        {
+          "file": "assets/imagegen/bakery-civilians/source-porter-base-v1.png",
+          "nativeHeight": 29,
+          "scaleCells": [
+            0,
+            1,
+            2
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 31,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          },
+          "columns": 3,
+          "rows": 4
+        },
+        {
+          "file": "assets/imagegen/bakery-civilians/source-porter-actions-v1.png",
+          "regions": [
+            [
+              0,
+              0,
+              647.5,
+              404.6666666666667
+            ],
+            [
+              647.5,
+              0,
+              647.5,
+              404.6666666666667
+            ],
+            [
+              0,
+              404.6666666666667,
+              647.5,
+              404.6666666666667
+            ],
+            [
+              647.5,
+              404.6666666666667,
+              647.5,
+              404.6666666666667
+            ],
+            [
+              0,
+              809.3333333333334,
+              647.5,
+              404.6666666666667
+            ]
+          ],
+          "cells": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "nativeHeight": 26,
+          "scaleCells": [
+            0
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 31,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            {
+              "frame": 0,
+              "flip": true
+            },
+            1,
+            2,
+            {
+              "frame": 2,
+              "flip": true
+            },
+            {
+              "frame": 3,
+              "flip": true
+            },
+            {
+              "frame": 4,
+              "flip": true
+            },
+            {
+              "frame": 5,
+              "flip": true
+            },
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            {
+              "frame": 9,
+              "flip": true
+            },
+            {
+              "frame": 10,
+              "flip": true
+            },
+            {
+              "frame": 11,
+              "flip": true
+            },
+            12,
+            {
+              "frame": 12,
+              "flip": true
+            },
+            13,
+            {
+              "frame": 13,
+              "flip": true
+            },
+            14,
+            {
+              "frame": 14,
+              "flip": true
+            },
+            15
+          ]
+        }
+      },
+      "semanticRoles": {
+        "native": {
+          "1": {
+            "kind": "source",
+            "reason": "Every original visible slot uses a reviewed generated pose. Original mirrors, dance order and three-step directional gaits plus native idle contact and fallen pose remain explicit; no idle substitution."
+          }
+        }
+      },
+      "notes": {
+        "status": "Inactive draft",
+        "family": "bread-porters",
+        "gfx": 24,
+        "assembly": 12,
+        "animation": 21,
+        "owners": [
+          30,
+          62
+        ],
+        "paletteVariants": [
+          {
+            "palette": 123,
+            "colors": [
+              "382b2d",
+              "71452e",
+              "b87744",
+              "e5ad67",
+              "fff0c9",
+              "2f5d58",
+              "5e9280",
+              "b6cbb1",
+              "fff7e5",
+              "8c364b",
+              "da7787",
+              "d9b05f"
+            ]
+          },
+          {
+            "palette": 124,
+            "colors": [
+              "302932",
+              "674235",
+              "a76d50",
+              "dba57b",
+              "f3ddbb",
+              "55415f",
+              "8b698b",
+              "cbb2c5",
+              "fff2dd",
+              "87454f",
+              "d48a91",
+              "d6b574"
+            ]
+          }
+        ],
+        "nativeCells": 4,
+        "blankFrames": [],
+        "sourcePoses": 16,
+        "frameOffsets": {},
+        "geometry": "Standard nonoverlapping four-cell32×32native group; no compiler proposal required",
+        "sourceCalibration": "Base total including paddle is29px tall; unarmed action calibration body is26px tall",
+        "sourceTransforms": "Back idle/walk source poses are reflected to keep the peel in the same anatomical hand as the front views. Original native side/dance mirror pairs are also reflected.",
+        "unusedSourceArea": "Action calibration cell0 supplies scale only; empty final source cell is excluded from regions."
+      }
+    },
+    {
+      "key": "cinnamon-baker",
+      "sourceType": "image-generation",
+      "width": 32,
+      "height": 32,
+      "palette": [
+        "382b2d",
+        "71452e",
+        "b87744",
+        "e5ad67",
+        "fff0c9",
+        "2f5d58",
+        "5e9280",
+        "b6cbb1",
+        "fff7e5",
+        "8c364b",
+        "da7787",
+        "d9b05f"
+      ],
+      "directory": "assets/imagegen/bakery-civilians/baker-draft",
+      "sheets": [
+        {
+          "file": "assets/imagegen/bakery-civilians/source-baker-base-v1.png",
+          "nativeHeight": 29,
+          "scaleCells": [
+            0,
+            1,
+            2
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 31,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          },
+          "regions": [
+            [
+              0,
+              0,
+              354.5,
+              277.25
+            ],
+            [
+              354.5,
+              0,
+              354.5,
+              277.25
+            ],
+            [
+              709,
+              0,
+              354.5,
+              277.25
+            ],
+            [
+              0,
+              277.25,
+              354.5,
+              277.25
+            ],
+            [
+              354.5,
+              277.25,
+              354.5,
+              277.25
+            ],
+            [
+              709,
+              277.25,
+              354.5,
+              277.25
+            ],
+            [
+              1063.5,
+              277.25,
+              354.5,
+              277.25
+            ],
+            [
+              0,
+              554.5,
+              354.5,
+              277.25
+            ],
+            [
+              354.5,
+              554.5,
+              354.5,
+              277.25
+            ],
+            [
+              709,
+              554.5,
+              354.5,
+              277.25
+            ],
+            [
+              1063.5,
+              554.5,
+              354.5,
+              277.25
+            ],
+            [
+              0,
+              831.75,
+              354.5,
+              277.25
+            ],
+            [
+              354.5,
+              831.75,
+              354.5,
+              277.25
+            ],
+            [
+              709,
+              831.75,
+              354.5,
+              277.25
+            ],
+            [
+              1063.5,
+              831.75,
+              354.5,
+              277.25
+            ]
+          ]
+        },
+        {
+          "file": "assets/imagegen/bakery-civilians/source-baker-actions-v1.png",
+          "regions": [
+            [
+              0,
+              0,
+              709,
+              554.5
+            ],
+            [
+              709,
+              0,
+              709,
+              554.5
+            ],
+            [
+              0,
+              554.5,
+              709,
+              554.5
+            ]
+          ],
+          "cells": [
+            1,
+            2
+          ],
+          "nativeHeight": 29,
+          "scaleCells": [
+            0
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 31,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            1,
+            2,
+            {
+              "frame": 2,
+              "flip": true
+            },
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            {
+              "frame": 11,
+              "flip": true
+            },
+            {
+              "frame": 12,
+              "flip": true
+            },
+            {
+              "frame": 13,
+              "flip": true
+            },
+            {
+              "frame": 14,
+              "flip": true
+            },
+            15,
+            16,
+            {
+              "frame": 16,
+              "flip": true
+            }
+          ]
+        }
+      },
+      "semanticRoles": {
+        "native": {
+          "1": {
+            "kind": "source",
+            "reason": "Every original visible slot uses a reviewed generated pose. Original mirrors, dance order and four-step directional gaits remain explicit; no idle substitution."
+          }
+        }
+      },
+      "notes": {
+        "status": "Inactive draft",
+        "family": "cinnamon-bakers",
+        "gfx": 25,
+        "assembly": 13,
+        "animation": 22,
+        "owners": [
+          31,
+          63
+        ],
+        "paletteVariants": [
+          {
+            "palette": 123,
+            "colors": [
+              "382b2d",
+              "71452e",
+              "b87744",
+              "e5ad67",
+              "fff0c9",
+              "2f5d58",
+              "5e9280",
+              "b6cbb1",
+              "fff7e5",
+              "8c364b",
+              "da7787",
+              "d9b05f"
+            ]
+          },
+          {
+            "palette": 124,
+            "colors": [
+              "302932",
+              "674235",
+              "a76d50",
+              "dba57b",
+              "f3ddbb",
+              "55415f",
+              "8b698b",
+              "cbb2c5",
+              "fff2dd",
+              "87454f",
+              "d48a91",
+              "d6b574"
+            ]
+          }
+        ],
+        "nativeCells": 4,
+        "blankFrames": [],
+        "sourcePoses": 17,
+        "frameOffsets": {},
+        "geometry": "Standard nonoverlapping four-cell32×32native group; no compiler proposal required",
+        "sourceCalibration": "Base and action calibration bodies are29px tall",
+        "sourceTransforms": "Only original native mirror pairs are reflected",
+        "unusedSourceArea": "Action calibration cell0 supplies scale only; empty final source cell is excluded from regions."
+      }
+    },
+    {
+      "key": "crumb-child",
+      "sourceType": "image-generation",
+      "width": 32,
+      "height": 32,
+      "palette": [
+        "382b2d",
+        "71452e",
+        "b87744",
+        "e5ad67",
+        "fff0c9",
+        "2f5d58",
+        "5e9280",
+        "b6cbb1",
+        "fff7e5",
+        "8c364b",
+        "da7787",
+        "d9b05f"
+      ],
+      "directory": "assets/imagegen/bakery-children-elder/child-draft",
+      "sheets": [
+        {
+          "file": "assets/imagegen/bakery-children-elder/source-child-base-v1.png",
+          "regions": [
+            [
+              0,
+              0,
+              472.6666666666667,
+              277.25
+            ],
+            [
+              472.6666666666667,
+              0,
+              472.6666666666667,
+              277.25
+            ],
+            [
+              945.3333333333334,
+              0,
+              472.6666666666667,
+              277.25
+            ],
+            [
+              0,
+              277.25,
+              472.6666666666667,
+              277.25
+            ],
+            [
+              472.6666666666667,
+              277.25,
+              472.6666666666667,
+              277.25
+            ],
+            [
+              945.3333333333334,
+              277.25,
+              472.6666666666667,
+              277.25
+            ],
+            [
+              0,
+              554.5,
+              472.6666666666667,
+              277.25
+            ],
+            [
+              472.6666666666667,
+              554.5,
+              472.6666666666667,
+              277.25
+            ],
+            [
+              945.3333333333334,
+              554.5,
+              472.6666666666667,
+              277.25
+            ],
+            [
+              0,
+              831.75,
+              472.6666666666667,
+              277.25
+            ],
+            [
+              472.6666666666667,
+              831.75,
+              472.6666666666667,
+              277.25
+            ]
+          ],
+          "nativeHeight": 22,
+          "scaleCells": [
+            0,
+            1,
+            2
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 31,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            1,
+            2,
+            {
+              "frame": 2,
+              "flip": true
+            },
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            {
+              "frame": 9,
+              "flip": true
+            },
+            {
+              "frame": 10,
+              "flip": true
+            },
+            {
+              "frame": 0,
+              "dissolve": 11
+            }
+          ]
+        }
+      },
+      "semanticRoles": {
+        "native": {
+          "1": {
+            "kind": "adapted",
+            "reason": "All ordinary visible roles are sampled generated poses with exact native mirror reuse. Original blank uses existing full transparency mask. No idle substitution or added anatomy."
+          }
+        }
+      },
+      "notes": {
+        "status": "Inactive draft",
+        "family": "crumb-children",
+        "gfx": 20,
+        "assembly": 245,
+        "sourceAssembly": 11,
+        "animation": 8,
+        "owners": [
+          32,
+          64
+        ],
+        "paletteVariants": [
+          {
+            "palette": 123,
+            "colors": [
+              "382b2d",
+              "71452e",
+              "b87744",
+              "e5ad67",
+              "fff0c9",
+              "2f5d58",
+              "5e9280",
+              "b6cbb1",
+              "fff7e5",
+              "8c364b",
+              "da7787",
+              "d9b05f"
+            ]
+          },
+          {
+            "palette": 124,
+            "colors": [
+              "302932",
+              "674235",
+              "a76d50",
+              "dba57b",
+              "f3ddbb",
+              "55415f",
+              "8b698b",
+              "cbb2c5",
+              "fff2dd",
+              "87454f",
+              "d48a91",
+              "d6b574"
+            ]
+          }
+        ],
+        "nativeCells": 4,
+        "blankFrames": [
+          14
+        ],
+        "frameOffsets": {},
+        "sourcePoses": 11,
+        "derivedFragments": 0,
+        "headFragment": null,
+        "geometry": "Standard nonoverlapping four-cell 32×32 private assembly; original shared table remains untouched."
+      }
+    },
+    {
+      "key": "brioche-elder",
+      "sourceType": "image-generation",
+      "width": 32,
+      "height": 32,
+      "palette": [
+        "382b2d",
+        "71452e",
+        "b87744",
+        "e5ad67",
+        "fff0c9",
+        "2f5d58",
+        "5e9280",
+        "b6cbb1",
+        "fff7e5",
+        "8c364b",
+        "da7787",
+        "d9b05f"
+      ],
+      "directory": "assets/imagegen/bakery-children-elder/elder-draft",
+      "sheets": [
+        {
+          "file": "assets/imagegen/bakery-children-elder/source-elder-base-v1.png",
+          "regions": [
+            [
+              0,
+              0,
+              354.5,
+              277.25
+            ],
+            [
+              354.5,
+              0,
+              354.5,
+              277.25
+            ],
+            [
+              709,
+              0,
+              354.5,
+              277.25
+            ],
+            [
+              0,
+              277.25,
+              354.5,
+              277.25
+            ],
+            [
+              354.5,
+              277.25,
+              354.5,
+              277.25
+            ],
+            [
+              709,
+              277.25,
+              354.5,
+              277.25
+            ],
+            [
+              1063.5,
+              277.25,
+              354.5,
+              277.25
+            ],
+            [
+              0,
+              554.5,
+              354.5,
+              277.25
+            ],
+            [
+              354.5,
+              554.5,
+              354.5,
+              277.25
+            ],
+            [
+              709,
+              554.5,
+              354.5,
+              277.25
+            ],
+            [
+              1063.5,
+              554.5,
+              354.5,
+              277.25
+            ],
+            [
+              0,
+              831.75,
+              354.5,
+              277.25
+            ],
+            [
+              354.5,
+              831.75,
+              354.5,
+              277.25
+            ]
+          ],
+          "nativeHeight": 29,
+          "scaleCells": [
+            0,
+            1,
+            2
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 31,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        },
+        {
+          "file": "assets/imagegen/bakery-children-elder/derived-elder-head-left.png",
+          "columns": 1,
+          "rows": 1,
+          "scaleCells": [
+            0
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "nativeHeight": 6,
+          "sample": {
+            "method": "nearest",
+            "bottom": 8,
+            "dx": 1,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            1,
+            2,
+            {
+              "frame": 2,
+              "flip": true
+            },
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            {
+              "frame": 11,
+              "flip": true
+            },
+            {
+              "frame": 12,
+              "flip": true
+            },
+            {
+              "frame": 0,
+              "dissolve": 11
+            },
+            13,
+            {
+              "frame": 13,
+              "flip": true
+            }
+          ]
+        }
+      },
+      "semanticRoles": {
+        "native": {
+          "1": {
+            "kind": "adapted",
+            "reason": "All ordinary visible roles are sampled generated poses with exact native mirror reuse. Original blank uses existing full transparency mask; 17/18 are a documented pointwise crop of the same generated left profile. No idle substitution or added anatomy."
+          }
+        }
+      },
+      "notes": {
+        "status": "Inactive draft",
+        "family": "brioche-elder",
+        "gfx": 15,
+        "assembly": 246,
+        "sourceAssembly": 7,
+        "animation": 7,
+        "owners": [
+          33
+        ],
+        "paletteVariants": [
+          {
+            "palette": 123,
+            "colors": [
+              "382b2d",
+              "71452e",
+              "b87744",
+              "e5ad67",
+              "fff0c9",
+              "2f5d58",
+              "5e9280",
+              "b6cbb1",
+              "fff7e5",
+              "8c364b",
+              "da7787",
+              "d9b05f"
+            ]
+          }
+        ],
+        "nativeCells": 4,
+        "blankFrames": [
+          16
+        ],
+        "frameOffsets": {},
+        "sourcePoses": 13,
+        "derivedFragments": 2,
+        "headFragment": "head-fragment-derivation.json",
+        "geometry": "Standard nonoverlapping four-cell 32×32 private assembly; original shared table remains untouched."
+      }
+    },
+    {
+      "key": "bread-drummer",
+      "sourceType": "image-generation",
+      "width": 32,
+      "height": 32,
+      "palette": [
+        "382b2d",
+        "71452e",
+        "b87744",
+        "e5ad67",
+        "fff0c9",
+        "2f5d58",
+        "5e9280",
+        "b6cbb1",
+        "fff7e5",
+        "8c364b",
+        "da7787",
+        "d9b05f"
+      ],
+      "directory": "assets/imagegen/bakery-feast/drummer-draft",
+      "sheets": [
+        {
+          "file": "assets/imagegen/bakery-feast/source-drummer-v1.png",
+          "columns": 2,
+          "rows": 1,
+          "nativeHeight": 31,
+          "scaleCells": [
+            0,
+            1
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 31,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            1
+          ]
+        }
+      },
+      "semanticRoles": {
+        "native": {
+          "1": {
+            "kind": "source",
+            "reason": "Two actual generated alternate strike poses, preserving original loop order."
+          }
+        }
+      },
+      "notes": {
+        "status": "Inactive draft",
+        "family": "bakery-drummer",
+        "gfx": 52,
+        "assembly": 94,
+        "animation": 63,
+        "owners": [
+          122
+        ],
+        "paletteVariants": [
+          {
+            "palette": 123,
+            "colors": [
+              "382b2d",
+              "71452e",
+              "b87744",
+              "e5ad67",
+              "fff0c9",
+              "2f5d58",
+              "5e9280",
+              "b6cbb1",
+              "fff7e5",
+              "8c364b",
+              "da7787",
+              "d9b05f"
+            ]
+          }
+        ],
+        "sourcePalette": 174,
+        "nativeCells": 4,
+        "blankFrames": [],
+        "frameOffsets": {},
+        "anchor": [
+          0,
+          0
+        ],
+        "sourcePoses": 2,
+        "geometry": "Existing32×32four-cell geometry with unchanged project anchor and per-frame offsets."
+      }
+    },
+    {
+      "key": "bun-percussionist",
+      "sourceType": "image-generation",
+      "width": 32,
+      "height": 32,
+      "palette": [
+        "382b2d",
+        "71452e",
+        "b87744",
+        "e5ad67",
+        "fff0c9",
+        "2f5d58",
+        "5e9280",
+        "b6cbb1",
+        "fff7e5",
+        "8c364b",
+        "da7787",
+        "d9b05f"
+      ],
+      "directory": "assets/imagegen/bakery-feast/percussionist-draft",
+      "sheets": [
+        {
+          "file": "assets/imagegen/bakery-feast/source-percussionist-v1.png",
+          "columns": 2,
+          "rows": 1,
+          "nativeHeight": 28,
+          "scaleCells": [
+            0,
+            1
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 31,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            1
+          ]
+        }
+      },
+      "semanticRoles": {
+        "native": {
+          "1": {
+            "kind": "source",
+            "reason": "Two actual generated alternate strike poses, preserving original loop order."
+          }
+        }
+      },
+      "notes": {
+        "status": "Inactive draft",
+        "family": "bakery-log-drummer",
+        "gfx": 53,
+        "assembly": 95,
+        "animation": 63,
+        "owners": [
+          123
+        ],
+        "paletteVariants": [
+          {
+            "palette": 123,
+            "colors": [
+              "382b2d",
+              "71452e",
+              "b87744",
+              "e5ad67",
+              "fff0c9",
+              "2f5d58",
+              "5e9280",
+              "b6cbb1",
+              "fff7e5",
+              "8c364b",
+              "da7787",
+              "d9b05f"
+            ]
+          }
+        ],
+        "sourcePalette": 174,
+        "nativeCells": 4,
+        "blankFrames": [],
+        "frameOffsets": {},
+        "anchor": [
+          0,
+          0
+        ],
+        "sourcePoses": 2,
+        "geometry": "Existing32×32four-cell geometry with unchanged project anchor and per-frame offsets."
+      }
+    },
+    {
+      "key": "onion-bread-plate",
+      "sourceType": "image-generation",
+      "width": 32,
+      "height": 32,
+      "palette": [
+        "382b2d",
+        "71452e",
+        "b87744",
+        "e5ad67",
+        "fff0c9",
+        "2f5d58",
+        "5e9280",
+        "b6cbb1",
+        "fff7e5",
+        "8c364b",
+        "da7787",
+        "d9b05f"
+      ],
+      "directory": "assets/imagegen/bakery-feast/platter-draft",
+      "sheets": [
+        {
+          "file": "assets/imagegen/bakery-feast/source-platter-v1.png",
+          "columns": 2,
+          "rows": 2,
+          "nativeHeight": 13,
+          "scaleCells": [
+            0
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 31,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            0,
+            1,
+            2,
+            1,
+            2,
+            3,
+            3
+          ]
+        }
+      },
+      "semanticRoles": {
+        "native": {
+          "1": {
+            "kind": "adapted",
+            "reason": "Four actual generated views fill eight native slots using the original repeated low/high/level roles and existing project eaten-state pair. Native anchors and timing stay in the family geometry."
+          }
+        }
+      },
+      "notes": {
+        "status": "Inactive draft",
+        "family": "onion-bread-plates",
+        "gfx": 191,
+        "assembly": 187,
+        "animation": 150,
+        "owners": [
+          94
+        ],
+        "paletteVariants": [
+          {
+            "palette": 123,
+            "colors": [
+              "382b2d",
+              "71452e",
+              "b87744",
+              "e5ad67",
+              "fff0c9",
+              "2f5d58",
+              "5e9280",
+              "b6cbb1",
+              "fff7e5",
+              "8c364b",
+              "da7787",
+              "d9b05f"
+            ]
+          }
+        ],
+        "sourcePalette": 5,
+        "nativeCells": 4,
+        "blankFrames": [],
+        "frameOffsets": {
+          "2": [
+            0,
+            -9
+          ],
+          "3": [
+            0,
+            -28
+          ],
+          "4": [
+            0,
+            -14
+          ],
+          "5": [
+            0,
+            -30
+          ],
+          "6": [
+            0,
+            -5
+          ],
+          "7": [
+            0,
+            -5
+          ]
+        },
+        "anchor": [
+          0,
+          8
+        ],
+        "sourcePoses": 4,
+        "geometry": "Existing32×32four-cell geometry with unchanged project anchor and per-frame offsets."
+      }
+    },
+    {
+      "key": "supply-keeper",
+      "sourceType": "image-generation",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "29282e",
+        "514038",
+        "765638",
+        "a87d49",
+        "d6b67e",
+        "f4dfae",
+        "2e4241",
+        "50675d",
+        "8d9b79",
+        "644151",
+        "ab6263",
+        "d6efb4"
+      ],
+      "directory": "assets/imagegen/supply-keeper/draft",
+      "sheets": [
+        {
+          "file": "assets/imagegen/supply-keeper/source-overlay-native-0.png",
+          "columns": 1,
+          "rows": 1,
+          "scaleCells": [
+            0
+          ],
+          "nativeHeight": 49,
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 56,
+            "alphaThreshold": 128
+          }
+        },
+        {
+          "file": "assets/imagegen/supply-keeper/source-overlay-native-1.png",
+          "columns": 1,
+          "rows": 1,
+          "scaleCells": [
+            0
+          ],
+          "nativeHeight": 53,
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 60,
+            "alphaThreshold": 128
+          }
+        },
+        {
+          "file": "assets/imagegen/supply-keeper/source-overlay-native-2.png",
+          "columns": 1,
+          "rows": 1,
+          "scaleCells": [
+            0
+          ],
+          "nativeHeight": 56,
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 63,
+            "alphaThreshold": 128
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "notes": {
+        "blankNativeFrames": [
+          3
+        ],
+        "derivation": "assets/imagegen/supply-keeper/overlay-derivation.json",
+        "status": "Inactive source-derived overlays; original blank native3 is returned explicitly by the proposed runtime wrapper."
+      }
+    },
+    {
+      "key": "supply-keeper-body",
+      "sourceType": "image-generation",
+      "width": 128,
+      "height": 176,
+      "palette": [
+        "29282e",
+        "514038",
+        "765638",
+        "a87d49",
+        "d6b67e",
+        "f4dfae",
+        "2e4241",
+        "50675d",
+        "8d9b79",
+        "644151",
+        "ab6263",
+        "d6efb4"
+      ],
+      "directory": "assets/imagegen/supply-keeper/body-draft",
+      "sheets": [
+        {
+          "file": "assets/imagegen/supply-keeper/source-body-native-v2.png",
+          "columns": 1,
+          "rows": 1,
+          "scaleCells": [
+            0
+          ],
+          "nativeHeight": 176,
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 175,
+            "alphaThreshold": 128
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0
+          ]
+        }
+      },
+      "notes": {
+        "derivation": "assets/imagegen/supply-keeper/body-derivation.json",
+        "storage": "Original BG186 owned tiles, mirrored and repeated by unchanged maps123/20.",
+        "status": "Inactive source-derived draft; root owns activation."
+      }
+    },
+    {
+      "key": "future-mites",
+      "sourceType": "image-generation",
+      "directory": "assets/imagegen/future-mites-bells/mite",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "252a31",
+        "4b4140",
+        "806044",
+        "bb925b",
+        "edd4a0",
+        "f8ebc4",
+        "35494c",
+        "567a79",
+        "98b6ab",
+        "694a51",
+        "bd655b",
+        "d6efb4"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/future-mites-bells/source-mite-v1.png",
+          "columns": 3,
+          "rows": 3,
+          "nativeHeight": 22,
+          "scaleCells": [
+            2,
+            4
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 59,
+            "scaleX": 0.9
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            4,
+            5,
+            5,
+            6
+          ]
+        }
+      },
+      "notes": {
+        "status": "Inactive complete source/native mapping",
+        "native": "Original IDs, four-cell budget and programs preserved. Current palette packets unchanged.",
+        "unusedSourceFrames": [
+          7,
+          8
+        ],
+        "duplicates": [
+          [
+            2,
+            4
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "geometry": "Preserve original per-slot lowest opaque pixel and horizontal center; narrow extension6/7/8 is source-authored."
+      }
+    },
+    {
+      "key": "future-bells",
+      "sourceType": "image-generation",
+      "directory": "assets/imagegen/future-mites-bells/bell",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "252a31",
+        "4b4140",
+        "806044",
+        "bb925b",
+        "edd4a0",
+        "f8ebc4",
+        "35494c",
+        "567a79",
+        "98b6ab",
+        "694a51",
+        "bd655b",
+        "d6efb4"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/future-mites-bells/source-bell-v1.png",
+          "columns": 3,
+          "rows": 2,
+          "nativeHeight": 30,
+          "scaleCells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 62,
+            "scaleX": 1
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "notes": {
+        "status": "Inactive complete source/native mapping",
+        "native": "Original IDs, four-cell budget and programs preserved. Current palette packets unchanged.",
+        "unusedSourceFrames": [
+          5
+        ],
+        "duplicates": [],
+        "geometry": "Keep floating anchor[0,-10] and exact five frame offsets[0,-1,-2,+1,+2]."
+      }
+    },
+    {
+      "key": "sewer-pods",
+      "sourceType": "image-generation",
+      "directory": "assets/imagegen/future-sewer-creatures/pods",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "282b28",
+        "3f4432",
+        "69704b",
+        "9ba56a",
+        "d4d898",
+        "503b42",
+        "885267",
+        "c28691",
+        "2b4847",
+        "5d8580",
+        "e3b865",
+        "fbebc8"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/future-sewer-creatures/source-pods-v1.png",
+          "columns": 4,
+          "rows": 3,
+          "nativeHeight": 30,
+          "scaleCells": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            11
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 59
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            {
+              "frame": 8,
+              "flip": true
+            },
+            {
+              "frame": 9,
+              "flip": true
+            },
+            {
+              "frame": 9,
+              "flip": true
+            },
+            9
+          ]
+        }
+      },
+      "notes": {
+        "status": "Inactive complete source/native mapping",
+        "native": "Original IDs, four-cell budget, full size bytes and programs preserved. Current palette packets unchanged.",
+        "unusedSourceFrames": [
+          10,
+          11
+        ],
+        "sourceMirrors": [
+          [
+            8,
+            10
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "translatedSourceDuplicates": [
+          [
+            11,
+            12
+          ],
+          [
+            9,
+            13
+          ]
+        ],
+        "geometry": "Preserve original per-slot lowest opaque pixel and horizontal center; all role silhouettes are generated source poses. Bat sizebyte64/flying flag stays unchanged."
+      }
+    },
+    {
+      "key": "lantern-bats",
+      "sourceType": "image-generation",
+      "directory": "assets/imagegen/future-sewer-creatures/bats",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "282837",
+        "44364d",
+        "735376",
+        "aa829f",
+        "e2b7c4",
+        "4b382c",
+        "805738",
+        "ba8952",
+        "34434d",
+        "688491",
+        "e6ac54",
+        "fff0b8"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/future-sewer-creatures/source-bats-v1.png",
+          "columns": 3,
+          "rows": 3,
+          "nativeHeight": 21,
+          "scaleCells": [
+            0,
+            1
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 59
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      "notes": {
+        "status": "Inactive complete source/native mapping",
+        "native": "Original IDs, four-cell budget, full size bytes and programs preserved. Current palette packets unchanged.",
+        "unusedSourceFrames": [
+          7,
+          8
+        ],
+        "sourceMirrors": [],
+        "translatedSourceDuplicates": [],
+        "geometry": "Preserve original per-slot lowest opaque pixel and horizontal center; all role silhouettes are generated source poses. Bat sizebyte64/flying flag stays unchanged."
+      }
+    },
+    {
+      "key": "warden",
+      "sourceType": "image-generation",
+      "directory": "assets/imagegen/bone-warden/upper-draft-area",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "24252b",
+        "fff1d2",
+        "dccda5",
+        "75d578",
+        "ad9773",
+        "806748",
+        "668958",
+        "584a3d",
+        "3f5745",
+        "38343a",
+        "cfa250",
+        "f4d77d"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/bone-warden/source-upper-movement-v1.png",
+          "columns": 2,
+          "rows": 3,
+          "nativeHeight": 47,
+          "scaleCells": [
+            0,
+            2,
+            4
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "area",
+            "bottom": 63,
+            "alphaThreshold": 128
+          }
+        },
+        {
+          "file": "assets/imagegen/bone-warden/source-upper-actions-v1.png",
+          "columns": 4,
+          "rows": 2,
+          "nativeHeight": 47,
+          "scaleCells": [
+            4,
+            5
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "area",
+            "bottom": 63,
+            "alphaThreshold": 128
+          }
+        },
+        {
+          "file": "assets/imagegen/bone-warden/source-upper-actions-v2.png",
+          "columns": 4,
+          "rows": 2,
+          "nativeHeight": 47,
+          "scaleCells": [
+            4,
+            5
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "area",
+            "bottom": 63,
+            "alphaThreshold": 128
+          },
+          "cells": [
+            5
+          ]
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            2,
+            4,
+            1,
+            3,
+            5,
+            {
+              "frame": 1,
+              "flip": true
+            },
+            {
+              "frame": 3,
+              "flip": true
+            },
+            {
+              "frame": 5,
+              "flip": true
+            },
+            6,
+            7,
+            8,
+            9,
+            {
+              "frame": 8,
+              "flip": true
+            },
+            {
+              "frame": 9,
+              "flip": true
+            },
+            10,
+            14,
+            12,
+            13,
+            {
+              "frame": 12,
+              "flip": true
+            },
+            {
+              "frame": 13,
+              "flip": true
+            }
+          ]
+        }
+      },
+      "notes": {
+        "status": "Inactive complete source candidate; all native source frames, geometry and exact tile reproduction complete; root approved area-sampled art. Native scene proof and freeze are recorded separately.",
+        "nativeFrames": 21,
+        "sourcePixelsOnly": true,
+        "wholeSourceMirrors": [
+          6,
+          7,
+          8,
+          13,
+          14,
+          19,
+          20
+        ],
+        "originalProgramsUnchanged": true,
+        "chosenSampling": "area",
+        "horizontalSampling": 1,
+        "reason": "AREA appearance approved by root after native-size compound comparison; preserves distinct palms and all full-source anatomy.",
+        "sourceRoles": "assets/imagegen/bone-warden/native-roles.json",
+        "geometry": "assets/imagegen/bone-warden/upper-draft-area/family.json",
+        "originalRootSeparation": {
+          "bridge": 32,
+          "echo": 39
+        },
+        "paletteUnchanged": true,
+        "cellOverlapFrames": [
+          9,
+          18,
+          20
+        ]
+      }
+    },
+    {
+      "key": "warden-legs",
+      "sourceType": "image-generation",
+      "directory": "assets/imagegen/bone-warden/legs-draft-area",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "24252b",
+        "fff1d2",
+        "dccda5",
+        "75d578",
+        "ad9773",
+        "806748",
+        "668958",
+        "584a3d",
+        "3f5745",
+        "38343a",
+        "cfa250",
+        "f4d77d"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/bone-warden/source-legs-v1.png",
+          "columns": 3,
+          "rows": 3,
+          "nativeHeight": 47,
+          "scaleCells": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "area",
+            "bottom": 63,
+            "alphaThreshold": 128,
+            "scaleX": 0.85
+          }
+        },
+        {
+          "file": "assets/imagegen/bone-warden/source-legs-v2.png",
+          "columns": 3,
+          "rows": 3,
+          "nativeHeight": 47,
+          "scaleCells": [
+            0,
+            2
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "area",
+            "bottom": 63,
+            "alphaThreshold": 128,
+            "scaleX": 0.85
+          },
+          "cells": [
+            1,
+            3,
+            4,
+            6
+          ]
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            9,
+            2,
+            10,
+            11,
+            5,
+            {
+              "frame": 5,
+              "flip": true
+            },
+            12,
+            7,
+            8
+          ]
+        }
+      },
+      "notes": {
+        "status": "Inactive complete source candidate; all native source frames, geometry and exact tile reproduction complete; root approved area-sampled art. Native scene proof and freeze are recorded separately.",
+        "nativeFrames": 10,
+        "sourcePixelsOnly": true,
+        "wholeSourceMirrors": [
+          6
+        ],
+        "originalProgramsUnchanged": true,
+        "chosenSampling": "area",
+        "horizontalSampling": 0.85,
+        "reason": "AREA appearance approved by root after native-size compound comparison; preserves distinct palms and all full-source anatomy.",
+        "sourceRoles": "assets/imagegen/bone-warden/native-roles.json",
+        "geometry": "assets/imagegen/bone-warden/legs-draft-area/family.json",
+        "originalRootSeparation": {
+          "bridge": 32,
+          "echo": 39
+        },
+        "paletteUnchanged": true,
+        "cellOverlapFrames": []
+      }
+    },
+    {
+      "key": "rumpelstiltskin",
+      "sourceType": "image-generation",
+      "width": 64,
+      "height": 80,
+      "palette": [
+        "312108",
+        "ffffff",
+        "e7dea5",
+        "dea563",
+        "ffb500",
+        "d67b31",
+        "738c7b",
+        "9c6b31",
+        "a53929",
+        "10425a",
+        "524200",
+        "4a2129"
+      ],
+      "directory": "assets/imagegen/rumpelstiltskin-wishworks/active-rumpelstiltskin",
+      "sheets": [
+        {
+          "file": "assets/imagegen/rumpelstiltskin-wishworks/rumpel-base-source-v1.png",
+          "columns": 4,
+          "rows": 3,
+          "nativeHeight": 27,
+          "scaleCells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 63,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        },
+        {
+          "file": "assets/imagegen/rumpelstiltskin-wishworks/rumpel-actions-source-v1.png",
+          "columns": 4,
+          "rows": 4,
+          "nativeHeight": 27,
+          "scaleCells": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            9,
+            10,
+            12
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 63,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        },
+        {
+          "file": "assets/imagegen/rumpelstiltskin-wishworks/rumpel-contact-b-source-v3.png",
+          "columns": 1,
+          "rows": 1,
+          "nativeHeight": 27,
+          "scaleCells": [
+            0
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 63,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            {
+              "frame": 1,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 0,
+              "dx": -1,
+              "dy": 1
+            },
+            {
+              "frame": 2,
+              "dx": 1,
+              "dy": 1
+            },
+            {
+              "frame": 4,
+              "dx": -1,
+              "dy": 0
+            },
+            {
+              "frame": 3,
+              "dx": -1,
+              "dy": 1
+            },
+            {
+              "frame": 3,
+              "flip": true,
+              "dx": -1,
+              "dy": 1
+            },
+            {
+              "frame": 7,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 6,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 28,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 7,
+              "flip": true,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 6,
+              "flip": true,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 28,
+              "flip": true,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 12,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 13,
+              "dx": 3,
+              "dy": 0
+            },
+            {
+              "frame": 14,
+              "dx": -1,
+              "dy": 0
+            },
+            {
+              "frame": 15,
+              "dx": 0,
+              "dy": -16
+            },
+            {
+              "frame": 16,
+              "dx": 3,
+              "dy": -16
+            },
+            {
+              "frame": 17,
+              "dx": -1,
+              "dy": 0
+            },
+            {
+              "frame": 18,
+              "dx": -1,
+              "dy": 0
+            },
+            {
+              "frame": 19,
+              "dx": -1,
+              "dy": 0
+            },
+            {
+              "frame": 20,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 21,
+              "dx": -1,
+              "dy": 0
+            },
+            {
+              "frame": 22,
+              "dx": -1,
+              "dy": 0
+            },
+            {
+              "frame": 23,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 24,
+              "dx": -5,
+              "dy": 0
+            },
+            {
+              "frame": 25,
+              "dx": -4,
+              "dy": 0
+            },
+            {
+              "frame": 26,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 27,
+              "dx": 0,
+              "dy": -16
+            }
+          ]
+        }
+      },
+      "semanticRoles": {
+        "native": {
+          "1": {
+            "kind": "adapted",
+            "reason": "Generated Rumpelstiltskin anatomy/acting replaces all original 28 Dalton poses. Front contact B mirrors front contact A to oppose the lead foot; a separately generated left contact B replaces the first sheet’s repeated contact. Right profiles mirror the complete left roles. Native directions, roles and timings are preserved."
+          }
+        }
+      },
+      "notes": {
+        "status": "Accepted native source",
+        "frozenSource": "assets/imagegen/rumpelstiltskin-wishworks/freeze.json"
+      }
+    },
+    {
+      "key": "wishworks-golems",
+      "sourceType": "image-generation",
+      "width": 96,
+      "height": 112,
+      "palette": [
+        "292910",
+        "ffffff",
+        "bdd6d6",
+        "637bb5",
+        "bdd6ff",
+        "f7e784",
+        "ce9c42",
+        "848c6b",
+        "944a52",
+        "8c6308",
+        "525a6b",
+        "393929"
+      ],
+      "directory": "assets/imagegen/rumpelstiltskin-wishworks/active-wishworks-golems",
+      "sheets": [
+        {
+          "file": "assets/imagegen/rumpelstiltskin-wishworks/golems-source-v1.png",
+          "columns": 4,
+          "rows": 2,
+          "nativeHeight": 52,
+          "scaleCells": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 95,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        },
+        {
+          "file": "assets/imagegen/rumpelstiltskin-wishworks/golem-reaction-source-v2.png",
+          "columns": 1,
+          "rows": 1,
+          "nativeHeight": 60,
+          "scaleCells": [
+            0
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 95,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            {
+              "frame": 0,
+              "dx": 1,
+              "dy": -18
+            },
+            {
+              "frame": 1,
+              "dx": 1,
+              "dy": -16
+            },
+            {
+              "frame": 2,
+              "dx": 1,
+              "dy": -14
+            },
+            {
+              "frame": 8,
+              "dx": 1,
+              "dy": -20
+            },
+            {
+              "frame": 4,
+              "dx": 0,
+              "dy": -15
+            },
+            {
+              "frame": 5,
+              "dx": 0,
+              "dy": -14
+            },
+            {
+              "frame": 6,
+              "dx": 1,
+              "dy": -16
+            },
+            {
+              "frame": 7,
+              "dx": 1,
+              "dy": -16
+            }
+          ]
+        }
+      },
+      "semanticRoles": {
+        "native": {
+          "1": {
+            "kind": "adapted",
+            "reason": "Generated wishworks construct in eight original frontal hover, reaction, jaw and arm-release roles; native four facings intentionally share these views."
+          }
+        }
+      },
+      "notes": {
+        "status": "Accepted native source",
+        "frozenSource": "assets/imagegen/rumpelstiltskin-wishworks/freeze.json"
+      }
+    },
+    {
+      "key": "godmother-giant-face",
+      "directory": "assets/imagegen/godmother-giant/active-face",
+      "sourceType": "image-generation",
+      "width": 128,
+      "height": 128,
+      "palette": [
+        "29283a",
+        "aa776b",
+        "dfb0a0",
+        "f6d5bd",
+        "f5e7d6",
+        "3a538b",
+        "678ac6",
+        "535369",
+        "fff5e6",
+        "9297b0",
+        "cbd0e2",
+        "e4bb68"
+      ],
+      "samplingPalette": [
+        "100820",
+        "cd7b58",
+        "f8b888",
+        "ffdab8",
+        "f5e7d6",
+        "254a8b",
+        "6796db",
+        "535369",
+        "fff5e6",
+        "9297b0",
+        "cbd0e2",
+        "ffce36"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/godmother-giant/source-face-v1.png",
+          "columns": 2,
+          "rows": 1,
+          "nativeHeight": 53,
+          "scaleCells": [
+            0
+          ],
+          "componentAlpha": 128,
+          "sample": {
+            "method": "nearest",
+            "alphaThreshold": 128,
+            "bottom": 126
+          },
+          "overrides": {
+            "0": {
+              "scale": 1
+            },
+            "1": {
+              "scale": 1
+            }
+          }
+        }
+      ],
+      "sequences": {
+        "source": {
+          "1": [
+            0,
+            1
+          ]
+        }
+      },
+      "notes": {
+        "status": "Accepted native source",
+        "frozenSource": "assets/imagegen/godmother-giant/freeze.json"
+      },
+      "nativeComposer": "godmother-giant"
+    },
+    {
+      "key": "godmother-giant-hands",
+      "directory": "assets/imagegen/godmother-giant/active-hands",
+      "sourceType": "image-generation",
+      "width": 64,
+      "height": 192,
+      "palette": [
+        "29283a",
+        "aa776b",
+        "dfb0a0",
+        "f6d5bd",
+        "f5e7d6",
+        "3a538b",
+        "678ac6",
+        "535369",
+        "fff5e6",
+        "9297b0",
+        "cbd0e2",
+        "e4bb68"
+      ],
+      "samplingPalette": [
+        "100820",
+        "cd7b58",
+        "f8b888",
+        "ffdab8",
+        "f5e7d6",
+        "254a8b",
+        "6796db",
+        "535369",
+        "fff5e6",
+        "9297b0",
+        "cbd0e2",
+        "ffce36"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/godmother-giant/source-hands-v1.png",
+          "columns": 2,
+          "rows": 4,
+          "nativeHeight": 80,
+          "scaleCells": [
+            0
+          ],
+          "componentAlpha": 128,
+          "sample": {
+            "method": "nearest",
+            "alphaThreshold": 128,
+            "bottom": 190
+          },
+          "overrides": {
+            "0": {
+              "scale": 1
+            },
+            "1": {
+              "scale": 0.9657516891891891
+            },
+            "2": {
+              "scale": 0.9109375
+            },
+            "3": {
+              "scale": 0.7988556338028169
+            },
+            "4": {
+              "scale": 0.7784926470588235
+            },
+            "5": {
+              "scale": 0.75625
+            },
+            "6": {
+              "scale": 0.5872058823529412
+            },
+            "7": {
+              "scale": 1.1774525316455695
+            }
+          }
+        },
+        {
+          "file": "assets/imagegen/godmother-giant/source-hands-narrow-v2.png",
+          "columns": 2,
+          "rows": 1,
+          "nativeHeight": 80,
+          "scaleCells": [
+            0
+          ],
+          "componentAlpha": 128,
+          "sample": {
+            "method": "nearest",
+            "alphaThreshold": 128,
+            "bottom": 190
+          },
+          "overrides": {
+            "0": {
+              "scale": 1
+            },
+            "1": {
+              "scale": 1.2413243626062325
+            }
+          }
+        },
+        {
+          "file": "assets/imagegen/godmother-giant/source-streak-v3.png",
+          "columns": 1,
+          "rows": 1,
+          "nativeHeight": 123,
+          "scaleCells": [
+            0
+          ],
+          "componentAlpha": 128,
+          "sample": {
+            "method": "nearest",
+            "alphaThreshold": 128,
+            "bottom": 190
+          },
+          "overrides": {
+            "0": {
+              "scale": 0.9999999999999999
+            }
+          }
+        }
+      ],
+      "sequences": {
+        "source": {
+          "1": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      },
+      "notes": {
+        "status": "Accepted native source",
+        "frozenSource": "assets/imagegen/godmother-giant/freeze.json"
+      },
+      "nativeComposer": "godmother-giant"
+    },
+    {
+      "key": "cosmic-muffin-interior-arms",
+      "sourceType": "image-generation",
+      "width": 128,
+      "height": 128,
+      "palette": [
+        "211b22",
+        "fff5d2",
+        "f5c783",
+        "e3b65c",
+        "ce8c55",
+        "975535",
+        "593426",
+        "4a221b",
+        "362127",
+        "751b30",
+        "180f16",
+        "e77520"
+      ],
+      "directory": "assets/imagegen/cosmic-muffin-interior/active-arms",
+      "sheets": [
+        {
+          "file": "assets/imagegen/cosmic-muffin-interior/source-arm-base-v2.png",
+          "columns": 3,
+          "rows": 2,
+          "scaleCells": [
+            0
+          ],
+          "nativeHeight": 92,
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "scaleX": 0.9,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          },
+          "overrides": {
+            "0": {
+              "scale": 0.9021739130434783,
+              "bottom": 98,
+              "dx": 7
+            },
+            "1": {
+              "scale": 0.7159270105879701,
+              "bottom": 70,
+              "dx": -5
+            },
+            "2": {
+              "scale": 0.5238037405878067,
+              "bottom": 55,
+              "dx": -25
+            },
+            "3": {
+              "scale": 0.7104057225885773,
+              "bottom": 70,
+              "dx": -18
+            },
+            "4": {
+              "scale": 0.7104057225885773,
+              "bottom": 70,
+              "dx": -18
+            },
+            "5": {
+              "scale": 0.7738636363636364,
+              "bottom": 82,
+              "dx": 6
+            }
+          }
+        },
+        {
+          "file": "assets/imagegen/cosmic-muffin-interior/source-arm-actions-v1.png",
+          "columns": 3,
+          "rows": 2,
+          "scaleCells": [
+            0
+          ],
+          "nativeHeight": 53,
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "scaleX": 0.9,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          },
+          "overrides": {
+            "0": {
+              "scale": 0.9056603773584906,
+              "bottom": 61,
+              "dx": -5
+            },
+            "1": {
+              "scale": 1.1209605488850773,
+              "bottom": 99,
+              "dx": -11
+            },
+            "2": {
+              "scale": 1.0821238509917754,
+              "bottom": 84,
+              "dx": -10
+            },
+            "3": {
+              "scale": 1.143837294780691,
+              "bottom": 63,
+              "dx": 4
+            },
+            "4": {
+              "scale": 1.1255651335222134,
+              "bottom": 63,
+              "dx": 7
+            },
+            "5": {
+              "scale": 1.0975136660201021,
+              "bottom": 63,
+              "dx": 10
+            }
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      },
+      "notes": {
+        "status": "Accepted source",
+        "frozenSource": "assets/imagegen/cosmic-muffin-interior/freeze.json"
+      }
+    },
+    {
+      "key": "tyson-reveal",
+      "sourceType": "user-supplied-game-sheet",
+      "directory": "assets/raster/tyson-reveal/active",
+      "width": 96,
+      "height": 128,
+      "palette": [
+        "211b22",
+        "593426",
+        "975535",
+        "ce8c55",
+        "751b30",
+        "cf3541",
+        "f3dfba",
+        "252735",
+        "4b5272",
+        "e3b65c",
+        "f5c783",
+        "fff5d2"
+      ],
+      "samplingPalette": [
+        "000000",
+        "3a2308",
+        "735005",
+        "ce8c55",
+        "751b30",
+        "923404",
+        "ffffff",
+        "174417",
+        "4b5272",
+        "e3b65c",
+        "f5c783",
+        "fff5d2"
+      ],
+      "sheets": [
+        {
+          "file": "assets/raster/tyson/source-user-32931.png",
+          "regions": [
+            [
+              9,
+              8,
+              41,
+              108
+            ],
+            [
+              61,
+              8,
+              41,
+              108
+            ],
+            [
+              113,
+              8,
+              39,
+              105
+            ],
+            [
+              165,
+              8,
+              39,
+              109
+            ],
+            [
+              217,
+              8,
+              40,
+              109
+            ],
+            [
+              269,
+              8,
+              40,
+              105
+            ],
+            [
+              317,
+              8,
+              45,
+              108
+            ],
+            [
+              369,
+              8,
+              43,
+              105
+            ],
+            [
+              421,
+              8,
+              43,
+              109
+            ],
+            [
+              477,
+              8,
+              41,
+              108
+            ],
+            [
+              529,
+              8,
+              39,
+              109
+            ],
+            [
+              575,
+              7,
+              50,
+              110
+            ],
+            [
+              626,
+              7,
+              48,
+              110
+            ],
+            [
+              675,
+              7,
+              48,
+              110
+            ],
+            [
+              5,
+              137,
+              45,
+              108
+            ],
+            [
+              53,
+              146,
+              41,
+              104
+            ],
+            [
+              104,
+              137,
+              39,
+              109
+            ],
+            [
+              156,
+              137,
+              41,
+              108
+            ],
+            [
+              208,
+              137,
+              39,
+              109
+            ],
+            [
+              260,
+              137,
+              41,
+              108
+            ],
+            [
+              305,
+              140,
+              53,
+              106
+            ],
+            [
+              365,
+              142,
+              36,
+              108
+            ],
+            [
+              403,
+              148,
+              45,
+              106
+            ],
+            [
+              455,
+              164,
+              44,
+              88
+            ],
+            [
+              501,
+              148,
+              47,
+              96
+            ],
+            [
+              550,
+              130,
+              47,
+              120
+            ],
+            [
+              2,
+              275,
+              40,
+              100
+            ],
+            [
+              44,
+              272,
+              42,
+              99
+            ],
+            [
+              90,
+              279,
+              53,
+              96
+            ],
+            [
+              149,
+              273,
+              51,
+              106
+            ],
+            [
+              206,
+              273,
+              51,
+              106
+            ],
+            [
+              273,
+              273,
+              55,
+              106
+            ],
+            [
+              334,
+              278,
+              60,
+              101
+            ],
+            [
+              402,
+              278,
+              51,
+              103
+            ],
+            [
+              461,
+              295,
+              58,
+              75
+            ],
+            [
+              524,
+              299,
+              48,
+              72
+            ]
+          ],
+          "chromaKey": [
+            "34c28e"
+          ],
+          "nativeHeight": 57,
+          "scaleCells": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "sample": {
+            "method": "area",
+            "scaleX": 1.4
+          },
+          "cells": [
+            23,
+            24,
+            6,
+            0,
+            11,
+            25,
+            1,
+            2
+          ],
+          "overrides": {
+            "0": {
+              "bottom": 81
+            },
+            "1": {
+              "bottom": 81
+            },
+            "2": {
+              "bottom": 81
+            },
+            "6": {
+              "bottom": 81
+            },
+            "11": {
+              "bottom": 78
+            },
+            "23": {
+              "bottom": 82
+            },
+            "24": {
+              "bottom": 82
+            },
+            "25": {
+              "bottom": 78
+            }
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      "semanticRoles": {
+        "native": {
+          "1": {
+            "kind": "adapted",
+            "reason": "Native reveal0..7 reuse approved Tyson crouch/rise/guard/glove/weight-shift rasters, preserving original native animation187 slots and unchanged feet/actor anchors. The original humanoid arms-down/arms-raised gestures become boxing glove challenges; idle light changes become distinct approved weight shifts. See draft-frame-map.json for source-cell correspondence."
+          }
+        }
+      },
+      "notes": {
+        "status": "Accepted source",
+        "frozenSource": "assets/raster/tyson-reveal/freeze.json"
+      }
+    },
+    {
+      "key": "native-guard",
+      "sourceType": "image-generation",
+      "directory": "assets/imagegen/native-guards/active",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "212110",
+        "ffffff",
+        "d6d6b5",
+        "d6ad42",
+        "f7948c",
+        "a5a584",
+        "848463",
+        "8452de",
+        "c6635a",
+        "a5524a",
+        "5a5a39",
+        "393929"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/native-guards/source-base-v1.png",
+          "columns": 3,
+          "rows": 3,
+          "nativeHeight": 31,
+          "scaleCells": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            8
+          ],
+          "sample": {
+            "method": "area",
+            "bottom": 51
+          }
+        },
+        {
+          "file": "assets/imagegen/native-guards/source-actions-v1.png",
+          "columns": 4,
+          "rows": 3,
+          "cells": [
+            2,
+            3,
+            5,
+            7,
+            9,
+            10
+          ],
+          "nativeHeight": 31,
+          "scaleCells": [
+            5,
+            7,
+            9,
+            11
+          ],
+          "componentSelection": "union",
+          "sample": {
+            "method": "area",
+            "bottom": 51
+          }
+        },
+        {
+          "file": "assets/imagegen/native-guards/source-windups-v2.png",
+          "columns": 2,
+          "rows": 1,
+          "nativeHeight": 31,
+          "scaleCells": [
+            0,
+            1
+          ],
+          "sample": {
+            "method": "area",
+            "bottom": 51
+          }
+        },
+        {
+          "file": "assets/imagegen/native-guards/source-sweeps-v2.png",
+          "columns": 3,
+          "rows": 1,
+          "nativeHeight": 31,
+          "scaleCells": [
+            1,
+            2
+          ],
+          "sample": {
+            "method": "area",
+            "bottom": 51
+          },
+          "overrides": {
+            "0": {
+              "scale": 0.97
+            }
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            {
+              "frame": 0,
+              "dx": 1
+            },
+            {
+              "frame": 1
+            },
+            {
+              "frame": 2
+            },
+            {
+              "frame": 3,
+              "dx": 1
+            },
+            {
+              "frame": 4,
+              "dx": 1
+            },
+            {
+              "frame": 5,
+              "dx": 2
+            },
+            {
+              "frame": 6,
+              "dx": -2
+            },
+            {
+              "frame": 7,
+              "dx": -1
+            },
+            {
+              "frame": 8,
+              "dx": -1,
+              "dy": 1
+            },
+            {
+              "frame": 6,
+              "flip": true,
+              "dx": 2
+            },
+            {
+              "frame": 7,
+              "flip": true,
+              "dx": 2
+            },
+            {
+              "frame": 8,
+              "flip": true,
+              "dx": 2,
+              "dy": 1
+            },
+            {
+              "frame": 15,
+              "dx": 3,
+              "dy": 1
+            },
+            {
+              "frame": 16,
+              "dx": 2,
+              "dy": 1
+            },
+            {
+              "frame": 9,
+              "dx": -1
+            },
+            {
+              "frame": 9,
+              "flip": true,
+              "dx": 2
+            },
+            {
+              "frame": 10,
+              "dx": -1,
+              "dy": -1
+            },
+            {
+              "frame": 17,
+              "dx": 2,
+              "dy": 1
+            },
+            {
+              "frame": 11,
+              "dx": -1,
+              "dy": 1
+            },
+            {
+              "frame": 18,
+              "dx": 2
+            },
+            {
+              "frame": 12,
+              "dx": 5
+            },
+            {
+              "frame": 19,
+              "dx": -5,
+              "dy": 2
+            },
+            {
+              "frame": 13,
+              "dx": -1,
+              "dy": 2
+            },
+            {
+              "frame": 19,
+              "flip": true,
+              "dx": 7,
+              "dy": 2
+            },
+            {
+              "frame": 13,
+              "flip": true,
+              "dx": 3,
+              "dy": 2
+            },
+            {
+              "frame": 14,
+              "dx": -4,
+              "dy": 3
+            }
+          ]
+        }
+      },
+      "notes": {
+        "status": "Accepted native source",
+        "frozenSource": "assets/imagegen/native-guards/freeze.json"
+      }
+    },
+    {
+      "key": "sewer-troll",
+      "sourceType": "image-generation",
+      "width": 128,
+      "height": 144,
+      "palette": [
+        "252b2c",
+        "354b3e",
+        "5e7d54",
+        "91a86d",
+        "c5ce94",
+        "343c49",
+        "606e7a",
+        "9aa7ab",
+        "4f3831",
+        "926349",
+        "d5ab60",
+        "f5e5b9"
+      ],
+      "directory": "assets/imagegen/sir-sludge/active",
+      "sheets": [
+        {
+          "file": "assets/imagegen/sir-sludge/base-source-v1.png",
+          "columns": 3,
+          "rows": 3,
+          "nativeHeight": 42,
+          "scaleCells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 79,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          },
+          "cells": [
+            0,
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "file": "assets/imagegen/sir-sludge/contacts-source-v2.png",
+          "columns": 3,
+          "rows": 1,
+          "nativeHeight": 42,
+          "scaleCells": [
+            0,
+            1,
+            2
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 79,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        },
+        {
+          "file": "assets/imagegen/sir-sludge/actions-source-v3.png",
+          "columns": 4,
+          "rows": 3,
+          "nativeHeight": 54,
+          "scaleCells": [
+            2
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "bottom": 79,
+            "alphaThreshold": 128,
+            "coverageThreshold": 0.28
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            {
+              "frame": 0,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 1,
+              "dx": 0,
+              "dy": 1
+            },
+            {
+              "frame": 6,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 2,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 3,
+              "dx": 0,
+              "dy": 1
+            },
+            {
+              "frame": 7,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 4,
+              "dx": -5,
+              "dy": 0
+            },
+            {
+              "frame": 5,
+              "dx": -4,
+              "dy": 1
+            },
+            {
+              "frame": 8,
+              "dx": -6,
+              "dy": 0
+            },
+            {
+              "frame": 4,
+              "flip": true,
+              "dx": 5,
+              "dy": 0
+            },
+            {
+              "frame": 5,
+              "flip": true,
+              "dx": 4,
+              "dy": 1
+            },
+            {
+              "frame": 8,
+              "flip": true,
+              "dx": 7,
+              "dy": 0
+            },
+            {
+              "frame": 9,
+              "flip": false,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 10,
+              "flip": false,
+              "dx": 0,
+              "dy": 3
+            },
+            {
+              "frame": 11,
+              "flip": false,
+              "dx": 0,
+              "dy": 3
+            },
+            {
+              "frame": 12,
+              "flip": false,
+              "dx": 0,
+              "dy": 5
+            },
+            {
+              "frame": 13,
+              "flip": false,
+              "dx": 0,
+              "dy": -4
+            },
+            {
+              "frame": 14,
+              "flip": false,
+              "dx": 0,
+              "dy": -4
+            },
+            {
+              "frame": 15,
+              "flip": false,
+              "dx": 0,
+              "dy": -1
+            },
+            {
+              "frame": 16,
+              "flip": false,
+              "dx": 0,
+              "dy": 8
+            },
+            {
+              "frame": 17,
+              "flip": false,
+              "dx": 0,
+              "dy": 8
+            },
+            {
+              "frame": 18,
+              "flip": false,
+              "dx": -7,
+              "dy": 4
+            },
+            {
+              "frame": 19,
+              "flip": false,
+              "dx": -20,
+              "dy": 5
+            },
+            {
+              "frame": 20,
+              "flip": false,
+              "dx": -21,
+              "dy": 5
+            },
+            {
+              "frame": 18,
+              "flip": true,
+              "dx": 7,
+              "dy": 4
+            },
+            {
+              "frame": 19,
+              "flip": true,
+              "dx": 21,
+              "dy": 5
+            },
+            {
+              "frame": 20,
+              "flip": true,
+              "dx": 22,
+              "dy": 5
+            }
+          ]
+        }
+      },
+      "notes": {
+        "status": "Accepted native source",
+        "frozenSource": "assets/imagegen/sir-sludge/freeze.json"
+      }
+    },
+    {
+      "key": "frog-guards",
+      "directory": "assets/imagegen/frog-guards/active",
+      "sourceType": "image-generation",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "242c2c",
+        "2f503e",
+        "527f52",
+        "87ad70",
+        "c3d59b",
+        "3c4149",
+        "737d82",
+        "b0bbb3",
+        "5e4035",
+        "a27550",
+        "d8b966",
+        "fff0c8"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/frog-guards/source-base-v1.png",
+          "columns": 3,
+          "rows": 3,
+          "nativeHeight": 22,
+          "scaleCells": [
+            0
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 61,
+            "alphaThreshold": 128
+          },
+          "overrides": {
+            "0": {
+              "scale": 0.8181818181818182
+            },
+            "1": {
+              "scale": 0.8273092369477912
+            },
+            "2": {
+              "scale": 0.805018510900864
+            },
+            "3": {
+              "scale": 0.8174603174603176
+            },
+            "4": {
+              "scale": 0.8551266085512661
+            },
+            "5": {
+              "scale": 0.800608313619466
+            },
+            "6": {
+              "scale": 0.752435064935065
+            },
+            "7": {
+              "scale": 0.7369528619528619
+            },
+            "8": {
+              "scale": 0.7508576329331047
+            }
+          }
+        },
+        {
+          "file": "assets/imagegen/frog-guards/source-actions-v1.png",
+          "columns": 2,
+          "rows": 5,
+          "nativeHeight": 22,
+          "scaleCells": [
+            0
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 61,
+            "alphaThreshold": 128
+          },
+          "overrides": {
+            "0": {
+              "scale": 1
+            },
+            "1": {
+              "scale": 1.019164619164619
+            },
+            "2": {
+              "scale": 1.0635118306351181
+            },
+            "3": {
+              "scale": 1.0808936825885977
+            },
+            "4": {
+              "scale": 1.1844660194174756
+            },
+            "5": {
+              "scale": 0.9580187254605859
+            },
+            "6": {
+              "scale": 1.1317254174397031
+            },
+            "7": {
+              "scale": 1.6553595658073268
+            },
+            "8": {
+              "scale": 1.0397727272727273
+            },
+            "9": {
+              "scale": 1.1375291375291374
+            }
+          }
+        },
+        {
+          "file": "assets/imagegen/frog-guards/source-down-tongue-v2.png",
+          "columns": 1,
+          "rows": 1,
+          "nativeHeight": 22,
+          "scaleCells": [
+            0
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 61,
+            "alphaThreshold": 128
+          },
+          "overrides": {
+            "0": {
+              "scale": 1.8181818181818181
+            }
+          }
+        }
+      ],
+      "sequences": {
+        "source": {
+          "1": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        }
+      },
+      "notes": {
+        "status": "Accepted native source",
+        "frozenSource": "assets/imagegen/frog-guards/freeze.json"
+      },
+      "nativeComposer": "frog-guards"
+    },
+    {
+      "key": "palace-hexer",
+      "directory": "assets/imagegen/palace-hexer/active",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "292910",
+        "ffffff",
+        "ffd6ad",
+        "d6c6e7",
+        "7bc631",
+        "c67b5a",
+        "396bc6",
+        "9463ad",
+        "7b4229",
+        "63317b",
+        "296308",
+        "393929"
+      ],
+      "sourceType": "image-generation",
+      "sheets": [
+        {
+          "file": "assets/imagegen/palace-hexer/base-source-v1.png",
+          "columns": 3,
+          "rows": 3,
+          "cells": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ],
+          "nativeHeight": 28,
+          "scaleCells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "sample": {
+            "method": "area",
+            "bottom": 39
+          }
+        },
+        {
+          "file": "assets/imagegen/palace-hexer/gait-source-v2.png",
+          "columns": 3,
+          "rows": 1,
+          "cells": [
+            1,
+            2
+          ],
+          "nativeHeight": 28,
+          "scaleCells": [
+            0,
+            1,
+            2
+          ],
+          "sample": {
+            "method": "area",
+            "bottom": 39
+          }
+        },
+        {
+          "file": "assets/imagegen/palace-hexer/casts-source-v1.png",
+          "columns": 3,
+          "rows": 3,
+          "nativeHeight": 28,
+          "scaleCells": [
+            0,
+            3,
+            6
+          ],
+          "componentSelection": "union",
+          "sample": {
+            "method": "area",
+            "bottom": 39
+          },
+          "overrides": {
+            "7": {
+              "scaleX": 0.94
+            }
+          }
+        },
+        {
+          "file": "assets/imagegen/palace-hexer/reactions-source-v1.png",
+          "columns": 3,
+          "rows": 2,
+          "nativeHeight": 28,
+          "scaleCells": [
+            4,
+            5
+          ],
+          "componentSelection": "union",
+          "componentAlpha": 128,
+          "sample": {
+            "method": "area",
+            "alphaThreshold": 128,
+            "bottom": 39
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            {
+              "frame": 20,
+              "dx": 1,
+              "dy": 0
+            },
+            {
+              "frame": 0,
+              "dx": 1,
+              "dy": 2
+            },
+            {
+              "frame": 21,
+              "dx": 1,
+              "dy": 0
+            },
+            {
+              "frame": 1,
+              "dx": 1,
+              "dy": 0
+            },
+            {
+              "frame": 2,
+              "dx": 1,
+              "dy": 2
+            },
+            {
+              "frame": 5,
+              "dx": 1,
+              "dy": 0
+            },
+            {
+              "frame": 3,
+              "dx": 1,
+              "dy": 0
+            },
+            {
+              "frame": 4,
+              "dx": 1,
+              "dy": 2
+            },
+            {
+              "frame": 6,
+              "dx": 1,
+              "dy": 0
+            },
+            {
+              "frame": 3,
+              "flip": true,
+              "dx": 1,
+              "dy": 0
+            },
+            {
+              "frame": 4,
+              "flip": true,
+              "dx": 0,
+              "dy": 2
+            },
+            {
+              "frame": 6,
+              "flip": true,
+              "dx": 1,
+              "dy": 0
+            },
+            {
+              "frame": 16,
+              "dx": 1,
+              "dy": -1
+            },
+            {
+              "frame": 17,
+              "flip": true,
+              "dx": 1,
+              "dy": 1
+            },
+            {
+              "frame": 18,
+              "flip": true,
+              "dx": 1,
+              "dy": 0
+            },
+            {
+              "frame": 19,
+              "flip": true,
+              "dx": 1,
+              "dy": 1
+            },
+            {
+              "frame": 7,
+              "dx": 2,
+              "dy": 1
+            },
+            {
+              "frame": 8,
+              "dx": 3,
+              "dy": 3
+            },
+            {
+              "frame": 9,
+              "flip": true,
+              "dx": 2,
+              "dy": 3
+            },
+            {
+              "frame": 10,
+              "dx": 1,
+              "dy": 1
+            },
+            {
+              "frame": 11,
+              "dx": 2,
+              "dy": 1
+            },
+            {
+              "frame": 12,
+              "dx": 1,
+              "dy": 1
+            },
+            {
+              "frame": 13,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 14,
+              "dx": -1,
+              "dy": 1
+            },
+            {
+              "frame": 15,
+              "dx": -1,
+              "dy": 1
+            },
+            {
+              "frame": 13,
+              "flip": true,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "frame": 14,
+              "flip": true,
+              "dx": 1,
+              "dy": 1
+            },
+            {
+              "frame": 15,
+              "flip": true,
+              "dx": 2,
+              "dy": 1
+            }
+          ]
+        }
+      },
+      "notes": {
+        "status": "Accepted generated source",
+        "frozenSource": "assets/imagegen/palace-hexer/freeze.json"
+      }
+    },
+    {
+      "key": "duloc-court-soldier",
+      "sourceType": "image-generation",
+      "directory": "assets/imagegen/duloc-executioner/active",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "212918",
+        "eff7ef",
+        "ffc684",
+        "e79c63",
+        "946329",
+        "c6ded6",
+        "5a8cad",
+        "5a52d6",
+        "423973",
+        "4adeb5",
+        "6b84a5",
+        "393921"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/duloc-executioner/source-base-v1.png",
+          "columns": 4,
+          "rows": 3,
+          "cells": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10
+          ],
+          "nativeHeight": 34,
+          "scaleCells": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "sample": {
+            "method": "area",
+            "bottom": 51
+          }
+        },
+        {
+          "file": "assets/imagegen/duloc-executioner/source-contacts-v2.png",
+          "columns": 3,
+          "rows": 1,
+          "nativeHeight": 34,
+          "scaleCells": [
+            0,
+            1,
+            2
+          ],
+          "sample": {
+            "method": "area",
+            "bottom": 51
+          },
+          "overrides": {
+            "2": {
+              "scaleX": 0.9
+            }
+          }
+        },
+        {
+          "file": "assets/imagegen/duloc-executioner/source-actions-v1.png",
+          "columns": 4,
+          "rows": 2,
+          "cells": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nativeHeight": 34,
+          "scaleCells": [
+            0
+          ],
+          "componentSelection": "union",
+          "sample": {
+            "method": "area",
+            "bottom": 51
+          }
+        },
+        {
+          "file": "assets/imagegen/duloc-executioner/derived-head-fragment.png",
+          "columns": 1,
+          "rows": 1,
+          "nativeHeight": 14,
+          "scaleCells": [
+            0
+          ],
+          "sample": {
+            "method": "nearest",
+            "bottom": 51
+          }
+        }
+      ],
+      "sequences": {
+        "native": {
+          "1": [
+            {
+              "frame": 0,
+              "dy": 1
+            },
+            {
+              "frame": 3,
+              "dy": 1
+            },
+            {
+              "frame": 6,
+              "dx": 1,
+              "dy": 1
+            },
+            {
+              "frame": 6,
+              "flip": true,
+              "dy": 1
+            },
+            {
+              "frame": 1,
+              "dy": 2
+            },
+            {
+              "frame": 2,
+              "dy": 1
+            },
+            {
+              "frame": 9,
+              "dx": 1,
+              "dy": 2
+            },
+            {
+              "frame": 4,
+              "dx": 1,
+              "dy": 2
+            },
+            {
+              "frame": 5,
+              "dx": 1,
+              "dy": 1
+            },
+            {
+              "frame": 10,
+              "dx": 1,
+              "dy": 2
+            },
+            {
+              "frame": 7,
+              "dx": 1,
+              "dy": 2
+            },
+            {
+              "frame": 8,
+              "dy": 1
+            },
+            {
+              "frame": 11,
+              "dx": 1,
+              "dy": 1
+            },
+            {
+              "frame": 7,
+              "flip": true,
+              "dx": -1,
+              "dy": 2
+            },
+            {
+              "frame": 8,
+              "flip": true,
+              "dy": 1
+            },
+            {
+              "frame": 11,
+              "flip": true,
+              "dy": 1
+            },
+            {
+              "frame": 12,
+              "dx": 10,
+              "dy": -1
+            },
+            {
+              "frame": 12,
+              "flip": true,
+              "dx": -9,
+              "dy": -1
+            },
+            {
+              "frame": 13,
+              "dx": -1,
+              "dy": 2
+            },
+            {
+              "frame": 14,
+              "dx": 4
+            },
+            {
+              "frame": 15,
+              "dx": -1,
+              "dy": 2
+            },
+            {
+              "frame": 15,
+              "flip": true,
+              "dx": 2,
+              "dy": 2
+            },
+            {
+              "frame": 16,
+              "dy": 6
+            },
+            {
+              "frame": 19,
+              "dy": -19
+            },
+            {
+              "frame": 17,
+              "dx": 1,
+              "dy": -10
+            },
+            {
+              "frame": 18,
+              "dy": -9
+            }
+          ]
+        }
+      },
+      "notes": {
+        "status": "Accepted generated source",
+        "frozenSource": "assets/imagegen/duloc-executioner/freeze.json"
+      }
+    },
+    {
+      "key": "swamp-imp",
+      "directory": "assets/imagegen/swamp-imps/active-imp",
+      "sourceType": "image-generation",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "292910",
+        "ffffff",
+        "bddeff",
+        "f7adff",
+        "7ba5ff",
+        "efef6b",
+        "bd6bde",
+        "cea542",
+        "d65231",
+        "3963bd",
+        "84398c",
+        "393929"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/swamp-imps/source-imp-base-v1.png",
+          "columns": 3,
+          "rows": 3,
+          "nativeHeight": 24,
+          "scaleCells": [
+            0
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 61,
+            "alphaThreshold": 128
+          },
+          "overrides": {
+            "0": {
+              "scale": 0.9583333333333335
+            },
+            "1": {
+              "scale": 0.9583333333333335
+            },
+            "2": {
+              "scale": 0.8943768996960487
+            },
+            "3": {
+              "scale": 0.973496835443038
+            },
+            "4": {
+              "scale": 0.9138198757763976
+            },
+            "5": {
+              "scale": 0.9796974522292995
+            },
+            "6": {
+              "scale": 0.9553571428571429
+            },
+            "7": {
+              "scale": 0.9765873015873017
+            },
+            "8": {
+              "scale": 0.9955501618122977
+            }
+          }
+        },
+        {
+          "file": "assets/imagegen/swamp-imps/source-imp-actions-v1.png",
+          "columns": 2,
+          "rows": 5,
+          "nativeHeight": 24,
+          "scaleCells": [
+            0
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 61,
+            "alphaThreshold": 128
+          },
+          "overrides": {
+            "0": {
+              "scale": 0.9999999999999999
+            },
+            "1": {
+              "scale": 0.951086956521739
+            },
+            "2": {
+              "scale": 1.046195652173913
+            },
+            "3": {
+              "scale": 0.943627450980392
+            },
+            "4": {
+              "scale": 1.0334967320261437
+            },
+            "5": {
+              "scale": 1.0845336076817556
+            },
+            "6": {
+              "scale": 1.1355105105105106
+            },
+            "7": {
+              "scale": 1.1458333333333333
+            },
+            "8": {
+              "scale": 1.1956521739130435
+            },
+            "9": {
+              "scale": 1.1904761904761905
+            }
+          }
+        },
+        {
+          "file": "assets/imagegen/swamp-imps/source-rider-turn-v1.png",
+          "columns": 1,
+          "rows": 1,
+          "nativeHeight": 24,
+          "scaleCells": [
+            0
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 61,
+            "alphaThreshold": 128
+          },
+          "overrides": {
+            "0": {
+              "scale": 0.9583333333333334
+            }
+          }
+        }
+      ],
+      "sequences": {
+        "source": {
+          "1": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        }
+      },
+      "notes": {
+        "status": "Accepted generated source",
+        "frozenSource": "assets/imagegen/swamp-imps/freeze.json"
+      }
+    },
+    {
+      "key": "swamp-roly",
+      "directory": "assets/imagegen/swamp-imps/active-roly",
+      "sourceType": "image-generation",
+      "width": 64,
+      "height": 64,
+      "palette": [
+        "292910",
+        "ffffff",
+        "ceefad",
+        "7b947b",
+        "94d629",
+        "efc600",
+        "4a635a",
+        "52a500",
+        "ad5a08",
+        "4a7308",
+        "184a42",
+        "393929"
+      ],
+      "sheets": [
+        {
+          "file": "assets/imagegen/swamp-imps/source-roly-base-v1.png",
+          "columns": 3,
+          "rows": 3,
+          "nativeHeight": 24,
+          "scaleCells": [
+            0
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 61,
+            "alphaThreshold": 128
+          },
+          "overrides": {
+            "0": {
+              "scale": 1.1249999999999998
+            },
+            "1": {
+              "scale": 1.1050724637681157
+            },
+            "2": {
+              "scale": 1.1441586280814575
+            },
+            "3": {
+              "scale": 1.1475752508361203
+            },
+            "4": {
+              "scale": 1.159206081081081
+            },
+            "5": {
+              "scale": 1.14375
+            },
+            "6": {
+              "scale": 1.2227949599083618
+            },
+            "7": {
+              "scale": 1.2229776847977685
+            },
+            "8": {
+              "scale": 1.2103174603174602
+            }
+          }
+        },
+        {
+          "file": "assets/imagegen/swamp-imps/source-roly-roll-v1.png",
+          "columns": 3,
+          "rows": 2,
+          "nativeHeight": 24,
+          "scaleCells": [
+            0
+          ],
+          "componentAlpha": 128,
+          "componentSelection": "union",
+          "sample": {
+            "method": "nearest",
+            "bottom": 61,
+            "alphaThreshold": 128
+          },
+          "overrides": {
+            "0": {
+              "scale": 0.8333333333333333
+            },
+            "1": {
+              "scale": 0.8306623931623931
+            },
+            "2": {
+              "scale": 0.8280085197018103
+            },
+            "3": {
+              "scale": 0.8967704728950403
+            },
+            "4": {
+              "scale": 0.8638888888888888
+            },
+            "5": {
+              "scale": 0.8638888888888888
+            }
+          }
+        }
+      ],
+      "sequences": {
+        "source": {
+          "1": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      },
+      "notes": {
+        "status": "Accepted generated source",
+        "frozenSource": "assets/imagegen/swamp-imps/freeze.json"
+      }
+    }
+  ]
+}

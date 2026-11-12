@@ -1,0 +1,71 @@
+{
+  "key": "rumpel-base-review",
+  "sourceType": "image-generation",
+  "width": 32,
+  "height": 32,
+  "palette": [
+    "312108",
+    "ffffff",
+    "e7dea5",
+    "dea563",
+    "ffb500",
+    "d67b31",
+    "738c7b",
+    "9c6b31",
+    "a53929",
+    "10425a",
+    "524200",
+    "4a2129"
+  ],
+  "directory": "assets/imagegen/rumpelstiltskin-wishworks/rumpel-base-preview",
+  "sheets": [
+    {
+      "file": "assets/imagegen/rumpelstiltskin-wishworks/rumpel-base-source-v1.png",
+      "columns": 4,
+      "rows": 3,
+      "nativeHeight": 27,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 30,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Generated directional gait source, unplaced base review. Source cell8 faces right despite the requested left direction; that cell must be corrected by documented whole-source mirroring in the final native map."
+      }
+    }
+  }
+}

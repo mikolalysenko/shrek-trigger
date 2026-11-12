@@ -1,0 +1,405 @@
+{
+  "source": "FliQuaDv / Shrek SuperSlam static OBJ",
+  "animationSource": "None supplied. Joint rotations below authored locally on original mesh.",
+  "width": 256,
+  "height": 256,
+  "elevation": 12,
+  "presentation": {
+    "headScale": 1.4,
+    "screenAspect": 1.15
+  },
+  "frames": [
+    {
+      "cell": 0,
+      "pose": "idle",
+      "facing": "front",
+      "yaw": 0,
+      "options": {},
+      "file": "feasibility/idle-front.png"
+    },
+    {
+      "cell": 1,
+      "pose": "idle",
+      "facing": "back",
+      "yaw": 180,
+      "options": {},
+      "file": "feasibility/idle-back.png"
+    },
+    {
+      "cell": 2,
+      "pose": "idle",
+      "facing": "left",
+      "yaw": -90,
+      "options": {},
+      "file": "feasibility/idle-left.png"
+    },
+    {
+      "cell": 3,
+      "pose": "idle",
+      "facing": "right",
+      "yaw": 90,
+      "options": {},
+      "file": "feasibility/idle-right.png"
+    },
+    {
+      "cell": 4,
+      "pose": "walk-contact-a",
+      "facing": "front",
+      "yaw": 0,
+      "options": {
+        "leftArm": {
+          "down": 80,
+          "swing": 24,
+          "bend": 8
+        },
+        "rightArm": {
+          "down": 80,
+          "swing": -24,
+          "bend": 12
+        },
+        "leftLeg": {
+          "pitch": -25,
+          "knee": 0,
+          "spread": 3
+        },
+        "rightLeg": {
+          "pitch": 25,
+          "knee": 12,
+          "spread": 3
+        }
+      },
+      "file": "feasibility/walk-contact-a-front.png"
+    },
+    {
+      "cell": 5,
+      "pose": "walk-contact-a",
+      "facing": "back",
+      "yaw": 180,
+      "options": {
+        "leftArm": {
+          "down": 80,
+          "swing": 24,
+          "bend": 8
+        },
+        "rightArm": {
+          "down": 80,
+          "swing": -24,
+          "bend": 12
+        },
+        "leftLeg": {
+          "pitch": -25,
+          "knee": 0,
+          "spread": 3
+        },
+        "rightLeg": {
+          "pitch": 25,
+          "knee": 12,
+          "spread": 3
+        }
+      },
+      "file": "feasibility/walk-contact-a-back.png"
+    },
+    {
+      "cell": 6,
+      "pose": "walk-contact-a",
+      "facing": "left",
+      "yaw": -90,
+      "options": {
+        "leftArm": {
+          "down": 80,
+          "swing": 24,
+          "bend": 8
+        },
+        "rightArm": {
+          "down": 80,
+          "swing": -24,
+          "bend": 12
+        },
+        "leftLeg": {
+          "pitch": -25,
+          "knee": 0,
+          "spread": 3
+        },
+        "rightLeg": {
+          "pitch": 25,
+          "knee": 12,
+          "spread": 3
+        }
+      },
+      "file": "feasibility/walk-contact-a-left.png"
+    },
+    {
+      "cell": 7,
+      "pose": "walk-contact-a",
+      "facing": "right",
+      "yaw": 90,
+      "options": {
+        "leftArm": {
+          "down": 80,
+          "swing": 24,
+          "bend": 8
+        },
+        "rightArm": {
+          "down": 80,
+          "swing": -24,
+          "bend": 12
+        },
+        "leftLeg": {
+          "pitch": -25,
+          "knee": 0,
+          "spread": 3
+        },
+        "rightLeg": {
+          "pitch": 25,
+          "knee": 12,
+          "spread": 3
+        }
+      },
+      "file": "feasibility/walk-contact-a-right.png"
+    },
+    {
+      "cell": 8,
+      "pose": "walk-contact-b",
+      "facing": "front",
+      "yaw": 0,
+      "options": {
+        "leftArm": {
+          "down": 80,
+          "swing": -24,
+          "bend": 12
+        },
+        "rightArm": {
+          "down": 80,
+          "swing": 24,
+          "bend": 8
+        },
+        "leftLeg": {
+          "pitch": 25,
+          "knee": 12,
+          "spread": 3
+        },
+        "rightLeg": {
+          "pitch": -25,
+          "knee": 0,
+          "spread": 3
+        }
+      },
+      "file": "feasibility/walk-contact-b-front.png"
+    },
+    {
+      "cell": 9,
+      "pose": "walk-contact-b",
+      "facing": "back",
+      "yaw": 180,
+      "options": {
+        "leftArm": {
+          "down": 80,
+          "swing": -24,
+          "bend": 12
+        },
+        "rightArm": {
+          "down": 80,
+          "swing": 24,
+          "bend": 8
+        },
+        "leftLeg": {
+          "pitch": 25,
+          "knee": 12,
+          "spread": 3
+        },
+        "rightLeg": {
+          "pitch": -25,
+          "knee": 0,
+          "spread": 3
+        }
+      },
+      "file": "feasibility/walk-contact-b-back.png"
+    },
+    {
+      "cell": 10,
+      "pose": "walk-contact-b",
+      "facing": "left",
+      "yaw": -90,
+      "options": {
+        "leftArm": {
+          "down": 80,
+          "swing": -24,
+          "bend": 12
+        },
+        "rightArm": {
+          "down": 80,
+          "swing": 24,
+          "bend": 8
+        },
+        "leftLeg": {
+          "pitch": 25,
+          "knee": 12,
+          "spread": 3
+        },
+        "rightLeg": {
+          "pitch": -25,
+          "knee": 0,
+          "spread": 3
+        }
+      },
+      "file": "feasibility/walk-contact-b-left.png"
+    },
+    {
+      "cell": 11,
+      "pose": "walk-contact-b",
+      "facing": "right",
+      "yaw": 90,
+      "options": {
+        "leftArm": {
+          "down": 80,
+          "swing": -24,
+          "bend": 12
+        },
+        "rightArm": {
+          "down": 80,
+          "swing": 24,
+          "bend": 8
+        },
+        "leftLeg": {
+          "pitch": 25,
+          "knee": 12,
+          "spread": 3
+        },
+        "rightLeg": {
+          "pitch": -25,
+          "knee": 0,
+          "spread": 3
+        }
+      },
+      "file": "feasibility/walk-contact-b-right.png"
+    },
+    {
+      "cell": 12,
+      "pose": "punch",
+      "facing": "front",
+      "yaw": 0,
+      "options": {
+        "leftArm": {
+          "down": 82,
+          "swing": -90,
+          "bend": 0,
+          "curl": 80
+        },
+        "rightArm": {
+          "down": 75,
+          "swing": -25,
+          "bend": 70
+        },
+        "leftLeg": {
+          "pitch": -8,
+          "knee": 0,
+          "spread": 8
+        },
+        "rightLeg": {
+          "pitch": 10,
+          "knee": 4,
+          "spread": 8
+        },
+        "headPitch": 4,
+        "lean": 5
+      },
+      "file": "feasibility/punch-front.png"
+    },
+    {
+      "cell": 13,
+      "pose": "punch",
+      "facing": "back",
+      "yaw": 180,
+      "options": {
+        "leftArm": {
+          "down": 82,
+          "swing": -90,
+          "bend": 0,
+          "curl": 80
+        },
+        "rightArm": {
+          "down": 75,
+          "swing": -25,
+          "bend": 70
+        },
+        "leftLeg": {
+          "pitch": -8,
+          "knee": 0,
+          "spread": 8
+        },
+        "rightLeg": {
+          "pitch": 10,
+          "knee": 4,
+          "spread": 8
+        },
+        "headPitch": 4,
+        "lean": 5
+      },
+      "file": "feasibility/punch-back.png"
+    },
+    {
+      "cell": 14,
+      "pose": "punch",
+      "facing": "left",
+      "yaw": -90,
+      "options": {
+        "leftArm": {
+          "down": 82,
+          "swing": -90,
+          "bend": 0,
+          "curl": 80
+        },
+        "rightArm": {
+          "down": 75,
+          "swing": -25,
+          "bend": 70
+        },
+        "leftLeg": {
+          "pitch": -8,
+          "knee": 0,
+          "spread": 8
+        },
+        "rightLeg": {
+          "pitch": 10,
+          "knee": 4,
+          "spread": 8
+        },
+        "headPitch": 4,
+        "lean": 5
+      },
+      "file": "feasibility/punch-left.png"
+    },
+    {
+      "cell": 15,
+      "pose": "punch",
+      "facing": "right",
+      "yaw": 90,
+      "options": {
+        "leftArm": {
+          "down": 82,
+          "swing": -90,
+          "bend": 0,
+          "curl": 80
+        },
+        "rightArm": {
+          "down": 75,
+          "swing": -25,
+          "bend": 70
+        },
+        "leftLeg": {
+          "pitch": -8,
+          "knee": 0,
+          "spread": 8
+        },
+        "rightLeg": {
+          "pitch": 10,
+          "knee": 4,
+          "spread": 8
+        },
+        "headPitch": 4,
+        "lean": 5
+      },
+      "file": "feasibility/punch-right.png"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "tool": "built-in image_gen",
+  "intent": "New raster body from composition/footprint references",
+  "source": "source-body-v1.png",
+  "sha256": "4e4665610b6f40de3d6cdc7c575ee30dc9afb2b27962e82d259dd8cd87aa265e",
+  "dimensions": [
+    1069,
+    1471
+  ],
+  "prompt": "prompt-body-v1.txt",
+  "promptSha256": "e71539654798f8c3e3c140acf8c85b060373f10e18805ae7ef86904bccbaeae3",
+  "references": [
+    {
+      "file": "before-body.png",
+      "sha256": "7b2e2a499d4628d35f1dda8f2f6232f3d2dbdd7f260e423294356aca43d1df9c"
+    },
+    {
+      "file": "body-coverage.png",
+      "sha256": "0a466cfdabc531e9045ef0d7c86814c507da5f1adaa9a23955cc583ab67e8eae"
+    }
+  ],
+  "generatedPath": "/Users/mikolalysenko/.codex/generated_images/01a19351-746a-7d90-a81a-1ea5ba445693/exec-5f3d069c-ddeb-4238-a876-663da98db81d.png",
+  "review": "Initial complete generated composition retained as the exact imagegen reference for body-v2. Its first native sample was not selected because the side cables and pincer tips exceeded the owned footprint."
+}

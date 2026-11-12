@@ -1,0 +1,131 @@
+{
+  "key": "swamp-roly",
+  "directory": "assets/imagegen/swamp-imps/roly",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "292910",
+    "ffffff",
+    "ceefad",
+    "7b947b",
+    "94d629",
+    "efc600",
+    "4a635a",
+    "52a500",
+    "ad5a08",
+    "4a7308",
+    "184a42",
+    "393929"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/swamp-imps/source-roly-base-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 24,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 61,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "0": {
+          "scale": 1.1249999999999998
+        },
+        "1": {
+          "scale": 1.1050724637681157
+        },
+        "2": {
+          "scale": 1.1441586280814575
+        },
+        "3": {
+          "scale": 1.1475752508361203
+        },
+        "4": {
+          "scale": 1.159206081081081
+        },
+        "5": {
+          "scale": 1.14375
+        },
+        "6": {
+          "scale": 1.2227949599083618
+        },
+        "7": {
+          "scale": 1.2229776847977685
+        },
+        "8": {
+          "scale": 1.2103174603174602
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/swamp-imps/source-roly-roll-v1.png",
+      "columns": 3,
+      "rows": 2,
+      "nativeHeight": 24,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 61,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.8333333333333333
+        },
+        "1": {
+          "scale": 0.8306623931623931
+        },
+        "2": {
+          "scale": 0.8280085197018103
+        },
+        "3": {
+          "scale": 0.8967704728950403
+        },
+        "4": {
+          "scale": 0.8638888888888888
+        },
+        "5": {
+          "scale": 0.8638888888888888
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "source": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  },
+  "notes": {
+    "activation": false,
+    "status": "Inactive source extraction only; native-cell-raster.json and native-frame-map.draft.json are the complete native composition.",
+    "pixels": "Only actual generated PNG pixels, nearest sampling and exact unchanged palette indexing. No procedural anatomy.",
+    "sourceDirectionCorrection": "Base source6 faces right; mirrored for left native8, unmirrored for right native11."
+  }
+}

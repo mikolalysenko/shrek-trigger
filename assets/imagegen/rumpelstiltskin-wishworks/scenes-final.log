@@ -1,0 +1,10 @@
+{"name":"night-throne","ticks":7603,"taps":48,"formation":[161,255,255,255,255,255,255,255],"heapMax":1248,"returnLocation":334,"returnStory":189}
+file:///Users/mikolalysenko/Projects/shrek-trigger/tests/battle-controller.mjs:13
+  if(await read(0x95db)!==1)throw Error('Native tech window did not open');
+                                  ^
+
+Error: Native tech window did not open
+    at chooseNativeTech (file:///Users/mikolalysenko/Projects/shrek-trigger/tests/battle-controller.mjs:13:35)
+    at async file:///Users/mikolalysenko/Projects/shrek-trigger/assets/imagegen/rumpelstiltskin-wishworks/verify-scenes.mjs:52:56
+
+Node.js v24.18.0

@@ -1,0 +1,1932 @@
+{
+  "status": "Frozen private native integration research; inactive",
+  "date": "2026-10-31",
+  "activeChanges": false,
+  "canonicalRomWritten": false,
+  "productionGuard": {
+    "path": "engine/npc-graphics-streaming.js",
+    "sha256": "17d9ec0c69b90e778df81d163a496c2f7f55ba15a33979cf27a80985b9272a46",
+    "stillRequiresExclusivelyFourCellOwners": true,
+    "changedByThisWork": false,
+    "requiredIntegration": "Root must add an explicit per-family native-streamed budget contract checking all emitted owners. Preserve the strict original decoded-budget guard for other families. Rebuild compressed and raw payloads together and rerun proof on the actual emitted ROM."
+  },
+  "privatePatchScope": "Only raw pointer entries, approved raw artwork, approved native assembly cell offsets, isolated Mirror palette, and checksums. Original native helper/copier bytes are unchanged.",
+  "helpers": {
+    "table": 8220672,
+    "enemyEntry": 12601197,
+    "enemyHelper": 8221753,
+    "npcEntry": 12600862,
+    "npcHelper": 8221696,
+    "helperBytes": 57,
+    "sourceObjectFields": [
+      4608,
+      4736
+    ],
+    "genericCopier": {
+      "entry": 12641974,
+      "address": 16249264,
+      "bytes": 157,
+      "sha256": "59aabaf967930af7eb21e1b9cac80c40f6a0e965e0ecebedd3571b006c7c3aa0"
+    },
+    "extraWramBytes": 0,
+    "extraVramBytes": 0,
+    "scratch": "Native D9/E3 only in selector; no new scratch. Generic copier PHX/PLX balances stack, preserves DB/DP, and reuses native WRAM staging/epilogue.",
+    "rawBounds": "Every tested raw payload is 32-byte aligned and remains inside one ExHiROM lower half; max native tile index is below1024."
+  },
+  "nativeSourceProof": {
+    "size1": {
+      "dispatcher": 12635893,
+      "bankLoad": "1200,X -> CF",
+      "addressLoad": "1280,X -> CD",
+      "destination": "D2=7F is the WRAM destination, not a source restriction",
+      "bytesPerFrame": 1024,
+      "cells": 8
+    },
+    "size2": {
+      "dispatcher": 12637431,
+      "bankLoad": "1200,X -> CF",
+      "addressLoad": "1280,X -> CD",
+      "destination": "D2=7F is the WRAM destination",
+      "bytesPerFrame": 1536,
+      "cells": 12,
+      "frameUploadOffsets": [
+        0,
+        512,
+        256,
+        768,
+        1024,
+        1536
+      ]
+    },
+    "battle": {
+      "fieldExport": "C00601..C00612: object1200/1280 ->29CA/29C8",
+      "battleImport": "CCEAC4..CCEACF:29CA/29C8 ->1C62/1C60",
+      "sourceBank": "C11CA0 loads1C59+actor*3; C11CE6 PLB selects that bank",
+      "copy": "C11D5A indexed absolute reads honor DB; flipped path C11DDB uses the same DB",
+      "bound": "Offset+32*tile remains inside the selected raw bank",
+      "diagnosticScope": "Normal battle engine, original enemy headers, AI and animation. QA event supplies native actor/formation commands; no CPU PC/stack/VRAM writes."
+    }
+  },
+  "limitations": [
+    "These hashes are private descendants of the earlier npc-rom-stream prototype, not the later375e33ec production milestone.",
+    "Private standard compressed pointers intentionally remain from the input prototype; raw-selected native rendering is proven, but this is not a distributable candidate.",
+    "Size class3 /24-cell actors were not tested.",
+    "All field frames were independently checked in Snes9x and bsnes. Battle pixel proof here uses the JS native core; original story choreography remains outside this narrow renderer proof."
+  ],
+  "key": "horner",
+  "rom": {
+    "file": ".local/qa/horner-native-proof/shrek-trigger.sfc",
+    "sha256": "f225c2a55be245e9dcef0275cbd598fbaba860342a829a26e2f4693e186ba174",
+    "inputFile": ".local/qa/npc-rom-stream/shrek-trigger.sfc",
+    "inputSha256": "32f64d92790bd23985c44341edc3bd7c1ac7c29019915fc8db7123480830b846"
+  },
+  "selected": {
+    "gfx": 155,
+    "asm": 148,
+    "palette": 196,
+    "size": 1,
+    "owners": [
+      {
+        "kind": "enemy",
+        "id": 166,
+        "header": [
+          155,
+          148,
+          196,
+          118,
+          1,
+          0,
+          224,
+          8,
+          12,
+          17
+        ]
+      },
+      {
+        "kind": "enemy",
+        "id": 167,
+        "header": [
+          155,
+          148,
+          196,
+          161,
+          1,
+          0,
+          224,
+          10,
+          12,
+          17
+        ]
+      },
+      {
+        "kind": "enemy",
+        "id": 168,
+        "header": [
+          155,
+          148,
+          196,
+          118,
+          1,
+          0,
+          224,
+          10,
+          12,
+          17
+        ]
+      }
+    ],
+    "frames": 30,
+    "rawAddress": 8126464,
+    "rawBytes": 13760,
+    "compressedBytes": 11526,
+    "assemblyBytes": 2400,
+    "rawSha256": "17e491ccabdd9ec5a740597f4b3b45a3e01b6fe7492db28e59dc583d6c737288",
+    "assemblySha256": "d44adfa99aa0ec51f5a7885096eb87a8afecf0739ea63489ad1864677a0db09f"
+  },
+  "pixels": {
+    "sourceFile": "assets/imagegen/jack-horner/preview-raster.json",
+    "frameMapFile": "assets/imagegen/jack-horner/native-frame-map.draft.json",
+    "bodyReferenceHeight": 32,
+    "sampling": "nearest",
+    "canvas": [
+      64,
+      64
+    ],
+    "anchor": [
+      0,
+      8
+    ],
+    "originalFrameOffsets": {
+      "4": [
+        0,
+        -6
+      ],
+      "9": [
+        0,
+        -2
+      ],
+      "10": [
+        0,
+        -3
+      ],
+      "11": [
+        0,
+        -2
+      ],
+      "12": [
+        0,
+        -2
+      ],
+      "13": [
+        0,
+        -3
+      ],
+      "14": [
+        0,
+        -2
+      ],
+      "15": [
+        0,
+        -2
+      ],
+      "16": [
+        0,
+        -3
+      ],
+      "17": [
+        0,
+        -2
+      ],
+      "22": [
+        2,
+        1
+      ],
+      "27": [
+        0,
+        -2
+      ],
+      "28": [
+        0,
+        -1
+      ]
+    },
+    "frames": [
+      {
+        "id": 0,
+        "role": "front idle",
+        "sourceIndex": 0,
+        "flip": false,
+        "pixelSha256": "bf19ccc8d5323377aed0d1bd6d0234bad3af97ae657c318441ea6378f11e6649",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            10,
+            16
+          ],
+          [
+            26,
+            16
+          ],
+          [
+            8,
+            32
+          ],
+          [
+            24,
+            32
+          ],
+          [
+            40,
+            32
+          ],
+          [
+            16,
+            48
+          ],
+          [
+            32,
+            48
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 1,
+        "role": "left profile idle",
+        "sourceIndex": 1,
+        "flip": false,
+        "pixelSha256": "469a9341c547cae07980dbfc7bc7769700dd034890165913eb7186f321fd6005",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            21,
+            15
+          ],
+          [
+            11,
+            31
+          ],
+          [
+            27,
+            31
+          ],
+          [
+            12,
+            47
+          ],
+          [
+            28,
+            47
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            37,
+            0
+          ],
+          [
+            43,
+            16
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "role": "right profile idle",
+        "sourceIndex": 1,
+        "flip": true,
+        "pixelSha256": "c11d94fc3e278a9f96b1654a7fddbfba6cf9bebe3e349f20f23ff9d24ee6720c",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            27,
+            15
+          ],
+          [
+            13,
+            31
+          ],
+          [
+            29,
+            31
+          ],
+          [
+            12,
+            47
+          ],
+          [
+            28,
+            47
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            43,
+            0
+          ],
+          [
+            45,
+            16
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "role": "front smug alternate",
+        "sourceIndex": 2,
+        "flip": false,
+        "pixelSha256": "36efcc8f7d408333884fce4c9ac2699d531e659967cfa1a4debae89538a3e25f",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            16,
+            24
+          ],
+          [
+            32,
+            24
+          ],
+          [
+            8,
+            40
+          ],
+          [
+            24,
+            40
+          ],
+          [
+            40,
+            40
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "role": "startled hop",
+        "sourceIndex": 3,
+        "flip": false,
+        "pixelSha256": "17e2631c84bc47e18d166cfc3e247ab8a283497863805f061d487b0e632009bf",
+        "x": 0,
+        "y": 2,
+        "frameCellOrigins": [
+          [
+            12,
+            24
+          ],
+          [
+            28,
+            24
+          ],
+          [
+            14,
+            40
+          ],
+          [
+            30,
+            40
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            48,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "role": "angry flinch",
+        "sourceIndex": 4,
+        "flip": false,
+        "pixelSha256": "89d0a963ca0b59ec52e6515723923254ac0c5b3364ac2d7e8d7132ad396846c4",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            3,
+            24
+          ],
+          [
+            19,
+            24
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            2,
+            40
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            34,
+            40
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "role": "haughty sway A",
+        "sourceIndex": 5,
+        "flip": true,
+        "pixelSha256": "d0eb8678c14cde51d85cd3028764682b13ffee4dbd90627e7e6fa448c817c954",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            10,
+            16
+          ],
+          [
+            26,
+            16
+          ],
+          [
+            1,
+            32
+          ],
+          [
+            17,
+            32
+          ],
+          [
+            33,
+            32
+          ],
+          [
+            11,
+            48
+          ],
+          [
+            27,
+            48
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "role": "haughty sway B",
+        "sourceIndex": 6,
+        "flip": false,
+        "pixelSha256": "42be465810936ba04a43a40bdb0e7b0a1db71d07f636f9dbaadb9935c6c05131",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            18,
+            8
+          ],
+          [
+            10,
+            24
+          ],
+          [
+            26,
+            24
+          ],
+          [
+            14,
+            40
+          ],
+          [
+            30,
+            40
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            34,
+            0
+          ],
+          [
+            42,
+            16
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "role": "haughty sway C",
+        "sourceIndex": 7,
+        "flip": false,
+        "pixelSha256": "8b92756dbe0393e9392e3d46a374c1d46fc4a622048e71d85a0b2802fa2828ec",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            8,
+            16
+          ],
+          [
+            24,
+            16
+          ],
+          [
+            16,
+            32
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            14,
+            48
+          ],
+          [
+            30,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "role": "front float high",
+        "sourceIndex": 9,
+        "flip": false,
+        "pixelSha256": "00adeeded64617e193d1e603da02e67156ca5fddd7c31c99f6b9e738542edb71",
+        "x": 0,
+        "y": 6,
+        "frameCellOrigins": [
+          [
+            8,
+            9
+          ],
+          [
+            24,
+            9
+          ],
+          [
+            4,
+            25
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            36,
+            25
+          ],
+          [
+            1,
+            41
+          ],
+          [
+            17,
+            41
+          ],
+          [
+            33,
+            41
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "role": "front float low",
+        "sourceIndex": 10,
+        "flip": false,
+        "pixelSha256": "16d270c30dfc9653985858c86f4ef0d3d74bea5750e52c83ec7bf164c10401f7",
+        "x": 0,
+        "y": 5,
+        "frameCellOrigins": [
+          [
+            23,
+            8
+          ],
+          [
+            5,
+            24
+          ],
+          [
+            21,
+            24
+          ],
+          [
+            37,
+            24
+          ],
+          [
+            2,
+            40
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            34,
+            40
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "role": "front float settle",
+        "sourceIndex": 11,
+        "flip": false,
+        "pixelSha256": "9d5c7dbb91fbc794026e5f2a572921b99410d1cb9a4c533a0c9d3f294d3978fc",
+        "x": 0,
+        "y": 6,
+        "frameCellOrigins": [
+          [
+            15,
+            16
+          ],
+          [
+            31,
+            16
+          ],
+          [
+            4,
+            32
+          ],
+          [
+            20,
+            32
+          ],
+          [
+            36,
+            32
+          ],
+          [
+            9,
+            48
+          ],
+          [
+            25,
+            48
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "role": "left float high",
+        "sourceIndex": 12,
+        "flip": false,
+        "pixelSha256": "4d8a94f5620cc3c45a829b3b11e91b856df2cdbac1b0e2681ce3fca0eaffa7ad",
+        "x": 0,
+        "y": 6,
+        "frameCellOrigins": [
+          [
+            21,
+            8
+          ],
+          [
+            1,
+            24
+          ],
+          [
+            17,
+            24
+          ],
+          [
+            33,
+            24
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            34,
+            40
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            37,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "role": "left float low",
+        "sourceIndex": 13,
+        "flip": false,
+        "pixelSha256": "b5a411915a0f9aa11995e7953ed1166b850352c8406518a5740a8e1b1c1211e7",
+        "x": 0,
+        "y": 5,
+        "frameCellOrigins": [
+          [
+            15,
+            16
+          ],
+          [
+            31,
+            16
+          ],
+          [
+            4,
+            32
+          ],
+          [
+            20,
+            32
+          ],
+          [
+            36,
+            32
+          ],
+          [
+            21,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 14,
+        "role": "left float settle",
+        "sourceIndex": 14,
+        "flip": false,
+        "pixelSha256": "fdac01cb713e30f94b56aae3afd49ccc62480762388689fb5edfe1c38de31c66",
+        "x": 0,
+        "y": 6,
+        "frameCellOrigins": [
+          [
+            10,
+            9
+          ],
+          [
+            26,
+            9
+          ],
+          [
+            5,
+            25
+          ],
+          [
+            21,
+            25
+          ],
+          [
+            37,
+            25
+          ],
+          [
+            18,
+            41
+          ],
+          [
+            34,
+            41
+          ],
+          [
+            42,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "role": "right float high",
+        "sourceIndex": 12,
+        "flip": true,
+        "pixelSha256": "27de0eda7f91711aabf17a8ffac456abe2e0569be975e268d30ed91691280a87",
+        "x": 0,
+        "y": 6,
+        "frameCellOrigins": [
+          [
+            27,
+            8
+          ],
+          [
+            7,
+            24
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            39,
+            24
+          ],
+          [
+            14,
+            40
+          ],
+          [
+            30,
+            40
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            43,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 16,
+        "role": "right float low",
+        "sourceIndex": 13,
+        "flip": true,
+        "pixelSha256": "6cb20a18d465a71c2a952b5cf2471d2db03f9858655262ab906cafa01d32e66d",
+        "x": 0,
+        "y": 5,
+        "frameCellOrigins": [
+          [
+            17,
+            16
+          ],
+          [
+            33,
+            16
+          ],
+          [
+            4,
+            32
+          ],
+          [
+            20,
+            32
+          ],
+          [
+            36,
+            32
+          ],
+          [
+            27,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "role": "right float settle",
+        "sourceIndex": 14,
+        "flip": true,
+        "pixelSha256": "6139d2347875e4b5719b0dbd3c4f0633996ec9aa2c75897211721b70e8ec885e",
+        "x": 0,
+        "y": 6,
+        "frameCellOrigins": [
+          [
+            14,
+            9
+          ],
+          [
+            30,
+            9
+          ],
+          [
+            3,
+            25
+          ],
+          [
+            19,
+            25
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            14,
+            41
+          ],
+          [
+            30,
+            41
+          ],
+          [
+            46,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 18,
+        "role": "spin reaction A",
+        "sourceIndex": 15,
+        "flip": false,
+        "pixelSha256": "46684e938af5b168d5c57aa99a032a9c8c5dc323044b6a4a617061c77389e712",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            9,
+            16
+          ],
+          [
+            25,
+            16
+          ],
+          [
+            15,
+            32
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            16,
+            48
+          ],
+          [
+            32,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 19,
+        "role": "spin reaction B",
+        "sourceIndex": 16,
+        "flip": false,
+        "pixelSha256": "fb7d8d7710c3e5708e3f0df7d3ccdc039a57ff2a0f69cd884e4c162c0cb84841",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            10,
+            16
+          ],
+          [
+            26,
+            16
+          ],
+          [
+            15,
+            32
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            14,
+            48
+          ],
+          [
+            30,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 20,
+        "role": "braced crouch",
+        "sourceIndex": 8,
+        "flip": false,
+        "pixelSha256": "665e98596e17312e3d47b35e6211dde814003ec57cdebe743b33d506f1120bfb",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            18,
+            15
+          ],
+          [
+            3,
+            31
+          ],
+          [
+            19,
+            31
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            15,
+            47
+          ],
+          [
+            31,
+            47
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            34,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 21,
+        "role": "sideways stumble",
+        "sourceIndex": 17,
+        "flip": false,
+        "pixelSha256": "35da7b530f31f2e9b696a4b085ed2e63a7d38a4a8d0de80be2f744d6dfed15e8",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            3,
+            24
+          ],
+          [
+            19,
+            24
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            4,
+            40
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            36,
+            40
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 22,
+        "role": "inverted tumble",
+        "sourceIndex": 18,
+        "flip": false,
+        "pixelSha256": "f5a76c92331290bc6bcf662939fa5c87c7b254d9473a41ab2b3199ec7fa8ceb3",
+        "x": 2,
+        "y": 9,
+        "frameCellOrigins": [
+          [
+            15,
+            24
+          ],
+          [
+            31,
+            24
+          ],
+          [
+            16,
+            40
+          ],
+          [
+            32,
+            40
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            48,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 23,
+        "role": "shield preparation",
+        "sourceIndex": 19,
+        "flip": false,
+        "pixelSha256": "d17ebe9d4bd7452ee9e0da81a8cf66e58c051affd8f253cf61d268e88ec49093",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            22,
+            16
+          ],
+          [
+            1,
+            32
+          ],
+          [
+            17,
+            32
+          ],
+          [
+            33,
+            32
+          ],
+          [
+            16,
+            48
+          ],
+          [
+            32,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 24,
+        "role": "shield stage 1",
+        "sourceIndex": 20,
+        "flip": false,
+        "pixelSha256": "34647df7aaee5da543996f7617b34770a72ca996d0fd54cb069e958c209d8d5d",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            16,
+            8
+          ],
+          [
+            3,
+            24
+          ],
+          [
+            19,
+            24
+          ],
+          [
+            35,
+            24
+          ],
+          [
+            3,
+            40
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            35,
+            40
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 25,
+        "role": "shield stage 2",
+        "sourceIndex": 21,
+        "flip": false,
+        "pixelSha256": "2dfda71f87eb44101a2414aad365c5eac68392f89e43d20d7931b1e4ad28d9a3",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            22,
+            8
+          ],
+          [
+            15,
+            24
+          ],
+          [
+            31,
+            24
+          ],
+          [
+            16,
+            40
+          ],
+          [
+            32,
+            40
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            38,
+            0
+          ],
+          [
+            47,
+            16
+          ]
+        ]
+      },
+      {
+        "id": 26,
+        "role": "empty shield",
+        "sourceIndex": 22,
+        "flip": false,
+        "pixelSha256": "090c68d5a08b7aa415bc61a6972c763f05a80363cbf1a3253ec54d1c4663bdf2",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            18,
+            8
+          ],
+          [
+            13,
+            24
+          ],
+          [
+            29,
+            24
+          ],
+          [
+            15,
+            40
+          ],
+          [
+            31,
+            40
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            34,
+            0
+          ],
+          [
+            45,
+            16
+          ]
+        ]
+      },
+      {
+        "id": 27,
+        "role": "dizzy sway A",
+        "sourceIndex": 24,
+        "flip": false,
+        "pixelSha256": "beac50cdd2eb451295c5b50e29905f47a70744307fced6aa7dbd1d4ccc756942",
+        "x": 0,
+        "y": 6,
+        "frameCellOrigins": [
+          [
+            27,
+            11
+          ],
+          [
+            5,
+            27
+          ],
+          [
+            21,
+            27
+          ],
+          [
+            37,
+            27
+          ],
+          [
+            17,
+            43
+          ],
+          [
+            33,
+            43
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            43,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 28,
+        "role": "dizzy sway B",
+        "sourceIndex": 25,
+        "flip": false,
+        "pixelSha256": "2cdba06be7f7f1fde556070f8de4f6e5f24f589a5ed689cbd5a26f20daa7e3dd",
+        "x": 0,
+        "y": 7,
+        "frameCellOrigins": [
+          [
+            14,
+            16
+          ],
+          [
+            30,
+            16
+          ],
+          [
+            11,
+            32
+          ],
+          [
+            27,
+            32
+          ],
+          [
+            12,
+            48
+          ],
+          [
+            28,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 29,
+        "role": "dizzy sway C",
+        "sourceIndex": 26,
+        "flip": false,
+        "pixelSha256": "d180ed9de82b25e85e409bf5a7f5c50b3ff6f53a654b734575e2906dd690bd88",
+        "x": 0,
+        "y": 8,
+        "frameCellOrigins": [
+          [
+            10,
+            8
+          ],
+          [
+            16,
+            24
+          ],
+          [
+            32,
+            24
+          ],
+          [
+            16,
+            40
+          ],
+          [
+            32,
+            40
+          ],
+          [
+            26,
+            0
+          ],
+          [
+            42,
+            0
+          ],
+          [
+            48,
+            16
+          ]
+        ]
+      }
+    ]
+  },
+  "field": {
+    "jsExactUploads": 90,
+    "snes9xExactUploads": 90,
+    "snes9xNativePixelFrames": 90,
+    "bsnesNativePixelFrames": 90,
+    "previewHeapBytes": 960,
+    "independentReports": [
+      {
+        "core": "snes9x",
+        "frames": 90,
+        "exactTileUploads": 90,
+        "nativePositionPixelChecks": 90
+      },
+      {
+        "core": "bsnes",
+        "frames": 90,
+        "exactTileUploads": 0,
+        "nativePositionPixelChecks": 90
+      }
+    ],
+    "scenes": [
+      {
+        "location": 31,
+        "name": "31-horner",
+        "heapBytes": 17632,
+        "legacyCachedGraphics": [
+          83,
+          86
+        ],
+        "selectedRawLoads": [
+          {
+            "name": "proof.enemy.after",
+            "object": 8,
+            "graphics": 155,
+            "source": 8126464,
+            "heapBytes": 0
+          }
+        ],
+        "legacyBank7FLoads": [
+          {
+            "name": "proof.enemy.after",
+            "object": 9,
+            "graphics": 83,
+            "source": 8355840,
+            "heapBytes": 8928
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 10,
+            "graphics": 83,
+            "source": 8355840,
+            "heapBytes": 8928
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 11,
+            "graphics": 83,
+            "source": 8355840,
+            "heapBytes": 8928
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 12,
+            "graphics": 86,
+            "source": 8364768,
+            "heapBytes": 17632
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 13,
+            "graphics": 86,
+            "source": 8364768,
+            "heapBytes": 17632
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 14,
+            "graphics": 86,
+            "source": 8364768,
+            "heapBytes": 17632
+          },
+          {
+            "name": "proof.npc.after",
+            "object": 16,
+            "graphics": 86,
+            "source": 8364768,
+            "heapBytes": 17632
+          }
+        ]
+      },
+      {
+        "location": 33,
+        "name": "33-all-optional",
+        "heapBytes": 22912,
+        "legacyCachedGraphics": [
+          86,
+          35,
+          111,
+          229
+        ],
+        "selectedRawLoads": [
+          {
+            "name": "proof.enemy.after",
+            "object": 8,
+            "graphics": 155,
+            "source": 8126464,
+            "heapBytes": 0
+          }
+        ],
+        "legacyBank7FLoads": [
+          {
+            "name": "proof.enemy.after",
+            "object": 11,
+            "graphics": 111,
+            "source": 8368480,
+            "heapBytes": 22752
+          }
+        ]
+      },
+      {
+        "location": 170,
+        "name": "170-upper-fortress",
+        "heapBytes": 22880,
+        "legacyCachedGraphics": [
+          186,
+          111,
+          100,
+          83
+        ],
+        "selectedRawLoads": [
+          {
+            "name": "proof.enemy.after",
+            "object": 10,
+            "graphics": 155,
+            "source": 8126464,
+            "heapBytes": 160
+          }
+        ],
+        "legacyBank7FLoads": [
+          {
+            "name": "proof.enemy.after",
+            "object": 11,
+            "graphics": 111,
+            "source": 8356000,
+            "heapBytes": 10272
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 12,
+            "graphics": 111,
+            "source": 8356000,
+            "heapBytes": 10272
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 13,
+            "graphics": 100,
+            "source": 8366112,
+            "heapBytes": 13952
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 14,
+            "graphics": 100,
+            "source": 8366112,
+            "heapBytes": 13952
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 15,
+            "graphics": 83,
+            "source": 8369792,
+            "heapBytes": 22880
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 16,
+            "graphics": 83,
+            "source": 8369792,
+            "heapBytes": 22880
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 17,
+            "graphics": 83,
+            "source": 8369792,
+            "heapBytes": 22880
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 18,
+            "graphics": 83,
+            "source": 8369792,
+            "heapBytes": 22880
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 19,
+            "graphics": 83,
+            "source": 8369792,
+            "heapBytes": 22880
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 20,
+            "graphics": 83,
+            "source": 8369792,
+            "heapBytes": 22880
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 21,
+            "graphics": 83,
+            "source": 8369792,
+            "heapBytes": 22880
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 22,
+            "graphics": 83,
+            "source": 8369792,
+            "heapBytes": 22880
+          }
+        ]
+      },
+      {
+        "location": 175,
+        "name": "175-fortress-traps",
+        "heapBytes": 22048,
+        "legacyCachedGraphics": [
+          203,
+          94,
+          91
+        ],
+        "selectedRawLoads": [
+          {
+            "name": "proof.enemy.after",
+            "object": 11,
+            "graphics": 155,
+            "source": 8126464,
+            "heapBytes": 0
+          }
+        ],
+        "legacyBank7FLoads": [
+          {
+            "name": "proof.enemy.after",
+            "object": 12,
+            "graphics": 203,
+            "source": 8355840,
+            "heapBytes": 12288
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 13,
+            "graphics": 203,
+            "source": 8355840,
+            "heapBytes": 12288
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 14,
+            "graphics": 94,
+            "source": 8368128,
+            "heapBytes": 19616
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 15,
+            "graphics": 94,
+            "source": 8368128,
+            "heapBytes": 19616
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 16,
+            "graphics": 91,
+            "source": 8375456,
+            "heapBytes": 22048
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 17,
+            "graphics": 91,
+            "source": 8375456,
+            "heapBytes": 22048
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 18,
+            "graphics": 91,
+            "source": 8375456,
+            "heapBytes": 22048
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 19,
+            "graphics": 91,
+            "source": 8375456,
+            "heapBytes": 22048
+          }
+        ]
+      },
+      {
+        "location": 180,
+        "name": "180-trio",
+        "heapBytes": 12704,
+        "legacyCachedGraphics": [
+          166,
+          182
+        ],
+        "selectedRawLoads": [
+          {
+            "name": "proof.enemy.after",
+            "object": 8,
+            "graphics": 155,
+            "source": 8126464,
+            "heapBytes": 0
+          }
+        ],
+        "legacyBank7FLoads": [
+          {
+            "name": "proof.enemy.after",
+            "object": 9,
+            "graphics": 166,
+            "source": 8355840,
+            "heapBytes": 9024
+          },
+          {
+            "name": "proof.enemy.after",
+            "object": 10,
+            "graphics": 182,
+            "source": 8364864,
+            "heapBytes": 12704
+          }
+        ]
+      }
+    ],
+    "selectedExcludedFromCache": true,
+    "scope": "Five actual emitted crowded scene loads, plus previous25-location original scene audit. No prospective co-load exclusions are assumed."
+  },
+  "battle": {
+    "enemyVariants": [
+      {
+        "enemy": 166,
+        "formation": [
+          166,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nativeBattle": true,
+        "scope": "Diagnostic native battle event",
+        "source": 8126464,
+        "handoffSource": 8126464,
+        "x": 136,
+        "y": 111,
+        "frame": 20,
+        "nativeCellPixelsVerified": 632,
+        "nativeColors": 12,
+        "coordinateNote": "Native battle actor coordinates plus the JS core 8px presentation margin"
+      },
+      {
+        "enemy": 167,
+        "formation": [
+          167,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nativeBattle": true,
+        "scope": "Diagnostic native battle event",
+        "source": 8126464,
+        "handoffSource": 8126464,
+        "x": 136,
+        "y": 111,
+        "frame": 26,
+        "nativeCellPixelsVerified": 789,
+        "nativeColors": 6,
+        "coordinateNote": "Native battle actor coordinates plus the JS core 8px presentation margin"
+      },
+      {
+        "enemy": 168,
+        "formation": [
+          168,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "nativeBattle": true,
+        "scope": "Diagnostic native battle event",
+        "source": 8126464,
+        "handoffSource": 8126464,
+        "x": 136,
+        "y": 111,
+        "frame": 3,
+        "nativeCellPixelsVerified": 732,
+        "nativeColors": 11,
+        "coordinateNote": "Native battle actor coordinates plus the JS core 8px presentation margin"
+      }
+    ],
+    "allThreeOriginalHeadersVerified": true
+  },
+  "evidence": {
+    ".local/qa/horner-native-proof/manifest.json": "f6db488cffa7ad6a0e062a884037441ed3623f9c5baf796d5f0a4acdc54e2440",
+    ".local/qa/horner-native-proof/js-report.json": "9a2602c5499585ab24a4abb599ecb26b7f8cf69f66c37291badd073e9de7aec3",
+    ".local/qa/horner-native-proof/independent-report.json": "6f819927b7b0436adfb545cb57826117057e2c90987c7c8941a4c4869b22d768",
+    ".local/qa/horner-native-proof/battle-report.json": "f077aad311bfbb9e0f019729605337f94070fbe7ee4d12f9450603d8f88e0efe",
+    "assets/imagegen/jack-horner/preview-raster.json": "ba7a9c09fea083c0b7ed66e9a1c54a4aaa84b78297d1afc5f8460d4e413c830d",
+    "assets/imagegen/jack-horner/native-frame-map.draft.json": "a28065f0ba512b23a554342197cda7fc05b6a23f842adb4caf33d23ccc256267",
+    ".local/horner-native-proof.mjs": "c0e2e426afb1d9744ad63197d778c6cdd7170cf68d437a065bb785109b177c84",
+    ".local/horner-native-proof-cores.mjs": "5801a92aba5adf9237306a0ca20e839c5045fd8a6d026a696eb5fdda733111a7",
+    ".local/horner-native-proof-battle.mjs": "6485c5d21736c659a9f783a61f09925d67dbb3154c8029f34467ff4f65e78042",
+    ".local/horner-native-proof-battle-pixels.mjs": "4e35c23abf88001633d6ba4be880e48bc097a6c5709498c66889719c1aec81aa"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "Generated source saved and selected partly or fully in inactive Master Glaze draft.",
+  "mode": "built-in image_gen",
+  "tool": "image_gen.imagegen",
+  "sourceType": "image-generation",
+  "sourceFile": "assets/imagegen/master-glaze/source-contacts-v1.png",
+  "sha256": "6d581e0751628358d8191044b037c37a269f9d4f1cc842af261894f93dee65f7",
+  "decodedRgbaSha256": "4d914c082a66bb4ed9eae87a3336c58b3036bc825fc36fab71e93fba1e989ae3",
+  "dimensions": [
+    1230,
+    1278
+  ],
+  "promptFile": "assets/imagegen/master-glaze/prompt-contacts-v1.txt",
+  "promptSha256": "39a84d67057d4e6719fb1dcfa1cf61c100a5ced8fdef9e89e3b1064db7ab6ff1",
+  "generatedOutputBasename": "exec-ec85bcdc-f526-4d9f-8ab7-3aacc74fc284.png",
+  "transparentBackgroundRequested": true,
+  "alphaPreserved": true,
+  "references": [
+    {
+      "file": "assets/imagegen/master-glaze/reference-base-v1.png",
+      "sha256": "721389691d0506fd5e7ae2a11a3768de62e0fbdbb45d06d9ecc87ebaa2343dec",
+      "role": "Identity / material / pose reference; explicit gray visibility composite of prior generated source pixels."
+    }
+  ],
+  "limitations": "The generator produces a higher-resolution pixel-style raster rather than literal32px/12-color art. The recorded importer performs native sampling and unchanged-palette quantization; native source selection is documented in native-roles.json. Source alpha is partial, so component and sampling thresholds are explicit."
+}

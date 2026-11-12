@@ -1,0 +1,230 @@
+{
+  "key": "scavenger-rats",
+  "frames": 8,
+  "width": 64,
+  "height": 64,
+  "opaqueColors": 12,
+  "palette": [
+    "28272c",
+    "51463e",
+    "8b7763",
+    "c5af8c",
+    "eee0bb",
+    "8d5354",
+    "c88776",
+    "354d52",
+    "73918b",
+    "483b3d",
+    "c59a50",
+    "f6edce"
+  ],
+  "samplingPalette": [
+    "28272c",
+    "51463e",
+    "8b7763",
+    "c5af8c",
+    "eee0bb",
+    "8d5354",
+    "c88776",
+    "354d52",
+    "73918b",
+    "483b3d",
+    "c59a50",
+    "f6edce"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/scavenger-rats/source-v1.png",
+      "sha256": "a1573f87c74403da7e2d8dd2648712e747bd5cb624dd8be520144f3b8c9e5e22",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "scale": 0.112,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.96
+        },
+        "2": {
+          "scale": 0.825
+        },
+        "3": {
+          "scale": 0.9
+        },
+        "7": {
+          "scale": 0.93
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            108,
+            206,
+            177,
+            244
+          ],
+          "componentPixels": 27734
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            502,
+            200,
+            154,
+            250
+          ],
+          "componentPixels": 28527
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            870,
+            137,
+            174,
+            326
+          ],
+          "componentPixels": 28740
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1267,
+            110,
+            156,
+            316
+          ],
+          "componentPixels": 27638
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            69,
+            700,
+            361,
+            181
+          ],
+          "componentPixels": 30465
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            470,
+            662,
+            298,
+            230
+          ],
+          "componentPixels": 26830
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            823,
+            696,
+            313,
+            196
+          ],
+          "componentPixels": 30943
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            1267,
+            571,
+            204,
+            371
+          ],
+          "componentPixels": 32508
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/scavenger-rats/source-profile-v3.png",
+      "sha256": "3784c0ac7c294e501b64fa6eaac487d5eeb24d18b048c143c8f70b796dea0533",
+      "sourceType": "image-generation",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "scale": 0.05982905982905983,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            181,
+            175,
+            498,
+            424
+          ],
+          "componentPixels": 112558
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            884,
+            143,
+            397,
+            468
+          ],
+          "componentPixels": 105378
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            1493,
+            175,
+            543,
+            425
+          ],
+          "componentPixels": 117106
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        {
+          "frame": 0,
+          "flip": true
+        },
+        2,
+        3,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        5,
+        6,
+        7,
+        {
+          "frame": 5,
+          "flip": true
+        },
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        4
+      ]
+    }
+  }
+}

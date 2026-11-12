@@ -1,0 +1,3265 @@
+{
+  "baselineSha256": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+  "labels": [
+    "Rear idle",
+    "Front idle",
+    "Left idle / passing",
+    "Right idle / passing",
+    "Rear contact A",
+    "Rear passing A",
+    "Rear contact B",
+    "Rear passing B",
+    "Front contact A",
+    "Front passing A",
+    "Front contact B",
+    "Front passing B",
+    "Left contact A",
+    "Left contact B",
+    "Right contact A",
+    "Right contact B",
+    "Hammer raised, left",
+    "Hammer strike, left",
+    "Seated drink raised, left",
+    "Seated cup forward, left",
+    "Seated drink raised, right",
+    "Seated cup forward, right",
+    "Standing drink raised, left",
+    "Standing cup forward, left",
+    "Standing drink raised, right",
+    "Standing cup forward, right",
+    "Seated, empty hands, left",
+    "Seated, empty hands, right",
+    "Hunched startled / distressed",
+    "Hands open at waist",
+    "Both hands raised"
+  ],
+  "roles": [
+    {
+      "frame": 0,
+      "label": "Rear idle",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 0,
+        "cellOrigins": [
+          [
+            4,
+            -32
+          ],
+          [
+            -12,
+            -32
+          ],
+          [
+            4,
+            -16
+          ],
+          [
+            -12,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -10,
+          -32,
+          20,
+          32
+        ],
+        "opaqueCellSamples": 428,
+        "displayedOpaquePixels": 428,
+        "overlapSamples": [],
+        "displayedSha256": "93e0cc93d5bc415d7fe61a130d3cfbabdacf62e1e05428cc24fc89160c29efef",
+        "uniqueTiles": [
+          0,
+          1,
+          2,
+          7,
+          8,
+          12,
+          13,
+          18,
+          19,
+          20
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 0,
+          "steps": [
+            {
+              "frame": 0,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 1,
+      "label": "Front idle",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 1,
+        "cellOrigins": [
+          [
+            4,
+            -32
+          ],
+          [
+            -12,
+            -32
+          ],
+          [
+            4,
+            -16
+          ],
+          [
+            -12,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -10,
+          -32,
+          20,
+          32
+        ],
+        "opaqueCellSamples": 427,
+        "displayedOpaquePixels": 427,
+        "overlapSamples": [],
+        "displayedSha256": "efd88ae75b994689937667f9f09a03e45062a2ca30a303f31915d8aaba79e445",
+        "uniqueTiles": [
+          0,
+          3,
+          4,
+          7,
+          9,
+          14,
+          15,
+          21,
+          22,
+          23
+        ]
+      },
+      "lists": [
+        {
+          "facing": 1,
+          "mode": 0,
+          "steps": [
+            {
+              "frame": 1,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        }
+      ],
+      "directStaticCalls": [
+        {
+          "location": 50,
+          "object": 8,
+          "bodyOffset": 1003
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "label": "Left idle / passing",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 2,
+        "cellOrigins": [
+          [
+            -8,
+            -32
+          ],
+          [
+            -24,
+            -32
+          ],
+          [
+            -8,
+            -16
+          ],
+          [
+            -24,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -6,
+          -32,
+          13,
+          32
+        ],
+        "opaqueCellSamples": 319,
+        "displayedOpaquePixels": 319,
+        "overlapSamples": [],
+        "displayedSha256": "d36c3bab2a28000d64764b85fa401fda9c2fe644bc4f7c13795772a8ee08345f",
+        "uniqueTiles": [
+          0,
+          5,
+          6,
+          10,
+          11,
+          16,
+          17,
+          24,
+          25
+        ]
+      },
+      "lists": [
+        {
+          "facing": 2,
+          "mode": 0,
+          "steps": [
+            {
+              "frame": 2,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 2,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 2,
+              "ticks": 15
+            },
+            {
+              "frame": 12,
+              "ticks": 15
+            },
+            {
+              "frame": 2,
+              "ticks": 15
+            },
+            {
+              "frame": 13,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 3,
+      "label": "Right idle / passing",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 3,
+        "cellOrigins": [
+          [
+            -8,
+            -32
+          ],
+          [
+            -24,
+            -32
+          ],
+          [
+            -8,
+            -16
+          ],
+          [
+            -24,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -7,
+          -32,
+          13,
+          32
+        ],
+        "opaqueCellSamples": 319,
+        "displayedOpaquePixels": 319,
+        "overlapSamples": [],
+        "displayedSha256": "af54dd281a6da63a2615c12669d6181f2d2acfd798e98864be669d986374f973",
+        "uniqueTiles": [
+          0,
+          5,
+          6,
+          10,
+          11,
+          16,
+          17,
+          24,
+          25
+        ]
+      },
+      "lists": [
+        {
+          "facing": 3,
+          "mode": 0,
+          "steps": [
+            {
+              "frame": 3,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 3,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 3,
+              "ticks": 15
+            },
+            {
+              "frame": 14,
+              "ticks": 15
+            },
+            {
+              "frame": 3,
+              "ticks": 15
+            },
+            {
+              "frame": 15,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 4,
+      "label": "Rear contact A",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 4,
+        "cellOrigins": [
+          [
+            4,
+            -32
+          ],
+          [
+            -12,
+            -32
+          ],
+          [
+            4,
+            -16
+          ],
+          [
+            -12,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -11,
+          -32,
+          22,
+          32
+        ],
+        "opaqueCellSamples": 454,
+        "displayedOpaquePixels": 454,
+        "overlapSamples": [],
+        "displayedSha256": "1b85cd395077bb5f7308042c5427f69463a813a66272aa2387382b88e55bd114",
+        "uniqueTiles": [
+          0,
+          1,
+          2,
+          50,
+          51,
+          52,
+          58,
+          59,
+          60,
+          66,
+          67,
+          68
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 4,
+              "ticks": 15
+            },
+            {
+              "frame": 5,
+              "ticks": 15
+            },
+            {
+              "frame": 6,
+              "ticks": 15
+            },
+            {
+              "frame": 7,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 5,
+      "label": "Rear passing A",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 5,
+        "cellOrigins": [
+          [
+            4,
+            -31
+          ],
+          [
+            -12,
+            -31
+          ],
+          [
+            4,
+            -15
+          ],
+          [
+            -12,
+            -15
+          ]
+        ],
+        "opaqueBounds": [
+          -10,
+          -31,
+          20,
+          31
+        ],
+        "opaqueCellSamples": 426,
+        "displayedOpaquePixels": 426,
+        "overlapSamples": [],
+        "displayedSha256": "03541d2ae0a2805569be959e614c5439d3cce0b10ddad422b00a449e6e793018",
+        "uniqueTiles": [
+          0,
+          1,
+          2,
+          53,
+          54,
+          55,
+          61,
+          62,
+          63,
+          69,
+          70,
+          71
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 4,
+              "ticks": 15
+            },
+            {
+              "frame": 5,
+              "ticks": 15
+            },
+            {
+              "frame": 6,
+              "ticks": 15
+            },
+            {
+              "frame": 7,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 6,
+      "label": "Rear contact B",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 6,
+        "cellOrigins": [
+          [
+            4,
+            -32
+          ],
+          [
+            -12,
+            -32
+          ],
+          [
+            4,
+            -16
+          ],
+          [
+            -12,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -11,
+          -32,
+          22,
+          32
+        ],
+        "opaqueCellSamples": 454,
+        "displayedOpaquePixels": 454,
+        "overlapSamples": [],
+        "displayedSha256": "428bf02e670b6d8a702ded0dafea195c21e0ca73c93e1184dd256f2b6ed3cae0",
+        "uniqueTiles": [
+          0,
+          1,
+          2,
+          50,
+          51,
+          52,
+          58,
+          59,
+          60,
+          66,
+          67,
+          68
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 4,
+              "ticks": 15
+            },
+            {
+              "frame": 5,
+              "ticks": 15
+            },
+            {
+              "frame": 6,
+              "ticks": 15
+            },
+            {
+              "frame": 7,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 7,
+      "label": "Rear passing B",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 7,
+        "cellOrigins": [
+          [
+            4,
+            -31
+          ],
+          [
+            -12,
+            -31
+          ],
+          [
+            4,
+            -15
+          ],
+          [
+            -12,
+            -15
+          ]
+        ],
+        "opaqueBounds": [
+          -10,
+          -31,
+          20,
+          31
+        ],
+        "opaqueCellSamples": 426,
+        "displayedOpaquePixels": 426,
+        "overlapSamples": [],
+        "displayedSha256": "eb927172b42008cd857c4078da7fc7b24e23bd713fd1030566633bf0a7635bd6",
+        "uniqueTiles": [
+          0,
+          1,
+          2,
+          53,
+          54,
+          55,
+          61,
+          62,
+          63,
+          69,
+          70,
+          71
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 4,
+              "ticks": 15
+            },
+            {
+              "frame": 5,
+              "ticks": 15
+            },
+            {
+              "frame": 6,
+              "ticks": 15
+            },
+            {
+              "frame": 7,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 8,
+      "label": "Front contact A",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 8,
+        "cellOrigins": [
+          [
+            4,
+            -32
+          ],
+          [
+            -12,
+            -32
+          ],
+          [
+            4,
+            -16
+          ],
+          [
+            -12,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -11,
+          -32,
+          22,
+          32
+        ],
+        "opaqueCellSamples": 449,
+        "displayedOpaquePixels": 449,
+        "overlapSamples": [],
+        "displayedSha256": "2a5ed20ced98ed431d5d304aba1f99bb685914eb213ffca7cc53f19e6f61a5f3",
+        "uniqueTiles": [
+          0,
+          3,
+          4,
+          26,
+          27,
+          28,
+          34,
+          35,
+          36,
+          42,
+          43,
+          44
+        ]
+      },
+      "lists": [
+        {
+          "facing": 1,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 8,
+              "ticks": 15
+            },
+            {
+              "frame": 9,
+              "ticks": 15
+            },
+            {
+              "frame": 10,
+              "ticks": 15
+            },
+            {
+              "frame": 11,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 9,
+      "label": "Front passing A",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 9,
+        "cellOrigins": [
+          [
+            4,
+            -31
+          ],
+          [
+            -12,
+            -31
+          ],
+          [
+            4,
+            -15
+          ],
+          [
+            -12,
+            -15
+          ]
+        ],
+        "opaqueBounds": [
+          -10,
+          -31,
+          20,
+          32
+        ],
+        "opaqueCellSamples": 429,
+        "displayedOpaquePixels": 429,
+        "overlapSamples": [],
+        "displayedSha256": "1c5fc9d360bd43fca26194dcc3f8bafb024eea4ac181c0c61c1b02920d69ac3e",
+        "uniqueTiles": [
+          0,
+          3,
+          4,
+          29,
+          30,
+          31,
+          37,
+          38,
+          39,
+          45,
+          46,
+          47
+        ]
+      },
+      "lists": [
+        {
+          "facing": 1,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 8,
+              "ticks": 15
+            },
+            {
+              "frame": 9,
+              "ticks": 15
+            },
+            {
+              "frame": 10,
+              "ticks": 15
+            },
+            {
+              "frame": 11,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 10,
+      "label": "Front contact B",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 10,
+        "cellOrigins": [
+          [
+            4,
+            -32
+          ],
+          [
+            -12,
+            -32
+          ],
+          [
+            4,
+            -16
+          ],
+          [
+            -12,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -11,
+          -32,
+          22,
+          32
+        ],
+        "opaqueCellSamples": 449,
+        "displayedOpaquePixels": 449,
+        "overlapSamples": [],
+        "displayedSha256": "10e4c1d60337288e8183e1fdbf5333da359f729f8260d990f335ce6e03fb1cd0",
+        "uniqueTiles": [
+          0,
+          3,
+          4,
+          26,
+          27,
+          28,
+          34,
+          35,
+          36,
+          42,
+          43,
+          44
+        ]
+      },
+      "lists": [
+        {
+          "facing": 1,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 8,
+              "ticks": 15
+            },
+            {
+              "frame": 9,
+              "ticks": 15
+            },
+            {
+              "frame": 10,
+              "ticks": 15
+            },
+            {
+              "frame": 11,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 11,
+      "label": "Front passing B",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 11,
+        "cellOrigins": [
+          [
+            4,
+            -31
+          ],
+          [
+            -12,
+            -31
+          ],
+          [
+            4,
+            -15
+          ],
+          [
+            -12,
+            -15
+          ]
+        ],
+        "opaqueBounds": [
+          -10,
+          -31,
+          20,
+          32
+        ],
+        "opaqueCellSamples": 429,
+        "displayedOpaquePixels": 429,
+        "overlapSamples": [],
+        "displayedSha256": "c61b2c658e26c21f4ccb19fd380a7bf79ced0365872320252abdb48a7921ba44",
+        "uniqueTiles": [
+          0,
+          3,
+          4,
+          29,
+          30,
+          31,
+          37,
+          38,
+          39,
+          45,
+          46,
+          47
+        ]
+      },
+      "lists": [
+        {
+          "facing": 1,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 8,
+              "ticks": 15
+            },
+            {
+              "frame": 9,
+              "ticks": 15
+            },
+            {
+              "frame": 10,
+              "ticks": 15
+            },
+            {
+              "frame": 11,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 12,
+      "label": "Left contact A",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 12,
+        "cellOrigins": [
+          [
+            -8,
+            -31
+          ],
+          [
+            -24,
+            -32
+          ],
+          [
+            -8,
+            -15
+          ],
+          [
+            -24,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -7,
+          -31,
+          15,
+          31
+        ],
+        "opaqueCellSamples": 341,
+        "displayedOpaquePixels": 341,
+        "overlapSamples": [],
+        "displayedSha256": "96192d5f8230cbc73154bac41316791fb96fa556ac3297ba6839fd854c70aafc",
+        "uniqueTiles": [
+          0,
+          5,
+          6,
+          32,
+          33,
+          40,
+          41,
+          48,
+          49
+        ]
+      },
+      "lists": [
+        {
+          "facing": 2,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 2,
+              "ticks": 15
+            },
+            {
+              "frame": 12,
+              "ticks": 15
+            },
+            {
+              "frame": 2,
+              "ticks": 15
+            },
+            {
+              "frame": 13,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 13,
+      "label": "Left contact B",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 13,
+        "cellOrigins": [
+          [
+            -8,
+            -31
+          ],
+          [
+            -24,
+            -32
+          ],
+          [
+            -8,
+            -15
+          ],
+          [
+            -24,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -8,
+          -31,
+          15,
+          31
+        ],
+        "opaqueCellSamples": 306,
+        "displayedOpaquePixels": 306,
+        "overlapSamples": [],
+        "displayedSha256": "dfec9613a52ca80f4e6a9a7de5a4767b15d4696135ac01f85db76bae659835d5",
+        "uniqueTiles": [
+          0,
+          5,
+          6,
+          56,
+          57,
+          64,
+          65,
+          72,
+          73
+        ]
+      },
+      "lists": [
+        {
+          "facing": 2,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 2,
+              "ticks": 15
+            },
+            {
+              "frame": 12,
+              "ticks": 15
+            },
+            {
+              "frame": 2,
+              "ticks": 15
+            },
+            {
+              "frame": 13,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 14,
+      "label": "Right contact A",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 14,
+        "cellOrigins": [
+          [
+            -8,
+            -31
+          ],
+          [
+            -24,
+            -32
+          ],
+          [
+            -8,
+            -15
+          ],
+          [
+            -24,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -8,
+          -31,
+          15,
+          31
+        ],
+        "opaqueCellSamples": 341,
+        "displayedOpaquePixels": 341,
+        "overlapSamples": [],
+        "displayedSha256": "ce2b3239098f52b19995c99e2197897b4ecb32a17ffb02ad7ff7410675ec25cd",
+        "uniqueTiles": [
+          0,
+          5,
+          6,
+          32,
+          33,
+          40,
+          41,
+          48,
+          49
+        ]
+      },
+      "lists": [
+        {
+          "facing": 3,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 3,
+              "ticks": 15
+            },
+            {
+              "frame": 14,
+              "ticks": 15
+            },
+            {
+              "frame": 3,
+              "ticks": 15
+            },
+            {
+              "frame": 15,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 15,
+      "label": "Right contact B",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 15,
+        "cellOrigins": [
+          [
+            -8,
+            -31
+          ],
+          [
+            -24,
+            -32
+          ],
+          [
+            -8,
+            -15
+          ],
+          [
+            -24,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -7,
+          -31,
+          15,
+          31
+        ],
+        "opaqueCellSamples": 306,
+        "displayedOpaquePixels": 306,
+        "overlapSamples": [],
+        "displayedSha256": "4168ea0669d7dfc529306199e0b0bf27643c10d4a390b89a45d1e7c3a2c1af3a",
+        "uniqueTiles": [
+          0,
+          5,
+          6,
+          56,
+          57,
+          64,
+          65,
+          72,
+          73
+        ]
+      },
+      "lists": [
+        {
+          "facing": 3,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 3,
+              "ticks": 15
+            },
+            {
+              "frame": 14,
+              "ticks": 15
+            },
+            {
+              "frame": 3,
+              "ticks": 15
+            },
+            {
+              "frame": 15,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 16,
+      "label": "Hammer raised, left",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 16,
+        "cellOrigins": [
+          [
+            -8,
+            -32
+          ],
+          [
+            -24,
+            -32
+          ],
+          [
+            -8,
+            -16
+          ],
+          [
+            -24,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -7,
+          -30,
+          15,
+          30
+        ],
+        "opaqueCellSamples": 333,
+        "displayedOpaquePixels": 333,
+        "overlapSamples": [],
+        "displayedSha256": "989c6431fc22f51cb929f800eea896dcd9ea74ed2144db54595a97de68bd78d5",
+        "uniqueTiles": [
+          0,
+          104,
+          105,
+          110,
+          111,
+          115,
+          116,
+          119,
+          120
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 3,
+          "steps": [
+            {
+              "frame": 16,
+              "ticks": 10
+            },
+            {
+              "frame": 17,
+              "ticks": 10
+            }
+          ],
+          "loopTicks": 20
+        },
+        {
+          "facing": 1,
+          "mode": 3,
+          "steps": [
+            {
+              "frame": 16,
+              "ticks": 10
+            },
+            {
+              "frame": 17,
+              "ticks": 10
+            }
+          ],
+          "loopTicks": 20
+        },
+        {
+          "facing": 2,
+          "mode": 3,
+          "steps": [
+            {
+              "frame": 16,
+              "ticks": 10
+            },
+            {
+              "frame": 17,
+              "ticks": 10
+            }
+          ],
+          "loopTicks": 20
+        },
+        {
+          "facing": 3,
+          "mode": 3,
+          "steps": [
+            {
+              "frame": 16,
+              "ticks": 10
+            },
+            {
+              "frame": 17,
+              "ticks": 10
+            }
+          ],
+          "loopTicks": 20
+        }
+      ],
+      "directStaticCalls": [
+        {
+          "location": 81,
+          "object": 10,
+          "bodyOffset": 2357
+        },
+        {
+          "location": 115,
+          "object": 9,
+          "bodyOffset": 487
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "label": "Hammer strike, left",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 17,
+        "cellOrigins": [
+          [
+            -10,
+            -32
+          ],
+          [
+            -26,
+            -32
+          ],
+          [
+            -8,
+            -16
+          ],
+          [
+            -24,
+            -18
+          ]
+        ],
+        "opaqueBounds": [
+          -16,
+          -28,
+          24,
+          28
+        ],
+        "opaqueCellSamples": 355,
+        "displayedOpaquePixels": 355,
+        "overlapSamples": [],
+        "displayedSha256": "c05eb157fa515f8eb489a4ddcde28c60f5b946b828ccc68020edeeb141a2feb3",
+        "uniqueTiles": [
+          0,
+          106,
+          107,
+          112,
+          113,
+          117,
+          118,
+          120,
+          121,
+          122
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 3,
+          "steps": [
+            {
+              "frame": 16,
+              "ticks": 10
+            },
+            {
+              "frame": 17,
+              "ticks": 10
+            }
+          ],
+          "loopTicks": 20
+        },
+        {
+          "facing": 1,
+          "mode": 3,
+          "steps": [
+            {
+              "frame": 16,
+              "ticks": 10
+            },
+            {
+              "frame": 17,
+              "ticks": 10
+            }
+          ],
+          "loopTicks": 20
+        },
+        {
+          "facing": 2,
+          "mode": 3,
+          "steps": [
+            {
+              "frame": 16,
+              "ticks": 10
+            },
+            {
+              "frame": 17,
+              "ticks": 10
+            }
+          ],
+          "loopTicks": 20
+        },
+        {
+          "facing": 3,
+          "mode": 3,
+          "steps": [
+            {
+              "frame": 16,
+              "ticks": 10
+            },
+            {
+              "frame": 17,
+              "ticks": 10
+            }
+          ],
+          "loopTicks": 20
+        }
+      ],
+      "directStaticCalls": [
+        {
+          "location": 81,
+          "object": 10,
+          "bodyOffset": 2361
+        },
+        {
+          "location": 115,
+          "object": 9,
+          "bodyOffset": 491
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "label": "Seated drink raised, left",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 18,
+        "cellOrigins": [
+          [
+            -9,
+            -32
+          ],
+          [
+            -25,
+            -32
+          ],
+          [
+            -10,
+            -16
+          ],
+          [
+            -26,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -12,
+          -32,
+          19,
+          31
+        ],
+        "opaqueCellSamples": 394,
+        "displayedOpaquePixels": 394,
+        "overlapSamples": [],
+        "displayedSha256": "7ffa179615fd6c5937ecb9e96ffb5e2644938c5d834e4514a903dcb81130ed4e",
+        "uniqueTiles": [
+          0,
+          79,
+          80,
+          81,
+          87,
+          88,
+          89,
+          94,
+          95,
+          99,
+          100,
+          114
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 4,
+          "steps": [
+            {
+              "frame": 18,
+              "ticks": 15
+            },
+            {
+              "frame": 19,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 2,
+          "mode": 4,
+          "steps": [
+            {
+              "frame": 18,
+              "ticks": 15
+            },
+            {
+              "frame": 19,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 19,
+      "label": "Seated cup forward, left",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 19,
+        "cellOrigins": [
+          [
+            -8,
+            -32
+          ],
+          [
+            -24,
+            -32
+          ],
+          [
+            -10,
+            -16
+          ],
+          [
+            -26,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -13,
+          -32,
+          20,
+          31
+        ],
+        "opaqueCellSamples": 386,
+        "displayedOpaquePixels": 386,
+        "overlapSamples": [],
+        "displayedSha256": "fc55e43e6649df79f17d9aa4e4d924b531033041615be9aa70d0bebb389d7efa",
+        "uniqueTiles": [
+          0,
+          5,
+          10,
+          94,
+          95,
+          99,
+          100,
+          102,
+          103,
+          108,
+          109
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 4,
+          "steps": [
+            {
+              "frame": 18,
+              "ticks": 15
+            },
+            {
+              "frame": 19,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 2,
+          "mode": 4,
+          "steps": [
+            {
+              "frame": 18,
+              "ticks": 15
+            },
+            {
+              "frame": 19,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 20,
+      "label": "Seated drink raised, right",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 20,
+        "cellOrigins": [
+          [
+            9,
+            -32
+          ],
+          [
+            -7,
+            -32
+          ],
+          [
+            10,
+            -16
+          ],
+          [
+            -6,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -7,
+          -32,
+          19,
+          31
+        ],
+        "opaqueCellSamples": 394,
+        "displayedOpaquePixels": 394,
+        "overlapSamples": [],
+        "displayedSha256": "86060758754f74124307c4b58d08eb3c17caf901df66703fd4d433acf24407b7",
+        "uniqueTiles": [
+          0,
+          79,
+          80,
+          81,
+          87,
+          88,
+          89,
+          94,
+          95,
+          99,
+          100,
+          101,
+          114
+        ]
+      },
+      "lists": [
+        {
+          "facing": 1,
+          "mode": 4,
+          "steps": [
+            {
+              "frame": 20,
+              "ticks": 15
+            },
+            {
+              "frame": 21,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 3,
+          "mode": 4,
+          "steps": [
+            {
+              "frame": 20,
+              "ticks": 15
+            },
+            {
+              "frame": 21,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 21,
+      "label": "Seated cup forward, right",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 21,
+        "cellOrigins": [
+          [
+            8,
+            -32
+          ],
+          [
+            -8,
+            -32
+          ],
+          [
+            10,
+            -16
+          ],
+          [
+            -6,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -7,
+          -32,
+          20,
+          31
+        ],
+        "opaqueCellSamples": 386,
+        "displayedOpaquePixels": 386,
+        "overlapSamples": [],
+        "displayedSha256": "e422c95ac5434531041006d31ca37921c53db9840115daec88401e8e7af9a262",
+        "uniqueTiles": [
+          0,
+          5,
+          10,
+          94,
+          95,
+          99,
+          100,
+          101,
+          102,
+          103,
+          108,
+          109
+        ]
+      },
+      "lists": [
+        {
+          "facing": 1,
+          "mode": 4,
+          "steps": [
+            {
+              "frame": 20,
+              "ticks": 15
+            },
+            {
+              "frame": 21,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 3,
+          "mode": 4,
+          "steps": [
+            {
+              "frame": 20,
+              "ticks": 15
+            },
+            {
+              "frame": 21,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 22,
+      "label": "Standing drink raised, left",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 22,
+        "cellOrigins": [
+          [
+            -1,
+            -32
+          ],
+          [
+            -17,
+            -32
+          ],
+          [
+            0,
+            -16
+          ],
+          [
+            -16,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -12,
+          -32,
+          19,
+          32
+        ],
+        "opaqueCellSamples": 398,
+        "displayedOpaquePixels": 398,
+        "overlapSamples": [],
+        "displayedSha256": "f7099c70e82b7d42ecb3675e6d4d001a54a70ed5bfdd6a6652da5ab759b8e628",
+        "uniqueTiles": [
+          0,
+          16,
+          17,
+          24,
+          25,
+          79,
+          80,
+          81,
+          87,
+          88,
+          89
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 5,
+          "steps": [
+            {
+              "frame": 22,
+              "ticks": 15
+            },
+            {
+              "frame": 23,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 2,
+          "mode": 5,
+          "steps": [
+            {
+              "frame": 22,
+              "ticks": 15
+            },
+            {
+              "frame": 23,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        }
+      ],
+      "directStaticCalls": [
+        {
+          "location": 53,
+          "object": 11,
+          "bodyOffset": 606
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "label": "Standing cup forward, left",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 23,
+        "cellOrigins": [
+          [
+            0,
+            -32
+          ],
+          [
+            -16,
+            -32
+          ],
+          [
+            0,
+            -16
+          ],
+          [
+            -16,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -13,
+          -32,
+          20,
+          32
+        ],
+        "opaqueCellSamples": 390,
+        "displayedOpaquePixels": 390,
+        "overlapSamples": [],
+        "displayedSha256": "7801fa41d88e340d00dca0376a481ffb121e3ae1948f47b4f256b613d04dfc96",
+        "uniqueTiles": [
+          0,
+          5,
+          10,
+          16,
+          17,
+          24,
+          25,
+          102,
+          103,
+          108,
+          109
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 5,
+          "steps": [
+            {
+              "frame": 22,
+              "ticks": 15
+            },
+            {
+              "frame": 23,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 2,
+          "mode": 5,
+          "steps": [
+            {
+              "frame": 22,
+              "ticks": 15
+            },
+            {
+              "frame": 23,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        }
+      ],
+      "directStaticCalls": [
+        {
+          "location": 53,
+          "object": 11,
+          "bodyOffset": 602
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "label": "Standing drink raised, right",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 24,
+        "cellOrigins": [
+          [
+            1,
+            -32
+          ],
+          [
+            -15,
+            -32
+          ],
+          [
+            0,
+            -16
+          ],
+          [
+            -16,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -7,
+          -32,
+          19,
+          32
+        ],
+        "opaqueCellSamples": 398,
+        "displayedOpaquePixels": 398,
+        "overlapSamples": [],
+        "displayedSha256": "22f182a8363fd5e5dfc3c08f2c2a259ef340e3165e8525a47726c147890b7696",
+        "uniqueTiles": [
+          0,
+          16,
+          17,
+          24,
+          25,
+          79,
+          80,
+          81,
+          87,
+          88,
+          89
+        ]
+      },
+      "lists": [
+        {
+          "facing": 1,
+          "mode": 5,
+          "steps": [
+            {
+              "frame": 24,
+              "ticks": 15
+            },
+            {
+              "frame": 25,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 3,
+          "mode": 5,
+          "steps": [
+            {
+              "frame": 24,
+              "ticks": 15
+            },
+            {
+              "frame": 25,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        }
+      ],
+      "directStaticCalls": [
+        {
+          "location": 155,
+          "object": 16,
+          "bodyOffset": 1430
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "label": "Standing cup forward, right",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 25,
+        "cellOrigins": [
+          [
+            0,
+            -32
+          ],
+          [
+            -16,
+            -32
+          ],
+          [
+            0,
+            -16
+          ],
+          [
+            -16,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -7,
+          -32,
+          20,
+          32
+        ],
+        "opaqueCellSamples": 390,
+        "displayedOpaquePixels": 390,
+        "overlapSamples": [],
+        "displayedSha256": "6aa99d8cbca2372fde91f1ba6fc02b8cbf4e15b012befd0f7c2cacaa878d2169",
+        "uniqueTiles": [
+          0,
+          5,
+          10,
+          16,
+          17,
+          24,
+          25,
+          102,
+          103,
+          108,
+          109
+        ]
+      },
+      "lists": [
+        {
+          "facing": 1,
+          "mode": 5,
+          "steps": [
+            {
+              "frame": 24,
+              "ticks": 15
+            },
+            {
+              "frame": 25,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 3,
+          "mode": 5,
+          "steps": [
+            {
+              "frame": 24,
+              "ticks": 15
+            },
+            {
+              "frame": 25,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        }
+      ],
+      "directStaticCalls": [
+        {
+          "location": 155,
+          "object": 16,
+          "bodyOffset": 1426
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "label": "Seated, empty hands, left",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 26,
+        "cellOrigins": [
+          [
+            -8,
+            -32
+          ],
+          [
+            -24,
+            -32
+          ],
+          [
+            -10,
+            -16
+          ],
+          [
+            -26,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -10,
+          -32,
+          17,
+          31
+        ],
+        "opaqueCellSamples": 315,
+        "displayedOpaquePixels": 315,
+        "overlapSamples": [],
+        "displayedSha256": "3120fa689dbf35d7a61d630a881ab0d6032addd000e4d740dd12937ed26892ee",
+        "uniqueTiles": [
+          0,
+          5,
+          6,
+          10,
+          11,
+          94,
+          95,
+          99,
+          100
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 6,
+          "steps": [
+            {
+              "frame": 26,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 2,
+          "mode": 6,
+          "steps": [
+            {
+              "frame": 26,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 27,
+      "label": "Seated, empty hands, right",
+      "meaningBasis": "Viewed original pixels and native animation groups",
+      "native": {
+        "frame": 27,
+        "cellOrigins": [
+          [
+            -8,
+            -32
+          ],
+          [
+            -24,
+            -32
+          ],
+          [
+            -6,
+            -16
+          ],
+          [
+            -22,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -7,
+          -32,
+          17,
+          31
+        ],
+        "opaqueCellSamples": 315,
+        "displayedOpaquePixels": 315,
+        "overlapSamples": [],
+        "displayedSha256": "13b28b683dba903e2834f0ee2312fd6c87019b3ba800f81707dd82a82cc7be06",
+        "uniqueTiles": [
+          0,
+          5,
+          6,
+          10,
+          11,
+          94,
+          95,
+          99,
+          100
+        ]
+      },
+      "lists": [
+        {
+          "facing": 1,
+          "mode": 6,
+          "steps": [
+            {
+              "frame": 27,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 3,
+          "mode": 6,
+          "steps": [
+            {
+              "frame": 27,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        }
+      ],
+      "directStaticCalls": []
+    },
+    {
+      "frame": 28,
+      "label": "Hunched startled / distressed",
+      "meaningBasis": "Viewed original pixels plus current dialogue/action context; exact emotion varies by scene",
+      "native": {
+        "frame": 28,
+        "cellOrigins": [
+          [
+            4,
+            -30
+          ],
+          [
+            -12,
+            -30
+          ],
+          [
+            4,
+            -14
+          ],
+          [
+            -12,
+            -14
+          ]
+        ],
+        "opaqueBounds": [
+          -12,
+          -30,
+          24,
+          31
+        ],
+        "opaqueCellSamples": 475,
+        "displayedOpaquePixels": 475,
+        "overlapSamples": [],
+        "displayedSha256": "17b5ee457b25f069ecf033e991d7a746b383888d819a5c161827de5f42383fbc",
+        "uniqueTiles": [
+          0,
+          74,
+          75,
+          76,
+          82,
+          83,
+          84,
+          90,
+          91,
+          92,
+          96,
+          97,
+          98
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 7,
+          "steps": [
+            {
+              "frame": 28,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 1,
+          "mode": 7,
+          "steps": [
+            {
+              "frame": 28,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 2,
+          "mode": 7,
+          "steps": [
+            {
+              "frame": 28,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 3,
+          "mode": 7,
+          "steps": [
+            {
+              "frame": 28,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        }
+      ],
+      "directStaticCalls": [
+        {
+          "location": 8,
+          "object": 10,
+          "bodyOffset": 1522
+        },
+        {
+          "location": 398,
+          "object": 9,
+          "bodyOffset": 776
+        }
+      ]
+    },
+    {
+      "frame": 29,
+      "label": "Hands open at waist",
+      "meaningBasis": "Viewed original pixels plus current dialogue/action context; exact emotion varies by scene",
+      "native": {
+        "frame": 29,
+        "cellOrigins": [
+          [
+            4,
+            -32
+          ],
+          [
+            -12,
+            -32
+          ],
+          [
+            4,
+            -16
+          ],
+          [
+            -12,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -12,
+          -32,
+          24,
+          32
+        ],
+        "opaqueCellSamples": 433,
+        "displayedOpaquePixels": 433,
+        "overlapSamples": [],
+        "displayedSha256": "150983f9b1af4dae60d6f841546ffb484a1cf0c9bfe0474306d41568b935adb4",
+        "uniqueTiles": [
+          0,
+          3,
+          4,
+          9,
+          15,
+          21,
+          22,
+          23,
+          77,
+          85
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 8,
+          "steps": [
+            {
+              "frame": 29,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 1,
+          "mode": 8,
+          "steps": [
+            {
+              "frame": 29,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 2,
+          "mode": 8,
+          "steps": [
+            {
+              "frame": 29,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 3,
+          "mode": 8,
+          "steps": [
+            {
+              "frame": 29,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        }
+      ],
+      "directStaticCalls": [
+        {
+          "location": 8,
+          "object": 10,
+          "bodyOffset": 1459
+        },
+        {
+          "location": 8,
+          "object": 10,
+          "bodyOffset": 1468
+        },
+        {
+          "location": 8,
+          "object": 10,
+          "bodyOffset": 1485
+        },
+        {
+          "location": 8,
+          "object": 10,
+          "bodyOffset": 1496
+        },
+        {
+          "location": 8,
+          "object": 10,
+          "bodyOffset": 1544
+        },
+        {
+          "location": 8,
+          "object": 10,
+          "bodyOffset": 1552
+        },
+        {
+          "location": 50,
+          "object": 8,
+          "bodyOffset": 1069
+        },
+        {
+          "location": 50,
+          "object": 8,
+          "bodyOffset": 1111
+        },
+        {
+          "location": 138,
+          "object": 14,
+          "bodyOffset": 1910
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "label": "Both hands raised",
+      "meaningBasis": "Viewed original pixels plus current dialogue/action context; exact emotion varies by scene",
+      "native": {
+        "frame": 30,
+        "cellOrigins": [
+          [
+            4,
+            -32
+          ],
+          [
+            -12,
+            -32
+          ],
+          [
+            4,
+            -16
+          ],
+          [
+            -12,
+            -16
+          ]
+        ],
+        "opaqueBounds": [
+          -12,
+          -32,
+          24,
+          32
+        ],
+        "opaqueCellSamples": 429,
+        "displayedOpaquePixels": 429,
+        "overlapSamples": [],
+        "displayedSha256": "b64959ed2d8dd60479f5320417a15eed8b4b56f03c12df0ac0e8784d1e278f14",
+        "uniqueTiles": [
+          0,
+          4,
+          9,
+          15,
+          21,
+          22,
+          23,
+          78,
+          86,
+          93
+        ]
+      },
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 9,
+          "steps": [
+            {
+              "frame": 30,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 1,
+          "mode": 9,
+          "steps": [
+            {
+              "frame": 30,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 2,
+          "mode": 9,
+          "steps": [
+            {
+              "frame": 30,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 3,
+          "mode": 9,
+          "steps": [
+            {
+              "frame": 30,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        }
+      ],
+      "directStaticCalls": [
+        {
+          "location": 8,
+          "object": 10,
+          "bodyOffset": 1537
+        },
+        {
+          "location": 50,
+          "object": 8,
+          "bodyOffset": 1063
+        },
+        {
+          "location": 50,
+          "object": 8,
+          "bodyOffset": 1087
+        },
+        {
+          "location": 138,
+          "object": 14,
+          "bodyOffset": 1908
+        },
+        {
+          "location": 138,
+          "object": 14,
+          "bodyOffset": 1924
+        }
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "mode": 0,
+      "label": "Idle",
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 0,
+          "steps": [
+            {
+              "frame": 0,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 1,
+          "mode": 0,
+          "steps": [
+            {
+              "frame": 1,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 2,
+          "mode": 0,
+          "steps": [
+            {
+              "frame": 2,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 3,
+          "mode": 0,
+          "steps": [
+            {
+              "frame": 3,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        }
+      ]
+    },
+    {
+      "mode": 1,
+      "label": "Four-phase walk",
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 4,
+              "ticks": 15
+            },
+            {
+              "frame": 5,
+              "ticks": 15
+            },
+            {
+              "frame": 6,
+              "ticks": 15
+            },
+            {
+              "frame": 7,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        },
+        {
+          "facing": 1,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 8,
+              "ticks": 15
+            },
+            {
+              "frame": 9,
+              "ticks": 15
+            },
+            {
+              "frame": 10,
+              "ticks": 15
+            },
+            {
+              "frame": 11,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        },
+        {
+          "facing": 2,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 2,
+              "ticks": 15
+            },
+            {
+              "frame": 12,
+              "ticks": 15
+            },
+            {
+              "frame": 2,
+              "ticks": 15
+            },
+            {
+              "frame": 13,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        },
+        {
+          "facing": 3,
+          "mode": 1,
+          "steps": [
+            {
+              "frame": 3,
+              "ticks": 15
+            },
+            {
+              "frame": 14,
+              "ticks": 15
+            },
+            {
+              "frame": 3,
+              "ticks": 15
+            },
+            {
+              "frame": 15,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 60
+        }
+      ]
+    },
+    {
+      "mode": 2,
+      "label": "Empty / reserved",
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 2,
+          "steps": [],
+          "loopTicks": 0
+        },
+        {
+          "facing": 1,
+          "mode": 2,
+          "steps": [],
+          "loopTicks": 0
+        },
+        {
+          "facing": 2,
+          "mode": 2,
+          "steps": [],
+          "loopTicks": 0
+        },
+        {
+          "facing": 3,
+          "mode": 2,
+          "steps": [],
+          "loopTicks": 0
+        }
+      ]
+    },
+    {
+      "mode": 3,
+      "label": "Hammer raised → strike",
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 3,
+          "steps": [
+            {
+              "frame": 16,
+              "ticks": 10
+            },
+            {
+              "frame": 17,
+              "ticks": 10
+            }
+          ],
+          "loopTicks": 20
+        },
+        {
+          "facing": 1,
+          "mode": 3,
+          "steps": [
+            {
+              "frame": 16,
+              "ticks": 10
+            },
+            {
+              "frame": 17,
+              "ticks": 10
+            }
+          ],
+          "loopTicks": 20
+        },
+        {
+          "facing": 2,
+          "mode": 3,
+          "steps": [
+            {
+              "frame": 16,
+              "ticks": 10
+            },
+            {
+              "frame": 17,
+              "ticks": 10
+            }
+          ],
+          "loopTicks": 20
+        },
+        {
+          "facing": 3,
+          "mode": 3,
+          "steps": [
+            {
+              "frame": 16,
+              "ticks": 10
+            },
+            {
+              "frame": 17,
+              "ticks": 10
+            }
+          ],
+          "loopTicks": 20
+        }
+      ]
+    },
+    {
+      "mode": 4,
+      "label": "Seated drink raised → cup forward",
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 4,
+          "steps": [
+            {
+              "frame": 18,
+              "ticks": 15
+            },
+            {
+              "frame": 19,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 1,
+          "mode": 4,
+          "steps": [
+            {
+              "frame": 20,
+              "ticks": 15
+            },
+            {
+              "frame": 21,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 2,
+          "mode": 4,
+          "steps": [
+            {
+              "frame": 18,
+              "ticks": 15
+            },
+            {
+              "frame": 19,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 3,
+          "mode": 4,
+          "steps": [
+            {
+              "frame": 20,
+              "ticks": 15
+            },
+            {
+              "frame": 21,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        }
+      ]
+    },
+    {
+      "mode": 5,
+      "label": "Standing drink raised → cup forward",
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 5,
+          "steps": [
+            {
+              "frame": 22,
+              "ticks": 15
+            },
+            {
+              "frame": 23,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 1,
+          "mode": 5,
+          "steps": [
+            {
+              "frame": 24,
+              "ticks": 15
+            },
+            {
+              "frame": 25,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 2,
+          "mode": 5,
+          "steps": [
+            {
+              "frame": 22,
+              "ticks": 15
+            },
+            {
+              "frame": 23,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        },
+        {
+          "facing": 3,
+          "mode": 5,
+          "steps": [
+            {
+              "frame": 24,
+              "ticks": 15
+            },
+            {
+              "frame": 25,
+              "ticks": 15
+            }
+          ],
+          "loopTicks": 30
+        }
+      ]
+    },
+    {
+      "mode": 6,
+      "label": "Seated without cup",
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 6,
+          "steps": [
+            {
+              "frame": 26,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 1,
+          "mode": 6,
+          "steps": [
+            {
+              "frame": 27,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 2,
+          "mode": 6,
+          "steps": [
+            {
+              "frame": 26,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 3,
+          "mode": 6,
+          "steps": [
+            {
+              "frame": 27,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        }
+      ]
+    },
+    {
+      "mode": 7,
+      "label": "Hunched reaction",
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 7,
+          "steps": [
+            {
+              "frame": 28,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 1,
+          "mode": 7,
+          "steps": [
+            {
+              "frame": 28,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 2,
+          "mode": 7,
+          "steps": [
+            {
+              "frame": 28,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 3,
+          "mode": 7,
+          "steps": [
+            {
+              "frame": 28,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        }
+      ]
+    },
+    {
+      "mode": 8,
+      "label": "Hands open",
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 8,
+          "steps": [
+            {
+              "frame": 29,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 1,
+          "mode": 8,
+          "steps": [
+            {
+              "frame": 29,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 2,
+          "mode": 8,
+          "steps": [
+            {
+              "frame": 29,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 3,
+          "mode": 8,
+          "steps": [
+            {
+              "frame": 29,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        }
+      ]
+    },
+    {
+      "mode": 9,
+      "label": "Hands raised",
+      "lists": [
+        {
+          "facing": 0,
+          "mode": 9,
+          "steps": [
+            {
+              "frame": 30,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 1,
+          "mode": 9,
+          "steps": [
+            {
+              "frame": 30,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 2,
+          "mode": 9,
+          "steps": [
+            {
+              "frame": 30,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        },
+        {
+          "facing": 3,
+          "mode": 9,
+          "steps": [
+            {
+              "frame": 30,
+              "ticks": 5
+            }
+          ],
+          "loopTicks": 5
+        }
+      ]
+    }
+  ],
+  "requiredFrames": 31,
+  "blankFrames": [],
+  "notes": [
+    "Mode2 is an empty animation program, not a blank sprite slot. All31 real source frames are nonblank.",
+    "Mode6 has real left/right seated frames26/27; no direct AA6/AB6 or AC26/27 occurs in the audited target object functions. Keep both because the native program owns them.",
+    "Hammer mode3 always uses left-facing16/17, including when object-facing is another direction. Do not invent four hammer directions.",
+    "Modes4/5/6 choose left for facing0/2 and right for facing1/3. Preserve this aliasing.",
+    "The one-pixel passing-phase bob and original 15-tick gait contacts are part of the motion contract. No generated or native execution proof is claimed."
+  ]
+}

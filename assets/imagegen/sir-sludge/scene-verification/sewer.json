@@ -1,0 +1,849 @@
+{
+  "status": "Passed",
+  "name": "sewer",
+  "baseline": {
+    "path": "assets/imagegen/sir-sludge/private-baseline.sfc",
+    "sha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "commit": "a8d9f5d",
+    "scope": "Fixed private baseline; excluded from source freeze and never canonical output"
+  },
+  "privateRomSha256": "492317c7343a5c18d9eaa043a486a00b7778231962e4bdf8e8950b10fa224696",
+  "scope": "Private unchanged authored event with diagnostic entry. Subsequent input only; no synthetic actor formation or event writes. Scene scope is bounded explicitly below.",
+  "checkpoint": {
+    "id": 236,
+    "x": 14,
+    "y": 40,
+    "facing": 0,
+    "futureScene": "future-sewer-entrance"
+  },
+  "nativeTicks": 17044,
+  "result": {
+    "formations": [
+      [
+        42,
+        42,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      [
+        255,
+        255,
+        255,
+        255,
+        4,
+        255,
+        255,
+        255
+      ],
+      [
+        99,
+        99,
+        42,
+        42,
+        255,
+        255,
+        255,
+        255
+      ]
+    ],
+    "frogSceneLastLine": 47,
+    "flags": 24,
+    "treasure": {
+      "id": 15,
+      "quantity": 1
+    },
+    "bridgeStates": [
+      2,
+      0,
+      2
+    ],
+    "destination": 498,
+    "story": 52
+  },
+  "party": [
+    {
+      "id": 0,
+      "hp": 1
+    },
+    {
+      "id": 1,
+      "hp": 999
+    },
+    {
+      "id": 2,
+      "hp": 999
+    }
+  ],
+  "heapMin": 1248,
+  "heapMax": 3456,
+  "loads": [
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 11,
+      "scriptPC": 1563,
+      "opcode": 131,
+      "id": 42
+    },
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 12,
+      "scriptPC": 1578,
+      "opcode": 131,
+      "id": 42
+    },
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 13,
+      "scriptPC": 1593,
+      "opcode": 131,
+      "id": 99
+    },
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 15,
+      "scriptPC": 1657,
+      "opcode": 131,
+      "id": 99
+    },
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 16,
+      "scriptPC": 1681,
+      "opcode": 131,
+      "id": 99
+    },
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 18,
+      "scriptPC": 1744,
+      "opcode": 131,
+      "id": 42
+    },
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 19,
+      "scriptPC": 1761,
+      "opcode": 131,
+      "id": 42
+    },
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 21,
+      "scriptPC": 1832,
+      "opcode": 131,
+      "id": 99
+    },
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 22,
+      "scriptPC": 1856,
+      "opcode": 131,
+      "id": 99
+    },
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 23,
+      "scriptPC": 1880,
+      "opcode": 131,
+      "id": 42
+    },
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 24,
+      "scriptPC": 1904,
+      "opcode": 131,
+      "id": 42
+    },
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 26,
+      "scriptPC": 1953,
+      "opcode": 131,
+      "id": 82
+    },
+    {
+      "frame": 8931,
+      "location": 236,
+      "pc": 12605696,
+      "object": 28,
+      "scriptPC": 2062,
+      "opcode": 131,
+      "id": 79
+    },
+    {
+      "frame": 8932,
+      "location": 236,
+      "pc": 12605696,
+      "object": 29,
+      "scriptPC": 2098,
+      "opcode": 131,
+      "id": 79
+    },
+    {
+      "frame": 8932,
+      "location": 236,
+      "pc": 12605696,
+      "object": 32,
+      "scriptPC": 2224,
+      "opcode": 131,
+      "id": 79
+    },
+    {
+      "frame": 8932,
+      "location": 236,
+      "pc": 12605696,
+      "object": 33,
+      "scriptPC": 2271,
+      "opcode": 131,
+      "id": 79
+    },
+    {
+      "frame": 8932,
+      "location": 236,
+      "pc": 12605696,
+      "object": 36,
+      "scriptPC": 2428,
+      "opcode": 131,
+      "id": 4
+    },
+    {
+      "frame": 8932,
+      "location": 236,
+      "pc": 12605696,
+      "object": 37,
+      "scriptPC": 2464,
+      "opcode": 131,
+      "id": 82
+    }
+  ],
+  "dispatches": [
+    {
+      "frame": 8856,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8857,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8858,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8860,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8860,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8861,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8862,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8864,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8864,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8865,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8866,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8868,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8868,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8869,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8870,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 9342,
+      "location": 236,
+      "pc": 12606115,
+      "object": 17,
+      "scriptPC": 1738,
+      "opcode": 216
+    },
+    {
+      "frame": 10915,
+      "location": 236,
+      "pc": 12606115,
+      "object": 17,
+      "scriptPC": 1738,
+      "opcode": 216
+    },
+    {
+      "frame": 15534,
+      "location": 236,
+      "pc": 12606115,
+      "object": 35,
+      "scriptPC": 2424,
+      "opcode": 216
+    },
+    {
+      "frame": 17955,
+      "location": 236,
+      "pc": 12606115,
+      "object": 35,
+      "scriptPC": 2424,
+      "opcode": 216
+    },
+    {
+      "frame": 18738,
+      "location": 236,
+      "pc": 12606115,
+      "object": 20,
+      "scriptPC": 1826,
+      "opcode": 216
+    },
+    {
+      "frame": 22022,
+      "location": 236,
+      "pc": 12606115,
+      "object": 20,
+      "scriptPC": 1826,
+      "opcode": 216
+    }
+  ],
+  "messages": [
+    {
+      "frame": 12522,
+      "location": 236,
+      "pc": 12591393,
+      "object": 33,
+      "stringId": 96,
+      "table": 13925746
+    },
+    {
+      "frame": 12614,
+      "location": 236,
+      "pc": 12591393,
+      "object": 33,
+      "stringId": 97,
+      "table": 13925746
+    },
+    {
+      "frame": 12830,
+      "location": 236,
+      "pc": 12591393,
+      "object": 33,
+      "stringId": 98,
+      "table": 13925746
+    },
+    {
+      "frame": 13074,
+      "location": 236,
+      "pc": 12591393,
+      "object": 33,
+      "stringId": 99,
+      "table": 13925746
+    },
+    {
+      "frame": 13186,
+      "location": 236,
+      "pc": 12591393,
+      "object": 33,
+      "stringId": 47,
+      "table": 13925746
+    },
+    {
+      "frame": 13999,
+      "location": 236,
+      "pc": 12591393,
+      "object": 37,
+      "stringId": 52,
+      "table": 13925746
+    },
+    {
+      "frame": 14146,
+      "location": 236,
+      "pc": 12591393,
+      "object": 37,
+      "stringId": 53,
+      "table": 13925746
+    },
+    {
+      "frame": 14290,
+      "location": 236,
+      "pc": 12591393,
+      "object": 37,
+      "stringId": 54,
+      "table": 13925746
+    },
+    {
+      "frame": 14390,
+      "location": 236,
+      "pc": 12591393,
+      "object": 37,
+      "stringId": 55,
+      "table": 13925746
+    },
+    {
+      "frame": 14570,
+      "location": 236,
+      "pc": 12591393,
+      "object": 37,
+      "stringId": 56,
+      "table": 13925746
+    },
+    {
+      "frame": 15070,
+      "location": 236,
+      "pc": 12591393,
+      "object": 37,
+      "stringId": 57,
+      "table": 13925746
+    },
+    {
+      "frame": 15286,
+      "location": 236,
+      "pc": 12591393,
+      "object": 3,
+      "stringId": 58,
+      "table": 13925746
+    },
+    {
+      "frame": 22584,
+      "location": 236,
+      "pc": 12591393,
+      "object": 1,
+      "stringId": 0,
+      "table": 13925746
+    }
+  ],
+  "pointers": [
+    {
+      "location": 236,
+      "object": 36,
+      "enemy": 4,
+      "pointer": 8192000,
+      "palette": 21
+    }
+  ],
+  "observedFieldFrames": [
+    {
+      "key": "236:36:0",
+      "sampledTicks": 26
+    },
+    {
+      "key": "236:36:1",
+      "sampledTicks": 4
+    },
+    {
+      "key": "236:36:2",
+      "sampledTicks": 31
+    },
+    {
+      "key": "236:36:20",
+      "sampledTicks": 11
+    },
+    {
+      "key": "236:36:19",
+      "sampledTicks": 69
+    },
+    {
+      "key": "236:36:18",
+      "sampledTicks": 32
+    },
+    {
+      "key": "236:36:6",
+      "sampledTicks": 544
+    }
+  ],
+  "shots": [
+    {
+      "key": "entry",
+      "tick": 400,
+      "brightness": 15,
+      "location": 236,
+      "battle": 0,
+      "formation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 36,
+          "frame": 255
+        }
+      ]
+    },
+    {
+      "key": "sewer-upper-battle-1",
+      "tick": 904,
+      "brightness": 15,
+      "location": 236,
+      "battle": 1,
+      "formation": [
+        42,
+        42,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 36,
+          "frame": 41
+        }
+      ]
+    },
+    {
+      "key": "sewer-hidden-door",
+      "tick": 3109,
+      "brightness": 15,
+      "location": 236,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 36,
+          "frame": 255
+        }
+      ]
+    },
+    {
+      "key": "sewer-frog-scene-complete",
+      "tick": 4875,
+      "brightness": 15,
+      "location": 236,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 36,
+          "frame": 255
+        }
+      ]
+    },
+    {
+      "key": "dialogue-52",
+      "tick": 5167,
+      "brightness": 15,
+      "location": 236,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 36,
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "key": "dialogue-53",
+      "tick": 5314,
+      "brightness": 15,
+      "location": 236,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 36,
+          "frame": 2
+        }
+      ]
+    },
+    {
+      "key": "dialogue-54",
+      "tick": 5458,
+      "brightness": 15,
+      "location": 236,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 36,
+          "frame": 2
+        }
+      ]
+    },
+    {
+      "key": "sewer-upper-battle-2",
+      "tick": 7120,
+      "brightness": 15,
+      "location": 236,
+      "battle": 1,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        4,
+        255,
+        255,
+        255
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 36,
+          "frame": 41
+        }
+      ]
+    },
+    {
+      "key": "sewer-upper-battle-3",
+      "tick": 10363,
+      "brightness": 15,
+      "location": 236,
+      "battle": 1,
+      "formation": [
+        99,
+        99,
+        42,
+        42,
+        255,
+        255,
+        255,
+        255
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 36,
+          "frame": 41
+        }
+      ]
+    },
+    {
+      "key": "sewer-sword-chest",
+      "tick": 14026,
+      "brightness": 15,
+      "location": 236,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 36,
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "key": "sewer-bridge-crossed",
+      "tick": 14946,
+      "brightness": 15,
+      "location": 236,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 36,
+          "frame": 6
+        }
+      ]
+    },
+    {
+      "key": "sewer-world-exit",
+      "tick": 17044,
+      "brightness": 15,
+      "location": 498,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "frames": []
+    }
+  ],
+  "bothPalettesUnchanged": true,
+  "cartridgeUnchanged": true
+}

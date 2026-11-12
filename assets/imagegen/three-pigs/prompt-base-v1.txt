@@ -1,0 +1,13 @@
+Use case: stylized-concept
+Asset type: original production sprite atlas for a native SNES RPG, Shrek Trigger.
+Primary request: Create Chrono Trigger-style pixel sprites of the Three Little Pigs from Shrek, using the provided film character reference for identity. All three pigs must be together as ONE compact grouped sprite in every cell.
+Reference role: identity only: pink stout anthropomorphic pigs with long snouts, upright pointed ears, tiny black hoof hands/feet and round bellies. One wears a pale gray work cap, one a yellow hardhat, one a brown straw hat. Preserve these three distinct hats. No added clothing. Completely nonsexual cartoon pig characters.
+Native layout constraint: each group must fit a logical32x32 SNES cell, totalgroup approximately29 pixels wide and27 pixels tall. Arrange a compact triangular formation with two pigs in front and the third slightly behind/between, all three heads and snouts readable. A little overlap is fine; no pig may be completely hidden. Maintain each pig's identity/order through turns. These are small field sprites, not a large realistic illustration.
+Style: true crisp pixel art, each pig simple readable anatomy and purposeful pink shaded planes, selective thin dark-brown contour, top-left light. Distinct hat silhouettes, dark nostrils and eyes.12opaque colors plus transparency. No gradients, no texture noise, no antialiasing, no ground shadow.
+Composition: exactly16 separate GROUPS of three pigs, laid out4columns by4rows. Each entire group centered within its cell and fully visible, large transparent gap between groups. There must be48 individual pigs total, grouped as16 threes. No text, labels, numbers, border, grid, scenery, extra objects or extra pigs. Genuine transparent alpha background.
+Exact row-major poses of each whole group:
+Row1: FRONT idle, all facing viewer; REAR idle, all facing away; LEFT profile idle, all looking left; RIGHT profile idle, all looking right.
+Row2: FRONT walking contactA; FRONT walking opposite contactB; REAR walking contactA; REAR walking opposite contactB.
+Row3: LEFT walking contactA; LEFT walking opposite contactB; RIGHT walking contactA; RIGHT walking opposite contactB.
+Row4: RIGHT-facing workshop actionA, yellow-hardhat pig holding a short hammer raised while the other two lean forward assisting; RIGHT-facing workshop actionB, hammer lowered and other pigs adjusting their hands; FRONT group sitting close together on ground; FRONT group talking animatedly with one pig's hoof raised.
+Constraints: Keep all three pigs present in EVERY pose, hats consistent, native-friendly compact formation and12-color clustered shading. Use entirely new sprite pixels rather than tracing the film render.

@@ -1,0 +1,321 @@
+{
+  "status": "Frozen inactive actual-imagegen source packet",
+  "key": "cosmic-muffin-spawn",
+  "activation": false,
+  "owners": [
+    110,
+    111,
+    215,
+    216
+  ],
+  "palette": 208,
+  "paletteUnchanged": true,
+  "native": {
+    "body": {
+      "gfx": 177,
+      "asm": 173,
+      "cells": 24,
+      "slots": 2,
+      "visibleSlots": 1,
+      "fixedFieldFrame": 0,
+      "blankSlot": 1,
+      "raw": 2528,
+      "compressed": 2249,
+      "assembly": 480
+    },
+    "head": {
+      "gfx": 176,
+      "asm": 171,
+      "cells": 4,
+      "slots": 2,
+      "raw": 608,
+      "compressed": 430,
+      "assembly": 80
+    },
+    "combined": {
+      "raw": 3136,
+      "rawDelta": -32,
+      "compressed": 2679,
+      "compressedDelta": -204,
+      "assembly": 560,
+      "assemblyDelta": 0,
+      "extraOamCells": 0,
+      "extraVramBytes": 0
+    }
+  },
+  "hashes": [
+    {
+      "key": "shell",
+      "graphics": "5e21d3d0a6598ed675ecf6c290db958db696d60d217f729d5f6b3a6435dab388",
+      "compressed": "5b185c3891a216e67a987ba77593c2dad6890d6d8f46eb6c995a599bc11c1410",
+      "finalAssembly": "e71d049ae4c2e8240846d691e5e80b62f6eccad68cbbc324dcbcf791f9b2fbbb"
+    },
+    {
+      "key": "head",
+      "graphics": "60182d91930d00c2399d8d3fa42393feadfdbab0e63c0936b9b81353a3008789",
+      "compressed": "87973520f1e213d1beada4b21834c2bea383c6c09aa9e23da552cc68caf7a99c",
+      "finalAssembly": "b00f69c4cda41d40435e193e69c188eaaa49de2d856deb97023c9dd858d28376"
+    }
+  ],
+  "source": "provenance.json",
+  "roles": "native-roles.draft.json",
+  "integration": "integration-proposal.json",
+  "geometry": "shell-draft/audit.json and head-area-draft/audit.json",
+  "proof": {
+    "baselineSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+    "privateSha256": "7496a07c2ba7d62f05e5576c79ac977dc1ce21673e5ea71da2d9a0dbf98cecb5",
+    "selectableOwnerUploads": 6,
+    "exactCells": 64,
+    "headOpaquePixels": 1212,
+    "originalProgramCases": 104,
+    "nativeVideoTicks": 7136,
+    "maxRequestDisplayDelay": 0,
+    "scenes": [
+      {
+        "location": 96,
+        "formation": [
+          111,
+          255,
+          255,
+          255,
+          255,
+          255,
+          110,
+          255
+        ],
+        "attacks": 14,
+        "heap": 5120,
+        "exactStates": [
+          {
+            "battle": false,
+            "mouth": 0,
+            "delta": [
+              -8,
+              1
+            ],
+            "pixels": 4060
+          },
+          {
+            "battle": true,
+            "mouth": 0,
+            "delta": [
+              -8,
+              1
+            ],
+            "pixels": 4060
+          },
+          {
+            "battle": true,
+            "mouth": 1,
+            "delta": [
+              -8,
+              1
+            ],
+            "pixels": 4074
+          }
+        ]
+      },
+      {
+        "location": 247,
+        "formation": [
+          215,
+          255,
+          255,
+          255,
+          255,
+          255,
+          216,
+          255
+        ],
+        "attacks": 7,
+        "heap": 3136,
+        "exactStates": [
+          {
+            "battle": true,
+            "mouth": 0,
+            "delta": [
+              -8,
+              1
+            ],
+            "pixels": 4060
+          },
+          {
+            "battle": true,
+            "mouth": 1,
+            "delta": [
+              -8,
+              1
+            ],
+            "pixels": 4074
+          }
+        ]
+      },
+      {
+        "location": 264,
+        "formation": [
+          215,
+          255,
+          255,
+          255,
+          255,
+          255,
+          216,
+          255
+        ],
+        "attacks": 7,
+        "heap": 5760,
+        "exactStates": [
+          {
+            "battle": false,
+            "mouth": 0,
+            "delta": [
+              -8,
+              0
+            ],
+            "pixels": 4050
+          },
+          {
+            "battle": true,
+            "mouth": 0,
+            "delta": [
+              -8,
+              0
+            ],
+            "pixels": 4050
+          },
+          {
+            "battle": true,
+            "mouth": 1,
+            "delta": [
+              -8,
+              1
+            ],
+            "pixels": 4074
+          }
+        ]
+      },
+      {
+        "location": 495,
+        "formation": [
+          215,
+          255,
+          255,
+          255,
+          255,
+          255,
+          216,
+          255
+        ],
+        "attacks": 7,
+        "heap": 3456,
+        "exactStates": [
+          {
+            "battle": true,
+            "mouth": 0,
+            "delta": [
+              -8,
+              1
+            ],
+            "pixels": 4060
+          },
+          {
+            "battle": true,
+            "mouth": 1,
+            "delta": [
+              -8,
+              1
+            ],
+            "pixels": 4074
+          }
+        ]
+      }
+    ],
+    "platform": {
+      "initial": {
+        "leader": [
+          161,
+          336
+        ],
+        "shell": [
+          190,
+          277
+        ]
+      },
+      "final": {
+        "tick": 1275,
+        "location": 495,
+        "leader": [
+          248.625,
+          191.625
+        ],
+        "shell": [
+          257.375,
+          254.25
+        ],
+        "bodyOrigin": [
+          126,
+          113
+        ],
+        "control": 1,
+        "flags": [
+          32,
+          0
+        ],
+        "fatal": null
+      },
+      "originalSuccessfulReturnPC": 684
+    },
+    "conservativeSceneUnion": 5760,
+    "independentCore": false
+  },
+  "limitations": [
+    "Inactive art proposal only. Root owns production integration, final allocation, owner contracts and independent cores.",
+    "Body blank assembly1 is retained but not selectable through the original fixed-size3 field AC/AA path. Only six selectable owner/frames are claimed as native uploads.",
+    "Body original anchor and22 cells remain exact; cells6/12 are repositioned as recorded. Its opaque bottom is1px lower. Root explicitly accepted the unchanged candidate after original platform proof.",
+    "Head grows64 decoded bytes individually, even though both banks together save32 bytes. An explicit gfx176 growth/storage contract is necessary; no blanket guard relaxation.",
+    "Scene checks begin from diagnostic jumps and a test loadout. Complete natural mountain/Black Omen predecessor routes and clone locations76–78 remain untraversed.",
+    "Original weather/color math, camera movement and foreground occlusion are not removed. Exact framebuffer captures are identified separately from intermediate observations.",
+    "The scene proof uses historical baseline2e2a574e. Co-load union5760 bytes is conservative for that saved build, not a claim about all later unintegrated source packets.",
+    "Native source battle names remain untouched in this art packet. Root may assign final public names during integration; both source shell names are Lavos Spawn and the heads have blank names."
+  ],
+  "compilerDependencies": [
+    {
+      "file": "scripts/import-raster-art.mjs",
+      "sha256": "a2baced592fbf400115a1b1c1d1908347977cb0dcb8b5d1cd60657fd165289da"
+    },
+    {
+      "file": "scripts/native-sprite-view.mjs",
+      "sha256": "aae53613905053a967d1e5507a70466f536fe3839d9d38b1e30c69548b394e92"
+    },
+    {
+      "file": "engine/native-sprites.js",
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "file": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "file": "engine/rom.js",
+      "sha256": "06b336022840d63cc8295bce22f19ee3527484a06739b76ce90dc5bafa2a9b04"
+    },
+    {
+      "file": "engine/expanded-rom.js",
+      "sha256": "de8f528ce60b4488df9d7742c38e8c9af2ae58e74df641fe6fd1c605dbeedde2"
+    },
+    {
+      "file": "engine/sprites.js",
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "file": "package.json",
+      "sha256": "665ec90c3bc201a6d04255b36c9a73f350337d5fc33c90fb180770cbc1e3d3ad"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "64a6a819820c608b0efc612e049a872b68b3159ec6d3cc95ae13261893a980b5"
+    }
+  ],
+  "review": "review/index.html",
+  "minimalFiles": "reproducibility-files.txt"
+}

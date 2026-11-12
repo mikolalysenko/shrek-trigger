@@ -1,0 +1,803 @@
+{
+  "status": "Direction and all 37 native static poses approved by root; inactive",
+  "activation": false,
+  "generationStarted": true,
+  "baseline": {
+    "path": ".local/qa/hench-audit-af3383746691/baseline.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7"
+  },
+  "original": {
+    "path": ".local/chrono-trigger-usa.sfc",
+    "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+  },
+  "identity": {
+    "workingDescription": "Ordinary stout hobgoblin townsfolk and hired fists",
+    "majorCastReassignment": false,
+    "nativeNamesUnchanged": [
+      "Hench",
+      "Hench"
+    ],
+    "sourceDirection": "Small pot-bellied fairy-tale hobgoblin with a broad blunt nose, heavy brow, readable ears, crooked soft work cap, belted patched tunic, rolled sleeves, broad bare fists and worn boots. Friendly idle expression must also support wary Medina residents; full directional wind-ups and body tumbles retain the original fighting roles.",
+    "paletteAssignment": "Use the exact original indexed palette: enemy 5 peach skin / purple clothing, enemy 75 gold skin / blue clothing, gray cap and trim in both. No palette writes.",
+    "distinctions": "No named film/celebrity replacement, new major faction, weapon, horns, swamp-imp waistcoat or leaf-eared rolling mount. Keep this model visibly separate from gfx86 swamp tricksters and named fortress enforcers.",
+    "designEvidence": [
+      {
+        "path": "docs/game-design.md",
+        "context": "Generic villagers, guards, beasts and refugees fit their era and the Shrek world; medieval kingdoms include outlaw creatures and Farquaad fortress."
+      },
+      {
+        "path": "content/medina-dialogue.js",
+        "locations": [
+          31,
+          35,
+          36,
+          39
+        ],
+        "context": "Medina refugees distrust royal strangers, but the inn and market also have peaceful hospitality/business branches."
+      },
+      {
+        "path": "content/fortress-dialogue.js",
+        "locations": [
+          166
+        ],
+        "context": "Horner describes contracted beasts; no new named Hench casting is established."
+      },
+      {
+        "path": "content/medieval-dialogue.js",
+        "locations": [
+          131,
+          201,
+          202
+        ],
+        "context": "Cathedral guards and disguised support staff; kitchen placement does not make all family instances chefs."
+      }
+    ],
+    "leadInventory": "sprite_art_pass reports no prior accepted gfx83 source. Root approved this ordinary hobgoblin direction and subsequently all 37 native static poses; lead separately approved the complete native sheet and enlarged gait, strike and tumble pages."
+  },
+  "family": {
+    "gfx": 83,
+    "asm": 38,
+    "palettes": [
+      24,
+      23
+    ],
+    "animation": 30,
+    "size": 0,
+    "cells": 4,
+    "frames": 37
+  },
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 5,
+      "header": [
+        83,
+        38,
+        24,
+        30,
+        0,
+        0,
+        240,
+        16,
+        16,
+        65
+      ],
+      "name": "Hench"
+    },
+    {
+      "kind": "enemy",
+      "id": 75,
+      "header": [
+        83,
+        38,
+        23,
+        30,
+        0,
+        0,
+        240,
+        12,
+        20,
+        65
+      ],
+      "name": "Hench"
+    }
+  ],
+  "aliasContract": {
+    "graphics": [
+      83
+    ],
+    "assembly": [
+      38
+    ],
+    "palettes": {
+      "23": [
+        23
+      ],
+      "24": [
+        24
+      ]
+    },
+    "frameProgram": [
+      30
+    ],
+    "durationProgram": [
+      30
+    ],
+    "externalOwners": [],
+    "npcHeaderOwners": [],
+    "friendlyEnemyHeaderUse": true
+  },
+  "geometry": {
+    "nativeSlots": 37,
+    "nonblankSlots": 37,
+    "cellsPerSlot": 4,
+    "totalOwnerPoseCases": 74,
+    "totalOwnerCells": 296,
+    "preserve": "All authored cell origins, cell order, overlaps and palette indices; never recenter the displaced strikes and tumbling bodies into one idle box.",
+    "nativeCellReservationExtentInclusive": [
+      -34,
+      -42,
+      33,
+      2
+    ],
+    "exactMirrorPairs": [
+      {
+        "frames": [
+          6,
+          9
+        ],
+        "kind": "exact horizontal reflection plus authored translation",
+        "xTransform": "x\u2192-1\u2212x",
+        "dy": 0
+      },
+      {
+        "frames": [
+          7,
+          10
+        ],
+        "kind": "exact horizontal reflection plus authored translation",
+        "xTransform": "x\u2192-1\u2212x",
+        "dy": 0
+      },
+      {
+        "frames": [
+          8,
+          11
+        ],
+        "kind": "exact horizontal reflection plus authored translation",
+        "xTransform": "x\u2192-1\u2212x",
+        "dy": 0
+      },
+      {
+        "frames": [
+          19,
+          22
+        ],
+        "kind": "exact horizontal reflection plus authored translation",
+        "xTransform": "x\u2192-1\u2212x",
+        "dy": 0
+      },
+      {
+        "frames": [
+          20,
+          23
+        ],
+        "kind": "exact horizontal reflection plus authored translation",
+        "xTransform": "x\u2192-1\u2212x",
+        "dy": 0
+      },
+      {
+        "frames": [
+          31,
+          34
+        ],
+        "kind": "exact horizontal reflection plus authored translation",
+        "xTransform": "x\u2192-1\u2212x",
+        "dy": 0
+      },
+      {
+        "frames": [
+          32,
+          35
+        ],
+        "kind": "exact horizontal reflection plus authored translation",
+        "xTransform": "x\u2192-1\u2212x",
+        "dy": 0
+      },
+      {
+        "frames": [
+          33,
+          36
+        ],
+        "kind": "exact horizontal reflection plus authored translation",
+        "xTransform": "x\u2192-1\u2212x",
+        "dy": 0
+      }
+    ],
+    "minimumDistinctSourcePosesIfOnlyProvenMirrorsReused": 29,
+    "forbiddenCollapse": "Rear/front contacts and tumble slots 25\u201330 are not exact duplicates. Recovery 21/24 is not an exact mirror. Keep distinct authored sources for these.",
+    "overlapFrames": [
+      {
+        "frame": 1,
+        "overlappingPositions": 32,
+        "maxDepth": 2
+      },
+      {
+        "frame": 4,
+        "overlappingPositions": 16,
+        "maxDepth": 2
+      },
+      {
+        "frame": 13,
+        "overlappingPositions": 26,
+        "maxDepth": 2
+      },
+      {
+        "frame": 14,
+        "overlappingPositions": 96,
+        "maxDepth": 2
+      },
+      {
+        "frame": 15,
+        "overlappingPositions": 96,
+        "maxDepth": 2
+      },
+      {
+        "frame": 25,
+        "overlappingPositions": 32,
+        "maxDepth": 2
+      },
+      {
+        "frame": 26,
+        "overlappingPositions": 32,
+        "maxDepth": 2
+      },
+      {
+        "frame": 27,
+        "overlappingPositions": 32,
+        "maxDepth": 2
+      },
+      {
+        "frame": 28,
+        "overlappingPositions": 32,
+        "maxDepth": 2
+      },
+      {
+        "frame": 29,
+        "overlappingPositions": 32,
+        "maxDepth": 2
+      },
+      {
+        "frame": 30,
+        "overlappingPositions": 32,
+        "maxDepth": 2
+      }
+    ],
+    "retainedSourceEffectProposal": [
+      {
+        "frame": 14,
+        "pixels": 1,
+        "bounds": [
+          5,
+          -39,
+          1,
+          1
+        ],
+        "indices": [
+          4
+        ],
+        "points": [
+          [
+            5,
+            -39,
+            4
+          ]
+        ]
+      },
+      {
+        "frame": 14,
+        "pixels": 1,
+        "bounds": [
+          6,
+          -37,
+          1,
+          1
+        ],
+        "indices": [
+          4
+        ],
+        "points": [
+          [
+            6,
+            -37,
+            4
+          ]
+        ]
+      },
+      {
+        "frame": 17,
+        "pixels": 1,
+        "bounds": [
+          -3,
+          -34,
+          1,
+          1
+        ],
+        "indices": [
+          4
+        ],
+        "points": [
+          [
+            -3,
+            -34,
+            4
+          ]
+        ]
+      },
+      {
+        "frame": 17,
+        "pixels": 1,
+        "bounds": [
+          -1,
+          -33,
+          1,
+          1
+        ],
+        "indices": [
+          4
+        ],
+        "points": [
+          [
+            -1,
+            -33,
+            4
+          ]
+        ]
+      },
+      {
+        "frame": 20,
+        "pixels": 1,
+        "bounds": [
+          -29,
+          -30,
+          1,
+          1
+        ],
+        "indices": [
+          4
+        ],
+        "points": [
+          [
+            -29,
+            -30,
+            4
+          ]
+        ]
+      },
+      {
+        "frame": 23,
+        "pixels": 1,
+        "bounds": [
+          28,
+          -30,
+          1,
+          1
+        ],
+        "indices": [
+          4
+        ],
+        "points": [
+          [
+            28,
+            -30,
+            4
+          ]
+        ]
+      }
+    ],
+    "detachedEffectLimit": "Only six isolated one-pixel index-4 motion flecks are identified. Long arm crescents belong to connected pose silhouettes and require actual generated/source-based art; no procedural anatomy.",
+    "optionalAuthoringCanvas": {
+      "width": 96,
+      "height": 64,
+      "sourceNativeOrigin": [
+        48,
+        48
+      ],
+      "groupAnchor": [
+        0,
+        16
+      ],
+      "cellOriginFormula": "[native x + 48, native y + 48]; compiler default [48,64] plus group anchor [0,16] restores the original native coordinates",
+      "status": "Implemented and exactly reproduced in the inactive compiler; native upload proof is separate."
+    }
+  },
+  "animation": {
+    "id": 30,
+    "frameBytes": 160,
+    "durationBytes": 40,
+    "frameSha256": "d37621d02a3bfe048f1d38b4fec33feabd51dbd4a61fc2cb555da8162751d1c4",
+    "durationSha256": "77994014955624036c959fb587782dbc5c2049b1cbecb857de4bb619f7c74c81",
+    "nonemptyFacingActionLists": 36,
+    "ownerTimingCases": 72,
+    "referencedFrames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "unchanged": true,
+    "importantDurations": {
+      "walk": [
+        20,
+        10,
+        20,
+        10
+      ],
+      "strikeAction4": [
+        16,
+        4,
+        32
+      ],
+      "strikeAction7": [
+        10,
+        4,
+        10
+      ],
+      "tumblesActions8And9": [
+        5,
+        5,
+        5
+      ]
+    },
+    "playbackScope": "review/original-motion.html is source-list playback at 60 Hz, not native execution or proof of event/combat consumers."
+  },
+  "budgets": {
+    "originalCT": {
+      "graphics4bppBytes": 8928,
+      "compressedGraphicsBytes": 7491,
+      "assemblyBytes": 1480,
+      "totalCompressedAndAssemblyBytes": 8971
+    },
+    "pinnedPublished": {
+      "graphics4bppBytes": 8928,
+      "compressedGraphicsBytes": 7491,
+      "assemblyBytes": 1480,
+      "totalCompressedAndAssemblyBytes": 8971,
+      "unchangedFromOriginal": true,
+      "streamPointer": 0
+    },
+    "target": "Preserve quality and all 37 slots. Prefer exact source/tile reuse within 8,928 decoded bytes; if the replacement exceeds the original guard, request an explicit gfx83 native-stream contract through root integration.",
+    "placement": "Ordinary compressed graphics allocation, using established extended ROM placement if needed. Keep the fixed 1,480-byte assembly and all owner/program/header contracts. Do not weaken the default decoded-budget guard or add WRAM/VRAM.",
+    "futureCost": "No generated bank exists yet, so replacement decoded/compressed deltas are not claimed.",
+    "nativeHeapBytes": 32768,
+    "busiestAuditedScene": {
+      "location": 202,
+      "name": "Manoria Kitchen",
+      "owners": [
+        75
+      ],
+      "loadCount": 1,
+      "loadBodyOffsets": [
+        559
+      ],
+      "legacyHeapUnionBytes": 31328,
+      "with83StreamUnionBytes": 22400,
+      "spareBytes": 1440,
+      "battleInstructionCount": 0,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    "busiestSceneBanks": [
+      {
+        "gfx": 83,
+        "decodedBytes": 8928,
+        "streamed": false
+      },
+      {
+        "gfx": 87,
+        "decodedBytes": 12288,
+        "streamed": false
+      },
+      {
+        "gfx": 111,
+        "decodedBytes": 10112,
+        "streamed": false
+      }
+    ],
+    "caveat": "These are verified original-site, all-branch graphics unions on af338; they are conservative load inventories, not observed simultaneous residency. Kitchen spare capacity does not supersede the strict original 8,928-byte bank guard."
+  },
+  "sceneConsumers": [
+    {
+      "location": 31,
+      "name": "Medina Square",
+      "owners": [
+        75
+      ],
+      "loadCount": 3,
+      "loadBodyOffsets": [
+        840,
+        910,
+        972
+      ],
+      "legacyHeapUnionBytes": 20000,
+      "with83StreamUnionBytes": 11072,
+      "spareBytes": 12768,
+      "battleInstructionCount": 0,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    {
+      "location": 35,
+      "name": "Medina Inn",
+      "owners": [
+        75
+      ],
+      "loadCount": 1,
+      "loadBodyOffsets": [
+        640
+      ],
+      "legacyHeapUnionBytes": 21504,
+      "with83StreamUnionBytes": 12576,
+      "spareBytes": 11264,
+      "battleInstructionCount": 1,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    {
+      "location": 39,
+      "name": "Medina Market",
+      "owners": [
+        75
+      ],
+      "loadCount": 1,
+      "loadBodyOffsets": [
+        485
+      ],
+      "legacyHeapUnionBytes": 18176,
+      "with83StreamUnionBytes": 9248,
+      "spareBytes": 14592,
+      "battleInstructionCount": 1,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    {
+      "location": 48,
+      "name": "Heckran Cave Entrance",
+      "owners": [
+        75
+      ],
+      "loadCount": 2,
+      "loadBodyOffsets": [
+        560,
+        579
+      ],
+      "legacyHeapUnionBytes": 10656,
+      "with83StreamUnionBytes": 1728,
+      "spareBytes": 22112,
+      "battleInstructionCount": 2,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    {
+      "location": 60,
+      "name": "Castle Magus Hall of Aggression (Ending: Legendary Hero)",
+      "owners": [
+        5
+      ],
+      "loadCount": 2,
+      "loadBodyOffsets": [
+        419,
+        441
+      ],
+      "legacyHeapUnionBytes": 16896,
+      "with83StreamUnionBytes": 7968,
+      "spareBytes": 15872,
+      "battleInstructionCount": 0,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    {
+      "location": 125,
+      "name": "Castle Magus Doppleganger Corridor",
+      "owners": [
+        5
+      ],
+      "loadCount": 2,
+      "loadBodyOffsets": [
+        1963,
+        1989
+      ],
+      "legacyHeapUnionBytes": 19904,
+      "with83StreamUnionBytes": 10976,
+      "spareBytes": 12864,
+      "battleInstructionCount": 6,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    {
+      "location": 131,
+      "name": "Manoria Headquarters",
+      "owners": [
+        75
+      ],
+      "loadCount": 10,
+      "loadBodyOffsets": [
+        2868,
+        2915,
+        2960,
+        3045,
+        3167,
+        3765,
+        4282,
+        4335,
+        4364,
+        4851
+      ],
+      "legacyHeapUnionBytes": 21344,
+      "with83StreamUnionBytes": 12416,
+      "spareBytes": 11424,
+      "battleInstructionCount": 4,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    {
+      "location": 132,
+      "name": "Manoria Royal Guard Hall",
+      "owners": [
+        75
+      ],
+      "loadCount": 4,
+      "loadBodyOffsets": [
+        914,
+        1008,
+        1389,
+        1572
+      ],
+      "legacyHeapUnionBytes": 21376,
+      "with83StreamUnionBytes": 12448,
+      "spareBytes": 11392,
+      "battleInstructionCount": 1,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    {
+      "location": 166,
+      "name": "Castle Magus Entrance",
+      "owners": [
+        5
+      ],
+      "loadCount": 4,
+      "loadBodyOffsets": [
+        1442,
+        1453,
+        1484,
+        1495
+      ],
+      "legacyHeapUnionBytes": 11424,
+      "with83StreamUnionBytes": 2496,
+      "spareBytes": 21344,
+      "battleInstructionCount": 1,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    {
+      "location": 170,
+      "name": "Castle Magus Hall of Aggression",
+      "owners": [
+        5
+      ],
+      "loadCount": 8,
+      "loadBodyOffsets": [
+        1514,
+        1589,
+        1606,
+        1702,
+        1719,
+        1815,
+        1832,
+        1959
+      ],
+      "legacyHeapUnionBytes": 22880,
+      "with83StreamUnionBytes": 13952,
+      "spareBytes": 9888,
+      "battleInstructionCount": 8,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    {
+      "location": 201,
+      "name": "Manoria Storage",
+      "owners": [
+        75
+      ],
+      "loadCount": 3,
+      "loadBodyOffsets": [
+        528,
+        576,
+        624
+      ],
+      "legacyHeapUnionBytes": 9088,
+      "with83StreamUnionBytes": 160,
+      "spareBytes": 23680,
+      "battleInstructionCount": 1,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    {
+      "location": 202,
+      "name": "Manoria Kitchen",
+      "owners": [
+        75
+      ],
+      "loadCount": 1,
+      "loadBodyOffsets": [
+        559
+      ],
+      "legacyHeapUnionBytes": 31328,
+      "with83StreamUnionBytes": 22400,
+      "spareBytes": 1440,
+      "battleInstructionCount": 0,
+      "allSelectedBattleInstructionsUnchanged": true
+    },
+    {
+      "location": 341,
+      "name": "Present Age Jail Cell (Ending: The Dream Project)",
+      "owners": [
+        75
+      ],
+      "loadCount": 1,
+      "loadBodyOffsets": [
+        529
+      ],
+      "legacyHeapUnionBytes": 13888,
+      "with83StreamUnionBytes": 4960,
+      "spareBytes": 18880,
+      "battleInstructionCount": 1,
+      "allSelectedBattleInstructionsUnchanged": true
+    }
+  ],
+  "laterProofPlan": [
+    "After direction approval, generate one coherent actual source model, then all 29 distinct source poses and the eight verified mirrored counterparts. Submit native 1\u00d7 and enlarged sheets before freeze.",
+    "Compile exact 4bpp/palette/assembly reproduction; check all 74 owner/pose cases, 296 native displayed cells, cell anchoring and composited pixel maps with both unchanged palette ramps.",
+    "Execute 72 owner/facing/action cases with unchanged AA30 requests/timers; distinguish native visible upload latency from animation timer equivalence.",
+    "Reuse tests/medina-controller.mjs and scripts/independent-medina.mjs for peaceful and hostile inn/market behavior. Existing formations are [75,72,72] and [75,124]; preserve their real event/AI flow.",
+    "Observe an original cathedral encounter, an enemy-5 fortress encounter and the kitchen load/interaction context. Do not convert audited load sites into claims of observed route coverage."
+  ],
+  "limitations": [
+    "Header/program/graphics ownership and verified source load sites only; no native scene or actor-display execution is claimed.",
+    "Modified event layouts and newly inserted actor-load commands require full event decoding to exhaust; all selected original load sites are verified against current bytes.",
+    "Current enemy headers are also used for friendly townsfolk; replacement art must serve peaceful and hostile branches.",
+    "No new major casting, title/music, active modules or previously frozen source files are changed.",
+    "No new source image, native private candidate, upload test or actual scene execution has been produced by this audit.",
+    "Object hints in native-audit.json are nearest-entry heuristics, not verified runtime event consumers.",
+    "Specific combat meaning/damage windows of actions 4/7/8/9 must be established by execution, not the pose labels."
+  ],
+  "preservedScope": "No active content/engine/registry, gfx11/35/81 packet, title/music, canonical ROM or gallery changes.",
+  "approval": {
+    "by": "/root",
+    "direction": "Stout approachable hobgoblin townsfolk/hired fists; soft work cap, broad nose/ears, patched tunic, bare fists; exact palette variants; separate from swamp imps.",
+    "static": "All 37 poses, distinct gait/strike/tumble roles, native cell layout and recorded source-only normalizations approved.",
+    "scope": "Static approval only; native proof and production integration remain separate."
+  }
+}

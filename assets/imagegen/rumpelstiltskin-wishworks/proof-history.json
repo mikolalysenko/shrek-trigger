@@ -1,0 +1,39 @@
+{
+  "status": "Final and superseded evidence separated",
+  "final": {
+    "privateRomSha256": "b8640dd2f77cd6109cfa366ddbe973a95f8e9135fe33a6f2b9cf74d0af8a3c40",
+    "nativeFrameUploads": 72,
+    "opaquePixelChecks": 35738,
+    "nativeTimedTicks": 16320,
+    "listExecutions": 68,
+    "files": [
+      "native-verification/manifest.json",
+      "motion-verification/manifest.json"
+    ]
+  },
+  "superseded": {
+    "privateRomSha256": "9f3260b9e6eb059e97f839e45330681132a14a20b1c2ed6bda3f27b90847e0b1",
+    "nativeFrameUploads": 72,
+    "opaquePixelChecks": 35698,
+    "nativeTimedTicks": 16320,
+    "listExecutions": 68,
+    "files": [
+      {
+        "path": "proof-history/pre-gait-native.json",
+        "sha256": "32981cf2e82850499020e1a5ba33c5ae7e20d53a024c580f9fd05af14493ee3f"
+      },
+      {
+        "path": "proof-history/pre-gait-motion.json",
+        "sha256": "1215b1563c3b85ba54762e77065170b227aadd6ed573bd64ae59abdb7835d297"
+      }
+    ],
+    "reason": "These successful proofs precede the opposed-contact source correction and are not final-candidate evidence."
+  },
+  "excludedExploration": [
+    "Wrong-scale initial scene coordinates",
+    "Blackbird entry before recovered-equipment prerequisites",
+    "Twins battle-bit-only return that allowed defeat; final proof requires actual victory flag and surviving party",
+    "Story210 Dragon entry that also starts a later branch; final story207 checkpoint executes the intended authored fight and Y continuation"
+  ],
+  "scope": "Exploratory probes/logs and unfinished scene reports are excluded from the minimal whitelist."
+}

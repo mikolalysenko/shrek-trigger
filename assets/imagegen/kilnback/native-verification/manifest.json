@@ -1,0 +1,161 @@
+{
+  "status": "Private saved-build compressed solo overlay passed; full scenes remain unproven and active family-size guard is unchanged",
+  "activeRomPath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateRomSha256": "d1de85878ab85b619146e937991c37fa5a56e9b5c44c92a9aedca3585b52817c",
+  "nativeFrameUploads": 56,
+  "cartridgeUnchangedDuringNativeRun": true,
+  "variants": 2,
+  "framesPerVariant": 28,
+  "blankFrames": [],
+  "allOpaqueNativePixelsVerified": true,
+  "opaquePixelChecks": 78490,
+  "paletteChecks": [
+    {
+      "actor": "kilnback",
+      "palette": 186,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 12
+    },
+    {
+      "actor": "iron-kiln",
+      "palette": 187,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 12
+    }
+  ],
+  "sourceType": "image-generation",
+  "sourceProvenance": [
+    {
+      "file": "assets/imagegen/kilnback/source-base-v1.png",
+      "sha256": "891b6473ddeb402f717a0498d6df4f4461522ee937fb80fe724cd60757afcee9",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/kilnback/source-actions-v2.png",
+      "sha256": "0978a526b28e9421d78efaa53ec33fb0dad3849c627e2d1a162724d67b632265",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/kilnback/source-back-tremor-v1.png",
+      "sha256": "75e8809b5d3b59da5b8371e8afec30ec473279b17853e31aaa44391ecdfb963d",
+      "sourceType": "image-generation"
+    }
+  ],
+  "rawGraphicsBytes": 18784,
+  "compressedBytes": 13381,
+  "assemblyBytes": 3360,
+  "originalRawBytes": 10528,
+  "strictFamilyGrowthGuard": "Retained. Root owns selected streaming or complete-scene residency plus the explicit overlap geometry integration.",
+  "placement": {
+    "packetOffset": 8192000,
+    "assemblyOffset": 8205392,
+    "ownedUnusedExtendedMirror": true
+  },
+  "sceneUnionBudget": [
+    {
+      "location": 289,
+      "candidateBytes": 22336,
+      "spareBytes": 10432,
+      "exceedsBudget": false
+    },
+    {
+      "location": 304,
+      "candidateBytes": 18944,
+      "spareBytes": 13824,
+      "exceedsBudget": false
+    },
+    {
+      "location": 456,
+      "candidateBytes": 18784,
+      "spareBytes": 13984,
+      "exceedsBudget": false
+    }
+  ],
+  "isolatedPreviewHeaps": [
+    {
+      "actor": "kilnback",
+      "heapEnd": 52512,
+      "heapBytes": 19744
+    },
+    {
+      "actor": "iron-kiln",
+      "heapEnd": 52512,
+      "heapBytes": 19744
+    }
+  ],
+  "nativeFrameOffsets": {
+    "1": [
+      0,
+      2
+    ],
+    "4": [
+      0,
+      2
+    ],
+    "7": [
+      0,
+      2
+    ],
+    "10": [
+      0,
+      2
+    ],
+    "13": [
+      0,
+      2
+    ],
+    "14": [
+      0,
+      2
+    ],
+    "15": [
+      0,
+      2
+    ],
+    "17": [
+      0,
+      2
+    ],
+    "20": [
+      0,
+      2
+    ],
+    "23": [
+      0,
+      2
+    ],
+    "26": [
+      0,
+      2
+    ]
+  },
+  "cellOverlapFrames": [
+    6,
+    9
+  ],
+  "overlapSourceCoverage": [
+    {
+      "frame": 6,
+      "opaque": 1693,
+      "overlappingCanvasPixels": 708,
+      "overlappingOpaquePixels": 634,
+      "maxCoverage": 3
+    },
+    {
+      "frame": 9,
+      "opaque": 1693,
+      "overlappingCanvasPixels": 708,
+      "overlappingOpaquePixels": 634,
+      "maxCoverage": 3
+    }
+  ],
+  "allOverlappingPixelsVerifiedWithNativeOamPriority": true,
+  "settledCaptureMinimumFrames": 30,
+  "extraVramBytes": 0,
+  "wholeSceneOrBattleProof": false
+}

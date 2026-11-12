@@ -1,0 +1,17 @@
+// Browser-compatible inactive source compiler. No allocation, registration or ROM writes.
+import {compileSpriteFrames} from '../../../engine/native-sprites.js';
+import {compress} from '../../../engine/compression.js';
+export const henchNativeCellOrigins=[[[-1,-29],[-17,-29],[1,-13],[-15,-13]],[[-15,-30],[0,-30],[-15,-14],[0,-14]],[[1,-29],[-15,-29],[-1,-13],[-17,-13]],[[3,-29],[-13,-29],[1,-13],[-15,-13]],[[1,-32],[-15,-32],[-15,-16],[0,-16]],[[-3,-29],[-19,-29],[-1,-13],[-17,-13]],[[-4,-30],[-20,-30],[-4,-14],[-20,-14]],[[-4,-31],[-20,-31],[-4,-15],[-20,-15]],[[-2,-30],[-18,-30],[1,-14],[-15,-14]],[[4,-30],[-12,-30],[4,-14],[-12,-14]],[[4,-31],[-12,-31],[4,-15],[-12,-15]],[[2,-30],[-14,-30],[-1,-14],[-17,-14]],[[3,-35],[-13,-35],[0,-19],[-16,-19]],[[-7,-37],[-5,-21],[-21,-34],[-21,-18]],[[-7,-40],[-7,-24],[-23,-41],[-17,-25]],[[-7,-40],[-7,-24],[-23,-41],[-17,-25]],[[7,-32],[-9,-37],[7,-16],[-9,-21]],[[7,-36],[-9,-36],[5,-20],[-11,-20]],[[7,-36],[-9,-36],[5,-20],[-11,-20]],[[-4,-39],[-20,-39],[-5,-23],[-21,-23]],[[-18,-36],[-34,-38],[-18,-20],[-34,-22]],[[-18,-36],[-34,-38],[-18,-20],[-34,-22]],[[4,-39],[-12,-39],[5,-23],[-11,-23]],[[18,-38],[2,-36],[18,-22],[2,-20]],[[18,-38],[2,-36],[18,-22],[2,-20]],[[0,-40],[-15,-40],[0,-24],[-15,-24]],[[0,-41],[-15,-41],[0,-25],[-15,-25]],[[0,-36],[-15,-36],[0,-20],[-15,-20]],[[0,-34],[-15,-34],[0,-18],[-15,-18]],[[0,-39],[-15,-39],[0,-23],[-15,-23]],[[0,-36],[-15,-36],[0,-20],[-15,-20]],[[-3,-42],[-19,-39],[-3,-26],[-19,-23]],[[3,-37],[-13,-37],[3,-21],[-13,-21]],[[-2,-41],[-18,-38],[-2,-25],[-18,-22]],[[3,-39],[-13,-42],[3,-23],[-13,-26]],[[-3,-37],[-19,-37],[-3,-21],[-19,-21]],[[2,-38],[-14,-41],[2,-22],[-14,-25]]];
+export const henchPalettes=[{"id":24,"colors":["292910","ffffff","d6d6d6","ffb594","bd7bbd","949494","8c4a73","ad6342","844200","636363","6b397b","393929"],"words":[2213,32767,27482,19167,24055,19026,14641,8597,272,12684,15597,5351]},{"id":23,"colors":["292910","ffffff","d6d6d6","dece31","7badff","949494","636be7","a57b10","7b5218","636363","524abd","393929"],"words":[2213,32767,27482,6971,32431,19026,29100,2548,3407,12684,23850,5351]}];
+export function compileHenchHobgoblins(art,geometry){
+ if(art.width!==96||art.height!==64||art.frames?.length!==37||JSON.stringify(art.palette)!==JSON.stringify(henchPalettes[0].colors))throw Error('Hench native source/palette contract changed');
+ if(geometry.size!==0||geometry.cells!==4||geometry.nativeFrames!==37||JSON.stringify(geometry.anchor)!=='[0,16]'||JSON.stringify(geometry.cellOverlapFrames)!=='[1,4,13,14,15,25,26,27,28,29,30]'||geometry.frameOffsets?.some(p=>p.some(Boolean)))throw Error('Hench four-cell contract changed');
+ const origins=henchNativeCellOrigins.map(a=>a.map(([x,y])=>[x+48,y+48]));
+ if(JSON.stringify(geometry.frames.map(f=>f.cellOrigins))!==JSON.stringify(origins))throw Error('Hench original cell geometry changed');
+ const frames=art.frames.map(s=>{if(typeof s!=='string'||s.length!==6144||!/^[0-9abc]+$/.test(s))throw Error('Invalid Hench raster');return Uint8Array.from(s,c=>parseInt(c,16));});
+ const compiled=compileSpriteFrames(frames,{width:96,height:64,size:0,frameCellOrigins:origins,cellOverlapFrames:geometry.cellOverlapFrames});
+ for(let f=0;f<37;f++)for(let c=0;c<4;c++)compiled.assembly[f*40+32+c*2+1]=(compiled.assembly[f*40+32+c*2+1]+16)&255;
+ const compressed=compress(compiled.graphics);
+ if(compiled.graphics.length!==12096||compiled.assembly.length!==1480||compressed.length!==9003)throw Error('Hench candidate resource costs changed');
+ return{...compiled,compressed};
+}

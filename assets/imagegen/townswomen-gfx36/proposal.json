@@ -1,0 +1,120 @@
+{
+  "status": "Inactive audited source-art work in progress",
+  "activation": false,
+  "generationStarted": true,
+  "baseline": {
+    "path": "assets/imagegen/townswomen-gfx36/private/baseline.sfc",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "sha256": "0758f532bcbf0322997553f1e11b40463e15ab463a54555e4a624b4cd4bacd3f",
+    "bytes": 8388608
+  },
+  "family": {
+    "gfx": 36,
+    "asm": 25,
+    "palette": 9,
+    "animation": 16,
+    "size": 0,
+    "frames": 21
+  },
+  "owners": [
+    {
+      "kind": "npc",
+      "id": 13,
+      "offset": 2420836,
+      "header": [
+        36,
+        25,
+        9,
+        16,
+        0
+      ],
+      "originalHeader": [
+        36,
+        25,
+        9,
+        16,
+        0
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 40,
+      "offset": 2420971,
+      "header": [
+        36,
+        25,
+        131,
+        16,
+        0
+      ],
+      "originalHeader": [
+        36,
+        25,
+        131,
+        16,
+        0
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 213,
+      "offset": 2421836,
+      "header": [
+        36,
+        25,
+        8,
+        16,
+        0
+      ],
+      "originalHeader": [
+        36,
+        25,
+        8,
+        16,
+        0
+      ]
+    }
+  ],
+  "styling": {
+    "workingName": "Storybook townswoman",
+    "model": "An ordinary adult human woman with a soft tied kerchief over a small brown hair bun, readable dark eyes and warm cheek, rolled linen sleeves, simple full ankle-length skirt, short cream waist apron and flat shoes. No permanent carried prop, pointed witch hat, elderly Granny face or celebrity cameo.",
+    "materialSlots": "Skin3/4, brown hair5/1, kerchief10/11, dress6/7, apron2 with8/9 shadows/trim, neutral detail12. These reproduce green/russet, violet/mustard and blue/pink native variants through exact palettes9/131/8.",
+    "scale": "About31px standing body, slender adult mass; retain room for original startled marks and both raised-arm silhouettes within four cells.",
+    "roles": "All21 original directions/gait/acting roles, specifically genuine opposed leg/arm contacts, front startled pose with source-derived detached sweat marks, front/rear two-arm raise, and left/right seated lap poses."
+  },
+  "preserve": [
+    "All three source headers and sole gfx36/asm25 ownership",
+    "Exact shared palette9 and131 bytes plus palette8 used by NPC213",
+    "AllAA16 bytes and allfive header owners including separate Granny37/215",
+    "15-tick gait/contact and acting timings; empty mode2 remains empty",
+    "All21nonblank native frames, original XY, four-cell limit and seat/scene anchors",
+    "15decoded source-load locations/16objects, including both simultaneous townswomen in58 and original rescue/parade conditions"
+  ],
+  "costBaseline": {
+    "originalAndPublished": {
+      "rawBytes": 2848,
+      "compressedBytes": 2218,
+      "assemblyBytes": 840,
+      "compressedPlusAssembly": 3058
+    },
+    "candidate": "Unknown before generation; root may elect guarded raw streaming if source exceeds legacy allocation. Four cells remain fixed."
+  },
+  "nextProof": [
+    "Native1×/enlarged three-palette full pose review, including genuine gait contacts and sweat islands",
+    "63owner/frame uploads and complete displayed-pixel coverage",
+    "All20nonempty AA16 programs and native timer semantics",
+    "Original household58 palette pair, family room9 seated/standing variants, rescue4 gestures and parade80 row6",
+    "Source palette/scene compatibility after root row7 correction, with explicit original/production provenance"
+  ],
+  "noClaim": [
+    "Native execution or new scene acceptance",
+    "Changes to Granny or global palettes",
+    "Full family rescue/ending completion"
+  ],
+  "review": {
+    "costume": "Lead approved base kerchief/bodice/apron identity",
+    "frontalFace": "Lead approved un-stretched front-face-source-v4 AREA at31px in all three palettes; other face alternatives are comparison only",
+    "gait": "Actual opposed source exists; complete final native gait review pending",
+    "actions": "Actual imagegen source running"
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "status": "All96 bounded native palette/pose combinations passed; source remains inactive",
+  "baselineSha256": "511e120ca47aa4f9c61371d4ecd264d0b1848061a649ee16b162cfe3f6bb109c",
+  "candidateSha256": "c66e4894cff758c390861887b70b6ed75780018a94aaeeb495efd9375479d15d",
+  "candidatePath": ".local/qa/bone-guards-native-proof/candidate.sfc",
+  "changedBytes": 4539,
+  "defaultDecodedGuardPassed": true,
+  "nativeStreamSelection": 0,
+  "records": [
+    {
+      "offset": 1334870,
+      "bytes": 4047,
+      "label": "Enchanted bone guards compressed graphics",
+      "sha256": "3b6627796f01229f923cfaf66b5f322e5ac573c573e5ca31cfe0d051595f92c0"
+    },
+    {
+      "offset": 2367812,
+      "bytes": 3,
+      "label": "Enchanted bone guards graphics pointer",
+      "sha256": "2ee4771f123fce12f0fdc28897ff82a25eef972fdece78bcb07f5a3bcbe5ecee"
+    },
+    {
+      "offset": 1376256,
+      "bytes": 960,
+      "label": "Enchanted bone guards assembly 71",
+      "sha256": "0d1e3afcbd57d22e1ba12c3a2dc756b2cdcb393f9eb6fb83ce42c61996624158"
+    },
+    {
+      "offset": 2368469,
+      "bytes": 3,
+      "label": "Enchanted bone guards assembly pointer",
+      "sha256": "a7d4b15df034e199d35100ff6b61484b082a15a22a4bf84a11938cae415aed69"
+    },
+    {
+      "offset": 812761,
+      "bytes": 11,
+      "label": "Faded Guard battle name",
+      "sha256": "c59031f02ae2710ae251fcc5c464ac90f44f96ace0652bc13a58b0b336c6562d"
+    },
+    {
+      "offset": 812772,
+      "bytes": 11,
+      "label": "Moss Guard battle name",
+      "sha256": "28c4de3f49eda04d9207d153a5fd1ef1897442eb6e7fe9896795884ff598b9d1"
+    },
+    {
+      "offset": 812783,
+      "bytes": 11,
+      "label": "Bone Guard battle name",
+      "sha256": "9d2793fdeea7d3dbe6810a9a354dd4906de1dbe610b15ffa29ae09e36b30d28f"
+    },
+    {
+      "offset": 812794,
+      "bytes": 11,
+      "label": "Ember Guard battle name",
+      "sha256": "a823104d19d82bf28f49ad86a2a6849ea7662d66ca457cc6d6dd846334269599"
+    }
+  ],
+  "geometry": "assets/imagegen/bone-guards/native-frame-map.draft.json",
+  "nativeFrameUploads": 96,
+  "exactDisplayedCells": 384,
+  "exactDisplayedOpaquePixels": 33148,
+  "allOpaquePixelsVisible": true,
+  "originalFrameAndDurationListsUnchanged": true,
+  "allFourPalettePacketsUnchanged": true,
+  "unrelatedEnemy47Palette92Unchanged": true,
+  "originalHeadersAiAndStatsUnchanged": true,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "isolatedHeapBytes": [
+    {
+      "key": "faded-guard",
+      "bytes": 5920
+    },
+    {
+      "key": "moss-guard",
+      "bytes": 5920
+    },
+    {
+      "key": "bone-guard",
+      "bytes": 5920
+    },
+    {
+      "key": "ember-guard",
+      "bytes": 5920
+    }
+  ],
+  "evidence": ".local/qa/bone-guards-native-proof",
+  "evidenceFiles": [
+    {
+      "file": "candidate.json",
+      "bytes": 1943,
+      "sha256": "12ea35e973a21a0b59bdc01b6f637bd169f8ab9e4432b0a34e174470a4f035b7"
+    },
+    {
+      "file": "display-report.json",
+      "bytes": 101870,
+      "sha256": "d65f8d75e4252a2df29609301feefded58511c05c94bdb70b92b90ac45e7a4e2"
+    },
+    {
+      "file": "faded-guard-native-1x.png",
+      "bytes": 318939,
+      "sha256": "690a3f8b2eae629be7af1397ba77811a6ab6f7c224ba611bab2d1eeeb49abf69"
+    },
+    {
+      "file": "moss-guard-native-1x.png",
+      "bytes": 319653,
+      "sha256": "5cbd845b404269b03afb5b1650c22fb717e1cb1cd420c251ff4d0874b02baeea"
+    },
+    {
+      "file": "bone-guard-native-1x.png",
+      "bytes": 317946,
+      "sha256": "93f1478242b4ffcfcb53bdbb0e87bdf52d1ea699f76e6d1ba7724984f9eabad6"
+    },
+    {
+      "file": "ember-guard-native-1x.png",
+      "bytes": 317808,
+      "sha256": "743d4241ada0b0921841d0819261d4d1729c2d054d48fed720a6b83c1c4fcf19"
+    },
+    {
+      "file": "faded-guard-00.png",
+      "bytes": 56881,
+      "sha256": "f9d3961dbfc2aff4533a123d78d5ac76aef998cb1526a370793606917d6ed053"
+    },
+    {
+      "file": "faded-guard-01.png",
+      "bytes": 56858,
+      "sha256": "27fe95ecfae1c810bfea054175489e21c6772824c548587d6cdbad1ad572017f"
+    },
+    {
+      "file": "faded-guard-02.png",
+      "bytes": 56878,
+      "sha256": "072e0508beff0c2ee003c975e5ce4d58194f60c600c41cbeb80ac8a1de0a1a92"
+    },
+    {
+      "file": "faded-guard-03.png",
+      "bytes": 56946,
+      "sha256": "4a51f673759fdd459eee04340fd502687524751e81c262819dba6643429f5d26"
+    },
+    {
+      "file": "faded-guard-04.png",
+      "bytes": 56908,
+      "sha256": "078521c60f0f44becc7381e119e0d02d97124d9afff273437e1163a8855fd951"
+    },
+    {
+      "file": "faded-guard-05.png",
+      "bytes": 56878,
+      "sha256": "afa6e3940cb6d376c1191b04278c81ccce38ded7c328372daf6156e1f4bd6bd6"
+    },
+    {
+      "file": "faded-guard-06.png",
+      "bytes": 56868,
+      "sha256": "112b7d17bb6c28b71ff0e895d38db7abd1a90cd51634939a68defb0ef37b8b47"
+    },
+    {
+      "file": "faded-guard-07.png",
+      "bytes": 56748,
+      "sha256": "d21426a9b9bc2491cc7418b727a8d067bf1c4e2e65a50ffc5166f4bdce319a70"
+    },
+    {
+      "file": "faded-guard-08.png",
+      "bytes": 56876,
+      "sha256": "bbe9b5c76b9996379a3ed3e5b2e3981235e402314fd720a5600830c162964c4d"
+    },
+    {
+      "file": "faded-guard-09.png",
+      "bytes": 56904,
+      "sha256": "1dee1480bff4f15b67ed9fa83230f52724139869357855d8e47ca921f76b69f7"
+    },
+    {
+      "file": "faded-guard-10.png",
+      "bytes": 56914,
+      "sha256": "bfdd38d9f39856796bcad9bc51e418684f7dadc4c77f481a4df8d3715df18364"
+    },
+    {
+      "file": "faded-guard-11.png",
+      "bytes": 56904,
+      "sha256": "bd91d572a156df83fe801cad0ba894931f22e095256e193523e2aadbe6328bfe"
+    },
+    {
+      "file": "faded-guard-12.png",
+      "bytes": 56823,
+      "sha256": "1d386fa8ef93fbaaa1660108ca8b0fe8c3a4f1daab107c79cf2d6dba6d846e07"
+    },
+    {
+      "file": "faded-guard-13.png",
+      "bytes": 56783,
+      "sha256": "5dca251d8cfefcee641c28d63c86a84f7b8d6c71d67f1e357298125b7ac4b3d2"
+    },
+    {
+      "file": "faded-guard-14.png",
+      "bytes": 56800,
+      "sha256": "c4f615457be803b1c83c7aac39307a3c07cab276542f916b32916bc0301af6a5"
+    },
+    {
+      "file": "faded-guard-15.png",
+      "bytes": 56768,
+      "sha256": "4d9cbf1b59a54656c4360fdda214d38ad63b54ee5d6daedc96ad98c7d0939b0e"
+    },
+    {
+      "file": "faded-guard-16.png",
+      "bytes": 56783,
+      "sha256": "2669c72ae02d6407bd9a5894bed2098f375b3680f81dd09ffa9f8308e9dcd9cf"
+    },
+    {
+      "file": "faded-guard-17.png",
+      "bytes": 56778,
+      "sha256": "a9ed527bbaeebc9498de7e6e64ee0f68e2e6bdd3847ab25afe55b982cf4fdeac"
+    },
+    {
+      "file": "faded-guard-18.png",
+      "bytes": 56816,
+      "sha256": "f6b1b370c6779d1cf24c29bbbb1dae989f68947f5036ce7e8c1d7c79c7f12252"
+    },
+    {
+      "file": "faded-guard-19.png",
+      "bytes": 56845,
+      "sha256": "5d6ebb39155a56d380deb426f840a5ddf31d59fe45901a96ae11780adff516c4"
+    },
+    {
+      "file": "faded-guard-20.png",
+      "bytes": 56903,
+      "sha256": "4b95ba683717f62a14a9a56badcf5399b047d3647f8f1975dcca7b70f180e2bb"
+    },
+    {
+      "file": "faded-guard-21.png",
+      "bytes": 56786,
+      "sha256": "a6e73d1d69747c0935d78638f2a11891343d4a1e4d0dc2828e793cbe7c0dad12"
+    },
+    {
+      "file": "faded-guard-22.png",
+      "bytes": 57282,
+      "sha256": "649493627a98f2392a5c1c621a91b7d7608a21c6bdfdd79323149a4d46fe867c"
+    },
+    {
+      "file": "faded-guard-23.png",
+      "bytes": 56933,
+      "sha256": "fb5a9f0006db959e9b6094e434f98852f5eb55a6ad631b9959f91715d50c1210"
+    },
+    {
+      "file": "moss-guard-00.png",
+      "bytes": 56897,
+      "sha256": "20885c5f38a42d0eb7e3065b6e9952e0cb358b2bf50c37c5ca628267604160ac"
+    },
+    {
+      "file": "moss-guard-01.png",
+      "bytes": 56870,
+      "sha256": "08292dc899eab7054989194ef8a524653f53abe0a9b287264bab8e38a2cfaeae"
+    },
+    {
+      "file": "moss-guard-02.png",
+      "bytes": 56898,
+      "sha256": "3f73c579ad5ca6b2cb69be60864063637015484f5d7a4e8fac77907ccb2a2aac"
+    },
+    {
+      "file": "moss-guard-03.png",
+      "bytes": 56962,
+      "sha256": "585d6a5fbf64c46a4a7a2b186e60a6fe134fc2fcd0ed1df68481c3ec9b4c3a98"
+    },
+    {
+      "file": "moss-guard-04.png",
+      "bytes": 56929,
+      "sha256": "5092205f01cedf218dd876471ac673709538e8ed86adc6bf9861fab6d6c6ef3b"
+    },
+    {
+      "file": "moss-guard-05.png",
+      "bytes": 56900,
+      "sha256": "b0903dbf4b419e097871199e351f26b6ea8bef26c63bd315ca2717c31a5aef8e"
+    },
+    {
+      "file": "moss-guard-06.png",
+      "bytes": 56918,
+      "sha256": "7973ad371b4fd59a62fe4461351e1066b016e28553e17dbfe6e94842ad611d8b"
+    },
+    {
+      "file": "moss-guard-07.png",
+      "bytes": 56759,
+      "sha256": "08ed32fc171718bc71bdb6f174310a9ebd041551ee663a3ff5b219c12dd3a83d"
+    },
+    {
+      "file": "moss-guard-08.png",
+      "bytes": 56896,
+      "sha256": "4f3aeb9b70c7821514d25a1b3b23d0cc9e8cdc5bb03c1e10088552b88605487c"
+    },
+    {
+      "file": "moss-guard-09.png",
+      "bytes": 56914,
+      "sha256": "223ef984c39d306dcb863c23a1fd54c21e0f1d2efb57a3ea5a3d52d98bb0d24f"
+    },
+    {
+      "file": "moss-guard-10.png",
+      "bytes": 56931,
+      "sha256": "4b369dc4c6cc071b0f7b90e9a57656026daad3e6db60d9b5a285b1676350b65c"
+    },
+    {
+      "file": "moss-guard-11.png",
+      "bytes": 56916,
+      "sha256": "1dba235b453d95f12e6fa7d2f01ee1c6ac6c2581548f8d8a73545a38b2477158"
+    },
+    {
+      "file": "moss-guard-12.png",
+      "bytes": 56825,
+      "sha256": "484082294286e0de764faa66463001610180a7f214883308b22eb0dd0618e991"
+    },
+    {
+      "file": "moss-guard-13.png",
+      "bytes": 56798,
+      "sha256": "f5a40c94204189f7fb2dce981d294ec41f7c36ad733f1c383a50b3807aabb496"
+    },
+    {
+      "file": "moss-guard-14.png",
+      "bytes": 56814,
+      "sha256": "709ce83aee038ad769f9af284499b8c77c23f3ab5a793703f0ae33c73b4b7765"
+    },
+    {
+      "file": "moss-guard-15.png",
+      "bytes": 56786,
+      "sha256": "926033016d72c8bf63a3885a7bb960442f62b5db2248f74af7638a2bf3ac423a"
+    },
+    {
+      "file": "moss-guard-16.png",
+      "bytes": 56815,
+      "sha256": "64fa99d531299f2cbf932bb8adac6eb969cd44add667ff5cac1ac3a0b5931ad5"
+    },
+    {
+      "file": "moss-guard-17.png",
+      "bytes": 56816,
+      "sha256": "06db12da07156c5c3c5f3ad4c9b1ebe46d98c659684ab6280827bce24251bccb"
+    },
+    {
+      "file": "moss-guard-18.png",
+      "bytes": 56844,
+      "sha256": "0685037f165266bbb33d0ed1b773f4efa4689bbd1e4c91ac9797e2fdf2e46f18"
+    },
+    {
+      "file": "moss-guard-19.png",
+      "bytes": 56858,
+      "sha256": "30dabeaf89be199c8f0e6585730e9ee0ee27616a5ff13eaaaeb87cca14efb84b"
+    },
+    {
+      "file": "moss-guard-20.png",
+      "bytes": 56924,
+      "sha256": "bbb896d35a051feff176b4621a55fbe5b350900469129b2772b06a235375cd02"
+    },
+    {
+      "file": "moss-guard-21.png",
+      "bytes": 56803,
+      "sha256": "68df3e8644407d4f4c5a4d1cf8b35dc79370af875914af4031121fd0fd5c5b69"
+    },
+    {
+      "file": "moss-guard-22.png",
+      "bytes": 57307,
+      "sha256": "630be2e2725a24497535ab712cd726b95af6ff79bb2255659db2c514a47dcf56"
+    },
+    {
+      "file": "moss-guard-23.png",
+      "bytes": 56939,
+      "sha256": "eedaf976379180c48825f5500524b49519d2caba2f660aca6c3d464141f70b33"
+    },
+    {
+      "file": "bone-guard-00.png",
+      "bytes": 56903,
+      "sha256": "a040e28a497a89a2fb7a7b4537464ea2924c83523b32bce8414615862e597724"
+    },
+    {
+      "file": "bone-guard-01.png",
+      "bytes": 56865,
+      "sha256": "2ac6a41707892132969cdccb2832034d1940bd85af28cd4aed959ac848e10ffd"
+    },
+    {
+      "file": "bone-guard-02.png",
+      "bytes": 56897,
+      "sha256": "dcde15e0298355426fb9953e0a0fd82eb562bb771c85b54fd74a6c907ca40cbe"
+    },
+    {
+      "file": "bone-guard-03.png",
+      "bytes": 56974,
+      "sha256": "ef2a510b8273a08ab600bffe85174c7bf1b1dcf77d986e11b43c12d9493ac22a"
+    },
+    {
+      "file": "bone-guard-04.png",
+      "bytes": 56940,
+      "sha256": "1accbcc31526b0f784cc41d1af604fd9884ae3ea6a572b4a36d87f303e8d0f9d"
+    },
+    {
+      "file": "bone-guard-05.png",
+      "bytes": 56909,
+      "sha256": "6883ca85d768ee591ffac696505918d7b5fef2e57f582248b0721f454cb98012"
+    },
+    {
+      "file": "bone-guard-06.png",
+      "bytes": 56921,
+      "sha256": "90e4e5d1c2a4fed11a8ffc9695f9986fd5979e105bfb8c91be30421facfd6221"
+    },
+    {
+      "file": "bone-guard-07.png",
+      "bytes": 56768,
+      "sha256": "8d806f99ca428620da1d7c05d98bdcc15b67ccd4574d8b09600000af604bc117"
+    },
+    {
+      "file": "bone-guard-08.png",
+      "bytes": 56898,
+      "sha256": "35551a4bce64efe90839208eb258859b9af5be7b15ab923705ac6bbe02cfefa3"
+    },
+    {
+      "file": "bone-guard-09.png",
+      "bytes": 56932,
+      "sha256": "2ca412e8897b6d548c4610a7dd121ead727cb2e9b8bcf79ce1a68bab9baecbc7"
+    },
+    {
+      "file": "bone-guard-10.png",
+      "bytes": 56932,
+      "sha256": "2dae96f46248ef5c17938717aad7c24d1c405dc4c97cbfafab15f478a48fd79b"
+    },
+    {
+      "file": "bone-guard-11.png",
+      "bytes": 56940,
+      "sha256": "de7323398e57b46730a0e30ea8a70bbab9a8a75cdaf522d93f3e1ebf8b6a719e"
+    },
+    {
+      "file": "bone-guard-12.png",
+      "bytes": 56831,
+      "sha256": "ddd69e20cd40947aca7dc651260e47f251b2fdb4f896f53771b50c6d6627bdd3"
+    },
+    {
+      "file": "bone-guard-13.png",
+      "bytes": 56807,
+      "sha256": "f0c4983560a410a50e0c562a75ead6b36f725d62fb18647f0f77127ead0a4d56"
+    },
+    {
+      "file": "bone-guard-14.png",
+      "bytes": 56822,
+      "sha256": "4d2fb13ea5edae23dc103f2460adf7c44868ae1e3015c2577accfb192a4d865e"
+    },
+    {
+      "file": "bone-guard-15.png",
+      "bytes": 56796,
+      "sha256": "d95b3485aa373a8269c73ffc822be946a42e53d54961a0bedeba30d3701c21a3"
+    },
+    {
+      "file": "bone-guard-16.png",
+      "bytes": 56811,
+      "sha256": "9d6fd6ddce6aa73dae6aaef2bdc8bd2ea68cc3b972108b667f6daec7e968f13e"
+    },
+    {
+      "file": "bone-guard-17.png",
+      "bytes": 56804,
+      "sha256": "4cf72c076723efc67d593550014fc7d22b14189bb8c28a4a2f415082f742864d"
+    },
+    {
+      "file": "bone-guard-18.png",
+      "bytes": 56823,
+      "sha256": "b5ba60fa737823b6499fc27db6ce1cba12c2e1534ed5b4d8a8b3fedcadca833d"
+    },
+    {
+      "file": "bone-guard-19.png",
+      "bytes": 56870,
+      "sha256": "4cf9e5aa79a50cec0b8ecf35b2955ec6dd2f87d79e6ee937be21f3629d21999e"
+    },
+    {
+      "file": "bone-guard-20.png",
+      "bytes": 56931,
+      "sha256": "6dbc5f980044f8ea846cacc943491f43170f8e2e9decbfcb14fbdfd1ff23b9f9"
+    },
+    {
+      "file": "bone-guard-21.png",
+      "bytes": 56794,
+      "sha256": "1986689ed8fb1dd6d2886c7362a2b2208eed78d21a21ee607aa90845f522f18a"
+    },
+    {
+      "file": "bone-guard-22.png",
+      "bytes": 57312,
+      "sha256": "b2362130a0e60ed86a666d7207517b7ae3acc6cbb3c7d2eddad9953e6caa056f"
+    },
+    {
+      "file": "bone-guard-23.png",
+      "bytes": 56976,
+      "sha256": "393e5415ef65d71dc578be181e389af12c9e8761a25d9f91f4646538c10b48bc"
+    },
+    {
+      "file": "ember-guard-00.png",
+      "bytes": 56863,
+      "sha256": "9daf9e62aa9621fab15e08c72e83ecd01679c07de8e2459e6fc15b1b29c05d56"
+    },
+    {
+      "file": "ember-guard-01.png",
+      "bytes": 56831,
+      "sha256": "0239e9caf02447b5dca57d369f27c5cfe22142dc55ebb547c5066e477da94ac5"
+    },
+    {
+      "file": "ember-guard-02.png",
+      "bytes": 56836,
+      "sha256": "fd2b28d3747d06feb5dd8f5f21b99c6ded127bf555d4f70169fc9ec6eade6524"
+    },
+    {
+      "file": "ember-guard-03.png",
+      "bytes": 56908,
+      "sha256": "d6962b16eef7b85ac7a16555ab7b819e800429c4221aaae9900bcc27950d0b6f"
+    },
+    {
+      "file": "ember-guard-04.png",
+      "bytes": 56877,
+      "sha256": "5c6c076bfeebc9d8a842aab5b5b17cc8579c0634f332dfaf53753ec5fe7e407b"
+    },
+    {
+      "file": "ember-guard-05.png",
+      "bytes": 56848,
+      "sha256": "82eb1dd82f325e2bf74fa3781c2ab5112badd2e62ea6c23c9eac82259f5442f4"
+    },
+    {
+      "file": "ember-guard-06.png",
+      "bytes": 56867,
+      "sha256": "05d230b23d0a1a423cae24f4b3122003adb5e2267d7a54f2ed03d69fda88f367"
+    },
+    {
+      "file": "ember-guard-07.png",
+      "bytes": 56723,
+      "sha256": "9b249a95870e47e67b89da2671db32f316901798240672b951ba09f836aea324"
+    },
+    {
+      "file": "ember-guard-08.png",
+      "bytes": 56835,
+      "sha256": "c9fdba15e38a4a76592d3d871e7e73640bc66bbc10c5c6b979f8ca54fcdb92ad"
+    },
+    {
+      "file": "ember-guard-09.png",
+      "bytes": 56861,
+      "sha256": "ec3e3514289d68500fe1ed0d0652539b41495dc538e92b83597c3c0209cd402a"
+    },
+    {
+      "file": "ember-guard-10.png",
+      "bytes": 56878,
+      "sha256": "99296f306e05f1526725c856a35f8f870566b010b942ea1d9f6d65125edeed2a"
+    },
+    {
+      "file": "ember-guard-11.png",
+      "bytes": 56875,
+      "sha256": "c2d8a8e14208f75011f5f53ebaa2669629c05669481866d7b9f19a5752f6f226"
+    },
+    {
+      "file": "ember-guard-12.png",
+      "bytes": 56785,
+      "sha256": "8ad52c430dd678d13d771476cae218b86e58337f29a0885cb72e707d835dcbb8"
+    },
+    {
+      "file": "ember-guard-13.png",
+      "bytes": 56747,
+      "sha256": "6af3ee951bef8bc4b6e4eb9bd4146c0d0078186ac2af6429ec2a2040b29f34dc"
+    },
+    {
+      "file": "ember-guard-14.png",
+      "bytes": 56764,
+      "sha256": "36f32d2dc6a7f0c5fbcf2132af4be8688cb2e2d50e559ea6c0153fe3159b5b54"
+    },
+    {
+      "file": "ember-guard-15.png",
+      "bytes": 56745,
+      "sha256": "e2093e419d169bf363a36c2a731fb73a46313e1993620831d78977300ff0032e"
+    },
+    {
+      "file": "ember-guard-16.png",
+      "bytes": 56736,
+      "sha256": "857be2b3e5c1dfcc7fbc99035b989cc274336550e62cba35006aa815f8e03c1e"
+    },
+    {
+      "file": "ember-guard-17.png",
+      "bytes": 56747,
+      "sha256": "7f30da0568287eeb8e2d51874becd159b6f5c37c0f97f0f85d24b96658908213"
+    },
+    {
+      "file": "ember-guard-18.png",
+      "bytes": 56766,
+      "sha256": "a94faf5d821950e09ca0b396750522df9551a41430b2d5b14fcf61543d33e9e5"
+    },
+    {
+      "file": "ember-guard-19.png",
+      "bytes": 56814,
+      "sha256": "2a75b604d5178c262d8b0db4a2b89f5b86b86df784a6387a932fac32fc14ac84"
+    },
+    {
+      "file": "ember-guard-20.png",
+      "bytes": 56880,
+      "sha256": "edb642fa5d79b9146698fb08ab9519c643efab3d1ba5ee37159affdd82449925"
+    },
+    {
+      "file": "ember-guard-21.png",
+      "bytes": 56738,
+      "sha256": "bc6a5b1b7d8a9d4b521dc5cf6a6e7d62bc97fdcb9a36f6e449338ca5cd2c9f2f"
+    },
+    {
+      "file": "ember-guard-22.png",
+      "bytes": 57260,
+      "sha256": "ca72af27767a72245301edd45ec9ddb0b69585bf04172a45a3f9d7ea22c251c9"
+    },
+    {
+      "file": "ember-guard-23.png",
+      "bytes": 56909,
+      "sha256": "22e124068adf0460b476e56af872f2dc7f070a8e9b08b973c413ae7aee2e6af7"
+    }
+  ],
+  "runner": {
+    "file": "assets/imagegen/bone-guards/verify-native.mjs",
+    "sha256": "e637863e6accbd2d63bd438076766c90816a21f0f0cc26ec5da1347b9560cc95"
+  },
+  "limitations": [
+    "Bounded native field preview only; no full encounter choreography or battle claim.",
+    "The review motion page uses original gait frame order/durations; native encounter transitions remain controlled by original AI/events.",
+    "Independent-core validation remains an integration check."
+  ],
+  "activation": false
+}

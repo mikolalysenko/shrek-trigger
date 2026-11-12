@@ -1,0 +1,327 @@
+{
+  "status": "Private inactive source override",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "baselineManifestSha256": "a2211d196c01ddfcb6a04af336889a45bfb44a867e47da0a5248958b06365711",
+  "baselineRecordsSha256": "43a77085c5a6ba97feb790202d55acdd28fbd3b9eaa7972c3641c3899e349c4e",
+  "candidateSha256": "0a449d04bd867cce7f9e7f3c1f59f2820af73b88955ba350cfb5300d45ae039d",
+  "candidatePath": ".local/qa/drain-imps-native-proof/candidate.sfc",
+  "changedBytes": 5470,
+  "defaultProductionGuardInvoked": false,
+  "requiredStreamedGraphics": [
+    93
+  ],
+  "nativeHelpersUnchanged": true,
+  "streams": [
+    {
+      "gfx": 93,
+      "address": 4747264,
+      "bytes": 2912,
+      "compressedSource": 1341246,
+      "compressedBytes": 2194,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 99,
+          "assembly": 52,
+          "palette": 43,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 101,
+          "assembly": 52,
+          "palette": 42,
+          "size": 0
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "offset": 1341246,
+      "bytes": 2194,
+      "label": "Private imp compressed graphics",
+      "sha256": "83bfd47233a68a46647bb1ffb5771754329ac6b9e8118b7559a3cb2e10d00e95"
+    },
+    {
+      "offset": 2367767,
+      "bytes": 3,
+      "label": "Private imp graphics pointer",
+      "sha256": "c734c651a5df911c9346c234b73d51e25d7c991b74b9111c402f44b98213bd74"
+    },
+    {
+      "offset": 388372,
+      "bytes": 800,
+      "label": "Private imp native assembly",
+      "sha256": "6afadcfcebf8476a3cd04255fac32fa2c08fbf61d9cd44f211c7f6fc783cb74d"
+    },
+    {
+      "offset": 4747264,
+      "bytes": 2912,
+      "label": "NPC 93 direct-ROM graphics",
+      "sha256": "78518897986faa2c86712613b54ca1c86f77ed9d7c2e94fde297e9bf22c459c8"
+    },
+    {
+      "offset": 1331251,
+      "bytes": 3,
+      "label": "Private selected gfx93 raw stream",
+      "sha256": "05b54f32a478986ac6e7c189e4f3c6b3e53283621ddf6f0ae5bbb5e9da3c3bae"
+    }
+  ],
+  "nativeFrameUploads": 40,
+  "exactDisplayedCells": 160,
+  "exactDisplayedOpaquePixels": 10108,
+  "allOpaquePixelsVisible": true,
+  "originalFrameAndDurationListsUnchanged": true,
+  "currentPalettePacketsUnchanged": true,
+  "originalHeadersAiAndStatsUnchanged": true,
+  "originalPerSlotBottomExact": true,
+  "horizontalCenterRoundingAtMostHalfPixel": true,
+  "fullSizeByte0Unchanged": true,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "isolatedHeapBytes": [
+    {
+      "key": "drain-imp",
+      "bytes": 960
+    },
+    {
+      "key": "river-imp",
+      "bytes": 960
+    }
+  ],
+  "evidence": ".local/qa/drain-imps-native-proof",
+  "evidenceFiles": [
+    {
+      "file": "candidate.json",
+      "bytes": 2060,
+      "sha256": "233983ad983bb960b4f31d2efb4baaddbc8ec3674fa0d28964a3a1a0f9b9e409"
+    },
+    {
+      "file": "display-report.json",
+      "bytes": 42583,
+      "sha256": "4aa329f04ff98e8541ce643847e67ca4319e3bddc196932db9dd488f3f877030"
+    },
+    {
+      "file": "drain-imp-native-1x.png",
+      "bytes": 260684,
+      "sha256": "cfc1aa9627447d917389bb7397b72cf9f13c970e4ab3b53cdf904b0c115e8500"
+    },
+    {
+      "file": "river-imp-native-1x.png",
+      "bytes": 261096,
+      "sha256": "e614e4a5af88b78be8f9eed57888cc9e746aa6d9db042c21e26ee8433b4e034e"
+    },
+    {
+      "file": "drain-imp-00.png",
+      "bytes": 56604,
+      "sha256": "843019f1787e4bdc7a8e1e5d16ae68dbd660a511b3692116493ee7431b03ac21"
+    },
+    {
+      "file": "drain-imp-01.png",
+      "bytes": 56681,
+      "sha256": "f0c901fd039a08208d16e5f4ba242e52a24dd0981af4cdf0e23853aead482329"
+    },
+    {
+      "file": "drain-imp-02.png",
+      "bytes": 56634,
+      "sha256": "3b4ffdfd2d10365f2c2fabb247af105dc6babbb396908d7c174ebb4ca07d675b"
+    },
+    {
+      "file": "drain-imp-03.png",
+      "bytes": 56587,
+      "sha256": "b749851f4d9a562547dca7061404fb2f3ce045aea4e56fc43beb0e438bee28ef"
+    },
+    {
+      "file": "drain-imp-04.png",
+      "bytes": 56600,
+      "sha256": "9f003a83108aa29e2b2c7b6241f8b445794cbbb1f9444c2737c494abe0e317cd"
+    },
+    {
+      "file": "drain-imp-05.png",
+      "bytes": 56557,
+      "sha256": "0510fae0213881acb15b9ae1eb53f8d568c3338f8629abd90841ccb65995aee1"
+    },
+    {
+      "file": "drain-imp-06.png",
+      "bytes": 56611,
+      "sha256": "5c936db17d5d92259b2994ed4734c62b862e22db3c499b9effcac24ccec8b550"
+    },
+    {
+      "file": "drain-imp-07.png",
+      "bytes": 56596,
+      "sha256": "de69c841b88f7b07c312a9c11b95c62a52c00960c6153a516c946bb3c9b6cac5"
+    },
+    {
+      "file": "drain-imp-08.png",
+      "bytes": 56791,
+      "sha256": "9dc0e0f5b95a466ea5936a4f8f78c23a5f9732f0209b1eb584fcf72534b65010"
+    },
+    {
+      "file": "drain-imp-09.png",
+      "bytes": 56579,
+      "sha256": "1751eca14621c3f9dd317c19c7e0455ea94c19441c779a75a7f964b8962c306c"
+    },
+    {
+      "file": "drain-imp-10.png",
+      "bytes": 56676,
+      "sha256": "1a62cece4cc285ecf992b60d71b8d08ff44426b421014d5e8875ab1576f8e30f"
+    },
+    {
+      "file": "drain-imp-11.png",
+      "bytes": 56716,
+      "sha256": "fddc5804a389be2302d2cc5ee7e07e4b283ed308214e71bfdc89d6675f9ae9e3"
+    },
+    {
+      "file": "drain-imp-12.png",
+      "bytes": 56563,
+      "sha256": "a23f1d780939a35e95a7f75338171e3353eaa1e6c6fd3afce7a2be236aee8c16"
+    },
+    {
+      "file": "drain-imp-13.png",
+      "bytes": 56554,
+      "sha256": "b27e8d04d1e1ec26d126560233ea08fceb6e6b44599276780a7cba427e8a04de"
+    },
+    {
+      "file": "drain-imp-14.png",
+      "bytes": 56689,
+      "sha256": "1aee4f69138b5b8b1ff0546afb190dd8cdbd0b43a4817b4ad2892f3aecce5f01"
+    },
+    {
+      "file": "drain-imp-15.png",
+      "bytes": 56699,
+      "sha256": "3d7cdcf2bd47974d1949f8d0d8dcbe82d3b92c5f544731e0291979f166ee6d75"
+    },
+    {
+      "file": "drain-imp-16.png",
+      "bytes": 56624,
+      "sha256": "b4a820f5968f98f663210f629bc4e03c14cc44e9b0c75c6beace9532105fea2f"
+    },
+    {
+      "file": "drain-imp-17.png",
+      "bytes": 56599,
+      "sha256": "1626f24c3bd996e3207770dd25c4075efafa18f2d088c57c5a31d48ac587d8d1"
+    },
+    {
+      "file": "drain-imp-18.png",
+      "bytes": 56585,
+      "sha256": "1623a1a8a49e1ae7620e1b4efa45b0d99910dbe65e05d8d1125743154efef75e"
+    },
+    {
+      "file": "drain-imp-19.png",
+      "bytes": 56622,
+      "sha256": "e58d2570722befc8b00826992e07bf6fa5a14ff25bf75344551fa2f47d58ebf5"
+    },
+    {
+      "file": "river-imp-00.png",
+      "bytes": 56595,
+      "sha256": "5ab16f8aff4286eb158fed534099c88b557eec210f99ea199f791c652cb4e2e4"
+    },
+    {
+      "file": "river-imp-01.png",
+      "bytes": 56680,
+      "sha256": "f652456827c6a1afe4c4e23ce7c95afd9cc7101718fc3c9511c7e61e2dd2906d"
+    },
+    {
+      "file": "river-imp-02.png",
+      "bytes": 56632,
+      "sha256": "802298ec293f0da94a77593dfbd710bef59ff02163860dcedf303fa1489b5d60"
+    },
+    {
+      "file": "river-imp-03.png",
+      "bytes": 56589,
+      "sha256": "dcf1343e0fa716dc15b82751281fd32eb8ba19bfd7e09d950868ee8335c5c342"
+    },
+    {
+      "file": "river-imp-04.png",
+      "bytes": 56604,
+      "sha256": "63dad6032e4ec5a9c9b6c24d13a3d2f2f95c33542813fe1aa03fa1ae60a0d49c"
+    },
+    {
+      "file": "river-imp-05.png",
+      "bytes": 56559,
+      "sha256": "ba6901eb6f0558712126617e1f4cf8233e79e11ff0f3c6e73a3e127cb131db82"
+    },
+    {
+      "file": "river-imp-06.png",
+      "bytes": 56613,
+      "sha256": "39aafc6f320bc157f60327b6b00decce3a0704e7b3e42741f07541f0d63fd3a8"
+    },
+    {
+      "file": "river-imp-07.png",
+      "bytes": 56589,
+      "sha256": "1fed0fd3b6fb385e27b8ae6efa927827c5e4e560721a1c10a732ae59b7da8642"
+    },
+    {
+      "file": "river-imp-08.png",
+      "bytes": 56786,
+      "sha256": "0442bc2d1a92bce37ed1971227142fbed2d25f37a5feb92fbd66cab41d4f8fe2"
+    },
+    {
+      "file": "river-imp-09.png",
+      "bytes": 56577,
+      "sha256": "5cfbb4a339512bc19343e929e8f4d01037da79ef581d1a9daaa1eb150fb2f55b"
+    },
+    {
+      "file": "river-imp-10.png",
+      "bytes": 56686,
+      "sha256": "406b7d0092734a4a0162f81b8d575e46c4fe7b806298b4a22fe0584df69c62de"
+    },
+    {
+      "file": "river-imp-11.png",
+      "bytes": 56732,
+      "sha256": "09da580f77f7dc275430ea094e8f3c6ecd58d02123002826752b9582487c03df"
+    },
+    {
+      "file": "river-imp-12.png",
+      "bytes": 56554,
+      "sha256": "12fc00fa7cae5db496f54aa7480e0976c3b1e8ce5af8b8592ebdf66a305d689e"
+    },
+    {
+      "file": "river-imp-13.png",
+      "bytes": 56560,
+      "sha256": "e394f121df6823e0adbb32477205ac8e4f65aabebfde37824cb5c4a8bb3f7570"
+    },
+    {
+      "file": "river-imp-14.png",
+      "bytes": 56701,
+      "sha256": "e4c67524d91eaa5e3520e08f92599aa48d3b1390f0e167019f90094e3a739f4e"
+    },
+    {
+      "file": "river-imp-15.png",
+      "bytes": 56718,
+      "sha256": "249f5008bbce748ef62641412d61850a2fcafd726da9cf259be0cbebb8288aa3"
+    },
+    {
+      "file": "river-imp-16.png",
+      "bytes": 56632,
+      "sha256": "57f69321aa150f13fcdfff1fe6adb54ffacea7145de4d34668238d5f91df85c5"
+    },
+    {
+      "file": "river-imp-17.png",
+      "bytes": 56614,
+      "sha256": "d30167f4007c6a305bb3e07db6d3f2c499d904e2fb02f93a828664b171fe246e"
+    },
+    {
+      "file": "river-imp-18.png",
+      "bytes": 56600,
+      "sha256": "3e6c8e83cad49b44f5d189aa4913616288fe2b45bdb7f28234db332eda4830a6"
+    },
+    {
+      "file": "river-imp-19.png",
+      "bytes": 56638,
+      "sha256": "1f19e931f2fa542ea68909b652c245dd5d37314ef678d2a44861d25ea75109c3"
+    }
+  ],
+  "runner": {
+    "file": "assets/imagegen/drain-imps/verify-native.mjs",
+    "sha256": "710485711b7be7a137bb5b74d4f77be0ca9a2fadfac916d689731fbf8878c1f5"
+  },
+  "limitations": [
+    "Bounded native field preview only; no full route, encounter choreography or combat claim.",
+    "Native animation/timing lists are byte-identical, but static scrubbing does not establish live encounter transitions.",
+    "This bank exceeds its original decoded allowance and requires explicit gfx93 streaming; no default guard bypass is proposed.",
+    "Independent-core validation remains an integration check."
+  ],
+  "activation": false
+}

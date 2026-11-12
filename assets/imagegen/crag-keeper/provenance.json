@@ -1,0 +1,160 @@
+{
+  "status": "Frozen inactive generated-source candidate",
+  "date": "2026-10-31",
+  "design": "Original Crag Keeper cave guardian: living slate-stone troll with moss beard/brows, short stone horns, large fists, purple sash and gold charm. Existing project identity and original native pose semantics are preserved.",
+  "generationMode": "Built-in image_gen only. No API/CLI fallback, key access or procedural anatomy/face drawing.",
+  "outputs": [
+    {
+      "id": "base-v1",
+      "file": "source-base-v1.png",
+      "sha256": "29a25cc64ef98265c1f592a12f23a12e28f173b646dd1344c1a40385197f0b3a",
+      "prompt": "prompt-base-v1.txt",
+      "promptSha256": "1306aa516f8b8102164aa67110e76b3c75074425ed0a6ee3e9f81c517fd84c9a",
+      "tool": "built-in image_gen",
+      "model": "Not exposed by the tool result",
+      "sourceType": "image-generation",
+      "referenceImages": [],
+      "selectedForSampling": false,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "actualAlpha": {
+        "transparentPixels": 823291,
+        "pixelsAtOrAbove128": 599769
+      },
+      "originalToolOutput": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-8f01ef4f-6d6a-4138-8202-2d9aa460075b.png",
+      "exclusionReason": "Full limb reach exceeded the fixed eight-cell native geometry; preserved only as a recorded input to the corrected v2 edit."
+    },
+    {
+      "id": "base-v2",
+      "file": "source-base-v2.png",
+      "sha256": "f87bc1bd38cd562e980b9498be5486a155794af06fce72f8e292a103792ec278",
+      "prompt": "prompt-base-v2.txt",
+      "promptSha256": "3b1e8b15de7f6fba377984a248e02d55265470b7a2aba7883f77d3f9845fa8f3",
+      "tool": "built-in image_gen",
+      "model": "Not exposed by the tool result",
+      "sourceType": "image-generation",
+      "referenceImages": [
+        "source-base-v1.png"
+      ],
+      "selectedForSampling": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "actualAlpha": {
+        "transparentPixels": 885438,
+        "pixelsAtOrAbove128": 599031
+      },
+      "originalToolOutput": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-4aede3e1-0bbf-4d55-97fe-985efa9e6585.png"
+    },
+    {
+      "id": "actions-v1",
+      "file": "source-actions-v1.png",
+      "sha256": "9b0e22c69187a3fd82e0315e87b5c6ce9e75a8f5e7d6a08ad3defc55c4794a15",
+      "prompt": "prompt-actions-v1.txt",
+      "promptSha256": "d8af0b4412c42871f1f354b54f48315c34dcb278c9a8366f085e28fbafa2cb00",
+      "tool": "built-in image_gen",
+      "model": "Not exposed by the tool result",
+      "sourceType": "image-generation",
+      "referenceImages": [
+        "source-base-v2.png"
+      ],
+      "selectedForSampling": false,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "actualAlpha": {
+        "transparentPixels": 802040,
+        "pixelsAtOrAbove128": 663370
+      },
+      "originalToolOutput": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-ea3b005e-2b8d-4f6e-a8a8-e6b3826c7386.png",
+      "exclusionReason": "Full limb reach exceeded the fixed eight-cell native geometry; preserved only as a recorded input to the corrected v2 edit."
+    },
+    {
+      "id": "actions-v2",
+      "file": "source-actions-v2.png",
+      "sha256": "fd62d19c0c623abe8b7df0920d35759d252fe3b97987ea053273616bff6567d6",
+      "prompt": "prompt-actions-v2.txt",
+      "promptSha256": "d670f6b9c7428c9a84f675fe07a3d7144d97098d26ae47cc15205dab9f4c4c28",
+      "tool": "built-in image_gen",
+      "model": "Not exposed by the tool result",
+      "sourceType": "image-generation",
+      "referenceImages": [
+        "source-actions-v1.png",
+        "source-base-v2.png"
+      ],
+      "selectedForSampling": true,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "actualAlpha": {
+        "transparentPixels": 872442,
+        "pixelsAtOrAbove128": 604699
+      },
+      "originalToolOutput": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-8a0ce372-c5b4-445f-9550-9c82148a7d40.png"
+    }
+  ],
+  "derivation": {
+    "spec": "import-spec.draft.json",
+    "prepare": "prepare-draft.mjs",
+    "importer": "scripts/import-raster-art.mjs --preview-spec assets/imagegen/crag-keeper/import-spec.draft.json",
+    "compiler": "compile-draft.mjs",
+    "packing": "cell-packing.mjs",
+    "sourceFamilySnapshot": "source-family.json",
+    "legacyDescriptorSnapshot": "legacy-frame-descriptors.json",
+    "selectedSheets": 2,
+    "sourcePoses": 18,
+    "nativeFrames": 27,
+    "blankFrames": [],
+    "width": 64,
+    "height": 64,
+    "nativeHeight": 44,
+    "horizontalSampling": 0.85,
+    "poseScaleOverride": {
+      "sheet": "actions-v2",
+      "cell": 6,
+      "scale": 0.97,
+      "reason": "Approximately one native pixel of uniform whole-pose reduction preserves complete silhouette within eight cells; paired reflection matches exactly."
+    },
+    "method": "Area sampling of alpha-connected actual source pixels. Existing12-color material ramps. Whole-pose reflection/offset only; no missing-pose idle substitution, pixel repainting or silhouette deletion."
+  },
+  "review": {
+    "lead": "/root/sprite_art_pass",
+    "parent": "/root",
+    "status": "Approved full27-frame native and Echo sheets; lead viewed actual frame21 capture; parent approved moss/stone silhouette, readable face and compact gestures.",
+    "lightingVariation": "Action source stone planes are modestly brighter than walking source. Shared slate palette and anatomy remain coherent at native scale.",
+    "nativeCapturesViewed": [
+      "crag-keeper3",
+      "crag-keeper21",
+      "crag-keeper26",
+      "crag-echo3"
+    ]
+  },
+  "nativeProof": {
+    "manifest": "native-verification/manifest.json",
+    "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+    "privateRomSha256": "a1a33c973d237d42dc8cd6aef0d54bdf217bd537e2ddd227ccb6d1ab7d540a57",
+    "nativeFrameUploads": 54,
+    "opaquePixelChecks": 61504,
+    "paletteVariants": 2,
+    "exactHardwarePalettes": [
+      188,
+      189
+    ],
+    "settledCaptureFrames": 30,
+    "scope": "Isolated native field previews. Full cave/battle, late-game Echo scenes and independent cores remain integration work."
+  },
+  "integration": {
+    "activeFilesChanged": false,
+    "productionOwner": "/root",
+    "sourceGuard": "Default nonstreamed decoded-size guard rejects the candidate as expected.",
+    "rawBankBytes": 14176,
+    "nativeTileLimitBytes": 32768,
+    "scene47UnionBytes": 34624,
+    "streamingDecision": "Parent will select gfx140 for separately proven native raw streaming and preserve both palettes and all offsets."
+  }
+}

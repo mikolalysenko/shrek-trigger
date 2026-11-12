@@ -1,0 +1,94 @@
+{
+  "status": "Inactive generated source packet; source/native appearance approved, root owns activation.",
+  "sources": [
+    {
+      "kind": "world",
+      "path": "source-world-v1.png",
+      "sha256": "c8ce300ab3a9942949820e47f841280b91fae3978a52af69c8473f14f5675c27",
+      "dimensions": [
+        1566,
+        1005
+      ],
+      "prompt": "prompt-world-v1.txt",
+      "exactPromptSha256": "2862354572c37019afec370f082fc3f5adfaaa8110efb3e362308709d78abd3c",
+      "tool": "image_gen__imagegen",
+      "mode": "Built-in actual image generation using existing generated references",
+      "transparentBackground": true,
+      "originalOutputPath": "/Users/mikolalysenko/.codex/generated_images/01a19351-746a-7d90-a81a-1ea5ba445693/exec-4f5e1098-d313-4940-a7c2-9b995a0e075f.png",
+      "originalOutputPreserved": true,
+      "references": [
+        {
+          "path": "assets/imagegen/cosmic-muffin-shell/source-body-v3.png",
+          "sha256": "1075f5d4dac1c1bdf4851c9ae77102dbd6eddf94ce2b9b879401d54ef6ddcbe5"
+        }
+      ],
+      "nativeConversion": "Original generated RGBA only; alpha-thresholded uniform sampling and nearest original-hardware-palette assignment. No procedural anatomy or painted pixels.",
+      "outputCaveat": "The generator produced a high-detail pixel-style raster, not a literal native-resolution or15-color source. Exact native conversion is separately audited."
+    },
+    {
+      "kind": "meteor",
+      "path": "source-meteor-v1.png",
+      "sha256": "a8c29e8de2451555355be0eab95b7f82d61d3d2533d533398794d608d796cdac",
+      "dimensions": [
+        1203,
+        1308
+      ],
+      "prompt": "prompt-meteor-v1.txt",
+      "exactPromptSha256": "9877efc05b771b249b265f03c2e5ccb38fd627ddfbcaa803d4e8810cef088697",
+      "tool": "image_gen__imagegen",
+      "mode": "Built-in actual image generation using existing generated references",
+      "transparentBackground": true,
+      "originalOutputPath": "/Users/mikolalysenko/.codex/generated_images/01a19351-746a-7d90-a81a-1ea5ba445693/exec-642e9968-bf99-42a7-a3aa-ade1e3ce389c.png",
+      "originalOutputPreserved": true,
+      "references": [
+        {
+          "path": "assets/imagegen/cosmic-muffin-shell/source-body-v3.png",
+          "sha256": "1075f5d4dac1c1bdf4851c9ae77102dbd6eddf94ce2b9b879401d54ef6ddcbe5"
+        },
+        {
+          "path": "assets/imagegen/cosmic-muffin-world/source-world-v1.png",
+          "sha256": "c8ce300ab3a9942949820e47f841280b91fae3978a52af69c8473f14f5675c27"
+        }
+      ],
+      "nativeConversion": "Original generated RGBA only; alpha-thresholded uniform sampling and nearest original-hardware-palette assignment. No procedural anatomy or painted pixels.",
+      "outputCaveat": "The generator produced a high-detail pixel-style raster, not a literal native-resolution or15-color source. Exact native conversion is separately audited."
+    }
+  ],
+  "sourceModel": "Original Cosmic Muffin threat matching the separately frozen battle shell, Ward and Core.",
+  "reviews": [
+    {
+      "reviewer": "root",
+      "artifact": "review/world-64-area-6x.png",
+      "decision": "Accepted hot world-palette appearance."
+    },
+    {
+      "reviewer": "root",
+      "artifacts": [
+        "native-verification/world-0611.png",
+        "native-verification/world-0898.png",
+        "native-verification/world-1034.png"
+      ],
+      "decision": "Accepted unchanged original eruption/rim occlusion; large shell scene supplies complete wrapper silhouette."
+    },
+    {
+      "reviewer": "root",
+      "artifact": "meteor/sample-48-49-area-6x.png",
+      "decision": "Accepted incandescent muffin silhouette/dark chocolate cavities for native Mode7 proof."
+    },
+    {
+      "reviewer": "sprite_art_pass",
+      "artifacts": [
+        "meteor/native-verification/meteor-0240.png",
+        "meteor/native-verification/meteor-0600.png",
+        "meteor/native-verification/meteor-1440.png"
+      ],
+      "decision": "Viewed native rotation and receding approach; coherent source identity at original small display scale."
+    }
+  ],
+  "unchangedSourceResources": "Both palettes, all tilemaps, native frame assemblies/transforms, shared debris/impact/rim tiles, planet/star artwork and procedures remain original.",
+  "sourceRomRequirement": {
+    "path": ".local/chrono-trigger-usa.sfc",
+    "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+    "notIncludedInManifest": true
+  }
+}

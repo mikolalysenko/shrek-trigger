@@ -1,0 +1,105 @@
+{
+  "key": "rivet-race",
+  "sourceType": "image-generation",
+  "width": 24,
+  "height": 24,
+  "palette": [
+    "242b35",
+    "51433f",
+    "806044",
+    "ba945b",
+    "dfc38a",
+    "f5e9bc",
+    "2e5358",
+    "4d8382",
+    "91b7ac",
+    "683d43",
+    "bc5b4c",
+    "f6db69"
+  ],
+  "directory": "assets/imagegen/rivet/race-draft",
+  "sheets": [
+    {
+      "file": "assets/imagegen/rivet/source-field-riding-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "cells": [
+        2,
+        5,
+        6,
+        1,
+        0
+      ],
+      "nativeHeight": 21,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 23,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    },
+    {
+      "file": "assets/imagegen/rivet/source-race-quarter-v1.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 21,
+      "scaleCells": [
+        0
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 23,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        5,
+        3,
+        4
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Six actual generated views retain three profile motion beats, rear-quarter camera direction, front and back. Five are resampled from the approved actual field riding sheet; quarter is separately generated from that model."
+      }
+    }
+  },
+  "notes": {
+    "status": "Inactive; fixed native software projection packet2, not4bpp OBJ tiles",
+    "nativeFrames": 6,
+    "rowStride": 64,
+    "frameOffsets": [
+      0,
+      1536,
+      3072,
+      4608,
+      6144,
+      7680
+    ],
+    "preserveUnusedColumns40": true,
+    "preservePaletteRows": [
+      9,
+      13
+    ],
+    "palette": "Existing15color racing ramp preserved byte-for-byte; this source uses its first12opaque colors."
+  }
+}

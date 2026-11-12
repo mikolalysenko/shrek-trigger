@@ -1,0 +1,151 @@
+{
+  "status": "All8native poses and exact native-program review",
+  "nativeScale": 1,
+  "sourcePoses": 8,
+  "sourceFrames": 8,
+  "palette": 184,
+  "contactSheet": "contact-sheet-1x.png",
+  "motion": {
+    "scenarios": 48,
+    "nativeTicks": 7200,
+    "selected": [
+      {
+        "actor": "tank-head",
+        "mode": 6,
+        "list": [
+          {
+            "frame": 0,
+            "ticks": 15,
+            "programIndex": 24
+          },
+          {
+            "frame": 1,
+            "ticks": 15,
+            "programIndex": 25
+          }
+        ],
+        "period": 30,
+        "label": "Head0/1:15/15ticks"
+      },
+      {
+        "actor": "tank-head",
+        "mode": 7,
+        "list": [
+          {
+            "frame": 1,
+            "ticks": 5,
+            "programIndex": 28
+          },
+          {
+            "frame": 2,
+            "ticks": 5,
+            "programIndex": 29
+          },
+          {
+            "frame": 3,
+            "ticks": 25,
+            "programIndex": 30
+          }
+        ],
+        "period": 35,
+        "label": "Head1/2/3:5/5/25ticks"
+      },
+      {
+        "actor": "tank-wheel",
+        "mode": 1,
+        "list": [
+          {
+            "frame": 0,
+            "ticks": 31,
+            "programIndex": 4
+          },
+          {
+            "frame": 1,
+            "ticks": 31,
+            "programIndex": 5
+          }
+        ],
+        "period": 62,
+        "label": "Wheel0/1:31/31ticks"
+      },
+      {
+        "actor": "tank-wheel",
+        "mode": 6,
+        "list": [
+          {
+            "frame": 0,
+            "ticks": 5,
+            "programIndex": 24
+          },
+          {
+            "frame": 1,
+            "ticks": 5,
+            "programIndex": 25
+          }
+        ],
+        "period": 10,
+        "label": "Wheel0/1:5/5ticks"
+      }
+    ],
+    "gifTicks": 210,
+    "gifRate": 60,
+    "gifNote": "GIF rounds to centiseconds. HTML uses60Hz tick arithmetic. Each panel animates one native component while the others are held for attachment review."
+  },
+  "attachments": [
+    {
+      "headFrame": 0,
+      "bodyHeadOverlapPixels": 244,
+      "bodyHeadOverlapCoordinatesSha256": "b03b22dd18817e5bd27aa9234c3b4da929ac57c3898ff95bbc9fd807f410c80a",
+      "anchorUnchanged": [
+        32,
+        -49
+      ],
+      "sourcePixelHash": "1212c12b2d2cf26fabba144e85f37d447551b77305957040ba2c18fc0a58590a"
+    },
+    {
+      "headFrame": 1,
+      "bodyHeadOverlapPixels": 240,
+      "bodyHeadOverlapCoordinatesSha256": "537d8576f1f650fcf50538dabe162ec10ee5fe1701b721b16eb827dd3c2fcb11",
+      "anchorUnchanged": [
+        32,
+        -49
+      ],
+      "sourcePixelHash": "f15b2e3e77fead3a3eca8c3579457f83a621b8792b1a5b0313cbfa7e004dd3ce"
+    },
+    {
+      "headFrame": 2,
+      "bodyHeadOverlapPixels": 246,
+      "bodyHeadOverlapCoordinatesSha256": "9db403ae5806cccffb283376648fc5de3f44289d1fa2d44cbe9272c4bf4570e5",
+      "anchorUnchanged": [
+        32,
+        -49
+      ],
+      "sourcePixelHash": "283a6a89050fc4ca45fc33bc9fbd51af24e8c71fa25d30d1e442d82051e8fea7"
+    },
+    {
+      "headFrame": 3,
+      "bodyHeadOverlapPixels": 262,
+      "bodyHeadOverlapCoordinatesSha256": "e908075014dc1a59282ae6dd1abf95883ad8177663a98036024e06766a76cb57",
+      "anchorUnchanged": [
+        32,
+        -49
+      ],
+      "sourcePixelHash": "5674a4e361ce1fe0bfeedb5a783f4d950690eafcb259c39da246c11127a7dd17"
+    },
+    {
+      "headFrame": 4,
+      "bodyHeadOverlapPixels": 239,
+      "bodyHeadOverlapCoordinatesSha256": "4973c0ddacf55d10632ba9c901dd94dd0c7648d1d1879bfaef2a04a3ef0e6c1f",
+      "anchorUnchanged": [
+        32,
+        -49
+      ],
+      "sourcePixelHash": "d7fada265c4bc92a8e14ea925ec7b6b79165c3df29e0fea01d36e8f75f0b7726"
+    }
+  ],
+  "limitations": [
+    "Original field head4 is a static event operand, not a timed source state.",
+    "Original chassis blank tile record contains nonzero XY offsets and remains reserved.",
+    "Actual native scene and solo exact pixel proofs are separate from these source-derived compounds."
+  ]
+}

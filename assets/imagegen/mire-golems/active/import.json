@@ -1,0 +1,629 @@
+{
+  "key": "mire-golems",
+  "frames": 32,
+  "width": 64,
+  "height": 64,
+  "opaqueColors": 12,
+  "palette": [
+    "232b2b",
+    "443a30",
+    "705643",
+    "a37d56",
+    "cba873",
+    "263e32",
+    "49664c",
+    "86a06a",
+    "3c5056",
+    "71858a",
+    "d7ae51",
+    "f4dfae"
+  ],
+  "samplingPalette": [
+    "232b2b",
+    "443a30",
+    "705643",
+    "a37d56",
+    "cba873",
+    "263e32",
+    "49664c",
+    "86a06a",
+    "3c5056",
+    "71858a",
+    "d7ae51",
+    "f4dfae"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/mire-golems/source-movement-v2.png",
+      "sha256": "a07103815f9c5b3010167cae1654b00441b92d00b0920a6a7fba7c105e93c742",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "scale": 0.1676300578034682,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            102,
+            13,
+            189,
+            348
+          ],
+          "componentPixels": 42585
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            449,
+            19,
+            188,
+            340
+          ],
+          "componentPixels": 42117
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            804,
+            16,
+            191,
+            345
+          ],
+          "componentPixels": 42410
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1156,
+            10,
+            194,
+            348
+          ],
+          "componentPixels": 42122
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            98,
+            369,
+            191,
+            338
+          ],
+          "componentPixels": 42273
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            450,
+            370,
+            188,
+            346
+          ],
+          "componentPixels": 42180
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            812,
+            373,
+            188,
+            342
+          ],
+          "componentPixels": 39390
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            1193,
+            373,
+            150,
+            339
+          ],
+          "componentPixels": 31673
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            98,
+            728,
+            176,
+            339
+          ],
+          "componentPixels": 37767
+        },
+        {
+          "cell": 9,
+          "bounds": [
+            449,
+            727,
+            191,
+            340
+          ],
+          "componentPixels": 43181
+        },
+        {
+          "cell": 10,
+          "bounds": [
+            802,
+            728,
+            198,
+            339
+          ],
+          "componentPixels": 44852
+        },
+        {
+          "cell": 11,
+          "bounds": [
+            1194,
+            728,
+            152,
+            339
+          ],
+          "componentPixels": 31809
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/mire-golems/source-actions-v1.png",
+      "sha256": "74e24d46f31ec963e283e128ef0946b31edde6fc990db05a0455196b6d7d6b73",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "scale": 0.17575757575757575,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.7897313173066464
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            96,
+            23,
+            224,
+            317
+          ],
+          "componentPixels": 40972
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            456,
+            21,
+            192,
+            323
+          ],
+          "componentPixels": 42294
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            783,
+            21,
+            214,
+            323
+          ],
+          "componentPixels": 43191
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1136,
+            21,
+            174,
+            323
+          ],
+          "componentPixels": 34842
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            126,
+            369,
+            172,
+            331
+          ],
+          "componentPixels": 41055
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            448,
+            369,
+            208,
+            333
+          ],
+          "componentPixels": 45495
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            807,
+            375,
+            175,
+            324
+          ],
+          "componentPixels": 40550
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            1125,
+            369,
+            207,
+            330
+          ],
+          "componentPixels": 45862
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            97,
+            743,
+            229,
+            296
+          ],
+          "componentPixels": 44599
+        },
+        {
+          "cell": 9,
+          "bounds": [
+            448,
+            769,
+            208,
+            267
+          ],
+          "componentPixels": 40302
+        },
+        {
+          "cell": 10,
+          "bounds": [
+            790,
+            710,
+            201,
+            329
+          ],
+          "componentPixels": 45350
+        },
+        {
+          "cell": 11,
+          "bounds": [
+            1142,
+            711,
+            167,
+            330
+          ],
+          "componentPixels": 33286
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/mire-golems/source-tumble-v1.png",
+      "sha256": "8ce6214e2f1287e2ea88bc7e4808e4084569d62c8599a691fb5bcf470dbc6e53",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "scale": 0.17008797653958943,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.7482758620689656
+        },
+        "1": {
+          "scale": 0.7686730839527233
+        },
+        "2": {
+          "scale": 0.7653540093858396
+        },
+        "3": {
+          "scale": 0.828448275862069
+        },
+        "4": {
+          "scale": 0.898227969348659
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            173,
+            39,
+            270,
+            275
+          ],
+          "componentPixels": 44298
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            680,
+            32,
+            222,
+            283
+          ],
+          "componentPixels": 38092
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            1127,
+            0,
+            220,
+            338
+          ],
+          "componentPixels": 43088
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            173,
+            397,
+            230,
+            220
+          ],
+          "componentPixels": 33035
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            663,
+            352,
+            230,
+            288
+          ],
+          "componentPixels": 35076
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            1110,
+            420,
+            286,
+            183
+          ],
+          "componentPixels": 34510
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            166,
+            726,
+            283,
+            184
+          ],
+          "componentPixels": 35296
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            673,
+            650,
+            190,
+            336
+          ],
+          "componentPixels": 44177
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            1179,
+            649,
+            148,
+            341
+          ],
+          "componentPixels": 32034
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/mire-golems/source-front-actions-v1.png",
+      "sha256": "808fc985bac8f36ac57234123ac189dd9dc9352feb341882963f43e478ab0966",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "scale": 0.13908872901678657,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.9742990654205608
+        },
+        "2": {
+          "scale": 0.9834905660377359
+        },
+        "3": {
+          "scale": 0.954233409610984
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            278,
+            14,
+            231,
+            428
+          ],
+          "componentPixels": 66678
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            654,
+            29,
+            232,
+            416
+          ],
+          "componentPixels": 63344
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            1036,
+            20,
+            231,
+            424
+          ],
+          "componentPixels": 62540
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            275,
+            495,
+            238,
+            437
+          ],
+          "componentPixels": 66428
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            654,
+            539,
+            232,
+            380
+          ],
+          "componentPixels": 60988
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            1036,
+            496,
+            234,
+            417
+          ],
+          "componentPixels": 65454
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/mire-golems/source-curl-v1.png",
+      "sha256": "99d1cee11e2e80df34d978f7efc23aae5162ab9c11a2d40ef1170166828dbda4",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1717,
+        916
+      ],
+      "scale": 0.08333333333333333,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.8898876404494384
+        },
+        "1": {
+          "scale": 0.8898876404494384
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            137,
+            277,
+            416,
+            445
+          ],
+          "componentPixels": 126905
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            707,
+            277,
+            420,
+            445
+          ],
+          "componentPixels": 127895
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            1253,
+            138,
+            364,
+            696
+          ],
+          "componentPixels": 162730
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    }
+  },
+  "originalRasterComponents": [
+    {
+      "file": "assets/imagegen/mire-golems/golem/source-native-shadow.json",
+      "sha256": "52cf43f53463bd1a80fdc218f0b8993941b9df872b09a8f71d624130546ab6b2",
+      "sourceType": "original-ROM-raster"
+    }
+  ]
+}

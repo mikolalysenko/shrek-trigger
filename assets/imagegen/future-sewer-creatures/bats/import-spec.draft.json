@@ -1,0 +1,63 @@
+{
+  "key": "lantern-bats",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/future-sewer-creatures/bats",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "282837",
+    "44364d",
+    "735376",
+    "aa829f",
+    "e2b7c4",
+    "4b382c",
+    "805738",
+    "ba8952",
+    "34434d",
+    "688491",
+    "e6ac54",
+    "fff0b8"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/future-sewer-creatures/source-bats-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 21,
+      "scaleCells": [
+        0,
+        1
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 59
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive complete source/native mapping",
+    "native": "Original IDs, four-cell budget, full size bytes and programs preserved. Current palette packets unchanged.",
+    "unusedSourceFrames": [
+      7,
+      8
+    ],
+    "sourceMirrors": [],
+    "translatedSourceDuplicates": [],
+    "geometry": "Preserve original per-slot lowest opaque pixel and horizontal center; all role silhouettes are generated source poses. Bat sizebyte64/flying flag stays unchanged."
+  }
+}

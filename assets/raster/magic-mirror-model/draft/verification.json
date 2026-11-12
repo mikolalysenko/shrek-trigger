@@ -1,0 +1,246 @@
+{
+  "status": "Inactive source and compound tile proof passed; native emulator proof pending",
+  "dimensions": [
+    48,
+    96
+  ],
+  "opaqueColors": 12,
+  "palette": [
+    "161727",
+    "222844",
+    "3f5875",
+    "667a8e",
+    "93a6b1",
+    "b8ced0",
+    "e5f3e9",
+    "4a321c",
+    "80602d",
+    "b68a3e",
+    "ddb854",
+    "f4dfa0"
+  ],
+  "nativeVisibleFrames": 2,
+  "nativeBlankFrames": 2,
+  "original": {
+    "graphicsOffset": 2209708,
+    "graphicsBytes": 2048,
+    "compressedBytes": 1938,
+    "paletteOffset": 2364864
+  },
+  "graphicsBytes": 2016,
+  "compressedBytes": 1363,
+  "tiles": 63,
+  "assemblyBytes": [
+    240,
+    160
+  ],
+  "graphicsSha256": "9dff816e7704548a7d2babf198a0e82041071efd7047b60caa7433f880c18834",
+  "pixelsSha256": "59350c40f01e65ca8664af63230f3d3e37700215ee44719583706227c33a2883",
+  "actors": [
+    {
+      "key": "magic-mirror-main",
+      "enemy": 190,
+      "gfx": 213,
+      "asm": 206,
+      "palette": 232,
+      "animation": 173,
+      "size": 2,
+      "width": 48,
+      "height": 96,
+      "frames": 2,
+      "anchor": [
+        0,
+        48
+      ],
+      "header": [
+        213,
+        206,
+        232,
+        173,
+        2,
+        0,
+        224,
+        12,
+        12,
+        0
+      ],
+      "cellOrigins": [
+        [
+          8,
+          0
+        ],
+        [
+          24,
+          0
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          24,
+          16
+        ],
+        [
+          8,
+          32
+        ],
+        [
+          24,
+          32
+        ],
+        [
+          8,
+          48
+        ],
+        [
+          24,
+          48
+        ],
+        [
+          8,
+          64
+        ],
+        [
+          24,
+          64
+        ],
+        [
+          8,
+          80
+        ],
+        [
+          24,
+          80
+        ]
+      ],
+      "assemblyOffset": 2350480,
+      "assemblyBytes": 240,
+      "opaquePixels": 2331,
+      "ai": {
+        "offset": 833031,
+        "bytes": 120,
+        "sha256": "c62746baef386c96ef819548c76a732e39a4329cdbc105e9c0bc7b9a37afae70"
+      }
+    },
+    {
+      "key": "magic-mirror-trim",
+      "enemy": 191,
+      "gfx": 213,
+      "asm": 207,
+      "palette": 232,
+      "animation": 173,
+      "size": 33,
+      "width": 48,
+      "height": 96,
+      "frames": 2,
+      "anchor": [
+        0,
+        48
+      ],
+      "header": [
+        213,
+        207,
+        232,
+        173,
+        33,
+        0,
+        32,
+        12,
+        12,
+        0
+      ],
+      "cellOrigins": [
+        [
+          0,
+          16
+        ],
+        [
+          32,
+          16
+        ],
+        [
+          0,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          0,
+          48
+        ],
+        [
+          32,
+          48
+        ],
+        [
+          0,
+          64
+        ],
+        [
+          32,
+          64
+        ]
+      ],
+      "assemblyOffset": 2350720,
+      "assemblyBytes": 160,
+      "opaquePixels": 477,
+      "ai": {
+        "offset": 833151,
+        "bytes": 22,
+        "sha256": "cb2067ca1958a9da9ed2e4040ec441f390e7d979384cfeb9b68fcd08238f13c8"
+      }
+    }
+  ],
+  "scene": {
+    "location": 268,
+    "eventPointer": 3891788,
+    "main": {
+      "loadOffset": 3839,
+      "enemySlotByte": 131,
+      "positionCommand": [
+        141,
+        2560,
+        1776
+      ]
+    },
+    "trim": {
+      "loadOffset": 3872,
+      "enemySlotByte": 137,
+      "positionCommand": [
+        141,
+        2560,
+        1776
+      ]
+    },
+    "display": {
+      "enemy": 183,
+      "count": 3,
+      "npcAlias": 127,
+      "status": "Original resources retained; distinct art gap",
+      "gfx": 168,
+      "asm": 161,
+      "palette": 144,
+      "animation": 143,
+      "size": 0,
+      "frames": 8,
+      "graphicsBytes": 960,
+      "compressedBytes": 457
+    }
+  },
+  "memory": {
+    "extraWramBytes": 0,
+    "extraVramBytes": 0,
+    "extraNativeCells": 0,
+    "extraFrameIds": 0
+  },
+  "provenance": [
+    {
+      "file": "assets/raster/magic-mirror-model/source-front.png",
+      "sha256": "31ee2ecfe734c266c1450795d10030f7028cc3d7ccb07794f6e2102807fd4c36",
+      "sourceType": "existing-game-model-render"
+    }
+  ]
+}

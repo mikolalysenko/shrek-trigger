@@ -1,0 +1,2705 @@
+{
+  "status": "Confirmed visible regression; inactive read-only audit, root owns correction",
+  "priority": 1,
+  "confidence": "High: native failure PC, actual row/CGRAM/PPU source match, and original-ROM control all reproduced.",
+  "cause": "NPC0 Muffin Man/Melchior changes palette133 to139. Normal NPC allocation has only rows0–4. The same visible-window crowd now needs six distinct source pointers instead of five. The merchant reaches C072B2 and keeps stale row0; the allocator does not retry while he remains in the culling window.",
+  "cases": {
+    "original": {
+      "romSha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+      "setup": {
+        "id": 5,
+        "x": 28,
+        "y": 32,
+        "story": 5,
+        "ticks": 2100,
+        "moves": [
+          {
+            "start": 1500,
+            "end": 1560,
+            "keys": 64
+          }
+        ]
+      },
+      "nativeTicks": 2100,
+      "event": {
+        "location": 5,
+        "id": 27,
+        "physicalOffset": 1770974,
+        "physicalHex": "0x1b05de",
+        "compressedBytes": 1685,
+        "decodedBytes": 2570,
+        "objectCount": 29,
+        "decodedSha256": "7960bfbc71ce5b288b8943cbaa01d3010a50f2ef546a740900bde7e2f5127f7f"
+      },
+      "merchantLoads": [
+        {
+          "object": 16,
+          "initBodyPointer": 2132,
+          "initPointerDecodedOffset": 513,
+          "opcodeBodyOffset": 2132,
+          "operandBodyOffset": 2133,
+          "operandDecodedOffset": 2134,
+          "originalBytes": [
+            130,
+            22
+          ],
+          "sameRoleCompatibleBytes": [
+            130,
+            89
+          ],
+          "initialCommands": [
+            {
+              "offset": 2132,
+              "opcode": 130,
+              "args": [
+                22
+              ],
+              "bytes": 2,
+              "owners": [
+                {
+                  "object": 16,
+                  "function": 0,
+                  "start": 2132
+                }
+              ]
+            },
+            {
+              "offset": 2134,
+              "opcode": 141,
+              "args": [
+                4864,
+                8000
+              ],
+              "bytes": 5,
+              "owners": [
+                {
+                  "object": 16,
+                  "function": 0,
+                  "start": 2132
+                }
+              ]
+            },
+            {
+              "offset": 2139,
+              "opcode": 22,
+              "args": [
+                0,
+                39,
+                4,
+                3
+              ],
+              "bytes": 5,
+              "owners": [
+                {
+                  "object": 16,
+                  "function": 0,
+                  "start": 2132
+                }
+              ]
+            },
+            {
+              "offset": 2144,
+              "opcode": 10,
+              "args": [
+                32
+              ],
+              "bytes": 2,
+              "owners": [
+                {
+                  "object": 16,
+                  "function": 0,
+                  "start": 2132
+                }
+              ]
+            },
+            {
+              "offset": 2146,
+              "opcode": 0,
+              "args": [],
+              "bytes": 1,
+              "owners": [
+                {
+                  "object": 16,
+                  "function": 0,
+                  "start": 2132
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "object": 24,
+          "initBodyPointer": 2381,
+          "initPointerDecodedOffset": 769,
+          "opcodeBodyOffset": 2381,
+          "operandBodyOffset": 2382,
+          "operandDecodedOffset": 2383,
+          "originalBytes": [
+            130,
+            22
+          ],
+          "sameRoleCompatibleBytes": [
+            130,
+            89
+          ],
+          "initialCommands": [
+            {
+              "offset": 2381,
+              "opcode": 130,
+              "args": [
+                22
+              ],
+              "bytes": 2,
+              "owners": [
+                {
+                  "object": 24,
+                  "function": 0,
+                  "start": 2381
+                }
+              ]
+            },
+            {
+              "offset": 2383,
+              "opcode": 141,
+              "args": [
+                3840,
+                9536
+              ],
+              "bytes": 5,
+              "owners": [
+                {
+                  "object": 24,
+                  "function": 0,
+                  "start": 2381
+                }
+              ]
+            },
+            {
+              "offset": 2388,
+              "opcode": 142,
+              "args": [
+                34
+              ],
+              "bytes": 2,
+              "owners": [
+                {
+                  "object": 24,
+                  "function": 0,
+                  "start": 2381
+                }
+              ]
+            },
+            {
+              "offset": 2390,
+              "opcode": 22,
+              "args": [
+                0,
+                39,
+                4,
+                3
+              ],
+              "bytes": 5,
+              "owners": [
+                {
+                  "object": 24,
+                  "function": 0,
+                  "start": 2381
+                }
+              ]
+            },
+            {
+              "offset": 2395,
+              "opcode": 10,
+              "args": [
+                48
+              ],
+              "bytes": 2,
+              "owners": [
+                {
+                  "object": 24,
+                  "function": 0,
+                  "start": 2381
+                }
+              ]
+            },
+            {
+              "offset": 2397,
+              "opcode": 0,
+              "args": [],
+              "bytes": 1,
+              "owners": [
+                {
+                  "object": 24,
+                  "function": 0,
+                  "start": 2381
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "object": 25,
+          "initBodyPointer": 2415,
+          "initPointerDecodedOffset": 801,
+          "opcodeBodyOffset": 2415,
+          "operandBodyOffset": 2416,
+          "operandDecodedOffset": 2417,
+          "originalBytes": [
+            130,
+            22
+          ],
+          "sameRoleCompatibleBytes": [
+            130,
+            89
+          ],
+          "initialCommands": [
+            {
+              "offset": 2415,
+              "opcode": 130,
+              "args": [
+                22
+              ],
+              "bytes": 2,
+              "owners": [
+                {
+                  "object": 25,
+                  "function": 0,
+                  "start": 2415
+                }
+              ]
+            },
+            {
+              "offset": 2417,
+              "opcode": 139,
+              "args": [
+                3,
+                35
+              ],
+              "bytes": 3,
+              "owners": [
+                {
+                  "object": 25,
+                  "function": 0,
+                  "start": 2415
+                }
+              ]
+            },
+            {
+              "offset": 2420,
+              "opcode": 0,
+              "args": [],
+              "bytes": 1,
+              "owners": [
+                {
+                  "object": 25,
+                  "function": 0,
+                  "start": 2415
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "initialAllocations": [
+        {
+          "frame": 8963,
+          "location": 5,
+          "pc": 12612168,
+          "object": 8,
+          "tick": 107,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 75,
+          "sourcePointer": 336,
+          "assignedRow": 0,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": null,
+              "sourcePointer": null
+            },
+            {
+              "row": 2,
+              "object": null,
+              "sourcePointer": null
+            },
+            {
+              "row": 3,
+              "object": null,
+              "sourcePointer": null
+            },
+            {
+              "row": 4,
+              "object": null,
+              "sourcePointer": null
+            }
+          ]
+        },
+        {
+          "frame": 8963,
+          "location": 5,
+          "pc": 12612168,
+          "object": 9,
+          "tick": 107,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 76,
+          "sourcePointer": 384,
+          "assignedRow": 1,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": null,
+              "sourcePointer": null
+            },
+            {
+              "row": 3,
+              "object": null,
+              "sourcePointer": null
+            },
+            {
+              "row": 4,
+              "object": null,
+              "sourcePointer": null
+            }
+          ]
+        },
+        {
+          "frame": 8963,
+          "location": 5,
+          "pc": 12612168,
+          "object": 10,
+          "tick": 107,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 59,
+          "sourcePointer": 3864,
+          "assignedRow": 2,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": null,
+              "sourcePointer": null
+            },
+            {
+              "row": 4,
+              "object": null,
+              "sourcePointer": null
+            }
+          ]
+        },
+        {
+          "frame": 8963,
+          "location": 5,
+          "pc": 12612168,
+          "object": 11,
+          "tick": 107,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 81,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 11,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": null,
+              "sourcePointer": null
+            }
+          ]
+        },
+        {
+          "frame": 8963,
+          "location": 5,
+          "pc": 12612168,
+          "object": 12,
+          "tick": 107,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 79,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 12,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": null,
+              "sourcePointer": null
+            }
+          ]
+        },
+        {
+          "frame": 8964,
+          "location": 5,
+          "pc": 12612168,
+          "object": 14,
+          "tick": 108,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 0,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 14,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": null,
+              "sourcePointer": null
+            }
+          ]
+        },
+        {
+          "frame": 8964,
+          "location": 5,
+          "pc": 12612168,
+          "object": 15,
+          "tick": 108,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 82,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 15,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": null,
+              "sourcePointer": null
+            }
+          ]
+        },
+        {
+          "frame": 8964,
+          "location": 5,
+          "pc": 12612168,
+          "object": 16,
+          "tick": 108,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 22,
+          "sourcePointer": 216,
+          "assignedRow": 4,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 15,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 16,
+              "sourcePointer": 216
+            }
+          ]
+        },
+        {
+          "frame": 8964,
+          "location": 5,
+          "pc": 12612168,
+          "object": 17,
+          "tick": 108,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 80,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 17,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 16,
+              "sourcePointer": 216
+            }
+          ]
+        },
+        {
+          "frame": 8964,
+          "location": 5,
+          "pc": 12612168,
+          "object": 21,
+          "tick": 108,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 80,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 21,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 16,
+              "sourcePointer": 216
+            }
+          ]
+        },
+        {
+          "frame": 8964,
+          "location": 5,
+          "pc": 12612168,
+          "object": 22,
+          "tick": 108,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 198,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 22,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 16,
+              "sourcePointer": 216
+            }
+          ]
+        },
+        {
+          "frame": 8967,
+          "location": 5,
+          "pc": 12612168,
+          "object": 23,
+          "tick": 111,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 84,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 23,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 16,
+              "sourcePointer": 216
+            }
+          ]
+        }
+      ],
+      "allocationFailures": [],
+      "recordedFrame": {
+        "tick": 1600,
+        "screenshot": "native-verification/fair-pan-west-original-1600.png",
+        "rows": [
+          9,
+          null,
+          8,
+          23,
+          16,
+          1,
+          null,
+          null
+        ],
+        "merchant": {
+          "object": 16,
+          "kind": "npc",
+          "id": 22,
+          "type": 4,
+          "frame": 1,
+          "position": [
+            304,
+            500
+          ],
+          "header": [
+            11,
+            7,
+            9,
+            7,
+            0
+          ],
+          "sourcePointer": 216,
+          "sourcePaletteIds": [
+            9
+          ],
+          "row": 4,
+          "rowOwner": 16,
+          "sourceWords": [
+            6342,
+            30653,
+            22431,
+            13951,
+            7476,
+            6750,
+            9457,
+            28432,
+            15784,
+            10898,
+            5515,
+            20015
+          ],
+          "actualWords": [
+            6342,
+            30653,
+            22431,
+            13951,
+            7476,
+            6750,
+            9457,
+            28432,
+            15784,
+            10898,
+            5515,
+            20015
+          ],
+          "colorExact": true,
+          "drawFlag": 128,
+          "visibility": 1,
+          "tileSlot": 288,
+          "displayed": {
+            "origin": [
+              16,
+              116
+            ],
+            "row": 4,
+            "cells": [
+              56,
+              57,
+              58,
+              59
+            ],
+            "tiles": [
+              288,
+              290,
+              292,
+              294
+            ],
+            "actorTileSlot": 288,
+            "spriteBase": 0,
+            "actualColorPixels": 342,
+            "occludedOrDifferentPixels": 46
+          }
+        },
+        "activeParty": [
+          {
+            "object": 1,
+            "kind": "pc",
+            "id": 0,
+            "type": 0,
+            "frame": 1,
+            "position": [
+              415,
+              527.9375
+            ],
+            "header": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sourcePointer": 0,
+            "sourcePaletteIds": [
+              0
+            ],
+            "row": 5,
+            "rowOwner": 1,
+            "sourceWords": [
+              4197,
+              32767,
+              20287,
+              13855,
+              575,
+              7191,
+              15029,
+              30538,
+              14790,
+              7393,
+              11,
+              7304
+            ],
+            "actualWords": [
+              4197,
+              32767,
+              20287,
+              13855,
+              575,
+              7191,
+              15029,
+              30538,
+              14790,
+              7393,
+              11,
+              7304
+            ],
+            "colorExact": true,
+            "drawFlag": 128,
+            "visibility": 1,
+            "tileSlot": 8
+          }
+        ],
+        "allSimultaneousActors": [
+          {
+            "object": 1,
+            "kind": "pc",
+            "id": 0,
+            "type": 0,
+            "sourcePointer": 0,
+            "palettes": [
+              0
+            ],
+            "row": 5,
+            "colorExact": true,
+            "displayed": false
+          },
+          {
+            "object": 8,
+            "kind": "npc",
+            "id": 75,
+            "type": 4,
+            "sourcePointer": 336,
+            "palettes": [
+              14
+            ],
+            "row": 2,
+            "colorExact": true,
+            "displayed": false
+          },
+          {
+            "object": 9,
+            "kind": "npc",
+            "id": 76,
+            "type": 4,
+            "sourcePointer": 384,
+            "palettes": [
+              16
+            ],
+            "row": 0,
+            "colorExact": true,
+            "displayed": false
+          },
+          {
+            "object": 12,
+            "kind": "npc",
+            "id": 79,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 14,
+            "kind": "npc",
+            "id": 0,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 15,
+            "kind": "npc",
+            "id": 82,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 16,
+            "kind": "npc",
+            "id": 22,
+            "type": 4,
+            "sourcePointer": 216,
+            "palettes": [
+              9
+            ],
+            "row": 4,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 17,
+            "kind": "npc",
+            "id": 80,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 21,
+            "kind": "npc",
+            "id": 80,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 22,
+            "kind": "npc",
+            "id": 198,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 23,
+            "kind": "npc",
+            "id": 84,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": false
+          }
+        ]
+      },
+      "pixelRecheck": {
+        "actualColorPixels": 342,
+        "intendedColorPixels": 342,
+        "occludedOrDifferentPixels": 46,
+        "nativeSourceFrame": 1,
+        "ppuBrightness": 15,
+        "scope": "Recomputed from the captured native PNG and original gfx11 source pixels at the exact emitted assembly origin. Foreground pixels are reported separately."
+      }
+    },
+    "current": {
+      "romSha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+      "setup": {
+        "id": 5,
+        "x": 28,
+        "y": 32,
+        "story": 5,
+        "ticks": 2100,
+        "moves": [
+          {
+            "start": 1500,
+            "end": 1560,
+            "keys": 64
+          }
+        ]
+      },
+      "nativeTicks": 2100,
+      "event": {
+        "location": 5,
+        "id": 27,
+        "physicalOffset": 1957544,
+        "physicalHex": "0x1ddea8",
+        "compressedBytes": 1680,
+        "decodedBytes": 2570,
+        "objectCount": 29,
+        "decodedSha256": "f52bae84bf9c6eda1710f5280d7d52507b3e547f00b518b5456c4f090824b69e"
+      },
+      "merchantLoads": [
+        {
+          "object": 16,
+          "initBodyPointer": 2132,
+          "initPointerDecodedOffset": 513,
+          "opcodeBodyOffset": 2132,
+          "operandBodyOffset": 2133,
+          "operandDecodedOffset": 2134,
+          "originalBytes": [
+            130,
+            22
+          ],
+          "sameRoleCompatibleBytes": [
+            130,
+            89
+          ],
+          "initialCommands": [
+            {
+              "offset": 2132,
+              "opcode": 130,
+              "args": [
+                22
+              ],
+              "bytes": 2,
+              "owners": [
+                {
+                  "object": 16,
+                  "function": 0,
+                  "start": 2132
+                }
+              ]
+            },
+            {
+              "offset": 2134,
+              "opcode": 141,
+              "args": [
+                4864,
+                8000
+              ],
+              "bytes": 5,
+              "owners": [
+                {
+                  "object": 16,
+                  "function": 0,
+                  "start": 2132
+                }
+              ]
+            },
+            {
+              "offset": 2139,
+              "opcode": 22,
+              "args": [
+                0,
+                39,
+                4,
+                3
+              ],
+              "bytes": 5,
+              "owners": [
+                {
+                  "object": 16,
+                  "function": 0,
+                  "start": 2132
+                }
+              ]
+            },
+            {
+              "offset": 2144,
+              "opcode": 10,
+              "args": [
+                32
+              ],
+              "bytes": 2,
+              "owners": [
+                {
+                  "object": 16,
+                  "function": 0,
+                  "start": 2132
+                }
+              ]
+            },
+            {
+              "offset": 2146,
+              "opcode": 0,
+              "args": [],
+              "bytes": 1,
+              "owners": [
+                {
+                  "object": 16,
+                  "function": 0,
+                  "start": 2132
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "object": 24,
+          "initBodyPointer": 2381,
+          "initPointerDecodedOffset": 769,
+          "opcodeBodyOffset": 2381,
+          "operandBodyOffset": 2382,
+          "operandDecodedOffset": 2383,
+          "originalBytes": [
+            130,
+            22
+          ],
+          "sameRoleCompatibleBytes": [
+            130,
+            89
+          ],
+          "initialCommands": [
+            {
+              "offset": 2381,
+              "opcode": 130,
+              "args": [
+                22
+              ],
+              "bytes": 2,
+              "owners": [
+                {
+                  "object": 24,
+                  "function": 0,
+                  "start": 2381
+                }
+              ]
+            },
+            {
+              "offset": 2383,
+              "opcode": 141,
+              "args": [
+                3840,
+                9536
+              ],
+              "bytes": 5,
+              "owners": [
+                {
+                  "object": 24,
+                  "function": 0,
+                  "start": 2381
+                }
+              ]
+            },
+            {
+              "offset": 2388,
+              "opcode": 142,
+              "args": [
+                34
+              ],
+              "bytes": 2,
+              "owners": [
+                {
+                  "object": 24,
+                  "function": 0,
+                  "start": 2381
+                }
+              ]
+            },
+            {
+              "offset": 2390,
+              "opcode": 22,
+              "args": [
+                0,
+                39,
+                4,
+                3
+              ],
+              "bytes": 5,
+              "owners": [
+                {
+                  "object": 24,
+                  "function": 0,
+                  "start": 2381
+                }
+              ]
+            },
+            {
+              "offset": 2395,
+              "opcode": 10,
+              "args": [
+                48
+              ],
+              "bytes": 2,
+              "owners": [
+                {
+                  "object": 24,
+                  "function": 0,
+                  "start": 2381
+                }
+              ]
+            },
+            {
+              "offset": 2397,
+              "opcode": 0,
+              "args": [],
+              "bytes": 1,
+              "owners": [
+                {
+                  "object": 24,
+                  "function": 0,
+                  "start": 2381
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "object": 25,
+          "initBodyPointer": 2415,
+          "initPointerDecodedOffset": 801,
+          "opcodeBodyOffset": 2415,
+          "operandBodyOffset": 2416,
+          "operandDecodedOffset": 2417,
+          "originalBytes": [
+            130,
+            22
+          ],
+          "sameRoleCompatibleBytes": [
+            130,
+            89
+          ],
+          "initialCommands": [
+            {
+              "offset": 2415,
+              "opcode": 130,
+              "args": [
+                22
+              ],
+              "bytes": 2,
+              "owners": [
+                {
+                  "object": 25,
+                  "function": 0,
+                  "start": 2415
+                }
+              ]
+            },
+            {
+              "offset": 2417,
+              "opcode": 139,
+              "args": [
+                3,
+                35
+              ],
+              "bytes": 3,
+              "owners": [
+                {
+                  "object": 25,
+                  "function": 0,
+                  "start": 2415
+                }
+              ]
+            },
+            {
+              "offset": 2420,
+              "opcode": 0,
+              "args": [],
+              "bytes": 1,
+              "owners": [
+                {
+                  "object": 25,
+                  "function": 0,
+                  "start": 2415
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "initialAllocations": [
+        {
+          "frame": 8957,
+          "location": 5,
+          "pc": 12612168,
+          "object": 8,
+          "tick": 101,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 75,
+          "sourcePointer": 336,
+          "assignedRow": 0,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": null,
+              "sourcePointer": null
+            },
+            {
+              "row": 2,
+              "object": null,
+              "sourcePointer": null
+            },
+            {
+              "row": 3,
+              "object": null,
+              "sourcePointer": null
+            },
+            {
+              "row": 4,
+              "object": null,
+              "sourcePointer": null
+            }
+          ]
+        },
+        {
+          "frame": 8957,
+          "location": 5,
+          "pc": 12612168,
+          "object": 9,
+          "tick": 101,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 76,
+          "sourcePointer": 384,
+          "assignedRow": 1,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": null,
+              "sourcePointer": null
+            },
+            {
+              "row": 3,
+              "object": null,
+              "sourcePointer": null
+            },
+            {
+              "row": 4,
+              "object": null,
+              "sourcePointer": null
+            }
+          ]
+        },
+        {
+          "frame": 8957,
+          "location": 5,
+          "pc": 12612168,
+          "object": 10,
+          "tick": 101,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 59,
+          "sourcePointer": 3864,
+          "assignedRow": 2,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": null,
+              "sourcePointer": null
+            },
+            {
+              "row": 4,
+              "object": null,
+              "sourcePointer": null
+            }
+          ]
+        },
+        {
+          "frame": 8958,
+          "location": 5,
+          "pc": 12612168,
+          "object": 11,
+          "tick": 102,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 81,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 11,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": null,
+              "sourcePointer": null
+            }
+          ]
+        },
+        {
+          "frame": 8958,
+          "location": 5,
+          "pc": 12612168,
+          "object": 12,
+          "tick": 102,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 79,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 12,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": null,
+              "sourcePointer": null
+            }
+          ]
+        },
+        {
+          "frame": 8958,
+          "location": 5,
+          "pc": 12612168,
+          "object": 14,
+          "tick": 102,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 0,
+          "sourcePointer": 3336,
+          "assignedRow": 4,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 12,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 14,
+              "sourcePointer": 3336
+            }
+          ]
+        },
+        {
+          "frame": 8958,
+          "location": 5,
+          "pc": 12612168,
+          "object": 15,
+          "tick": 102,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 82,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 15,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 14,
+              "sourcePointer": 3336
+            }
+          ]
+        },
+        {
+          "frame": 8958,
+          "location": 5,
+          "pc": 12612274,
+          "object": 16,
+          "tick": 102,
+          "action": "palette.alloc.failed",
+          "type": 4,
+          "id": 22,
+          "sourcePointer": 216,
+          "assignedRow": null,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 15,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 14,
+              "sourcePointer": 3336
+            }
+          ]
+        },
+        {
+          "frame": 8958,
+          "location": 5,
+          "pc": 12612168,
+          "object": 17,
+          "tick": 102,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 80,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 17,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 14,
+              "sourcePointer": 3336
+            }
+          ]
+        },
+        {
+          "frame": 8959,
+          "location": 5,
+          "pc": 12612168,
+          "object": 21,
+          "tick": 103,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 80,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 21,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 14,
+              "sourcePointer": 3336
+            }
+          ]
+        },
+        {
+          "frame": 8959,
+          "location": 5,
+          "pc": 12612168,
+          "object": 22,
+          "tick": 103,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 198,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 22,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 14,
+              "sourcePointer": 3336
+            }
+          ]
+        },
+        {
+          "frame": 8962,
+          "location": 5,
+          "pc": 12612168,
+          "object": 23,
+          "tick": 106,
+          "action": "palette.row.assigned",
+          "type": 4,
+          "id": 84,
+          "sourcePointer": 3192,
+          "assignedRow": 3,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 23,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 14,
+              "sourcePointer": 3336
+            }
+          ]
+        }
+      ],
+      "allocationFailures": [
+        {
+          "frame": 8958,
+          "location": 5,
+          "pc": 12612274,
+          "object": 16,
+          "tick": 102,
+          "action": "palette.alloc.failed",
+          "type": 4,
+          "id": 22,
+          "sourcePointer": 216,
+          "assignedRow": null,
+          "previousRow": 0,
+          "slots": [
+            {
+              "row": 0,
+              "object": 8,
+              "sourcePointer": 336
+            },
+            {
+              "row": 1,
+              "object": 9,
+              "sourcePointer": 384
+            },
+            {
+              "row": 2,
+              "object": 10,
+              "sourcePointer": 3864
+            },
+            {
+              "row": 3,
+              "object": 15,
+              "sourcePointer": 3192
+            },
+            {
+              "row": 4,
+              "object": 14,
+              "sourcePointer": 3336
+            }
+          ]
+        }
+      ],
+      "recordedFrame": {
+        "tick": 1600,
+        "screenshot": "native-verification/fair-pan-west-current-1600.png",
+        "rows": [
+          9,
+          null,
+          8,
+          23,
+          14,
+          1,
+          null,
+          null
+        ],
+        "merchant": {
+          "object": 16,
+          "kind": "npc",
+          "id": 22,
+          "type": 4,
+          "frame": 1,
+          "position": [
+            304,
+            500
+          ],
+          "header": [
+            11,
+            7,
+            9,
+            7,
+            0
+          ],
+          "sourcePointer": 216,
+          "sourcePaletteIds": [
+            9
+          ],
+          "row": 0,
+          "rowOwner": 9,
+          "sourceWords": [
+            6342,
+            30653,
+            22431,
+            13951,
+            7476,
+            6750,
+            9457,
+            28432,
+            15784,
+            10898,
+            5515,
+            20015
+          ],
+          "actualWords": [
+            6309,
+            8521,
+            10767,
+            16086,
+            21372,
+            7402,
+            8529,
+            10775,
+            7444,
+            12829,
+            21374,
+            26591
+          ],
+          "colorExact": false,
+          "drawFlag": 128,
+          "visibility": 1,
+          "tileSlot": 288,
+          "displayed": {
+            "origin": [
+              16,
+              116
+            ],
+            "row": 0,
+            "cells": [
+              56,
+              57,
+              58,
+              59
+            ],
+            "tiles": [
+              288,
+              290,
+              292,
+              294
+            ],
+            "actorTileSlot": 288,
+            "spriteBase": 0,
+            "actualColorPixels": 342,
+            "occludedOrDifferentPixels": 46
+          }
+        },
+        "activeParty": [
+          {
+            "object": 1,
+            "kind": "pc",
+            "id": 0,
+            "type": 0,
+            "frame": 1,
+            "position": [
+              415,
+              527.9375
+            ],
+            "header": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sourcePointer": 0,
+            "sourcePaletteIds": [
+              0
+            ],
+            "row": 5,
+            "rowOwner": 1,
+            "sourceWords": [
+              3204,
+              5481,
+              8849,
+              14134,
+              20283,
+              6444,
+              10772,
+              4262,
+              25535,
+              4325,
+              18266,
+              20115
+            ],
+            "actualWords": [
+              3204,
+              5481,
+              8849,
+              14134,
+              20283,
+              6444,
+              10772,
+              4262,
+              25535,
+              4325,
+              18266,
+              20115
+            ],
+            "colorExact": true,
+            "drawFlag": 128,
+            "visibility": 1,
+            "tileSlot": 8
+          }
+        ],
+        "allSimultaneousActors": [
+          {
+            "object": 1,
+            "kind": "pc",
+            "id": 0,
+            "type": 0,
+            "sourcePointer": 0,
+            "palettes": [
+              0
+            ],
+            "row": 5,
+            "colorExact": true,
+            "displayed": false
+          },
+          {
+            "object": 8,
+            "kind": "npc",
+            "id": 75,
+            "type": 4,
+            "sourcePointer": 336,
+            "palettes": [
+              14
+            ],
+            "row": 2,
+            "colorExact": true,
+            "displayed": false
+          },
+          {
+            "object": 9,
+            "kind": "npc",
+            "id": 76,
+            "type": 4,
+            "sourcePointer": 384,
+            "palettes": [
+              16
+            ],
+            "row": 0,
+            "colorExact": true,
+            "displayed": false
+          },
+          {
+            "object": 12,
+            "kind": "npc",
+            "id": 79,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 14,
+            "kind": "npc",
+            "id": 0,
+            "type": 4,
+            "sourcePointer": 3336,
+            "palettes": [
+              139
+            ],
+            "row": 4,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 15,
+            "kind": "npc",
+            "id": 82,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 16,
+            "kind": "npc",
+            "id": 22,
+            "type": 4,
+            "sourcePointer": 216,
+            "palettes": [
+              9
+            ],
+            "row": 0,
+            "colorExact": false,
+            "displayed": true
+          },
+          {
+            "object": 17,
+            "kind": "npc",
+            "id": 80,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 21,
+            "kind": "npc",
+            "id": 80,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 22,
+            "kind": "npc",
+            "id": 198,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": true
+          },
+          {
+            "object": 23,
+            "kind": "npc",
+            "id": 84,
+            "type": 4,
+            "sourcePointer": 3192,
+            "palettes": [
+              133
+            ],
+            "row": 3,
+            "colorExact": true,
+            "displayed": false
+          }
+        ]
+      },
+      "pixelRecheck": {
+        "actualColorPixels": 342,
+        "intendedColorPixels": 0,
+        "occludedOrDifferentPixels": 46,
+        "nativeSourceFrame": 1,
+        "ppuBrightness": 15,
+        "scope": "Recomputed from the captured native PNG and original gfx11 source pixels at the exact emitted assembly origin. Foreground pixels are reported separately."
+      }
+    }
+  },
+  "compatibleExistingVariant": {
+    "kind": "npc",
+    "id": 89,
+    "comparison": [
+      {
+        "id": 22,
+        "headerOffset": 2420881,
+        "header": [
+          11,
+          7,
+          9,
+          7,
+          0
+        ],
+        "palettePointer": 216,
+        "paletteWords": [
+          6342,
+          30653,
+          22431,
+          13951,
+          7476,
+          6750,
+          9457,
+          28432,
+          15784,
+          10898,
+          5515,
+          20015
+        ]
+      },
+      {
+        "id": 49,
+        "headerOffset": 2421016,
+        "header": [
+          11,
+          7,
+          9,
+          7,
+          0
+        ],
+        "palettePointer": 216,
+        "paletteWords": [
+          6342,
+          30653,
+          22431,
+          13951,
+          7476,
+          6750,
+          9457,
+          28432,
+          15784,
+          10898,
+          5515,
+          20015
+        ]
+      },
+      {
+        "id": 89,
+        "headerOffset": 2421216,
+        "header": [
+          11,
+          7,
+          133,
+          7,
+          0
+        ],
+        "palettePointer": 3192,
+        "paletteWords": [
+          6309,
+          30620,
+          22431,
+          13951,
+          3276,
+          5695,
+          1302,
+          18919,
+          12551,
+          9903,
+          5482,
+          17870
+        ]
+      }
+    ],
+    "proposal": "Root may change only the three Fair5 NPC22 load operands to NPC89, preserving gfx11, its assembly, AA7, size, event object functions, dialogue and shops. NPC49 is NOT the palette133 variant; it retains palette9. No global palette/header recolor or new sprite resource is required.",
+    "activation": false
+  },
+  "remainingShared133Owners": [
+    {
+      "object": 12,
+      "kind": "npc",
+      "id": 79,
+      "type": 4,
+      "sourcePointer": 3192,
+      "palettes": [
+        133
+      ],
+      "row": 3,
+      "colorExact": true,
+      "displayed": true
+    },
+    {
+      "object": 15,
+      "kind": "npc",
+      "id": 82,
+      "type": 4,
+      "sourcePointer": 3192,
+      "palettes": [
+        133
+      ],
+      "row": 3,
+      "colorExact": true,
+      "displayed": true
+    },
+    {
+      "object": 17,
+      "kind": "npc",
+      "id": 80,
+      "type": 4,
+      "sourcePointer": 3192,
+      "palettes": [
+        133
+      ],
+      "row": 3,
+      "colorExact": true,
+      "displayed": true
+    },
+    {
+      "object": 21,
+      "kind": "npc",
+      "id": 80,
+      "type": 4,
+      "sourcePointer": 3192,
+      "palettes": [
+        133
+      ],
+      "row": 3,
+      "colorExact": true,
+      "displayed": true
+    },
+    {
+      "object": 22,
+      "kind": "npc",
+      "id": 198,
+      "type": 4,
+      "sourcePointer": 3192,
+      "palettes": [
+        133
+      ],
+      "row": 3,
+      "colorExact": true,
+      "displayed": true
+    },
+    {
+      "object": 23,
+      "kind": "npc",
+      "id": 84,
+      "type": 4,
+      "sourcePointer": 3192,
+      "palettes": [
+        133
+      ],
+      "row": 3,
+      "colorExact": true,
+      "displayed": false
+    }
+  ],
+  "hardwareScope": {
+    "normalNpcRows": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "activePcRows": [
+      5,
+      6,
+      7
+    ],
+    "fixtureActivePc": {
+      "id": 0,
+      "object": 1,
+      "row": 5
+    },
+    "note": "Rows6/7 are unused in this one-player fixture but unavailable to normal NPC allocation. A single opcode33 override also selects manual palette control; it is not a drop-in extra automatic row."
+  },
+  "scope": "Three deterministic Fair5 camera checkpoints after diagnostic entry, followed by original movement/rendering. Object16 demonstrates the crowded-view regression; objects24/25 remain correct in their own recorded camera windows. No active changes, palette writes, source replacements, event edits, shop interaction or complete fair route. Root owns corrected-candidate verification.",
+  "checkpoints": [
+    {
+      "key": "fair-pan-west",
+      "object": 16,
+      "observed": {
+        "original": {
+          "manifest": "native-verification/fair-pan-west-original.json",
+          "romSha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+          "setup": {
+            "id": 5,
+            "x": 28,
+            "y": 32,
+            "story": 5,
+            "ticks": 2100,
+            "moves": [
+              {
+                "start": 1500,
+                "end": 1560,
+                "keys": 64
+              }
+            ]
+          },
+          "captureTick": 1600,
+          "screenshot": "native-verification/fair-pan-west-original-1600.png",
+          "world": [
+            304,
+            500
+          ],
+          "sourcePalette": 9,
+          "row": 4,
+          "colorExact": true,
+          "displayed": {
+            "origin": [
+              16,
+              116
+            ],
+            "row": 4,
+            "cells": [
+              56,
+              57,
+              58,
+              59
+            ],
+            "tiles": [
+              288,
+              290,
+              292,
+              294
+            ],
+            "actorTileSlot": 288,
+            "spriteBase": 0,
+            "actualColorPixels": 342,
+            "occludedOrDifferentPixels": 46
+          },
+          "allocationFailures": 0
+        },
+        "current": {
+          "manifest": "native-verification/fair-pan-west-current.json",
+          "romSha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+          "setup": {
+            "id": 5,
+            "x": 28,
+            "y": 32,
+            "story": 5,
+            "ticks": 2100,
+            "moves": [
+              {
+                "start": 1500,
+                "end": 1560,
+                "keys": 64
+              }
+            ]
+          },
+          "captureTick": 1600,
+          "screenshot": "native-verification/fair-pan-west-current-1600.png",
+          "world": [
+            304,
+            500
+          ],
+          "sourcePalette": 9,
+          "row": 0,
+          "colorExact": false,
+          "displayed": {
+            "origin": [
+              16,
+              116
+            ],
+            "row": 0,
+            "cells": [
+              56,
+              57,
+              58,
+              59
+            ],
+            "tiles": [
+              288,
+              290,
+              292,
+              294
+            ],
+            "actorTileSlot": 288,
+            "spriteBase": 0,
+            "actualColorPixels": 342,
+            "occludedOrDifferentPixels": 46
+          },
+          "allocationFailures": 1
+        }
+      },
+      "verification": "Bind the OAM source match to this object’s RAM0D00 tile slot, then compare all 12 current source colors with its actual assigned CGRAM row. Do not require the historical row number after substituting the compatible actor."
+    },
+    {
+      "key": "fair-merchant24",
+      "object": 24,
+      "observed": {
+        "original": {
+          "manifest": "native-verification/fair-merchant24-original.json",
+          "romSha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+          "setup": {
+            "id": 5,
+            "x": 16,
+            "y": 40,
+            "story": 5,
+            "ticks": 900
+          },
+          "captureTick": 450,
+          "screenshot": "native-verification/fair-merchant24-original-450.png",
+          "world": [
+            240,
+            596
+          ],
+          "sourcePalette": 9,
+          "row": 1,
+          "colorExact": true,
+          "displayed": {
+            "origin": [
+              112,
+              84
+            ],
+            "row": 1,
+            "cells": [
+              60,
+              61,
+              62,
+              63
+            ],
+            "tiles": [
+              328,
+              330,
+              332,
+              334
+            ],
+            "actorTileSlot": 328,
+            "spriteBase": 0,
+            "actualColorPixels": 342,
+            "occludedOrDifferentPixels": 46
+          },
+          "allocationFailures": 0
+        },
+        "current": {
+          "manifest": "native-verification/fair-merchant24-current.json",
+          "romSha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+          "setup": {
+            "id": 5,
+            "x": 16,
+            "y": 40,
+            "story": 5,
+            "ticks": 900
+          },
+          "captureTick": 450,
+          "screenshot": "native-verification/fair-merchant24-current-450.png",
+          "world": [
+            240,
+            596
+          ],
+          "sourcePalette": 9,
+          "row": 1,
+          "colorExact": true,
+          "displayed": {
+            "origin": [
+              112,
+              84
+            ],
+            "row": 1,
+            "cells": [
+              60,
+              61,
+              62,
+              63
+            ],
+            "tiles": [
+              328,
+              330,
+              332,
+              334
+            ],
+            "actorTileSlot": 328,
+            "spriteBase": 0,
+            "actualColorPixels": 342,
+            "occludedOrDifferentPixels": 46
+          },
+          "allocationFailures": 0
+        }
+      },
+      "verification": "Bind the OAM source match to this object’s RAM0D00 tile slot, then compare all 12 current source colors with its actual assigned CGRAM row. Do not require the historical row number after substituting the compatible actor."
+    },
+    {
+      "key": "fair-merchant25",
+      "object": 25,
+      "observed": {
+        "original": {
+          "manifest": "native-verification/fair-merchant25-original.json",
+          "romSha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+          "setup": {
+            "id": 5,
+            "x": 5,
+            "y": 36,
+            "story": 5,
+            "ticks": 900
+          },
+          "captureTick": 450,
+          "screenshot": "native-verification/fair-merchant25-original-450.png",
+          "world": [
+            56,
+            575.9375
+          ],
+          "sourcePalette": 9,
+          "row": 1,
+          "colorExact": true,
+          "displayed": {
+            "origin": [
+              56,
+              127
+            ],
+            "row": 1,
+            "cells": [
+              44,
+              45,
+              46,
+              47
+            ],
+            "tiles": [
+              352,
+              354,
+              356,
+              358
+            ],
+            "actorTileSlot": 352,
+            "spriteBase": 0,
+            "actualColorPixels": 388,
+            "occludedOrDifferentPixels": 0
+          },
+          "allocationFailures": 0
+        },
+        "current": {
+          "manifest": "native-verification/fair-merchant25-current.json",
+          "romSha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+          "setup": {
+            "id": 5,
+            "x": 5,
+            "y": 36,
+            "story": 5,
+            "ticks": 900
+          },
+          "captureTick": 450,
+          "screenshot": "native-verification/fair-merchant25-current-450.png",
+          "world": [
+            56,
+            575.9375
+          ],
+          "sourcePalette": 9,
+          "row": 1,
+          "colorExact": true,
+          "displayed": {
+            "origin": [
+              56,
+              127
+            ],
+            "row": 1,
+            "cells": [
+              44,
+              45,
+              46,
+              47
+            ],
+            "tiles": [
+              352,
+              354,
+              356,
+              358
+            ],
+            "actorTileSlot": 352,
+            "spriteBase": 0,
+            "actualColorPixels": 388,
+            "occludedOrDifferentPixels": 0
+          },
+          "allocationFailures": 0
+        }
+      },
+      "verification": "Bind the OAM source match to this object’s RAM0D00 tile slot, then compare all 12 current source colors with its actual assigned CGRAM row. Do not require the historical row number after substituting the compatible actor."
+    }
+  ]
+}

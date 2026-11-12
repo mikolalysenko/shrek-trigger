@@ -1,0 +1,88 @@
+{
+  "activePath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "activeBank": {
+    "raw": 4832,
+    "compressed": 2195,
+    "assembly": 3360,
+    "total": 5555
+  },
+  "candidateBank": {
+    "raw": 18784,
+    "compressed": 13381,
+    "assembly": 3360,
+    "total": 16741,
+    "compressedAllocationGrowth": 11186
+  },
+  "strictOriginalFamilyGuard": "Production budget/geometry guards remain unchanged. Candidate 18784 raw bytes needs selected streaming or complete-scene residency proof; native 6/9 need the explicit overlap contract.",
+  "scenes": [
+    {
+      "location": 289,
+      "currentBytes": 8384,
+      "candidateBytes": 22336,
+      "limit": 32768,
+      "spareBytes": 10432,
+      "exceedsBudget": false,
+      "parts": [
+        {
+          "gfx": 141,
+          "currentBytes": 2944,
+          "candidateBytes": 2944
+        },
+        {
+          "gfx": 139,
+          "currentBytes": 4832,
+          "candidateBytes": 18784
+        },
+        {
+          "gfx": 200,
+          "currentBytes": 320,
+          "candidateBytes": 320
+        },
+        {
+          "gfx": 66,
+          "currentBytes": 288,
+          "candidateBytes": 288
+        }
+      ],
+      "scope": "Conservative union of all original event load branches using actual saved-build headers/resources; not all actors necessarily resident simultaneously"
+    },
+    {
+      "location": 304,
+      "currentBytes": 4992,
+      "candidateBytes": 18944,
+      "limit": 32768,
+      "spareBytes": 13824,
+      "exceedsBudget": false,
+      "parts": [
+        {
+          "gfx": 139,
+          "currentBytes": 4832,
+          "candidateBytes": 18784
+        },
+        {
+          "gfx": 186,
+          "currentBytes": 160,
+          "candidateBytes": 160
+        }
+      ],
+      "scope": "Conservative union of all original event load branches using actual saved-build headers/resources; not all actors necessarily resident simultaneously"
+    },
+    {
+      "location": 456,
+      "currentBytes": 4832,
+      "candidateBytes": 18784,
+      "limit": 32768,
+      "spareBytes": 13984,
+      "exceedsBudget": false,
+      "parts": [
+        {
+          "gfx": 139,
+          "currentBytes": 4832,
+          "candidateBytes": 18784
+        }
+      ],
+      "scope": "Conservative union of all original event load branches using actual saved-build headers/resources; not all actors necessarily resident simultaneously"
+    }
+  ]
+}

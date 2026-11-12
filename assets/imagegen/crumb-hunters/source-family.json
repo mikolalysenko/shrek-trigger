@@ -1,0 +1,72 @@
+{
+  "key": "crumb-hunters",
+  "name": "Crumb Hunters",
+  "gfx": 79,
+  "groups": [
+    {
+      "art": "crumb-hunter",
+      "asm": 34,
+      "size": 0,
+      "width": 32,
+      "height": 32,
+      "frames": 21,
+      "frameOffsets": {
+        "12": [
+          0,
+          3
+        ]
+      }
+    }
+  ],
+  "actors": [
+    {
+      "key": "crumb-hunter",
+      "name": "Crumb Hunter",
+      "short": "CrumbHunt",
+      "enemy": 1,
+      "npcs": [
+        76
+      ],
+      "asm": 34,
+      "palette": 16,
+      "animation": 26,
+      "colors": [
+        "292c30",
+        "4c5140",
+        "7e8556",
+        "b3b77c",
+        "e2d8a0",
+        "573b38",
+        "8c5341",
+        "bd8553",
+        "a3423e",
+        "ef8660",
+        "f7d8a4",
+        "fff0ce"
+      ]
+    },
+    {
+      "key": "kiln-hunter",
+      "name": "Kiln Hunter",
+      "short": "Kiln Hunter",
+      "enemy": 61,
+      "asm": 34,
+      "palette": 17,
+      "animation": 26,
+      "colors": [
+        "2b2730",
+        "514449",
+        "846566",
+        "b28a7b",
+        "dbb795",
+        "483b46",
+        "795460",
+        "ab7a80",
+        "a63d4b",
+        "ec7b6b",
+        "f5cfb0",
+        "fff0d2"
+      ]
+    }
+  ]
+}

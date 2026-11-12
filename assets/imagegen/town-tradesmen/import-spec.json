@@ -1,0 +1,294 @@
+{
+  "key": "town-tradesmen",
+  "directory": "assets/imagegen/town-tradesmen/active",
+  "width": 64,
+  "height": 48,
+  "palette": [
+    "313131",
+    "efefef",
+    "ffe7ad",
+    "ff9c6b",
+    "a54a39",
+    "f79431",
+    "8c394a",
+    "84c6de",
+    "426b7b",
+    "94a552",
+    "5a6329",
+    "7b8c9c"
+  ],
+  "sourceType": "image-generation",
+  "sheets": [
+    {
+      "file": "assets/imagegen/town-tradesmen/base-face-source-v2.png",
+      "columns": 3,
+      "rows": 5,
+      "nativeHeight": 32,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "cells": [
+        0,
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "componentAlpha": 96,
+      "sample": {
+        "method": "area",
+        "bottom": 39
+      },
+      "overrides": {
+        "0": {
+          "scale": 1
+        },
+        "1": {
+          "scale": 1
+        },
+        "2": {
+          "scale": 1
+        },
+        "7": {
+          "scale": 0.9563636363636364
+        },
+        "8": {
+          "scale": 0.9776951672862454
+        },
+        "9": {
+          "scale": 0.9669117647058824
+        },
+        "10": {
+          "scale": 0.9924528301886791
+        },
+        "11": {
+          "scale": 0.9506763059701492
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/town-tradesmen/gait-source-v2.png",
+      "columns": 3,
+      "rows": 2,
+      "nativeHeight": 32,
+      "scaleCells": [
+        0,
+        2
+      ],
+      "cells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 96,
+      "sample": {
+        "method": "area",
+        "bottom": 39
+      },
+      "overrides": {
+        "0": {
+          "scale": 1
+        },
+        "1": {
+          "scale": 0.96875
+        },
+        "2": {
+          "scale": 1
+        },
+        "3": {
+          "scale": 0.9730270419426048
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/town-tradesmen/actions-source-v1.png",
+      "columns": 3,
+      "rows": 4,
+      "nativeHeight": 32,
+      "scaleCells": [
+        11
+      ],
+      "cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "componentAlpha": 96,
+      "sample": {
+        "method": "area",
+        "bottom": 39
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.9568965517241379
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/town-tradesmen/profile-contact-source-v3.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 31,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 96,
+      "sample": {
+        "method": "area",
+        "bottom": 39
+      },
+      "overrides": {}
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        {
+          "frame": 0,
+          "dx": 1
+        },
+        {
+          "frame": 1,
+          "dx": 1
+        },
+        {
+          "frame": 2,
+          "dx": 1
+        },
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 8
+        },
+        {
+          "frame": 9,
+          "dx": 1
+        },
+        {
+          "frame": 10
+        },
+        {
+          "frame": 11,
+          "dx": 1
+        },
+        {
+          "frame": 3
+        },
+        {
+          "frame": 4,
+          "dy": 1
+        },
+        {
+          "frame": 5,
+          "dx": 1
+        },
+        {
+          "frame": 6,
+          "dx": 1,
+          "dy": 1
+        },
+        {
+          "frame": 7,
+          "dx": 1
+        },
+        {
+          "frame": 22
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        {
+          "frame": 22,
+          "flip": true,
+          "dx": 1
+        },
+        {
+          "frame": 12,
+          "dx": 1
+        },
+        {
+          "frame": 13,
+          "dx": -3
+        },
+        {
+          "frame": 15,
+          "dx": -2,
+          "dy": -1
+        },
+        {
+          "frame": 16,
+          "dx": -2,
+          "dy": -1
+        },
+        {
+          "frame": 15,
+          "flip": true,
+          "dx": 3,
+          "dy": -1
+        },
+        {
+          "frame": 16,
+          "flip": true,
+          "dx": 3,
+          "dy": -1
+        },
+        {
+          "frame": 17,
+          "dx": -2
+        },
+        {
+          "frame": 18,
+          "dx": -2
+        },
+        {
+          "frame": 17,
+          "flip": true,
+          "dx": 3
+        },
+        {
+          "frame": 18,
+          "flip": true,
+          "dx": 3
+        },
+        {
+          "frame": 14,
+          "dx": -1,
+          "dy": -1
+        },
+        {
+          "frame": 14,
+          "flip": true,
+          "dx": 1,
+          "dy": -1
+        },
+        {
+          "frame": 19,
+          "dy": 1
+        },
+        {
+          "frame": 20
+        },
+        {
+          "frame": 21,
+          "dx": 1
+        }
+      ]
+    }
+  }
+}

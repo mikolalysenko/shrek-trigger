@@ -1,0 +1,11 @@
+import fs from 'node:fs';import path from 'node:path';import zlib from 'node:zlib';import{PNG}from'pngjs';
+import{createCore}from'../../../scripts/core.mjs';import{newGame,runFrames}from'../../../engine/automation.js';import{snapshot,restore}from'../../../engine/save.js';import{installHooks}from'../../../engine/hooks.js';import{u16,u24,fileOffset}from'../../../engine/rom.js';
+const d=import.meta.dirname,root=path.resolve(d,'../../..'),out=path.join(d,'private/original-mode7');fs.mkdirSync(out,{recursive:true});const rom=fs.readFileSync(path.join(root,'.local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc')),s=await createCore(rom),checkpoint=path.join(d,'private/baseline-bedroom.json.gz');if(fs.existsSync(checkpoint))restore(s,JSON.parse(zlib.gunzipSync(fs.readFileSync(checkpoint))));else await newGame(s);
+const specs=JSON.parse(fs.readFileSync(path.join(root,'content/hooks.json')));specs.push({name:'art.decompress',address:0xc30557,expected:Array.from(rom.slice(0x30557,0x3055b))});const h=installHooks(s,specs),loads=[];let started=false;
+h.on('event.dispatch',e=>{if(started)return;started=true;s.ram.set([0xff,0x24],0x12001+e.scriptPC);});h.on('art.decompress',e=>{const p=u24(s.ram,0x300);loads.push({tick:s.frames,pc:e.pc,pointer:p,offset:fileOffset(p),destination:u24(s.ram,0x303)});});
+const states=[];
+for(let tick=0;tick<4200;tick++){
+ runFrames(s,1);
+ if(tick%120===0){const p=new PNG({width:512,height:480});s.setPixels(p.data);const name='meteor-'+String(tick).padStart(4,'0');fs.writeFileSync(path.join(out,name+'.png'),PNG.sync.write(p));const q={tick,frame:s.frames,location:u16(s.ram,0x100),scene:s.ram[0x384],pc:h.registers().pc,ppu:{mode:s.ppu.mode,bgHoff:s.ppu.bgHoff,bgVoff:s.ppu.bgVoff,tileAdr:s.ppu.tileAdr,tilemapAdr:s.ppu.tilemapAdr,cgram:Array.from(s.ppu.cgram)}};states.push(q);fs.writeFileSync(path.join(out,name+'.json'),JSON.stringify(q));if(tick%600===0)fs.writeFileSync(path.join(out,name+'.state.json.gz'),zlib.gzipSync(JSON.stringify(snapshot(s))));console.log(tick,q.ppu.mode,q.location);}
+}
+fs.writeFileSync(path.join(out,'trace.json'),JSON.stringify({diagnosticSetup:'One nativeFF24 command at actual field event dispatch; original scene24 engine, transforms and resources untouched.',loads,states},null,2)+'\n');h.dispose();

@@ -1,0 +1,477 @@
+{
+  "status": "Frozen inactive",
+  "activation": false,
+  "baseline": {
+    "path": "assets/imagegen/town-tradesmen/private-qa/baseline.sfc",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+    "bytes": 8388608,
+    "originalAuditBaseline": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+    "reason": "Root preferred current published cartridge for native proof; source/audit resources are rechecked unchanged before override."
+  },
+  "privateRomSha256": "fc9fa6cd47aabe251f9a2d5363f6409d909ea9e883bb563a55a69c07fc6d9e36",
+  "graphicsSha256": "e1c2ac0fed846720b1897a9e1a39df5f02797c635ab440ba769aba048c8bcc9f",
+  "compressedSha256": "2d1d50ebaa8071344ea312e6bb7230eff0de7070f5f1306480aea6c0db9bafe6",
+  "assemblySha256": "4c5065aa61f080c5e23e1e4deb82b514be12d2da830e229d30710a3b9be35180",
+  "nativeProof": {
+    "nativeFrameUploads": 93,
+    "opaquePixelChecks": 38580
+  },
+  "motionProof": {
+    "listExecutions": 36,
+    "nativeTimedTicks": 8640
+  },
+  "passingSceneScenarios": [
+    "smithy-hammer",
+    "smithy-drink",
+    "choras-inn",
+    "telepod-exhibit",
+    "hero-ending-row6"
+  ],
+  "paradeColorAcceptance": false,
+  "whitelistPaths": 88,
+  "whitelistSha256": "7806c35e7f3afb04a73c09b8f3843bc5ef57adc33083a722d27764c7060336e4",
+  "hashedFiles": 86,
+  "totalHashedBytes": 12203018,
+  "files": [
+    {
+      "path": "assets/imagegen/town-tradesmen/README.md",
+      "bytes": 7976,
+      "sha256": "977ac700292cf48e75ba9fe4ff41ca3c1e3ff61a7cc81e97185b7b21b1e84b50"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/actions-source-v1.png",
+      "bytes": 2023289,
+      "sha256": "4a68ac7efb35d66bfacdf8ff166e94e98a34236976faf45e79a13431ad7e0489"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/audit-parade-rows.mjs",
+      "bytes": 6754,
+      "sha256": "b611da51bc10a963c41562e3ad55d7ba5d72b09ccead2538fb059001bed8cc72"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/base-face-source-v2.png",
+      "bytes": 1921619,
+      "sha256": "d2ed8b070cfff055922a45345c7c121e0f297f16d6926e63d41b739729f06574"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/base-source-v1.png",
+      "bytes": 1970598,
+      "sha256": "b94093cb20240bb283d58b93d001524b6089a84ad306b88c1ac86d04a5d39b2c"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/build-review.mjs",
+      "bytes": 9382,
+      "sha256": "259a3066c2a9c2bd84ae0b4ccd8b9633c5f5fb2a79486558f263969549adf769"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/compile-draft.mjs",
+      "bytes": 4731,
+      "sha256": "249359f3236f7d1b1af826f2b57dea96bb9d4e7b3f2e22607b7a938f5bc50952"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/compiled/asm24.bin",
+      "bytes": 1240,
+      "sha256": "4c5065aa61f080c5e23e1e4deb82b514be12d2da830e229d30710a3b9be35180"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/compiled/gfx35.4bpp",
+      "bytes": 10112,
+      "sha256": "e1c2ac0fed846720b1897a9e1a39df5f02797c635ab440ba769aba048c8bcc9f"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/compiled/gfx35.ct-lz",
+      "bytes": 6199,
+      "sha256": "2d1d50ebaa8071344ea312e6bb7230eff0de7070f5f1306480aea6c0db9bafe6"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/compiled/palette133.bin",
+      "bytes": 24,
+      "sha256": "3bd0f2c658dc3ac58c30ccfa68eb5738671b0c4bc928901f320fe09217654bef"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/compiled/palette9.bin",
+      "bytes": 24,
+      "sha256": "191c34f2807d3f072839d0b0e92d41cb5522a2005d5a24887053671793fc7641"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/compiled/verification.json",
+      "bytes": 8531,
+      "sha256": "8809c3c89d7c1125790f06ad672129dda3ea1fc35f777fd2b641c9a1d36188ae"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/draft/import-spec.draft.json",
+      "bytes": 4896,
+      "sha256": "a29b45f378fca36b00dbc7c0fd90e628b17432e296bb6a5ec3db9df807cc9f9c"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/draft/preview-import.json",
+      "bytes": 11313,
+      "sha256": "c0714cb78efe454a720a2929c33871be44a01b5ad807256ba0e3901cda798a06"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/draft/preview-raster.json",
+      "bytes": 72370,
+      "sha256": "b7ec7fdd5650109e202def36e7605ee0f2952589a9a25b2171307151edd4da45"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/family.draft.json",
+      "bytes": 8835,
+      "sha256": "0084049e9da95e64294cd66193200992d3a345e0b54a4982b1fe835292f19cb7"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/freeze-package.mjs",
+      "bytes": 12315,
+      "sha256": "0bf18be09e71c0587255670d61e6826b986d998232deacc290dc34f838c8dcf8"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/gait-source-v2.png",
+      "bytes": 1726154,
+      "sha256": "f71a15374cc0dd30903dcf98065f0adf8e9cbb9a2a7d890656997a8c80604885"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/generation-status.json",
+      "bytes": 480,
+      "sha256": "f5fd4711207aa4fb82b61cea34ee9e37559fef8e7e7db0fbd715e6e1c88ab594"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/geometry-proposal.json",
+      "bytes": 36824,
+      "sha256": "72d388169efc456090b438eedcf0fc2888a624fee73d7fe71e936b74f5e659ac"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/integration-handoff.json",
+      "bytes": 47005,
+      "sha256": "ca19c91d2956f5db28c1477e745d62c350e4082c554b49901d3a30a2d1bb7d69"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/motion-verification/manifest.json",
+      "bytes": 227533,
+      "sha256": "d9951d3c9d9b90b526c852f2e50cbcdbe4def7bc4a5b423f8c6c499c91cd6222"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/native-proof-utils.mjs",
+      "bytes": 3530,
+      "sha256": "82634f27709657e4d4405629300925ba376e71dc19d27ee73424f8f73be378d0"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/native-role-map.json",
+      "bytes": 7458,
+      "sha256": "2c85466e6dec8e12f5965fa0d1b8733912b4d35c3befa91d969731c433a1682f"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/native-verification/manifest.json",
+      "bytes": 18588,
+      "sha256": "e79df4bd0935cfcaca492c38a7dbbc4786a8410980248d9d067eda2b4dbc0d7d"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/native-verification/npc25-17.png",
+      "bytes": 56409,
+      "sha256": "91ff49e57549ac51467b7b85cf593e99f5e6f7c70e03fcdac4a4dd835e5e9a3d"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/native-verification/npc39-12.png",
+      "bytes": 56340,
+      "sha256": "29951b8739f45839828918299aeb91293e5fe4341838fbb7fe8e8120c44f84d7"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/native-verification/npc39-18.png",
+      "bytes": 56385,
+      "sha256": "19023c0fd71420a4d38273558bd5207242543e66c1db9fc5f0be137aae355a44"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/native-verification/npc52-30.png",
+      "bytes": 56268,
+      "sha256": "1e905a2053ddaa68d18be0047cb775f9ab4b242d46a3ea3cba197c5302e6e107"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/prepare-geometry.mjs",
+      "bytes": 5007,
+      "sha256": "72b9911618ed204370ce3a6a7a95b2f6c4a62bb8d084c03aaadad3ec357c3c1e"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/prepare-import.mjs",
+      "bytes": 3599,
+      "sha256": "515820ed6d07b4fe05f6f3c473559317e3033fa983d1dea22aca87939dc4ce31"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/private-overlay.mjs",
+      "bytes": 3748,
+      "sha256": "b7b6362173818ec1890218c2fcb1b94b95dcd3892d633f2ddac5dc27b885dbc2"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/profile-contact-source-v3.png",
+      "bytes": 585663,
+      "sha256": "b5cc7142bbcb019d6c0884701289e0bfe438986f57bb3491b52f2e30fdcb3118"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/prompts/actions-v1.txt",
+      "bytes": 4322,
+      "sha256": "702444ef664f8e1bb2fc613b036fc370c79aa9e058f393693c83a5757a2f014a"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/prompts/base-face-v2.txt",
+      "bytes": 1470,
+      "sha256": "dfba32e65ac89d7dff5e534ab522590f471218d60bc6796aff47ce6a64c60938"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/prompts/base-v1.txt",
+      "bytes": 3899,
+      "sha256": "5d2f7e3fdec1d66860ac69d2d46fc52bdb4ad48b9925dfa7667862071e83790d"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/prompts/gait-v2.txt",
+      "bytes": 2367,
+      "sha256": "bed004d05e01fb686726df06eb4c812b958e8e3e1ede234a1afbdb7c274f2c45"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/prompts/profile-contact-v3.txt",
+      "bytes": 1596,
+      "sha256": "d2f4d90b29e08023822c1f8031d1a395856bbdc677486b684e1b9809c6626e97"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/proof-baseline.json",
+      "bytes": 450,
+      "sha256": "b51adf8ca4e32a902af25a7a6072a8735178581e3d48d1b3f0a22da601468c30"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/provenance.json",
+      "bytes": 6474,
+      "sha256": "e3d1457267b61c856f16611ce2e04ce9d53b56334503e86c25d44615631fc9f9"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/review/contact-sheet-1x.png",
+      "bytes": 173026,
+      "sha256": "41fffd4e23a536600056a8a5c546a58a06e3263ec631cba7b597e241d3cb8651"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/review/contact-sheet.html",
+      "bytes": 80406,
+      "sha256": "3924483687c84dde5065c9c1b0c4d3bab779dc3ce9bd976191c896287a27e42e"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/review/gait-contacts.png",
+      "bytes": 42680,
+      "sha256": "92ed004fb0813ea31ad128978679abfe513cad47268654b9dd7619169f3a6819"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/review/geometry-review.html",
+      "bytes": 3027,
+      "sha256": "2e0954dc7f5d0dff9ce5ddfa824acc77c6741ecdd90ec557c845626e8239263e"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/review/geometry-review.png",
+      "bytes": 141771,
+      "sha256": "9fa9acad2b698cc859307c1ba2cb1f596bf70f3c2d6aa00ad72d6da1cef8d8c3"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/review/motion-review.html",
+      "bytes": 119458,
+      "sha256": "3019fe8ee98c1dd67978cfc1ed6e669cffbc9a45af0f35e9951fac9ae4bec7af"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/review/native-palette133-6x.png",
+      "bytes": 35856,
+      "sha256": "9e15c1deaaa1ce15d639237e4b49c8a754f2fe7be7a27f13ce48af03d438748a"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/review/native-palette9-6x.png",
+      "bytes": 35421,
+      "sha256": "b9ad95c2da7e91472c1be96e84cf220336a97f3d333e258eb7f15660a981380a"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/review/role-review.html",
+      "bytes": 146707,
+      "sha256": "f3763d1318a796b7a37d09a0e625287bcd497c30cab19296d256eb44730b52fe"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/review/ui-verification.json",
+      "bytes": 3211,
+      "sha256": "f44f08d560c2d0e7aa01e0f29c2913229be96c473dac603e037ad4c50504b9b2"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/choras-inn-frame-18.png",
+      "bytes": 67260,
+      "sha256": "f2a490b45b699101783bcedba39d474b203db80a70ebc95e4c6b12cfd70a16f6"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/choras-inn-frame-19.png",
+      "bytes": 67279,
+      "sha256": "c78a93628702dc75c245bd484e39ce32982cd9698afd15f53d85c50d28742049"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/choras-inn.json",
+      "bytes": 16721,
+      "sha256": "7015cf840444f66cf65899431d8ac4864b5ab5bc161288f48df0f578b1c6a3a4"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/hero-ending-row6-frame-30.png",
+      "bytes": 88494,
+      "sha256": "5df17e76ef0f93719b434ba09af8359b0b5e2f6e705c4a53c2aea9a59f034e2d"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/hero-ending-row6.json",
+      "bytes": 17842,
+      "sha256": "3e2324eb45c1b16b84647a13c86b7f85d202ed3e3d55feb5c4b90f91c3177abf"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/manifest.json",
+      "bytes": 4488,
+      "sha256": "800af287378a9e6226922f13fbcf28b3f9cf23fe2fe7dda76b7cfd4e3ab19afb"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/parade-palette-sharing.json",
+      "bytes": 47872,
+      "sha256": "8abfe36497253f64665f55c8aeda4c09de48fb58823a44af62bbeea02c0565d3"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/parade-row-ownership.json",
+      "bytes": 167040,
+      "sha256": "f75ae6993fccd56e6053556c5c2781e0b473a6a2f3deb9c293647cb5190c7510"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/parade-rows-center.png",
+      "bytes": 99075,
+      "sha256": "4054faaa675379aa8a76d5c1a6714e303363ac69ad75115fd08e699c8a4c72e1"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/parade-rows-east.png",
+      "bytes": 93684,
+      "sha256": "6be3d1dee3af86eec21cf4bb7d7704cee683faa2614dd72100e18de72e227e8f"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/parade-rows-west.png",
+      "bytes": 99319,
+      "sha256": "a719f81f6b447c369bb2e788edabc690fa16e6fd6dc7cd800c5c2f14dbb3ddd4"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/parade-sharing-af338.png",
+      "bytes": 97950,
+      "sha256": "0fbbf17f29b3bc4b8c2690b63a7137d082685a7f4b00908cfe333dfe1d9248ef"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/parade-sharing-candidate.png",
+      "bytes": 97948,
+      "sha256": "d40dad927552f3abf2d65ddda9cc75709ce86102612430656c9bc9532e53b2f5"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/parade-sharing-original-usa.png",
+      "bytes": 99361,
+      "sha256": "08d9f721a1f2848f7558d50186627d4852fee41485dff71f4b75e5ba43bc481b"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/smithy-drink-frame-24.png",
+      "bytes": 52425,
+      "sha256": "7af0ba0390800ddb9bd0375a31971d8bcb88d0588d43afc1175ca99aa8b61105"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/smithy-drink-frame-25.png",
+      "bytes": 52316,
+      "sha256": "a0e397921ca318ecd4911b4a15077ae469c83f83822fe17b6901e4d2e97b5e67"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/smithy-drink.json",
+      "bytes": 183879,
+      "sha256": "fd812c0f323e5757fafb11a8e67fd9f7359cf6653dfc5f01f542fd13e18042f7"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/smithy-hammer-frame-16.png",
+      "bytes": 52454,
+      "sha256": "1af0339e010179b69477c1cf70150c0224d230edf6081d2df7b66e76a9820192"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/smithy-hammer-frame-17.png",
+      "bytes": 52450,
+      "sha256": "60da75ebb1873569f4c36ee76b05da0c11e3f20b83ccca39d6e47ef83027e972"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/smithy-hammer.json",
+      "bytes": 64825,
+      "sha256": "0a130e4078022f40536edbd7b51e840cff3902bcf9cd57553dfde2c7e9389044"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/telepod-exhibit-frame-1.png",
+      "bytes": 124019,
+      "sha256": "5f3dcef8bf06653d8e6877e45cd4de2027b63c15bf0166bed0985946fff23ec5"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/scene-verification/telepod-exhibit.json",
+      "bytes": 9583,
+      "sha256": "2ea146592c0ea0a09fe61e9a8e524a2648612c1de262f8458379fba2568d99fa"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/verify-frozen.mjs",
+      "bytes": 2106,
+      "sha256": "fc775a247cefa58444b650ad20af614de65cda8f28eecc4df8e785d183da02a0"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/verify-motion.mjs",
+      "bytes": 4322,
+      "sha256": "7d87cc30cf30faaf6bdb33ca3c2acb1995c0c6702a63f225dc8f904d34b8c737"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/verify-native.mjs",
+      "bytes": 4118,
+      "sha256": "4df866a28943951be45ea99325f2a521beac64c2569508a10e2334a695678ebb"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/verify-parade-sharing.mjs",
+      "bytes": 6054,
+      "sha256": "c04b3be0b32219032aea699082138dec0631feda0f2b6e8bb3d3f33e45ae0a70"
+    },
+    {
+      "path": "assets/imagegen/town-tradesmen/verify-scenes.mjs",
+      "bytes": 8500,
+      "sha256": "8d6232d2a0463d59f0082cf02051fbff782270387c242c4c5b1ca779a3fac5b9"
+    },
+    {
+      "path": "assets/raster/town-npc35-audit/README.md",
+      "bytes": 6168,
+      "sha256": "98a435519c71516fc9a367dc38a3a4039e93c2ca47f76156540e7c32907e7b63"
+    },
+    {
+      "path": "assets/raster/town-npc35-audit/baseline.json",
+      "bytes": 212,
+      "sha256": "0828576f3ad3f8f36d56e628d279df869f78bceb503ec8a9f260e0abb364fff5"
+    },
+    {
+      "path": "assets/raster/town-npc35-audit/dialogue-context.json",
+      "bytes": 30370,
+      "sha256": "c791a175e751726d46b46f3f4a0551e70d3330c0991397d7132e1210ff2d5f60"
+    },
+    {
+      "path": "assets/raster/town-npc35-audit/event-audit.json",
+      "bytes": 388011,
+      "sha256": "3ec24faa9222d52db369e51278ed549959d8422af0e033426424e00ce9ac753c"
+    },
+    {
+      "path": "assets/raster/town-npc35-audit/native-audit.json",
+      "bytes": 61406,
+      "sha256": "d0401c4a66995788b910bb51f3c7b64a52a06324cc0c81e987217d5bfef0c615"
+    },
+    {
+      "path": "assets/raster/town-npc35-audit/native-role-notes.json",
+      "bytes": 62926,
+      "sha256": "56bcd0dedba1aea71208859af6b8793cdaa17e8278c933cef79577a2672be786"
+    },
+    {
+      "path": "assets/raster/town-npc35-audit/review/original-palette9-6x.png",
+      "bytes": 40896,
+      "sha256": "da9bf7ff7458d681aa081fad08f43fa3efa415381a04af227e1d09fd7f531f15"
+    },
+    {
+      "path": "assets/raster/town-npc35-audit/scene-contexts.json",
+      "bytes": 158305,
+      "sha256": "fdfdf8fdf017c17eff36038b66541a38c1d9b5f055326c1d5fa3d7a4f320caf9"
+    }
+  ],
+  "excluded": [
+    "All ROMs and save states",
+    "private-qa/",
+    "exploratory base/nearest/material/contrast preview directories",
+    "failed initial parade expectation probe",
+    "unselected duplicate native/scene screenshots",
+    "full original-ROM event packet dumps"
+  ],
+  "notes": "Exact full source pipeline was reproduced before freeze. Art/geometry/native timing are accepted independently of the inherited parade palette regression. No active production file, generated registry, canonical build, title or music changed."
+}

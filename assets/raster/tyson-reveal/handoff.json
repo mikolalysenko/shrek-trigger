@@ -1,0 +1,117 @@
+{
+  "status": "Frozen inactive and approved",
+  "sourcePacket": "assets/raster/tyson-reveal/",
+  "review": "review/index.html",
+  "sourceImportSpec": "import-spec.draft.json",
+  "rootActivationRequired": true,
+  "sourceFrames": 8,
+  "proceduralFrames": 0,
+  "missingNativeSlots": 0,
+  "native": {
+    "uploads": 8,
+    "cells": 96,
+    "exactPixels": 8533
+  },
+  "timing": {
+    "cases": 28,
+    "ticks": 2288,
+    "maxCoherentDisplayDelay": 1
+  },
+  "battle": {
+    "entry": 475,
+    "diagnosticEntry": {
+      "id": 475,
+      "x": 8,
+      "y": 12,
+      "party": [
+        0,
+        1,
+        2
+      ],
+      "endgame": true
+    },
+    "ticks": 18452,
+    "attacks": 19,
+    "heals": 3,
+    "revives": 0,
+    "maxHeap": 2944
+  },
+  "reveal": {
+    "ticks": 3763,
+    "confirmTaps": 14,
+    "exactSourceFrames": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "canonicalColorFrames": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exactOpaquePixels": 7389,
+    "fieldAnchor": [
+      128,
+      127
+    ],
+    "oamOrigin": [
+      128,
+      111
+    ],
+    "final": {
+      "tick": 3762,
+      "location": 479,
+      "battle": 1,
+      "control": 0,
+      "dialogue": 0,
+      "brightness": 15,
+      "formation": [
+        206,
+        255,
+        255,
+        255,
+        237,
+        255,
+        239,
+        255
+      ]
+    }
+  },
+  "resources": {
+    "raw": 6880,
+    "compressed": 3228,
+    "assembly": 960,
+    "stream": 238,
+    "cartridgeGrowthBeforeAlignment": 6014
+  },
+  "unchangedFinalOwners": [
+    206,
+    237,
+    239
+  ],
+  "paletteOwnership": [
+    11,
+    206,
+    237,
+    239
+  ],
+  "proofBaseline": "f33843436880bf0b7988308e2d684065c8ef6c715641cfc0d3038232f1f8ca15",
+  "privateSha256": "2ecae664d4aa4ebf0abbefd900dac48f52ab05c4a1c7781c2d05eb59c647ff40",
+  "remaining": [
+    "Activate through root’s source registry/graphics patch and streamed owner238.",
+    "Run current integrated independent-core checks and full final-branch regression.",
+    "Natural preceding shell/world campaign traversal is not claimed by diagnostic475 entry."
+  ],
+  "limits": [
+    "Frame2 is tested natively but absent from this actual event.",
+    "Original0/1 and early3 white fade remains, not canonical colors.",
+    "Six original cell origins change to fit complete source; actor anchor and opaque bottoms stay exact.",
+    "Eight-source adaptation includes boxing/weight-shift semantics, not newly authored original humanoid anatomy."
+  ]
+}

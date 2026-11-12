@@ -1,0 +1,30 @@
+{
+  "key": "fiona-portrait",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "new portrait generation with identity/style reference",
+  "prompt": "prompt-v1.txt",
+  "referenceImages": [
+    "assets/imagegen/fiona/source-v3.png"
+  ],
+  "transparentBackground": true,
+  "status": "no-image-returned",
+  "requestedNativeDimensions": [
+    48,
+    48
+  ],
+  "error": {
+    "httpStatus": 400,
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "requestId": "efc9bbc9-1aa6-4ff0-999c-3ba1a08a57c6"
+  },
+  "review": "No source raster exists to import or visually review. No draft import spec is registered, and active game artwork remains unchanged.",
+  "recovery": "Do not rephrase or retry around the rejection. Reported to root and lead for an authorized alternative.",
+  "promptSha256": "a9932d9693433fd515f51524ee79374dc6b1ed24944104cd8ee1112e95701d66",
+  "referenceSha256": {
+    "assets/imagegen/fiona/source-v3.png": "fc5433abb505c25145b3a3884d40d4957844a5fd8066e15e0627410276680e61"
+  }
+}

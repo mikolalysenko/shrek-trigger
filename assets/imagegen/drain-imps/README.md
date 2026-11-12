@@ -1,0 +1,18 @@
+Drain / River Imps — frozen inactive generated sources
+=====================================================
+
+One unchanged built-in imagegen PNG supplies eleven authored poses for all twenty original native slots. The family retains gfx93 / asm52 / animation37, enemy99 with palette43 and enemy101 with palette42, four 16×16 cells and full size byte0. Both current approved palette packets remain byte-identical. There are no other graphics/assembly/palette owners or pointer aliases. Original headers, AI, stats, events and programs are unchanged.
+
+The model keeps true rear/front/profile submerged wakes, high/low glides, spread splash/recoil and partial/full emergence. Original exact mirrors and duplicates are recorded in `imp/native-role-audit.json`. Generated puddles are up to eight pixels wider and heights differ by at most two pixels. Every original lowest opaque pixel is preserved, with center rounding at most half a pixel. Exact four-cell geometry is in `imp/native-frame-map.draft.json`. Root and lead approved the native model in both palettes.
+
+The bank is 2,912 decoded / 2,194 compressed / 800 assembly bytes. Compressed-plus-assembly growth is +632 against CT and +1,557 against the e136 earlier-art bank (+1,556 after even allocation alignment). Decoded growth is +736 / +1,408. Root must explicitly select gfx93 for native streaming; default decoded-size guards remain strict. No additional WRAM or VRAM is requested.
+
+The private candidate is `0a449d04bd867cce7f9e7f3c1f59f2820af73b88955ba350cfb5300d45ae039d`, built over immutable baseline `e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500`. Native proof covers 40 owner/pose uploads, 160 displayed cells and 10,108 exact opaque pixels. All 42 original action/direction-owner cases pass 84 cycles and 1,816 ticks, with exact requested timing, VRAM and four-cell OAM on every tick. The motion review exercises all 17 separate action loops in both palettes.
+
+`native-scene-proof.json` records the actual noisy sewer route 236→237→236→498, its eight native battles, damage/victory, all four sound-trap flags, treasure/bridge and native world exit. Original direct emergence uses AC9/AD1→AC10/AD1→AC11/AD2; per-video-frame uploaded phases and native pause-command re-entry remain in the trace. River Imp scene160 initialization is separate from its encounter/victory choreography. Static original-branch unions peak at 12,384 streamed bytes, leaving 20,384 bytes spare. Independent-core and current production placement checks remain root-owned.
+
+Start review at `imp/native-frames-1x.png` and `imp/motion.html`. Enlarged pages cover every pose. Native captures, rise traces and `native-emergence.apng` stay under `.local/qa/drain-imps-native-proof/`. Source prompt/provenance are `prompt-v1.txt` and `provenance-v1.json`; `source-v1.png` is copied unchanged from the built-in tool.
+
+Run `node assets/imagegen/drain-imps/prepare-draft.mjs`, then `review-draft.mjs` and `freeze-draft.mjs` from the repository root. Import `imp/import-spec.draft.json` under key `drain-imps`, with its explicit directory and exact native geometry. `freeze.json` separates minimal source/reproduction files from proof runners/manifests. Proof replay needs the retained immutable baseline ROM/manifest/patch records and the original ROM, then `verify-native.mjs`, `verify-motion.mjs`, `verify-timed-animation.mjs` and `verify-sewer-scene.mjs`.
+
+All work remains inactive. Root owns active registry/engine integration and production validation. Private allocation addresses are proof-only; canonical outputs, title and music are untouched.

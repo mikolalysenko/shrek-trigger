@@ -1,0 +1,664 @@
+{
+  "status": "Bounded native-display proof passed; inactive family",
+  "baseline": {
+    "path": ".local/shrek-trigger.sfc",
+    "sha256": "511e120ca47aa4f9c61371d4ecd264d0b1848061a649ee16b162cfe3f6bb109c",
+    "bytes": 8388608,
+    "buildManifestSha256": "895d1f18a92f573f9296ee447cf6a43ef305fb5544f72b3a0305a780c1962a7b",
+    "buildRecordsSha256": "67ec9b96ccc46e0d09d275a838ae0e85ede8dfea95f0c4268612450922de8e8c"
+  },
+  "candidate": {
+    "path": ".local/qa/court-beast-native-proof/candidate.sfc",
+    "sha256": "f71ef792d08dacdc5d3ab8642be49bdbe45ba4d01318089b796cb02b52dc5227",
+    "bytes": 8388608,
+    "changedBytes": 33589
+  },
+  "sourceFreezeSha256": "180b942b27ce4b4dbb34323db38954096708e9d5be49eca517c09a56ad39b855",
+  "runner": {
+    "file": "assets/imagegen/court-beast/verify-native.mjs",
+    "sha256": "29b64a9c07ee28ac7e2b3d9eebd6d9ec095bcca7f1dd786d43f6d673e6ebacf7"
+  },
+  "scope": "Existing production native 8-cell enemy preview; source overrides only. No active integration, complete scene residency, encounter or combat claim.",
+  "owners": [
+    {
+      "key": "masquerader",
+      "enemy": 144,
+      "palette": 185,
+      "paletteOffset": 2363736,
+      "paletteSha256": "2ee9bf9ae4ed948f2138e0c73ed01358ba02fc4a7d0bd8a4e9981faa6ebc9e7a",
+      "header": [
+        133,
+        127,
+        185,
+        99,
+        1,
+        0,
+        236,
+        16,
+        16,
+        33
+      ],
+      "ai": {
+        "offset": 829183,
+        "bytes": 102,
+        "sha256": "b2a9c8cd37391d556b2bf88678993094cbdcbac93342868928db8de0baf5ad81"
+      }
+    },
+    {
+      "key": "court-beast",
+      "enemy": 199,
+      "palette": 249,
+      "paletteOffset": 2365272,
+      "paletteSha256": "3658818dae5f3f0a0ba56fdfcfff6d6dd82b66a919cb1ee9ca8e62247634cfb4",
+      "header": [
+        133,
+        127,
+        249,
+        99,
+        1,
+        0,
+        224,
+        24,
+        16,
+        17
+      ],
+      "ai": {
+        "offset": 833874,
+        "bytes": 193,
+        "sha256": "8303822bf7e4112cd991063c0c18e89ca37ed1b5cbbb12db215ce042d44a3703"
+      }
+    }
+  ],
+  "framesPerOwner": 31,
+  "nativeFrameUploads": 62,
+  "exactDisplayedCells": 496,
+  "exactDisplayedOpaquePixels": 64334,
+  "allSourcePixelsVisible": true,
+  "nativeCellGeometryExact": true,
+  "palettesExact": true,
+  "nativeStreamPointerExact": true,
+  "nativeHelpersUnchanged": true,
+  "originalHeadersAndAiUnchanged": true,
+  "originalFrameAndDurationLists": [
+    {
+      "kind": "directional frame lists",
+      "pointer": 2369222,
+      "offset": 2390272,
+      "bytes": 160,
+      "sha256": "3181be74921758577583e2c32de6efbd096813394a18edbe1ac16941f510b189",
+      "values": [
+        1,
+        255,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        255,
+        0,
+        0,
+        0,
+        16,
+        17,
+        18,
+        17,
+        0,
+        255,
+        0,
+        0,
+        12,
+        255,
+        0,
+        0,
+        4,
+        13,
+        255,
+        0,
+        20,
+        21,
+        22,
+        0,
+        13,
+        14,
+        15,
+        255,
+        0,
+        2,
+        255,
+        0,
+        4,
+        255,
+        0,
+        0,
+        3,
+        4,
+        5,
+        4,
+        255,
+        0,
+        0,
+        0,
+        16,
+        17,
+        18,
+        17,
+        0,
+        255,
+        0,
+        0,
+        12,
+        255,
+        0,
+        0,
+        4,
+        13,
+        255,
+        0,
+        17,
+        23,
+        24,
+        0,
+        13,
+        14,
+        15,
+        255,
+        3,
+        5,
+        255,
+        0,
+        7,
+        255,
+        0,
+        0,
+        6,
+        7,
+        8,
+        7,
+        255,
+        0,
+        0,
+        0,
+        16,
+        17,
+        18,
+        17,
+        0,
+        255,
+        0,
+        0,
+        12,
+        255,
+        0,
+        0,
+        4,
+        13,
+        255,
+        0,
+        25,
+        26,
+        27,
+        0,
+        13,
+        14,
+        15,
+        255,
+        6,
+        8,
+        255,
+        0,
+        10,
+        255,
+        0,
+        0,
+        9,
+        10,
+        11,
+        10,
+        255,
+        0,
+        0,
+        0,
+        16,
+        17,
+        18,
+        17,
+        0,
+        255,
+        0,
+        0,
+        12,
+        255,
+        0,
+        0,
+        4,
+        13,
+        255,
+        0,
+        28,
+        29,
+        30,
+        0,
+        13,
+        14,
+        15,
+        255,
+        9,
+        11,
+        255,
+        0
+      ]
+    },
+    {
+      "kind": "shared native duration list",
+      "pointer": 2369734,
+      "offset": 2408599,
+      "bytes": 40,
+      "sha256": "1985efe872953cace2ca3f528ae6eee38609779e4629a33b809c8c0e37e70682",
+      "values": [
+        5,
+        0,
+        0,
+        0,
+        10,
+        5,
+        10,
+        5,
+        0,
+        0,
+        0,
+        0,
+        10,
+        5,
+        10,
+        5,
+        0,
+        0,
+        0,
+        0,
+        31,
+        0,
+        0,
+        0,
+        15,
+        15,
+        0,
+        0,
+        15,
+        15,
+        47,
+        0,
+        15,
+        15,
+        47,
+        0,
+        2,
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "sourceFilesUnchanged": true,
+  "activeFilesChanged": false,
+  "minimalSourceReproductionListUnchanged": true,
+  "visualReview": {
+    "lead": "/root/sprite_art_pass",
+    "status": "Approved 31-slot source at native/enlarged size, both palettes and corrected contact scale; this is distinct from native encounter timing review"
+  },
+  "evidence": {
+    "directory": ".local/qa/court-beast-native-proof",
+    "candidate": "candidate.json",
+    "display": "display-report.json",
+    "pixels": "pixel-samples.json",
+    "screenshots": 62,
+    "contactSheets": [
+      "masquerader-native-1x.png",
+      "court-beast-native-1x.png"
+    ],
+    "files": [
+      {
+        "file": "candidate.json",
+        "bytes": 6312,
+        "sha256": "6649594b7aa1f9b7790c2e29119ec5f59cd312cbdde38cd408ca47688fec4701"
+      },
+      {
+        "file": "display-report.json",
+        "bytes": 115895,
+        "sha256": "9f8a4b1940f1a346a4a2042e72ab231c8b8c1611d7bdfc37f25d5a10939e2fe4"
+      },
+      {
+        "file": "pixel-samples.json",
+        "bytes": 4680322,
+        "sha256": "ad4c4a18cdc3ef23b0cf72f7258a3e3e1a4e1a20fec049d67b1317ccd696ec3a"
+      },
+      {
+        "file": "masquerader-native-1x.png",
+        "bytes": 284597,
+        "sha256": "72982421343881c197d5571d54a6b2e7bdc9be0577a19f15fd6d539b08b16324"
+      },
+      {
+        "file": "court-beast-native-1x.png",
+        "bytes": 287301,
+        "sha256": "b69b41bdc36ff6bfc6c14274656b02d156b5b0641aeb12bcee2a353b50b92ada"
+      },
+      {
+        "file": "masquerader-00.png",
+        "bytes": 56516,
+        "sha256": "e4dd8048aef519b1e19ced1655a5614eeccece6029bde3c234c5d64a159cfad4"
+      },
+      {
+        "file": "masquerader-01.png",
+        "bytes": 56436,
+        "sha256": "9c9dfd218f399ddc96628272fa9d1b2f66dc50f28b323f126faa5b39bdf27e10"
+      },
+      {
+        "file": "masquerader-02.png",
+        "bytes": 56443,
+        "sha256": "b260cce9872af15ab3fdf1ed22941199293566414a362907df239c22472c4864"
+      },
+      {
+        "file": "masquerader-03.png",
+        "bytes": 56601,
+        "sha256": "edc187bb87930e64c4fdb4ce19d368998aef63b66b6b4bef75f6a3e6776c5dc0"
+      },
+      {
+        "file": "masquerader-04.png",
+        "bytes": 56546,
+        "sha256": "96fee51e43bdb7fbad98c28b735ca6c3dd88d4abcc1a21a4d3022c1e3f7aecfa"
+      },
+      {
+        "file": "masquerader-05.png",
+        "bytes": 56514,
+        "sha256": "9be8af2aa7a46208171e8c30449be7d524e9005d741cd27f9488a5a5bed2ebcc"
+      },
+      {
+        "file": "masquerader-06.png",
+        "bytes": 56404,
+        "sha256": "dcbe6f7c7a898a59ecd6127ff359ae7b9d109d86b79aa03717139eb1413378a3"
+      },
+      {
+        "file": "masquerader-07.png",
+        "bytes": 56369,
+        "sha256": "a008f96764cb60bdb1132380736137e29e2ea42f1fa4f31598798a62fe59a278"
+      },
+      {
+        "file": "masquerader-08.png",
+        "bytes": 56336,
+        "sha256": "091d4c0ee220596424be9c5240dfa43cf21f594897a7a4f9b4077d4c86a4ef41"
+      },
+      {
+        "file": "masquerader-09.png",
+        "bytes": 56500,
+        "sha256": "243ac728eff02bd7c7fdcb269b6f3c1511ba487f4f6fda9269ad3f9d8d78ccf4"
+      },
+      {
+        "file": "masquerader-10.png",
+        "bytes": 56420,
+        "sha256": "511653e24c2b50ffda25de8ff6b21859e91bdb35ffaf13426a48dd404ffca727"
+      },
+      {
+        "file": "masquerader-11.png",
+        "bytes": 56367,
+        "sha256": "0550ac2e39eedd944983ac54f42c1905c30f49e010c0576f7b205bd09ef66ec6"
+      },
+      {
+        "file": "masquerader-12.png",
+        "bytes": 56570,
+        "sha256": "9c71464be2104c7e078d4176f8fdb201e8138235894a8d1f1ef723c37f7186bf"
+      },
+      {
+        "file": "masquerader-13.png",
+        "bytes": 56446,
+        "sha256": "d2d4d33da5112139498e272160ed9adf1e6eab2c2318733a52d74e4db3507681"
+      },
+      {
+        "file": "masquerader-14.png",
+        "bytes": 56327,
+        "sha256": "21d8a561e48196d0c013ae119bf30734bf1289389de77e857e1d84ef7a9b7f27"
+      },
+      {
+        "file": "masquerader-15.png",
+        "bytes": 56229,
+        "sha256": "2987a266942e96cf45c786d4a2ca547dc594646317f31a80b08d39354b5fb7e0"
+      },
+      {
+        "file": "masquerader-16.png",
+        "bytes": 56441,
+        "sha256": "62b0d5d4b860ffdbc7050a18baf54ef6abb3069d445b5c85446bf89d6f18e094"
+      },
+      {
+        "file": "masquerader-17.png",
+        "bytes": 56488,
+        "sha256": "92bdd87796cb79a503870bbfc9afce13e20375515c80c13001b2ec82fac30804"
+      },
+      {
+        "file": "masquerader-18.png",
+        "bytes": 56411,
+        "sha256": "093ea688308eabd7ee7ff10ace4e0c5fd2fbd745a57126acc10ceb76fc1c7764"
+      },
+      {
+        "file": "masquerader-19.png",
+        "bytes": 56429,
+        "sha256": "eab460113dfea90e76122c8e5a5d0fb8689706d52ae787af540618a4eac93d37"
+      },
+      {
+        "file": "masquerader-20.png",
+        "bytes": 56242,
+        "sha256": "275a36a823d14aade5280c0444b6fa569bf124098b8c76fa161aa53a5ccc3652"
+      },
+      {
+        "file": "masquerader-21.png",
+        "bytes": 56250,
+        "sha256": "ec39c272acbfc6b5ca8294311a87407377c1a197bdcf354ca1b38e76c5bd3007"
+      },
+      {
+        "file": "masquerader-22.png",
+        "bytes": 56189,
+        "sha256": "ea0116c1b15ddf39f25dc89165548d3162817c4de138592f4c56b918798d8610"
+      },
+      {
+        "file": "masquerader-23.png",
+        "bytes": 56271,
+        "sha256": "495ff25ab4cf60837cefd180ca067fcbf899f1ade2a0a90a901ea9a902acfe08"
+      },
+      {
+        "file": "masquerader-24.png",
+        "bytes": 56199,
+        "sha256": "ebc8e8c3532e70a4f748c655609ef74a2368f6d3d4aaf31f61e66bc41cb3610f"
+      },
+      {
+        "file": "masquerader-25.png",
+        "bytes": 56688,
+        "sha256": "b118e15bdde610389af1d05ed4b2a6def41f60cdc8692d62afe727348f2f318a"
+      },
+      {
+        "file": "masquerader-26.png",
+        "bytes": 56703,
+        "sha256": "5f04a4f4b5417385d83ad7ffb64fd930e11cbbc1875f3cef51d5e2dccca99f7d"
+      },
+      {
+        "file": "masquerader-27.png",
+        "bytes": 56499,
+        "sha256": "267314504a410b7461980f98d9ac2cebace2b82c1b0acfe1f0c885cae11c1753"
+      },
+      {
+        "file": "masquerader-28.png",
+        "bytes": 56386,
+        "sha256": "353febaaa0951250e6e6ac0477954b66a4261c99924ecf54d01a0d4dd19efede"
+      },
+      {
+        "file": "masquerader-29.png",
+        "bytes": 56476,
+        "sha256": "a61d50f76f1d4d1574b6d40af629c6327f3a45751970c22e22baab7f57a54f73"
+      },
+      {
+        "file": "masquerader-30.png",
+        "bytes": 56260,
+        "sha256": "70d3bd13027610988803cc21977300a12dce17ddb4f9a064614e7a44adab03e4"
+      },
+      {
+        "file": "court-beast-00.png",
+        "bytes": 56595,
+        "sha256": "d17e197ee73a3037d44155a02f755bebe8466e5d1f40ac4dc2a9e512da42d805"
+      },
+      {
+        "file": "court-beast-01.png",
+        "bytes": 56500,
+        "sha256": "82728c02c5e7fce5c30015a53f760e9411e78e7b63c2206153972e616c9ac515"
+      },
+      {
+        "file": "court-beast-02.png",
+        "bytes": 56524,
+        "sha256": "22308021a2a74eb75674f5a65c05771ab28c8971423f92c6fb264c412a3aa046"
+      },
+      {
+        "file": "court-beast-03.png",
+        "bytes": 56686,
+        "sha256": "58d5edac98f3d24fa253a90e214d7a26a18d0e4ce8804a88821b71da994c6257"
+      },
+      {
+        "file": "court-beast-04.png",
+        "bytes": 56610,
+        "sha256": "352dc568c1a9deb4ae058c20eeac7a4bb0e7afafb0950bb187ab74c02de46d79"
+      },
+      {
+        "file": "court-beast-05.png",
+        "bytes": 56612,
+        "sha256": "49dcf2b25c3ee5d7f1c153d6296cd53dd2ea7704aa2a7352b2632b86882e6fb8"
+      },
+      {
+        "file": "court-beast-06.png",
+        "bytes": 56477,
+        "sha256": "8a910888b956ab3efb5f679e1175bb838dfd32beaac665e7ec6bdb590167694d"
+      },
+      {
+        "file": "court-beast-07.png",
+        "bytes": 56452,
+        "sha256": "e8b7057c21fc5a8bf5b6a32974511637309e6a7230537713740e42ee06336336"
+      },
+      {
+        "file": "court-beast-08.png",
+        "bytes": 56411,
+        "sha256": "ce2897bb3ac633a89e1e6eca0410f17cff002711125c4ef98eefc1c84d45fe35"
+      },
+      {
+        "file": "court-beast-09.png",
+        "bytes": 56576,
+        "sha256": "b4992feaf63a5955cf71f4f2f851bd3139e56cc3dff3f8549d76668801520b38"
+      },
+      {
+        "file": "court-beast-10.png",
+        "bytes": 56492,
+        "sha256": "b0385ebbe492ffd5beb6b19e90538e37b8e8f7f2db0d7370cff74c98c357cdc3"
+      },
+      {
+        "file": "court-beast-11.png",
+        "bytes": 56460,
+        "sha256": "65084e2454c3b2e9917477d19e2d08fefc184332816d9ce4c2aab74492f8b007"
+      },
+      {
+        "file": "court-beast-12.png",
+        "bytes": 56655,
+        "sha256": "5c6807bf8f556b8f426ae0fef76e827f7f8a5cf8f3cf855adb84cdff57e636f8"
+      },
+      {
+        "file": "court-beast-13.png",
+        "bytes": 56510,
+        "sha256": "7f44fd9f8b26d5f2bc6df2f13c719163b63fe302d3c0c6c7cb562da1d058db91"
+      },
+      {
+        "file": "court-beast-14.png",
+        "bytes": 56399,
+        "sha256": "41850ab1689f957f56e51027a4994c1447d1c3458004500ca7563cb520140d1a"
+      },
+      {
+        "file": "court-beast-15.png",
+        "bytes": 56335,
+        "sha256": "b795cd0a69f10f0f247055e2cb2be70c02282c58a9fac194d86e6dddc3350c35"
+      },
+      {
+        "file": "court-beast-16.png",
+        "bytes": 56538,
+        "sha256": "2d8f373440e6e28d43b48f7fc375b468f45141908fdb0ab08351d70e14ea67a1"
+      },
+      {
+        "file": "court-beast-17.png",
+        "bytes": 56589,
+        "sha256": "497bf816639774dcb6837d676db9be47f850a692ff5b84bf95a8aeeb47bfadfd"
+      },
+      {
+        "file": "court-beast-18.png",
+        "bytes": 56569,
+        "sha256": "7572dfa610d00bea41e230b357ebb233a39799ce216dfb39b22c1301771acf5c"
+      },
+      {
+        "file": "court-beast-19.png",
+        "bytes": 56555,
+        "sha256": "b8be22637b4b4b58473d9c139b50c7debdeb699da7a22fe7ad643f12a5d81552"
+      },
+      {
+        "file": "court-beast-20.png",
+        "bytes": 56319,
+        "sha256": "3558560b6d5fbfc5b0e0c4f404b60b58c00fd0589300cafc219a0a251260933a"
+      },
+      {
+        "file": "court-beast-21.png",
+        "bytes": 56309,
+        "sha256": "ee4af81b019bccaf56e3bb60dfed9c3e13175d7ca04878a1ed81629ad9afa91f"
+      },
+      {
+        "file": "court-beast-22.png",
+        "bytes": 56254,
+        "sha256": "19aa8f4cc64bb41a70f4dbf696556002115bc46cb4465c7b0e55474ce41f7872"
+      },
+      {
+        "file": "court-beast-23.png",
+        "bytes": 56372,
+        "sha256": "5100571a09cdeefad27d84d0b598b30a36235ced4a87634572bffa6ebc20873b"
+      },
+      {
+        "file": "court-beast-24.png",
+        "bytes": 56282,
+        "sha256": "f50e799ec52414663f2165c6a944ce0e99193786143a4da50fec747eb0b6ae06"
+      },
+      {
+        "file": "court-beast-25.png",
+        "bytes": 56784,
+        "sha256": "3a88fd59a35731a4bfb7b8c96080261b433b3d4325831e7cf14e6a0934cf801d"
+      },
+      {
+        "file": "court-beast-26.png",
+        "bytes": 56786,
+        "sha256": "53598dc82f57e338d47acedf19cf8d6640054eeb0f28e5944004de5901b5f36b"
+      },
+      {
+        "file": "court-beast-27.png",
+        "bytes": 56596,
+        "sha256": "8ae45cdbb10d27c25be4a7cca1a3236d6bef6f54ea7aad4b24e43fe3265c253d"
+      },
+      {
+        "file": "court-beast-28.png",
+        "bytes": 56484,
+        "sha256": "c7776759faff07ffb67fc117b395f72f466d7b2a3886a15c3ee22c14342c0ec9"
+      },
+      {
+        "file": "court-beast-29.png",
+        "bytes": 56616,
+        "sha256": "c6460e9b0e5d123b5d7b2897f44e78e8ab03e88fed8005d0f24514ba4de9dd90"
+      },
+      {
+        "file": "court-beast-30.png",
+        "bytes": 56357,
+        "sha256": "5e778612564d5e522d3a87e83290d7ec3db5b5a0c69dbbe0e0518947ad6ecbd1"
+      }
+    ]
+  },
+  "limitations": [
+    "This is an isolated native field preview, not original encounter choreography, combat or complete scene residency.",
+    "Native duration and frame lists are proved byte-identical to the original; static frame scrubbing does not establish live encounter timing.",
+    "Scene438 conservative original actor union is 38016 decoded bytes, 5248 above the legacy 32768-byte heap. Guarded gfx133 streaming remains required.",
+    "This proof uses the repository SNES JS core; independent-core and full-scene integration remain separate."
+  ],
+  "activation": false
+}

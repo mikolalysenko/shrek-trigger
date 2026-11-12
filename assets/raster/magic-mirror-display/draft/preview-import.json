@@ -1,0 +1,174 @@
+{
+  "key": "magic-mirror-display",
+  "frames": 7,
+  "width": 32,
+  "height": 16,
+  "opaqueColors": 12,
+  "palette": [
+    "161727",
+    "222844",
+    "3f5875",
+    "667a8e",
+    "93a6b1",
+    "b8ced0",
+    "e5f3e9",
+    "4a321c",
+    "80602d",
+    "b68a3e",
+    "ddb854",
+    "f4dfa0"
+  ],
+  "samplingPalette": [
+    "161727",
+    "222844",
+    "3f5875",
+    "667a8e",
+    "93a6b1",
+    "b8ced0",
+    "e5f3e9",
+    "4a321c",
+    "80602d",
+    "b68a3e",
+    "ddb854",
+    "f4dfa0"
+  ],
+  "sources": [
+    {
+      "file": "assets/raster/magic-mirror-display/source-frames.png",
+      "sha256": "a1a5b233d8dbf1b326a6256423cd0bf0c4d747da578a4cc8702a16faa7ce7d5c",
+      "sourceType": "existing-game-model-render",
+      "dimensions": [
+        3584,
+        320
+      ],
+      "scale": 0.08333333333333333,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest"
+      },
+      "overrides": {
+        "0": {
+          "dx": 1,
+          "bottom": 8
+        },
+        "1": {
+          "dx": 0,
+          "bottom": 8
+        },
+        "2": {
+          "dx": 0,
+          "bottom": 14
+        },
+        "3": {
+          "dx": 0,
+          "bottom": 14
+        },
+        "4": {
+          "dx": 0,
+          "bottom": 15
+        },
+        "5": {
+          "dx": 0,
+          "bottom": 15
+        },
+        "6": {
+          "dx": 0,
+          "bottom": 15
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            232,
+            136,
+            60,
+            36
+          ],
+          "componentPixels": 2160
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            577,
+            160,
+            383,
+            12
+          ],
+          "componentPixels": 4583
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            1184,
+            64,
+            192,
+            180
+          ],
+          "componentPixels": 18432
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1696,
+            64,
+            192,
+            180
+          ],
+          "componentPixels": 18432
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            2112,
+            64,
+            384,
+            192
+          ],
+          "componentPixels": 71635
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            2624,
+            64,
+            384,
+            192
+          ],
+          "componentPixels": 71635
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            3136,
+            64,
+            384,
+            192
+          ],
+          "componentPixels": 71635
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "adapted",
+        "reason": "Actual archived Magic Mirror mesh and textures, cropped into the existing 32×16 display viewport. Authored small head turns supply active phases; visibility masks supply original boot/static roles. Native frame 7 is explicitly blank."
+      }
+    }
+  }
+}

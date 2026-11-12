@@ -1,0 +1,510 @@
+{
+  "status": "Private inactive source override",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "baselineManifestSha256": "a2211d196c01ddfcb6a04af336889a45bfb44a867e47da0a5248958b06365711",
+  "baselineRecordsSha256": "43a77085c5a6ba97feb790202d55acdd28fbd3b9eaa7972c3641c3899e349c4e",
+  "candidateSha256": "a7da90b56794cab5e5034f1598662bc6db42817384a5b7237b9879a70eeffd72",
+  "candidatePath": ".local/qa/future-sewer-creatures-native-proof/candidate.sfc",
+  "changedBytes": 8904,
+  "defaultProductionGuardInvoked": false,
+  "requiredStreamedGraphics": [
+    110,
+    104
+  ],
+  "nativeHelpersUnchanged": true,
+  "streams": [
+    {
+      "gfx": 110,
+      "address": 4747264,
+      "bytes": 2848,
+      "compressedSource": 1341246,
+      "compressedBytes": 2024,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 41,
+          "assembly": 75,
+          "palette": 101,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 42,
+          "assembly": 75,
+          "palette": 100,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "gfx": 104,
+      "address": 4683392,
+      "bytes": 2016,
+      "compressedSource": 1343270,
+      "compressedBytes": 1651,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 82,
+          "assembly": 67,
+          "palette": 80,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 83,
+          "assembly": 67,
+          "palette": 81,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 213,
+          "assembly": 67,
+          "palette": 82,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 214,
+          "assembly": 67,
+          "palette": 83,
+          "size": 0
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "offset": 1341246,
+      "bytes": 2024,
+      "label": "Private pods compressed graphics",
+      "sha256": "ee5883a9b013c145b62fe331c18ae4da15d8b538d58cfd15e143c4dcc22f29e4"
+    },
+    {
+      "offset": 2367818,
+      "bytes": 3,
+      "label": "Private pods graphics pointer",
+      "sha256": "c734c651a5df911c9346c234b73d51e25d7c991b74b9111c402f44b98213bd74"
+    },
+    {
+      "offset": 1313358,
+      "bytes": 560,
+      "label": "Private pods native assembly",
+      "sha256": "22a22e0b805d83526757d9696f67991ff6a30def6a38cdf2b4a42097d97c5fb2"
+    },
+    {
+      "offset": 1343270,
+      "bytes": 1651,
+      "label": "Private bats compressed graphics",
+      "sha256": "bc5f9a3afc86d4ebc5d86b862e67ae59c4900583a83e5781d661e25117e4efb5"
+    },
+    {
+      "offset": 2367800,
+      "bytes": 3,
+      "label": "Private bats graphics pointer",
+      "sha256": "c2e97a7bd1df77e4cb6fd07247d587bfc7a2a82ab4a60934d356926de858f2ba"
+    },
+    {
+      "offset": 2310600,
+      "bytes": 280,
+      "label": "Private bats native assembly",
+      "sha256": "38924ecb5cdf3940c6af0ba12035789698f5df470463722dcbfbd351ba57698d"
+    },
+    {
+      "offset": 4747264,
+      "bytes": 2848,
+      "label": "NPC 110 direct-ROM graphics",
+      "sha256": "6cb7e8df01e844bf99a25d40bae4f1064198cf7891f6431dac8232cea34bb2dd"
+    },
+    {
+      "offset": 4683392,
+      "bytes": 2016,
+      "label": "NPC 104 direct-ROM graphics",
+      "sha256": "a3cb1d6fb5428d14f93ba69ee55dd5551ea5ad44d11f4947bb5b27778594a3ee"
+    },
+    {
+      "offset": 1331302,
+      "bytes": 3,
+      "label": "Private selected gfx110 raw stream",
+      "sha256": "05b54f32a478986ac6e7c189e4f3c6b3e53283621ddf6f0ae5bbb5e9da3c3bae"
+    },
+    {
+      "offset": 1331284,
+      "bytes": 3,
+      "label": "Private selected gfx104 raw stream",
+      "sha256": "53090d64917dcc6716ab5ed577174fc73e552b5231598e48ff5fcea89c060777"
+    }
+  ],
+  "nativeFrameUploads": 56,
+  "exactDisplayedCells": 224,
+  "exactDisplayedOpaquePixels": 17268,
+  "allOpaquePixelsVisible": true,
+  "originalFrameAndDurationListsUnchanged": true,
+  "currentPalettePacketsUnchanged": true,
+  "originalHeadersAiAndStatsUnchanged": true,
+  "originalPerSlotBottomAndCenterExact": true,
+  "batFlyingSizeByte64Unchanged": true,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "isolatedHeapBytes": [
+    {
+      "key": "thorn-pod",
+      "bytes": 960
+    },
+    {
+      "key": "sewer-pod",
+      "bytes": 960
+    },
+    {
+      "key": "lantern-bat",
+      "bytes": 960
+    },
+    {
+      "key": "bog-bat",
+      "bytes": 960
+    },
+    {
+      "key": "ember-bat",
+      "bytes": 960
+    },
+    {
+      "key": "frost-bat",
+      "bytes": 960
+    }
+  ],
+  "evidence": ".local/qa/future-sewer-creatures-native-proof",
+  "evidenceFiles": [
+    {
+      "file": "candidate.json",
+      "bytes": 3765,
+      "sha256": "5bb3127fad5c18ae533b35a55caa5896ec026cb8a8d9ad1e2d4e95b04896a5f9"
+    },
+    {
+      "file": "display-report.json",
+      "bytes": 60744,
+      "sha256": "0331df0086e20f47fc81992765f93357e75be10a5f62c4588b837c25e250acf7"
+    },
+    {
+      "file": "thorn-pod-native-1x.png",
+      "bytes": 183475,
+      "sha256": "fdabfa9c630b5a1482dae8ac6aa107957372cba4d8804382ec1014d9a78cba88"
+    },
+    {
+      "file": "sewer-pod-native-1x.png",
+      "bytes": 183625,
+      "sha256": "647cdeca3eac1c86339b96d0434333e1e7236cee46795896cd036e621ccddc6c"
+    },
+    {
+      "file": "lantern-bat-native-1x.png",
+      "bytes": 92904,
+      "sha256": "9957dda5ad2bd1b40ece803a43b807f1af06687e409a90e182d06fd41c5a2481"
+    },
+    {
+      "file": "bog-bat-native-1x.png",
+      "bytes": 93095,
+      "sha256": "5a125c8f106205e63ce01db128c89a0060ace2b70d80e425e1174328e08cd8b6"
+    },
+    {
+      "file": "ember-bat-native-1x.png",
+      "bytes": 92634,
+      "sha256": "06e9696b8a2dc2b4f40bd347d47c9eabb8707d68bf88e7fba24ce85001d44fbd"
+    },
+    {
+      "file": "frost-bat-native-1x.png",
+      "bytes": 92947,
+      "sha256": "a63e608e02d99eea57fc6a44fc60ea868242b0d1129d05f6ad6a9a0007b61a8b"
+    },
+    {
+      "file": "thorn-pod-00.png",
+      "bytes": 56726,
+      "sha256": "200b1c2a8073c1dac08c552d2e3bb44e37eb9556be251b7528673248a8b6c7e0"
+    },
+    {
+      "file": "thorn-pod-01.png",
+      "bytes": 56793,
+      "sha256": "ee19dee8e4c680ddb1c2ff458866f4afbf2c76760d4cc7e7778b77f6c8e7a8c8"
+    },
+    {
+      "file": "thorn-pod-02.png",
+      "bytes": 56786,
+      "sha256": "4e20e6f97934ef2a4dcc127b7f9b27b46d89213f5225034bb1526bb99b3ae2b7"
+    },
+    {
+      "file": "thorn-pod-03.png",
+      "bytes": 56761,
+      "sha256": "e48c81587310c18788f678fcfaeebe715261bc248e223bfebe3b69fd5ec418e5"
+    },
+    {
+      "file": "thorn-pod-04.png",
+      "bytes": 56609,
+      "sha256": "fff106cfb6e3b3499e99ef3a0bf5b5dd682d4b9b4fe84975134a30ea0d378bdd"
+    },
+    {
+      "file": "thorn-pod-05.png",
+      "bytes": 56450,
+      "sha256": "eb618f4ac43a7e3c564d91d272fa7c2f5876a07afb74c183cccb6a4001402302"
+    },
+    {
+      "file": "thorn-pod-06.png",
+      "bytes": 56685,
+      "sha256": "ffacb2ee3d037dab45873e5c290971dd02a7f214b615afd87ffb197da1206e48"
+    },
+    {
+      "file": "thorn-pod-07.png",
+      "bytes": 56637,
+      "sha256": "580cae338115e54ca9cd0e75700d673897359bcb31c493b719dd772c75bc098c"
+    },
+    {
+      "file": "thorn-pod-08.png",
+      "bytes": 56712,
+      "sha256": "b9c517f2d2e0c698c41d492523877be85f96367a37210691811694be6234e52b"
+    },
+    {
+      "file": "thorn-pod-09.png",
+      "bytes": 56553,
+      "sha256": "e0a7c5155810c82343dde8043686d7a8527a62a846499e27dbed966c3f42997a"
+    },
+    {
+      "file": "thorn-pod-10.png",
+      "bytes": 56687,
+      "sha256": "89b6676d0683d1cd5b3722864384b9c24b9c17a82db37462856a6ca3ff9fd73d"
+    },
+    {
+      "file": "thorn-pod-11.png",
+      "bytes": 56565,
+      "sha256": "b2e79c78ae325443733b013e0b36c7646e8ee762c4698c0a2997fb7f961862c8"
+    },
+    {
+      "file": "thorn-pod-12.png",
+      "bytes": 56625,
+      "sha256": "3e0c4281d221a548695dfe10bff8b65d6ad0140ad3734b3ccc57a5c19a2c2c65"
+    },
+    {
+      "file": "thorn-pod-13.png",
+      "bytes": 56657,
+      "sha256": "e033f95fc5cacb6d6e8e0907ffb265eacd4a282177d635257e46fa13d687a75d"
+    },
+    {
+      "file": "sewer-pod-00.png",
+      "bytes": 56727,
+      "sha256": "3b294c16f3840d53eb2c098428a95ee3e8fd201912a70f61eab7476a1f69bbf5"
+    },
+    {
+      "file": "sewer-pod-01.png",
+      "bytes": 56819,
+      "sha256": "677b206b03c1feb21864d75bfd49d0ed8243aac04cee4f10968fb7785a3a9fd6"
+    },
+    {
+      "file": "sewer-pod-02.png",
+      "bytes": 56801,
+      "sha256": "c601aa546793a32bb15ba17c37a3ceac3bb2351a3a37ec4cfcf512cf04b53cbc"
+    },
+    {
+      "file": "sewer-pod-03.png",
+      "bytes": 56782,
+      "sha256": "b792cf4e981715d26c9299992c80a174979c7931cf0ce4d079bfd141fecf2bd3"
+    },
+    {
+      "file": "sewer-pod-04.png",
+      "bytes": 56636,
+      "sha256": "fdae7384f6aa144ea78b24a85251a0dcaefb6ec27f56e780195bed99d507e278"
+    },
+    {
+      "file": "sewer-pod-05.png",
+      "bytes": 56459,
+      "sha256": "189498cac330fe683b6342681e83ecddaaa1402fb16fd96d85ea2ed303d17bb4"
+    },
+    {
+      "file": "sewer-pod-06.png",
+      "bytes": 56696,
+      "sha256": "06432fb51fdc72a49f372f46339660dd7e17517aa9092d671349ec05f4348543"
+    },
+    {
+      "file": "sewer-pod-07.png",
+      "bytes": 56664,
+      "sha256": "88120ae8a29cf05780163536244941906ed67f4001c63f35553abac0d9884b1d"
+    },
+    {
+      "file": "sewer-pod-08.png",
+      "bytes": 56728,
+      "sha256": "12b430b34fd004d1a97a06c29562b6b749ba992fa8c10a33bbc40792cbf78ada"
+    },
+    {
+      "file": "sewer-pod-09.png",
+      "bytes": 56563,
+      "sha256": "ff2de28877d12415d4d96211daa3b871e6d04583a45c5d9382ce547b7bcf3827"
+    },
+    {
+      "file": "sewer-pod-10.png",
+      "bytes": 56698,
+      "sha256": "85ea08b788fc5fd89d0deef02256f3700ac48a00218743f8ce1cefb8c0919f7c"
+    },
+    {
+      "file": "sewer-pod-11.png",
+      "bytes": 56588,
+      "sha256": "4b3f8b09935c9e15d65d240dd10ff3f64d6c35f178c9cfe0cec7a56f1b2e6ae9"
+    },
+    {
+      "file": "sewer-pod-12.png",
+      "bytes": 56655,
+      "sha256": "2ded33766d537b03ae02d061613fd07768f3ce21680c0b987933261243b3ecf2"
+    },
+    {
+      "file": "sewer-pod-13.png",
+      "bytes": 56679,
+      "sha256": "979f2cd630f40b4a461ac812a1ee5521eadeb069cb2157b4a1ade0f420e3d98a"
+    },
+    {
+      "file": "lantern-bat-00.png",
+      "bytes": 56764,
+      "sha256": "3d097d2969cb40ca322941c45e12a5ca195aff0c9c28105af457f4d9e20928ad"
+    },
+    {
+      "file": "lantern-bat-01.png",
+      "bytes": 56967,
+      "sha256": "447a8a4ea734c6fcc871213a7d4803976dc716e2a3b8bd67debffd42fa2027ee"
+    },
+    {
+      "file": "lantern-bat-02.png",
+      "bytes": 56827,
+      "sha256": "22bd5ff792ecd0239f90efe7374090a6d249beb718e55408b5b6001cee781d46"
+    },
+    {
+      "file": "lantern-bat-03.png",
+      "bytes": 56833,
+      "sha256": "3e6fad1bb053fb31f990f3fbb9dce7825e707864ee3096205c9a0ed28974e528"
+    },
+    {
+      "file": "lantern-bat-04.png",
+      "bytes": 56774,
+      "sha256": "8afb38b15340bbdbfce5511e846026d2fcf51537423f7fef675208e44f3d78c6"
+    },
+    {
+      "file": "lantern-bat-05.png",
+      "bytes": 56844,
+      "sha256": "401c4384e09a0918dfefb79de15bacc60d2443e7b273d582839d114c4ff7f68e"
+    },
+    {
+      "file": "lantern-bat-06.png",
+      "bytes": 56754,
+      "sha256": "914567cd05defb38fec154e42ddaaf1bfce7f40ad04e66db7fb1751dc694dfac"
+    },
+    {
+      "file": "bog-bat-00.png",
+      "bytes": 56767,
+      "sha256": "9686c656adc1075bbef4483e931877996f2179e4ac3e0b0ed70f019875c44b29"
+    },
+    {
+      "file": "bog-bat-01.png",
+      "bytes": 56981,
+      "sha256": "d7d12001c15cd343780ca24e06df7a00fc8ddc5c105ad69a51f0a2e478a18b8e"
+    },
+    {
+      "file": "bog-bat-02.png",
+      "bytes": 56853,
+      "sha256": "b1a584f585776c844fb1e7272faffe2186706cddcc4814a02547c3c2d84e30da"
+    },
+    {
+      "file": "bog-bat-03.png",
+      "bytes": 56857,
+      "sha256": "a1afcac0f20d6409290e4c4fc370bfb3768fbc33c526bb0409f0ba0e7dbd3a74"
+    },
+    {
+      "file": "bog-bat-04.png",
+      "bytes": 56782,
+      "sha256": "01a90333b991b5cb4ecf76b8e06b7fdeac776261105e2feb18dc3beadad5d91c"
+    },
+    {
+      "file": "bog-bat-05.png",
+      "bytes": 56869,
+      "sha256": "2a022a960659e8ef632356f771ecf6ace12f475a68e32d9847dd71b726920ff8"
+    },
+    {
+      "file": "bog-bat-06.png",
+      "bytes": 56773,
+      "sha256": "151005b857acb29a3574d762b23f01ce9465060d1b8af5b559c9d5141dc5cfc2"
+    },
+    {
+      "file": "ember-bat-00.png",
+      "bytes": 56749,
+      "sha256": "e531d9541a80ba220fef8dc756e67ad45f4bf2418d2e5306a3aa563736d299d9"
+    },
+    {
+      "file": "ember-bat-01.png",
+      "bytes": 56949,
+      "sha256": "373f46c5ffcb7a0fb72bfcf9d541312090e0ebc1597a140f0d5c33198d527505"
+    },
+    {
+      "file": "ember-bat-02.png",
+      "bytes": 56810,
+      "sha256": "531ff5f25bd55feaf534feee54450fb64acf663b41a01b11412419092b885f14"
+    },
+    {
+      "file": "ember-bat-03.png",
+      "bytes": 56824,
+      "sha256": "265d3856012931a598ec5a4bcabc93a1d31d5acb356caf89785d4895d57a062e"
+    },
+    {
+      "file": "ember-bat-04.png",
+      "bytes": 56757,
+      "sha256": "7b64cdf0a4a3b1d81f2e2c2367ceef3257881b44b3d627b9499a3490e90e0413"
+    },
+    {
+      "file": "ember-bat-05.png",
+      "bytes": 56828,
+      "sha256": "e3023d1356cea899935e7787c7c22dda439344d9f1e9c7034dc86940ea56fd71"
+    },
+    {
+      "file": "ember-bat-06.png",
+      "bytes": 56735,
+      "sha256": "20e6f0e0c7593abd21933b6e84ff3a5df8f5bd18a0c6de33f883dbc03db48ad8"
+    },
+    {
+      "file": "frost-bat-00.png",
+      "bytes": 56792,
+      "sha256": "98d80be9d3f496e26d9b368506be98420bd3de2c664bfe5ece28a2823eb7d6ce"
+    },
+    {
+      "file": "frost-bat-01.png",
+      "bytes": 57002,
+      "sha256": "706fd0da0dd396dac31cdbc843748877145dfd65aceb64b7b5440de5ff2ffbc9"
+    },
+    {
+      "file": "frost-bat-02.png",
+      "bytes": 56865,
+      "sha256": "30c0df82d1f8a93039e8b51862f2247f85e1e3d507ba763028a1543c38f3122b"
+    },
+    {
+      "file": "frost-bat-03.png",
+      "bytes": 56888,
+      "sha256": "b949f9e791d16f30f9fc2d84fbf4b56067133537628fe07c8db8f2fea18735c4"
+    },
+    {
+      "file": "frost-bat-04.png",
+      "bytes": 56804,
+      "sha256": "c3222be5b910be362e7ac894c2691a3fb9abf6152c293f15b7fe6c8541ef1e41"
+    },
+    {
+      "file": "frost-bat-05.png",
+      "bytes": 56878,
+      "sha256": "7df24f38dbb08d9b8d6d8fa927e2fae8198c952f109393a7374d48aefbcade03"
+    },
+    {
+      "file": "frost-bat-06.png",
+      "bytes": 56806,
+      "sha256": "212504dc8e7447cb9399b3dc30df99b7a00af21e21516fb58ffa62ea634994dd"
+    }
+  ],
+  "runner": {
+    "file": "assets/imagegen/future-sewer-creatures/verify-native.mjs",
+    "sha256": "065d69b3381fa817a69adbbb03dca53dd2cd207d16245f8f9d630c465bc97260"
+  },
+  "limitations": [
+    "Bounded native field preview only; no full route, encounter choreography or combat claim.",
+    "Native animation/timing lists are byte-identical, but static scrubbing does not establish live encounter transitions.",
+    "Both banks exceed their original decoded allowance and require explicit selected-family streaming; no default guard bypass is proposed.",
+    "Independent-core validation remains an integration check."
+  ],
+  "activation": false
+}

@@ -1,0 +1,1130 @@
+{
+  "status": "Inactive source direction proposed after native audit; no image generation yet",
+  "activation": false,
+  "generationStarted": false,
+  "baseline": {
+    "path": ".local/qa/next-family-417914abe589/baseline.sfc",
+    "sha256": "417914abe589d25e377b774009f983867c14617cbf7a7f176c52691c8c9f2e35"
+  },
+  "original": {
+    "path": ".local/chrono-trigger-usa.sfc",
+    "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+  },
+  "key": "fortress-jugglers",
+  "gfx": 91,
+  "assembly": 48,
+  "frames": 9,
+  "cells": 4,
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 57,
+      "header": [
+        91,
+        48,
+        40,
+        82,
+        224,
+        0,
+        224,
+        2,
+        2,
+        65
+      ],
+      "name": "Juggler"
+    },
+    {
+      "kind": "enemy",
+      "id": 240,
+      "header": [
+        91,
+        48,
+        40,
+        82,
+        192,
+        0,
+        208,
+        2,
+        2,
+        0
+      ],
+      "name": "Flea?"
+    }
+  ],
+  "originalAndCurrentOwnership": [
+    {
+      "field": 0,
+      "id": 91,
+      "aliases": [
+        91
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 57,
+          "header": [
+            91,
+            48,
+            40,
+            82,
+            224,
+            0,
+            224,
+            2,
+            2,
+            65
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 240,
+          "header": [
+            91,
+            48,
+            40,
+            82,
+            192,
+            0,
+            208,
+            2,
+            2,
+            0
+          ]
+        }
+      ],
+      "equalsCurrent": true
+    },
+    {
+      "field": 1,
+      "id": 48,
+      "aliases": [
+        48
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 57,
+          "header": [
+            91,
+            48,
+            40,
+            82,
+            224,
+            0,
+            224,
+            2,
+            2,
+            65
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 240,
+          "header": [
+            91,
+            48,
+            40,
+            82,
+            192,
+            0,
+            208,
+            2,
+            2,
+            0
+          ]
+        }
+      ],
+      "equalsCurrent": true
+    },
+    {
+      "field": 2,
+      "id": 40,
+      "aliases": [
+        40
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 57,
+          "header": [
+            91,
+            48,
+            40,
+            82,
+            224,
+            0,
+            224,
+            2,
+            2,
+            65
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 240,
+          "header": [
+            91,
+            48,
+            40,
+            82,
+            192,
+            0,
+            208,
+            2,
+            2,
+            0
+          ]
+        }
+      ],
+      "equalsCurrent": true
+    },
+    {
+      "field": 3,
+      "id": 82,
+      "aliases": [
+        82
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 57,
+          "header": [
+            91,
+            48,
+            40,
+            82,
+            224,
+            0,
+            224,
+            2,
+            2,
+            65
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 240,
+          "header": [
+            91,
+            48,
+            40,
+            82,
+            192,
+            0,
+            208,
+            2,
+            2,
+            0
+          ]
+        }
+      ],
+      "equalsCurrent": true
+    }
+  ],
+  "fullOwnerFlags": {
+    "57": 224,
+    "240": 192
+  },
+  "palette": {
+    "id": 40,
+    "bytes": 24,
+    "words": [
+      2213,
+      32767,
+      28543,
+      24351,
+      10044,
+      12667,
+      17998,
+      2616,
+      5267,
+      333,
+      10595,
+      5351
+    ],
+    "sha256": "2f5520c149f25395ab410f6662eb97f212a1555ed42e8bd6c1589801b145a2ec",
+    "writePolicy": "Preserve all words exactly; no new palette writes"
+  },
+  "sourceDirection": {
+    "assignment": "Existing generic fortress staff / Juggler, plus the original Moth Witch decoy role; no new named major cast",
+    "model": "Small hovering storybook court fool with a cheeky gold face, cream two-point cap, teal puffed shoulders and sleeves, dusty-rose scalloped coat tails and compact gold-brown shoes. Keep a broad compact silhouette and expressive eyes/mouth at Chrono Trigger native scale.",
+    "poses": "Three distinct front hover levels, the proven middle return, dotted recoil, tucked hands, brief radial magic flash, open-mouth raised action and low inverted folded body. No invented rear/profile set or additional juggling props.",
+    "paletteMapping": "Use only the exact original gold, ivory, rose, teal and dark outline ramp.",
+    "sourceMap": [
+      0,
+      1,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "uniqueGeneratedPoses": 8,
+    "exactReuse": "Only native1/native3 are proven byte-exact same source. Keep all nine original slots and their durations.",
+    "effects": "Retain the three detached reaction dots, twelve detached flash flecks and 348 selected original bright radial pixels as separately recorded raster fragments. Keep the flash as its own five-tick stage and the generated body separate from transient effects. The mask retains source pixels, not a drawn vector star.",
+    "effectMask": {
+      "file": "original-effects.draft.json",
+      "pixelRecordSha256": "7939ec61a966411559940ac73aa5bea49b16e7a5bec3417fd479a9990873252f",
+      "review": "review/original-effects-proposal-4x.png"
+    },
+    "scope": "Actual imagegen source only; no procedural anatomy or active imports."
+  },
+  "geometry": [
+    {
+      "frame": 0,
+      "role": "Front hovering beat: low head / lower coat tails",
+      "bounds": [
+        -15,
+        -54,
+        31,
+        31
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -55
+        ],
+        [
+          -15,
+          -55
+        ],
+        [
+          0,
+          -39
+        ],
+        [
+          -15,
+          -39
+        ]
+      ]
+    },
+    {
+      "frame": 1,
+      "role": "Front hovering beat: middle height / tails inward",
+      "bounds": [
+        -15,
+        -56,
+        31,
+        32
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -56
+        ],
+        [
+          -15,
+          -56
+        ],
+        [
+          0,
+          -40
+        ],
+        [
+          -15,
+          -40
+        ]
+      ]
+    },
+    {
+      "frame": 2,
+      "role": "Front hovering beat: raised head / high body",
+      "bounds": [
+        -15,
+        -58,
+        31,
+        32
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -58
+        ],
+        [
+          -15,
+          -58
+        ],
+        [
+          0,
+          -42
+        ],
+        [
+          -15,
+          -42
+        ]
+      ]
+    },
+    {
+      "frame": 3,
+      "role": "Front hovering beat: middle return",
+      "bounds": [
+        -15,
+        -56,
+        31,
+        32
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -56
+        ],
+        [
+          -15,
+          -56
+        ],
+        [
+          0,
+          -40
+        ],
+        [
+          -15,
+          -40
+        ]
+      ]
+    },
+    {
+      "frame": 4,
+      "role": "Front recoil with detached overhead dots",
+      "bounds": [
+        -15,
+        -54,
+        31,
+        32
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -54
+        ],
+        [
+          -15,
+          -54
+        ],
+        [
+          0,
+          -38
+        ],
+        [
+          -15,
+          -38
+        ]
+      ]
+    },
+    {
+      "frame": 5,
+      "role": "Front tucked pose / folded forearms",
+      "bounds": [
+        -14,
+        -53,
+        29,
+        29
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -56
+        ],
+        [
+          -15,
+          -56
+        ],
+        [
+          0,
+          -40
+        ],
+        [
+          -15,
+          -40
+        ]
+      ]
+    },
+    {
+      "frame": 6,
+      "role": "Front radial flash / open arms",
+      "bounds": [
+        -15,
+        -56,
+        31,
+        32
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -56
+        ],
+        [
+          -15,
+          -56
+        ],
+        [
+          0,
+          -40
+        ],
+        [
+          -15,
+          -40
+        ]
+      ]
+    },
+    {
+      "frame": 7,
+      "role": "Front open-mouth rise / arms spread",
+      "bounds": [
+        -15,
+        -55,
+        31,
+        29
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -56
+        ],
+        [
+          -15,
+          -56
+        ],
+        [
+          0,
+          -40
+        ],
+        [
+          -15,
+          -40
+        ]
+      ]
+    },
+    {
+      "frame": 8,
+      "role": "Low inverted folded body",
+      "bounds": [
+        -15,
+        -22,
+        31,
+        24
+      ],
+      "cellOrigins": [
+        [
+          0,
+          -30
+        ],
+        [
+          -15,
+          -30
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          -15,
+          -14
+        ]
+      ]
+    }
+  ],
+  "animation": {
+    "id": 82,
+    "frameSha256": "50d1953e3d8088f2d19f1c28090e5e2c976e287771335a99f1cad799e695be03",
+    "durationSha256": "55daae56557ad84b2866a215f50c090fc29d20f34405c5aea082d7c3b9299dab",
+    "frameBytes": 160,
+    "durationBytes": 40,
+    "lists": [
+      {
+        "facing": 0,
+        "action": 0,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 10
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 3,
+            "duration": 10
+          },
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 10
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 3,
+            "duration": 10
+          }
+        ],
+        "cycleTicks": 80
+      },
+      {
+        "facing": 0,
+        "action": 1,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 10
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 3,
+            "duration": 10
+          }
+        ],
+        "cycleTicks": 40
+      },
+      {
+        "facing": 0,
+        "action": 2,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 0,
+        "action": 3,
+        "steps": [
+          {
+            "frame": 0,
+            "duration": 10
+          },
+          {
+            "frame": 1,
+            "duration": 10
+          },
+          {
+            "frame": 2,
+            "duration": 10
+          },
+          {
+            "frame": 3,
+            "duration": 10
+          }
+        ],
+        "cycleTicks": 40
+      },
+      {
+        "facing": 0,
+        "action": 4,
+        "steps": [],
+        "cycleTicks": 0
+      },
+      {
+        "facing": 0,
+        "action": 5,
+        "steps": [
+          {
+            "frame": 4,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 31
+      },
+      {
+        "facing": 0,
+        "action": 6,
+        "steps": [
+          {
+            "frame": 5,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 31
+      },
+      {
+        "facing": 0,
+        "action": 7,
+        "steps": [
+          {
+            "frame": 5,
+            "duration": 47
+          },
+          {
+            "frame": 7,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 78
+      },
+      {
+        "facing": 0,
+        "action": 8,
+        "steps": [
+          {
+            "frame": 5,
+            "duration": 47
+          },
+          {
+            "frame": 6,
+            "duration": 5
+          },
+          {
+            "frame": 7,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 83
+      },
+      {
+        "facing": 0,
+        "action": 9,
+        "steps": [
+          {
+            "frame": 8,
+            "duration": 31
+          }
+        ],
+        "cycleTicks": 31
+      }
+    ],
+    "facingRowsIdentical": true,
+    "nonemptyCasesPerOwner": 32,
+    "allFramesReferenced": true,
+    "preserveProgramsExactly": true
+  },
+  "costs": {
+    "originalAnd417914": {
+      "decodedBytes": 2432,
+      "compressedBytes": 2324,
+      "assemblyBytes": 360,
+      "totalCompressedAssemblyBytes": 2684
+    },
+    "originalReclamation": [
+      {
+        "kind": "graphics",
+        "id": 91,
+        "offset": 1539840,
+        "bytes": 2324
+      },
+      {
+        "kind": "assembly",
+        "id": 48,
+        "offset": 1909744,
+        "bytes": 360
+      }
+    ],
+    "sourcePlan": "Target legitimate exact tile reuse; no scale reduction merely to fit the old ceiling. If generated decoded bytes exceed2432, request explicit gfx91 streaming through the established path while preserving the default guard.",
+    "nativeHeapBytes": 32768
+  },
+  "scenes": [
+    {
+      "location": 173,
+      "name": "Castle Magus Throne of Magic",
+      "loads": [
+        {
+          "owner": 240,
+          "bodyOffset": 911,
+          "objectHint": {
+            "object": 11,
+            "entry": 911
+          }
+        }
+      ],
+      "legacyAllBranchUnionBytes": 3168,
+      "with91StreamUnionBytes": 736,
+      "banks": [
+        {
+          "gfx": 49,
+          "decodedBytes": 160,
+          "alreadyStreamed": false
+        },
+        {
+          "gfx": 91,
+          "decodedBytes": 2432,
+          "alreadyStreamed": false
+        },
+        {
+          "gfx": 159,
+          "decodedBytes": 576,
+          "alreadyStreamed": false
+        },
+        {
+          "gfx": 182,
+          "decodedBytes": 6400,
+          "alreadyStreamed": true
+        }
+      ],
+      "unresolvedOriginalLoadOffsets": 0
+    },
+    {
+      "location": 175,
+      "name": "Castle Magus Hall of Apprehension",
+      "loads": [
+        {
+          "owner": 57,
+          "bodyOffset": 1962,
+          "objectHint": {
+            "object": 16,
+            "entry": 1962
+          }
+        },
+        {
+          "owner": 57,
+          "bodyOffset": 2015,
+          "objectHint": {
+            "object": 17,
+            "entry": 2015
+          }
+        },
+        {
+          "owner": 57,
+          "bodyOffset": 2068,
+          "objectHint": {
+            "object": 18,
+            "entry": 2068
+          }
+        },
+        {
+          "owner": 57,
+          "bodyOffset": 2103,
+          "objectHint": {
+            "object": 19,
+            "entry": 2103
+          }
+        }
+      ],
+      "legacyAllBranchUnionBytes": 22048,
+      "with91StreamUnionBytes": 19616,
+      "banks": [
+        {
+          "gfx": 91,
+          "decodedBytes": 2432,
+          "alreadyStreamed": false
+        },
+        {
+          "gfx": 94,
+          "decodedBytes": 7328,
+          "alreadyStreamed": false
+        },
+        {
+          "gfx": 155,
+          "decodedBytes": 13760,
+          "alreadyStreamed": true
+        },
+        {
+          "gfx": 203,
+          "decodedBytes": 12288,
+          "alreadyStreamed": false
+        }
+      ],
+      "unresolvedOriginalLoadOffsets": 0
+    },
+    {
+      "location": 176,
+      "name": "Castle Magus Lower Battlements",
+      "loads": [
+        {
+          "owner": 57,
+          "bodyOffset": 1402,
+          "objectHint": {
+            "object": 21,
+            "entry": 1402
+          }
+        },
+        {
+          "owner": 57,
+          "bodyOffset": 1418,
+          "objectHint": {
+            "object": 22,
+            "entry": 1418
+          }
+        }
+      ],
+      "legacyAllBranchUnionBytes": 4192,
+      "with91StreamUnionBytes": 1760,
+      "banks": [
+        {
+          "gfx": 86,
+          "decodedBytes": 9024,
+          "alreadyStreamed": true
+        },
+        {
+          "gfx": 91,
+          "decodedBytes": 2432,
+          "alreadyStreamed": false
+        },
+        {
+          "gfx": 103,
+          "decodedBytes": 1760,
+          "alreadyStreamed": false
+        }
+      ],
+      "unresolvedOriginalLoadOffsets": 0
+    },
+    {
+      "location": 446,
+      "name": "Castle Magus Upper Battlements",
+      "loads": [
+        {
+          "owner": 57,
+          "bodyOffset": 1547,
+          "objectHint": {
+            "object": 24,
+            "entry": 1547
+          }
+        },
+        {
+          "owner": 57,
+          "bodyOffset": 1563,
+          "objectHint": {
+            "object": 25,
+            "entry": 1563
+          }
+        }
+      ],
+      "legacyAllBranchUnionBytes": 9760,
+      "with91StreamUnionBytes": 7328,
+      "banks": [
+        {
+          "gfx": 86,
+          "decodedBytes": 9024,
+          "alreadyStreamed": true
+        },
+        {
+          "gfx": 91,
+          "decodedBytes": 2432,
+          "alreadyStreamed": false
+        },
+        {
+          "gfx": 94,
+          "decodedBytes": 7328,
+          "alreadyStreamed": false
+        }
+      ],
+      "unresolvedOriginalLoadOffsets": 0
+    },
+    {
+      "location": 470,
+      "name": "Castle Magus Hall of Ambush",
+      "loads": [
+        {
+          "owner": 57,
+          "bodyOffset": 1168,
+          "objectHint": {
+            "object": 16,
+            "entry": 1168
+          }
+        }
+      ],
+      "legacyAllBranchUnionBytes": 22208,
+      "with91StreamUnionBytes": 19776,
+      "banks": [
+        {
+          "gfx": 49,
+          "decodedBytes": 160,
+          "alreadyStreamed": false
+        },
+        {
+          "gfx": 91,
+          "decodedBytes": 2432,
+          "alreadyStreamed": false
+        },
+        {
+          "gfx": 94,
+          "decodedBytes": 7328,
+          "alreadyStreamed": false
+        },
+        {
+          "gfx": 203,
+          "decodedBytes": 12288,
+          "alreadyStreamed": false
+        }
+      ],
+      "unresolvedOriginalLoadOffsets": 0
+    }
+  ],
+  "decoyFlow": {
+    "location": 173,
+    "eventId": 254,
+    "decoyLoad": {
+      "bodyOffset": 911,
+      "enemy": 240,
+      "slotFlags": 3
+    },
+    "realMothWitchLoads": [
+      {
+        "bodyOffset": 950,
+        "enemy": 159,
+        "slotFlags": 7
+      },
+      {
+        "bodyOffset": 958,
+        "enemy": 159,
+        "slotFlags": 135
+      }
+    ],
+    "originalBattleCommands": [
+      {
+        "bodyOffset": 848,
+        "opcode": 216,
+        "args": [
+          176,
+          192
+        ],
+        "unchangedInstruction": true
+      },
+      {
+        "bodyOffset": 1081,
+        "opcode": 216,
+        "args": [
+          146,
+          192
+        ],
+        "unchangedInstruction": true
+      },
+      {
+        "bodyOffset": 1298,
+        "opcode": 216,
+        "args": [
+          146,
+          192
+        ],
+        "unchangedInstruction": true
+      }
+    ],
+    "relatedOwners": [
+      {
+        "current": {
+          "kind": "npc",
+          "id": 126,
+          "header": [
+            159,
+            152,
+            147,
+            122,
+            0
+          ]
+        },
+        "original": {
+          "kind": "npc",
+          "id": 126,
+          "header": [
+            159,
+            152,
+            147,
+            122,
+            0
+          ]
+        },
+        "scope": "Native scene dependency, not a gfx91 source owner; preserve current accepted resource/header."
+      },
+      {
+        "current": {
+          "kind": "npc",
+          "id": 112,
+          "header": [
+            49,
+            92,
+            145,
+            139,
+            0
+          ]
+        },
+        "original": {
+          "kind": "npc",
+          "id": 112,
+          "header": [
+            49,
+            92,
+            145,
+            139,
+            0
+          ]
+        },
+        "scope": "Native scene dependency, not a gfx91 source owner; preserve current accepted resource/header."
+      },
+      {
+        "current": {
+          "kind": "enemy",
+          "id": 159,
+          "header": [
+            182,
+            179,
+            210,
+            137,
+            1,
+            0,
+            224,
+            16,
+            16,
+            17
+          ]
+        },
+        "original": {
+          "kind": "enemy",
+          "id": 159,
+          "header": [
+            182,
+            179,
+            210,
+            137,
+            1,
+            0,
+            224,
+            16,
+            16,
+            17
+          ]
+        },
+        "scope": "Native scene dependency, not a gfx91 source owner; preserve current accepted resource/header."
+      }
+    ],
+    "comparedOriginalInstructions": 390,
+    "changedInstructionRecords": [
+      {
+        "bodyOffset": 448,
+        "opcode": 184,
+        "args": [
+          16206560
+        ],
+        "current": [
+          184,
+          60,
+          27,
+          219
+        ],
+        "original": [
+          184,
+          224,
+          74,
+          247
+        ]
+      }
+    ],
+    "existingChange": "The existing published text pointer at bodyPC448 is relocated. All other389 parsed instruction spans remain original; preserve the current text relocation as well as native scene flow.",
+    "sourcePacketSha256": "33416b8f1f9b0377ddf566a5399c636043542445df12bd8e7308a0d3225e4a53",
+    "currentPacketSha256": "37a7819302821b2166833f0133cc99ba35585aa4e75c2e4b0a99af22c6b34a9f",
+    "scope": "Read-only original/current instruction comparison. Retain decoy battle, transformation dependencies and real Moth Witch battle. No native execution claimed yet."
+  },
+  "proofPlan": [
+    "Exact all9×2 native owner uploads, including full upper size flags and native XY/cell order.",
+    "All64 original AA82 owner/action/facing cases with exact timers and visible transfer accounting.",
+    "Original fortress Juggler combat with native defense switching preserved; then original scene173 decoy-to-Moth-Witch flow with original AI/events, controller traversal, damage and victory.",
+    "Freeze minimal actual-source/compiler assets separately from expanded private proof."
+  ],
+  "limits": [
+    "Parsed original load-site verification is not a full decoded-current-event scan or native scene proof.",
+    "All-branch resource unions are conservative inventories, not guaranteed simultaneous resident sets.",
+    "Root owns active integration, names and final independent-core validation."
+  ]
+}

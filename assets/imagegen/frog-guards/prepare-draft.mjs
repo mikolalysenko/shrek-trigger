@@ -1,0 +1,41 @@
+import assert from 'node:assert/strict';
+import {readFile,writeFile} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+import {futureWildlife} from '../../../content/future-wildlife.js';
+import {compileSpriteFrames} from '../../../engine/native-sprites.js';
+import {compress,decompress} from '../../../engine/compression.js';
+import {put16} from '../../../engine/rom.js';
+import {snesColor} from '../../../engine/sprites.js';
+import {nativeSpriteCells} from '../../../scripts/native-sprite-view.mjs';
+import {packMachineCells as packCells} from './pack-cells.mjs';
+const dir='assets/imagegen/frog-guards',hash=b=>createHash('sha256').update(b).digest('hex'),json=async p=>JSON.parse(await readFile(dir+'/'+p));
+export const nativeMap=[0,1,{frame:0,flip:true},2,3,{frame:2,flip:true},4,5,{frame:6,flip:true},{frame:4,flip:true},{frame:5,flip:true},6,9,7,8,10,11,12,13,14,15,19,17,18,{frame:17,flip:true},{frame:18,flip:true}];
+const bounds=p=>{let x0=64,y0=64,x1=-1,y1=-1;for(let i=0;i<p.length;i++)if(p[i]){x0=Math.min(x0,i%64);x1=Math.max(x1,i%64);y0=Math.min(y0,i>>6);y1=Math.max(y1,i>>6);}return[x0,y0,x1-x0+1,y1-y0+1];};
+const pointBounds=p=>{const x=Math.min(...p.map(v=>v[0])),y=Math.min(...p.map(v=>v[1]));return[x,y,Math.max(...p.map(v=>v[0]))-x+1,Math.max(...p.map(v=>v[1]))-y+1];};
+export async function compileDraft(){
+ const resources=await json('native-resource-audit.json'),roles=await json('native-role-audit.json'),shadow=await json('source-native-shadows.json'),actors=futureWildlife.filter(a=>a.gfx===98),palette=actors.find(a=>a.palette===54).colors;
+ const spec={key:'frog-guards',directory:dir,sourceType:'image-generation',width:64,height:64,palette,sheets:[['source-base-v1.png',3,3],['source-actions-v1.png',2,5],['source-down-tongue-v2.png',1,1]].map(([file,columns,rows])=>({file:dir+'/'+file,columns,rows,nativeHeight:22,scaleCells:[0],componentAlpha:128,componentSelection:'union',sample:{method:'nearest',bottom:61,alphaThreshold:128}})),sequences:{source:{1:Array.from({length:20},(_,i)=>i)}},notes:{status:'Inactive source extraction only. Native-raster.json and native-frame-map.draft.json contain the complete composed native frames.',unusedSourceFrames:[16],pixels:'Actual generated anatomy; nearest source sampling, exact palette indexing, native-proven mirrors and original raster shadows only. No procedural anatomy.',directionCorrection:'Base source6 faces right and is mirrored for native8; native11 uses it unmirrored.',shadow:'Original index1 bottom masks under generated body; overlap is explicitly counted, body has priority.',activation:false}};
+ const run=async()=>{await writeFile(dir+'/import-spec.draft.json',JSON.stringify(spec,null,2)+'\n');execFileSync(process.execPath,['scripts/import-raster-art.mjs','--preview-spec',dir+'/import-spec.draft.json'],{stdio:'pipe'});return json('preview-raster.json');};
+ await run();const first=await json('preview-import.json'),sourceRoles=[[0,1,3,4,6,7,8,13,14],[12,15,16,17,18,19,20,21,22,23],[21]];
+ for(let s=0;s<3;s++)spec.sheets[s].overrides=Object.fromEntries(first.sources[s].frames.map((f,i)=>[i,{scale:roles.frames[sourceRoles[s][i]].bodyBounds[3]/(f.bounds[3]*first.sources[s].scale)}]));
+ const raster=await run(),sampled=raster.frames.map(p=>Uint8Array.from(p,c=>parseInt(c,16))),composed=[];
+ for(let frame=0;frame<26;frame++){
+  const entry=nativeMap[frame],source=typeof entry==='number'?{frame:entry}:entry,raw=sampled[source.frame],body=source.flip?Uint8Array.from(raw,(_,i)=>raw[(i>>6)*64+63-i%64]):raw,b=bounds(body),original=roles.frames[frame].bodyBounds,bodyX=Math.round(original[0]+original[2]/2-b[2]/2),bodyY=original[1]+original[3]-b[3],sh=shadow.frames[frame],pixels=new Map();
+  for(let y=0;y<sh.bounds[3];y++)for(let x=0;x<sh.bounds[2];x++)if(sh.pixels[y*sh.bounds[2]+x])pixels.set([x+sh.bounds[0],y+sh.bounds[1]].join(','),[x+sh.bounds[0],y+sh.bounds[1],1]);
+  let shadowOccluded=0;for(let y=0;y<b[3];y++)for(let x=0;x<b[2];x++){const k=body[(y+b[1])*64+x+b[0]];if(k){const p=[bodyX+x,bodyY+y],key=p.join(',');if(pixels.has(key))shadowOccluded++;pixels.set(key,[...p,k]);}}
+  const points=[...pixels.values()],nativeBounds=pointBounds(points),translation=[32,2-nativeBounds[1]],p=new Uint8Array(4096);for(const[x,y,k]of points){const xx=x+translation[0],yy=y+translation[1];assert.ok(xx>=0&&xx<64&&yy>=0&&yy<64,'Source composition fits work canvas');p[yy*64+xx]=k;}
+  composed.push({pixels:p,frame,source,sourceBounds:b,bodyBounds:[bodyX,bodyY,b[2],b[3]],originalBodyBounds:original,shadowBounds:sh.bounds,originalShadowPixels:sh.opaquePixels,shadowOccluded,visibleOriginalShadowPixels:sh.opaquePixels-shadowOccluded,nativeBounds,translation,frameOffset:[0,64-translation[1]],bodyBottomPreserved:bodyY+b[3]-1===roles.frames[frame].bodyBottom});
+ }
+ const packing=packCells(composed.map(c=>c.pixels)),compiled=compileSpriteFrames(composed.map(c=>c.pixels),{width:64,height:64,size:0,frameCellOrigins:packing.map(p=>p.origins)});
+ for(let f=0;f<26;f++)for(let c=0;c<4;c++)for(let axis=0;axis<2;axis++)compiled.assembly[f*40+32+c*2+axis]+=composed[f].frameOffset[axis];
+ for(let f=0;f<26;f++)for(const c of nativeSpriteCells({...compiled,cells:4,frames:26},f)){const[ox,oy]=packing[f].origins[c.cell];assert.equal(c.x,ox-32+composed[f].frameOffset[0]);assert.equal(c.y,oy-64+composed[f].frameOffset[1]);for(let y=0;y<16;y++)for(let x=0;x<16;x++)assert.equal(c.pixels[y*16+x],composed[f].pixels[(oy+y)*64+ox+x]);}
+ const packed=compress(compiled.graphics);assert.deepEqual(decompress(packed,0).bytes,compiled.graphics);assert.equal(compiled.assembly.length,1040);
+ for(const[file,b]of[['graphics.4bpp',compiled.graphics],['graphics.ct-lz',packed],['assembly.bin',compiled.assembly]])await writeFile(dir+'/'+file,b);
+ for(const id of[54,55,56]){const a=actors.find(a=>a.palette===id),b=new Uint8Array(24);a.colors.forEach((c,i)=>put16(b,i*2,snesColor(c)));assert.equal(hash(b),resources.palettes.find(p=>p.id===id).current.sha256);await writeFile(dir+'/palette-'+id+'.bin',b);}
+ const frames=composed.map(({pixels,...c},f)=>({...roles.frames[f],...c,cellOrigins:packing[f].origins,occupiedCells:packing[f].occupied,stripAxis:packing[f].stripAxis,pixelSha256:hash(pixels)}));
+ await writeFile(dir+'/native-frame-map.draft.json',JSON.stringify({status:'Inactive generated native composition',gfx:98,asm:57,size:0,cells:4,width:64,height:64,nativeFrames:26,anchor:[0,0],frameOffsets:composed.map(c=>c.frameOffset),nativeMap,frames,integration:'Use native-raster.json with authored cells/offsets; source-only import-spec is not a complete native map. Keep all owner headers, shared AA94 including Guy224, current palettes and source events.'},null,2)+'\n');
+ await writeFile(dir+'/native-raster.json',JSON.stringify({...raster,frames:composed.map(c=>Array.from(c.pixels,k=>k.toString(16)).join('')),sequences:{native:{1:Array.from({length:26},(_,i)=>i)}},nativeComposition:{compiler:dir+'/prepare-draft.mjs',map:dir+'/native-frame-map.draft.json',shadows:dir+'/source-native-shadows.json',shadowOrder:'Original bottom masks underneath generated body; exact occlusion count per frame.'}})+'\n');
+ const audit={status:'Inactive exact compile passed',gfx:98,asm:57,graphicsBytes:compiled.graphics.length,compressedBytes:packed.length,assemblyBytes:1040,tiles:compiled.tiles,graphicsSha256:hash(compiled.graphics),compressedSha256:hash(packed),assemblySha256:hash(compiled.assembly),original:{...resources.graphics.original,decodedDelta:compiled.graphics.length-resources.graphics.original.decodedBytes,compressedPlusAssemblyDelta:packed.length-resources.graphics.original.compressedBytes},current:{...resources.graphics.current,decodedDelta:compiled.graphics.length-resources.graphics.current.decodedBytes,compressedPlusAssemblyDelta:packed.length-resources.graphics.current.compressedBytes},underOriginalDecodedBudget:compiled.graphics.length<=resources.graphics.original.decodedBytes,sourcePixelsNotDrawnOrClipped:true,allOriginalBodyBottomsPreserved:composed.every(c=>c.bodyBottomPreserved),palettesWritten:false,activation:false};await writeFile(dir+'/draft-audit.json',JSON.stringify(audit,null,2)+'\n');return audit;
+}
+if(process.argv[1]&&new URL('file://'+process.argv[1]).href===import.meta.url)console.log(JSON.stringify(await compileDraft()));

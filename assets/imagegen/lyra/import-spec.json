@@ -1,0 +1,98 @@
+{
+  "key": "lyra",
+  "palette": [
+    "30283b",
+    "937266",
+    "d9aa91",
+    "f6d6bb",
+    "f9eaca",
+    "65538d",
+    "9b86bf",
+    "4b4058",
+    "fff1dc",
+    "a3adbf",
+    "d4deeb",
+    "e3be70"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/lyra/source-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "scaleX": 1.2
+      },
+      "overrides": {}
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ]
+    },
+    "walk": {
+      "0": [
+        5,
+        1,
+        6
+      ],
+      "1": [
+        3,
+        0,
+        4
+      ],
+      "2": [
+        7,
+        2,
+        8
+      ]
+    },
+    "pray": {
+      "1": [
+        9
+      ],
+      "3": [
+        11
+      ]
+    },
+    "surprise": {
+      "1": [
+        10
+      ]
+    },
+    "bow": {
+      "3": [
+        12,
+        13
+      ]
+    },
+    "raise": {
+      "3": [
+        14,
+        15
+      ]
+    }
+  },
+  "notes": {
+    "status": "Draft preview only; not registered in stable generated runtime.",
+    "generation": "Built-in image_gen__imagegen actual raster source; no procedural pixel anatomy.",
+    "mirroring": "Side idle and walk use generated left-facing pixels mirrored for native right-facing slots. Explicit right-facing special gestures use their generated direction.",
+    "poseTiming": "Original native animation timing and slot identities remain. The two-slot side walks use both generated contact poses. Three-slot walks use contact, standing passing and opposite contact. Godmother uses her native two-slot phase IDs; no missing animation frame falls back to unrelated art.",
+    "selectedSampling": "Compared nearest/area at28 and29 pixels, with X1 and X1.2. Selected28px standing height and uniform X1.2 to keep small faces readable; only documented wide-gesture caps differ. Area sampling gives cleaner eyes/wing edges; original palette references retained."
+  }
+}

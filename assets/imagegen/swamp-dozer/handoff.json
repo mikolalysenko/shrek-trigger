@@ -1,0 +1,103 @@
+{
+  "key": "swamp-dozer",
+  "status": "Frozen inactive source draft pending root visual approval and native integration",
+  "nativeFrames": 24,
+  "uniqueNativeImages": 24,
+  "selectedSourceDrawings": 19,
+  "sourceNativeSlots": 19,
+  "wholeSourceMirrorSlots": 5,
+  "proceduralSlots": 0,
+  "semanticGaps": [],
+  "tiles": 261,
+  "graphicsBytes": 8352,
+  "compressedGraphicsBytes": 5885,
+  "assemblyBytes": 960,
+  "originalDecodedBytes": 6720,
+  "decodedGrowthFromOriginal": 1632,
+  "previous": {
+    "graphicsBytes": 3840,
+    "compressedGraphicsBytes": 1866,
+    "assemblyBytes": 960
+  },
+  "compressedDelta": 4019,
+  "assemblyDelta": 0,
+  "palette": [
+    "252c27",
+    "394c36",
+    "59754b",
+    "88a368",
+    "c3cf91",
+    "253f37",
+    "456951",
+    "7da072",
+    "554436",
+    "8d6b43",
+    "c5a065",
+    "f6e9b9"
+  ],
+  "paletteUnchanged": true,
+  "validation": {
+    "all24NativeAssemblyReconstructions": true,
+    "compressionRoundTrip": true,
+    "allOriginalFrameOffsets": true,
+    "nativeFourCells": true,
+    "paletteBounds": true,
+    "nativeUpload": false,
+    "actualSceneProof": false
+  },
+  "visualReview": {
+    "native1x": true,
+    "enlarged3x": true,
+    "selected": "area29 with documented source-material reference palette",
+    "motion": "Original native lists with original offsets; no timing/ID changes",
+    "limitation": "Native uploads and real combat/headbutt/cutscene captures remain pending. Full supporting-batch ending415 decoded heap exceeds32KiB until integration solves its resource set."
+  },
+  "heapAudit": "assets/imagegen/swamp-dozer/heap-audit.json",
+  "sources": [
+    {
+      "file": "assets/imagegen/swamp-dozer/source-walk-v1.png",
+      "sha256": "79e71cb6dad5eae41a3201bdc7c44942c34d15007af66110e8e8aafc0a609e87",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/swamp-dozer/source-corrections-v2.png",
+      "sha256": "f7c900c04ec7468c23741884351c4071c98415ef149aad5432a8aa7ff077a81f",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/swamp-dozer/source-actions-v1.png",
+      "sha256": "3058576596618564b6b81fa3e53ee5fe6285b25b921d1d91a78bb772b0edbe79",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/swamp-dozer/source-tuck-toeoff-v3.png",
+      "sha256": "8d86912b037d717810a4488d601e3fb1109671fbd5ec27822b16d1a552f182ad",
+      "sourceType": "image-generation"
+    }
+  ],
+  "spec": "assets/imagegen/swamp-dozer/import-spec.draft.json",
+  "specSha256": "45358e9adf81e747601407c7adc48522fb9935b8c2c21153c62b9deacfa774c8",
+  "previewRaster": "assets/imagegen/swamp-dozer/preview-raster.json",
+  "previewSha256": "2f5ac68ad09e09ddbf02866b18d35be9b9aae5298cac876b060af097657c4ba0",
+  "nativeRoles": "assets/imagegen/swamp-dozer/source-roles.draft.json",
+  "nativeAnimation": "assets/imagegen/swamp-dozer/native-animation-audit.json",
+  "sourceProvenance": [
+    "assets/imagegen/swamp-dozer/provenance-walk-v1.json",
+    "assets/imagegen/swamp-dozer/provenance-corrections-v2.json",
+    "assets/imagegen/swamp-dozer/provenance-actions-v1.json",
+    "assets/imagegen/swamp-dozer/provenance-tuck-toeoff-v3.json"
+  ],
+  "requiredEngineChanges": [
+    "Use raster key swamp-dozer, pose native/facing1/phase=originalframe in swampCreatureSprite; preserve original family group offsets and all owner headers.",
+    "Keep original decoded-budget guard until root adds a proven per-family/per-scene contract; this bank is larger than original6720bytes.",
+    "Resolve ending415 full supporting batch heap before activating allpending actors; current Dozer-only nativeinit variant bounds pass."
+  ],
+  "nativeChecksRemaining": [
+    "24 native frame uploads for both enemy0 and130 owner headers",
+    "Actual combat headbutt/rotation with offsets",
+    "Ending415 allsixnative init variants against full final supporting batch",
+    "Other17source scene co-load budgets and representative field interactions"
+  ],
+  "sharedFilesChanged": false,
+  "canonicalRomWritten": false
+}

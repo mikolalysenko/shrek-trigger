@@ -1,0 +1,23 @@
+{
+  "sourceType": "image-generation",
+  "tool": "built-in image_gen__imagegen",
+  "source": "assets/imagegen/town-household-gfx12/source-left-contact-b-v3.png",
+  "sourceSha256": "7dd57a15f72a2133f5eab79c15ae0310ecde9e775bc2dd44f0b88bb11fe8ab07",
+  "prompt": "assets/imagegen/town-household-gfx12/prompt-left-contact-b-v3.txt",
+  "promptSha256": "9eca410204bd82e522cd4a24828cb485c12eef28e1596d356861073363eef809",
+  "reference": "assets/imagegen/town-household-gfx12/source-base-v1.png",
+  "referenceSha256": "9efa0ae333705278fac3b30b767826b328159bfe30eb63937a149656c7971612",
+  "outputPath": "/Users/mikolalysenko/.codex/generated_images/01a19351-746a-7d90-a81a-1ea5ba445693/exec-b76be528-d07b-445d-9a60-928f31576c79.png",
+  "review": "Actual generated left-facing near-hand-leading contact; accepted native contrast against the selected trailing-hand source. The long gown occludes upper-leg ownership.",
+  "activation": false,
+  "nativeReview": {
+    "status": "Root and lead accepted the full AREA-sampled native role and gait sheets.",
+    "evidence": [
+      "review/role-review.png",
+      "review/gait-contacts.png",
+      "native-verification/manifest.json",
+      "motion-verification/manifest.json"
+    ],
+    "limitations": "Long gown partly conceals upper-leg ownership; profile contact contrast is demonstrated through genuine opposing near-hand silhouettes. Whole-source mirrors are not additional authored source poses."
+  }
+}

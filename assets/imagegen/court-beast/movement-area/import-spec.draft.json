@@ -1,0 +1,80 @@
+{
+  "key": "court-beast",
+  "directory": "assets/imagegen/court-beast/movement-area",
+  "width": 64,
+  "height": 64,
+  "sourceType": "image-generation",
+  "palette": [
+    "252333",
+    "3d3656",
+    "5b4e7b",
+    "8a719c",
+    "c4b3c6",
+    "f3e4ba",
+    "5e213a",
+    "9d3c4f",
+    "bd8e45",
+    "d8e05d",
+    "193a38",
+    "fff8e8"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/court-beast/source-movement-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 34,
+      "scaleCells": [
+        3,
+        4,
+        5
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "area",
+        "bottom": 59
+      }
+    }
+  ],
+  "sequences": {
+    "walk": {
+      "0": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "1": [
+        3,
+        4,
+        5,
+        4
+      ],
+      "2": [
+        6,
+        7,
+        8,
+        7
+      ],
+      "3": [
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        {
+          "frame": 8,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        }
+      ]
+    }
+  }
+}

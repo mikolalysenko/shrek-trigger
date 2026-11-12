@@ -1,0 +1,247 @@
+{
+  "status": "Passed",
+  "name": "conveyor",
+  "scope": "Original location event/actor IDs/formation/AI/controller battle; only initial diagnostic E0/checkpoint setup. No enemy/pose/event writes after entry.",
+  "privateRomSha256": "25848a5b60b210d9b599dc0f0847085f724a125dfd3549a04dfa9142bdd34df7",
+  "nativeTicks": 3956,
+  "result": {
+    "formation": [
+      140,
+      140,
+      140,
+      140,
+      255,
+      255,
+      255,
+      255
+    ],
+    "taps": 25
+  },
+  "events": [
+    {
+      "frame": 9515,
+      "location": 232,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 415,
+      "opcode": 216
+    },
+    {
+      "frame": 12684,
+      "location": 232,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 415,
+      "opcode": 216
+    }
+  ],
+  "loads": [
+    {
+      "frame": 8933,
+      "location": 232,
+      "pc": 12605696,
+      "object": 8,
+      "scriptPC": 465,
+      "opcode": 131,
+      "enemy": 140
+    },
+    {
+      "frame": 8933,
+      "location": 232,
+      "pc": 12605696,
+      "object": 9,
+      "scriptPC": 493,
+      "opcode": 131,
+      "enemy": 140
+    },
+    {
+      "frame": 8933,
+      "location": 232,
+      "pc": 12605696,
+      "object": 10,
+      "scriptPC": 521,
+      "opcode": 131,
+      "enemy": 140
+    },
+    {
+      "frame": 8933,
+      "location": 232,
+      "pc": 12605696,
+      "object": 11,
+      "scriptPC": 549,
+      "opcode": 131,
+      "enemy": 140
+    }
+  ],
+  "messages": [],
+  "attacks": [
+    {
+      "frame": 10426,
+      "location": 232,
+      "pc": 12687933,
+      "object": 8,
+      "actor": 6,
+      "enemyId": 140,
+      "aiPC": 42596,
+      "operand": 8
+    },
+    {
+      "frame": 10699,
+      "location": 232,
+      "pc": 12687933,
+      "object": 8,
+      "actor": 4,
+      "enemyId": 140,
+      "aiPC": 42596,
+      "operand": 8
+    }
+  ],
+  "heapMin": 0,
+  "heapMax": 1248,
+  "fieldPointers": [
+    {
+      "location": 232,
+      "enemy": 140,
+      "object": 8,
+      "pointer": 8210592,
+      "palettePointer": 2664
+    },
+    {
+      "location": 232,
+      "enemy": 140,
+      "object": 9,
+      "pointer": 8210592,
+      "palettePointer": 2664
+    },
+    {
+      "location": 232,
+      "enemy": 140,
+      "object": 10,
+      "pointer": 8210592,
+      "palettePointer": 2664
+    },
+    {
+      "location": 232,
+      "enemy": 140,
+      "object": 11,
+      "pointer": 8210592,
+      "palettePointer": 2664
+    }
+  ],
+  "observedNativeFieldFrames": [
+    {
+      "key": "scrap-beetle:8:10",
+      "sampledTicks": 24
+    },
+    {
+      "key": "scrap-beetle:9:7",
+      "sampledTicks": 46
+    },
+    {
+      "key": "scrap-beetle:10:7",
+      "sampledTicks": 42
+    },
+    {
+      "key": "scrap-beetle:11:10",
+      "sampledTicks": 18
+    },
+    {
+      "key": "scrap-beetle:8:11",
+      "sampledTicks": 10
+    },
+    {
+      "key": "scrap-beetle:9:8",
+      "sampledTicks": 10
+    },
+    {
+      "key": "scrap-beetle:10:8",
+      "sampledTicks": 14
+    },
+    {
+      "key": "scrap-beetle:11:11",
+      "sampledTicks": 10
+    },
+    {
+      "key": "scrap-beetle:8:9",
+      "sampledTicks": 5
+    },
+    {
+      "key": "scrap-beetle:9:6",
+      "sampledTicks": 7
+    },
+    {
+      "key": "scrap-beetle:10:6",
+      "sampledTicks": 6
+    },
+    {
+      "key": "scrap-beetle:11:9",
+      "sampledTicks": 7
+    },
+    {
+      "key": "scrap-beetle:8:1",
+      "sampledTicks": 4
+    },
+    {
+      "key": "scrap-beetle:11:7",
+      "sampledTicks": 42
+    },
+    {
+      "key": "scrap-beetle:8:7",
+      "sampledTicks": 40
+    },
+    {
+      "key": "scrap-beetle:11:8",
+      "sampledTicks": 7
+    },
+    {
+      "key": "scrap-beetle:8:8",
+      "sampledTicks": 4
+    },
+    {
+      "key": "scrap-beetle:11:6",
+      "sampledTicks": 9
+    },
+    {
+      "key": "scrap-beetle:9:10",
+      "sampledTicks": 17
+    },
+    {
+      "key": "scrap-beetle:8:6",
+      "sampledTicks": 4
+    },
+    {
+      "key": "scrap-beetle:9:11",
+      "sampledTicks": 7
+    },
+    {
+      "key": "scrap-beetle:9:9",
+      "sampledTicks": 7
+    },
+    {
+      "key": "scrap-beetle:10:10",
+      "sampledTicks": 18
+    },
+    {
+      "key": "scrap-beetle:10:11",
+      "sampledTicks": 6
+    },
+    {
+      "key": "scrap-beetle:10:9",
+      "sampledTicks": 8
+    },
+    {
+      "key": "scrap-beetle:8:3",
+      "sampledTicks": 1
+    },
+    {
+      "key": "scrap-beetle:8:0",
+      "sampledTicks": 2
+    },
+    {
+      "key": "scrap-beetle:11:1",
+      "sampledTicks": 1
+    }
+  ],
+  "allSixRomPalettesUnchanged": true,
+  "cartridgeUnchanged": true
+}

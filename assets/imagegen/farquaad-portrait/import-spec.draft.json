@@ -1,0 +1,62 @@
+{
+  "key": "farquaad-portrait",
+  "width": 48,
+  "height": 48,
+  "palette": [
+    "2a2028",
+    "af7658",
+    "e6ac7a",
+    "f9cf9d",
+    "f1ddaa",
+    "8b2938",
+    "c94348",
+    "352831",
+    "fff3d9",
+    "252334",
+    "e3b655",
+    "6a4454"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/farquaad-portrait/source-v1.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 46,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 47
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "samplingPalette": [
+    "211623",
+    "b46e4d",
+    "edaa78",
+    "ffd3a2",
+    "ece3ce",
+    "a20d21",
+    "e21c32",
+    "32263d",
+    "fff4d8",
+    "14111c",
+    "d9a72c",
+    "51405e"
+  ],
+  "notes": {
+    "material": "Every opaque native pixel is sampled from the recorded generated portrait; no anatomy or facial feature is drawn in the converter.",
+    "palette": "Use the frozen field model’s source material-color mapping to the unchanged native12-color palette.",
+    "activation": "Draft only; no active portrait loader or registry change."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "key": "crumb-hunter",
+  "sourceType": "image-generation",
+  "width": 32,
+  "height": 32,
+  "palette": [
+    "292c30",
+    "4c5140",
+    "7e8556",
+    "b3b77c",
+    "e2d8a0",
+    "573b38",
+    "8c5341",
+    "bd8553",
+    "a3423e",
+    "ef8660",
+    "f7d8a4",
+    "fff0ce"
+  ],
+  "directory": "assets/imagegen/crumb-hunters/detail-preview",
+  "sheets": [
+    {
+      "file": "assets/imagegen/crumb-hunters/source-base-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "bottom": 31,
+        "scaleX": 0.85,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    },
+    {
+      "file": "assets/imagegen/crumb-hunters/source-actions-v1.png",
+      "regions": [
+        [
+          0,
+          0,
+          561,
+          350.5
+        ],
+        [
+          561,
+          0,
+          561,
+          350.5
+        ],
+        [
+          0,
+          350.5,
+          561,
+          350.5
+        ],
+        [
+          561,
+          350.5,
+          561,
+          350.5
+        ],
+        [
+          0,
+          701,
+          561,
+          350.5
+        ],
+        [
+          561,
+          701,
+          561,
+          350.5
+        ],
+        [
+          0,
+          1051.5,
+          561,
+          350.5
+        ]
+      ],
+      "nativeHeight": 28,
+      "scaleCells": [
+        4
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "bottom": 31,
+        "scaleX": 0.85,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        {
+          "frame": 8,
+          "flip": true
+        },
+        9,
+        10,
+        11,
+        {
+          "frame": 11,
+          "flip": true
+        },
+        12,
+        13,
+        14,
+        15,
+        {
+          "frame": 15,
+          "flip": true
+        }
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "All 21 visible original slots map to 16 viewed generated poses. Original directions, hunched/raised second phases, startled marks and exact mirrors are preserved. No idle replacement."
+      }
+    }
+  },
+  "notes": {
+    "status": "Inactive draft",
+    "nativeFrames": 21,
+    "owners": {
+      "enemies": [
+        1,
+        61
+      ],
+      "npcs": [
+        76
+      ]
+    },
+    "graphics": 79,
+    "assembly": 34,
+    "animation": 26,
+    "nativeCells": 4,
+    "blankFrames": [],
+    "frameOffsets": {
+      "12": [
+        0,
+        3
+      ]
+    },
+    "alternatePalette": {
+      "enemy": 61,
+      "palette": 17,
+      "colors": [
+        "2b2730",
+        "514449",
+        "846566",
+        "b28a7b",
+        "dbb795",
+        "483b46",
+        "795460",
+        "ab7a80",
+        "a63d4b",
+        "ec7b6b",
+        "f5cfb0",
+        "fff0d2"
+      ]
+    },
+    "sampling": "Same 28px model scale and uniform 0.85 horizontal sampling throughout. Native four-cell32×32 footprint; no overlap, procedural outline or source pixel painting.",
+    "unusedSourceArea": "The bottom-right action sheet cell is intentionally empty and excluded from the seven source regions."
+  }
+}

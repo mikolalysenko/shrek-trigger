@@ -1,0 +1,111 @@
+{
+  "key": "doris",
+  "directory": "assets/imagegen/doris/candidates/nearest-materials",
+  "sourceType": "image-generation",
+  "width": 32,
+  "height": 32,
+  "palette": [
+    "29212d",
+    "955f59",
+    "bf8875",
+    "f1bd9e",
+    "f4dfb6",
+    "6a3e65",
+    "a9759c",
+    "382c37",
+    "fff1db",
+    "665568",
+    "738bb8",
+    "cf4b6b"
+  ],
+  "samplingPalette": [
+    "1d1220",
+    "b45b38",
+    "dc844f",
+    "ffb572",
+    "f4dba4",
+    "492444",
+    "814665",
+    "36170f",
+    "fff1cf",
+    "7c3c20",
+    "49637d",
+    "b92230"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/doris/source-base-v2.png",
+      "columns": 4,
+      "rows": 4,
+      "componentAlpha": 128,
+      "nativeHeight": 29,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sample": {
+        "method": "nearest",
+        "bottom": 30
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        6,
+        1,
+        7
+      ],
+      "1": [
+        4,
+        0,
+        5
+      ],
+      "2": [
+        8,
+        2,
+        9
+      ],
+      "3": [
+        10,
+        3,
+        11
+      ]
+    },
+    "hit": {
+      "1": [
+        12
+      ]
+    },
+    "cast": {
+      "1": [
+        13,
+        14
+      ]
+    },
+    "guard": {
+      "1": [
+        15
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive partial base model preview; final six-tier role coverage and source gestures pending"
+  }
+}

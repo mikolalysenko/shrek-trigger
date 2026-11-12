@@ -1,0 +1,87 @@
+{
+  "key": "cosmic-muffin-spawn-shell",
+  "frames": 1,
+  "width": 128,
+  "height": 96,
+  "opaqueColors": 12,
+  "palette": [
+    "ffffff",
+    "292910",
+    "d6efad",
+    "de9c84",
+    "d6bd21",
+    "0884ff",
+    "b5735a",
+    "8c9c6b",
+    "8c5200",
+    "732118",
+    "525a29",
+    "393929"
+  ],
+  "samplingPalette": [
+    "ffffff",
+    "292910",
+    "d6efad",
+    "de9c84",
+    "d6bd21",
+    "0884ff",
+    "b5735a",
+    "8c9c6b",
+    "8c5200",
+    "732118",
+    "525a29",
+    "393929"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/cosmic-muffin-spawn/source-shell-v2.png",
+      "sha256": "aa68f21ded4faefedf20e02de2ca0718fab230386f55ff5b6b6eb0220cf26de5",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1427,
+        1102
+      ],
+      "scale": 0.06722689075630252,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 95,
+        "dx": -16,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            56,
+            86,
+            1322,
+            952
+          ],
+          "componentPixels": 882049
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        {
+          "frame": 0,
+          "dissolve": 11
+        }
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "One actual generated full shell with corrected lower-right cavity. Native1 remains completely blank as in the original."
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "status": "Root visually accepted; inactive patch only, active pixels untouched",
+  "targets": [
+    "assets/raster/shrek/import-spec.json",
+    "assets/raster/shrek/import-spec.vsmile-full-draft.json"
+  ],
+  "updates": {
+    "1": {
+      "kind": "source",
+      "reason": "Genuine frontal V.Smile closed-eye variant61 of idle56; both eye whites disappear beneath lowered lids while the smiling face and body remain consistent."
+    },
+    "2": {
+      "kind": "adapted",
+      "reason": "Complete-source horizontal mirror of genuine right-profile closed-eye variant8; the visible eye is closed, matching native left-facing blink."
+    },
+    "3": {
+      "kind": "source",
+      "reason": "Genuine V.Smile right-profile closed-eye variant8 of idle3; the open eye-white patch is replaced by a closed dark lid."
+    }
+  },
+  "slots": [
+    148,
+    149,
+    150
+  ],
+  "previousCounts": {
+    "source": 58,
+    "adapted": 151,
+    "fallback": 36,
+    "blank": 3
+  },
+  "expectedCounts": {
+    "source": 60,
+    "adapted": 152,
+    "fallback": 33,
+    "blank": 3
+  },
+  "sourceEvidence": {
+    "file": "assets/raster/shrek/source-user-506339.png",
+    "sha256": "064453761cb693886ce956a58e15c7e4cdb6862618ba2b69f53ab5c718d60de3",
+    "front": {
+      "open": 56,
+      "closed": 61
+    },
+    "profile": {
+      "open": 3,
+      "closed": 8
+    },
+    "comparison": "assets/raster/shrek/acting-review/blink-source-heads.png"
+  },
+  "pixelChanges": 0
+}

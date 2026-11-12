@@ -1,0 +1,333 @@
+{
+  "status": "Frozen inactive generated Imp packet; approved source, exact native display, original action timing and noisy sewer route verified",
+  "activation": false,
+  "key": "drain-imps",
+  "directory": "assets/imagegen/drain-imps/imp",
+  "gfx": 93,
+  "asm": 52,
+  "animation": 37,
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 99,
+      "key": "drain-imp",
+      "palette": 43,
+      "header": [
+        93,
+        52,
+        43,
+        37,
+        0,
+        0,
+        244,
+        8,
+        16,
+        17
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 101,
+      "key": "river-imp",
+      "palette": 42,
+      "header": [
+        93,
+        52,
+        42,
+        37,
+        0,
+        0,
+        244,
+        8,
+        16,
+        17
+      ]
+    }
+  ],
+  "paletteOwnership": "43 belongs only to 99; 42 only to 101. Both current approved packets remain byte-identical. No graphics/assembly/palette pointer aliases or NPC owners.",
+  "native": {
+    "frames": 20,
+    "cells": 4,
+    "size": 0,
+    "canvas": [
+      64,
+      64
+    ],
+    "authoredSourcePoses": 11,
+    "uniqueNativeSourceImages": 17,
+    "geometry": "imp/native-frame-map.draft.json",
+    "anchor": [
+      0,
+      0
+    ],
+    "frameOffsets": [
+      [
+        1,
+        7
+      ],
+      [
+        -1,
+        7
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        -3,
+        6
+      ],
+      [
+        -4,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        -4,
+        9
+      ]
+    ],
+    "sourceDuplicates": [
+      [
+        2,
+        9
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        11,
+        15
+      ]
+    ],
+    "sourceMirrors": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        17,
+        19
+      ]
+    ],
+    "originalLowestPixelExact": true,
+    "horizontalCenterRoundingAtMostHalfPixel": true
+  },
+  "resources": {
+    "decodedBytes": 2912,
+    "compressedBytes": 2194,
+    "assemblyBytes": 800,
+    "tiles": 91,
+    "originalCT": {
+      "decodedBytes": 2176,
+      "compressedBytes": 1562,
+      "assemblyBytes": 800,
+      "decodedDelta": 736,
+      "compressedPlusAssemblyDelta": 632,
+      "alignedRomDelta": 632
+    },
+    "earlierArt": {
+      "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+      "decodedBytes": 1504,
+      "compressedBytes": 637,
+      "assemblyBytes": 800,
+      "decodedDelta": 1408,
+      "compressedPlusAssemblyDelta": 1557,
+      "alignedRomDelta": 1556
+    },
+    "nativeStreamRequired": true,
+    "streamedRawBytes": 2912,
+    "extraWramBytes": 0,
+    "extraVramBytes": 0
+  },
+  "hashes": {
+    "graphics": "78518897986faa2c86712613b54ca1c86f77ed9d7c2e94fde297e9bf22c459c8",
+    "compressed": "83bfd47233a68a46647bb1ffb5771754329ac6b9e8118b7559a3cb2e10d00e95",
+    "assembly": "6afadcfcebf8476a3cd04255fac32fa2c08fbf61d9cd44f211c7f6fc783cb74d"
+  },
+  "visualReview": {
+    "self": "All 20 slots in both preserved palettes inspected at 1× and 3×; both exact native framebuffer atlases and original sewer encounter captures inspected.",
+    "root": "Approved complete native atlas and enlarged 6–11 emergence/swim phases; retain original contact/lowest-pixel anchors and four-cell coverage.",
+    "lead": "Approved full 1× atlas and enlarged 0–5/12–17 pages: rear crest distinct from bright face, partial/full rises retain one model, low wake and extended profile remain readable in both exact palettes. Native timing proof remains separate."
+  },
+  "proof": {
+    "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+    "candidateSha256": "0a449d04bd867cce7f9e7f3c1f59f2820af73b88955ba350cfb5300d45ae039d",
+    "nativeManifest": "native-display-proof.json",
+    "uploads": 40,
+    "cells": 160,
+    "opaquePixels": 10108,
+    "motionManifest": "motion-review.json",
+    "timingManifest": "native-timing-proof.json",
+    "nativeActionCases": 42,
+    "nativeCycles": 84,
+    "exactVideoTicks": 1816,
+    "completeVramAndOamExactEveryTick": true,
+    "observedDisplayDelay": 0,
+    "sceneManifest": "native-scene-proof.json",
+    "sewerRoute": [
+      236,
+      237,
+      236,
+      498
+    ],
+    "nativeBattles": 8,
+    "nativeDamageResults": 48,
+    "directEmergenceSequences": 16,
+    "allThreeEmergencePhasesExactlyUploaded": true,
+    "actualFieldHeapBytes": {
+      "160": 5632,
+      "236": 12384,
+      "237": 3872
+    },
+    "riverInitializationOwners": 3
+  },
+  "sceneBudget": {
+    "manifest": "scene-budget-audit.json",
+    "originalLocations": [
+      160,
+      236,
+      237
+    ],
+    "maximumLegacyUnion": 15296,
+    "maximumStreamedUnion": 12384,
+    "minimumSpare": 20384,
+    "limit": 32768,
+    "scope": "Conservative union of all original event load branches using emitted e136 headers/resources. Baseline raw streams are excluded only when selected by that immutable cartridge; candidate additionally selects gfx93. No newer private replacements or stream exclusions are assumed. No full scene residency/choreography claim."
+  },
+  "integration": [
+    "Import imp/import-spec.draft.json with its explicit directory under key drain-imps; retain all 20 native slots and verified mirror/duplicate mappings.",
+    "Use imp/native-frame-map.draft.json cellOrigins, anchor and frameOffsets with 64×64 source canvas and four native cells. Preserve full size byte 0 and native graphics/assembly/animation IDs.",
+    "Keep enemy 99/101 current palette 43/42 packets, original headers, AI, stats, event instructions and both animation37 frame/duration tables unchanged.",
+    "Explicitly select gfx93 through the existing per-family native size0 streaming contract, checking both emitted owners. Preserve default decoded limits for unselected families.",
+    "Use the production allocator for compressed graphics, assembly and raw streams. Private absolute addresses are proof-only. Root owns active integration and production validation."
+  ],
+  "limitations": [
+    "Generated silhouettes differ from CT by at most two pixels in height; some submerged puddles/wakes are up to eight pixels wider. Every original lowest opaque pixel is exact, with horizontal-center rounding at most half a pixel. Four-cell coverage is exact.",
+    "There are 11 authored source poses and 17 unique native source images. Slots 2/9, 10/14 and 11/15 intentionally reuse identical pixels; audited original mirrors preserve alternate wake and right-profile states.",
+    "Source cells are uniformly nearest-sampled from one unchanged generated PNG. No procedural anatomy, ripple drawing, clipping, nonuniform scaling or palette recoloring is used.",
+    "Decoded 2,912 bytes exceeds original 2,176, so gfx93 requires explicit native streaming. Preserve default original decoded-size rejection for all unselected families.",
+    "Native timed action loops are isolated tests. The noisy sewer route establishes Drain Imp encounter order, emergence, damage and victory. River Imp scene160 proves native initialization/ownership/heap only; its original actors initialize hidden.",
+    "Production placement, independent-core execution and the River Imp encounter route remain integration checks. Scene bounds use immutable e136 resources and stream selections, without newer private replacements."
+  ],
+  "reproduce": [
+    "node assets/imagegen/drain-imps/prepare-draft.mjs",
+    "node assets/imagegen/drain-imps/review-draft.mjs",
+    "node assets/imagegen/drain-imps/freeze-draft.mjs"
+  ],
+  "proofReproduce": [
+    "node assets/imagegen/drain-imps/verify-native.mjs",
+    "node assets/imagegen/drain-imps/verify-motion.mjs",
+    "node assets/imagegen/drain-imps/verify-timed-animation.mjs",
+    "node assets/imagegen/drain-imps/verify-sewer-scene.mjs"
+  ],
+  "compilerDependencies": [
+    {
+      "file": "scripts/import-raster-art.mjs",
+      "bytes": 10773,
+      "sha256": "932f6a4558afc571610f2ae10790b7623e0524fa8b541eb3dc03a596172db1f1"
+    },
+    {
+      "file": "engine/native-sprites.js",
+      "bytes": 8636,
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "file": "engine/compression.js",
+      "bytes": 4100,
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "file": "engine/sprites.js",
+      "bytes": 8935,
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "file": "content/future-wildlife.js",
+      "bytes": 11157,
+      "sha256": "c1ad2f1d09c3fa7fcff901a4aa5d661dfbba3d83ac0fe24bdc86b9dcc70d2f9d"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 2116,
+      "sha256": "64a6a819820c608b0efc612e049a872b68b3159ec6d3cc95ae13261893a980b5"
+    }
+  ],
+  "freeze": "freeze.json"
+}

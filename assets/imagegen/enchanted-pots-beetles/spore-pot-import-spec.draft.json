@@ -1,0 +1,346 @@
+{
+  "key": "spore-pot",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 96,
+  "palette": [
+    "252c2a",
+    "4b3b30",
+    "7d6047",
+    "b58b60",
+    "e2bc87",
+    "2c4337",
+    "557754",
+    "95ae76",
+    "364f5b",
+    "79949a",
+    "dfa84f",
+    "f9e9b6"
+  ],
+  "directory": "assets/imagegen/enchanted-pots-beetles/spore-pot-draft",
+  "sheets": [
+    {
+      "file": "assets/imagegen/enchanted-pots-beetles/spore-pot-source-v1.png",
+      "columns": 3,
+      "rows": 2,
+      "nativeHeight": 26,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 74,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {
+        "3": {
+          "scale": 0.96
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        {
+          "frame": 0,
+          "dx": -1,
+          "dy": 3
+        },
+        {
+          "frame": 1,
+          "dx": 1,
+          "dy": 0
+        },
+        {
+          "frame": 2,
+          "dx": 1,
+          "dy": 3
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": -14
+        },
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "frame": 1,
+          "dx": 2,
+          "dy": 0
+        },
+        {
+          "frame": 4,
+          "dx": 0,
+          "dy": 5
+        },
+        {
+          "frame": 5,
+          "dx": 0,
+          "dy": 1
+        }
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Six actual generated poses cover the eight original slots, including original1/4/5 translated reuse and the Ember6/7 reversed low-pose order. No anatomy drawn, no frames omitted."
+      }
+    }
+  },
+  "notes": {
+    "status": "Inactive candidate; source coverage complete",
+    "nativeCells": 4,
+    "anchor": [
+      0,
+      24
+    ],
+    "frameCellOrigins": [
+      [
+        [
+          31,
+          46
+        ],
+        [
+          15,
+          47
+        ],
+        [
+          31,
+          62
+        ],
+        [
+          15,
+          62
+        ]
+      ],
+      [
+        [
+          32,
+          44
+        ],
+        [
+          16,
+          44
+        ],
+        [
+          33,
+          60
+        ],
+        [
+          17,
+          60
+        ]
+      ],
+      [
+        [
+          33,
+          47
+        ],
+        [
+          17,
+          47
+        ],
+        [
+          33,
+          62
+        ],
+        [
+          17,
+          62
+        ]
+      ],
+      [
+        [
+          32,
+          29
+        ],
+        [
+          16,
+          29
+        ],
+        [
+          32,
+          45
+        ],
+        [
+          16,
+          45
+        ]
+      ],
+      [
+        [
+          31,
+          44
+        ],
+        [
+          15,
+          44
+        ],
+        [
+          32,
+          60
+        ],
+        [
+          16,
+          60
+        ]
+      ],
+      [
+        [
+          33,
+          44
+        ],
+        [
+          17,
+          44
+        ],
+        [
+          34,
+          60
+        ],
+        [
+          18,
+          60
+        ]
+      ],
+      [
+        [
+          32,
+          57
+        ],
+        [
+          16,
+          57
+        ],
+        [
+          32,
+          65
+        ],
+        [
+          16,
+          65
+        ]
+      ],
+      [
+        [
+          32,
+          60
+        ],
+        [
+          16,
+          60
+        ],
+        [
+          32,
+          47
+        ],
+        [
+          16,
+          47
+        ]
+      ]
+    ],
+    "cellOverlapFrames": [
+      0,
+      2,
+      6,
+      7
+    ],
+    "originalSignedCellCoordinatesPreserved": true,
+    "placement": [
+      {
+        "frame": 0,
+        "bounds": [
+          16,
+          52,
+          29,
+          26
+        ],
+        "adjusted": false
+      },
+      {
+        "frame": 1,
+        "bounds": [
+          17,
+          49,
+          31,
+          26
+        ],
+        "adjusted": true
+      },
+      {
+        "frame": 2,
+        "bounds": [
+          18,
+          52,
+          29,
+          26
+        ],
+        "adjusted": false
+      },
+      {
+        "frame": 3,
+        "bounds": [
+          16,
+          35,
+          32,
+          26
+        ],
+        "adjusted": false
+      },
+      {
+        "frame": 4,
+        "bounds": [
+          16,
+          49,
+          31,
+          26
+        ],
+        "adjusted": true
+      },
+      {
+        "frame": 5,
+        "bounds": [
+          18,
+          49,
+          31,
+          26
+        ],
+        "adjusted": true
+      },
+      {
+        "frame": 6,
+        "bounds": [
+          16,
+          61,
+          31,
+          19
+        ],
+        "adjusted": false
+      },
+      {
+        "frame": 7,
+        "bounds": [
+          17,
+          54,
+          29,
+          22
+        ],
+        "adjusted": false
+      }
+    ],
+    "palettePolicy": "Six existing approved twelve-color ramps unchanged. Sampling uses111 for clay/spore/beetle and107 for ember; other owners reinterpret exactly the same indices.",
+    "reservedRoles": null
+  }
+}

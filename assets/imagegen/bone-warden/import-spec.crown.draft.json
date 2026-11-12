@@ -1,0 +1,156 @@
+{
+  "key": "warden",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/bone-warden/upper-draft-area",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "24252b",
+    "fff1d2",
+    "dccda5",
+    "75d578",
+    "ad9773",
+    "806748",
+    "668958",
+    "584a3d",
+    "3f5745",
+    "38343a",
+    "cfa250",
+    "f4d77d"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/bone-warden/source-upper-movement-v1.png",
+      "columns": 2,
+      "rows": 3,
+      "nativeHeight": 47,
+      "scaleCells": [
+        0,
+        2,
+        4
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "area",
+        "bottom": 63,
+        "alphaThreshold": 128
+      }
+    },
+    {
+      "file": "assets/imagegen/bone-warden/source-upper-actions-v1.png",
+      "columns": 4,
+      "rows": 2,
+      "nativeHeight": 47,
+      "scaleCells": [
+        4,
+        5
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "area",
+        "bottom": 63,
+        "alphaThreshold": 128
+      }
+    },
+    {
+      "file": "assets/imagegen/bone-warden/source-upper-actions-v2.png",
+      "columns": 4,
+      "rows": 2,
+      "nativeHeight": 47,
+      "scaleCells": [
+        4,
+        5
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "area",
+        "bottom": 63,
+        "alphaThreshold": 128
+      },
+      "cells": [
+        5
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        2,
+        4,
+        1,
+        3,
+        5,
+        {
+          "frame": 1,
+          "flip": true
+        },
+        {
+          "frame": 3,
+          "flip": true
+        },
+        {
+          "frame": 5,
+          "flip": true
+        },
+        6,
+        7,
+        8,
+        9,
+        {
+          "frame": 8,
+          "flip": true
+        },
+        {
+          "frame": 9,
+          "flip": true
+        },
+        10,
+        14,
+        12,
+        13,
+        {
+          "frame": 12,
+          "flip": true
+        },
+        {
+          "frame": 13,
+          "flip": true
+        }
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive complete source candidate; all native source frames, geometry and exact tile reproduction complete; root approved area-sampled art. Native scene proof and freeze are recorded separately.",
+    "nativeFrames": 21,
+    "sourcePixelsOnly": true,
+    "wholeSourceMirrors": [
+      6,
+      7,
+      8,
+      13,
+      14,
+      19,
+      20
+    ],
+    "originalProgramsUnchanged": true,
+    "chosenSampling": "area",
+    "horizontalSampling": 1,
+    "reason": "AREA appearance approved by root after native-size compound comparison; preserves distinct palms and all full-source anatomy.",
+    "sourceRoles": "assets/imagegen/bone-warden/native-roles.json",
+    "geometry": "assets/imagegen/bone-warden/upper-draft-area/family.json",
+    "originalRootSeparation": {
+      "bridge": 32,
+      "echo": 39
+    },
+    "paletteUnchanged": true,
+    "cellOverlapFrames": [
+      9,
+      18,
+      20
+    ]
+  }
+}

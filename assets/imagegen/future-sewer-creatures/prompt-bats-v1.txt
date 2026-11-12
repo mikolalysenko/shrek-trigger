@@ -1,0 +1,17 @@
+Use case: stylized-concept.
+Asset: transparent sprite source sheet for enchanted lantern bats in a Chrono Trigger SNES fairy-tale sewer.
+Reference image is ONLY the seven original pose roles and silhouette scale, not the final character identity. The original has a winged single-eye monster; replace it with one consistent small lantern-bat design.
+Design: a tiny bat with a dark plum furry head, short pointed ears, two cream/amber eyes and two tiny fangs; its belly is an old brass-framed glowing glass lantern with a small warm amber flame inside, a little loop behind the head, and two tiny curled bat feet below. Its compact purple bat wings have a dark edge, three membrane scallops and visible wing finger bones. Brass rails and warm cream lantern glow make the identity clear at native scale. A fairy-tale creature carrying its light within its belly, not a modern flying robot. No diffuse light halo or background shadow.
+Pixel style: economical 1995 Chrono Trigger SNES pixel art, twelve opaque colors, dark outline, broad low-resolution clusters. Design for a maximum32×32 native footprint. The lantern/head body is around12–14 pixels wide and20–23 high; each SHORT wing adds no more than8–9 pixels. Keep wings compact and near the body. Do not draw broad realistic wings whose span dwarfs the lantern. Same body size and construction in every pose.
+Exactly3 columns ×3 rows, equal cells, nine isolated centered sprites with generous transparent gaps, genuine alpha background. No labels, borders, text, extra objects or floors. Render larger with visible crisp pixel steps suitable for nearest sampling.
+Reading order:
+0 frontal hover, short wings stretched mostly horizontally and slightly lowered, feet curled under the lantern.
+1 frontal hover, wings half raised, same body.
+2 frontal hover, wings fully raised in a high V, eye/face slightly darkened, feet curled; keep total height within30 native pixels.
+3 tilted recoil, body leans counterclockwise about20 degrees, left wing folded and right wing extended, eyes squeezed shut. Keep the same lantern and face.
+4 frontal attack preparation, lantern and feet extend downward slightly, the clawed thumb at each wing joint rises beside the head, membranes still flare sideways at mid-body.
+5 frontal attack hold, both small wing-claws reach above the head, short wing membranes spread around the middle of the lantern, feet extended below, flame bright. Claws are part of wings, not extra limbs.
+6 same overhead-claw attack hold as5, but the face/eyes darken and the inner flame contracts into a small bright core. Keep exact body silhouette and raised posture.
+7 repeat the exact normal hover from cell0 for scale calibration.
+8 repeat the exact half-raised hover from cell1 for scale calibration.
+Preserve the distinction between high wing flap2 and raised-claw attack5/6. All body parts inside each cell. Same model throughout, no wardrobe or unrelated ornaments.

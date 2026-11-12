@@ -1,0 +1,134 @@
+{
+  "labels": [
+    "Rear contact A",
+    "Rear passing",
+    "Rear contact B",
+    "Front contact A",
+    "Front passing",
+    "Front contact B",
+    "Left contact A",
+    "Left passing",
+    "Left contact B",
+    "Right contact A",
+    "Right passing",
+    "Right contact B",
+    "Backward hit reaction",
+    "Compact gather",
+    "Raised-hand threat",
+    "Forward hit reaction",
+    "Rear windup",
+    "Rear overhead release",
+    "Rear recovery",
+    "Front windup",
+    "Front low release",
+    "Front recovery",
+    "Left windup",
+    "Left release",
+    "Left recovery",
+    "Right windup",
+    "Right release",
+    "Right recovery"
+  ],
+  "sourcePoses": 22,
+  "nativeSlots": 28,
+  "blankFrames": [],
+  "gait": {
+    "nativeOrder": [
+      "A",
+      "P",
+      "B",
+      "P"
+    ],
+    "ticks": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "correctedSourceCells": {
+      "rear": "reactions-source-v1 cells4/5",
+      "frontB": "gait-source-v2 cell1",
+      "leftB": "gait-source-v2 cell2"
+    },
+    "retainedOriginalContactBottoms": [
+      {
+        "frame": 0,
+        "bottom": -1
+      },
+      {
+        "frame": 1,
+        "bottom": 1
+      },
+      {
+        "frame": 2,
+        "bottom": -1
+      },
+      {
+        "frame": 3,
+        "bottom": -1
+      },
+      {
+        "frame": 4,
+        "bottom": 1
+      },
+      {
+        "frame": 5,
+        "bottom": -1
+      },
+      {
+        "frame": 6,
+        "bottom": -1
+      },
+      {
+        "frame": 7,
+        "bottom": 1
+      },
+      {
+        "frame": 8,
+        "bottom": -1
+      },
+      {
+        "frame": 9,
+        "bottom": -1
+      },
+      {
+        "frame": 10,
+        "bottom": 1
+      },
+      {
+        "frame": 11,
+        "bottom": -1
+      }
+    ],
+    "note": "Contacts are actual opposed generated limbs; right direction is a documented whole-source mirror. Original two-pixel passing-foot placement is retained."
+  },
+  "casting": {
+    "back": [
+      16,
+      17,
+      18
+    ],
+    "front": [
+      19,
+      20,
+      21
+    ],
+    "left": [
+      22,
+      23,
+      24
+    ],
+    "right": [
+      25,
+      26,
+      27
+    ],
+    "ticks": [
+      15,
+      5,
+      31
+    ],
+    "note": "Distinct rear overhead, frontal low and lateral crescents are generated source pixels; the right sequence mirrors left."
+  },
+  "scope": "Static semantic source mapping only; native scheduler execution and real authored encounter proof are separate."
+}

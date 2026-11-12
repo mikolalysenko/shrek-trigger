@@ -1,0 +1,447 @@
+{
+  "status": "Private inactive source override",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "baselineManifestSha256": "a2211d196c01ddfcb6a04af336889a45bfb44a867e47da0a5248958b06365711",
+  "baselineRecordsSha256": "43a77085c5a6ba97feb790202d55acdd28fbd3b9eaa7972c3641c3899e349c4e",
+  "candidateSha256": "a17c76dda82743f8ed542a897954ad4bd8a16861b6b863c55f4070c07eb993be",
+  "candidatePath": ".local/qa/mire-golems-native-proof/candidate.sfc",
+  "changedBytes": 34318,
+  "defaultProductionGuardInvoked": false,
+  "requiredStreamedGraphics": [
+    154
+  ],
+  "nativeHelpersUnchanged": true,
+  "streams": [
+    {
+      "gfx": 154,
+      "address": 5046272,
+      "bytes": 18656,
+      "compressedSource": 1341246,
+      "compressedBytes": 14778,
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 163,
+          "assembly": 147,
+          "palette": 194,
+          "size": 1
+        },
+        {
+          "kind": "enemy",
+          "id": 164,
+          "assembly": 147,
+          "palette": 195,
+          "size": 1
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "offset": 1341246,
+      "bytes": 14778,
+      "label": "Private golem compressed graphics",
+      "sha256": "bb61422b8a8d00c9798da20abde7a21a65bd06853048ce839374c18df9f81d08"
+    },
+    {
+      "offset": 2367950,
+      "bytes": 3,
+      "label": "Private golem graphics pointer",
+      "sha256": "c734c651a5df911c9346c234b73d51e25d7c991b74b9111c402f44b98213bd74"
+    },
+    {
+      "offset": 2259678,
+      "bytes": 2560,
+      "label": "Private golem native assembly",
+      "sha256": "479f6a007db9171b509e632f3a6a7d6b9a8d71185e38c2f85dd76ea1a9f00b45"
+    },
+    {
+      "offset": 5046272,
+      "bytes": 18656,
+      "label": "NPC 154 direct-ROM graphics",
+      "sha256": "8ceb16af03ab0e3911ae8632a88d0b51cb941371203936e47ae2d976cba0f4d4"
+    },
+    {
+      "offset": 1331434,
+      "bytes": 3,
+      "label": "Private selected gfx154 raw stream",
+      "sha256": "93d27fe2e9a8a1d17e162a119511f0f81c7bb3f4a7d389a12afe690c072d1e4f"
+    }
+  ],
+  "nativeFrameUploads": 64,
+  "exactDisplayedCells": 512,
+  "exactDisplayedOpaquePixels": 67144,
+  "allOpaquePixelsVisible": true,
+  "originalFrameAndDurationListsUnchanged": true,
+  "currentPalettePacketsUnchanged": true,
+  "originalHeadersAiAndStatsUnchanged": true,
+  "originalBodyBottomAndCenterPreserved": true,
+  "originalShadowPixelsAndCoordinatesPreserved": true,
+  "originalSizeByte1Unchanged": true,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "isolatedHeapBytes": [
+    {
+      "key": "mire-golem",
+      "bytes": 960
+    },
+    {
+      "key": "iron-golem",
+      "bytes": 960
+    }
+  ],
+  "evidence": ".local/qa/mire-golems-native-proof",
+  "evidenceFiles": [
+    {
+      "file": "candidate.json",
+      "bytes": 2083,
+      "sha256": "a248d82e1fa86d9933f891c8f10a5c736f45da3dde01990bfca96249021a3b32"
+    },
+    {
+      "file": "display-report.json",
+      "bytes": 116382,
+      "sha256": "74fb3b66174bebbc23d3d52b5a2155b228bcbfa9ea5917c720d89beb060f6e56"
+    },
+    {
+      "file": "mire-golem-native-1x.png",
+      "bytes": 416407,
+      "sha256": "45016a1ea74601058ce5b18513e97959166ef07e5fcfec2de8fd902b392d7bf4"
+    },
+    {
+      "file": "iron-golem-native-1x.png",
+      "bytes": 418179,
+      "sha256": "6079a82dd805a5f30a8294fcd24ef5e58d8d25e4628f3b6d235d7cfc84715358"
+    },
+    {
+      "file": "mire-golem-00.png",
+      "bytes": 56617,
+      "sha256": "f960b44652ad81c3663e8bcafeb055c456a528dd3d68ba3d3132a76263f48c49"
+    },
+    {
+      "file": "mire-golem-01.png",
+      "bytes": 56646,
+      "sha256": "e91df3f28ae5dae835a616af23e11e2b4269263cd4b39a6a159d9af16b5f5060"
+    },
+    {
+      "file": "mire-golem-02.png",
+      "bytes": 56642,
+      "sha256": "c962dc56cee01b4edf42c31fe0fc1cc68bc53d665e4a55f4bdadb5f86e08f9ba"
+    },
+    {
+      "file": "mire-golem-03.png",
+      "bytes": 56673,
+      "sha256": "db660070994722292d88c2021ff3852e0656d01e7544815abcad7b2854eb0a91"
+    },
+    {
+      "file": "mire-golem-04.png",
+      "bytes": 56499,
+      "sha256": "3b97035970fab2f932f9c2ca262d3a21b9c5b5000ea683686933aaea2f5aa12e"
+    },
+    {
+      "file": "mire-golem-05.png",
+      "bytes": 56562,
+      "sha256": "08e44d80cb568e63fb7c8b3a6bceee0d1c17edbb052126eaad67143d1c2c5c07"
+    },
+    {
+      "file": "mire-golem-06.png",
+      "bytes": 56687,
+      "sha256": "e7a7964f87fc9bc64ed7c4495523edebac02c84c99018562c9f6669c36f58977"
+    },
+    {
+      "file": "mire-golem-07.png",
+      "bytes": 56711,
+      "sha256": "62f086aa9e0a5322b292f652ac8b2e96562fca8b369c3cbe0f9c87cb169149c2"
+    },
+    {
+      "file": "mire-golem-08.png",
+      "bytes": 56755,
+      "sha256": "dc914d715007dae7d7622ef104c3083b8ecd3c348e4458edb8677cd6b3f0bc2e"
+    },
+    {
+      "file": "mire-golem-09.png",
+      "bytes": 56733,
+      "sha256": "6a78ad69c56b7a14c060888e483e3b667505e6eb37cb61eb6b6bc3157d4e77c4"
+    },
+    {
+      "file": "mire-golem-10.png",
+      "bytes": 56741,
+      "sha256": "a1532fa448ce864c67172c2c247d367b8712265418cd7faf890e4ca074fb0935"
+    },
+    {
+      "file": "mire-golem-11.png",
+      "bytes": 56848,
+      "sha256": "f74d8a9fc55d5054188927e3ce422cd8587582bc62813c33ae67aaebad9b303b"
+    },
+    {
+      "file": "mire-golem-12.png",
+      "bytes": 56774,
+      "sha256": "20e09d9b6d942b778be42f1ccb8a74c9f562cf0a152ca99921e75a6d3053e4b4"
+    },
+    {
+      "file": "mire-golem-13.png",
+      "bytes": 56763,
+      "sha256": "0bdf3eab3bf86d06a2d9376440d7eb646f59d22362bfa547e6fcc11587d89db8"
+    },
+    {
+      "file": "mire-golem-14.png",
+      "bytes": 56722,
+      "sha256": "74ce1b0f162314efd981b756e8b725d70a90175e6260eef7addcf344ef0a5a01"
+    },
+    {
+      "file": "mire-golem-15.png",
+      "bytes": 56718,
+      "sha256": "c5eb466e55d8df66ea7856774120f4de50fd58183c241dd190c8f31b0dbe6a12"
+    },
+    {
+      "file": "mire-golem-16.png",
+      "bytes": 56342,
+      "sha256": "548b540fda147444c8d88c291a888ff4e86c1b1de374d8939d3b45e609babf50"
+    },
+    {
+      "file": "mire-golem-17.png",
+      "bytes": 56516,
+      "sha256": "3a91105b9e1457c4b962a7fa2c4a79b266b669eb41e889d80bc2be7fb45216f8"
+    },
+    {
+      "file": "mire-golem-18.png",
+      "bytes": 56811,
+      "sha256": "549f450f3927c4dbbb8e6cc0533e33ec541468e649edf007a69ecdced9c985a3"
+    },
+    {
+      "file": "mire-golem-19.png",
+      "bytes": 56565,
+      "sha256": "a8d259623db167390b22d6ab5d7481a13bacdaab294f77f3d919b5fccb86fd25"
+    },
+    {
+      "file": "mire-golem-20.png",
+      "bytes": 56565,
+      "sha256": "78e4a68c394cbdf5f8a90d8ff44e45c12fa1a820cf858d6e77377dca444d049f"
+    },
+    {
+      "file": "mire-golem-21.png",
+      "bytes": 56567,
+      "sha256": "811bc8d05aca4ec550b80bb66f5322860168b4a6c280c965b37117648013919b"
+    },
+    {
+      "file": "mire-golem-22.png",
+      "bytes": 56573,
+      "sha256": "70f430274951d5643200015adb9af623b04bc0a53d7b93161bab0e39f8c4f4a9"
+    },
+    {
+      "file": "mire-golem-23.png",
+      "bytes": 56669,
+      "sha256": "f00cc43186fd2220b3bfa21089e14ff0458075070f75ec3867faf5b50bb28ca1"
+    },
+    {
+      "file": "mire-golem-24.png",
+      "bytes": 56667,
+      "sha256": "199e0d381e6991a3d3b154eedb7f74b56a103ac00e6d4d8a1ae0f015582a0915"
+    },
+    {
+      "file": "mire-golem-25.png",
+      "bytes": 56723,
+      "sha256": "42a6dd259fc37f177b5326814c31e16cffc98ed667d17765b73772285a6a3883"
+    },
+    {
+      "file": "mire-golem-26.png",
+      "bytes": 56784,
+      "sha256": "d0d4177619c0caea2cd21a5faf561e649a7d5f1d71926fb24b4a18090ca16161"
+    },
+    {
+      "file": "mire-golem-27.png",
+      "bytes": 56600,
+      "sha256": "0f75c9074a6671bc6c06e62d1a453e4a51a8736de551a4b35b1dc2b81ead49fe"
+    },
+    {
+      "file": "mire-golem-28.png",
+      "bytes": 56527,
+      "sha256": "a9c3d95f5130e1a4a1d1e7da356f66361cd99161451d6891b82466a9fe9538c8"
+    },
+    {
+      "file": "mire-golem-29.png",
+      "bytes": 56458,
+      "sha256": "fc87aa2ce53b2572f559bb8f398161867da8e3202d0d60cb1b1f63a05b37f934"
+    },
+    {
+      "file": "mire-golem-30.png",
+      "bytes": 56490,
+      "sha256": "526a32f94911718a8ce9d0bd766f46b402de07f82e7b57616fdf7697764d4822"
+    },
+    {
+      "file": "mire-golem-31.png",
+      "bytes": 56505,
+      "sha256": "642ab10de85a75f06efd9a62c4d03ea593d03ae3c98e983e390b79c50a50e802"
+    },
+    {
+      "file": "iron-golem-00.png",
+      "bytes": 56595,
+      "sha256": "3e1bfffc1d250bb73bdf47e5d54cfb812b847d61bc1b3270aeea8847d16cc0ef"
+    },
+    {
+      "file": "iron-golem-01.png",
+      "bytes": 56626,
+      "sha256": "06f730452ed8944ff13869a93a597eee7da4369112af87ef27153a459dc438ec"
+    },
+    {
+      "file": "iron-golem-02.png",
+      "bytes": 56635,
+      "sha256": "c58f1072953c064acc9a954a27277116ac9e58c422defa1498735068032a1318"
+    },
+    {
+      "file": "iron-golem-03.png",
+      "bytes": 56660,
+      "sha256": "90ac63029a326e45adc9cbe2c8d4234705f4ce362d3edac05b77c7bd27f636ef"
+    },
+    {
+      "file": "iron-golem-04.png",
+      "bytes": 56524,
+      "sha256": "fd17dbff61f5fe7f5b7a4f74e51eab1d2ceac41152d4c2537a43609a45ae793d"
+    },
+    {
+      "file": "iron-golem-05.png",
+      "bytes": 56552,
+      "sha256": "545983c23ead7e6bfe071fec9bdd1b28a041d459807041574ebf416d08e5b267"
+    },
+    {
+      "file": "iron-golem-06.png",
+      "bytes": 56677,
+      "sha256": "086b6e1196f50216beba1098d04a41dd57cd4e7ef9f4afd23bb94cc7161369d2"
+    },
+    {
+      "file": "iron-golem-07.png",
+      "bytes": 56724,
+      "sha256": "0cecdf79e335f0c1a2cce184f0c30ef0469a9bd01227cc8a698c608cc3552695"
+    },
+    {
+      "file": "iron-golem-08.png",
+      "bytes": 56750,
+      "sha256": "49c7942895bfb6a35cbf8057b591c9e1a584b1a73ffd2832d58704ad93656f2f"
+    },
+    {
+      "file": "iron-golem-09.png",
+      "bytes": 56743,
+      "sha256": "e20cfa9a6db4e25772f7ab2fa1998d558bac866e9eb42426297b28266c092292"
+    },
+    {
+      "file": "iron-golem-10.png",
+      "bytes": 56743,
+      "sha256": "bbe9e5d58bc581b35b433459598f50f8d536ecd7a876738afed6ab7fdac8fe44"
+    },
+    {
+      "file": "iron-golem-11.png",
+      "bytes": 56866,
+      "sha256": "eb5be7bf64d143f846df8706bc84ea376c71bc263554b155ee8c5113dcbc5381"
+    },
+    {
+      "file": "iron-golem-12.png",
+      "bytes": 56804,
+      "sha256": "998a55e279420c29b74ec1113a3a507b3089f025e0fb7ed49ebf8542028ae494"
+    },
+    {
+      "file": "iron-golem-13.png",
+      "bytes": 56765,
+      "sha256": "e18aecfbfd4005fe7c3cc8f0a87648824d088eac13ab85f9818a44d23a7f5715"
+    },
+    {
+      "file": "iron-golem-14.png",
+      "bytes": 56728,
+      "sha256": "bbe68555ebdf6f5096c3a79117642f49f7aafb82601fec41ed356b2e02a0784f"
+    },
+    {
+      "file": "iron-golem-15.png",
+      "bytes": 56732,
+      "sha256": "447124c29bfc04f2869da769912905080323bd1b1ef9e6cf214694ccebe67c0d"
+    },
+    {
+      "file": "iron-golem-16.png",
+      "bytes": 56349,
+      "sha256": "1f9d7a40a66eaea46aa800c6925fa4c2f262a7908643885bfd916da49efabb92"
+    },
+    {
+      "file": "iron-golem-17.png",
+      "bytes": 56521,
+      "sha256": "b39b8fa65d381b84ab45359894b95c6d1a97041b5d70a2d93d100f8f175e5945"
+    },
+    {
+      "file": "iron-golem-18.png",
+      "bytes": 56831,
+      "sha256": "398a04a2416f450e8a26cf042f76f33ff5623d18bef07e41f9702562e9931e11"
+    },
+    {
+      "file": "iron-golem-19.png",
+      "bytes": 56568,
+      "sha256": "4276cba28b03ba720499048e1eefe7a1d9c1b1cad9bbf0af708a528e90044392"
+    },
+    {
+      "file": "iron-golem-20.png",
+      "bytes": 56587,
+      "sha256": "63a381b620417a548557807abd2232e075124747941b727c89a2ae1e313f2d13"
+    },
+    {
+      "file": "iron-golem-21.png",
+      "bytes": 56553,
+      "sha256": "b218aa85c96522142c646089970e193072fd5e290db5e1912896bfdb2072da91"
+    },
+    {
+      "file": "iron-golem-22.png",
+      "bytes": 56556,
+      "sha256": "3ec1f5778f25e135364525ab06cb762ce38e8fd2bb4e402cc0d9cce68d1122b0"
+    },
+    {
+      "file": "iron-golem-23.png",
+      "bytes": 56679,
+      "sha256": "a9b2a76dc5df1ede39417eb32f67095a70b2b2e5aedb853cdf9d46a8575d9473"
+    },
+    {
+      "file": "iron-golem-24.png",
+      "bytes": 56670,
+      "sha256": "3eebdeeb74a791f3d899a1df81bfa8938d401e854c16c94d9c283cae0e42c1fa"
+    },
+    {
+      "file": "iron-golem-25.png",
+      "bytes": 56733,
+      "sha256": "18d79aa2c57e3ae90d735de3bdbcac43bda6208cf08167c6820aa4fa2c8efe8e"
+    },
+    {
+      "file": "iron-golem-26.png",
+      "bytes": 56765,
+      "sha256": "fee2f77dde7d62ec5c7e8c8768136e656320cbabdbab44ca7025da2343621a94"
+    },
+    {
+      "file": "iron-golem-27.png",
+      "bytes": 56603,
+      "sha256": "eb8752a5cc073337adfb1079535e51292255d86a14a5307959e7961c743fc379"
+    },
+    {
+      "file": "iron-golem-28.png",
+      "bytes": 56542,
+      "sha256": "7f24c163a99c734b2aa2a4552dda60c48278418fd6f7612b5848f0f1173726c5"
+    },
+    {
+      "file": "iron-golem-29.png",
+      "bytes": 56444,
+      "sha256": "a32cc22684c6270befb3e06b4a1ae81601c7ff68cd4792a6e8245c2134e9d7b8"
+    },
+    {
+      "file": "iron-golem-30.png",
+      "bytes": 56496,
+      "sha256": "192dc595cbd46917024bd856d824d890ef8507d86e75d37ce79f2df41507965a"
+    },
+    {
+      "file": "iron-golem-31.png",
+      "bytes": 56533,
+      "sha256": "eed7d8c01feaec888f1c6c740c9de2cce5a025a833c9bed723109d9fa23e7197"
+    }
+  ],
+  "runner": {
+    "file": "assets/imagegen/mire-golems/verify-native.mjs",
+    "sha256": "36023137b107abe3572b9a6089e3f39a05d928bd68a680f0f0bef7b86d48bb18"
+  },
+  "limitations": [
+    "Bounded native field preview only; no full route, encounter choreography or combat claim.",
+    "Native animation/timing lists are byte-identical, but static scrubbing does not establish live encounter transitions.",
+    "This bank exceeds its original decoded allowance and require explicit selected-family streaming; no default guard bypass is proposed.",
+    "Independent-core validation remains an integration check."
+  ],
+  "activation": false
+}

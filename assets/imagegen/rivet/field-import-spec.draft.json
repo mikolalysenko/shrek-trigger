@@ -1,0 +1,677 @@
+{
+  "key": "rivet",
+  "sourceType": "image-generation",
+  "width": 48,
+  "height": 48,
+  "palette": [
+    "242b35",
+    "51433f",
+    "806044",
+    "ba945b",
+    "dfc38a",
+    "f5e9bc",
+    "2e5358",
+    "4d8382",
+    "91b7ac",
+    "683d43",
+    "bc5b4c",
+    "f6db69"
+  ],
+  "directory": "assets/imagegen/rivet/field-draft",
+  "sheets": [
+    {
+      "file": "assets/imagegen/rivet/source-field-base-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 30,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 44,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "cells": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "overrides": {
+        "6": {
+          "dx": 4
+        },
+        "7": {
+          "dx": 7
+        },
+        "8": {
+          "dx": 6
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/rivet/source-field-riding-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 27,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 44,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {
+        "0": {
+          "bottom": 43
+        },
+        "1": {
+          "bottom": 47
+        },
+        "2": {
+          "bottom": 46
+        },
+        "3": {
+          "bottom": 42
+        },
+        "4": {
+          "bottom": 46
+        },
+        "5": {
+          "bottom": 45
+        },
+        "6": {
+          "bottom": 46
+        },
+        "7": {
+          "bottom": 45
+        },
+        "8": {
+          "bottom": 44,
+          "dx": 1
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/rivet/source-walk-a-v2.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 30,
+      "scaleCells": [
+        0
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 45,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    },
+    {
+      "file": "assets/imagegen/rivet/source-walk-b-v2.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 30,
+      "scaleCells": [
+        0
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 45,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        7,
+        8,
+        9,
+        {
+          "frame": 9,
+          "flip": true
+        },
+        16,
+        17,
+        10,
+        11,
+        12,
+        {
+          "frame": 12,
+          "flip": true
+        },
+        4,
+        5,
+        6,
+        3,
+        13,
+        14,
+        {
+          "frame": 13,
+          "flip": true,
+          "dy": -1
+        },
+        {
+          "frame": 14,
+          "flip": true,
+          "dy": -1
+        },
+        15,
+        {
+          "frame": 9,
+          "dy": 1
+        },
+        {
+          "frame": 4,
+          "flip": true
+        }
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "18 actual generated poses reproduce the original25 native roles. Right-facing source mirror pairs and native23 exact reuse follow the audited source. Native wheel bob, unfolding steam, two front gait contacts and right-facing24 are explicit; no blank slot invented."
+      }
+    }
+  },
+  "notes": {
+    "status": "Inactive field candidate; separate race/minimap sources still required",
+    "nativeCells": 4,
+    "anchor": [
+      0,
+      3
+    ],
+    "frameCellOrigins": [
+      [
+        [
+          24,
+          13
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          8,
+          29
+        ]
+      ],
+      [
+        [
+          24,
+          13
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          8,
+          29
+        ]
+      ],
+      [
+        [
+          24,
+          13
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          8,
+          29
+        ]
+      ],
+      [
+        [
+          24,
+          13
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          8,
+          29
+        ]
+      ],
+      [
+        [
+          24,
+          12
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          24,
+          28
+        ],
+        [
+          8,
+          28
+        ]
+      ],
+      [
+        [
+          24,
+          16
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          24,
+          32
+        ],
+        [
+          8,
+          32
+        ]
+      ],
+      [
+        [
+          24,
+          15
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          24,
+          31
+        ],
+        [
+          8,
+          31
+        ]
+      ],
+      [
+        [
+          24,
+          15
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          24,
+          31
+        ],
+        [
+          8,
+          31
+        ]
+      ],
+      [
+        [
+          24,
+          14
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          8,
+          30
+        ]
+      ],
+      [
+        [
+          24,
+          14
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          8,
+          30
+        ]
+      ],
+      [
+        [
+          24,
+          11
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          24,
+          27
+        ],
+        [
+          8,
+          27
+        ]
+      ],
+      [
+        [
+          24,
+          15
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          24,
+          31
+        ],
+        [
+          8,
+          31
+        ]
+      ],
+      [
+        [
+          24,
+          14
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          8,
+          30
+        ]
+      ],
+      [
+        [
+          24,
+          14
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          8,
+          30
+        ]
+      ],
+      [
+        [
+          31,
+          16
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          15,
+          29
+        ]
+      ],
+      [
+        [
+          31,
+          16
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          15,
+          29
+        ]
+      ],
+      [
+        [
+          31,
+          16
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          15,
+          29
+        ]
+      ],
+      [
+        [
+          24,
+          13
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          23,
+          29
+        ],
+        [
+          7,
+          29
+        ]
+      ],
+      [
+        [
+          24,
+          15
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          24,
+          31
+        ],
+        [
+          8,
+          31
+        ]
+      ],
+      [
+        [
+          24,
+          14
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          8,
+          30
+        ]
+      ],
+      [
+        [
+          24,
+          14
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          8,
+          30
+        ]
+      ],
+      [
+        [
+          24,
+          13
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          8,
+          29
+        ]
+      ],
+      [
+        [
+          26,
+          13
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          26,
+          29
+        ],
+        [
+          10,
+          29
+        ]
+      ],
+      [
+        [
+          24,
+          16
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          24,
+          32
+        ],
+        [
+          8,
+          32
+        ]
+      ],
+      [
+        [
+          17,
+          13
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          17,
+          29
+        ],
+        [
+          1,
+          32
+        ]
+      ]
+    ],
+    "nativeOriginalOffsetsPreserved": true,
+    "geometry": "48×48 logical sampling canvas, exactly four original16×16 cell origins and original signed XY bytes for each frame; no additional VRAM, no overlap, no clipping.",
+    "sourcePoses": 18,
+    "unusedSourceBaseCells": [
+      3,
+      4
+    ],
+    "unusedSourceReason": "Both initial gait contacts incorrectly led with the same foot; replaced by two actual separately generated opposite-foot/opposite-arm poses.",
+    "npcAnimation": 77,
+    "enemyAnimation": 142
+  }
+}

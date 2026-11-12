@@ -1,0 +1,18 @@
+{
+  "sourceType": "image-generation",
+  "source": "source-body-v1.png",
+  "sourceSha256": "91bec8b8adfa7fb7a4aaffba9d66596516d1dcd7a7de3e69fd08d8b068fd3060",
+  "samplingSpec": "body-spec-0.95.json",
+  "samplingAudit": "body-sample-0.95/preview-import.json",
+  "sampledPixelSha256": "ae7a7084deb32910f0c1193350d6bca023e1aa69a042cd8d38c2e5489fea70ad",
+  "operation": "Reflect every sampled left-half pixel into the right half, matching the original native horizontal BG tile reuse.",
+  "output": "source-body-native-v1.png",
+  "outputSha256": "46167c13caca43ee657d8bfb0e74587fd05e76e4b79e8be04848d2c45dc2573b",
+  "nativePixelSha256": "c4e0e60767f259229ad4b5a4960da1f2ef137f67dc8a4d22d63e50ddf19ab5da",
+  "width": 112,
+  "height": 152,
+  "opaquePixels": 9484,
+  "opaquePixelsOutsideOriginalOwnedCells": 0,
+  "hardwarePaletteChanged": false,
+  "reasonForScaleX": "A consistent0.95 horizontal source sampling scale is the widest tested value that preserves all native source pixels within the original owned body cells and the repeated buried edge tile. Scale1 has8 opaque pixels outside the owned map cells."
+}

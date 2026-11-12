@@ -1,0 +1,19 @@
+{
+  "key": "sky-drake-world",
+  "palette": ["393139","ffffff","ffbd94","ff8c6b","b5635a","8c4a42","6b424a","524239","524239","524239","524239","524239"],
+  "sheets": [
+    {
+      "file": "assets/imagegen/sky-drakes/source-world-v2.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 30,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "scaleCells": [0],
+      "backgroundMask": {"key": "00ffff", "tolerance": 110},
+      "sample": {"method": "area", "coverageThreshold": 0.4, "bottom": 30},
+      "overrides": {"8": {"bottom": 23}}
+    }
+  ],
+  "sequences": {"native": {"1": [0, 1, 2, 3, 4, 5, 6, 7, 8]}}
+}

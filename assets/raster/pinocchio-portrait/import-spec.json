@@ -1,0 +1,73 @@
+{
+  "samplingPalette": [
+    "23180c",
+    "805327",
+    "b58d5e",
+    "dbc392",
+    "bcd6d6",
+    "641721",
+    "aa3d37",
+    "113c49",
+    "e7f4eb",
+    "49300f",
+    "c79519",
+    "228bb2"
+  ],
+  "key": "pinocchio-portrait",
+  "sourceType": "existing-game-model-render",
+  "directory": "assets/raster/pinocchio-model/portrait",
+  "width": 48,
+  "height": 48,
+  "palette": [
+    "342823",
+    "99623e",
+    "cf9b61",
+    "f1c887",
+    "f4e3c2",
+    "a73334",
+    "db6151",
+    "24475a",
+    "ffefcf",
+    "3c2a26",
+    "e3b441",
+    "2e6b90"
+  ],
+  "sheets": [
+    {
+      "file": "assets/raster/pinocchio-model/portrait/source.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 46,
+      "scaleCells": [
+        0
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "bottom": 47
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "notes": {
+    "source": "Original Shrek SuperSlam cutscene model from FliQuaDv. No geometry or texture replacement.",
+    "posing": "Locally lowered arms; static source face; no game animation clip supplied.",
+    "camera": {
+      "yaw": -12,
+      "elevation": 3,
+      "scale": 550,
+      "center": [
+        0,
+        1.37,
+        0
+      ]
+    }
+  }
+}

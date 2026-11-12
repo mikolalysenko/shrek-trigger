@@ -1,0 +1,748 @@
+{
+  "status": "Parsed current source contexts; bounded native execution not yet performed",
+  "sourceDialogue": "dialogue-context-audit.json",
+  "warning": "A loaded object can be a hidden event controller. Calls in its functions do not by themselves identify the visible speaker.",
+  "locations": [
+    {
+      "location": 5,
+      "name": "Millenial Fair",
+      "objects": [
+        12,
+        27,
+        28
+      ],
+      "loads": [
+        {
+          "offset": 1816,
+          "id": 79,
+          "owners": [
+            {
+              "object": 12,
+              "function": 0,
+              "start": 1816
+            }
+          ]
+        },
+        {
+          "offset": 2498,
+          "id": 79,
+          "owners": [
+            {
+              "object": 27,
+              "function": 0,
+              "start": 2498
+            }
+          ]
+        },
+        {
+          "offset": 2539,
+          "id": 79,
+          "owners": [
+            {
+              "object": 28,
+              "function": 0,
+              "start": 2539
+            }
+          ]
+        }
+      ],
+      "role": "Fair race attendant and two festival bystanders",
+      "messageIds": [
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        24,
+        3
+      ],
+      "notes": "Three NPC79 loads; race choices and princess-recognition dialogue.",
+      "paletteCommands": [],
+      "sourceEventSha256": "f52bae84bf9c6eda1710f5280d7d52507b3e547f00b518b5456c4f090824b69e"
+    },
+    {
+      "location": 12,
+      "name": "Truce Inn (Present)",
+      "objects": [
+        10,
+        12
+      ],
+      "loads": [
+        {
+          "offset": 1467,
+          "id": 14,
+          "owners": [
+            {
+              "object": 10,
+              "function": 0,
+              "start": 1458
+            }
+          ]
+        },
+        {
+          "offset": 1675,
+          "id": 14,
+          "owners": [
+            {
+              "object": 12,
+              "function": 0,
+              "start": 1666
+            }
+          ]
+        }
+      ],
+      "role": "Inn patrons",
+      "messageIds": [
+        75,
+        76,
+        77,
+        79,
+        80,
+        81,
+        82
+      ],
+      "notes": "Two NPC14 patrons discuss the fair, earthquakes and the Chancellor.",
+      "paletteCommands": [],
+      "sourceEventSha256": "6889ee2926966509a7a99027a843c9436fe79cfbe492a9dc17d2da20bcf18c04"
+    },
+    {
+      "location": 13,
+      "name": "Truce Mayor's Manor 1F",
+      "objects": [
+        10
+      ],
+      "loads": [
+        {
+          "offset": 591,
+          "id": 14,
+          "owners": [
+            {
+              "object": 10,
+              "function": 0,
+              "start": 591
+            }
+          ]
+        }
+      ],
+      "role": "Civic tutorial demonstrator",
+      "messageIds": [
+        89,
+        90
+      ],
+      "notes": "Save-point explanation in the mayor building.",
+      "paletteCommands": [],
+      "sourceEventSha256": "1c0b06031ab16c816cedf3efe43ecf3d4163f085c929bc7a14d6305650995cac"
+    },
+    {
+      "location": 14,
+      "name": "Truce Mayor's Manor 2F",
+      "objects": [
+        10
+      ],
+      "loads": [
+        {
+          "offset": 605,
+          "id": 14,
+          "owners": [
+            {
+              "object": 10,
+              "function": 0,
+              "start": 600
+            }
+          ]
+        }
+      ],
+      "role": "Civic tutorial demonstrator",
+      "messageIds": [
+        115
+      ],
+      "notes": "Battle escape and equipment-stat explanation.",
+      "paletteCommands": [],
+      "sourceEventSha256": "39b574c53b923933af449781b5cde2e584a2da2f57c49d44e06d9dd07f523186"
+    },
+    {
+      "location": 16,
+      "name": "Truce Happy Screaming Couple Residence",
+      "objects": [
+        8
+      ],
+      "loads": [
+        {
+          "offset": 355,
+          "id": 14,
+          "owners": [
+            {
+              "object": 8,
+              "function": 0,
+              "start": 355
+            }
+          ]
+        }
+      ],
+      "role": "Household resident",
+      "messageIds": [
+        35,
+        36,
+        37
+      ],
+      "notes": "Festival and parade gossip. Current source still contains unadapted original pronouns.",
+      "paletteCommands": [],
+      "sourceEventSha256": "07c8db26590183e1a9c8a697cd9d58b9ce6b700af21c157567b53282f9a15ed3"
+    },
+    {
+      "location": 18,
+      "name": "Truce Ticket Office",
+      "objects": [
+        10
+      ],
+      "loads": [
+        {
+          "offset": 486,
+          "id": 14,
+          "owners": [
+            {
+              "object": 10,
+              "function": 0,
+              "start": 486
+            }
+          ]
+        }
+      ],
+      "role": "Ticket-office visitor",
+      "messageIds": [
+        72
+      ],
+      "notes": "Discusses the nearby whirlpool.",
+      "paletteCommands": [],
+      "sourceEventSha256": "1952a4f86e2fa51dee9b2b29644dc5c01d71dd64dda0a11977f3e8c0a4970ae6"
+    },
+    {
+      "location": 24,
+      "name": "Guardia Kitchen (Present)",
+      "objects": [
+        14
+      ],
+      "loads": [
+        {
+          "offset": 1184,
+          "id": 14,
+          "owners": [
+            {
+              "object": 14,
+              "function": 0,
+              "start": 1184
+            }
+          ]
+        }
+      ],
+      "role": "Castle kitchen civilian",
+      "messageIds": [
+        70,
+        121,
+        151
+      ],
+      "notes": "Existing rewritten kitchen hospitality/chef dialogue; does not justify permanent chef equipment.",
+      "paletteCommands": [],
+      "sourceEventSha256": "7526963e42fb60ac7e537802bb2f501c9d51e18ea49658c1894da4b05c2d7a06"
+    },
+    {
+      "location": 27,
+      "name": "Courtroom",
+      "objects": [
+        16
+      ],
+      "loads": [
+        {
+          "offset": 1620,
+          "id": 79,
+          "owners": [
+            {
+              "object": 16,
+              "function": 0,
+              "start": 1620
+            }
+          ]
+        }
+      ],
+      "role": "Off-map trial controller",
+      "messageIds": [],
+      "notes": "NPC79 object16 starts at tile[0,0] and directs dialogue for several speakers. Do not cast this model as Charming, Pierre or the Judge merely because their string calls are in its script.",
+      "paletteCommands": [],
+      "sourceEventSha256": "5aa44f344dafbefce4dc945a3a8bd7f03f49fa86ad26ded7d1dd08928eb74d44"
+    },
+    {
+      "location": 32,
+      "name": "Zenan Bridge (Present)",
+      "objects": [
+        10,
+        11
+      ],
+      "loads": [
+        {
+          "offset": 691,
+          "id": 14,
+          "owners": [
+            {
+              "object": 10,
+              "function": 0,
+              "start": 691
+            }
+          ]
+        },
+        {
+          "offset": 715,
+          "id": 14,
+          "owners": [
+            {
+              "object": 11,
+              "function": 0,
+              "start": 715
+            }
+          ]
+        }
+      ],
+      "role": "Bridge travelers",
+      "messageIds": [
+        47
+      ],
+      "notes": "Two NPC14 loads, both heading to the Duloc fair.",
+      "paletteCommands": [],
+      "sourceEventSha256": "f4ef49d0c63fb54af3d50764cd814316bc0664053184aafa9eab51d135c0d9f2"
+    },
+    {
+      "location": 52,
+      "name": "Porre Residence (Present)",
+      "objects": [
+        8
+      ],
+      "loads": [
+        {
+          "offset": 367,
+          "id": 14,
+          "owners": [
+            {
+              "object": 8,
+              "function": 0,
+              "start": 367
+            }
+          ]
+        }
+      ],
+      "role": "Family house sitter",
+      "messageIds": [
+        40
+      ],
+      "notes": "Looks after the house while grandparents visit the anniversary fair.",
+      "paletteCommands": [],
+      "sourceEventSha256": "3a123f7f79eed691b610f15077c708f475876d356d8d863f652953b7a1f12aab"
+    },
+    {
+      "location": 53,
+      "name": "Snail Stop",
+      "objects": [
+        12
+      ],
+      "loads": [
+        {
+          "offset": 615,
+          "id": 14,
+          "owners": [
+            {
+              "object": 12,
+              "function": 0,
+              "start": 615
+            }
+          ]
+        }
+      ],
+      "role": "Tavern lore patron",
+      "messageIds": [
+        44,
+        45
+      ],
+      "notes": "Describes the forest restoration branch; original Fiona/metal-creature wording is outside this art task.",
+      "paletteCommands": [],
+      "sourceEventSha256": "e1c147b2f5f60816e6858f7af0bd1fe6d0ae4c2043e142076bce0803145b852d"
+    },
+    {
+      "location": 62,
+      "name": "Choras Inn (Present)",
+      "objects": [
+        12
+      ],
+      "loads": [
+        {
+          "offset": 941,
+          "id": 79,
+          "owners": [
+            {
+              "object": 12,
+              "function": 0,
+              "start": 938
+            }
+          ]
+        }
+      ],
+      "role": "Traveling merchant",
+      "messageIds": [
+        56
+      ],
+      "notes": "Visiting from Porre and asking for sales.",
+      "paletteCommands": [],
+      "sourceEventSha256": "822c7051e0d9d8c5c03ac6cc11bc74c4651da7497b6866f19fdaa9efb9f20fa0"
+    },
+    {
+      "location": 80,
+      "name": "Millenial Fair (Ending: Moonlight Parade)",
+      "objects": [
+        35
+      ],
+      "loads": [
+        {
+          "offset": 3048,
+          "id": 79,
+          "owners": [
+            {
+              "object": 35,
+              "function": 0,
+              "start": 3048
+            }
+          ]
+        }
+      ],
+      "role": "Seated parade spectator",
+      "messageIds": [
+        56
+      ],
+      "notes": "NPC79 explicitly uses AA4 plus original opcode33 argument7; preserve and check actual CGRAM during future native proof.",
+      "paletteCommands": [
+        {
+          "offset": 3050,
+          "args": [
+            7
+          ],
+          "owners": [
+            {
+              "object": 35,
+              "function": 0,
+              "start": 3048
+            }
+          ]
+        }
+      ],
+      "sourceEventSha256": "6d388d4b78aadb2922d32119214065cdc5591b09064cc084039cbe0b0deb2b8c"
+    },
+    {
+      "location": 91,
+      "name": "Ending: People of the Times (Part 1)",
+      "objects": [
+        4
+      ],
+      "loads": [
+        {
+          "offset": 750,
+          "id": 14,
+          "owners": [
+            {
+              "object": 4,
+              "function": 0,
+              "start": 750
+            }
+          ]
+        }
+      ],
+      "role": "People-of-the-Times ending double",
+      "messageIds": [],
+      "notes": "Source scene loads NPC14 and holds frame2. No dialogue attribution is invented.",
+      "paletteCommands": [],
+      "sourceEventSha256": "e8c94761d2662ba6b27b9716b85a26afa8a05d3d9c20e2777d153f66a212aefa"
+    },
+    {
+      "location": 158,
+      "name": "Fiona's Villa",
+      "objects": [
+        9
+      ],
+      "loads": [
+        {
+          "offset": 541,
+          "id": 79,
+          "owners": [
+            {
+              "object": 9,
+              "function": 0,
+              "start": 536
+            }
+          ]
+        }
+      ],
+      "role": "Marco, returning husband and forest-restoration participant",
+      "messageIds": [
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "notes": "Named adult reuse is the strongest reason to keep an ordinary human rather than a mascot, child or occupation-specific costume.",
+      "paletteCommands": [],
+      "sourceEventSha256": "0609b7344d9e522c06e803da2384229ad5e7277ae868ceca25bef4cd65aa63fd"
+    },
+    {
+      "location": 188,
+      "name": "Choras Cafe",
+      "objects": [
+        14
+      ],
+      "loads": [
+        {
+          "offset": 795,
+          "id": 79,
+          "owners": [
+            {
+              "object": 14,
+              "function": 0,
+              "start": 795
+            }
+          ]
+        }
+      ],
+      "role": "Cafe patron",
+      "messageIds": [
+        58,
+        61
+      ],
+      "notes": "Discusses the Northern Ruins and grave.",
+      "paletteCommands": [],
+      "sourceEventSha256": "7b642ef5e4ca64cc3d03b3909f10276e4997295fc0783588b326ab98bec73fc2"
+    },
+    {
+      "location": 204,
+      "name": "Guardia Forest Frog King Battle",
+      "objects": [
+        4
+      ],
+      "loads": [
+        {
+          "offset": 732,
+          "id": 79,
+          "owners": [
+            {
+              "object": 4,
+              "function": 0,
+              "start": 727
+            }
+          ]
+        }
+      ],
+      "role": "Forest ending / Frog King scene double",
+      "messageIds": [],
+      "notes": "NPC79 holds native frame5 in the existing choreography. No combat role is assigned to this non-enemy header.",
+      "paletteCommands": [],
+      "sourceEventSha256": "5bca5bbf5a658bf4204fff2104e68b8e2148e3f8a48a94752bbb31db1a0ffb96"
+    },
+    {
+      "location": 338,
+      "name": "Present Age Home Room (Ending: The Dream Project)",
+      "objects": [
+        12
+      ],
+      "loads": [
+        {
+          "offset": 576,
+          "id": 14,
+          "owners": [
+            {
+              "object": 12,
+              "function": 0,
+              "start": 576
+            }
+          ]
+        }
+      ],
+      "role": "Dream Project developer cameo",
+      "messageIds": [
+        39
+      ],
+      "notes": "Existing Yoshinori Ogura cameo; art does not rename the speaker.",
+      "paletteCommands": [],
+      "sourceEventSha256": "86964f2d92074a912345b4a6357910a6f057ae56e9818dcb3bebe4f7b0d05be3"
+    },
+    {
+      "location": 340,
+      "name": "Dark Age Ocean Palace Room (Ending: The Dream Project)",
+      "objects": [
+        13
+      ],
+      "loads": [
+        {
+          "offset": 552,
+          "id": 14,
+          "owners": [
+            {
+              "object": 13,
+              "function": 0,
+              "start": 552
+            }
+          ]
+        }
+      ],
+      "role": "Dream Project developer cameo",
+      "messageIds": [
+        53
+      ],
+      "notes": "Existing Akihiko Matsui cameo.",
+      "paletteCommands": [],
+      "sourceEventSha256": "a08aa0b8634d1a1287c8af0267cd12757c95333f40da65194cebb468f1b97eb6"
+    },
+    {
+      "location": 378,
+      "name": "Future Age Room (Ending: The Dream Project)",
+      "objects": [
+        9,
+        10
+      ],
+      "loads": [
+        {
+          "offset": 506,
+          "id": 14,
+          "owners": [
+            {
+              "object": 9,
+              "function": 0,
+              "start": 506
+            }
+          ]
+        },
+        {
+          "offset": 519,
+          "id": 14,
+          "owners": [
+            {
+              "object": 10,
+              "function": 0,
+              "start": 519
+            }
+          ]
+        }
+      ],
+      "role": "Two Dream Project developer cameos",
+      "messageIds": [
+        8,
+        9
+      ],
+      "notes": "Existing Kazuo Suzuki and Shun Moriya cameos.",
+      "paletteCommands": [],
+      "sourceEventSha256": "ada8688b12d848dc8f67e56636c98bd7dd31f168ad41236970ad7c0a80313152"
+    },
+    {
+      "location": 379,
+      "name": "End of Time (Ending: The Dream Project)",
+      "objects": [
+        10
+      ],
+      "loads": [
+        {
+          "offset": 861,
+          "id": 79,
+          "owners": [
+            {
+              "object": 10,
+              "function": 0,
+              "start": 861
+            }
+          ]
+        }
+      ],
+      "role": "Dream Project developer cameo with startled action",
+      "messageIds": [
+        35
+      ],
+      "notes": "Existing Hiroki Chiba cameo; script requests AA3 then B4.",
+      "paletteCommands": [],
+      "sourceEventSha256": "3aefae9d59409e373bf60538dccb0e882eeb22e493a2c9bd9d7f75c480119b56"
+    },
+    {
+      "location": 438,
+      "name": "Courtroom King's Trial",
+      "objects": [
+        11
+      ],
+      "loads": [
+        {
+          "offset": 1968,
+          "id": 14,
+          "owners": [
+            {
+              "object": 11,
+              "function": 0,
+              "start": 1968
+            }
+          ]
+        }
+      ],
+      "role": "Merchant accomplice in the royal trial",
+      "messageIds": [
+        76
+      ],
+      "notes": "NPC14 object11 starts drawing-off and later has the merchant/chancellor exchange; preserve reveal staging.",
+      "paletteCommands": [],
+      "sourceEventSha256": "54a2f25be238244cf45ef61152c6d2bf10980ee43509ae402a3967ffad954e2f"
+    },
+    {
+      "location": 439,
+      "name": "Leene Square",
+      "objects": [
+        10,
+        16,
+        17
+      ],
+      "loads": [
+        {
+          "offset": 1758,
+          "id": 79,
+          "owners": [
+            {
+              "object": 10,
+              "function": 0,
+              "start": 1758
+            }
+          ]
+        },
+        {
+          "offset": 2191,
+          "id": 79,
+          "owners": [
+            {
+              "object": 16,
+              "function": 0,
+              "start": 2191
+            }
+          ]
+        },
+        {
+          "offset": 2212,
+          "id": 79,
+          "owners": [
+            {
+              "object": 17,
+              "function": 0,
+              "start": 2212
+            }
+          ]
+        }
+      ],
+      "role": "Fair attendants and bystanders",
+      "messageIds": [
+        3,
+        56,
+        59
+      ],
+      "notes": "Three NPC79 loads; princess recognition, Donkey sparring directions and setup chatter.",
+      "paletteCommands": [],
+      "sourceEventSha256": "9ddfd83d6fdf6de884c63301270c71ca28ab6f0ca1745510f4bf128bdbcdacd6"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "tool": "built-in image_gen__imagegen",
+  "sourceType": "image-generation",
+  "file": "assets/imagegen/native-guards/source-actions-v1.png",
+  "sha256": "ddaa0cf1254ea4d65033ff460f3c28dea02aa4aa916fe3061f4403c665266e31",
+  "prompt": "assets/imagegen/native-guards/prompt-actions-v1.txt",
+  "promptSha256": "c6daa5612f6e61a98814d2def1090fc817bcc45e07b9545039dd042c3e1d04eb",
+  "reference": {
+    "file": "assets/imagegen/native-guards/source-base-v1.png",
+    "sha256": "9ca43bc6ed11d4cf24a9f42a776b11b009757529b5cf580ecf61be79ec7e6b90"
+  },
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "requestedPoses": 12,
+  "review": "Selected source cells2/3/5/7/9/10 only; all six complete poses fit four cells. Windups0/1 and sweep cells4/6/8 are rejected/excluded; spare11 is measurement-only.",
+  "evidence": {
+    "sourceSelection": "assets/imagegen/native-guards/source-selection.json",
+    "native": "assets/imagegen/native-guards/native-verification/manifest.json",
+    "motion": "assets/imagegen/native-guards/motion-verification/manifest.json"
+  }
+}

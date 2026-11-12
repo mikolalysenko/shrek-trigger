@@ -1,0 +1,19 @@
+# Supply Keeper generated source packet
+
+Inactive body and overlay artwork for the abandoned fairy-tale attraction Storekeeper. All artwork comes from actual built-in image generation. No production engine, registry, map, dialogue, music, or cartridge is changed by this packet.
+
+Review `compound-2x.png`, `motion.html`, and `scene-verification/battle.png`. The carved timber face, aged brass service arms, shutter, keyhole and dangling counterweight replace the old simple drawings. The three visible overlays use generated brass warning lamps, a glowing keyhole and curled energy trails. Original frame 3 stays blank.
+
+`source-body-v1.png`, its targeted correction `source-body-v2.png`, and `source-overlays-v1.png` are pristine generated outputs. Exact prompts, reference hashes and generation paths are recorded beside them. The actual source is reduced to the unchanged twelve-color hardware palette. Complete mechanical regions are resampled to fit the original stepped background footprint; the generated left half and two cable segments are reflected/repeated exactly as the native tile dictionary requires. Every transform is in `body-derivation.json` and `overlay-derivation.json`.
+
+The body retains BG186, its 4,096 decoded bytes, 94 owned tiles, and all 34 untouched architecture tiles. All 184 references in the later map 20 match map 123 with exactly Y−80. Tileset43, maps123/20, palette57, reveal/scrolling, AI, stats and collision remain unchanged. Palette202 has only enemy212 as owner and no palette pointer aliases; no palette is recolored.
+
+The overlay retains size6, twelve 16×16 cells, four native IDs and 480 assembly bytes. Its transparent staging canvas is 64×64 with anchor `[0,16]`, giving the original actor origin `[-32,-48]`. Use the complete `draft/family.json` geometry: the anchor is already applied in `draft/assembly.bin`. The keyhole component is placed at source canvas Y40 so it aligns with the generated body under the real native attachment. The observed body-local actor anchor is `[64,120]`, identical in the saved baseline and candidate. No extra OAM/VRAM reservation is required.
+
+The decoded overlay bank is 1,344 bytes: +128 versus the original and +256 versus the previous project artwork. The strict old decoded-size guard therefore needs an explicit root integration decision; this packet does not bypass it. The real encounter heap measured 6,944 of 32,768 bytes. The new compressed overlay is 863 bytes, and the body is 1,960 bytes. All memory and ownership facts are in the two draft audits and `handoff.json`.
+
+`node assets/imagegen/supply-keeper/reproduce-draft.mjs` rebuilds only this inactive packet. It verifies every frozen derived output byte-for-byte. The source ROM remains local and is not included. Native checks use an in-memory art-only overlay of the explicitly pinned saved cartridge `2e2a574e…`; the final private fingerprint is `91d5021ce3b69b94d6371517fac337c5ab78ef85f724199cbbdab01690cf157c`.
+
+Evidence includes four exact native uploads, all 1,872 opaque overlay pixels, 1,280 exact native animation ticks, complete background VRAM/palette checks, and 8,284 exact body framebuffer pixels with zero mismatches. The original reveal, three-target battle, aftermath dialogue/flag and food-store return passed using ordinary controller input after the authorized diagnostic seed. Frame0 appeared naturally on that quick strong-loadout route; frames1/2 and the original 15/15/47-tick motion are separately verified through the native field animation queue. No claim is made that all attack modes occurred in that encounter.
+
+Location346/map20 also initialized through its normal native loader with the exact shared BG and palette. Its full later shell-pattern finale choreography, independent-core validation and canonical integration remain root-owned. Source/model/compound approval was provided by the art lead and root; the packet stays inactive until root integrates it.

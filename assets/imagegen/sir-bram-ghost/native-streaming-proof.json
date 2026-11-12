@@ -1,0 +1,1419 @@
+{
+  "status": "Frozen private native integration research; inactive",
+  "date": "2026-10-31",
+  "activeChanges": false,
+  "canonicalRomWritten": false,
+  "productionGuard": {
+    "path": "engine/npc-graphics-streaming.js",
+    "sha256": "17d9ec0c69b90e778df81d163a496c2f7f55ba15a33979cf27a80985b9272a46",
+    "stillRequiresExclusivelyFourCellOwners": true,
+    "changedByThisWork": false,
+    "requiredIntegration": "Root must add an explicit per-family native-streamed budget contract checking all emitted owners. Preserve the strict original decoded-budget guard for other families. Rebuild compressed and raw payloads together and rerun proof on the actual emitted ROM."
+  },
+  "privatePatchScope": "Only raw pointer entries, approved raw artwork, approved native assembly cell offsets, isolated Mirror palette, and checksums. Original native helper/copier bytes are unchanged.",
+  "helpers": {
+    "table": 8220672,
+    "enemyEntry": 12601197,
+    "enemyHelper": 8221753,
+    "npcEntry": 12600862,
+    "npcHelper": 8221696,
+    "helperBytes": 57,
+    "sourceObjectFields": [
+      4608,
+      4736
+    ],
+    "genericCopier": {
+      "entry": 12641974,
+      "address": 16249264,
+      "bytes": 157,
+      "sha256": "59aabaf967930af7eb21e1b9cac80c40f6a0e965e0ecebedd3571b006c7c3aa0"
+    },
+    "extraWramBytes": 0,
+    "extraVramBytes": 0,
+    "scratch": "Native D9/E3 only in selector; no new scratch. Generic copier PHX/PLX balances stack, preserves DB/DP, and reuses native WRAM staging/epilogue.",
+    "rawBounds": "Every tested raw payload is 32-byte aligned and remains inside one ExHiROM lower half; max native tile index is below1024."
+  },
+  "nativeSourceProof": {
+    "size1": {
+      "dispatcher": 12635893,
+      "bankLoad": "1200,X -> CF",
+      "addressLoad": "1280,X -> CD",
+      "destination": "D2=7F is the WRAM destination, not a source restriction",
+      "bytesPerFrame": 1024,
+      "cells": 8
+    },
+    "size2": {
+      "dispatcher": 12637431,
+      "bankLoad": "1200,X -> CF",
+      "addressLoad": "1280,X -> CD",
+      "destination": "D2=7F is the WRAM destination",
+      "bytesPerFrame": 1536,
+      "cells": 12,
+      "frameUploadOffsets": [
+        0,
+        512,
+        256,
+        768,
+        1024,
+        1536
+      ]
+    },
+    "battle": {
+      "fieldExport": "C00601..C00612: object1200/1280 ->29CA/29C8",
+      "battleImport": "CCEAC4..CCEACF:29CA/29C8 ->1C62/1C60",
+      "sourceBank": "C11CA0 loads1C59+actor*3; C11CE6 PLB selects that bank",
+      "copy": "C11D5A indexed absolute reads honor DB; flipped path C11DDB uses the same DB",
+      "bound": "Offset+32*tile remains inside the selected raw bank",
+      "diagnosticScope": "Normal battle engine, original enemy headers, AI and animation. QA event supplies native actor/formation commands; no CPU PC/stack/VRAM writes."
+    }
+  },
+  "limitations": [
+    "These hashes are private descendants of the earlier npc-rom-stream prototype, not the later375e33ec production milestone.",
+    "Private standard compressed pointers intentionally remain from the input prototype; raw-selected native rendering is proven, but this is not a distributable candidate.",
+    "Size class3 /24-cell actors were not tested.",
+    "All field frames were independently checked in Snes9x and bsnes. Battle pixel proof here uses the JS native core; original story choreography remains outside this narrow renderer proof."
+  ],
+  "key": "sir-bram-ghost",
+  "rom": {
+    "file": ".local/qa/large-native-proof/shrek-trigger.sfc",
+    "sha256": "c4fee0d2aaaf98a255f77a4273480893fc31612dab6b92004aa74afe4de0ad88",
+    "inputFile": ".local/qa/horner-native-proof/shrek-trigger.sfc",
+    "inputSha256": "f225c2a55be245e9dcef0275cbd598fbaba860342a829a26e2f4693e186ba174"
+  },
+  "selected": {
+    "gfx": 181,
+    "asm": 178,
+    "palette": 209,
+    "size": 2,
+    "owners": [
+      {
+        "kind": "enemy",
+        "id": 143,
+        "header": [
+          181,
+          178,
+          209,
+          136,
+          2,
+          0,
+          224,
+          16,
+          32,
+          17
+        ]
+      }
+    ],
+    "frames": 21,
+    "rawAddress": 8060928,
+    "rawBytes": 19712,
+    "compressedBytes": 16626,
+    "assemblyBytes": 2520,
+    "rawSha256": "83bc33fce91336f03b766d719c588188f6bec5bc500a8e7748a6fbffc9350845",
+    "assemblySha256": "77540ccfdd795190d6d14050f32b4d24f6fb117c32bfcad28a48684fd1834637"
+  },
+  "pixels": {
+    "sourceFile": "assets/imagegen/sir-bram-ghost/preview-raster.json",
+    "frameMapFile": "assets/imagegen/sir-bram-ghost/native-frame-map.draft.json",
+    "canvas": [
+      64,
+      64
+    ],
+    "frames": [
+      {
+        "id": 0,
+        "role": "rear contact A",
+        "sourceIndex": 0,
+        "flip": false,
+        "pixelSha256": "4948283ee92f3caf975a9b1b11db8fecc99038c431035d3b64f37613336fb0df",
+        "x": -1,
+        "y": 1,
+        "frameCellOrigins": [
+          [
+            12,
+            16
+          ],
+          [
+            28,
+            16
+          ],
+          [
+            7,
+            32
+          ],
+          [
+            23,
+            32
+          ],
+          [
+            39,
+            32
+          ],
+          [
+            7,
+            48
+          ],
+          [
+            23,
+            48
+          ],
+          [
+            39,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            48,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 1,
+        "role": "rear idle/passing",
+        "sourceIndex": 1,
+        "flip": false,
+        "pixelSha256": "462afda92587a8fa863d1c2440f4ad0a308eb838b61d4b18d37f775aa52bc478",
+        "x": 1,
+        "y": 0,
+        "frameCellOrigins": [
+          [
+            8,
+            16
+          ],
+          [
+            24,
+            16
+          ],
+          [
+            3,
+            32
+          ],
+          [
+            19,
+            32
+          ],
+          [
+            35,
+            32
+          ],
+          [
+            4,
+            48
+          ],
+          [
+            20,
+            48
+          ],
+          [
+            36,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            48,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "role": "rear contact B",
+        "sourceIndex": 2,
+        "flip": false,
+        "pixelSha256": "13c09c10a46039bdf81742d01ebbb33b74d46929942e2f3ead43abcc8c5c5e55",
+        "x": 4,
+        "y": 1,
+        "frameCellOrigins": [
+          [
+            5,
+            16
+          ],
+          [
+            21,
+            16
+          ],
+          [
+            4,
+            32
+          ],
+          [
+            20,
+            32
+          ],
+          [
+            36,
+            32
+          ],
+          [
+            4,
+            48
+          ],
+          [
+            20,
+            48
+          ],
+          [
+            36,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            48,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "role": "front contact A",
+        "sourceIndex": 3,
+        "flip": false,
+        "pixelSha256": "c4cf579fbbd25a8504ae623d664be77598f0e00eac2e06f18b44bfed293e9100",
+        "x": 2,
+        "y": 2,
+        "frameCellOrigins": [
+          [
+            10,
+            16
+          ],
+          [
+            26,
+            16
+          ],
+          [
+            0,
+            32
+          ],
+          [
+            16,
+            32
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            48,
+            32
+          ],
+          [
+            0,
+            48
+          ],
+          [
+            16,
+            48
+          ],
+          [
+            32,
+            48
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "role": "front idle/passing",
+        "sourceIndex": 20,
+        "flip": false,
+        "pixelSha256": "81f995eb825f9815c716f823f8d76fdd957fa95f758c73962499fa68c78a4c1d",
+        "x": 1,
+        "y": 0,
+        "frameCellOrigins": [
+          [
+            10,
+            16
+          ],
+          [
+            26,
+            16
+          ],
+          [
+            7,
+            32
+          ],
+          [
+            23,
+            32
+          ],
+          [
+            39,
+            32
+          ],
+          [
+            6,
+            48
+          ],
+          [
+            22,
+            48
+          ],
+          [
+            38,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            48,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "role": "front contact B",
+        "sourceIndex": 5,
+        "flip": false,
+        "pixelSha256": "47107a0454c2edd1c41a1716fdda78f75fae81756b091512ecf0eb3511bdedb0",
+        "x": 0,
+        "y": 2,
+        "frameCellOrigins": [
+          [
+            9,
+            16
+          ],
+          [
+            25,
+            16
+          ],
+          [
+            7,
+            32
+          ],
+          [
+            23,
+            32
+          ],
+          [
+            39,
+            32
+          ],
+          [
+            7,
+            48
+          ],
+          [
+            23,
+            48
+          ],
+          [
+            39,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            48,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "role": "left contact A",
+        "sourceIndex": 6,
+        "flip": false,
+        "pixelSha256": "7a0462d9f37c0a1d0a817ae4cdbad9ed6c46c4e7621de9382bb19c8b953e8717",
+        "x": -3,
+        "y": -1,
+        "frameCellOrigins": [
+          [
+            5,
+            16
+          ],
+          [
+            21,
+            16
+          ],
+          [
+            7,
+            32
+          ],
+          [
+            23,
+            32
+          ],
+          [
+            39,
+            32
+          ],
+          [
+            8,
+            48
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            40,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            48,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "role": "left idle/passing",
+        "sourceIndex": 7,
+        "flip": false,
+        "pixelSha256": "be4265d7eff00f1a8e91cedb0759dbcba2639d01eb4617800d9dba438bbc764f",
+        "x": -2,
+        "y": 0,
+        "frameCellOrigins": [
+          [
+            6,
+            16
+          ],
+          [
+            22,
+            16
+          ],
+          [
+            1,
+            32
+          ],
+          [
+            17,
+            32
+          ],
+          [
+            33,
+            32
+          ],
+          [
+            3,
+            48
+          ],
+          [
+            19,
+            48
+          ],
+          [
+            35,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            48,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "role": "left contact B",
+        "sourceIndex": 8,
+        "flip": false,
+        "pixelSha256": "0eb6014a455f5187672fe75afc59f14a7bae32700b497f9bada9b2c7b31168db",
+        "x": -2,
+        "y": -1,
+        "frameCellOrigins": [
+          [
+            5,
+            16
+          ],
+          [
+            21,
+            16
+          ],
+          [
+            8,
+            32
+          ],
+          [
+            24,
+            32
+          ],
+          [
+            40,
+            32
+          ],
+          [
+            8,
+            48
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            40,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            48,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "role": "right contact A",
+        "sourceIndex": 9,
+        "flip": false,
+        "pixelSha256": "bca91e7398dd0cf79ad891590146b1b6f2a1ed3f6c2fd23bbc2420891038f4f0",
+        "x": 4,
+        "y": -1,
+        "frameCellOrigins": [
+          [
+            18,
+            16
+          ],
+          [
+            34,
+            16
+          ],
+          [
+            0,
+            32
+          ],
+          [
+            16,
+            32
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            48,
+            32
+          ],
+          [
+            8,
+            48
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            40,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "role": "right idle/passing",
+        "sourceIndex": 10,
+        "flip": false,
+        "pixelSha256": "35ff1cae11467a23c617f385098ae0193ca0d5df09c04cc1c55d3067e1bc28cf",
+        "x": 3,
+        "y": 0,
+        "frameCellOrigins": [
+          [
+            15,
+            16
+          ],
+          [
+            31,
+            16
+          ],
+          [
+            5,
+            32
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            37,
+            32
+          ],
+          [
+            2,
+            48
+          ],
+          [
+            18,
+            48
+          ],
+          [
+            34,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            48,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "role": "right contact B",
+        "sourceIndex": 11,
+        "flip": false,
+        "pixelSha256": "442c9e26bed189db7cc62c5a913171027d6bb6e98cde781efeacfd6f21b0d92e",
+        "x": 3,
+        "y": -1,
+        "frameCellOrigins": [
+          [
+            16,
+            16
+          ],
+          [
+            32,
+            16
+          ],
+          [
+            0,
+            32
+          ],
+          [
+            16,
+            32
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            48,
+            32
+          ],
+          [
+            0,
+            48
+          ],
+          [
+            16,
+            48
+          ],
+          [
+            32,
+            48
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "role": "left wind-up",
+        "sourceIndex": 12,
+        "flip": false,
+        "pixelSha256": "22340655266683a599e947ff6d335391374978be67ee796bcec846401c275139",
+        "x": -2,
+        "y": 0,
+        "frameCellOrigins": [
+          [
+            6,
+            0
+          ],
+          [
+            5,
+            16
+          ],
+          [
+            21,
+            16
+          ],
+          [
+            9,
+            32
+          ],
+          [
+            25,
+            32
+          ],
+          [
+            41,
+            32
+          ],
+          [
+            7,
+            48
+          ],
+          [
+            23,
+            48
+          ],
+          [
+            39,
+            48
+          ],
+          [
+            22,
+            0
+          ],
+          [
+            38,
+            0
+          ],
+          [
+            37,
+            16
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "role": "frontal downward strike",
+        "sourceIndex": 13,
+        "flip": false,
+        "pixelSha256": "b017c2dfdd56bce8a4f4258a30f53a0da776b2541b8b45cd65978ff781f8cf17",
+        "x": 5,
+        "y": 0,
+        "frameCellOrigins": [
+          [
+            7,
+            16
+          ],
+          [
+            23,
+            16
+          ],
+          [
+            39,
+            16
+          ],
+          [
+            11,
+            32
+          ],
+          [
+            27,
+            32
+          ],
+          [
+            43,
+            32
+          ],
+          [
+            4,
+            48
+          ],
+          [
+            20,
+            48
+          ],
+          [
+            36,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            32,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 14,
+        "role": "left high follow-through",
+        "sourceIndex": 14,
+        "flip": false,
+        "pixelSha256": "0fee74f0352c18708455f5cabcdfb6fd0481ff5345d61f11c52536018a8fa217",
+        "x": 7,
+        "y": 0,
+        "frameCellOrigins": [
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            16
+          ],
+          [
+            22,
+            16
+          ],
+          [
+            8,
+            32
+          ],
+          [
+            24,
+            32
+          ],
+          [
+            40,
+            32
+          ],
+          [
+            7,
+            48
+          ],
+          [
+            23,
+            48
+          ],
+          [
+            39,
+            48
+          ],
+          [
+            22,
+            0
+          ],
+          [
+            38,
+            0
+          ],
+          [
+            38,
+            16
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "role": "right wind-up",
+        "sourceIndex": 15,
+        "flip": false,
+        "pixelSha256": "ede43115d4db0c7bbdc58e4e4c6812c33c483277a5bb93908bef091042dbf672",
+        "x": 3,
+        "y": 0,
+        "frameCellOrigins": [
+          [
+            38,
+            0
+          ],
+          [
+            25,
+            16
+          ],
+          [
+            41,
+            16
+          ],
+          [
+            6,
+            32
+          ],
+          [
+            22,
+            32
+          ],
+          [
+            38,
+            32
+          ],
+          [
+            4,
+            48
+          ],
+          [
+            20,
+            48
+          ],
+          [
+            36,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ]
+        ]
+      },
+      {
+        "id": 16,
+        "role": "right high follow-through",
+        "sourceIndex": 16,
+        "flip": false,
+        "pixelSha256": "1b81fa5516d425f2d66dc347c92354d48df79dd63fdf0872f88678ad98d58631",
+        "x": -6,
+        "y": 0,
+        "frameCellOrigins": [
+          [
+            41,
+            0
+          ],
+          [
+            26,
+            16
+          ],
+          [
+            42,
+            16
+          ],
+          [
+            7,
+            32
+          ],
+          [
+            23,
+            32
+          ],
+          [
+            39,
+            32
+          ],
+          [
+            4,
+            48
+          ],
+          [
+            20,
+            48
+          ],
+          [
+            36,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "role": "front overhead threat",
+        "sourceIndex": 17,
+        "flip": false,
+        "pixelSha256": "2b0036560725bf569e0501ac46bfb7cb333ca01b0b7e20a2860546af482a869d",
+        "x": 7,
+        "y": 0,
+        "frameCellOrigins": [
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            16
+          ],
+          [
+            24,
+            16
+          ],
+          [
+            5,
+            32
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            37,
+            32
+          ],
+          [
+            6,
+            48
+          ],
+          [
+            22,
+            48
+          ],
+          [
+            38,
+            48
+          ],
+          [
+            24,
+            0
+          ],
+          [
+            40,
+            0
+          ],
+          [
+            40,
+            16
+          ]
+        ]
+      },
+      {
+        "id": 18,
+        "role": "left reach/taunt",
+        "sourceIndex": 18,
+        "flip": true,
+        "pixelSha256": "0dbecbb0dac5f89e03259239041e5054d477e944d2604b27570e9bb7c5525fca",
+        "x": 1,
+        "y": 0,
+        "frameCellOrigins": [
+          [
+            41,
+            0
+          ],
+          [
+            10,
+            16
+          ],
+          [
+            26,
+            16
+          ],
+          [
+            42,
+            16
+          ],
+          [
+            7,
+            32
+          ],
+          [
+            23,
+            32
+          ],
+          [
+            39,
+            32
+          ],
+          [
+            10,
+            48
+          ],
+          [
+            26,
+            48
+          ],
+          [
+            42,
+            48
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 19,
+        "role": "right reach/taunt",
+        "sourceIndex": 19,
+        "flip": false,
+        "pixelSha256": "e7f8eb0a3401b83e2ce187e977077bd5babec81a4e9f40986e0c80de7e6688cf",
+        "x": -1,
+        "y": 0,
+        "frameCellOrigins": [
+          [
+            12,
+            0
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            29,
+            16
+          ],
+          [
+            45,
+            16
+          ],
+          [
+            0,
+            32
+          ],
+          [
+            16,
+            32
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            48,
+            32
+          ],
+          [
+            3,
+            48
+          ],
+          [
+            19,
+            48
+          ],
+          [
+            35,
+            48
+          ],
+          [
+            28,
+            0
+          ]
+        ]
+      },
+      {
+        "id": 20,
+        "role": "armor dispersal",
+        "sourceIndex": 21,
+        "flip": false,
+        "pixelSha256": "33cec8164a04cfb34d54c0c7605248214c7f5b1f6952a8dbabc8eb6580f09ba6",
+        "x": 6,
+        "y": 20,
+        "frameCellOrigins": [
+          [
+            15,
+            16
+          ],
+          [
+            31,
+            16
+          ],
+          [
+            47,
+            16
+          ],
+          [
+            0,
+            32
+          ],
+          [
+            16,
+            32
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            48,
+            32
+          ],
+          [
+            0,
+            48
+          ],
+          [
+            16,
+            48
+          ],
+          [
+            32,
+            48
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  "field": {
+    "jsExactUploads": 21,
+    "snes9xExactUploads": 21,
+    "snes9xNativePixelFrames": 21,
+    "bsnesNativePixelFrames": 21,
+    "previewHeapBytes": 960,
+    "armorDispersal20Verified": true,
+    "animationPreview": "Native size2 animation queue. Diagnostic frame descriptors select immutable program0 bytes so native slot20 remains testable without changing animation136.",
+    "sceneLegacyBound": {
+      "file": "assets/imagegen/sir-bram-ghost/heap-audit.json",
+      "allConditionalDecodedBytes": 26112,
+      "nativeSpriteHeapBytes": 32768,
+      "marginBytes": 6656,
+      "status": "Earlier separate original-loader proof retained; raw path additionally verified in this artifact."
+    }
+  },
+  "battle": {
+    "checks": {
+      "name": "sir-bram-ghost",
+      "formation": [
+        143,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "scope": "Diagnostic native battle event, original headers/AI/animation, full sprite pixels verified",
+      "checks": [
+        {
+          "enemy": 143,
+          "frame": 4,
+          "x": 136,
+          "y": 111,
+          "source": 8060928,
+          "opaquePixelsVerified": 1305,
+          "nativeColors": 12
+        }
+      ]
+    },
+    "nativeHandoffVerified": true
+  },
+  "evidence": {
+    ".local/qa/large-native-proof/manifest.json": "a3ae16d9659712f27a44036d1b922c9dff0ffb8dfaa7120a7c6c6e4b069b9101",
+    ".local/qa/large-native-proof/js-report.json": "da725843382ea57f169225c1cd6f2ff5789f9c5af6585caba3e9eb1893de489d",
+    ".local/qa/large-native-proof/independent-report.json": "c2100605dc0bff2762e615aea07570c9dffa0891f1fdced61a439fe3a5c5a194",
+    ".local/qa/large-native-proof/battle-report.json": "7784ab6c67e03428276a84d530ac1bc46693b077f8723c79750dd303873f5e03",
+    "assets/imagegen/sir-bram-ghost/preview-raster.json": "532ab8d7ae68f99837c19a7a986404afd081217cab34d2c8236dfd10221bd192",
+    "assets/imagegen/sir-bram-ghost/native-frame-map.draft.json": "cab415471a092fb43beb88d49eb82b842b2acb03cad77ae5de2969bb0eae94a5",
+    "assets/imagegen/sir-bram-ghost/heap-audit.json": "a0fe7b951aec4514053c8413f08e943dfffea2ab4177fff137687122b146d3ec",
+    ".local/large-native-proof.mjs": "76ae686ebdb9cd56392dab4fea3bb17a393a0840ae43946988f8289663584626",
+    ".local/large-native-proof-cores.mjs": "14e69c33ca6650892e326d239ee874af29c55386d18509d336c4faafa040803d",
+    ".local/large-native-proof-battle.mjs": "12f7522d5eb1d1a4a8070279605ae221e0a8fd9c7655000151b9c5d55546d3b5"
+  }
+}

@@ -1,0 +1,2812 @@
+{
+  "status": "passed",
+  "scope": "Native AA event animation execution in an isolated field object; exact original frame lists and durations, two complete cycles per selected action and owner. Not full encounter transition order.",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "candidateSha256": "a7da90b56794cab5e5034f1598662bc6db42817384a5b7237b9879a70eeffd72",
+  "core": "repository SNES JS native 65816/PPU",
+  "cases": 38,
+  "cycles": 76,
+  "exactNativeVideoTicks": 3628,
+  "nativeProgramBytesUnchanged": true,
+  "cpuRegistersOrPpuNotPatched": true,
+  "cartridgeUnchanged": true,
+  "reports": [
+    {
+      "family": "pods",
+      "key": "thorn-pod",
+      "enemy": 41,
+      "palette": 101,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "neutral opening",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 80,
+          "exactVramUploads": 80,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 70,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/thorn-pod-animation-1-direction-1.json",
+          "traceSha256": "69251522da4edd0a226e762443d42d95f7448bf9a662cc27f85362dd83e720fb",
+          "screenshot": "timed/thorn-pod-animation-1-direction-1.png"
+        },
+        {
+          "role": "hit",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            3
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/thorn-pod-animation-5-direction-1.json",
+          "traceSha256": "28db58d34f90ab98cfae77b7d64af089100bded945710ac21309f7c16a315841",
+          "screenshot": "timed/thorn-pod-animation-5-direction-1.png"
+        },
+        {
+          "role": "translated recoil",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            12,
+            13
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 12,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 13,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 12,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 13,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/thorn-pod-animation-7-direction-1.json",
+          "traceSha256": "77bf3557c7468a6909fd0b6a35477916adfd044a43d9ceb5060f26733f6a5e3f",
+          "screenshot": "timed/thorn-pod-animation-7-direction-1.png"
+        },
+        {
+          "role": "rear bite",
+          "animation": 8,
+          "facing": 0,
+          "frames": [
+            0,
+            4,
+            5,
+            4
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "script": 75074,
+          "alignmentTicks": 26,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/thorn-pod-animation-8-direction-0.json",
+          "traceSha256": "c9a79ce10901dcbf2172b4a9a1703581f3f85d724b284a1a4131a514674bf120",
+          "screenshot": "timed/thorn-pod-animation-8-direction-0.png"
+        },
+        {
+          "role": "front bite",
+          "animation": 8,
+          "facing": 1,
+          "frames": [
+            0,
+            6,
+            7,
+            6
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "script": 75074,
+          "alignmentTicks": 26,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 6,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/thorn-pod-animation-8-direction-1.json",
+          "traceSha256": "6dfeb282f60940afcd97ab65f06671f8054ce8afbbfc2fe7539a1b69615f9339",
+          "screenshot": "timed/thorn-pod-animation-8-direction-1.png"
+        },
+        {
+          "role": "left bite",
+          "animation": 8,
+          "facing": 2,
+          "frames": [
+            0,
+            8,
+            9,
+            8
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "script": 75074,
+          "alignmentTicks": 26,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 8,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/thorn-pod-animation-8-direction-2.json",
+          "traceSha256": "2b0ea792fd84a3698eb45e063c199c33aa7066514621ea17a0e163026513844e",
+          "screenshot": "timed/thorn-pod-animation-8-direction-2.png"
+        },
+        {
+          "role": "right bite",
+          "animation": 8,
+          "facing": 3,
+          "frames": [
+            0,
+            10,
+            11,
+            10
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "script": 75074,
+          "alignmentTicks": 26,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/thorn-pod-animation-8-direction-3.json",
+          "traceSha256": "d84a21c463888d8872c64ea0ca71931d3dfb187ed035c232847229ae1c5d28ff",
+          "screenshot": "timed/thorn-pod-animation-8-direction-3.png"
+        }
+      ]
+    },
+    {
+      "family": "pods",
+      "key": "sewer-pod",
+      "enemy": 42,
+      "palette": 100,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "neutral opening",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 80,
+          "exactVramUploads": 80,
+          "script": 75074,
+          "alignmentTicks": 36,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 70,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/sewer-pod-animation-1-direction-1.json",
+          "traceSha256": "69251522da4edd0a226e762443d42d95f7448bf9a662cc27f85362dd83e720fb",
+          "screenshot": "timed/sewer-pod-animation-1-direction-1.png"
+        },
+        {
+          "role": "hit",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            3
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/sewer-pod-animation-5-direction-1.json",
+          "traceSha256": "28db58d34f90ab98cfae77b7d64af089100bded945710ac21309f7c16a315841",
+          "screenshot": "timed/sewer-pod-animation-5-direction-1.png"
+        },
+        {
+          "role": "translated recoil",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            12,
+            13
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 12,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 13,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 12,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 13,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/sewer-pod-animation-7-direction-1.json",
+          "traceSha256": "77bf3557c7468a6909fd0b6a35477916adfd044a43d9ceb5060f26733f6a5e3f",
+          "screenshot": "timed/sewer-pod-animation-7-direction-1.png"
+        },
+        {
+          "role": "rear bite",
+          "animation": 8,
+          "facing": 0,
+          "frames": [
+            0,
+            4,
+            5,
+            4
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "script": 75074,
+          "alignmentTicks": 26,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/sewer-pod-animation-8-direction-0.json",
+          "traceSha256": "c9a79ce10901dcbf2172b4a9a1703581f3f85d724b284a1a4131a514674bf120",
+          "screenshot": "timed/sewer-pod-animation-8-direction-0.png"
+        },
+        {
+          "role": "front bite",
+          "animation": 8,
+          "facing": 1,
+          "frames": [
+            0,
+            6,
+            7,
+            6
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "script": 75074,
+          "alignmentTicks": 26,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 6,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/sewer-pod-animation-8-direction-1.json",
+          "traceSha256": "6dfeb282f60940afcd97ab65f06671f8054ce8afbbfc2fe7539a1b69615f9339",
+          "screenshot": "timed/sewer-pod-animation-8-direction-1.png"
+        },
+        {
+          "role": "left bite",
+          "animation": 8,
+          "facing": 2,
+          "frames": [
+            0,
+            8,
+            9,
+            8
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "script": 75074,
+          "alignmentTicks": 26,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 8,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/sewer-pod-animation-8-direction-2.json",
+          "traceSha256": "2b0ea792fd84a3698eb45e063c199c33aa7066514621ea17a0e163026513844e",
+          "screenshot": "timed/sewer-pod-animation-8-direction-2.png"
+        },
+        {
+          "role": "right bite",
+          "animation": 8,
+          "facing": 3,
+          "frames": [
+            0,
+            10,
+            11,
+            10
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "script": 75074,
+          "alignmentTicks": 26,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/sewer-pod-animation-8-direction-3.json",
+          "traceSha256": "d84a21c463888d8872c64ea0ca71931d3dfb187ed035c232847229ae1c5d28ff",
+          "screenshot": "timed/sewer-pod-animation-8-direction-3.png"
+        }
+      ]
+    },
+    {
+      "family": "bats",
+      "key": "lantern-bat",
+      "enemy": 82,
+      "palette": 80,
+      "fullSizeByte": 64,
+      "cases": [
+        {
+          "role": "idle flight (two adjacent identical rows)",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            10,
+            15,
+            10,
+            15,
+            10,
+            15,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 200,
+          "exactVramUploads": 200,
+          "script": 75074,
+          "alignmentTicks": 91,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 0,
+              "phase": 4,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 65,
+              "loop": 0,
+              "phase": 5,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 75,
+              "loop": 0,
+              "phase": 6,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 0,
+              "phase": 7,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 115,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 125,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 150,
+              "loop": 1,
+              "phase": 4,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 165,
+              "loop": 1,
+              "phase": 5,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 175,
+              "loop": 1,
+              "phase": 6,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 190,
+              "loop": 1,
+              "phase": 7,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/lantern-bat-animation-0-direction-1.json",
+          "traceSha256": "a178c888650c1ff34725f89bb84d5ce49d33e65a2efb7d6a7c1e990ee7c33fa1",
+          "screenshot": "timed/lantern-bat-animation-0-direction-1.png"
+        },
+        {
+          "role": "moving flight",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            10,
+            15,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 100,
+          "exactVramUploads": 100,
+          "script": 75074,
+          "alignmentTicks": 41,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 65,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/lantern-bat-animation-1-direction-1.json",
+          "traceSha256": "20224975589315214535151d25ad36a1be037f50453ac17decbd6f3f42b0ab09",
+          "screenshot": "timed/lantern-bat-animation-1-direction-1.png"
+        },
+        {
+          "role": "tilted recoil",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            3
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/lantern-bat-animation-5-direction-1.json",
+          "traceSha256": "752ab53182ba2db404076a1b9fc0a784ac8ebbe35d73efbf41bc2c8b01dea1ad",
+          "screenshot": "timed/lantern-bat-animation-5-direction-1.png"
+        },
+        {
+          "role": "claws rising",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            31,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 124,
+          "exactVramUploads": 124,
+          "script": 75074,
+          "alignmentTicks": 37,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 31
+            },
+            {
+              "tick": 62,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 31
+            },
+            {
+              "tick": 93,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/lantern-bat-animation-6-direction-1.json",
+          "traceSha256": "0b4419faa0713852c9b2662f9a1181e9c522f3bf0fce7ab455a1451922b1f782",
+          "screenshot": "timed/lantern-bat-animation-6-direction-1.png"
+        },
+        {
+          "role": "raised claws and dark face",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            4,
+            5,
+            6
+          ],
+          "durations": [
+            21,
+            10,
+            40
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 142,
+          "exactVramUploads": 142,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 21
+            },
+            {
+              "tick": 21,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 31,
+              "loop": 0,
+              "phase": 2,
+              "frame": 6,
+              "duration": 40
+            },
+            {
+              "tick": 71,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 21
+            },
+            {
+              "tick": 92,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 102,
+              "loop": 1,
+              "phase": 2,
+              "frame": 6,
+              "duration": 40
+            }
+          ],
+          "trace": "timed/lantern-bat-animation-7-direction-1.json",
+          "traceSha256": "6cb5cffec5ac65eadc86b466cb3e248031d1f90a0f6fcc8737a9a19ff4d2176a",
+          "screenshot": "timed/lantern-bat-animation-7-direction-1.png"
+        },
+        {
+          "role": "recovery",
+          "animation": 8,
+          "facing": 1,
+          "frames": [
+            6,
+            2
+          ],
+          "durations": [
+            21,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 104,
+          "exactVramUploads": 104,
+          "script": 75074,
+          "alignmentTicks": 37,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 21
+            },
+            {
+              "tick": 21,
+              "loop": 0,
+              "phase": 1,
+              "frame": 2,
+              "duration": 31
+            },
+            {
+              "tick": 52,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 21
+            },
+            {
+              "tick": 73,
+              "loop": 1,
+              "phase": 1,
+              "frame": 2,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/lantern-bat-animation-8-direction-1.json",
+          "traceSha256": "3efc0e76e411a38d090298dc8ad2e242b999ec4eb00f612c268ecdcbfdaf0de2",
+          "screenshot": "timed/lantern-bat-animation-8-direction-1.png"
+        }
+      ]
+    },
+    {
+      "family": "bats",
+      "key": "bog-bat",
+      "enemy": 83,
+      "palette": 81,
+      "fullSizeByte": 64,
+      "cases": [
+        {
+          "role": "idle flight (two adjacent identical rows)",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            10,
+            15,
+            10,
+            15,
+            10,
+            15,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 200,
+          "exactVramUploads": 200,
+          "script": 75074,
+          "alignmentTicks": 91,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 0,
+              "phase": 4,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 65,
+              "loop": 0,
+              "phase": 5,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 75,
+              "loop": 0,
+              "phase": 6,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 0,
+              "phase": 7,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 115,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 125,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 150,
+              "loop": 1,
+              "phase": 4,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 165,
+              "loop": 1,
+              "phase": 5,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 175,
+              "loop": 1,
+              "phase": 6,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 190,
+              "loop": 1,
+              "phase": 7,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/bog-bat-animation-0-direction-1.json",
+          "traceSha256": "a178c888650c1ff34725f89bb84d5ce49d33e65a2efb7d6a7c1e990ee7c33fa1",
+          "screenshot": "timed/bog-bat-animation-0-direction-1.png"
+        },
+        {
+          "role": "moving flight",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            10,
+            15,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 100,
+          "exactVramUploads": 100,
+          "script": 75074,
+          "alignmentTicks": 41,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 65,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/bog-bat-animation-1-direction-1.json",
+          "traceSha256": "20224975589315214535151d25ad36a1be037f50453ac17decbd6f3f42b0ab09",
+          "screenshot": "timed/bog-bat-animation-1-direction-1.png"
+        },
+        {
+          "role": "tilted recoil",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            3
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/bog-bat-animation-5-direction-1.json",
+          "traceSha256": "752ab53182ba2db404076a1b9fc0a784ac8ebbe35d73efbf41bc2c8b01dea1ad",
+          "screenshot": "timed/bog-bat-animation-5-direction-1.png"
+        },
+        {
+          "role": "claws rising",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            31,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 124,
+          "exactVramUploads": 124,
+          "script": 75074,
+          "alignmentTicks": 37,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 31
+            },
+            {
+              "tick": 62,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 31
+            },
+            {
+              "tick": 93,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/bog-bat-animation-6-direction-1.json",
+          "traceSha256": "0b4419faa0713852c9b2662f9a1181e9c522f3bf0fce7ab455a1451922b1f782",
+          "screenshot": "timed/bog-bat-animation-6-direction-1.png"
+        },
+        {
+          "role": "raised claws and dark face",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            4,
+            5,
+            6
+          ],
+          "durations": [
+            21,
+            10,
+            40
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 142,
+          "exactVramUploads": 142,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 21
+            },
+            {
+              "tick": 21,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 31,
+              "loop": 0,
+              "phase": 2,
+              "frame": 6,
+              "duration": 40
+            },
+            {
+              "tick": 71,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 21
+            },
+            {
+              "tick": 92,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 102,
+              "loop": 1,
+              "phase": 2,
+              "frame": 6,
+              "duration": 40
+            }
+          ],
+          "trace": "timed/bog-bat-animation-7-direction-1.json",
+          "traceSha256": "6cb5cffec5ac65eadc86b466cb3e248031d1f90a0f6fcc8737a9a19ff4d2176a",
+          "screenshot": "timed/bog-bat-animation-7-direction-1.png"
+        },
+        {
+          "role": "recovery",
+          "animation": 8,
+          "facing": 1,
+          "frames": [
+            6,
+            2
+          ],
+          "durations": [
+            21,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 104,
+          "exactVramUploads": 104,
+          "script": 75074,
+          "alignmentTicks": 37,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 21
+            },
+            {
+              "tick": 21,
+              "loop": 0,
+              "phase": 1,
+              "frame": 2,
+              "duration": 31
+            },
+            {
+              "tick": 52,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 21
+            },
+            {
+              "tick": 73,
+              "loop": 1,
+              "phase": 1,
+              "frame": 2,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/bog-bat-animation-8-direction-1.json",
+          "traceSha256": "3efc0e76e411a38d090298dc8ad2e242b999ec4eb00f612c268ecdcbfdaf0de2",
+          "screenshot": "timed/bog-bat-animation-8-direction-1.png"
+        }
+      ]
+    },
+    {
+      "family": "bats",
+      "key": "ember-bat",
+      "enemy": 213,
+      "palette": 82,
+      "fullSizeByte": 64,
+      "cases": [
+        {
+          "role": "idle flight (two adjacent identical rows)",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            10,
+            15,
+            10,
+            15,
+            10,
+            15,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 200,
+          "exactVramUploads": 200,
+          "script": 75074,
+          "alignmentTicks": 91,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 0,
+              "phase": 4,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 65,
+              "loop": 0,
+              "phase": 5,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 75,
+              "loop": 0,
+              "phase": 6,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 0,
+              "phase": 7,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 115,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 125,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 150,
+              "loop": 1,
+              "phase": 4,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 165,
+              "loop": 1,
+              "phase": 5,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 175,
+              "loop": 1,
+              "phase": 6,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 190,
+              "loop": 1,
+              "phase": 7,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/ember-bat-animation-0-direction-1.json",
+          "traceSha256": "a178c888650c1ff34725f89bb84d5ce49d33e65a2efb7d6a7c1e990ee7c33fa1",
+          "screenshot": "timed/ember-bat-animation-0-direction-1.png"
+        },
+        {
+          "role": "moving flight",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            10,
+            15,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 100,
+          "exactVramUploads": 100,
+          "script": 75074,
+          "alignmentTicks": 41,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 65,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/ember-bat-animation-1-direction-1.json",
+          "traceSha256": "20224975589315214535151d25ad36a1be037f50453ac17decbd6f3f42b0ab09",
+          "screenshot": "timed/ember-bat-animation-1-direction-1.png"
+        },
+        {
+          "role": "tilted recoil",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            3
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/ember-bat-animation-5-direction-1.json",
+          "traceSha256": "752ab53182ba2db404076a1b9fc0a784ac8ebbe35d73efbf41bc2c8b01dea1ad",
+          "screenshot": "timed/ember-bat-animation-5-direction-1.png"
+        },
+        {
+          "role": "claws rising",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            31,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 124,
+          "exactVramUploads": 124,
+          "script": 75074,
+          "alignmentTicks": 37,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 31
+            },
+            {
+              "tick": 62,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 31
+            },
+            {
+              "tick": 93,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/ember-bat-animation-6-direction-1.json",
+          "traceSha256": "0b4419faa0713852c9b2662f9a1181e9c522f3bf0fce7ab455a1451922b1f782",
+          "screenshot": "timed/ember-bat-animation-6-direction-1.png"
+        },
+        {
+          "role": "raised claws and dark face",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            4,
+            5,
+            6
+          ],
+          "durations": [
+            21,
+            10,
+            40
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 142,
+          "exactVramUploads": 142,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 21
+            },
+            {
+              "tick": 21,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 31,
+              "loop": 0,
+              "phase": 2,
+              "frame": 6,
+              "duration": 40
+            },
+            {
+              "tick": 71,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 21
+            },
+            {
+              "tick": 92,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 102,
+              "loop": 1,
+              "phase": 2,
+              "frame": 6,
+              "duration": 40
+            }
+          ],
+          "trace": "timed/ember-bat-animation-7-direction-1.json",
+          "traceSha256": "6cb5cffec5ac65eadc86b466cb3e248031d1f90a0f6fcc8737a9a19ff4d2176a",
+          "screenshot": "timed/ember-bat-animation-7-direction-1.png"
+        },
+        {
+          "role": "recovery",
+          "animation": 8,
+          "facing": 1,
+          "frames": [
+            6,
+            2
+          ],
+          "durations": [
+            21,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 104,
+          "exactVramUploads": 104,
+          "script": 75074,
+          "alignmentTicks": 37,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 21
+            },
+            {
+              "tick": 21,
+              "loop": 0,
+              "phase": 1,
+              "frame": 2,
+              "duration": 31
+            },
+            {
+              "tick": 52,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 21
+            },
+            {
+              "tick": 73,
+              "loop": 1,
+              "phase": 1,
+              "frame": 2,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/ember-bat-animation-8-direction-1.json",
+          "traceSha256": "3efc0e76e411a38d090298dc8ad2e242b999ec4eb00f612c268ecdcbfdaf0de2",
+          "screenshot": "timed/ember-bat-animation-8-direction-1.png"
+        }
+      ]
+    },
+    {
+      "family": "bats",
+      "key": "frost-bat",
+      "enemy": 214,
+      "palette": 83,
+      "fullSizeByte": 64,
+      "cases": [
+        {
+          "role": "idle flight (two adjacent identical rows)",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            10,
+            15,
+            10,
+            15,
+            10,
+            15,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 200,
+          "exactVramUploads": 200,
+          "script": 75074,
+          "alignmentTicks": 91,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 0,
+              "phase": 4,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 65,
+              "loop": 0,
+              "phase": 5,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 75,
+              "loop": 0,
+              "phase": 6,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 0,
+              "phase": 7,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 100,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 115,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 125,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 140,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 150,
+              "loop": 1,
+              "phase": 4,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 165,
+              "loop": 1,
+              "phase": 5,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 175,
+              "loop": 1,
+              "phase": 6,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 190,
+              "loop": 1,
+              "phase": 7,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/frost-bat-animation-0-direction-1.json",
+          "traceSha256": "a178c888650c1ff34725f89bb84d5ce49d33e65a2efb7d6a7c1e990ee7c33fa1",
+          "screenshot": "timed/frost-bat-animation-0-direction-1.png"
+        },
+        {
+          "role": "moving flight",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            15,
+            10,
+            15,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 100,
+          "exactVramUploads": 100,
+          "script": 75074,
+          "alignmentTicks": 41,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 40,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "tick": 65,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 75,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "tick": 90,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/frost-bat-animation-1-direction-1.json",
+          "traceSha256": "20224975589315214535151d25ad36a1be037f50453ac17decbd6f3f42b0ab09",
+          "screenshot": "timed/frost-bat-animation-1-direction-1.png"
+        },
+        {
+          "role": "tilted recoil",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            3
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/frost-bat-animation-5-direction-1.json",
+          "traceSha256": "752ab53182ba2db404076a1b9fc0a784ac8ebbe35d73efbf41bc2c8b01dea1ad",
+          "screenshot": "timed/frost-bat-animation-5-direction-1.png"
+        },
+        {
+          "role": "claws rising",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            31,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 124,
+          "exactVramUploads": 124,
+          "script": 75074,
+          "alignmentTicks": 37,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 31
+            },
+            {
+              "tick": 62,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 31
+            },
+            {
+              "tick": 93,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/frost-bat-animation-6-direction-1.json",
+          "traceSha256": "0b4419faa0713852c9b2662f9a1181e9c522f3bf0fce7ab455a1451922b1f782",
+          "screenshot": "timed/frost-bat-animation-6-direction-1.png"
+        },
+        {
+          "role": "raised claws and dark face",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            4,
+            5,
+            6
+          ],
+          "durations": [
+            21,
+            10,
+            40
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 142,
+          "exactVramUploads": 142,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 21
+            },
+            {
+              "tick": 21,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 31,
+              "loop": 0,
+              "phase": 2,
+              "frame": 6,
+              "duration": 40
+            },
+            {
+              "tick": 71,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 21
+            },
+            {
+              "tick": 92,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 102,
+              "loop": 1,
+              "phase": 2,
+              "frame": 6,
+              "duration": 40
+            }
+          ],
+          "trace": "timed/frost-bat-animation-7-direction-1.json",
+          "traceSha256": "6cb5cffec5ac65eadc86b466cb3e248031d1f90a0f6fcc8737a9a19ff4d2176a",
+          "screenshot": "timed/frost-bat-animation-7-direction-1.png"
+        },
+        {
+          "role": "recovery",
+          "animation": 8,
+          "facing": 1,
+          "frames": [
+            6,
+            2
+          ],
+          "durations": [
+            21,
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 104,
+          "exactVramUploads": 104,
+          "script": 75074,
+          "alignmentTicks": 37,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 21
+            },
+            {
+              "tick": 21,
+              "loop": 0,
+              "phase": 1,
+              "frame": 2,
+              "duration": 31
+            },
+            {
+              "tick": 52,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 21
+            },
+            {
+              "tick": 73,
+              "loop": 1,
+              "phase": 1,
+              "frame": 2,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/frost-bat-animation-8-direction-1.json",
+          "traceSha256": "3efc0e76e411a38d090298dc8ad2e242b999ec4eb00f612c268ecdcbfdaf0de2",
+          "screenshot": "timed/frost-bat-animation-8-direction-1.png"
+        }
+      ]
+    }
+  ],
+  "evidence": ".local/qa/future-sewer-creatures-native-proof",
+  "runner": {
+    "file": "assets/imagegen/future-sewer-creatures/verify-timed-animation.mjs",
+    "sha256": "a3ae56b13894b56f11c97e9ad2638290d7727aab71ec6110280d54663cafd7f3"
+  }
+}

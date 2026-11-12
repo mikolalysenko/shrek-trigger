@@ -1,0 +1,279 @@
+{
+  "status": "Passed",
+  "name": "dream",
+  "baseline": {
+    "path": "assets/imagegen/sir-sludge/private-baseline.sfc",
+    "sha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "commit": "a8d9f5d",
+    "scope": "Fixed private baseline; excluded from source freeze and never canonical output"
+  },
+  "privateRomSha256": "492317c7343a5c18d9eaa043a486a00b7778231962e4bdf8e8950b10fa224696",
+  "scope": "Private unchanged authored event with diagnostic entry. Subsequent input only; no synthetic actor formation or event writes. Scene scope is bounded explicitly below.",
+  "checkpoint": {
+    "id": 341,
+    "x": 9,
+    "y": 10,
+    "party": [
+      0,
+      1,
+      2
+    ],
+    "endgame": true
+  },
+  "nativeTicks": 1400,
+  "result": {
+    "location": 341,
+    "scope": "Original Dream Project cell scene load and native acting; dialogue continuation not yet claimed"
+  },
+  "party": [
+    {
+      "id": 0,
+      "hp": 999
+    },
+    {
+      "id": 1,
+      "hp": 999
+    },
+    {
+      "id": 2,
+      "hp": 999
+    }
+  ],
+  "heapMin": 1248,
+  "heapMax": 17984,
+  "loads": [
+    {
+      "frame": 8897,
+      "location": 341,
+      "pc": 12605696,
+      "object": 9,
+      "scriptPC": 503,
+      "opcode": 131,
+      "id": 4
+    },
+    {
+      "frame": 8897,
+      "location": 341,
+      "pc": 12605696,
+      "object": 10,
+      "scriptPC": 529,
+      "opcode": 131,
+      "id": 75
+    },
+    {
+      "frame": 8901,
+      "location": 341,
+      "pc": 12605696,
+      "object": 11,
+      "scriptPC": 556,
+      "opcode": 130,
+      "id": 16
+    },
+    {
+      "frame": 8903,
+      "location": 341,
+      "pc": 12605696,
+      "object": 12,
+      "scriptPC": 588,
+      "opcode": 131,
+      "id": 46
+    }
+  ],
+  "dispatches": [
+    {
+      "frame": 8856,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8857,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8858,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8860,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8860,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8861,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8862,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8864,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8864,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8865,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8866,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8868,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8868,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8869,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    },
+    {
+      "frame": 8870,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224
+    }
+  ],
+  "messages": [],
+  "pointers": [
+    {
+      "location": 341,
+      "object": 9,
+      "enemy": 4,
+      "pointer": 8192000,
+      "palette": 21
+    }
+  ],
+  "observedFieldFrames": [
+    {
+      "key": "341:9:18",
+      "sampledTicks": 49
+    },
+    {
+      "key": "341:9:19",
+      "sampledTicks": 103
+    },
+    {
+      "key": "341:9:20",
+      "sampledTicks": 17
+    }
+  ],
+  "shots": [
+    {
+      "key": "entry",
+      "tick": 500,
+      "location": 341,
+      "battle": 0,
+      "formation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 9,
+          "frame": 19
+        }
+      ]
+    },
+    {
+      "key": "acting",
+      "tick": 1400,
+      "location": 341,
+      "battle": 0,
+      "formation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "frames": [
+        {
+          "enemy": 4,
+          "object": 9,
+          "frame": 19
+        }
+      ]
+    }
+  ],
+  "bothPalettesUnchanged": true,
+  "cartridgeUnchanged": true
+}

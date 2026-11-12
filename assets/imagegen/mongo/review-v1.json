@@ -1,0 +1,3606 @@
+{
+  "title": "Mongo",
+  "revision": "04c8e99374c51dd33519a819aaadef8a5db22dc3593d5ddfdd1fa6806426e8cd",
+  "status": "Draft source mapping; native activation and settled PPU validation pending.",
+  "sourceFrames": 80,
+  "width": 32,
+  "height": 32,
+  "colors": 12,
+  "palette": [
+    "442d27",
+    "9b613c",
+    "cb9259",
+    "eabf80",
+    "fff1d7",
+    "95415c",
+    "dc6a80",
+    "714635",
+    "fff1dc",
+    "352d2e",
+    "7195a8",
+    "b55b48"
+  ],
+  "coverage": {
+    "key": "mongo",
+    "frames": 255,
+    "generated": 250,
+    "pending": 0,
+    "blank": 5,
+    "remaining": [],
+    "pendingRoles": [],
+    "assembly": {
+      "source": 10200,
+      "packed": 3840,
+      "uniqueFrames": 96
+    }
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "facing": 1,
+      "pose": "jump",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 16,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 1,
+      "facing": 0,
+      "pose": "idle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 1,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 2,
+      "facing": 1,
+      "pose": "idle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 0,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 3,
+      "facing": 2,
+      "pose": "idle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 2,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 4,
+      "facing": 3,
+      "pose": "idle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 2,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 2
+      },
+      "mirror": true
+    },
+    {
+      "frame": 5,
+      "facing": 0,
+      "pose": "walk",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 6,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 6,
+      "facing": 0,
+      "pose": "walk",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 7,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 7,
+      "facing": 0,
+      "pose": "walk",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 7,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 8,
+      "facing": 0,
+      "pose": "walk",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 6,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 9,
+      "facing": 0,
+      "pose": "walk",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 7,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 10,
+      "facing": 0,
+      "pose": "walk",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 7,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 11,
+      "facing": 1,
+      "pose": "walk",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 4,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 4
+      },
+      "mirror": false
+    },
+    {
+      "frame": 12,
+      "facing": 1,
+      "pose": "walk",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 5,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 5
+      },
+      "mirror": false
+    },
+    {
+      "frame": 13,
+      "facing": 1,
+      "pose": "walk",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 5,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 5
+      },
+      "mirror": false
+    },
+    {
+      "frame": 14,
+      "facing": 1,
+      "pose": "walk",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 4,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 4
+      },
+      "mirror": false
+    },
+    {
+      "frame": 15,
+      "facing": 1,
+      "pose": "walk",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 5,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 5
+      },
+      "mirror": false
+    },
+    {
+      "frame": 16,
+      "facing": 1,
+      "pose": "walk",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 5,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 5
+      },
+      "mirror": false
+    },
+    {
+      "frame": 17,
+      "facing": 2,
+      "pose": "walk",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 8,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 18,
+      "facing": 2,
+      "pose": "walk",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 9,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 19,
+      "facing": 2,
+      "pose": "walk",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 9,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 20,
+      "facing": 2,
+      "pose": "walk",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 8,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 21,
+      "facing": 2,
+      "pose": "walk",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 9,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 22,
+      "facing": 2,
+      "pose": "walk",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 9,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 23,
+      "facing": 3,
+      "pose": "walk",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 8,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 8
+      },
+      "mirror": true
+    },
+    {
+      "frame": 24,
+      "facing": 3,
+      "pose": "walk",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 9,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 9
+      },
+      "mirror": true
+    },
+    {
+      "frame": 25,
+      "facing": 3,
+      "pose": "walk",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 9,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 9
+      },
+      "mirror": true
+    },
+    {
+      "frame": 26,
+      "facing": 3,
+      "pose": "walk",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 8,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 8
+      },
+      "mirror": true
+    },
+    {
+      "frame": 27,
+      "facing": 3,
+      "pose": "walk",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 9,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 9
+      },
+      "mirror": true
+    },
+    {
+      "frame": 28,
+      "facing": 3,
+      "pose": "walk",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 9,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 9
+      },
+      "mirror": true
+    },
+    {
+      "frame": 29,
+      "facing": 1,
+      "pose": "kneel",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 32,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 30,
+      "facing": 1,
+      "pose": "jump",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 16,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 31,
+      "facing": 0,
+      "pose": "jump",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 17,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 32,
+      "facing": 1,
+      "pose": "crouch",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 29,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 13
+      },
+      "mirror": false
+    },
+    {
+      "frame": 33,
+      "facing": 1,
+      "pose": "tumble",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 20,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 4
+      },
+      "mirror": false
+    },
+    {
+      "frame": 34,
+      "facing": 0,
+      "pose": "tumble",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 21,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 5
+      },
+      "mirror": false
+    },
+    {
+      "frame": 35,
+      "facing": 2,
+      "pose": "roll",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 36,
+      "facing": 2,
+      "pose": "kick",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 18,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 37,
+      "facing": 2,
+      "pose": "roll",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 38,
+      "facing": 3,
+      "pose": "roll",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": true
+    },
+    {
+      "frame": 39,
+      "facing": 3,
+      "pose": "kick",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 18,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 2
+      },
+      "mirror": true
+    },
+    {
+      "frame": 40,
+      "facing": 3,
+      "pose": "roll",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": true
+    },
+    {
+      "frame": 41,
+      "facing": 1,
+      "pose": "jump",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 16,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 42,
+      "facing": 1,
+      "pose": "battle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 12,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 12
+      },
+      "mirror": false
+    },
+    {
+      "frame": 43,
+      "facing": 0,
+      "pose": "battle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 54,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 44,
+      "facing": 1,
+      "pose": "jump",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 16,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 45,
+      "facing": 0,
+      "pose": "crouch",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 48,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 46,
+      "facing": 1,
+      "pose": "jump",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 16,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 47,
+      "facing": 1,
+      "pose": "battle",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 12,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 12
+      },
+      "mirror": false
+    },
+    {
+      "frame": 48,
+      "facing": 1,
+      "pose": "battle",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 12,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 12
+      },
+      "mirror": false
+    },
+    {
+      "frame": 49,
+      "facing": 0,
+      "pose": "jump",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 17,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 50,
+      "facing": 0,
+      "pose": "battle",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 54,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 51,
+      "facing": 0,
+      "pose": "jump",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 17,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 52,
+      "facing": 2,
+      "pose": "battle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 24,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 53,
+      "facing": 2,
+      "pose": "battle",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 24,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 54,
+      "facing": 0,
+      "pose": "jump",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 17,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 55,
+      "facing": 0,
+      "pose": "battle",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 54,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 56,
+      "facing": 1,
+      "pose": "jump",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 16,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 57,
+      "facing": 3,
+      "pose": "battle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 24,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 8
+      },
+      "mirror": true
+    },
+    {
+      "frame": 58,
+      "facing": 3,
+      "pose": "battle",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 24,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 8
+      },
+      "mirror": true
+    },
+    {
+      "frame": 59,
+      "facing": 1,
+      "pose": "victory",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 47,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 15
+      },
+      "mirror": false
+    },
+    {
+      "frame": 60,
+      "facing": 1,
+      "pose": "blank",
+      "phase": 0,
+      "provisional": false,
+      "art": "intentional blank"
+    },
+    {
+      "frame": 61,
+      "facing": 1,
+      "pose": "cheer",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 40,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 62,
+      "facing": 1,
+      "pose": "cheer",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 40,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 63,
+      "facing": 1,
+      "pose": "jump",
+      "phase": 6,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 16,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 64,
+      "facing": 1,
+      "pose": "kiss",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 64,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 65,
+      "facing": 2,
+      "pose": "kiss",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 43,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 11
+      },
+      "mirror": true
+    },
+    {
+      "frame": 66,
+      "facing": 1,
+      "pose": "drink",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 42,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 10
+      },
+      "mirror": false
+    },
+    {
+      "frame": 67,
+      "facing": 2,
+      "pose": "idle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 2,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 68,
+      "facing": 2,
+      "pose": "ready",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 2,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 69,
+      "facing": 2,
+      "pose": "ready",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 24,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 70,
+      "facing": 2,
+      "pose": "point",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 44,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 12
+      },
+      "mirror": false
+    },
+    {
+      "frame": 71,
+      "facing": 0,
+      "pose": "raise",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 55,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 72,
+      "facing": 0,
+      "pose": "crouch",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 48,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 73,
+      "facing": 0,
+      "pose": "raise",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 55,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 74,
+      "facing": 0,
+      "pose": "tumble",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 21,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 5
+      },
+      "mirror": false
+    },
+    {
+      "frame": 75,
+      "facing": 0,
+      "pose": "tumble",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 21,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 5
+      },
+      "mirror": false
+    },
+    {
+      "frame": 76,
+      "facing": 1,
+      "pose": "tumble",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 20,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 4
+      },
+      "mirror": false
+    },
+    {
+      "frame": 77,
+      "facing": 0,
+      "pose": "idle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 1,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 78,
+      "facing": 1,
+      "pose": "tumble",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 20,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 4
+      },
+      "mirror": false
+    },
+    {
+      "frame": 79,
+      "facing": 1,
+      "pose": "tumble",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 20,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 4
+      },
+      "mirror": false
+    },
+    {
+      "frame": 80,
+      "facing": 2,
+      "pose": "hit",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 76,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 12
+      },
+      "mirror": false
+    },
+    {
+      "frame": 81,
+      "facing": 2,
+      "pose": "roll",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 82,
+      "facing": 2,
+      "pose": "tumble",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 83,
+      "facing": 2,
+      "pose": "wave",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 52,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 4
+      },
+      "mirror": false
+    },
+    {
+      "frame": 84,
+      "facing": 3,
+      "pose": "roll",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": true
+    },
+    {
+      "frame": 85,
+      "facing": 3,
+      "pose": "tumble",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": true
+    },
+    {
+      "frame": 86,
+      "facing": 3,
+      "pose": "wave",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 52,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 4
+      },
+      "mirror": true
+    },
+    {
+      "frame": 87,
+      "facing": 0,
+      "pose": "raise",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 55,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 88,
+      "facing": 0,
+      "pose": "raise",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 55,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 89,
+      "facing": 2,
+      "pose": "look",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 65,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 90,
+      "facing": 1,
+      "pose": "cheer",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 40,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 91,
+      "facing": 1,
+      "pose": "cheer",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 40,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 92,
+      "facing": 3,
+      "pose": "punch",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 24,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 8
+      },
+      "mirror": true
+    },
+    {
+      "frame": 93,
+      "facing": 2,
+      "pose": "throw",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 68,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 4
+      },
+      "mirror": false
+    },
+    {
+      "frame": 94,
+      "facing": 2,
+      "pose": "throw",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 79,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 15
+      },
+      "mirror": false
+    },
+    {
+      "frame": 95,
+      "facing": 3,
+      "pose": "punch",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 13,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 13
+      },
+      "mirror": true
+    },
+    {
+      "frame": 96,
+      "facing": 3,
+      "pose": "throw",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 68,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 4
+      },
+      "mirror": true
+    },
+    {
+      "frame": 97,
+      "facing": 3,
+      "pose": "throw",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 79,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 15
+      },
+      "mirror": true
+    },
+    {
+      "frame": 98,
+      "facing": 2,
+      "pose": "punch",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 13,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 13
+      },
+      "mirror": false
+    },
+    {
+      "frame": 99,
+      "facing": 3,
+      "pose": "kneel",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 51,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 3
+      },
+      "mirror": true
+    },
+    {
+      "frame": 100,
+      "facing": 1,
+      "pose": "kneel",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 32,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 101,
+      "facing": 2,
+      "pose": "claw",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 24,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 102,
+      "facing": 3,
+      "pose": "claw",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 24,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 8
+      },
+      "mirror": true
+    },
+    {
+      "frame": 103,
+      "facing": 1,
+      "pose": "battle",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 12,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 12
+      },
+      "mirror": false
+    },
+    {
+      "frame": 104,
+      "facing": 1,
+      "pose": "wave",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 39,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 105,
+      "facing": 0,
+      "pose": "blink",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 1,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 106,
+      "facing": 1,
+      "pose": "blink",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 35,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 3
+      },
+      "mirror": false
+    },
+    {
+      "frame": 107,
+      "facing": 2,
+      "pose": "blink",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 60,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 12
+      },
+      "mirror": false
+    },
+    {
+      "frame": 108,
+      "facing": 3,
+      "pose": "blink",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 60,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 12
+      },
+      "mirror": true
+    },
+    {
+      "frame": 109,
+      "facing": 0,
+      "pose": "look",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 66,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 110,
+      "facing": 0,
+      "pose": "look",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 66,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 2
+      },
+      "mirror": true
+    },
+    {
+      "frame": 111,
+      "facing": 1,
+      "pose": "look",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 36,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 4
+      },
+      "mirror": false
+    },
+    {
+      "frame": 112,
+      "facing": 1,
+      "pose": "look",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 36,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 4
+      },
+      "mirror": true
+    },
+    {
+      "frame": 113,
+      "facing": 2,
+      "pose": "look",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 65,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 114,
+      "facing": 2,
+      "pose": "look",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 2,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 115,
+      "facing": 3,
+      "pose": "look",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 65,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 1
+      },
+      "mirror": true
+    },
+    {
+      "frame": 116,
+      "facing": 3,
+      "pose": "look",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 2,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 2
+      },
+      "mirror": true
+    },
+    {
+      "frame": 117,
+      "facing": 0,
+      "pose": "bow",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 50,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 118,
+      "facing": 1,
+      "pose": "bow",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 34,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 119,
+      "facing": 2,
+      "pose": "bow",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 67,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 3
+      },
+      "mirror": false
+    },
+    {
+      "frame": 120,
+      "facing": 3,
+      "pose": "bow",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 67,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 3
+      },
+      "mirror": true
+    },
+    {
+      "frame": 121,
+      "facing": 0,
+      "pose": "kneel",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 49,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 122,
+      "facing": 0,
+      "pose": "kneel",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 49,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 123,
+      "facing": 1,
+      "pose": "kneel",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 32,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 124,
+      "facing": 0,
+      "pose": "kneel",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 49,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 125,
+      "facing": 0,
+      "pose": "wave",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 56,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 126,
+      "facing": 1,
+      "pose": "wave",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 39,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 127,
+      "facing": 0,
+      "pose": "wave",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 56,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 128,
+      "facing": 1,
+      "pose": "wave",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 39,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 129,
+      "facing": 0,
+      "pose": "wave",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 56,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 130,
+      "facing": 1,
+      "pose": "wave",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 39,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 131,
+      "facing": 1,
+      "pose": "laugh",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 41,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 132,
+      "facing": 2,
+      "pose": "laugh",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 59,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 11
+      },
+      "mirror": true
+    },
+    {
+      "frame": 133,
+      "facing": 2,
+      "pose": "laugh",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 59,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 11
+      },
+      "mirror": true
+    },
+    {
+      "frame": 134,
+      "facing": 1,
+      "pose": "laugh",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 41,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 135,
+      "facing": 0,
+      "pose": "point",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 57,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 136,
+      "facing": 2,
+      "pose": "idle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 2,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 137,
+      "facing": 0,
+      "pose": "point",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 57,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 138,
+      "facing": 3,
+      "pose": "idle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 2,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 2
+      },
+      "mirror": true
+    },
+    {
+      "frame": 139,
+      "facing": 1,
+      "pose": "point",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 58,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 10
+      },
+      "mirror": false
+    },
+    {
+      "frame": 140,
+      "facing": 1,
+      "pose": "jump",
+      "phase": 7,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 16,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 141,
+      "facing": 0,
+      "pose": "crouch",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 48,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 142,
+      "facing": 1,
+      "pose": "bow",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 34,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 143,
+      "facing": 0,
+      "pose": "jump",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 17,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 144,
+      "facing": 0,
+      "pose": "crouch",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 48,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 145,
+      "facing": 1,
+      "pose": "hit",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 45,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 13
+      },
+      "mirror": false
+    },
+    {
+      "frame": 146,
+      "facing": 2,
+      "pose": "kick",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 18,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 147,
+      "facing": 2,
+      "pose": "land",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 69,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 5
+      },
+      "mirror": false
+    },
+    {
+      "frame": 148,
+      "facing": 2,
+      "pose": "roll",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 149,
+      "facing": 3,
+      "pose": "kick",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 18,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 2
+      },
+      "mirror": true
+    },
+    {
+      "frame": 150,
+      "facing": 3,
+      "pose": "land",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 69,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 5
+      },
+      "mirror": true
+    },
+    {
+      "frame": 151,
+      "facing": 3,
+      "pose": "roll",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": true
+    },
+    {
+      "frame": 152,
+      "facing": 1,
+      "pose": "jump",
+      "phase": 8,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 16,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 153,
+      "facing": 1,
+      "pose": "jump",
+      "phase": 9,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 16,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 154,
+      "facing": 2,
+      "pose": "kick",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 18,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 155,
+      "facing": 3,
+      "pose": "kick",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 18,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 2
+      },
+      "mirror": true
+    },
+    {
+      "frame": 156,
+      "facing": 1,
+      "pose": "jump",
+      "phase": 10,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 16,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 157,
+      "facing": 2,
+      "pose": "jump",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 70,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 158,
+      "facing": 3,
+      "pose": "jump",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 70,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 6
+      },
+      "mirror": true
+    },
+    {
+      "frame": 159,
+      "facing": 1,
+      "pose": "sit",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 71,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 160,
+      "facing": 1,
+      "pose": "drink",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 42,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 10
+      },
+      "mirror": false
+    },
+    {
+      "frame": 161,
+      "facing": 0,
+      "pose": "tumble",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 21,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 5
+      },
+      "mirror": false
+    },
+    {
+      "frame": 162,
+      "facing": 2,
+      "pose": "roll",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 163,
+      "facing": 2,
+      "pose": "crouch",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 33,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 164,
+      "facing": 3,
+      "pose": "roll",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": true
+    },
+    {
+      "frame": 165,
+      "facing": 3,
+      "pose": "crouch",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 33,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 1
+      },
+      "mirror": true
+    },
+    {
+      "frame": 166,
+      "facing": 1,
+      "pose": "claw",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 25,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 167,
+      "facing": 1,
+      "pose": "claw",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 25,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 168,
+      "facing": 2,
+      "pose": "claw",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 26,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 10
+      },
+      "mirror": false
+    },
+    {
+      "frame": 169,
+      "facing": 3,
+      "pose": "claw",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 26,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 10
+      },
+      "mirror": true
+    },
+    {
+      "frame": 170,
+      "facing": 0,
+      "pose": "tumble",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 21,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 5
+      },
+      "mirror": false
+    },
+    {
+      "frame": 171,
+      "facing": 0,
+      "pose": "crouch",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 48,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 172,
+      "facing": 2,
+      "pose": "roll",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 173,
+      "facing": 3,
+      "pose": "roll",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": true
+    },
+    {
+      "frame": 174,
+      "facing": 0,
+      "pose": "jump",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 17,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 175,
+      "facing": 0,
+      "pose": "jump",
+      "phase": 6,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 17,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 176,
+      "facing": 1,
+      "pose": "blank",
+      "phase": 0,
+      "provisional": false,
+      "art": "intentional blank"
+    },
+    {
+      "frame": 177,
+      "facing": 1,
+      "pose": "blank",
+      "phase": 0,
+      "provisional": false,
+      "art": "intentional blank"
+    },
+    {
+      "frame": 178,
+      "facing": 1,
+      "pose": "blank",
+      "phase": 0,
+      "provisional": false,
+      "art": "intentional blank"
+    },
+    {
+      "frame": 179,
+      "facing": 1,
+      "pose": "blank",
+      "phase": 0,
+      "provisional": false,
+      "art": "intentional blank"
+    },
+    {
+      "frame": 180,
+      "facing": 0,
+      "pose": "raise",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 55,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 181,
+      "facing": 1,
+      "pose": "raise",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 14,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 14
+      },
+      "mirror": false
+    },
+    {
+      "frame": 182,
+      "facing": 2,
+      "pose": "raise",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 78,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 14
+      },
+      "mirror": false
+    },
+    {
+      "frame": 183,
+      "facing": 3,
+      "pose": "raise",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 78,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 14
+      },
+      "mirror": true
+    },
+    {
+      "frame": 184,
+      "facing": 1,
+      "pose": "hit",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 45,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 13
+      },
+      "mirror": false
+    },
+    {
+      "frame": 185,
+      "facing": 1,
+      "pose": "bow",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 34,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 186,
+      "facing": 0,
+      "pose": "crouch",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 48,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 187,
+      "facing": 2,
+      "pose": "roll",
+      "phase": 6,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 188,
+      "facing": 2,
+      "pose": "roll",
+      "phase": 7,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 189,
+      "facing": 3,
+      "pose": "roll",
+      "phase": 6,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": true
+    },
+    {
+      "frame": 190,
+      "facing": 3,
+      "pose": "roll",
+      "phase": 7,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": true
+    },
+    {
+      "frame": 191,
+      "facing": 0,
+      "pose": "raise",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 55,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 192,
+      "facing": 1,
+      "pose": "point",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 58,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 10
+      },
+      "mirror": false
+    },
+    {
+      "frame": 193,
+      "facing": 0,
+      "pose": "point",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 57,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 194,
+      "facing": 1,
+      "pose": "point",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 58,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 10
+      },
+      "mirror": false
+    },
+    {
+      "frame": 195,
+      "facing": 2,
+      "pose": "down",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 15,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 15
+      },
+      "mirror": false
+    },
+    {
+      "frame": 196,
+      "facing": 1,
+      "pose": "wave",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 39,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 197,
+      "facing": 0,
+      "pose": "wave",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 56,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 198,
+      "facing": 1,
+      "pose": "wave",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 39,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 199,
+      "facing": 0,
+      "pose": "wave",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 56,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 200,
+      "facing": 3,
+      "pose": "down",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 15,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 15
+      },
+      "mirror": true
+    },
+    {
+      "frame": 201,
+      "facing": 1,
+      "pose": "arms-folded",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 37,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 5
+      },
+      "mirror": false
+    },
+    {
+      "frame": 202,
+      "facing": 1,
+      "pose": "kick",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 72,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 203,
+      "facing": 2,
+      "pose": "kick",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 18,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 204,
+      "facing": 0,
+      "pose": "kick",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 73,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 205,
+      "facing": 3,
+      "pose": "kick",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 18,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 2
+      },
+      "mirror": true
+    },
+    {
+      "frame": 206,
+      "facing": 2,
+      "pose": "point",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 44,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 12
+      },
+      "mirror": false
+    },
+    {
+      "frame": 207,
+      "facing": 3,
+      "pose": "point",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 44,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 12
+      },
+      "mirror": true
+    },
+    {
+      "frame": 208,
+      "facing": 0,
+      "pose": "kick",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 73,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 209,
+      "facing": 3,
+      "pose": "kick",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 18,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 2
+      },
+      "mirror": true
+    },
+    {
+      "frame": 210,
+      "facing": 1,
+      "pose": "kick",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 72,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 211,
+      "facing": 2,
+      "pose": "kick",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 18,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 212,
+      "facing": 3,
+      "pose": "point",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 44,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 12
+      },
+      "mirror": true
+    },
+    {
+      "frame": 213,
+      "facing": 2,
+      "pose": "point",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 44,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 12
+      },
+      "mirror": false
+    },
+    {
+      "frame": 214,
+      "facing": 0,
+      "pose": "point",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 57,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 215,
+      "facing": 1,
+      "pose": "point",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 58,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 10
+      },
+      "mirror": false
+    },
+    {
+      "frame": 216,
+      "facing": 1,
+      "pose": "cast",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 14,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 14
+      },
+      "mirror": false
+    },
+    {
+      "frame": 217,
+      "facing": 0,
+      "pose": "cast",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 55,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 218,
+      "facing": 1,
+      "pose": "punch",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 25,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 9
+      },
+      "mirror": false
+    },
+    {
+      "frame": 219,
+      "facing": 2,
+      "pose": "kick",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 18,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 220,
+      "facing": 1,
+      "pose": "kick",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 72,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 8
+      },
+      "mirror": false
+    },
+    {
+      "frame": 221,
+      "facing": 3,
+      "pose": "kick",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 18,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 2
+      },
+      "mirror": true
+    },
+    {
+      "frame": 222,
+      "facing": 0,
+      "pose": "headache",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 75,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 11
+      },
+      "mirror": false
+    },
+    {
+      "frame": 223,
+      "facing": 1,
+      "pose": "headache",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 46,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 14
+      },
+      "mirror": false
+    },
+    {
+      "frame": 224,
+      "facing": 2,
+      "pose": "headache",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 77,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 13
+      },
+      "mirror": false
+    },
+    {
+      "frame": 225,
+      "facing": 3,
+      "pose": "headache",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 77,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 13
+      },
+      "mirror": true
+    },
+    {
+      "frame": 226,
+      "facing": 0,
+      "pose": "idle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 1,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 1
+      },
+      "mirror": false
+    },
+    {
+      "frame": 227,
+      "facing": 0,
+      "pose": "spin",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 31,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 15
+      },
+      "mirror": false
+    },
+    {
+      "frame": 228,
+      "facing": 1,
+      "pose": "spin",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 30,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 14
+      },
+      "mirror": false
+    },
+    {
+      "frame": 229,
+      "facing": 2,
+      "pose": "spin",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 74,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 10
+      },
+      "mirror": false
+    },
+    {
+      "frame": 230,
+      "facing": 3,
+      "pose": "spin",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 74,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 10
+      },
+      "mirror": true
+    },
+    {
+      "frame": 231,
+      "facing": 2,
+      "pose": "roll",
+      "phase": 8,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 232,
+      "facing": 3,
+      "pose": "roll",
+      "phase": 8,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 22,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 6
+      },
+      "mirror": true
+    },
+    {
+      "frame": 233,
+      "facing": 1,
+      "pose": "victory",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 47,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 15
+      },
+      "mirror": false
+    },
+    {
+      "frame": 234,
+      "facing": 1,
+      "pose": "battle",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 12,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 12
+      },
+      "mirror": false
+    },
+    {
+      "frame": 235,
+      "facing": 2,
+      "pose": "arms-folded",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 38,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 236,
+      "facing": 2,
+      "pose": "raise",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 78,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 14
+      },
+      "mirror": false
+    },
+    {
+      "frame": 237,
+      "facing": 2,
+      "pose": "arms-folded",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 38,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 238,
+      "facing": 2,
+      "pose": "wave",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 52,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 4
+      },
+      "mirror": false
+    },
+    {
+      "frame": 239,
+      "facing": 2,
+      "pose": "arms-folded",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 38,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 240,
+      "facing": 2,
+      "pose": "wave",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 52,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 4
+      },
+      "mirror": false
+    },
+    {
+      "frame": 241,
+      "facing": 2,
+      "pose": "idle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 2,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 242,
+      "facing": 2,
+      "pose": "raise",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 78,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 14
+      },
+      "mirror": false
+    },
+    {
+      "frame": 243,
+      "facing": 1,
+      "pose": "wave",
+      "phase": 6,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 39,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 7
+      },
+      "mirror": false
+    },
+    {
+      "frame": 244,
+      "facing": 2,
+      "pose": "raise",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 78,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 14
+      },
+      "mirror": false
+    },
+    {
+      "frame": 245,
+      "facing": 2,
+      "pose": "idle",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 2,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 2
+      },
+      "mirror": false
+    },
+    {
+      "frame": 246,
+      "facing": 2,
+      "pose": "raise",
+      "phase": 4,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 78,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 14
+      },
+      "mirror": false
+    },
+    {
+      "frame": 247,
+      "facing": 0,
+      "pose": "battle",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 54,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 6
+      },
+      "mirror": false
+    },
+    {
+      "frame": 248,
+      "facing": 1,
+      "pose": "battle",
+      "phase": 5,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 12,
+      "source": {
+        "file": "assets/imagegen/mongo/source-base-v1.png",
+        "cell": 12
+      },
+      "mirror": false
+    },
+    {
+      "frame": 249,
+      "facing": 1,
+      "pose": "hit",
+      "phase": 2,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 45,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 13
+      },
+      "mirror": false
+    },
+    {
+      "frame": 250,
+      "facing": 1,
+      "pose": "hit",
+      "phase": 3,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 45,
+      "source": {
+        "file": "assets/imagegen/mongo/source-story-v1.png",
+        "cell": 13
+      },
+      "mirror": false
+    },
+    {
+      "frame": 251,
+      "facing": 2,
+      "pose": "fear",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 61,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 13
+      },
+      "mirror": false
+    },
+    {
+      "frame": 252,
+      "facing": 3,
+      "pose": "fear",
+      "phase": 0,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 61,
+      "source": {
+        "file": "assets/imagegen/mongo/source-directions-v2.png",
+        "cell": 13
+      },
+      "mirror": true
+    },
+    {
+      "frame": 253,
+      "facing": 1,
+      "pose": "jump",
+      "phase": 11,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 16,
+      "source": {
+        "file": "assets/imagegen/mongo/source-combat-v1.png",
+        "cell": 0
+      },
+      "mirror": false
+    },
+    {
+      "frame": 254,
+      "facing": 2,
+      "pose": "jump",
+      "phase": 1,
+      "provisional": false,
+      "art": "generated raster",
+      "sourceIndex": 70,
+      "source": {
+        "file": "assets/imagegen/mongo/source-finishing-v1.png",
+        "cell": 6
+      },
+      "mirror": false
+    }
+  ],
+  "provenance": [
+    {
+      "file": "assets/imagegen/mongo/source-base-v1.png",
+      "sha256": "89cd402c8e0ac71a74cb6cd2e9f66fc697590c733dbd05c01006bab259aa1b74",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/mongo/source-combat-v1.png",
+      "sha256": "51b6233941b33a9457e16793b43db7aeab90d54601795fc43f19dc3e9f0be1b2",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/mongo/source-story-v1.png",
+      "sha256": "af85ddd0712ce40c98bfa83248c7ca6fb3cac29b02d9686f9768988e94c9cacf",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/mongo/source-directions-v2.png",
+      "sha256": "5982a98431d4da3c2c06aed3beec14d7683661ff649d85cb2e0406530f957b1d",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/mongo/source-finishing-v1.png",
+      "sha256": "f2e21b8e80dc824e73fcf029f1d72f3e1fdf9ca44bc9a885a95023f3ae0bc752",
+      "sourceType": "image-generation"
+    }
+  ]
+}

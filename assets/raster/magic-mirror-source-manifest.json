@@ -1,0 +1,205 @@
+{
+  "sourceType": "existing-game-model-render",
+  "sourcePage": "https://models.spriters-resource.com/xbox/shrek/asset/362695/page-1/",
+  "game": "Shrek (Xbox)",
+  "runtime": [
+    "content/magic-mirror.js",
+    "engine/magic-mirror.js",
+    "assets/raster/magic-mirror-art.js"
+  ],
+  "sourceFiles": [
+    {
+      "file": "assets/raster/magic-mirror-art.js",
+      "bytes": 10460,
+      "sha256": "65593559b6eabf604acd3d8de44d773d0908b5cdcc43920cec192f7803847809"
+    },
+    {
+      "file": "assets/raster/magic-mirror-model/source-front.png",
+      "bytes": 184072,
+      "sha256": "31ee2ecfe734c266c1450795d10030f7028cc3d7ccb07794f6e2102807fd4c36"
+    },
+    {
+      "file": "assets/raster/magic-mirror-model/draft/preview-raster.json",
+      "bytes": 5224,
+      "sha256": "dc0d5cf1e023a1b8b5848bee75648528bdbee7d83318191929d35c2f24974ffd"
+    },
+    {
+      "file": "assets/raster/magic-mirror-model/import-spec.draft.json",
+      "bytes": 1785,
+      "sha256": "d7bb62690f22c1cf20b8051c55740e0538845cfce8553d40a759472028590217"
+    },
+    {
+      "file": "assets/raster/magic-mirror-model/provenance.json",
+      "bytes": 3674,
+      "sha256": "cf4a4fd85936cd61fcf5ef11ec52d808da2954074aa052ec9085fa625ad00987"
+    },
+    {
+      "file": "assets/raster/magic-mirror-model/render-model.mjs",
+      "bytes": 3750,
+      "sha256": "0664dc455b6d9f7dd0ce379c38c24a3c0b75a846d9da8b0e5664b2241888c90c"
+    },
+    {
+      "file": "assets/raster/magic-mirror-model/source-362695.zip",
+      "bytes": 209550,
+      "sha256": "b9eca77a6737e160ab060a87f2d710a35098c9913f5bd279a456b9a0cce53e34"
+    },
+    {
+      "file": "assets/raster/magic-mirror-display/source-frames.png",
+      "bytes": 236126,
+      "sha256": "a1a5b233d8dbf1b326a6256423cd0bf0c4d747da578a4cc8702a16faa7ce7d5c"
+    },
+    {
+      "file": "assets/raster/magic-mirror-display/draft/preview-raster.json",
+      "bytes": 4343,
+      "sha256": "3cf1b7dee3b25f50c1ae605a00e2fa7fd335807a2d787164838a290a1ba50be4"
+    },
+    {
+      "file": "assets/raster/magic-mirror-display/import-spec.draft.json",
+      "bytes": 2364,
+      "sha256": "7db3bbdce2970aa2d0c7cafbfe0938dfcb66cfbea122bb39751050e859b4d058"
+    },
+    {
+      "file": "assets/raster/magic-mirror-display/provenance.json",
+      "bytes": 1475,
+      "sha256": "6584687e8b22baff11ab247730283cbed5a30a1a7c5631bd3dbf1f095183034c"
+    },
+    {
+      "file": "assets/raster/magic-mirror-display/render-draft.mjs",
+      "bytes": 4557,
+      "sha256": "5f086e5a35305aa6b0cf626eb00fbd301fa987bf74a926cb73a48c9ffe453690"
+    },
+    {
+      "file": "assets/raster/magic-mirror-display/source-recipes.json",
+      "bytes": 1934,
+      "sha256": "26a6302e6beb55a2b7f0673e5e496e1fe50408c1ea257a33cde9e73bc2275266"
+    },
+    {
+      "file": "assets/raster/magic-mirror-display/native-frames.json",
+      "bytes": 2917,
+      "sha256": "925278f34e9b3315dc100ebc0ef4539096cdc4088b5f0b4179e4ef12c70927a3"
+    }
+  ],
+  "compiledRecords": [
+    {
+      "key": "model-graphics",
+      "bytes": 2016,
+      "sha256": "9dff816e7704548a7d2babf198a0e82041071efd7047b60caa7433f880c18834"
+    },
+    {
+      "key": "model-packet",
+      "bytes": 1363,
+      "sha256": "c7e53dff1bbf56f4fe04ef7bfc0d58e5dd07f92ffa97b2d14feddc0d4c5e60fa"
+    },
+    {
+      "key": "main-assembly",
+      "bytes": 240,
+      "sha256": "35d2ecf8d541e6a8f383905ab3240e98e8708418833d43d4a9eef373c6d9a3da"
+    },
+    {
+      "key": "trim-assembly",
+      "bytes": 160,
+      "sha256": "0a877a009b3d149757cd527e537b460cd730f338eb637b25a489c7028a702839"
+    },
+    {
+      "key": "display-graphics",
+      "bytes": 960,
+      "sha256": "bd3c001869a1f5a44eb0979c0b3312a1eed064347575d30318c0eab8be47d5da"
+    },
+    {
+      "key": "display-packet",
+      "bytes": 509,
+      "sha256": "d3e216c70b5793297a95540b81a3efb7830912f15820d52777d56f3613d0f942"
+    },
+    {
+      "key": "display-assembly",
+      "bytes": 320,
+      "sha256": "98d176890155c73497c90956e0e6f2992c8397f1c6f70d59a867bb2d5b58625c"
+    },
+    {
+      "key": "palette",
+      "bytes": 24,
+      "sha256": "d538beecae729f4bef3b0b737035ab93edc261bbfbdaa54e07f2d8a6732b63a5"
+    }
+  ],
+  "reproduction": {
+    "browserSource": "node scripts/import-magic-mirror.mjs --check",
+    "compiler": "compileMagicMirror(originalUsaRom) from engine/magic-mirror.js",
+    "tests": "node --test tests/magic-mirror.test.mjs",
+    "rasterImport": [
+      "node scripts/import-raster-art.mjs --preview-spec assets/raster/magic-mirror-model/import-spec.draft.json",
+      "node scripts/import-raster-art.mjs --preview-spec assets/raster/magic-mirror-display/import-spec.draft.json"
+    ],
+    "originalModel": "Unzip source-362695.zip into assets/raster/magic-mirror-model/source/ before render-model.mjs or render-draft.mjs. Per-file hashes and original extraction provenance are recorded in model/provenance.json."
+  },
+  "selectedDesign": {
+    "mainCells": 12,
+    "trimCells": 8,
+    "displayCells": 4,
+    "modelFrames": [
+      "visible",
+      "blank"
+    ],
+    "displayFrames": [
+      "boot spark",
+      "boot sweep",
+      "static A",
+      "static B",
+      "active A",
+      "active B",
+      "active C",
+      "blank"
+    ],
+    "eventAnchorPreserved": true,
+    "modelVisibleCellLayout": "Reviewed 12+8 native-cell partition at unchanged [0,48] actor anchor",
+    "blankModelCellCoordinates": "original",
+    "allDisplayCellCoordinates": "original including overlapping spark cells"
+  },
+  "memory": {
+    "modelDecoded": 2016,
+    "displayDecoded": 960,
+    "originalCombinedDecoded": 3008,
+    "combinedDecoded": 2976,
+    "extraWramBytes": 0,
+    "extraVramBytes": 0,
+    "rawStreaming": false
+  },
+  "allocation": {
+    "ordinaryCompressedGraphics": [
+      213,
+      168
+    ],
+    "nativeAssemblies": [
+      206,
+      207,
+      161
+    ],
+    "compressedBytes": 1872,
+    "assemblyBytes": 720,
+    "combinedAllocationBytes": 2592,
+    "originalResourceBytes": 3115
+  },
+  "priorOriginalSceneProof": {
+    "romSha256": "ab236963c135da75110aaca58a9e5f5b46341a9f2f43f457a42ee8aca282bafd",
+    "formation": [
+      190,
+      255,
+      255,
+      183,
+      183,
+      183,
+      255,
+      255
+    ],
+    "visualTrimSlot": 9,
+    "independentCores": [
+      "snes9x",
+      "bsnes"
+    ],
+    "cells": 32,
+    "visiblePixels": 3480,
+    "nativeControllerVictory": true,
+    "returnLocation": 498,
+    "sharedNpcLocations": 12,
+    "scope": "Frozen private proof; production candidate verification is recorded separately."
+  }
+}

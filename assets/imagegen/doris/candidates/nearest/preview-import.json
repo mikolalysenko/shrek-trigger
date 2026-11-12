@@ -1,0 +1,269 @@
+{
+  "key": "doris",
+  "frames": 16,
+  "width": 32,
+  "height": 32,
+  "opaqueColors": 12,
+  "palette": [
+    "29212d",
+    "955f59",
+    "bf8875",
+    "f1bd9e",
+    "f4dfb6",
+    "6a3e65",
+    "a9759c",
+    "382c37",
+    "fff1db",
+    "665568",
+    "738bb8",
+    "cf4b6b"
+  ],
+  "samplingPalette": [
+    "29212d",
+    "955f59",
+    "bf8875",
+    "f1bd9e",
+    "f4dfb6",
+    "6a3e65",
+    "a9759c",
+    "382c37",
+    "fff1db",
+    "665568",
+    "738bb8",
+    "cf4b6b"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/doris/source-base-v2.png",
+      "sha256": "ba008941addedcc6318beb4001a9eb25bef71423aecc320c2c3ee15033f33ccc",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1292,
+        1218
+      ],
+      "scale": 0.09965635738831616,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 30
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            100,
+            10,
+            193,
+            291
+          ],
+          "componentPixels": 41082
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            416,
+            10,
+            183,
+            291
+          ],
+          "componentPixels": 40195
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            741,
+            10,
+            153,
+            289
+          ],
+          "componentPixels": 32595
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1023,
+            10,
+            153,
+            291
+          ],
+          "componentPixels": 32951
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            101,
+            309,
+            194,
+            291
+          ],
+          "componentPixels": 38418
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            402,
+            311,
+            188,
+            289
+          ],
+          "componentPixels": 38107
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            711,
+            312,
+            184,
+            289
+          ],
+          "componentPixels": 36088
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            1019,
+            312,
+            183,
+            288
+          ],
+          "componentPixels": 35532
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            85,
+            606,
+            196,
+            289
+          ],
+          "componentPixels": 38392
+        },
+        {
+          "cell": 9,
+          "bounds": [
+            413,
+            605,
+            168,
+            291
+          ],
+          "componentPixels": 35268
+        },
+        {
+          "cell": 10,
+          "bounds": [
+            707,
+            609,
+            183,
+            286
+          ],
+          "componentPixels": 37906
+        },
+        {
+          "cell": 11,
+          "bounds": [
+            1032,
+            605,
+            153,
+            291
+          ],
+          "componentPixels": 34091
+        },
+        {
+          "cell": 12,
+          "bounds": [
+            90,
+            905,
+            200,
+            283
+          ],
+          "componentPixels": 42017
+        },
+        {
+          "cell": 13,
+          "bounds": [
+            383,
+            902,
+            205,
+            286
+          ],
+          "componentPixels": 41950
+        },
+        {
+          "cell": 14,
+          "bounds": [
+            652,
+            902,
+            292,
+            286
+          ],
+          "componentPixels": 45146
+        },
+        {
+          "cell": 15,
+          "bounds": [
+            1023,
+            899,
+            187,
+            289
+          ],
+          "componentPixels": 38144
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        6,
+        1,
+        7
+      ],
+      "1": [
+        4,
+        0,
+        5
+      ],
+      "2": [
+        8,
+        2,
+        9
+      ],
+      "3": [
+        10,
+        3,
+        11
+      ]
+    },
+    "hit": {
+      "1": [
+        12
+      ]
+    },
+    "cast": {
+      "1": [
+        13,
+        14
+      ]
+    },
+    "guard": {
+      "1": [
+        15
+      ]
+    }
+  }
+}

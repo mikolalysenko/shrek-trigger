@@ -1,0 +1,316 @@
+{
+  "key": "duloc-town-keeper",
+  "frames": 10,
+  "width": 64,
+  "height": 64,
+  "opaqueColors": 12,
+  "palette": [
+    "313131",
+    "efefef",
+    "ffe7ad",
+    "ff9c6b",
+    "a54a39",
+    "f79431",
+    "8c394a",
+    "84c6de",
+    "426b7b",
+    "94a552",
+    "5a6329",
+    "7b8c9c"
+  ],
+  "samplingPalette": [
+    "313131",
+    "efefef",
+    "ffe7ad",
+    "ff9c6b",
+    "a54a39",
+    "f79431",
+    "8c394a",
+    "84c6de",
+    "426b7b",
+    "94a552",
+    "5a6329",
+    "7b8c9c"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/town-civilians-gfx11/source-base-v1.png",
+      "sha256": "bf8080edc08b9272966e1b3803511ded97724fbb8a7263c44fb04998851fa854",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "scale": 0.07804878048780488,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 51,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "3": {
+          "scale": 0.9696969696969697
+        },
+        "5": {
+          "scale": 0.9411764705882353
+        },
+        "7": {
+          "scale": 0.9393939393939394
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            76,
+            40,
+            233,
+            411
+          ],
+          "componentPixels": 66026
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            399,
+            41,
+            226,
+            410
+          ],
+          "componentPixels": 63987
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            739,
+            41,
+            180,
+            410
+          ],
+          "componentPixels": 50628
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            75,
+            541,
+            229,
+            427
+          ],
+          "componentPixels": 62740
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            399,
+            548,
+            225,
+            422
+          ],
+          "componentPixels": 59100
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            709,
+            539,
+            236,
+            431
+          ],
+          "componentPixels": 64237
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            81,
+            1053,
+            235,
+            428
+          ],
+          "componentPixels": 62608
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            390,
+            1053,
+            227,
+            425
+          ],
+          "componentPixels": 61102
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            714,
+            1054,
+            241,
+            425
+          ],
+          "componentPixels": 61647
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/town-civilians-gfx11/source-contacts-v2.png",
+      "sha256": "b71fa99f5a1b4a3d9f41cf0891f1a26150245578902bb610cba1ceae2ae46baa",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "scale": 0.048513302034428794,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 51,
+        "alphaThreshold": 128
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            199,
+            161,
+            341,
+            636
+          ],
+          "componentPixels": 139548
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            716,
+            161,
+            342,
+            639
+          ],
+          "componentPixels": 141518
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            1242,
+            161,
+            371,
+            639
+          ],
+          "componentPixels": 139173
+        }
+      ]
+    },
+    {
+      "file": "assets/imagegen/town-civilians-gfx11/derived-cap-fragment-nearest.png",
+      "sha256": "51f95a705a86104ce57b14ad6209400f5161a355fd8dadacebc0ff99e254a02b",
+      "sourceType": "image-generation",
+      "dimensions": [
+        64,
+        64
+      ],
+      "scale": 1,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 51,
+        "alphaThreshold": 128
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            25,
+            20,
+            14,
+            8
+          ],
+          "componentPixels": 86
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        {
+          "frame": 1
+        },
+        {
+          "frame": 0
+        },
+        {
+          "frame": 2,
+          "dx": 1
+        },
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 3,
+          "dx": 1
+        },
+        {
+          "frame": 6,
+          "dx": 1
+        },
+        {
+          "frame": 3,
+          "flip": true
+        },
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 4,
+          "dx": 1
+        },
+        {
+          "frame": 7,
+          "dx": 1
+        },
+        {
+          "frame": 4,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        {
+          "frame": 5,
+          "dx": 1
+        },
+        {
+          "frame": 8
+        },
+        {
+          "frame": 5,
+          "flip": true
+        },
+        {
+          "frame": 8,
+          "flip": true
+        },
+        {
+          "frame": 0,
+          "dissolve": 11
+        },
+        {
+          "frame": 9,
+          "dx": -3,
+          "dy": -23
+        },
+        {
+          "frame": 9,
+          "flip": true,
+          "dx": 3,
+          "dy": -23
+        }
+      ]
+    }
+  }
+}

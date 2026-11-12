@@ -1,0 +1,5733 @@
+{
+  "basis": "Visual inspection of all original native slots, animation125/126 weapon-state pairs, normalized exact mirror/translation comparisons; existing briarFrames labels are retained only as legacy reference.",
+  "notes": [
+    "Original frames9–17 are folded-arm hover/walk, not raised-sword poses.",
+    "Original frames18/37,23/36,26/38,44/45,46/47,48/49,53/54 and58/59 distinguish armed and unarmed actions.",
+    "Original aerial63/69 and65/71 have different front/back poses;74/80 and76/82 are translations, not mirrors.",
+    "Original84 is a downward sword plunge, not a fallen unarmed body.85 is an upward overhead strike."
+  ],
+  "roles": [
+    {
+      "nativeFrame": 0,
+      "frame": 0,
+      "role": "front unarmed idle",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 0
+      },
+      "blank": false,
+      "legacy": {
+        "role": "front",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -8,
+        -40,
+        9,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          1,
+          -32
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          1,
+          -16
+        ],
+        [
+          -15,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 1,
+      "frame": 1,
+      "role": "left unarmed idle",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 1
+      },
+      "blank": false,
+      "legacy": {
+        "role": "left",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -8,
+        -40,
+        6,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 2,
+      "frame": 1,
+      "role": "right unarmed idle",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 1
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "right",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -6,
+        -40,
+        8,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 3,
+      "frame": 3,
+      "role": "front unarmed guard",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 3
+      },
+      "blank": false,
+      "legacy": {
+        "role": "guard-front",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -40,
+        12,
+        0
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -48
+        ],
+        [
+          -12,
+          -48
+        ],
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 4,
+      "frame": 4,
+      "role": "left unarmed guard",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 4
+      },
+      "blank": false,
+      "legacy": {
+        "role": "guard-left",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -11,
+        -40,
+        10,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -48
+        ],
+        [
+          -20,
+          -48
+        ],
+        [
+          -4,
+          -32
+        ],
+        [
+          -20,
+          -32
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -4,
+          -16
+        ],
+        [
+          -20,
+          -16
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 5,
+      "frame": 4,
+      "role": "right unarmed guard",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 4
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "guard-right",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -10,
+        -40,
+        11,
+        0
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -48
+        ],
+        [
+          -12,
+          -48
+        ],
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          -28,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ],
+        [
+          -28,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 6,
+      "frame": 6,
+      "role": "front sword-ready guard",
+      "armed": true,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 6
+      },
+      "blank": false,
+      "legacy": {
+        "role": "sword-front",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -40,
+        19,
+        0
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -48
+        ],
+        [
+          -12,
+          -48
+        ],
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          -28,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ],
+        [
+          -28,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 7,
+      "frame": 7,
+      "role": "left sword-ready guard",
+      "armed": true,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 7
+      },
+      "blank": false,
+      "legacy": {
+        "role": "sword-left",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -11,
+        -40,
+        11,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -48
+        ],
+        [
+          -20,
+          -48
+        ],
+        [
+          -4,
+          -32
+        ],
+        [
+          -20,
+          -32
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -4,
+          -16
+        ],
+        [
+          -20,
+          -16
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 8,
+      "frame": 7,
+      "role": "right sword-ready guard",
+      "armed": true,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 7
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "sword-right",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -11,
+        -40,
+        11,
+        0
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -48
+        ],
+        [
+          -12,
+          -48
+        ],
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          -28,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ],
+        [
+          -28,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 9,
+      "frame": 9,
+      "role": "front folded-arm hover/walk A",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 9
+      },
+      "dy": -10,
+      "blank": false,
+      "legacy": {
+        "role": "raise-front-0",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -9,
+        -48,
+        9,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          -8,
+          -8
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 10,
+      "frame": 10,
+      "role": "front folded-arm hover/walk B",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 10
+      },
+      "dy": -9,
+      "blank": false,
+      "legacy": {
+        "role": "raise-front-1",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 1,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -9,
+        -47,
+        9,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -47
+        ],
+        [
+          -16,
+          -47
+        ],
+        [
+          0,
+          -31
+        ],
+        [
+          -16,
+          -31
+        ],
+        [
+          -8,
+          -7
+        ],
+        [
+          0,
+          -15
+        ],
+        [
+          -16,
+          -15
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 11,
+      "frame": 11,
+      "role": "front folded-arm hover/walk C",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 11
+      },
+      "dy": -8,
+      "blank": false,
+      "legacy": {
+        "role": "raise-front-2",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 2,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -9,
+        -46,
+        9,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -46
+        ],
+        [
+          -16,
+          -46
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          -16,
+          -30
+        ],
+        [
+          -8,
+          -6
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          -16,
+          -14
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 12,
+      "frame": 12,
+      "role": "left folded-arm hover/walk A",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 12
+      },
+      "dy": -10,
+      "blank": false,
+      "legacy": {
+        "role": "raise-left-0",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -8,
+        -48,
+        6,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          -8,
+          -8
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 13,
+      "frame": 13,
+      "role": "left folded-arm hover/walk B",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 13
+      },
+      "dy": -9,
+      "blank": false,
+      "legacy": {
+        "role": "raise-left-1",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 1,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -8,
+        -47,
+        6,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -47
+        ],
+        [
+          -16,
+          -47
+        ],
+        [
+          0,
+          -31
+        ],
+        [
+          -16,
+          -31
+        ],
+        [
+          -8,
+          -7
+        ],
+        [
+          0,
+          -15
+        ],
+        [
+          -16,
+          -15
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 14,
+      "frame": 14,
+      "role": "left folded-arm hover/walk C",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 14
+      },
+      "dy": -8,
+      "blank": false,
+      "legacy": {
+        "role": "raise-left-2",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 2,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -8,
+        -46,
+        8,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -46
+        ],
+        [
+          -16,
+          -46
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          -16,
+          -30
+        ],
+        [
+          -8,
+          -6
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          -16,
+          -14
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 15,
+      "frame": 12,
+      "role": "right folded-arm hover/walk A",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 12
+      },
+      "flip": true,
+      "dy": -10,
+      "blank": false,
+      "legacy": {
+        "role": "raise-right-0",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -6,
+        -48,
+        8,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          -8,
+          -8
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 16,
+      "frame": 13,
+      "role": "right folded-arm hover/walk B",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 13
+      },
+      "flip": true,
+      "dy": -9,
+      "blank": false,
+      "legacy": {
+        "role": "raise-right-1",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 1,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -6,
+        -47,
+        8,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -47
+        ],
+        [
+          -16,
+          -47
+        ],
+        [
+          0,
+          -31
+        ],
+        [
+          -16,
+          -31
+        ],
+        [
+          -8,
+          -7
+        ],
+        [
+          0,
+          -15
+        ],
+        [
+          -16,
+          -15
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 17,
+      "frame": 14,
+      "role": "right folded-arm hover/walk C",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 14
+      },
+      "flip": true,
+      "dy": -8,
+      "blank": false,
+      "legacy": {
+        "role": "raise-right-2",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 2,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -8,
+        -46,
+        8,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -46
+        ],
+        [
+          -16,
+          -46
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          -16,
+          -30
+        ],
+        [
+          -8,
+          -6
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          -16,
+          -14
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 18,
+      "frame": 61,
+      "role": "front-left overhead sword windup",
+      "armed": true,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 13
+      },
+      "blank": false,
+      "legacy": {
+        "role": "wind-left",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -15,
+        -43,
+        11,
+        2
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          0,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 19,
+      "frame": 63,
+      "role": "right low sword sweep A",
+      "armed": true,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 15
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "sweep-right-0",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -17,
+        -35,
+        33,
+        2
+      ],
+      "originalCellXY": [
+        [
+          -1,
+          -35
+        ],
+        [
+          -17,
+          -35
+        ],
+        [
+          -1,
+          -19
+        ],
+        [
+          -17,
+          -19
+        ],
+        [
+          31,
+          -19
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          15,
+          -11
+        ],
+        [
+          15,
+          -27
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 20,
+      "frame": 20,
+      "role": "right horizontal sword sweep B",
+      "armed": true,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 4
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "sweep-right-1",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 1,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -17,
+        -35,
+        33,
+        2
+      ],
+      "originalCellXY": [
+        [
+          -1,
+          -43
+        ],
+        [
+          -17,
+          -43
+        ],
+        [
+          -1,
+          -27
+        ],
+        [
+          -17,
+          -27
+        ],
+        [
+          31,
+          -19
+        ],
+        [
+          -1,
+          -11
+        ],
+        [
+          -17,
+          -11
+        ],
+        [
+          15,
+          -27
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 21,
+      "frame": 19,
+      "role": "left running sword charge",
+      "armed": true,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 3
+      },
+      "blank": false,
+      "legacy": {
+        "role": "run-left",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -40,
+        12,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -48
+        ],
+        [
+          -20,
+          -48
+        ],
+        [
+          -4,
+          -32
+        ],
+        [
+          -20,
+          -32
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -4,
+          -16
+        ],
+        [
+          -20,
+          -16
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 22,
+      "frame": 17,
+      "role": "left horizontal sword slash A",
+      "armed": true,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 1
+      },
+      "blank": false,
+      "legacy": {
+        "role": "sweep-left-0",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -32,
+        -39,
+        10,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -12,
+          -48
+        ],
+        [
+          -28,
+          -48
+        ],
+        [
+          -4,
+          -32
+        ],
+        [
+          -20,
+          -32
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -4,
+          -16
+        ],
+        [
+          -20,
+          -16
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 23,
+      "frame": 18,
+      "role": "left sword follow-through",
+      "armed": true,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 2
+      },
+      "blank": false,
+      "legacy": {
+        "role": "thrust-left",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -14,
+        -39,
+        10,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -12,
+          -48
+        ],
+        [
+          -28,
+          -48
+        ],
+        [
+          -4,
+          -32
+        ],
+        [
+          -20,
+          -32
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -4,
+          -16
+        ],
+        [
+          -20,
+          -16
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 24,
+      "frame": 19,
+      "role": "right running sword charge",
+      "armed": true,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 3
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "run-right",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -40,
+        12,
+        0
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -48
+        ],
+        [
+          -12,
+          -48
+        ],
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 25,
+      "frame": 17,
+      "role": "right horizontal sword slash A",
+      "armed": true,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 1
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "sweep-right-2",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 2,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -10,
+        -39,
+        32,
+        0
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -40
+        ],
+        [
+          -12,
+          -40
+        ],
+        [
+          4,
+          -24
+        ],
+        [
+          -12,
+          -24
+        ],
+        [
+          20,
+          -40
+        ],
+        [
+          4,
+          -8
+        ],
+        [
+          -12,
+          -8
+        ],
+        [
+          20,
+          -24
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 26,
+      "frame": 18,
+      "role": "right sword follow-through",
+      "armed": true,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 2
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "thrust-right",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -10,
+        -39,
+        14,
+        0
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -40
+        ],
+        [
+          -12,
+          -40
+        ],
+        [
+          4,
+          -24
+        ],
+        [
+          -12,
+          -24
+        ],
+        [
+          20,
+          -40
+        ],
+        [
+          4,
+          -8
+        ],
+        [
+          -12,
+          -8
+        ],
+        [
+          20,
+          -24
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 27,
+      "frame": 23,
+      "role": "left unarmed crouch A",
+      "armed": false,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 7
+      },
+      "blank": false,
+      "legacy": {
+        "role": "crouch-left-0",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -15,
+        -36,
+        11,
+        2
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          0,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 28,
+      "frame": 24,
+      "role": "left unarmed crouch B",
+      "armed": false,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 8
+      },
+      "blank": false,
+      "legacy": {
+        "role": "crouch-left-1",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 1,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -15,
+        -36,
+        11,
+        2
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          0,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 29,
+      "frame": 25,
+      "role": "left rapid punch A",
+      "armed": false,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 9
+      },
+      "blank": false,
+      "legacy": {
+        "role": "reach-left-0",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -28,
+        -39,
+        12,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -48
+        ],
+        [
+          -20,
+          -48
+        ],
+        [
+          -4,
+          -32
+        ],
+        [
+          -20,
+          -32
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -4,
+          -16
+        ],
+        [
+          -20,
+          -16
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 30,
+      "frame": 26,
+      "role": "left rapid punch B",
+      "armed": false,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 10
+      },
+      "blank": false,
+      "legacy": {
+        "role": "reach-left-1",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 1,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -27,
+        -39,
+        12,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -48
+        ],
+        [
+          -20,
+          -48
+        ],
+        [
+          -4,
+          -32
+        ],
+        [
+          -20,
+          -32
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -4,
+          -16
+        ],
+        [
+          -20,
+          -16
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 31,
+      "frame": 25,
+      "role": "right rapid punch A",
+      "armed": false,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 9
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "reach-right-0",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -39,
+        28,
+        0
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -48
+        ],
+        [
+          -12,
+          -48
+        ],
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          20,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 32,
+      "frame": 26,
+      "role": "right rapid punch B",
+      "armed": false,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 10
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "reach-right-1",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 1,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -39,
+        27,
+        0
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -48
+        ],
+        [
+          -12,
+          -48
+        ],
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          20,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 33,
+      "frame": 32,
+      "role": "front unarmed recoil A",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 0
+      },
+      "blank": false,
+      "legacy": {
+        "role": "recoil-front",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -38,
+        10,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -38
+        ],
+        [
+          -20,
+          -38
+        ],
+        [
+          -4,
+          -22
+        ],
+        [
+          -20,
+          -22
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -8,
+          -6
+        ],
+        [
+          -24,
+          -6
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 34,
+      "frame": 33,
+      "role": "front unarmed recoil B",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 1
+      },
+      "blank": false,
+      "legacy": {
+        "role": "recoil-left",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -38,
+        12,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -38
+        ],
+        [
+          -20,
+          -38
+        ],
+        [
+          -4,
+          -22
+        ],
+        [
+          -20,
+          -22
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -8,
+          -6
+        ],
+        [
+          -24,
+          -6
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 35,
+      "frame": 34,
+      "role": "front-left low unarmed recoil",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 2
+      },
+      "blank": false,
+      "legacy": {
+        "role": "recoil-low",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -20,
+        -35,
+        18,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -38
+        ],
+        [
+          -16,
+          -38
+        ],
+        [
+          -2,
+          -22
+        ],
+        [
+          -18,
+          -22
+        ],
+        [
+          16,
+          -30
+        ],
+        [
+          0,
+          -6
+        ],
+        [
+          -16,
+          -6
+        ],
+        [
+          -32,
+          -25
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 36,
+      "frame": 27,
+      "role": "left unarmed punch follow-through",
+      "armed": false,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 11
+      },
+      "blank": false,
+      "legacy": {
+        "role": "thrust-left",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -14,
+        -39,
+        10,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -48
+        ],
+        [
+          -20,
+          -48
+        ],
+        [
+          -4,
+          -32
+        ],
+        [
+          -20,
+          -32
+        ],
+        [
+          -36,
+          -31
+        ],
+        [
+          -4,
+          -16
+        ],
+        [
+          -20,
+          -16
+        ],
+        [
+          -36,
+          -15
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 37,
+      "frame": 28,
+      "role": "front-left unarmed punch windup",
+      "armed": false,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 12
+      },
+      "blank": false,
+      "legacy": {
+        "role": "wind-left",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -17,
+        -35,
+        19,
+        2
+      ],
+      "originalCellXY": [
+        [
+          -1,
+          -43
+        ],
+        [
+          -17,
+          -43
+        ],
+        [
+          -1,
+          -27
+        ],
+        [
+          -17,
+          -27
+        ],
+        [
+          31,
+          -19
+        ],
+        [
+          -1,
+          -11
+        ],
+        [
+          -17,
+          -11
+        ],
+        [
+          15,
+          -22
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 38,
+      "frame": 27,
+      "role": "right unarmed punch follow-through",
+      "armed": false,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 11
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "thrust-right",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -10,
+        -39,
+        14,
+        0
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -40
+        ],
+        [
+          -12,
+          -40
+        ],
+        [
+          4,
+          -24
+        ],
+        [
+          -12,
+          -24
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          -8
+        ],
+        [
+          -12,
+          -8
+        ],
+        [
+          20,
+          -12
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 39,
+      "frame": 0,
+      "role": "native blank",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 0
+      },
+      "dissolve": 11,
+      "blank": true,
+      "legacy": {
+        "role": "blank",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": true
+      },
+      "originalBounds": null,
+      "originalCellXY": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 40,
+      "frame": 0,
+      "role": "native blank",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 0
+      },
+      "dissolve": 11,
+      "blank": true,
+      "legacy": {
+        "role": "blank",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": true
+      },
+      "originalBounds": null,
+      "originalCellXY": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 41,
+      "frame": 0,
+      "role": "native blank",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 0
+      },
+      "dissolve": 11,
+      "blank": true,
+      "legacy": {
+        "role": "blank",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": true
+      },
+      "originalBounds": null,
+      "originalCellXY": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 42,
+      "frame": 35,
+      "role": "front unarmed shake/recovery",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 3
+      },
+      "blank": false,
+      "legacy": {
+        "role": "shake-front",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -14,
+        -46,
+        11,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -46
+        ],
+        [
+          -16,
+          -46
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          -16,
+          -30
+        ],
+        [
+          -8,
+          -6
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          -16,
+          -14
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 43,
+      "frame": 15,
+      "role": "back folded-arm hover/walk A",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 15
+      },
+      "dy": -10,
+      "blank": false,
+      "legacy": {
+        "role": "back-raised",
+        "side": false,
+        "right": false,
+        "back": true,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -9,
+        -48,
+        9,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -48
+        ],
+        [
+          -16,
+          -48
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          -8,
+          -8
+        ],
+        [
+          -8,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 44,
+      "frame": 36,
+      "role": "front unarmed hurt",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 4
+      },
+      "blank": false,
+      "legacy": {
+        "role": "sweep-right-3",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 3,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -17,
+        -45,
+        19,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          -1,
+          -47
+        ],
+        [
+          -17,
+          -47
+        ],
+        [
+          -1,
+          -31
+        ],
+        [
+          -17,
+          -31
+        ],
+        [
+          31,
+          -19
+        ],
+        [
+          -1,
+          -15
+        ],
+        [
+          -17,
+          -15
+        ],
+        [
+          15,
+          -26
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 45,
+      "frame": 37,
+      "role": "front armed hurt",
+      "armed": true,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 5
+      },
+      "blank": false,
+      "legacy": {
+        "role": "sweep-right-4",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 4,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -17,
+        -45,
+        33,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          -1,
+          -47
+        ],
+        [
+          -17,
+          -47
+        ],
+        [
+          -1,
+          -31
+        ],
+        [
+          -17,
+          -31
+        ],
+        [
+          31,
+          -23
+        ],
+        [
+          -1,
+          -15
+        ],
+        [
+          -17,
+          -15
+        ],
+        [
+          15,
+          -31
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 46,
+      "frame": 38,
+      "role": "left unarmed hurt",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 6
+      },
+      "blank": false,
+      "legacy": {
+        "role": "charge-left-0",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -14,
+        -39,
+        16,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -48
+        ],
+        [
+          -20,
+          -48
+        ],
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ],
+        [
+          -28,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 47,
+      "frame": 39,
+      "role": "left armed hurt",
+      "armed": true,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 7
+      },
+      "blank": false,
+      "legacy": {
+        "role": "charge-left-1",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 1,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -14,
+        -39,
+        16,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -48
+        ],
+        [
+          -20,
+          -48
+        ],
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          -24,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ],
+        [
+          -28,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 48,
+      "frame": 38,
+      "role": "right unarmed hurt",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 6
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "charge-right-0",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -16,
+        -39,
+        11,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -40
+        ],
+        [
+          -20,
+          -40
+        ],
+        [
+          -4,
+          -24
+        ],
+        [
+          -20,
+          -24
+        ],
+        [
+          8,
+          -31
+        ],
+        [
+          -12,
+          -8
+        ],
+        [
+          -28,
+          -8
+        ],
+        [
+          12,
+          -12
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 49,
+      "frame": 39,
+      "role": "right armed hurt",
+      "armed": true,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 7
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "charge-right-1",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 1,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -16,
+        -39,
+        11,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -40
+        ],
+        [
+          -20,
+          -40
+        ],
+        [
+          -4,
+          -24
+        ],
+        [
+          -20,
+          -24
+        ],
+        [
+          8,
+          -31
+        ],
+        [
+          -12,
+          -8
+        ],
+        [
+          -28,
+          -8
+        ],
+        [
+          12,
+          -12
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 50,
+      "frame": 48,
+      "role": "back folded-arm hover/walk B",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 0
+      },
+      "dy": -9,
+      "blank": false,
+      "legacy": {
+        "role": "back-step-0",
+        "side": false,
+        "right": false,
+        "back": true,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -9,
+        -47,
+        9,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -47
+        ],
+        [
+          -16,
+          -47
+        ],
+        [
+          0,
+          -31
+        ],
+        [
+          -16,
+          -31
+        ],
+        [
+          -8,
+          -7
+        ],
+        [
+          0,
+          -15
+        ],
+        [
+          -16,
+          -15
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 51,
+      "frame": 49,
+      "role": "back folded-arm hover/walk C",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 1
+      },
+      "dy": -8,
+      "blank": false,
+      "legacy": {
+        "role": "back-step-1",
+        "side": false,
+        "right": false,
+        "back": true,
+        "phase": 1,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -9,
+        -46,
+        9,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -46
+        ],
+        [
+          -16,
+          -46
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          -16,
+          -30
+        ],
+        [
+          -8,
+          -6
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          -16,
+          -14
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 52,
+      "frame": 2,
+      "role": "back unarmed idle",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 2
+      },
+      "blank": false,
+      "legacy": {
+        "role": "back",
+        "side": false,
+        "right": false,
+        "back": true,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -7,
+        -40,
+        10,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -6,
+          -48
+        ],
+        [
+          -22,
+          -48
+        ],
+        [
+          -6,
+          -32
+        ],
+        [
+          -22,
+          -32
+        ],
+        [
+          -38,
+          -32
+        ],
+        [
+          -6,
+          -16
+        ],
+        [
+          -22,
+          -16
+        ],
+        [
+          -38,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 53,
+      "frame": 5,
+      "role": "back unarmed guard",
+      "armed": false,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 5
+      },
+      "blank": false,
+      "legacy": {
+        "role": "back-sword",
+        "side": false,
+        "right": false,
+        "back": true,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -11,
+        -39,
+        13,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -6,
+          -47
+        ],
+        [
+          -22,
+          -48
+        ],
+        [
+          -3,
+          -32
+        ],
+        [
+          -19,
+          -32
+        ],
+        [
+          -35,
+          -32
+        ],
+        [
+          -3,
+          -16
+        ],
+        [
+          -19,
+          -16
+        ],
+        [
+          -35,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 54,
+      "frame": 8,
+      "role": "back sword-ready guard",
+      "armed": true,
+      "source": {
+        "sheet": "base-v1",
+        "cell": 8
+      },
+      "blank": false,
+      "legacy": {
+        "role": "back-draw",
+        "side": false,
+        "right": false,
+        "back": true,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -18,
+        -39,
+        13,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -6,
+          -47
+        ],
+        [
+          -22,
+          -48
+        ],
+        [
+          -3,
+          -32
+        ],
+        [
+          -19,
+          -32
+        ],
+        [
+          -35,
+          -32
+        ],
+        [
+          -3,
+          -16
+        ],
+        [
+          -19,
+          -16
+        ],
+        [
+          -35,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 55,
+      "frame": 22,
+      "role": "low sword crouch windup",
+      "armed": true,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 6
+      },
+      "blank": false,
+      "legacy": {
+        "role": "crouch-left-2",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 2,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -38,
+        12,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -38
+        ],
+        [
+          -20,
+          -38
+        ],
+        [
+          -4,
+          -22
+        ],
+        [
+          -20,
+          -22
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -8,
+          -6
+        ],
+        [
+          -24,
+          -6
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 56,
+      "frame": 20,
+      "role": "left horizontal sword sweep B",
+      "armed": true,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 4
+      },
+      "blank": false,
+      "legacy": {
+        "role": "sweep-left-1",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 1,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -32,
+        -35,
+        18,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -38
+        ],
+        [
+          -16,
+          -38
+        ],
+        [
+          -2,
+          -22
+        ],
+        [
+          -18,
+          -22
+        ],
+        [
+          16,
+          -30
+        ],
+        [
+          0,
+          -6
+        ],
+        [
+          -16,
+          -6
+        ],
+        [
+          -32,
+          -32
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 57,
+      "frame": 21,
+      "role": "left low sword sweep recovery",
+      "armed": true,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 5
+      },
+      "blank": false,
+      "legacy": {
+        "role": "sweep-left-2",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 2,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -32,
+        -35,
+        18,
+        0
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -38
+        ],
+        [
+          -16,
+          -38
+        ],
+        [
+          -2,
+          -22
+        ],
+        [
+          -18,
+          -22
+        ],
+        [
+          16,
+          -30
+        ],
+        [
+          0,
+          -6
+        ],
+        [
+          -16,
+          -6
+        ],
+        [
+          -32,
+          -24
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 58,
+      "frame": 40,
+      "role": "back unarmed hurt",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 8
+      },
+      "blank": false,
+      "legacy": {
+        "role": "sweep-left-3",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 3,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -16,
+        -38,
+        18,
+        4
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -34
+        ],
+        [
+          -16,
+          -34
+        ],
+        [
+          -1,
+          -18
+        ],
+        [
+          -17,
+          -18
+        ],
+        [
+          16,
+          -26
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -19,
+          -2
+        ],
+        [
+          -8,
+          -48
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 59,
+      "frame": 41,
+      "role": "back armed hurt",
+      "armed": true,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 9
+      },
+      "blank": false,
+      "legacy": {
+        "role": "sweep-left-4",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 4,
+        "armed": true,
+        "sweep": true,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -31,
+        -38,
+        16,
+        4
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -34
+        ],
+        [
+          -16,
+          -34
+        ],
+        [
+          -1,
+          -18
+        ],
+        [
+          -17,
+          -18
+        ],
+        [
+          -8,
+          -48
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -19,
+          -2
+        ],
+        [
+          -31,
+          -35
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 60,
+      "frame": 42,
+      "role": "left unarmed crouch preparation",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 10
+      },
+      "blank": false,
+      "legacy": {
+        "role": "guard-left-low",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -38,
+        11,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -38
+        ],
+        [
+          -20,
+          -38
+        ],
+        [
+          -4,
+          -22
+        ],
+        [
+          -20,
+          -22
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -8,
+          -6
+        ],
+        [
+          -24,
+          -6
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 61,
+      "frame": 43,
+      "role": "back-left unarmed arm spread",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 11
+      },
+      "blank": false,
+      "legacy": {
+        "role": "guard-right-low",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -16,
+        -39,
+        14,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          -2,
+          -39
+        ],
+        [
+          -18,
+          -39
+        ],
+        [
+          -2,
+          -23
+        ],
+        [
+          -18,
+          -23
+        ],
+        [
+          -42,
+          -32
+        ],
+        [
+          -2,
+          -7
+        ],
+        [
+          -18,
+          -7
+        ],
+        [
+          -42,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 62,
+      "frame": 50,
+      "role": "left airborne folded-arm turn low",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 2
+      },
+      "dy": -14,
+      "blank": false,
+      "legacy": {
+        "role": "air-left-0",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -8,
+        -52,
+        8,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -52
+        ],
+        [
+          -16,
+          -52
+        ],
+        [
+          0,
+          -36
+        ],
+        [
+          -16,
+          -36
+        ],
+        [
+          -8,
+          -8
+        ],
+        [
+          0,
+          -20
+        ],
+        [
+          -16,
+          -20
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 63,
+      "frame": 51,
+      "role": "front airborne open-arm turn middle",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 3
+      },
+      "dy": -18,
+      "blank": false,
+      "legacy": {
+        "role": "air-front-1",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 1,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -16,
+        -56,
+        16,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -56
+        ],
+        [
+          -16,
+          -56
+        ],
+        [
+          0,
+          -40
+        ],
+        [
+          -16,
+          -40
+        ],
+        [
+          -8,
+          -9
+        ],
+        [
+          0,
+          -24
+        ],
+        [
+          -16,
+          -24
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 64,
+      "frame": 52,
+      "role": "right airborne folded-arm turn high",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 4
+      },
+      "dy": -22,
+      "blank": false,
+      "legacy": {
+        "role": "air-right-2",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 2,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -8,
+        -60,
+        8,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -60
+        ],
+        [
+          -16,
+          -60
+        ],
+        [
+          0,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          -8,
+          -10
+        ],
+        [
+          0,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 65,
+      "frame": 53,
+      "role": "back airborne folded-arm turn middle",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 5
+      },
+      "dy": -18,
+      "blank": false,
+      "legacy": {
+        "role": "air-back-1",
+        "side": false,
+        "right": false,
+        "back": true,
+        "phase": 1,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -9,
+        -56,
+        9,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -56
+        ],
+        [
+          -16,
+          -56
+        ],
+        [
+          0,
+          -40
+        ],
+        [
+          -16,
+          -40
+        ],
+        [
+          -8,
+          -9
+        ],
+        [
+          0,
+          -24
+        ],
+        [
+          -16,
+          -24
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 66,
+      "frame": 23,
+      "role": "left unarmed crouch A lowered recovery",
+      "armed": false,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 7
+      },
+      "blank": false,
+      "legacy": {
+        "role": "crouch-left-0",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -15,
+        -36,
+        11,
+        2
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          0,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        2
+      ]
+    },
+    {
+      "nativeFrame": 67,
+      "frame": 44,
+      "role": "left unarmed landing/recovery",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 12
+      },
+      "blank": false,
+      "legacy": {
+        "role": "land-left",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -16,
+        -34,
+        16,
+        6
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -42
+        ],
+        [
+          -16,
+          -42
+        ],
+        [
+          0,
+          -26
+        ],
+        [
+          -16,
+          -26
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          -10
+        ],
+        [
+          -16,
+          -10
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 68,
+      "frame": 50,
+      "role": "right airborne folded-arm turn low",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 2
+      },
+      "flip": true,
+      "dy": -14,
+      "blank": false,
+      "legacy": {
+        "role": "air-left-0",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -8,
+        -52,
+        8,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -52
+        ],
+        [
+          -16,
+          -52
+        ],
+        [
+          0,
+          -36
+        ],
+        [
+          -16,
+          -36
+        ],
+        [
+          -8,
+          -8
+        ],
+        [
+          0,
+          -20
+        ],
+        [
+          -16,
+          -20
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 69,
+      "frame": 54,
+      "role": "back airborne open-arm turn middle",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 6
+      },
+      "dy": -18,
+      "blank": false,
+      "legacy": {
+        "role": "air-front-1",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 1,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -16,
+        -56,
+        16,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -56
+        ],
+        [
+          -16,
+          -56
+        ],
+        [
+          0,
+          -40
+        ],
+        [
+          -16,
+          -40
+        ],
+        [
+          -8,
+          -9
+        ],
+        [
+          0,
+          -24
+        ],
+        [
+          -16,
+          -24
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 70,
+      "frame": 52,
+      "role": "left airborne folded-arm turn high",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 4
+      },
+      "flip": true,
+      "dy": -22,
+      "blank": false,
+      "legacy": {
+        "role": "air-right-2",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 2,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -8,
+        -60,
+        8,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -60
+        ],
+        [
+          -16,
+          -60
+        ],
+        [
+          0,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          -8,
+          -10
+        ],
+        [
+          0,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 71,
+      "frame": 55,
+      "role": "front airborne folded-arm turn middle",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 7
+      },
+      "dy": -18,
+      "blank": false,
+      "legacy": {
+        "role": "air-back-1",
+        "side": false,
+        "right": false,
+        "back": true,
+        "phase": 1,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -9,
+        -56,
+        9,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          0,
+          -56
+        ],
+        [
+          -16,
+          -56
+        ],
+        [
+          0,
+          -40
+        ],
+        [
+          -16,
+          -40
+        ],
+        [
+          -8,
+          -9
+        ],
+        [
+          0,
+          -24
+        ],
+        [
+          -16,
+          -24
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 72,
+      "frame": 45,
+      "role": "front unarmed low guard",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 13
+      },
+      "blank": false,
+      "legacy": {
+        "role": "guard-front-low",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -39,
+        12,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -48
+        ],
+        [
+          -20,
+          -48
+        ],
+        [
+          -4,
+          -32
+        ],
+        [
+          -20,
+          -32
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -4,
+          -16
+        ],
+        [
+          -20,
+          -16
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 73,
+      "frame": 46,
+      "role": "left unarmed compact low guard",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 14
+      },
+      "blank": false,
+      "legacy": {
+        "role": "guard-left",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -15,
+        -40,
+        6,
+        0
+      ],
+      "originalCellXY": [
+        [
+          -7,
+          -40
+        ],
+        [
+          -23,
+          -40
+        ],
+        [
+          -7,
+          -24
+        ],
+        [
+          -23,
+          -24
+        ],
+        [
+          -42,
+          -32
+        ],
+        [
+          -10,
+          -8
+        ],
+        [
+          -26,
+          -8
+        ],
+        [
+          -42,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 74,
+      "frame": 56,
+      "role": "front airborne open-arm turn low left origin",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 8
+      },
+      "dx": -4,
+      "dy": -14,
+      "blank": false,
+      "legacy": {
+        "role": "air-front-0",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -20,
+        -52,
+        12,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -52
+        ],
+        [
+          -20,
+          -52
+        ],
+        [
+          -4,
+          -36
+        ],
+        [
+          -20,
+          -36
+        ],
+        [
+          -12,
+          -8
+        ],
+        [
+          -4,
+          -20
+        ],
+        [
+          -20,
+          -20
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 75,
+      "frame": 57,
+      "role": "right airborne folded-arm turn middle left origin",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 9
+      },
+      "dx": -4,
+      "dy": -18,
+      "blank": false,
+      "legacy": {
+        "role": "air-left-1",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 1,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -56,
+        4,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -56
+        ],
+        [
+          -20,
+          -56
+        ],
+        [
+          -4,
+          -40
+        ],
+        [
+          -20,
+          -40
+        ],
+        [
+          -12,
+          -9
+        ],
+        [
+          -4,
+          -24
+        ],
+        [
+          -20,
+          -25
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 76,
+      "frame": 58,
+      "role": "back airborne open-arm turn high left origin",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 10
+      },
+      "dx": -4,
+      "dy": -22,
+      "blank": false,
+      "legacy": {
+        "role": "air-front-2",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 2,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -20,
+        -60,
+        12,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -60
+        ],
+        [
+          -20,
+          -60
+        ],
+        [
+          -4,
+          -44
+        ],
+        [
+          -20,
+          -44
+        ],
+        [
+          -12,
+          -10
+        ],
+        [
+          -4,
+          -28
+        ],
+        [
+          -20,
+          -28
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 77,
+      "frame": 59,
+      "role": "left airborne folded-arm turn middle left origin",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 11
+      },
+      "dx": -4,
+      "dy": -18,
+      "blank": false,
+      "legacy": {
+        "role": "air-left-1",
+        "side": true,
+        "right": false,
+        "back": false,
+        "phase": 1,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -56,
+        4,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -56
+        ],
+        [
+          -20,
+          -56
+        ],
+        [
+          -4,
+          -40
+        ],
+        [
+          -20,
+          -40
+        ],
+        [
+          -12,
+          -9
+        ],
+        [
+          -4,
+          -24
+        ],
+        [
+          -20,
+          -24
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 78,
+      "frame": 45,
+      "role": "front unarmed low guard reflected",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 13
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "guard-front-low",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -39,
+        12,
+        0
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -48
+        ],
+        [
+          -12,
+          -48
+        ],
+        [
+          4,
+          -32
+        ],
+        [
+          -12,
+          -32
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          4,
+          -16
+        ],
+        [
+          -12,
+          -16
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 79,
+      "frame": 46,
+      "role": "right unarmed compact low guard",
+      "armed": false,
+      "source": {
+        "sheet": "reactions-v1",
+        "cell": 14
+      },
+      "flip": true,
+      "blank": false,
+      "legacy": {
+        "role": "guard-right",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -6,
+        -40,
+        15,
+        0
+      ],
+      "originalCellXY": [
+        [
+          7,
+          -40
+        ],
+        [
+          -9,
+          -40
+        ],
+        [
+          7,
+          -24
+        ],
+        [
+          -9,
+          -24
+        ],
+        [
+          -32,
+          -32
+        ],
+        [
+          10,
+          -8
+        ],
+        [
+          -6,
+          -8
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 80,
+      "frame": 56,
+      "role": "front airborne open-arm turn low right origin",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 8
+      },
+      "dx": 4,
+      "dy": -14,
+      "blank": false,
+      "legacy": {
+        "role": "air-front-0",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -52,
+        20,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -52
+        ],
+        [
+          -12,
+          -52
+        ],
+        [
+          4,
+          -36
+        ],
+        [
+          -12,
+          -36
+        ],
+        [
+          -4,
+          -8
+        ],
+        [
+          4,
+          -20
+        ],
+        [
+          -12,
+          -20
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 81,
+      "frame": 57,
+      "role": "left airborne folded-arm turn middle right origin",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 9
+      },
+      "flip": true,
+      "dx": 4,
+      "dy": -18,
+      "blank": false,
+      "legacy": {
+        "role": "air-right-1",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 1,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -4,
+        -56,
+        12,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -56
+        ],
+        [
+          -12,
+          -56
+        ],
+        [
+          4,
+          -40
+        ],
+        [
+          -12,
+          -40
+        ],
+        [
+          -4,
+          -9
+        ],
+        [
+          4,
+          -24
+        ],
+        [
+          -12,
+          -24
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 82,
+      "frame": 58,
+      "role": "back airborne open-arm turn high right origin",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 10
+      },
+      "dx": 4,
+      "dy": -22,
+      "blank": false,
+      "legacy": {
+        "role": "air-front-2",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 2,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -12,
+        -60,
+        20,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -60
+        ],
+        [
+          -12,
+          -60
+        ],
+        [
+          4,
+          -44
+        ],
+        [
+          -12,
+          -44
+        ],
+        [
+          -4,
+          -10
+        ],
+        [
+          4,
+          -28
+        ],
+        [
+          -12,
+          -28
+        ],
+        [
+          -32,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 83,
+      "frame": 59,
+      "role": "right airborne folded-arm turn middle right origin",
+      "armed": false,
+      "source": {
+        "sheet": "aerial-v1",
+        "cell": 11
+      },
+      "flip": true,
+      "dx": 4,
+      "dy": -18,
+      "blank": false,
+      "legacy": {
+        "role": "air-right-1",
+        "side": true,
+        "right": true,
+        "back": false,
+        "phase": 1,
+        "armed": false,
+        "sweep": false,
+        "air": true,
+        "blank": false
+      },
+      "originalBounds": [
+        -4,
+        -56,
+        12,
+        -2
+      ],
+      "originalCellXY": [
+        [
+          4,
+          -56
+        ],
+        [
+          -12,
+          -56
+        ],
+        [
+          4,
+          -40
+        ],
+        [
+          -12,
+          -40
+        ],
+        [
+          -4,
+          -9
+        ],
+        [
+          4,
+          -24
+        ],
+        [
+          -12,
+          -24
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "nativeFrame": 84,
+      "frame": 29,
+      "role": "front downward sword plunge",
+      "armed": true,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 13
+      },
+      "blank": false,
+      "legacy": {
+        "role": "fall",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": false,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -10,
+        -31,
+        11,
+        16
+      ],
+      "originalCellXY": [
+        [
+          -4,
+          -31
+        ],
+        [
+          -20,
+          -31
+        ],
+        [
+          -4,
+          -15
+        ],
+        [
+          -20,
+          -15
+        ],
+        [
+          -36,
+          -32
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -20,
+          1
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        14
+      ]
+    },
+    {
+      "nativeFrame": 85,
+      "frame": 30,
+      "role": "front upward overhead sword strike",
+      "armed": true,
+      "source": {
+        "sheet": "combat-v2",
+        "cell": 14
+      },
+      "blank": false,
+      "legacy": {
+        "role": "overhead",
+        "side": false,
+        "right": false,
+        "back": false,
+        "phase": 0,
+        "armed": true,
+        "sweep": false,
+        "air": false,
+        "blank": false
+      },
+      "originalBounds": [
+        -9,
+        -76,
+        9,
+        -1
+      ],
+      "originalCellXY": [
+        [
+          -12,
+          -76
+        ],
+        [
+          -8,
+          -60
+        ],
+        [
+          0,
+          -44
+        ],
+        [
+          -16,
+          -44
+        ],
+        [
+          -8,
+          -9
+        ],
+        [
+          0,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          -36,
+          -16
+        ]
+      ],
+      "frameOffset": [
+        0,
+        0
+      ]
+    }
+  ]
+}

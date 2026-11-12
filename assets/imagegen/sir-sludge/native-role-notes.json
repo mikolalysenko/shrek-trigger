@@ -1,0 +1,82 @@
+{
+  "labels": [
+    "Rear contact A",
+    "Rear passing",
+    "Rear contact B · corrected source",
+    "Front contact A",
+    "Front passing",
+    "Front contact B · corrected source",
+    "Left contact A",
+    "Left passing",
+    "Left contact B · corrected source",
+    "Right contact A · mirror",
+    "Right passing · mirror",
+    "Right contact B · mirror",
+    "Low profile hit / brace",
+    "Front compact guard",
+    "Tall threat / overhead mace",
+    "Rear open windup",
+    "Rear compact recovery",
+    "Rear impact above crown",
+    "Front open windup",
+    "Front low follow-through",
+    "Front low impact",
+    "Left windup",
+    "Left overhead follow-through",
+    "Left impact arc",
+    "Right windup · mirror",
+    "Right overhead follow-through · mirror",
+    "Right impact arc · mirror"
+  ],
+  "gait": {
+    "nativeOrder": [
+      1,
+      2,
+      0
+    ],
+    "ticks": [
+      10,
+      15,
+      15
+    ],
+    "passingFrames": [
+      1,
+      4,
+      7,
+      10
+    ],
+    "passingPlacement": [
+      0,
+      1
+    ],
+    "correctedContacts": [
+      2,
+      5,
+      8,
+      11
+    ],
+    "note": "New source v2 supplies true opposed contact; original v1 repeated-contact cells 2/5/8 are unused."
+  },
+  "actionMirrorPairs": [
+    [
+      21,
+      24
+    ],
+    [
+      22,
+      25
+    ],
+    [
+      23,
+      26
+    ]
+  ],
+  "originalRoleAdaptations": {
+    "12": "Original flattened left-profile reaction becomes low braced troll",
+    "14": "Original raised vertical tail threat becomes overhead mace threat",
+    "17": "Above-crown impact retains compact cream flecks",
+    "20": "Original low tail strike becomes low mace impact",
+    "23": "Original side tail arc becomes side mace arc"
+  },
+  "sourceTranslationPolicy": "Gait keeps existing one-pixel passing offsets on a stable planted-foot baseline. Actions retain original opaque center/bottom placement, documented per slot. Exact original cell origins are retained as audit data; new geometry is explicit."
+}

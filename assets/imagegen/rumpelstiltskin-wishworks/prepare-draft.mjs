@@ -1,0 +1,28 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const dir='assets/imagegen/rumpelstiltskin-wishworks',audit=JSON.parse(await readFile(dir+'/native-audit.json'));
+const sha=b=>createHash('sha256').update(b).digest('hex');
+const colors=p=>p.nativeColors.map(c=>[0,5,10].map(s=>{const v=c>>s&31;return(v<<3|v>>2).toString(16).padStart(2,'0')}).join(''));
+const range=n=>Array.from({length:n},(_,i)=>i);
+const families=[];
+for(const [index,key,width,height,origin,nativeHeight]of[[0,'rumpelstiltskin',64,80,[32,64],27],[1,'wishworks-golems',96,112,[48,96],52]]){
+ const f=audit.families[index],palette=colors(f.palettes[0]),frameCellOrigins=f.frames.map(fr=>fr.cellOrigins.map(([x,y])=>[x+origin[0],y+origin[1]]));
+ const cellOverlapFrames=frameCellOrigins.flatMap((origins,frame)=>{const a=new Uint8Array(width*height);let overlap=false;for(const[x,y]of origins)for(let yy=0;yy<16;yy++)for(let xx=0;xx<16;xx++)if(a[(y+yy)*width+x+xx]++)overlap=true;return overlap?[frame]:[];});
+ const sheet=(file,columns,rows,scaleCells)=>({file:dir+'/'+file,columns,rows,nativeHeight,scaleCells,componentSelection:'union',componentAlpha:128,sample:{method:'area',bottom:origin[1]-1,alphaThreshold:128,coverageThreshold:.28}});
+ const sheets=index===0?[sheet('rumpel-base-source-v1.png',4,3,[0,1,2,3,4,5]),sheet('rumpel-actions-source-v1.png',4,4,[0,1,2,5,6,9,10,12]),sheet('rumpel-contact-b-source-v3.png',1,1,[0])]:[sheet('golems-source-v1.png',4,2,[0,1,2,4,5,6,7]),{...sheet('golem-reaction-source-v2.png',1,1,[0]),nativeHeight:60}];
+ const sourceMap=index===0?[1,0,2,4,3,{frame:3,flip:true},7,6,28,{frame:7,flip:true},{frame:6,flip:true},{frame:28,flip:true},...range(16).map(i=>i+12)]:[0,1,2,8,4,5,6,7];
+ const placementAdjustments=index===0?{16:[3,0]}:{3:[0,-4],4:[0,2],5:[0,4]};
+ const sequences={native:{1:sourceMap.map((s,i)=>{const e=typeof s==='number'?{frame:s}:{...s},b=f.frames[i].bounds,centre=Math.round(b[0]+b[2]/2),[x,y]=placementAdjustments[i]??[0,0];return{...e,dx:centre+x,dy:b[1]+b[3]+y};})}};
+ const spec={key,sourceType:'image-generation',width,height,palette,directory:dir+'/'+key+'-draft',sheets,sequences,semanticRoles:{native:{1:{kind:'adapted',reason:index===0?'Generated Rumpelstiltskin anatomy/acting replaces all original 28 Dalton poses. Front contact B mirrors front contact A to oppose the lead foot; a separately generated left contact B replaces the first sheet’s repeated contact. Right profiles mirror the complete left roles. Native directions, roles and timings are preserved.':'Generated wishworks construct in eight original frontal hover, reaction, jaw and arm-release roles; native four facings intentionally share these views.'}}},notes:{status:'Frozen inactive source candidate',anchor:[0,height-origin[1]],frameCellOrigins,cellOverlapFrames,placementAdjustments,placementReason:'Integer translation of complete sampled source to preserve every opaque extremity inside the unchanged original OAM cells; no clipping, painting or anisotropic resize.',originalSignedXY:'Preserved exactly after compile anchor',palette:'Original twelve-color ramp unchanged',sourceMap:sourceMap.map((s,i)=>({nativeFrame:i,source:s}))}};
+ await writeFile(dir+'/'+key+'-import-spec.draft.json',JSON.stringify(spec,null,2)+'\n');
+ const names=index===0?[['rumpel','Rumpelstiltskin','Rumpel'],['rumpel-king','Rumpelstiltskin (usurper)','King Rumpel']]:[['wish-golem','Wishworks Golem','Wish Golem'],['wish-golem-boss','Wishworks Golem Boss','Wish Boss']];
+ const actors=f.enemies.map((enemy,i)=>{const p=f.palettes[index===0?0:i],h=f.ownership[0].owners.find(o=>o.kind==='enemy'&&o.id===enemy).header;return{key:names[i][0],name:names[i][1],short:names[i][2],enemy,asm:f.asm,palette:p.id,animation:f.animation.id,size:h[4],colors:colors(p)};});
+ families.push({key,name:index===0?'Rumpelstiltskin':'Wishworks Golems',gfx:f.gfx,groups:[{asm:f.asm,art:key,frames:f.frames.length,size:f.size,width,height,anchor:[0,height-origin[1]],frameCellOrigins,cellOverlapFrames}],actors});
+}
+await writeFile(dir+'/family.draft.json',JSON.stringify(families,null,2)+'\n');
+const provenance=JSON.parse(await readFile(dir+'/provenance.json'));
+for(const[file,prompt,reference]of[['rumpel-actions-source-v1.png','prompt-rumpel-actions-v1.txt','rumpel-base-source-v1.png'],['golems-source-v1.png','prompt-golems-v1.txt',null],['golem-reaction-source-v2.png','prompt-golem-reaction-v2.txt','golems-source-v1.png'],['rumpel-contact-b-source-v3.png','prompt-rumpel-contact-b-v3.txt','references/rumpel-left-contact-A.png']])if(!provenance.generations.some(g=>g.file===dir+'/'+file))provenance.generations.push({file:dir+'/'+file,sha256:sha(await readFile(dir+'/'+file)),prompt:dir+'/'+prompt,tool:'built-in image_gen',transparentBackground:true,reference:reference?dir+'/'+reference:null,sourceType:'image-generation'});
+provenance.unusedSources=[{...provenance.unusedSources?.[0],file:dir+'/rumpel-gait-source-v2-unused.png',sha256:'6527603b9caf151768b52c360eb75e5f61084e289fd5f9c3ee576ac6ce549b73',prompt:dir+'/prompt-rumpel-gait-v2.txt',reason:'Both requested opposite profiles repeated the same near-side contact. Rejected on visual quality, not consumed by any native slot.'}];
+provenance.rootDesignConsolidation='Root reported recording the casting choice in docs/decisions.md and docs/game-design.md on 2026-11-01; no active files edited by this worker.';
+await writeFile(dir+'/provenance.json',JSON.stringify(provenance,null,2)+'\n');
+console.log(families.map(f=>({key:f.key,gfx:f.gfx,frames:f.groups[0].frames,overlapFrames:f.groups[0].cellOverlapFrames})));

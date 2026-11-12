@@ -1,0 +1,36 @@
+{
+  "generator": "built-in image_gen",
+  "status": "output moderation rejected",
+  "category": "other",
+  "attempts": [
+    {
+      "prompt": "prompt-01-turnaround.txt",
+      "requestId": "83f4ea94-22d2-42ba-bfcf-438277ef19b7"
+    },
+    {
+      "prompt": "prompt-02-turnaround.txt",
+      "requestId": "1df22a5a-f108-4ccc-b0a0-3e49be09f15a"
+    },
+    {
+      "generator": "Bundled imagegen CLI / Image API",
+      "model": "gpt-image-2",
+      "prompt": "prompt-api-base-v1.txt",
+      "requestId": "req_a07b8e67ded4481ca47be2fb395e3c51",
+      "status": "HTTP400 safety system rejection",
+      "output": null,
+      "moderation": "default"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://www.spriters-resource.com/mobile/shrekforeverafterthemobilegamejava/asset/256482/",
+      "image": "https://www.spriters-resource.com/media/assets/253/256482.png?updated=1755493938",
+      "status": "page inspected; image retrieval blocked by HTTP403"
+    },
+    {
+      "url": "https://www.spriters-resource.com/v_smile/shrekdragonstale/asset/506339/",
+      "status": "retrieval blocked by HTTP403"
+    }
+  ],
+  "nextStep": "Stop image-generation retries for this character. The authorized API fallback also returned a safety rejection. Parent is informed; other successful character assets continue. No generated Shrek artwork is claimed."
+}

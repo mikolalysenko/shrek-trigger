@@ -1,0 +1,3696 @@
+{
+  "status": "passed",
+  "scope": "Native AA event animation execution in an isolated field object; exact original frame lists and durations, two complete steady cycles per selected action and owner with exact VRAM and four-cell OAM every tick. Not full encounter transition order.",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "candidateSha256": "eaa494d1fb0770ce064b4fa6dbd97e6c56ba1e6abb1f3e2520ee3e5698626e54",
+  "core": "repository SNES JS native 65816/PPU",
+  "cases": 55,
+  "cycles": 110,
+  "exactNativeVideoTicks": 2122,
+  "nativeProgramBytesUnchanged": true,
+  "npcNativeInitCount": 1,
+  "unusedNpc44OutOfBankListsNotInvoked": true,
+  "cpuRegistersOrPpuNotPatched": true,
+  "cartridgeUnchanged": true,
+  "reports": [
+    {
+      "family": "rat",
+      "key": "scrap-rat",
+      "enemy": 134,
+      "program": 97,
+      "palette": 84,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "Program 97 rear idle",
+          "animation": 0,
+          "facing": 0,
+          "frames": [
+            2
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 2,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-0-direction-0.json",
+          "traceSha256": "b5d5fb4de6ffe4d3d77dd001700ee4268920bae3f79de2741048774add76c962",
+          "screenshot": "timed/scrap-rat-animation-0-direction-0.png"
+        },
+        {
+          "role": "Program 97 rear walk",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-1-direction-0.json",
+          "traceSha256": "851d152efda29eeb2e707fdb049453704a4166e35756a950efd4a2378f9b39d5",
+          "screenshot": "timed/scrap-rat-animation-1-direction-0.png"
+        },
+        {
+          "role": "Program 97 rear run",
+          "animation": 3,
+          "facing": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-3-direction-0.json",
+          "traceSha256": "747c24be2a35b01c93ac603a08cdac6d6aa0409951c003abd99e6c3f31009aa1",
+          "screenshot": "timed/scrap-rat-animation-3-direction-0.png"
+        },
+        {
+          "role": "Program 97 rear short motion",
+          "animation": 6,
+          "facing": 0,
+          "frames": [
+            1,
+            2
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 2,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-6-direction-0.json",
+          "traceSha256": "33cd0eec9080d4d340e87ed4409f1db8b9bf8f39510bbc5d85ecef2c3c427cc5",
+          "screenshot": "timed/scrap-rat-animation-6-direction-0.png"
+        },
+        {
+          "role": "Program 97 rear full motion",
+          "animation": 7,
+          "facing": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-7-direction-0.json",
+          "traceSha256": "f3371bc15c3f16fddf8c79e17927cf55e2fa32404efbac7f55e01a49ed83b96f",
+          "screenshot": "timed/scrap-rat-animation-7-direction-0.png"
+        },
+        {
+          "role": "Program 97 front idle",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            5
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 5,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 5,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-0-direction-1.json",
+          "traceSha256": "a61451b95643912513d4cb67211c6166299e8d2c1bab4d04d3ddc90eb3ca7734",
+          "screenshot": "timed/scrap-rat-animation-0-direction-1.png"
+        },
+        {
+          "role": "Program 97 front walk",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            3,
+            4,
+            5,
+            4
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-1-direction-1.json",
+          "traceSha256": "0f02b7473899fb02223e190f8b34f1e002c71fc85fb6cb1ed36fb0dff60e7d8e",
+          "screenshot": "timed/scrap-rat-animation-1-direction-1.png"
+        },
+        {
+          "role": "Program 97 front run",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            3,
+            4,
+            5,
+            4
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-3-direction-1.json",
+          "traceSha256": "1a596dabadc314ecb6ed2861fe12a4f35bd7b7db5f812df5acf411b8af7e2368",
+          "screenshot": "timed/scrap-rat-animation-3-direction-1.png"
+        },
+        {
+          "role": "Program 97 front recoil",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            12
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 12,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 12,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-5-direction-1.json",
+          "traceSha256": "00e8deed6e2b15058824338b3851ece60375631ee58a4d2c39b991d6c2f5b144",
+          "screenshot": "timed/scrap-rat-animation-5-direction-1.png"
+        },
+        {
+          "role": "Program 97 front short motion",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-6-direction-1.json",
+          "traceSha256": "f8b07407c9f2db1d30359644e28d60c5bfcce8e657f32db3c108360adf6fdab5",
+          "screenshot": "timed/scrap-rat-animation-6-direction-1.png"
+        },
+        {
+          "role": "Program 97 front full motion",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            3,
+            4,
+            5,
+            4
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 5,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 5,
+              "duration": 5
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-7-direction-1.json",
+          "traceSha256": "581e0aebb6ed66cb3ac1a1bde143dd2b20280ebc372d625ba5e55c4b2b7421f6",
+          "screenshot": "timed/scrap-rat-animation-7-direction-1.png"
+        },
+        {
+          "role": "Program 97 left idle",
+          "animation": 0,
+          "facing": 2,
+          "frames": [
+            8
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 8,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-0-direction-2.json",
+          "traceSha256": "a2c53a7afcb7a011f29ab90c02551b4d5e37a0321f8eda0df005190d05221865",
+          "screenshot": "timed/scrap-rat-animation-0-direction-2.png"
+        },
+        {
+          "role": "Program 97 left walk",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            6,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-1-direction-2.json",
+          "traceSha256": "196ab2b15ba0288de8f2bfa8e7ac9b4be92e0543c9974fb727e8129465644731",
+          "screenshot": "timed/scrap-rat-animation-1-direction-2.png"
+        },
+        {
+          "role": "Program 97 left run",
+          "animation": 3,
+          "facing": 2,
+          "frames": [
+            6,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-3-direction-2.json",
+          "traceSha256": "4407beed68f63be99f6ddbc6194ebc059ad0bcd047db534929c490da20d3c5c3",
+          "screenshot": "timed/scrap-rat-animation-3-direction-2.png"
+        },
+        {
+          "role": "Program 97 left short motion",
+          "animation": 6,
+          "facing": 2,
+          "frames": [
+            7,
+            8
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 8,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-6-direction-2.json",
+          "traceSha256": "fb6fad23373fcc4325ae5a7740b1d8376c37da7ffe839d2d4f7f18776e397785",
+          "screenshot": "timed/scrap-rat-animation-6-direction-2.png"
+        },
+        {
+          "role": "Program 97 left full motion",
+          "animation": 7,
+          "facing": 2,
+          "frames": [
+            6,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-7-direction-2.json",
+          "traceSha256": "0c8bd7f76973667629f7da184939747f0b4ba74b9cbb3f67898636602855fb23",
+          "screenshot": "timed/scrap-rat-animation-7-direction-2.png"
+        },
+        {
+          "role": "Program 97 right idle",
+          "animation": 0,
+          "facing": 3,
+          "frames": [
+            9
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-0-direction-3.json",
+          "traceSha256": "3678b64ced8d322fa33e1d43e9ac48351ddbaadf49546ac282e48d0867b8b268",
+          "screenshot": "timed/scrap-rat-animation-0-direction-3.png"
+        },
+        {
+          "role": "Program 97 right walk",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            9,
+            10,
+            11,
+            10
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-1-direction-3.json",
+          "traceSha256": "e41b969a167145bab543fa5695ece589fbc93df922c66cad2084e5ae0246af7c",
+          "screenshot": "timed/scrap-rat-animation-1-direction-3.png"
+        },
+        {
+          "role": "Program 97 right run",
+          "animation": 3,
+          "facing": 3,
+          "frames": [
+            9,
+            10,
+            11,
+            10
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-3-direction-3.json",
+          "traceSha256": "2dc2835d55ebc45765e53c9272c09836b787221c4b309bf96b287a38f42ddabc",
+          "screenshot": "timed/scrap-rat-animation-3-direction-3.png"
+        },
+        {
+          "role": "Program 97 right short motion",
+          "animation": 6,
+          "facing": 3,
+          "frames": [
+            10,
+            11
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 11,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 11,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-6-direction-3.json",
+          "traceSha256": "f74705a1ef39d174938dde7d1718b79650b896312769e44ab8faf4299cdccfb9",
+          "screenshot": "timed/scrap-rat-animation-6-direction-3.png"
+        },
+        {
+          "role": "Program 97 right full motion",
+          "animation": 7,
+          "facing": 3,
+          "frames": [
+            9,
+            10,
+            11,
+            10
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 11,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 5
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 11,
+              "duration": 5
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-animation-7-direction-3.json",
+          "traceSha256": "220fab3ea6854e4bc6f7407774e2e1e730331ae7b9baf6360fb165729075b422",
+          "screenshot": "timed/scrap-rat-animation-7-direction-3.png"
+        }
+      ]
+    },
+    {
+      "family": "rat",
+      "key": "gremlin",
+      "enemy": 135,
+      "program": 97,
+      "palette": 85,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "Program 97 rear idle",
+          "animation": 0,
+          "facing": 0,
+          "frames": [
+            2
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 2,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-0-direction-0.json",
+          "traceSha256": "b5d5fb4de6ffe4d3d77dd001700ee4268920bae3f79de2741048774add76c962",
+          "screenshot": "timed/gremlin-animation-0-direction-0.png"
+        },
+        {
+          "role": "Program 97 rear walk",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-1-direction-0.json",
+          "traceSha256": "851d152efda29eeb2e707fdb049453704a4166e35756a950efd4a2378f9b39d5",
+          "screenshot": "timed/gremlin-animation-1-direction-0.png"
+        },
+        {
+          "role": "Program 97 rear run",
+          "animation": 3,
+          "facing": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-3-direction-0.json",
+          "traceSha256": "747c24be2a35b01c93ac603a08cdac6d6aa0409951c003abd99e6c3f31009aa1",
+          "screenshot": "timed/gremlin-animation-3-direction-0.png"
+        },
+        {
+          "role": "Program 97 rear short motion",
+          "animation": 6,
+          "facing": 0,
+          "frames": [
+            1,
+            2
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 2,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-6-direction-0.json",
+          "traceSha256": "33cd0eec9080d4d340e87ed4409f1db8b9bf8f39510bbc5d85ecef2c3c427cc5",
+          "screenshot": "timed/gremlin-animation-6-direction-0.png"
+        },
+        {
+          "role": "Program 97 rear full motion",
+          "animation": 7,
+          "facing": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-7-direction-0.json",
+          "traceSha256": "f3371bc15c3f16fddf8c79e17927cf55e2fa32404efbac7f55e01a49ed83b96f",
+          "screenshot": "timed/gremlin-animation-7-direction-0.png"
+        },
+        {
+          "role": "Program 97 front idle",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            5
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 5,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 5,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-0-direction-1.json",
+          "traceSha256": "a61451b95643912513d4cb67211c6166299e8d2c1bab4d04d3ddc90eb3ca7734",
+          "screenshot": "timed/gremlin-animation-0-direction-1.png"
+        },
+        {
+          "role": "Program 97 front walk",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            3,
+            4,
+            5,
+            4
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-1-direction-1.json",
+          "traceSha256": "0f02b7473899fb02223e190f8b34f1e002c71fc85fb6cb1ed36fb0dff60e7d8e",
+          "screenshot": "timed/gremlin-animation-1-direction-1.png"
+        },
+        {
+          "role": "Program 97 front run",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            3,
+            4,
+            5,
+            4
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-3-direction-1.json",
+          "traceSha256": "1a596dabadc314ecb6ed2861fe12a4f35bd7b7db5f812df5acf411b8af7e2368",
+          "screenshot": "timed/gremlin-animation-3-direction-1.png"
+        },
+        {
+          "role": "Program 97 front recoil",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            12
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 12,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 12,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-5-direction-1.json",
+          "traceSha256": "00e8deed6e2b15058824338b3851ece60375631ee58a4d2c39b991d6c2f5b144",
+          "screenshot": "timed/gremlin-animation-5-direction-1.png"
+        },
+        {
+          "role": "Program 97 front short motion",
+          "animation": 6,
+          "facing": 1,
+          "frames": [
+            4,
+            5
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 5,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 5,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-6-direction-1.json",
+          "traceSha256": "f8b07407c9f2db1d30359644e28d60c5bfcce8e657f32db3c108360adf6fdab5",
+          "screenshot": "timed/gremlin-animation-6-direction-1.png"
+        },
+        {
+          "role": "Program 97 front full motion",
+          "animation": 7,
+          "facing": 1,
+          "frames": [
+            3,
+            4,
+            5,
+            4
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 5,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 5,
+              "duration": 5
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-7-direction-1.json",
+          "traceSha256": "581e0aebb6ed66cb3ac1a1bde143dd2b20280ebc372d625ba5e55c4b2b7421f6",
+          "screenshot": "timed/gremlin-animation-7-direction-1.png"
+        },
+        {
+          "role": "Program 97 left idle",
+          "animation": 0,
+          "facing": 2,
+          "frames": [
+            8
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 8,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-0-direction-2.json",
+          "traceSha256": "a2c53a7afcb7a011f29ab90c02551b4d5e37a0321f8eda0df005190d05221865",
+          "screenshot": "timed/gremlin-animation-0-direction-2.png"
+        },
+        {
+          "role": "Program 97 left walk",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            6,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-1-direction-2.json",
+          "traceSha256": "196ab2b15ba0288de8f2bfa8e7ac9b4be92e0543c9974fb727e8129465644731",
+          "screenshot": "timed/gremlin-animation-1-direction-2.png"
+        },
+        {
+          "role": "Program 97 left run",
+          "animation": 3,
+          "facing": 2,
+          "frames": [
+            6,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-3-direction-2.json",
+          "traceSha256": "4407beed68f63be99f6ddbc6194ebc059ad0bcd047db534929c490da20d3c5c3",
+          "screenshot": "timed/gremlin-animation-3-direction-2.png"
+        },
+        {
+          "role": "Program 97 left short motion",
+          "animation": 6,
+          "facing": 2,
+          "frames": [
+            7,
+            8
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 8,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-6-direction-2.json",
+          "traceSha256": "fb6fad23373fcc4325ae5a7740b1d8376c37da7ffe839d2d4f7f18776e397785",
+          "screenshot": "timed/gremlin-animation-6-direction-2.png"
+        },
+        {
+          "role": "Program 97 left full motion",
+          "animation": 7,
+          "facing": 2,
+          "frames": [
+            6,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-7-direction-2.json",
+          "traceSha256": "0c8bd7f76973667629f7da184939747f0b4ba74b9cbb3f67898636602855fb23",
+          "screenshot": "timed/gremlin-animation-7-direction-2.png"
+        },
+        {
+          "role": "Program 97 right idle",
+          "animation": 0,
+          "facing": 3,
+          "frames": [
+            9
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75074,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-0-direction-3.json",
+          "traceSha256": "3678b64ced8d322fa33e1d43e9ac48351ddbaadf49546ac282e48d0867b8b268",
+          "screenshot": "timed/gremlin-animation-0-direction-3.png"
+        },
+        {
+          "role": "Program 97 right walk",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            9,
+            10,
+            11,
+            10
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-1-direction-3.json",
+          "traceSha256": "e41b969a167145bab543fa5695ece589fbc93df922c66cad2084e5ae0246af7c",
+          "screenshot": "timed/gremlin-animation-1-direction-3.png"
+        },
+        {
+          "role": "Program 97 right run",
+          "animation": 3,
+          "facing": 3,
+          "frames": [
+            9,
+            10,
+            11,
+            10
+          ],
+          "durations": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 60,
+          "exactVramUploads": 60,
+          "exactOamCellStates": 240,
+          "script": 75074,
+          "alignmentTicks": 56,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 25,
+              "loop": 0,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 45,
+              "loop": 1,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 55,
+              "loop": 1,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-3-direction-3.json",
+          "traceSha256": "2dc2835d55ebc45765e53c9272c09836b787221c4b309bf96b287a38f42ddabc",
+          "screenshot": "timed/gremlin-animation-3-direction-3.png"
+        },
+        {
+          "role": "Program 97 right short motion",
+          "animation": 6,
+          "facing": 3,
+          "frames": [
+            10,
+            11
+          ],
+          "durations": [
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 20,
+          "exactVramUploads": 20,
+          "exactOamCellStates": 80,
+          "script": 75074,
+          "alignmentTicks": 11,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 11,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 1,
+              "phase": 0,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 1,
+              "phase": 1,
+              "frame": 11,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-6-direction-3.json",
+          "traceSha256": "f74705a1ef39d174938dde7d1718b79650b896312769e44ab8faf4299cdccfb9",
+          "screenshot": "timed/gremlin-animation-6-direction-3.png"
+        },
+        {
+          "role": "Program 97 right full motion",
+          "animation": 7,
+          "facing": 3,
+          "frames": [
+            9,
+            10,
+            11,
+            10
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75074,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 11,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 5
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 11,
+              "duration": 5
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/gremlin-animation-7-direction-3.json",
+          "traceSha256": "220fab3ea6854e4bc6f7407774e2e1e730331ae7b9baf6360fb165729075b422",
+          "screenshot": "timed/gremlin-animation-7-direction-3.png"
+        }
+      ]
+    },
+    {
+      "family": "rat",
+      "key": "scrap-rat-npc164",
+      "npc": 164,
+      "program": 44,
+      "palette": 84,
+      "fullSizeByte": 0,
+      "cases": [
+        {
+          "role": "Program 44 rear idle",
+          "animation": 0,
+          "facing": 0,
+          "frames": [
+            1
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75073,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 1,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-0-direction-0.json",
+          "traceSha256": "fe8c12cdd56ce6c57a7f4a3e457b81fe0712343a55a425db6f90db0bade5cb90",
+          "screenshot": "timed/scrap-rat-npc164-animation-0-direction-0.png"
+        },
+        {
+          "role": "Program 44 rear walk",
+          "animation": 1,
+          "facing": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 80,
+          "exactVramUploads": 80,
+          "exactOamCellStates": 320,
+          "script": 75073,
+          "alignmentTicks": 76,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "tick": 70,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-1-direction-0.json",
+          "traceSha256": "69251522da4edd0a226e762443d42d95f7448bf9a662cc27f85362dd83e720fb",
+          "screenshot": "timed/scrap-rat-npc164-animation-1-direction-0.png"
+        },
+        {
+          "role": "Program 44 rear run",
+          "animation": 3,
+          "facing": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75073,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 0,
+              "duration": 5
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 2,
+              "duration": 5
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 1,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-3-direction-0.json",
+          "traceSha256": "3fc3061eab3450c38385fa8fd0fab686ba3ed802ae96f8aa9157b8fff5871feb",
+          "screenshot": "timed/scrap-rat-npc164-animation-3-direction-0.png"
+        },
+        {
+          "role": "Program 44 front idle",
+          "animation": 0,
+          "facing": 1,
+          "frames": [
+            4
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75073,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 4,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-0-direction-1.json",
+          "traceSha256": "a344d4c321ed1ba4dd9a92bfbca85c15f00deef801dc701cd6a66358389af50f",
+          "screenshot": "timed/scrap-rat-npc164-animation-0-direction-1.png"
+        },
+        {
+          "role": "Program 44 front walk",
+          "animation": 1,
+          "facing": 1,
+          "frames": [
+            3,
+            4,
+            5,
+            4
+          ],
+          "durations": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 80,
+          "exactVramUploads": 80,
+          "exactOamCellStates": 320,
+          "script": 75073,
+          "alignmentTicks": 76,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 3,
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 1,
+              "phase": 1,
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 2,
+              "frame": 5,
+              "duration": 10
+            },
+            {
+              "tick": 70,
+              "loop": 1,
+              "phase": 3,
+              "frame": 4,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-1-direction-1.json",
+          "traceSha256": "38f746cf5063087a0abcfd9000eca7d2cf2cd6d230ec73217d17f0b71640ae44",
+          "screenshot": "timed/scrap-rat-npc164-animation-1-direction-1.png"
+        },
+        {
+          "role": "Program 44 front run",
+          "animation": 3,
+          "facing": 1,
+          "frames": [
+            3,
+            4,
+            5,
+            4
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75073,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 5,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 3,
+              "duration": 5
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 5,
+              "duration": 5
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 4,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-3-direction-1.json",
+          "traceSha256": "52957b05920a141adf267bf180f5e979e3b7ae08c41b0703ec2e45a33cf7e33b",
+          "screenshot": "timed/scrap-rat-npc164-animation-3-direction-1.png"
+        },
+        {
+          "role": "Program 44 front recoil",
+          "animation": 5,
+          "facing": 1,
+          "frames": [
+            12
+          ],
+          "durations": [
+            31
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 62,
+          "exactVramUploads": 62,
+          "exactOamCellStates": 248,
+          "script": 75073,
+          "alignmentTicks": 37,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 12,
+              "duration": 31
+            },
+            {
+              "tick": 31,
+              "loop": 1,
+              "phase": 0,
+              "frame": 12,
+              "duration": 31
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-5-direction-1.json",
+          "traceSha256": "e87e4ea9377ec1385130fa86aad2993c299c8c05e853036a58b0a7566148765f",
+          "screenshot": "timed/scrap-rat-npc164-animation-5-direction-1.png"
+        },
+        {
+          "role": "Program 44 left idle",
+          "animation": 0,
+          "facing": 2,
+          "frames": [
+            7
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75073,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 7,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-0-direction-2.json",
+          "traceSha256": "0b37bb9c3e3c97ad00960a3e23bd9154fb999c6da333bc35b6f8447bbc841d95",
+          "screenshot": "timed/scrap-rat-npc164-animation-0-direction-2.png"
+        },
+        {
+          "role": "Program 44 left walk",
+          "animation": 1,
+          "facing": 2,
+          "frames": [
+            6,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 80,
+          "exactVramUploads": 80,
+          "exactOamCellStates": 320,
+          "script": 75073,
+          "alignmentTicks": 76,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 10
+            },
+            {
+              "tick": 70,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-1-direction-2.json",
+          "traceSha256": "0f36cff2bb55e0cfcbd0d760686d709530bcf57b606e5bc5863a1b9f019df53b",
+          "screenshot": "timed/scrap-rat-npc164-animation-1-direction-2.png"
+        },
+        {
+          "role": "Program 44 left run",
+          "animation": 3,
+          "facing": 2,
+          "frames": [
+            6,
+            7,
+            8,
+            7
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75073,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 8,
+              "duration": 5
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 7,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-3-direction-2.json",
+          "traceSha256": "13d549756c4fdbb1ecc1272408b3e9bedc050fde0016d96769487c160c01d368",
+          "screenshot": "timed/scrap-rat-npc164-animation-3-direction-2.png"
+        },
+        {
+          "role": "Program 44 right idle",
+          "animation": 0,
+          "facing": 3,
+          "frames": [
+            10
+          ],
+          "durations": [
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 10,
+          "exactVramUploads": 10,
+          "exactOamCellStates": 40,
+          "script": 75073,
+          "alignmentTicks": 6,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 1,
+              "phase": 0,
+              "frame": 10,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-0-direction-3.json",
+          "traceSha256": "470fdbbcc542cf9d756b5a9af4dfc22be1900339dc1cd44aabb4971feb8ad0b8",
+          "screenshot": "timed/scrap-rat-npc164-animation-0-direction-3.png"
+        },
+        {
+          "role": "Program 44 right walk",
+          "animation": 1,
+          "facing": 3,
+          "frames": [
+            9,
+            10,
+            11,
+            10
+          ],
+          "durations": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 80,
+          "exactVramUploads": 80,
+          "exactOamCellStates": 320,
+          "script": 75073,
+          "alignmentTicks": 76,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 1,
+              "frame": 10,
+              "duration": 10
+            },
+            {
+              "tick": 20,
+              "loop": 0,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 30,
+              "loop": 0,
+              "phase": 3,
+              "frame": 10,
+              "duration": 10
+            },
+            {
+              "tick": 40,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 10
+            },
+            {
+              "tick": 50,
+              "loop": 1,
+              "phase": 1,
+              "frame": 10,
+              "duration": 10
+            },
+            {
+              "tick": 60,
+              "loop": 1,
+              "phase": 2,
+              "frame": 11,
+              "duration": 10
+            },
+            {
+              "tick": 70,
+              "loop": 1,
+              "phase": 3,
+              "frame": 10,
+              "duration": 10
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-1-direction-3.json",
+          "traceSha256": "7eaa1764387ba1f459e9d26e936a61f66fe94624593389b05b3cd843627bb91c",
+          "screenshot": "timed/scrap-rat-npc164-animation-1-direction-3.png"
+        },
+        {
+          "role": "Program 44 right run",
+          "animation": 3,
+          "facing": 3,
+          "frames": [
+            9,
+            10,
+            11,
+            10
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "nativeCycles": 2,
+          "nativeVideoTicks": 40,
+          "exactVramUploads": 40,
+          "exactOamCellStates": 160,
+          "script": 75073,
+          "alignmentTicks": 21,
+          "boundaries": [
+            {
+              "tick": 0,
+              "loop": 0,
+              "phase": 0,
+              "frame": 9,
+              "duration": 5
+            },
+            {
+              "tick": 5,
+              "loop": 0,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 10,
+              "loop": 0,
+              "phase": 2,
+              "frame": 11,
+              "duration": 5
+            },
+            {
+              "tick": 15,
+              "loop": 0,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 20,
+              "loop": 1,
+              "phase": 0,
+              "frame": 9,
+              "duration": 5
+            },
+            {
+              "tick": 25,
+              "loop": 1,
+              "phase": 1,
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "tick": 30,
+              "loop": 1,
+              "phase": 2,
+              "frame": 11,
+              "duration": 5
+            },
+            {
+              "tick": 35,
+              "loop": 1,
+              "phase": 3,
+              "frame": 10,
+              "duration": 5
+            }
+          ],
+          "trace": "timed/scrap-rat-npc164-animation-3-direction-3.json",
+          "traceSha256": "943836442b3df6dbc0caa943276c738c67c8537dc738d0102d30b9267d226fa1",
+          "screenshot": "timed/scrap-rat-npc164-animation-3-direction-3.png"
+        }
+      ]
+    }
+  ],
+  "evidence": ".local/qa/scavenger-rats-native-proof",
+  "runner": {
+    "file": "assets/imagegen/scavenger-rats/verify-timed-animation.mjs",
+    "sha256": "6012deda24b92c30c30cb7eb396ff42c5c3299f1b9b5c975078a1e65c36c1dbc"
+  }
+}

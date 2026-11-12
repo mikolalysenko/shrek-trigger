@@ -1,0 +1,136 @@
+{
+  "labels": [
+    "Rear contact A",
+    "Rear passing",
+    "Rear contact B",
+    "Front contact A",
+    "Front passing",
+    "Front contact B",
+    "Left contact A",
+    "Left passing",
+    "Left contact B",
+    "Right contact A · mirror",
+    "Right passing · mirror",
+    "Right contact B · mirror",
+    "Rear sword windup",
+    "Front sword windup",
+    "Right sword windup",
+    "Left sword windup · mirror",
+    "Recoil / knees bent",
+    "Rear sweep + blade trail",
+    "Rear follow-through",
+    "Front sweep + blade trail",
+    "Front follow-through",
+    "Left sweep + blade trail",
+    "Left follow-through",
+    "Right sweep + blade trail · mirror",
+    "Right follow-through · mirror",
+    "Horizontal fallen body"
+  ],
+  "gait": {
+    "order": [
+      "contact A",
+      "passing",
+      "contact B",
+      "passing"
+    ],
+    "ticks": [
+      20,
+      10,
+      20,
+      10
+    ],
+    "mirrorPairs": [
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        11
+      ]
+    ]
+  },
+  "sourceEdits": "Actual generated replacements correct both compact windups and three blade trails; unused rejected variants are excluded from the final import.",
+  "sourcePoseCount": 20,
+  "pendingSemanticQuestions": [],
+  "directCollapseConsumers": [
+    {
+      "location": 30,
+      "originalCommandOffset": 677,
+      "opcode": "AC19",
+      "frame": 25
+    },
+    {
+      "location": 30,
+      "originalCommandOffset": 695,
+      "opcode": "AC19",
+      "frame": 25
+    },
+    {
+      "location": 30,
+      "originalCommandOffset": 716,
+      "opcode": "AC19",
+      "frame": 25
+    },
+    {
+      "location": 30,
+      "originalCommandOffset": 734,
+      "opcode": "AC19",
+      "frame": 25
+    },
+    {
+      "location": 71,
+      "originalCommandOffset": 3441,
+      "opcode": "AC19",
+      "frame": 25
+    },
+    {
+      "location": 71,
+      "originalCommandOffset": 4224,
+      "opcode": "AC19",
+      "frame": 25
+    },
+    {
+      "location": 72,
+      "originalCommandOffset": 1943,
+      "opcode": "AC19",
+      "frame": 25
+    },
+    {
+      "location": 72,
+      "originalCommandOffset": 1982,
+      "opcode": "AC19",
+      "frame": 25
+    },
+    {
+      "location": 72,
+      "originalCommandOffset": 2104,
+      "opcode": "AC19",
+      "frame": 25
+    },
+    {
+      "location": 72,
+      "originalCommandOffset": 2139,
+      "opcode": "AC19",
+      "frame": 25
+    },
+    {
+      "location": 72,
+      "originalCommandOffset": 2241,
+      "opcode": "AC19",
+      "frame": 25
+    }
+  ],
+  "directCollapseExplanation": "Original prison functions explicitly choose frame25 in locations30/71/72. Both NPC75 bodies in room30 and enemy49 guards use this knockout pose. The normal animation25 lists do not reference it.",
+  "nativeBudgets": {
+    "raw": 9088,
+    "compressed": 6646,
+    "assembly": 1040
+  },
+  "paletteWrites": 0
+}

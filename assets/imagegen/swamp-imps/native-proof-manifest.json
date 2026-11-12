@@ -1,0 +1,3087 @@
+{
+  "status": "Private native proof frozen separately from source reproduction",
+  "activation": false,
+  "resourceAuditBaselineSha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+  "baselineSha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+  "candidateSha256": "4d4e08bc43ae8791733e53bc7b3e3f57a74aad554442a8bec580e3312373dc39",
+  "core": "repository native65816/PPU",
+  "privateEvidenceRoot": ".local/qa/swamp-imps-native-proof",
+  "files": [
+    {
+      "file": ".local/qa/swamp-imps-native-proof/baseline.sfc",
+      "bytes": 8388608,
+      "sha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/baseline.json",
+      "bytes": 316,
+      "sha256": "dc4e478f98a56a32a4c812a445040cd93e38aae2b8d91a6f459b487da33fbcc8"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/baseline-manifest.json",
+      "bytes": 656440,
+      "sha256": "a9f1197fa498153595926b0cc940741864ad3283690ad6190d53e9c1da11225a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/baseline-records.json",
+      "bytes": 58243,
+      "sha256": "4518ba144c117e9bacb8b6adc594210ab9c21d283706e65fd8973bc207cab8d4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/candidate.sfc",
+      "bytes": 8388608,
+      "sha256": "4d4e08bc43ae8791733e53bc7b3e3f57a74aad554442a8bec580e3312373dc39"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/candidate.json",
+      "bytes": 3570,
+      "sha256": "0cec5f70ab9f1430fef344c9494876c030240e95c2f750153bb99542616acf23"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/bedroom.json",
+      "bytes": 1670559,
+      "sha256": "a8e1b84b40e8eb5acacef188fe287eebff075efac175617e01ac78377585ccbb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/scenes/canyon-arrival.png",
+      "bytes": 84898,
+      "sha256": "dea78878eb7f2ea60c741da53a63b5ade07c7e27e7a03e10efa9b1e41ab5cfe6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/scenes/canyon-battle-ready.png",
+      "bytes": 85878,
+      "sha256": "1d7e083b8164b7ece8674f4500cee0a150415e706532a29c68732134faf70571"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/scenes/canyon-victory.png",
+      "bytes": 85696,
+      "sha256": "ac14c9835b5c5c9d1805fdf79120ef9eb37d15dcad2a8b09f6a4d3aa0438ae37"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/scenes/riders-arrival.png",
+      "bytes": 126490,
+      "sha256": "a85aafa06f6fba37f3386352781fe7e83a50407ff969648a9d2de956f5b6925f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/scenes/riders-battle-ready.png",
+      "bytes": 112478,
+      "sha256": "8efa1a72f6aec3848e7639ec45f409a9aae5ad2c67f9594fceee72f774704b0f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/scenes/riders-victory.png",
+      "bytes": 126336,
+      "sha256": "5e8bec8919a1959b78fa1df0084d8208b275fc67c7ec29358d958c19c2742235"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/scenes/worker-arrival.png",
+      "bytes": 64595,
+      "sha256": "b3c36f75b753368c0775e38fec3edcdb57921725ed10543ff445dd0176f54e54"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/scenes/worker-dialogue.png",
+      "bytes": 64311,
+      "sha256": "515b0a097a68298633ed51bcce9eb8820361c33471e5dbb204def44fcd7e263b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/scenes/worker-returned.png",
+      "bytes": 64659,
+      "sha256": "9434dda16abf48c829a282a33c1c56c336e616a52761be0e6eaa30cc3bda9dba"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/motion-canyon-field-gaits.apng",
+      "bytes": 125645,
+      "sha256": "76526c495bbb6dbe26a3050482831a03829fe0172d490993b6a3e5332d2003f4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/motion-canyon-battle-motion.apng",
+      "bytes": 153641,
+      "sha256": "3a0f19ccc9fc766891af75fd55e5a9db1c90c34d49ad0d3cf24a64f058d4fa59"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/motion-riders-battle-motion.apng",
+      "bytes": 446359,
+      "sha256": "e0c18a7d86607a3ada9690cdf749ab5e8d8b370b59312317a1a330a52b584025"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/motion-worker-native-patrol.apng",
+      "bytes": 113380,
+      "sha256": "d9ce18e5fcb33e4e3ea5e1b9d9b8c28feaa18cab54f22003112523703159e1fc"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-00.png",
+      "bytes": 56628,
+      "sha256": "721df6baeaa11335a285813bfe3ecdc7b05cec239a493dcf5130d3ad85db3ca6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-01.png",
+      "bytes": 56734,
+      "sha256": "c2bd61b6c63030c175379b2cac0094b783c8ce93baa33b4c7ee02eec5a34eed7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-02.png",
+      "bytes": 56647,
+      "sha256": "b2e47d00ec76fbcfa2bf5e290ac99200e575027692326b96a489b16be70a0fb4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-03.png",
+      "bytes": 56697,
+      "sha256": "828618d2df7854a6670dcfe41aa635b0a13becaac6989083c2e4f430b8f4d22f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-04.png",
+      "bytes": 56663,
+      "sha256": "e794f49187ccb498377dd2ed91cea08aa1d534738b0bec8426485224a8febe35"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-05.png",
+      "bytes": 56649,
+      "sha256": "3660cca8244801208b7efb2efd6dcb2cd7937858bf0469f06204f1ad2ea844c0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-06.png",
+      "bytes": 56652,
+      "sha256": "a817fabc226696537cce482896bf3e3a1af5fc9145df38740924a333f523dcba"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-07.png",
+      "bytes": 56630,
+      "sha256": "3d6f014a380cf688b64b5cc311aee8f17e448363e61e1faf6b21a576d3d845e7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-08.png",
+      "bytes": 56702,
+      "sha256": "e07a000a17c189d1e7cfc8ed148710aac44dd816d3cdc8c1f7705d3710ad16e9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-09.png",
+      "bytes": 56625,
+      "sha256": "1c17f2aeaa8ea1efbfa1a3e5d53b7d293666040c065e1b8481677885dbef1272"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-10.png",
+      "bytes": 56629,
+      "sha256": "e4022b04e0fc5f4b1d8555498f1245428d19b978acd1ef80044275c5656cabc3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-11.png",
+      "bytes": 56687,
+      "sha256": "05ce5f323d724e2298a9750c3eb4bf81eb4bbf111d0692bb3d64867d02246530"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-12.png",
+      "bytes": 56702,
+      "sha256": "e5a9d7dd075cd8d02760682e55ba36c216fe0b41e6b24efb2b1f9b5ca568e745"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-13.png",
+      "bytes": 56624,
+      "sha256": "a72919c9d0bbbc159d97ab7a5b7eded34465e64dcf22a237073bc75c883eafb9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-14.png",
+      "bytes": 56645,
+      "sha256": "b00a719b7d8731ec997bddb7a08b52f02114dc7d34044fc693fe48a1e3f6a407"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-15.png",
+      "bytes": 56585,
+      "sha256": "ac062461d303deeeef8c5b604b300cd0d95eebc9f10f0943304484156c0944fd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-16.png",
+      "bytes": 56543,
+      "sha256": "5bb8722e10c7eb05fd6aac0f884ea55e5200494c1a08dfe6e89bc6443a005c84"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-17.png",
+      "bytes": 56526,
+      "sha256": "6a80f4887ba0527c82c75c57f1d098e2187eec99f90fa0304c792eed3e5ed842"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-18.png",
+      "bytes": 56595,
+      "sha256": "52a566b942bc59bbb047ed39abdf38e5d84f4578e790590bb577b2bac014109e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-19.png",
+      "bytes": 56605,
+      "sha256": "165903c75e2e4eac6c69aa12f8d9e0ba9e8ef6942a19536e8c646d11766fa3ad"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-20.png",
+      "bytes": 56665,
+      "sha256": "20425fb1b12c3d6ec8cbc188275b70c23fa1296d662797ad49618b42bc88b3b5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-21.png",
+      "bytes": 56542,
+      "sha256": "3434f9158cc16d8f5cddc5a502b4650b99437e577e75b7f12bed3c9e4ec83e94"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-22.png",
+      "bytes": 56541,
+      "sha256": "1ce7a077e1b2c46906589e066029894faccf5986c24e3666bd19fa06b53724a0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-23.png",
+      "bytes": 56690,
+      "sha256": "ddb70666b3faae4b31d86a9af53e177f386cebbb04d01924251bc0e820341640"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-24.png",
+      "bytes": 56528,
+      "sha256": "064b39319662a6ccb6ac49d0b6dba679c643ad278c71a7c432b5e8b3aede20fd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-25.png",
+      "bytes": 56550,
+      "sha256": "7c45e369132a11f573bf8fa7df2fa53e2019dfa0caec6809ccae841547643ba6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-26.png",
+      "bytes": 56673,
+      "sha256": "2d1e20ff7adf15433e59157a5ea4ff71802c81a1175c5a7453cdbb52e9790830"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy12-27.png",
+      "bytes": 56709,
+      "sha256": "50ca9d7c65d2b5c540d0c04fda682a4a60b05eddae6432a8ba2fe0bab68f6750"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-00.png",
+      "bytes": 56599,
+      "sha256": "19b35ff63fa292ded8de626ded033d93a29342fd81ff0738e112e63492ebe6b4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-01.png",
+      "bytes": 56684,
+      "sha256": "b9badf5cfdc1b48744855908c3c66678f084d0753668d48786ff07ef6e996fd3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-02.png",
+      "bytes": 56613,
+      "sha256": "f35a9675908d77d72012d1feb2cdd4d4dbd9a1ef45a398c19f55ee3ca4a6290b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-03.png",
+      "bytes": 56671,
+      "sha256": "358d73d1b658f1007bc1d38c6bcf075cf354a2aa6e84f5d41ca0c8bb4371e06d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-04.png",
+      "bytes": 56625,
+      "sha256": "9d3e52ac89946f7e572bfbd4be9fbe3325335d801d180cc1223a8057bc444072"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-05.png",
+      "bytes": 56628,
+      "sha256": "a9cd625735788ca97ec5847758e6f3767cf9ec1c0a122f5157cc035a02c8ad89"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-06.png",
+      "bytes": 56584,
+      "sha256": "676b8c1fe07119fddbd581e189077de3fccbfc6661deb0cbada3b3cbf52eeff7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-07.png",
+      "bytes": 56601,
+      "sha256": "7967201a5c4b4fcdc1f8d309aa0582862ee47b8035daf3b5e5f361cce37b423c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-08.png",
+      "bytes": 56634,
+      "sha256": "712d6c838bb3866a4a54567250ecc50778750fba4bd579bb2627f4cf98522d97"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-09.png",
+      "bytes": 56584,
+      "sha256": "9b5169e8275912aa05f86fdfa81888abb568d31377b994eebc948d7d8f62bfb9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-10.png",
+      "bytes": 56591,
+      "sha256": "17827b464284375cd428d4673b2f18a8b13039757a060ff87e3f1768d125461f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-11.png",
+      "bytes": 56637,
+      "sha256": "6f733da5d6d82cc4d0d5df4cc6ec9d939516cef19241c7fab7439413c5214294"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-12.png",
+      "bytes": 56675,
+      "sha256": "14a096129a5a4cb2a3b397408b73cdb6768bfe72e8dd77c67b22786a3f1652c7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-13.png",
+      "bytes": 56593,
+      "sha256": "28b1dc914fcf11f26af0128c4a58a32ce5748a2600b29c99bb5ca6f433a3178a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-14.png",
+      "bytes": 56619,
+      "sha256": "7190dfc88d800a237d261fd0c357a7b4d8c586ee8a3f159adc310b442bda72ea"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-15.png",
+      "bytes": 56535,
+      "sha256": "24a9ef013af3abe50c5ac93e5d6377346eaf8dd10c451b60f7eca7028787b033"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-16.png",
+      "bytes": 56529,
+      "sha256": "668a38ad6e288a9769edf5d561d78014ef98ce945cfba09f5702c016eff88c50"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-17.png",
+      "bytes": 56495,
+      "sha256": "fe88197d7a81af0df7d3537378f9b96f9daece8554e940464fa2fa15cd69fa67"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-18.png",
+      "bytes": 56585,
+      "sha256": "d1b0de380fab8c091452fa5f323648e2079d80c6d87b91fbcbf1bc9ed8c894c0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-19.png",
+      "bytes": 56571,
+      "sha256": "33cee60dd38b30da94dca0bfd9f0f2a5c5ceb0fa211a9b6b21065a10686b6bfc"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-20.png",
+      "bytes": 56586,
+      "sha256": "4793105ff34ad0e5e62d57c102996a9f01b4fc5ed7915a3ab0525c35791c979e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-21.png",
+      "bytes": 56526,
+      "sha256": "a67e17362d5ede425d6ccfd38bb5307bded63bd40bf98dca6b18d408a93e1e71"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-22.png",
+      "bytes": 56512,
+      "sha256": "bbf796361e494c59beface274cc7dbbb6a62a2419ca71d855c34fdb090d9e340"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-23.png",
+      "bytes": 56646,
+      "sha256": "03502aae1814717ca897ba3186ed5940947c1cdd52c001dd5cbf2694e4a50f56"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-24.png",
+      "bytes": 56500,
+      "sha256": "29c95b35bbd2ae237c83da559b65341929a1409d76c8d05956a0d54d84bc8403"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-25.png",
+      "bytes": 56498,
+      "sha256": "24b452b4a536418da28e60f29a20b3cc97506cfaa7456121b6e3812413d3a1c8"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-26.png",
+      "bytes": 56625,
+      "sha256": "59d5c44abe1b90da6e4911218930739764c49c512bd01ee5de9b881c7510e34e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy13-27.png",
+      "bytes": 56673,
+      "sha256": "4d712f3ef794a63eeb49cfa5c53c0efe1fbfb72e85cb289e61b0619ab93a9017"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-00.png",
+      "bytes": 56569,
+      "sha256": "8ef94a18932bdb168fefa175e14404c79ae2dd023ab941bf95f5fabc89c2e4f4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-01.png",
+      "bytes": 56668,
+      "sha256": "75b0b7d57dbe41caeee299e9873d4fe893f11827995b70d455fb55e608714f7c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-02.png",
+      "bytes": 56587,
+      "sha256": "df15063487adff1e9a1d88eeef8b2714e94c8a5e3e813cee7b490ec6939e0346"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-03.png",
+      "bytes": 56635,
+      "sha256": "0057e52dd25538a9a116cf8ee025af3b201b787375215c5fdfd80218a3b011c9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-04.png",
+      "bytes": 56595,
+      "sha256": "d0eb94153409a8d1b21eb4d184aa134959952d035d19a88b5185c3731232f24f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-05.png",
+      "bytes": 56587,
+      "sha256": "8d7cee89b2174be419816ded7851a1c3919a9dca815f6956b46d0a0500a25bff"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-06.png",
+      "bytes": 56565,
+      "sha256": "eb0fa9508764daec96cd91ac544680b8b29f2f38ea0c49ee4d6e30924d67674a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-07.png",
+      "bytes": 56578,
+      "sha256": "6157fa4e239972e41a743304383772bbbe88d5ae727e51bad3c0ab895f349b84"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-08.png",
+      "bytes": 56602,
+      "sha256": "4814f69ea9fd129b14266a1e6deddd311af1365336ee13f81906f89ed5a9d8bc"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-09.png",
+      "bytes": 56575,
+      "sha256": "cfef36d2553909620dc321272b14b5d0b2131fc45ffc1842922b2823ce081e09"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-10.png",
+      "bytes": 56558,
+      "sha256": "29a9214fcc5b92a475acbfa61a904772ee664a0381e4b76dcf3b044b89901b3a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-11.png",
+      "bytes": 56601,
+      "sha256": "bcedca80817bc30da4e4b1d6503b9a065155b539496d65cdecc70b2102f96a01"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-12.png",
+      "bytes": 56640,
+      "sha256": "8cd0fefd23ffdb54e607e1fc644867ecb860266d3cd7ec5451b3cd9800622b60"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-13.png",
+      "bytes": 56577,
+      "sha256": "c23355c258fc136214dcff7413e1a50802fd920622f3a1cbc0a18c7bbf21ceaf"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-14.png",
+      "bytes": 56591,
+      "sha256": "85b0d03046e0055fd56ae6dc44534ca98bd4235736553e0fe6d8bf4086f9d578"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-15.png",
+      "bytes": 56519,
+      "sha256": "0e23a7be4f7e7bd920201c0e1f2ed5bf8a47fea65d5a7397a8038f4567e9d050"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-16.png",
+      "bytes": 56498,
+      "sha256": "6cf6cac21f839dcaab20be821814d9e7925725e145358db4354b6b6c0687ddcd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-17.png",
+      "bytes": 56481,
+      "sha256": "c413dc4fa68eef52e07ac09e374e678bc37ccbfb61e51e6e81bd47e4b0bc3c7c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-18.png",
+      "bytes": 56539,
+      "sha256": "c16aab2073c16a871f67811deb8b0dc2abedb639c62761bd82cd14560eac0daf"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-19.png",
+      "bytes": 56542,
+      "sha256": "c4ec841e2b20f027765f2031ef6862e5f76e502b999c070fca2bf56c04e0800c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-20.png",
+      "bytes": 56562,
+      "sha256": "b1254fb1bf19d4b11b764b8bf5ec79d1186305d48a92f36e8380683169304fe0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-21.png",
+      "bytes": 56501,
+      "sha256": "06b2a841dda33c6d55e96b7842cc55f9bfd1aaced7b3a8b85c95122f6e2b1a06"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-22.png",
+      "bytes": 56503,
+      "sha256": "c24d592c0efe577787b7a6137cd7318000f7f0feddd45e266195f41d3e204cce"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-23.png",
+      "bytes": 56596,
+      "sha256": "e7b3470e1b248bb7e860b40df2995fe650a23814969fdabdd183b07006c666c2"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-24.png",
+      "bytes": 56478,
+      "sha256": "7291b2f261b8df228a3c12e2602fceff1f21908c95195ab563f2de5c411d5e72"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-25.png",
+      "bytes": 56482,
+      "sha256": "d4c3aca089bec0cee87589e57a0f38f657ffd23c019742450d3d5d3884e0d43d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-26.png",
+      "bytes": 56604,
+      "sha256": "d0cbe09e80595d5bb5765ef7f1ffcfe699b07e84604ced2e93c85b177ec0f629"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy14-27.png",
+      "bytes": 56640,
+      "sha256": "345c0761c2b6ac6e5c80fa3be76552c1b018cc217a0587885b255560bf834108"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-00.png",
+      "bytes": 56557,
+      "sha256": "0f2e38e8d13c37b807c963b5901163925b5e01a610b5579e6367a60781b01319"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-01.png",
+      "bytes": 56665,
+      "sha256": "fccd70e752d361c9ab34534e139ab355c29bc35ef63c6123335055d26d1f7af5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-02.png",
+      "bytes": 56579,
+      "sha256": "3dfc07e57c7aa9a19d87f309a6936c62cda7193e4db78fa5420e74a4ea332fdd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-03.png",
+      "bytes": 56637,
+      "sha256": "5b191f36c688a85ce1d1085b25b3bf5e1aacde0d6861affa243e4e3cfdbe0611"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-04.png",
+      "bytes": 56600,
+      "sha256": "c95ecce2508b057572b7918f4a299a147f3b4ebabeb7bd2bff3b3da565a9dce8"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-05.png",
+      "bytes": 56595,
+      "sha256": "9e7cdf1dda97e4fd43dc053a53e20f06482d58dd71937d7beb0ede707709551d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-06.png",
+      "bytes": 56560,
+      "sha256": "46f06b2c1c4238cc878ba60aa192e9207aee8278de875cd637e72f5c86346cf2"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-07.png",
+      "bytes": 56574,
+      "sha256": "7bf63442398994edff6b1189e62ee1831d0d094938a8f46744582bf512184108"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-08.png",
+      "bytes": 56612,
+      "sha256": "95a43d328152d8d0f0a3473f2e4f918f6818852150e9571c1f7f14788dddca43"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-09.png",
+      "bytes": 56564,
+      "sha256": "a950423c3601780ee4059637f21b9176b4e48aea2934ae2777fec4ba530dfa12"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-10.png",
+      "bytes": 56558,
+      "sha256": "4e6e263e4c4f47885250e8914c99b1deb51f86066024d01cf69e6f85f1ee2f40"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-11.png",
+      "bytes": 56604,
+      "sha256": "f13b1f8ff998bee1c8d0317a2c634317f42250797bea13ed7b0e58ec9f93af5a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-12.png",
+      "bytes": 56638,
+      "sha256": "18d5c677821786adfad46fefc43177483cc76157eb94ae5541d4c3863e6237c5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-13.png",
+      "bytes": 56577,
+      "sha256": "7ecbe724ee62dfeb9baed4280ea6b981d1c312be0f78ade876c1f3b5815821e4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-14.png",
+      "bytes": 56590,
+      "sha256": "282c91bf36a37eaab59cd2a1725ee8629fdc86880c6c9198ce3ef7ea3ae8b34d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-15.png",
+      "bytes": 56511,
+      "sha256": "958b74bc8cf0a8c085b896ba433d6c62e12b97f05a97b9f9699fc56117d2c856"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-16.png",
+      "bytes": 56485,
+      "sha256": "511ed7fde7b10629b12529737dc7678c583d25208efd2b5cfd0d7c94ca985ac6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-17.png",
+      "bytes": 56470,
+      "sha256": "fc1180a534110731d6eca9d5aefacc70570f9eab84853005cb50dfed5714044f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-18.png",
+      "bytes": 56554,
+      "sha256": "532b4d3141fc13bae5f538edda6d94ae0f34504a72f2c4e6b4a0417374dcab20"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-19.png",
+      "bytes": 56551,
+      "sha256": "e6982e8982ac347c2c385166928a4f762db5602e2f1653c457e32b31f92ea592"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-20.png",
+      "bytes": 56556,
+      "sha256": "d0f8729df79ebdf4463c6cc2b9c5e7f81d2a9fe2b814e5a7c5593ccd2888b331"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-21.png",
+      "bytes": 56497,
+      "sha256": "3ebb016699c9d819eb3108fde7c9e3b5c8d83013b5917e258797080ec0aac4ed"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-22.png",
+      "bytes": 56502,
+      "sha256": "ee8374abea5e80bda8e605413c2b2fea83b138724e441e23ce33b7d3cee121b7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-23.png",
+      "bytes": 56585,
+      "sha256": "d3ee74f838f8c2700f73169d6f260a89a3f6d28ef299c877ce9eca9a8f06c2fa"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-24.png",
+      "bytes": 56476,
+      "sha256": "33aa9204c5e030789de9a46ecc3c0354c015d7d31476a57f8a5be4e1b0f993e6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-25.png",
+      "bytes": 56484,
+      "sha256": "749fbff6205f70b1bea581474cb80e9cd4c54a8559f7a09755e6ed11da0d25a4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-26.png",
+      "bytes": 56592,
+      "sha256": "d2e4fd227b93ee3c3c404287e5fc288b9501423d6b411615dd5d929e0ffd5ecb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy15-27.png",
+      "bytes": 56632,
+      "sha256": "2f7dc376b55154ba636bb335b675fa50bf157d761f7f4392f6aa8423bf19fcaa"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-00.png",
+      "bytes": 56424,
+      "sha256": "16b2b4d9e0240416d40f9ca0faca59a6fdc0b279a8ddb99b73bd32e68b5b1838"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-01.png",
+      "bytes": 56508,
+      "sha256": "961ab11ed947656916d5800141abbf6d4d0678787afdc2129c86d3ca61e12bee"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-02.png",
+      "bytes": 56407,
+      "sha256": "0de5845e9a87d60b3121ab715d5f915c6615488db001e478e599675dd06671c4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-03.png",
+      "bytes": 56615,
+      "sha256": "449d8231e9e01832759be3a8607db66964a829cc9e83693aa9ae8500b017bb43"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-04.png",
+      "bytes": 56656,
+      "sha256": "4bcce5f52ccf1a313e05117686f0a40ae985fcd8e1dcc3682495f3354406b968"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-05.png",
+      "bytes": 56640,
+      "sha256": "dffd559ef10a45e371ac358369ab6046a3da88e4a5c7dc330978375635d0c370"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-06.png",
+      "bytes": 56502,
+      "sha256": "4f0ee135841044f5656b7c8c5757a0eaeb0fdfe2ad286656df59c69db9da4a41"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-07.png",
+      "bytes": 56545,
+      "sha256": "0a6340925538e107e7212db4f146512eee0f8ae3685eab15456e3d54221f604f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-08.png",
+      "bytes": 56540,
+      "sha256": "301e1b55d9a1b9130debcb905224460f667a9602e4b78d30c7bebd741ff1621f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-09.png",
+      "bytes": 56584,
+      "sha256": "2a07ed48a84e5ec2e054ab6a10e96ea0b76c7f24fa87e109ce354ac3abb07d49"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-10.png",
+      "bytes": 56580,
+      "sha256": "06b17e4013f7b3c6097480b64c5b28aa2e5cee25fe7ed7184bbd5cbafa84c12c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-11.png",
+      "bytes": 56615,
+      "sha256": "8aaee10a15cd04bbe3bddafb9408e87df39a6a347e7ccf53e88660eedc4fcd0a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-12.png",
+      "bytes": 56723,
+      "sha256": "daeef80bd7f3487b7400a89a1ddb7508c3a98fcd1b735730cddf682f1f419bad"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-13.png",
+      "bytes": 56555,
+      "sha256": "0118df24a50afcd6eaf2654bee548115679b5ddfb09737039ec1a577d81f4a0d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-14.png",
+      "bytes": 56652,
+      "sha256": "9a1e55610697d8a5a31dab2967b9814af6e831cb8036e4e9a470df6e04bb1c67"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-15.png",
+      "bytes": 56576,
+      "sha256": "422b94aee6c955a4cec428dfcaf0209b64a88d9796560b6538a1fbffceb8760f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-16.png",
+      "bytes": 56297,
+      "sha256": "deb74e8c2dd536033ba81b9f0d717049e20054f1c2242b82b1f58c7ea25b825e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-17.png",
+      "bytes": 56313,
+      "sha256": "1f109905be22e990bbf21e53c2d03009459249685387a8e29c63da4603c8ba5d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-18.png",
+      "bytes": 56561,
+      "sha256": "8bfa51d24cfaac7d95e893db0f80540826fae94c5686c517db2328191e3cefd7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-19.png",
+      "bytes": 56586,
+      "sha256": "e893e82383ef49a967a77db351961a83d26a70ae2dfce58f1317f16d89b2d5e9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-20.png",
+      "bytes": 56524,
+      "sha256": "16c7f84e4487b76c588efbb0089cb6922a3b9be601315c3e427c92180ef7866a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-21.png",
+      "bytes": 56487,
+      "sha256": "2dc356fbfc239d2296ffda415eeed6ac1e07009e30a2b208d04e8a96d169b613"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-22.png",
+      "bytes": 56476,
+      "sha256": "2e1b47b58b342042a8aba8e1cd882bde963ec722fde181fa31ee294c8841bc7c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-23.png",
+      "bytes": 56517,
+      "sha256": "34229cd937994f7eb257b533783a2929bde99429fd63fe90910ad59c6e704fe6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-24.png",
+      "bytes": 56550,
+      "sha256": "bd1ed9c2fa63cc531a9e1935fee059b157049c316609722d993b98052e904452"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy16-25.png",
+      "bytes": 56470,
+      "sha256": "7aa0332f93c8784daf31fe645f301c3297c644ef32b4d71556a62a61c066759b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-00.png",
+      "bytes": 56467,
+      "sha256": "65a1cb402f59b71e42ae0fb09eb608a1fa8054bb83d1e39b6448fa238439b688"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-01.png",
+      "bytes": 56551,
+      "sha256": "e40d4686d4e3568bd28d1b3e326823c5b3a39e7956437d7bc65b207332875fa3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-02.png",
+      "bytes": 56448,
+      "sha256": "4c0aa62349823ac6716dfe130b81693c03d787fac76e81e62b15a54d23fa5f3c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-03.png",
+      "bytes": 56648,
+      "sha256": "d2866bb29a8f04de8ad48fff296df90972f767eab71557c0feeea996eceb3901"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-04.png",
+      "bytes": 56706,
+      "sha256": "7323796890d9fdbd9c8161535897a1311f78c7c40ebfb64785abb87aff033da9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-05.png",
+      "bytes": 56677,
+      "sha256": "09ce0b7d26c17e56fbf746a102ec4468d32dca6eeea7bdacc41bfef8785472a6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-06.png",
+      "bytes": 56524,
+      "sha256": "cf40b9f6d4084305899e284606f87c394292a53463709b9c0a3018321b56bda2"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-07.png",
+      "bytes": 56577,
+      "sha256": "8b032b783e415a1b2b1c3c56fad814d64cd126b483a45e524d3773e7fcfdb076"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-08.png",
+      "bytes": 56581,
+      "sha256": "6f39ef1b719737cef60bf78ceb76fbed7d3fbc21d61f62cf3dd664968d28cada"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-09.png",
+      "bytes": 56591,
+      "sha256": "0e8d2c9d9a14cdb4b1dad2fb59416378e2598b52f2249dab577df527811c4f64"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-10.png",
+      "bytes": 56584,
+      "sha256": "da46afe6020a23f2d00e62dda8102eb26470abcbf99d7d7e0458f3a2d7dc37cf"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-11.png",
+      "bytes": 56607,
+      "sha256": "534f0425fa000c94945a6aa47b5ded1cff56d5e0c923e18242282e093f72aea6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-12.png",
+      "bytes": 56768,
+      "sha256": "ebb7bf4a317407eb3a01c04437555cb80440adbff633b6cdec6c991473d84f2a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-13.png",
+      "bytes": 56570,
+      "sha256": "56868098f7b7df067c3bef5eb1fd953387e7f052e3b8960d126ee8eadc494646"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-14.png",
+      "bytes": 56674,
+      "sha256": "695569f562bd0fcc2a55d26914a7a6db17abbb3ce99f409eb1bd80ade796e3a8"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-15.png",
+      "bytes": 56587,
+      "sha256": "c56a863322c8db9677adf37fa35a120858b450a78a46b05164e1315315f16be4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-16.png",
+      "bytes": 56333,
+      "sha256": "35a06a4338b91c33905a054e1cc19777d44bc7eec97c200cf78f24e28bcfa9f3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-17.png",
+      "bytes": 56352,
+      "sha256": "78e5ff63cc61405f1ff638ce14485f1569a11d3a8c6b08d30c5f06e5171b22c5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-18.png",
+      "bytes": 56573,
+      "sha256": "537cbb66707010c623c0d08809b26c27d99825fa277a577f72b1471b20e8c25d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-19.png",
+      "bytes": 56598,
+      "sha256": "c6ba2e5fc7ec879f1e73157de07458f301e8b96b755e515066c2d18454b2dbdf"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-20.png",
+      "bytes": 56554,
+      "sha256": "7b894a92c97337c189cd208a01564cbf7de8ddaa6a3ff63aeb05b9d619ba41bf"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-21.png",
+      "bytes": 56510,
+      "sha256": "6c34123cda3d1d5bd1f124768e4ceaf4272fe0dc96aad918dcf11bfba96b4f5a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-22.png",
+      "bytes": 56509,
+      "sha256": "542789b97c7e7d5aa2b73119fc2d6438b709ff3620e60bacc871f879234e22c6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-23.png",
+      "bytes": 56540,
+      "sha256": "45041e2fe9a966f5f6f8d9d482a349b79e02424b604687b0777f844c3c38ad55"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-24.png",
+      "bytes": 56567,
+      "sha256": "63df6a9aa1a388369cc1936cd3500ca08e49b6c5a8ffb9c7f79728f7d92bcf4e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy17-25.png",
+      "bytes": 56493,
+      "sha256": "4a70d84ccd55766a7a27b248e62a240c24b440949174001bfa8faa013542b102"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-00.png",
+      "bytes": 56391,
+      "sha256": "d0250509299cca69b94d6c30b5eb28e91a0bfeff2c74143bd37bbdf6f4ff1d42"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-01.png",
+      "bytes": 56492,
+      "sha256": "e7f650fb2e99401787a8bb8a4cefe79dad04f657ecb7b80611d1239c58e5f2ff"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-02.png",
+      "bytes": 56371,
+      "sha256": "42d4865569033e6be5c68ac46157f9dfc94f31eacc26ff862b17f64470e4dbce"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-03.png",
+      "bytes": 56568,
+      "sha256": "26f73976b486a700338c42b14ff8792e0bd32e465ca4168cb00af752ea3122dc"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-04.png",
+      "bytes": 56637,
+      "sha256": "eb8eee2a45c59657fb8cf3d661dd891fead65c1b24e8b200d8b26f1c9325b5dd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-05.png",
+      "bytes": 56591,
+      "sha256": "b92e5d250050ab92358b1698ff99cb1b6618293ee95fbf1734e8c83d35439e8a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-06.png",
+      "bytes": 56445,
+      "sha256": "e2c26d63144fc92f38aeda846d80e2a20ae274815faf9d41395b06807b43e4bd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-07.png",
+      "bytes": 56504,
+      "sha256": "68eeccfd8c4b11412a2285108b8fba43f74832338ebf9a36b32fb3e8b986d691"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-08.png",
+      "bytes": 56497,
+      "sha256": "24a663d99bf809e95c9b298ce8dff62f0c2704b390b53b02528f5213baad07aa"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-09.png",
+      "bytes": 56508,
+      "sha256": "40f240bfbde71f1defa0a0296a69ca01aa71f11bd32d3637ffd350268d62e107"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-10.png",
+      "bytes": 56535,
+      "sha256": "fd98c95a353768b54459e9324bb998635bea60fb3d240781b3f3063b604b871e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-11.png",
+      "bytes": 56563,
+      "sha256": "24eae56a8f47450bb7216d661542283b7f778f699d2ed9145434a4ab9865827d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-12.png",
+      "bytes": 56682,
+      "sha256": "ab5fdd9fb6d6cdfa3dea2bbf4d0688865ae878212424f05644ae402b0b2b55d8"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-13.png",
+      "bytes": 56508,
+      "sha256": "9bf346ec82c56d718ab24da24bbe9542af20aabe06cc0152713d5aa901ee2b03"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-14.png",
+      "bytes": 56624,
+      "sha256": "7405d157fa8487be13457853951ef4c5bce36440b2b9d570b80a9c997e07acb4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-15.png",
+      "bytes": 56538,
+      "sha256": "eb0e3babb140ddeaab348fa9f3106d753e1d651ba1da2b076507d9764bca0665"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-16.png",
+      "bytes": 56280,
+      "sha256": "93939708e9ba70ae84ca5494a2ad169de3f2d8915c0ca7d5775b117ca9ce89d8"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-17.png",
+      "bytes": 56294,
+      "sha256": "2b6a1c8250fa62967b08b1e75fd38b6bd9eb4c6b7657c4f281b855ddc97c0592"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-18.png",
+      "bytes": 56509,
+      "sha256": "6d695a655e818eda24b9fe4806ab915b3008bbc9fcd081d34c8313618e946670"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-19.png",
+      "bytes": 56548,
+      "sha256": "4a330c9729f907002226244f247aa312d52dbdb2335cb562cf2f1142ea09084e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-20.png",
+      "bytes": 56480,
+      "sha256": "e7843ed40f4f69d7bc3bfd0548a3e54fe03c5d98310a964e30b8ca7bb991787f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-21.png",
+      "bytes": 56449,
+      "sha256": "d9526e939bc3945d29568923e15ac845a7a256b209e323a34e8043936f0b2896"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-22.png",
+      "bytes": 56455,
+      "sha256": "f79b7ba3806e821637bf869e2b9e007ee1a0084e9d7eb9cf6aad18bb24ace06c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-23.png",
+      "bytes": 56487,
+      "sha256": "ef3da577838a59ec4a6e3e9351de84328a5505f7d32b36fa92faa4beb850a55c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-24.png",
+      "bytes": 56497,
+      "sha256": "51078a8a889489518eeb96b41ea4a5f57b0a998feb20ae27c4b82849abf58bcc"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy18-25.png",
+      "bytes": 56438,
+      "sha256": "25aaae304029ae074e8db8d8389525a3b06843ae98ef40cca96364417d2303c3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-00.png",
+      "bytes": 56485,
+      "sha256": "fedc5392e03dc1dda5d7f3ae2a66b77fd963e2b1fbaabe0747afd4d4f5873726"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-01.png",
+      "bytes": 56566,
+      "sha256": "88a73bac24640d636cbbb69e670a6ae56a33fd49e55c3e7d0cdd990417e9c12a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-02.png",
+      "bytes": 56446,
+      "sha256": "a86b823016b6731ba079bb37ccc03ff8a219728099ac89a679183637839482ef"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-03.png",
+      "bytes": 56818,
+      "sha256": "dd950521375de365ca3d6596b54fe0fb94d2753092698eb66d0ab1ab2eb4bedf"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-04.png",
+      "bytes": 56846,
+      "sha256": "1a9a35189dcdf40617faa216e588d1dfaeda1d36e6edde6a7857d6e47ab23ccc"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-05.png",
+      "bytes": 56817,
+      "sha256": "da960a06d9a13eb53ebd51c516d1f00691bb2e56324675d22fda516314e9d6cc"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-06.png",
+      "bytes": 56574,
+      "sha256": "8476010894affced39a150c5d551bd97b34d4152e914ad97f037116d7b321306"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-07.png",
+      "bytes": 56619,
+      "sha256": "53f18e232cc9a6762414fedb914a6197091deb502ff03eee26813f06e766a80c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-08.png",
+      "bytes": 56605,
+      "sha256": "6f682158beed1f98266d6ef5bb6138713f9f15cacca280ad2f2cc42e1ca928eb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-09.png",
+      "bytes": 56638,
+      "sha256": "40f090b436e173d3fae9b51857a9ed460e7ff7035535f1d7d1772fc795eb91bf"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-10.png",
+      "bytes": 56687,
+      "sha256": "a4358f4d32e1302e2d6b36d229f133aef8aa774ce7f75031b214cff115733e7e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-11.png",
+      "bytes": 56709,
+      "sha256": "d223f14fcbc07f0d023ba66e1da1f13b829af31b14d662e961cbf3bc31e192c4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-12.png",
+      "bytes": 57018,
+      "sha256": "f441aae9e72c1a0fa5feaa3379eba2317c0a244336b79d4ea62df17f23dcd92a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-13.png",
+      "bytes": 56817,
+      "sha256": "b0d72e2329fec37f56891b82560d663eeb98b3a093dd2fbc241202c330cc0219"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-14.png",
+      "bytes": 56865,
+      "sha256": "31801f067d83e1485e59b4d135816bf88c921156d87ea06fe1f3d376e7bd3dd2"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-15.png",
+      "bytes": 56811,
+      "sha256": "ff19ffdcfc06dcabdea3d6d7765987bad8b71f2faa924c107fd58b58c1883838"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-16.png",
+      "bytes": 56412,
+      "sha256": "4e9ecc1ee7551cf24dd5ebb3c430ecfd5512a3ec8a66b03a11d313d438b261cd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-17.png",
+      "bytes": 56750,
+      "sha256": "bc402f887a9f4d555ce3433fb64098ae35bfdc874a91b660d59a56f909fdc974"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-18.png",
+      "bytes": 56601,
+      "sha256": "53d9571f6c7ee829c90ad09b7d58314729802cdfafc83705b26b0c4dbcd24f85"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-19.png",
+      "bytes": 56804,
+      "sha256": "6242d106d2d05bd8eec0267ccabf50a4dd3d2e4a02fc506843acf3bc64f42b61"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-20.png",
+      "bytes": 56774,
+      "sha256": "6cc1f5256a4529746dc8a469b934aa59c87e2f5aebddc9003eda615ca356d8b7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-21.png",
+      "bytes": 56493,
+      "sha256": "480698bfe2f36a3b17f5ea923b9d17029dbacf37e8d122b4306b322f07629890"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-22.png",
+      "bytes": 56625,
+      "sha256": "9e374f96e9c3a79714a369864c7d38499dc365ba19fed283073fef66bbbb102f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-23.png",
+      "bytes": 56629,
+      "sha256": "a4718cfa4961d8d4aca249b928b65def6c4a763193d564541b190494d4bf0b75"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-24.png",
+      "bytes": 56637,
+      "sha256": "6e430d180177e22539cd06be261991ed93ef709ef4f9d1ccfc1c92f32c56031a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-25.png",
+      "bytes": 56638,
+      "sha256": "53567aefe45829014799d4a9d2e0d2d8afb0453790439dbb85dafbceaafbcef1"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-26.png",
+      "bytes": 56703,
+      "sha256": "1064b8ea13d7672ad5b602642f1cd50d012101b1b1076587ecf6fa186ce95e90"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-27.png",
+      "bytes": 56664,
+      "sha256": "38d8a11028598898220759a9987a7e68b700b780181a5a8eed9bc4e673141492"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy19-28.png",
+      "bytes": 56731,
+      "sha256": "03abf01e70252a3a56d62cd04790f37be61cd44591244e409e7281086e2a97ac"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-00.png",
+      "bytes": 56360,
+      "sha256": "a05b90a903f1d2cbbd1f0435d9717c01d78b7197826ffd1674fba56ba4dfe6fa"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-01.png",
+      "bytes": 56446,
+      "sha256": "f003b34af18144d9512439b8027a85a573a1112ac137990c503878e04a1629c5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-02.png",
+      "bytes": 56355,
+      "sha256": "6ecd89fcf63d4d5ae2deca8b148e14409bf3c781e93c9eae6e55a65338c80124"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-03.png",
+      "bytes": 56534,
+      "sha256": "fc38f3775f8a88a4ee778766d6479370b2a55d9db90e478d2c3344773c61caf2"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-04.png",
+      "bytes": 56595,
+      "sha256": "dfc7491a9f7311b1a2c4c19bec6d6974dec7679c2eb59ec0fe0b02228e8cf240"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-05.png",
+      "bytes": 56554,
+      "sha256": "e161dedc2d3bda7d7207bd5546410d587e9c643a565bb2440e7f1611ad2cdc40"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-06.png",
+      "bytes": 56401,
+      "sha256": "bd4a63ece9449a189f43abc8ad6c11f77b7c65183a08b03b375830d4bb9d3e05"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-07.png",
+      "bytes": 56457,
+      "sha256": "146d2ff115ed20c221d9c9c748032460068bd0c092b2c00c987e7b1d564eaa48"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-08.png",
+      "bytes": 56430,
+      "sha256": "2eb9a7887765ddedf180413d2204065553f2d2481fc5d0f3b47200dd3f739de3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-09.png",
+      "bytes": 56454,
+      "sha256": "5d0a203c247f305c60331e018ecf9c2818817e66891423b5d4aa4cbcb5daf1b9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-10.png",
+      "bytes": 56481,
+      "sha256": "17eff71d2994aa8bf4333c59618eba0dd878b2d643a1263c6461fa4fba5b5fdf"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-11.png",
+      "bytes": 56488,
+      "sha256": "f3ae32c1f9400c1713ca2ce82f8e4e9b52bca1c8072b2808b30db29737f6a526"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-12.png",
+      "bytes": 56679,
+      "sha256": "28f5b34ed62878e4ca19dfff8bd4ba8cf14903958bf153796c1b5cdd572cbb4c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-13.png",
+      "bytes": 56485,
+      "sha256": "7b0745f1dcf332357f9ed9c6afd7162dde739ffb537728b3a543271414e4f7ac"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-14.png",
+      "bytes": 56553,
+      "sha256": "845bf71a8a3741b8dc36810f3d00eadc75027d6a396426621b04fb6e1eace167"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-15.png",
+      "bytes": 56498,
+      "sha256": "33d7ebfa50679f182de2ffd8315dd10f94e7ce4bcec4f2582bf77b049150c764"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-16.png",
+      "bytes": 56255,
+      "sha256": "2c5df4088e8747f3d606b9578fe996819318c55142324d46d8e639ef2a789e87"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-17.png",
+      "bytes": 56266,
+      "sha256": "7c9121d7d012325c55c5af6b2b070e2c4aeae7149dcb2c548150a5702c85d386"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-18.png",
+      "bytes": 56488,
+      "sha256": "d9dda11fbf26df29f2135d17756ac1d1075f5f629137c2817e83f19210e226e8"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-19.png",
+      "bytes": 56508,
+      "sha256": "8a77c31074c6f108a772c96ea679f542773664244cf712e1bd3a594c54c54a44"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-20.png",
+      "bytes": 56451,
+      "sha256": "817ddb56be36541e8f2748fbe0a677c84d0ce2571c3b9e8a68143b1aa6191ce5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-21.png",
+      "bytes": 56423,
+      "sha256": "34ade82b4e4da61f468716dd69b8eb057d39c663c0dd591b4e970038faa33cba"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-22.png",
+      "bytes": 56433,
+      "sha256": "4e2fe2eb7d0674a7507553bd0ea81a3868ddea2bf7f5ee1bb56198f11b1bdef8"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-23.png",
+      "bytes": 56455,
+      "sha256": "fb5ebc444e4af79bb32e56b5619fe2f5cc84356f927c777cd62aefdd58e6d564"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-24.png",
+      "bytes": 56460,
+      "sha256": "393fa63940ae7b0a76e31397369d8232d893352f39ca1d18a51561ab6c2a93ce"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/enemy242-25.png",
+      "bytes": 56417,
+      "sha256": "faf155cba0804a8cc466d7674689450bffef56c0856b026b733037e51769a39e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-00.png",
+      "bytes": 56628,
+      "sha256": "721df6baeaa11335a285813bfe3ecdc7b05cec239a493dcf5130d3ad85db3ca6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-01.png",
+      "bytes": 56734,
+      "sha256": "c2bd61b6c63030c175379b2cac0094b783c8ce93baa33b4c7ee02eec5a34eed7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-02.png",
+      "bytes": 56647,
+      "sha256": "b2e47d00ec76fbcfa2bf5e290ac99200e575027692326b96a489b16be70a0fb4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-03.png",
+      "bytes": 56697,
+      "sha256": "828618d2df7854a6670dcfe41aa635b0a13becaac6989083c2e4f430b8f4d22f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-04.png",
+      "bytes": 56663,
+      "sha256": "e794f49187ccb498377dd2ed91cea08aa1d534738b0bec8426485224a8febe35"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-05.png",
+      "bytes": 56649,
+      "sha256": "3660cca8244801208b7efb2efd6dcb2cd7937858bf0469f06204f1ad2ea844c0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-06.png",
+      "bytes": 56652,
+      "sha256": "a817fabc226696537cce482896bf3e3a1af5fc9145df38740924a333f523dcba"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-07.png",
+      "bytes": 56630,
+      "sha256": "3d6f014a380cf688b64b5cc311aee8f17e448363e61e1faf6b21a576d3d845e7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-08.png",
+      "bytes": 56702,
+      "sha256": "e07a000a17c189d1e7cfc8ed148710aac44dd816d3cdc8c1f7705d3710ad16e9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-09.png",
+      "bytes": 56625,
+      "sha256": "1c17f2aeaa8ea1efbfa1a3e5d53b7d293666040c065e1b8481677885dbef1272"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-10.png",
+      "bytes": 56629,
+      "sha256": "e4022b04e0fc5f4b1d8555498f1245428d19b978acd1ef80044275c5656cabc3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-11.png",
+      "bytes": 56687,
+      "sha256": "05ce5f323d724e2298a9750c3eb4bf81eb4bbf111d0692bb3d64867d02246530"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-12.png",
+      "bytes": 56702,
+      "sha256": "e5a9d7dd075cd8d02760682e55ba36c216fe0b41e6b24efb2b1f9b5ca568e745"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-13.png",
+      "bytes": 56624,
+      "sha256": "a72919c9d0bbbc159d97ab7a5b7eded34465e64dcf22a237073bc75c883eafb9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-14.png",
+      "bytes": 56645,
+      "sha256": "b00a719b7d8731ec997bddb7a08b52f02114dc7d34044fc693fe48a1e3f6a407"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-15.png",
+      "bytes": 56585,
+      "sha256": "ac062461d303deeeef8c5b604b300cd0d95eebc9f10f0943304484156c0944fd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-16.png",
+      "bytes": 56543,
+      "sha256": "5bb8722e10c7eb05fd6aac0f884ea55e5200494c1a08dfe6e89bc6443a005c84"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-17.png",
+      "bytes": 56526,
+      "sha256": "6a80f4887ba0527c82c75c57f1d098e2187eec99f90fa0304c792eed3e5ed842"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-18.png",
+      "bytes": 56595,
+      "sha256": "52a566b942bc59bbb047ed39abdf38e5d84f4578e790590bb577b2bac014109e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-19.png",
+      "bytes": 56605,
+      "sha256": "165903c75e2e4eac6c69aa12f8d9e0ba9e8ef6942a19536e8c646d11766fa3ad"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-20.png",
+      "bytes": 56665,
+      "sha256": "20425fb1b12c3d6ec8cbc188275b70c23fa1296d662797ad49618b42bc88b3b5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-21.png",
+      "bytes": 56542,
+      "sha256": "3434f9158cc16d8f5cddc5a502b4650b99437e577e75b7f12bed3c9e4ec83e94"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-22.png",
+      "bytes": 56541,
+      "sha256": "1ce7a077e1b2c46906589e066029894faccf5986c24e3666bd19fa06b53724a0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-23.png",
+      "bytes": 56690,
+      "sha256": "ddb70666b3faae4b31d86a9af53e177f386cebbb04d01924251bc0e820341640"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-24.png",
+      "bytes": 56528,
+      "sha256": "064b39319662a6ccb6ac49d0b6dba679c643ad278c71a7c432b5e8b3aede20fd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-25.png",
+      "bytes": 56550,
+      "sha256": "7c45e369132a11f573bf8fa7df2fa53e2019dfa0caec6809ccae841547643ba6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-26.png",
+      "bytes": 56673,
+      "sha256": "2d1e20ff7adf15433e59157a5ea4ff71802c81a1175c5a7453cdbb52e9790830"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/display/npc78-27.png",
+      "bytes": 56709,
+      "sha256": "50ca9d7c65d2b5c540d0c04fda682a4a60b05eddae6432a8ba2fe0bab68f6750"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action0-facing0.json",
+      "bytes": 1764,
+      "sha256": "1ef8fb36b66a58d12e484db3fd63f31b36c6633224fe470317b85f9543d3b7ea"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action0-facing1.json",
+      "bytes": 1764,
+      "sha256": "46b51171fc280b8c2920f0272540908dd7dd176248746abef1005e7d3c3b144d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action0-facing2.json",
+      "bytes": 1764,
+      "sha256": "fb0eddb8097cd87041c17d659b11b9cfe5c62885ebb0010c7cf335b2130335d0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action0-facing3.json",
+      "bytes": 1804,
+      "sha256": "14e91c0eb65e0583e928152611aa13dc797bbb37a06bcc9a5da9fc7f66d6748a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action1-facing0.json",
+      "bytes": 15465,
+      "sha256": "ba58f12dfe20057742ae70707d0b5b088953f435c83c2b2fe7365bce88a4531a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action1-facing1.json",
+      "bytes": 15465,
+      "sha256": "d660bb96d7adb00da71adc13ada20e07c02290841bc4e6a7cf8bb6cc13cd5a11"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action1-facing2.json",
+      "bytes": 15465,
+      "sha256": "d5122b691eb4138feea515a0646f5a8c95e00d67dce93f9fd14c812946fc52bd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action1-facing3.json",
+      "bytes": 15753,
+      "sha256": "6ce19be1530e4047e669a9c2db1b5811f374b21e1280eaa1d739d156febade5b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action3-facing0.json",
+      "bytes": 7609,
+      "sha256": "04208caba682e08a5876e59772913c9ca8c07548f0862765d83ba2c9e332f550"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action3-facing1.json",
+      "bytes": 7609,
+      "sha256": "476aaa96cf90613ebe9d124f662b239935aca7bfcb466f9e8af00fd179e65752"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action3-facing2.json",
+      "bytes": 7609,
+      "sha256": "b264b911d0e45717dd756f0f70d3c3ec84df6d632bbfac68346466b55cf98e98"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action3-facing3.json",
+      "bytes": 7617,
+      "sha256": "a7721b55ab2a9b2654e5fae2fc96d890949da9f6e26273553c431d9905378db7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action4-facing0.json",
+      "bytes": 4325,
+      "sha256": "1ffa830f02a52fcf17857f780c80b0c708bc57565ecf0c54679a1b185f807ffb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action4-facing1.json",
+      "bytes": 4325,
+      "sha256": "f074a5f29b55f7d865c6033722150883b14ac36a2130d6898ab92f9ac856c147"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action4-facing2.json",
+      "bytes": 4325,
+      "sha256": "4923a51045414cb5cb8962a9334da45c31a17bd3cbf6adf46cb8ca7a1264f12a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action4-facing3.json",
+      "bytes": 4333,
+      "sha256": "b6076003241621d5b8da16f23c0a83e5e92fcae198ff40918d02677bb6797d79"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action5-facing0.json",
+      "bytes": 3055,
+      "sha256": "9858ace3bf9a2d36b20c4a4aad492abae5cc7ace6f1d482e96aba033a890c2d1"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action5-facing1.json",
+      "bytes": 3055,
+      "sha256": "eba3f7ec3457ffab899eac56d973329d2d40f2c590ec1a055506353ef3094e15"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action5-facing2.json",
+      "bytes": 3055,
+      "sha256": "017245f71185561660559e8c492898d8e288a7d27897d18a083620647e1b96f5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action5-facing3.json",
+      "bytes": 3063,
+      "sha256": "677cc9cee2d4977b3023a9a7b0f2b772431d7e04cf56f5560f0cc40a5d5b57db"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action6-facing0.json",
+      "bytes": 3436,
+      "sha256": "731823672a9911e4d7dd0e42a0d16a592889cfd4eaa111d5e3318b710f9afb31"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action6-facing1.json",
+      "bytes": 3436,
+      "sha256": "a2ff558bce32020bfbcb39311108b668103cf198ffb1fb2f290c1ec30d0a0946"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action6-facing2.json",
+      "bytes": 3436,
+      "sha256": "585752bf4c718cb748cf96646a44da4cdd63d148c223bba8275f62506eeb047a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action6-facing3.json",
+      "bytes": 3444,
+      "sha256": "ec464aca68de80e2b1ac1711ae06d9fce87c321d4eda83c8f407819f71c64875"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action7-facing0.json",
+      "bytes": 16223,
+      "sha256": "e05492b5398b5977408c1f7548bb3eca81ae663ff81c8a4467076918cbdedc72"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action7-facing1.json",
+      "bytes": 16223,
+      "sha256": "fb242e8bbbeed975725857fc5e63e2cd2d7dcac8d5772cc8309572176a250641"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action7-facing2.json",
+      "bytes": 16223,
+      "sha256": "678d6f5114a8f84ec931e50dcd6cf07bd35518ed82c52f6376a0098a4b275b15"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action7-facing3.json",
+      "bytes": 16231,
+      "sha256": "3316adc62b49638abad36a471b45ea5c9ce8670b5671dff936f70aab8eb0ee57"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action8-facing0.json",
+      "bytes": 16223,
+      "sha256": "a8d56eb5725e982489941222bab56ba3a0aae2e63e83da81a548e3be923ad104"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action8-facing1.json",
+      "bytes": 16223,
+      "sha256": "d95257086262a71312ea12c9eed28b168e69e825bd26d1ce5d4d722e5edddc3a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action8-facing2.json",
+      "bytes": 16223,
+      "sha256": "55c413bb40aadeee1f742cfee2bb261b3eaa0f94f65f6317a529eccb25b6848a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy12-AA33-action8-facing3.json",
+      "bytes": 16231,
+      "sha256": "23b8569c0b6a4ab02e3dc8f41926d9836d9cfa4cf9ef32cad3dd234c701326fd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action0-facing0.json",
+      "bytes": 1764,
+      "sha256": "1ef8fb36b66a58d12e484db3fd63f31b36c6633224fe470317b85f9543d3b7ea"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action0-facing1.json",
+      "bytes": 1764,
+      "sha256": "46b51171fc280b8c2920f0272540908dd7dd176248746abef1005e7d3c3b144d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action0-facing2.json",
+      "bytes": 1764,
+      "sha256": "fb0eddb8097cd87041c17d659b11b9cfe5c62885ebb0010c7cf335b2130335d0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action0-facing3.json",
+      "bytes": 1804,
+      "sha256": "14e91c0eb65e0583e928152611aa13dc797bbb37a06bcc9a5da9fc7f66d6748a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action1-facing0.json",
+      "bytes": 15465,
+      "sha256": "ba58f12dfe20057742ae70707d0b5b088953f435c83c2b2fe7365bce88a4531a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action1-facing1.json",
+      "bytes": 15465,
+      "sha256": "d660bb96d7adb00da71adc13ada20e07c02290841bc4e6a7cf8bb6cc13cd5a11"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action1-facing2.json",
+      "bytes": 15465,
+      "sha256": "d5122b691eb4138feea515a0646f5a8c95e00d67dce93f9fd14c812946fc52bd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action1-facing3.json",
+      "bytes": 15753,
+      "sha256": "6ce19be1530e4047e669a9c2db1b5811f374b21e1280eaa1d739d156febade5b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action3-facing0.json",
+      "bytes": 7609,
+      "sha256": "04208caba682e08a5876e59772913c9ca8c07548f0862765d83ba2c9e332f550"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action3-facing1.json",
+      "bytes": 7609,
+      "sha256": "476aaa96cf90613ebe9d124f662b239935aca7bfcb466f9e8af00fd179e65752"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action3-facing2.json",
+      "bytes": 7609,
+      "sha256": "b264b911d0e45717dd756f0f70d3c3ec84df6d632bbfac68346466b55cf98e98"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action3-facing3.json",
+      "bytes": 7617,
+      "sha256": "a7721b55ab2a9b2654e5fae2fc96d890949da9f6e26273553c431d9905378db7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action4-facing0.json",
+      "bytes": 4325,
+      "sha256": "1ffa830f02a52fcf17857f780c80b0c708bc57565ecf0c54679a1b185f807ffb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action4-facing1.json",
+      "bytes": 4325,
+      "sha256": "f074a5f29b55f7d865c6033722150883b14ac36a2130d6898ab92f9ac856c147"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action4-facing2.json",
+      "bytes": 4325,
+      "sha256": "4923a51045414cb5cb8962a9334da45c31a17bd3cbf6adf46cb8ca7a1264f12a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action4-facing3.json",
+      "bytes": 4333,
+      "sha256": "b6076003241621d5b8da16f23c0a83e5e92fcae198ff40918d02677bb6797d79"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action5-facing0.json",
+      "bytes": 3055,
+      "sha256": "9858ace3bf9a2d36b20c4a4aad492abae5cc7ace6f1d482e96aba033a890c2d1"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action5-facing1.json",
+      "bytes": 3055,
+      "sha256": "eba3f7ec3457ffab899eac56d973329d2d40f2c590ec1a055506353ef3094e15"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action5-facing2.json",
+      "bytes": 3055,
+      "sha256": "017245f71185561660559e8c492898d8e288a7d27897d18a083620647e1b96f5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action5-facing3.json",
+      "bytes": 3063,
+      "sha256": "677cc9cee2d4977b3023a9a7b0f2b772431d7e04cf56f5560f0cc40a5d5b57db"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action6-facing0.json",
+      "bytes": 3436,
+      "sha256": "731823672a9911e4d7dd0e42a0d16a592889cfd4eaa111d5e3318b710f9afb31"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action6-facing1.json",
+      "bytes": 3436,
+      "sha256": "a2ff558bce32020bfbcb39311108b668103cf198ffb1fb2f290c1ec30d0a0946"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action6-facing2.json",
+      "bytes": 3436,
+      "sha256": "585752bf4c718cb748cf96646a44da4cdd63d148c223bba8275f62506eeb047a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action6-facing3.json",
+      "bytes": 3444,
+      "sha256": "ec464aca68de80e2b1ac1711ae06d9fce87c321d4eda83c8f407819f71c64875"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action7-facing0.json",
+      "bytes": 16223,
+      "sha256": "e05492b5398b5977408c1f7548bb3eca81ae663ff81c8a4467076918cbdedc72"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action7-facing1.json",
+      "bytes": 16223,
+      "sha256": "fb242e8bbbeed975725857fc5e63e2cd2d7dcac8d5772cc8309572176a250641"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action7-facing2.json",
+      "bytes": 16223,
+      "sha256": "678d6f5114a8f84ec931e50dcd6cf07bd35518ed82c52f6376a0098a4b275b15"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action7-facing3.json",
+      "bytes": 16231,
+      "sha256": "3316adc62b49638abad36a471b45ea5c9ce8670b5671dff936f70aab8eb0ee57"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action8-facing0.json",
+      "bytes": 16223,
+      "sha256": "a8d56eb5725e982489941222bab56ba3a0aae2e63e83da81a548e3be923ad104"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action8-facing1.json",
+      "bytes": 16223,
+      "sha256": "d95257086262a71312ea12c9eed28b168e69e825bd26d1ce5d4d722e5edddc3a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action8-facing2.json",
+      "bytes": 16223,
+      "sha256": "55c413bb40aadeee1f742cfee2bb261b3eaa0f94f65f6317a529eccb25b6848a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy13-AA33-action8-facing3.json",
+      "bytes": 16231,
+      "sha256": "23b8569c0b6a4ab02e3dc8f41926d9836d9cfa4cf9ef32cad3dd234c701326fd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action0-facing0.json",
+      "bytes": 1764,
+      "sha256": "1ef8fb36b66a58d12e484db3fd63f31b36c6633224fe470317b85f9543d3b7ea"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action0-facing1.json",
+      "bytes": 1764,
+      "sha256": "46b51171fc280b8c2920f0272540908dd7dd176248746abef1005e7d3c3b144d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action0-facing2.json",
+      "bytes": 1764,
+      "sha256": "fb0eddb8097cd87041c17d659b11b9cfe5c62885ebb0010c7cf335b2130335d0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action0-facing3.json",
+      "bytes": 1804,
+      "sha256": "14e91c0eb65e0583e928152611aa13dc797bbb37a06bcc9a5da9fc7f66d6748a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action1-facing0.json",
+      "bytes": 15465,
+      "sha256": "ba58f12dfe20057742ae70707d0b5b088953f435c83c2b2fe7365bce88a4531a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action1-facing1.json",
+      "bytes": 15465,
+      "sha256": "d660bb96d7adb00da71adc13ada20e07c02290841bc4e6a7cf8bb6cc13cd5a11"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action1-facing2.json",
+      "bytes": 15465,
+      "sha256": "d5122b691eb4138feea515a0646f5a8c95e00d67dce93f9fd14c812946fc52bd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action1-facing3.json",
+      "bytes": 15753,
+      "sha256": "6ce19be1530e4047e669a9c2db1b5811f374b21e1280eaa1d739d156febade5b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action3-facing0.json",
+      "bytes": 7609,
+      "sha256": "04208caba682e08a5876e59772913c9ca8c07548f0862765d83ba2c9e332f550"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action3-facing1.json",
+      "bytes": 7609,
+      "sha256": "476aaa96cf90613ebe9d124f662b239935aca7bfcb466f9e8af00fd179e65752"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action3-facing2.json",
+      "bytes": 7609,
+      "sha256": "b264b911d0e45717dd756f0f70d3c3ec84df6d632bbfac68346466b55cf98e98"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action3-facing3.json",
+      "bytes": 7617,
+      "sha256": "a7721b55ab2a9b2654e5fae2fc96d890949da9f6e26273553c431d9905378db7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action4-facing0.json",
+      "bytes": 4325,
+      "sha256": "1ffa830f02a52fcf17857f780c80b0c708bc57565ecf0c54679a1b185f807ffb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action4-facing1.json",
+      "bytes": 4325,
+      "sha256": "f074a5f29b55f7d865c6033722150883b14ac36a2130d6898ab92f9ac856c147"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action4-facing2.json",
+      "bytes": 4325,
+      "sha256": "4923a51045414cb5cb8962a9334da45c31a17bd3cbf6adf46cb8ca7a1264f12a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action4-facing3.json",
+      "bytes": 4333,
+      "sha256": "b6076003241621d5b8da16f23c0a83e5e92fcae198ff40918d02677bb6797d79"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action5-facing0.json",
+      "bytes": 3055,
+      "sha256": "9858ace3bf9a2d36b20c4a4aad492abae5cc7ace6f1d482e96aba033a890c2d1"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action5-facing1.json",
+      "bytes": 3055,
+      "sha256": "eba3f7ec3457ffab899eac56d973329d2d40f2c590ec1a055506353ef3094e15"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action5-facing2.json",
+      "bytes": 3055,
+      "sha256": "017245f71185561660559e8c492898d8e288a7d27897d18a083620647e1b96f5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action5-facing3.json",
+      "bytes": 3063,
+      "sha256": "677cc9cee2d4977b3023a9a7b0f2b772431d7e04cf56f5560f0cc40a5d5b57db"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action6-facing0.json",
+      "bytes": 3436,
+      "sha256": "731823672a9911e4d7dd0e42a0d16a592889cfd4eaa111d5e3318b710f9afb31"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action6-facing1.json",
+      "bytes": 3436,
+      "sha256": "a2ff558bce32020bfbcb39311108b668103cf198ffb1fb2f290c1ec30d0a0946"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action6-facing2.json",
+      "bytes": 3436,
+      "sha256": "585752bf4c718cb748cf96646a44da4cdd63d148c223bba8275f62506eeb047a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action6-facing3.json",
+      "bytes": 3444,
+      "sha256": "ec464aca68de80e2b1ac1711ae06d9fce87c321d4eda83c8f407819f71c64875"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action7-facing0.json",
+      "bytes": 16223,
+      "sha256": "e05492b5398b5977408c1f7548bb3eca81ae663ff81c8a4467076918cbdedc72"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action7-facing1.json",
+      "bytes": 16223,
+      "sha256": "fb242e8bbbeed975725857fc5e63e2cd2d7dcac8d5772cc8309572176a250641"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action7-facing2.json",
+      "bytes": 16223,
+      "sha256": "678d6f5114a8f84ec931e50dcd6cf07bd35518ed82c52f6376a0098a4b275b15"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action7-facing3.json",
+      "bytes": 16231,
+      "sha256": "3316adc62b49638abad36a471b45ea5c9ce8670b5671dff936f70aab8eb0ee57"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action8-facing0.json",
+      "bytes": 16223,
+      "sha256": "a8d56eb5725e982489941222bab56ba3a0aae2e63e83da81a548e3be923ad104"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action8-facing1.json",
+      "bytes": 16223,
+      "sha256": "d95257086262a71312ea12c9eed28b168e69e825bd26d1ce5d4d722e5edddc3a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action8-facing2.json",
+      "bytes": 16223,
+      "sha256": "55c413bb40aadeee1f742cfee2bb261b3eaa0f94f65f6317a529eccb25b6848a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy14-AA33-action8-facing3.json",
+      "bytes": 16231,
+      "sha256": "23b8569c0b6a4ab02e3dc8f41926d9836d9cfa4cf9ef32cad3dd234c701326fd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action0-facing0.json",
+      "bytes": 1764,
+      "sha256": "1ef8fb36b66a58d12e484db3fd63f31b36c6633224fe470317b85f9543d3b7ea"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action0-facing1.json",
+      "bytes": 1764,
+      "sha256": "46b51171fc280b8c2920f0272540908dd7dd176248746abef1005e7d3c3b144d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action0-facing2.json",
+      "bytes": 1764,
+      "sha256": "fb0eddb8097cd87041c17d659b11b9cfe5c62885ebb0010c7cf335b2130335d0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action0-facing3.json",
+      "bytes": 1804,
+      "sha256": "14e91c0eb65e0583e928152611aa13dc797bbb37a06bcc9a5da9fc7f66d6748a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action1-facing0.json",
+      "bytes": 15465,
+      "sha256": "ba58f12dfe20057742ae70707d0b5b088953f435c83c2b2fe7365bce88a4531a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action1-facing1.json",
+      "bytes": 15465,
+      "sha256": "d660bb96d7adb00da71adc13ada20e07c02290841bc4e6a7cf8bb6cc13cd5a11"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action1-facing2.json",
+      "bytes": 15465,
+      "sha256": "d5122b691eb4138feea515a0646f5a8c95e00d67dce93f9fd14c812946fc52bd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action1-facing3.json",
+      "bytes": 15753,
+      "sha256": "6ce19be1530e4047e669a9c2db1b5811f374b21e1280eaa1d739d156febade5b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action3-facing0.json",
+      "bytes": 7609,
+      "sha256": "04208caba682e08a5876e59772913c9ca8c07548f0862765d83ba2c9e332f550"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action3-facing1.json",
+      "bytes": 7609,
+      "sha256": "476aaa96cf90613ebe9d124f662b239935aca7bfcb466f9e8af00fd179e65752"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action3-facing2.json",
+      "bytes": 7609,
+      "sha256": "b264b911d0e45717dd756f0f70d3c3ec84df6d632bbfac68346466b55cf98e98"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action3-facing3.json",
+      "bytes": 7617,
+      "sha256": "a7721b55ab2a9b2654e5fae2fc96d890949da9f6e26273553c431d9905378db7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action4-facing0.json",
+      "bytes": 4325,
+      "sha256": "1ffa830f02a52fcf17857f780c80b0c708bc57565ecf0c54679a1b185f807ffb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action4-facing1.json",
+      "bytes": 4325,
+      "sha256": "f074a5f29b55f7d865c6033722150883b14ac36a2130d6898ab92f9ac856c147"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action4-facing2.json",
+      "bytes": 4325,
+      "sha256": "4923a51045414cb5cb8962a9334da45c31a17bd3cbf6adf46cb8ca7a1264f12a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action4-facing3.json",
+      "bytes": 4333,
+      "sha256": "b6076003241621d5b8da16f23c0a83e5e92fcae198ff40918d02677bb6797d79"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action5-facing0.json",
+      "bytes": 3055,
+      "sha256": "9858ace3bf9a2d36b20c4a4aad492abae5cc7ace6f1d482e96aba033a890c2d1"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action5-facing1.json",
+      "bytes": 3055,
+      "sha256": "eba3f7ec3457ffab899eac56d973329d2d40f2c590ec1a055506353ef3094e15"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action5-facing2.json",
+      "bytes": 3055,
+      "sha256": "017245f71185561660559e8c492898d8e288a7d27897d18a083620647e1b96f5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action5-facing3.json",
+      "bytes": 3063,
+      "sha256": "677cc9cee2d4977b3023a9a7b0f2b772431d7e04cf56f5560f0cc40a5d5b57db"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action6-facing0.json",
+      "bytes": 3436,
+      "sha256": "731823672a9911e4d7dd0e42a0d16a592889cfd4eaa111d5e3318b710f9afb31"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action6-facing1.json",
+      "bytes": 3436,
+      "sha256": "a2ff558bce32020bfbcb39311108b668103cf198ffb1fb2f290c1ec30d0a0946"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action6-facing2.json",
+      "bytes": 3436,
+      "sha256": "585752bf4c718cb748cf96646a44da4cdd63d148c223bba8275f62506eeb047a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action6-facing3.json",
+      "bytes": 3444,
+      "sha256": "ec464aca68de80e2b1ac1711ae06d9fce87c321d4eda83c8f407819f71c64875"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action7-facing0.json",
+      "bytes": 16223,
+      "sha256": "e05492b5398b5977408c1f7548bb3eca81ae663ff81c8a4467076918cbdedc72"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action7-facing1.json",
+      "bytes": 16223,
+      "sha256": "fb242e8bbbeed975725857fc5e63e2cd2d7dcac8d5772cc8309572176a250641"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action7-facing2.json",
+      "bytes": 16223,
+      "sha256": "678d6f5114a8f84ec931e50dcd6cf07bd35518ed82c52f6376a0098a4b275b15"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action7-facing3.json",
+      "bytes": 16231,
+      "sha256": "3316adc62b49638abad36a471b45ea5c9ce8670b5671dff936f70aab8eb0ee57"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action8-facing0.json",
+      "bytes": 16223,
+      "sha256": "a8d56eb5725e982489941222bab56ba3a0aae2e63e83da81a548e3be923ad104"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action8-facing1.json",
+      "bytes": 16223,
+      "sha256": "d95257086262a71312ea12c9eed28b168e69e825bd26d1ce5d4d722e5edddc3a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action8-facing2.json",
+      "bytes": 16223,
+      "sha256": "55c413bb40aadeee1f742cfee2bb261b3eaa0f94f65f6317a529eccb25b6848a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy15-AA33-action8-facing3.json",
+      "bytes": 16231,
+      "sha256": "23b8569c0b6a4ab02e3dc8f41926d9836d9cfa4cf9ef32cad3dd234c701326fd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action0-facing0.json",
+      "bytes": 1764,
+      "sha256": "1ef8fb36b66a58d12e484db3fd63f31b36c6633224fe470317b85f9543d3b7ea"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action0-facing1.json",
+      "bytes": 1764,
+      "sha256": "46b51171fc280b8c2920f0272540908dd7dd176248746abef1005e7d3c3b144d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action0-facing2.json",
+      "bytes": 1764,
+      "sha256": "fb0eddb8097cd87041c17d659b11b9cfe5c62885ebb0010c7cf335b2130335d0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action0-facing3.json",
+      "bytes": 1804,
+      "sha256": "14e91c0eb65e0583e928152611aa13dc797bbb37a06bcc9a5da9fc7f66d6748a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action1-facing0.json",
+      "bytes": 12605,
+      "sha256": "d5d1b817a5eff5c25779b6496d2531ea532dddbd4a9f8b780472cd9b6190644f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action1-facing1.json",
+      "bytes": 12605,
+      "sha256": "51b24e86517177720af33b3a524a0651c5c74396d944247846a54fadfd288cef"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action1-facing2.json",
+      "bytes": 12605,
+      "sha256": "ab7020a0b1c722e6a7c85044f3dacfcf4e8dff697b46bda11ac759d819d2a65e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action1-facing3.json",
+      "bytes": 12853,
+      "sha256": "87fa9ea19d51fc9004ce1dcb1cddbed205843ea32a53696f006d078c82b4af29"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action3-facing0.json",
+      "bytes": 6564,
+      "sha256": "3ca1a9cffcf782423a3de30a75f25051a1b1b4f09580ab68fe3905225fbf0411"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action3-facing1.json",
+      "bytes": 6564,
+      "sha256": "082581e66030b39cd6e26a2c1890b5717afe84c2c06f4c7ada9ba7075f2f6a23"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action3-facing2.json",
+      "bytes": 6564,
+      "sha256": "c21edba290db67173d8251732c0f021aa224b9d6b9d7a428768f9d8a9af8b4de"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action3-facing3.json",
+      "bytes": 6692,
+      "sha256": "4d0bfea06e3d467686efac8b58b9f0f3677f012c98b8c8a272a17a2502dae409"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action5-facing0.json",
+      "bytes": 8389,
+      "sha256": "314c59a4d263b33fef615b767c39b1ce13c6a787b21162e46b62e9627289cf4a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action5-facing1.json",
+      "bytes": 8389,
+      "sha256": "0bfd61ffa70c998422a552f61773420ba2e31f33a57e1236f4c34f50e4cc0ddb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action5-facing2.json",
+      "bytes": 8389,
+      "sha256": "31098e152cb5a1753016c4f8004497e99e672741b681cfee3de78cb66cd3200c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action5-facing3.json",
+      "bytes": 8397,
+      "sha256": "460727f195480e819c095eced1a845bdde9c2890eb614c27fffdf0bfe0a154d7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action6-facing0.json",
+      "bytes": 9623,
+      "sha256": "685315da2f27b03ef6f02351362d5bef89caeddb5b9a14cda78b80c0d009e6bf"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action6-facing1.json",
+      "bytes": 9623,
+      "sha256": "ddd825abd9cf3d8bf14a4f080bafa32851377f8ff298f6e3fcc507f087e04c51"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action6-facing2.json",
+      "bytes": 9623,
+      "sha256": "90a2e9afa0ba573da36a441713f1aef6147af79229cc1bb20ea9dcb8814a4d92"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action6-facing3.json",
+      "bytes": 9631,
+      "sha256": "5af143d10be25f0e87532de419f16bcedef2a1f9e7e06e62864d87ccbb1e7f9f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action7-facing0.json",
+      "bytes": 14489,
+      "sha256": "d59f61eaccb1ffcc803cdf7670eae287e04979720166a9044f56c7adb036cbdb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action7-facing1.json",
+      "bytes": 14489,
+      "sha256": "b53179300002e8fae75d33a3e79e323ebc553105d00da7f3d055848ce1f7d4ab"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action7-facing2.json",
+      "bytes": 14489,
+      "sha256": "50916fac2b6db126185f5e7e14c1774da4a9d6c94201cf61f99ae01062a11338"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action7-facing3.json",
+      "bytes": 14497,
+      "sha256": "a83e78081e27bfbfe5f31eaa19c7cc31a7aebc116d4c5c562ffa545369bcd8ce"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action8-facing0.json",
+      "bytes": 5076,
+      "sha256": "b3092c366f9e38901c0597b6053c5c044316f716217cdacf173ae76dcf6e3a31"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action8-facing1.json",
+      "bytes": 5076,
+      "sha256": "6924327c1bf2b80436f9f8af20f21f28804eb719ea57e095bd9cf752186ecdcb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action8-facing2.json",
+      "bytes": 5076,
+      "sha256": "96b11730523294fdfe66a2f8a8da6dac793bcd78c9d1ce2e8ab91f52006b3c69"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy16-AA44-action8-facing3.json",
+      "bytes": 5084,
+      "sha256": "2b8fb44ecd884e9bda7b850ab047f514f8bc925b7cbedee8574c2320ba1bb324"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action0-facing0.json",
+      "bytes": 1764,
+      "sha256": "1ef8fb36b66a58d12e484db3fd63f31b36c6633224fe470317b85f9543d3b7ea"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action0-facing1.json",
+      "bytes": 1764,
+      "sha256": "46b51171fc280b8c2920f0272540908dd7dd176248746abef1005e7d3c3b144d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action0-facing2.json",
+      "bytes": 1764,
+      "sha256": "fb0eddb8097cd87041c17d659b11b9cfe5c62885ebb0010c7cf335b2130335d0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action0-facing3.json",
+      "bytes": 1804,
+      "sha256": "14e91c0eb65e0583e928152611aa13dc797bbb37a06bcc9a5da9fc7f66d6748a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action1-facing0.json",
+      "bytes": 12605,
+      "sha256": "d5d1b817a5eff5c25779b6496d2531ea532dddbd4a9f8b780472cd9b6190644f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action1-facing1.json",
+      "bytes": 12605,
+      "sha256": "51b24e86517177720af33b3a524a0651c5c74396d944247846a54fadfd288cef"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action1-facing2.json",
+      "bytes": 12605,
+      "sha256": "ab7020a0b1c722e6a7c85044f3dacfcf4e8dff697b46bda11ac759d819d2a65e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action1-facing3.json",
+      "bytes": 12853,
+      "sha256": "87fa9ea19d51fc9004ce1dcb1cddbed205843ea32a53696f006d078c82b4af29"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action3-facing0.json",
+      "bytes": 6564,
+      "sha256": "3ca1a9cffcf782423a3de30a75f25051a1b1b4f09580ab68fe3905225fbf0411"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action3-facing1.json",
+      "bytes": 6564,
+      "sha256": "082581e66030b39cd6e26a2c1890b5717afe84c2c06f4c7ada9ba7075f2f6a23"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action3-facing2.json",
+      "bytes": 6564,
+      "sha256": "c21edba290db67173d8251732c0f021aa224b9d6b9d7a428768f9d8a9af8b4de"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action3-facing3.json",
+      "bytes": 6692,
+      "sha256": "4d0bfea06e3d467686efac8b58b9f0f3677f012c98b8c8a272a17a2502dae409"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action5-facing0.json",
+      "bytes": 8389,
+      "sha256": "314c59a4d263b33fef615b767c39b1ce13c6a787b21162e46b62e9627289cf4a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action5-facing1.json",
+      "bytes": 8389,
+      "sha256": "0bfd61ffa70c998422a552f61773420ba2e31f33a57e1236f4c34f50e4cc0ddb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action5-facing2.json",
+      "bytes": 8389,
+      "sha256": "31098e152cb5a1753016c4f8004497e99e672741b681cfee3de78cb66cd3200c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action5-facing3.json",
+      "bytes": 8397,
+      "sha256": "460727f195480e819c095eced1a845bdde9c2890eb614c27fffdf0bfe0a154d7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action6-facing0.json",
+      "bytes": 9623,
+      "sha256": "685315da2f27b03ef6f02351362d5bef89caeddb5b9a14cda78b80c0d009e6bf"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action6-facing1.json",
+      "bytes": 9623,
+      "sha256": "ddd825abd9cf3d8bf14a4f080bafa32851377f8ff298f6e3fcc507f087e04c51"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action6-facing2.json",
+      "bytes": 9623,
+      "sha256": "90a2e9afa0ba573da36a441713f1aef6147af79229cc1bb20ea9dcb8814a4d92"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action6-facing3.json",
+      "bytes": 9631,
+      "sha256": "5af143d10be25f0e87532de419f16bcedef2a1f9e7e06e62864d87ccbb1e7f9f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action7-facing0.json",
+      "bytes": 14489,
+      "sha256": "d59f61eaccb1ffcc803cdf7670eae287e04979720166a9044f56c7adb036cbdb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action7-facing1.json",
+      "bytes": 14489,
+      "sha256": "b53179300002e8fae75d33a3e79e323ebc553105d00da7f3d055848ce1f7d4ab"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action7-facing2.json",
+      "bytes": 14489,
+      "sha256": "50916fac2b6db126185f5e7e14c1774da4a9d6c94201cf61f99ae01062a11338"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action7-facing3.json",
+      "bytes": 14497,
+      "sha256": "a83e78081e27bfbfe5f31eaa19c7cc31a7aebc116d4c5c562ffa545369bcd8ce"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action8-facing0.json",
+      "bytes": 5076,
+      "sha256": "b3092c366f9e38901c0597b6053c5c044316f716217cdacf173ae76dcf6e3a31"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action8-facing1.json",
+      "bytes": 5076,
+      "sha256": "6924327c1bf2b80436f9f8af20f21f28804eb719ea57e095bd9cf752186ecdcb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action8-facing2.json",
+      "bytes": 5076,
+      "sha256": "96b11730523294fdfe66a2f8a8da6dac793bcd78c9d1ce2e8ab91f52006b3c69"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy17-AA44-action8-facing3.json",
+      "bytes": 5084,
+      "sha256": "2b8fb44ecd884e9bda7b850ab047f514f8bc925b7cbedee8574c2320ba1bb324"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action0-facing0.json",
+      "bytes": 1808,
+      "sha256": "fd5ebbfb3cf016d9836e70ca10ed5baffaca00b0160e894c5170d8ef0f362dff"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action0-facing1.json",
+      "bytes": 1808,
+      "sha256": "2060c4ea7489826662f923037d2c9b578c8f8f0c1ee549781c60d2bdccd4558e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action0-facing2.json",
+      "bytes": 1808,
+      "sha256": "3eb3392fd653eebf680d09be31b909efe3162011e15b14656084dc21d6f7b600"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action0-facing3.json",
+      "bytes": 1808,
+      "sha256": "023fb19e12566cd44cc7ecfa83f62f9f4a88a9543ee186e562347693a39c7793"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action1-facing0.json",
+      "bytes": 5088,
+      "sha256": "fa1d175d72b18211d349f4277d52a4cb888e227a6b9a57d01118dc14033c7987"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action1-facing1.json",
+      "bytes": 5088,
+      "sha256": "e3325e2f40c24ba855b60c4c3096a64210f35671bdd79f04a40225be764178a8"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action1-facing2.json",
+      "bytes": 5088,
+      "sha256": "be85601eabff7c1f9e49e4ffca77d2043655ffaa04d27f1167b03a6ccd9b47f9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action1-facing3.json",
+      "bytes": 5088,
+      "sha256": "6edf8883671fd5c1872d04d25f987d5cb3828009e583a60635b379af8d6875bc"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action3-facing0.json",
+      "bytes": 5088,
+      "sha256": "2f27be6b6827f53cd3b1212164de320dff40462c235808ff928f7c401bd4010a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action3-facing1.json",
+      "bytes": 5088,
+      "sha256": "a5a528568da7f7b88598eddc022363fd8db45afce3d4590c5ceef23ced595da5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action3-facing2.json",
+      "bytes": 5088,
+      "sha256": "7cb76db18d4813bd39dc41807378d146aa4831781f2c258e3c9efcd4782155b4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action3-facing3.json",
+      "bytes": 5088,
+      "sha256": "8122d80760f9c28720c78da385c09d44c2130b3b7821d47a9118ee4169689669"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action5-facing0.json",
+      "bytes": 1808,
+      "sha256": "81c0ced041055b066e22bdb16ed5f06c286c98b840de4dce4c381ae686ea2e9b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action5-facing1.json",
+      "bytes": 1808,
+      "sha256": "1682fc943856b3dade5f7c9b3ec217c546bc928e8c063b4e05baf96d2fa3117e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action5-facing2.json",
+      "bytes": 1808,
+      "sha256": "ade26ca6f65e3f7d62538386676bb3dfd833e48d91da24901026106abcd7c2d2"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action5-facing3.json",
+      "bytes": 1808,
+      "sha256": "0fc4915f81b889b04f66be3b388f1c178e60c75cc89891e0d030feeb22b1047a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action6-facing0.json",
+      "bytes": 5088,
+      "sha256": "b9b81cdd4420ae025e37b710956bee3935927178ca7e4d4ac3b33635504a0dc7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action6-facing1.json",
+      "bytes": 5088,
+      "sha256": "ebde68eb11884e73bb923de7b95d157944183dd7ce05fb8f9688e764ea6e7a1a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action6-facing2.json",
+      "bytes": 5088,
+      "sha256": "c459a53cfbd9ff6ac01c50e8a1c22fb4c3732f5d6ff75f54a7a9d2813acfb45b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action6-facing3.json",
+      "bytes": 5088,
+      "sha256": "205a5ef301f86176d86b12b1a2ea1a7cc4ff24bae53de36054e5448b80011c86"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action7-facing0.json",
+      "bytes": 5088,
+      "sha256": "5bb18c283036e638f4fb94e31a4b51b4e1b19539d66e2b79c84ad508d6699bc3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action7-facing1.json",
+      "bytes": 5088,
+      "sha256": "9b468a070c85ad650ec71611c940228faf0628ee9a75795128b8291d2ca21808"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action7-facing2.json",
+      "bytes": 5088,
+      "sha256": "52ad612a734b930b44bc68830d8ccb42f9dd4e4a65ad5e24fd6acda2d1276f88"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action7-facing3.json",
+      "bytes": 5088,
+      "sha256": "d03ce2c93280e32e0dd800a9a78074b13418bb2ebb4bae063af999ee39a880b3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action8-facing0.json",
+      "bytes": 5088,
+      "sha256": "986d32f80b84f566ea32130a09c5e7cd8ee786558a4b42406d040d6e715649d1"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action8-facing1.json",
+      "bytes": 5088,
+      "sha256": "9de1802b1d93ea42963549c7b980c29acebc458db9d6820ec3e1ef09f1f189db"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action8-facing2.json",
+      "bytes": 5088,
+      "sha256": "2f4ea87ae9580fe5fac7e19d17a8c9ea30605dd71c32d1c97a7402559f0f996a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action8-facing3.json",
+      "bytes": 5088,
+      "sha256": "ee6951bfc26020c05d9f97d7aad62385a57888c90aa96769a2a54f988f2e7c39"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action9-facing0.json",
+      "bytes": 5088,
+      "sha256": "e595ec2e01ee7686dbb5ea710040d63321ed0c44a2d9259301fc90952aed5a2e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action9-facing1.json",
+      "bytes": 5088,
+      "sha256": "7289e5b201b19ab3f90c80ed6b2cd420ab05a1039caf88c44c2b7cc89c01e70b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action9-facing2.json",
+      "bytes": 5088,
+      "sha256": "ad9951861509d261fc9070853cc09a2ef7725091026adcad97c486c0bad70f1b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy18-AA100-action9-facing3.json",
+      "bytes": 5088,
+      "sha256": "7bdb365254db8c7cdd9618b294374070ea2ba5b9b2060d3a5593642335e5f5d1"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action0-facing0.json",
+      "bytes": 1764,
+      "sha256": "1ef8fb36b66a58d12e484db3fd63f31b36c6633224fe470317b85f9543d3b7ea"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action0-facing1.json",
+      "bytes": 1764,
+      "sha256": "46b51171fc280b8c2920f0272540908dd7dd176248746abef1005e7d3c3b144d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action0-facing2.json",
+      "bytes": 1764,
+      "sha256": "fb0eddb8097cd87041c17d659b11b9cfe5c62885ebb0010c7cf335b2130335d0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action0-facing3.json",
+      "bytes": 1804,
+      "sha256": "14e91c0eb65e0583e928152611aa13dc797bbb37a06bcc9a5da9fc7f66d6748a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action1-facing0.json",
+      "bytes": 15465,
+      "sha256": "0b3178608f5ab6e237e7a8a0b0453d05b9d27de33e230a1ecbb1342991eb51b2"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action1-facing1.json",
+      "bytes": 15465,
+      "sha256": "cc1ffb1f391936f073f111058c5b071e49996fe723c36b6c232a82656a19c69c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action1-facing2.json",
+      "bytes": 15465,
+      "sha256": "d5122b691eb4138feea515a0646f5a8c95e00d67dce93f9fd14c812946fc52bd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action1-facing3.json",
+      "bytes": 15753,
+      "sha256": "dff56c49950617542a5e23f836c727e54cc3fc208bced51f1b1ef85a956b13a3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action10-facing0.json",
+      "bytes": 8482,
+      "sha256": "2308eced3c9692517d2e8a29f2a8bde3328319bf349e1fb0e601988cf693e9d8"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action10-facing1.json",
+      "bytes": 8482,
+      "sha256": "a58fafbf6f1577b18cb040caa47ac4295e1e9932e0fbd66aa8f8f0c1d73492ee"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action10-facing2.json",
+      "bytes": 8482,
+      "sha256": "cdbb9ce25aceaa208885e22e0b4f9f1bfc35e2e7ab2c47ce1c0f79d6e999a2cd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action10-facing3.json",
+      "bytes": 8491,
+      "sha256": "429d4b50432028d9403eb4265dc7f5fa43928e62bc196dea6c775dd05e630fdc"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action3-facing0.json",
+      "bytes": 5473,
+      "sha256": "3a3242acb34ea3b3d761ff0163c73e9e9438c40625cf92ce7fbc0f65a0418539"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action3-facing1.json",
+      "bytes": 5473,
+      "sha256": "b8ec265536763d9235cbff524f753e9c073d7c2401c87efc035626692048a5bb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action3-facing2.json",
+      "bytes": 5473,
+      "sha256": "a8a21bdcb7e5ba2cf012bbe48c112d2eba2f5646a66a11462dbcce8968cd265d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action3-facing3.json",
+      "bytes": 5603,
+      "sha256": "6b730cb1be9e04021150b81dd785591abcdb2b449a608672d5ff2097f8328e20"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action4-facing0.json",
+      "bytes": 28986,
+      "sha256": "58b6222177e305bac453d3178014d1ec951035a0459e064e447ff07c36207a6c"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action4-facing1.json",
+      "bytes": 28986,
+      "sha256": "40e8a23d02dc59eb8049afeb2c8e08f65cd5ee657edd0f1072947cbfc61b5c29"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action4-facing2.json",
+      "bytes": 28986,
+      "sha256": "45e1398fecb8a90461b4f94e428b957f5bed9fec72d86d1b39fcc01aca0d22b6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action4-facing3.json",
+      "bytes": 28995,
+      "sha256": "48e9d78dbc0d5ad0a50f18f3385a27907b72666d0c9b6b7e4626e05ee6d47b1e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action5-facing0.json",
+      "bytes": 1795,
+      "sha256": "416039527638747f9b3467dc98b77e828511c00702c3c5bb8d811e96a7f257a2"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action5-facing1.json",
+      "bytes": 1795,
+      "sha256": "9085c79ec8e8541a8f81988c894de4d850e36385f930e330da0ec545e5320f73"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action5-facing2.json",
+      "bytes": 1795,
+      "sha256": "1d8d763152f277bf36df7207025e199a5d6e6e4f272cf765a6dbafc6ad929dc9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action5-facing3.json",
+      "bytes": 1804,
+      "sha256": "f57b85ecdd4bdbae3e156e49bcd065238182f02ef1bd2f0d85c2b58ff25935af"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action6-facing0.json",
+      "bytes": 15718,
+      "sha256": "7e96e075f7a9fa2a87e1eae5be493a814a9e27dfae6f4c07af2da1822c280dfb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action6-facing1.json",
+      "bytes": 15718,
+      "sha256": "2619e54be05d83e1aef31adc6a62aaa2dabb40240df6db072d4ed6b4e44c688f"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action6-facing2.json",
+      "bytes": 15718,
+      "sha256": "65ad56550f7c3c52335aabc8a8163c62bca1b55126d07026c48af46c2e6873f6"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action6-facing3.json",
+      "bytes": 15727,
+      "sha256": "820766233ea1147c0089e0ffe1984a163dbf29fe7588357000edc9f0b3c755e8"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action7-facing0.json",
+      "bytes": 14580,
+      "sha256": "eba34523a89b0e10cc6c3a1e52eb7d48a1714d43200784c70411848d3d34b6a1"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action7-facing1.json",
+      "bytes": 14580,
+      "sha256": "ba963502340d0df28b215db5bd9e445249f324e37ececdb275723a6624e77a21"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action7-facing2.json",
+      "bytes": 14580,
+      "sha256": "1bee11fbbe84a2ee6529579a9cde51b9f3d5124da99527f3652cce5dd01d0965"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action7-facing3.json",
+      "bytes": 14589,
+      "sha256": "f2184d71b679c2954c0eca3fd5524e91d7b317b04ba051544841d98ed7171e52"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action8-facing0.json",
+      "bytes": 5075,
+      "sha256": "4f7ef306e433de9ae4f292b6fb207b231f6b917f51fce56f8fc777964b54fc50"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action8-facing1.json",
+      "bytes": 5075,
+      "sha256": "84788a44c1ea734d5340bd50aa37465aac595b6564a7b42c2c1b2d22b316a3fa"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action8-facing2.json",
+      "bytes": 5075,
+      "sha256": "be3bd1b5ec543131a2a789f5f0b658a93dcf1022df1f1741a56f1aeb4e9be116"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action8-facing3.json",
+      "bytes": 5084,
+      "sha256": "de12c4bbedbef999ebaea918b7c68947477bf828ec3dc84f1fab9e82f71d362d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action9-facing0.json",
+      "bytes": 14580,
+      "sha256": "72fd0a6a5a5c70539a294aa95ff835addd8151407c13233ca4529db9677e82e3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action9-facing1.json",
+      "bytes": 14580,
+      "sha256": "b01a257b51fdbb717b43d4906ed5695e9db9e7adbcccc6b5d521c206e7ba2e83"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action9-facing2.json",
+      "bytes": 14580,
+      "sha256": "064de7a32f3f306400fa0a0bcf2bfb0a6106bd8bed933cea048445d696644cc9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy19-AA83-action9-facing3.json",
+      "bytes": 14589,
+      "sha256": "e01e40035edeb1c7074ca37615c54108a800297024361488d1f532d54134ff98"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action0-facing0.json",
+      "bytes": 1808,
+      "sha256": "fd5ebbfb3cf016d9836e70ca10ed5baffaca00b0160e894c5170d8ef0f362dff"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action0-facing1.json",
+      "bytes": 1808,
+      "sha256": "2060c4ea7489826662f923037d2c9b578c8f8f0c1ee549781c60d2bdccd4558e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action0-facing2.json",
+      "bytes": 1808,
+      "sha256": "3eb3392fd653eebf680d09be31b909efe3162011e15b14656084dc21d6f7b600"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action0-facing3.json",
+      "bytes": 1808,
+      "sha256": "023fb19e12566cd44cc7ecfa83f62f9f4a88a9543ee186e562347693a39c7793"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action1-facing0.json",
+      "bytes": 5088,
+      "sha256": "fa1d175d72b18211d349f4277d52a4cb888e227a6b9a57d01118dc14033c7987"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action1-facing1.json",
+      "bytes": 5088,
+      "sha256": "e3325e2f40c24ba855b60c4c3096a64210f35671bdd79f04a40225be764178a8"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action1-facing2.json",
+      "bytes": 5088,
+      "sha256": "be85601eabff7c1f9e49e4ffca77d2043655ffaa04d27f1167b03a6ccd9b47f9"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action1-facing3.json",
+      "bytes": 5088,
+      "sha256": "6edf8883671fd5c1872d04d25f987d5cb3828009e583a60635b379af8d6875bc"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action3-facing0.json",
+      "bytes": 5088,
+      "sha256": "2f27be6b6827f53cd3b1212164de320dff40462c235808ff928f7c401bd4010a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action3-facing1.json",
+      "bytes": 5088,
+      "sha256": "a5a528568da7f7b88598eddc022363fd8db45afce3d4590c5ceef23ced595da5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action3-facing2.json",
+      "bytes": 5088,
+      "sha256": "7cb76db18d4813bd39dc41807378d146aa4831781f2c258e3c9efcd4782155b4"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action3-facing3.json",
+      "bytes": 5088,
+      "sha256": "8122d80760f9c28720c78da385c09d44c2130b3b7821d47a9118ee4169689669"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action5-facing0.json",
+      "bytes": 1808,
+      "sha256": "81c0ced041055b066e22bdb16ed5f06c286c98b840de4dce4c381ae686ea2e9b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action5-facing1.json",
+      "bytes": 1808,
+      "sha256": "1682fc943856b3dade5f7c9b3ec217c546bc928e8c063b4e05baf96d2fa3117e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action5-facing2.json",
+      "bytes": 1808,
+      "sha256": "ade26ca6f65e3f7d62538386676bb3dfd833e48d91da24901026106abcd7c2d2"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action5-facing3.json",
+      "bytes": 1808,
+      "sha256": "0fc4915f81b889b04f66be3b388f1c178e60c75cc89891e0d030feeb22b1047a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action6-facing0.json",
+      "bytes": 5088,
+      "sha256": "b9b81cdd4420ae025e37b710956bee3935927178ca7e4d4ac3b33635504a0dc7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action6-facing1.json",
+      "bytes": 5088,
+      "sha256": "ebde68eb11884e73bb923de7b95d157944183dd7ce05fb8f9688e764ea6e7a1a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action6-facing2.json",
+      "bytes": 5088,
+      "sha256": "c459a53cfbd9ff6ac01c50e8a1c22fb4c3732f5d6ff75f54a7a9d2813acfb45b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action6-facing3.json",
+      "bytes": 5088,
+      "sha256": "205a5ef301f86176d86b12b1a2ea1a7cc4ff24bae53de36054e5448b80011c86"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action7-facing0.json",
+      "bytes": 5088,
+      "sha256": "5bb18c283036e638f4fb94e31a4b51b4e1b19539d66e2b79c84ad508d6699bc3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action7-facing1.json",
+      "bytes": 5088,
+      "sha256": "9b468a070c85ad650ec71611c940228faf0628ee9a75795128b8291d2ca21808"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action7-facing2.json",
+      "bytes": 5088,
+      "sha256": "52ad612a734b930b44bc68830d8ccb42f9dd4e4a65ad5e24fd6acda2d1276f88"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action7-facing3.json",
+      "bytes": 5088,
+      "sha256": "d03ce2c93280e32e0dd800a9a78074b13418bb2ebb4bae063af999ee39a880b3"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action8-facing0.json",
+      "bytes": 5088,
+      "sha256": "986d32f80b84f566ea32130a09c5e7cd8ee786558a4b42406d040d6e715649d1"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action8-facing1.json",
+      "bytes": 5088,
+      "sha256": "9de1802b1d93ea42963549c7b980c29acebc458db9d6820ec3e1ef09f1f189db"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action8-facing2.json",
+      "bytes": 5088,
+      "sha256": "2f4ea87ae9580fe5fac7e19d17a8c9ea30605dd71c32d1c97a7402559f0f996a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action8-facing3.json",
+      "bytes": 5088,
+      "sha256": "ee6951bfc26020c05d9f97d7aad62385a57888c90aa96769a2a54f988f2e7c39"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action9-facing0.json",
+      "bytes": 5088,
+      "sha256": "e595ec2e01ee7686dbb5ea710040d63321ed0c44a2d9259301fc90952aed5a2e"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action9-facing1.json",
+      "bytes": 5088,
+      "sha256": "7289e5b201b19ab3f90c80ed6b2cd420ab05a1039caf88c44c2b7cc89c01e70b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action9-facing2.json",
+      "bytes": 5088,
+      "sha256": "ad9951861509d261fc9070853cc09a2ef7725091026adcad97c486c0bad70f1b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/enemy242-AA100-action9-facing3.json",
+      "bytes": 5088,
+      "sha256": "7bdb365254db8c7cdd9618b294374070ea2ba5b9b2060d3a5593642335e5f5d1"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action0-facing0.json",
+      "bytes": 1764,
+      "sha256": "1ef8fb36b66a58d12e484db3fd63f31b36c6633224fe470317b85f9543d3b7ea"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action0-facing1.json",
+      "bytes": 1764,
+      "sha256": "46b51171fc280b8c2920f0272540908dd7dd176248746abef1005e7d3c3b144d"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action0-facing2.json",
+      "bytes": 1764,
+      "sha256": "fb0eddb8097cd87041c17d659b11b9cfe5c62885ebb0010c7cf335b2130335d0"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action0-facing3.json",
+      "bytes": 1804,
+      "sha256": "14e91c0eb65e0583e928152611aa13dc797bbb37a06bcc9a5da9fc7f66d6748a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action1-facing0.json",
+      "bytes": 15465,
+      "sha256": "ba58f12dfe20057742ae70707d0b5b088953f435c83c2b2fe7365bce88a4531a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action1-facing1.json",
+      "bytes": 15465,
+      "sha256": "d660bb96d7adb00da71adc13ada20e07c02290841bc4e6a7cf8bb6cc13cd5a11"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action1-facing2.json",
+      "bytes": 15465,
+      "sha256": "d5122b691eb4138feea515a0646f5a8c95e00d67dce93f9fd14c812946fc52bd"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action1-facing3.json",
+      "bytes": 15753,
+      "sha256": "6ce19be1530e4047e669a9c2db1b5811f374b21e1280eaa1d739d156febade5b"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action3-facing0.json",
+      "bytes": 7609,
+      "sha256": "04208caba682e08a5876e59772913c9ca8c07548f0862765d83ba2c9e332f550"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action3-facing1.json",
+      "bytes": 7609,
+      "sha256": "476aaa96cf90613ebe9d124f662b239935aca7bfcb466f9e8af00fd179e65752"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action3-facing2.json",
+      "bytes": 7609,
+      "sha256": "b264b911d0e45717dd756f0f70d3c3ec84df6d632bbfac68346466b55cf98e98"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action3-facing3.json",
+      "bytes": 7617,
+      "sha256": "a7721b55ab2a9b2654e5fae2fc96d890949da9f6e26273553c431d9905378db7"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action4-facing0.json",
+      "bytes": 4325,
+      "sha256": "1ffa830f02a52fcf17857f780c80b0c708bc57565ecf0c54679a1b185f807ffb"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action4-facing1.json",
+      "bytes": 4325,
+      "sha256": "f074a5f29b55f7d865c6033722150883b14ac36a2130d6898ab92f9ac856c147"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action4-facing2.json",
+      "bytes": 4325,
+      "sha256": "4923a51045414cb5cb8962a9334da45c31a17bd3cbf6adf46cb8ca7a1264f12a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action4-facing3.json",
+      "bytes": 4333,
+      "sha256": "b6076003241621d5b8da16f23c0a83e5e92fcae198ff40918d02677bb6797d79"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action5-facing0.json",
+      "bytes": 3055,
+      "sha256": "9858ace3bf9a2d36b20c4a4aad492abae5cc7ace6f1d482e96aba033a890c2d1"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action5-facing1.json",
+      "bytes": 3055,
+      "sha256": "eba3f7ec3457ffab899eac56d973329d2d40f2c590ec1a055506353ef3094e15"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action5-facing2.json",
+      "bytes": 3055,
+      "sha256": "017245f71185561660559e8c492898d8e288a7d27897d18a083620647e1b96f5"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action5-facing3.json",
+      "bytes": 3063,
+      "sha256": "677cc9cee2d4977b3023a9a7b0f2b772431d7e04cf56f5560f0cc40a5d5b57db"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action6-facing0.json",
+      "bytes": 3436,
+      "sha256": "731823672a9911e4d7dd0e42a0d16a592889cfd4eaa111d5e3318b710f9afb31"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action6-facing1.json",
+      "bytes": 3436,
+      "sha256": "a2ff558bce32020bfbcb39311108b668103cf198ffb1fb2f290c1ec30d0a0946"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action6-facing2.json",
+      "bytes": 3436,
+      "sha256": "585752bf4c718cb748cf96646a44da4cdd63d148c223bba8275f62506eeb047a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action6-facing3.json",
+      "bytes": 3444,
+      "sha256": "ec464aca68de80e2b1ac1711ae06d9fce87c321d4eda83c8f407819f71c64875"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action7-facing0.json",
+      "bytes": 16223,
+      "sha256": "e05492b5398b5977408c1f7548bb3eca81ae663ff81c8a4467076918cbdedc72"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action7-facing1.json",
+      "bytes": 16223,
+      "sha256": "fb242e8bbbeed975725857fc5e63e2cd2d7dcac8d5772cc8309572176a250641"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action7-facing2.json",
+      "bytes": 16223,
+      "sha256": "678d6f5114a8f84ec931e50dcd6cf07bd35518ed82c52f6376a0098a4b275b15"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action7-facing3.json",
+      "bytes": 16231,
+      "sha256": "3316adc62b49638abad36a471b45ea5c9ce8670b5671dff936f70aab8eb0ee57"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action8-facing0.json",
+      "bytes": 16223,
+      "sha256": "a8d56eb5725e982489941222bab56ba3a0aae2e63e83da81a548e3be923ad104"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action8-facing1.json",
+      "bytes": 16223,
+      "sha256": "d95257086262a71312ea12c9eed28b168e69e825bd26d1ce5d4d722e5edddc3a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action8-facing2.json",
+      "bytes": 16223,
+      "sha256": "55c413bb40aadeee1f742cfee2bb261b3eaa0f94f65f6317a529eccb25b6848a"
+    },
+    {
+      "file": ".local/qa/swamp-imps-native-proof/timing/npc78-AA33-action8-facing3.json",
+      "bytes": 16231,
+      "sha256": "23b8569c0b6a4ab02e3dc8f41926d9836d9cfa4cf9ef32cad3dd234c701326fd"
+    }
+  ],
+  "commands": [
+    "node assets/imagegen/swamp-imps/build-private.mjs",
+    "node assets/imagegen/swamp-imps/verify-native.mjs",
+    "node assets/imagegen/swamp-imps/verify-timing.mjs",
+    "node assets/imagegen/swamp-imps/audit-timing-startup.mjs",
+    "node assets/imagegen/swamp-imps/verify-scenes.mjs"
+  ],
+  "nativeHelpersUnchanged": true,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "independentCoreAndProductionPlacementPending": true
+}

@@ -1,0 +1,957 @@
+{
+  "baseline": {
+    "path": "assets/imagegen/sir-sludge/private-baseline.sfc",
+    "sha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "commit": "a8d9f5d",
+    "scope": "Fixed private baseline; excluded from source freeze and never canonical output"
+  },
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 4,
+      "header": [
+        82,
+        37,
+        21,
+        29,
+        1,
+        0,
+        240,
+        12,
+        20,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 238,
+      "header": [
+        82,
+        37,
+        22,
+        29,
+        1,
+        0,
+        240,
+        8,
+        12,
+        33
+      ]
+    }
+  ],
+  "paletteOwners": [
+    {
+      "field": 2,
+      "id": 21,
+      "pointer": 504,
+      "pointerAliases": [
+        21
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 4,
+          "header": [
+            82,
+            37,
+            21,
+            29,
+            1,
+            0,
+            240,
+            12,
+            20,
+            65
+          ]
+        }
+      ]
+    },
+    {
+      "field": 2,
+      "id": 22,
+      "pointer": 528,
+      "pointerAliases": [
+        22
+      ],
+      "owners": [
+        {
+          "kind": "enemy",
+          "id": 238,
+          "header": [
+            82,
+            37,
+            22,
+            29,
+            1,
+            0,
+            240,
+            8,
+            12,
+            33
+          ]
+        }
+      ]
+    }
+  ],
+  "graphics": {
+    "original": {
+      "pointer": 14184067,
+      "offset": 1601155,
+      "rawBytes": 9472,
+      "compressedBytes": 7504,
+      "rawSha256": "4102e93f699b01a5610bf57e110e2c8c510a582113d4063af57caf913de0d09b",
+      "compressedSha256": "9613ae443d20e02947dc9cb67a2a00852ff47d10916d08cc85df927c165c9bdc"
+    },
+    "current": {
+      "pointer": 14682664,
+      "offset": 2099752,
+      "rawBytes": 5632,
+      "compressedBytes": 2662,
+      "rawSha256": "25dbe62c627c1c24d611ac4604101b6d68a843d8efd0d581b2930f976042621c",
+      "compressedSha256": "9ad51746e71d2882fe4eac17c227180a8ab919623ce2fc12696d3119bfe6ef50"
+    }
+  },
+  "slots": 27,
+  "cells": 8,
+  "blank": [],
+  "animation": [
+    {
+      "facing": 0,
+      "mode": 0,
+      "steps": [
+        {
+          "frame": 1,
+          "ticks": 10
+        },
+        {
+          "frame": 2,
+          "ticks": 15
+        },
+        {
+          "frame": 0,
+          "ticks": 15
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 0,
+      "mode": 1,
+      "steps": [
+        {
+          "frame": 1,
+          "ticks": 10
+        },
+        {
+          "frame": 2,
+          "ticks": 15
+        },
+        {
+          "frame": 0,
+          "ticks": 15
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 0,
+      "mode": 3,
+      "steps": [
+        {
+          "frame": 1,
+          "ticks": 10
+        },
+        {
+          "frame": 2,
+          "ticks": 15
+        },
+        {
+          "frame": 0,
+          "ticks": 15
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 0,
+      "mode": 5,
+      "steps": [
+        {
+          "frame": 12,
+          "ticks": 31
+        }
+      ],
+      "loopTicks": 31
+    },
+    {
+      "facing": 0,
+      "mode": 6,
+      "steps": [
+        {
+          "frame": 19,
+          "ticks": 5
+        },
+        {
+          "frame": 20,
+          "ticks": 5
+        }
+      ],
+      "loopTicks": 10
+    },
+    {
+      "facing": 0,
+      "mode": 7,
+      "steps": [
+        {
+          "frame": 13,
+          "ticks": 15
+        },
+        {
+          "frame": 14,
+          "ticks": 45
+        }
+      ],
+      "loopTicks": 60
+    },
+    {
+      "facing": 0,
+      "mode": 8,
+      "steps": [
+        {
+          "frame": 15,
+          "ticks": 15
+        },
+        {
+          "frame": 17,
+          "ticks": 5
+        },
+        {
+          "frame": 16,
+          "ticks": 31
+        }
+      ],
+      "loopTicks": 51
+    },
+    {
+      "facing": 0,
+      "mode": 9,
+      "steps": [
+        {
+          "frame": 21,
+          "ticks": 10
+        },
+        {
+          "frame": 22,
+          "ticks": 10
+        },
+        {
+          "frame": 21,
+          "ticks": 10
+        },
+        {
+          "frame": 14,
+          "ticks": 10
+        },
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 25,
+          "ticks": 10
+        },
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 14,
+          "ticks": 10
+        }
+      ],
+      "loopTicks": 80
+    },
+    {
+      "facing": 0,
+      "mode": 10,
+      "steps": [
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 25,
+          "ticks": 10
+        },
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 14,
+          "ticks": 10
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 1,
+      "mode": 0,
+      "steps": [
+        {
+          "frame": 4,
+          "ticks": 10
+        },
+        {
+          "frame": 5,
+          "ticks": 15
+        },
+        {
+          "frame": 3,
+          "ticks": 15
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 1,
+      "mode": 1,
+      "steps": [
+        {
+          "frame": 4,
+          "ticks": 10
+        },
+        {
+          "frame": 5,
+          "ticks": 15
+        },
+        {
+          "frame": 3,
+          "ticks": 15
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 1,
+      "mode": 3,
+      "steps": [
+        {
+          "frame": 4,
+          "ticks": 10
+        },
+        {
+          "frame": 5,
+          "ticks": 15
+        },
+        {
+          "frame": 3,
+          "ticks": 15
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 1,
+      "mode": 5,
+      "steps": [
+        {
+          "frame": 12,
+          "ticks": 31
+        }
+      ],
+      "loopTicks": 31
+    },
+    {
+      "facing": 1,
+      "mode": 6,
+      "steps": [
+        {
+          "frame": 19,
+          "ticks": 5
+        },
+        {
+          "frame": 20,
+          "ticks": 5
+        }
+      ],
+      "loopTicks": 10
+    },
+    {
+      "facing": 1,
+      "mode": 7,
+      "steps": [
+        {
+          "frame": 13,
+          "ticks": 15
+        },
+        {
+          "frame": 14,
+          "ticks": 45
+        }
+      ],
+      "loopTicks": 60
+    },
+    {
+      "facing": 1,
+      "mode": 8,
+      "steps": [
+        {
+          "frame": 18,
+          "ticks": 15
+        },
+        {
+          "frame": 20,
+          "ticks": 5
+        },
+        {
+          "frame": 19,
+          "ticks": 31
+        }
+      ],
+      "loopTicks": 51
+    },
+    {
+      "facing": 1,
+      "mode": 9,
+      "steps": [
+        {
+          "frame": 21,
+          "ticks": 10
+        },
+        {
+          "frame": 22,
+          "ticks": 10
+        },
+        {
+          "frame": 21,
+          "ticks": 10
+        },
+        {
+          "frame": 14,
+          "ticks": 10
+        },
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 25,
+          "ticks": 10
+        },
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 14,
+          "ticks": 10
+        }
+      ],
+      "loopTicks": 80
+    },
+    {
+      "facing": 1,
+      "mode": 10,
+      "steps": [
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 25,
+          "ticks": 10
+        },
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 14,
+          "ticks": 10
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 2,
+      "mode": 0,
+      "steps": [
+        {
+          "frame": 7,
+          "ticks": 10
+        },
+        {
+          "frame": 8,
+          "ticks": 15
+        },
+        {
+          "frame": 6,
+          "ticks": 15
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 2,
+      "mode": 1,
+      "steps": [
+        {
+          "frame": 7,
+          "ticks": 10
+        },
+        {
+          "frame": 8,
+          "ticks": 15
+        },
+        {
+          "frame": 6,
+          "ticks": 15
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 2,
+      "mode": 3,
+      "steps": [
+        {
+          "frame": 7,
+          "ticks": 10
+        },
+        {
+          "frame": 8,
+          "ticks": 15
+        },
+        {
+          "frame": 6,
+          "ticks": 15
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 2,
+      "mode": 5,
+      "steps": [
+        {
+          "frame": 12,
+          "ticks": 31
+        }
+      ],
+      "loopTicks": 31
+    },
+    {
+      "facing": 2,
+      "mode": 6,
+      "steps": [
+        {
+          "frame": 19,
+          "ticks": 5
+        },
+        {
+          "frame": 20,
+          "ticks": 5
+        }
+      ],
+      "loopTicks": 10
+    },
+    {
+      "facing": 2,
+      "mode": 7,
+      "steps": [
+        {
+          "frame": 13,
+          "ticks": 15
+        },
+        {
+          "frame": 14,
+          "ticks": 45
+        }
+      ],
+      "loopTicks": 60
+    },
+    {
+      "facing": 2,
+      "mode": 8,
+      "steps": [
+        {
+          "frame": 21,
+          "ticks": 15
+        },
+        {
+          "frame": 23,
+          "ticks": 5
+        },
+        {
+          "frame": 22,
+          "ticks": 31
+        }
+      ],
+      "loopTicks": 51
+    },
+    {
+      "facing": 2,
+      "mode": 9,
+      "steps": [
+        {
+          "frame": 21,
+          "ticks": 10
+        },
+        {
+          "frame": 22,
+          "ticks": 10
+        },
+        {
+          "frame": 21,
+          "ticks": 10
+        },
+        {
+          "frame": 14,
+          "ticks": 10
+        },
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 25,
+          "ticks": 10
+        },
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 14,
+          "ticks": 10
+        }
+      ],
+      "loopTicks": 80
+    },
+    {
+      "facing": 2,
+      "mode": 10,
+      "steps": [
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 25,
+          "ticks": 10
+        },
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 14,
+          "ticks": 10
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 3,
+      "mode": 0,
+      "steps": [
+        {
+          "frame": 10,
+          "ticks": 10
+        },
+        {
+          "frame": 11,
+          "ticks": 15
+        },
+        {
+          "frame": 9,
+          "ticks": 15
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 3,
+      "mode": 1,
+      "steps": [
+        {
+          "frame": 10,
+          "ticks": 10
+        },
+        {
+          "frame": 11,
+          "ticks": 15
+        },
+        {
+          "frame": 9,
+          "ticks": 15
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 3,
+      "mode": 3,
+      "steps": [
+        {
+          "frame": 10,
+          "ticks": 10
+        },
+        {
+          "frame": 11,
+          "ticks": 15
+        },
+        {
+          "frame": 9,
+          "ticks": 15
+        }
+      ],
+      "loopTicks": 40
+    },
+    {
+      "facing": 3,
+      "mode": 5,
+      "steps": [
+        {
+          "frame": 12,
+          "ticks": 31
+        }
+      ],
+      "loopTicks": 31
+    },
+    {
+      "facing": 3,
+      "mode": 6,
+      "steps": [
+        {
+          "frame": 19,
+          "ticks": 5
+        },
+        {
+          "frame": 20,
+          "ticks": 5
+        }
+      ],
+      "loopTicks": 10
+    },
+    {
+      "facing": 3,
+      "mode": 7,
+      "steps": [
+        {
+          "frame": 13,
+          "ticks": 15
+        },
+        {
+          "frame": 14,
+          "ticks": 45
+        }
+      ],
+      "loopTicks": 60
+    },
+    {
+      "facing": 3,
+      "mode": 8,
+      "steps": [
+        {
+          "frame": 24,
+          "ticks": 15
+        },
+        {
+          "frame": 26,
+          "ticks": 5
+        },
+        {
+          "frame": 25,
+          "ticks": 31
+        }
+      ],
+      "loopTicks": 51
+    },
+    {
+      "facing": 3,
+      "mode": 9,
+      "steps": [
+        {
+          "frame": 21,
+          "ticks": 10
+        },
+        {
+          "frame": 22,
+          "ticks": 10
+        },
+        {
+          "frame": 21,
+          "ticks": 10
+        },
+        {
+          "frame": 14,
+          "ticks": 10
+        },
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 25,
+          "ticks": 10
+        },
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 14,
+          "ticks": 10
+        }
+      ],
+      "loopTicks": 80
+    },
+    {
+      "facing": 3,
+      "mode": 10,
+      "steps": [
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 25,
+          "ticks": 10
+        },
+        {
+          "frame": 24,
+          "ticks": 10
+        },
+        {
+          "frame": 14,
+          "ticks": 10
+        }
+      ],
+      "loopTicks": 40
+    }
+  ],
+  "scenes": [
+    {
+      "location": 94,
+      "name": "Ending: People of the Times (Part 4)",
+      "eventId": 152,
+      "eventOffset": 3718370,
+      "currentDecodedSha256": "da259ff471b7db627fa4a418a1efe2d06b50c0e549dd7fcb482e8ab6bee17c6f",
+      "originalDecodedSha256": "da259ff471b7db627fa4a418a1efe2d06b50c0e549dd7fcb482e8ab6bee17c6f",
+      "loads": [
+        {
+          "bodyOffset": 1132,
+          "opcode": 131,
+          "enemy": 4,
+          "slotAndFlags": 3
+        }
+      ],
+      "allEnemyOwners": [
+        4,
+        79,
+        82
+      ],
+      "allNpcOwners": [
+        7,
+        9,
+        10,
+        11,
+        16,
+        43,
+        162,
+        174,
+        177
+      ],
+      "scope": "Source event-load union; no claim of traversal or simultaneous visibility."
+    },
+    {
+      "location": 160,
+      "name": "Sunken Desert Parasytes",
+      "eventId": 469,
+      "eventOffset": 3962472,
+      "currentDecodedSha256": "132e24d96ba1598f0b5ecdcd238c73e4ad7a6f00cf3a474830571622e8316502",
+      "originalDecodedSha256": "132e24d96ba1598f0b5ecdcd238c73e4ad7a6f00cf3a474830571622e8316502",
+      "loads": [
+        {
+          "bodyOffset": 1418,
+          "opcode": 131,
+          "enemy": 238,
+          "slotAndFlags": 3
+        },
+        {
+          "bodyOffset": 1463,
+          "opcode": 131,
+          "enemy": 238,
+          "slotAndFlags": 7
+        },
+        {
+          "bodyOffset": 1508,
+          "opcode": 131,
+          "enemy": 238,
+          "slotAndFlags": 9
+        }
+      ],
+      "allEnemyOwners": [
+        101,
+        238
+      ],
+      "allNpcOwners": [
+        112
+      ],
+      "scope": "Source event-load union; no claim of traversal or simultaneous visibility."
+    },
+    {
+      "location": 236,
+      "name": "Sewer Access B1",
+      "eventId": 157,
+      "eventOffset": 1187412,
+      "currentDecodedSha256": "b11c9541b17d2f81dc81886978fac4406475e62a1e81843da61b9ce997965360",
+      "originalDecodedSha256": "9933ac4eae31013e4846527000be9cbcd4ba994781cb918a6a954a526b59e0f0",
+      "loads": [
+        {
+          "bodyOffset": 2428,
+          "opcode": 131,
+          "enemy": 4,
+          "slotAndFlags": 7
+        }
+      ],
+      "allEnemyOwners": [
+        4,
+        42,
+        79,
+        82,
+        99
+      ],
+      "allNpcOwners": [],
+      "scope": "Source event-load union; no claim of traversal or simultaneous visibility."
+    },
+    {
+      "location": 341,
+      "name": "Present Age Jail Cell (Ending: The Dream Project)",
+      "eventId": 16,
+      "eventOffset": 4036988,
+      "currentDecodedSha256": "b5e953c1c00b32bf5142b6b46e81d80dbc9aeffad8dcf9366bfbb017df28b45b",
+      "originalDecodedSha256": "b5e953c1c00b32bf5142b6b46e81d80dbc9aeffad8dcf9366bfbb017df28b45b",
+      "loads": [
+        {
+          "bodyOffset": 503,
+          "opcode": 131,
+          "enemy": 4,
+          "slotAndFlags": 3
+        }
+      ],
+      "allEnemyOwners": [
+        4,
+        46,
+        75
+      ],
+      "allNpcOwners": [
+        16
+      ],
+      "scope": "Source event-load union; no claim of traversal or simultaneous visibility."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "tool": "OpenAI Images API",
+  "sourceType": "image-generation",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.6-sunburst",
+  "parameters": {
+    "model": "gpt-image-2.6-sunburst",
+    "size": "1536x1024",
+    "quality": "high",
+    "output_format": "png",
+    "n": 1
+  },
+  "requestId": "req_f3fc0d60f9494fb1a738b559fc3056c8",
+  "savedFile": "assets/imagegen/blind-mouse/source-actions-v1.png",
+  "sha256": "8c357a28564f3097b4eb3dd8c1b5bc3dc533748fd7207e76e0666e91a0690ce0",
+  "created": "2026-11-11T21:18:32.000Z",
+  "prompt": {
+    "file": "assets/imagegen/blind-mouse/prompt-actions-v1.txt",
+    "sha256": "cf2074a2dec82f3289b6a9b22622e138aac2d9c1ca20b9563b11be2e2cfbaa53"
+  },
+  "referenceImages": [
+    {
+      "file": "assets/imagegen/blind-mouse/reference-base-on-key-v1.png",
+      "sha256": "ebeab526b92c379dfbc2495e33fb90c583643ba136d14cb4fdd1314748c6c28c"
+    },
+    {
+      "file": ".local/qa/ma-beans/reference/mouse-actions-pose-guide-v1.png",
+      "sha256": "97501c600af2f68eeb74671bfcef3bafc94e76eb2eab54eadd61ef5f17ed8d2a"
+    }
+  ],
+  "revisedPrompt": null,
+  "usage": {
+    "input_tokens": 3858,
+    "input_tokens_details": {
+      "image_tokens": 3072,
+      "text_tokens": 786
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+    },
+    "total_tokens": 5230
+  },
+  "transparentBackground": false,
+  "postGenerationEditing": "None. Source PNG saved unchanged from the API response; background masking, native extraction and palette indexing are recorded by the importer."
+}

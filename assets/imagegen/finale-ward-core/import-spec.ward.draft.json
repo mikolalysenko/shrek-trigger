@@ -1,0 +1,71 @@
+{
+  "key": "sugar-ward",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/finale-ward-core/ward-area",
+  "width": 32,
+  "height": 32,
+  "palette": [
+    "211b22",
+    "593426",
+    "975535",
+    "ce8c55",
+    "751b30",
+    "cf3541",
+    "f3dfba",
+    "252735",
+    "4b5272",
+    "e3b65c",
+    "f5c783",
+    "fff5d2"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/finale-ward-core/source-ward-v1.png",
+      "columns": 3,
+      "rows": 1,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "nativeHeight": 28,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "area",
+        "bottom": 28,
+        "alphaThreshold": 128
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "notes": {
+    "status": "Complete inactive area-sampled source mapping. Root approved native appearance; actual loader/timing/formation proof is separate.",
+    "roles": [
+      "resting hover",
+      "middle pulse",
+      "peak pulse"
+    ],
+    "originalNativeOrder": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "frameTicks": 10,
+    "paletteUnchanged": true,
+    "sourcePixelsOnly": true,
+    "nativeRoleAudit": "assets/imagegen/finale-ward-core/native-roles.json",
+    "nativeGeometry": "Original four cells at[-16,-32],[0,-32],[-16,-16],[0,-16]; no offsets, overlap or size flags changed.",
+    "samplingReason": "Area retains clean material clusters and bounded glow while nearest adds isolated bright/dark pixels.",
+    "mechanics": "All three are hover/pulse phases. Frame2 is not destruction, frame0 is not a new revival command; original action lists and AI remain unchanged."
+  }
+}

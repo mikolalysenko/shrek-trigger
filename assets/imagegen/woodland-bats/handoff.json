@@ -1,0 +1,199 @@
+{
+  "status": "Frozen approved inactive woodland and cave bats",
+  "activation": false,
+  "key": "woodland-bats",
+  "gfx": 103,
+  "asm": 66,
+  "palettes": [
+    78,
+    79
+  ],
+  "animation": 47,
+  "sizeClass": 0,
+  "fullOwnerSizeFlags": {
+    "80": 192,
+    "81": 192,
+    "115": 224
+  },
+  "cells": 4,
+  "frames": 8,
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 80,
+      "header": [
+        103,
+        66,
+        78,
+        47,
+        192,
+        0,
+        216,
+        2,
+        2,
+        68
+      ],
+      "name": "Mad Bat"
+    },
+    {
+      "kind": "enemy",
+      "id": 81,
+      "header": [
+        103,
+        66,
+        79,
+        47,
+        192,
+        0,
+        216,
+        2,
+        2,
+        18
+      ],
+      "name": "Vamp"
+    },
+    {
+      "kind": "enemy",
+      "id": 115,
+      "header": [
+        103,
+        66,
+        78,
+        47,
+        224,
+        0,
+        216,
+        2,
+        2,
+        68
+      ],
+      "name": "Cave Bat"
+    }
+  ],
+  "aliases": [
+    {
+      "field": 0,
+      "id": 103,
+      "aliases": [
+        103
+      ]
+    },
+    {
+      "field": 1,
+      "id": 66,
+      "aliases": [
+        66
+      ]
+    },
+    {
+      "field": 2,
+      "id": 78,
+      "aliases": [
+        78
+      ]
+    },
+    {
+      "field": 2,
+      "id": 79,
+      "aliases": [
+        79
+      ]
+    },
+    {
+      "field": 3,
+      "id": 47,
+      "aliases": [
+        47
+      ]
+    }
+  ],
+  "npcHeaderOwners": [],
+  "sourceSpec": "import-spec.draft.json",
+  "geometry": "native-frame-map.draft.json",
+  "family": "native-family-proposal.draft.json",
+  "compiler": "compile-native.js:compileWoodlandBats(art,geometry)",
+  "mandatoryIntegration": [
+    "Explicitly select gfx103 in the existing native stream contract; retain default original decoded rejection for unselected banks. This private candidate used the existing native helper without extra WRAM/VRAM.",
+    "Use all eight already-composed native raster slots once. Preserve canvas 64×80, source origin [32,64], group anchor [0,16], all per-frame cell origins/order and overlap frames 4/5/6/7. Apply the anchor once.",
+    "Preserve every header byte of enemies 80/81/115, including full size flags C0/C0/E0. Preserve both palette78/79 records, all AA47 frame/duration bytes, AI, stats, names and events. No palette writes.",
+    "All emitted gfx103/asm66/AA47 owners remain exactly enemies 80,81,115. No NPC header owners or external graphics, assembly, program or palette aliases were found on the pinned baseline.",
+    "Reclaimable original spans are compressed gfx103: 1,281 bytes at 1,507,328, and asm66: 320 bytes at 1,924,824. Root owns allocator/reclamation wiring and must recheck its current build.",
+    "Use extended compressed storage and raw stream placement as appropriate. Do not load 3,008 decoded bytes under the original 1,760-byte bank contract."
+  ],
+  "reclamationProposal": [
+    {
+      "kind": "graphics",
+      "id": 103,
+      "offset": 1507328,
+      "bytes": 1281
+    },
+    {
+      "kind": "assembly",
+      "id": 66,
+      "offset": 1924824,
+      "bytes": 320
+    }
+  ],
+  "costs": {
+    "status": "Inactive exact source compile passed; approval and execution evidence recorded separately",
+    "activation": false,
+    "nativeFrames": 8,
+    "authoredSourcePoses": 8,
+    "uniqueNativeImages": 8,
+    "graphicsBytes": 3008,
+    "compressedBytes": 2225,
+    "assemblyBytes": 320,
+    "compressedPlusAssemblyBytes": 2545,
+    "tiles": 94,
+    "graphicsSha256": "4adcfc7d6a8305c815bc84b80298d717ed763d1085a97e5e12da540987a91890",
+    "compressedSha256": "12ed1d80665acbc84470c5cb305f960e81ce49b6fc409d241954641685753a3c",
+    "assemblySha256": "b0b281b0af9d01af8157baf45259b7ecf644e90c35ba616aa1e74363d5f5f7e1",
+    "originalComparison": {
+      "decodedBytes": 1760,
+      "compressedBytes": 1281,
+      "assemblyBytes": 320,
+      "decodedDelta": 1248,
+      "compressedPlusAssemblyDelta": 944
+    },
+    "publishedAf338Comparison": {
+      "decodedBytes": 1760,
+      "compressedBytes": 1281,
+      "assemblyBytes": 320,
+      "decodedDelta": 1248,
+      "compressedPlusAssemblyDelta": 944
+    },
+    "streamRequired": true,
+    "fourCellCoverage": true,
+    "exactOriginalCellOrigins": true,
+    "noOriginalBodyOrEffectPixels": true,
+    "noClippedPixels": true,
+    "overlapFrames": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "rawStreamBytes": 3008,
+    "totalCompressedRawAssemblyBytes": 5553,
+    "totalRomGrowthVsOriginalAndAf338": 3952
+  },
+  "baseline": {
+    "path": ".local/qa/hench-audit-af3383746691/baseline.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7"
+  },
+  "candidate": {
+    "path": ".local/qa/woodland-bats-native-proof/candidate.sfc",
+    "sha256": "8565c1f02e1d49920be0618a9f0848883e54048898a378d0c7bdb2533c77765b"
+  },
+  "proof": "native-proof-manifest.json",
+  "review": "visual-review.json",
+  "limitations": [
+    "This approval and proof apply to the exact frozen source and private ROM fingerprint. Final production allocation and independent-core validation remain root-owned.",
+    "Folded poses 5/6 are sampled 17 px wide instead of 19 px. Their center, height, lowest pixels and original four-cell coordinates/order remain unchanged; every other visible bound matches the original.",
+    "Slot 7 is fully authored and statically uploaded for all three owners, but AA47 references only slots 0–6 and no original timing consumer for slot 7 was observed.",
+    "Three encounters were executed after reversible diagnostic entry with development party resources and story 3. This is not full campaign traversal or ordinary-level balance validation.",
+    "The two Magic Cave patrols match baseline state for 899 ticks each after a one-video-frame startup phase alignment. This route/request comparison does not assert universally identical field or battle display latency.",
+    "Zero display delay was observed in isolated AA47 tests and six battle layer samples. Original map/party overlap obscures some actual-scene final pixels; complete cells and all unobstructed opaque pixels are proved separately in 24 isolated poses.",
+    "Scene-load unions combine verified conditional loads. Five audited locations were not executed; these inventories are not proofs of every simultaneous resident set."
+  ]
+}

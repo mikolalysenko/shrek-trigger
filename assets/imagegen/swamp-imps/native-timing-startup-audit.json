@@ -1,0 +1,733 @@
+{
+  "status": "Existing native startup/alignment traces audited",
+  "activation": false,
+  "baselineSha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+  "candidateSha256": "4d4e08bc43ae8791733e53bc7b3e3f57a74aad554442a8bec580e3312373dc39",
+  "scope": "Action-entry/alignment ticks before the two separately scored cycles; these are not included in native-timing-proof.json ticks/delayedVideoTicks totals.",
+  "startupVideoTicks": 14876,
+  "delayedStartupVideoTicks": 31,
+  "casesWithStartupDelay": 31,
+  "maxConsecutiveDelayVideoFrames": 1,
+  "fourCellOwnerStartupDelayTicks": 0,
+  "cases": [
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 1,
+      "facing": 0,
+      "ticks": 92,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 2,
+          "timer": 15,
+          "animation": 1,
+          "phase": 2,
+          "mode": 1,
+          "shown": 1,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action1-facing0.json",
+      "traceSha256": "0b3178608f5ab6e237e7a8a0b0453d05b9d27de33e230a1ecbb1342991eb51b2"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 4,
+      "facing": 0,
+      "ticks": 162,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 14,
+          "timer": 31,
+          "animation": 4,
+          "phase": 1,
+          "mode": 1,
+          "shown": 1,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action4-facing0.json",
+      "traceSha256": "58b6222177e305bac453d3178014d1ec951035a0459e064e447ff07c36207a6c"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 5,
+      "facing": 0,
+      "ticks": 12,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 12,
+          "timer": 5,
+          "animation": 5,
+          "phase": 0,
+          "mode": 1,
+          "shown": 1,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action5-facing0.json",
+      "traceSha256": "416039527638747f9b3467dc98b77e828511c00702c3c5bb8d811e96a7f257a2"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 6,
+      "facing": 0,
+      "ticks": 85,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 14,
+          "timer": 26,
+          "animation": 6,
+          "phase": 1,
+          "mode": 1,
+          "shown": 1,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action6-facing0.json",
+      "traceSha256": "7e96e075f7a9fa2a87e1eae5be493a814a9e27dfae6f4c07af2da1822c280dfb"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 7,
+      "facing": 0,
+      "ticks": 84,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 14,
+          "timer": 31,
+          "animation": 7,
+          "phase": 1,
+          "mode": 1,
+          "shown": 1,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action7-facing0.json",
+      "traceSha256": "eba34523a89b0e10cc6c3a1e52eb7d48a1714d43200784c70411848d3d34b6a1"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 8,
+      "facing": 0,
+      "ticks": 32,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 17,
+          "timer": 5,
+          "animation": 8,
+          "phase": 1,
+          "mode": 1,
+          "shown": 1,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action8-facing0.json",
+      "traceSha256": "4f7ef306e433de9ae4f292b6fb207b231f6b917f51fce56f8fc777964b54fc50"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 9,
+      "facing": 0,
+      "ticks": 84,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 28,
+          "timer": 31,
+          "animation": 9,
+          "phase": 1,
+          "mode": 1,
+          "shown": 1,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action9-facing0.json",
+      "traceSha256": "72fd0a6a5a5c70539a294aa95ff835addd8151407c13233ca4529db9677e82e3"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 10,
+      "facing": 0,
+      "ticks": 38,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 28,
+          "timer": 31,
+          "animation": 10,
+          "phase": 0,
+          "mode": 1,
+          "shown": 1,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action10-facing0.json",
+      "traceSha256": "2308eced3c9692517d2e8a29f2a8bde3328319bf349e1fb0e601988cf693e9d8"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 1,
+      "facing": 1,
+      "ticks": 92,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 5,
+          "timer": 15,
+          "animation": 1,
+          "phase": 2,
+          "mode": 1,
+          "shown": 4,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action1-facing1.json",
+      "traceSha256": "cc1ffb1f391936f073f111058c5b071e49996fe723c36b6c232a82656a19c69c"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 4,
+      "facing": 1,
+      "ticks": 162,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 14,
+          "timer": 31,
+          "animation": 4,
+          "phase": 1,
+          "mode": 1,
+          "shown": 4,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action4-facing1.json",
+      "traceSha256": "40e8a23d02dc59eb8049afeb2c8e08f65cd5ee657edd0f1072947cbfc61b5c29"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 5,
+      "facing": 1,
+      "ticks": 12,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 12,
+          "timer": 5,
+          "animation": 5,
+          "phase": 0,
+          "mode": 1,
+          "shown": 4,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action5-facing1.json",
+      "traceSha256": "9085c79ec8e8541a8f81988c894de4d850e36385f930e330da0ec545e5320f73"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 6,
+      "facing": 1,
+      "ticks": 85,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 14,
+          "timer": 26,
+          "animation": 6,
+          "phase": 1,
+          "mode": 1,
+          "shown": 4,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action6-facing1.json",
+      "traceSha256": "2619e54be05d83e1aef31adc6a62aaa2dabb40240df6db072d4ed6b4e44c688f"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 7,
+      "facing": 1,
+      "ticks": 84,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 14,
+          "timer": 31,
+          "animation": 7,
+          "phase": 1,
+          "mode": 1,
+          "shown": 4,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action7-facing1.json",
+      "traceSha256": "ba963502340d0df28b215db5bd9e445249f324e37ececdb275723a6624e77a21"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 8,
+      "facing": 1,
+      "ticks": 32,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 20,
+          "timer": 5,
+          "animation": 8,
+          "phase": 1,
+          "mode": 1,
+          "shown": 4,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action8-facing1.json",
+      "traceSha256": "84788a44c1ea734d5340bd50aa37465aac595b6564a7b42c2c1b2d22b316a3fa"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 9,
+      "facing": 1,
+      "ticks": 84,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 28,
+          "timer": 31,
+          "animation": 9,
+          "phase": 1,
+          "mode": 1,
+          "shown": 4,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action9-facing1.json",
+      "traceSha256": "b01a257b51fdbb717b43d4906ed5695e9db9e7adbcccc6b5d521c206e7ba2e83"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 10,
+      "facing": 1,
+      "ticks": 38,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 28,
+          "timer": 31,
+          "animation": 10,
+          "phase": 0,
+          "mode": 1,
+          "shown": 4,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action10-facing1.json",
+      "traceSha256": "a58fafbf6f1577b18cb040caa47ac4295e1e9932e0fbd66aa8f8f0c1d73492ee"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 4,
+      "facing": 2,
+      "ticks": 162,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 14,
+          "timer": 31,
+          "animation": 4,
+          "phase": 1,
+          "mode": 1,
+          "shown": 7,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action4-facing2.json",
+      "traceSha256": "45e1398fecb8a90461b4f94e428b957f5bed9fec72d86d1b39fcc01aca0d22b6"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 5,
+      "facing": 2,
+      "ticks": 12,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 12,
+          "timer": 5,
+          "animation": 5,
+          "phase": 0,
+          "mode": 1,
+          "shown": 7,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action5-facing2.json",
+      "traceSha256": "1d8d763152f277bf36df7207025e199a5d6e6e4f272cf765a6dbafc6ad929dc9"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 6,
+      "facing": 2,
+      "ticks": 85,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 14,
+          "timer": 26,
+          "animation": 6,
+          "phase": 1,
+          "mode": 1,
+          "shown": 7,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action6-facing2.json",
+      "traceSha256": "65ad56550f7c3c52335aabc8a8163c62bca1b55126d07026c48af46c2e6873f6"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 7,
+      "facing": 2,
+      "ticks": 84,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 14,
+          "timer": 31,
+          "animation": 7,
+          "phase": 1,
+          "mode": 1,
+          "shown": 7,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action7-facing2.json",
+      "traceSha256": "1bee11fbbe84a2ee6529579a9cde51b9f3d5124da99527f3652cce5dd01d0965"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 8,
+      "facing": 2,
+      "ticks": 32,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 23,
+          "timer": 5,
+          "animation": 8,
+          "phase": 1,
+          "mode": 1,
+          "shown": 7,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action8-facing2.json",
+      "traceSha256": "be3bd1b5ec543131a2a789f5f0b658a93dcf1022df1f1741a56f1aeb4e9be116"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 9,
+      "facing": 2,
+      "ticks": 84,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 28,
+          "timer": 31,
+          "animation": 9,
+          "phase": 1,
+          "mode": 1,
+          "shown": 7,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action9-facing2.json",
+      "traceSha256": "064de7a32f3f306400fa0a0bcf2bfb0a6106bd8bed933cea048445d696644cc9"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 10,
+      "facing": 2,
+      "ticks": 38,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 28,
+          "timer": 31,
+          "animation": 10,
+          "phase": 0,
+          "mode": 1,
+          "shown": 7,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action10-facing2.json",
+      "traceSha256": "cdbb9ce25aceaa208885e22e0b4f9f1bfc35e2e7ab2c47ce1c0f79d6e999a2cd"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 1,
+      "facing": 3,
+      "ticks": 92,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 11,
+          "timer": 15,
+          "animation": 1,
+          "phase": 2,
+          "mode": 1,
+          "shown": 10,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action1-facing3.json",
+      "traceSha256": "dff56c49950617542a5e23f836c727e54cc3fc208bced51f1b1ef85a956b13a3"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 4,
+      "facing": 3,
+      "ticks": 162,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 14,
+          "timer": 31,
+          "animation": 4,
+          "phase": 1,
+          "mode": 1,
+          "shown": 10,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action4-facing3.json",
+      "traceSha256": "48e9d78dbc0d5ad0a50f18f3385a27907b72666d0c9b6b7e4626e05ee6d47b1e"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 5,
+      "facing": 3,
+      "ticks": 12,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 12,
+          "timer": 5,
+          "animation": 5,
+          "phase": 0,
+          "mode": 1,
+          "shown": 10,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action5-facing3.json",
+      "traceSha256": "f57b85ecdd4bdbae3e156e49bcd065238182f02ef1bd2f0d85c2b58ff25935af"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 6,
+      "facing": 3,
+      "ticks": 85,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 14,
+          "timer": 26,
+          "animation": 6,
+          "phase": 1,
+          "mode": 1,
+          "shown": 10,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action6-facing3.json",
+      "traceSha256": "820766233ea1147c0089e0ffe1984a163dbf29fe7588357000edc9f0b3c755e8"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 7,
+      "facing": 3,
+      "ticks": 84,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 14,
+          "timer": 31,
+          "animation": 7,
+          "phase": 1,
+          "mode": 1,
+          "shown": 10,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action7-facing3.json",
+      "traceSha256": "f2184d71b679c2954c0eca3fd5524e91d7b317b04ba051544841d98ed7171e52"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 8,
+      "facing": 3,
+      "ticks": 32,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 26,
+          "timer": 5,
+          "animation": 8,
+          "phase": 1,
+          "mode": 1,
+          "shown": 10,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action8-facing3.json",
+      "traceSha256": "de12c4bbedbef999ebaea918b7c68947477bf828ec3dc84f1fab9e82f71d362d"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 9,
+      "facing": 3,
+      "ticks": 84,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 28,
+          "timer": 31,
+          "animation": 9,
+          "phase": 1,
+          "mode": 1,
+          "shown": 10,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action9-facing3.json",
+      "traceSha256": "e01e40035edeb1c7074ca37615c54108a800297024361488d1f532d54134ff98"
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "program": 83,
+      "action": 10,
+      "facing": 3,
+      "ticks": 38,
+      "delayedTicks": 1,
+      "maxConsecutiveDelay": 1,
+      "delayedStates": [
+        {
+          "frame": 28,
+          "timer": 31,
+          "animation": 10,
+          "phase": 0,
+          "mode": 1,
+          "shown": 10,
+          "delay": 1
+        }
+      ],
+      "trace": "timing/enemy19-AA83-action10-facing3.json",
+      "traceSha256": "429d4b50432028d9403eb4265dc7f5fa43928e62bc196dea6c775dd05e630fdc"
+    }
+  ],
+  "combinedCapture": {
+    "videoTicks": 31052,
+    "delayedVideoTicks": 35,
+    "maximumConsecutiveDelayVideoFrames": 1
+  },
+  "limitation": "The warm-up/alignment interval includes native request transitions and first cycles before alignment. It is reported separately, not treated as extra scored complete cycles."
+}

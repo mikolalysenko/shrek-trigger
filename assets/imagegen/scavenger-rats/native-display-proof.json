@@ -1,0 +1,341 @@
+{
+  "status": "Private inactive source override",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "baselineManifestSha256": "a2211d196c01ddfcb6a04af336889a45bfb44a867e47da0a5248958b06365711",
+  "baselineRecordsSha256": "43a77085c5a6ba97feb790202d55acdd28fbd3b9eaa7972c3641c3899e349c4e",
+  "candidateSha256": "eaa494d1fb0770ce064b4fa6dbd97e6c56ba1e6abb1f3e2520ee3e5698626e54",
+  "candidatePath": ".local/qa/scavenger-rats-native-proof/candidate.sfc",
+  "changedBytes": 4788,
+  "defaultProductionGuardInvoked": false,
+  "requiredStreamedGraphics": [
+    105
+  ],
+  "nativeHelpersUnchanged": true,
+  "streams": [
+    {
+      "gfx": 105,
+      "address": 4747264,
+      "bytes": 2560,
+      "compressedSource": 1341246,
+      "compressedBytes": 2039,
+      "owners": [
+        {
+          "kind": "npc",
+          "id": 164,
+          "assembly": 68,
+          "palette": 84,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 134,
+          "assembly": 68,
+          "palette": 84,
+          "size": 0
+        },
+        {
+          "kind": "enemy",
+          "id": 135,
+          "assembly": 68,
+          "palette": 85,
+          "size": 0
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "offset": 1341246,
+      "bytes": 2039,
+      "label": "Private rat compressed graphics",
+      "sha256": "18a40473bc028551f4e3d6b8dc923a324a49059b266ba7a806559b2cda0b60d8"
+    },
+    {
+      "offset": 2367803,
+      "bytes": 3,
+      "label": "Private rat graphics pointer",
+      "sha256": "c734c651a5df911c9346c234b73d51e25d7c991b74b9111c402f44b98213bd74"
+    },
+    {
+      "offset": 1921984,
+      "bytes": 520,
+      "label": "Private rat native assembly",
+      "sha256": "ef10b47655e855c0959aa1f6edd5f5cea43800d4d3e796d3539d73eb52ba9930"
+    },
+    {
+      "offset": 4747264,
+      "bytes": 2560,
+      "label": "NPC 105 direct-ROM graphics",
+      "sha256": "dd9b64bdfee8696efaa1dab8f3310801b16d0c9ddb3469af1e8f8ee449d37441"
+    },
+    {
+      "offset": 1331287,
+      "bytes": 3,
+      "label": "Private selected gfx105 raw stream",
+      "sha256": "05b54f32a478986ac6e7c189e4f3c6b3e53283621ddf6f0ae5bbb5e9da3c3bae"
+    }
+  ],
+  "nativeFrameUploads": 39,
+  "exactDisplayedCells": 156,
+  "exactDisplayedOpaquePixels": 13434,
+  "allOpaquePixelsVisible": true,
+  "originalFrameAndDurationListsUnchanged": true,
+  "currentPalettePacketsUnchanged": true,
+  "originalHeadersAiAndStatsUnchanged": true,
+  "npc164Animation44Preserved": true,
+  "enemy134And135Animation97Preserved": true,
+  "npc164NativeInitCount": 1,
+  "originalPerSlotBottomExact": true,
+  "horizontalCenterRoundingAtMostHalfPixel": true,
+  "fullSizeByte0Unchanged": true,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "isolatedHeapBytes": [
+    {
+      "key": "scrap-rat",
+      "bytes": 960
+    },
+    {
+      "key": "gremlin",
+      "bytes": 960
+    },
+    {
+      "key": "scrap-rat-npc164",
+      "bytes": 960
+    }
+  ],
+  "evidence": ".local/qa/scavenger-rats-native-proof",
+  "evidenceFiles": [
+    {
+      "file": "candidate.json",
+      "bytes": 2208,
+      "sha256": "71aef8f463697dbfe1c490a159d2af72ab7cb72ee94f53e12bee243ac496efca"
+    },
+    {
+      "file": "display-report.json",
+      "bytes": 42247,
+      "sha256": "d8c70666f996a9d62569b150f772fcc4fd438348ccb26c5fbc8d1a1a1a7c8b35"
+    },
+    {
+      "file": "scrap-rat-native-1x.png",
+      "bytes": 167620,
+      "sha256": "53e4bbcbd9da35cab8eefb2099beb5530da410010ed0ea5b24b2ec6bbca07e1d"
+    },
+    {
+      "file": "gremlin-native-1x.png",
+      "bytes": 167703,
+      "sha256": "4b84e33f8bab7f8c9ba06a8b61aa0d0879012fca5696ffa96bc93e333a48cfc3"
+    },
+    {
+      "file": "scrap-rat-npc164-native-1x.png",
+      "bytes": 167620,
+      "sha256": "53e4bbcbd9da35cab8eefb2099beb5530da410010ed0ea5b24b2ec6bbca07e1d"
+    },
+    {
+      "file": "scrap-rat-00.png",
+      "bytes": 56633,
+      "sha256": "6068bb58146494428dff0008d5b638ddc6a0cd2f60c98e98636d2046e11cc3e2"
+    },
+    {
+      "file": "scrap-rat-01.png",
+      "bytes": 56685,
+      "sha256": "b57b46a23cd5e86feaa96f286c9d1098b4d910767285cb805518d45826f51fc4"
+    },
+    {
+      "file": "scrap-rat-02.png",
+      "bytes": 56602,
+      "sha256": "43f5f1345869e694d093122ce34aa049576b3254979a1669a9e3d4e9739dba3f"
+    },
+    {
+      "file": "scrap-rat-03.png",
+      "bytes": 56661,
+      "sha256": "79af12b36605ea6e3e98976fdb6c1bffaeb2a1f2cb844c88a8c182ef653fa4f5"
+    },
+    {
+      "file": "scrap-rat-04.png",
+      "bytes": 56607,
+      "sha256": "9b9603c897d2115ca8e338b8f1e9b713c182b05a5f7ae9f8f395585a3d1d5872"
+    },
+    {
+      "file": "scrap-rat-05.png",
+      "bytes": 56654,
+      "sha256": "d0366adda0d2473e345ba7aeb56430e150a7764bc75dd349e608d0f0a86d29f6"
+    },
+    {
+      "file": "scrap-rat-06.png",
+      "bytes": 56593,
+      "sha256": "a83963f0b924c1439639b51cae487f97951d5cb8235e21b5d07687f0c7e83767"
+    },
+    {
+      "file": "scrap-rat-07.png",
+      "bytes": 56560,
+      "sha256": "5af64ed1c2fd6b0f50dd20d679c31aa6ba4834fac5f80e2b9ec6c6825b62823a"
+    },
+    {
+      "file": "scrap-rat-08.png",
+      "bytes": 56560,
+      "sha256": "c35672252b812e2d6827f78d5204758bd46b32faaff24ce6df202e6e4cb56a28"
+    },
+    {
+      "file": "scrap-rat-09.png",
+      "bytes": 56588,
+      "sha256": "984f90282e3deb072c0a4abe2749fe4a1f4fb665da7f4a50e807901aca25454f"
+    },
+    {
+      "file": "scrap-rat-10.png",
+      "bytes": 56633,
+      "sha256": "a3f14779dda04320f9a81209fe32802fe79d8b8cfd2fde5560fabdf9033f2135"
+    },
+    {
+      "file": "scrap-rat-11.png",
+      "bytes": 56611,
+      "sha256": "434e0698bd01be2b5bee309f6e08c67f5362bb32345317cf948368c6c0f6a1b1"
+    },
+    {
+      "file": "scrap-rat-12.png",
+      "bytes": 56757,
+      "sha256": "6fd01e738f5c18e1404dbec7c7ddd1d5ece2b3ff57928684a31de171eb5a3b9e"
+    },
+    {
+      "file": "gremlin-00.png",
+      "bytes": 56630,
+      "sha256": "82c308852941d8b575be5e16cf08c67a5e974566f8e2d8bcacfce042089ef5bc"
+    },
+    {
+      "file": "gremlin-01.png",
+      "bytes": 56693,
+      "sha256": "214ea4c6e4c72d5bc775cbe91515e3a726e1963f4c8d6d18c732c331b95e1dd1"
+    },
+    {
+      "file": "gremlin-02.png",
+      "bytes": 56612,
+      "sha256": "f83be65557c0906bed024b47e8eeb12af6abf9db88ee528920fb69ec27355e05"
+    },
+    {
+      "file": "gremlin-03.png",
+      "bytes": 56650,
+      "sha256": "7731309d9c5c68b2f646c9efc049a83bc75c4b7f691a127865614ab518b8aaee"
+    },
+    {
+      "file": "gremlin-04.png",
+      "bytes": 56613,
+      "sha256": "7db410a4b1192f2f3ad7b3e097c6c843988b194590ead3b9a8a17d1835ec8bb9"
+    },
+    {
+      "file": "gremlin-05.png",
+      "bytes": 56660,
+      "sha256": "c93d821fd7851117e4222fbbd3268f67544b89fde8299c435709689904ff951f"
+    },
+    {
+      "file": "gremlin-06.png",
+      "bytes": 56577,
+      "sha256": "c69033eda6e58cdccac088e1b2a3f27bede9681eb18ae1ee3de40002fcb5e0c6"
+    },
+    {
+      "file": "gremlin-07.png",
+      "bytes": 56549,
+      "sha256": "09793c890fe506e0965f0cc68ada0ecb8b536a9f43e41d8d2dbc056376d0f1a5"
+    },
+    {
+      "file": "gremlin-08.png",
+      "bytes": 56545,
+      "sha256": "2faf89edd24dee63daa894132e4198bcd9b48e73ad58becdfe86ab80357bae07"
+    },
+    {
+      "file": "gremlin-09.png",
+      "bytes": 56593,
+      "sha256": "62cc6eacf4896dc38d6b9c22bff5a4d9cf76e1248047eb01b7f99ff45725879a"
+    },
+    {
+      "file": "gremlin-10.png",
+      "bytes": 56608,
+      "sha256": "6bf1acea4dda895c5102f94f881277d1dac83f1b99a2d2950002f3565296146e"
+    },
+    {
+      "file": "gremlin-11.png",
+      "bytes": 56583,
+      "sha256": "f1296f93b906ed36052e5c6ebcde8951259ee098b9573a65c90c42a2a4e55b5a"
+    },
+    {
+      "file": "gremlin-12.png",
+      "bytes": 56746,
+      "sha256": "bf7103f9c10f02456bace1fef45cc53b7757c6e17092195e9d360010b5eae6d1"
+    },
+    {
+      "file": "scrap-rat-npc164-00.png",
+      "bytes": 56633,
+      "sha256": "6068bb58146494428dff0008d5b638ddc6a0cd2f60c98e98636d2046e11cc3e2"
+    },
+    {
+      "file": "scrap-rat-npc164-01.png",
+      "bytes": 56685,
+      "sha256": "b57b46a23cd5e86feaa96f286c9d1098b4d910767285cb805518d45826f51fc4"
+    },
+    {
+      "file": "scrap-rat-npc164-02.png",
+      "bytes": 56602,
+      "sha256": "43f5f1345869e694d093122ce34aa049576b3254979a1669a9e3d4e9739dba3f"
+    },
+    {
+      "file": "scrap-rat-npc164-03.png",
+      "bytes": 56661,
+      "sha256": "79af12b36605ea6e3e98976fdb6c1bffaeb2a1f2cb844c88a8c182ef653fa4f5"
+    },
+    {
+      "file": "scrap-rat-npc164-04.png",
+      "bytes": 56607,
+      "sha256": "9b9603c897d2115ca8e338b8f1e9b713c182b05a5f7ae9f8f395585a3d1d5872"
+    },
+    {
+      "file": "scrap-rat-npc164-05.png",
+      "bytes": 56654,
+      "sha256": "d0366adda0d2473e345ba7aeb56430e150a7764bc75dd349e608d0f0a86d29f6"
+    },
+    {
+      "file": "scrap-rat-npc164-06.png",
+      "bytes": 56593,
+      "sha256": "a83963f0b924c1439639b51cae487f97951d5cb8235e21b5d07687f0c7e83767"
+    },
+    {
+      "file": "scrap-rat-npc164-07.png",
+      "bytes": 56560,
+      "sha256": "5af64ed1c2fd6b0f50dd20d679c31aa6ba4834fac5f80e2b9ec6c6825b62823a"
+    },
+    {
+      "file": "scrap-rat-npc164-08.png",
+      "bytes": 56560,
+      "sha256": "c35672252b812e2d6827f78d5204758bd46b32faaff24ce6df202e6e4cb56a28"
+    },
+    {
+      "file": "scrap-rat-npc164-09.png",
+      "bytes": 56588,
+      "sha256": "984f90282e3deb072c0a4abe2749fe4a1f4fb665da7f4a50e807901aca25454f"
+    },
+    {
+      "file": "scrap-rat-npc164-10.png",
+      "bytes": 56633,
+      "sha256": "a3f14779dda04320f9a81209fe32802fe79d8b8cfd2fde5560fabdf9033f2135"
+    },
+    {
+      "file": "scrap-rat-npc164-11.png",
+      "bytes": 56611,
+      "sha256": "434e0698bd01be2b5bee309f6e08c67f5362bb32345317cf948368c6c0f6a1b1"
+    },
+    {
+      "file": "scrap-rat-npc164-12.png",
+      "bytes": 56757,
+      "sha256": "6fd01e738f5c18e1404dbec7c7ddd1d5ece2b3ff57928684a31de171eb5a3b9e"
+    }
+  ],
+  "runner": {
+    "file": "assets/imagegen/scavenger-rats/verify-native.mjs",
+    "sha256": "5681de47cb8e45396bfb962170f39680448178bc76a448ec4efd9218fd9a6862"
+  },
+  "limitations": [
+    "Bounded native field preview only; no full route, encounter choreography or combat claim.",
+    "Native animation/timing lists are byte-identical, but static scrubbing does not establish live encounter transitions.",
+    "This bank exceeds its original decoded allowance and requires explicit gfx105 streaming; no default guard bypass is proposed.",
+    "Independent-core validation remains an integration check."
+  ],
+  "activation": false
+}

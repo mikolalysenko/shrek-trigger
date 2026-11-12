@@ -1,0 +1,466 @@
+{
+  "key": "farquaad",
+  "palette": [
+    "2a2028",
+    "af7658",
+    "e6ac7a",
+    "f9cf9d",
+    "f1ddaa",
+    "8b2938",
+    "c94348",
+    "352831",
+    "fff3d9",
+    "252334",
+    "e3b655",
+    "6a4454"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/farquaad/source-base-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 30,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1.16,
+        "bottom": 31
+      },
+      "overrides": {
+        "12": {
+          "scale": 0.9676133786848072,
+          "note": "Complete source-silhouette resampling capped at32native pixels; no clipping or new drawing."
+        },
+        "13": {
+          "scaleX": 0.7902175925925926,
+          "note": "Complete source-silhouette resampling capped at32native pixels; no clipping or new drawing."
+        },
+        "15": {
+          "scaleX": 1.0344666666666666,
+          "note": "Complete source-silhouette resampling capped at32native pixels; no clipping or new drawing."
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/farquaad/source-combat-v2.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 30,
+      "scaleCells": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1.16,
+        "bottom": 31
+      },
+      "overrides": {
+        "7": {
+          "scaleX": 1.1379133333333333,
+          "note": "Complete source-silhouette resampling capped at32native pixels; no clipping or new drawing."
+        },
+        "9": {
+          "scaleX": 0.9742408675799087,
+          "note": "Complete source-silhouette resampling capped at32native pixels; no clipping or new drawing."
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/farquaad/source-story-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 30,
+      "scaleCells": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1.16,
+        "bottom": 31
+      },
+      "overrides": {
+        "13": {
+          "scaleX": 1.0696034696406445,
+          "note": "Complete source-silhouette resampling capped at32native pixels; no clipping or new drawing."
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/farquaad/source-directions-v2.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 30,
+      "scaleCells": [
+        3,
+        5,
+        6,
+        7
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1.16,
+        "bottom": 31
+      },
+      "overrides": {
+        "1": {
+          "scale": 0.9696369047619049,
+          "note": "Complete source-silhouette resampling capped at 32 native pixels; no clipping or new drawing."
+        },
+        "2": {
+          "scaleX": 0.8328169734151329,
+          "note": "Complete source-silhouette resampling capped at 32 native pixels; no clipping or new drawing."
+        },
+        "9": {
+          "scaleX": 1.0055493827160493,
+          "note": "Complete source-silhouette resampling capped at 32 native pixels; no clipping or new drawing."
+        },
+        "14": {
+          "scaleX": 1.0816666666666668,
+          "note": "Complete source-silhouette resampling capped at 32 native pixels; no clipping or new drawing."
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ]
+    },
+    "walk": {
+      "0": [
+        6,
+        7,
+        7,
+        6,
+        7,
+        7
+      ],
+      "1": [
+        4,
+        5,
+        5,
+        4,
+        5,
+        5
+      ],
+      "2": [
+        8,
+        9,
+        9,
+        8,
+        9,
+        9
+      ]
+    },
+    "run": {
+      "0": [
+        17,
+        7,
+        17,
+        6
+      ],
+      "1": [
+        16,
+        5,
+        16,
+        4
+      ],
+      "2": [
+        18,
+        9,
+        18,
+        8
+      ]
+    },
+    "draw": {
+      "0": [
+        1,
+        48,
+        49,
+        48
+      ],
+      "1": [
+        0,
+        20,
+        20,
+        20
+      ],
+      "2": [
+        2,
+        21,
+        21,
+        {
+          "frame": 12,
+          "flip": true
+        }
+      ]
+    },
+    "battle": {
+      "0": [
+        48
+      ],
+      "1": [
+        20
+      ],
+      "2": [
+        {
+          "frame": 12,
+          "flip": true
+        }
+      ]
+    },
+    "swing": {
+      "0": [
+        49,
+        49,
+        50,
+        50,
+        48,
+        50,
+        48
+      ],
+      "1": [
+        22,
+        22,
+        23,
+        23,
+        20,
+        23,
+        20
+      ],
+      "2": [
+        24,
+        24,
+        25,
+        13,
+        25,
+        21,
+        21
+      ]
+    },
+    "cast": {
+      "0": [
+        52
+      ],
+      "1": [
+        14
+      ],
+      "2": [
+        53
+      ]
+    },
+    "cast-walk": {
+      "0": [
+        27
+      ],
+      "1": [
+        26
+      ],
+      "2": [
+        53
+      ]
+    },
+    "big-cast": {
+      "0": [
+        52
+      ],
+      "1": [
+        14
+      ],
+      "2": [
+        53
+      ]
+    },
+    "charge": {
+      "0": [
+        51
+      ],
+      "1": [
+        28
+      ],
+      "2": [
+        29
+      ]
+    },
+    "float": {
+      "0": [
+        31
+      ],
+      "1": [
+        30
+      ],
+      "2": [
+        59
+      ]
+    },
+    "down": {
+      "2": [
+        15
+      ]
+    },
+    "kneel": {
+      "0": [
+        34
+      ],
+      "1": [
+        32
+      ],
+      "2": [
+        33
+      ]
+    },
+    "arms-folded": {
+      "0": [
+        36
+      ],
+      "1": [
+        35
+      ],
+      "2": [
+        54
+      ]
+    },
+    "cloak": {
+      "0": [
+        39
+      ],
+      "1": [
+        37
+      ],
+      "2": [
+        38
+      ]
+    },
+    "point": {
+      "1": [
+        62
+      ],
+      "2": [
+        40
+      ]
+    },
+    "wave": {
+      "0": [
+        42
+      ],
+      "1": [
+        41
+      ]
+    },
+    "shy": {
+      "1": [
+        43
+      ],
+      "2": [
+        60
+      ]
+    },
+    "laugh": {
+      "1": [
+        44
+      ]
+    },
+    "surprise": {
+      "1": [
+        45
+      ],
+      "2": [
+        56
+      ]
+    },
+    "blink": {
+      "0": [
+        1
+      ],
+      "1": [
+        46
+      ],
+      "2": [
+        55
+      ]
+    },
+    "look": {
+      "0": [
+        {
+          "frame": 61,
+          "flip": true
+        },
+        61
+      ],
+      "1": [
+        47,
+        {
+          "frame": 47,
+          "flip": true
+        }
+      ],
+      "2": [
+        63,
+        2
+      ]
+    },
+    "raise": {
+      "0": [
+        52
+      ]
+    },
+    "jump": {
+      "1": [
+        57
+      ],
+      "2": [
+        58
+      ]
+    }
+  },
+  "notes": {
+    "material": "Every imported opaque pixel is sampled from a saved built-in image-generation PNG; no procedural anatomy is added to these source frames.",
+    "timing": "The source cartridge animation lists, frame counts, timing and intentional blanks are preserved. Repeated source poses retain native phase slots; only full-frame mirroring is used.",
+    "coverage": "Only generated poses with matching visible action and direction are mapped. Unmapped roles remain the earlier artwork and are enumerated in coverage.json. This is a partial raster migration.",
+    "nativeMirrors": "Right-facing roles mirror the generated left-facing pixels to use native tile sharing. Explicit source-right drawings remain archived for review.",
+    "missingSources": "Every native nonblank frame has a matching generated role. All254native frames, including the one intentional blank, require exact native upload verification before activation.",
+    "orientationCorrections": [
+      "Base cell12 battle guard faces right and is mirrored for left. Story cell15 looks right and is mirrored for the opposite look phase.",
+      "Directions cell13 rear look faces right; mirrored for the left-head-turn phase."
+    ],
+    "castReuse": "Side casting, big-cast and casting-walk share the generated profile casting step with the forward boot planted; rear casting now uses the separate raised-hands rear source. Native timing is unchanged.",
+    "proportions": "Native30pixel ordinary standing height with full-silhouette32pixel exceptions; complete PNG silhouettes remain inside the native32×32 frame.",
+    "derivedSequences": "Rear draw progresses from source rear idle to actual polearm guard and wind-up. Rear swing uses generated wind-up, full follow-through and guard. Rear blink reuses rear idle because the eyes are hidden from behind; side blink visibly closes its eye while retaining the generated folded-arm stance."
+  },
+  "samplingPalette": [
+    "211623",
+    "b46e4d",
+    "edaa78",
+    "ffd3a2",
+    "ece3ce",
+    "a20d21",
+    "e21c32",
+    "32263d",
+    "fff4d8",
+    "14111c",
+    "d9a72c",
+    "51405e"
+  ]
+}

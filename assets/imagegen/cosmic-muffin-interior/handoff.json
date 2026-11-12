@@ -1,0 +1,91 @@
+{
+  "status": "Frozen inactive; artwork approved by root after actual scene and pulse review",
+  "sourceType": "image-generation",
+  "integration": "integration-proposal.json",
+  "ownership": "ownership-proof.json",
+  "provenance": "provenance.json",
+  "review": "review/index.html",
+  "nativeBaseline": {
+    "path": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+    "sha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+    "privateSha256": "a9302e4da4c465b1ebe32ca4df0f66dc35eb41a2553eea85b925529cb433f44d"
+  },
+  "costs": {
+    "backgroundCompressed": 12860,
+    "originalBackgroundCompressed": 12574,
+    "armsSharedCompressed": 12128,
+    "originalArmsCompressed": 19021,
+    "armAssemblyBytes": 2880,
+    "rawStreamingSingleSharedBank": 12640,
+    "rawStreamingTwoSeparateCopies": 25280,
+    "historicalMeasuredHeap": 32352,
+    "historicalHeapLimit": 32768,
+    "productionContract": "Stream both208/209 through the established native12-cell path. Historical private build decompresses both copies and has only416 bytes spare; do not infer current campaign heap safety from it."
+  },
+  "evidence": {
+    "uploads": 24,
+    "cells": 288,
+    "visibleArmPixels": 35892,
+    "armPixelMismatches": 0,
+    "motionCases": 88,
+    "motionTicks": 9568,
+    "maxNativeDisplayDelay": 1,
+    "pulseTicks": 1200,
+    "pulseDestinationChecks": 3600,
+    "pulseDisplayFrames": 72,
+    "pulseDisplayPixels": 52992,
+    "bodyPixels": 9143,
+    "bodyArmOcclusion": 705,
+    "bodyOffscreen": 248,
+    "battle": {
+      "location": 475,
+      "techCommands": 19,
+      "megaElixirs": 3,
+      "revives": 0,
+      "final": {
+        "location": 475,
+        "battle": 0,
+        "control": 0,
+        "dialogue": 0,
+        "formation": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    "reveal": {
+      "ticks": 3759,
+      "confirmTaps": 13,
+      "final": {
+        "tick": 3759,
+        "location": 479,
+        "battle": 1,
+        "control": 0,
+        "dialogue": 0,
+        "formation": [
+          206,
+          255,
+          255,
+          255,
+          237,
+          255,
+          239,
+          255
+        ]
+      }
+    }
+  },
+  "remaining": [
+    "Root production allocation and explicit208/209 streaming contract",
+    "Current canonical independent-core scene and branch matrix",
+    "Complete natural predecessor approach; proof begins with diagnostic jump475 and a documented endgame loadout",
+    "Historical humanoid interim reveal sprite is unchanged/outside this packet",
+    "Tyson/final Ward/Core art is untouched; their final encounter is only the original reveal destination"
+  ]
+}

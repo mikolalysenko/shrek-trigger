@@ -1,0 +1,220 @@
+{
+  "key": "bread-porter",
+  "sourceType": "image-generation",
+  "width": 32,
+  "height": 32,
+  "palette": [
+    "382b2d",
+    "71452e",
+    "b87744",
+    "e5ad67",
+    "fff0c9",
+    "2f5d58",
+    "5e9280",
+    "b6cbb1",
+    "fff7e5",
+    "8c364b",
+    "da7787",
+    "d9b05f"
+  ],
+  "directory": "assets/imagegen/bakery-civilians/porter-draft",
+  "sheets": [
+    {
+      "file": "assets/imagegen/bakery-civilians/source-porter-base-v1.png",
+      "nativeHeight": 29,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "columns": 3,
+      "rows": 4
+    },
+    {
+      "file": "assets/imagegen/bakery-civilians/source-porter-actions-v1.png",
+      "regions": [
+        [
+          0,
+          0,
+          647.5,
+          404.6666666666667
+        ],
+        [
+          647.5,
+          0,
+          647.5,
+          404.6666666666667
+        ],
+        [
+          0,
+          404.6666666666667,
+          647.5,
+          404.6666666666667
+        ],
+        [
+          647.5,
+          404.6666666666667,
+          647.5,
+          404.6666666666667
+        ],
+        [
+          0,
+          809.3333333333334,
+          647.5,
+          404.6666666666667
+        ]
+      ],
+      "cells": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nativeHeight": 26,
+      "scaleCells": [
+        0
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 31,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        {
+          "frame": 0,
+          "flip": true
+        },
+        1,
+        2,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 3,
+          "flip": true
+        },
+        {
+          "frame": 4,
+          "flip": true
+        },
+        {
+          "frame": 5,
+          "flip": true
+        },
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        {
+          "frame": 9,
+          "flip": true
+        },
+        {
+          "frame": 10,
+          "flip": true
+        },
+        {
+          "frame": 11,
+          "flip": true
+        },
+        12,
+        {
+          "frame": 12,
+          "flip": true
+        },
+        13,
+        {
+          "frame": 13,
+          "flip": true
+        },
+        14,
+        {
+          "frame": 14,
+          "flip": true
+        },
+        15
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Every original visible slot uses a reviewed generated pose. Original mirrors, dance order and three-step directional gaits plus native idle contact and fallen pose remain explicit; no idle substitution."
+      }
+    }
+  },
+  "notes": {
+    "status": "Inactive draft",
+    "family": "bread-porters",
+    "gfx": 24,
+    "assembly": 12,
+    "animation": 21,
+    "owners": [
+      30,
+      62
+    ],
+    "paletteVariants": [
+      {
+        "palette": 123,
+        "colors": [
+          "382b2d",
+          "71452e",
+          "b87744",
+          "e5ad67",
+          "fff0c9",
+          "2f5d58",
+          "5e9280",
+          "b6cbb1",
+          "fff7e5",
+          "8c364b",
+          "da7787",
+          "d9b05f"
+        ]
+      },
+      {
+        "palette": 124,
+        "colors": [
+          "302932",
+          "674235",
+          "a76d50",
+          "dba57b",
+          "f3ddbb",
+          "55415f",
+          "8b698b",
+          "cbb2c5",
+          "fff2dd",
+          "87454f",
+          "d48a91",
+          "d6b574"
+        ]
+      }
+    ],
+    "nativeCells": 4,
+    "blankFrames": [],
+    "sourcePoses": 16,
+    "frameOffsets": {},
+    "geometry": "Standard nonoverlapping four-cell32×32native group; no compiler proposal required",
+    "sourceCalibration": "Base total including paddle is29px tall; unarmed action calibration body is26px tall",
+    "sourceTransforms": "Back idle/walk source poses are reflected to keep the peel in the same anatomical hand as the front views. Original native side/dance mirror pairs are also reflected.",
+    "unusedSourceArea": "Action calibration cell0 supplies scale only; empty final source cell is excluded from regions."
+  }
+}

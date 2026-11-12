@@ -1,0 +1,54 @@
+{
+  "key": "sky-drake",
+  "directory": "assets/imagegen/sky-drakes",
+  "width": 80,
+  "height": 48,
+  "palette": [
+    "282028",
+    "f8f0d8",
+    "f09878",
+    "c0c0a0",
+    "f8d090",
+    "e0a070",
+    "c07860",
+    "884840",
+    "403028",
+    "808048",
+    "505830",
+    "384030"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/sky-drakes/source-field-v2.png",
+      "columns": 2,
+      "rows": 2,
+      "nativeHeight": 30,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "scaleCells": [
+        1,
+        2
+      ],
+      "backgroundMask": {
+        "key": "00ffff",
+        "tolerance": 110
+      },
+      "sample": {
+        "method": "area",
+        "coverageThreshold": 0.4,
+        "bottom": 46
+      },
+      "overrides": {}
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  }
+}

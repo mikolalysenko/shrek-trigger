@@ -1,0 +1,942 @@
+{
+  "status": "Frozen inactive candidate; root owns production integration",
+  "package": "bakery-feast",
+  "manifest": "reproducibility-files.txt",
+  "manifestFiles": 78,
+  "manifestSha256": "e008a1ee654eb0b89da763a769f71b245cca61e565d9bd86e5be43875be69336",
+  "families": [
+    {
+      "key": "drummer",
+      "familyKey": "bakery-drummer",
+      "rasterKey": "bread-drummer",
+      "native": {
+        "gfx": 52,
+        "assembly": 94,
+        "animation": 63,
+        "frames": 2,
+        "width": 32,
+        "height": 32,
+        "cells": 4,
+        "size": 0,
+        "owners": [
+          {
+            "npc": 122,
+            "palette": 123,
+            "originalPalette": 174
+          }
+        ],
+        "anchor": [
+          0,
+          0
+        ],
+        "frameOffsets": {},
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ],
+        "baseCellXY": [
+          [
+            -16,
+            -32
+          ],
+          [
+            0,
+            -32
+          ],
+          [
+            -16,
+            -16
+          ],
+          [
+            0,
+            -16
+          ]
+        ],
+        "overlap": false
+      },
+      "inputs": {
+        "spec": "drummer-import-spec.draft.json",
+        "specSha256": "53087cf5f708281d09d57dacbca8b9f49a3e1d22b4cd010533472fa6b66b61aa",
+        "geometry": "drummer-draft/family.json",
+        "geometrySha256": "9893c7cabf9c4e123ed8afad4066ce1f29b83cfcfcdf849d70a0164cde209f04",
+        "roles": "drummer-native-roles.json",
+        "rolesSha256": "e6a52ab070b49540e796d4fabfd1199a06793c402a6ec4c2fedd8caf4b74cbe9"
+      },
+      "compiled": {
+        "rawGraphicsBytes": 928,
+        "compressedBytes": 581,
+        "assemblyBytes": 80,
+        "graphicsSha256": "9a904fa64f512eced0ee36a08f6901b34e332c16083b0c5c7a29ac5ab8f78ac7",
+        "compressedSha256": "319a41d6f92c1118a46f27863abdade2c4c3b082bcd2a0395fd6b495b6b8da20",
+        "assemblySha256": "017648c68faf81376f807178f47cd790e50b9b91a0c6319295483381eee09b88",
+        "pixelsSha256": "d728c2716eefb4c2d7bb535dc6dbb97f9aade887b52f43d5c85ded5fcb7d6681",
+        "paletteSha256": {
+          "123": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+        }
+      },
+      "cost": {
+        "key": "drummer",
+        "candidate": {
+          "raw": 928,
+          "compressed": 581,
+          "assembly": 80,
+          "totalCompressedAndAssembly": 661
+        },
+        "originalCT": {
+          "graphicsOffset": 1713777,
+          "graphicsBytes": 480,
+          "compressedBytes": 393,
+          "assemblyOffset": 1981400,
+          "assemblyBytes": 80,
+          "totalCompressedAndAssembly": 473,
+          "compressedAllocationGrowth": 188,
+          "rawGrowth": 448
+        },
+        "activeEarlierArt": {
+          "raw": 352,
+          "compressed": 229,
+          "assembly": 80,
+          "totalCompressedAndAssembly": 309,
+          "compressedAllocationGrowth": 352,
+          "rawGrowth": 576,
+          "graphicsSha256": "a76794c0d3c09ede51614e1a9bbeecccf8f3b65559539c5ed9bf61254257c30c",
+          "compressedSha256": "672162fc59d7543ed9a5e12e907763df1178f7b6f8ecafe48f9c69f1c1e5ee51",
+          "assemblySha256": "2a276ee59f8b968a7b90a1cb44bc46b2d103beced3822c5b16744a341817e12d",
+          "matchesActiveSourceFamilySnapshot": true
+        }
+      }
+    },
+    {
+      "key": "percussionist",
+      "familyKey": "bakery-log-drummer",
+      "rasterKey": "bun-percussionist",
+      "native": {
+        "gfx": 53,
+        "assembly": 95,
+        "animation": 63,
+        "frames": 2,
+        "width": 32,
+        "height": 32,
+        "cells": 4,
+        "size": 0,
+        "owners": [
+          {
+            "npc": 123,
+            "palette": 123,
+            "originalPalette": 174
+          }
+        ],
+        "anchor": [
+          0,
+          0
+        ],
+        "frameOffsets": {},
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ],
+        "baseCellXY": [
+          [
+            -16,
+            -32
+          ],
+          [
+            0,
+            -32
+          ],
+          [
+            -16,
+            -16
+          ],
+          [
+            0,
+            -16
+          ]
+        ],
+        "overlap": false
+      },
+      "inputs": {
+        "spec": "percussionist-import-spec.draft.json",
+        "specSha256": "6c09f20fafe1b6598a847c06fe301f097048ca4855d37dc1123404060da54921",
+        "geometry": "percussionist-draft/family.json",
+        "geometrySha256": "b181ece6cc3da6ff3791e1baefe832ea252b57a8c25a4375e2e9c9247480e11a",
+        "roles": "percussionist-native-roles.json",
+        "rolesSha256": "5b890b256510d25044a547a780405722d46475d8805bab048e6d1dd84b76326a"
+      },
+      "compiled": {
+        "rawGraphicsBytes": 928,
+        "compressedBytes": 604,
+        "assemblyBytes": 80,
+        "graphicsSha256": "ac9c65f9f682362b64cda1d58bedb6920d4c1f5ea3166ac342ee4ce18c2313f3",
+        "compressedSha256": "97d8c112f366751cb737245300af743ce71a3a07e1a37d044590929e1c98e1f3",
+        "assemblySha256": "60d9b1c5bfce9af9819275732904f8e26d603b6304ed32473ee7d353a57ff22b",
+        "pixelsSha256": "707499eeaaed03a8245cb56f3bffa7b724d5c60f6928338b9a05b53c016deac8",
+        "paletteSha256": {
+          "123": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+        }
+      },
+      "cost": {
+        "key": "percussionist",
+        "candidate": {
+          "raw": 928,
+          "compressed": 604,
+          "assembly": 80,
+          "totalCompressedAndAssembly": 684
+        },
+        "originalCT": {
+          "graphicsOffset": 1714170,
+          "graphicsBytes": 800,
+          "compressedBytes": 728,
+          "assemblyOffset": 1981480,
+          "assemblyBytes": 80,
+          "totalCompressedAndAssembly": 808,
+          "compressedAllocationGrowth": -124,
+          "rawGrowth": 128
+        },
+        "activeEarlierArt": {
+          "raw": 544,
+          "compressed": 300,
+          "assembly": 80,
+          "totalCompressedAndAssembly": 380,
+          "compressedAllocationGrowth": 304,
+          "rawGrowth": 384,
+          "graphicsSha256": "e7dde8b480296e8bcaa4015751b50130d947cd67466dde25c6c1fcdebee848e5",
+          "compressedSha256": "f56a28889a78e9f7ec3a1da91b619b050e5d5d5b96ef3fe6bb8aed2f01da4414",
+          "assemblySha256": "b55befce0ff8f20000dd08b5d9d4fb15bddc65380c7d60a92131e2c67ad1bfbd",
+          "matchesActiveSourceFamilySnapshot": true
+        }
+      }
+    },
+    {
+      "key": "platter",
+      "familyKey": "onion-bread-plates",
+      "rasterKey": "onion-bread-plate",
+      "native": {
+        "gfx": 191,
+        "assembly": 187,
+        "animation": 150,
+        "frames": 8,
+        "width": 32,
+        "height": 32,
+        "cells": 4,
+        "size": 0,
+        "owners": [
+          {
+            "npc": 94,
+            "palette": 123,
+            "originalPalette": 5
+          }
+        ],
+        "anchor": [
+          0,
+          8
+        ],
+        "frameOffsets": {
+          "2": [
+            0,
+            -9
+          ],
+          "3": [
+            0,
+            -28
+          ],
+          "4": [
+            0,
+            -14
+          ],
+          "5": [
+            0,
+            -30
+          ],
+          "6": [
+            0,
+            -5
+          ],
+          "7": [
+            0,
+            -5
+          ]
+        },
+        "cellOrigins": [
+          [
+            0,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            16,
+            16
+          ]
+        ],
+        "baseCellXY": [
+          [
+            -16,
+            -32
+          ],
+          [
+            0,
+            -32
+          ],
+          [
+            -16,
+            -16
+          ],
+          [
+            0,
+            -16
+          ]
+        ],
+        "overlap": false
+      },
+      "inputs": {
+        "spec": "platter-import-spec.draft.json",
+        "specSha256": "4522b1eebb3a4f63112b80fdb61e4e6df4dbbcb04c592bbc3ea0088e6dec62f0",
+        "geometry": "platter-draft/family.json",
+        "geometrySha256": "80465ff38402ba379d6e88c2891ff825911d5e1d14843124f928cdd73c6823cf",
+        "roles": "platter-native-roles.json",
+        "rolesSha256": "5c54ce772cb832266a28a0a994b92ae817383988796fe86aab018ebae7fa7f57"
+      },
+      "compiled": {
+        "rawGraphicsBytes": 1024,
+        "compressedBytes": 654,
+        "assemblyBytes": 320,
+        "graphicsSha256": "e8042f1ad5840724db88a533b01d691ad062c6fa12a0f928b75297d162f668ca",
+        "compressedSha256": "9162441195d90c7ad508d79a4c4a222ac11f03734c24d2c07128422d8cd873c2",
+        "assemblySha256": "252ed5eda5918497644e279437ee6ac4c3f30d0752fcc4e83faed6f84756750d",
+        "pixelsSha256": "623e1b9be66e57ef31974090ff4aa0a55a006049ef39efb91eff368b951f8f7d",
+        "paletteSha256": {
+          "123": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+        }
+      },
+      "cost": {
+        "key": "platter",
+        "candidate": {
+          "raw": 1024,
+          "compressed": 654,
+          "assembly": 320,
+          "totalCompressedAndAssembly": 974
+        },
+        "originalCT": {
+          "graphicsOffset": 1304745,
+          "graphicsBytes": 608,
+          "compressedBytes": 434,
+          "assemblyOffset": 2008360,
+          "assemblyBytes": 320,
+          "totalCompressedAndAssembly": 754,
+          "compressedAllocationGrowth": 220,
+          "rawGrowth": 416
+        },
+        "activeEarlierArt": {
+          "raw": 480,
+          "compressed": 255,
+          "assembly": 320,
+          "totalCompressedAndAssembly": 575,
+          "compressedAllocationGrowth": 399,
+          "rawGrowth": 544,
+          "graphicsSha256": "2dc057fa62d4deadb3a1e4bfbb29cc887524f8c32b6ed85b68bccd2c31c8b669",
+          "compressedSha256": "d7c8fd926b36f61e4acf3b4f81ccd03d0070d1bd51b1987da1fbde1f6034e865",
+          "assemblySha256": "e01b066c450ff945c7cab5f581d920d3700f001aaa0359c9fd4fad74bf63620b",
+          "matchesActiveSourceFamilySnapshot": true
+        }
+      }
+    }
+  ],
+  "totals": {
+    "raw": 2880,
+    "compressed": 1839,
+    "assembly": 480,
+    "compressedAndAssembly": 2319,
+    "compressedGrowthVsActive": 1055,
+    "rawGrowthVsActive": 1504,
+    "compressedGrowthVsOriginal": 284,
+    "rawGrowthVsOriginal": 992
+  },
+  "proof": {
+    "nativeUploads": 12,
+    "nativeOpaquePixels": 4220,
+    "nativeOwners": [
+      122,
+      123,
+      94
+    ],
+    "timedTicks": 2400,
+    "timedScenarios": 16,
+    "privateRomSha256": "ce30ec27afdb4115d613446f0b8fa4f9e5c92bbcde2f6f58958629449ee44731",
+    "sceneEvidence": "scene-verification/manifest.json",
+    "paletteBytesUnchanged": true,
+    "fullContestOrIndependentProof": false
+  },
+  "sceneProof": {
+    "status": "Original location280 staging and all six owned NPC loads passed",
+    "privateRomSha256": "ce30ec27afdb4115d613446f0b8fa4f9e5c92bbcde2f6f58958629449ee44731",
+    "location": 280,
+    "story": 111,
+    "loads": [
+      {
+        "npc": 122,
+        "object": 16,
+        "scriptPC": 2491,
+        "frame": 8903
+      },
+      {
+        "npc": 123,
+        "object": 17,
+        "scriptPC": 2521,
+        "frame": 8904
+      },
+      {
+        "npc": 122,
+        "object": 18,
+        "scriptPC": 2551,
+        "frame": 8904
+      },
+      {
+        "npc": 123,
+        "object": 19,
+        "scriptPC": 2581,
+        "frame": 8904
+      },
+      {
+        "npc": 94,
+        "object": 20,
+        "scriptPC": 2613,
+        "frame": 8904
+      },
+      {
+        "npc": 94,
+        "object": 21,
+        "scriptPC": 2646,
+        "frame": 8905
+      }
+    ],
+    "heapBytes": 8608,
+    "welcomeTaps": 6,
+    "controllerOnlyAfterCheckpoint": true,
+    "musicianFrames": {
+      "16": [
+        0,
+        1
+      ],
+      "17": [
+        0,
+        1
+      ],
+      "18": [
+        0
+      ],
+      "19": [
+        0
+      ]
+    },
+    "nativeEventOrTimingBytesChanged": false,
+    "romUnchanged": true,
+    "scope": "Original feast checkpoint, controller-only welcome closure and walk through the open staging area to visible musician objects16/17. Those two alternate0/1; duplicate staging objects18/19 remain held on0 in this branch. All supplied animation lists have a separate exact native timed-list proof. Plate actors initialize hidden, as in the original scene. Full eating contest and morning transition are not run here; separate solo native proof covers all8platter frames and offsets."
+  },
+  "sourcePoseCount": 8,
+  "nativeSlots": 12,
+  "visualApproval": {
+    "lead": "sprite_art_pass",
+    "allNativeSheetsApproved": true,
+    "root": {
+      "native1xApproved": true,
+      "exactPlatterAnchorAtlasApproved": true,
+      "actualSoloPpuCropsApproved": true
+    },
+    "assessment": "Distinct loaf and bun musicians; opposing contacts are readable, log opening remains screen-left, and full/edge/underside/eaten plate states are distinct.",
+    "scope": "Static source/direction approval is separate from native frame, timing and original-scene evidence."
+  },
+  "reproductionDependencies": [
+    {
+      "file": "scripts/import-raster-art.mjs",
+      "sha256": "932f6a4558afc571610f2ae10790b7623e0524fa8b541eb3dc03a596172db1f1"
+    },
+    {
+      "file": "engine/actor-families.js",
+      "sha256": "3eb0d529e30129185a5f45ec7164a925d0b14b417083a965c7974ad9e36dad54"
+    },
+    {
+      "file": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "file": "engine/raster-art.js",
+      "sha256": "6f7e645ec586ac8de27dec81072176d1b62fbf414321caaba0fa05c114cea6ba"
+    },
+    {
+      "file": "engine/sprites.js",
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "file": "engine/rom.js",
+      "sha256": "06b336022840d63cc8295bce22f19ee3527484a06739b76ce90dc5bafa2a9b04"
+    },
+    {
+      "file": "engine/native-sprites.js",
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "file": "engine/expanded-rom.js",
+      "sha256": "de8f528ce60b4488df9d7742c38e8c9af2ae58e74df641fe6fd1c605dbeedde2"
+    },
+    {
+      "file": "scripts/core.mjs",
+      "sha256": "7ab30045a06ef89154004a3cc25e1c2dab1cad1c426f4a585e4a68a058bceef4"
+    },
+    {
+      "file": "engine/automation.js",
+      "sha256": "8af377558a467f16747a8dbb120b8a047c2512cee9b4945ec5f657660a36fe28"
+    },
+    {
+      "file": "engine/hooks.js",
+      "sha256": "795fd4248bfaf669e53753df0636b4d24cf5ae98062d82f6e50b147516af7a2a"
+    },
+    {
+      "file": "engine/devtools.js",
+      "sha256": "4a0fc1a37ec243405c8db4e4e1d2a0f8bed6c07fca62452cb53e793521617309"
+    },
+    {
+      "file": "tests/helpers.mjs",
+      "sha256": "4a77a84d238f495d30837a92547b46981ec7c1ee529f6805e12ec92217cc1a80"
+    },
+    {
+      "file": "tests/medina-controller.mjs",
+      "sha256": "48851081f0a1520a6ab41496cc04f3a13d5d33e857dc534a6662633f48c2e925"
+    },
+    {
+      "file": "content/hooks.json",
+      "sha256": "bf37708d2862de0a3a6766ef8f9a5c05079e454e262750e001e42a02532783a5"
+    },
+    {
+      "file": "content/areas.js",
+      "sha256": "2c6e734941ec4de898ad114ca6e4f2977aa9fde2fb1bc126411ec0b2b7c93cf3"
+    },
+    {
+      "file": "engine/bakery-checkpoints.js",
+      "sha256": "4dffd2ed97d31cfe79a35213c65151b9a48294c43e51bf1a6edb57714755b810"
+    }
+  ],
+  "requiredArtifacts": [
+    {
+      "path": "README.md",
+      "bytes": 7314,
+      "sha256": "6e47aa373a14617d62ad0b06f35634fb932ed0cf3c600ec3ec4614c0004405e9"
+    },
+    {
+      "path": "source-families.json",
+      "bytes": 2866,
+      "sha256": "abd5c86ce08b12d549dc77908002e01881744c0f388b533f89f3f278b7991f38"
+    },
+    {
+      "path": "shared-village-owners.json",
+      "bytes": 5479,
+      "sha256": "7362e1c68a3d0b63b35ec750cd1562e16d5c1e55fdd56af91381201b05128af0"
+    },
+    {
+      "path": "native-audit.json",
+      "bytes": 36120,
+      "sha256": "8f205bf94c099dd066e1f9a1cc5745476d61cc0a1984275dcaad459671fa3ba1"
+    },
+    {
+      "path": "audit-native.mjs",
+      "bytes": 7535,
+      "sha256": "74e869c11b2e837e3f219a772c9689bacfffc728544f429625fdc7e59bb87ed2"
+    },
+    {
+      "path": "audit-feast-event.mjs",
+      "bytes": 1783,
+      "sha256": "8dabfa1095c13249a67b9ff98a94d52adee4a323c185ce62b9219b8e6f426687"
+    },
+    {
+      "path": "feast-event-source-audit.json",
+      "bytes": 16815,
+      "sha256": "1fb2375e627c7f53758e8b37e7b5deeba5e7f07093e484055308d0a1c3e28665"
+    },
+    {
+      "path": "prepare-draft.mjs",
+      "bytes": 2792,
+      "sha256": "629cf5efca724b80af7369bca24d86933b167d7c90f654c66927674c99646b79"
+    },
+    {
+      "path": "compile-draft.mjs",
+      "bytes": 6254,
+      "sha256": "e2c72dce35a120a0fc8e48f55a90e19cd68d6ee4f0b351dbba43c6c2581cdba9"
+    },
+    {
+      "path": "private-overlay.mjs",
+      "bytes": 2946,
+      "sha256": "12e54c32ba1681371e689c35c7236801e857f7e21b2810e6bf35b67b06a82a5e"
+    },
+    {
+      "path": "verify-native.mjs",
+      "bytes": 6294,
+      "sha256": "2c5cbac9abef2f04c042c3ece6c31c1e60bf35c3792df85a391422ab8a994969"
+    },
+    {
+      "path": "verify-motion.mjs",
+      "bytes": 4283,
+      "sha256": "a26208efe5df57b8ecc798d7bbdafe25448a17990e537d2e66fa9de9bf198427"
+    },
+    {
+      "path": "verify-scene.mjs",
+      "bytes": 4171,
+      "sha256": "96cac931f0e62ebb7c6e4037330436b26148918c6f98e1f3bff7f6583d46759b"
+    },
+    {
+      "path": "build-review.mjs",
+      "bytes": 12000,
+      "sha256": "95083dde743a1b6ba38d4ffb530de2ac30092c45c796e4a258cee53ba38258cf"
+    },
+    {
+      "path": "verify-frozen.mjs",
+      "bytes": 3108,
+      "sha256": "5f6bab6ac1fc04256990ffb13e5f571d43091dce5c62bfece0c5d8496e765592"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 5400,
+      "sha256": "3c794b05f7a9fa0d0bc0c585ba31e2698a1a5222943ed9b48c256b744c2b653f"
+    },
+    {
+      "path": "prompt-drummer-v1.txt",
+      "bytes": 2872,
+      "sha256": "22f1af985c483a99d1b9cb0f95c976f8c3c0a8f369866c8392127239712ecdac"
+    },
+    {
+      "path": "source-drummer-v1.png",
+      "bytes": 654330,
+      "sha256": "cd27169a168993df0ad37811365a606855e3d6682c67da2f886baf54d5efe7c7"
+    },
+    {
+      "path": "drummer-import-spec.draft.json",
+      "bytes": 1814,
+      "sha256": "53087cf5f708281d09d57dacbca8b9f49a3e1d22b4cd010533472fa6b66b61aa"
+    },
+    {
+      "path": "drummer-native-roles.json",
+      "bytes": 1302,
+      "sha256": "e6a52ab070b49540e796d4fabfd1199a06793c402a6ec4c2fedd8caf4b74cbe9"
+    },
+    {
+      "path": "drummer-draft/preview-import.json",
+      "bytes": 1644,
+      "sha256": "066364e28b5f6623a791806575ab251fbcffecb2e3f2000f05336bd84100ad4a"
+    },
+    {
+      "path": "drummer-draft/preview-raster.json",
+      "bytes": 2601,
+      "sha256": "1b872554ec4a01f067cc55e95ee129ff4fb1ddff8c2fe5c6c9afbf4328e6130b"
+    },
+    {
+      "path": "drummer-draft/family.json",
+      "bytes": 701,
+      "sha256": "9893c7cabf9c4e123ed8afad4066ce1f29b83cfcfcdf849d70a0164cde209f04"
+    },
+    {
+      "path": "drummer-draft/graphics.4bpp",
+      "bytes": 928,
+      "sha256": "9a904fa64f512eced0ee36a08f6901b34e332c16083b0c5c7a29ac5ab8f78ac7"
+    },
+    {
+      "path": "drummer-draft/graphics.ct-lz",
+      "bytes": 581,
+      "sha256": "319a41d6f92c1118a46f27863abdade2c4c3b082bcd2a0395fd6b495b6b8da20"
+    },
+    {
+      "path": "drummer-draft/assembly.bin",
+      "bytes": 80,
+      "sha256": "017648c68faf81376f807178f47cd790e50b9b91a0c6319295483381eee09b88"
+    },
+    {
+      "path": "drummer-draft/palette-123.bin",
+      "bytes": 24,
+      "sha256": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+    },
+    {
+      "path": "drummer-draft/verification.json",
+      "bytes": 2744,
+      "sha256": "3194d7a37ec969e0eae4d625c8f8f4d6c61e810774005ef538f230a3dbc4e808"
+    },
+    {
+      "path": "drummer-draft/native-6x.png",
+      "bytes": 2841,
+      "sha256": "857292dc15a4c31cc7cf083ef0483cbff447f4ec1dfc5be518b58707453b445c"
+    },
+    {
+      "path": "prompt-percussionist-v1.txt",
+      "bytes": 2779,
+      "sha256": "cf24cb81908e9ceda6025268bbbc160a8d16430f248edcd35d2dc6808c1a533d"
+    },
+    {
+      "path": "source-percussionist-v1.png",
+      "bytes": 957227,
+      "sha256": "a42decac0daeee7bb4731a84085c83c80dfb8dce156957bdadfcfc282c95b8c5"
+    },
+    {
+      "path": "percussionist-import-spec.draft.json",
+      "bytes": 1834,
+      "sha256": "6c09f20fafe1b6598a847c06fe301f097048ca4855d37dc1123404060da54921"
+    },
+    {
+      "path": "percussionist-native-roles.json",
+      "bytes": 1322,
+      "sha256": "5b890b256510d25044a547a780405722d46475d8805bab048e6d1dd84b76326a"
+    },
+    {
+      "path": "percussionist-draft/preview-import.json",
+      "bytes": 1655,
+      "sha256": "d3f479159e8a45940e310ecf89bf849def79c186cde1b48f56f66719c6939242"
+    },
+    {
+      "path": "percussionist-draft/preview-raster.json",
+      "bytes": 2607,
+      "sha256": "f280de727ec8dccda239f05fba898af0a730b9116f3f462e06c728de0aa315e2"
+    },
+    {
+      "path": "percussionist-draft/family.json",
+      "bytes": 721,
+      "sha256": "b181ece6cc3da6ff3791e1baefe832ea252b57a8c25a4375e2e9c9247480e11a"
+    },
+    {
+      "path": "percussionist-draft/graphics.4bpp",
+      "bytes": 928,
+      "sha256": "ac9c65f9f682362b64cda1d58bedb6920d4c1f5ea3166ac342ee4ce18c2313f3"
+    },
+    {
+      "path": "percussionist-draft/graphics.ct-lz",
+      "bytes": 604,
+      "sha256": "97d8c112f366751cb737245300af743ce71a3a07e1a37d044590929e1c98e1f3"
+    },
+    {
+      "path": "percussionist-draft/assembly.bin",
+      "bytes": 80,
+      "sha256": "60d9b1c5bfce9af9819275732904f8e26d603b6304ed32473ee7d353a57ff22b"
+    },
+    {
+      "path": "percussionist-draft/palette-123.bin",
+      "bytes": 24,
+      "sha256": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+    },
+    {
+      "path": "percussionist-draft/verification.json",
+      "bytes": 2772,
+      "sha256": "902432f1c1df0d9ff3b53c5d8b147d2bcc55be73f247a7667902f17fd3fab440"
+    },
+    {
+      "path": "percussionist-draft/native-6x.png",
+      "bytes": 3055,
+      "sha256": "9b799b7f8553a3403bad27741c99824f40cc58b1d4a6cc7589bc8fbb18e8db9b"
+    },
+    {
+      "path": "prompt-platter-v1.txt",
+      "bytes": 3072,
+      "sha256": "a5a6b16a90288ca9fdcf50deebbf25d2e65558cd5e8fc604372d43b299cdf3c8"
+    },
+    {
+      "path": "source-platter-v1.png",
+      "bytes": 1335763,
+      "sha256": "b7e309aa88fb4db633470ce94fc7fce8d7314894c0cbc243789954b893b2a0f3"
+    },
+    {
+      "path": "platter-import-spec.draft.json",
+      "bytes": 2267,
+      "sha256": "4522b1eebb3a4f63112b80fdb61e4e6df4dbbcb04c592bbc3ea0088e6dec62f0"
+    },
+    {
+      "path": "platter-native-roles.json",
+      "bytes": 4631,
+      "sha256": "5c54ce772cb832266a28a0a994b92ae817383988796fe86aab018ebae7fa7f57"
+    },
+    {
+      "path": "platter-draft/preview-import.json",
+      "bytes": 2194,
+      "sha256": "634f4836d48db57ea40b6dd9016acf86d9cb410994fa506e4a5113024a3a1086"
+    },
+    {
+      "path": "platter-draft/preview-raster.json",
+      "bytes": 4786,
+      "sha256": "4f11c98bd133c6af3cdef7c739a91bf7fc4d8804a996340765d0731cc0d95f68"
+    },
+    {
+      "path": "platter-draft/family.json",
+      "bytes": 1120,
+      "sha256": "80465ff38402ba379d6e88c2891ff825911d5e1d14843124f928cdd73c6823cf"
+    },
+    {
+      "path": "platter-draft/graphics.4bpp",
+      "bytes": 1024,
+      "sha256": "e8042f1ad5840724db88a533b01d691ad062c6fa12a0f928b75297d162f668ca"
+    },
+    {
+      "path": "platter-draft/graphics.ct-lz",
+      "bytes": 654,
+      "sha256": "9162441195d90c7ad508d79a4c4a222ac11f03734c24d2c07128422d8cd873c2"
+    },
+    {
+      "path": "platter-draft/assembly.bin",
+      "bytes": 320,
+      "sha256": "252ed5eda5918497644e279437ee6ac4c3f30d0752fcc4e83faed6f84756750d"
+    },
+    {
+      "path": "platter-draft/palette-123.bin",
+      "bytes": 24,
+      "sha256": "148f3447c95c799d377c65a1795afe0b5a1d3a86340a2bb69981b12acbcd4a08"
+    },
+    {
+      "path": "platter-draft/verification.json",
+      "bytes": 6324,
+      "sha256": "bfbbdd8a117846343270824bd81f49932a4c3dc0c568abed32ef51a0811ea4c2"
+    },
+    {
+      "path": "platter-draft/native-6x.png",
+      "bytes": 5848,
+      "sha256": "0c77dd795a9bab8a5a14946f26d4b1c3f2d06ad1cba91d7c2b60a66161a800fa"
+    },
+    {
+      "path": "cost-baselines.json",
+      "bytes": 3229,
+      "sha256": "5315b8dea26e1b5e143918fb14e2b597cda83f28f2a8fd62945a20c6b3c320ea"
+    },
+    {
+      "path": "current-co-loads.json",
+      "bytes": 5608,
+      "sha256": "800a8d9b034d2f826454c7c1050b516dbf7e0cea4cabbe5ed30cb98abe13041a"
+    },
+    {
+      "path": "native-verification/manifest.json",
+      "bytes": 4582,
+      "sha256": "ea45b4a9321ae418c8ad57d9a9d375183353290275a3a1f0d55d67fc0249d048"
+    },
+    {
+      "path": "native-verification/bakery-drummer-native-frame-0.png",
+      "bytes": 56421,
+      "sha256": "f4f8acde1308221ad35ba72f680cb40b810b1c36088ecfbe3b966eea02ba6bce"
+    },
+    {
+      "path": "native-verification/bakery-log-drummer-native-frame-0.png",
+      "bytes": 56324,
+      "sha256": "b8295e1e03b72a9c9f92382a152c5812177cf0d6c9860095d0d4cb212cd58229"
+    },
+    {
+      "path": "native-verification/onion-bread-plate-native-frame-0.png",
+      "bytes": 56472,
+      "sha256": "f85218de757f44a0690768ca98faa9cc2c95bde8da317772074a7033bc70d776"
+    },
+    {
+      "path": "native-verification/onion-bread-plate-native-frame-3.png",
+      "bytes": 56267,
+      "sha256": "c2593cc05721c08a171aad86e5a9e49de85fc1a4d73b21fad3371dae0fdaff7c"
+    },
+    {
+      "path": "native-verification/onion-bread-plate-native-frame-6.png",
+      "bytes": 56522,
+      "sha256": "e48a1a5b0ca13f12f62888f251aa4a8bbe08a3cb73ece1816415751c07d9ac73"
+    },
+    {
+      "path": "motion-verification/manifest.json",
+      "bytes": 286574,
+      "sha256": "de31fe83ebb8cc54d69cd5be662aaa19de49802186f4cddc1bf0212c1f7bd13c"
+    },
+    {
+      "path": "scene-verification/manifest.json",
+      "bytes": 1588,
+      "sha256": "e52839e14d4449fc1043acf5f5c36b4bbde4e23d91f3731ae7a4a2558e10a99a"
+    },
+    {
+      "path": "scene-verification/staging-animation-diagnostic.json",
+      "bytes": 6806,
+      "sha256": "3888a39551a0958ca417d3e187d4803137625252d74e856e3aee037c509317a5"
+    },
+    {
+      "path": "scene-verification/feast-open-staging.png",
+      "bytes": 69004,
+      "sha256": "5338bf465d7a4705e4b605c83139c68835fbc969cda385c4500266bbcb88dba1"
+    },
+    {
+      "path": "scene-verification/feast-left-musicians.png",
+      "bytes": 80367,
+      "sha256": "adeaf46cac648fcfbc55a585e41bac3aa0331c73f4783c79fe479bafa4ea57f3"
+    },
+    {
+      "path": "review/contact-sheet-1x.png",
+      "bytes": 11272,
+      "sha256": "c8e3af6a978a8c82d55613a9d591fbde68881947a789efcca6e91236f86ebf71"
+    },
+    {
+      "path": "review/platter-anchors-1x.png",
+      "bytes": 5686,
+      "sha256": "b2e87e3f58eacc70ac2bae09c4279d54e33c65fc5795a3d05c47fe8dc2e1d0b5"
+    },
+    {
+      "path": "review/motion-strip-1x.png",
+      "bytes": 10840,
+      "sha256": "2fce1979e0021c4774d14510226b6627b165751541621350c200cba3ff13d47b"
+    },
+    {
+      "path": "review/motion-review.html",
+      "bytes": 31617,
+      "sha256": "aec47c7b66d81275b67460cce3fe670428c18c3945cfd066de1923397677b25d"
+    },
+    {
+      "path": "review/motion-review.gif",
+      "bytes": 11931,
+      "sha256": "a9ffca8d7c6a48cc4e31a0577ef12cad113b79caf5b1e5d094f6c84e1a53ee26"
+    },
+    {
+      "path": "review/review-manifest.json",
+      "bytes": 973,
+      "sha256": "4f203355c0708eaa74d065fbd1466257d9dfb0408ec40d94079b85dce123bb13"
+    },
+    {
+      "path": "review/actual-native-crops-6x.png",
+      "bytes": 13860,
+      "sha256": "0a62a8585ad32765e8ad4043da439306783f44af1edd8519a4e85fead88f6a2f"
+    },
+    {
+      "path": "integration-proposal.json",
+      "bytes": 12143,
+      "sha256": "35cbbe362ea631d938c2754f1d27dabd3baf88b9d81ebbf295659186b7cfa406"
+    }
+  ],
+  "excluded": "Extracted original-game review PNGs, redundant indexed previews, unused native captures, old obstructed staging/diagnostic screenshots. No cartridge or active production files.",
+  "limits": [
+    "Solo native uploads, original timing and scoped actual scene staging are proven; full contest/morning transition are not.",
+    "Only the visible musician pair16/17 is observed alternating in this original checkpoint branch; duplicate18/19 remains held and plates stay hidden.",
+    "Production raw streaming, other story scenes and independent-core coverage remain root integration checks.",
+    "Saved-build unions do not establish current integrated residency."
+  ]
+}

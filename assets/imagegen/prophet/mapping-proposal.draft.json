@@ -1,0 +1,384 @@
+{
+  "status": "Lead visual review approved; root approved15-distinct-slot proposal; inactive pending capacity/integration work",
+  "reason": "The original four-step front/rear animation loops contain a final distinct source slot. The generic (k-4)%3 mapper gives that final slot phase0 and loses its distinction.",
+  "evidence": {
+    "source": "Read-only original Chrono Trigger USA ROM native assembly and animation lists",
+    "originalGraphics": 135,
+    "originalAssembly": 130,
+    "originalPalette": 6,
+    "projectPrivatePalette": 98,
+    "walkTimelines": [
+      {
+        "direction": "back",
+        "slots": [
+          4,
+          0,
+          5,
+          6
+        ]
+      },
+      {
+        "direction": "front",
+        "slots": [
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "direction": "left",
+        "slots": [
+          11,
+          2,
+          12,
+          2
+        ]
+      },
+      {
+        "direction": "right",
+        "slots": [
+          13,
+          3,
+          14,
+          3
+        ]
+      }
+    ],
+    "collapsed": [
+      {
+        "slots": [
+          4,
+          6
+        ],
+        "direction": "back",
+        "currentRole": {
+          "facing": 0,
+          "pose": "walk",
+          "phase": 0
+        },
+        "originalPixelHashes": [
+          "de9eaf0c44eb455fbfb2b55cfbab7f0f618ecc2bd43c4944d4b6d9e995525303",
+          "c93ee9b9f8f7b0cae901111eaabcfdff414c421ece92fc0f0f69d79992e93c45"
+        ],
+        "originalPixelDifferenceCount": 242,
+        "finding": "Original native pixel images are distinct; current generic mapper collapses both to the first contact source."
+      },
+      {
+        "slots": [
+          7,
+          10
+        ],
+        "direction": "front",
+        "currentRole": {
+          "facing": 1,
+          "pose": "walk",
+          "phase": 0
+        },
+        "originalPixelHashes": [
+          "bfe4710c4498c50a96434ec84b150039b6862b85e417085227f30d06299047c5",
+          "f72003a75fcb816cc8cb7a9d87a85c5d689c2d8ffe8ed3c0a7bc4501ef37efbf"
+        ],
+        "originalPixelDifferenceCount": 350,
+        "finding": "Original native pixel images are distinct; current generic mapper collapses both to the first contact source."
+      }
+    ]
+  },
+  "proposedMapperSpecial": {
+    "prophet": {
+      "6": [
+        0,
+        "walk",
+        3
+      ],
+      "10": [
+        1,
+        "walk",
+        3
+      ]
+    }
+  },
+  "proposedSequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        7,
+        1,
+        17,
+        8
+      ],
+      "1": [
+        4,
+        20,
+        6,
+        21
+      ],
+      "2": [
+        12,
+        2,
+        18,
+        2
+      ],
+      "3": [
+        10,
+        3,
+        19,
+        3
+      ]
+    }
+  },
+  "proposedRoles": [
+    {
+      "id": 0,
+      "description": "back idle",
+      "sourceIndex": 1,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceCell": 1,
+      "sourceBounds": [
+        385,
+        42,
+        196,
+        264
+      ],
+      "nativePixelHash": "6b5b7c7f3f49eebb45059661778c025a1377c61157205277cfbcab1d0331984c"
+    },
+    {
+      "id": 1,
+      "description": "front idle",
+      "sourceIndex": 0,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceCell": 0,
+      "sourceBounds": [
+        69,
+        42,
+        185,
+        265
+      ],
+      "nativePixelHash": "f1b875f7558bde38701d53337446d63be073bf13b85327ad9495009a5daafe38"
+    },
+    {
+      "id": 2,
+      "description": "left idle",
+      "sourceIndex": 2,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceCell": 2,
+      "sourceBounds": [
+        704,
+        43,
+        171,
+        263
+      ],
+      "nativePixelHash": "d6f6ca42ef16efc9e790d3fbe4612f1002388a682aaf4794e99a94c2178af46d"
+    },
+    {
+      "id": 3,
+      "description": "right idle",
+      "sourceIndex": 3,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceCell": 3,
+      "sourceBounds": [
+        1008,
+        43,
+        171,
+        263
+      ],
+      "nativePixelHash": "ea0b87791b836f2999982bbed9725bfe2de09bcca963e6abba8842269006f700"
+    },
+    {
+      "id": 4,
+      "description": "rear contact A",
+      "sourceIndex": 7,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceCell": 7,
+      "sourceBounds": [
+        1005,
+        343,
+        190,
+        271
+      ],
+      "nativePixelHash": "10f01927f811b7e1063aeadb040599f173ff0d44f2fe2323b9eea8bfde46dba1"
+    },
+    {
+      "id": 5,
+      "description": "rear contact B",
+      "sourceIndex": 17,
+      "sourceFile": "assets/imagegen/prophet/source-v2-corrections.png",
+      "sourceCell": 1,
+      "sourceBounds": [
+        717,
+        69,
+        396,
+        524
+      ],
+      "nativePixelHash": "d093bf8197655d5f1b2ed000df6ca0465c9b3ca5fe928552063f729f05476d31"
+    },
+    {
+      "id": 6,
+      "description": "rear passing",
+      "sourceIndex": 8,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceCell": 8,
+      "sourceBounds": [
+        74,
+        645,
+        184,
+        259
+      ],
+      "nativePixelHash": "e0ef4af8ec02efe6c1148bafa2cb4372f6f4731e5775db498815f9852774fcc4"
+    },
+    {
+      "id": 7,
+      "description": "front contact A",
+      "sourceIndex": 4,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceCell": 4,
+      "sourceBounds": [
+        71,
+        343,
+        181,
+        271
+      ],
+      "nativePixelHash": "5096b1fd718028176fa5fbeb96c5e6f5361acf82ee5026c4dba0f3527d092983"
+    },
+    {
+      "id": 8,
+      "description": "front passing A",
+      "sourceIndex": 20,
+      "sourceFile": "assets/imagegen/prophet/source-v3-front-passing.png",
+      "sourceCell": 0,
+      "sourceBounds": [
+        315,
+        81,
+        470,
+        728
+      ],
+      "nativePixelHash": "8a8ea443378fe8731e308e3582eacef81a890efd336fe61b7048bafff55c0c58"
+    },
+    {
+      "id": 9,
+      "description": "front contact B",
+      "sourceIndex": 6,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceCell": 6,
+      "sourceBounds": [
+        691,
+        343,
+        183,
+        271
+      ],
+      "nativePixelHash": "b568f3f0b358d6bf8de6ef0a321504bff1e18616fbede635cb6146a57eed7b9b"
+    },
+    {
+      "id": 10,
+      "description": "front passing alternate",
+      "sourceIndex": 21,
+      "sourceFile": "assets/imagegen/prophet/source-v3-front-passing.png",
+      "sourceCell": 1,
+      "sourceBounds": [
+        991,
+        81,
+        467,
+        728
+      ],
+      "nativePixelHash": "7b875845666d82f7c6ab8f4f25587ce94a530f1b2901d34d734a00d381f6a2e6"
+    },
+    {
+      "id": 11,
+      "description": "left contact A",
+      "sourceIndex": 12,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceCell": 12,
+      "sourceBounds": [
+        74,
+        942,
+        200,
+        263
+      ],
+      "nativePixelHash": "2330cec2af47c867fb9577187247ca44f156642fe498cd48a12e591e9075a6c7"
+    },
+    {
+      "id": 12,
+      "description": "left contact B",
+      "sourceIndex": 18,
+      "sourceFile": "assets/imagegen/prophet/source-v2-corrections.png",
+      "sourceCell": 2,
+      "sourceBounds": [
+        184,
+        662,
+        383,
+        503
+      ],
+      "nativePixelHash": "287e8b9e4526bb16125951476dc714e910a37df62897b2fedeec0a06188ca126"
+    },
+    {
+      "id": 13,
+      "description": "right contact A",
+      "sourceIndex": 10,
+      "sourceFile": "assets/imagegen/prophet/source-v1.png",
+      "sourceCell": 10,
+      "sourceBounds": [
+        666,
+        648,
+        199,
+        256
+      ],
+      "nativePixelHash": "89590942327abf555a26a697e6604508139b559b1588dbd23552dbaf6c350982"
+    },
+    {
+      "id": 14,
+      "description": "right contact B",
+      "sourceIndex": 19,
+      "sourceFile": "assets/imagegen/prophet/source-v2-corrections.png",
+      "sourceCell": 3,
+      "sourceBounds": [
+        700,
+        662,
+        374,
+        503
+      ],
+      "nativePixelHash": "2db4c340e4d9b342f5a573b29122c12136a65cda9416fadeffb53964dcabce4f"
+    }
+  ],
+  "sourceRoleLimits": [
+    "The v3 second cell is an alternate drawing of the same supporting-side passing pose, not an opposite supporting-side pose. It is suitable as the compact return passing drawing but is not claimed as a new left/right contact.",
+    "The exact passing-versus-contact labels for original fully cloaked animation frames are inferred from their place between the two contacts and their narrower silhouettes. Original distinct slot images and four-step list order are verified."
+  ],
+  "current": {
+    "nativeSlots": 15,
+    "uniqueNativeImages": 13,
+    "compressedGraphicsBytes": 3409
+  },
+  "proposed": {
+    "nativeSlots": 15,
+    "uniqueNativeImages": 15,
+    "tiles": 199,
+    "graphicsBytes": 6368,
+    "compressedGraphicsBytes": 3794,
+    "assemblyBytes": 600,
+    "compressedDeltaVersusCurrent": 385,
+    "compressedDeltaVersusProcedural": 3265
+  },
+  "activation": false,
+  "leadReview": {
+    "approved": true,
+    "scales": [
+      1,
+      3
+    ],
+    "approvedProposal": "Preserve all15 distinct native slots via explicit phase3 mapping for slots6/10",
+    "nativeUploaded": false
+  }
+}

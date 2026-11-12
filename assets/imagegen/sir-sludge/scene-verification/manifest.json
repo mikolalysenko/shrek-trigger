@@ -1,0 +1,167 @@
+{
+  "status": "Private authored scene proofs passed",
+  "baseline": {
+    "path": "assets/imagegen/sir-sludge/private-baseline.sfc",
+    "sha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "commit": "a8d9f5d",
+    "scope": "Fixed private baseline; excluded from source freeze and never canonical output"
+  },
+  "privateRomSha256": "492317c7343a5c18d9eaa043a486a00b7778231962e4bdf8e8950b10fa224696",
+  "nativeTicks": 25954,
+  "scenes": [
+    {
+      "name": "sewer",
+      "nativeTicks": 17044,
+      "heapMax": 3456,
+      "result": {
+        "formations": [
+          [
+            42,
+            42,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          [
+            255,
+            255,
+            255,
+            255,
+            4,
+            255,
+            255,
+            255
+          ],
+          [
+            99,
+            99,
+            42,
+            42,
+            255,
+            255,
+            255,
+            255
+          ]
+        ],
+        "frogSceneLastLine": 47,
+        "flags": 24,
+        "treasure": {
+          "id": 15,
+          "quantity": 1
+        },
+        "bridgeStates": [
+          2,
+          0,
+          2
+        ],
+        "destination": 498,
+        "story": 52
+      },
+      "party": [
+        {
+          "id": 0,
+          "hp": 1
+        },
+        {
+          "id": 1,
+          "hp": 999
+        },
+        {
+          "id": 2,
+          "hp": 999
+        }
+      ],
+      "proof": "assets/imagegen/sir-sludge/scene-verification/sewer.json"
+    },
+    {
+      "name": "desert",
+      "nativeTicks": 5622,
+      "heapMax": 1248,
+      "result": {
+        "formation": [
+          101,
+          101,
+          101,
+          255,
+          255,
+          255,
+          238,
+          255
+        ],
+        "controllerAttackIterations": 39,
+        "encounterFlag1AD": 4,
+        "location": 160
+      },
+      "party": [
+        {
+          "id": 0,
+          "hp": 807
+        },
+        {
+          "id": 1,
+          "hp": 766
+        },
+        {
+          "id": 2,
+          "hp": 999
+        }
+      ],
+      "proof": "assets/imagegen/sir-sludge/scene-verification/desert.json"
+    },
+    {
+      "name": "ending",
+      "nativeTicks": 1888,
+      "heapMax": 12416,
+      "result": {
+        "location": 95,
+        "targetPose": 21,
+        "captures": 3,
+        "scope": "Original montage segment only, entered through a diagnostic transition; not the complete ending route"
+      },
+      "party": [
+        {
+          "id": 0,
+          "hp": 999
+        },
+        {
+          "id": 1,
+          "hp": 999
+        },
+        {
+          "id": 2,
+          "hp": 999
+        }
+      ],
+      "proof": "assets/imagegen/sir-sludge/scene-verification/ending.json"
+    },
+    {
+      "name": "dream",
+      "nativeTicks": 1400,
+      "heapMax": 17984,
+      "result": {
+        "location": 341,
+        "scope": "Original Dream Project cell scene load and native acting; dialogue continuation not yet claimed"
+      },
+      "party": [
+        {
+          "id": 0,
+          "hp": 999
+        },
+        {
+          "id": 1,
+          "hp": 999
+        },
+        {
+          "id": 2,
+          "hp": 999
+        }
+      ],
+      "proof": "assets/imagegen/sir-sludge/scene-verification/dream.json"
+    }
+  ],
+  "scope": "Diagnostic entry, followed by unchanged native events/controllers. Upper sewer and one mixed desert battle are controller victories. Ending94 is one montage segment; Dream341 is scene load/acting only. Independent cores and complete connected chapter coverage remain root-owned."
+}

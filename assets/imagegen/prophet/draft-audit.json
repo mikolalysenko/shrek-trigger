@@ -1,0 +1,243 @@
+{
+  "key": "prophet",
+  "status": "Lead visual review approved; root approved15-distinct-slot proposal; inactive pending capacity/integration work",
+  "nativeFrames": 15,
+  "sourceFrames": 22,
+  "rasterDraftFrames": 15,
+  "proceduralDraftFrames": 0,
+  "missing": [],
+  "tiles": 177,
+  "graphicsBytes": 5664,
+  "compressedGraphicsBytes": 3409,
+  "assemblyBytes": 600,
+  "previous": {
+    "tiles": 40,
+    "graphicsBytes": 1280,
+    "compressedGraphicsBytes": 529,
+    "assemblyBytes": 600
+  },
+  "sources": [
+    {
+      "file": "assets/imagegen/prophet/source-v1.png",
+      "sha256": "551be393fcddc77bd50b6ac0a0194cff03570238fb86907fe7a9c9f160b79456",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/prophet/source-v2-corrections.png",
+      "sha256": "fb4055804d92439fdd752bc243bf89c1b3d6e6557763cee7fe1ae872467b7c2a",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/prophet/source-v3-front-passing.png",
+      "sha256": "44ade3cf9087e1587ca08c01be58f2e7a228e95e1506ba7a0ced540cc0544e7d",
+      "sourceType": "image-generation"
+    }
+  ],
+  "sampling": [
+    {
+      "file": "assets/imagegen/prophet/source-v1.png",
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sample": {
+        "method": "area",
+        "scaleX": 1.1
+      },
+      "overrides": {}
+    },
+    {
+      "file": "assets/imagegen/prophet/source-v2-corrections.png",
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1
+      ],
+      "sample": {
+        "method": "area",
+        "scaleX": 1.1
+      },
+      "overrides": {
+        "2": {
+          "scale": 1.04
+        },
+        "3": {
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/prophet/source-v3-front-passing.png",
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1
+      ],
+      "sample": {
+        "method": "area",
+        "scaleX": 1.1
+      },
+      "overrides": {}
+    }
+  ],
+  "map": [
+    {
+      "facing": 0,
+      "pose": "idle",
+      "phase": 0
+    },
+    {
+      "facing": 1,
+      "pose": "idle",
+      "phase": 0
+    },
+    {
+      "facing": 2,
+      "pose": "idle",
+      "phase": 0
+    },
+    {
+      "facing": 3,
+      "pose": "idle",
+      "phase": 0
+    },
+    {
+      "facing": 0,
+      "pose": "walk",
+      "phase": 0
+    },
+    {
+      "facing": 0,
+      "pose": "walk",
+      "phase": 2
+    },
+    {
+      "facing": 0,
+      "pose": "walk",
+      "phase": 0
+    },
+    {
+      "facing": 1,
+      "pose": "walk",
+      "phase": 0
+    },
+    {
+      "facing": 1,
+      "pose": "walk",
+      "phase": 1
+    },
+    {
+      "facing": 1,
+      "pose": "walk",
+      "phase": 2
+    },
+    {
+      "facing": 1,
+      "pose": "walk",
+      "phase": 0
+    },
+    {
+      "facing": 2,
+      "pose": "walk",
+      "phase": 0
+    },
+    {
+      "facing": 2,
+      "pose": "walk",
+      "phase": 2
+    },
+    {
+      "facing": 3,
+      "pose": "walk",
+      "phase": 0
+    },
+    {
+      "facing": 3,
+      "pose": "walk",
+      "phase": 2
+    }
+  ],
+  "uniqueNativeImages": 13,
+  "nativeUpload": false,
+  "compressedGraphicsDelta": 2880,
+  "validation": {
+    "allFifteenSlotsPresent": true,
+    "unchangedPalette": true,
+    "twelveOpaqueColorLimit": true,
+    "fourNative16x16Cells": true,
+    "compressionRoundTrip": true,
+    "all4bppFramesRoundTrip": true,
+    "canonicalRegistryInactive": true,
+    "motionPreviewJavaScript": true,
+    "motionPreviewMatchesCartridgeSlotOrder": true
+  },
+  "nativeWalkTimelines": [
+    {
+      "direction": "back",
+      "slots": [
+        4,
+        0,
+        5,
+        6
+      ]
+    },
+    {
+      "direction": "front",
+      "slots": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "direction": "left",
+      "slots": [
+        11,
+        2,
+        12,
+        2
+      ]
+    },
+    {
+      "direction": "right",
+      "slots": [
+        13,
+        3,
+        14,
+        3
+      ]
+    }
+  ],
+  "visualReview": {
+    "scales": [
+      1,
+      3
+    ],
+    "allCurrentNativeSlotsReviewed": true,
+    "selectedSampling": "Area voting, horizontal scale1.1, 28px source reference height. The two v2 profile corrections use scale1.04 to match the native head/body height.",
+    "preservedIdentity": "Short adult Farquaad; purple hood, adult jaw, pointed nose, black bob, gold clasp, red tunic, dark boots.",
+    "actingSlots": "The current Prophet role table contains four direction idles and walking only; no acting slot was invented.",
+    "limitations": [
+      "Current generic map collapses slots4/6 and7/10; draft preserves it and does not claim15 distinct source phases.",
+      "No in-ROM scene or emulator upload validation was run because the requested draft is intentionally inactive."
+    ],
+    "sourceReview": "source-roles.draft.json",
+    "nativeSheet": "native-frames.png",
+    "motion": "motion.html",
+    "separateMappingProposal": "mapping-proposal.draft.json",
+    "leadApproved": true
+  },
+  "leadReview": {
+    "approved": true,
+    "scales": [
+      1,
+      3
+    ],
+    "approvedProposal": "Preserve all15 distinct native slots via explicit phase3 mapping for slots6/10",
+    "nativeUploaded": false
+  }
+}

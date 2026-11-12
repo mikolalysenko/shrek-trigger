@@ -1,0 +1,585 @@
+{
+  "key": "wishworks-golems",
+  "sourceType": "image-generation",
+  "width": 96,
+  "height": 112,
+  "palette": [
+    "292910",
+    "ffffff",
+    "bdd6d6",
+    "637bb5",
+    "bdd6ff",
+    "f7e784",
+    "ce9c42",
+    "848c6b",
+    "944a52",
+    "8c6308",
+    "525a6b",
+    "393929"
+  ],
+  "directory": "assets/imagegen/rumpelstiltskin-wishworks/wishworks-golems-draft",
+  "sheets": [
+    {
+      "file": "assets/imagegen/rumpelstiltskin-wishworks/golems-source-v1.png",
+      "columns": 4,
+      "rows": 2,
+      "nativeHeight": 52,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 95,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    },
+    {
+      "file": "assets/imagegen/rumpelstiltskin-wishworks/golem-reaction-source-v2.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 60,
+      "scaleCells": [
+        0
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 95,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        {
+          "frame": 0,
+          "dx": 1,
+          "dy": -18
+        },
+        {
+          "frame": 1,
+          "dx": 1,
+          "dy": -16
+        },
+        {
+          "frame": 2,
+          "dx": 1,
+          "dy": -14
+        },
+        {
+          "frame": 8,
+          "dx": 1,
+          "dy": -20
+        },
+        {
+          "frame": 4,
+          "dx": 0,
+          "dy": -15
+        },
+        {
+          "frame": 5,
+          "dx": 0,
+          "dy": -14
+        },
+        {
+          "frame": 6,
+          "dx": 1,
+          "dy": -16
+        },
+        {
+          "frame": 7,
+          "dx": 1,
+          "dy": -16
+        }
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "adapted",
+        "reason": "Generated wishworks construct in eight original frontal hover, reaction, jaw and arm-release roles; native four facings intentionally share these views."
+      }
+    }
+  },
+  "notes": {
+    "status": "Frozen inactive source candidate",
+    "anchor": [
+      0,
+      16
+    ],
+    "frameCellOrigins": [
+      [
+        [
+          40,
+          46
+        ],
+        [
+          40,
+          14
+        ],
+        [
+          64,
+          30
+        ],
+        [
+          48,
+          30
+        ],
+        [
+          72,
+          46
+        ],
+        [
+          56,
+          46
+        ],
+        [
+          48,
+          62
+        ],
+        [
+          33,
+          30
+        ],
+        [
+          17,
+          30
+        ],
+        [
+          9,
+          46
+        ],
+        [
+          25,
+          46
+        ],
+        [
+          33,
+          62
+        ]
+      ],
+      [
+        [
+          40,
+          48
+        ],
+        [
+          40,
+          16
+        ],
+        [
+          64,
+          32
+        ],
+        [
+          48,
+          32
+        ],
+        [
+          72,
+          48
+        ],
+        [
+          56,
+          48
+        ],
+        [
+          48,
+          64
+        ],
+        [
+          33,
+          32
+        ],
+        [
+          17,
+          32
+        ],
+        [
+          9,
+          48
+        ],
+        [
+          25,
+          48
+        ],
+        [
+          33,
+          64
+        ]
+      ],
+      [
+        [
+          40,
+          50
+        ],
+        [
+          40,
+          18
+        ],
+        [
+          64,
+          34
+        ],
+        [
+          48,
+          34
+        ],
+        [
+          71,
+          50
+        ],
+        [
+          56,
+          50
+        ],
+        [
+          48,
+          66
+        ],
+        [
+          33,
+          34
+        ],
+        [
+          17,
+          34
+        ],
+        [
+          10,
+          50
+        ],
+        [
+          25,
+          50
+        ],
+        [
+          33,
+          66
+        ]
+      ],
+      [
+        [
+          40,
+          48
+        ],
+        [
+          40,
+          16
+        ],
+        [
+          64,
+          32
+        ],
+        [
+          48,
+          32
+        ],
+        [
+          72,
+          48
+        ],
+        [
+          56,
+          48
+        ],
+        [
+          48,
+          64
+        ],
+        [
+          33,
+          32
+        ],
+        [
+          17,
+          32
+        ],
+        [
+          9,
+          48
+        ],
+        [
+          25,
+          48
+        ],
+        [
+          33,
+          64
+        ]
+      ],
+      [
+        [
+          40,
+          77
+        ],
+        [
+          56,
+          29
+        ],
+        [
+          40,
+          29
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          64,
+          45
+        ],
+        [
+          48,
+          45
+        ],
+        [
+          64,
+          61
+        ],
+        [
+          48,
+          61
+        ],
+        [
+          16,
+          45
+        ],
+        [
+          32,
+          45
+        ],
+        [
+          16,
+          61
+        ],
+        [
+          32,
+          61
+        ]
+      ],
+      [
+        [
+          40,
+          78
+        ],
+        [
+          56,
+          30
+        ],
+        [
+          40,
+          30
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          64,
+          46
+        ],
+        [
+          48,
+          46
+        ],
+        [
+          64,
+          62
+        ],
+        [
+          48,
+          62
+        ],
+        [
+          16,
+          46
+        ],
+        [
+          32,
+          46
+        ],
+        [
+          16,
+          62
+        ],
+        [
+          32,
+          62
+        ]
+      ],
+      [
+        [
+          40,
+          48
+        ],
+        [
+          40,
+          16
+        ],
+        [
+          64,
+          32
+        ],
+        [
+          48,
+          32
+        ],
+        [
+          72,
+          48
+        ],
+        [
+          56,
+          48
+        ],
+        [
+          48,
+          64
+        ],
+        [
+          33,
+          32
+        ],
+        [
+          17,
+          32
+        ],
+        [
+          9,
+          48
+        ],
+        [
+          25,
+          48
+        ],
+        [
+          33,
+          64
+        ]
+      ],
+      [
+        [
+          40,
+          48
+        ],
+        [
+          40,
+          16
+        ],
+        [
+          64,
+          32
+        ],
+        [
+          48,
+          32
+        ],
+        [
+          72,
+          40
+        ],
+        [
+          56,
+          48
+        ],
+        [
+          48,
+          64
+        ],
+        [
+          33,
+          32
+        ],
+        [
+          17,
+          32
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          25,
+          48
+        ],
+        [
+          33,
+          64
+        ]
+      ]
+    ],
+    "cellOverlapFrames": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    "placementAdjustments": {
+      "3": [
+        0,
+        -4
+      ],
+      "4": [
+        0,
+        2
+      ],
+      "5": [
+        0,
+        4
+      ]
+    },
+    "placementReason": "Integer translation of complete sampled source to preserve every opaque extremity inside the unchanged original OAM cells; no clipping, painting or anisotropic resize.",
+    "originalSignedXY": "Preserved exactly after compile anchor",
+    "palette": "Original twelve-color ramp unchanged",
+    "sourceMap": [
+      {
+        "nativeFrame": 0,
+        "source": 0
+      },
+      {
+        "nativeFrame": 1,
+        "source": 1
+      },
+      {
+        "nativeFrame": 2,
+        "source": 2
+      },
+      {
+        "nativeFrame": 3,
+        "source": 8
+      },
+      {
+        "nativeFrame": 4,
+        "source": 4
+      },
+      {
+        "nativeFrame": 5,
+        "source": 5
+      },
+      {
+        "nativeFrame": 6,
+        "source": 6
+      },
+      {
+        "nativeFrame": 7,
+        "source": 7
+      }
+    ]
+  }
+}

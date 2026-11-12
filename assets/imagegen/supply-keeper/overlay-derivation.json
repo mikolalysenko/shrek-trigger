@@ -1,0 +1,199 @@
+{
+  "source": "source-overlays-v1.png",
+  "sourceSha256": "d667fa7bf66db59078fc27f6c5b21877f6678d3ee79838d1138819d924c7ec4c",
+  "method": "Actual generated lamp/keyhole/trail components are palette sampled and placed at the original overlay envelopes. Each complete left lamp and discharge is exactly mirrored to the right. No colored pixels are painted; blank frame remains blank.",
+  "parts": [
+    {
+      "name": "lamps",
+      "spec": "parts-lamps-spec.json",
+      "sampleAudit": "parts-lamps/preview-import.json"
+    },
+    {
+      "name": "keyholes",
+      "spec": "parts-keyholes-spec.json",
+      "sampleAudit": "parts-keyholes/preview-import.json"
+    },
+    {
+      "name": "trails",
+      "spec": "parts-trails-spec.json",
+      "sampleAudit": "parts-trails/preview-import.json"
+    }
+  ],
+  "roles": [
+    {
+      "frame": 0,
+      "role": "warning-ignition",
+      "originalDuration": 15,
+      "source": "source-overlays-v1.png",
+      "parts": [
+        {
+          "part": "lamps",
+          "sourceFrame": 0,
+          "sourceBounds": [
+            1,
+            16,
+            14,
+            32
+          ],
+          "targetOrigin": [
+            0,
+            8
+          ],
+          "wholeSourceHorizontalMirror": true
+        },
+        {
+          "part": "keyholes",
+          "sourceFrame": 0,
+          "sourceBounds": [
+            0,
+            20,
+            15,
+            32
+          ],
+          "targetOrigin": [
+            24,
+            40
+          ],
+          "wholeSourceHorizontalMirror": false
+        },
+        {
+          "part": "trails",
+          "sourceFrame": 0,
+          "sourceBounds": [
+            3,
+            20,
+            13,
+            32
+          ],
+          "targetOrigin": [
+            0,
+            45
+          ],
+          "wholeSourceHorizontalMirror": true
+        }
+      ],
+      "interpretation": "Original paired upper lights, central aperture and growing lower side discharges become brass warning lamps, keyhole and curled magical trails; original placement envelopes and native timing are retained.",
+      "pixelSha256": "0a513db29a0b633cca7cf70afab79bd8b482b1747391ef0c48d407d0a3c37a34",
+      "opaquePixels": 572
+    },
+    {
+      "frame": 1,
+      "role": "discharge-unfurl",
+      "originalDuration": 15,
+      "source": "source-overlays-v1.png",
+      "parts": [
+        {
+          "part": "lamps",
+          "sourceFrame": 1,
+          "sourceBounds": [
+            1,
+            16,
+            14,
+            32
+          ],
+          "targetOrigin": [
+            0,
+            8
+          ],
+          "wholeSourceHorizontalMirror": true
+        },
+        {
+          "part": "keyholes",
+          "sourceFrame": 1,
+          "sourceBounds": [
+            0,
+            20,
+            15,
+            32
+          ],
+          "targetOrigin": [
+            24,
+            40
+          ],
+          "wholeSourceHorizontalMirror": false
+        },
+        {
+          "part": "trails",
+          "sourceFrame": 1,
+          "sourceBounds": [
+            2,
+            16,
+            13,
+            32
+          ],
+          "targetOrigin": [
+            0,
+            45
+          ],
+          "wholeSourceHorizontalMirror": true
+        }
+      ],
+      "interpretation": "Original paired upper lights, central aperture and growing lower side discharges become brass warning lamps, keyhole and curled magical trails; original placement envelopes and native timing are retained.",
+      "pixelSha256": "931e3fa861ebae968af267d0682c3b3f780a8d3d3731afd3c59ea9202fe5bdce",
+      "opaquePixels": 629
+    },
+    {
+      "frame": 2,
+      "role": "discharge-hold",
+      "originalDuration": 47,
+      "source": "source-overlays-v1.png",
+      "parts": [
+        {
+          "part": "lamps",
+          "sourceFrame": 2,
+          "sourceBounds": [
+            1,
+            16,
+            14,
+            32
+          ],
+          "targetOrigin": [
+            0,
+            8
+          ],
+          "wholeSourceHorizontalMirror": true
+        },
+        {
+          "part": "keyholes",
+          "sourceFrame": 2,
+          "sourceBounds": [
+            0,
+            20,
+            16,
+            32
+          ],
+          "targetOrigin": [
+            24,
+            40
+          ],
+          "wholeSourceHorizontalMirror": false
+        },
+        {
+          "part": "trails",
+          "sourceFrame": 2,
+          "sourceBounds": [
+            2,
+            13,
+            14,
+            32
+          ],
+          "targetOrigin": [
+            0,
+            45
+          ],
+          "wholeSourceHorizontalMirror": true
+        }
+      ],
+      "interpretation": "Original paired upper lights, central aperture and growing lower side discharges become brass warning lamps, keyhole and curled magical trails; original placement envelopes and native timing are retained.",
+      "pixelSha256": "39c7b4e1c838665af1f450da3f98d91a2ed1071b01e6adc1d0f4232c37ff0b18",
+      "opaquePixels": 671
+    },
+    {
+      "frame": 3,
+      "role": "rest-blank",
+      "blank": true,
+      "source": null,
+      "interpretation": "Original blank overlay preserved; the stationary body remains a background."
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "key": "sir-bram-ghost",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "292910",
+    "ffffff",
+    "eff7ff",
+    "c6bda5",
+    "c6a531",
+    "adad73",
+    "8c8c73",
+    "8c6318",
+    "6b735a",
+    "6b6329",
+    "425252",
+    "393929"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/sir-bram-ghost/source-movement-v1.png",
+      "columns": 3,
+      "rows": 4,
+      "nativeHeight": 47,
+      "scaleCells": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scale": 1,
+          "note": "Whole-source normalization to the original47px movement height."
+        },
+        "1": {
+          "scale": 1,
+          "note": "Whole-source normalization to the original47px movement height."
+        },
+        "2": {
+          "scale": 1,
+          "note": "Whole-source normalization to the original47px movement height."
+        },
+        "3": {
+          "scale": 0.9823321554770318,
+          "note": "Whole-source normalization to the original47px movement height."
+        },
+        "4": {
+          "scale": 0.9858156028368794,
+          "note": "Whole-source normalization to the original47px movement height."
+        },
+        "5": {
+          "scale": 0.9858156028368794,
+          "note": "Whole-source normalization to the original47px movement height."
+        },
+        "6": {
+          "scale": 1.037313432835821,
+          "note": "Whole-source normalization to the original47px movement height."
+        },
+        "7": {
+          "scale": 1.0296296296296297,
+          "note": "Whole-source normalization to the original47px movement height."
+        },
+        "8": {
+          "scale": 1.0296296296296297,
+          "note": "Whole-source normalization to the original47px movement height."
+        },
+        "9": {
+          "scale": 1.033457249070632,
+          "note": "Whole-source normalization to the original47px movement height."
+        },
+        "10": {
+          "scale": 1.0258302583025831,
+          "note": "Whole-source normalization to the original47px movement height."
+        },
+        "11": {
+          "scale": 1.0296296296296297,
+          "note": "Whole-source normalization to the original47px movement height."
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/sir-bram-ghost/source-actions-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 47,
+      "scaleCells": [
+        8
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 63
+      },
+      "overrides": {}
+    },
+    {
+      "file": "assets/imagegen/sir-bram-ghost/source-dispersal-v1.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 46,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "area",
+        "bottom": 63
+      },
+      "overrides": {
+        "0": {
+          "scaleX": 0.9621067515022975,
+          "note": "Whole-source horizontal fit for the original64x48 dispersal cell arrangement."
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        20,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        {
+          "frame": 18,
+          "flip": true
+        },
+        19,
+        21
+      ]
+    },
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        20
+      ],
+      "2": [
+        7
+      ],
+      "3": [
+        10
+      ]
+    },
+    "walk": {
+      "0": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "1": [
+        3,
+        20,
+        5,
+        20
+      ],
+      "2": [
+        6,
+        7,
+        8,
+        7
+      ],
+      "3": [
+        9,
+        10,
+        11,
+        10
+      ]
+    },
+    "attack": {
+      "1": [
+        13
+      ],
+      "2": [
+        12,
+        13,
+        14
+      ],
+      "3": [
+        15,
+        13,
+        16
+      ]
+    },
+    "threat": {
+      "1": [
+        17
+      ]
+    },
+    "reach": {
+      "2": [
+        {
+          "frame": 18,
+          "flip": true
+        }
+      ],
+      "3": [
+        19
+      ]
+    },
+    "disperse": {
+      "1": [
+        21
+      ]
+    }
+  },
+  "notes": {
+    "status": "Inactive hostile ghost draft, distinct from living Sir Bram NPC53.",
+    "material": "All opaque pixels sampled from actual built-in imagegen source PNGs. No procedural character drawing or painted native pixels.",
+    "nativeContract": "Enemy143 retains21 original slot IDs,12 native16x16 cells, palette209, graphics181, assembly178 and animation136. The64x64 import canvas is a staging image; only12 native cells per frame are compiled.",
+    "identity": "Same open steel helmet, mature short-bearded face, armored shoulders/breastplate/greaves and single-edged small hatchet as accepted living Bram. Original ivory/sepia/steel ghost palette stays unchanged.",
+    "sourceRoles": "Movement cell4 has the hatchet on the wrong side and is unused; actual corrected front idle is actions cell8. Actions cell6 faces right rather than the requested left, and is mirrored for the native left reach. Actual pixel source and adaptation are explicit in the frame audit.",
+    "dispersal": "Slot20 uses a dedicated generated armor/cloth/spirit dispersal composition, with all disconnected source components retained via union selection.",
+    "activation": "No active engine/registry/ROM writes."
+  },
+  "directory": "assets/imagegen/sir-bram-ghost/candidates/area"
+}

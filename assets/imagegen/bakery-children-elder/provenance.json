@@ -1,0 +1,130 @@
+{
+  "status": "Inactive generated-source package",
+  "sourceType": "image-generation",
+  "sources": [
+    {
+      "key": "child-base-v1",
+      "file": "source-child-base-v1.png",
+      "prompt": "prompt-child-base-v1.txt",
+      "sha256": "646f3af8b30b60260e9a851414dd2c930ba474bff892efe40a8ed9412d23549e",
+      "promptSha256": "77db422ce2037f0e24b4488b62454a80d11ae363a7bde0bbd7320dfc7d62149e",
+      "generator": "Built-in image_gen tool",
+      "originalGeneratedPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-7f0d1eab-5342-4c37-81f7-099f100e2aa2.png",
+      "reference": {
+        "file": "assets/imagegen/bakery-civilians/source-baker-base-v1.png",
+        "sha256": "8b4d10ffb25c564034287f2aadf640f116710c7e2f9cd919ddb66173ce7ec523",
+        "role": "Previously generated Bakery style/world reference; viewed before generation; not sampled in conversion"
+      },
+      "selected": "11 actual figures in a3×4sheet; unused final cell excluded."
+    },
+    {
+      "key": "elder-base-v1",
+      "file": "source-elder-base-v1.png",
+      "prompt": "prompt-elder-base-v1.txt",
+      "sha256": "4bb78d4ce146c292a9c75a8f46fa25b15c47ab96ca4e628b7e2c9ac274af78bb",
+      "promptSha256": "e13d51ea4293af1a09e845b57c2387f48dab13dfcd6270cf7d11a5ba61d08562",
+      "generator": "Built-in image_gen tool",
+      "originalGeneratedPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-c6922668-62fe-430b-84e0-451254d32dab.png",
+      "reference": {
+        "file": "assets/imagegen/bakery-civilians/source-porter-base-v1.png",
+        "sha256": "a5240abe170af0364d38214a768ec0d7b4807d177a1c694b22c25c913ba6303f",
+        "role": "Previously generated Bakery style/world reference; viewed before generation; not sampled in conversion"
+      },
+      "selected": "13 actual full-body figures in a4×4sheet; empty cells excluded."
+    }
+  ],
+  "designBasis": [
+    "docs/bakery.md",
+    "docs/game-design.md",
+    "docs/credits.md",
+    "content/bakery-dialogue.js",
+    "content/bakery-villagers.js",
+    "engine/bakery-village-art.js"
+  ],
+  "nativeRoleBasis": "Original validated user cartridge decoded and viewed before generation. No original-game pixels sampled into artwork.",
+  "derivation": {
+    "method": "Area sampling with alpha128 and coverage0.28",
+    "canvas": [
+      32,
+      32
+    ],
+    "palettes": "Existing exact12-color shared village ramps123/124",
+    "nativeHeight": {
+      "child": 22,
+      "elder": 29
+    },
+    "mirrors": "Original native side mirror pairs retained; cane remains in the same hand across generated front/back sources.",
+    "blanks": {
+      "child": [
+        14
+      ],
+      "elder": [
+        16
+      ],
+      "method": "Existing full transparency mask dissolve11; no new source pose"
+    },
+    "upperHeadCrop": {
+      "sourceType": "Deterministic crop of actual generated-source native sampling",
+      "source": "source-elder-base-v1.png",
+      "sourceSha256": "4bb78d4ce146c292a9c75a8f46fa25b15c47ab96ca4e628b7e2c9ac274af78bb",
+      "samplingSpec": "elder-base-spec.json",
+      "samplingSpecSha256": "e07dc60eca41525b354dd4487878d6ac1bc82ff2bdf4af74ee1a54d4143a3c26",
+      "sampledRasterSha256": "0057cff79a9d4a0b74e6ee9dd261db736b6a9fb1b7661e3690f18c6334fffde5",
+      "sourcePose": 2,
+      "sourcePixelsSha256": "adf11cc787336f73d9b49e7793155822d111c72b0690fedd884ade7e9a72475f",
+      "crop": [
+        0,
+        0,
+        32,
+        9
+      ],
+      "reason": "Preserve existing upper-head-only native roles17/18; source original occupies an8pxband and current project masks rows9–31.",
+      "changedPixels": "Only hide rows9–31. No added anatomy, outline or color changes.",
+      "derivedPng": "derived-elder-head-left.png",
+      "derivedPngSha256": "d648418c814c82c7c9eb2d8075412d1d39b88a806225244cb90e1e5badff95e3",
+      "nativeFragmentSha256": "83d79ed69e2cb1689e210b8147c9e3cac85300f65a14cdcd5d552d6a464dabf4",
+      "opaquePixels": 56,
+      "bounds": [
+        10,
+        3,
+        14,
+        6
+      ],
+      "importSample": {
+        "nativeHeight": 6,
+        "sample": {
+          "method": "nearest",
+          "bottom": 8,
+          "dx": 1,
+          "alphaThreshold": 128,
+          "coverageThreshold": 0.28
+        }
+      },
+      "rightFragment": "Exact horizontal mirror"
+    },
+    "proceduralAnatomy": false,
+    "pixelPainting": false,
+    "outlineExpansion": false
+  },
+  "visualReview": {
+    "lead": "sprite_art_pass",
+    "baseModelsApproved": true,
+    "fullNativeSheetsApproved": true,
+    "headFragmentsApproved": true,
+    "northChildRecolorApproved": false,
+    "scope": "Static approval is separate from actual execution manifests.",
+    "assessment": "Small iced-bun child remains expressive; lobed brioche, beard, robe and cane distinguish elder. True blank slots and56-pixel source head fragments are explicit.",
+    "root": {
+      "fullNativeContactApproved": true,
+      "northChildRecolorApproved": true,
+      "assessment": "Consistent baked silhouettes, all walking directions, original blanks and both source-derived head fragments accepted."
+    }
+  },
+  "limitations": [
+    "Fine faces are simple at native size; icing, berry buttons, beard, robe and cane carry identity.",
+    "Original shared assembly7/11 remains owned by unrelated actors; only private245/246 can change.",
+    "Whole scene, chapter-event and production raw-stream behavior are root integration checks.",
+    "Private source proofs use a fixed saved build; current whole-scene budgets must be recalculated."
+  ],
+  "credentials": "Built-in generation only; no API fallback used."
+}

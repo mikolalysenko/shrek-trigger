@@ -1,0 +1,164 @@
+{
+  "status": "passed",
+  "scope": "Direct compiled original/new native-geometry motion comparison; actual game scheduler execution is recorded separately in native-timing-proof.json.",
+  "originalRomSha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+  "sourceGraphicsSha256": "8ceb16af03ab0e3911ae8632a88d0b51cb941371203936e47ae2d976cba0f4d4",
+  "sourceAssemblySha256": "479f6a007db9171b509e632f3a6a7d6b9a8d71185e38c2f85dd76ea1a9f00b45",
+  "nativeLists": [
+    {
+      "facing": 0,
+      "animation": 1,
+      "frames": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "durations": [
+        10,
+        5,
+        10,
+        5
+      ]
+    },
+    {
+      "facing": 1,
+      "animation": 1,
+      "frames": [
+        3,
+        4,
+        5,
+        4
+      ],
+      "durations": [
+        10,
+        5,
+        10,
+        5
+      ]
+    }
+  ],
+  "framesPerSecond": 60,
+  "loopVideoFrames": 30,
+  "apngTiming": "Lossless APNG, rational 1/60 second per frame",
+  "metrics": [
+    {
+      "frame": 0,
+      "originalBounds": [
+        -17,
+        -64,
+        35,
+        64
+      ],
+      "proposedBodyBounds": [
+        -15,
+        -58,
+        32,
+        58
+      ],
+      "originalBottom": -1,
+      "proposedBottom": -1
+    },
+    {
+      "frame": 1,
+      "originalBounds": [
+        -17,
+        -63,
+        35,
+        64
+      ],
+      "proposedBodyBounds": [
+        -15,
+        -56,
+        32,
+        57
+      ],
+      "originalBottom": 0,
+      "proposedBottom": 0
+    },
+    {
+      "frame": 2,
+      "originalBounds": [
+        -17,
+        -64,
+        35,
+        64
+      ],
+      "proposedBodyBounds": [
+        -15,
+        -58,
+        32,
+        58
+      ],
+      "originalBottom": -1,
+      "proposedBottom": -1
+    },
+    {
+      "frame": 3,
+      "originalBounds": [
+        -17,
+        -64,
+        35,
+        64
+      ],
+      "proposedBodyBounds": [
+        -16,
+        -58,
+        33,
+        58
+      ],
+      "originalBottom": -1,
+      "proposedBottom": -1
+    },
+    {
+      "frame": 4,
+      "originalBounds": [
+        -17,
+        -63,
+        35,
+        64
+      ],
+      "proposedBodyBounds": [
+        -15,
+        -56,
+        32,
+        57
+      ],
+      "originalBottom": 0,
+      "proposedBottom": 0
+    },
+    {
+      "frame": 5,
+      "originalBounds": [
+        -17,
+        -64,
+        35,
+        64
+      ],
+      "proposedBodyBounds": [
+        -15,
+        -58,
+        32,
+        58
+      ],
+      "originalBottom": -1,
+      "proposedBottom": -1
+    }
+  ],
+  "reviewLayoutFix": "All contact-card headings now reserve equal height; each review canvas has the same origin. No sprite source pixels changed.",
+  "rootAccepted": "Original 1px top movement versus new 2px top movement, with the original 1px foot-anchor movement, accepted by root after exact geometry explanation.",
+  "files": [
+    {
+      "file": "golem/walk-comparison.html",
+      "bytes": 67519,
+      "sha256": "461d965509bf4fe2812ea77311534af2fbde204bd24ee53ce22e22f51a7e7afb"
+    },
+    {
+      "file": "golem/walk-comparison.apng",
+      "bytes": 237010,
+      "sha256": "7b445bddfc9585495bb93b591c73405f1bd2513cc56c7eaed0d6bdb3ea6900f3"
+    }
+  ],
+  "expandedFrames": ".local/qa/mire-golems-native-proof/walk-comparison",
+  "runner": "assets/imagegen/mire-golems/compare-walk.mjs"
+}

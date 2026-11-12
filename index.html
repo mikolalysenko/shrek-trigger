@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="description" content="Shrek Trigger, a parody ROM hack of Chrono Trigger. Bring your own ROM and play in the browser.">
+<title>Shrek Trigger</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Ccircle cx=%228%22 cy=%229%22 r=%227%22 fill=%22%23b6d36a%22/%3E%3C/svg%3E">
+<link rel="stylesheet" href="player.css">
+</head>
+<body>
+<main id="stage">
+  <div id="screen">
+    <canvas id="game" width="512" height="448" aria-label="Shrek Trigger"></canvas>
+    <div id="start" class="overlay">
+      <h1>Shrek Trigger</h1>
+      <button id="play" class="big" hidden>Play</button>
+      <label id="choose" class="big" hidden>Choose ROM<input id="rom-file" type="file" accept=".sfc,.smc,.bin"></label>
+      <p id="start-note">Loading…</p>
+    </div>
+    <div id="paused" class="overlay" hidden><p>Paused</p><small>Tap or press Esc</small></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+  </div>
+  <nav id="bar" aria-label="Game controls">
+    <button id="sound" title="Sound (M)" aria-pressed="true">Sound on</button>
+    <button id="pause" title="Pause (Esc)" disabled>Pause</button>
+    <button id="fullscreen" title="Full screen (F)">Full screen</button>
+  </nav>
+  <div id="pad" aria-hidden="true">
+    <div id="shoulders"><button data-b="10">L</button><button data-b="11">R</button></div>
+    <div id="dpad"><span class="up"></span><span class="down"></span><span class="left"></span><span class="right"></span><i></i></div>
+    <div id="face"><button data-b="9" class="x">X</button><button data-b="1" class="y">Y</button><button data-b="8" class="a">A</button><button data-b="0" class="b">B</button></div>
+    <div id="menu-buttons"><button data-b="2">Select</button><button data-b="3">Start</button></div>
+  </div>
+</main>
+<footer id="help">
+  <table>
+    <tr><th>SNES</th><th>Keyboard</th><th>In the game</th></tr>
+    <tr><td>D-pad</td><td>Arrows or WASD</td><td>Move</td></tr>
+    <tr><td>A</td><td>Z</td><td>Talk, confirm</td></tr>
+    <tr><td>B</td><td>X</td><td>Cancel; hold to run</td></tr>
+    <tr><td>X</td><td>C</td><td>Open the menu</td></tr>
+    <tr><td>Y</td><td>V</td><td>Switch characters in menus</td></tr>
+    <tr><td>L / R</td><td>Q / E</td><td>Hold both to run from battle</td></tr>
+    <tr><td>Start / Select</td><td>Enter / Shift</td><td>Pause, accept names / settings</td></tr>
+  </table>
+  <p>Esc pauses, F toggles full screen, M toggles sound. Gamepads work. On a phone, the on-screen pad appears automatically; on iPhone, use Share → Add to Home Screen for full screen.</p>
+  <p>Saves at save points are stored in this browser. Your ROM is checked and patched on your device and never uploaded.</p>
+  <p class="links"><a href="https://github.com/mikolalysenko/shrek-trigger">About and patches</a> · <a href="dev.html">Debug tools</a> · A fan parody, not affiliated with Square Enix or DreamWorks.</p>
+</footer>
+<script src="engine/globals.js"></script><script src="vendor/snes/cpu.js"></script><script src="vendor/snes/pipu.js"></script><script src="vendor/snes/dsp.js"></script><script src="vendor/snes/spc.js"></script><script src="vendor/snes/apu.js"></script><script src="vendor/snes/cart.js"></script><script src="vendor/snes/snes.js"></script>
+<script type="module" src="engine/player.js"></script>
+</body>
+</html>

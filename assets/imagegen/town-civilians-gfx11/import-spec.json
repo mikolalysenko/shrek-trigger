@@ -1,0 +1,173 @@
+{
+  "key": "duloc-town-keeper",
+  "sourceType": "image-generation",
+  "directory": "assets/imagegen/town-civilians-gfx11/active",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "313131",
+    "efefef",
+    "ffe7ad",
+    "ff9c6b",
+    "a54a39",
+    "f79431",
+    "8c394a",
+    "84c6de",
+    "426b7b",
+    "94a552",
+    "5a6329",
+    "7b8c9c"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/town-civilians-gfx11/source-base-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "cells": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "nativeHeight": 32,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "bottom": 51,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "3": {
+          "scale": 0.9696969696969697
+        },
+        "5": {
+          "scale": 0.9411764705882353
+        },
+        "7": {
+          "scale": 0.9393939393939394
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/town-civilians-gfx11/source-contacts-v2.png",
+      "columns": 3,
+      "rows": 1,
+      "nativeHeight": 31,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "bottom": 51,
+        "alphaThreshold": 128
+      }
+    },
+    {
+      "file": "assets/imagegen/town-civilians-gfx11/derived-cap-fragment-nearest.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 8,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "bottom": 51,
+        "alphaThreshold": 128
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        {
+          "frame": 1
+        },
+        {
+          "frame": 0
+        },
+        {
+          "frame": 2,
+          "dx": 1
+        },
+        {
+          "frame": 2,
+          "flip": true
+        },
+        {
+          "frame": 3,
+          "dx": 1
+        },
+        {
+          "frame": 6,
+          "dx": 1
+        },
+        {
+          "frame": 3,
+          "flip": true
+        },
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 4,
+          "dx": 1
+        },
+        {
+          "frame": 7,
+          "dx": 1
+        },
+        {
+          "frame": 4,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        {
+          "frame": 5,
+          "dx": 1
+        },
+        {
+          "frame": 8
+        },
+        {
+          "frame": 5,
+          "flip": true
+        },
+        {
+          "frame": 8,
+          "flip": true
+        },
+        {
+          "frame": 0,
+          "dissolve": 11
+        },
+        {
+          "frame": 9,
+          "dx": -3,
+          "dy": -23
+        },
+        {
+          "frame": 9,
+          "flip": true,
+          "dx": 3,
+          "dy": -23
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "status": "Frozen inactive source candidate; exact source/native pixels, original scheduler and bounded authored scenes verified",
+  "activation": false,
+  "tool": "Built-in image_gen.imagegen",
+  "sourceType": "image-generation",
+  "designApproval": "Root approved Palace Hexer as Fairy Godmother court minion; original Mage 59 mechanics and palette39 unchanged.",
+  "sources": [
+    {
+      "file": "assets/imagegen/palace-hexer/base-source-v1.png",
+      "sha256": "379939e7b4fddf20367b1eafdf20f5c3b33bef68e64ffb766253d9e376ada0b1",
+      "prompt": "assets/imagegen/palace-hexer/prompt-base-v1.txt",
+      "promptSha256": "3c21f6e27e31afef556e54e7482922e0a8bf661727cfc418fe4fb4323291462d",
+      "originalPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-502f14d4-a6ea-49b9-9a96-e9bda7d50d28.png",
+      "tool": "Built-in image_gen.imagegen",
+      "transparentBackgroundRequested": true,
+      "selectedCells": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "file": "assets/imagegen/palace-hexer/gait-source-v2.png",
+      "sha256": "de175220269afb1fb92d3228581ae147d774eab4f0b0f50157eecb7db8f0a1ae",
+      "prompt": "assets/imagegen/palace-hexer/prompt-gait-v2.txt",
+      "promptSha256": "6e3535350e8f18df9feb5042be386a797763cf9b562e761db1794c0103acddb8",
+      "originalPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-2769ccea-bda3-40b7-8d63-006406d4a8fd.png",
+      "tool": "Built-in image_gen.imagegen",
+      "transparentBackgroundRequested": true,
+      "selectedCells": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "assets/imagegen/palace-hexer/casts-source-v1.png",
+      "sha256": "255deecbf1641cb570c0b18a34c5e4d9e823d2d5e29e22578495aa32201122d4",
+      "prompt": "assets/imagegen/palace-hexer/prompt-casts-v1.txt",
+      "promptSha256": "e0dedd513cd9e9e7fe997db6a0875b89b42da35962bd7481a002b4feb8fc2aab",
+      "originalPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-d828412e-abc4-49d0-8280-ff7df0c54ace.png",
+      "tool": "Built-in image_gen.imagegen",
+      "transparentBackgroundRequested": true,
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "file": "assets/imagegen/palace-hexer/reactions-source-v1.png",
+      "sha256": "c5d5dd4ce4ecc6d971ce1244341a3917666d4bee1cee93db695f959053fdadba",
+      "prompt": "assets/imagegen/palace-hexer/prompt-reactions-v1.txt",
+      "promptSha256": "015991a6f1b5c3ef895f7578dc9b8d7d1dfe9f4c4dfc42b4343aa3e71ef3955a",
+      "originalPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-ebf481db-ea45-4b49-bf52-022ddf3673fa.png",
+      "tool": "Built-in image_gen.imagegen",
+      "transparentBackgroundRequested": true,
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "constraints": {
+    "nativeCells": 4,
+    "palette": 39,
+    "frameCount": 28,
+    "noActiveEdits": true
+  },
+  "sourceHistory": [
+    "Base nine-pose model approved; original repeated B contacts and reversed rear cap were not accepted as final gait.",
+    "Targeted gait v2 fixes front/profile B. Its rear B still had the same arm swing and is unused.",
+    "Reaction source includes a fresh rear A/B pair with fixed cap and opposed arms/boots; both are selected.",
+    "Source alpha128 selection removes low-opacity generated ambient glow from reaction sheet; it does not draw or replace body pixels."
+  ],
+  "transforms": {
+    "nativeDimensions": [
+      64,
+      64
+    ],
+    "nativeCells": 4,
+    "visibleBodyHeight": "27–28 px, genuinely shorter crouches",
+    "mapping": "assets/imagegen/palace-hexer/geometry-proposal.json",
+    "sampling": "assets/imagegen/palace-hexer/import-spec.draft.json",
+    "paintedAnatomy": false
+  },
+  "staticReview": {
+    "root": "Approved native-6x and gait contacts: fixed cap, opposed limbs and distinct rear/front/side casts.",
+    "lead": "Approved gait contacts and full native-6x; preserve anchors and overlap proof. Static appearance only."
+  },
+  "privateRomSha256": "7969140b436eb39bcfced1aa46fae5fa12f46e32260a36388ad2ec1cea7c1f7a",
+  "selectedSourcePoses": 22,
+  "nativeSlots": 28,
+  "limitations": [
+    "Tiny eyebrow/finger marks are limited by the 27–28 px body; silhouette, nose, mantle and gloves carry identity.",
+    "Four-cell source conversions retain all original signed XY. The side-release source has 94% horizontal sampling width, and complete-source mirrors are documented adaptations.",
+    "Reaction alpha128 selection excludes source ambient glow, with no painted replacement anatomy.",
+    "Authored scenes begin at explicit diagnostic checkpoints with an endgame kit. Piazza and first lift encounter are victories; other room openings, later lift waves, whole palace route and complete ending are not accepted by this packet.",
+    "The ending branch loads both Hexer resources but keeps them hidden; this is ownership/load compatibility only.",
+    "Independent cores and production allocator/registry integration remain root-owned."
+  ],
+  "approvals": [
+    {
+      "reviewer": "root",
+      "scope": "Final native model, corrected opposed gait, distinct directional casts, actual lift battle and bounded scene evidence approved for freeze"
+    },
+    {
+      "reviewer": "sprite_art_pass",
+      "scope": "Final contacts, all 28 native poses, and actual Piazza/lift scene appearance approved; execution evidence remains separately described"
+    }
+  ]
+}

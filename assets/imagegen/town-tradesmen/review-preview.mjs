@@ -1,0 +1,5 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {PNG} from 'pngjs';
+const dir='assets/imagegen/town-tradesmen',folder=process.argv[2]??'base-face-preview',prefix=process.argv[3]??'base-face',r=JSON.parse(await readFile(dir+'/'+folder+'/preview-raster.json')),a=JSON.parse(await readFile('assets/raster/town-npc35-audit/native-audit.json')),columns=Number(process.argv[4]??3);
+for(const pal of a.palettes)for(const scale of[1,6]){const p=new PNG({width:64*columns*scale,height:48*Math.ceil(r.frames.length/columns)*scale}),colors=pal.colors.map(c=>c.match(/../g).map(n=>parseInt(n,16)));for(let f=0;f<r.frames.length;f++)for(let y=0;y<48;y++)for(let x=0;x<64;x++){const k=parseInt(r.frames[f][y*64+x],16);if(k)for(let yy=0;yy<scale;yy++)for(let xx=0;xx<scale;xx++)p.data.set([...colors[k-1],255],((Math.floor(f/columns)*48*scale+y*scale+yy)*p.width+(f%columns)*64*scale+x*scale+xx)*4);}await writeFile(dir+'/review/'+prefix+'-palette'+pal.id+'-'+scale+'x.png',PNG.sync.write(p));}
+console.log('Preview rendered: '+prefix);

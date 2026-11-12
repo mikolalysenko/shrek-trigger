@@ -1,0 +1,66 @@
+{
+  "key": "shrek-portrait",
+  "sourceType": "reused-game-sheet",
+  "width": 48,
+  "height": 48,
+  "directory": "assets/raster/shrek-portrait/candidates/roar-area-44",
+  "palette": [
+    "20221a",
+    "4d5c28",
+    "8ca646",
+    "b6c86f",
+    "d8c99d",
+    "674b32",
+    "a58150",
+    "352a23",
+    "f8edc7",
+    "2d3c21",
+    "d2d489",
+    "9da69c"
+  ],
+  "sheets": [
+    {
+      "file": "assets/raster/shrek-portrait/crop-roar.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 45,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "area",
+        "bottom": 46
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "notes": {
+    "source": "Original Shrek SuperSlam character icon, cropped from an authorized existing-game source. No anatomy painted.",
+    "crop": {
+      "name": "roar",
+      "file": "assets/raster/shrek-portrait/crop-roar.png",
+      "rectangle": [
+        0,
+        128,
+        64,
+        64
+      ],
+      "sha256": "e067a0173cdec85a42b0b8d333d9962c73eacdee82b63b81343f7c26ca2ab647",
+      "opaqueBounds": [
+        4,
+        2,
+        53,
+        55
+      ]
+    },
+    "status": "Inactive native portrait crop candidate."
+  }
+}

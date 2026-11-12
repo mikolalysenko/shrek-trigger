@@ -1,0 +1,5 @@
+import fs from'node:fs';import path from'node:path';import assert from'node:assert/strict';import{spawnSync}from'node:child_process';import{createHash}from'node:crypto';
+const d=import.meta.dirname,root=path.resolve(d,'../../..'),prefix='assets/imagegen/bone-warden/',sha=b=>createHash('sha256').update(b).digest('hex'),frozen=fs.existsSync(path.join(d,'freeze.json'))?JSON.parse(fs.readFileSync(path.join(d,'freeze.json'))):null;
+const run=(name,args=[])=>{const r=spawnSync(process.execPath,[prefix+name,...args],{cwd:root,encoding:'utf8'});if(r.status!==0)throw Error(r.stdout+r.stderr);};
+run('prepare-draft.mjs');run('prepare-draft.mjs',['--area']);run('build-review.mjs');run('finalize-metadata.mjs');
+if(frozen){for(const f of frozen.derived)assert.equal(sha(fs.readFileSync(path.join(root,f.path))),f.sha256,f.path);console.log('All '+frozen.derived.length+' frozen derived files reproduce byte for byte.');}else console.log('Inactive source pipeline rebuilt; no active registry or cartridge written.');

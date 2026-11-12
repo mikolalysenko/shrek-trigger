@@ -1,0 +1,366 @@
+{
+  "status": "Frozen inactive candidate; no active engine/spec/registry/canonical changes",
+  "date": "2026-10-31",
+  "repositoryHeadAtFreeze": "0dfd76893b6fbcb6cf8867616ec20fc90809b87d",
+  "key": "briar-knight",
+  "spec": "import-spec.draft.json",
+  "family": "draft/family.json",
+  "paletteColors": 12,
+  "nativeFrames": 86,
+  "visibleFrames": 83,
+  "blankFrames": [
+    39,
+    40,
+    41
+  ],
+  "sourceSheets": 4,
+  "uniqueSourcePoses": 59,
+  "rawGraphicsBytes": 25856,
+  "compressedBytes": 16905,
+  "assemblyBytes": 6880,
+  "graphicsSha256": "0f7d13ea0c257f5ac70d8ceb26cf536301438edb3a5eecf1e0000754d9f311e7",
+  "assemblySha256": "522a37b6753e03cf30737fe0dfd138678cd97d011d824191a64edf3b2bcf8117",
+  "pixelsSha256": "fe088009022f113be4e0ebeb0eee4ed02113f1b95f319116a3a09b54a354c99d",
+  "review": {
+    "lead": "/root/sprite_art_pass",
+    "approved": [
+      "38px base identity and scale",
+      "Full native role sheet and eight-cell source geometry"
+    ],
+    "native": "344 isolated exact frame uploads, all opaque pixels and12 palette colors passed; actual settled0/20/84/85captures viewed"
+  },
+  "nativeProof": {
+    "manifest": "native-verification/manifest.json",
+    "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+    "privateRomSha256": "379a3a1f71ec918c636467cc1f788552b2d53d0a2ea2503ac6e96031ae0fc1b1",
+    "nativeFrameUploads": 344,
+    "opaquePixelChecks": 178584,
+    "isolatedHeapBytes": 26816
+  },
+  "remaining": [
+    "Scoped large-family capacity/streaming integration; original family guard remains.",
+    "Full fortress phase transition, trio/hideout scenes and ordinary combat.",
+    "Independent native emulator proof after integration.",
+    "Recalculate all co-loads with accepted Horner/Moth and other cast."
+  ],
+  "derivationDependencies": [
+    {
+      "file": "scripts/import-raster-art.mjs",
+      "sha256": "932f6a4558afc571610f2ae10790b7623e0524fa8b541eb3dc03a596172db1f1"
+    },
+    {
+      "file": "content/enforcer-actors.js",
+      "sha256": "ea50ee7643468e6a5abe43b95404652f0805f360a0419349380d44d7562b27dd"
+    },
+    {
+      "file": "engine/actor-families.js",
+      "sha256": "e1f5da562797f57f206396e7ceb234f936d2a6a2457879faaf3177e1a5e7a315"
+    },
+    {
+      "file": "engine/native-sprites.js",
+      "sha256": "53e9b53ef655f7d3c0648cc44ba12356d73e0f921a06f922b0fac289e724c089"
+    },
+    {
+      "file": "engine/sprites.js",
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "file": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "file": "engine/rom.js",
+      "sha256": "06b336022840d63cc8295bce22f19ee3527484a06739b76ce90dc5bafa2a9b04"
+    },
+    {
+      "file": "engine/expanded-rom.js",
+      "sha256": "afcebcbee913436306a44736922d567acb81b68cb73387fcb2722fdbc2bfe962"
+    }
+  ],
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 7990,
+      "sha256": "f7fa976807f0f61270a932fe7b1379119089f9127a59f13e1eb81dcedc8fc0c6"
+    },
+    {
+      "file": "audit-native.mjs",
+      "bytes": 6012,
+      "sha256": "e0a13214ee9da14d625a58cd6dcd98674cf791d53a95465c193f23d96664f291"
+    },
+    {
+      "file": "compile-draft.mjs",
+      "bytes": 9376,
+      "sha256": "f4f9e0a53b82fdc673bb65e8f2f4656a0dd958565adfd7b4c1b36c6b193001d6"
+    },
+    {
+      "file": "draft/assembly.bin",
+      "bytes": 6880,
+      "sha256": "522a37b6753e03cf30737fe0dfd138678cd97d011d824191a64edf3b2bcf8117"
+    },
+    {
+      "file": "draft/current-co-loads.json",
+      "bytes": 4653,
+      "sha256": "d4a22826a6a9b7b07920016e32b12bc5152f565a5baf50e88b78d4f5a10574ac"
+    },
+    {
+      "file": "draft/family.json",
+      "bytes": 42038,
+      "sha256": "f3e2c7abdefa1999889b089dbc29ad98771c8ad7f7a0c90e22abb9dbc5f89572"
+    },
+    {
+      "file": "draft/graphics.4bpp",
+      "bytes": 25856,
+      "sha256": "0f7d13ea0c257f5ac70d8ceb26cf536301438edb3a5eecf1e0000754d9f311e7"
+    },
+    {
+      "file": "draft/graphics.ct-lz",
+      "bytes": 16905,
+      "sha256": "759bbd181f37107578851041cd9a383ededd76fad99436d2898c78cbbfe1ff0b"
+    },
+    {
+      "file": "draft/native-1x.png",
+      "bytes": 89980,
+      "sha256": "dd7fde6e9ad26b834f20bfe4180f82a2542cc1e11bc42a623371152d6bd39dd4"
+    },
+    {
+      "file": "draft/native-4x.png",
+      "bytes": 137361,
+      "sha256": "76f1d42c80d4c912bf098d0791841dd71af64009522f24d24a77829ccc9f1b2a"
+    },
+    {
+      "file": "draft/palette.bin",
+      "bytes": 24,
+      "sha256": "6a6dc851a7d660722823dd14cfa8dd4f1e84e5a5ea7375164fe25a235fe88404"
+    },
+    {
+      "file": "draft/preview-import.json",
+      "bytes": 19548,
+      "sha256": "6f7c3f5b2a3ac40eaa321e0522316d5d252d6df1ad978fb3da9cca288c79f21a"
+    },
+    {
+      "file": "draft/preview-native-indexed.png",
+      "bytes": 70040,
+      "sha256": "c8171e74a2857f72d665ab771f7567dbb59f3132d451b06649e85458fe2dcffb"
+    },
+    {
+      "file": "draft/preview-raster.json",
+      "bytes": 330845,
+      "sha256": "50a52ce71ab257243ada56b94dde73bb7485ca87bf390134284270315fee4c4b"
+    },
+    {
+      "file": "draft/verification.json",
+      "bytes": 162848,
+      "sha256": "bb905b463fead7d3378be2a2815b745bfc17fc753b41a9221b7e6f46948bedd0"
+    },
+    {
+      "file": "import-spec.draft.json",
+      "bytes": 8449,
+      "sha256": "2d85494ab60567ead304e09d30b486e8fac06732cf355921de621193c5e3a80b"
+    },
+    {
+      "file": "native-audit.json",
+      "bytes": 136097,
+      "sha256": "1b11c92f602bad17d3577d53bea9749ffaac877d73d903ef329b657ea9b02f7c"
+    },
+    {
+      "file": "native-roles.json",
+      "bytes": 89529,
+      "sha256": "3259abab5856062a2154fd7f834585310be3c6d4d0cd784f425a05bcc489fda7"
+    },
+    {
+      "file": "native-verification/manifest.json",
+      "bytes": 3092,
+      "sha256": "1966e7854e944f5e9d3a60c8d8d2a7a2e355c5ff983af7a7e19f24eb5acd1b4a"
+    },
+    {
+      "file": "native-verification/native-frame-0.png",
+      "bytes": 56553,
+      "sha256": "34a981be88244275339480fc6027be972a79ea2f96cb9d79d8b505dca0455153"
+    },
+    {
+      "file": "native-verification/native-frame-20.png",
+      "bytes": 56345,
+      "sha256": "5361e147cce6c7459622022e5a38ca522864cee43e8a48bf07b15eafdeb55074"
+    },
+    {
+      "file": "native-verification/native-frame-29.png",
+      "bytes": 56453,
+      "sha256": "705c9454db9dd2d6bd650d79f23e3e8e7fc5dae45db28cedc93f90e8892b99d3"
+    },
+    {
+      "file": "native-verification/native-frame-63.png",
+      "bytes": 56550,
+      "sha256": "2ac527bc416dca063612e67e1a562604e6e56586b030f76346eb7f0daaf2de5e"
+    },
+    {
+      "file": "native-verification/native-frame-69.png",
+      "bytes": 56472,
+      "sha256": "9d2e1be4ca63dff360e77448ad3d2870c534ffbe4bbe10857404ec8805fed631"
+    },
+    {
+      "file": "native-verification/native-frame-84.png",
+      "bytes": 56336,
+      "sha256": "927e9ae5fb77e1c04d4e991807c4ae36bdd024fd852a5c11714dd6e5427ae5b1"
+    },
+    {
+      "file": "native-verification/native-frame-85.png",
+      "bytes": 56586,
+      "sha256": "76d74431bcc9bb556ee1eaec6d7f93b715237236528c76465cd56069a8a0032d"
+    },
+    {
+      "file": "prepare-draft.mjs",
+      "bytes": 7499,
+      "sha256": "a201296bd1f08adb0954aff3ae84548b296105cc31003cbdd03cd6f4113bc250"
+    },
+    {
+      "file": "prompt-aerial-v1.txt",
+      "bytes": 4036,
+      "sha256": "9201330ebef5648f926697238d6a11a4488db713126a24e45ace10dd663e25ea"
+    },
+    {
+      "file": "prompt-base-v1.txt",
+      "bytes": 3728,
+      "sha256": "687528f3824059e693de35528e61eeeb96403699746eb03f14fdcd7c3e042bdd"
+    },
+    {
+      "file": "prompt-combat-v1.txt",
+      "bytes": 4361,
+      "sha256": "4079fd1e4952ecd07d938382a3bce08216f1118ed81275261e0779c3576a0f1f"
+    },
+    {
+      "file": "prompt-combat-v2.txt",
+      "bytes": 1287,
+      "sha256": "04c7028d17f93b61ab7b87fe48efcef0b373c59f6d395fc351100d828de4242e"
+    },
+    {
+      "file": "prompt-reactions-v1.txt",
+      "bytes": 3879,
+      "sha256": "60e3962b3a742b0e11e553a5a9ce50880fa52b05e04df6d44eb2a95ea7c9b8eb"
+    },
+    {
+      "file": "provenance.json",
+      "bytes": 6897,
+      "sha256": "d085b470f10b00870a76f34e5a70d9302d40c115eb0a932c208a7d8432d84b41"
+    },
+    {
+      "file": "source-aerial-v1.png",
+      "bytes": 1511992,
+      "sha256": "b79b01737af36f1a7b2a74b153d0354a4e8a2cd2d8e4291fd03e651ec9446a69"
+    },
+    {
+      "file": "source-base-v1.png",
+      "bytes": 1360144,
+      "sha256": "5f5fa5a769892bae9788c07870dbe0afaacdf5d277a436eb8ea3889390f59e31"
+    },
+    {
+      "file": "source-combat-v1.png",
+      "bytes": 1515193,
+      "sha256": "847e0f33bf0e7142c993a9fc42c610e41714bb968d7e25115bc3419eff044466"
+    },
+    {
+      "file": "source-combat-v2.png",
+      "bytes": 2019084,
+      "sha256": "b6ededbe3168ae698b0962b92e93f15ba8dc8aea4c92f8b80edea9c797fbf20c"
+    },
+    {
+      "file": "source-reactions-v1.png",
+      "bytes": 1689121,
+      "sha256": "7af277e8d93371cc66f7b3915eb5342c0a5d90bae9006dc35d2dde2959bd0ec1"
+    },
+    {
+      "file": "verify-native.mjs",
+      "bytes": 7494,
+      "sha256": "6ed936096b2927292730bf9e5fb11de64b599e06c6936062292ec2f55f288fc6"
+    }
+  ],
+  "additionalLocalReviewFiles": [
+    {
+      "file": "native-verification/native-frame-13.png",
+      "bytes": 56490,
+      "sha256": "ca2e822dccaf9edcddaeb41c96bd9311a7cfce4b9ccac3f81a7e0a5948a2ba9c"
+    },
+    {
+      "file": "native-verification/native-frame-18.png",
+      "bytes": 56414,
+      "sha256": "55f1ae90303dd3c55becf44282b07a4a2ba7516cb6ece526c4484e679ed23dce"
+    },
+    {
+      "file": "native-verification/native-frame-22.png",
+      "bytes": 56398,
+      "sha256": "8a7d9d00861027010de7f9ea775b6d8f5cc80df62ea83f4b38bc6eb996cfe0aa"
+    },
+    {
+      "file": "native-verification/native-frame-27.png",
+      "bytes": 56212,
+      "sha256": "023863477290ce4b80224446c9fe6410a59c7aeffd051a07c4282f325d3df598"
+    },
+    {
+      "file": "native-verification/native-frame-3.png",
+      "bytes": 56390,
+      "sha256": "d2421881d6151aaf7bb5469d5a8247c3ff09ac6b635afdae5c91e520172db837"
+    },
+    {
+      "file": "native-verification/native-frame-33.png",
+      "bytes": 56432,
+      "sha256": "965e964df1ebbc40e8df36b1ff262cab9f59ae338934976b5fc8f9475877452c"
+    },
+    {
+      "file": "native-verification/native-frame-39.png",
+      "bytes": 56456,
+      "sha256": "d0d66c7da701a2ed7200345f58333e70a793abebf40da8b03fa65d020821fa84"
+    },
+    {
+      "file": "native-verification/native-frame-45.png",
+      "bytes": 56297,
+      "sha256": "17b6319195529fb8b61e724eec13d88101448347c07f61c87f977b37d0c959b9"
+    },
+    {
+      "file": "native-verification/native-frame-52.png",
+      "bytes": 56324,
+      "sha256": "5260c3608c2344f29fcedc3225a7f45c3fc7c2012c0e1a1da47af2c80db0c3d3"
+    },
+    {
+      "file": "native-verification/native-frame-54.png",
+      "bytes": 56352,
+      "sha256": "34883d00b4afbe3a2207bdba1c081d365459a185cb220d77ab54f700dbaaf6f4"
+    },
+    {
+      "file": "native-verification/native-frame-59.png",
+      "bytes": 56295,
+      "sha256": "c04223996161f0d4e351f3804d4be3557d6c42eeecaf84cb9d44bb508a7d847d"
+    },
+    {
+      "file": "native-verification/native-frame-6.png",
+      "bytes": 56470,
+      "sha256": "d5b240d5475ccfab92823713b01a40df510ea8a56deb7f7a1ef1cd23670b16ad"
+    },
+    {
+      "file": "native-verification/native-frame-64.png",
+      "bytes": 56570,
+      "sha256": "12142a74c7bced436eacdcd4a0ad7baa35d4569510bb0d42a5be413d8ca3945f"
+    },
+    {
+      "file": "native-verification/native-frame-7.png",
+      "bytes": 56411,
+      "sha256": "d0132c8c66563980bf257fddc6c1fc74c696e3c757b943accdadb1a3bd252829"
+    },
+    {
+      "file": "native-verification/native-frame-76.png",
+      "bytes": 56638,
+      "sha256": "72f0e9a2756a00c5cfb0fe5120070021fabd98f2b714b117f2e9b355e9ebef96"
+    },
+    {
+      "file": "native-verification/native-frame-9.png",
+      "bytes": 56472,
+      "sha256": "767993d5d41bfc7a1cfd95ad571dbc47e7da1265f50d15e92762c84f54a49859"
+    }
+  ],
+  "reproduction": {
+    "auditImportCompileRepeated": true,
+    "frozenArtifactHashesMatched": 55,
+    "requiredHandoffFiles": 39,
+    "additionalLocalScreenshots": 16,
+    "sourceGenerationIsNotBitReproducible": true
+  }
+}

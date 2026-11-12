@@ -1,0 +1,83 @@
+{
+  "key": "duloc-tank",
+  "frames": 1,
+  "width": 128,
+  "height": 112,
+  "opaqueColors": 12,
+  "palette": [
+    "211b24",
+    "3c3f46",
+    "687378",
+    "b4c3b6",
+    "563226",
+    "885039",
+    "244955",
+    "42788a",
+    "917239",
+    "c9a554",
+    "efdb96",
+    "fcf2ce"
+  ],
+  "samplingPalette": [
+    "211b24",
+    "3c3f46",
+    "687378",
+    "b4c3b6",
+    "563226",
+    "885039",
+    "244955",
+    "42788a",
+    "917239",
+    "c9a554",
+    "efdb96",
+    "fcf2ce"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/duloc-tank/source-chassis-v1.png",
+      "sha256": "5d93c0bcaf601190589e3a26bdcd1c246ae05cbe343535ddeb7e85a44cfe9f28",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1341,
+        1173
+      ],
+      "scale": 0.07570093457943926,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 96,
+        "dx": -6,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            16,
+            61,
+            1297,
+            1070
+          ],
+          "componentPixels": 581440
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "One actual generated fixed chassis pose; no animated body slots or padding poses invented."
+      }
+    }
+  }
+}

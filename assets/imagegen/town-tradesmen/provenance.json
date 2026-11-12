@@ -1,0 +1,108 @@
+{
+  "status": "Frozen inactive source candidate",
+  "activation": false,
+  "baselineSha256": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+  "sources": [
+    {
+      "file": "assets/imagegen/town-tradesmen/base-source-v1.png",
+      "sha256": "b94093cb20240bb283d58b93d001524b6089a84ad306b88c1ac86d04a5d39b2c",
+      "prompt": "assets/imagegen/town-tradesmen/prompts/base-v1.txt",
+      "promptSha256": "5d2f7e3fdec1d66860ac69d2d46fc52bdb4ad48b9925dfa7667862071e83790d",
+      "mode": "built-in image_gen",
+      "transparentBackground": true,
+      "originalToolPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-54fdab28-e96d-48ed-851c-46c6cbc65762.png",
+      "referencePaths": []
+    },
+    {
+      "file": "assets/imagegen/town-tradesmen/gait-source-v2.png",
+      "sha256": "f71a15374cc0dd30903dcf98065f0adf8e9cbb9a2a7d890656997a8c80604885",
+      "prompt": "assets/imagegen/town-tradesmen/prompts/gait-v2.txt",
+      "promptSha256": "bed004d05e01fb686726df06eb4c812b958e8e3e1ede234a1afbdb7c274f2c45",
+      "mode": "built-in image_gen",
+      "transparentBackground": true,
+      "originalToolPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-8318bba1-3805-4005-9d20-640b942685df.png",
+      "referencePaths": [
+        "assets/imagegen/town-tradesmen/base-source-v1.png"
+      ]
+    },
+    {
+      "file": "assets/imagegen/town-tradesmen/base-face-source-v2.png",
+      "sha256": "d2ed8b070cfff055922a45345c7c121e0f297f16d6926e63d41b739729f06574",
+      "prompt": "assets/imagegen/town-tradesmen/prompts/base-face-v2.txt",
+      "promptSha256": "dfba32e65ac89d7dff5e534ab522590f471218d60bc6796aff47ce6a64c60938",
+      "mode": "built-in image_gen",
+      "transparentBackground": true,
+      "originalToolPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-d97928f7-8ee6-4ced-a24e-51b18e2beef7.png",
+      "referencePaths": [
+        "assets/imagegen/town-tradesmen/base-source-v1.png"
+      ]
+    },
+    {
+      "file": "assets/imagegen/town-tradesmen/actions-source-v1.png",
+      "sha256": "4a68ac7efb35d66bfacdf8ff166e94e98a34236976faf45e79a13431ad7e0489",
+      "prompt": "assets/imagegen/town-tradesmen/prompts/actions-v1.txt",
+      "promptSha256": "702444ef664f8e1bb2fc613b036fc370c79aa9e058f393693c83a5757a2f014a",
+      "mode": "built-in image_gen",
+      "transparentBackground": true,
+      "originalToolPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-70931369-1109-4152-bd60-9a0310ac8d37.png",
+      "referencePaths": [
+        "assets/imagegen/town-tradesmen/base-face-source-v2.png",
+        "assets/raster/town-npc35-audit/review/original-palette9-6x.png"
+      ]
+    },
+    {
+      "file": "assets/imagegen/town-tradesmen/profile-contact-source-v3.png",
+      "sha256": "b5cc7142bbcb019d6c0884701289e0bfe438986f57bb3491b52f2e30fdcb3118",
+      "prompt": "assets/imagegen/town-tradesmen/prompts/profile-contact-v3.txt",
+      "promptSha256": "d2f4d90b29e08023822c1f8031d1a395856bbdc677486b684e1b9809c6626e97",
+      "mode": "built-in image_gen",
+      "transparentBackground": true,
+      "originalToolPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-c5fcf249-830f-4b10-b725-aade1fa03ea5.png",
+      "referencePaths": [
+        "assets/imagegen/town-tradesmen/base-face-source-v2.png"
+      ]
+    }
+  ],
+  "sourcePoseReference": {
+    "path": "assets/raster/town-npc35-audit/review/original-palette9-6x.png",
+    "sha256": "da9bf7ff7458d681aa081fad08f43fa3efa415381a04af227e1d09fd7f531f15",
+    "purpose": "Pose semantics reference only; new candidate pixels must come from generated PNGs"
+  },
+  "notes": [
+    "Base v1 rear contacts repeat and source cell12 faces right; superseded for those roles.",
+    "Gait v2 supplies corrected rear phases; its profile pair still repeats and is not used.",
+    "Base face v2 darkens eyes/moustache; direct original palette mapping retained.",
+    "Material/contrast/nearest sampling experiments were rejected and are not source selections.",
+    "Actions v1 profile cell8 remains the old contact and is not used. Isolated profile v3 supplies the opposite near-arm/near-leg phase."
+  ],
+  "proofBaseline": {
+    "path": "assets/imagegen/town-tradesmen/private-qa/baseline.sfc",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+    "bytes": 8388608,
+    "originalAuditBaseline": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+    "reason": "Root preferred current published cartridge for native proof; source/audit resources are rechecked unchanged before override."
+  },
+  "privateRomSha256": "fc9fa6cd47aabe251f9a2d5363f6409d909ea9e883bb563a55a69c07fc6d9e36",
+  "nativeSlots": 31,
+  "selectedSourceCells": 23,
+  "wholeRasterMirrorRoles": 8,
+  "approvals": [
+    {
+      "reviewer": "root",
+      "scope": "All31 native roles, both palettes, genuine opposed gait, flexible tradesman styling and1–3px native cell-pair translations approved."
+    },
+    {
+      "reviewer": "sprite_art_pass",
+      "scope": "Full31-role native sheets, corrected face and contacts, both ramps, actual smithy hammer16/17 and inn seated drink18/19 appearance approved. Static review is distinct from execution proof."
+    }
+  ],
+  "limitations": [
+    "The32px body supports simple eye/moustache landmarks; costume and posture carry identity.",
+    "13 native poses need root-approved1–3px cell-pair translations. Full source coverage and all three opaque duplicate samples are exact; no extra cells or actor-anchor shifts.",
+    "Original source sampling, global mirrors, and integer translations are explicit; rejected repeated gait cells and experimental material mappings are excluded.",
+    "Scene evidence is diagnostic entry into unchanged authored scripts. Table/background occlusion is preserved. Five scenarios are bounded staging/motion checks, not full services, festival routes, all25 locations, complete endings or chapters.",
+    "Parade80 has a prior NPC215 palette133→138 regression; actual original-USA comparison isolates it. Candidate art preserves palette133 but inherits incorrect row7 colors. Root owns a safe shared-row fix.",
+    "Independent cores, production allocation/streaming registration and full connected scene routes remain root-owned."
+  ]
+}

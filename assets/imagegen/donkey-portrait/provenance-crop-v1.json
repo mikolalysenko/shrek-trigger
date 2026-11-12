@@ -1,0 +1,145 @@
+{
+  "key": "donkey-portrait",
+  "mode": "exact RGBA crop of approved generated source atlas",
+  "sourceType": "image-generation",
+  "source": "assets/imagegen/donkey-portrait/source-crop-laugh-v1.png",
+  "sourceSha256": "178efc8b4aae61f615b921cbf0421028c63df23021bb21063547ca2cbfdacc80",
+  "originalSource": "assets/imagegen/donkey/source-gestures-v1.png",
+  "originalSourceSha256": "af05f3da0c215c5d041540b77e9ab944ded36e8b4283d18359c4b4b4e83088ae",
+  "originalSourceDimensions": [
+    1254,
+    1254
+  ],
+  "originalGenerationProvenance": "assets/imagegen/donkey/provenance-gestures-v1.json",
+  "cropRectangle": [
+    42,
+    638,
+    180,
+    165
+  ],
+  "cropCoordinates": "[x,y,width,height], origin at top-left of pristine approved source PNG",
+  "operation": "Copy each RGBA source pixel in the rectangle without recoloring, repainting, alpha edits, mirroring or interpolation. Importer subsequently downsamples into the existing actor palette.",
+  "authorization": "Root explicitly requested source-pixel crop feasibility after new portrait generation returned no image. No generation retry or API call was made.",
+  "failedNewGeneration": "provenance-v1.json",
+  "sampling": {
+    "method": "area",
+    "nativeHeight": 42,
+    "bottom": 47,
+    "output": [
+      48,
+      48
+    ],
+    "palette": [
+      "29252a",
+      "56515a",
+      "8e8a8e",
+      "beb6ae",
+      "dcd0b9",
+      "4a3430",
+      "85604a",
+      "302b31",
+      "f7edce",
+      "262027",
+      "bf8c6e",
+      "a5a19b"
+    ],
+    "samplingPalette": [
+      "29252a",
+      "5f544a",
+      "95877b",
+      "b8aca0",
+      "dcd0b9",
+      "60371d",
+      "a76f2e",
+      "302b31",
+      "f7edce",
+      "161313",
+      "d59b38",
+      "899397"
+    ]
+  },
+  "status": "frozen inactive draft; lead and root approved front/area for Fiona and laugh/area for Donkey",
+  "limitations": [
+    "The selected genuine source pose has closed laughing eyes.",
+    "The expression is lively, but it is a reused field-source head rather than a newly composed portrait."
+  ],
+  "alternatives": [
+    {
+      "key": "donkey",
+      "label": "front",
+      "source": "assets/imagegen/donkey/source-v2.png",
+      "sourceSha256": "79b61778e83c2216e4fee4a0e9966c808b606305cf56ebcbae1161a41e4d15d7",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": [
+        80,
+        20,
+        165,
+        190
+      ],
+      "cropFile": "assets/imagegen/donkey-portrait/source-crop-front-v1.png",
+      "cropSha256": "3b2bfdd723f072d10177aa2c11e96cb3f3a337aec6af832cc483059ccab43297",
+      "cropOpaqueBounds": [
+        26,
+        12,
+        128,
+        178
+      ],
+      "nativeHeight": 46
+    },
+    {
+      "key": "donkey",
+      "label": "cheer",
+      "source": "assets/imagegen/donkey/source-gestures-v1.png",
+      "sourceSha256": "af05f3da0c215c5d041540b77e9ab944ded36e8b4283d18359c4b4b4e83088ae",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": [
+        75,
+        328,
+        170,
+        185
+      ],
+      "cropFile": "assets/imagegen/donkey-portrait/source-crop-cheer-v1.png",
+      "cropSha256": "6ec8482b81510d1f82980054b20af5272b192d5751b13ed6ef218681b1fa3e46",
+      "cropOpaqueBounds": [
+        3,
+        6,
+        153,
+        179
+      ],
+      "nativeHeight": 46
+    },
+    {
+      "key": "donkey",
+      "label": "laugh",
+      "source": "assets/imagegen/donkey/source-gestures-v1.png",
+      "sourceSha256": "af05f3da0c215c5d041540b77e9ab944ded36e8b4283d18359c4b4b4e83088ae",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": [
+        42,
+        638,
+        180,
+        165
+      ],
+      "cropFile": "assets/imagegen/donkey-portrait/source-crop-laugh-v1.png",
+      "cropSha256": "178efc8b4aae61f615b921cbf0421028c63df23021bb21063547ca2cbfdacc80",
+      "cropOpaqueBounds": [
+        3,
+        3,
+        177,
+        162
+      ],
+      "nativeHeight": 42
+    }
+  ],
+  "importSpecSha256": "1e40792ef7c61e0e926b272ed230d1f454e3a23ecc082f2d838332a5370e3964",
+  "sourceReuse": "exact crop of an approved generated field atlas; no new portrait generation"
+}

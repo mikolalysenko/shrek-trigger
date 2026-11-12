@@ -1,0 +1,625 @@
+{
+  "baseline": {
+    "path": "assets/imagegen/palace-hexer/private-baseline.sfc",
+    "sha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "scope": "Pinned published cartridge; read-only audit; private copy excluded from source handoff"
+  },
+  "privateRomSha256": "7969140b436eb39bcfced1aa46fae5fa12f46e32260a36388ad2ec1cea7c1f7a",
+  "streamedFamily": 90,
+  "rawStreamBytes": 9440,
+  "maximumFamilyRawBytes": 32768,
+  "scenes": [
+    {
+      "location": 405,
+      "name": "Ocean Palace Piazza",
+      "eventId": 393,
+      "offset": 3919995,
+      "decodedSha256": "f2a71c6e6a6b2ca15310b3567f8e2111f9dc570f74c2a0dbf664763420cb57bb",
+      "unchangedFromCT": true,
+      "mageLoads": [
+        {
+          "bodyOffset": 1990,
+          "opcode": 131,
+          "args": [
+            59,
+            3
+          ]
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 984,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1028,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1069,
+          "opcode": 216,
+          "args": [
+            18,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1115,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1162,
+          "opcode": 216,
+          "args": [
+            18,
+            64
+          ]
+        }
+      ],
+      "allEnemyOwners": [
+        82,
+        213,
+        214,
+        59
+      ],
+      "allNpcOwners": [],
+      "scope": "All-branch original event graphics union, excluding common loader/party overhead. Not simultaneous runtime use or a bound on total native heap. Original packets unchanged.",
+      "parts": [
+        {
+          "gfx": 104,
+          "currentBytes": 2016,
+          "candidateBytes": 2016,
+          "currentHeapBytes": 0,
+          "candidateHeapBytes": 0,
+          "streamed": true
+        },
+        {
+          "gfx": 90,
+          "currentBytes": 5824,
+          "candidateBytes": 9440,
+          "currentHeapBytes": 5824,
+          "candidateHeapBytes": 0,
+          "streamed": true
+        }
+      ],
+      "currentEventGraphicsHeapBytes": 5824,
+      "candidateEventGraphicsHeapBytes": 0,
+      "decodedUnion": 11456
+    },
+    {
+      "location": 406,
+      "name": "Ocean Palace Side Rooms",
+      "eventId": 394,
+      "offset": 3921145,
+      "decodedSha256": "d2998156a1c9d4469f7c7dd59685dd781ba87826900a64e55602aea634a49b3e",
+      "unchangedFromCT": true,
+      "mageLoads": [
+        {
+          "bodyOffset": 1437,
+          "opcode": 131,
+          "args": [
+            59,
+            7
+          ]
+        },
+        {
+          "bodyOffset": 1638,
+          "opcode": 131,
+          "args": [
+            59,
+            7
+          ]
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 1058,
+          "opcode": 216,
+          "args": [
+            18,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1097,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1135,
+          "opcode": 216,
+          "args": [
+            18,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1174,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1835,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 2022,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        }
+      ],
+      "allEnemyOwners": [
+        88,
+        89,
+        213,
+        59,
+        214,
+        82
+      ],
+      "allNpcOwners": [
+        167
+      ],
+      "scope": "All-branch original event graphics union, excluding common loader/party overhead. Not simultaneous runtime use or a bound on total native heap. Original packets unchanged.",
+      "parts": [
+        {
+          "gfx": 100,
+          "currentBytes": 3680,
+          "candidateBytes": 3680,
+          "currentHeapBytes": 3680,
+          "candidateHeapBytes": 3680,
+          "streamed": false
+        },
+        {
+          "gfx": 104,
+          "currentBytes": 2016,
+          "candidateBytes": 2016,
+          "currentHeapBytes": 0,
+          "candidateHeapBytes": 0,
+          "streamed": true
+        },
+        {
+          "gfx": 90,
+          "currentBytes": 5824,
+          "candidateBytes": 9440,
+          "currentHeapBytes": 5824,
+          "candidateHeapBytes": 0,
+          "streamed": true
+        },
+        {
+          "gfx": 200,
+          "currentBytes": 320,
+          "candidateBytes": 320,
+          "currentHeapBytes": 320,
+          "candidateHeapBytes": 320,
+          "streamed": false
+        }
+      ],
+      "currentEventGraphicsHeapBytes": 9824,
+      "candidateEventGraphicsHeapBytes": 4000,
+      "decodedUnion": 15456
+    },
+    {
+      "location": 407,
+      "name": "Ocean Palace Forward Area",
+      "eventId": 395,
+      "offset": 3922136,
+      "decodedSha256": "f977e36a491147c5d262cd7a5038de8f98e5f9747fe19088f6c4719affec1429",
+      "unchangedFromCT": true,
+      "mageLoads": [
+        {
+          "bodyOffset": 1647,
+          "opcode": 131,
+          "args": [
+            59,
+            5
+          ]
+        },
+        {
+          "bodyOffset": 1749,
+          "opcode": 131,
+          "args": [
+            59,
+            4
+          ]
+        },
+        {
+          "bodyOffset": 1838,
+          "opcode": 131,
+          "args": [
+            59,
+            5
+          ]
+        },
+        {
+          "bodyOffset": 1927,
+          "opcode": 131,
+          "args": [
+            59,
+            4
+          ]
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 1123,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1171,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1209,
+          "opcode": 216,
+          "args": [
+            18,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1247,
+          "opcode": 216,
+          "args": [
+            18,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1295,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1343,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        }
+      ],
+      "allEnemyOwners": [
+        213,
+        214,
+        59
+      ],
+      "allNpcOwners": [
+        167
+      ],
+      "scope": "All-branch original event graphics union, excluding common loader/party overhead. Not simultaneous runtime use or a bound on total native heap. Original packets unchanged.",
+      "parts": [
+        {
+          "gfx": 104,
+          "currentBytes": 2016,
+          "candidateBytes": 2016,
+          "currentHeapBytes": 0,
+          "candidateHeapBytes": 0,
+          "streamed": true
+        },
+        {
+          "gfx": 90,
+          "currentBytes": 5824,
+          "candidateBytes": 9440,
+          "currentHeapBytes": 5824,
+          "candidateHeapBytes": 0,
+          "streamed": true
+        },
+        {
+          "gfx": 200,
+          "currentBytes": 320,
+          "candidateBytes": 320,
+          "currentHeapBytes": 320,
+          "candidateHeapBytes": 320,
+          "streamed": false
+        }
+      ],
+      "currentEventGraphicsHeapBytes": 6144,
+      "candidateEventGraphicsHeapBytes": 320,
+      "decodedUnion": 11776
+    },
+    {
+      "location": 409,
+      "name": "Ocean Palace Grand Stairwell",
+      "eventId": 397,
+      "offset": 2246144,
+      "decodedSha256": "054e2638a9cd6182d7e59185401f4080ed508d3f75e949431c770840b4888c93",
+      "unchangedFromCT": false,
+      "mageLoads": [
+        {
+          "bodyOffset": 1822,
+          "opcode": 131,
+          "args": [
+            59,
+            3
+          ]
+        },
+        {
+          "bodyOffset": 1841,
+          "opcode": 131,
+          "args": [
+            59,
+            4
+          ]
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 1206,
+          "opcode": 216,
+          "args": [
+            18,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1238,
+          "opcode": 216,
+          "args": [
+            18,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1294,
+          "opcode": 216,
+          "args": [
+            18,
+            64
+          ]
+        },
+        {
+          "bodyOffset": 1343,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        }
+      ],
+      "allEnemyOwners": [
+        59,
+        109,
+        112,
+        6,
+        151
+      ],
+      "allNpcOwners": [
+        117
+      ],
+      "scope": "All-branch original event graphics union, excluding common loader/party overhead. Not simultaneous runtime use or a bound on total native heap. Original packets unchanged.",
+      "parts": [
+        {
+          "gfx": 90,
+          "currentBytes": 5824,
+          "candidateBytes": 9440,
+          "currentHeapBytes": 5824,
+          "candidateHeapBytes": 0,
+          "streamed": true
+        },
+        {
+          "gfx": 109,
+          "currentBytes": 8192,
+          "candidateBytes": 8192,
+          "currentHeapBytes": 8192,
+          "candidateHeapBytes": 8192,
+          "streamed": false
+        },
+        {
+          "gfx": 84,
+          "currentBytes": 9248,
+          "candidateBytes": 9248,
+          "currentHeapBytes": 9248,
+          "candidateHeapBytes": 9248,
+          "streamed": false
+        },
+        {
+          "gfx": 164,
+          "currentBytes": 8512,
+          "candidateBytes": 8512,
+          "currentHeapBytes": 0,
+          "candidateHeapBytes": 0,
+          "streamed": true
+        },
+        {
+          "gfx": 44,
+          "currentBytes": 1184,
+          "candidateBytes": 1184,
+          "currentHeapBytes": 1184,
+          "candidateHeapBytes": 1184,
+          "streamed": false
+        }
+      ],
+      "currentEventGraphicsHeapBytes": 24448,
+      "candidateEventGraphicsHeapBytes": 18624,
+      "decodedUnion": 36576
+    },
+    {
+      "location": 411,
+      "name": "Ocean Palace Southern Access Lift",
+      "eventId": 221,
+      "offset": 3771498,
+      "decodedSha256": "774b18471c93d42814d54053a2f3f1c3bd71eca51bbdb4aac79eba33dd2be07b",
+      "unchangedFromCT": true,
+      "mageLoads": [
+        {
+          "bodyOffset": 931,
+          "opcode": 131,
+          "args": [
+            59,
+            7
+          ]
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 665,
+          "opcode": 216,
+          "args": [
+            16,
+            64
+          ]
+        }
+      ],
+      "allEnemyOwners": [
+        214,
+        82,
+        59
+      ],
+      "allNpcOwners": [
+        113
+      ],
+      "scope": "All-branch original event graphics union, excluding common loader/party overhead. Not simultaneous runtime use or a bound on total native heap. Original packets unchanged.",
+      "parts": [
+        {
+          "gfx": 104,
+          "currentBytes": 2016,
+          "candidateBytes": 2016,
+          "currentHeapBytes": 0,
+          "candidateHeapBytes": 0,
+          "streamed": true
+        },
+        {
+          "gfx": 90,
+          "currentBytes": 5824,
+          "candidateBytes": 9440,
+          "currentHeapBytes": 5824,
+          "candidateHeapBytes": 0,
+          "streamed": true
+        },
+        {
+          "gfx": 46,
+          "currentBytes": 256,
+          "candidateBytes": 256,
+          "currentHeapBytes": 256,
+          "candidateHeapBytes": 256,
+          "streamed": false
+        }
+      ],
+      "currentEventGraphicsHeapBytes": 6080,
+      "candidateEventGraphicsHeapBytes": 256,
+      "decodedUnion": 11712
+    },
+    {
+      "location": 416,
+      "name": "Ocean Palace",
+      "eventId": 224,
+      "offset": 3775528,
+      "decodedSha256": "1512edf2da5ae240d11f266133f6d82d6ab0752e8228058b273c549c33abbab9",
+      "unchangedFromCT": true,
+      "mageLoads": [
+        {
+          "bodyOffset": 1587,
+          "opcode": 131,
+          "args": [
+            59,
+            3
+          ]
+        },
+        {
+          "bodyOffset": 1621,
+          "opcode": 131,
+          "args": [
+            59,
+            4
+          ]
+        }
+      ],
+      "battleCommands": [
+        {
+          "bodyOffset": 1120,
+          "opcode": 216,
+          "args": [
+            146,
+            192
+          ]
+        }
+      ],
+      "allEnemyOwners": [
+        88,
+        89,
+        109,
+        59,
+        112,
+        82,
+        213,
+        214
+      ],
+      "allNpcOwners": [],
+      "scope": "All-branch original event graphics union, excluding common loader/party overhead. Not simultaneous runtime use or a bound on total native heap. Original packets unchanged.",
+      "parts": [
+        {
+          "gfx": 100,
+          "currentBytes": 3680,
+          "candidateBytes": 3680,
+          "currentHeapBytes": 3680,
+          "candidateHeapBytes": 3680,
+          "streamed": false
+        },
+        {
+          "gfx": 109,
+          "currentBytes": 8192,
+          "candidateBytes": 8192,
+          "currentHeapBytes": 8192,
+          "candidateHeapBytes": 8192,
+          "streamed": false
+        },
+        {
+          "gfx": 90,
+          "currentBytes": 5824,
+          "candidateBytes": 9440,
+          "currentHeapBytes": 5824,
+          "candidateHeapBytes": 0,
+          "streamed": true
+        },
+        {
+          "gfx": 104,
+          "currentBytes": 2016,
+          "candidateBytes": 2016,
+          "currentHeapBytes": 0,
+          "candidateHeapBytes": 0,
+          "streamed": true
+        }
+      ],
+      "currentEventGraphicsHeapBytes": 17696,
+      "candidateEventGraphicsHeapBytes": 11872,
+      "decodedUnion": 23328
+    }
+  ]
+}

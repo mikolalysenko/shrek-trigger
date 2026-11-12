@@ -1,0 +1,345 @@
+{
+  "status": "passed",
+  "baselineSha256": "e13648757bbeee05dff8ff1cd0048b9cf60c13a24851c5625d7f3623adf06500",
+  "candidateSha256": "a17c76dda82743f8ed542a897954ad4bd8a16861b6b863c55f4070c07eb993be",
+  "core": "repository SNES JS native 65816/PPU",
+  "scope": "Original Lab 32 scene 224 controller route through four native battles, recorder chest and east exit to 225; existing chapter entry fixture, then controller input only. Iron Golem scene 312 native initialization is a separate bounded test.",
+  "roadArrival": [
+    {
+      "location": 224,
+      "object": 9,
+      "enemy": 163,
+      "frame": 8915,
+      "gfx": 154,
+      "palette": 194,
+      "sourcePointer": 5046272,
+      "palettePointer": 4656
+    },
+    {
+      "location": 224,
+      "object": 10,
+      "enemy": 163,
+      "frame": 8915,
+      "gfx": 154,
+      "palette": 194,
+      "sourcePointer": 5046272,
+      "palettePointer": 4656
+    },
+    {
+      "location": 224,
+      "object": 11,
+      "enemy": 163,
+      "frame": 8915,
+      "gfx": 154,
+      "palette": 194,
+      "sourcePointer": 5046272,
+      "palettePointer": 4656
+    },
+    {
+      "location": 224,
+      "object": 12,
+      "enemy": 163,
+      "frame": 8915,
+      "gfx": 154,
+      "palette": 194,
+      "sourcePointer": 5046272,
+      "palettePointer": 4656
+    },
+    {
+      "location": 224,
+      "object": 13,
+      "enemy": 163,
+      "frame": 8915,
+      "gfx": 154,
+      "palette": 194,
+      "sourcePointer": 5046272,
+      "palettePointer": 4656
+    },
+    {
+      "location": 224,
+      "object": 19,
+      "enemy": 163,
+      "frame": 8916,
+      "gfx": 154,
+      "palette": 194,
+      "sourcePointer": 5046272,
+      "palettePointer": 4656
+    },
+    {
+      "location": 224,
+      "object": 20,
+      "enemy": 163,
+      "frame": 8916,
+      "gfx": 154,
+      "palette": 194,
+      "sourcePointer": 5046272,
+      "palettePointer": 4656
+    },
+    {
+      "location": 224,
+      "object": 21,
+      "enemy": 163,
+      "frame": 8916,
+      "gfx": 154,
+      "palette": 194,
+      "sourcePointer": 5046272,
+      "palettePointer": 4656
+    }
+  ],
+  "road": {
+    "origin": 224,
+    "destination": 225,
+    "recorder": 221,
+    "quantity": 1,
+    "chestFlag": 1,
+    "story": 55,
+    "battles": [
+      {
+        "frame": 9576,
+        "location": 224,
+        "enemies": [
+          163,
+          163,
+          163
+        ]
+      },
+      {
+        "frame": 12047,
+        "location": 224,
+        "enemies": [
+          163,
+          163
+        ]
+      },
+      {
+        "frame": 14242,
+        "location": 224,
+        "enemies": [
+          102,
+          102,
+          102,
+          102,
+          102
+        ]
+      },
+      {
+        "frame": 18095,
+        "location": 224,
+        "enemies": [
+          163,
+          163,
+          163
+        ]
+      }
+    ],
+    "nativeDamageResults": 20,
+    "positiveDamageResults": 16
+  },
+  "ironArrival": [
+    {
+      "location": 312,
+      "object": 11,
+      "enemy": 164,
+      "frame": 8928,
+      "gfx": 154,
+      "palette": 195,
+      "sourcePointer": 5046272,
+      "palettePointer": 4680
+    },
+    {
+      "location": 312,
+      "object": 12,
+      "enemy": 164,
+      "frame": 8928,
+      "gfx": 154,
+      "palette": 195,
+      "sourcePointer": 5046272,
+      "palettePointer": 4680
+    },
+    {
+      "location": 312,
+      "object": 13,
+      "enemy": 164,
+      "frame": 8928,
+      "gfx": 154,
+      "palette": 195,
+      "sourcePointer": 5046272,
+      "palettePointer": 4680
+    },
+    {
+      "location": 312,
+      "object": 14,
+      "enemy": 164,
+      "frame": 8928,
+      "gfx": 154,
+      "palette": 195,
+      "sourcePointer": 5046272,
+      "palettePointer": 4680
+    }
+  ],
+  "maxObservedFieldHeapBytes": {
+    "224": 3136,
+    "312": 1440
+  },
+  "loads": [
+    {
+      "location": 224,
+      "object": 9,
+      "enemy": 163,
+      "frame": 8915
+    },
+    {
+      "location": 224,
+      "object": 10,
+      "enemy": 163,
+      "frame": 8915
+    },
+    {
+      "location": 224,
+      "object": 11,
+      "enemy": 163,
+      "frame": 8915
+    },
+    {
+      "location": 224,
+      "object": 12,
+      "enemy": 163,
+      "frame": 8915
+    },
+    {
+      "location": 224,
+      "object": 13,
+      "enemy": 163,
+      "frame": 8915
+    },
+    {
+      "location": 224,
+      "object": 14,
+      "enemy": 102,
+      "frame": 8915
+    },
+    {
+      "location": 224,
+      "object": 15,
+      "enemy": 102,
+      "frame": 8916
+    },
+    {
+      "location": 224,
+      "object": 16,
+      "enemy": 102,
+      "frame": 8916
+    },
+    {
+      "location": 224,
+      "object": 17,
+      "enemy": 102,
+      "frame": 8916
+    },
+    {
+      "location": 224,
+      "object": 18,
+      "enemy": 102,
+      "frame": 8916
+    },
+    {
+      "location": 224,
+      "object": 19,
+      "enemy": 163,
+      "frame": 8916
+    },
+    {
+      "location": 224,
+      "object": 20,
+      "enemy": 163,
+      "frame": 8916
+    },
+    {
+      "location": 224,
+      "object": 21,
+      "enemy": 163,
+      "frame": 8916
+    },
+    {
+      "location": 312,
+      "object": 11,
+      "enemy": 164,
+      "frame": 8928
+    },
+    {
+      "location": 312,
+      "object": 12,
+      "enemy": 164,
+      "frame": 8928
+    },
+    {
+      "location": 312,
+      "object": 13,
+      "enemy": 164,
+      "frame": 8928
+    },
+    {
+      "location": 312,
+      "object": 14,
+      "enemy": 164,
+      "frame": 8928
+    },
+    {
+      "location": 312,
+      "object": 15,
+      "enemy": 83,
+      "frame": 8928
+    },
+    {
+      "location": 312,
+      "object": 16,
+      "enemy": 83,
+      "frame": 8929
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "scenes/road-arrival.png",
+      "sha256": "edebe7d0d9516d503acb09fdbb1a2b6e4e21c4bbd0d6f425d825c11e7fcfbc4b"
+    },
+    {
+      "file": "scenes/road-battle-1.png",
+      "sha256": "662ad5a6fd5cde858a693c9d8426dcaf4051bdbfa030456451cd3a957c0c5a58"
+    },
+    {
+      "file": "scenes/road-battle-2.png",
+      "sha256": "32f4fdfc5dd65df726db5d9728ea402a5ab37377bfe72b97e10fe547fe62f5aa"
+    },
+    {
+      "file": "scenes/road-battle-3.png",
+      "sha256": "97c7984a15b1d0b1d0abe13d1b1567e81b0815896e0d06029f7f7378d646ff01"
+    },
+    {
+      "file": "scenes/road-recorder.png",
+      "sha256": "ea780795c0acfb7175851d8659ffdc3ef42ddeff35f20234069b591f097db7fc"
+    },
+    {
+      "file": "scenes/road-battle-4.png",
+      "sha256": "535c8b7e4fbd4a5461d29943e6515db53ab14175d150c8454df2edd6cde84473"
+    },
+    {
+      "file": "scenes/road-east.png",
+      "sha256": "cce56b3ba63680660251ad5579bfbbaee458b6a6c43da7e1cb37ed672f4e013c"
+    },
+    {
+      "file": "scenes/iron-scene312-arrival.png",
+      "sha256": "69895cff95fd47d8dfc65f4733fb7341fc89cbdb05ce8203dadea472db10dca9"
+    }
+  ],
+  "evidence": ".local/qa/mire-golems-native-proof",
+  "runner": {
+    "file": "assets/imagegen/mire-golems/verify-scenes.mjs",
+    "sha256": "c6ab8c508fd453f9d8fb81258e37662c3bf439faf497f56bcab55473adc3ea92"
+  },
+  "limitations": [
+    "Stops before the unrelated race controller after the original road-east checkpoint.",
+    "Scene 312 establishes original owner initialization, selected source/palette pointer and heap only; no Iron Golem encounter route or victory is claimed.",
+    "Scene 213 has a conservative original-load union and isolated owner proof only.",
+    "No independent-core execution in this inactive source packet; root owns production validation."
+  ]
+}

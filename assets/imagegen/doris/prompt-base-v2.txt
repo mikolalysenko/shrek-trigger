@@ -1,0 +1,9 @@
+Use case: precise-object-edit
+Asset type: SNES sprite atlas identity correction.
+Image1 is the EDIT TARGET: the sixteen Doris sprites in a4×4 grid on transparent alpha.
+Image2 is the CHARACTER IDENTITY REFERENCE: Doris from Shrek.
+Change only the sprites' facial anatomy and expression styling so all visible faces are recognizably Doris from image2. Preserve the sixteen exact poses, body/limb proportions, clothing, apron, braid hairstyle, cell order, figure scale, lighting, native pixel-art treatment and transparent background.
+
+The current sprite faces are too rounded, small-chinned and princess-like. Doris has a distinctly broad, heavy SQUARE LOWER JAW and chin, a long prominent nose with a broad bridge, a sturdy neck, thin sharply arched eyebrows and relatively small hooded eyes. Give the frontal faces wide lower cheeks and a chin almost as broad as the temples. Give profiles a substantial projecting chin and long nose. Keep the cool blue-gray eye makeup, bold lipstick, small gold hoop earrings and confident knowing smirk from the reference. Her gaze is adult, self-assured and slightly skeptical, with readable heavy facial planes. Keep the forehead and nose shaded in coherent pixel clusters, and lips a concise shaped line rather than a giant smile. Maintain each existing action's expression: idle/walk confident, flinch startled, spell release assertive, guard determined. Rear-facing sprites must remain entirely rear-facing, no visible face.
+
+Do not change the costume, animation poses, number of figures, atlas layout or feet. Do not add text, halos, ground, borders or props. Genuine transparent alpha; preserve every complete figure. Output pixel-art sprites with hard clustered edges suitable for reducing to native32×32 cells and12opaque colors. This is one targeted character-likeness edit, not a redesign of the sprite sheet.

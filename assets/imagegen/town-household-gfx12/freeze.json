@@ -1,0 +1,914 @@
+{
+  "status": "Frozen inactive source and verification packet; root-approved static model; native scene proof recorded separately",
+  "baselineSha256": "0758f532bcbf0322997553f1e11b40463e15ab463a54555e4a624b4cd4bacd3f",
+  "privateSha256": "d07c661ca3168cf654c05b6005c8064d9fd33e16f97b494529c0b97789957b35",
+  "sourceNativeProof": {
+    "status": "Frozen inactive source and verification packet; root-approved static model; native scene proof recorded separately",
+    "key": "duloc-household-resident",
+    "baselineSha256": "0758f532bcbf0322997553f1e11b40463e15ab463a54555e4a624b4cd4bacd3f",
+    "privateSha256": "d07c661ca3168cf654c05b6005c8064d9fd33e16f97b494529c0b97789957b35",
+    "source": {
+      "tool": "built-in image_gen__imagegen",
+      "generatedPNGs": 3,
+      "authoredSourcePoses": 9,
+      "derivedHairFragments": 1,
+      "selectedCells": {
+        "source-base-v1.png": [
+          1,
+          2,
+          4,
+          5,
+          13
+        ],
+        "source-face-v2.png": [
+          0,
+          8,
+          9
+        ],
+        "source-left-contact-b-v3.png": [
+          0
+        ]
+      },
+      "sampling": "AREA with unchanged hardware palette135,30px reference height; full-source scale corrections30/31 for rear contacts/passing and29/30 for original profileA,29px reference for profileB. No horizontal distortion. The palette131 variant reuses exact indices.",
+      "mirrors": "Whole-source mirrors preserve native-proven front/back/right pairs. Mirrors are not additional authored source poses.",
+      "fragment": "Pointwise top-six-opaque-row crop of the sampled generated left profile; mirrored for18. The original8px cell stencil contains only6 opaque hair rows, and that6px native height is retained. Slot16 is fully blank.",
+      "anatomyPaintedInCode": false,
+      "limitations": [
+        "The long gown partly conceals upper-leg ownership in profile. Actual opposing near-hand source poses provide a visible contact distinction.",
+        "Source PNGs are rich raster illustrations; only the sampled indexed assets claim native12-color compliance.",
+        "Not all figures in the base or face atlas are used. Repeated lead-leg base candidates6/10 are explicitly excluded."
+      ]
+    },
+    "native": {
+      "slots": 19,
+      "blankSlots": [
+        16
+      ],
+      "hairFragmentSlots": [
+        17,
+        18
+      ],
+      "owners": [
+        21,
+        48
+      ],
+      "palettes": [
+        135,
+        131
+      ],
+      "rawBytes": 3584,
+      "compressedBytes": 2883,
+      "assemblyBytes": 760,
+      "graphicsSha256": "b497f3ed368b9c24e3e78801fa7be930da72f9062e8eac872ddef399bf0da22c",
+      "compressedSha256": "b0ef2ccaaa8398f5f0778188509404cc9a46a4c6495ade3dfdb11c924327e3a4",
+      "assemblySha256": "7d72c346c78418fb9abdbfc7b6bf52692541d7ff047b94be14476ddb77e05ace",
+      "originalSignedXYBytesPreserved": 152,
+      "extraCells": 0,
+      "overlapFrames": [],
+      "exactUploads": 38,
+      "exactNonblankCellCoordinates": 144,
+      "exactOpaquePixels": 10308,
+      "animationCases": 32,
+      "animationTicks": 2496,
+      "displayDelay": 0
+    },
+    "sharedSentinels": {
+      "npcIds": [
+        22,
+        14,
+        40
+      ],
+      "uploads": 60,
+      "opaquePixels": 19522,
+      "animationCases": 8,
+      "animationTicks": 960,
+      "scope": "Pinned0758 sentinel sources, not claims about later published art. NPC22 shares asm7/AA7; NPC14 shares AA7 and palette135; NPC40 shares palette131.",
+      "allUnrelatedHeadersAndSharedResourcesByteExact": true
+    },
+    "sceneEvidence": [
+      {
+        "name": "inn-present",
+        "location": 12,
+        "setup": {
+          "id": 12,
+          "x": 54,
+          "y": 25,
+          "facing": 3
+        },
+        "result": {
+          "location": 12,
+          "sourceFrames": [
+            3,
+            2,
+            6
+          ],
+          "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+        },
+        "nativeTicks": 861,
+        "heapMax": 7616,
+        "dialogueIds": [
+          85
+        ],
+        "objPaletteRows": [
+          2
+        ],
+        "manifest": "assets/imagegen/town-household-gfx12/scene-verification/inn-present.json"
+      },
+      {
+        "name": "household",
+        "location": 58,
+        "setup": {
+          "id": 58,
+          "x": 40,
+          "y": 58,
+          "facing": 0
+        },
+        "result": {
+          "location": 58,
+          "sourceFrames": [
+            4,
+            11,
+            3
+          ],
+          "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+        },
+        "nativeTicks": 1025,
+        "heapMax": 5184,
+        "dialogueIds": [
+          41
+        ],
+        "objPaletteRows": [
+          3
+        ],
+        "manifest": "assets/imagegen/town-household-gfx12/scene-verification/household.json"
+      },
+      {
+        "name": "court-present",
+        "location": 22,
+        "setup": {
+          "id": 22,
+          "x": 20,
+          "y": 48,
+          "facing": 0
+        },
+        "result": {
+          "location": 22,
+          "sourceFrames": [
+            0
+          ],
+          "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+        },
+        "nativeTicks": 877,
+        "heapMax": 1248,
+        "dialogueIds": [
+          119
+        ],
+        "objPaletteRows": [
+          0
+        ],
+        "manifest": "assets/imagegen/town-household-gfx12/scene-verification/court-present.json"
+      },
+      {
+        "name": "court-middle",
+        "location": 121,
+        "setup": {
+          "id": 121,
+          "x": 24,
+          "y": 47,
+          "facing": 0
+        },
+        "result": {
+          "location": 121,
+          "sourceFrames": [
+            0
+          ],
+          "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+        },
+        "nativeTicks": 980,
+        "heapMax": 3968,
+        "dialogueIds": [
+          84
+        ],
+        "objPaletteRows": [
+          0
+        ],
+        "manifest": "assets/imagegen/town-household-gfx12/scene-verification/court-middle.json"
+      },
+      {
+        "name": "bram-flashback",
+        "location": 206,
+        "setup": {
+          "id": 206,
+          "x": 32,
+          "y": 30,
+          "facing": 0
+        },
+        "result": {
+          "location": 206,
+          "sourceFrames": [
+            1
+          ],
+          "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+        },
+        "nativeTicks": 1948,
+        "heapMax": 3072,
+        "dialogueIds": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "objPaletteRows": [
+          0
+        ],
+        "manifest": "assets/imagegen/town-household-gfx12/scene-verification/bram-flashback.json"
+      },
+      {
+        "name": "hostile-throne",
+        "location": 169,
+        "setup": {
+          "name": "Fortress · Briar Knight and guards",
+          "id": 169,
+          "x": 8,
+          "y": 44,
+          "facing": 0,
+          "fortressScene": "fortress-knight"
+        },
+        "result": {
+          "location": 169,
+          "sourceFrames": [
+            0
+          ],
+          "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+        },
+        "nativeTicks": 909,
+        "heapMax": 13120,
+        "dialogueIds": [
+          9
+        ],
+        "objPaletteRows": [
+          2
+        ],
+        "manifest": "assets/imagegen/town-household-gfx12/scene-verification/hostile-throne.json"
+      },
+      {
+        "name": "hostile-corridor",
+        "location": 469,
+        "setup": {
+          "id": 469,
+          "x": 19,
+          "y": 12,
+          "facing": 0
+        },
+        "result": {
+          "location": 469,
+          "sourceFrames": [
+            0
+          ],
+          "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+        },
+        "nativeTicks": 909,
+        "heapMax": 22208,
+        "dialogueIds": [
+          10
+        ],
+        "objPaletteRows": [
+          2
+        ],
+        "manifest": "assets/imagegen/town-household-gfx12/scene-verification/hostile-corridor.json"
+      }
+    ],
+    "sceneCoverage": {
+      "auditedPrograms": [
+        12,
+        13,
+        22,
+        58,
+        62,
+        116,
+        117,
+        121,
+        122,
+        123,
+        124,
+        138,
+        139,
+        155,
+        169,
+        188,
+        189,
+        206,
+        469
+      ],
+      "auditedLoadStatements": 21,
+      "observedLocations": [
+        12,
+        22,
+        58,
+        121,
+        169,
+        206,
+        469
+      ],
+      "untraversedPrograms": [
+        13,
+        62,
+        116,
+        117,
+        122,
+        123,
+        124,
+        138,
+        139,
+        155,
+        188,
+        189
+      ],
+      "sceneTicks": 7509,
+      "limitations": [
+        "Every run uses diagnostic location/checkpoint entry, followed by original initialization and ordinary controller input. Natural campaign approaches are not claimed.",
+        "Six ordinary/hostile dialogue interactions execute their original messages. No paid inn stay, complete hostile battle, or ending is claimed.",
+        "Bram flashback206 shows both source actors and original dialogue0–4. This is a bounded excerpt, not the complete return route.",
+        "Original counter, party and dialogue-window occlusion remains unchanged. Manifests distinguish complete isolated pixel proofs from visible scene pixels.",
+        "All19 event packets remain byte-identical. Static all-branch bank unions are not simultaneous heap measurements.",
+        "Current-cartridge allocation, independent-core validation and campaign regression remain root integration work."
+      ]
+    },
+    "staticApproval": {
+      "root": "Accepted full role sheet and gait contacts; cream collar/copper braid/gown distinguish gfx12 from kerchief/apron36.",
+      "lead": "Reviewed every native pose in both palettes and the original timed gait ordering."
+    },
+    "proposal": "assets/imagegen/town-household-gfx12/integration-proposal.json",
+    "reproduction": "assets/imagegen/town-household-gfx12/reproduction.json",
+    "activeFilesChanged": false
+  },
+  "files": [
+    {
+      "path": "assets/imagegen/town-household-gfx12/.gitignore",
+      "bytes": 9,
+      "sha256": "7f1449aa6b5c22585727e0d7ef4b16a112119fb0b8f472d7ab4d3a974369dc6d"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/README.md",
+      "bytes": 5886,
+      "sha256": "67e2627f686d41d0911d36a79c326f2cdcfd170f44550c9e042fd68cacd7997b"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/build-review.mjs",
+      "bytes": 8041,
+      "sha256": "d74f1845c3a73e0807fe42dd42e392f24d65cfefbf73ece8b8025eb5ea9c782a"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/create-full-spec.mjs",
+      "bytes": 1405,
+      "sha256": "b1031b250a118f3bcf52fc100b6665a0dc0bdb7ebd6484e5d54ab05739dd85df"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/current-event-audit.json",
+      "bytes": 547060,
+      "sha256": "ded12830d7b7738e8a5ec626c6da177a4f400ed0b1ed7ac5595701b53fc4c7c1"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/derive-fragments.mjs",
+      "bytes": 2105,
+      "sha256": "2a2e610f33f2b626310e34ee7b5cb0d074c03612aa57d1e42b5e07c8a4a482ea"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/derived-hair-fragment-area.json",
+      "bytes": 459,
+      "sha256": "e3150b33988657b99eeb882a43095120293f303403c9176aa7cc7e4af4744778"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/derived-hair-fragment-area.png",
+      "bytes": 263,
+      "sha256": "831a0b118a01483d718d36869536d10548f2b627c3af14fd8a4cbca6b11169ac"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/design-proposal.json",
+      "bytes": 4141,
+      "sha256": "26f5a85e998af2f8a0f4c3ca026533e8554097085e13e520ce0453362e7278e6"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/dialogue-context-audit.json",
+      "bytes": 38775,
+      "sha256": "5e2b35e90532192fbb8b53f537be6a2a8e0ea9323c9ee6582ce638eb06d7cc98"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/freeze-packet.mjs",
+      "bytes": 5285,
+      "sha256": "69a4f61135fc455b5c65f76cabd97191a60e6c03f4b1be43cf1a1974c661d8ea"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/assembly.bin",
+      "bytes": 760,
+      "sha256": "7d72c346c78418fb9abdbfc7b6bf52692541d7ff047b94be14476ddb77e05ace"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/audit.json",
+      "bytes": 4139,
+      "sha256": "31d1a5307730961ebfaf5b02296c96dce89c5d490a6cd44b9d8f192bce8feb95"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/family.json",
+      "bytes": 5014,
+      "sha256": "0e6115d30a50dfb0873076b231fb02fd04cc25626273f732b6a806651aa18d61"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/graphics.4bpp",
+      "bytes": 3584,
+      "sha256": "b497f3ed368b9c24e3e78801fa7be930da72f9062e8eac872ddef399bf0da22c"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/graphics.ct-lz",
+      "bytes": 2883,
+      "sha256": "b0ef2ccaaa8398f5f0778188509404cc9a46a4c6495ade3dfdb11c924327e3a4"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/native-frames.json",
+      "bytes": 77883,
+      "sha256": "0ce8bdb73a7ed7ca727b6f459af7c4f884d549213b8a8c3a463a2b341d1b9992"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/native-source-map.json",
+      "bytes": 15334,
+      "sha256": "9eafa5c49cbb61c7b62cff6fa190540b79317c8e59661b9b057ed04ac95a2475"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/palette131-1x.png",
+      "bytes": 10792,
+      "sha256": "656c6c8b21c2cb0b13904f41338c3daa20a46ad869a65a77538770d2da8faba6"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/palette131-4x.png",
+      "bytes": 20445,
+      "sha256": "4671f17b8b7d1cc312321143d3f5ee74fdbe44b487aa0970425e19dd1cece87a"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/palette135-1x.png",
+      "bytes": 10720,
+      "sha256": "3b0345140236fcebd670fd6bdfa9e9204c200179c0ad08bda816565f88a4ca6d"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/palette135-4x.png",
+      "bytes": 20712,
+      "sha256": "f38f41774f19a874741cfb84acd660bdcafda7d7780b62d0ad973a2d814dd222"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/preview-import.json",
+      "bytes": 9482,
+      "sha256": "7b903ec1d3662c7e42ba6af432f321a7eee3d3fa0827cf357614c3294628f3e3"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/preview-native-indexed.png",
+      "bytes": 5935,
+      "sha256": "7596cbfb6f61f8e056afb25848781e21e462bd3d11c8b334c0a99bfc5ee83a51"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/full-area/preview-raster.json",
+      "bytes": 42184,
+      "sha256": "c9d9bf8447a7985045f12899206911806bb9922fdb89b18bb02e29cb371100e1"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/handoff.json",
+      "bytes": 10021,
+      "sha256": "3b5fea30edad52ae3ffae6e824802f77207090069157e3551d425bf1af57bf2a"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/import-spec.draft.json",
+      "bytes": 3470,
+      "sha256": "4532c3db00a0c6eb2ff1d216f4f4b9860eaa34e8f7b09379954403e9f7732da6"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/import-spec.full-area.json",
+      "bytes": 3470,
+      "sha256": "4532c3db00a0c6eb2ff1d216f4f4b9860eaa34e8f7b09379954403e9f7732da6"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/integration-proposal.json",
+      "bytes": 2810,
+      "sha256": "152569045b33e48538edf6fefc0c88c206de68c83eb77c26e9feb44b160efb08"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/motion-verification/manifest.json",
+      "bytes": 26218,
+      "sha256": "3722862a656029d8b0a80fdccf4b1f6fe86b0199d76df94ca7d9fa753c6ef687"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-audit.json",
+      "bytes": 71165,
+      "sha256": "f8aceb34d95e0eb0c7afe4445aa16d5fce978a2f27376f6fa5b85a00395c9a4b"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-proof-utils.mjs",
+      "bytes": 3436,
+      "sha256": "64e6a45cf9690caa479d5b74dee7ced1378088eece42fa6d5b57d1936cb01782"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-role-notes.json",
+      "bytes": 1862,
+      "sha256": "63a199fa004590c6a153cf378b43d31cb181c759fa8d686786528fa257e1f470"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-verification/manifest.json",
+      "bytes": 30623,
+      "sha256": "6f98057c7d912a39a9af9cf9a0ebbfe534a80576c8fd8ecbfb7fe517185c90d4"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-verification/npc21-0.png",
+      "bytes": 56543,
+      "sha256": "199c17bd2b040878a88dbb061454ece18d98720abfbd300830a7b2fe3b12b35b"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-verification/npc21-1.png",
+      "bytes": 56455,
+      "sha256": "dc981fd43bcc5f1f46e1d9cda086acee8bdcb45f81e7b8db90c4d20771fd1ffb"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-verification/npc21-12.png",
+      "bytes": 56512,
+      "sha256": "dad0e752ecd4cf2153b1e55391ca1dc1f0bbe5bdb0ea0b40a32ab5f659c47288"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-verification/npc21-13.png",
+      "bytes": 56468,
+      "sha256": "d12e285a335d251a3f699639710b5057219d19180385575feba26e11c2b49e57"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-verification/npc21-17.png",
+      "bytes": 56487,
+      "sha256": "00ed86be4e0bd7fd0152e34f292fbecb737e88412e34572fea124f02fab9c671"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-verification/npc48-1.png",
+      "bytes": 56453,
+      "sha256": "8107634456a7a4f5c56761e57a60d72c82243888503e04bafd0527c114b42430"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-verification/npc48-13.png",
+      "bytes": 56488,
+      "sha256": "165e2c55682833ec2d2a8307fa92a2673bed5cb435f13d2002549223b8723d3c"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-verification/npc48-18.png",
+      "bytes": 56485,
+      "sha256": "87c9e64d94de15b70b23b905798a1b98820ab51f3b0f6d8fbe3c4a8c503f3ca8"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/native-verification/shared-sentinels.json",
+      "bytes": 33084,
+      "sha256": "bf8798fdaff16b760d39f491340373570bc2531200fcedbdbe7675f74a88a103"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/prepare-native.mjs",
+      "bytes": 6890,
+      "sha256": "2aa6658718c1ba8744559ff44285827f8bb0867f3a255a953977123a6ae56c2a"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/private-overlay.mjs",
+      "bytes": 5514,
+      "sha256": "36bfbd7a031d1bc126fe3104ab1709a3a6cdc7e3d63d3494ed508a53a8442150"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/prompt-base-v1.txt",
+      "bytes": 3956,
+      "sha256": "c8c53d394cb655a9246ccc10b3cd92dac8fe31059d7358341003ed684a1eaceb"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/prompt-face-v2.txt",
+      "bytes": 1771,
+      "sha256": "06ebb89c1a0b69235ba8a9c1b7c21fbc18f71b5e251be40fe2e8bca63f43417c"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/prompt-left-contact-b-v3.txt",
+      "bytes": 1891,
+      "sha256": "9eca410204bd82e522cd4a24828cb485c12eef28e1596d356861073363eef809"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/provenance-base-v1.json",
+      "bytes": 1627,
+      "sha256": "0b3578642c9e00ebad15dd1a2974cd81d9bca27f23ec7577efa833761e13c497"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/provenance-face-v2.json",
+      "bytes": 1394,
+      "sha256": "4e0374fa678a0f68a2b90d2faf8165cf7639858bdbcb6b30116c33f76c6c0d0d"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/provenance-left-contact-b-v3.json",
+      "bytes": 1443,
+      "sha256": "055db02e93a44c8de3f497fe488d7b76163e4b61acb7f8746cace21198b78cdb"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/reproduce-draft.mjs",
+      "bytes": 2381,
+      "sha256": "e73c81557a73b08e730b1ef284276777a90725d7f18369cdb37a4b18b7d5a1cb"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/reproduction.json",
+      "bytes": 2763,
+      "sha256": "2537abe763afcb424f389e56f63942805fe5fcb66ee997ea21a52e7b82959e66"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/review/contact-sheet-1x.png",
+      "bytes": 176318,
+      "sha256": "4766dcc23ef700524b273139b631865dbbafa20e70611ede9ab00bf2ba369d55"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/review/contact-sheet.html",
+      "bytes": 40070,
+      "sha256": "840699edd1ddeff7580eada6d58f1b335f351daa47070ce770eb805efd3362f9"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/review/gait-contacts.html",
+      "bytes": 36605,
+      "sha256": "2749142b34566f9ea77df243193fa713e836f3dbd9b7fbaa8a92f25ac02a5e22"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/review/gait-contacts.png",
+      "bytes": 133159,
+      "sha256": "63ceec9acdb0ca3dd77f175263e6a8e26fc53981c2a5c16f5e3b8a3521b765b5"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/review/motion-review.html",
+      "bytes": 320180,
+      "sha256": "40d748499e2815d5f60601012759bcf79eaf8946654262564e1447813d949f77"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/review/role-review.html",
+      "bytes": 76208,
+      "sha256": "4845a4733fc9dc67ef5ed721ea2a02b911200c9648e970abff385630aea233c0"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/review/role-review.png",
+      "bytes": 208099,
+      "sha256": "fb0a68a8821d3987ec780de449297f5a0f005705f29d70a95d09b3ddbeca5b06"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/review/ui-check.json",
+      "bytes": 1535,
+      "sha256": "2d005693c0f212ba72f8043ee0c1900503e2e9eb000420dc82ea56eccbdb847e"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-resource-audit.json",
+      "bytes": 19640,
+      "sha256": "c66a829bd8e22b51a7400f76065b210a7cc71146bd7c6b3498dee7706241d6ef"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/bram-flashback-arrival.png",
+      "bytes": 84837,
+      "sha256": "0671a0f83866ca813532fde262013771e0fa8892b86a9dc9cd3bf729e926d158"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/bram-flashback-flashback-4.png",
+      "bytes": 78453,
+      "sha256": "8ac66269f82150217dc4a805270a56e7ddbb39e4f53ed9665a4e385f55b0865f"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/bram-flashback.json",
+      "bytes": 14758,
+      "sha256": "484719530cb0867ebd33cdebb4a13d6ced5e46a512eff2a85ae1873aabfdf47a"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/court-middle-interaction.png",
+      "bytes": 79686,
+      "sha256": "a69e5650365cc9871ff97a4d66bb97bfb7b18e1d57189243dc575f5fca1ad6c8"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/court-middle.json",
+      "bytes": 9007,
+      "sha256": "618b8bd414c581bf0d0d1f9447e8c92b293ced1452e2e1bbbeb83af5ba2b3277"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/court-present-interaction.png",
+      "bytes": 81086,
+      "sha256": "56163757b6e6054b84651bdcde05fc6bb1b8df0b5cdf0ffce16a87167bbd8e54"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/court-present.json",
+      "bytes": 8820,
+      "sha256": "aaf0fc5a318a675a1b5a1468a58fa7ef429a59d4fa09136035b7d8b8a2dc6618"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/hostile-corridor-interaction.png",
+      "bytes": 65463,
+      "sha256": "d650b0abee85e118531c51f503cb7ce2982e98266d53a72d9030c0b1511a12e9"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/hostile-corridor.json",
+      "bytes": 9011,
+      "sha256": "c1c7435ba9935ed433b5c41f4402b3978c7f8cf8d4317b76cdcd356a0eeb9e33"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/hostile-throne-interaction.png",
+      "bytes": 64624,
+      "sha256": "61697b13cacc25d181fc8b7e11e9ea7e66b82ee9c19b1b324c2e2274f9822c4f"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/hostile-throne.json",
+      "bytes": 9237,
+      "sha256": "692bd0159f941be724d230bac976a576897b5f871bdaa14adb9bb14532e598cc"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/household-interaction.png",
+      "bytes": 68365,
+      "sha256": "fe046d660faeff49e121cb53894f0c9404ed3d9df9ffeb64e045fc0a108077e9"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/household.json",
+      "bytes": 10765,
+      "sha256": "bfa2971a24e13148de8f82a962e809d26c708acf9fece9437a96b574597761b6"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/inn-present-arrival.png",
+      "bytes": 75913,
+      "sha256": "c6a4b2420af76636c754b9f723ce0765f7049a9e314b70c6791e03b6ad3e7628"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/inn-present-interaction.png",
+      "bytes": 77751,
+      "sha256": "d1445b4802115d6fe8189afa97a4997d82c2627320ea9913a2fdba8e24a8b8f7"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/scene-verification/inn-present.json",
+      "bytes": 11243,
+      "sha256": "c55393a0503bee27275953c68091400d3238a7ba84507254c516864fef324cb9"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/source-base-v1.png",
+      "bytes": 1095584,
+      "sha256": "9efa0ae333705278fac3b30b767826b328159bfe30eb63937a149656c7971612"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/source-face-v2.png",
+      "bytes": 1101497,
+      "sha256": "2dea1c02ba66a67ffdba8dd6317cd019e87bad3304d6d7d248de0e3a1318c65d"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/source-left-contact-b-v3.png",
+      "bytes": 560347,
+      "sha256": "7dd57a15f72a2133f5eab79c15ae0310ecde9e775bc2dd44f0b88bb11fe8ab07"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/verify-frozen.mjs",
+      "bytes": 1022,
+      "sha256": "2b0ab31ffa33391ec1e8d8c8f968d366e8dbb81d3101419fc2c958eba51d808a"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/verify-motion.mjs",
+      "bytes": 3686,
+      "sha256": "2cf4922477a648f89334804b21ef00efe6c01e42b4a69f0f1aa1e6a27f21f9b0"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/verify-native.mjs",
+      "bytes": 3906,
+      "sha256": "194662e119b0c8d2c54b5d45fa22aeedfbb60f11d151f9410fe8e3f268717f6b"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/verify-scenes.mjs",
+      "bytes": 8372,
+      "sha256": "980ef83a75a42eae22800f8365cf878402de5af944af4a3e459c61d3a1fe01b3"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/verify-shared-sentinels.mjs",
+      "bytes": 3955,
+      "sha256": "5b66d997023d5b58442289732b4ec80cd42a9cc85f81a001ceb0913ffcd8c62a"
+    },
+    {
+      "path": "assets/imagegen/town-household-gfx12/write-handoff.mjs",
+      "bytes": 7150,
+      "sha256": "43dd0cf69052db950998f5a5acca427b48fbc61fa660bed5c869629e0ad66859"
+    },
+    {
+      "path": "assets/raster/town-npc12-audit/.gitignore",
+      "bytes": 9,
+      "sha256": "7f1449aa6b5c22585727e0d7ef4b16a112119fb0b8f472d7ab4d3a974369dc6d"
+    },
+    {
+      "path": "assets/raster/town-npc12-audit/audit-dialogue.mjs",
+      "bytes": 3040,
+      "sha256": "e0b39745f92231787dfaf45a71097c7ca321810e04f9c6094727d85d6ed91f7d"
+    },
+    {
+      "path": "assets/raster/town-npc12-audit/audit-event-uses.py",
+      "bytes": 3700,
+      "sha256": "2a066566b5a3fdbebe739a0818f7d2a10be5aaa1d2f65538df6b4285f8038778"
+    },
+    {
+      "path": "assets/raster/town-npc12-audit/audit-native.mjs",
+      "bytes": 8386,
+      "sha256": "a53f886d3c6861cec47d53b5c78c7c8a5cca7b606cc2fe5f520e9b1e122f3530"
+    },
+    {
+      "path": "assets/raster/town-npc12-audit/extract-events.mjs",
+      "bytes": 1348,
+      "sha256": "f42a020426751d08c514097c4fa353a7c79c209dc9955714ef5706287f095d60"
+    },
+    {
+      "path": "assets/raster/town-npc12-audit/review/original-palette131-1x.png",
+      "bytes": 11599,
+      "sha256": "4a92727cf347738399dff9975705209ff3d6d6c667cc85d254cc19c03a870971"
+    },
+    {
+      "path": "assets/raster/town-npc12-audit/review/original-palette135-1x.png",
+      "bytes": 11508,
+      "sha256": "e0125b8170bf1ca11870a083ebf6677dc6b475caeac7ec9db221afa527f05b54"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "scripts/import-raster-art.mjs",
+      "sha256": "c0cb6e8292c646f4d7fb3845e411f2b3a550b385b59fc23f897e4c8ff8234ca4"
+    },
+    {
+      "path": "engine/native-sprites.js",
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "path": "engine/sprites.js",
+      "sha256": "16a71866525879dfaa8615b76adc49d48bfd72022d3c5890c71f7cc6dce0101b"
+    },
+    {
+      "path": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "path": "scripts/native-sprite-view.mjs",
+      "sha256": "5ad09bed2da5887837208c7ccf58dc7e9822a383b9a05dc9433031508fc404b9"
+    },
+    {
+      "path": "engine/rom.js",
+      "sha256": "06b336022840d63cc8295bce22f19ee3527484a06739b76ce90dc5bafa2a9b04"
+    },
+    {
+      "path": "engine/raster-art.js",
+      "sha256": "84d0833e8427cd9ee5097d8ad9bcdcef4ec03f1babf71cb659226a87dd483b9c"
+    },
+    {
+      "path": "engine/npc-graphics-streaming.js",
+      "sha256": "0dd90dca70436ed2863c448b11e66e549b71d9e85b2ec7603312000e74d2d8c2"
+    },
+    {
+      "path": "engine/expanded-rom.js",
+      "sha256": "de8f528ce60b4488df9d7742c38e8c9af2ae58e74df641fe6fd1c605dbeedde2"
+    },
+    {
+      "path": "scripts/core.mjs",
+      "sha256": "7ab30045a06ef89154004a3cc25e1c2dab1cad1c426f4a585e4a68a058bceef4"
+    },
+    {
+      "path": "engine/devtools.js",
+      "sha256": "fe92b027caa015f4f327cb07b50668b2881b93c41038ab80bdfa79deff549feb"
+    },
+    {
+      "path": "engine/automation.js",
+      "sha256": "8af377558a467f16747a8dbb120b8a047c2512cee9b4945ec5f657660a36fe28"
+    },
+    {
+      "path": "engine/hooks.js",
+      "sha256": "795fd4248bfaf669e53753df0636b4d24cf5ae98062d82f6e50b147516af7a2a"
+    },
+    {
+      "path": "engine/save.js",
+      "sha256": "c3ea24d67274d089090ebf5cb2776471cd8da323d878fcf398ae74390fd3d8ad"
+    },
+    {
+      "path": "content/hooks.json",
+      "sha256": "bf37708d2862de0a3a6766ef8f9a5c05079e454e262750e001e42a02532783a5"
+    },
+    {
+      "path": "content/areas.js",
+      "sha256": "52f51e6b779d07c2f5f1cf2d947732737ff1e75668d9b29da2faafbdb3d3f739"
+    },
+    {
+      "path": "content/native-preview.js",
+      "sha256": "4a2d59070e36257a3d69c7d26b205d6587d08ba7a45738896ade4388609f9760"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "64a6a819820c608b0efc612e049a872b68b3159ec6d3cc95ae13261893a980b5"
+    },
+    {
+      "path": ".local/reference/jot-current/sourcefiles/eventcommand.py",
+      "sha256": "c6bce64666d313132e1c2122ba7300303fb9ee7749605db5cf3b7133063d4f87"
+    },
+    {
+      "path": ".local/reference/temporal-redux/sourcefiles/editorui/lookups.py",
+      "sha256": "8c4cb21a32d9b0010d764266e6822a14584962c3bae8b74ed2e60b6662f4d3c3"
+    }
+  ],
+  "externalRomInputs": [
+    {
+      "path": "assets/raster/town-npc12-audit/private/baseline-0758f532bcbf.sfc",
+      "sha256": "0758f532bcbf0322997553f1e11b40463e15ab463a54555e4a624b4cd4bacd3f"
+    },
+    {
+      "path": ".local/chrono-trigger-usa.sfc",
+      "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+    }
+  ],
+  "exclusions": [
+    "ROMs, snapshots, unselected sampling trials, superseded cap-named fragment files, controller-calibration failures and redundant captures."
+  ],
+  "activation": false
+}

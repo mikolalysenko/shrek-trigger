@@ -1,0 +1,157 @@
+{
+  "status": "Frozen inactive source packet; root static and native scene reviews approved",
+  "identity": "Human Duloc civic soldier; original spectral Sentry recolor",
+  "key": "native-guard",
+  "sourceSpec": "assets/imagegen/native-guards/import-spec.draft.json",
+  "geometry": "assets/imagegen/native-guards/draft/family.json",
+  "baselineSha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+  "privateSha256": "3e391158bb31e62de259da97c188586e47342c3c74279b95dfba08294ceb1aac",
+  "sourcePoses": 20,
+  "nativeSlots": 26,
+  "blankSlots": [],
+  "owners": [
+    [
+      "npc",
+      75
+    ],
+    [
+      "enemy",
+      49
+    ],
+    [
+      "enemy",
+      50
+    ]
+  ],
+  "paletteIds": [
+    14,
+    15
+  ],
+  "palettesUnchanged": true,
+  "nativeFrames": 78,
+  "nativeCells": 312,
+  "nativePixels": 32649,
+  "motionCases": 84,
+  "motionTicks": 7200,
+  "nativeDisplayDelay": 0,
+  "sceneEvidence": [
+    {
+      "name": "prison-rescue",
+      "nativeTicks": 10305,
+      "result": {
+        "location": 30,
+        "story": 46,
+        "party": [
+          0,
+          2,
+          128
+        ],
+        "knockedOutFieldGuardCount": 2
+      },
+      "heapMax": 23040,
+      "manifest": "assets/imagegen/native-guards/scene-verification/prison-rescue.json"
+    },
+    {
+      "name": "prison-breakout",
+      "nativeTicks": 3883,
+      "result": {
+        "fought": true,
+        "captured": true,
+        "finished": true,
+        "story": 45,
+        "flag190": 7
+      },
+      "heapMax": 20736,
+      "manifest": "assets/imagegen/native-guards/scene-verification/prison-breakout.json"
+    },
+    {
+      "name": "sentry",
+      "nativeTicks": 4634,
+      "result": {
+        "formation": [
+          50,
+          50,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "presses": 7,
+        "magic": {
+          "selection": {
+            "slot": 0,
+            "techId": 8,
+            "index": 7
+          },
+          "mpBefore": 99,
+          "mpAfter": 94
+        },
+        "location": 66,
+        "flags": {
+          "7F019F": 0,
+          "7F01A3": 0
+        }
+      },
+      "heapMax": 1248,
+      "manifest": "assets/imagegen/native-guards/scene-verification/sentry.json"
+    },
+    {
+      "name": "festival",
+      "nativeTicks": 1000,
+      "result": {
+        "location": 5,
+        "scope": "Original festival shared NPC initialization and acting, entered diagnostically; not a complete festival route"
+      },
+      "heapMax": 18784,
+      "manifest": "assets/imagegen/native-guards/scene-verification/festival.json"
+    },
+    {
+      "name": "ending-shared",
+      "nativeTicks": 1100,
+      "result": {
+        "location": 391,
+        "scope": "Original Dream Project room shared palette14 NPC and palette15 enemy load/acting; no claim of a complete ending route"
+      },
+      "heapMax": 11776,
+      "manifest": "assets/imagegen/native-guards/scene-verification/ending-shared.json"
+    }
+  ],
+  "budgets": {
+    "rawBytes": 9088,
+    "compressedBytes": 6646,
+    "assemblyBytes": 1040,
+    "newStoredRomBytesBeforeAlignment": 10015,
+    "extraWram": 0,
+    "extraVram": 0,
+    "streamRequired": [
+      78
+    ]
+  },
+  "graphicsSha256": "38c3d7c9d63a491c4c2cbc77e36880fa0387fded25ed0195545ff35a24e449b4",
+  "compressedSha256": "ac55fb7a961d392f6bc4f82f764f8c41a2ffd077ca5cd37cd5fbbd6380dd3e66",
+  "assemblySha256": "8652f1ff0c821a393953c0fea0b071a8ed2f93993731c8a1dcac4d0756b7e9ca",
+  "approval": {
+    "static": "Root reviewed both full palette sheets and approved model/action direction, including blade arcs and horizontal collapse.",
+    "native": "Root reviewed actual prison knockouts and Sentry battle; silhouettes, horizontal collapse and spectral palette approved."
+  },
+  "limits": [
+    "Diagnostic scene entry, followed by native controller input; no continuous new-game or complete ending claim.",
+    "Original spectral effects and party occlusion remain visible in real Sentry encounter. Fully visible source RGB verified separately in all78 isolated owner/pose cases.",
+    "Native slot25 is direct event-selected, not in the normal AA25 lists. Both original field bodies in the rescue were observed.",
+    "Fallen source is36x16 rather than original42x26; complete source pixels retained.",
+    "Full four-cell geometry and new decoded size require explicit selected stream78 integration; no active/default-guard edits.",
+    "Independent-core validation remains parent integration work."
+  ],
+  "activation": false,
+  "unrelatedActor": {
+    "evidence": "assets/imagegen/native-guards/scene-verification/unrelated-executioner-provenance.json",
+    "npc": 16,
+    "gfx": 158,
+    "asm": 151,
+    "palette": 160,
+    "nativeFrame": 19,
+    "note": "Original execution-room soldier remains unchanged; outside this packet."
+  }
+}

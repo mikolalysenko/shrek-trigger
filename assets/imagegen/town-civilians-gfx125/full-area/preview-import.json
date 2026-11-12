@@ -1,0 +1,270 @@
+{
+  "key": "duloc-town-resident",
+  "frames": 16,
+  "width": 64,
+  "height": 64,
+  "opaqueColors": 12,
+  "palette": [
+    "313131",
+    "dedede",
+    "ffe7ad",
+    "ff9c6b",
+    "734221",
+    "dead31",
+    "bd5208",
+    "8494c6",
+    "6b4284",
+    "d6634a",
+    "a53129",
+    "73738c"
+  ],
+  "samplingPalette": [
+    "313131",
+    "dedede",
+    "ffe7ad",
+    "ff9c6b",
+    "734221",
+    "dead31",
+    "bd5208",
+    "8494c6",
+    "6b4284",
+    "d6634a",
+    "a53129",
+    "73738c"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/town-civilians-gfx125/source-base-v1.png",
+      "sha256": "57e4a80400c96a84bb38e0000cf64ff0089961160185f654881b35fab839a681",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1225,
+        1284
+      ],
+      "scale": 0.11469534050179211,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 51,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "8": {
+          "scale": 1.032258064516129
+        },
+        "11": {
+          "scale": 0.96875
+        },
+        "13": {
+          "scale": 0.967741935483871
+        },
+        "14": {
+          "scale": 1.1111111111111112
+        },
+        "15": {
+          "scale": 1.0384615384615385
+        }
+      },
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            115,
+            22,
+            144,
+            276
+          ],
+          "componentPixels": 27128
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            389,
+            20,
+            144,
+            279
+          ],
+          "componentPixels": 27905
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            694,
+            22,
+            114,
+            279
+          ],
+          "componentPixels": 19820
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            960,
+            24,
+            154,
+            279
+          ],
+          "componentPixels": 24603
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            111,
+            339,
+            144,
+            278
+          ],
+          "componentPixels": 24611
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            389,
+            338,
+            145,
+            279
+          ],
+          "componentPixels": 24903
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            682,
+            341,
+            143,
+            276
+          ],
+          "componentPixels": 24477
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            962,
+            339,
+            149,
+            281
+          ],
+          "componentPixels": 25605
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            115,
+            657,
+            143,
+            274
+          ],
+          "componentPixels": 25181
+        },
+        {
+          "cell": 9,
+          "bounds": [
+            382,
+            657,
+            157,
+            280
+          ],
+          "componentPixels": 26022
+        },
+        {
+          "cell": 10,
+          "bounds": [
+            683,
+            657,
+            142,
+            278
+          ],
+          "componentPixels": 25318
+        },
+        {
+          "cell": 11,
+          "bounds": [
+            965,
+            656,
+            151,
+            276
+          ],
+          "componentPixels": 23725
+        },
+        {
+          "cell": 12,
+          "bounds": [
+            99,
+            961,
+            161,
+            283
+          ],
+          "componentPixels": 24501
+        },
+        {
+          "cell": 13,
+          "bounds": [
+            377,
+            970,
+            175,
+            271
+          ],
+          "componentPixels": 28117
+        },
+        {
+          "cell": 14,
+          "bounds": [
+            645,
+            999,
+            161,
+            235
+          ],
+          "componentPixels": 22048
+        },
+        {
+          "cell": 15,
+          "bounds": [
+            940,
+            1004,
+            180,
+            229
+          ],
+          "componentPixels": 24505
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        {
+          "frame": 2,
+          "flip": true
+        },
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        {
+          "frame": 11,
+          "flip": true
+        },
+        {
+          "frame": 12,
+          "flip": true
+        },
+        13,
+        14,
+        {
+          "frame": 14,
+          "flip": true
+        },
+        15
+      ]
+    }
+  }
+}

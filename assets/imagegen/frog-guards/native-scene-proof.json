@@ -1,0 +1,1785 @@
+{
+  "status": "passed",
+  "activation": false,
+  "baselineSha256": "f33843436880bf0b7988308e2d684065c8ef6c715641cfc0d3038232f1f8ca15",
+  "candidateSha256": "56631fca731b7a2412ffe9d47e6436b1fb320814a8ed031777ed807de8d872cb",
+  "scope": "Original sewer236 → noisy237 → upper236 → world498 after existing chapter fixture; controller-only after entry. Four original enemy79 actors, both authored frog dialogue/movement scenes, eight unchanged surrounding encounters.",
+  "arrivalOwners": [
+    {
+      "location": 236,
+      "object": 28,
+      "enemy": 79,
+      "sourcePointer": 5511584,
+      "palette": 54
+    },
+    {
+      "location": 236,
+      "object": 29,
+      "enemy": 79,
+      "sourcePointer": 5511584,
+      "palette": 54
+    },
+    {
+      "location": 236,
+      "object": 32,
+      "enemy": 79,
+      "sourcePointer": 5511584,
+      "palette": 54
+    },
+    {
+      "location": 236,
+      "object": 33,
+      "enemy": 79,
+      "sourcePointer": 5511584,
+      "palette": 54
+    }
+  ],
+  "entrance": {
+    "formations": [
+      [
+        255,
+        255,
+        99,
+        99,
+        255,
+        255,
+        255,
+        255
+      ]
+    ],
+    "flags": 7,
+    "destination": 237,
+    "story": 52
+  },
+  "diary": {
+    "visible": true,
+    "line": 100
+  },
+  "lower": {
+    "noisy": true,
+    "formations": [
+      [
+        99,
+        99,
+        99,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      [
+        255,
+        99,
+        99,
+        99,
+        99,
+        255,
+        255,
+        255
+      ],
+      [
+        99,
+        99,
+        255,
+        255,
+        134,
+        255,
+        255,
+        255
+      ],
+      [
+        255,
+        99,
+        99,
+        99,
+        255,
+        255,
+        255,
+        255
+      ]
+    ],
+    "flags": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "destination": 236,
+    "story": 52
+  },
+  "upper": {
+    "formations": [
+      [
+        42,
+        42,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      [
+        255,
+        255,
+        255,
+        255,
+        4,
+        255,
+        255,
+        255
+      ],
+      [
+        99,
+        99,
+        42,
+        42,
+        255,
+        255,
+        255,
+        255
+      ]
+    ],
+    "frogSceneLastLine": 47,
+    "flags": 31,
+    "treasure": {
+      "id": 15,
+      "quantity": 1
+    },
+    "bridgeStates": [
+      2,
+      0,
+      2
+    ],
+    "destination": 498,
+    "story": 52
+  },
+  "battles": [
+    {
+      "location": 236,
+      "frame": 9969,
+      "enemies": [
+        99,
+        99
+      ]
+    },
+    {
+      "location": 237,
+      "frame": 15284,
+      "enemies": [
+        99,
+        99,
+        99
+      ]
+    },
+    {
+      "location": 237,
+      "frame": 18673,
+      "enemies": [
+        99,
+        99,
+        99,
+        99
+      ]
+    },
+    {
+      "location": 237,
+      "frame": 22525,
+      "enemies": [
+        99,
+        99,
+        134
+      ]
+    },
+    {
+      "location": 237,
+      "frame": 26713,
+      "enemies": [
+        99,
+        99,
+        99
+      ]
+    },
+    {
+      "location": 236,
+      "frame": 30204,
+      "enemies": [
+        42,
+        42
+      ]
+    },
+    {
+      "location": 236,
+      "frame": 36174,
+      "enemies": [
+        4
+      ]
+    },
+    {
+      "location": 236,
+      "frame": 39379,
+      "enemies": [
+        99,
+        99,
+        42,
+        42
+      ]
+    }
+  ],
+  "nativeDamageResults": 50,
+  "positiveDamageResults": 33,
+  "heapByScene": {
+    "236": 5632,
+    "237": 1888
+  },
+  "visibleNativeFrogPoses": [
+    {
+      "location": 236,
+      "object": 29,
+      "enemy": 79,
+      "frame": 4,
+      "videoFrame": 12057,
+      "origin": [
+        104,
+        221
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 84,
+          "y": 195,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 100,
+          "y": 195,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 96,
+          "y": 211,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 116,
+          "y": 195,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 37,
+      "finalPixelsNotRawPaletteMatch": 274,
+      "screenshot": "sewer/frog-object29-pose4.png"
+    },
+    {
+      "location": 236,
+      "object": 29,
+      "enemy": 79,
+      "frame": 15,
+      "videoFrame": 12066,
+      "origin": [
+        104,
+        212
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 84,
+          "y": 194,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 100,
+          "y": 194,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 97,
+          "y": 210,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 116,
+          "y": 192,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 33,
+      "finalPixelsNotRawPaletteMatch": 251,
+      "screenshot": "sewer/frog-object29-pose15.png"
+    },
+    {
+      "location": 236,
+      "object": 28,
+      "enemy": 79,
+      "frame": 9,
+      "videoFrame": 12106,
+      "origin": [
+        104,
+        220
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 85,
+          "y": 206,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 101,
+          "y": 199,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 101,
+          "y": 215,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 117,
+          "y": 199,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 30,
+      "finalPixelsNotRawPaletteMatch": 247,
+      "screenshot": "sewer/frog-object28-pose9.png"
+    },
+    {
+      "location": 236,
+      "object": 28,
+      "enemy": 79,
+      "frame": 15,
+      "videoFrame": 12495,
+      "origin": [
+        104,
+        95
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 84,
+          "y": 77,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 100,
+          "y": 77,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 97,
+          "y": 93,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 116,
+          "y": 75,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 67,
+      "finalPixelsNotRawPaletteMatch": 217,
+      "screenshot": "sewer/frog-object28-pose15.png"
+    },
+    {
+      "location": 236,
+      "object": 28,
+      "enemy": 79,
+      "frame": 14,
+      "videoFrame": 12526,
+      "origin": [
+        104,
+        95
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 85,
+          "y": 75,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 101,
+          "y": 75,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 84,
+          "y": 91,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 100,
+          "y": 91,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 92,
+      "finalPixelsNotRawPaletteMatch": 194,
+      "screenshot": "sewer/frog-object28-pose14.png"
+    },
+    {
+      "location": 236,
+      "object": 29,
+      "enemy": 79,
+      "frame": 14,
+      "videoFrame": 12587,
+      "origin": [
+        104,
+        47
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 85,
+          "y": 27,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 101,
+          "y": 27,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 84,
+          "y": 43,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 100,
+          "y": 43,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 92,
+      "finalPixelsNotRawPaletteMatch": 194,
+      "screenshot": "sewer/frog-object29-pose14.png"
+    },
+    {
+      "location": 236,
+      "object": 28,
+      "enemy": 79,
+      "frame": 2,
+      "videoFrame": 12679,
+      "origin": [
+        104,
+        95
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 76,
+          "y": 79,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 92,
+          "y": 75,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 92,
+          "y": 91,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 108,
+          "y": 80,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 66,
+      "finalPixelsNotRawPaletteMatch": 245,
+      "screenshot": "sewer/frog-object28-pose2.png"
+    },
+    {
+      "location": 236,
+      "object": 28,
+      "enemy": 79,
+      "frame": 5,
+      "videoFrame": 12775,
+      "origin": [
+        104,
+        95
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 77,
+          "y": 75,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 93,
+          "y": 75,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 81,
+          "y": 91,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 97,
+          "y": 91,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 102,
+      "finalPixelsNotRawPaletteMatch": 222,
+      "screenshot": "sewer/frog-object28-pose5.png"
+    },
+    {
+      "location": 236,
+      "object": 28,
+      "enemy": 79,
+      "frame": 4,
+      "videoFrame": 12779,
+      "origin": [
+        100,
+        98
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 80,
+          "y": 72,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 96,
+          "y": 72,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 92,
+          "y": 88,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 112,
+          "y": 72,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 39,
+      "finalPixelsNotRawPaletteMatch": 272,
+      "screenshot": "sewer/frog-object28-pose4.png"
+    },
+    {
+      "location": 236,
+      "object": 29,
+      "enemy": 79,
+      "frame": 0,
+      "videoFrame": 12843,
+      "origin": [
+        104,
+        47
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 85,
+          "y": 32,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 101,
+          "y": 27,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 101,
+          "y": 43,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 117,
+          "y": 31,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 63,
+      "finalPixelsNotRawPaletteMatch": 248,
+      "screenshot": "sewer/frog-object29-pose0.png"
+    },
+    {
+      "location": 236,
+      "object": 33,
+      "enemy": 79,
+      "frame": 4,
+      "videoFrame": 33014,
+      "origin": [
+        88,
+        224
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 68,
+          "y": 198,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 84,
+          "y": 198,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 80,
+          "y": 214,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 100,
+          "y": 198,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 31,
+      "finalPixelsNotRawPaletteMatch": 280,
+      "screenshot": "sewer/frog-object33-pose4.png"
+    },
+    {
+      "location": 236,
+      "object": 33,
+      "enemy": 79,
+      "frame": 15,
+      "videoFrame": 33021,
+      "origin": [
+        88,
+        217
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 68,
+          "y": 199,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 84,
+          "y": 199,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 81,
+          "y": 215,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 100,
+          "y": 197,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 34,
+      "finalPixelsNotRawPaletteMatch": 250,
+      "screenshot": "sewer/frog-object33-pose15.png"
+    },
+    {
+      "location": 236,
+      "object": 32,
+      "enemy": 79,
+      "frame": 6,
+      "videoFrame": 33050,
+      "origin": [
+        72,
+        220
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 61,
+          "y": 199,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 61,
+          "y": 215,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 77,
+          "y": 205,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 40,
+          "y": 199,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 30,
+      "finalPixelsNotRawPaletteMatch": 248,
+      "screenshot": "sewer/frog-object32-pose6.png"
+    },
+    {
+      "location": 236,
+      "object": 33,
+      "enemy": 79,
+      "frame": 13,
+      "videoFrame": 33083,
+      "origin": [
+        88,
+        159
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 69,
+          "y": 139,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 85,
+          "y": 139,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 69,
+          "y": 155,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 85,
+          "y": 155,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 108,
+      "finalPixelsNotRawPaletteMatch": 173,
+      "screenshot": "sewer/frog-object33-pose13.png"
+    },
+    {
+      "location": 236,
+      "object": 32,
+      "enemy": 79,
+      "frame": 2,
+      "videoFrame": 33171,
+      "origin": [
+        72,
+        191
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 44,
+          "y": 175,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 60,
+          "y": 171,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 60,
+          "y": 187,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 76,
+          "y": 176,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 58,
+      "finalPixelsNotRawPaletteMatch": 253,
+      "screenshot": "sewer/frog-object32-pose2.png"
+    },
+    {
+      "location": 236,
+      "object": 33,
+      "enemy": 79,
+      "frame": 2,
+      "videoFrame": 33267,
+      "origin": [
+        88,
+        159
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 60,
+          "y": 143,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 76,
+          "y": 139,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 76,
+          "y": 155,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 92,
+          "y": 144,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 63,
+      "finalPixelsNotRawPaletteMatch": 248,
+      "screenshot": "sewer/frog-object33-pose2.png"
+    },
+    {
+      "location": 236,
+      "object": 32,
+      "enemy": 79,
+      "frame": 0,
+      "videoFrame": 33727,
+      "origin": [
+        72,
+        191
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 53,
+          "y": 176,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 69,
+          "y": 171,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 69,
+          "y": 187,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 85,
+          "y": 175,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 43,
+      "finalPixelsNotRawPaletteMatch": 268,
+      "screenshot": "sewer/frog-object32-pose0.png"
+    },
+    {
+      "location": 236,
+      "object": 32,
+      "enemy": 79,
+      "frame": 5,
+      "videoFrame": 33823,
+      "origin": [
+        123,
+        191
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 96,
+          "y": 171,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 112,
+          "y": 171,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 100,
+          "y": 187,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 116,
+          "y": 187,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 34,
+      "finalPixelsNotRawPaletteMatch": 290,
+      "screenshot": "sewer/frog-object32-pose5.png"
+    },
+    {
+      "location": 236,
+      "object": 32,
+      "enemy": 79,
+      "frame": 4,
+      "videoFrame": 33828,
+      "origin": [
+        126,
+        199
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 106,
+          "y": 173,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 122,
+          "y": 173,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 118,
+          "y": 189,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 138,
+          "y": 173,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 38,
+      "finalPixelsNotRawPaletteMatch": 273,
+      "screenshot": "sewer/frog-object32-pose4.png"
+    },
+    {
+      "location": 236,
+      "object": 33,
+      "enemy": 79,
+      "frame": 0,
+      "videoFrame": 33867,
+      "origin": [
+        88,
+        159
+      ],
+      "nativeCells": [
+        {
+          "cell": 0,
+          "x": 69,
+          "y": 144,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 1,
+          "x": 85,
+          "y": 139,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 2,
+          "x": 85,
+          "y": 155,
+          "palette": 1,
+          "priority": 2
+        },
+        {
+          "cell": 3,
+          "x": 101,
+          "y": 143,
+          "palette": 1,
+          "priority": 2
+        }
+      ],
+      "exactVisiblePixels": 54,
+      "finalPixelsNotRawPaletteMatch": 257,
+      "screenshot": "sewer/frog-object33-pose0.png"
+    }
+  ],
+  "exactUploadedFrogFrameTicks": [
+    {
+      "object": 29,
+      "frame": 4,
+      "ticks": 160
+    },
+    {
+      "object": 29,
+      "frame": 15,
+      "ticks": 1343
+    },
+    {
+      "object": 28,
+      "frame": 9,
+      "ticks": 440
+    },
+    {
+      "object": 28,
+      "frame": 15,
+      "ticks": 1072
+    },
+    {
+      "object": 28,
+      "frame": 14,
+      "ticks": 91
+    },
+    {
+      "object": 29,
+      "frame": 14,
+      "ticks": 256
+    },
+    {
+      "object": 28,
+      "frame": 2,
+      "ticks": 96
+    },
+    {
+      "object": 28,
+      "frame": 5,
+      "ticks": 4
+    },
+    {
+      "object": 28,
+      "frame": 4,
+      "ticks": 20
+    },
+    {
+      "object": 29,
+      "frame": 0,
+      "ticks": 4
+    },
+    {
+      "object": 33,
+      "frame": 4,
+      "ticks": 40
+    },
+    {
+      "object": 33,
+      "frame": 15,
+      "ticks": 1138
+    },
+    {
+      "object": 32,
+      "frame": 6,
+      "ticks": 172
+    },
+    {
+      "object": 33,
+      "frame": 13,
+      "ticks": 184
+    },
+    {
+      "object": 32,
+      "frame": 2,
+      "ticks": 556
+    },
+    {
+      "object": 33,
+      "frame": 2,
+      "ticks": 124
+    },
+    {
+      "object": 32,
+      "frame": 0,
+      "ticks": 96
+    },
+    {
+      "object": 32,
+      "frame": 5,
+      "ticks": 4
+    },
+    {
+      "object": 32,
+      "frame": 4,
+      "ticks": 10
+    },
+    {
+      "object": 32,
+      "frame": 15,
+      "ticks": 620
+    },
+    {
+      "object": 33,
+      "frame": 0,
+      "ticks": 4
+    }
+  ],
+  "messages": [
+    {
+      "location": 236,
+      "stringId": 43,
+      "videoFrame": 9401
+    },
+    {
+      "location": 236,
+      "stringId": 44,
+      "videoFrame": 12366
+    },
+    {
+      "location": 236,
+      "stringId": 45,
+      "videoFrame": 12502
+    },
+    {
+      "location": 236,
+      "stringId": 46,
+      "videoFrame": 12598
+    },
+    {
+      "location": 236,
+      "stringId": 47,
+      "videoFrame": 12690
+    },
+    {
+      "location": 236,
+      "stringId": 48,
+      "videoFrame": 13438
+    },
+    {
+      "location": 236,
+      "stringId": 49,
+      "videoFrame": 13578
+    },
+    {
+      "location": 237,
+      "stringId": 100,
+      "videoFrame": 14352
+    },
+    {
+      "location": 236,
+      "stringId": 96,
+      "videoFrame": 33090
+    },
+    {
+      "location": 236,
+      "stringId": 97,
+      "videoFrame": 33178
+    },
+    {
+      "location": 236,
+      "stringId": 98,
+      "videoFrame": 33398
+    },
+    {
+      "location": 236,
+      "stringId": 99,
+      "videoFrame": 33642
+    },
+    {
+      "location": 236,
+      "stringId": 47,
+      "videoFrame": 33754
+    },
+    {
+      "location": 236,
+      "stringId": 52,
+      "videoFrame": 34565
+    },
+    {
+      "location": 236,
+      "stringId": 53,
+      "videoFrame": 34712
+    },
+    {
+      "location": 236,
+      "stringId": 54,
+      "videoFrame": 34856
+    },
+    {
+      "location": 236,
+      "stringId": 55,
+      "videoFrame": 34956
+    },
+    {
+      "location": 236,
+      "stringId": 56,
+      "videoFrame": 35136
+    },
+    {
+      "location": 236,
+      "stringId": 57,
+      "videoFrame": 35636
+    },
+    {
+      "location": 236,
+      "stringId": 58,
+      "videoFrame": 35852
+    },
+    {
+      "location": 236,
+      "stringId": 0,
+      "videoFrame": 42326
+    }
+  ],
+  "loads": [
+    {
+      "location": 236,
+      "object": 11,
+      "enemy": 42,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 12,
+      "enemy": 42,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 13,
+      "enemy": 99,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 15,
+      "enemy": 99,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 16,
+      "enemy": 99,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 18,
+      "enemy": 42,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 19,
+      "enemy": 42,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 21,
+      "enemy": 99,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 22,
+      "enemy": 99,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 23,
+      "enemy": 42,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 24,
+      "enemy": 42,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 26,
+      "enemy": 82,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 28,
+      "enemy": 79,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 29,
+      "enemy": 79,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 32,
+      "enemy": 79,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 33,
+      "enemy": 79,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 36,
+      "enemy": 4,
+      "frame": 8931
+    },
+    {
+      "location": 236,
+      "object": 37,
+      "enemy": 82,
+      "frame": 8933
+    },
+    {
+      "location": 237,
+      "object": 9,
+      "enemy": 99,
+      "frame": 13799
+    },
+    {
+      "location": 237,
+      "object": 10,
+      "enemy": 99,
+      "frame": 13799
+    },
+    {
+      "location": 237,
+      "object": 11,
+      "enemy": 99,
+      "frame": 13799
+    },
+    {
+      "location": 237,
+      "object": 14,
+      "enemy": 99,
+      "frame": 13800
+    },
+    {
+      "location": 237,
+      "object": 15,
+      "enemy": 99,
+      "frame": 13800
+    },
+    {
+      "location": 237,
+      "object": 16,
+      "enemy": 99,
+      "frame": 13800
+    },
+    {
+      "location": 237,
+      "object": 17,
+      "enemy": 99,
+      "frame": 13800
+    },
+    {
+      "location": 237,
+      "object": 18,
+      "enemy": 134,
+      "frame": 13800
+    },
+    {
+      "location": 237,
+      "object": 20,
+      "enemy": 99,
+      "frame": 13800
+    },
+    {
+      "location": 237,
+      "object": 21,
+      "enemy": 99,
+      "frame": 13800
+    },
+    {
+      "location": 237,
+      "object": 23,
+      "enemy": 99,
+      "frame": 13800
+    },
+    {
+      "location": 237,
+      "object": 24,
+      "enemy": 99,
+      "frame": 13800
+    },
+    {
+      "location": 237,
+      "object": 25,
+      "enemy": 99,
+      "frame": 13800
+    },
+    {
+      "location": 236,
+      "object": 11,
+      "enemy": 42,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 12,
+      "enemy": 42,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 13,
+      "enemy": 99,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 15,
+      "enemy": 99,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 16,
+      "enemy": 99,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 18,
+      "enemy": 42,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 19,
+      "enemy": 42,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 21,
+      "enemy": 99,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 22,
+      "enemy": 99,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 23,
+      "enemy": 42,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 24,
+      "enemy": 42,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 26,
+      "enemy": 82,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 28,
+      "enemy": 79,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 29,
+      "enemy": 79,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 32,
+      "enemy": 79,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 33,
+      "enemy": 79,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 36,
+      "enemy": 4,
+      "frame": 29631
+    },
+    {
+      "location": 236,
+      "object": 37,
+      "enemy": 82,
+      "frame": 29634
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "sewer/arrival.png",
+      "sha256": "e699784b6f6b434f57498ef32516ba2e857db3dfe349e775cb7d869fe397e79e"
+    },
+    {
+      "file": "sewer/sewer-entrance-battle.png",
+      "sha256": "1bcaae7aabddc7116245005ed8117586558527c636174c170ccf6bb38bfe6568"
+    },
+    {
+      "file": "sewer/frog-object29-pose4.png",
+      "sha256": "ba27e2f4d5429f858923863049f56dc640dc11317a7bc7f341adb8cc2e368e87"
+    },
+    {
+      "file": "sewer/frog-object29-pose15.png",
+      "sha256": "5d22ed3d49e667260f0ba0cc17f6b169f488caff06654a6bccca5f8bb8c992eb"
+    },
+    {
+      "file": "sewer/frog-object28-pose9.png",
+      "sha256": "ef036abfed4a5e2dd31f628f530ef64a2dcd3b596ae5fb1b11a92fdaf8bdffdc"
+    },
+    {
+      "file": "sewer/frog-object28-pose15.png",
+      "sha256": "250543c0767972d427c98ade8bf7aa90adf64441f7b2d9bfb961ddf9314bc748"
+    },
+    {
+      "file": "sewer/frog-object28-pose14.png",
+      "sha256": "d2749591a6edf6f09eb42f7fec42b6058adb820f581c22e14618d9ceb5545ae5"
+    },
+    {
+      "file": "sewer/frog-object29-pose14.png",
+      "sha256": "351a7aaf4d9ff05c228e56a66b9f8350a7619bfbdadead1f56bb4601c6ce5770"
+    },
+    {
+      "file": "sewer/frog-object28-pose2.png",
+      "sha256": "3e8bae70263ffc08aa2517db78a360571025edd387aed3549bdd3d150e7d272f"
+    },
+    {
+      "file": "sewer/frog-object28-pose5.png",
+      "sha256": "8e2da1a544193c8df1859cab69f9f433d2c2c768c8cc0ba3ca43ea0bf654794d"
+    },
+    {
+      "file": "sewer/frog-object28-pose4.png",
+      "sha256": "1aa05eed2839e24182de7da27b5118ee1070dc1001e1b22e98e7cc80848e2aeb"
+    },
+    {
+      "file": "sewer/frog-object29-pose0.png",
+      "sha256": "3c430b769f385669eb5ecf385d2449d904c710e6133885a0c72516f0f37136bc"
+    },
+    {
+      "file": "sewer/sewer-north-to-lower.png",
+      "sha256": "ec8547b3343082009a0e686e15215971c093f68095994125df56c2e60bd3fa45"
+    },
+    {
+      "file": "sewer/sewer-diary-visible.png",
+      "sha256": "40db7f4ecf7bb0af51ff521d9b6e7f38a3bd6fbc79be3b6e42fe6c7a77fbe8e2"
+    },
+    {
+      "file": "sewer/sewer-noise-battle-1.png",
+      "sha256": "51264acf3667467c5ae2620a0a7fcacb0aa81a9f65acb4585f3cf65ee0ba5bef"
+    },
+    {
+      "file": "sewer/sewer-noise-battle-2.png",
+      "sha256": "ef4bafe17ad65b3ea6b32a01570ba47229843aa20ed5a2f755e369053feffbbf"
+    },
+    {
+      "file": "sewer/sewer-noise-battle-3.png",
+      "sha256": "0de9411b3d3e74e979c1fe507d2d04dd99a4007a230b85e0f2c689c42e2ed20e"
+    },
+    {
+      "file": "sewer/sewer-noise-battle-4.png",
+      "sha256": "aa5ace1a651c144654329ed5567dffec05aae72ab3b7380dd6198f3c3e634f2c"
+    },
+    {
+      "file": "sewer/sewer-noise-exit.png",
+      "sha256": "26d2cd18c65489fa596149b7271daa593059cb47ef478e6d54c89cac4047fac3"
+    },
+    {
+      "file": "sewer/sewer-upper-battle-1.png",
+      "sha256": "54fc937c31ca6316f507f02fd0fe31d8875617a6ad90979b273681aa183aed12"
+    },
+    {
+      "file": "sewer/sewer-hidden-door.png",
+      "sha256": "6b62d8531411b16090c35e4be59902bc39d870e59c031ae6b25ce1422a803b69"
+    },
+    {
+      "file": "sewer/frog-object33-pose4.png",
+      "sha256": "8c0c3ff43f207ede947c76291d388aca9c01d846677dc894f10212f49e5fa00b"
+    },
+    {
+      "file": "sewer/frog-object33-pose15.png",
+      "sha256": "aacacfb5477eac5493f4fbc19817be9a5126797ccdabfa86d29d20fdaba31dfd"
+    },
+    {
+      "file": "sewer/frog-object32-pose6.png",
+      "sha256": "91c876c96c3861226dbe11dcb8784916cf7c43aec628e128c40b0ed4ec63d80a"
+    },
+    {
+      "file": "sewer/frog-object33-pose13.png",
+      "sha256": "543bd758da932b8581beddf13a37549482c6320a805d6635198d4e754b3d06b9"
+    },
+    {
+      "file": "sewer/frog-object32-pose2.png",
+      "sha256": "ce39f18b61658e66c4344b87cb7c6a4e75a0888d48b425b9273fac7db3a91cb7"
+    },
+    {
+      "file": "sewer/frog-object33-pose2.png",
+      "sha256": "32d4cc9f7a57d42c90f411dea559d9533afae8606b3b46150fc3400f2dcd437c"
+    },
+    {
+      "file": "sewer/frog-object32-pose0.png",
+      "sha256": "5a6aa2539160c87857ce87ee654403b72a2153bd690bf53245d05b151efc6390"
+    },
+    {
+      "file": "sewer/frog-object32-pose5.png",
+      "sha256": "5df71a10c792c2871318ae7a777a12a0506217319b63367d39ca7c59cfba6750"
+    },
+    {
+      "file": "sewer/frog-object32-pose4.png",
+      "sha256": "57788b43873b427dbe229d65333ca30d5898ef637a3496f69492a84ada4264d3"
+    },
+    {
+      "file": "sewer/frog-object33-pose0.png",
+      "sha256": "1786f6c42b2e5416d5aac603c8a784a33baa297297b23e56d406842412b2de95"
+    },
+    {
+      "file": "sewer/sewer-frog-scene-complete.png",
+      "sha256": "12b4fe23b80e821f7b83a9b8297296b694183b692f500c9f6e5b47274f8ce40c"
+    },
+    {
+      "file": "sewer/sewer-upper-battle-2.png",
+      "sha256": "530f8e977f8447ad071abb39ad7665b6a9f358d2e8dcd580e02268f4cbc34b5e"
+    },
+    {
+      "file": "sewer/sewer-upper-battle-3.png",
+      "sha256": "97b2f84f4d6213d3f2777014a8f1f12d73cce0dd58b668864b3c5c2411a1a4f5"
+    },
+    {
+      "file": "sewer/sewer-sword-chest.png",
+      "sha256": "9341f1b380fefa71010de8a14ffa03d0380bc454df3496ff56033aa069d069ce"
+    },
+    {
+      "file": "sewer/sewer-bridge-crossed.png",
+      "sha256": "5148da218734e5246934bc024ab88d956b766fdffa8f5dda8b655d8e7777563a"
+    },
+    {
+      "file": "sewer/sewer-world-exit.png",
+      "sha256": "295dcb583e89537c730d148d975b71abecab01346c70f1c31b3063ccefd39c6b"
+    }
+  ],
+  "originalFrogCommands": "sewer/frog-event-commands.json",
+  "evidence": ".local/qa/frog-guards-native-proof",
+  "limitations": [
+    "Sewer frogs are authored noncombat dialogue actors; surrounding eight battles establish route continuity, not frog combat.",
+    "All 26 slots and all owners have separate isolated exact native proofs; actual sewer captures cover only poses chosen by its original events.",
+    "Final pixels not matching raw CGRAM RGB may be native color math, map/party/text overlap or viewport clipping; these are not misreported as proven occlusion. Every captured OAM cell is tied to its actual object VRAM address. Independent-core execution and final production placement remain integration checks."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "tool": "OpenAI Images API",
+  "sourceType": "image-generation",
+  "endpoint": "https://api.openai.com/v1/images/generations",
+  "model": "gpt-image-2.6-sunburst",
+  "parameters": {
+    "model": "gpt-image-2.6-sunburst",
+    "size": "1024x1024",
+    "quality": "high",
+    "output_format": "png",
+    "n": 1
+  },
+  "requestId": "req_8bf0316c78bc449d952c6d8122f3716c",
+  "savedFile": "assets/imagegen/eye-laser-flames/source-v1.png",
+  "sha256": "ee48a61e30f764544d1e81c143d5661a61d31b3aba988063f54397feb0e2ff1f",
+  "created": "2026-11-07T18:14:51.000Z",
+  "prompt": {
+    "file": "assets/imagegen/eye-laser-flames/prompt-v1.txt",
+    "sha256": "6f0cec247ed9621e51fb02700446d617d16df632aca90f98414478b4a7c68fe2"
+  },
+  "referenceImages": [],
+  "revisedPrompt": null,
+  "usage": {
+    "input_tokens": 271,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 271
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    },
+    "total_tokens": 2027
+  },
+  "transparentBackground": false,
+  "postGenerationEditing": "None. Source PNG saved unchanged from the API response; background masking, native extraction and palette indexing are recorded by the importer."
+}

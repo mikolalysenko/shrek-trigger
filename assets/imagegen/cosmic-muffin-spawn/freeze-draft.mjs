@@ -1,0 +1,35 @@
+import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';
+import {compileDraft,sha} from './compile-draft.mjs';
+const d=import.meta.dirname,root=path.resolve(d,'../../..'),prefix='assets/imagegen/cosmic-muffin-spawn/',read=n=>JSON.parse(fs.readFileSync(path.join(d,n))),write=(n,v)=>fs.writeFileSync(path.join(d,n),JSON.stringify(v,null,2)+'\n');
+const c=compileDraft(),native=read('native-verification/manifest.json'),motion=read('motion-verification/manifest.json'),scenes=[96,247,264,495].map(id=>read(`scene-verification/${id}/manifest.json`)),platform=read('platform-verification/manifest.json'),budgets=read('scene-budgets.json');
+assert.equal(native.nativeFrameUploads,6);assert.equal(native.nativeOamCells,64);assert.equal(native.exactHeadOpaquePixels,1212);assert.equal(motion.cases,104);assert.equal(motion.ticks,7136);assert.equal(motion.maximumRequestDisplayDelay,0);
+assert.ok(scenes.every(s=>s.status==='Original encounter and native victory passed'&&s.final.location===s.location&&!s.final.battle&&s.final.control===1));assert.equal(platform.successfulOriginalReturnPC,684);
+assert.ok([native,motion,...scenes,platform].every(p=>p.privateSha256===native.privateSha256));
+const dependencies=['scripts/import-raster-art.mjs','scripts/native-sprite-view.mjs','engine/native-sprites.js','engine/compression.js','engine/rom.js','engine/expanded-rom.js','engine/sprites.js','engine/tiles.js','package.json','package-lock.json'].filter(f=>fs.existsSync(path.join(root,f))).map(file=>({file,sha256:sha(fs.readFileSync(path.join(root,file)))}));
+const limitations=[
+ 'Inactive art proposal only. Root owns production integration, final allocation, owner contracts and independent cores.',
+ 'Body blank assembly1 is retained but not selectable through the original fixed-size3 field AC/AA path. Only six selectable owner/frames are claimed as native uploads.',
+ 'Body original anchor and22 cells remain exact; cells6/12 are repositioned as recorded. Its opaque bottom is1px lower. Root explicitly accepted the unchanged candidate after original platform proof.',
+ 'Head grows64 decoded bytes individually, even though both banks together save32 bytes. An explicit gfx176 growth/storage contract is necessary; no blanket guard relaxation.',
+ 'Scene checks begin from diagnostic jumps and a test loadout. Complete natural mountain/Black Omen predecessor routes and clone locations76–78 remain untraversed.',
+ 'Original weather/color math, camera movement and foreground occlusion are not removed. Exact framebuffer captures are identified separately from intermediate observations.',
+ 'The scene proof uses historical baseline2e2a574e. Co-load union5760 bytes is conservative for that saved build, not a claim about all later unintegrated source packets.',
+ 'Native source battle names remain untouched in this art packet. Root may assign final public names during integration; both source shell names are Lavos Spawn and the heads have blank names.'
+];
+const handoff={status:'Frozen inactive actual-imagegen source packet',key:'cosmic-muffin-spawn',activation:false,owners:[110,111,215,216],palette:208,paletteUnchanged:true,native:{body:{gfx:177,asm:173,cells:24,slots:2,visibleSlots:1,fixedFieldFrame:0,blankSlot:1,raw:2528,compressed:2249,assembly:480},head:{gfx:176,asm:171,cells:4,slots:2,raw:608,compressed:430,assembly:80},combined:{raw:3136,rawDelta:-32,compressed:2679,compressedDelta:-204,assembly:560,assemblyDelta:0,extraOamCells:0,extraVramBytes:0}},hashes:c.candidates.map(a=>({key:a.key,graphics:a.audit.graphicsSha256,compressed:a.audit.compressedSha256,finalAssembly:a.audit.assemblySha256})),source:'provenance.json',roles:'native-roles.draft.json',integration:'integration-proposal.json',geometry:'shell-draft/audit.json and head-area-draft/audit.json',proof:{baselineSha256:native.activeSha256,privateSha256:native.privateSha256,selectableOwnerUploads:6,exactCells:64,headOpaquePixels:1212,originalProgramCases:104,nativeVideoTicks:7136,maxRequestDisplayDelay:0,scenes:scenes.map(s=>({location:s.location,formation:s.battles[0].formation,attacks:s.attacks,heap:s.maxHeap,exactStates:s.observations.filter(o=>!o.pixel.mismatches).map(o=>({battle:o.battle,mouth:o.parts[1].frame,delta:o.delta,pixels:o.pixel.exact}))})),platform:{initial:platform.initial,final:platform.final,originalSuccessfulReturnPC:684},conservativeSceneUnion:budgets.maximumCandidateBytes,independentCore:false},limitations,compilerDependencies:dependencies,review:'review/index.html',minimalFiles:'reproducibility-files.txt'};
+write('handoff.json',handoff);
+const files=[
+ '.gitignore','README.md','audit-native.mjs','native-audit.json','compile-draft.mjs','prepare-handoff.mjs','freeze-draft.mjs','reproduce-draft.mjs','private-overlay.mjs','native-proof-utils.mjs','verify-native.mjs','verify-motion.mjs','verify-scene.mjs','verify-platform.mjs',
+ 'source-shell-v1.png','source-shell-v2.png','source-head-v1.png','prompt-shell-v1.txt','prompt-shell-v2.txt','prompt-head-v1.txt','provenance.json','shell-area-import-spec.draft.json','head-area-import-spec.draft.json','native-roles.draft.json','integration-proposal.json','scene-budgets.json','handoff.json',
+ ...['shell-area','head-area'].flatMap(k=>['preview-raster.json','preview-import.json','preview-native-indexed.png'].map(f=>k+'/'+f)),
+ ...['shell-draft','head-area-draft'].flatMap(k=>['graphics.4bpp','graphics.ct-lz','assembly.bin','audit.json'].map(f=>k+'/'+f)),
+ 'review/index.html','review/native-compound-1x.png','review/native-compound-4x.png','review/head-area-1x.png','review/head-area-4x.png',
+ 'native-verification/manifest.json','motion-verification/manifest.json',
+ ...[96,247,264,495].flatMap(k=>['manifest.json','battle-h0.png','battle-h1.png','after-input.png'].map(f=>'scene-verification/'+k+'/'+f)),
+ 'scene-verification/96/field-h0.png','scene-verification/264/field-h0.png',
+ 'platform-verification/manifest.json','platform-verification/start.png','platform-verification/push-right.png','platform-verification/push-up.png','platform-verification/climb-finished.png'
+].map(f=>prefix+f);
+files.push('assets/imagegen/cosmic-muffin-shell/source-body-v3.png');
+const rows=files.map(file=>{const bytes=fs.readFileSync(path.join(root,file));return{file,bytes:bytes.length,sha256:sha(bytes)};});
+write('freeze.json',{status:handoff.status,sourceAndProofFiles:rows.length,files:rows,compilerDependencies:dependencies,excluded:'Private ROM/save/reference data, historical probes and nearest/unselected sampling trials',regeneration:['node scripts/import-raster-art.mjs --preview-spec '+prefix+'shell-area-import-spec.draft.json','node scripts/import-raster-art.mjs --preview-spec '+prefix+'head-area-import-spec.draft.json','node '+prefix+'compile-draft.mjs','node '+prefix+'prepare-handoff.mjs']});
+fs.writeFileSync(path.join(d,'reproducibility-files.txt'),[...files,prefix+'freeze.json',prefix+'reproducibility-files.txt'].join('\n')+'\n');console.log(JSON.stringify({files:rows.length,whitelist:files.length+2,raw:3136,compressed:2679,assembly:560,privateSha256:native.privateSha256}));

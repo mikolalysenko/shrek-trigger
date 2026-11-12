@@ -1,0 +1,12 @@
+import {readFile} from 'node:fs/promises';
+import {build} from '../tests/helpers.mjs';
+const {audit}=await build(),hooks=JSON.parse(await readFile('content/hooks.json','utf8'));
+console.log(`Shrek Trigger ${audit.version}: ${audit.romBytes/1048576} MiB native HiROM`);
+console.log(`${audit.techs} tech labels / ${audit.items} item labels / ${audit.dialogues} dialogue entries`);
+console.table(audit.characters.map(c=>({character:c.name,tiles:c.tiles,bytes:c.bytes,capacity:c.capacity,provisionalPoses:c.provisionalFrames})));
+console.table(hooks.map(h=>({hook:h.name,address:'$'+h.address.toString(16).toUpperCase(),purpose:h.description})));
+console.log('Resource budget:',audit.resources);
+console.log('Native title:',audit.title,'\nSwamp:',audit.environment);
+console.log('Supporting cast:',audit.supportingCast.map(c=>`${c.name} (${c.frames.length} native frames)`).join(', '));
+console.log('Guy Fieri:',audit.guyFieri.tiers.length+' native training tiers / '+audit.guyFieri.tiers.reduce((n,t)=>n+t.frames,0)+' frames');
+console.log('Dragon:',audit.dragon);

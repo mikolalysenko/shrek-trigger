@@ -1,0 +1,66 @@
+{
+  "key": "rivet-minimap",
+  "sourceType": "image-generation",
+  "width": 8,
+  "height": 8,
+  "palette": [
+    "242b35",
+    "51433f",
+    "806044",
+    "ba945b",
+    "dfc38a",
+    "f5e9bc",
+    "2e5358",
+    "4d8382",
+    "91b7ac",
+    "683d43",
+    "bc5b4c",
+    "f6db69"
+  ],
+  "directory": "assets/imagegen/rivet-minimap/active",
+  "sheets": [
+    {
+      "file": "assets/imagegen/rivet/source-field-riding-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "cells": [
+        1,
+        0
+      ],
+      "nativeHeight": 7,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 7,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Mechanical8×8 resampling of the actual generated front and rear riding poses; no hand-drawn replacement pixels."
+      }
+    }
+  },
+  "notes": {
+    "sourceSpec": "assets/imagegen/rivet/minimap-import-spec.draft.json",
+    "status": "Accepted source registered for native cartridge compilation"
+  }
+}

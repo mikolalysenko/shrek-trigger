@@ -1,0 +1,182 @@
+{
+  "activation": false,
+  "baselineSha256": "fdb8865eda88fcf8e9aea35de50c688b38a131da48ca73e5c72d42c36b66f2a6",
+  "candidateSha256": "26b57a045e8b5f1af1db32d91c1212079629d8ad44c21899d9da4cb1fafa6f08",
+  "scope": "All original conditional actor loads in scenes102–107; actual reveal/battle execution is107 only",
+  "sceneIds": [
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "owners": [
+    {
+      "kind": "npc",
+      "id": 74,
+      "header": [
+        148,
+        143,
+        88,
+        110,
+        0
+      ],
+      "gfx": 148,
+      "decodedBytes": 6400,
+      "loading": "raw ROM stream"
+    },
+    {
+      "kind": "enemy",
+      "id": 176,
+      "header": [
+        161,
+        153,
+        205,
+        177,
+        130,
+        0,
+        192,
+        12,
+        12,
+        17
+      ],
+      "gfx": 161,
+      "decodedBytes": 2112,
+      "loading": "raw ROM stream"
+    },
+    {
+      "kind": "enemy",
+      "id": 178,
+      "header": [
+        162,
+        154,
+        206,
+        178,
+        1,
+        0,
+        248,
+        12,
+        12,
+        17
+      ],
+      "gfx": 162,
+      "decodedBytes": 4416,
+      "loading": "ordinary decompression"
+    },
+    {
+      "kind": "enemy",
+      "id": 177,
+      "header": [
+        162,
+        154,
+        206,
+        179,
+        1,
+        0,
+        248,
+        12,
+        12,
+        17
+      ],
+      "gfx": 162,
+      "decodedBytes": 4416,
+      "loading": "ordinary decompression"
+    },
+    {
+      "kind": "npc",
+      "id": 150,
+      "header": [
+        174,
+        168,
+        136,
+        61,
+        0
+      ],
+      "gfx": 174,
+      "decodedBytes": 128,
+      "loading": "ordinary decompression"
+    }
+  ],
+  "legacyDecodedBytes": 4544,
+  "nativeHeapCapacity": 32768,
+  "margin": 28224,
+  "legacyBankCacheEntries": 2,
+  "baselineScene107MeasuredHeap": 6368,
+  "selectedHeadGraphics161Bytes": 2112,
+  "ordinaryHandsGraphics162Bytes": 4416,
+  "effectNpc150Graphics174Bytes": 128,
+  "existingStoryGodmotherGraphics148AlreadyStreamed": true,
+  "requiredSelection": [
+    161
+  ],
+  "productionGuard": "Head2112 exceeds its original1248-byte decoded ceiling. Root must explicitly select exclusive gfx161 for the proven12-cell native stream path and preserve the strict default guard. Hands4416 remain below their original4992-byte ceiling and use ordinary compressed loading.",
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "resourceComparisons": [
+    {
+      "baseline": "Original CT graphics/assembly/palettes",
+      "groups": [
+        {
+          "gfx": 161,
+          "asm": 153,
+          "rawBefore": 1248,
+          "rawAfter": 2112,
+          "rawDelta": 864,
+          "compressedBefore": 989,
+          "compressedAfter": 1413,
+          "compressedDelta": 424,
+          "assemblyBefore": 240,
+          "assemblyAfter": 240,
+          "assemblyDelta": 0
+        },
+        {
+          "gfx": 162,
+          "asm": 154,
+          "rawBefore": 4992,
+          "rawAfter": 4416,
+          "rawDelta": -576,
+          "compressedBefore": 3527,
+          "compressedAfter": 2908,
+          "compressedDelta": -619,
+          "assemblyBefore": 1600,
+          "assemblyAfter": 1600,
+          "assemblyDelta": 0
+        }
+      ],
+      "totalCompressedAndAssemblyDelta": -195
+    },
+    {
+      "baseline": "Pinned earlier published fdb8865eda88 (same original giant resources)",
+      "groups": [
+        {
+          "gfx": 161,
+          "asm": 153,
+          "rawBefore": 1248,
+          "rawAfter": 2112,
+          "rawDelta": 864,
+          "compressedBefore": 989,
+          "compressedAfter": 1413,
+          "compressedDelta": 424,
+          "assemblyBefore": 240,
+          "assemblyAfter": 240,
+          "assemblyDelta": 0
+        },
+        {
+          "gfx": 162,
+          "asm": 154,
+          "rawBefore": 4992,
+          "rawAfter": 4416,
+          "rawDelta": -576,
+          "compressedBefore": 3527,
+          "compressedAfter": 2908,
+          "compressedDelta": -619,
+          "assemblyBefore": 1600,
+          "assemblyAfter": 1600,
+          "assemblyDelta": 0
+        }
+      ],
+      "totalCompressedAndAssemblyDelta": -195
+    }
+  ]
+}

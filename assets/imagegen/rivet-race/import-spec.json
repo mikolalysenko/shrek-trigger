@@ -1,0 +1,90 @@
+{
+  "key": "rivet-race",
+  "sourceType": "image-generation",
+  "width": 24,
+  "height": 24,
+  "palette": [
+    "242b35",
+    "51433f",
+    "806044",
+    "ba945b",
+    "dfc38a",
+    "f5e9bc",
+    "2e5358",
+    "4d8382",
+    "91b7ac",
+    "683d43",
+    "bc5b4c",
+    "f6db69"
+  ],
+  "directory": "assets/imagegen/rivet-race/active",
+  "sheets": [
+    {
+      "file": "assets/imagegen/rivet/source-field-riding-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "cells": [
+        2,
+        5,
+        6,
+        1,
+        0
+      ],
+      "nativeHeight": 21,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 23,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    },
+    {
+      "file": "assets/imagegen/rivet/source-race-quarter-v1.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 21,
+      "scaleCells": [
+        0
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 23,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        5,
+        3,
+        4
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Six actual generated views retain three profile motion beats, rear-quarter camera direction, front and back. Five are resampled from the approved actual field riding sheet; quarter is separately generated from that model."
+      }
+    }
+  },
+  "notes": {
+    "sourceSpec": "assets/imagegen/rivet/race-import-spec.draft.json",
+    "status": "Accepted source registered for native cartridge compilation"
+  }
+}

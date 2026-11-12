@@ -1,0 +1,261 @@
+{
+  "status": "Frozen inactive source and verification packet; parent-approved static model, palettes, gait contacts and role sheet",
+  "key": "duloc-town-keeper",
+  "baselineSha256": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+  "privateSha256": "99c1e0a108b32f25240268369690e6ce76fad77e8f497aae779bdd61fb0fdd88",
+  "source": {
+    "tool": "built-in image_gen__imagegen",
+    "generatedPNGs": 2,
+    "selectedSourcePoses": 9,
+    "sourceDerivedCapFragment": 1,
+    "prompts": [
+      "assets/imagegen/town-civilians-gfx11/prompt-base-v1.txt",
+      "assets/imagegen/town-civilians-gfx11/prompt-contacts-v2.txt"
+    ],
+    "selectedCells": {
+      "source-base-v1.png": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "source-contacts-v2.png": [
+        0,
+        1,
+        2
+      ]
+    },
+    "sampling": "Nearest. Shared32px base reference and31px correction reference. Complete source scale corrections32/33,32/34,31/33 preserve original gait heights and four-cell cover; no anisotropic distortion.",
+    "anatomyPaintedInCode": false,
+    "derivedFragment": "Pointwise upper-eight-row crop of the sampled generated left idle; mirrored intact for18. Explicit empty mask preserves16."
+  },
+  "native": {
+    "slots": 19,
+    "blankSlots": [
+      16
+    ],
+    "capFragmentSlots": [
+      17,
+      18
+    ],
+    "owners": [
+      [
+        "npc",
+        22
+      ],
+      [
+        "npc",
+        49
+      ],
+      [
+        "npc",
+        89
+      ]
+    ],
+    "paletteIds": [
+      9,
+      133
+    ],
+    "paletteWrites": 0,
+    "originalAssembly7Changed": false,
+    "privateAssembly": 247,
+    "rawBytes": 4192,
+    "compressedBytes": 3092,
+    "assemblyBytes": 760,
+    "graphicsSha256": "504764bf8be5e45cd6830d5903c5261e17961f6c3d38b8ea255e8857d0d6fa9c",
+    "compressedSha256": "fc91e07a515a38f0fd022b12db649811b5bcb8a7129d350d2c9c67e9e329c3df",
+    "assemblySha256": "0d8ea71fb41f1eb9284e205ac52cbefab58b0e9c738a497097c5eba6117399a8",
+    "exactUploads": 57,
+    "exactNonblankFrameCellCoordinates": 216,
+    "blankTileUploads": 3,
+    "exactOpaquePixels": 16809,
+    "animationCases": 48,
+    "animationTicks": 3744,
+    "maximumDisplayDelay": 0,
+    "originalSignedXYBytesPreserved": 152,
+    "overlapFrames": []
+  },
+  "sceneEvidence": [
+    {
+      "name": "market-present",
+      "location": 54,
+      "nativeTicks": 1015,
+      "result": {
+        "location": 54,
+        "sourceFrames": [
+          9,
+          8
+        ],
+        "scope": "Diagnostic entry to an unchanged original location; original initialization and bounded controller interaction only. No complete service transaction or ending claimed."
+      },
+      "heapMax": 1248,
+      "objPaletteRows": [
+        0
+      ],
+      "manifest": "assets/imagegen/town-civilians-gfx11/scene-verification/market-present.json"
+    },
+    {
+      "name": "market-middle",
+      "location": 118,
+      "nativeTicks": 1015,
+      "result": {
+        "location": 118,
+        "sourceFrames": [
+          8,
+          11,
+          10
+        ],
+        "scope": "Diagnostic entry to an unchanged original location; original initialization and bounded controller interaction only. No complete service transaction or ending claimed."
+      },
+      "heapMax": 4128,
+      "objPaletteRows": [
+        0
+      ],
+      "manifest": "assets/imagegen/town-civilians-gfx11/scene-verification/market-middle.json"
+    },
+    {
+      "name": "inn-middle",
+      "location": 156,
+      "nativeTicks": 1015,
+      "result": {
+        "location": 156,
+        "sourceFrames": [
+          8,
+          11
+        ],
+        "scope": "Diagnostic entry to an unchanged original location; original initialization and bounded controller interaction only. No complete service transaction or ending claimed."
+      },
+      "heapMax": 1248,
+      "objPaletteRows": [
+        0
+      ],
+      "manifest": "assets/imagegen/town-civilians-gfx11/scene-verification/inn-middle.json"
+    },
+    {
+      "name": "medina-inn",
+      "location": 35,
+      "nativeTicks": 1015,
+      "result": {
+        "location": 35,
+        "sourceFrames": [
+          4,
+          7,
+          6
+        ],
+        "scope": "Diagnostic entry to an unchanged original location; original initialization and bounded controller interaction only. No complete service transaction or ending claimed."
+      },
+      "heapMax": 8832,
+      "objPaletteRows": [
+        2
+      ],
+      "manifest": "assets/imagegen/town-civilians-gfx11/scene-verification/medina-inn.json"
+    },
+    {
+      "name": "court-trial",
+      "location": 27,
+      "nativeTicks": 18205,
+      "result": {
+        "location": 71,
+        "story": 45,
+        "juryVotes": 0,
+        "scope": "Actual helpful trial, Pierre questioning, flashbacks, verdict and prison intake by controller after diagnostic entry."
+      },
+      "heapMax": 20736,
+      "objPaletteRows": [
+        4
+      ],
+      "manifest": "assets/imagegen/town-civilians-gfx11/scene-verification/court-trial.json"
+    },
+    {
+      "name": "dream-home",
+      "location": 338,
+      "nativeTicks": 900,
+      "result": {
+        "location": 338,
+        "sourceFrames": [
+          8,
+          7
+        ],
+        "scope": "Diagnostic entry to an unchanged original location; original initialization and bounded controller interaction only. No complete service transaction or ending claimed."
+      },
+      "heapMax": 9216,
+      "objPaletteRows": [
+        1
+      ],
+      "manifest": "assets/imagegen/town-civilians-gfx11/scene-verification/dream-home.json"
+    }
+  ],
+  "sceneCoverage": {
+    "auditedPrograms": [
+      5,
+      12,
+      17,
+      18,
+      25,
+      27,
+      32,
+      35,
+      53,
+      54,
+      56,
+      62,
+      79,
+      116,
+      118,
+      138,
+      139,
+      155,
+      156,
+      157,
+      188,
+      190,
+      239,
+      338,
+      439
+    ],
+    "auditedLoadStatements": 29,
+    "observedSourceLocations": [
+      27,
+      35,
+      54,
+      118,
+      156,
+      338,
+      439
+    ],
+    "untraversedPrograms": [
+      5,
+      12,
+      17,
+      18,
+      25,
+      32,
+      53,
+      56,
+      62,
+      79,
+      116,
+      138,
+      139,
+      155,
+      157,
+      188,
+      190,
+      239
+    ],
+    "totalSceneTicks": 23165,
+    "limitations": [
+      "Scene runs use diagnostic entry/checkpoint setup, followed by original event/controller execution. Natural campaign approach and full endings are not claimed.",
+      "Shop/inn runs prove original loading, visible art, anchors, actual CGRAM rows and bounded input only; no purchase or paid-stay completion is claimed.",
+      "The helpful trial completes its original Pierre dialogue, flashbacks, verdict and prison intake. Counter, dialogue-window and party occlusion remain original and are reported separately from exact isolated tile/coordinate proof.",
+      "Initial direct Truce Market17 entry loaded NPC22 but left it hidden at native frame255; no visible-art claim is made for that branch. Porre Market54 supplies the present-day NPC22 scene proof.",
+      "All25 target event packets remain byte-identical. All-branch actor-bank unions are not simultaneous heap measurements; the six actual cases measure their own heap.",
+      "Full production allocation, current-cartridge independent cores and active campaign regression remain parent integration work."
+    ]
+  },
+  "reproduction": "assets/imagegen/town-civilians-gfx11/reproduction.json",
+  "proposal": "assets/imagegen/town-civilians-gfx11/integration-proposal.json",
+  "activeFilesChanged": false
+}

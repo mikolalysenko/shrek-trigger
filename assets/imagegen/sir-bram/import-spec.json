@@ -1,0 +1,151 @@
+{
+  "key": "sir-bram",
+  "palette": [
+    "242733",
+    "875b48",
+    "d2a17b",
+    "f0c79b",
+    "542c3c",
+    "9a3b43",
+    "d76559",
+    "3d3536",
+    "edf0df",
+    "657582",
+    "a2b6bd",
+    "a3ca79"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/sir-bram/source-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "scaleX": 1.2
+      },
+      "overrides": {
+        "11": {
+          "scaleX": 1.0151757188498403,
+          "note": "Explicit native fit for wide/tall pose; source bounds reviewed before final acceptance."
+        },
+        "12": {
+          "scaleX": 0.9960815047021943,
+          "note": "Explicit native fit for wide/tall pose; source bounds reviewed before final acceptance."
+        },
+        "15": {
+          "scaleX": 1.1768518518518518,
+          "note": "Explicit native fit for wide/tall pose; source bounds reviewed before final acceptance."
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/sir-bram/source-walk-v2.png",
+      "columns": 2,
+      "rows": 2,
+      "cells": [
+        2
+      ],
+      "nativeHeight": 28,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "scaleX": 1.2
+      }
+    },
+    {
+      "file": "assets/imagegen/sir-bram/source-walk-v4.png",
+      "columns": 1,
+      "rows": 1,
+      "cells": [
+        0
+      ],
+      "nativeHeight": 28,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "scaleX": 1.2
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        6,
+        1,
+        7
+      ],
+      "1": [
+        4,
+        0,
+        16
+      ],
+      "2": [
+        8,
+        17
+      ]
+    },
+    "raise": {
+      "0": [
+        10
+      ]
+    },
+    "attack": {
+      "2": [
+        11
+      ]
+    },
+    "down": {
+      "1": [
+        12
+      ]
+    },
+    "burn": {
+      "2": [
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "notes": {
+    "status": "Frozen inactive draft; all native slots and corrections visually reviewed at1× and enlarged; pending lead integration review.",
+    "source": "Actual built-in image-generation PNGs with exact prompt/provenance; every opaque native pixel is sampled from source.",
+    "selectedSampling": "Compared area and nearest at28 native pixels with horizontalX1 andX1.2. Area/X1.2 selected to retain facial contours and coherent material clusters with fewer stray samples. Same method across each actor.",
+    "sourceDirections": "Front1,back0,left2,right3. Genuine rear views stay rear. Native right Alder/Bram walk/attack slots mirror genuine left pixels; Rowan side views use explicitly generated opposite directions to preserve the satchel.",
+    "nativeTiming": "Original frame IDs, animation timing and four-cell reservations unchanged. Two-phase walks use observed planted versus raised-foot contacts; three-phase front/rear walks include the original standing passing posture.",
+    "gaitCorrections": "Front opposite contact is the actual observed bottom-left walk-v2 cell2, with hatchet still in his right hand. Left side walk-v4 is the actual forward-boot-raised passing pose; right mirrors it. No repeated same-foot source contact is labeled as an opposite step.",
+    "wideFit": "Source base11 attack,12 down and15 low burn use the documented horizontal-only fit to the32px canvas. Vertical body scale stays shared and no anatomy/effect is clipped.",
+    "effects": "All three native burn reactions use genuine generated sage/ivory flame pixels in source-v1 cells13-15. No flames or anatomy drawn in code."
+  }
+}

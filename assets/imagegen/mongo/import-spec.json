@@ -1,0 +1,532 @@
+{
+  "key": "mongo",
+  "palette": [
+    "442d27",
+    "9b613c",
+    "cb9259",
+    "eabf80",
+    "fff1d7",
+    "95415c",
+    "dc6a80",
+    "714635",
+    "fff1dc",
+    "352d2e",
+    "7195a8",
+    "b55b48"
+  ],
+  "samplingPalette": [
+    "4d2e1a",
+    "9b581c",
+    "ca7f2d",
+    "e4a54d",
+    "eedeba",
+    "66308d",
+    "b366d3",
+    "76411a",
+    "fff8d8",
+    "21150f",
+    "4b9fc7",
+    "b63839"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/mongo/source-base-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 30,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1,
+        "bottom": 31
+      },
+      "overrides": {}
+    },
+    {
+      "file": "assets/imagegen/mongo/source-combat-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 30,
+      "scaleCells": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1,
+        "bottom": 31
+      },
+      "overrides": {
+        "14": {
+          "scaleX": 0.9782720588235295,
+          "note": "Complete source-silhouette resampling capped at32native pixels; no clipping or new drawing."
+        },
+        "15": {
+          "scaleX": 0.9782720588235295,
+          "note": "Complete source-silhouette resampling capped at32native pixels; no clipping or new drawing."
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/mongo/source-story-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 30,
+      "scaleCells": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1,
+        "bottom": 31
+      },
+      "overrides": {}
+    },
+    {
+      "file": "assets/imagegen/mongo/source-directions-v2.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 30,
+      "scaleCells": [
+        4,
+        11,
+        12,
+        15
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1,
+        "bottom": 31
+      },
+      "overrides": {}
+    },
+    {
+      "file": "assets/imagegen/mongo/source-finishing-v1.png",
+      "columns": 4,
+      "rows": 4,
+      "nativeHeight": 30,
+      "scaleCells": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "componentAlpha": 128,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1,
+        "bottom": 31
+      },
+      "overrides": {
+        "14": {
+          "scale": 0.9921494252873565,
+          "note": "Complete source-silhouette resampling capped at 32 native pixels; no clipping or new drawing."
+        },
+        "15": {
+          "scaleX": 0.9921494252873565,
+          "note": "Complete source-silhouette resampling capped at 32 native pixels; no clipping or new drawing."
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ]
+    },
+    "walk": {
+      "0": [
+        1,
+        6,
+        17,
+        7,
+        17,
+        6
+      ],
+      "1": [
+        0,
+        4,
+        16,
+        5,
+        16,
+        4
+      ],
+      "2": [
+        2,
+        8,
+        65,
+        9,
+        65,
+        8
+      ]
+    },
+    "battle": {
+      "0": [
+        54,
+        55,
+        17,
+        55
+      ],
+      "1": [
+        12,
+        25,
+        12,
+        53,
+        25,
+        12
+      ],
+      "2": [
+        24,
+        26
+      ]
+    },
+    "ready": {
+      "1": [
+        12
+      ],
+      "2": [
+        2,
+        24
+      ]
+    },
+    "punch": {
+      "1": [
+        25
+      ],
+      "2": [
+        24,
+        13
+      ]
+    },
+    "cast": {
+      "0": [
+        55
+      ],
+      "1": [
+        14
+      ],
+      "2": [
+        78
+      ]
+    },
+    "raise": {
+      "0": [
+        55
+      ],
+      "1": [
+        14
+      ],
+      "2": [
+        78
+      ]
+    },
+    "down": {
+      "2": [
+        15
+      ]
+    },
+    "jump": {
+      "0": [
+        17,
+        73,
+        31,
+        21,
+        17,
+        73,
+        31,
+        21,
+        49
+      ],
+      "1": [
+        16,
+        72,
+        30,
+        20,
+        16,
+        72,
+        30,
+        20,
+        16,
+        29
+      ],
+      "2": [
+        18,
+        70
+      ]
+    },
+    "kick": {
+      "0": [
+        73,
+        17
+      ],
+      "1": [
+        72
+      ],
+      "2": [
+        68,
+        74,
+        18,
+        70,
+        69,
+        65
+      ]
+    },
+    "tumble": {
+      "0": [
+        21,
+        31,
+        17,
+        49,
+        48
+      ],
+      "1": [
+        20,
+        30,
+        16,
+        29
+      ],
+      "2": [
+        22
+      ]
+    },
+    "roll": {
+      "2": [
+        22,
+        20,
+        70,
+        21,
+        22,
+        20,
+        70,
+        21,
+        22
+      ]
+    },
+    "claw": {
+      "1": [
+        25
+      ],
+      "2": [
+        24,
+        26
+      ]
+    },
+    "crouch": {
+      "0": [
+        48
+      ],
+      "1": [
+        29
+      ],
+      "2": [
+        33
+      ]
+    },
+    "kneel": {
+      "0": [
+        49
+      ],
+      "1": [
+        32
+      ],
+      "2": [
+        51
+      ]
+    },
+    "bow": {
+      "0": [
+        50
+      ],
+      "1": [
+        34
+      ],
+      "2": [
+        67
+      ]
+    },
+    "blink": {
+      "0": [
+        1
+      ],
+      "1": [
+        35
+      ],
+      "2": [
+        60
+      ]
+    },
+    "look": {
+      "0": [
+        66,
+        {
+          "frame": 66,
+          "flip": true
+        }
+      ],
+      "1": [
+        36,
+        {
+          "frame": 36,
+          "flip": true
+        }
+      ],
+      "2": [
+        65,
+        2
+      ]
+    },
+    "arms-folded": {
+      "1": [
+        37
+      ],
+      "2": [
+        38
+      ]
+    },
+    "wave": {
+      "0": [
+        56
+      ],
+      "1": [
+        39
+      ],
+      "2": [
+        52
+      ]
+    },
+    "cheer": {
+      "1": [
+        40
+      ]
+    },
+    "laugh": {
+      "1": [
+        41
+      ],
+      "2": [
+        {
+          "frame": 59,
+          "flip": true
+        }
+      ]
+    },
+    "drink": {
+      "1": [
+        42
+      ]
+    },
+    "kiss": {
+      "1": [
+        64
+      ],
+      "2": [
+        {
+          "frame": 43,
+          "flip": true
+        }
+      ]
+    },
+    "point": {
+      "0": [
+        57
+      ],
+      "1": [
+        58
+      ],
+      "2": [
+        44
+      ]
+    },
+    "hit": {
+      "1": [
+        45
+      ],
+      "2": [
+        76
+      ]
+    },
+    "headache": {
+      "0": [
+        75
+      ],
+      "1": [
+        46
+      ],
+      "2": [
+        77
+      ]
+    },
+    "victory": {
+      "1": [
+        47
+      ]
+    },
+    "spin": {
+      "0": [
+        31
+      ],
+      "1": [
+        30
+      ],
+      "2": [
+        74
+      ]
+    },
+    "fear": {
+      "2": [
+        61
+      ]
+    },
+    "throw": {
+      "2": [
+        68,
+        79
+      ]
+    },
+    "land": {
+      "2": [
+        69
+      ]
+    },
+    "sit": {
+      "1": [
+        71
+      ]
+    }
+  },
+  "notes": {
+    "material": "Every imported opaque pixel is sampled from a saved built-in image-generation PNG; no procedural anatomy is added to these source frames.",
+    "timing": "The source cartridge animation lists, frame counts, timing and intentional blanks are preserved. Repeated source poses retain native phase slots; only full-frame mirroring is used.",
+    "coverage": "Only generated poses with matching visible action and direction are mapped. Unmapped roles remain the earlier artwork and are enumerated in coverage.json. This is a partial raster migration.",
+    "nativeMirrors": "Right-facing roles mirror the generated left-facing pixels to use native tile sharing. Explicit source-right drawings remain archived for review.",
+    "missingSources": "No native nonblank frame remains uncovered after the directional and finishing source sheets. All255native frames, including five intentional blanks, still require native upload verification.",
+    "orientationCorrections": [
+      "Story cell11 is right-facing kiss despite the requested left direction; mirrored for left.",
+      "Directions cell11 is right-facing laugh and is mirrored for left. Directions cells5,14,15 face front and are not used for left-facing roles; strict profile versions come from finishing cells12,13,14."
+    ],
+    "materialRemap": "Purple source gumdrops are mapped explicitly to existing palette indices6/7, so they remain distinct from baked cookie shading. Output retains the current native palette.",
+    "proportions": "Native30pixel ordinary standing height with full-silhouette32pixel exceptions; complete PNG silhouettes remain inside the native32×32 frame.",
+    "blink": "Rear blink reuses rear idle because eyes are not visible from behind; every other visible action has a matching generated source silhouette."
+  }
+}

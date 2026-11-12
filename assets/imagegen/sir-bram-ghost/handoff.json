@@ -1,0 +1,156 @@
+{
+  "key": "sir-bram-ghost",
+  "status": "Lead pixel review approved; private native streaming and battle raster proof frozen; inactive pending production integration",
+  "activation": false,
+  "visualReview": {
+    "status": "Lead visual review approved; inactive pending native integration",
+    "reviewer": "/root/sprite_art_pass",
+    "date": "2026-10-31",
+    "all21NativeSlotsAt1xAnd3x": true,
+    "approved": true,
+    "nativeUploaded": true,
+    "findings": "Helmet, beard and hatchet identity survives the spectral palette. Directional contacts read clearly; raised attacks retain body proportions; slot 20 reads as armor dispersal.",
+    "nativeCandidateReview": "Indexed source and native-format frame reconstruction reviewed. Candidate was not activated or uploaded to a ROM."
+  },
+  "files": {
+    "import": "import-spec.draft.json",
+    "raster": "preview-raster.json",
+    "frameMap": "native-frame-map.draft.json",
+    "roleAudit": "source-roles.draft.json",
+    "nativeAudit": "native-resource-audit.json",
+    "heapAudit": "heap-audit.json",
+    "nativeSheet": "native-frames.png",
+    "motion": "motion.html",
+    "sampling": "sampling-comparison.png"
+  },
+  "sourceProvenance": [
+    "provenance-movement-v1.json",
+    "provenance-actions-v1.json",
+    "provenance-dispersal-v1.json"
+  ],
+  "nativeContract": {
+    "enemy": 143,
+    "graphics": 181,
+    "assembly": 178,
+    "palette": 209,
+    "animation": 136,
+    "size": 2,
+    "originalSlotIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "cellsPerFrame": 12,
+    "tilesPerFrame": 48,
+    "assemblyBytes": 2520,
+    "paletteUnchanged": true,
+    "animationsUnchanged": true,
+    "aiUnchanged": true,
+    "fieldLivingActorSeparate": {
+      "npc": 53,
+      "scene": 73
+    }
+  },
+  "cost": {
+    "tiles": 616,
+    "decodedGraphicsBytes": 19712,
+    "compressedGraphicsBytes": 16626,
+    "compressedGraphicsDelta": 7796,
+    "assemblyBytes": 2520,
+    "original": {
+      "tiles": 343,
+      "graphicsBytes": 10976,
+      "compressedGraphicsBytes": 8830,
+      "assemblyBytes": 2520
+    },
+    "exactTilePlacementSavings": {
+      "method": "Draft-local cell placement to share exact tiles and native horizontal mirrors; indexed images unchanged",
+      "initialTiles": 649,
+      "initialGraphicsBytes": 20768,
+      "initialCompressedGraphicsBytes": 16675,
+      "decodedBytesSaved": 1056,
+      "compressedBytesSaved": 49
+    }
+  },
+  "sceneBudget": {
+    "location": 65,
+    "graphicsIds": [
+      181,
+      35,
+      7
+    ],
+    "candidateBytes": 26112,
+    "limit": 32768,
+    "freeBytes": 6656,
+    "heapStart": "7F:8000",
+    "candidateHeapEnd": "7F:E600",
+    "nativeTrace": "Normal ghost formation [143] starts through ordinary direction/interaction input. A separate seeded worst case loads ghost, carpenter and four workers; the workers share graphics 7 once.",
+    "nativeOriginalDecodedCeiling": false,
+    "eventDataLimitSeparate": true,
+    "projectGuard": "Default original-source size guard remains. Root approved adding a specific scene-budget contract at integration; recheck actual emitted graphics sizes and owners for scene 65, rather than bypassing the guard.",
+    "extraWramBytes": 0,
+    "extraVramBytes": 0
+  },
+  "integration": {
+    "instructions": "Call compileSpriteFrames with the supplied frameCellOrigins, then add each frame x/y to its twelve encoded assembly cell offsets. These anchors preserve original native bounding-box centers and baseline. Do not alter animation/AI/header geometry.",
+    "requirements": [
+      "Preserve all 21 slot IDs and original timing, AI, palette and header size.",
+      "Use the exact supplied per-frame native cell origins and anchor offsets.",
+      "Keep graphics IDs 35 and 7 within the proven scene contract; recompute from actual emitted resources.",
+      "Native candidate upload and field/battle playback verification remain for root integration."
+    ],
+    "currentEngineOrRegistryChanged": false,
+    "romFileWritten": false
+  },
+  "validation": {
+    "all21SlotsPresent": true,
+    "original12ColorPalette": true,
+    "twelveCellsEveryFrame": true,
+    "assemblyCapacityUnchanged": true,
+    "noClippedOpaquePixels": true,
+    "compressionRoundTrip": true,
+    "all4bppFramesRoundTrip": true,
+    "canonicalRegistryInactive": true
+  },
+  "remainingArtGaps": [],
+  "notes": [
+    "Area sampling selected after nearest/area native comparison.",
+    "Every candidate indexed image reconstructs exactly from compiled 4bpp graphics and assembly.",
+    "Exact tile-placement optimization changes only assembly cell boundaries and tile reuse, never character pixels."
+  ],
+  "sha256": {
+    "source-movement-v1.png": "7a80e44d39f132629e245749fee623c17ec87fb015be63be19a70cdd5bec5255",
+    "source-actions-v1.png": "2de736bb18fdf47e3997ea0b20cb107360cb61a4ff14817c8e234226a28f352f",
+    "source-dispersal-v1.png": "17dc5f2cd0e385373fcb581ea1f0567902eea07120ca58537bb2d989fd2bd9c0",
+    "import-spec.draft.json": "61e28ac3c4c1de33d6a7864cfe48b0ac9c2287e0ad2ef7fcb283363e6782719c",
+    "preview-raster.json": "532ab8d7ae68f99837c19a7a986404afd081217cab34d2c8236dfd10221bd192",
+    "native-frame-map.draft.json": "cab415471a092fb43beb88d49eb82b842b2acb03cad77ae5de2969bb0eae94a5",
+    "heap-audit.json": "a0fe7b951aec4514053c8413f08e943dfffea2ab4177fff137687122b146d3ec",
+    "native-frames.png": "a3eb57e6e30910c957d10be5cd34af308cfa29bc7e19aa8749a6752ff764c494",
+    "motion.html": "aa456c3851ff71aee657a0074e4a7836488ef72f0900ea11a9038de1e5622c94"
+  },
+  "nativeStreamingProof": {
+    "file": "native-streaming-proof.json",
+    "romSha256": "c4fee0d2aaaf98a255f77a4273480893fc31612dab6b92004aa74afe4de0ad88",
+    "status": "Private proof passed; production guard remains unchanged",
+    "activation": false
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "status": "Frozen inactive source candidate; source, native JS core, timing and bounded authored scenes verified",
+  "design": {
+    "identity": "Existing original fairy-tale sewer toll trolls: dented crowns, iron armor and drain maces",
+    "source": "docs/future-wildlife.md",
+    "scope": "Refine established counterparts; no mechanics or casting change"
+  },
+  "baseline": {
+    "path": "assets/imagegen/sir-sludge/private-baseline.sfc",
+    "sha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "commit": "a8d9f5d",
+    "scope": "Fixed private baseline; excluded from source freeze and never canonical output"
+  },
+  "generations": [
+    {
+      "file": "assets/imagegen/sir-sludge/base-source-v1.png",
+      "sha256": "bc57336792fc0d571f79c9bd9e21a556c89f45c3c958ffc5ce4bcb6ad2bedb17",
+      "prompt": "assets/imagegen/sir-sludge/prompt-base-v1.txt",
+      "promptSha256": "c66dd796d56072808c5d7a32db1bbd84817a14f2044407d37bdf93805842fac9",
+      "tool": "built-in image_gen",
+      "transparentBackground": true,
+      "originalSavedFile": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-84c2d3a6-b9f4-4876-ace0-454fb72f986b.png",
+      "sourceType": "image-generation",
+      "notes": "Approved base model; cells 0/1/3/4/6/7 selected. Cells 2/5/8 were repeated contacts and are deliberately superseded by the corrected source."
+    },
+    {
+      "file": "assets/imagegen/sir-sludge/contacts-source-v2.png",
+      "sha256": "2c968e6c647cdde0b39b59aeb0ed4791ba5880b35f604fcb60df9a63fac2285c",
+      "prompt": "assets/imagegen/sir-sludge/prompt-contacts-v2.txt",
+      "promptSha256": "bead0466110337660c6d3f9f20bd541fd76e76c5fcdd1ea08805cb638547cbad",
+      "reference": "assets/imagegen/sir-sludge/base-source-v1.png",
+      "tool": "built-in image_gen",
+      "transparentBackground": true,
+      "sourceType": "image-generation",
+      "notes": "Targeted opposite contact sources; mace hand retained in rear/front. Right profile mirrors the full left profile.",
+      "originalSavedFile": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-60e1b144-3d46-4293-9b5d-bb20c191e5a0.png"
+    },
+    {
+      "file": "assets/imagegen/sir-sludge/actions-source-v3.png",
+      "sha256": "a751786b1e8cac853a08a03f173e89f8ec61991723ad7ce24c91b9fd69a8acdf",
+      "prompt": "assets/imagegen/sir-sludge/prompt-actions-v3.txt",
+      "promptSha256": "3b1e5f05be203e6be7c6d91bb9960714e478b03061791901a51476df2541cdf9",
+      "reference": "assets/imagegen/sir-sludge/base-source-v1.png",
+      "tool": "built-in image_gen",
+      "transparentBackground": true,
+      "sourceType": "image-generation",
+      "originalSavedFile": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-c25c245e-1edd-4a49-abe9-e805a8639a03.png",
+      "notes": "Twelve distinct actions, all selected. Right actions 24–26 are whole-source mirrors of left 21–23, retaining original mirror relationship. No anatomy, weapon or effects were procedurally painted."
+    }
+  ],
+  "activation": false,
+  "derivation": {
+    "importer": "scripts/import-raster-art.mjs --preview-spec",
+    "spec": "assets/imagegen/sir-sludge/import-spec.draft.json",
+    "sourceType": "Real alpha PNG samples reduced to preserved 12-color native palette",
+    "sampling": "Area resampling, alpha >=128, coverage threshold 0.28; no hue replacement or outline drawing",
+    "gait": "42 px body model; new opposed contacts, one-pixel passing placement",
+    "actions": "54 px overhead total height gives about 42 px standing body; all action poses share this one source-sheet scale",
+    "nativeGeometry": "assets/imagegen/sir-sludge/geometry-proposal.json",
+    "mirrors": "Whole sampled left profile mirrored for right direction; front/rear mace remains anatomical right hand",
+    "unusedSourceCells": {
+      "base-source-v1.png": [
+        2,
+        5,
+        8
+      ]
+    },
+    "limitations": [
+      "Source contact correction has somewhat brighter cloak shading than the base source; same fixed native palette and anatomy.",
+      "Tiny face/tusks and grille details are limited by the original hardware footprint.",
+      "Original insect gestures are adapted to a crowned biped and mace; this is established counterpart art, not original CT anatomy."
+    ]
+  },
+  "privateRomSha256": "492317c7343a5c18d9eaa043a486a00b7778231962e4bdf8e8950b10fa224696",
+  "selectedSourcePoses": 21,
+  "nativeSlots": 27,
+  "approvals": [
+    {
+      "reviewer": "root",
+      "scope": "Complete model/action direction and final opposed gait/anchor page; finish inactive freeze"
+    },
+    {
+      "reviewer": "sprite_art_pass",
+      "scope": "Final contacts, both-palette atlas, native slot14 and desert battle; no source change requested"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "status": "Frozen inactive source and verification packet; root approved static model, gait, roles, geometry and the bounded parade limitation",
+  "key": "duloc-town-resident",
+  "baselineSha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+  "privateSha256": "76089bdcc69d5e29eb97845d40845fe145ca7bd960e0309bc86bb870d10a3371",
+  "source": {
+    "tool": "built-in image_gen__imagegen",
+    "generatedPNGs": 1,
+    "selectedSourcePoses": 16,
+    "prompt": "assets/imagegen/town-civilians-gfx125/prompt-base-v1.txt",
+    "source": "assets/imagegen/town-civilians-gfx125/source-base-v1.png",
+    "sourceSha256": "57e4a80400c96a84bb38e0000cf64ff0089961160185f654881b35fab839a681",
+    "sampling": "AREA, shared32px standing reference. Uniform per-source corrections32/31,31/32,30/31,30/27,27/26 retain native role heights and all source pixels; no anisotropic distortion.",
+    "anatomyPaintedInCode": false,
+    "mirroredNativeSlots": [
+      3,
+      14,
+      15,
+      18
+    ],
+    "preservedOriginalRaster": {
+      "frame": 16,
+      "pixels": 3,
+      "paletteIndex": 2,
+      "provenance": "assets/imagegen/town-civilians-gfx125/original-sweat-raster.json"
+    },
+    "unreferencedKneelingFrame": {
+      "frame": 19,
+      "originalSourceIsNotBlank": true,
+      "selectedSource": 15,
+      "scope": "Original source role preserved and isolated native upload verified; no AA7 list or target-scene direct AC19 consumer found."
+    }
+  },
+  "native": {
+    "slots": 20,
+    "blankSlots": [],
+    "fragmentSlots": [],
+    "owners": [
+      [
+        "npc",
+        14
+      ],
+      [
+        "npc",
+        79
+      ]
+    ],
+    "paletteIds": [
+      135,
+      133
+    ],
+    "paletteWrites": 0,
+    "rawBytes": 4992,
+    "compressedBytes": 3586,
+    "assemblyBytes": 800,
+    "graphicsSha256": "ba7662858cad77a4adcf03436a8dbe71ef8e3d86fa71e2b06e80b5a93346234c",
+    "compressedSha256": "469420e872d84e7d83da04dc3b77cf0cd1ded82f69bfaa261e5a9a896f92f936",
+    "assemblySha256": "69888630fe5caf6130955c0fae68dc28e8316b812f60c4167e7ded24bb5fed4c",
+    "targetUploads": 40,
+    "targetExactCells": 160,
+    "targetExactOpaquePixels": 13778,
+    "sentinelUploads": 42,
+    "sentinelExactOpaquePixels": 12348,
+    "sentinelOwners": [
+      21,
+      22,
+      39
+    ],
+    "animationCases": 32,
+    "animationTicks": 2496,
+    "maximumDisplayDelay": 0,
+    "originalSignedXYBytesPreserved": 159,
+    "geometryChange": [
+      {
+        "frame": 19,
+        "cell": 3,
+        "axis": "y",
+        "before": -9,
+        "after": -14
+      }
+    ],
+    "overlapFrames": []
+  },
+  "sceneEvidence": [
+    {
+      "name": "truce-inn",
+      "location": 12,
+      "setup": {
+        "id": 12,
+        "x": 54,
+        "y": 13,
+        "facing": 0
+      },
+      "nativeTicks": 1300,
+      "result": {
+        "location": 12,
+        "sourceFrames": [
+          15,
+          2,
+          4,
+          6
+        ],
+        "dialogueIds": [
+          79,
+          81
+        ],
+        "scope": "Diagnostic E0 entry into unchanged original event; original initialization, dialogue and bounded controller interaction. Any prerequisite story bits are explicitly recorded in setup. No complete service transaction, natural approach or ending completion is claimed."
+      },
+      "heapMax": 7296,
+      "objPaletteRows": [
+        1
+      ],
+      "manifest": "assets/imagegen/town-civilians-gfx125/scene-verification/truce-inn.json"
+    },
+    {
+      "name": "merchant-inn",
+      "location": 62,
+      "setup": {
+        "id": 62,
+        "x": 3,
+        "y": 26,
+        "facing": 0
+      },
+      "nativeTicks": 1332,
+      "result": {
+        "location": 62,
+        "sourceFrames": [
+          14,
+          9
+        ],
+        "dialogueIds": [
+          56
+        ],
+        "scope": "Diagnostic E0 entry into unchanged original event; original initialization, dialogue and bounded controller interaction. Any prerequisite story bits are explicitly recorded in setup. No complete service transaction, natural approach or ending completion is claimed."
+      },
+      "heapMax": 15744,
+      "objPaletteRows": [
+        1
+      ],
+      "manifest": "assets/imagegen/town-civilians-gfx125/scene-verification/merchant-inn.json"
+    },
+    {
+      "name": "marco",
+      "location": 158,
+      "setup": {
+        "id": 158,
+        "x": 60,
+        "y": 56,
+        "facing": 0,
+        "diagnosticSeed": {
+          "address": "7F00F7",
+          "setBits": 2,
+          "reason": "Original returned-husband load condition"
+        }
+      },
+      "nativeTicks": 1332,
+      "result": {
+        "location": 158,
+        "sourceFrames": [
+          8,
+          10,
+          11,
+          2
+        ],
+        "dialogueIds": [
+          106,
+          107
+        ],
+        "scope": "Diagnostic E0 entry into unchanged original event; original initialization, dialogue and bounded controller interaction. Any prerequisite story bits are explicitly recorded in setup. No complete service transaction, natural approach or ending completion is claimed."
+      },
+      "heapMax": 2784,
+      "objPaletteRows": [
+        1
+      ],
+      "manifest": "assets/imagegen/town-civilians-gfx125/scene-verification/marco.json"
+    },
+    {
+      "name": "parade",
+      "location": 80,
+      "setup": {
+        "id": 80,
+        "x": 10,
+        "y": 33,
+        "facing": 2,
+        "story": 200,
+        "party": [
+          0,
+          1,
+          2
+        ],
+        "endgame": true,
+        "diagnosticSeed": {
+          "storyAddress": "7F0000",
+          "storyValue": 200,
+          "address": "7F006D",
+          "setBits": 64,
+          "reason": "Original post-parade branch; story200 and a diagnostic entry avoid replaying the completed procession"
+        }
+      },
+      "nativeTicks": 1329,
+      "result": {
+        "location": 80,
+        "sourceFrames": [
+          18
+        ],
+        "dialogueIds": [
+          56
+        ],
+        "scope": "Diagnostic E0 entry into unchanged original event; original initialization, dialogue and bounded controller interaction. Any prerequisite story bits are explicitly recorded in setup. No complete service transaction, natural approach or ending completion is claimed."
+      },
+      "heapMax": 16832,
+      "objPaletteRows": [
+        7
+      ],
+      "manifest": "assets/imagegen/town-civilians-gfx125/scene-verification/parade.json"
+    },
+    {
+      "name": "dream-end-time",
+      "location": 379,
+      "setup": {
+        "id": 379,
+        "x": 33,
+        "y": 19,
+        "facing": 0,
+        "party": [
+          0,
+          1,
+          2
+        ],
+        "endgame": true
+      },
+      "nativeTicks": 1329,
+      "result": {
+        "location": 379,
+        "sourceFrames": [
+          5,
+          16,
+          4
+        ],
+        "dialogueIds": [
+          35
+        ],
+        "scope": "Diagnostic E0 entry into unchanged original event; original initialization, dialogue and bounded controller interaction. Any prerequisite story bits are explicitly recorded in setup. No complete service transaction, natural approach or ending completion is claimed."
+      },
+      "heapMax": 5472,
+      "objPaletteRows": [
+        2
+      ],
+      "manifest": "assets/imagegen/town-civilians-gfx125/scene-verification/dream-end-time.json"
+    }
+  ],
+  "sceneCoverage": {
+    "auditedPrograms": [
+      5,
+      12,
+      13,
+      14,
+      16,
+      18,
+      24,
+      27,
+      32,
+      52,
+      53,
+      62,
+      80,
+      91,
+      158,
+      188,
+      204,
+      338,
+      340,
+      378,
+      379,
+      438,
+      439
+    ],
+    "auditedLoadStatements": 30,
+    "observedSourceLocations": [
+      12,
+      62,
+      80,
+      158,
+      379
+    ],
+    "untraversedPrograms": [
+      5,
+      13,
+      14,
+      16,
+      18,
+      24,
+      27,
+      32,
+      52,
+      53,
+      91,
+      188,
+      204,
+      338,
+      340,
+      378,
+      438,
+      439
+    ],
+    "totalSceneTicks": 6622,
+    "limitations": [
+      "Diagnostic E0 entries and explicitly seeded prerequisite story flags are followed by original event/controller execution. No full natural approach, purchase/stay completion or complete ending is claimed.",
+      "Parade80 frame18/dialogue56 proves original seating and actual tile/coordinate rendering. Its intended palette133 is overwritten on pinned af338; actual row7 colors and occlusion counts are recorded separately in the integration proposal and scene manifest.",
+      "Frame19 is a genuine kneeling source, not a blank. It has isolated native proof but no observed original campaign action consumer.",
+      "All23 target event packets remain byte-identical. The source scan attempted512 locations; eight unrelated invalid packets are retained as errors. All-branch source-bank unions are not measured simultaneous heap.",
+      "The scene actors retain original dialogue. Naming, broader narrative edits, all remaining scene branches, production allocation and independent current-cartridge cores remain root work."
+    ]
+  },
+  "reproduction": "assets/imagegen/town-civilians-gfx125/reproduction.json",
+  "proposal": "assets/imagegen/town-civilians-gfx125/integration-proposal.json",
+  "activeFilesChanged": false
+}

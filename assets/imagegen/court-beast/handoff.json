@@ -1,0 +1,502 @@
+{
+  "status": "Frozen inactive source draft; root accepted the model and corrected native roles for integration",
+  "activation": false,
+  "sourceType": "built-in imagegen raster sources",
+  "sourceFiles": [
+    "assets/imagegen/court-beast/source-movement-v1.png",
+    "assets/imagegen/court-beast/source-upright-v1.png",
+    "assets/imagegen/court-beast/source-reactions-v1.png",
+    "assets/imagegen/court-beast/source-compact-actions-v1.png"
+  ],
+  "sourcePrompts": [
+    "assets/imagegen/court-beast/prompt-movement-v1.txt",
+    "assets/imagegen/court-beast/prompt-upright-v1.txt",
+    "assets/imagegen/court-beast/prompt-reactions-v1.txt",
+    "assets/imagegen/court-beast/prompt-compact-actions-v1.txt"
+  ],
+  "ownership": {
+    "graphics": 133,
+    "assembly": 127,
+    "animation": 99,
+    "actors": [
+      {
+        "key": "masquerader",
+        "enemy": 144,
+        "header": [
+          133,
+          127,
+          185,
+          99,
+          1,
+          0,
+          236,
+          16,
+          16,
+          33
+        ],
+        "palette": 185,
+        "colors": [
+          "252333",
+          "3d3656",
+          "5b4e7b",
+          "8a719c",
+          "c4b3c6",
+          "f3e4ba",
+          "5e213a",
+          "9d3c4f",
+          "bd8e45",
+          "d8e05d",
+          "193a38",
+          "fff8e8"
+        ]
+      },
+      {
+        "key": "court-beast",
+        "enemy": 199,
+        "header": [
+          133,
+          127,
+          249,
+          99,
+          1,
+          0,
+          224,
+          24,
+          16,
+          17
+        ],
+        "palette": 249,
+        "colors": [
+          "252333",
+          "303d50",
+          "4b6670",
+          "789a9b",
+          "bdcdd0",
+          "f3e4ba",
+          "4d295d",
+          "845488",
+          "d3a756",
+          "f1a250",
+          "38283a",
+          "fff8e8"
+        ]
+      }
+    ],
+    "foreignOwners": [],
+    "pointerAliases": [
+      {
+        "field": 0,
+        "id": 133,
+        "owners": [
+          {
+            "kind": "enemy",
+            "id": 144
+          },
+          {
+            "kind": "enemy",
+            "id": 199
+          }
+        ],
+        "pointerAliases": [
+          133
+        ]
+      },
+      {
+        "field": 1,
+        "id": 127,
+        "owners": [
+          {
+            "kind": "enemy",
+            "id": 144
+          },
+          {
+            "kind": "enemy",
+            "id": 199
+          }
+        ],
+        "pointerAliases": [
+          127
+        ]
+      },
+      {
+        "field": 2,
+        "id": 185,
+        "owners": [
+          {
+            "kind": "enemy",
+            "id": 144
+          }
+        ],
+        "pointerAliases": [
+          185
+        ]
+      },
+      {
+        "field": 2,
+        "id": 249,
+        "owners": [
+          {
+            "kind": "enemy",
+            "id": 199
+          }
+        ],
+        "pointerAliases": [
+          249
+        ]
+      },
+      {
+        "field": 3,
+        "id": 99,
+        "owners": [
+          {
+            "kind": "enemy",
+            "id": 144
+          },
+          {
+            "kind": "enemy",
+            "id": 199
+          }
+        ],
+        "pointerAliases": [
+          99
+        ]
+      }
+    ]
+  },
+  "sourceCoverage": {
+    "nativeFrames": 31,
+    "uniqueNativeFrames": 31,
+    "authoredSourcePosesUsed": 25,
+    "wholeSourceMirroredFrames": [
+      9,
+      10,
+      11,
+      28,
+      29,
+      30
+    ],
+    "mirrorTilesEntirelyReused": true,
+    "proceduralFallbackFrames": 0,
+    "blankFrames": 0,
+    "unusedSourceFrames": [
+      12,
+      13,
+      14,
+      16,
+      25,
+      26
+    ]
+  },
+  "geometry": {
+    "file": "assets/imagegen/court-beast/native-frame-map.draft.json",
+    "width": 64,
+    "height": 64,
+    "cellCount": 8,
+    "anchor": [
+      0,
+      8
+    ],
+    "nativeBottomDisplacementsExact": true,
+    "sideAttackXDisplacements": [
+      10,
+      -10
+    ],
+    "originalAnimationAndTimingRetained": true,
+    "originalHeaderSizeRetained": true,
+    "contactScaleOverride": {
+      "source": "source-compact-actions-v1.png",
+      "cell": 3,
+      "scale": 1.08,
+      "reason": "Match the original40px contact height and adjacent40px phases; still fits eight cells."
+    }
+  },
+  "records": {
+    "graphicsSha256": "5a748a19282453c9c20e10dd7283835b90a6a850cd92731351f53b1976f40338",
+    "compressedSha256": "e4905aeb71aff9f444d93b42d9cfa7f0dd81587e3ac45cc600226b1c1bc7fcac",
+    "assemblySha256": "a36172edd46a70700ebfd8f336d26f87d3cd733ab2b76d418eb0361ba815a084",
+    "palettes": [
+      {
+        "id": 185,
+        "sha256": "2ee9bf9ae4ed948f2138e0c73ed01358ba02fc4a7d0bd8a4e9981faa6ebc9e7a"
+      },
+      {
+        "id": 249,
+        "sha256": "3658818dae5f3f0a0ba56fdfcfff6d6dd82b66a919cb1ee9ca8e62247634cfb4"
+      }
+    ]
+  },
+  "memory": {
+    "cells": 8,
+    "sizeClass": 1,
+    "frames": 31,
+    "tiles": 564,
+    "decodedBytes": 18048,
+    "compressedBytes": 14389,
+    "assemblyBytes": 2480,
+    "originalCT": {
+      "decodedBytes": 8512,
+      "compressedBytes": 6977,
+      "assemblyBytes": 2480,
+      "decodedGrowth": 9536,
+      "compressedAndAssemblyPayloadGrowth": 7412,
+      "alignedAllocationGrowth": 7412
+    },
+    "activeEarlierArt": {
+      "decodedBytes": 7040,
+      "compressedBytes": 3212,
+      "assemblyBytes": 2480,
+      "decodedGrowth": 11008,
+      "compressedAndAssemblyPayloadGrowth": 11177,
+      "alignedAllocationGrowth": 11178
+    },
+    "streaming": {
+      "required": true,
+      "bank": 133,
+      "extendedRawCopyBytes": 18048,
+      "ordinaryCompressedPointerRetained": true,
+      "nativeTileLimitBytes": 32768,
+      "explicitFamilySelectionRequired": true,
+      "allOwners": [
+        144,
+        199
+      ],
+      "nativeFamilyProofPerformed": false
+    },
+    "originalHalfCapacityFromRoot": {
+      "freeBytesBefore": 43780,
+      "netFreeBytesAfterPayloadGrowth": 32603,
+      "netFreeBytesAfterTwoByteAllocationGrowth": 32602,
+      "scope": "Arithmetic projection only. Root must run its complete allocator; same-bank fragmentation and other simultaneous changes are not assumed."
+    },
+    "scenes": [
+      {
+        "location": 198,
+        "allConditionalOriginalDecodedBytes": 16896,
+        "legacyTotalWithCandidate": 26432,
+        "legacyHeapCapacity": 32768,
+        "overflow": 0
+      },
+      {
+        "location": 438,
+        "allConditionalOriginalDecodedBytes": 28480,
+        "legacyTotalWithCandidate": 38016,
+        "legacyHeapCapacity": 32768,
+        "overflow": 5248
+      }
+    ],
+    "extraHardwareWramAllocation": 0,
+    "extraHardwareVramAllocation": 0,
+    "extraCells": 0,
+    "extraFrameIds": 0,
+    "caution": "Zero new hardware allocation does not mean legacy loading fits. Scene438 reaches38016 bytes in the conservative original-branch inventory; select/prove native ROM streaming before activation. No prospective streamed co-load exclusions were counted."
+  },
+  "reproduction": {
+    "sourceHashesVerified": true,
+    "referenceHashesVerified": true,
+    "repeatCompilationExact": true,
+    "allNativeTilesDecodedBackToSource": true,
+    "commands": [
+      "node assets/imagegen/court-beast/prepare-draft.mjs",
+      "node assets/imagegen/court-beast/review-draft.mjs",
+      "node assets/imagegen/court-beast/freeze-draft.mjs"
+    ],
+    "normalBuildUsesNoDraft": true
+  },
+  "review": {
+    "root": {
+      "accepted": true,
+      "scope": "All-frame1× atlas and enlarged10–19; model and corrected roles accepted for integration."
+    },
+    "author": {
+      "all31FramesAt1xAnd3x": true,
+      "bothPalettes": true,
+      "completeCellCoverage": true
+    },
+    "contact": "native-frames.html",
+    "nativeSheet": "native-frames-1x.png",
+    "motion": "motion.html",
+    "motionScope": "Illustrative8fps pose loops, not emulated original animation timing."
+  },
+  "limitations": [
+    "Family-specific native field, battle, VRAM, independent-core and scene rendering proof remains outstanding. Size1 support is proven elsewhere, not by this inactive package.",
+    "The generated beast uses a new silhouette and a repacked eight-cell layout; proposedNativeBounds and originalBounds are both retained for every slot. Original foot displacements and native actor/event anchors stay explicit.",
+    "Slot19 is a distinct visible source pose but is unreferenced by the standard animation99 bytes. Its recovery label is descriptive, not proof of a particular mechanic.",
+    "Six right-facing frames are documented complete-source mirrors. Broken-mask asymmetry mirrors with the rest of each sprite.",
+    "The original procedural direction list reverses native slots6–11. Use the supplied explicit native sequence; do not map these through the old facing list."
+  ],
+  "rootIntegration": [
+    "Import the selected source under key court-beast only; both enemy owners share the one bank. Keep import-spec.draft.json inactive until explicitly selected.",
+    "Compile the31 entries of sequences.native[1] using the supplied frameCellOrigins, then add anchor[0,8] and each recorded frameOffset. Do not retain the earlier blanket+4 assembly adjustment.",
+    "Retain gfx133, asm127, palette185/249, animation99, all headers, AI, battle mechanics and events. Preserve both exact palette binaries.",
+    "Select gfx133 only through the guarded native4/8/12-cell ROM-streaming family contract, checking both size1 owners144/199. Preserve ordinary compressed graphics for native tools/readers.",
+    "Verify all62 native frame/palette uploads and actual scenes198 and438, including transformation, priority/cell anchoring, native damage and victory, before publishing."
+  ],
+  "minimalFiles": [
+    {
+      "file": "assets/imagegen/court-beast/source-movement-v1.png",
+      "bytes": 1437308,
+      "sha256": "89e6f066da7a2a67bd653777e1fa72ae5fb5a3f562ff863e044f817adbc1574d"
+    },
+    {
+      "file": "assets/imagegen/court-beast/prompt-movement-v1.txt",
+      "bytes": 3347,
+      "sha256": "3506cb5f5cdbecccb1dd6a52c37fe8e0724a3f630215dc0996633777315d7c4a"
+    },
+    {
+      "file": "assets/imagegen/court-beast/provenance-movement-v1.json",
+      "bytes": 622,
+      "sha256": "15f317d871c89530035aae518df9a1c5aad8236f1f9be8ba6f97a0e1d60f0439"
+    },
+    {
+      "file": "assets/imagegen/court-beast/source-upright-v1.png",
+      "bytes": 1600083,
+      "sha256": "45f74642504173147731aa97abe9719cf3ffcecd823e947ec87ccfe1dabb88d8"
+    },
+    {
+      "file": "assets/imagegen/court-beast/prompt-upright-v1.txt",
+      "bytes": 3054,
+      "sha256": "6fa5d2ce5533c24094a02f12c27a66406794058d66230d9d526f4934e9fb4565"
+    },
+    {
+      "file": "assets/imagegen/court-beast/provenance-upright-v1.json",
+      "bytes": 884,
+      "sha256": "f8da795bff865ccd5e4d54047c39d712d45d673554d0381c10d2e848dc9d4d7a"
+    },
+    {
+      "file": "assets/imagegen/court-beast/source-reactions-v1.png",
+      "bytes": 1583743,
+      "sha256": "c81a8195ed89dc4d6167d6220c992ecdfb8e36145f13a203d8b19686f42a1b44"
+    },
+    {
+      "file": "assets/imagegen/court-beast/prompt-reactions-v1.txt",
+      "bytes": 3277,
+      "sha256": "f25b77ccd78eb8139b2901eacd0ac2915fef1e20bfbb3de116bfa5db1dcc3441"
+    },
+    {
+      "file": "assets/imagegen/court-beast/provenance-reactions-v1.json",
+      "bytes": 888,
+      "sha256": "cd77575181671e6961a2dbefbbccfe3ea6af27dfc0d9e99fbd30a4ecab1d79ae"
+    },
+    {
+      "file": "assets/imagegen/court-beast/source-compact-actions-v1.png",
+      "bytes": 1145507,
+      "sha256": "30a6b562d59014612e51857bc3929b94e90fb533c2166f6cf0e857e902f495d6"
+    },
+    {
+      "file": "assets/imagegen/court-beast/prompt-compact-actions-v1.txt",
+      "bytes": 2720,
+      "sha256": "7886d061888c8bc24697ed67d7a71898577f3c3c82bc8724e9047190e5a65d9c"
+    },
+    {
+      "file": "assets/imagegen/court-beast/provenance-compact-actions-v1.json",
+      "bytes": 1217,
+      "sha256": "d4e64e8887dd71aed1444f2a02b23689fccde9d5540e9b12b9342c1d5da0220a"
+    },
+    {
+      "file": "assets/imagegen/court-beast/import-spec.draft.json",
+      "bytes": 4141,
+      "sha256": "94203aac189f60158ed13eca1db5b4e33a87635cfa50b3881eaa56f97d2271e3"
+    },
+    {
+      "file": "assets/imagegen/court-beast/preview-raster.json",
+      "bytes": 128355,
+      "sha256": "bc4cb3a6de40aedda67bc2256ec39108dfd973790bb6ca27cdc2138d10789ee0"
+    },
+    {
+      "file": "assets/imagegen/court-beast/preview-import.json",
+      "bytes": 9135,
+      "sha256": "83ad90d10fd39c362e1d84fc17a25a1bca29958f1f896748157b0a420b042696"
+    },
+    {
+      "file": "assets/imagegen/court-beast/native-resource-audit.json",
+      "bytes": 49298,
+      "sha256": "64330445a91960c2006b297040dd73cd4bca7b59a039d9a96279ce1c9fdd8fd6"
+    },
+    {
+      "file": "assets/imagegen/court-beast/native-role-audit.json",
+      "bytes": 42224,
+      "sha256": "def91530147fe4a9c705907c16a978bf7dd20c1758c92e252db4ec1bc0539de6"
+    },
+    {
+      "file": "assets/imagegen/court-beast/native-frame-map.draft.json",
+      "bytes": 58902,
+      "sha256": "0670fa8b1e96191c2892de6fac4bc35f3875614e061893e6a34b08fae42eacfa"
+    },
+    {
+      "file": "assets/imagegen/court-beast/prepare-draft.mjs",
+      "bytes": 7741,
+      "sha256": "19ed0ecc6274bf57bbb47c4235ae36085373c47f450d0e79fbf958252e8dae95"
+    },
+    {
+      "file": "assets/imagegen/court-beast/pack-cells.mjs",
+      "bytes": 2729,
+      "sha256": "c8aaad5840e973271ea7a78023730eb87dbba8cb91da4fd683fd88569186608d"
+    },
+    {
+      "file": "assets/imagegen/court-beast/inspect-native.mjs",
+      "bytes": 5841,
+      "sha256": "d6b7fc11189729dfdd4b311f56901e76504d1e0284757c6cf72f9014e2538139"
+    },
+    {
+      "file": "assets/imagegen/court-beast/review-draft.mjs",
+      "bytes": 6927,
+      "sha256": "0f8ddf8fa19e937d3134d1f2052571f34fc2696304419ec40a1e1aa490aaa428"
+    },
+    {
+      "file": "assets/imagegen/court-beast/freeze-draft.mjs",
+      "bytes": 9254,
+      "sha256": "2e16dfa8babba3662e4f0da58b025473ae799431920a0a42b2b1d65fdd29b9de"
+    },
+    {
+      "file": "assets/imagegen/court-beast/graphics.4bpp",
+      "bytes": 18048,
+      "sha256": "5a748a19282453c9c20e10dd7283835b90a6a850cd92731351f53b1976f40338"
+    },
+    {
+      "file": "assets/imagegen/court-beast/graphics.ct-lz",
+      "bytes": 14389,
+      "sha256": "e4905aeb71aff9f444d93b42d9cfa7f0dd81587e3ac45cc600226b1c1bc7fcac"
+    },
+    {
+      "file": "assets/imagegen/court-beast/assembly.bin",
+      "bytes": 2480,
+      "sha256": "a36172edd46a70700ebfd8f336d26f87d3cd733ab2b76d418eb0361ba815a084"
+    },
+    {
+      "file": "assets/imagegen/court-beast/palette-185.bin",
+      "bytes": 24,
+      "sha256": "2ee9bf9ae4ed948f2138e0c73ed01358ba02fc4a7d0bd8a4e9981faa6ebc9e7a"
+    },
+    {
+      "file": "assets/imagegen/court-beast/palette-249.bin",
+      "bytes": 24,
+      "sha256": "3658818dae5f3f0a0ba56fdfcfff6d6dd82b66a919cb1ee9ca8e62247634cfb4"
+    },
+    {
+      "file": "assets/imagegen/court-beast/draft-audit.json",
+      "bytes": 1753,
+      "sha256": "4f736347f62049130caf64c7533be53f9f644cefc2c925d62e83c1ae282b75aa"
+    },
+    {
+      "file": "assets/imagegen/court-beast/review-audit.json",
+      "bytes": 1113,
+      "sha256": "4bdc4dea2f46a0f37c4e75814a816cbc09f6a91b89e6b9fbdcb3e7d6f015082f"
+    },
+    {
+      "file": "assets/imagegen/court-beast/native-frames-1x.png",
+      "bytes": 137785,
+      "sha256": "b71587dae17fb84ddf5d54ec07990d94e02a651de776a98e99070937fb38aaac"
+    },
+    {
+      "file": "assets/imagegen/court-beast/native-frames.html",
+      "bytes": 399784,
+      "sha256": "526a6619619e485a14ab6a3b1bb0b154af7ec6e707daceaea917c19b3bc1d47f"
+    },
+    {
+      "file": "assets/imagegen/court-beast/motion.html",
+      "bytes": 196047,
+      "sha256": "7e072853d74790211e40faa233376d1b6c783b246f4cd380bbba2375375743a0"
+    }
+  ],
+  "excludedWork": "Original-ROM inspection screenshots, failed/trial sampling directories and redundant preview PNGs are not required in the minimal frozen source package."
+}

@@ -1,0 +1,2135 @@
+{
+  "status": "Frozen inactive",
+  "activation": false,
+  "design": "Original storybook tradesman/yeoman, preserving all shared smith/carpenter/patron/fair/father roles without a permanent prop or new celebrity cameo.",
+  "baseline": {
+    "path": "assets/imagegen/town-tradesmen/private-qa/baseline.sfc",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+    "bytes": 8388608,
+    "originalAuditBaseline": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+    "reason": "Root preferred current published cartridge for native proof; source/audit resources are rechecked unchanged before override."
+  },
+  "sourceAuditBaseline": {
+    "path": "assets/raster/town-npc35-audit/private/baseline.sfc",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "sha256": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+    "bytes": 8388608
+  },
+  "privateRomSha256": "fc9fa6cd47aabe251f9a2d5363f6409d909ea9e883bb563a55a69c07fc6d9e36",
+  "graphics": {
+    "id": 35,
+    "rawBytes": 10112,
+    "compressedBytes": 6199,
+    "rawSha256": "e1c2ac0fed846720b1897a9e1a39df5f02797c635ab440ba769aba048c8bcc9f",
+    "compressedSha256": "2d1d50ebaa8071344ea312e6bb7230eff0de7070f5f1306480aea6c0db9bafe6",
+    "nativeTileCount": 316,
+    "sourceAllocation": 3936,
+    "streamingRequired": true,
+    "streamingProved": true,
+    "contract": "size0 native four-cell direct-ROM stream, <=32KiB raw family bank"
+  },
+  "assembly": {
+    "id": 24,
+    "sha256": "4c5065aa61f080c5e23e1e4deb82b514be12d2da830e229d30710a3b9be35180",
+    "bytes": 1240,
+    "frames": 31,
+    "cells": 4,
+    "size": 0,
+    "canvas": [
+      64,
+      48
+    ],
+    "origin": [
+      32,
+      40
+    ],
+    "anchor": [
+      0,
+      8
+    ],
+    "onlyOwners": [
+      25,
+      39,
+      52
+    ],
+    "privateSlotRequired": false,
+    "originalXYBytesUnchanged": 210,
+    "totalXYBytes": 248,
+    "changedFrames": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      21,
+      26,
+      27,
+      28,
+      29
+    ],
+    "overlapFrames": [
+      12,
+      13,
+      14,
+      15,
+      17
+    ],
+    "duplicateOpaquePixels": 3,
+    "allDuplicatesAgree": true
+  },
+  "owners": [
+    {
+      "kind": "npc",
+      "id": 25,
+      "offset": 2420896,
+      "header": [
+        35,
+        24,
+        9,
+        15,
+        0
+      ],
+      "originalHeader": [
+        35,
+        24,
+        9,
+        15,
+        0
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 39,
+      "offset": 2420966,
+      "header": [
+        35,
+        24,
+        133,
+        15,
+        0
+      ],
+      "originalHeader": [
+        35,
+        24,
+        133,
+        15,
+        0
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 52,
+      "offset": 2421031,
+      "header": [
+        35,
+        24,
+        9,
+        15,
+        0
+      ],
+      "originalHeader": [
+        35,
+        24,
+        9,
+        15,
+        0
+      ]
+    }
+  ],
+  "palettes": [
+    {
+      "id": 9,
+      "start": 2359512,
+      "endExclusive": 2359536,
+      "bytes": [
+        198,
+        24,
+        189,
+        119,
+        159,
+        87,
+        127,
+        54,
+        52,
+        29,
+        94,
+        26,
+        241,
+        36,
+        16,
+        111,
+        168,
+        61,
+        146,
+        42,
+        139,
+        21,
+        47,
+        78
+      ],
+      "colors": [
+        "313131",
+        "efefef",
+        "ffe7ad",
+        "ff9c6b",
+        "a54a39",
+        "f79431",
+        "8c394a",
+        "84c6de",
+        "426b7b",
+        "94a552",
+        "5a6329",
+        "7b8c9c"
+      ],
+      "sha256": "191c34f2807d3f072839d0b0e92d41cb5522a2005d5a24887053671793fc7641",
+      "unchangedFromCT": true,
+      "ownership": {
+        "field": 2,
+        "id": 9,
+        "table": 2370048,
+        "pointer": 216,
+        "aliases": [
+          9
+        ],
+        "owners": [
+          {
+            "kind": "npc",
+            "id": 13,
+            "offset": 2420836,
+            "header": [
+              36,
+              25,
+              9,
+              16,
+              0
+            ],
+            "originalHeader": [
+              36,
+              25,
+              9,
+              16,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 22,
+            "offset": 2420881,
+            "header": [
+              11,
+              7,
+              9,
+              7,
+              0
+            ],
+            "originalHeader": [
+              11,
+              7,
+              9,
+              7,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 25,
+            "offset": 2420896,
+            "header": [
+              35,
+              24,
+              9,
+              15,
+              0
+            ],
+            "originalHeader": [
+              35,
+              24,
+              9,
+              15,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 41,
+            "offset": 2420976,
+            "header": [
+              7,
+              191,
+              9,
+              154,
+              0
+            ],
+            "originalHeader": [
+              7,
+              191,
+              9,
+              154,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 42,
+            "offset": 2420981,
+            "header": [
+              8,
+              7,
+              9,
+              7,
+              0
+            ],
+            "originalHeader": [
+              8,
+              7,
+              9,
+              7,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 44,
+            "offset": 2420991,
+            "header": [
+              9,
+              7,
+              9,
+              7,
+              0
+            ],
+            "originalHeader": [
+              9,
+              7,
+              9,
+              7,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 45,
+            "offset": 2420996,
+            "header": [
+              10,
+              7,
+              9,
+              7,
+              0
+            ],
+            "originalHeader": [
+              10,
+              7,
+              9,
+              7,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 46,
+            "offset": 2421001,
+            "header": [
+              21,
+              11,
+              9,
+              8,
+              0
+            ],
+            "originalHeader": [
+              21,
+              11,
+              9,
+              8,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 47,
+            "offset": 2421006,
+            "header": [
+              22,
+              11,
+              9,
+              8,
+              0
+            ],
+            "originalHeader": [
+              22,
+              11,
+              9,
+              8,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 49,
+            "offset": 2421016,
+            "header": [
+              11,
+              7,
+              9,
+              7,
+              0
+            ],
+            "originalHeader": [
+              11,
+              7,
+              9,
+              7,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 52,
+            "offset": 2421031,
+            "header": [
+              35,
+              24,
+              9,
+              15,
+              0
+            ],
+            "originalHeader": [
+              35,
+              24,
+              9,
+              15,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 133,
+      "start": 2362488,
+      "endExclusive": 2362512,
+      "bytes": [
+        165,
+        24,
+        156,
+        119,
+        159,
+        87,
+        127,
+        54,
+        204,
+        12,
+        63,
+        22,
+        22,
+        5,
+        231,
+        73,
+        7,
+        49,
+        175,
+        38,
+        106,
+        21,
+        206,
+        69
+      ],
+      "colors": [
+        "292931",
+        "e7e7ef",
+        "ffe7ad",
+        "ff9c6b",
+        "633118",
+        "ff8c29",
+        "b54208",
+        "397b94",
+        "394263",
+        "7bad4a",
+        "525a29",
+        "73738c"
+      ],
+      "sha256": "3bd0f2c658dc3ac58c30ccfa68eb5738671b0c4bc928901f320fe09217654bef",
+      "unchangedFromCT": true,
+      "ownership": {
+        "field": 2,
+        "id": 133,
+        "table": 2370048,
+        "pointer": 3192,
+        "aliases": [
+          133
+        ],
+        "owners": [
+          {
+            "kind": "npc",
+            "id": 19,
+            "offset": 2420866,
+            "header": [
+              21,
+              11,
+              133,
+              8,
+              0
+            ],
+            "originalHeader": [
+              21,
+              11,
+              133,
+              8,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 39,
+            "offset": 2420966,
+            "header": [
+              35,
+              24,
+              133,
+              15,
+              0
+            ],
+            "originalHeader": [
+              35,
+              24,
+              133,
+              15,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 56,
+            "offset": 2421051,
+            "header": [
+              51,
+              93,
+              133,
+              62,
+              0
+            ],
+            "originalHeader": [
+              51,
+              93,
+              133,
+              62,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 79,
+            "offset": 2421166,
+            "header": [
+              125,
+              188,
+              133,
+              7,
+              0
+            ],
+            "originalHeader": [
+              125,
+              188,
+              133,
+              7,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 80,
+            "offset": 2421171,
+            "header": [
+              126,
+              7,
+              133,
+              7,
+              0
+            ],
+            "originalHeader": [
+              126,
+              7,
+              133,
+              7,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 81,
+            "offset": 2421176,
+            "header": [
+              30,
+              19,
+              133,
+              13,
+              0
+            ],
+            "originalHeader": [
+              30,
+              19,
+              133,
+              13,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 82,
+            "offset": 2421181,
+            "header": [
+              9,
+              7,
+              133,
+              7,
+              0
+            ],
+            "originalHeader": [
+              9,
+              7,
+              133,
+              7,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 83,
+            "offset": 2421186,
+            "header": [
+              10,
+              7,
+              133,
+              7,
+              0
+            ],
+            "originalHeader": [
+              10,
+              7,
+              133,
+              7,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 84,
+            "offset": 2421191,
+            "header": [
+              226,
+              11,
+              133,
+              8,
+              0
+            ],
+            "originalHeader": [
+              226,
+              11,
+              133,
+              8,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 85,
+            "offset": 2421196,
+            "header": [
+              227,
+              222,
+              133,
+              186,
+              0
+            ],
+            "originalHeader": [
+              227,
+              222,
+              133,
+              186,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 89,
+            "offset": 2421216,
+            "header": [
+              11,
+              7,
+              133,
+              7,
+              0
+            ],
+            "originalHeader": [
+              11,
+              7,
+              133,
+              7,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 102,
+            "offset": 2421281,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 109,
+            "offset": 2421316,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 145,
+            "offset": 2421496,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 157,
+            "offset": 2421556,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 189,
+            "offset": 2421716,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 190,
+            "offset": 2421721,
+            "header": [
+              43,
+              32,
+              133,
+              57,
+              0
+            ],
+            "originalHeader": [
+              43,
+              32,
+              133,
+              57,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 191,
+            "offset": 2421726,
+            "header": [
+              226,
+              11,
+              133,
+              8,
+              0
+            ],
+            "originalHeader": [
+              226,
+              11,
+              133,
+              8,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 192,
+            "offset": 2421731,
+            "header": [
+              227,
+              222,
+              133,
+              186,
+              0
+            ],
+            "originalHeader": [
+              227,
+              222,
+              133,
+              186,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 197,
+            "offset": 2421756,
+            "header": [
+              236,
+              221,
+              133,
+              185,
+              0
+            ],
+            "originalHeader": [
+              236,
+              221,
+              133,
+              185,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 198,
+            "offset": 2421761,
+            "header": [
+              22,
+              11,
+              133,
+              8,
+              0
+            ],
+            "originalHeader": [
+              22,
+              11,
+              133,
+              8,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 218,
+            "offset": 2421861,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 219,
+            "offset": 2421866,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 220,
+            "offset": 2421871,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 221,
+            "offset": 2421876,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 222,
+            "offset": 2421881,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 223,
+            "offset": 2421886,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 224,
+            "offset": 2421891,
+            "header": [
+              153,
+              146,
+              133,
+              114,
+              0
+            ],
+            "originalHeader": [
+              153,
+              146,
+              133,
+              114,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 228,
+            "offset": 2421911,
+            "header": [
+              46,
+              89,
+              133,
+              139,
+              0
+            ],
+            "originalHeader": [
+              46,
+              89,
+              133,
+              139,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 232,
+            "offset": 2421931,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 233,
+            "offset": 2421936,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 234,
+            "offset": 2421941,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 235,
+            "offset": 2421946,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 239,
+            "offset": 2421966,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 240,
+            "offset": 2421971,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 241,
+            "offset": 2421976,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 242,
+            "offset": 2421981,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 243,
+            "offset": 2421986,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 244,
+            "offset": 2421991,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 245,
+            "offset": 2421996,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 246,
+            "offset": 2422001,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 247,
+            "offset": 2422006,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          },
+          {
+            "kind": "npc",
+            "id": 248,
+            "offset": 2422011,
+            "header": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ],
+            "originalHeader": [
+              28,
+              17,
+              133,
+              11,
+              0
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "animation": {
+    "id": 15,
+    "frameSpan": {
+      "table": 2369024,
+      "start": 2380240,
+      "endExclusive": 2380400,
+      "bytes": [
+        0,
+        255,
+        0,
+        0,
+        4,
+        5,
+        6,
+        7,
+        255,
+        0,
+        0,
+        0,
+        16,
+        17,
+        255,
+        0,
+        18,
+        19,
+        255,
+        0,
+        22,
+        23,
+        255,
+        0,
+        26,
+        255,
+        0,
+        0,
+        28,
+        255,
+        0,
+        0,
+        29,
+        255,
+        0,
+        0,
+        30,
+        255,
+        0,
+        0,
+        1,
+        255,
+        0,
+        0,
+        8,
+        9,
+        10,
+        11,
+        255,
+        0,
+        0,
+        0,
+        16,
+        17,
+        255,
+        0,
+        20,
+        21,
+        255,
+        0,
+        24,
+        25,
+        255,
+        0,
+        27,
+        255,
+        0,
+        0,
+        28,
+        255,
+        0,
+        0,
+        29,
+        255,
+        0,
+        0,
+        30,
+        255,
+        0,
+        0,
+        2,
+        255,
+        0,
+        0,
+        2,
+        12,
+        2,
+        13,
+        255,
+        0,
+        0,
+        0,
+        16,
+        17,
+        255,
+        0,
+        18,
+        19,
+        255,
+        0,
+        22,
+        23,
+        255,
+        0,
+        26,
+        255,
+        0,
+        0,
+        28,
+        255,
+        0,
+        0,
+        29,
+        255,
+        0,
+        0,
+        30,
+        255,
+        0,
+        0,
+        3,
+        255,
+        0,
+        0,
+        3,
+        14,
+        3,
+        15,
+        255,
+        0,
+        0,
+        0,
+        16,
+        17,
+        255,
+        0,
+        20,
+        21,
+        255,
+        0,
+        24,
+        25,
+        255,
+        0,
+        27,
+        255,
+        0,
+        0,
+        28,
+        255,
+        0,
+        0,
+        29,
+        255,
+        0,
+        0,
+        30,
+        255,
+        0,
+        0
+      ],
+      "sha256": "c0c5e43d85f7f9c83aee4a6af0af2f0bb651d11a9414533ee1581e78b1304e55",
+      "aliases": [
+        15
+      ]
+    },
+    "durationSpan": {
+      "table": 2369536,
+      "start": 2406080,
+      "endExclusive": 2406120,
+      "bytes": [
+        5,
+        0,
+        0,
+        0,
+        15,
+        15,
+        15,
+        15,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        0,
+        0,
+        15,
+        15,
+        0,
+        0,
+        15,
+        15,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "sha256": "7ef4f9f33ed4bd9192357c92fea7e2f421e608ce9cd8b846e24ea2b95a2db8cd",
+      "aliases": [
+        15
+      ]
+    },
+    "stride": 40,
+    "programs": 36,
+    "unchanged": true
+  },
+  "spec": "assets/imagegen/town-tradesmen/draft/import-spec.draft.json",
+  "family": "assets/imagegen/town-tradesmen/family.draft.json",
+  "geometry": "assets/imagegen/town-tradesmen/geometry-proposal.json",
+  "roleMap": "assets/imagegen/town-tradesmen/native-role-map.json",
+  "costs": {
+    "status": "Inactive generated source and four-cell compile/redecode proof passed",
+    "activation": false,
+    "baseline": {
+      "path": "assets/raster/town-npc35-audit/private/baseline.sfc",
+      "sourcePath": ".local/shrek-trigger.sfc",
+      "sha256": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+      "bytes": 8388608
+    },
+    "gfx": 35,
+    "asm": 24,
+    "animation": 15,
+    "nativeFrames": 31,
+    "ownerPoseCount": 93,
+    "owners": [
+      25,
+      39,
+      52
+    ],
+    "sourceType": "Actual built-in imagegen PNG samples",
+    "rawBytes": 10112,
+    "compressedBytes": 6199,
+    "assemblyBytes": 1240,
+    "compressedPlusAssembly": 7439,
+    "graphicsSha256": "e1c2ac0fed846720b1897a9e1a39df5f02797c635ab440ba769aba048c8bcc9f",
+    "compressedSha256": "2d1d50ebaa8071344ea312e6bb7230eff0de7070f5f1306480aea6c0db9bafe6",
+    "assemblySha256": "4c5065aa61f080c5e23e1e4deb82b514be12d2da830e229d30710a3b9be35180",
+    "originalCT": {
+      "rawBytes": 3936,
+      "compressedBytes": 2802,
+      "assemblyBytes": 1240,
+      "compressedPlusAssembly": 4042
+    },
+    "pinnedActive": {
+      "rawBytes": 3936,
+      "compressedBytes": 2802,
+      "assemblyBytes": 1240,
+      "compressedPlusAssembly": 4042
+    },
+    "rawGrowthVsOriginal": 6176,
+    "rawGrowthVsPinned": 6176,
+    "compressedAssemblyGrowthVsOriginal": 3397,
+    "compressedAssemblyGrowthVsPinned": 3397,
+    "nativeSourcePixels": 12860,
+    "agreeingDuplicateSamples": 3,
+    "originalXYBytesUnchanged": 210,
+    "originalXYBytesTotal": 248,
+    "changedGeometryFrames": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      21,
+      26,
+      27,
+      28,
+      29
+    ],
+    "overlapFrames": [
+      12,
+      13,
+      14,
+      15,
+      17
+    ],
+    "palettes": [
+      {
+        "id": 9,
+        "colors": [
+          "313131",
+          "efefef",
+          "ffe7ad",
+          "ff9c6b",
+          "a54a39",
+          "f79431",
+          "8c394a",
+          "84c6de",
+          "426b7b",
+          "94a552",
+          "5a6329",
+          "7b8c9c"
+        ],
+        "sha256": "191c34f2807d3f072839d0b0e92d41cb5522a2005d5a24887053671793fc7641",
+        "unchanged": true
+      },
+      {
+        "id": 133,
+        "colors": [
+          "292931",
+          "e7e7ef",
+          "ffe7ad",
+          "ff9c6b",
+          "633118",
+          "ff8c29",
+          "b54208",
+          "397b94",
+          "394263",
+          "7bad4a",
+          "525a29",
+          "73738c"
+        ],
+        "sha256": "3bd0f2c658dc3ac58c30ccfa68eb5738671b0c4bc928901f320fe09217654bef",
+        "unchanged": true
+      }
+    ],
+    "extraVramBytes": 0,
+    "extraWramBytes": 0,
+    "proofs": [
+      {
+        "frame": 0,
+        "nativeCells": 4,
+        "sourcePixels": 466,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 1,
+        "nativeCells": 4,
+        "sourcePixels": 475,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 2,
+        "nativeCells": 4,
+        "sourcePixels": 345,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 3,
+        "nativeCells": 4,
+        "sourcePixels": 345,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 4,
+        "nativeCells": 4,
+        "sourcePixels": 452,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 5,
+        "nativeCells": 4,
+        "sourcePixels": 425,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 6,
+        "nativeCells": 4,
+        "sourcePixels": 445,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 7,
+        "nativeCells": 4,
+        "sourcePixels": 428,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 8,
+        "nativeCells": 4,
+        "sourcePixels": 439,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 9,
+        "nativeCells": 4,
+        "sourcePixels": 444,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 10,
+        "nativeCells": 4,
+        "sourcePixels": 450,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 11,
+        "nativeCells": 4,
+        "sourcePixels": 442,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 12,
+        "nativeCells": 4,
+        "sourcePixels": 419,
+        "duplicateOpaquePixels": 1,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 13,
+        "nativeCells": 4,
+        "sourcePixels": 378,
+        "duplicateOpaquePixels": 1,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 14,
+        "nativeCells": 4,
+        "sourcePixels": 419,
+        "duplicateOpaquePixels": 1,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 15,
+        "nativeCells": 4,
+        "sourcePixels": 378,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 16,
+        "nativeCells": 4,
+        "sourcePixels": 370,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 17,
+        "nativeCells": 4,
+        "sourcePixels": 395,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 18,
+        "nativeCells": 4,
+        "sourcePixels": 406,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 19,
+        "nativeCells": 4,
+        "sourcePixels": 384,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 20,
+        "nativeCells": 4,
+        "sourcePixels": 406,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 21,
+        "nativeCells": 4,
+        "sourcePixels": 384,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 22,
+        "nativeCells": 4,
+        "sourcePixels": 398,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 23,
+        "nativeCells": 4,
+        "sourcePixels": 437,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 24,
+        "nativeCells": 4,
+        "sourcePixels": 398,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 25,
+        "nativeCells": 4,
+        "sourcePixels": 437,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      },
+      {
+        "frame": 26,
+        "nativeCells": 4,
+        "sourcePixels": 353,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 27,
+        "nativeCells": 4,
+        "sourcePixels": 353,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 28,
+        "nativeCells": 4,
+        "sourcePixels": 440,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 29,
+        "nativeCells": 4,
+        "sourcePixels": 457,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": false
+      },
+      {
+        "frame": 30,
+        "nativeCells": 4,
+        "sourcePixels": 492,
+        "duplicateOpaquePixels": 0,
+        "allSourcePixelsCovered": true,
+        "originalXYUnchanged": true
+      }
+    ],
+    "scope": "Source raster→4bpp→native assembly→indexed pixel reconstruction only; no emulator uploads, scheduler, scenes or connected route claimed yet."
+  },
+  "nativeProof": {
+    "ownerFrameUploads": 93,
+    "displayedPpuPixels": 38580,
+    "sourcePixels": 12860
+  },
+  "motionProof": {
+    "nativeAaCommands": 36,
+    "frameAndTimerTicks": 8640
+  },
+  "sceneProof": {
+    "status": "Five authored scene scenarios passed; inherited parade palette regression separately diagnosed",
+    "baseline": {
+      "path": "assets/imagegen/town-tradesmen/private-qa/baseline.sfc",
+      "sourcePath": ".local/shrek-trigger.sfc",
+      "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7",
+      "bytes": 8388608,
+      "originalAuditBaseline": "5606e43282e04214c20d55f8c72713657bebebdaacaff0864f41ab9c3dd3aaf9",
+      "reason": "Root preferred current published cartridge for native proof; source/audit resources are rechecked unchanged before override."
+    },
+    "privateRomSha256": "fc9fa6cd47aabe251f9a2d5363f6409d909ea9e883bb563a55a69c07fc6d9e36",
+    "nativeTicks": 7800,
+    "scenes": [
+      {
+        "name": "smithy-hammer",
+        "location": 115,
+        "nativeTicks": 900,
+        "visibleFrames": [
+          16,
+          17
+        ],
+        "heapByLocation": [
+          {
+            "location": 2,
+            "min": 1248,
+            "max": 1248
+          },
+          {
+            "location": 115,
+            "min": 1248,
+            "max": 3648
+          }
+        ],
+        "eventSha256": "bcf6194adcf3ef428c7eed923bfe21a844516b6f6ae79a688c1ff93712e37d6d",
+        "proof": "assets/imagegen/town-tradesmen/scene-verification/smithy-hammer.json"
+      },
+      {
+        "name": "smithy-drink",
+        "location": 115,
+        "nativeTicks": 3000,
+        "visibleFrames": [
+          1,
+          14,
+          3,
+          15,
+          25,
+          24,
+          12,
+          2,
+          13,
+          10
+        ],
+        "heapByLocation": [
+          {
+            "location": 2,
+            "min": 1248,
+            "max": 1248
+          },
+          {
+            "location": 115,
+            "min": 1248,
+            "max": 3648
+          }
+        ],
+        "eventSha256": "bcf6194adcf3ef428c7eed923bfe21a844516b6f6ae79a688c1ff93712e37d6d",
+        "proof": "assets/imagegen/town-tradesmen/scene-verification/smithy-drink.json"
+      },
+      {
+        "name": "choras-inn",
+        "location": 62,
+        "nativeTicks": 1000,
+        "visibleFrames": [
+          18,
+          19
+        ],
+        "heapByLocation": [
+          {
+            "location": 2,
+            "min": 1248,
+            "max": 1248
+          },
+          {
+            "location": 62,
+            "min": 1248,
+            "max": 14464
+          }
+        ],
+        "eventSha256": "822c7051e0d9d8c5c03ac6cc11bc74c4651da7497b6866f19fdaa9efb9f20fa0",
+        "proof": "assets/imagegen/town-tradesmen/scene-verification/choras-inn.json"
+      },
+      {
+        "name": "telepod-exhibit",
+        "location": 8,
+        "nativeTicks": 1200,
+        "visibleFrames": [
+          1
+        ],
+        "heapByLocation": [
+          {
+            "location": 2,
+            "min": 1248,
+            "max": 1248
+          },
+          {
+            "location": 8,
+            "min": 1248,
+            "max": 10496
+          }
+        ],
+        "eventSha256": "7bccb9bac6271a3ced08d5f6e1352b89f640f95dbc3a89251305dae3978c4acf",
+        "proof": "assets/imagegen/town-tradesmen/scene-verification/telepod-exhibit.json"
+      },
+      {
+        "name": "hero-ending-row6",
+        "location": 38,
+        "nativeTicks": 1700,
+        "visibleFrames": [
+          30,
+          1
+        ],
+        "heapByLocation": [
+          {
+            "location": 2,
+            "min": 1248,
+            "max": 1248
+          },
+          {
+            "location": 38,
+            "min": 1248,
+            "max": 5472
+          },
+          {
+            "location": 37,
+            "min": 416,
+            "max": 416
+          },
+          {
+            "location": 60,
+            "min": 416,
+            "max": 16896
+          }
+        ],
+        "eventSha256": "02a4baa6e657b87182493ae530a007683b42f648a1217a817006d74bca057eb9",
+        "proof": "assets/imagegen/town-tradesmen/scene-verification/hero-ending-row6.json"
+      }
+    ],
+    "paradeDiagnosis": {
+      "originalSha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+      "source133Correct": [
+        {
+          "name": "original-usa",
+          "correct": true
+        },
+        {
+          "name": "af338",
+          "correct": false
+        },
+        {
+          "name": "candidate",
+          "correct": false
+        }
+      ],
+      "proof": "assets/imagegen/town-tradesmen/scene-verification/parade-palette-sharing.json",
+      "rowOwnership": "assets/imagegen/town-tradesmen/scene-verification/parade-row-ownership.json",
+      "sourceArtChanged": false,
+      "activeFixMade": false
+    },
+    "scope": "Actual native scene scripts after explicit diagnostic location/story entry; no complete chapter or ending claim. Parade source colors are explicitly not accepted."
+  },
+  "rootIntegration": [
+    "Activate the exact frozen spec through the shared importer as key town-tradesmen. Keep draft spec and frozen sources unchanged.",
+    "Register gfx35/asm24 from family.draft.json with all31 frameCellOrigins, origin[32,40], anchor[0,8] and explicit overlapFrames[12,13,14,15,17]. All three owners shareasm24; no new private assembly slot.",
+    "Select gfx35 for native size0 raw streaming. Allocate10,112 raw bytes in addition to6,199 compressed graphics and1,240 assembly. The old3,936-byte decoded allocation is too small.",
+    "Retain all three exact headers, both shared palettes9/133, animation15 frame/duration bytes and original event/role semantics. Strict raster coverage should expose31/31source slots per owner.",
+    "Run integrated native/independent owner frame and representative story/ending checks. Do not declare parade source colors correct until the inherited NPC215/NPC0 row7 regression is corrected separately."
+  ],
+  "review": {
+    "contact": "assets/imagegen/town-tradesmen/review/contact-sheet-1x.png",
+    "palette9": "assets/imagegen/town-tradesmen/review/native-palette9-6x.png",
+    "palette133": "assets/imagegen/town-tradesmen/review/native-palette133-6x.png",
+    "gait": "assets/imagegen/town-tradesmen/review/gait-contacts.png",
+    "geometry": "assets/imagegen/town-tradesmen/review/geometry-review.png",
+    "motion": "assets/imagegen/town-tradesmen/review/motion-review.html",
+    "hammer": "assets/imagegen/town-tradesmen/scene-verification/smithy-hammer-frame-17.png",
+    "seatedDrink": "assets/imagegen/town-tradesmen/scene-verification/choras-inn-frame-19.png",
+    "row6": "assets/imagegen/town-tradesmen/scene-verification/hero-ending-row6-frame-30.png"
+  },
+  "dialogueFollowup": "assets/raster/town-npc35-audit/dialogue-context.json and scene-contexts.json retain exact BAKER/TABAN location/string IDs; no dialogue changed.",
+  "dependencies": [
+    {
+      "path": "scripts/import-raster-art.mjs",
+      "sha256": "c0cb6e8292c646f4d7fb3845e411f2b3a550b385b59fc23f897e4c8ff8234ca4"
+    },
+    {
+      "path": "engine/actor-families.js",
+      "sha256": "5177a9dac0cf41d38197543c9d5284e319910d30058d2e6ea2156fd3bfea923f"
+    },
+    {
+      "path": "engine/compression.js",
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "path": "scripts/native-sprite-view.mjs",
+      "sha256": "5ad09bed2da5887837208c7ccf58dc7e9822a383b9a05dc9433031508fc404b9"
+    },
+    {
+      "path": "engine/npc-graphics-streaming.js",
+      "sha256": "0dd90dca70436ed2863c448b11e66e549b71d9e85b2ec7603312000e74d2d8c2"
+    },
+    {
+      "path": "engine/expanded-rom.js",
+      "sha256": "de8f528ce60b4488df9d7742c38e8c9af2ae58e74df641fe6fd1c605dbeedde2"
+    },
+    {
+      "path": "engine/automation.js",
+      "sha256": "8af377558a467f16747a8dbb120b8a047c2512cee9b4945ec5f657660a36fe28"
+    },
+    {
+      "path": "engine/devtools.js",
+      "sha256": "fe92b027caa015f4f327cb07b50668b2881b93c41038ab80bdfa79deff549feb"
+    },
+    {
+      "path": "tests/helpers.mjs",
+      "sha256": "4a77a84d238f495d30837a92547b46981ec7c1ee529f6805e12ec92217cc1a80"
+    }
+  ],
+  "approvals": [
+    {
+      "reviewer": "root",
+      "scope": "All31 native roles, both palettes, genuine opposed gait, flexible tradesman styling and1–3px native cell-pair translations approved."
+    },
+    {
+      "reviewer": "sprite_art_pass",
+      "scope": "Full31-role native sheets, corrected face and contacts, both ramps, actual smithy hammer16/17 and inn seated drink18/19 appearance approved. Static review is distinct from execution proof."
+    }
+  ],
+  "limitations": [
+    "The32px body supports simple eye/moustache landmarks; costume and posture carry identity.",
+    "13 native poses need root-approved1–3px cell-pair translations. Full source coverage and all three opaque duplicate samples are exact; no extra cells or actor-anchor shifts.",
+    "Original source sampling, global mirrors, and integer translations are explicit; rejected repeated gait cells and experimental material mappings are excluded.",
+    "Scene evidence is diagnostic entry into unchanged authored scripts. Table/background occlusion is preserved. Five scenarios are bounded staging/motion checks, not full services, festival routes, all25 locations, complete endings or chapters.",
+    "Parade80 has a prior NPC215 palette133→138 regression; actual original-USA comparison isolates it. Candidate art preserves palette133 but inherits incorrect row7 colors. Root owns a safe shared-row fix.",
+    "Independent cores, production allocation/streaming registration and full connected scene routes remain root-owned."
+  ]
+}

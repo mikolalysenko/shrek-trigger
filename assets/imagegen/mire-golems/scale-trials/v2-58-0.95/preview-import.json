@@ -1,0 +1,203 @@
+{
+  "key": "mire-golems",
+  "frames": 12,
+  "width": 64,
+  "height": 64,
+  "opaqueColors": 12,
+  "palette": [
+    "232b2b",
+    "443a30",
+    "705643",
+    "a37d56",
+    "cba873",
+    "263e32",
+    "49664c",
+    "86a06a",
+    "3c5056",
+    "71858a",
+    "d7ae51",
+    "f4dfae"
+  ],
+  "samplingPalette": [
+    "232b2b",
+    "443a30",
+    "705643",
+    "a37d56",
+    "cba873",
+    "263e32",
+    "49664c",
+    "86a06a",
+    "3c5056",
+    "71858a",
+    "d7ae51",
+    "f4dfae"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/mire-golems/source-movement-v2.png",
+      "sha256": "a07103815f9c5b3010167cae1654b00441b92d00b0920a6a7fba7c105e93c742",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "scale": 0.1676300578034682,
+      "chromaKey": [],
+      "sample": {
+        "method": "nearest",
+        "bottom": 63,
+        "scaleX": 0.95
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            102,
+            13,
+            189,
+            348
+          ],
+          "componentPixels": 42585
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            449,
+            19,
+            188,
+            340
+          ],
+          "componentPixels": 42117
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            804,
+            16,
+            191,
+            345
+          ],
+          "componentPixels": 42410
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1156,
+            10,
+            194,
+            348
+          ],
+          "componentPixels": 42122
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            98,
+            369,
+            191,
+            338
+          ],
+          "componentPixels": 42273
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            450,
+            370,
+            188,
+            346
+          ],
+          "componentPixels": 42180
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            812,
+            373,
+            188,
+            342
+          ],
+          "componentPixels": 39390
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            1193,
+            373,
+            150,
+            339
+          ],
+          "componentPixels": 31673
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            98,
+            728,
+            176,
+            339
+          ],
+          "componentPixels": 37767
+        },
+        {
+          "cell": 9,
+          "bounds": [
+            449,
+            727,
+            191,
+            340
+          ],
+          "componentPixels": 43181
+        },
+        {
+          "cell": 10,
+          "bounds": [
+            802,
+            728,
+            198,
+            339
+          ],
+          "componentPixels": 44852
+        },
+        {
+          "cell": 11,
+          "bounds": [
+            1194,
+            728,
+            152,
+            339
+          ],
+          "componentPixels": 31809
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        {
+          "frame": 8,
+          "flip": true
+        },
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        8
+      ]
+    }
+  }
+}

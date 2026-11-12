@@ -1,0 +1,4883 @@
+{
+  "status": "Pre-generation native ownership and resource audit",
+  "activation": false,
+  "generationStarted": false,
+  "baselineSha256": "f33843436880bf0b7988308e2d684065c8ef6c715641cfc0d3038232f1f8ca15",
+  "originalSha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9",
+  "family": "frog-guards",
+  "designReference": "docs/future-wildlife.md: small caps and tunics, webbed feet, directional tongue attacks",
+  "gfx": 98,
+  "asm": 57,
+  "frames": 26,
+  "cells": 4,
+  "actors": [
+    {
+      "key": "pond-page",
+      "name": "Pond Page",
+      "short": "Pond Page",
+      "enemy": 76,
+      "asm": 57,
+      "palette": 56,
+      "animation": 84,
+      "colors": [
+        "2d2a2d",
+        "59472e",
+        "8a7441",
+        "bca365",
+        "e2cf98",
+        "3a4547",
+        "718785",
+        "aabeb1",
+        "513d35",
+        "956f53",
+        "d7b166",
+        "fff0c6"
+      ],
+      "header": [
+        98,
+        57,
+        56,
+        84,
+        0,
+        0,
+        248,
+        8,
+        14,
+        130
+      ],
+      "fullSize": 0,
+      "cells": 4,
+      "ai": {
+        "offset": 826095,
+        "bytes": 28,
+        "sha256": "329ab2e983418f0527132f926bfcb6d163e8113a6ca5101cc53647b3b6455e8d"
+      }
+    },
+    {
+      "key": "bog-squire",
+      "name": "Bog Squire",
+      "short": "Bog Squire",
+      "enemy": 77,
+      "asm": 57,
+      "palette": 55,
+      "animation": 94,
+      "colors": [
+        "242d37",
+        "344c52",
+        "5a7a7c",
+        "91b1a2",
+        "cbdec0",
+        "3d3e56",
+        "79758c",
+        "b3b0c2",
+        "4d3b57",
+        "8a7195",
+        "d9b96a",
+        "fff0c8"
+      ],
+      "header": [
+        98,
+        57,
+        55,
+        94,
+        0,
+        0,
+        248,
+        8,
+        14,
+        17
+      ],
+      "fullSize": 0,
+      "cells": 4,
+      "ai": {
+        "offset": 826123,
+        "bytes": 22,
+        "sha256": "125208fb611b8280a97fc728c21e70b2550ca682f368ea0f1a6dca1bf63ceee3"
+      }
+    },
+    {
+      "key": "mire-squire",
+      "name": "Mire Squire",
+      "short": "Mire Squire",
+      "enemy": 78,
+      "asm": 57,
+      "palette": 55,
+      "animation": 94,
+      "colors": [
+        "242d37",
+        "344c52",
+        "5a7a7c",
+        "91b1a2",
+        "cbdec0",
+        "3d3e56",
+        "79758c",
+        "b3b0c2",
+        "4d3b57",
+        "8a7195",
+        "d9b96a",
+        "fff0c8"
+      ],
+      "header": [
+        98,
+        57,
+        55,
+        94,
+        0,
+        0,
+        248,
+        8,
+        14,
+        17
+      ],
+      "fullSize": 0,
+      "cells": 4,
+      "ai": {
+        "offset": 826145,
+        "bytes": 22,
+        "sha256": "125208fb611b8280a97fc728c21e70b2550ca682f368ea0f1a6dca1bf63ceee3"
+      }
+    },
+    {
+      "key": "frog-guard",
+      "name": "Frog Guard",
+      "short": "Frog Guard",
+      "enemy": 79,
+      "asm": 57,
+      "palette": 54,
+      "animation": 84,
+      "colors": [
+        "242c2c",
+        "2f503e",
+        "527f52",
+        "87ad70",
+        "c3d59b",
+        "3c4149",
+        "737d82",
+        "b0bbb3",
+        "5e4035",
+        "a27550",
+        "d8b966",
+        "fff0c8"
+      ],
+      "header": [
+        98,
+        57,
+        54,
+        84,
+        0,
+        0,
+        248,
+        8,
+        14,
+        17
+      ],
+      "fullSize": 0,
+      "cells": 4,
+      "ai": {
+        "offset": 826167,
+        "bytes": 22,
+        "sha256": "125208fb611b8280a97fc728c21e70b2550ca682f368ea0f1a6dca1bf63ceee3"
+      }
+    },
+    {
+      "key": "rain-squire",
+      "name": "Rain Squire",
+      "short": "Rain Squire",
+      "enemy": 145,
+      "asm": 57,
+      "palette": 55,
+      "animation": 94,
+      "colors": [
+        "242d37",
+        "344c52",
+        "5a7a7c",
+        "91b1a2",
+        "cbdec0",
+        "3d3e56",
+        "79758c",
+        "b3b0c2",
+        "4d3b57",
+        "8a7195",
+        "d9b96a",
+        "fff0c8"
+      ],
+      "header": [
+        98,
+        57,
+        55,
+        94,
+        0,
+        0,
+        248,
+        8,
+        14,
+        17
+      ],
+      "fullSize": 0,
+      "cells": 4,
+      "ai": {
+        "offset": 829285,
+        "bytes": 22,
+        "sha256": "64abcb0aca2be39d74d871377dbb47a4130f1b30848991b51bdc6da6e8e33f9e"
+      }
+    }
+  ],
+  "graphics": {
+    "original": {
+      "offset": 1466398,
+      "decodedBytes": 3488,
+      "compressedBytes": 2548,
+      "decodedSha256": "dfff76ce96f1608f636257f9b07f74e5d18c7fd91179ab72cffa6c35ec9c634c",
+      "compressedSha256": "34854a00d1d052cbd2ff2c2e2b6a2a17d981793f49066465174638b9407c4961"
+    },
+    "current": {
+      "offset": 2041348,
+      "decodedBytes": 3456,
+      "compressedBytes": 1520,
+      "decodedSha256": "4e91b205883d879bf92808166c9d05b2f4716220a3ea06ece57b9df29ee2309c",
+      "compressedSha256": "326561325d5d969692873aa82491895ccba76c8b03b53d518d1de97884916396"
+    }
+  },
+  "assembly": {
+    "bytes": 1040,
+    "originalOffset": 1915744,
+    "currentOffset": 1180672,
+    "originalSha256": "980ac339678e608469827651283ebfbb38f5ad6527d32347dc93194827b69fbc",
+    "currentSha256": "f3e526a69abfa7dc5ec062a19f5b358186806050ad90cd4ab337d46fbf131f54"
+  },
+  "ownership": [
+    {
+      "field": 0,
+      "id": 98,
+      "current": [
+        {
+          "kind": "enemy",
+          "id": 76,
+          "header": [
+            98,
+            57,
+            56,
+            84,
+            0,
+            0,
+            248,
+            8,
+            14,
+            130
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 77,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 78,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 79,
+          "header": [
+            98,
+            57,
+            54,
+            84,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 145,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        }
+      ],
+      "original": [
+        {
+          "kind": "enemy",
+          "id": 76,
+          "header": [
+            98,
+            57,
+            56,
+            84,
+            0,
+            0,
+            248,
+            8,
+            14,
+            130
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 77,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 78,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 79,
+          "header": [
+            98,
+            57,
+            54,
+            84,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 145,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 224,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            16,
+            0
+          ]
+        }
+      ],
+      "currentAliases": [
+        98
+      ],
+      "originalAliases": [
+        98
+      ]
+    },
+    {
+      "field": 1,
+      "id": 57,
+      "current": [
+        {
+          "kind": "enemy",
+          "id": 76,
+          "header": [
+            98,
+            57,
+            56,
+            84,
+            0,
+            0,
+            248,
+            8,
+            14,
+            130
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 77,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 78,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 79,
+          "header": [
+            98,
+            57,
+            54,
+            84,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 145,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        }
+      ],
+      "original": [
+        {
+          "kind": "enemy",
+          "id": 76,
+          "header": [
+            98,
+            57,
+            56,
+            84,
+            0,
+            0,
+            248,
+            8,
+            14,
+            130
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 77,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 78,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 79,
+          "header": [
+            98,
+            57,
+            54,
+            84,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 145,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 224,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            16,
+            0
+          ]
+        }
+      ],
+      "currentAliases": [
+        57
+      ],
+      "originalAliases": [
+        57
+      ]
+    }
+  ],
+  "palettes": [
+    {
+      "id": 54,
+      "current": {
+        "offset": 2360592,
+        "sha256": "c35b31b81cd760b82189362f59b06e6ec62365a9b45873879840d782b1356eae",
+        "words": [
+          5284,
+          7493,
+          10730,
+          15024,
+          20312,
+          9479,
+          16878,
+          23286,
+          6411,
+          10708,
+          13051,
+          26591
+        ],
+        "owners": [
+          {
+            "kind": "enemy",
+            "id": 79,
+            "header": [
+              98,
+              57,
+              54,
+              84,
+              0,
+              0,
+              248,
+              8,
+              14,
+              17
+            ]
+          }
+        ],
+        "aliases": [
+          54
+        ]
+      },
+      "original": {
+        "offset": 2360592,
+        "sha256": "96b0603fd28bdf0d4a12bfc7b06de98287ff0e26c55f94a9150d7098e8bd98b9",
+        "words": [
+          2213,
+          32767,
+          24543,
+          24349,
+          25311,
+          17079,
+          16798,
+          13978,
+          5556,
+          9493,
+          4504,
+          5351
+        ],
+        "owners": [
+          {
+            "kind": "enemy",
+            "id": 79,
+            "header": [
+              98,
+              57,
+              54,
+              84,
+              0,
+              0,
+              248,
+              8,
+              14,
+              17
+            ]
+          }
+        ],
+        "aliases": [
+          54
+        ]
+      },
+      "writeProposed": false
+    },
+    {
+      "id": 55,
+      "current": {
+        "offset": 2360616,
+        "sha256": "9fb85854dbf82b9d933a2fbf8ac01e0cecb927c609af7908858c455914eda27e",
+        "words": [
+          6308,
+          10534,
+          15851,
+          21202,
+          25465,
+          10471,
+          17871,
+          25302,
+          10473,
+          18897,
+          14075,
+          26591
+        ],
+        "owners": [
+          {
+            "kind": "enemy",
+            "id": 77,
+            "header": [
+              98,
+              57,
+              55,
+              94,
+              0,
+              0,
+              248,
+              8,
+              14,
+              17
+            ]
+          },
+          {
+            "kind": "enemy",
+            "id": 78,
+            "header": [
+              98,
+              57,
+              55,
+              94,
+              0,
+              0,
+              248,
+              8,
+              14,
+              17
+            ]
+          },
+          {
+            "kind": "enemy",
+            "id": 145,
+            "header": [
+              98,
+              57,
+              55,
+              94,
+              0,
+              0,
+              248,
+              8,
+              14,
+              17
+            ]
+          }
+        ],
+        "aliases": [
+          55
+        ]
+      },
+      "original": {
+        "offset": 2360616,
+        "sha256": "fe7ec5c9ec7fc0887236481a0656cfe068478f6f2acd7bf974434d29a04cf6a2",
+        "words": [
+          2213,
+          32767,
+          31577,
+          16376,
+          25311,
+          28371,
+          16798,
+          817,
+          555,
+          9493,
+          4485,
+          5351
+        ],
+        "owners": [
+          {
+            "kind": "enemy",
+            "id": 77,
+            "header": [
+              98,
+              57,
+              55,
+              94,
+              0,
+              0,
+              248,
+              8,
+              14,
+              17
+            ]
+          },
+          {
+            "kind": "enemy",
+            "id": 78,
+            "header": [
+              98,
+              57,
+              55,
+              94,
+              0,
+              0,
+              248,
+              8,
+              14,
+              17
+            ]
+          },
+          {
+            "kind": "enemy",
+            "id": 145,
+            "header": [
+              98,
+              57,
+              55,
+              94,
+              0,
+              0,
+              248,
+              8,
+              14,
+              17
+            ]
+          },
+          {
+            "kind": "enemy",
+            "id": 224,
+            "header": [
+              98,
+              57,
+              55,
+              94,
+              0,
+              0,
+              248,
+              8,
+              16,
+              0
+            ]
+          }
+        ],
+        "aliases": [
+          55
+        ]
+      },
+      "writeProposed": false
+    },
+    {
+      "id": 56,
+      "current": {
+        "offset": 2360640,
+        "sha256": "422b5984df87ac65be3646748053c73519052b91dc2b2a76c890abbbdb037ffd",
+        "words": [
+          5285,
+          5387,
+          8657,
+          12951,
+          20284,
+          8455,
+          16910,
+          23285,
+          6378,
+          10674,
+          13018,
+          25567
+        ],
+        "owners": [
+          {
+            "kind": "enemy",
+            "id": 76,
+            "header": [
+              98,
+              57,
+              56,
+              84,
+              0,
+              0,
+              248,
+              8,
+              14,
+              130
+            ]
+          }
+        ],
+        "aliases": [
+          56
+        ]
+      },
+      "original": {
+        "offset": 2360640,
+        "sha256": "623b4fb284cae76fd022dbe239ae756c2c6891a6956af3f306a62e6a8a743158",
+        "words": [
+          2213,
+          32767,
+          31577,
+          25375,
+          18421,
+          28371,
+          27181,
+          15866,
+          8498,
+          28076,
+          3180,
+          5351
+        ],
+        "owners": [
+          {
+            "kind": "enemy",
+            "id": 76,
+            "header": [
+              98,
+              57,
+              56,
+              84,
+              0,
+              0,
+              248,
+              8,
+              14,
+              130
+            ]
+          }
+        ],
+        "aliases": [
+          56
+        ]
+      },
+      "writeProposed": false
+    }
+  ],
+  "animations": [
+    {
+      "id": 84,
+      "frameOffset": 2388192,
+      "frameBytes": 144,
+      "frameSha256": "921be1d095e721e16212f1dade9d09ba403bccdc64cc510cf01675686f48556a",
+      "durationOffset": 2408081,
+      "durationBytes": 36,
+      "durationSha256": "8e574f7b7014adefee6aedb686434b929e056e84d5d314d00ca5941c00bee651",
+      "lists": [
+        {
+          "facing": 0,
+          "action": 0,
+          "steps": [
+            {
+              "frame": 15,
+              "duration": 31
+            },
+            {
+              "frame": 4,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 0,
+          "action": 1,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 31
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 31
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 0,
+          "action": 2,
+          "steps": []
+        },
+        {
+          "facing": 0,
+          "action": 3,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 31
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 31
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 0,
+          "action": 4,
+          "steps": []
+        },
+        {
+          "facing": 0,
+          "action": 5,
+          "steps": [
+            {
+              "frame": 12,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 0,
+          "action": 6,
+          "steps": [
+            {
+              "frame": 16,
+              "duration": 31
+            },
+            {
+              "frame": 17,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 0,
+          "action": 7,
+          "steps": [
+            {
+              "frame": 14,
+              "duration": 31
+            },
+            {
+              "frame": 15,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 0,
+          "action": 8,
+          "steps": [
+            {
+              "frame": 18,
+              "duration": 31
+            },
+            {
+              "frame": 19,
+              "duration": 10
+            },
+            {
+              "frame": 18,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 0,
+          "steps": [
+            {
+              "frame": 15,
+              "duration": 31
+            },
+            {
+              "frame": 4,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 1,
+          "steps": [
+            {
+              "frame": 3,
+              "duration": 31
+            },
+            {
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "frame": 5,
+              "duration": 31
+            },
+            {
+              "frame": 4,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 2,
+          "steps": []
+        },
+        {
+          "facing": 1,
+          "action": 3,
+          "steps": [
+            {
+              "frame": 3,
+              "duration": 31
+            },
+            {
+              "frame": 4,
+              "duration": 10
+            },
+            {
+              "frame": 5,
+              "duration": 31
+            },
+            {
+              "frame": 4,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 4,
+          "steps": []
+        },
+        {
+          "facing": 1,
+          "action": 5,
+          "steps": [
+            {
+              "frame": 12,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 6,
+          "steps": [
+            {
+              "frame": 16,
+              "duration": 31
+            },
+            {
+              "frame": 17,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 7,
+          "steps": [
+            {
+              "frame": 14,
+              "duration": 31
+            },
+            {
+              "frame": 15,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 8,
+          "steps": [
+            {
+              "frame": 20,
+              "duration": 31
+            },
+            {
+              "frame": 21,
+              "duration": 10
+            },
+            {
+              "frame": 20,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 0,
+          "steps": [
+            {
+              "frame": 15,
+              "duration": 31
+            },
+            {
+              "frame": 4,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 1,
+          "steps": [
+            {
+              "frame": 6,
+              "duration": 31
+            },
+            {
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "frame": 8,
+              "duration": 31
+            },
+            {
+              "frame": 7,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 2,
+          "steps": []
+        },
+        {
+          "facing": 2,
+          "action": 3,
+          "steps": [
+            {
+              "frame": 6,
+              "duration": 31
+            },
+            {
+              "frame": 7,
+              "duration": 10
+            },
+            {
+              "frame": 8,
+              "duration": 31
+            },
+            {
+              "frame": 7,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 4,
+          "steps": []
+        },
+        {
+          "facing": 2,
+          "action": 5,
+          "steps": [
+            {
+              "frame": 12,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 6,
+          "steps": [
+            {
+              "frame": 16,
+              "duration": 31
+            },
+            {
+              "frame": 17,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 7,
+          "steps": [
+            {
+              "frame": 14,
+              "duration": 31
+            },
+            {
+              "frame": 15,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 8,
+          "steps": [
+            {
+              "frame": 22,
+              "duration": 31
+            },
+            {
+              "frame": 23,
+              "duration": 10
+            },
+            {
+              "frame": 22,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 0,
+          "steps": [
+            {
+              "frame": 15,
+              "duration": 31
+            },
+            {
+              "frame": 4,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 1,
+          "steps": [
+            {
+              "frame": 9,
+              "duration": 31
+            },
+            {
+              "frame": 10,
+              "duration": 10
+            },
+            {
+              "frame": 11,
+              "duration": 31
+            },
+            {
+              "frame": 10,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 2,
+          "steps": []
+        },
+        {
+          "facing": 3,
+          "action": 3,
+          "steps": [
+            {
+              "frame": 9,
+              "duration": 31
+            },
+            {
+              "frame": 10,
+              "duration": 10
+            },
+            {
+              "frame": 11,
+              "duration": 31
+            },
+            {
+              "frame": 10,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 4,
+          "steps": []
+        },
+        {
+          "facing": 3,
+          "action": 5,
+          "steps": [
+            {
+              "frame": 12,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 6,
+          "steps": [
+            {
+              "frame": 16,
+              "duration": 31
+            },
+            {
+              "frame": 17,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 7,
+          "steps": [
+            {
+              "frame": 14,
+              "duration": 31
+            },
+            {
+              "frame": 15,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 8,
+          "steps": [
+            {
+              "frame": 24,
+              "duration": 31
+            },
+            {
+              "frame": 25,
+              "duration": 10
+            },
+            {
+              "frame": 24,
+              "duration": 31
+            }
+          ]
+        }
+      ],
+      "currentOwners": [
+        {
+          "kind": "enemy",
+          "id": 76,
+          "header": [
+            98,
+            57,
+            56,
+            84,
+            0,
+            0,
+            248,
+            8,
+            14,
+            130
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 79,
+          "header": [
+            98,
+            57,
+            54,
+            84,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        }
+      ],
+      "originalOwners": [
+        {
+          "kind": "enemy",
+          "id": 76,
+          "header": [
+            98,
+            57,
+            56,
+            84,
+            0,
+            0,
+            248,
+            8,
+            14,
+            130
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 79,
+          "header": [
+            98,
+            57,
+            54,
+            84,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "frameOffset": 2389568,
+      "frameBytes": 144,
+      "frameSha256": "d54a509994b0ffdf308cb5d9e8480f8b2a48d556387d6272525973b1d4ffd346",
+      "durationOffset": 2408423,
+      "durationBytes": 36,
+      "durationSha256": "9b4120a3bc176c9e29d1d143389fc261bae960f4fb3b8145358d1555f889c7df",
+      "lists": [
+        {
+          "facing": 0,
+          "action": 0,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "frame": 1,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 0,
+          "action": 1,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "frame": 1,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 0,
+          "action": 2,
+          "steps": []
+        },
+        {
+          "facing": 0,
+          "action": 3,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 15
+            },
+            {
+              "frame": 1,
+              "duration": 5
+            },
+            {
+              "frame": 2,
+              "duration": 15
+            },
+            {
+              "frame": 1,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 0,
+          "action": 4,
+          "steps": []
+        },
+        {
+          "facing": 0,
+          "action": 5,
+          "steps": [
+            {
+              "frame": 12,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 0,
+          "action": 6,
+          "steps": [
+            {
+              "frame": 13,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 0,
+          "action": 7,
+          "steps": [
+            {
+              "frame": 13,
+              "duration": 5
+            },
+            {
+              "frame": 14,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 0,
+          "action": 8,
+          "steps": [
+            {
+              "frame": 18,
+              "duration": 31
+            },
+            {
+              "frame": 19,
+              "duration": 10
+            },
+            {
+              "frame": 18,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 0,
+          "steps": [
+            {
+              "frame": 3,
+              "duration": 15
+            },
+            {
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "frame": 5,
+              "duration": 15
+            },
+            {
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "frame": 3,
+              "duration": 15
+            },
+            {
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "frame": 5,
+              "duration": 15
+            },
+            {
+              "frame": 4,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 1,
+          "steps": [
+            {
+              "frame": 3,
+              "duration": 15
+            },
+            {
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "frame": 5,
+              "duration": 15
+            },
+            {
+              "frame": 4,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 2,
+          "steps": []
+        },
+        {
+          "facing": 1,
+          "action": 3,
+          "steps": [
+            {
+              "frame": 3,
+              "duration": 15
+            },
+            {
+              "frame": 4,
+              "duration": 5
+            },
+            {
+              "frame": 5,
+              "duration": 15
+            },
+            {
+              "frame": 4,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 4,
+          "steps": []
+        },
+        {
+          "facing": 1,
+          "action": 5,
+          "steps": [
+            {
+              "frame": 12,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 6,
+          "steps": [
+            {
+              "frame": 14,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 7,
+          "steps": [
+            {
+              "frame": 13,
+              "duration": 5
+            },
+            {
+              "frame": 14,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 1,
+          "action": 8,
+          "steps": [
+            {
+              "frame": 20,
+              "duration": 31
+            },
+            {
+              "frame": 21,
+              "duration": 10
+            },
+            {
+              "frame": 20,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 0,
+          "steps": [
+            {
+              "frame": 6,
+              "duration": 15
+            },
+            {
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "frame": 8,
+              "duration": 15
+            },
+            {
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "frame": 6,
+              "duration": 15
+            },
+            {
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "frame": 8,
+              "duration": 15
+            },
+            {
+              "frame": 7,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 1,
+          "steps": [
+            {
+              "frame": 6,
+              "duration": 15
+            },
+            {
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "frame": 8,
+              "duration": 15
+            },
+            {
+              "frame": 7,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 2,
+          "steps": []
+        },
+        {
+          "facing": 2,
+          "action": 3,
+          "steps": [
+            {
+              "frame": 6,
+              "duration": 15
+            },
+            {
+              "frame": 7,
+              "duration": 5
+            },
+            {
+              "frame": 8,
+              "duration": 15
+            },
+            {
+              "frame": 7,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 4,
+          "steps": []
+        },
+        {
+          "facing": 2,
+          "action": 5,
+          "steps": [
+            {
+              "frame": 12,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 6,
+          "steps": [
+            {
+              "frame": 13,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 7,
+          "steps": [
+            {
+              "frame": 13,
+              "duration": 5
+            },
+            {
+              "frame": 14,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 2,
+          "action": 8,
+          "steps": [
+            {
+              "frame": 22,
+              "duration": 31
+            },
+            {
+              "frame": 23,
+              "duration": 10
+            },
+            {
+              "frame": 22,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 0,
+          "steps": [
+            {
+              "frame": 9,
+              "duration": 15
+            },
+            {
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "frame": 11,
+              "duration": 15
+            },
+            {
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "frame": 9,
+              "duration": 15
+            },
+            {
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "frame": 11,
+              "duration": 15
+            },
+            {
+              "frame": 10,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 1,
+          "steps": [
+            {
+              "frame": 9,
+              "duration": 15
+            },
+            {
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "frame": 11,
+              "duration": 15
+            },
+            {
+              "frame": 10,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 2,
+          "steps": []
+        },
+        {
+          "facing": 3,
+          "action": 3,
+          "steps": [
+            {
+              "frame": 9,
+              "duration": 15
+            },
+            {
+              "frame": 10,
+              "duration": 5
+            },
+            {
+              "frame": 11,
+              "duration": 15
+            },
+            {
+              "frame": 10,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 4,
+          "steps": []
+        },
+        {
+          "facing": 3,
+          "action": 5,
+          "steps": [
+            {
+              "frame": 12,
+              "duration": 31
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 6,
+          "steps": [
+            {
+              "frame": 14,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 7,
+          "steps": [
+            {
+              "frame": 13,
+              "duration": 5
+            },
+            {
+              "frame": 14,
+              "duration": 10
+            }
+          ]
+        },
+        {
+          "facing": 3,
+          "action": 8,
+          "steps": [
+            {
+              "frame": 24,
+              "duration": 31
+            },
+            {
+              "frame": 25,
+              "duration": 10
+            },
+            {
+              "frame": 24,
+              "duration": 31
+            }
+          ]
+        }
+      ],
+      "currentOwners": [
+        {
+          "kind": "enemy",
+          "id": 77,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 78,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 145,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 224,
+          "header": [
+            252,
+            232,
+            7,
+            94,
+            0,
+            0,
+            248,
+            8,
+            16,
+            0
+          ]
+        }
+      ],
+      "originalOwners": [
+        {
+          "kind": "enemy",
+          "id": 77,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 78,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 145,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            14,
+            17
+          ]
+        },
+        {
+          "kind": "enemy",
+          "id": 224,
+          "header": [
+            98,
+            57,
+            55,
+            94,
+            0,
+            0,
+            248,
+            8,
+            16,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "originalFrames": [
+    {
+      "frame": 0,
+      "cellOrigins": [
+        [
+          2,
+          -28
+        ],
+        [
+          -14,
+          -28
+        ],
+        [
+          2,
+          -12
+        ],
+        [
+          -14,
+          -12
+        ]
+      ],
+      "opaquePixels": 284,
+      "bounds": [
+        -6,
+        -18,
+        22,
+        21
+      ]
+    },
+    {
+      "frame": 1,
+      "cellOrigins": [
+        [
+          0,
+          -27
+        ],
+        [
+          -15,
+          -27
+        ],
+        [
+          0,
+          -11
+        ],
+        [
+          -15,
+          -11
+        ]
+      ],
+      "opaquePixels": 346,
+      "bounds": [
+        -11,
+        -24,
+        23,
+        27
+      ]
+    },
+    {
+      "frame": 2,
+      "cellOrigins": [
+        [
+          -1,
+          -28
+        ],
+        [
+          -17,
+          -28
+        ],
+        [
+          -1,
+          -12
+        ],
+        [
+          -17,
+          -12
+        ]
+      ],
+      "opaquePixels": 284,
+      "bounds": [
+        -15,
+        -18,
+        22,
+        21
+      ]
+    },
+    {
+      "frame": 3,
+      "cellOrigins": [
+        [
+          1,
+          -28
+        ],
+        [
+          -15,
+          -28
+        ],
+        [
+          1,
+          -12
+        ],
+        [
+          -15,
+          -12
+        ]
+      ],
+      "opaquePixels": 293,
+      "bounds": [
+        -5,
+        -18,
+        22,
+        21
+      ]
+    },
+    {
+      "frame": 4,
+      "cellOrigins": [
+        [
+          0,
+          -27
+        ],
+        [
+          -15,
+          -27
+        ],
+        [
+          0,
+          -11
+        ],
+        [
+          -15,
+          -11
+        ]
+      ],
+      "opaquePixels": 350,
+      "bounds": [
+        -11,
+        -24,
+        23,
+        27
+      ]
+    },
+    {
+      "frame": 5,
+      "cellOrigins": [
+        [
+          0,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ]
+      ],
+      "opaquePixels": 293,
+      "bounds": [
+        -16,
+        -18,
+        22,
+        21
+      ]
+    },
+    {
+      "frame": 6,
+      "cellOrigins": [
+        [
+          0,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ]
+      ],
+      "opaquePixels": 211,
+      "bounds": [
+        -6,
+        -19,
+        13,
+        22
+      ]
+    },
+    {
+      "frame": 7,
+      "cellOrigins": [
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "opaquePixels": 210,
+      "bounds": [
+        -6,
+        -24,
+        13,
+        24
+      ]
+    },
+    {
+      "frame": 8,
+      "cellOrigins": [
+        [
+          1,
+          -28
+        ],
+        [
+          -15,
+          -28
+        ],
+        [
+          1,
+          -12
+        ],
+        [
+          -15,
+          -12
+        ]
+      ],
+      "opaquePixels": 211,
+      "bounds": [
+        -7,
+        -20,
+        14,
+        20
+      ]
+    },
+    {
+      "frame": 9,
+      "cellOrigins": [
+        [
+          1,
+          -28
+        ],
+        [
+          -15,
+          -28
+        ],
+        [
+          1,
+          -12
+        ],
+        [
+          -15,
+          -12
+        ]
+      ],
+      "opaquePixels": 211,
+      "bounds": [
+        -6,
+        -19,
+        13,
+        22
+      ]
+    },
+    {
+      "frame": 10,
+      "cellOrigins": [
+        [
+          1,
+          -32
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          1,
+          -16
+        ],
+        [
+          -15,
+          -16
+        ]
+      ],
+      "opaquePixels": 210,
+      "bounds": [
+        -6,
+        -24,
+        13,
+        24
+      ]
+    },
+    {
+      "frame": 11,
+      "cellOrigins": [
+        [
+          0,
+          -28
+        ],
+        [
+          -16,
+          -28
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          -16,
+          -12
+        ]
+      ],
+      "opaquePixels": 211,
+      "bounds": [
+        -6,
+        -20,
+        14,
+        20
+      ]
+    },
+    {
+      "frame": 12,
+      "cellOrigins": [
+        [
+          1,
+          -31
+        ],
+        [
+          -15,
+          -31
+        ],
+        [
+          1,
+          -15
+        ],
+        [
+          -15,
+          -15
+        ]
+      ],
+      "opaquePixels": 253,
+      "bounds": [
+        -7,
+        -23,
+        16,
+        24
+      ]
+    },
+    {
+      "frame": 13,
+      "cellOrigins": [
+        [
+          0,
+          -28
+        ],
+        [
+          -15,
+          -28
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          -15,
+          -12
+        ]
+      ],
+      "opaquePixels": 298,
+      "bounds": [
+        -12,
+        -18,
+        25,
+        20
+      ]
+    },
+    {
+      "frame": 14,
+      "cellOrigins": [
+        [
+          0,
+          -28
+        ],
+        [
+          -15,
+          -28
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          -15,
+          -12
+        ]
+      ],
+      "opaquePixels": 298,
+      "bounds": [
+        -12,
+        -18,
+        25,
+        20
+      ]
+    },
+    {
+      "frame": 15,
+      "cellOrigins": [
+        [
+          0,
+          -28
+        ],
+        [
+          -15,
+          -28
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          -15,
+          -12
+        ]
+      ],
+      "opaquePixels": 280,
+      "bounds": [
+        -11,
+        -18,
+        23,
+        20
+      ]
+    },
+    {
+      "frame": 16,
+      "cellOrigins": [
+        [
+          0,
+          -30
+        ],
+        [
+          -15,
+          -30
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          -15,
+          -14
+        ]
+      ],
+      "opaquePixels": 368,
+      "bounds": [
+        -11,
+        -20,
+        23,
+        22
+      ]
+    },
+    {
+      "frame": 17,
+      "cellOrigins": [
+        [
+          0,
+          -30
+        ],
+        [
+          -15,
+          -30
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          -15,
+          -14
+        ]
+      ],
+      "opaquePixels": 464,
+      "bounds": [
+        -13,
+        -22,
+        27,
+        24
+      ]
+    },
+    {
+      "frame": 18,
+      "cellOrigins": [
+        [
+          0,
+          -29
+        ],
+        [
+          -15,
+          -29
+        ],
+        [
+          0,
+          -13
+        ],
+        [
+          -15,
+          -13
+        ]
+      ],
+      "opaquePixels": 352,
+      "bounds": [
+        -13,
+        -21,
+        27,
+        24
+      ]
+    },
+    {
+      "frame": 19,
+      "cellOrigins": [
+        [
+          0,
+          -34
+        ],
+        [
+          -15,
+          -34
+        ],
+        [
+          0,
+          -18
+        ],
+        [
+          -15,
+          -18
+        ]
+      ],
+      "opaquePixels": 360,
+      "bounds": [
+        -10,
+        -34,
+        21,
+        32
+      ]
+    },
+    {
+      "frame": 20,
+      "cellOrigins": [
+        [
+          0,
+          -30
+        ],
+        [
+          -15,
+          -30
+        ],
+        [
+          0,
+          -14
+        ],
+        [
+          -15,
+          -14
+        ]
+      ],
+      "opaquePixels": 312,
+      "bounds": [
+        -12,
+        -23,
+        25,
+        23
+      ]
+    },
+    {
+      "frame": 21,
+      "cellOrigins": [
+        [
+          -7,
+          -2
+        ],
+        [
+          -7,
+          14
+        ],
+        [
+          0,
+          -18
+        ],
+        [
+          -15,
+          -18
+        ]
+      ],
+      "opaquePixels": 374,
+      "bounds": [
+        -11,
+        -18,
+        23,
+        40
+      ]
+    },
+    {
+      "frame": 22,
+      "cellOrigins": [
+        [
+          3,
+          -28
+        ],
+        [
+          -13,
+          -28
+        ],
+        [
+          3,
+          -12
+        ],
+        [
+          -13,
+          -12
+        ]
+      ],
+      "opaquePixels": 214,
+      "bounds": [
+        -5,
+        -17,
+        14,
+        20
+      ]
+    },
+    {
+      "frame": 23,
+      "cellOrigins": [
+        [
+          1,
+          -29
+        ],
+        [
+          -15,
+          -29
+        ],
+        [
+          1,
+          -13
+        ],
+        [
+          -15,
+          -13
+        ]
+      ],
+      "opaquePixels": 348,
+      "bounds": [
+        -15,
+        -17,
+        24,
+        20
+      ]
+    },
+    {
+      "frame": 24,
+      "cellOrigins": [
+        [
+          -2,
+          -28
+        ],
+        [
+          -18,
+          -28
+        ],
+        [
+          -2,
+          -12
+        ],
+        [
+          -18,
+          -12
+        ]
+      ],
+      "opaquePixels": 214,
+      "bounds": [
+        -8,
+        -17,
+        14,
+        20
+      ]
+    },
+    {
+      "frame": 25,
+      "cellOrigins": [
+        [
+          0,
+          -29
+        ],
+        [
+          -16,
+          -29
+        ],
+        [
+          0,
+          -13
+        ],
+        [
+          -16,
+          -13
+        ]
+      ],
+      "opaquePixels": 348,
+      "bounds": [
+        -8,
+        -17,
+        24,
+        20
+      ]
+    }
+  ],
+  "earlierArtFrames": [
+    {
+      "frame": 0,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 589,
+      "bounds": [
+        -13,
+        -30,
+        28,
+        30
+      ]
+    },
+    {
+      "frame": 1,
+      "cellOrigins": [
+        [
+          -16,
+          -33
+        ],
+        [
+          0,
+          -33
+        ],
+        [
+          -16,
+          -17
+        ],
+        [
+          0,
+          -17
+        ]
+      ],
+      "opaquePixels": 595,
+      "bounds": [
+        -13,
+        -31,
+        28,
+        30
+      ]
+    },
+    {
+      "frame": 2,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 591,
+      "bounds": [
+        -13,
+        -30,
+        28,
+        30
+      ]
+    },
+    {
+      "frame": 3,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 589,
+      "bounds": [
+        -13,
+        -30,
+        28,
+        30
+      ]
+    },
+    {
+      "frame": 4,
+      "cellOrigins": [
+        [
+          -16,
+          -33
+        ],
+        [
+          0,
+          -33
+        ],
+        [
+          -16,
+          -17
+        ],
+        [
+          0,
+          -17
+        ]
+      ],
+      "opaquePixels": 595,
+      "bounds": [
+        -13,
+        -31,
+        28,
+        30
+      ]
+    },
+    {
+      "frame": 5,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 591,
+      "bounds": [
+        -13,
+        -30,
+        28,
+        30
+      ]
+    },
+    {
+      "frame": 6,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 492,
+      "bounds": [
+        -12,
+        -28,
+        26,
+        28
+      ]
+    },
+    {
+      "frame": 7,
+      "cellOrigins": [
+        [
+          -16,
+          -33
+        ],
+        [
+          0,
+          -33
+        ],
+        [
+          -16,
+          -17
+        ],
+        [
+          0,
+          -17
+        ]
+      ],
+      "opaquePixels": 492,
+      "bounds": [
+        -12,
+        -29,
+        26,
+        28
+      ]
+    },
+    {
+      "frame": 8,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 478,
+      "bounds": [
+        -12,
+        -28,
+        26,
+        28
+      ]
+    },
+    {
+      "frame": 9,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 492,
+      "bounds": [
+        -14,
+        -28,
+        26,
+        28
+      ]
+    },
+    {
+      "frame": 10,
+      "cellOrigins": [
+        [
+          -16,
+          -33
+        ],
+        [
+          0,
+          -33
+        ],
+        [
+          -16,
+          -17
+        ],
+        [
+          0,
+          -17
+        ]
+      ],
+      "opaquePixels": 492,
+      "bounds": [
+        -14,
+        -29,
+        26,
+        28
+      ]
+    },
+    {
+      "frame": 11,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 478,
+      "bounds": [
+        -14,
+        -28,
+        26,
+        28
+      ]
+    },
+    {
+      "frame": 12,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 595,
+      "bounds": [
+        -13,
+        -30,
+        28,
+        30
+      ]
+    },
+    {
+      "frame": 13,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 510,
+      "bounds": [
+        -13,
+        -26,
+        28,
+        26
+      ]
+    },
+    {
+      "frame": 14,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 510,
+      "bounds": [
+        -13,
+        -26,
+        28,
+        26
+      ]
+    },
+    {
+      "frame": 15,
+      "cellOrigins": [
+        [
+          -16,
+          -40
+        ],
+        [
+          0,
+          -40
+        ],
+        [
+          -16,
+          -24
+        ],
+        [
+          0,
+          -24
+        ]
+      ],
+      "opaquePixels": 563,
+      "bounds": [
+        -15,
+        -34,
+        31,
+        26
+      ]
+    },
+    {
+      "frame": 16,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 605,
+      "bounds": [
+        -13,
+        -30,
+        28,
+        30
+      ]
+    },
+    {
+      "frame": 17,
+      "cellOrigins": [
+        [
+          -16,
+          -33
+        ],
+        [
+          0,
+          -33
+        ],
+        [
+          -16,
+          -17
+        ],
+        [
+          0,
+          -17
+        ]
+      ],
+      "opaquePixels": 605,
+      "bounds": [
+        -13,
+        -31,
+        28,
+        30
+      ]
+    },
+    {
+      "frame": 18,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 615,
+      "bounds": [
+        -13,
+        -30,
+        28,
+        30
+      ]
+    },
+    {
+      "frame": 19,
+      "cellOrigins": [
+        [
+          -16,
+          -34
+        ],
+        [
+          0,
+          -34
+        ],
+        [
+          -16,
+          -18
+        ],
+        [
+          0,
+          -18
+        ]
+      ],
+      "opaquePixels": 626,
+      "bounds": [
+        -13,
+        -34,
+        28,
+        32
+      ]
+    },
+    {
+      "frame": 20,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 615,
+      "bounds": [
+        -13,
+        -30,
+        28,
+        30
+      ]
+    },
+    {
+      "frame": 21,
+      "cellOrigins": [
+        [
+          -16,
+          -30
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          -16,
+          -14
+        ],
+        [
+          0,
+          -14
+        ]
+      ],
+      "opaquePixels": 623,
+      "bounds": [
+        -13,
+        -28,
+        28,
+        30
+      ]
+    },
+    {
+      "frame": 22,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 505,
+      "bounds": [
+        -12,
+        -28,
+        26,
+        28
+      ]
+    },
+    {
+      "frame": 23,
+      "cellOrigins": [
+        [
+          -18,
+          -32
+        ],
+        [
+          -2,
+          -32
+        ],
+        [
+          -18,
+          -16
+        ],
+        [
+          -2,
+          -16
+        ]
+      ],
+      "opaquePixels": 523,
+      "bounds": [
+        -18,
+        -28,
+        30,
+        28
+      ]
+    },
+    {
+      "frame": 24,
+      "cellOrigins": [
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -16
+        ]
+      ],
+      "opaquePixels": 505,
+      "bounds": [
+        -14,
+        -28,
+        26,
+        28
+      ]
+    },
+    {
+      "frame": 25,
+      "cellOrigins": [
+        [
+          -14,
+          -32
+        ],
+        [
+          2,
+          -32
+        ],
+        [
+          -14,
+          -16
+        ],
+        [
+          2,
+          -16
+        ]
+      ],
+      "opaquePixels": 523,
+      "bounds": [
+        -12,
+        -28,
+        30,
+        28
+      ]
+    }
+  ],
+  "originalSceneLoads": [
+    {
+      "location": 94,
+      "loads": [
+        {
+          "offset": 1108,
+          "opcode": 131,
+          "args": [
+            79,
+            8
+          ]
+        },
+        {
+          "offset": 1120,
+          "opcode": 131,
+          "args": [
+            79,
+            9
+          ]
+        }
+      ],
+      "allActorLoads": [
+        {
+          "offset": 1053,
+          "opcode": 130,
+          "args": [
+            177
+          ]
+        },
+        {
+          "offset": 1064,
+          "opcode": 130,
+          "args": [
+            9
+          ]
+        },
+        {
+          "offset": 1075,
+          "opcode": 130,
+          "args": [
+            10
+          ]
+        },
+        {
+          "offset": 1086,
+          "opcode": 130,
+          "args": [
+            174
+          ]
+        },
+        {
+          "offset": 1097,
+          "opcode": 130,
+          "args": [
+            162
+          ]
+        },
+        {
+          "offset": 1108,
+          "opcode": 131,
+          "args": [
+            79,
+            8
+          ]
+        },
+        {
+          "offset": 1120,
+          "opcode": 131,
+          "args": [
+            79,
+            9
+          ]
+        },
+        {
+          "offset": 1132,
+          "opcode": 131,
+          "args": [
+            4,
+            3
+          ]
+        },
+        {
+          "offset": 1144,
+          "opcode": 131,
+          "args": [
+            82,
+            7
+          ]
+        },
+        {
+          "offset": 1156,
+          "opcode": 130,
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1167,
+          "opcode": 130,
+          "args": [
+            16
+          ]
+        },
+        {
+          "offset": 1178,
+          "opcode": 130,
+          "args": [
+            16
+          ]
+        },
+        {
+          "offset": 1189,
+          "opcode": 130,
+          "args": [
+            16
+          ]
+        },
+        {
+          "offset": 1200,
+          "opcode": 130,
+          "args": [
+            16
+          ]
+        },
+        {
+          "offset": 1211,
+          "opcode": 130,
+          "args": [
+            16
+          ]
+        },
+        {
+          "offset": 1222,
+          "opcode": 130,
+          "args": [
+            16
+          ]
+        },
+        {
+          "offset": 1233,
+          "opcode": 130,
+          "args": [
+            11
+          ]
+        },
+        {
+          "offset": 1244,
+          "opcode": 130,
+          "args": [
+            43
+          ]
+        },
+        {
+          "offset": 1255,
+          "opcode": 130,
+          "args": [
+            43
+          ]
+        },
+        {
+          "offset": 1266,
+          "opcode": 130,
+          "args": [
+            43
+          ]
+        },
+        {
+          "offset": 1277,
+          "opcode": 130,
+          "args": [
+            43
+          ]
+        },
+        {
+          "offset": 1288,
+          "opcode": 130,
+          "args": [
+            43
+          ]
+        },
+        {
+          "offset": 1299,
+          "opcode": 130,
+          "args": [
+            43
+          ]
+        }
+      ]
+    },
+    {
+      "location": 140,
+      "loads": [
+        {
+          "offset": 1149,
+          "opcode": 131,
+          "args": [
+            76,
+            4
+          ]
+        },
+        {
+          "offset": 1300,
+          "opcode": 131,
+          "args": [
+            76,
+            7
+          ]
+        },
+        {
+          "offset": 1374,
+          "opcode": 131,
+          "args": [
+            76,
+            10
+          ]
+        },
+        {
+          "offset": 1561,
+          "opcode": 131,
+          "args": [
+            76,
+            9
+          ]
+        },
+        {
+          "offset": 1659,
+          "opcode": 131,
+          "args": [
+            76,
+            6
+          ]
+        },
+        {
+          "offset": 1945,
+          "opcode": 131,
+          "args": [
+            76,
+            5
+          ]
+        },
+        {
+          "offset": 2029,
+          "opcode": 131,
+          "args": [
+            76,
+            10
+          ]
+        }
+      ],
+      "allActorLoads": [
+        {
+          "offset": 977,
+          "opcode": 130,
+          "args": [
+            153
+          ]
+        },
+        {
+          "offset": 1149,
+          "opcode": 131,
+          "args": [
+            76,
+            4
+          ]
+        },
+        {
+          "offset": 1270,
+          "opcode": 131,
+          "args": [
+            29,
+            5
+          ]
+        },
+        {
+          "offset": 1300,
+          "opcode": 131,
+          "args": [
+            76,
+            7
+          ]
+        },
+        {
+          "offset": 1374,
+          "opcode": 131,
+          "args": [
+            76,
+            10
+          ]
+        },
+        {
+          "offset": 1461,
+          "opcode": 131,
+          "args": [
+            29,
+            8
+          ]
+        },
+        {
+          "offset": 1561,
+          "opcode": 131,
+          "args": [
+            76,
+            9
+          ]
+        },
+        {
+          "offset": 1659,
+          "opcode": 131,
+          "args": [
+            76,
+            6
+          ]
+        },
+        {
+          "offset": 1858,
+          "opcode": 131,
+          "args": [
+            0,
+            3
+          ]
+        },
+        {
+          "offset": 1945,
+          "opcode": 131,
+          "args": [
+            76,
+            5
+          ]
+        },
+        {
+          "offset": 2029,
+          "opcode": 131,
+          "args": [
+            76,
+            10
+          ]
+        },
+        {
+          "offset": 2116,
+          "opcode": 131,
+          "args": [
+            29,
+            6
+          ]
+        },
+        {
+          "offset": 2204,
+          "opcode": 131,
+          "args": [
+            29,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "location": 204,
+      "loads": [
+        {
+          "offset": 1184,
+          "opcode": 131,
+          "args": [
+            77,
+            5
+          ]
+        },
+        {
+          "offset": 1233,
+          "opcode": 131,
+          "args": [
+            77,
+            6
+          ]
+        }
+      ],
+      "allActorLoads": [
+        {
+          "offset": 683,
+          "opcode": 130,
+          "args": [
+            80
+          ]
+        },
+        {
+          "offset": 699,
+          "opcode": 130,
+          "args": [
+            119
+          ]
+        },
+        {
+          "offset": 732,
+          "opcode": 130,
+          "args": [
+            79
+          ]
+        },
+        {
+          "offset": 741,
+          "opcode": 130,
+          "args": [
+            54
+          ]
+        },
+        {
+          "offset": 781,
+          "opcode": 130,
+          "args": [
+            103
+          ]
+        },
+        {
+          "offset": 798,
+          "opcode": 130,
+          "args": [
+            53
+          ]
+        },
+        {
+          "offset": 920,
+          "opcode": 131,
+          "args": [
+            30,
+            7
+          ]
+        },
+        {
+          "offset": 960,
+          "opcode": 131,
+          "args": [
+            30,
+            8
+          ]
+        },
+        {
+          "offset": 1024,
+          "opcode": 131,
+          "args": [
+            30,
+            9
+          ]
+        },
+        {
+          "offset": 1060,
+          "opcode": 131,
+          "args": [
+            174,
+            3
+          ]
+        },
+        {
+          "offset": 1184,
+          "opcode": 131,
+          "args": [
+            77,
+            5
+          ]
+        },
+        {
+          "offset": 1233,
+          "opcode": 131,
+          "args": [
+            77,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "location": 236,
+      "loads": [
+        {
+          "offset": 2062,
+          "opcode": 131,
+          "args": [
+            79,
+            7
+          ]
+        },
+        {
+          "offset": 2098,
+          "opcode": 131,
+          "args": [
+            79,
+            8
+          ]
+        },
+        {
+          "offset": 2224,
+          "opcode": 131,
+          "args": [
+            79,
+            7
+          ]
+        },
+        {
+          "offset": 2271,
+          "opcode": 131,
+          "args": [
+            79,
+            8
+          ]
+        }
+      ],
+      "allActorLoads": [
+        {
+          "offset": 1563,
+          "opcode": 131,
+          "args": [
+            42,
+            3
+          ]
+        },
+        {
+          "offset": 1578,
+          "opcode": 131,
+          "args": [
+            42,
+            4
+          ]
+        },
+        {
+          "offset": 1593,
+          "opcode": 131,
+          "args": [
+            99,
+            5
+          ]
+        },
+        {
+          "offset": 1657,
+          "opcode": 131,
+          "args": [
+            99,
+            5
+          ]
+        },
+        {
+          "offset": 1681,
+          "opcode": 131,
+          "args": [
+            99,
+            6
+          ]
+        },
+        {
+          "offset": 1744,
+          "opcode": 131,
+          "args": [
+            42,
+            3
+          ]
+        },
+        {
+          "offset": 1761,
+          "opcode": 131,
+          "args": [
+            42,
+            4
+          ]
+        },
+        {
+          "offset": 1832,
+          "opcode": 131,
+          "args": [
+            99,
+            3
+          ]
+        },
+        {
+          "offset": 1856,
+          "opcode": 131,
+          "args": [
+            99,
+            4
+          ]
+        },
+        {
+          "offset": 1880,
+          "opcode": 131,
+          "args": [
+            42,
+            5
+          ]
+        },
+        {
+          "offset": 1904,
+          "opcode": 131,
+          "args": [
+            42,
+            6
+          ]
+        },
+        {
+          "offset": 1953,
+          "opcode": 131,
+          "args": [
+            82,
+            8
+          ]
+        },
+        {
+          "offset": 2062,
+          "opcode": 131,
+          "args": [
+            79,
+            7
+          ]
+        },
+        {
+          "offset": 2098,
+          "opcode": 131,
+          "args": [
+            79,
+            8
+          ]
+        },
+        {
+          "offset": 2224,
+          "opcode": 131,
+          "args": [
+            79,
+            7
+          ]
+        },
+        {
+          "offset": 2271,
+          "opcode": 131,
+          "args": [
+            79,
+            8
+          ]
+        },
+        {
+          "offset": 2428,
+          "opcode": 131,
+          "args": [
+            4,
+            7
+          ]
+        },
+        {
+          "offset": 2464,
+          "opcode": 131,
+          "args": [
+            82,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "location": 240,
+      "loads": [
+        {
+          "offset": 1844,
+          "opcode": 131,
+          "args": [
+            79,
+            3
+          ]
+        },
+        {
+          "offset": 2305,
+          "opcode": 131,
+          "args": [
+            79,
+            4
+          ]
+        }
+      ],
+      "allActorLoads": [
+        {
+          "offset": 1528,
+          "opcode": 131,
+          "args": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 1844,
+          "opcode": 131,
+          "args": [
+            79,
+            3
+          ]
+        },
+        {
+          "offset": 2195,
+          "opcode": 131,
+          "args": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 2305,
+          "opcode": 131,
+          "args": [
+            79,
+            4
+          ]
+        },
+        {
+          "offset": 2805,
+          "opcode": 130,
+          "args": [
+            77
+          ]
+        },
+        {
+          "offset": 2891,
+          "opcode": 130,
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 2936,
+          "opcode": 130,
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 2949,
+          "opcode": 130,
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 2964,
+          "opcode": 130,
+          "args": [
+            173
+          ]
+        }
+      ]
+    },
+    {
+      "location": 291,
+      "loads": [
+        {
+          "offset": 2373,
+          "opcode": 131,
+          "args": [
+            77,
+            4
+          ]
+        },
+        {
+          "offset": 2416,
+          "opcode": 131,
+          "args": [
+            78,
+            5
+          ]
+        },
+        {
+          "offset": 2435,
+          "opcode": 131,
+          "args": [
+            145,
+            6
+          ]
+        },
+        {
+          "offset": 2519,
+          "opcode": 131,
+          "args": [
+            77,
+            4
+          ]
+        },
+        {
+          "offset": 2564,
+          "opcode": 131,
+          "args": [
+            78,
+            5
+          ]
+        },
+        {
+          "offset": 2583,
+          "opcode": 131,
+          "args": [
+            145,
+            6
+          ]
+        },
+        {
+          "offset": 2602,
+          "opcode": 131,
+          "args": [
+            77,
+            4
+          ]
+        },
+        {
+          "offset": 2651,
+          "opcode": 131,
+          "args": [
+            78,
+            5
+          ]
+        },
+        {
+          "offset": 2670,
+          "opcode": 131,
+          "args": [
+            145,
+            6
+          ]
+        },
+        {
+          "offset": 2689,
+          "opcode": 131,
+          "args": [
+            77,
+            4
+          ]
+        },
+        {
+          "offset": 2738,
+          "opcode": 131,
+          "args": [
+            78,
+            5
+          ]
+        },
+        {
+          "offset": 2757,
+          "opcode": 131,
+          "args": [
+            145,
+            6
+          ]
+        }
+      ],
+      "allActorLoads": [
+        {
+          "offset": 2373,
+          "opcode": 131,
+          "args": [
+            77,
+            4
+          ]
+        },
+        {
+          "offset": 2416,
+          "opcode": 131,
+          "args": [
+            78,
+            5
+          ]
+        },
+        {
+          "offset": 2435,
+          "opcode": 131,
+          "args": [
+            145,
+            6
+          ]
+        },
+        {
+          "offset": 2454,
+          "opcode": 131,
+          "args": [
+            107,
+            9
+          ]
+        },
+        {
+          "offset": 2500,
+          "opcode": 131,
+          "args": [
+            108,
+            10
+          ]
+        },
+        {
+          "offset": 2519,
+          "opcode": 131,
+          "args": [
+            77,
+            4
+          ]
+        },
+        {
+          "offset": 2564,
+          "opcode": 131,
+          "args": [
+            78,
+            5
+          ]
+        },
+        {
+          "offset": 2583,
+          "opcode": 131,
+          "args": [
+            145,
+            6
+          ]
+        },
+        {
+          "offset": 2602,
+          "opcode": 131,
+          "args": [
+            77,
+            4
+          ]
+        },
+        {
+          "offset": 2651,
+          "opcode": 131,
+          "args": [
+            78,
+            5
+          ]
+        },
+        {
+          "offset": 2670,
+          "opcode": 131,
+          "args": [
+            145,
+            6
+          ]
+        },
+        {
+          "offset": 2689,
+          "opcode": 131,
+          "args": [
+            77,
+            4
+          ]
+        },
+        {
+          "offset": 2738,
+          "opcode": 131,
+          "args": [
+            78,
+            5
+          ]
+        },
+        {
+          "offset": 2757,
+          "opcode": 131,
+          "args": [
+            145,
+            6
+          ]
+        },
+        {
+          "offset": 2776,
+          "opcode": 131,
+          "args": [
+            107,
+            9
+          ]
+        },
+        {
+          "offset": 2819,
+          "opcode": 131,
+          "args": [
+            108,
+            10
+          ]
+        },
+        {
+          "offset": 2838,
+          "opcode": 131,
+          "args": [
+            0,
+            131
+          ]
+        },
+        {
+          "offset": 2882,
+          "opcode": 131,
+          "args": [
+            0,
+            131
+          ]
+        },
+        {
+          "offset": 2930,
+          "opcode": 131,
+          "args": [
+            0,
+            131
+          ]
+        }
+      ]
+    },
+    {
+      "location": 315,
+      "loads": [
+        {
+          "offset": 1308,
+          "opcode": 131,
+          "args": [
+            79,
+            7
+          ]
+        },
+        {
+          "offset": 1328,
+          "opcode": 131,
+          "args": [
+            79,
+            9
+          ]
+        }
+      ],
+      "allActorLoads": [
+        {
+          "offset": 944,
+          "opcode": 130,
+          "args": [
+            121
+          ]
+        },
+        {
+          "offset": 997,
+          "opcode": 131,
+          "args": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 1055,
+          "opcode": 131,
+          "args": [
+            0,
+            3
+          ]
+        },
+        {
+          "offset": 1266,
+          "opcode": 130,
+          "args": [
+            169
+          ]
+        },
+        {
+          "offset": 1308,
+          "opcode": 131,
+          "args": [
+            79,
+            7
+          ]
+        },
+        {
+          "offset": 1328,
+          "opcode": 131,
+          "args": [
+            79,
+            9
+          ]
+        },
+        {
+          "offset": 1348,
+          "opcode": 130,
+          "args": [
+            135
+          ]
+        },
+        {
+          "offset": 1361,
+          "opcode": 130,
+          "args": [
+            135
+          ]
+        }
+      ]
+    },
+    {
+      "location": 339,
+      "loads": [
+        {
+          "offset": 483,
+          "opcode": 131,
+          "args": [
+            76,
+            3
+          ]
+        }
+      ],
+      "allActorLoads": [
+        {
+          "offset": 483,
+          "opcode": 131,
+          "args": [
+            76,
+            3
+          ]
+        },
+        {
+          "offset": 503,
+          "opcode": 131,
+          "args": [
+            174,
+            7
+          ]
+        },
+        {
+          "offset": 520,
+          "opcode": 131,
+          "args": [
+            16,
+            4
+          ]
+        },
+        {
+          "offset": 555,
+          "opcode": 130,
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 566,
+          "opcode": 130,
+          "args": [
+            122
+          ]
+        },
+        {
+          "offset": 576,
+          "opcode": 130,
+          "args": [
+            123
+          ]
+        }
+      ]
+    }
+  ],
+  "guyRelocation": {
+    "enemy": 224,
+    "originalHeader": [
+      98,
+      57,
+      55,
+      94,
+      0,
+      0,
+      248,
+      8,
+      16,
+      0
+    ],
+    "currentHeader": [
+      252,
+      232,
+      7,
+      94,
+      0,
+      0,
+      248,
+      8,
+      16,
+      0
+    ],
+    "policy": "Preserve the real emitted Guy Fieri header relocation; enemy224 is not an ignored frog owner. No palette writes are proposed."
+  },
+  "proposedSourceDirection": "One coherent enchanted frog page/squire in a small cloth cap and tunic, cream throat, broad webbed feet, large readable eyes and unarmed hands. Four true facing directions; original crouch, raised jump, paired inflation and short/long directional tongue states. Reuse the exact three current palette ramps, native four-cell budget and original contact/reach geometry. No new major casting."
+}

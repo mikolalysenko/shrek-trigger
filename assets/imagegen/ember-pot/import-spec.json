@@ -1,0 +1,99 @@
+{
+  "key": "ember-pot",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 96,
+  "palette": [
+    "2b2529",
+    "51332f",
+    "86503b",
+    "ba7c43",
+    "e4af66",
+    "493c30",
+    "786749",
+    "b5a36c",
+    "78352f",
+    "b95b3c",
+    "edab4f",
+    "fff0b3"
+  ],
+  "directory": "assets/imagegen/ember-pot/active",
+  "sheets": [
+    {
+      "file": "assets/imagegen/enchanted-pots-beetles/ember-pot-source-v1.png",
+      "columns": 3,
+      "rows": 2,
+      "nativeHeight": 27,
+      "scaleCells": [
+        0,
+        1,
+        2
+      ],
+      "componentSelection": "union",
+      "componentAlpha": 128,
+      "sample": {
+        "method": "area",
+        "bottom": 74,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        {
+          "frame": 0,
+          "dx": -1,
+          "dy": 3
+        },
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "frame": 2,
+          "dx": 1,
+          "dy": 3
+        },
+        {
+          "frame": 3,
+          "dx": 0,
+          "dy": -15
+        },
+        {
+          "frame": 1,
+          "dx": -2,
+          "dy": 0
+        },
+        {
+          "frame": 1,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "frame": 5,
+          "dx": 0,
+          "dy": 1
+        },
+        {
+          "frame": 4,
+          "dx": 0,
+          "dy": 5
+        }
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Six actual generated poses cover the eight original slots, including original1/4/5 translated reuse and the Ember6/7 reversed low-pose order. No anatomy drawn, no frames omitted."
+      }
+    }
+  },
+  "notes": {
+    "status": "Active approved generated artwork; original palette, pose offsets and cells are preserved."
+  }
+}

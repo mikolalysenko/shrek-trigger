@@ -1,0 +1,224 @@
+{
+  "status": "Private compressed native-loader proof passed",
+  "activeRomPath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateRomSha256": "2d7ddfa7e74eb3c572a00e732b1b2fce201b5c274d32317c68d09cb473984ecc",
+  "nativeFrameUploads": 8,
+  "opaquePixelChecks": 3810,
+  "proofs": [
+    {
+      "key": "duloc-tank",
+      "enemy": 147,
+      "frame": 0,
+      "cells": 24,
+      "tile": 64,
+      "vramBytes": 3072,
+      "opaquePixelChecks": 0,
+      "heapBytes": 3392,
+      "paletteSlots": [
+        145
+      ]
+    },
+    {
+      "key": "tank-head",
+      "enemy": 173,
+      "frame": 0,
+      "cells": 4,
+      "tile": 64,
+      "vramBytes": 512,
+      "opaquePixelChecks": 539,
+      "heapBytes": 3072,
+      "paletteSlots": [
+        145
+      ]
+    },
+    {
+      "key": "tank-head",
+      "enemy": 173,
+      "frame": 1,
+      "cells": 4,
+      "tile": 64,
+      "vramBytes": 512,
+      "opaquePixelChecks": 557,
+      "heapBytes": 3072,
+      "paletteSlots": [
+        145
+      ]
+    },
+    {
+      "key": "tank-head",
+      "enemy": 173,
+      "frame": 2,
+      "cells": 4,
+      "tile": 64,
+      "vramBytes": 512,
+      "opaquePixelChecks": 538,
+      "heapBytes": 3072,
+      "paletteSlots": [
+        145
+      ]
+    },
+    {
+      "key": "tank-head",
+      "enemy": 173,
+      "frame": 3,
+      "cells": 4,
+      "tile": 64,
+      "vramBytes": 512,
+      "opaquePixelChecks": 549,
+      "heapBytes": 3072,
+      "paletteSlots": [
+        145
+      ]
+    },
+    {
+      "key": "tank-head",
+      "enemy": 173,
+      "frame": 4,
+      "cells": 4,
+      "tile": 64,
+      "vramBytes": 512,
+      "opaquePixelChecks": 551,
+      "heapBytes": 3072,
+      "paletteSlots": [
+        145
+      ]
+    },
+    {
+      "key": "tank-wheel",
+      "enemy": 148,
+      "frame": 0,
+      "cells": 4,
+      "tile": 64,
+      "vramBytes": 512,
+      "opaquePixelChecks": 524,
+      "heapBytes": 1984,
+      "paletteSlots": [
+        145
+      ]
+    },
+    {
+      "key": "tank-wheel",
+      "enemy": 148,
+      "frame": 1,
+      "cells": 4,
+      "tile": 64,
+      "vramBytes": 512,
+      "opaquePixelChecks": 552,
+      "heapBytes": 1984,
+      "paletteSlots": [
+        145
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "key": "duloc-tank",
+      "graphicsOffset": 8192000,
+      "assemblyOffset": 8193664
+    },
+    {
+      "key": "tank-head",
+      "graphicsOffset": 8193904,
+      "assemblyOffset": 8195200
+    },
+    {
+      "key": "tank-wheel",
+      "graphicsOffset": 8195408,
+      "assemblyOffset": 8196176
+    }
+  ],
+  "palette184Unchanged": true,
+  "headerAiAnimationDurationBytesUnchanged": true,
+  "chassisDecodedBytes": 2432,
+  "chassisDecodedLimit": 2944,
+  "chassisFixedUploadBytes": 3072,
+  "chassisUnusedAssemblyPaddingUntouched": true,
+  "extraVramBytes": 0,
+  "streamingUsed": false,
+  "cartridgeUnchanged": true,
+  "scope": "All eight actual native uploads; exact displayed pixels for seven smaller head/wheel poses. Chassis kitchen foreground occlusion is not counted as an exact full-frame pixel proof; original compound catwalk staging is separate.",
+  "sceneUnion": [
+    {
+      "location": 28,
+      "currentBytes": 23808,
+      "candidateBytes": 24800,
+      "parts": [
+        {
+          "gfx": 27,
+          "currentBytes": 3648,
+          "candidateBytes": 3648
+        },
+        {
+          "gfx": 158,
+          "currentBytes": 4096,
+          "candidateBytes": 4096
+        },
+        {
+          "gfx": 124,
+          "currentBytes": 2688,
+          "candidateBytes": 2432
+        },
+        {
+          "gfx": 145,
+          "currentBytes": 1024,
+          "candidateBytes": 2112
+        },
+        {
+          "gfx": 144,
+          "currentBytes": 864,
+          "candidateBytes": 1024
+        },
+        {
+          "gfx": 78,
+          "currentBytes": 7104,
+          "candidateBytes": 7104
+        },
+        {
+          "gfx": 134,
+          "currentBytes": 1760,
+          "candidateBytes": 1760
+        },
+        {
+          "gfx": 47,
+          "currentBytes": 416,
+          "candidateBytes": 416
+        },
+        {
+          "gfx": 44,
+          "currentBytes": 1184,
+          "candidateBytes": 1184
+        },
+        {
+          "gfx": 58,
+          "currentBytes": 1024,
+          "candidateBytes": 1024
+        }
+      ],
+      "scope": "Conservative whole-location union across event branches; saved-build background actors, not integrated batch residency."
+    },
+    {
+      "location": 347,
+      "currentBytes": 4576,
+      "candidateBytes": 5568,
+      "parts": [
+        {
+          "gfx": 124,
+          "currentBytes": 2688,
+          "candidateBytes": 2432
+        },
+        {
+          "gfx": 145,
+          "currentBytes": 1024,
+          "candidateBytes": 2112
+        },
+        {
+          "gfx": 144,
+          "currentBytes": 864,
+          "candidateBytes": 1024
+        }
+      ],
+      "scope": "Conservative whole-location union across event branches; saved-build background actors, not integrated batch residency."
+    }
+  ]
+}

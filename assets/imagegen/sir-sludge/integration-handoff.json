@@ -1,0 +1,549 @@
+{
+  "status": "Frozen inactive candidate",
+  "activation": false,
+  "design": "Refinement of existing original sewer toll trolls; no counterpart/mechanics change",
+  "baseline": {
+    "path": "assets/imagegen/sir-sludge/private-baseline.sfc",
+    "sha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "commit": "a8d9f5d",
+    "scope": "Fixed private baseline; excluded from source freeze and never canonical output"
+  },
+  "privateRomSha256": "492317c7343a5c18d9eaa043a486a00b7778231962e4bdf8e8950b10fa224696",
+  "graphics": {
+    "id": 82,
+    "rawBytes": 18976,
+    "compressedBytes": 12038,
+    "rawSha256": "1db7373ca5fdc47c00d9ae1319830248d9b65e29092003f72a31794f116ff343",
+    "compressedSha256": "a59b28fb763d371ba4fd1a02e18b14e9d55a75171d0861dc69c2d17d1e4fe86b",
+    "nativeTileCount": 593,
+    "streamingRequired": true,
+    "streamingContract": "Existing proven size1, <=32 KiB bank, complete24-bit pointer asserted"
+  },
+  "assembly": {
+    "id": 37,
+    "bytes": 2160,
+    "sha256": "28046520bc327612a6156660d85540d6e44a474549ec3c87652feabb6e2d0401",
+    "sizeClass": 1,
+    "frames": 27,
+    "cells": 8,
+    "cellOverlapFrames": [
+      14
+    ],
+    "overlappingOpaquePixels": 328,
+    "maxCellCoverage": 2
+  },
+  "owners": [
+    {
+      "kind": "enemy",
+      "id": 4,
+      "header": [
+        82,
+        37,
+        21,
+        29,
+        1,
+        0,
+        240,
+        12,
+        20,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 238,
+      "header": [
+        82,
+        37,
+        22,
+        29,
+        1,
+        0,
+        240,
+        8,
+        12,
+        33
+      ]
+    }
+  ],
+  "palettes": [
+    {
+      "id": 21,
+      "colors": [
+        "252b2c",
+        "354b3e",
+        "5e7d54",
+        "91a86d",
+        "c5ce94",
+        "343c49",
+        "606e7a",
+        "9aa7ab",
+        "4f3831",
+        "926349",
+        "d5ab60",
+        "f5e5b9"
+      ],
+      "offset": 2359800,
+      "sha256": "9155f84ddb102dd322f20a2028919c45a8b94ecc4a04f0f5f5f69a8536e3f1bd",
+      "unchangedFromOriginal": false
+    },
+    {
+      "id": 22,
+      "colors": [
+        "282a38",
+        "3e455e",
+        "63748d",
+        "98b2b8",
+        "cddcc2",
+        "3b3549",
+        "75677c",
+        "b1a0aa",
+        "52343d",
+        "976475",
+        "d8b96a",
+        "f9edca"
+      ],
+      "offset": 2359824,
+      "sha256": "29fac62b6e579ec69b1e4a7298f7729b981bca2c4729a2f23d114b5f0090a010",
+      "unchangedFromOriginal": false
+    }
+  ],
+  "animation": {
+    "id": 29,
+    "frameSha256": "b7ac73dd6cd1b3b52655ec162cdf79e648fa0d6070a829730a3ddd40de0b9fad",
+    "durationSha256": "992708b598122c7fce1b045869793fddd2ca9646df5a9864a69edf029d7e4a3a",
+    "unchanged": true
+  },
+  "spec": "assets/imagegen/sir-sludge/import-spec.draft.json",
+  "family": "assets/imagegen/sir-sludge/family.draft.json",
+  "geometry": "assets/imagegen/sir-sludge/geometry-proposal.json",
+  "rootIntegration": [
+    "Activate the frozen import spec as raster key sewer-troll through the shared importer.",
+    "Replace the complete gfx82 group from family.draft.json, including width128/height144, anchor[0,64], all27 frameCellOrigins, and cellOverlapFrames[14]; remove earlier frameOffsets instead of combining them.",
+    "Select gfx82 in the production raw-stream family budget contract; allocate the compressed packet plus separate18976-byte raw stream. Preserve original two headers, both palettes, animation29, AI/statistics and all authored event packets.",
+    "Use the generated raster for all27 slots with explicit missing-source failure; no procedural troll fallback should silently fill a slot.",
+    "Update the scoped family tests to include gfx82 streaming and compare both owners/all54 poses. Run integrated native and independent cores plus the original sewer and desert scenes before publishing."
+  ],
+  "costs": {
+    "key": "sewer-trolls",
+    "gfx": 82,
+    "rawBytes": 18976,
+    "compressedBytes": 12038,
+    "assemblyBytes": 2160,
+    "compressedPlusAssembly": 14198,
+    "graphicsSha256": "1db7373ca5fdc47c00d9ae1319830248d9b65e29092003f72a31794f116ff343",
+    "compressedSha256": "a59b28fb763d371ba4fd1a02e18b14e9d55a75171d0861dc69c2d17d1e4fe86b",
+    "assemblySha256": "28046520bc327612a6156660d85540d6e44a474549ec3c87652feabb6e2d0401",
+    "originalCT": {
+      "pointer": 14184067,
+      "offset": 1601155,
+      "rawBytes": 9472,
+      "compressedBytes": 7504,
+      "rawSha256": "4102e93f699b01a5610bf57e110e2c8c510a582113d4063af57caf913de0d09b",
+      "compressedSha256": "9613ae443d20e02947dc9cb67a2a00852ff47d10916d08cc85df927c165c9bdc",
+      "assemblyBytes": 2160,
+      "compressedPlusAssembly": 9664
+    },
+    "currentEarlierArt": {
+      "pointer": 14682664,
+      "offset": 2099752,
+      "rawBytes": 5632,
+      "compressedBytes": 2662,
+      "rawSha256": "25dbe62c627c1c24d611ac4604101b6d68a843d8efd0d581b2930f976042621c",
+      "compressedSha256": "9ad51746e71d2882fe4eac17c227180a8ab919623ce2fc12696d3119bfe6ef50",
+      "assemblyBytes": 2160,
+      "compressedPlusAssembly": 4822
+    },
+    "rawGrowthVsOriginal": 9504,
+    "rawGrowthVsCurrent": 13344,
+    "compressedAssemblyGrowthVsOriginal": 4534,
+    "compressedAssemblyGrowthVsCurrent": 9376,
+    "nativeSourcePixels": 26626,
+    "agreeingOverlappingOpaquePixels": 328,
+    "overlapFrames": [
+      14
+    ],
+    "geometry": "New explicit eight-cell packing; original and proposed signed XY retained in geometry-proposal.json",
+    "extraVramBytes": 0,
+    "extraWramBytes": 0,
+    "sourceType": "Actual built-in imagegen source samples; right profiles are recorded whole-source mirrors",
+    "proofs": [
+      {
+        "frame": 0,
+        "pixels": 952,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 1,
+        "pixels": 948,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 2,
+        "pixels": 1079,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 3,
+        "pixels": 1065,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 4,
+        "pixels": 1021,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 5,
+        "pixels": 1028,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 6,
+        "pixels": 972,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 7,
+        "pixels": 852,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 8,
+        "pixels": 904,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 9,
+        "pixels": 972,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 10,
+        "pixels": 852,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 11,
+        "pixels": 904,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 12,
+        "pixels": 921,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 13,
+        "pixels": 948,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 14,
+        "pixels": 1233,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 328,
+        "completeCoverage": true
+      },
+      {
+        "frame": 15,
+        "pixels": 1155,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 16,
+        "pixels": 927,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 17,
+        "pixels": 1046,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 18,
+        "pixels": 1197,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 19,
+        "pixels": 943,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 20,
+        "pixels": 887,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 21,
+        "pixels": 996,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 22,
+        "pixels": 930,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 23,
+        "pixels": 984,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 24,
+        "pixels": 996,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 25,
+        "pixels": 930,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      },
+      {
+        "frame": 26,
+        "pixels": 984,
+        "nativeCells": 8,
+        "overlappingOpaquePixels": 0,
+        "completeCoverage": true
+      }
+    ]
+  },
+  "nativeProof": {
+    "uploads": 54,
+    "uniquePpuPixelChecks": 53252
+  },
+  "motionProof": {
+    "lists": 36,
+    "ticks": 8640
+  },
+  "sceneProof": {
+    "status": "Private authored scene proofs passed",
+    "baseline": {
+      "path": "assets/imagegen/sir-sludge/private-baseline.sfc",
+      "sha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+      "sourcePath": ".local/shrek-trigger.sfc",
+      "commit": "a8d9f5d",
+      "scope": "Fixed private baseline; excluded from source freeze and never canonical output"
+    },
+    "privateRomSha256": "492317c7343a5c18d9eaa043a486a00b7778231962e4bdf8e8950b10fa224696",
+    "nativeTicks": 25954,
+    "scenes": [
+      {
+        "name": "sewer",
+        "nativeTicks": 17044,
+        "heapMax": 3456,
+        "result": {
+          "formations": [
+            [
+              42,
+              42,
+              255,
+              255,
+              255,
+              255,
+              255,
+              255
+            ],
+            [
+              255,
+              255,
+              255,
+              255,
+              4,
+              255,
+              255,
+              255
+            ],
+            [
+              99,
+              99,
+              42,
+              42,
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          "frogSceneLastLine": 47,
+          "flags": 24,
+          "treasure": {
+            "id": 15,
+            "quantity": 1
+          },
+          "bridgeStates": [
+            2,
+            0,
+            2
+          ],
+          "destination": 498,
+          "story": 52
+        },
+        "party": [
+          {
+            "id": 0,
+            "hp": 1
+          },
+          {
+            "id": 1,
+            "hp": 999
+          },
+          {
+            "id": 2,
+            "hp": 999
+          }
+        ],
+        "proof": "assets/imagegen/sir-sludge/scene-verification/sewer.json"
+      },
+      {
+        "name": "desert",
+        "nativeTicks": 5622,
+        "heapMax": 1248,
+        "result": {
+          "formation": [
+            101,
+            101,
+            101,
+            255,
+            255,
+            255,
+            238,
+            255
+          ],
+          "controllerAttackIterations": 39,
+          "encounterFlag1AD": 4,
+          "location": 160
+        },
+        "party": [
+          {
+            "id": 0,
+            "hp": 807
+          },
+          {
+            "id": 1,
+            "hp": 766
+          },
+          {
+            "id": 2,
+            "hp": 999
+          }
+        ],
+        "proof": "assets/imagegen/sir-sludge/scene-verification/desert.json"
+      },
+      {
+        "name": "ending",
+        "nativeTicks": 1888,
+        "heapMax": 12416,
+        "result": {
+          "location": 95,
+          "targetPose": 21,
+          "captures": 3,
+          "scope": "Original montage segment only, entered through a diagnostic transition; not the complete ending route"
+        },
+        "party": [
+          {
+            "id": 0,
+            "hp": 999
+          },
+          {
+            "id": 1,
+            "hp": 999
+          },
+          {
+            "id": 2,
+            "hp": 999
+          }
+        ],
+        "proof": "assets/imagegen/sir-sludge/scene-verification/ending.json"
+      },
+      {
+        "name": "dream",
+        "nativeTicks": 1400,
+        "heapMax": 17984,
+        "result": {
+          "location": 341,
+          "scope": "Original Dream Project cell scene load and native acting; dialogue continuation not yet claimed"
+        },
+        "party": [
+          {
+            "id": 0,
+            "hp": 999
+          },
+          {
+            "id": 1,
+            "hp": 999
+          },
+          {
+            "id": 2,
+            "hp": 999
+          }
+        ],
+        "proof": "assets/imagegen/sir-sludge/scene-verification/dream.json"
+      }
+    ],
+    "scope": "Diagnostic entry, followed by unchanged native events/controllers. Upper sewer and one mixed desert battle are controller victories. Ending94 is one montage segment; Dream341 is scene load/acting only. Independent cores and complete connected chapter coverage remain root-owned."
+  },
+  "review": {
+    "native": "assets/imagegen/sir-sludge/review/contact-sheet-1x.png",
+    "gait": "assets/imagegen/sir-sludge/review/gait-contacts.png",
+    "overlap": "assets/imagegen/sir-sludge/review/overlap-review.png",
+    "motion": "assets/imagegen/sir-sludge/review/motion-review.html"
+  },
+  "limitations": [
+    "Source contact correction has somewhat brighter cloak shading than the base source; same fixed native palette and anatomy.",
+    "Tiny face/tusks and grille details are limited by the original hardware footprint.",
+    "Original insect gestures are adapted to a crowned biped and mace; this is established counterpart art, not original CT anatomy."
+  ]
+}

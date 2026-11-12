@@ -1,0 +1,92 @@
+{
+  "status": "Frozen inactive integration proposal; root owns activation",
+  "key": "duloc-court-soldier",
+  "sourceSpec": "assets/imagegen/duloc-executioner/import-spec.draft.json",
+  "family": "assets/imagegen/duloc-executioner/draft/family.json",
+  "headerOwners": [
+    {
+      "kind": "npc",
+      "id": 16,
+      "header": [
+        158,
+        151,
+        160,
+        120,
+        0
+      ]
+    }
+  ],
+  "pointerAliases": [
+    {
+      "field": 0,
+      "id": 158,
+      "aliases": [
+        158
+      ]
+    },
+    {
+      "field": 1,
+      "id": 151,
+      "aliases": [
+        151
+      ]
+    },
+    {
+      "field": 2,
+      "id": 160,
+      "aliases": [
+        160
+      ]
+    },
+    {
+      "field": 3,
+      "id": 120,
+      "aliases": [
+        120
+      ]
+    }
+  ],
+  "paletteId": 160,
+  "paletteSha256": "75ffdf328bd7b5b193e73ab76c0499f73a1bace8e65d6d0f25fae03d2fabff06",
+  "paletteWrites": 0,
+  "graphics": {
+    "gfx": 158,
+    "rawBytes": 8448,
+    "compressedBytes": 5507,
+    "rawSha256": "9936072448a3b653f3f2b0457182ba5d2f64a38d5ec5d2c66e9c058adf623e7a",
+    "compressedSha256": "8e0a482b3de023c26d65004d6068e043cd551ad672911800152136fbe90a2c77",
+    "originalDecodedBytes": 4096,
+    "originalCompressedBytes": 3078,
+    "rawStreamRequired": true,
+    "streamGuard": "Explicit selected gfx158 owner contract, retaining the ordinary original-size guard for unrelated banks.",
+    "extraWramBytes": 0,
+    "extraVramBytes": 0,
+    "storedGrowthBeforeAlignment": 10877
+  },
+  "assembly": {
+    "asm": 151,
+    "frames": 26,
+    "cells": 4,
+    "bytes": 1040,
+    "sha256": "f052c7e279cf5fba6a1719eb4ab692056457a4d374c69b4bceda67cd12a4a1c9",
+    "anchor": [
+      0,
+      12
+    ],
+    "cellOverlapFrames": [
+      10,
+      12,
+      13,
+      15
+    ],
+    "overlapProof": "assets/imagegen/duloc-executioner/draft/overlap-audit.json"
+  },
+  "animation": {
+    "id": 120,
+    "programSha256": "c225e106e70d208ccf6a348560622d725a9fdb8d71cd55d31a3932c3152d734b",
+    "durationSha256": "e56cdce8d825f26c9bd7df1fc30fed8bc5e6f4b18d8e8241589dddc84798dc47",
+    "changes": 0
+  },
+  "otherWrites": "No header, AI, stats, palette, event, collision, title, audio or unrelated asset edits.",
+  "activation": false
+}

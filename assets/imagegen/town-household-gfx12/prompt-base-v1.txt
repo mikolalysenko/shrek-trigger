@@ -1,0 +1,34 @@
+Use case: stylized-concept
+Asset type: production source sprite atlas for a native SNES role-playing game.
+
+Create an original adult woman from the fairy-tale kingdom of Duloc: a versatile household and court resident, also believable as an inn attendant. She has a friendly mature face, large readable dark eyes, long copper-red hair tied into a substantial low braid, a small plain pale ribbon, a cream collar, a dusty periwinkle long-sleeved gown with darker plum side panels, a slim golden waist cord, and brown slippers. No crown, apron, weapon, trade tool or held prop. This is a distinct new person, not a named celebrity or a recolor of an existing sprite.
+
+Art direction: Chrono Trigger-like top-down SNES field sprite art, with coherent clustered pixel shading, strong anatomy and silhouette, upper-left light and a restrained dark outline. Design for a real 30-pixel-tall figure in a 32×32 native cell: head about8–9 native pixels wide, body about3.4 heads tall, clear dark eye pixels separated by a light nose and light cheeks, visible hands and alternating slippers. Make the face readable at native scale rather than adding tiny realistic facial detail. Fuller useful pixel clusters, not an over-thin doll. No blur, smooth gradients, anti-aliasing, ground shadow, scenery, text or grid lines. Twelve opaque material colors plus real transparency. Palette direction: charcoal313131, creamdedede, light skinffe7ad, skin shadowff9c6b, brown734221, golddead31, ochrebd5208, periwinkle8494c6, plum6b4284, copperd6634a, auburna53129, muted slate73738c.
+
+Composition: EXACTLY16 separate complete figures in a regular4-column ×4-row atlas, row-major order below. Every figure uses the same camera angle, scale, hair length, dress length and identity. Keep transparent space between figures, include every hair tip and slipper, and center each figure in its own equal cell. Render this as crisp enlarged pixel art, suitable for later indexing to native32px cells. On front and rear walking phases, the arms oppose the leading legs. Passing phases genuinely bring one foot under the body and raise the other heel; do not merely copy the contact pose. Both sides retain the same clothing and braid attachment.
+
+Row1:
+0. Front-facing idle, both slippers planted, arms comfortably at sides, clear eyes and face.
+1. Back-facing idle, face completely hidden; long low braid visible down the back.
+2. True left-facing profile idle, nose toward screen-left, arms at sides.
+3. True right-facing profile idle, nose toward screen-right.
+
+Row2, all back-facing (face completely hidden):
+4. Walk contactA: left foot forward, right arm forward; dress hem shows the left lead slipper.
+5. Walk passingA: weight on left foot under body, right heel raised and moving forward, arms nearer sides.
+6. Walk contactB: right foot forward, left arm forward, clearly opposing contactA.
+7. Walk passingB: weight on right foot under body, left heel raised and moving forward.
+
+Row3, all front-facing:
+8. Walk contactA: left foot forward, right arm forward; both eyes readable.
+9. Walk passingA: left support foot under body, right knee/heel advancing, arms nearer sides.
+10. Walk contactB: right foot forward, left arm forward, clearly opposing contactA.
+11. Walk passingB: right support foot under body, left knee/heel advancing.
+
+Row4:
+12. True left-facing walking contactA: near left leg leads toward screen-left; near left hand trails toward screen-right.
+13. True left-facing walking contactB: near left leg trails toward screen-right; near left hand leads toward screen-left. Opposite to12, not a duplicate or a turn.
+14. True right-facing walking contactA, complete opposite-direction counterpart of12.
+15. True right-facing walking contactB, complete opposite-direction counterpart of13.
+
+Keep the single long braid consistent through every front/rear/profile view. No extra floating hair, duplicate arms or extra figures. The requested16 poses are the entire image.

@@ -1,0 +1,289 @@
+{
+  "status": "Passed",
+  "name": "dragon-deck",
+  "baseline": {
+    "path": ".local/qa/rumpelstiltskin-wishworks/baseline.sfc",
+    "sha256": "f33843436880bf0b7988308e2d684065c8ef6c715641cfc0d3038232f1f8ca15",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "scope": "Fixed private copy; never rewritten by candidate generation"
+  },
+  "privateRomSha256": "b8640dd2f77cd6109cfa366ddbe973a95f8e9135fe33a6f2b9cf74d0af8a3c40",
+  "scope": "Authored current location event, original actors/formation/AI and controller battle, followed by the authored progression flag and return. Initial diagnostic warp/story flags and endgame party only; no event/pose/enemy writes after entry. This is not a connected whole-chapter playthrough.",
+  "checkpoint": {
+    "id": 377,
+    "story": 207,
+    "x": 7,
+    "y": 25,
+    "d2": 7,
+    "party": [
+      1,
+      2,
+      3
+    ],
+    "formation": [
+      162
+    ],
+    "up": 0
+  },
+  "nativeTicks": 6287,
+  "formation": [
+    162,
+    255,
+    255,
+    255,
+    255,
+    255,
+    255,
+    255
+  ],
+  "controllerIterations": 37,
+  "controllerActions": [],
+  "continuationTaps": 11,
+  "survivingParty": [
+    {
+      "id": 1,
+      "hp": 485
+    },
+    {
+      "id": 2,
+      "hp": 452
+    },
+    {
+      "id": 3,
+      "hp": 500
+    }
+  ],
+  "returnLocation": 363,
+  "returnStory": 207,
+  "returnD2": 8,
+  "heapMin": 256,
+  "heapMax": 4416,
+  "loads": [
+    {
+      "frame": 8924,
+      "location": 377,
+      "pc": 12605696,
+      "object": 8,
+      "scriptPC": 3105,
+      "opcode": 131,
+      "enemy": 162
+    },
+    {
+      "frame": 15042,
+      "location": 363,
+      "pc": 12605696,
+      "object": 21,
+      "scriptPC": 2835,
+      "opcode": 131,
+      "enemy": 243
+    },
+    {
+      "frame": 15042,
+      "location": 363,
+      "pc": 12605696,
+      "object": 24,
+      "scriptPC": 3291,
+      "opcode": 131,
+      "enemy": 128
+    },
+    {
+      "frame": 15042,
+      "location": 363,
+      "pc": 12605696,
+      "object": 25,
+      "scriptPC": 3357,
+      "opcode": 131,
+      "enemy": 128
+    },
+    {
+      "frame": 15042,
+      "location": 363,
+      "pc": 12605696,
+      "object": 26,
+      "scriptPC": 3426,
+      "opcode": 131,
+      "enemy": 128
+    },
+    {
+      "frame": 15042,
+      "location": 363,
+      "pc": 12605696,
+      "object": 27,
+      "scriptPC": 3492,
+      "opcode": 131,
+      "enemy": 128
+    },
+    {
+      "frame": 15042,
+      "location": 363,
+      "pc": 12605696,
+      "object": 28,
+      "scriptPC": 3558,
+      "opcode": 131,
+      "enemy": 128
+    },
+    {
+      "frame": 15042,
+      "location": 363,
+      "pc": 12605696,
+      "object": 29,
+      "scriptPC": 3618,
+      "opcode": 131,
+      "enemy": 128
+    }
+  ],
+  "battleDispatches": [
+    {
+      "frame": 9370,
+      "location": 377,
+      "pc": 12606115,
+      "object": 7,
+      "scriptPC": 2818,
+      "opcode": 216
+    },
+    {
+      "frame": 13735,
+      "location": 377,
+      "pc": 12606115,
+      "object": 7,
+      "scriptPC": 2818,
+      "opcode": 216
+    }
+  ],
+  "messages": [
+    {
+      "frame": 9102,
+      "location": 377,
+      "pc": 12591393,
+      "object": 3,
+      "stringId": 141,
+      "table": 16427340
+    },
+    {
+      "frame": 13986,
+      "location": 377,
+      "pc": 12591393,
+      "object": 3,
+      "stringId": 142,
+      "table": 16427340
+    },
+    {
+      "frame": 14130,
+      "location": 377,
+      "pc": 12591393,
+      "object": 3,
+      "stringId": 143,
+      "table": 16427340
+    },
+    {
+      "frame": 14258,
+      "location": 377,
+      "pc": 12591393,
+      "object": 3,
+      "stringId": 144,
+      "table": 16427340
+    },
+    {
+      "frame": 14322,
+      "location": 377,
+      "pc": 12591393,
+      "object": 3,
+      "stringId": 147,
+      "table": 16427340
+    },
+    {
+      "frame": 14484,
+      "location": 377,
+      "pc": 12591393,
+      "object": 3,
+      "stringId": 151,
+      "table": 16427340
+    },
+    {
+      "frame": 14636,
+      "location": 377,
+      "pc": 12591393,
+      "object": 3,
+      "stringId": 157,
+      "table": 16427340
+    }
+  ],
+  "techs": [
+    {
+      "frame": 9530,
+      "location": 377,
+      "pc": 12687933,
+      "object": 3,
+      "actor": 3,
+      "enemyId": 162,
+      "aiPC": 44384,
+      "operand": 116
+    },
+    {
+      "frame": 9952,
+      "location": 377,
+      "pc": 12687933,
+      "object": 3,
+      "actor": 3,
+      "enemyId": 162,
+      "aiPC": 44390,
+      "operand": 116
+    },
+    {
+      "frame": 11534,
+      "location": 377,
+      "pc": 12687933,
+      "object": 3,
+      "actor": 3,
+      "enemyId": 162,
+      "aiPC": 44396,
+      "operand": 128
+    },
+    {
+      "frame": 11985,
+      "location": 377,
+      "pc": 12687933,
+      "object": 3,
+      "actor": 3,
+      "enemyId": 162,
+      "aiPC": 44421,
+      "operand": 121
+    }
+  ],
+  "fieldPointers": [
+    {
+      "location": 377,
+      "enemy": 162,
+      "object": 8,
+      "gfx": 143,
+      "pointer": 8198464,
+      "palette": 192,
+      "palettePointer": 4608
+    },
+    {
+      "location": 363,
+      "enemy": 243,
+      "object": 21,
+      "gfx": 216,
+      "pointer": 8214000,
+      "palette": 235,
+      "palettePointer": 5640
+    }
+  ],
+  "observedNativeFieldFrames": [
+    {
+      "key": "377:rumpel-king:8:17",
+      "sampledTicks": 8
+    },
+    {
+      "key": "377:rumpel-king:8:18",
+      "sampledTicks": 5
+    },
+    {
+      "key": "377:rumpel-king:8:4",
+      "sampledTicks": 218
+    }
+  ],
+  "allThreePalettesUnchanged": true,
+  "cartridgeUnchanged": true
+}

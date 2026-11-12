@@ -1,0 +1,354 @@
+{
+  "status": "Frozen inactive, approved generated source candidate. Root owns overlap guard, streaming selection and scene integration.",
+  "createdAt": "2026-11-01T03:09:51.867Z",
+  "repositoryHead": "62a9de090e6374e6899d91334dec987730da2e64",
+  "scope": "Only assets/imagegen/kilnback; no production or canonical cartridge edits",
+  "nativeContract": {
+    "graphics": 139,
+    "assembly": 132,
+    "animation": 104,
+    "owners": [
+      155,
+      156
+    ],
+    "palettes": [
+      186,
+      187
+    ],
+    "dimensions": [
+      64,
+      64
+    ],
+    "frames": 28,
+    "visibleFrames": 28,
+    "blankFrames": [],
+    "sourcePoses": 19,
+    "cells": 12,
+    "groups": 3,
+    "cellsPerGroup": 4,
+    "cellOverlapFrames": [
+      6,
+      9
+    ],
+    "existingFrameOffsetsPreserved": true
+  },
+  "compiled": {
+    "rawBytes": 18784,
+    "compressedBytes": 13381,
+    "assemblyBytes": 3360,
+    "graphicsSha256": "cfcd88c0feed1a1750ba9033aac439b7c35ebd6bb96111b73d6e5ec64c44cb7e",
+    "compressedSha256": "d2864e05ddabf0b090b5260eb66c0a292cccc5cd7735710cab6bbff841b417b4",
+    "assemblySha256": "dd0a5a6fca91ad0096f2474d04de169e0dfec82f149455e78db3ab24026fafb2",
+    "paletteSha256": {
+      "186": "73d1ce0687d26bf19fb3e40c48f07af0a7febc315fa8ec5555b997e91de5c4b6",
+      "187": "1f5648e0c6174b4d180e740608b05cd30e4bd4288eb8f81a7f6bce3ae790004a"
+    },
+    "pixelsSha256": "c3851e8b5da49dfa8e8242ae0f3d95fd59315ca9f76b632ed163b3294bcda662"
+  },
+  "allocationBaselines": {
+    "candidate": {
+      "raw": 18784,
+      "compressed": 13381,
+      "assembly": 3360,
+      "compressedAndAssembly": 16741
+    },
+    "originalChronoTrigger": {
+      "raw": 10528,
+      "compressed": 8623,
+      "assembly": 3360,
+      "compressedAndAssembly": 11983,
+      "compressedAllocationGrowth": 4758
+    },
+    "savedActiveEarlierArt": {
+      "romSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+      "raw": 4832,
+      "compressed": 2195,
+      "assembly": 3360,
+      "compressedAndAssembly": 5555,
+      "compressedAllocationGrowth": 11186
+    },
+    "planningFigure": "Use +11,186 bytes against the current earlier-art build; +4,758 is only the original-CT resource baseline."
+  },
+  "proof": {
+    "sourcePixelsRoundTrip": true,
+    "frameUploads": 56,
+    "opaquePixelChecks": 78490,
+    "exactCgramColorsPerVariant": 12,
+    "overlappingOpaquePositionsPerPose": 634,
+    "overlapPoses": [
+      6,
+      9
+    ],
+    "originalTimedListScenarios": 11,
+    "exactNativeTimedTicks": 1650,
+    "cartridgeUnchanged": true,
+    "privateRomSha256": "d1de85878ab85b619146e937991c37fa5a56e9b5c44c92a9aedca3585b52817c",
+    "savedInputRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+    "productionRawStreamerOnCandidate": false,
+    "independentCores": false,
+    "originalBossScenes": false
+  },
+  "visualReview": {
+    "lead": "sprite_art_pass",
+    "leadApproved": true,
+    "rootApproved": true,
+    "reviewed": [
+      "review/contact-sheet-1x.png",
+      "draft/native-4x.png",
+      "native-verification/kilnback-native-frame-6.png",
+      "native-verification/iron-kiln-native-frame-13.png"
+    ],
+    "notes": "Furnace model, all directional gaits, release/windup, guard/tremor and palette pair accepted; two overlap layouts remain an explicit technical contract."
+  },
+  "integrationProposal": "integration-proposal.json",
+  "reproducibilityManifest": "reproducibility-files.txt",
+  "manifestFiles": 50,
+  "requiredArtifacts": [
+    {
+      "path": "README.md",
+      "bytes": 8602,
+      "sha256": "09bba92d184323a03de968ca7b11cba5917c3a7ac4c11875e7a1a4f7a093f9d9"
+    },
+    {
+      "path": "source-family.json",
+      "bytes": 2270,
+      "sha256": "9b51445526fee873f0b60193f58ce2da851d9d1108605ab58947fb31b2b866e5"
+    },
+    {
+      "path": "native-audit.json",
+      "bytes": 37573,
+      "sha256": "d62ae7c1e19491b504973e46f3aeffec52a6d93f8ef688f8bc59f3f2043066c9"
+    },
+    {
+      "path": "native-roles.json",
+      "bytes": 27017,
+      "sha256": "cdce135d62d0c28152f35ec9956a46ca4c3c1a95bb634024eef0784fb40b6eee"
+    },
+    {
+      "path": "audit-native.mjs",
+      "bytes": 6726,
+      "sha256": "43b632a8b3017ffe926803830a65b6396a3494fedc59742712a9d67a26e1ab58"
+    },
+    {
+      "path": "prepare-draft.mjs",
+      "bytes": 4305,
+      "sha256": "a2a3492fb0b63c013b9fdd97623616ff75981b3a5695cdb61c9f4c6941587415"
+    },
+    {
+      "path": "cell-packing.mjs",
+      "bytes": 3117,
+      "sha256": "c9533b709e7d75420d836e0f5e4c72e7c17c1ac335425fec2cf6c97bca596b9d"
+    },
+    {
+      "path": "compile-cells.mjs",
+      "bytes": 2095,
+      "sha256": "8d13d4b72eb1f604622fec7cb6699829a865b3e165e981bc6e5e2515c44c73d6"
+    },
+    {
+      "path": "overlap-origins.json",
+      "bytes": 817,
+      "sha256": "a88b65c13de3546579671548a2627edfa8ac2fc2d07c15ea00b96200c189e98d"
+    },
+    {
+      "path": "compile-draft.mjs",
+      "bytes": 7005,
+      "sha256": "d6f0a8f58305ad2e3810aca637477672b8e49a4053d14afd07d7bcdb8b2bcbac"
+    },
+    {
+      "path": "import-spec.draft.json",
+      "bytes": 4482,
+      "sha256": "ed08606e3f57c635e820e9d2f5c802f8a03519dcd010b9ea4b27a99f46836ab2"
+    },
+    {
+      "path": "verify-native.mjs",
+      "bytes": 8612,
+      "sha256": "eacc384c80a05aaadbd5eb400257d045cffc36a3fb716cd58935942bba3ddca5"
+    },
+    {
+      "path": "verify-motion.mjs",
+      "bytes": 5284,
+      "sha256": "47dad3c84340ef743edeed9b52a3dce2589ba35ede8f6cd661d776397b32ddb1"
+    },
+    {
+      "path": "build-review.mjs",
+      "bytes": 10848,
+      "sha256": "45adb0519f43de495b1b53e93d992972db4b1c4c20e7ce46ad7a0e16537e04ec"
+    },
+    {
+      "path": "verify-frozen.mjs",
+      "bytes": 1903,
+      "sha256": "f2248ff3aa82ddfc63f19a244d156291cc061c89dc0bbc5c738c7f8f6171d91f"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 5065,
+      "sha256": "94dcceebd27751b3b410d17d5df8b958d541299804efe1f85d5d22b4c8115e1e"
+    },
+    {
+      "path": "integration-proposal.json",
+      "bytes": 21275,
+      "sha256": "0b8a1ed7f5b8c5c025ddce2eb829413920c18e8ca4cc5cb2500a8030498ae756"
+    },
+    {
+      "path": "source-base-v1.png",
+      "bytes": 2256489,
+      "sha256": "891b6473ddeb402f717a0498d6df4f4461522ee937fb80fe724cd60757afcee9"
+    },
+    {
+      "path": "source-actions-v1.png",
+      "bytes": 2238700,
+      "sha256": "af4b6cba6ce22fe6c4fbe1beb98e6d7d8f77d8a807dd5d8060d890c123e8d8c2"
+    },
+    {
+      "path": "source-actions-v2.png",
+      "bytes": 2341464,
+      "sha256": "0978a526b28e9421d78efaa53ec33fb0dad3849c627e2d1a162724d67b632265"
+    },
+    {
+      "path": "source-back-tremor-v1.png",
+      "bytes": 1380571,
+      "sha256": "75e8809b5d3b59da5b8371e8afec30ec473279b17853e31aaa44391ecdfb963d"
+    },
+    {
+      "path": "prompt-base-v1.txt",
+      "bytes": 3462,
+      "sha256": "1000ca8175884d1d5b0b8f4a65ae975053edf126055d0d1e78db42c545c04492"
+    },
+    {
+      "path": "prompt-actions-v1.txt",
+      "bytes": 4240,
+      "sha256": "3832796ccdee2c204bcb9fd0f8f34f1c0b1b2e721191fde89ab1957ac53cd24a"
+    },
+    {
+      "path": "prompt-actions-v2.txt",
+      "bytes": 1736,
+      "sha256": "be425a29ebaf6b973932f4102d7564ea5060feb1b53597929241767b5e66a480"
+    },
+    {
+      "path": "prompt-back-tremor-v1.txt",
+      "bytes": 1566,
+      "sha256": "18e7e25314da7c9acb83e4bd35ca27ed83e908acc4d46528e7ecf5f5c8b47eb8"
+    },
+    {
+      "path": "draft/preview-raster.json",
+      "bytes": 79175,
+      "sha256": "75e05528c9d9d1df3380ad217f602db7a535eac3e17785e47709af425b79ea2f"
+    },
+    {
+      "path": "draft/preview-import.json",
+      "bytes": 6858,
+      "sha256": "c2bad9515bcde60f8e49530167d33011bd995d7bc6df196af4660b51db787d34"
+    },
+    {
+      "path": "draft/family.json",
+      "bytes": 20984,
+      "sha256": "aee77d6bc914af8dbb641c5aec644e655e041422ec81e275277a27baac354f3d"
+    },
+    {
+      "path": "draft/verification.json",
+      "bytes": 60809,
+      "sha256": "4d46e6b4a3bd5fc8c877585ccff703bd84292fb0c1c5f9d2b7508beec3a943b7"
+    },
+    {
+      "path": "draft/current-co-loads.json",
+      "bytes": 2504,
+      "sha256": "b313d58328ce0c3c62f65fe46d976cae9d38a33bf8377658888ba85e03bfc1f7"
+    },
+    {
+      "path": "draft/graphics.4bpp",
+      "bytes": 18784,
+      "sha256": "cfcd88c0feed1a1750ba9033aac439b7c35ebd6bb96111b73d6e5ec64c44cb7e"
+    },
+    {
+      "path": "draft/graphics.ct-lz",
+      "bytes": 13381,
+      "sha256": "d2864e05ddabf0b090b5260eb66c0a292cccc5cd7735710cab6bbff841b417b4"
+    },
+    {
+      "path": "draft/assembly.bin",
+      "bytes": 3360,
+      "sha256": "dd0a5a6fca91ad0096f2474d04de169e0dfec82f149455e78db3ab24026fafb2"
+    },
+    {
+      "path": "draft/palette-186.bin",
+      "bytes": 24,
+      "sha256": "73d1ce0687d26bf19fb3e40c48f07af0a7febc315fa8ec5555b997e91de5c4b6"
+    },
+    {
+      "path": "draft/palette-187.bin",
+      "bytes": 24,
+      "sha256": "1f5648e0c6174b4d180e740608b05cd30e4bd4288eb8f81a7f6bce3ae790004a"
+    },
+    {
+      "path": "draft/native-4x.png",
+      "bytes": 89264,
+      "sha256": "9a38f4f228f23fdedc79f8ba9592aba9c54be37a8e4ff04df7756b00c10d6ac7"
+    },
+    {
+      "path": "review/contact-sheet-1x.png",
+      "bytes": 153128,
+      "sha256": "13b9d73c657ae3c423d812240a7e0082df2b010757394482540371a4c4c0759b"
+    },
+    {
+      "path": "review/motion-strip-1x.png",
+      "bytes": 152110,
+      "sha256": "81636ae5a4e1c141a9cb7686e688b621e1fcd9613f9bb0f0446a46a344beabd3"
+    },
+    {
+      "path": "review/motion-review.html",
+      "bytes": 243850,
+      "sha256": "d37764aef951ff7c6a005d5c1fc751c61da51edaa3c20a17ea571c059f817061"
+    },
+    {
+      "path": "review/motion-review.gif",
+      "bytes": 675767,
+      "sha256": "4a36ed60f6d74ccdeb3373e8fe43614073eaa078489b634db73bfb176ffb67d1"
+    },
+    {
+      "path": "review/overlap-layout.png",
+      "bytes": 21571,
+      "sha256": "03622e97eaa704de5ff65756e704e6f4fd576bf87ef46acdd1f2c2c90e60820b"
+    },
+    {
+      "path": "review/review-manifest.json",
+      "bytes": 1029,
+      "sha256": "138b7f3a04a6e10e194031f2b4c6021ad6987d8ab1f51813ce1d4f530d8d31c2"
+    },
+    {
+      "path": "native-verification/manifest.json",
+      "bytes": 3503,
+      "sha256": "cc1614801f128e40da3760fee52214280a7477ac2e2d9eb09b5474649818d474"
+    },
+    {
+      "path": "native-verification/kilnback-native-frame-6.png",
+      "bytes": 56065,
+      "sha256": "04d616b3566083c5e7e56e120eefd68b985763bb1eb76e276a565524b91d5e8d"
+    },
+    {
+      "path": "native-verification/kilnback-native-frame-9.png",
+      "bytes": 55959,
+      "sha256": "93c0121d01b18ee5fe4ba72cc102d273c69901e65fb285a3ec934551617e6e53"
+    },
+    {
+      "path": "native-verification/kilnback-native-frame-12.png",
+      "bytes": 56140,
+      "sha256": "cbada12752e0f5fe27e0a5d99fb4102a2c0058b9cf5c916d823c39cfc745b42a"
+    },
+    {
+      "path": "native-verification/iron-kiln-native-frame-13.png",
+      "bytes": 56043,
+      "sha256": "d457756982df3f1500f6a3482f015f574a09315156df37c490dd057cdb795535"
+    },
+    {
+      "path": "motion-verification/manifest.json",
+      "bytes": 207508,
+      "sha256": "999c733912098b012b025b87e1c7ceba4fa0b3b6de484d018288aa065564c72d"
+    }
+  ],
+  "excluded": [
+    "base-preview/ and scale50-preview/ exploration outputs and import specs",
+    "cover-solver.mjs diagnostic search; selected exact origins are frozen separately",
+    "review/original-native-2x.png extracted original art, reproducible from the user ROM",
+    "Unlisted duplicate native contacts and native screenshots"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "key": "swamp-imp",
+  "directory": "assets/imagegen/swamp-imps/imp",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "292910",
+    "ffffff",
+    "bddeff",
+    "f7adff",
+    "7ba5ff",
+    "efef6b",
+    "bd6bde",
+    "cea542",
+    "d65231",
+    "3963bd",
+    "84398c",
+    "393929"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/swamp-imps/source-imp-base-v1.png",
+      "columns": 3,
+      "rows": 3,
+      "nativeHeight": 24,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 61,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.9583333333333335
+        },
+        "1": {
+          "scale": 0.9583333333333335
+        },
+        "2": {
+          "scale": 0.8943768996960487
+        },
+        "3": {
+          "scale": 0.973496835443038
+        },
+        "4": {
+          "scale": 0.9138198757763976
+        },
+        "5": {
+          "scale": 0.9796974522292995
+        },
+        "6": {
+          "scale": 0.9553571428571429
+        },
+        "7": {
+          "scale": 0.9765873015873017
+        },
+        "8": {
+          "scale": 0.9955501618122977
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/swamp-imps/source-imp-actions-v1.png",
+      "columns": 2,
+      "rows": 5,
+      "nativeHeight": 24,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 61,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.9999999999999999
+        },
+        "1": {
+          "scale": 0.951086956521739
+        },
+        "2": {
+          "scale": 1.046195652173913
+        },
+        "3": {
+          "scale": 0.943627450980392
+        },
+        "4": {
+          "scale": 1.0334967320261437
+        },
+        "5": {
+          "scale": 1.0845336076817556
+        },
+        "6": {
+          "scale": 1.1355105105105106
+        },
+        "7": {
+          "scale": 1.1458333333333333
+        },
+        "8": {
+          "scale": 1.1956521739130435
+        },
+        "9": {
+          "scale": 1.1904761904761905
+        }
+      }
+    },
+    {
+      "file": "assets/imagegen/swamp-imps/source-rider-turn-v1.png",
+      "columns": 1,
+      "rows": 1,
+      "nativeHeight": 24,
+      "scaleCells": [
+        0
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 61,
+        "alphaThreshold": 128
+      },
+      "overrides": {
+        "0": {
+          "scale": 0.9583333333333334
+        }
+      }
+    }
+  ],
+  "sequences": {
+    "source": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  },
+  "notes": {
+    "activation": false,
+    "status": "Inactive source extraction only; native-cell-raster.json and native-frame-map.draft.json are the complete native composition.",
+    "pixels": "Only actual generated PNG pixels, nearest sampling and exact unchanged palette indexing. No procedural anatomy.",
+    "sourceDirectionCorrection": null
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "status": "Private saved-build compressed solo overlay passed; full scenes remain unproven and active family-size guard is unchanged",
+  "activeRomPath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeRomSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateRomSha256": "a1a33c973d237d42dc8cd6aef0d54bdf217bd537e2ddd227ccb6d1ab7d540a57",
+  "nativeFrameUploads": 54,
+  "variants": 2,
+  "framesPerVariant": 27,
+  "blankFrames": [],
+  "allOpaqueNativePixelsVerified": true,
+  "opaquePixelChecks": 61504,
+  "paletteChecks": [
+    {
+      "actor": "crag-keeper",
+      "palette": 188,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 12
+    },
+    {
+      "actor": "crag-echo",
+      "palette": 189,
+      "cgramStarts": [
+        145
+      ],
+      "colorsObserved": 12
+    }
+  ],
+  "sourceType": "image-generation",
+  "sourceProvenance": [
+    {
+      "file": "assets/imagegen/crag-keeper/source-base-v2.png",
+      "sha256": "f87bc1bd38cd562e980b9498be5486a155794af06fce72f8e292a103792ec278",
+      "sourceType": "image-generation"
+    },
+    {
+      "file": "assets/imagegen/crag-keeper/source-actions-v2.png",
+      "sha256": "fd62d19c0c623abe8b7df0920d35759d252fe3b97987ea053273616bff6567d6",
+      "sourceType": "image-generation"
+    }
+  ],
+  "rawGraphicsBytes": 14176,
+  "compressedBytes": 11372,
+  "assemblyBytes": 2160,
+  "originalRawBytes": 8832,
+  "strictFamilyGrowthGuard": "Retained. No ordinary integration until large-bank streaming or actual complete-scene residency is proved.",
+  "placement": {
+    "packetOffset": 8192000,
+    "assemblyOffset": 8203376,
+    "ownedUnusedExtendedMirror": true
+  },
+  "sceneUnionBudget": [
+    {
+      "location": 47,
+      "candidateBytes": 34624,
+      "spareBytes": -1856,
+      "exceedsBudget": true
+    },
+    {
+      "location": 316,
+      "candidateBytes": 15072,
+      "spareBytes": 17696,
+      "exceedsBudget": false
+    },
+    {
+      "location": 319,
+      "candidateBytes": 30624,
+      "spareBytes": 2144,
+      "exceedsBudget": false
+    },
+    {
+      "location": 324,
+      "candidateBytes": 25408,
+      "spareBytes": 7360,
+      "exceedsBudget": false
+    },
+    {
+      "location": 348,
+      "candidateBytes": 14176,
+      "spareBytes": 18592,
+      "exceedsBudget": false
+    }
+  ],
+  "isolatedPreviewHeaps": [
+    {
+      "actor": "crag-keeper",
+      "heapEnd": 47904,
+      "heapBytes": 15136
+    },
+    {
+      "actor": "crag-echo",
+      "heapEnd": 47904,
+      "heapBytes": 15136
+    }
+  ],
+  "nativeFrameOffsets": {
+    "1": [
+      0,
+      1
+    ],
+    "4": [
+      0,
+      1
+    ],
+    "7": [
+      0,
+      1
+    ],
+    "10": [
+      0,
+      1
+    ],
+    "12": [
+      0,
+      -2
+    ],
+    "13": [
+      0,
+      2
+    ],
+    "14": [
+      0,
+      2
+    ],
+    "15": [
+      0,
+      3
+    ],
+    "17": [
+      -4,
+      2
+    ],
+    "19": [
+      4,
+      2
+    ],
+    "20": [
+      0,
+      3
+    ],
+    "22": [
+      -4,
+      2
+    ],
+    "23": [
+      -2,
+      1
+    ],
+    "24": [
+      4,
+      2
+    ],
+    "25": [
+      2,
+      1
+    ],
+    "26": [
+      0,
+      6
+    ]
+  },
+  "settledCaptureMinimumFrames": 30,
+  "extraVramBytes": 0,
+  "wholeSceneOrBattleProof": false
+}

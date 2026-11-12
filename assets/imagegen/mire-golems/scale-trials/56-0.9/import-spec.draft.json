@@ -1,0 +1,71 @@
+{
+  "key": "mire-golems",
+  "directory": "assets/imagegen/mire-golems/scale-trials/56-0.9",
+  "sourceType": "image-generation",
+  "width": 64,
+  "height": 64,
+  "palette": [
+    "232b2b",
+    "443a30",
+    "705643",
+    "a37d56",
+    "cba873",
+    "263e32",
+    "49664c",
+    "86a06a",
+    "3c5056",
+    "71858a",
+    "d7ae51",
+    "f4dfae"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/mire-golems/source-movement-v1.png",
+      "columns": 4,
+      "rows": 3,
+      "nativeHeight": 56,
+      "scaleCells": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "nearest",
+        "bottom": 63,
+        "scaleX": 0.9
+      }
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        {
+          "frame": 8,
+          "flip": true
+        },
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        8
+      ]
+    }
+  }
+}

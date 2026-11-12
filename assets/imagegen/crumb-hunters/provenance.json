@@ -1,0 +1,82 @@
+{
+  "status": "Frozen inactive image-generated source candidate",
+  "sourceType": "image-generation",
+  "generationDate": "2026-10-31",
+  "sources": [
+    {
+      "file": "source-base-v1.png",
+      "prompt": "prompt-base-v1.txt",
+      "role": "Nine initial gait poses; retained as the actual reference/edit input, not sampled in the final candidate.",
+      "inputs": [],
+      "sha256": "6c324959aca76a3a53c76beb72eddb7297c1e3bb33dc4ce5ba604bb2e1d2b1af",
+      "promptSha256": "2c1e491feac67187a1f3da6a77e9f4009703529a90148795792be7cdb4b4a809",
+      "generator": "Built-in image_gen tool",
+      "originalGeneratedPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-92cac4b6-67c0-4425-9824-603caf32e164.png"
+    },
+    {
+      "file": "source-actions-v1.png",
+      "prompt": "prompt-actions-v1.txt",
+      "role": "Seven action poses selected from a two-column four-row sheet; empty bottom-right cell excluded.",
+      "inputs": [
+        "source-base-v1.png"
+      ],
+      "sha256": "ae734f6b3521bc0729ca9807d70eded7c2276dc0753e8ea406901232b3f57322",
+      "promptSha256": "655b6ff5cae8433f08bbfdf801ee28bbef81547eb7ddeec04d15dbab2b71c567",
+      "generator": "Built-in image_gen tool",
+      "originalGeneratedPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-bbddf289-07e0-44ed-909b-ddc00f59ca22.png"
+    },
+    {
+      "file": "source-base-v2.png",
+      "prompt": "prompt-base-v2.txt",
+      "role": "Final nine gait poses; actual source edit strengthens eye sockets/mouth readability without native pixel painting.",
+      "inputs": [
+        "source-base-v1.png"
+      ],
+      "sha256": "dab7bba8118b48708391980520f5317e6dc1d3779c0ff1988b98accd48825014",
+      "promptSha256": "3fb993faaf32a82c59a79584309dc33e346e9430d9e36b71994c72b7c4d59a3f",
+      "generator": "Built-in image_gen tool",
+      "originalGeneratedPath": "/Users/mikolalysenko/.codex/generated_images/01a193b7-2ea0-7a03-a5dd-e079ce3fae1b/exec-626aeeea-57e1-4ed0-845f-a8f90b3a2aba.png"
+    }
+  ],
+  "designBasis": [
+    "docs/bakery.md",
+    "docs/game-design.md",
+    "docs/credits.md",
+    "content/bakery-dialogue.js",
+    "engine/bakery-art.js: crumbHunter"
+  ],
+  "nativeRoleBasis": "The user-supplied validated original cartridge was decoded for owner headers, all21nativeposes, normalized mirrors, animation26 and duration lists. Its art pixels are not sampled in this candidate.",
+  "sampledSources": [
+    "source-base-v2.png",
+    "source-actions-v1.png"
+  ],
+  "derivation": {
+    "importSpec": "import-spec.draft.json",
+    "nativeHeight": 28,
+    "canvas": [
+      32,
+      32
+    ],
+    "method": "area",
+    "horizontalScale": 0.85,
+    "alphaThreshold": 128,
+    "coverageThreshold": 0.28,
+    "palette": "Existing twelve-color Crumb Hunter palette16; exact alternate palette17 uses the same indices",
+    "mirrors": "Original exact image mirror pairs9←6,10←7,11←8,15←14,20←19",
+    "proceduralAnatomy": false,
+    "pixelPainting": false,
+    "outlineExpansion": false
+  },
+  "review": {
+    "leadStaticApproval": true,
+    "lead": "sprite_art_pass",
+    "assessment": "Broad crocodilian muzzle, single tail, tooth necklace and brown pack read clearly. Rear/front and action/back-raise/crouch poses are distinct. Front eyes remain small but visible; fixed muted ramps account for restrained contrast.",
+    "scope": "Static source/native sheet approval; execution timing and native pixels have separate proof manifests."
+  },
+  "limitations": [
+    "The standing model is28pixels tall in a32×32canvas. Fine eye/tooth detail simplifies at1×; silhouette, pack, tail and gestures carry recognition.",
+    "Motion proof is an actual soloNPC76 native loader test, not a full original scene or battle route.",
+    "The shared field owner appears in town and ending branches as well as the Bakery theft.",
+    "All sources were generated using the built-in tool. No paid API fallback or API credentials were used."
+  ]
+}

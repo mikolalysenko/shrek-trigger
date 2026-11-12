@@ -1,0 +1,506 @@
+{
+  "status": "Frozen read-only diagnosis and bounded native proof; no active writes or source sprite changes",
+  "inputs": [
+    {
+      "name": "original",
+      "path": ".local/chrono-trigger-usa.sfc",
+      "sha256": "06d1c2b06b716052c5596aaa0c2e5632a027fee1a9a28439e509f813c30829a9"
+    },
+    {
+      "name": "current",
+      "path": "assets/imagegen/town-civilians-gfx125/private/baseline-af3383746691.sfc",
+      "sha256": "af338374669168012da0165d385209c5d3aa9789bb713ef488ef7dcb06e555a7"
+    }
+  ],
+  "result": {
+    "confirmedAdditionalVisibleRegressions": 1,
+    "location": 5,
+    "event": 27,
+    "failedObject": 16,
+    "failurePc": "C072B2",
+    "wrongVisiblePixels": 342,
+    "intendedVisiblePixels": 0,
+    "originalIntendedVisiblePixels": 342,
+    "occludedSourcePixels": 46,
+    "verifiedMerchantObjects": [
+      16,
+      24,
+      25
+    ],
+    "nativeCases": 24,
+    "nativeTicks": 37984,
+    "explicitPaletteCommands": 76,
+    "decodedLocations": 504,
+    "newIncompatibleExplicitPairsOutsideParade": 0,
+    "activeWrites": 0
+  },
+  "limitations": [
+    "Pinned historical af338 and original USA only; root owns fixed candidate validation.",
+    "Diagnostic entry followed by unmodified native events and ordinary controller inputs; not a natural campaign traversal.",
+    "Detailed parade80 is excluded and separately owned.",
+    "Static automatic-pointer unions include hidden/mutually exclusive actors and are not additional defect claims.",
+    "Only source-frame matches bound to each actor’s VRAM tile slot count as displayed pixel evidence."
+  ],
+  "files": [
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/.gitignore",
+      "bytes": 9,
+      "sha256": "7f1449aa6b5c22585727e0d7ef4b16a112119fb0b8f472d7ab4d3a974369dc6d"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/README.md",
+      "bytes": 7401,
+      "sha256": "97fcfbb68d1bff858163c64f1062becb465885179b9985de876da68470b3c704"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/analyze-automatic.mjs",
+      "bytes": 4725,
+      "sha256": "c3b716c820a759729edf689603863ea60ae986543e33a4b4a246280b066ff71d"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/analyze.mjs",
+      "bytes": 4732,
+      "sha256": "792445f955cbe7fe22b1d46aa4b6bc520ca2497aabfd7642f99e23a3b2304520"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/automatic-splits.json",
+      "bytes": 724293,
+      "sha256": "1164231a75c1c7de844587f748abdf23efe3570ef31497806e85167e6a97ac58"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/events-current.json",
+      "bytes": 1540781,
+      "sha256": "66015ebca54054122a60fb0e8254c09b981b77d8c928d338424f5372c53e00dc"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/events-original.json",
+      "bytes": 1545179,
+      "sha256": "aca6aed9be39853b0a915373f3dfec75a7058d94b1aef411e5e7af994daa4bd6"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/extract.mjs",
+      "bytes": 2291,
+      "sha256": "8f61c0c2d5ad82c854ef5a2f4d34da76adcc73cdaede51d603e7aae0e77c18ac"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/fair5-report.json",
+      "bytes": 63759,
+      "sha256": "3d166e36149d3095b602ec96f72788b08b48481ad70732820ac8a31bafa29381"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/freeze.mjs",
+      "bytes": 4232,
+      "sha256": "6ed22fd2d2a7cb94acc4c3799e118ff26cf9cb9b1670ad98aae39843d3ef24e0"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/headers.json",
+      "bytes": 618773,
+      "sha256": "a63f32150a0b655d65760b051fc2198eb2830cbf42bbd19f274d1196b6b3cc57"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-semantics.json",
+      "bytes": 943,
+      "sha256": "5078c8e642186e3e18ce67811f886f8cdb06b6522239161c65ae6af9f15abe81"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/bram-flashback-current.json",
+      "bytes": 98836,
+      "sha256": "78555eac4b493c5b1d1577355147b4c9e5ed32fb41729072ed0bfcbccf14c11d"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/bram-flashback-original.json",
+      "bytes": 98728,
+      "sha256": "cbf58c15fbb8e3758c2676c9791be7d3fb9adfd64585669c23f6de3877a379ed"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/court-current.json",
+      "bytes": 163357,
+      "sha256": "a2bcd9e857f96051868eb68abf8a14ee51cd5d0ca3a22d6fd5b94515ac163d43"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/court-original.json",
+      "bytes": 163309,
+      "sha256": "60117e7d4ed42af415c0ad3f91fcc85d199564f29bfe03c86b230a5cb755fa02"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/end-time-ending-current.json",
+      "bytes": 70381,
+      "sha256": "da32c279b4007d128d378766a00e77ae8bd919a31e8e3eadb691560acce026db"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/end-time-ending-original.json",
+      "bytes": 69880,
+      "sha256": "8c7f8cdf073359252dad4121a857e96fe67487d9c5e3a53db18aace9839c39e7"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-center-current.json",
+      "bytes": 159209,
+      "sha256": "17a0d418a42edd87457564685aa9882822c1a7f8ab18b461bab1058accabcf2a"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-center-original.json",
+      "bytes": 158416,
+      "sha256": "b35d8ae5fe0b1cb32f55c81c3f2f81b2f4250b1d5b15841d6da2d20d96790d04"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-east-current.json",
+      "bytes": 66205,
+      "sha256": "2e6cdcfd718abd29fc9f615cad0c406f63877693e532619829fe98eda7028fa5"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-east-original.json",
+      "bytes": 66217,
+      "sha256": "81f16074aaaf6e569e2093b3d792d79db2208fd85b4f8c01160143577d9075c3"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-merchant24-current-450.png",
+      "bytes": 114076,
+      "sha256": "30a6e6171499f7ad32f0d235cc0a2db7d9e8c823e23155e58d61cc1c68007d0f"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-merchant24-current.json",
+      "bytes": 39524,
+      "sha256": "610aa9f948904f6a916db63f8942796dbc9ff9406a40390af44ff1053c6fa2cf"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-merchant24-original-450.png",
+      "bytes": 114167,
+      "sha256": "9770775a9f094919ea6d7acbfe746455b9af6896f6983ae4ec9aaccec0963b9a"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-merchant24-original.json",
+      "bytes": 39564,
+      "sha256": "f6fdea2a1157bc3df247d1d0b6fee644adc99d4c6d89ad85fb9b09a6a93f855d"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-merchant25-current-450.png",
+      "bytes": 122177,
+      "sha256": "a80e4f28a2682e48539216aaef7cc5e6f015df3dd4a67b8eac3a7e5dcd1aee69"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-merchant25-current.json",
+      "bytes": 32701,
+      "sha256": "fee2d158271079e7b46419e7eb1efc14d52b32f80fd6f89ad13b3d755460ca78"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-merchant25-original-450.png",
+      "bytes": 122611,
+      "sha256": "56159fdc68975f3b75a73603f9c63f166e2b23ae549217de89af617537e6f97d"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-merchant25-original.json",
+      "bytes": 32204,
+      "sha256": "b563deb9c6c195313f4f57979590b1e59092bce8b172b81b0ea76a989fbfe508"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-pan-west-current-1600.png",
+      "bytes": 109530,
+      "sha256": "046ed9a63ed8bebd3067fe236cb6203b580083350ff64474f2f113addcb26e1b"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-pan-west-current.json",
+      "bytes": 164476,
+      "sha256": "84a24fe816237b5d0e057eb36e7e6431c86242e1eb877b1d4f44b0afe35b49e0"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-pan-west-original-1600.png",
+      "bytes": 109914,
+      "sha256": "7d36808486b0569da1daee28b94b537c348d3fab5064fba5429628ce21c2b940"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-pan-west-original.json",
+      "bytes": 163676,
+      "sha256": "fb7fca0aeed5607fc81369c993519cebd4c93120f1962826446a9392054f857a"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-west-current.json",
+      "bytes": 151152,
+      "sha256": "6ac0d7bf59c7c457f8201656775383df4a4506815023b0b92bd604fbe7909021"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/fair-west-original.json",
+      "bytes": 148862,
+      "sha256": "b570b9a6aa6cd8337169e568b201017709ae4982284e62463e12ffa1fa0d6f86"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/last-inn-current.json",
+      "bytes": 50144,
+      "sha256": "456f60cb1a6542e480c278fa11cd7dcd0251e5f399d9352cc483aa5365faf580"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/last-inn-original.json",
+      "bytes": 49912,
+      "sha256": "8226edc242fab9b477393b97c2d969df487bf048661bc9e9919344f9f5ec3e13"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/smithy-ending-current.json",
+      "bytes": 51776,
+      "sha256": "263350994ff7ce9deb5313cec6bfda510893385c2dc7e9667e95cda38dac1b29"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/smithy-ending-original.json",
+      "bytes": 51749,
+      "sha256": "86ed105165b6ae3a50d34eaa131f2cc2cfd9b4d51fdd9bf0d3db9e8c224b3306"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/throne-ending-current.json",
+      "bytes": 110427,
+      "sha256": "2385ac68644254070dc55a099b92778bfa806349f738ed730f37a11e3b8f76d0"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/native-verification/throne-ending-original.json",
+      "bytes": 110259,
+      "sha256": "84c0a1277fea3d9e5511f481082e56b621bad2b4993acfe16cfa94904fb7c0c5"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/parse-events.py",
+      "bytes": 3380,
+      "sha256": "cfe94a06f256a7c5ff641f0d6094d1ae13f90cf462cb9c37fb32593576caf78d"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/probe-scenes.mjs",
+      "bytes": 8413,
+      "sha256": "25e925f9fe602cf2fe3d389ea344befd906a6f802c54ffa39d1ec5b59cf0d827"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/report.json",
+      "bytes": 10823,
+      "sha256": "70b47d17988b9d768394a48377245d4b9e9de6da8dc1c3e712233e56827e7e18"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/static-candidates.json",
+      "bytes": 1704,
+      "sha256": "128e6f485f718578111f24bb6871dcc93dd6fb89ccf0e53315909c313ae59d9e"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/verify.mjs",
+      "bytes": 2608,
+      "sha256": "4e551e47886ce99199c9fca6106c0249541d93b562ff94658bfa98e59d5335fa"
+    },
+    {
+      "path": "assets/raster/event-palette-sharing-af3383746691/write-report.mjs",
+      "bytes": 11009,
+      "sha256": "12f32a295c6e292091e9749b95b3e763822548d5b8f6357da607580629617577"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": ".local/reference/ct_disassembly/bank_C0.asm",
+      "bytes": 2767762,
+      "sha256": "733afa44398e42d7b79eb4f8bbf2303e5c3984f3e7fbee40ac59ac650d13e469"
+    },
+    {
+      "path": ".local/reference/jot-current/sourcefiles/byteops.py",
+      "bytes": 6654,
+      "sha256": "6765dfd79900c019bb3b0d914e15230f88689c4520c4a6294bef8ace3a0a3d42"
+    },
+    {
+      "path": ".local/reference/jot-current/sourcefiles/eventcommand.py",
+      "bytes": 79686,
+      "sha256": "c6bce64666d313132e1c2122ba7300303fb9ee7749605db5cf3b7133063d4f87"
+    },
+    {
+      "path": ".local/reference/temporal-redux/sourcefiles/editorui/lookups.py",
+      "bytes": 65146,
+      "sha256": "8c4cb21a32d9b0010d764266e6822a14584962c3bae8b74ed2e60b6662f4d3c3"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/native-proof-utils.mjs",
+      "bytes": 3436,
+      "sha256": "64e6a45cf9690caa479d5b74dee7ced1378088eece42fa6d5b57d1936cb01782"
+    },
+    {
+      "path": "assets/imagegen/town-civilians-gfx125/private-overlay.mjs",
+      "bytes": 4945,
+      "sha256": "541bc3433dd84049d4a68282b7d374f21080495cf9ac01472f582ea24d982047"
+    },
+    {
+      "path": "content/hooks.json",
+      "bytes": 2582,
+      "sha256": "bf37708d2862de0a3a6766ef8f9a5c05079e454e262750e001e42a02532783a5"
+    },
+    {
+      "path": "engine/automation.js",
+      "bytes": 1519,
+      "sha256": "8af377558a467f16747a8dbb120b8a047c2512cee9b4945ec5f657660a36fe28"
+    },
+    {
+      "path": "engine/compression.js",
+      "bytes": 4100,
+      "sha256": "5da7e19a25f057e538eb55eed915e23c577c0f663a6c5ff9f38d08f23bcb6e45"
+    },
+    {
+      "path": "engine/devtools.js",
+      "bytes": 19206,
+      "sha256": "fe92b027caa015f4f327cb07b50668b2881b93c41038ab80bdfa79deff549feb"
+    },
+    {
+      "path": "engine/expanded-rom.js",
+      "bytes": 3291,
+      "sha256": "de8f528ce60b4488df9d7742c38e8c9af2ae58e74df641fe6fd1c605dbeedde2"
+    },
+    {
+      "path": "engine/hooks.js",
+      "bytes": 3306,
+      "sha256": "795fd4248bfaf669e53753df0636b4d24cf5ae98062d82f6e50b147516af7a2a"
+    },
+    {
+      "path": "engine/native-sprites.js",
+      "bytes": 8636,
+      "sha256": "59cd972e2f13a0601f684ace762036186ada623cea2d49936b21684e3a46a51a"
+    },
+    {
+      "path": "engine/rom.js",
+      "bytes": 2199,
+      "sha256": "06b336022840d63cc8295bce22f19ee3527484a06739b76ce90dc5bafa2a9b04"
+    },
+    {
+      "path": "engine/save.js",
+      "bytes": 2523,
+      "sha256": "c3ea24d67274d089090ebf5cb2776471cd8da323d878fcf398ae74390fd3d8ad"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 2116,
+      "sha256": "64a6a819820c608b0efc612e049a872b68b3159ec6d3cc95ae13261893a980b5"
+    },
+    {
+      "path": "package.json",
+      "bytes": 3066,
+      "sha256": "934c54d9fc8c867b49fbf1297541c1efeed2c2da1c863d6778010a8cb66675bf"
+    },
+    {
+      "path": "scripts/core.mjs",
+      "bytes": 709,
+      "sha256": "7ab30045a06ef89154004a3cc25e1c2dab1cad1c426f4a585e4a68a058bceef4"
+    },
+    {
+      "path": "scripts/native-sprite-view.mjs",
+      "bytes": 3726,
+      "sha256": "5ad09bed2da5887837208c7ccf58dc7e9822a383b9a05dc9433031508fc404b9"
+    },
+    {
+      "path": "vendor/snes/apu.js",
+      "bytes": 5923,
+      "sha256": "dc9e80aa57557c9fee4537266123c66586cf4d744db72bc67ba58390f01d8c41"
+    },
+    {
+      "path": "vendor/snes/cart.js",
+      "bytes": 5334,
+      "sha256": "738b2457fbb9786e27f043f4cc03f15fe1e12e40565c7366beb1bfff0d5a030d"
+    },
+    {
+      "path": "vendor/snes/cpu.js",
+      "bytes": 56535,
+      "sha256": "a242fd7636deafea4595e59c09c0156c8a07c833047f38e61b31020458383224"
+    },
+    {
+      "path": "vendor/snes/dsp.js",
+      "bytes": 18920,
+      "sha256": "88e681959917484cd75c9fc6618344001db670ace3acc8e33520eb94a04322e8"
+    },
+    {
+      "path": "vendor/snes/pipu.js",
+      "bytes": 109575,
+      "sha256": "e4749dcba3fcd086f6e9bef1fdf2537440eb6aa98845929f6e71d02cac70e84e"
+    },
+    {
+      "path": "vendor/snes/snes.js",
+      "bytes": 55618,
+      "sha256": "3193bb0890e73052bad1137d185e6fc813f7bf4783ad82909cc6b9b7757fe128"
+    },
+    {
+      "path": "vendor/snes/spc.js",
+      "bytes": 31549,
+      "sha256": "3daba40289704f39d3ce9459b78c490450b42963b97e49f1e2b392b0ea92cc24"
+    }
+  ],
+  "dependencyScope": "Recorded direct helpers, emulator core and external reference files. These remain owned by their existing project modules; hashes are informational unless verify.mjs --dependencies is requested. Full local project checkout and the declared PNGJS package are needed to rerun native checks.",
+  "outputsNotWhitelisted": "Private ROMs, decoded event packets, new-game emulator states, redundant staging PNGs and research dependencies remain local/existing; none is newly distributed by this packet.",
+  "compatibleVariant": {
+    "kind": "npc",
+    "id": 89,
+    "comparison": [
+      {
+        "id": 22,
+        "headerOffset": 2420881,
+        "header": [
+          11,
+          7,
+          9,
+          7,
+          0
+        ],
+        "palettePointer": 216,
+        "paletteWords": [
+          6342,
+          30653,
+          22431,
+          13951,
+          7476,
+          6750,
+          9457,
+          28432,
+          15784,
+          10898,
+          5515,
+          20015
+        ]
+      },
+      {
+        "id": 49,
+        "headerOffset": 2421016,
+        "header": [
+          11,
+          7,
+          9,
+          7,
+          0
+        ],
+        "palettePointer": 216,
+        "paletteWords": [
+          6342,
+          30653,
+          22431,
+          13951,
+          7476,
+          6750,
+          9457,
+          28432,
+          15784,
+          10898,
+          5515,
+          20015
+        ]
+      },
+      {
+        "id": 89,
+        "headerOffset": 2421216,
+        "header": [
+          11,
+          7,
+          133,
+          7,
+          0
+        ],
+        "palettePointer": 3192,
+        "paletteWords": [
+          6309,
+          30620,
+          22431,
+          13951,
+          3276,
+          5695,
+          1302,
+          18919,
+          12551,
+          9903,
+          5482,
+          17870
+        ]
+      }
+    ],
+    "proposal": "Root may change only the three Fair5 NPC22 load operands to NPC89, preserving gfx11, its assembly, AA7, size, event object functions, dialogue and shops. NPC49 is NOT the palette133 variant; it retains palette9. No global palette/header recolor or new sprite resource is required.",
+    "activation": false
+  }
+}

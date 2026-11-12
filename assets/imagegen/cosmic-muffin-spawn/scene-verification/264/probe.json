@@ -1,0 +1,998 @@
+{
+  "activePath": ".local/qa/party-art-2e2a574e5b11/shrek-trigger.sfc",
+  "activeSha256": "2e2a574e5b111f119e91a24a03868f6ec588fcefc46ff8fe9559eaf241bc3066",
+  "privateSha256": "7496a07c2ba7d62f05e5576c79ac977dc1ce21673e5ea71da2d9a0dbf98cecb5",
+  "placements": [
+    {
+      "key": "shell",
+      "graphicsOffset": 8192000,
+      "assemblyOffset": 8194256
+    },
+    {
+      "key": "head",
+      "graphicsOffset": 8194736,
+      "assemblyOffset": 8195168
+    }
+  ],
+  "palette208Unchanged": true,
+  "headersAiProgramsUnchanged": true,
+  "streamingUsed": false,
+  "status": "Scene probe",
+  "location": 264,
+  "diagnosticEntry": {
+    "x": 5,
+    "y": 24,
+    "party": [
+      0,
+      1,
+      2
+    ],
+    "endgame": true
+  },
+  "originalSceneEventUnmodified": true,
+  "controllerOnlyAfterEntry": true,
+  "loads": [
+    {
+      "object": 8,
+      "enemy": 215,
+      "scriptPC": 710
+    },
+    {
+      "object": 9,
+      "enemy": 216,
+      "scriptPC": 727
+    }
+  ],
+  "battles": [
+    {
+      "frame": 9589,
+      "location": 264,
+      "pc": 12681237,
+      "object": 8,
+      "formation": [
+        215,
+        255,
+        255,
+        255,
+        255,
+        255,
+        216,
+        255
+      ]
+    }
+  ],
+  "results": [
+    {
+      "frame": 9776,
+      "location": 264,
+      "pc": 12702984,
+      "object": 8,
+      "actor": 9,
+      "target": 2,
+      "techId": 168,
+      "value": 180,
+      "flags": 0
+    },
+    {
+      "frame": 9777,
+      "location": 264,
+      "pc": 12702984,
+      "object": 8,
+      "actor": 9,
+      "target": 1,
+      "techId": 168,
+      "value": 199,
+      "flags": 0
+    },
+    {
+      "frame": 9777,
+      "location": 264,
+      "pc": 12702984,
+      "object": 8,
+      "actor": 9,
+      "target": 0,
+      "techId": 168,
+      "value": 234,
+      "flags": 0
+    },
+    {
+      "frame": 10252,
+      "location": 264,
+      "pc": 12702984,
+      "object": 8,
+      "actor": 1,
+      "target": 9,
+      "techId": 118,
+      "value": 339,
+      "flags": 0
+    },
+    {
+      "frame": 10433,
+      "location": 264,
+      "pc": 12702984,
+      "object": 8,
+      "actor": 0,
+      "target": 9,
+      "techId": 117,
+      "value": 858,
+      "flags": 0
+    },
+    {
+      "frame": 10668,
+      "location": 264,
+      "pc": 12702984,
+      "object": 8,
+      "actor": 2,
+      "target": 9,
+      "techId": 119,
+      "value": 862,
+      "flags": 0
+    },
+    {
+      "frame": 11055,
+      "location": 264,
+      "pc": 12702984,
+      "object": 8,
+      "actor": 1,
+      "target": 9,
+      "techId": 118,
+      "value": 660,
+      "flags": 0
+    },
+    {
+      "frame": 11360,
+      "location": 264,
+      "pc": 12702984,
+      "object": 8,
+      "actor": 0,
+      "target": 9,
+      "techId": 117,
+      "value": 424,
+      "flags": 0
+    },
+    {
+      "frame": 11619,
+      "location": 264,
+      "pc": 12702984,
+      "object": 8,
+      "actor": 9,
+      "target": 2,
+      "techId": 102,
+      "value": 77,
+      "flags": 0
+    },
+    {
+      "frame": 11914,
+      "location": 264,
+      "pc": 12702984,
+      "object": 8,
+      "actor": 2,
+      "target": 9,
+      "techId": 119,
+      "value": 860,
+      "flags": 0
+    },
+    {
+      "frame": 12084,
+      "location": 264,
+      "pc": 12702984,
+      "object": 8,
+      "actor": 9,
+      "target": 9,
+      "techId": 127,
+      "value": 113,
+      "flags": 0
+    },
+    {
+      "frame": 12085,
+      "location": 264,
+      "pc": 12702984,
+      "object": 8,
+      "actor": 9,
+      "target": 3,
+      "techId": 127,
+      "value": 120,
+      "flags": 0
+    }
+  ],
+  "observations": [
+    {
+      "tick": 520,
+      "battle": false,
+      "parts": [
+        {
+          "key": "shell",
+          "frame": 0,
+          "origin": [
+            136,
+            58
+          ],
+          "opaqueCells": 22
+        },
+        {
+          "key": "head",
+          "frame": 0,
+          "origin": [
+            128,
+            58
+          ],
+          "opaqueCells": 4
+        }
+      ],
+      "delta": [
+        -8,
+        0
+      ],
+      "pixel": {
+        "exact": 2011,
+        "mismatches": 2039,
+        "firstMismatches": [
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 152,
+            "y": 23,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              139,
+              82,
+              0
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 9,
+            "x": 152,
+            "y": 24,
+            "entry": 44,
+            "expected": [
+              139,
+              82,
+              0
+            ],
+            "actual": [
+              180,
+              114,
+              90
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 153,
+            "y": 25,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              180,
+              114,
+              90
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 152,
+            "y": 26,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              41,
+              41,
+              16
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 154,
+            "y": 27,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              114,
+              32,
+              24
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 152,
+            "y": 28,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              180,
+              114,
+              90
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 10,
+            "x": 154,
+            "y": 28,
+            "entry": 44,
+            "expected": [
+              114,
+              32,
+              24
+            ],
+            "actual": [
+              180,
+              114,
+              90
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 155,
+            "y": 28,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              139,
+              82,
+              0
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 152,
+            "y": 29,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              221,
+              155,
+              131
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 153,
+            "y": 29,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              41,
+              41,
+              16
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 9,
+            "x": 155,
+            "y": 29,
+            "entry": 44,
+            "expected": [
+              139,
+              82,
+              0
+            ],
+            "actual": [
+              180,
+              114,
+              90
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 156,
+            "y": 29,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              180,
+              114,
+              90
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 154,
+            "y": 30,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              41,
+              41,
+              16
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 155,
+            "y": 30,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              41,
+              41,
+              16
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 153,
+            "y": 31,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              180,
+              114,
+              90
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 155,
+            "y": 31,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              180,
+              114,
+              90
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 158,
+            "y": 31,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              114,
+              32,
+              24
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 4,
+            "x": 152,
+            "y": 32,
+            "entry": 44,
+            "expected": [
+              221,
+              155,
+              131
+            ],
+            "actual": [
+              180,
+              114,
+              90
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 2,
+            "x": 154,
+            "y": 32,
+            "entry": 44,
+            "expected": [
+              41,
+              41,
+              16
+            ],
+            "actual": [
+              180,
+              114,
+              90
+            ]
+          },
+          {
+            "key": "shell",
+            "k": 7,
+            "x": 156,
+            "y": 32,
+            "entry": 44,
+            "expected": [
+              180,
+              114,
+              90
+            ],
+            "actual": [
+              41,
+              41,
+              16
+            ]
+          }
+        ],
+        "byPart": {
+          "shell": {
+            "exact": 1912,
+            "mismatches": 1895
+          },
+          "head": {
+            "exact": 99,
+            "mismatches": 144
+          }
+        }
+      },
+      "fieldObjects": [
+        {
+          "object": 8,
+          "enemy": 215,
+          "scriptPC": 710,
+          "position": [
+            136,
+            303.9375
+          ],
+          "frame": 255
+        },
+        {
+          "object": 9,
+          "enemy": 216,
+          "scriptPC": 727,
+          "position": [
+            128,
+            303
+          ],
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "tick": 552,
+      "battle": false,
+      "parts": [
+        {
+          "key": "shell",
+          "frame": 0,
+          "origin": [
+            120,
+            79
+          ],
+          "opaqueCells": 22
+        },
+        {
+          "key": "head",
+          "frame": 0,
+          "origin": [
+            112,
+            79
+          ],
+          "opaqueCells": 4
+        }
+      ],
+      "delta": [
+        -8,
+        0
+      ],
+      "pixel": {
+        "exact": 4050,
+        "mismatches": 0,
+        "firstMismatches": [],
+        "byPart": {
+          "shell": {
+            "exact": 3807,
+            "mismatches": 0
+          },
+          "head": {
+            "exact": 243,
+            "mismatches": 0
+          }
+        }
+      },
+      "fieldObjects": [
+        {
+          "object": 8,
+          "enemy": 215,
+          "scriptPC": 710,
+          "position": [
+            136,
+            303.9375
+          ],
+          "frame": 255
+        },
+        {
+          "object": 9,
+          "enemy": 216,
+          "scriptPC": 727,
+          "position": [
+            128,
+            303
+          ],
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "tick": 712,
+      "battle": true,
+      "parts": [
+        {
+          "key": "shell",
+          "frame": 0,
+          "origin": [
+            120,
+            79
+          ],
+          "opaqueCells": 22
+        },
+        {
+          "key": "head",
+          "frame": 0,
+          "origin": [
+            112,
+            79
+          ],
+          "opaqueCells": 4
+        }
+      ],
+      "delta": [
+        -8,
+        0
+      ],
+      "pixel": {
+        "exact": 4050,
+        "mismatches": 0,
+        "firstMismatches": [],
+        "byPart": {
+          "shell": {
+            "exact": 3807,
+            "mismatches": 0
+          },
+          "head": {
+            "exact": 243,
+            "mismatches": 0
+          }
+        }
+      },
+      "fieldObjects": [
+        {
+          "object": 8,
+          "enemy": 215,
+          "scriptPC": 710,
+          "position": [
+            136,
+            303.9375
+          ],
+          "frame": 255
+        },
+        {
+          "object": 9,
+          "enemy": 216,
+          "scriptPC": 727,
+          "position": [
+            128,
+            303
+          ],
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "tick": 1480,
+      "battle": true,
+      "parts": [
+        {
+          "key": "shell",
+          "frame": 0,
+          "origin": [
+            120,
+            79
+          ],
+          "opaqueCells": 22
+        },
+        {
+          "key": "head",
+          "frame": 1,
+          "origin": [
+            112,
+            80
+          ],
+          "opaqueCells": 4
+        }
+      ],
+      "delta": [
+        -8,
+        1
+      ],
+      "pixel": {
+        "exact": 4074,
+        "mismatches": 0,
+        "firstMismatches": [],
+        "byPart": {
+          "shell": {
+            "exact": 3711,
+            "mismatches": 0
+          },
+          "head": {
+            "exact": 363,
+            "mismatches": 0
+          }
+        }
+      },
+      "fieldObjects": [
+        {
+          "object": 8,
+          "enemy": 215,
+          "scriptPC": 710,
+          "position": [
+            0,
+            0
+          ],
+          "frame": 41
+        },
+        {
+          "object": 9,
+          "enemy": 216,
+          "scriptPC": 727,
+          "position": [
+            0,
+            0
+          ],
+          "frame": 41
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "tick": 500,
+      "frames": 36,
+      "keys": 16
+    },
+    {
+      "tick": 1136,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 1151,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 1166,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 1439,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 1454,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 1469,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 1742,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 1757,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 1772,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 2165,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 2180,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 2195,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 2468,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 2483,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 2498,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 2771,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 2786,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 2801,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3074,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3089,
+      "frames": 3,
+      "keys": 128
+    },
+    {
+      "tick": 3104,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3377,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3480,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3583,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3686,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3789,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3892,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 3995,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4098,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4201,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4304,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4407,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4510,
+      "frames": 3,
+      "keys": 256
+    },
+    {
+      "tick": 4613,
+      "frames": 3,
+      "keys": 256
+    }
+  ],
+  "attacks": 7,
+  "maxHeap": 5760,
+  "final": {
+    "location": 264,
+    "battle": 0,
+    "control": 1,
+    "dialogue": 0,
+    "formation": [
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      255
+    ],
+    "flag10064": 8
+  },
+  "cartridgeUnchanged": true
+}

@@ -1,0 +1,3161 @@
+{
+  "status": "Passed",
+  "name": "lift",
+  "baseline": {
+    "path": "assets/imagegen/palace-hexer/private-baseline.sfc",
+    "sha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "scope": "Pinned published cartridge; read-only audit; private copy excluded from source handoff"
+  },
+  "privateRomSha256": "7969140b436eb39bcfced1aa46fae5fa12f46e32260a36388ad2ec1cea7c1f7a",
+  "checkpoint": {
+    "id": 410,
+    "x": 8,
+    "y": 12,
+    "formation": [
+      214,
+      82,
+      82,
+      214,
+      59
+    ],
+    "story": 200,
+    "party": [
+      0,
+      1,
+      2
+    ],
+    "endgameKit": true,
+    "clearedFlags": [
+      "7F0162",
+      "7F0163"
+    ],
+    "endingFlag7F00F8": 0
+  },
+  "nativeTicks": 8057,
+  "result": {
+    "formation": [
+      214,
+      82,
+      82,
+      214,
+      59,
+      255,
+      255,
+      255
+    ],
+    "controllerAttackIterations": 54,
+    "returnLocation": 416,
+    "scope": "Connected native 410 → 411 entry, mixed lift encounter and original DF411 → 416, with shared palace staging. Diagnostic entry at410 and endgame kit only; later lift waves/chapter completion are not claimed.",
+    "path": [
+      410,
+      411,
+      416
+    ]
+  },
+  "party": [
+    {
+      "id": 0,
+      "hp": 886
+    },
+    {
+      "id": 1,
+      "hp": 999
+    },
+    {
+      "id": 2,
+      "hp": 999
+    }
+  ],
+  "heapMax": 11872,
+  "heapByLocation": [
+    {
+      "location": 2,
+      "min": 1248,
+      "max": 1248
+    },
+    {
+      "location": 410,
+      "min": 0,
+      "max": 3840
+    },
+    {
+      "location": 411,
+      "min": 256,
+      "max": 3840
+    },
+    {
+      "location": 416,
+      "min": 0,
+      "max": 11872
+    }
+  ],
+  "loads": [
+    {
+      "frame": 8935,
+      "location": 410,
+      "pc": 12605696,
+      "object": 7,
+      "scriptPC": 413,
+      "opcode": 131,
+      "id": 88
+    },
+    {
+      "frame": 8936,
+      "location": 410,
+      "pc": 12605696,
+      "object": 8,
+      "scriptPC": 485,
+      "opcode": 131,
+      "id": 89
+    },
+    {
+      "frame": 8936,
+      "location": 410,
+      "pc": 12605696,
+      "object": 9,
+      "scriptPC": 545,
+      "opcode": 130,
+      "id": 121
+    },
+    {
+      "frame": 9406,
+      "location": 411,
+      "pc": 12605696,
+      "object": 10,
+      "scriptPC": 739,
+      "opcode": 130,
+      "id": 113
+    },
+    {
+      "frame": 9406,
+      "location": 411,
+      "pc": 12605696,
+      "object": 12,
+      "scriptPC": 807,
+      "opcode": 131,
+      "id": 214
+    },
+    {
+      "frame": 9406,
+      "location": 411,
+      "pc": 12605696,
+      "object": 13,
+      "scriptPC": 838,
+      "opcode": 131,
+      "id": 82
+    },
+    {
+      "frame": 9406,
+      "location": 411,
+      "pc": 12605696,
+      "object": 14,
+      "scriptPC": 869,
+      "opcode": 131,
+      "id": 82
+    },
+    {
+      "frame": 9406,
+      "location": 411,
+      "pc": 12605696,
+      "object": 15,
+      "scriptPC": 900,
+      "opcode": 131,
+      "id": 214
+    },
+    {
+      "frame": 9406,
+      "location": 411,
+      "pc": 12605696,
+      "object": 16,
+      "scriptPC": 931,
+      "opcode": 131,
+      "id": 59
+    },
+    {
+      "frame": 15983,
+      "location": 416,
+      "pc": 12605696,
+      "object": 12,
+      "scriptPC": 1434,
+      "opcode": 131,
+      "id": 88
+    },
+    {
+      "frame": 15985,
+      "location": 416,
+      "pc": 12605696,
+      "object": 13,
+      "scriptPC": 1465,
+      "opcode": 131,
+      "id": 89
+    },
+    {
+      "frame": 15985,
+      "location": 416,
+      "pc": 12605696,
+      "object": 14,
+      "scriptPC": 1496,
+      "opcode": 131,
+      "id": 109
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 15,
+      "scriptPC": 1526,
+      "opcode": 131,
+      "id": 109
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 16,
+      "scriptPC": 1557,
+      "opcode": 131,
+      "id": 109
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 17,
+      "scriptPC": 1587,
+      "opcode": 131,
+      "id": 59
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 18,
+      "scriptPC": 1621,
+      "opcode": 131,
+      "id": 59
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 19,
+      "scriptPC": 1642,
+      "opcode": 131,
+      "id": 112
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 20,
+      "scriptPC": 1675,
+      "opcode": 131,
+      "id": 112
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 21,
+      "scriptPC": 1698,
+      "opcode": 131,
+      "id": 82
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 22,
+      "scriptPC": 1741,
+      "opcode": 131,
+      "id": 82
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 23,
+      "scriptPC": 1775,
+      "opcode": 131,
+      "id": 213
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 24,
+      "scriptPC": 1816,
+      "opcode": 131,
+      "id": 214
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 25,
+      "scriptPC": 1857,
+      "opcode": 131,
+      "id": 82
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 26,
+      "scriptPC": 1882,
+      "opcode": 131,
+      "id": 214
+    },
+    {
+      "frame": 15988,
+      "location": 416,
+      "pc": 12605696,
+      "object": 27,
+      "scriptPC": 1910,
+      "opcode": 131,
+      "id": 213
+    }
+  ],
+  "dispatches": [
+    {
+      "frame": 8856,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8857,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8858,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8860,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8860,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8861,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8862,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8864,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8864,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8865,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8866,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8868,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8868,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8869,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8870,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        154,
+        3,
+        8,
+        12,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8943,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8947,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8951,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8955,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8955,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8959,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8963,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8967,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8971,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8971,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8975,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8979,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8983,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8987,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8987,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8991,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8995,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 8999,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9003,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9003,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9007,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9011,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9015,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9019,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9019,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9023,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9027,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9031,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9035,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9035,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9039,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9043,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9047,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9051,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9051,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9055,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9059,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9063,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9067,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9067,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9071,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9075,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9079,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9083,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9083,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9087,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9091,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9095,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9099,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9099,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9103,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9107,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9111,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9115,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9115,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9119,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9123,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9127,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9131,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9131,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9135,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9139,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9143,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9147,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9147,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9151,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9155,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9159,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9163,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9163,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9167,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9171,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9175,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9179,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9179,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9183,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9187,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9191,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9195,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9195,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9199,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9203,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9207,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9211,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9211,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9215,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9219,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9223,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9227,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9227,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9231,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9235,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9239,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9243,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9243,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9247,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9251,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9255,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9259,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9259,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9263,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9267,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9271,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9275,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9275,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9279,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9283,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9287,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9291,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9291,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9295,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9299,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9303,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9307,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9307,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9311,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9315,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9319,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9323,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9323,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9327,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9331,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9335,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9339,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9339,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9343,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9347,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9351,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9355,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9355,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9359,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9363,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9367,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9371,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9371,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9375,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9379,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9383,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9387,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9387,
+      "location": 410,
+      "pc": 12606115,
+      "object": 9,
+      "scriptPC": 597,
+      "opcode": 102,
+      "args": [
+        135,
+        207,
+        17,
+        46,
+        0,
+        9
+      ]
+    },
+    {
+      "frame": 9996,
+      "location": 411,
+      "pc": 12606115,
+      "object": 8,
+      "scriptPC": 665,
+      "opcode": 216,
+      "args": [
+        16,
+        64,
+        74,
+        16,
+        1,
+        0
+      ]
+    },
+    {
+      "frame": 9998,
+      "location": 411,
+      "pc": 12606115,
+      "object": 8,
+      "scriptPC": 665,
+      "opcode": 216,
+      "args": [
+        16,
+        64,
+        74,
+        16,
+        1,
+        0
+      ]
+    },
+    {
+      "frame": 15394,
+      "location": 411,
+      "pc": 12606115,
+      "object": 8,
+      "scriptPC": 665,
+      "opcode": 216,
+      "args": [
+        16,
+        64,
+        74,
+        16,
+        1,
+        0
+      ]
+    },
+    {
+      "frame": 15918,
+      "location": 411,
+      "pc": 12606115,
+      "object": 10,
+      "scriptPC": 793,
+      "opcode": 223,
+      "args": [
+        160,
+        1,
+        7,
+        14,
+        0,
+        135
+      ]
+    },
+    {
+      "frame": 16350,
+      "location": 416,
+      "pc": 12606115,
+      "object": 8,
+      "scriptPC": 1120,
+      "opcode": 216,
+      "args": [
+        146,
+        192,
+        74,
+        16,
+        1,
+        0
+      ]
+    },
+    {
+      "frame": 16352,
+      "location": 416,
+      "pc": 12606115,
+      "object": 8,
+      "scriptPC": 1120,
+      "opcode": 216,
+      "args": [
+        146,
+        192,
+        74,
+        16,
+        1,
+        0
+      ]
+    }
+  ],
+  "messages": [],
+  "techs": [
+    {
+      "frame": 11377,
+      "location": 411,
+      "pc": 12687933,
+      "object": 2,
+      "actor": 7,
+      "enemyId": 59,
+      "aiPC": 38995,
+      "operand": 128
+    },
+    {
+      "frame": 12228,
+      "location": 411,
+      "pc": 12687933,
+      "object": 2,
+      "actor": 6,
+      "enemyId": 214,
+      "aiPC": 49220,
+      "operand": 41
+    },
+    {
+      "frame": 12600,
+      "location": 411,
+      "pc": 12687933,
+      "object": 2,
+      "actor": 5,
+      "enemyId": 82,
+      "aiPC": 39889,
+      "operand": 8
+    }
+  ],
+  "pointers": [
+    {
+      "location": 411,
+      "object": 16,
+      "enemy": 59,
+      "pointer": 8133600,
+      "palette": 39
+    },
+    {
+      "location": 416,
+      "object": 17,
+      "enemy": 59,
+      "pointer": 8133600,
+      "palette": 39
+    },
+    {
+      "location": 416,
+      "object": 18,
+      "enemy": 59,
+      "pointer": 8133600,
+      "palette": 39
+    }
+  ],
+  "observedNativeFrames": [
+    {
+      "key": "411:16:20",
+      "samples": 9
+    },
+    {
+      "key": "411:16:21",
+      "samples": 42
+    },
+    {
+      "key": "411:16:19",
+      "samples": 90
+    }
+  ],
+  "shots": [
+    {
+      "key": "entry",
+      "tick": 500,
+      "location": 410,
+      "brightness": 15,
+      "battle": 0,
+      "formation": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "key": "lift-arrival",
+      "tick": 895,
+      "location": 411,
+      "brightness": 15,
+      "battle": 0,
+      "formation": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "key": "battle",
+      "tick": 1541,
+      "location": 411,
+      "brightness": 15,
+      "battle": 1,
+      "formation": [
+        214,
+        82,
+        82,
+        214,
+        59,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "key": "victory",
+      "tick": 6803,
+      "location": 411,
+      "brightness": 15,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "key": "continuation",
+      "tick": 7157,
+      "location": 416,
+      "brightness": 0,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "key": "shared416-180",
+      "tick": 7248,
+      "location": 416,
+      "brightness": 8,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "key": "shared416-360",
+      "tick": 7428,
+      "location": 416,
+      "brightness": 15,
+      "battle": 0,
+      "formation": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "key": "shared416-540",
+      "tick": 7608,
+      "location": 416,
+      "brightness": 15,
+      "battle": 1,
+      "formation": [
+        88,
+        89,
+        109,
+        109,
+        109,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "key": "shared416-720",
+      "tick": 7788,
+      "location": 416,
+      "brightness": 15,
+      "battle": 1,
+      "formation": [
+        88,
+        89,
+        109,
+        109,
+        109,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "key": "shared416-900",
+      "tick": 7968,
+      "location": 416,
+      "brightness": 15,
+      "battle": 1,
+      "formation": [
+        88,
+        89,
+        109,
+        109,
+        109,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "key": "shared-palace-staging",
+      "tick": 8057,
+      "location": 416,
+      "brightness": 15,
+      "battle": 1,
+      "formation": [
+        88,
+        89,
+        109,
+        109,
+        109,
+        255,
+        255,
+        255
+      ]
+    }
+  ],
+  "palette39Unchanged": true,
+  "allAuthoredEventBytesUnchanged": true,
+  "cartridgeUnchanged": true,
+  "scope": "No event, enemy, pose or HP writes after the initial diagnostic checkpoint. Scope of each original scene is bounded in result; this is not whole-chapter or complete-ending acceptance."
+}

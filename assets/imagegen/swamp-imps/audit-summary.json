@@ -1,0 +1,760 @@
+{
+  "baseline": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+  "graphics": {
+    "original": {
+      "offset": 1572864,
+      "decodedBytes": 8704,
+      "compressedBytes": 6152,
+      "decodedSha256": "e2b09698f6c1d55a9c1e1b4ff0cc68330c256f43e75b63b7672c8a791e012ce9",
+      "compressedSha256": "e73c54df117f6c4decdfee1f11695810aaeee3e3c1bc6762b54bddc3886d390b"
+    },
+    "current": {
+      "offset": 1572864,
+      "decodedBytes": 8704,
+      "compressedBytes": 6152,
+      "decodedSha256": "e2b09698f6c1d55a9c1e1b4ff0cc68330c256f43e75b63b7672c8a791e012ce9",
+      "compressedSha256": "e73c54df117f6c4decdfee1f11695810aaeee3e3c1bc6762b54bddc3886d390b"
+    }
+  },
+  "owners": [
+    {
+      "kind": "npc",
+      "id": 78,
+      "name": "Shared field Imp NPC78",
+      "header": [
+        86,
+        43,
+        67,
+        33,
+        0
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 12,
+      "name": "Blue Imp",
+      "header": [
+        86,
+        43,
+        67,
+        33,
+        0,
+        0,
+        246,
+        8,
+        12,
+        33
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 13,
+      "name": "Green Imp",
+      "header": [
+        86,
+        43,
+        63,
+        33,
+        0,
+        0,
+        246,
+        8,
+        12,
+        33
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 14,
+      "name": "Stone Imp",
+      "header": [
+        86,
+        43,
+        167,
+        33,
+        0,
+        0,
+        246,
+        8,
+        10,
+        18
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 15,
+      "name": "Mud Imp",
+      "header": [
+        86,
+        43,
+        68,
+        33,
+        0,
+        0,
+        246,
+        8,
+        16,
+        20
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 16,
+      "name": "Roly",
+      "header": [
+        86,
+        63,
+        63,
+        44,
+        0,
+        0,
+        240,
+        7,
+        14,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 17,
+      "name": "Poly",
+      "header": [
+        86,
+        63,
+        64,
+        44,
+        0,
+        0,
+        240,
+        7,
+        14,
+        65
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 18,
+      "name": "Rolypoly",
+      "header": [
+        86,
+        63,
+        65,
+        100,
+        0,
+        0,
+        240,
+        8,
+        16,
+        33
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 19,
+      "name": "Roly Rider",
+      "header": [
+        86,
+        65,
+        63,
+        83,
+        1,
+        0,
+        236,
+        8,
+        16,
+        17
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 242,
+      "name": "Roly Bomber",
+      "header": [
+        86,
+        63,
+        231,
+        100,
+        0,
+        0,
+        240,
+        8,
+        16,
+        33
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "key": "imp",
+      "asm": 43,
+      "frames": 28,
+      "cells": 4,
+      "assembly": {
+        "originalOffset": 1986680,
+        "currentOffset": 1986680,
+        "bytes": 1120,
+        "sourceExtent": 1120,
+        "originalSha256": "69adc0133524567dc3b5630d90c80944a0037098295e10ec69766b0c72f4c9db",
+        "currentSha256": "69adc0133524567dc3b5630d90c80944a0037098295e10ec69766b0c72f4c9db"
+      },
+      "atlas": {
+        "width": 32,
+        "height": 48,
+        "origin": [
+          16,
+          40
+        ],
+        "columns": 6
+      }
+    },
+    {
+      "key": "roly",
+      "asm": 63,
+      "frames": 26,
+      "cells": 4,
+      "assembly": {
+        "originalOffset": 1920944,
+        "currentOffset": 1920944,
+        "bytes": 1040,
+        "sourceExtent": 1040,
+        "originalSha256": "b6344aaca89e7b63b0dfbca36a38a3135901e5c9af1ca8015144244bd76d4c41",
+        "currentSha256": "b6344aaca89e7b63b0dfbca36a38a3135901e5c9af1ca8015144244bd76d4c41"
+      },
+      "atlas": {
+        "width": 32,
+        "height": 32,
+        "origin": [
+          16,
+          32
+        ],
+        "columns": 6
+      }
+    },
+    {
+      "key": "rider",
+      "asm": 65,
+      "frames": 29,
+      "cells": 8,
+      "assembly": {
+        "originalOffset": 1922504,
+        "currentOffset": 1922504,
+        "bytes": 2320,
+        "sourceExtent": 2320,
+        "originalSha256": "ba99164af7692e4d7bd82b8b012845f0e024ac2be34690b25c6554a807869dc1",
+        "currentSha256": "ba99164af7692e4d7bd82b8b012845f0e024ac2be34690b25c6554a807869dc1"
+      },
+      "atlas": {
+        "width": 32,
+        "height": 64,
+        "origin": [
+          16,
+          64
+        ],
+        "columns": 6
+      }
+    }
+  ],
+  "palettes": [
+    {
+      "id": 63,
+      "colors": [
+        "292910",
+        "ffffff",
+        "ceefad",
+        "7b947b",
+        "94d629",
+        "efc600",
+        "4a635a",
+        "52a500",
+        "ad5a08",
+        "4a7308",
+        "184a42",
+        "393929"
+      ],
+      "outside": []
+    },
+    {
+      "id": 64,
+      "colors": [
+        "292910",
+        "ffffff",
+        "ffce9c",
+        "f7b5e7",
+        "cea563",
+        "94ce31",
+        "ef21a5",
+        "a57b29",
+        "4284d6",
+        "7b5a00",
+        "5a7308",
+        "393929"
+      ],
+      "outside": []
+    },
+    {
+      "id": 65,
+      "colors": [
+        "292910",
+        "ffffff",
+        "dea5ef",
+        "f7b5e7",
+        "ad73ce",
+        "9cad5a",
+        "ef21a5",
+        "a55294",
+        "2963d6",
+        "8c296b",
+        "a53963",
+        "393929"
+      ],
+      "outside": []
+    },
+    {
+      "id": 67,
+      "colors": [
+        "292910",
+        "ffffff",
+        "bddeff",
+        "f7adff",
+        "7ba5ff",
+        "efef6b",
+        "bd6bde",
+        "cea542",
+        "d65231",
+        "3963bd",
+        "84398c",
+        "393929"
+      ],
+      "outside": [
+        {
+          "kind": "npc",
+          "id": 152,
+          "header": [
+            153,
+            146,
+            67,
+            61,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 226,
+          "header": [
+            153,
+            146,
+            67,
+            114,
+            0
+          ]
+        },
+        {
+          "kind": "npc",
+          "id": 230,
+          "header": [
+            46,
+            89,
+            67,
+            139,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "colors": [
+        "292910",
+        "ffffff",
+        "dec684",
+        "8cad84",
+        "9c8c4a",
+        "efef6b",
+        "63846b",
+        "cea542",
+        "d65231",
+        "6b5221",
+        "424a29",
+        "393929"
+      ],
+      "outside": []
+    },
+    {
+      "id": 167,
+      "colors": [
+        "292910",
+        "ffffff",
+        "bdc6a5",
+        "e7848c",
+        "849463",
+        "d6e752",
+        "ad525a",
+        "b58c29",
+        "8c397b",
+        "4a5a39",
+        "8c3139",
+        "393929"
+      ],
+      "outside": [
+        {
+          "kind": "enemy",
+          "id": 27,
+          "header": [
+            85,
+            42,
+            167,
+            31,
+            193,
+            0,
+            200,
+            2,
+            16,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "colors": [
+        "292910",
+        "ffffff",
+        "9c9c84",
+        "5a8c94",
+        "636352",
+        "ffffff",
+        "ffffff",
+        "424a4a",
+        "ffffff",
+        "294239",
+        "a54a42",
+        "393929"
+      ],
+      "outside": []
+    }
+  ],
+  "animations": [
+    {
+      "id": 33,
+      "cases": 32,
+      "groups": [
+        {
+          "key": "imp",
+          "asm": 43,
+          "frames": 28,
+          "validLists": 32,
+          "referencedSlots": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "cases": 28,
+      "groups": [
+        {
+          "key": "roly",
+          "asm": 63,
+          "frames": 26,
+          "validLists": 28,
+          "referencedSlots": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "cases": 40,
+      "groups": [
+        {
+          "key": "rider",
+          "asm": 65,
+          "frames": 29,
+          "validLists": 40,
+          "referencedSlots": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "cases": 32,
+      "groups": [
+        {
+          "key": "roly",
+          "asm": 63,
+          "frames": 26,
+          "validLists": 32,
+          "referencedSlots": [
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ]
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": 19,
+      "owners": [
+        "enemy17"
+      ]
+    },
+    {
+      "id": 31,
+      "owners": [
+        "enemy12",
+        "enemy15",
+        "enemy13",
+        "NPC78"
+      ]
+    },
+    {
+      "id": 33,
+      "owners": [
+        "NPC78",
+        "enemy13"
+      ]
+    },
+    {
+      "id": 34,
+      "owners": [
+        "enemy13"
+      ]
+    },
+    {
+      "id": 35,
+      "owners": [
+        "enemy13",
+        "NPC78"
+      ]
+    },
+    {
+      "id": 36,
+      "owners": [
+        "enemy15",
+        "enemy12"
+      ]
+    },
+    {
+      "id": 39,
+      "owners": [
+        "enemy13",
+        "enemy12"
+      ]
+    },
+    {
+      "id": 47,
+      "owners": [
+        "enemy18"
+      ]
+    },
+    {
+      "id": 80,
+      "owners": [
+        "NPC78"
+      ]
+    },
+    {
+      "id": 108,
+      "owners": [
+        "NPC78"
+      ]
+    },
+    {
+      "id": 112,
+      "owners": [
+        "enemy12",
+        "enemy17",
+        "enemy13",
+        "enemy16",
+        "enemy19"
+      ]
+    },
+    {
+      "id": 113,
+      "owners": [
+        "enemy12"
+      ]
+    },
+    {
+      "id": 119,
+      "owners": [
+        "enemy16",
+        "enemy13",
+        "enemy19"
+      ]
+    },
+    {
+      "id": 176,
+      "owners": [
+        "enemy16"
+      ]
+    },
+    {
+      "id": 179,
+      "owners": [
+        "enemy13"
+      ]
+    },
+    {
+      "id": 238,
+      "owners": [
+        "NPC78"
+      ]
+    },
+    {
+      "id": 254,
+      "owners": [
+        "NPC78"
+      ]
+    },
+    {
+      "id": 266,
+      "owners": [
+        "NPC78"
+      ]
+    },
+    {
+      "id": 339,
+      "owners": [
+        "enemy16"
+      ]
+    },
+    {
+      "id": 387,
+      "owners": [
+        "enemy15"
+      ]
+    },
+    {
+      "id": 388,
+      "owners": [
+        "enemy15"
+      ]
+    },
+    {
+      "id": 390,
+      "owners": [
+        "NPC78"
+      ]
+    },
+    {
+      "id": 391,
+      "owners": [
+        "enemy242"
+      ]
+    },
+    {
+      "id": 392,
+      "owners": [
+        "enemy14"
+      ]
+    },
+    {
+      "id": 394,
+      "owners": [
+        "enemy14"
+      ]
+    },
+    {
+      "id": 446,
+      "owners": [
+        "enemy242"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "tool": "OpenAI Images API",
+  "sourceType": "image-generation",
+  "endpoint": "https://api.openai.com/v1/images/edits",
+  "model": "gpt-image-2.6-sunburst",
+  "parameters": {
+    "model": "gpt-image-2.6-sunburst",
+    "size": "1536x1024",
+    "quality": "high",
+    "output_format": "png",
+    "n": 1
+  },
+  "requestId": "req_f612dd102ebf4af88a1165bf5c0dccf7",
+  "savedFile": "assets/imagegen/wolf/source-base-v1.png",
+  "sha256": "646753673d79983832832ab2091b3208234c7553bccaacae40c8158499bb829d",
+  "created": "2026-11-11T21:17:15.000Z",
+  "prompt": {
+    "file": "assets/imagegen/wolf/prompt-base-v1.txt",
+    "sha256": "dee19d8aa132167f0e65bccaf692e0a97936ff4717d1aea3407b88927b5fbab2"
+  },
+  "referenceImages": [
+    {
+      "file": ".local/qa/ma-beans/reference/wolf-pose-guide-v1.png",
+      "sha256": "8a242d64cae1062947247e1607ec4cd1dfbf3c7d9cb6223fab4ea0c3db4ab3c6"
+    }
+  ],
+  "revisedPrompt": null,
+  "usage": {
+    "input_tokens": 2317,
+    "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 781
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+    },
+    "total_tokens": 3689
+  },
+  "transparentBackground": false,
+  "postGenerationEditing": "None. Source PNG saved unchanged from the API response; background masking, native extraction and palette indexing are recorded by the importer."
+}

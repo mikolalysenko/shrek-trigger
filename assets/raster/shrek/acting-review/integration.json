@@ -1,0 +1,72 @@
+{
+  "status": "Active native source correction; cartridge and independent rendering checks passed",
+  "sha256": "511e120ca47aa4f9c61371d4ecd264d0b1848061a649ee16b162cfe3f6bb109c",
+  "sourceFreeze": "assets/raster/shrek/acting-review/freeze.json",
+  "sourceFreezeSha256": "d2a2a18dcd9e1611a41fa4d0ecf2bb12e3d05c0b2b2d0a5ec1299bb58ededafd",
+  "changedPlayerFrames": [
+    69,
+    70,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    195,
+    219,
+    234
+  ],
+  "semanticCounts": {
+    "source": 60,
+    "adapted": 158,
+    "fallback": 27,
+    "blank": 3
+  },
+  "graphicsBytes": 31008,
+  "packedAssemblyBytes": 4560,
+  "originalAnimationTimingPreserved": true,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "independentBpsReconstruction": true,
+  "checks": {
+    "sourceAndPacking": 9,
+    "javascript": {
+      "playerFrames": 248,
+      "storyFrames": 470
+    },
+    "snes9x": {
+      "playerVariants": 1988,
+      "workshopFrames": 256,
+      "portraits": 7,
+      "frozenShrekFrames": 3
+    },
+    "bsnes": {
+      "displayedPlayerFrames": 106,
+      "allChangedShrekFrames": true,
+      "workshopFrames": 11,
+      "portraits": 7,
+      "frozenShrekFrames": 3
+    },
+    "browser": {
+      "newPoseFilters": true,
+      "nativeFrameSelection": true,
+      "exactReturn": true
+    }
+  },
+  "evidence": [
+    ".local/qa/shrek-acting-source-reproduction.txt",
+    ".local/qa/shrek-acting-contract-tests.txt",
+    ".local/qa/shrek-acting-upload-tests.txt",
+    ".local/qa/party-art-511e120ca47a/report.json",
+    ".local/qa/npc-art-511e120ca47a-shrek-frozen/report.json",
+    ".local/qa/shrek-acting-browser.json",
+    ".local/qa/shrek-acting-staged-reproduction.json"
+  ],
+  "limitations": "27 explicit acting substitutions remain; full story/ending choreography and hardware acceptance remain required.",
+  "stagedSourceReproduction": true,
+  "gallery": {
+    "sha256": "511e120ca47aa4f9c61371d4ecd264d0b1848061a649ee16b162cfe3f6bb109c",
+    "atlases": 49,
+    "frames": 2852
+  }
+}

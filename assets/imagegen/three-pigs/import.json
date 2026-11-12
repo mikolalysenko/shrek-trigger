@@ -1,0 +1,270 @@
+{
+  "key": "three-pigs",
+  "frames": 16,
+  "width": 32,
+  "height": 32,
+  "opaqueColors": 12,
+  "palette": [
+    "3a2932",
+    "b16964",
+    "e4a498",
+    "f8cfb6",
+    "fff0d0",
+    "8b403b",
+    "cb7054",
+    "654b39",
+    "fff1d7",
+    "aa8a4d",
+    "d9bd73",
+    "6a9f9b"
+  ],
+  "samplingPalette": [
+    "2b151a",
+    "a65550",
+    "eca89b",
+    "ffc4b0",
+    "ffe2cd",
+    "95652e",
+    "c18d4a",
+    "5d3e21",
+    "fff1d7",
+    "ac8017",
+    "f3c92b",
+    "9fa2a3"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/three-pigs/source-base-v1.png",
+      "sha256": "fb312c62ddf89fb6c965df2c0fef92a988d121929adae2d72dc77de371c0540b",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1335,
+        1178
+      ],
+      "scale": 0.10619469026548672,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "scaleX": 0.95
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            40,
+            61,
+            266,
+            228
+          ],
+          "componentPixels": 45029
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            378,
+            63,
+            274,
+            226
+          ],
+          "componentPixels": 44198
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            704,
+            66,
+            253,
+            224
+          ],
+          "componentPixels": 39496
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            1043,
+            66,
+            260,
+            223
+          ],
+          "componentPixels": 40254
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            29,
+            346,
+            294,
+            224
+          ],
+          "componentPixels": 44763
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            370,
+            348,
+            278,
+            222
+          ],
+          "componentPixels": 42973
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            698,
+            351,
+            273,
+            219
+          ],
+          "componentPixels": 42734
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            1029,
+            351,
+            273,
+            220
+          ],
+          "componentPixels": 42776
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            29,
+            629,
+            271,
+            225
+          ],
+          "componentPixels": 40633
+        },
+        {
+          "cell": 9,
+          "bounds": [
+            360,
+            629,
+            272,
+            224
+          ],
+          "componentPixels": 41463
+        },
+        {
+          "cell": 10,
+          "bounds": [
+            704,
+            628,
+            259,
+            226
+          ],
+          "componentPixels": 39735
+        },
+        {
+          "cell": 11,
+          "bounds": [
+            1029,
+            628,
+            275,
+            226
+          ],
+          "componentPixels": 42138
+        },
+        {
+          "cell": 12,
+          "bounds": [
+            30,
+            909,
+            287,
+            224
+          ],
+          "componentPixels": 42515
+        },
+        {
+          "cell": 13,
+          "bounds": [
+            355,
+            928,
+            291,
+            200
+          ],
+          "componentPixels": 37670
+        },
+        {
+          "cell": 14,
+          "bounds": [
+            697,
+            937,
+            281,
+            194
+          ],
+          "componentPixels": 39496
+        },
+        {
+          "cell": 15,
+          "bounds": [
+            1025,
+            925,
+            289,
+            208
+          ],
+          "componentPixels": 42560
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    },
+    "walk": {
+      "0": [
+        6,
+        1,
+        {
+          "frame": 7,
+          "flip": true
+        }
+      ],
+      "1": [
+        4,
+        0,
+        5
+      ],
+      "2": [
+        8,
+        9
+      ],
+      "3": [
+        10,
+        11
+      ]
+    },
+    "work": {
+      "3": [
+        12,
+        13
+      ]
+    },
+    "sit": {
+      "1": [
+        14
+      ]
+    },
+    "talk": {
+      "1": [
+        15
+      ]
+    }
+  }
+}

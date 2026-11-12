@@ -1,0 +1,103 @@
+{
+  "sourceModel": "assets/raster/magic-mirror-model/source/Magic Mirror/MagicMirror.obj",
+  "projection": {
+    "sourceWidth": 384,
+    "sourceHeight": 192,
+    "scale": 300,
+    "center": [
+      0,
+      0.02,
+      0
+    ],
+    "nativeWidth": 32,
+    "nativeHeight": 16
+  },
+  "originalGameAnimationClips": 0,
+  "recipes": [
+    {
+      "frame": 0,
+      "role": "power-on spark",
+      "source": 1,
+      "mask": "Only central 5×3 native pixels remain visible.",
+      "sourceBounds": [
+        168,
+        72,
+        60,
+        36
+      ]
+    },
+    {
+      "frame": 1,
+      "role": "power-on horizontal sweep",
+      "source": 1,
+      "mask": "Only native row 8 remains visible.",
+      "sourceBounds": [
+        1,
+        96,
+        383,
+        12
+      ]
+    },
+    {
+      "frame": 2,
+      "role": "static A",
+      "source": 1,
+      "mask": "Only even rows inside the central 16-pixel screen region remain visible.",
+      "sourceBounds": [
+        96,
+        0,
+        192,
+        180
+      ]
+    },
+    {
+      "frame": 3,
+      "role": "static B",
+      "source": 1,
+      "mask": "Horizontal reflection of static A using the same real projected source pixels; native tile flips can share the scan pattern.",
+      "sourceBounds": [
+        96,
+        0,
+        192,
+        180
+      ]
+    },
+    {
+      "frame": 4,
+      "role": "active projection A",
+      "source": 0,
+      "headYawDegrees": -8,
+      "sourceBounds": [
+        0,
+        0,
+        384,
+        192
+      ]
+    },
+    {
+      "frame": 5,
+      "role": "active projection B",
+      "source": 1,
+      "headYawDegrees": 0,
+      "sourceBounds": [
+        0,
+        0,
+        384,
+        192
+      ]
+    },
+    {
+      "frame": 6,
+      "role": "active projection C",
+      "source": 2,
+      "headYawDegrees": 8,
+      "sourceBounds": [
+        0,
+        0,
+        384,
+        192
+      ]
+    }
+  ],
+  "nativeBlankFrame": 7
+}

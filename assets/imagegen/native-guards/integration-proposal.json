@@ -1,0 +1,59 @@
+{
+  "status": "Inactive source proposal; parent owns activation",
+  "baselineSha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+  "sourceSpec": "assets/imagegen/native-guards/import-spec.draft.json",
+  "geometry": "assets/imagegen/native-guards/draft/family.json",
+  "key": "native-guard",
+  "paletteWrites": 0,
+  "graphicsOwners": [
+    {
+      "kind": "npc",
+      "id": 75
+    },
+    {
+      "kind": "enemy",
+      "id": 49
+    },
+    {
+      "kind": "enemy",
+      "id": 50
+    }
+  ],
+  "graphicsPointerAliases": [
+    78
+  ],
+  "assemblyPointerAliases": [
+    33
+  ],
+  "rawBytes": 9088,
+  "rawGrowth": 1984,
+  "compressedBytes": 6646,
+  "compressedGrowth": 927,
+  "assemblyBytes": 1040,
+  "assemblyGrowth": 0,
+  "graphicsSha256": "38c3d7c9d63a491c4c2cbc77e36880fa0387fded25ed0195545ff35a24e449b4",
+  "compressedSha256": "ac55fb7a961d392f6bc4f82f764f8c41a2ffd077ca5cd37cd5fbbd6380dd3e66",
+  "assemblySha256": "8652f1ff0c821a393953c0fea0b071a8ed2f93993731c8a1dcac4d0756b7e9ca",
+  "requiredExplicitStreaming": [
+    78
+  ],
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "unchanged": [
+    "all actor headers",
+    "AI and stats",
+    "animation25 frame/duration programs",
+    "palette14/15 packets",
+    "all scene events",
+    "native cell count4 and 26 slot IDs"
+  ],
+  "bounds": "Preserved opaque bottom per original slot and horizontal center within half pixel; complete generated silhouettes may differ in width/height. Slot25 is36×16 versus original42×26.",
+  "defaultDecodedSizeGuard": "Do not globally bypass; add a selected native gfx78 stream contract only.",
+  "storedRomGrowth": {
+    "newRawStreamBytes": 9088,
+    "compressedDeltaBytes": 927,
+    "assemblyDeltaBytes": 0,
+    "totalBeforeAlignment": 10015,
+    "note": "Original raw7104 bytes are decompressed data, not another stored ROM packet. Selected streaming adds full9088 raw bytes alongside the new compressed packet."
+  }
+}

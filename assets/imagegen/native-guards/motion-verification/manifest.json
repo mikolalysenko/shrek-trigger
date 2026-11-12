@@ -1,0 +1,4078 @@
+{
+  "baselinePath": "assets/imagegen/native-guards/private/baseline-e4c95d048193.sfc",
+  "baselineSha256": "e4c95d0481930abd79320855dbc5a2f8f9f2c018ac2e881c91ee2456d846d001",
+  "privateSha256": "3e391158bb31e62de259da97c188586e47342c3c74279b95dfba08294ceb1aac",
+  "streamTable": 1332084,
+  "streamedGraphics": [
+    78
+  ],
+  "rawPointer": 8134160,
+  "placements": [
+    {
+      "offset": 8126464,
+      "bytes": 6646,
+      "sha256": "ac55fb7a961d392f6bc4f82f764f8c41a2ffd077ca5cd37cd5fbbd6380dd3e66",
+      "label": "Private Guard compressed graphics",
+      "pointer": 2367722
+    },
+    {
+      "offset": 8133120,
+      "bytes": 1040,
+      "sha256": "8652f1ff0c821a393953c0fea0b071a8ed2f93993731c8a1dcac4d0756b7e9ca",
+      "label": "Private Guard assembly",
+      "pointer": 2368355
+    },
+    {
+      "offset": 8134160,
+      "bytes": 9088,
+      "sha256": "38c3d7c9d63a491c4c2cbc77e36880fa0387fded25ed0195545ff35a24e449b4",
+      "label": "Private Guard raw stream",
+      "pointer": 1332318
+    }
+  ],
+  "changedBytes": 16147,
+  "headersAiStatsAnimationPalettesUnchanged": true,
+  "nativeStreamingHelperUnchanged": true,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "privateOnly": true,
+  "status": "Original native animation25 executed for all three owners",
+  "setup": "Diagnostic actor load plus one-time reversible native animation pointer/mode setup. Subsequent CPU execution uses original programs; no per-tick frame, VRAM or OAM writes.",
+  "cases": 84,
+  "ticks": 7200,
+  "maxDelay": 0,
+  "rows": [
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 0,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 0
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 1,
+          "displayed": 1,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 0,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 20,
+          "index": 4
+        },
+        {
+          "frame": 1,
+          "ticks": 10,
+          "index": 5
+        },
+        {
+          "frame": 2,
+          "ticks": 20,
+          "index": 6
+        },
+        {
+          "frame": 1,
+          "ticks": 10,
+          "index": 7
+        }
+      ],
+      "period": 60,
+      "ticks": 120,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 0,
+          "displayed": 0,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 1,
+          "displayed": 1,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 30,
+          "requested": 2,
+          "displayed": 2,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 50,
+          "requested": 1,
+          "displayed": 1,
+          "index": 3,
+          "timer": 10
+        },
+        {
+          "tick": 60,
+          "requested": 0,
+          "displayed": 0,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 80,
+          "requested": 1,
+          "displayed": 1,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 90,
+          "requested": 2,
+          "displayed": 2,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 110,
+          "requested": 1,
+          "displayed": 1,
+          "index": 3,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 0,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 12
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 1,
+          "displayed": 1,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 0,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 16,
+          "ticks": 10,
+          "index": 20
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 16,
+          "displayed": 16,
+          "index": 0,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 0,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 12,
+          "ticks": 31,
+          "index": 24
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 12,
+          "displayed": 12,
+          "index": 0,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 0,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 20,
+          "index": 28
+        },
+        {
+          "frame": 17,
+          "ticks": 5,
+          "index": 29
+        },
+        {
+          "frame": 18,
+          "ticks": 31,
+          "index": 30
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 1,
+          "displayed": 1,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 17,
+          "displayed": 17,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 18,
+          "displayed": 18,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 1,
+          "displayed": 1,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 17,
+          "displayed": 17,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 18,
+          "displayed": 18,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 0,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 12,
+          "ticks": 20,
+          "index": 32
+        },
+        {
+          "frame": 17,
+          "ticks": 5,
+          "index": 33
+        },
+        {
+          "frame": 18,
+          "ticks": 31,
+          "index": 34
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 12,
+          "displayed": 12,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 17,
+          "displayed": 17,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 18,
+          "displayed": 18,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 12,
+          "displayed": 12,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 17,
+          "displayed": 17,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 18,
+          "displayed": 18,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 1,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 4,
+          "ticks": 5,
+          "index": 0
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 4,
+          "displayed": 4,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 1,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 3,
+          "ticks": 20,
+          "index": 4
+        },
+        {
+          "frame": 4,
+          "ticks": 10,
+          "index": 5
+        },
+        {
+          "frame": 5,
+          "ticks": 20,
+          "index": 6
+        },
+        {
+          "frame": 4,
+          "ticks": 10,
+          "index": 7
+        }
+      ],
+      "period": 60,
+      "ticks": 120,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 3,
+          "displayed": 3,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 4,
+          "displayed": 4,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 30,
+          "requested": 5,
+          "displayed": 5,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 50,
+          "requested": 4,
+          "displayed": 4,
+          "index": 3,
+          "timer": 10
+        },
+        {
+          "tick": 60,
+          "requested": 3,
+          "displayed": 3,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 80,
+          "requested": 4,
+          "displayed": 4,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 90,
+          "requested": 5,
+          "displayed": 5,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 110,
+          "requested": 4,
+          "displayed": 4,
+          "index": 3,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 1,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 4,
+          "ticks": 5,
+          "index": 12
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 4,
+          "displayed": 4,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 1,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 16,
+          "ticks": 10,
+          "index": 20
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 16,
+          "displayed": 16,
+          "index": 0,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 1,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 13,
+          "ticks": 31,
+          "index": 24
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 13,
+          "displayed": 13,
+          "index": 0,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 1,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 4,
+          "ticks": 20,
+          "index": 28
+        },
+        {
+          "frame": 19,
+          "ticks": 5,
+          "index": 29
+        },
+        {
+          "frame": 20,
+          "ticks": 31,
+          "index": 30
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 4,
+          "displayed": 4,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 19,
+          "displayed": 19,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 20,
+          "displayed": 20,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 4,
+          "displayed": 4,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 19,
+          "displayed": 19,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 20,
+          "displayed": 20,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 1,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 13,
+          "ticks": 20,
+          "index": 32
+        },
+        {
+          "frame": 19,
+          "ticks": 5,
+          "index": 33
+        },
+        {
+          "frame": 20,
+          "ticks": 31,
+          "index": 34
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 13,
+          "displayed": 13,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 19,
+          "displayed": 19,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 20,
+          "displayed": 20,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 13,
+          "displayed": 13,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 19,
+          "displayed": 19,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 20,
+          "displayed": 20,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 2,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 7,
+          "ticks": 5,
+          "index": 0
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 7,
+          "displayed": 7,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 2,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 6,
+          "ticks": 20,
+          "index": 4
+        },
+        {
+          "frame": 7,
+          "ticks": 10,
+          "index": 5
+        },
+        {
+          "frame": 8,
+          "ticks": 20,
+          "index": 6
+        },
+        {
+          "frame": 7,
+          "ticks": 10,
+          "index": 7
+        }
+      ],
+      "period": 60,
+      "ticks": 120,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 6,
+          "displayed": 6,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 7,
+          "displayed": 7,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 30,
+          "requested": 8,
+          "displayed": 8,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 50,
+          "requested": 7,
+          "displayed": 7,
+          "index": 3,
+          "timer": 10
+        },
+        {
+          "tick": 60,
+          "requested": 6,
+          "displayed": 6,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 80,
+          "requested": 7,
+          "displayed": 7,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 90,
+          "requested": 8,
+          "displayed": 8,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 110,
+          "requested": 7,
+          "displayed": 7,
+          "index": 3,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 2,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 7,
+          "ticks": 5,
+          "index": 12
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 7,
+          "displayed": 7,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 2,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 16,
+          "ticks": 10,
+          "index": 20
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 16,
+          "displayed": 16,
+          "index": 0,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 2,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 15,
+          "ticks": 31,
+          "index": 24
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 15,
+          "displayed": 15,
+          "index": 0,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 2,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 7,
+          "ticks": 20,
+          "index": 28
+        },
+        {
+          "frame": 21,
+          "ticks": 5,
+          "index": 29
+        },
+        {
+          "frame": 22,
+          "ticks": 31,
+          "index": 30
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 7,
+          "displayed": 7,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 21,
+          "displayed": 21,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 22,
+          "displayed": 22,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 7,
+          "displayed": 7,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 21,
+          "displayed": 21,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 22,
+          "displayed": 22,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 2,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 15,
+          "ticks": 20,
+          "index": 32
+        },
+        {
+          "frame": 21,
+          "ticks": 5,
+          "index": 33
+        },
+        {
+          "frame": 22,
+          "ticks": 31,
+          "index": 34
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 15,
+          "displayed": 15,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 21,
+          "displayed": 21,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 22,
+          "displayed": 22,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 15,
+          "displayed": 15,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 21,
+          "displayed": 21,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 22,
+          "displayed": 22,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 3,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 10,
+          "ticks": 5,
+          "index": 0
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 10,
+          "displayed": 10,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 3,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 9,
+          "ticks": 20,
+          "index": 4
+        },
+        {
+          "frame": 10,
+          "ticks": 10,
+          "index": 5
+        },
+        {
+          "frame": 11,
+          "ticks": 20,
+          "index": 6
+        },
+        {
+          "frame": 10,
+          "ticks": 10,
+          "index": 7
+        }
+      ],
+      "period": 60,
+      "ticks": 120,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 9,
+          "displayed": 9,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 10,
+          "displayed": 10,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 30,
+          "requested": 11,
+          "displayed": 11,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 50,
+          "requested": 10,
+          "displayed": 10,
+          "index": 3,
+          "timer": 10
+        },
+        {
+          "tick": 60,
+          "requested": 9,
+          "displayed": 9,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 80,
+          "requested": 10,
+          "displayed": 10,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 90,
+          "requested": 11,
+          "displayed": 11,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 110,
+          "requested": 10,
+          "displayed": 10,
+          "index": 3,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 3,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 10,
+          "ticks": 5,
+          "index": 12
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 10,
+          "displayed": 10,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 3,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 16,
+          "ticks": 10,
+          "index": 20
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 16,
+          "displayed": 16,
+          "index": 0,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 3,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 14,
+          "ticks": 31,
+          "index": 24
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 14,
+          "displayed": 14,
+          "index": 0,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 3,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 10,
+          "ticks": 20,
+          "index": 28
+        },
+        {
+          "frame": 23,
+          "ticks": 5,
+          "index": 29
+        },
+        {
+          "frame": 24,
+          "ticks": 31,
+          "index": 30
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 10,
+          "displayed": 10,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 23,
+          "displayed": 23,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 24,
+          "displayed": 24,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 10,
+          "displayed": 10,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 23,
+          "displayed": 23,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 24,
+          "displayed": 24,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "npc",
+      "id": 75,
+      "palette": 14,
+      "facing": 3,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 14,
+          "ticks": 20,
+          "index": 32
+        },
+        {
+          "frame": 23,
+          "ticks": 5,
+          "index": 33
+        },
+        {
+          "frame": 24,
+          "ticks": 31,
+          "index": 34
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 14,
+          "displayed": 14,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 23,
+          "displayed": 23,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 24,
+          "displayed": 24,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 14,
+          "displayed": 14,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 23,
+          "displayed": 23,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 24,
+          "displayed": 24,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 0,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 0
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 1,
+          "displayed": 1,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 0,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 20,
+          "index": 4
+        },
+        {
+          "frame": 1,
+          "ticks": 10,
+          "index": 5
+        },
+        {
+          "frame": 2,
+          "ticks": 20,
+          "index": 6
+        },
+        {
+          "frame": 1,
+          "ticks": 10,
+          "index": 7
+        }
+      ],
+      "period": 60,
+      "ticks": 120,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 0,
+          "displayed": 0,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 1,
+          "displayed": 1,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 30,
+          "requested": 2,
+          "displayed": 2,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 50,
+          "requested": 1,
+          "displayed": 1,
+          "index": 3,
+          "timer": 10
+        },
+        {
+          "tick": 60,
+          "requested": 0,
+          "displayed": 0,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 80,
+          "requested": 1,
+          "displayed": 1,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 90,
+          "requested": 2,
+          "displayed": 2,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 110,
+          "requested": 1,
+          "displayed": 1,
+          "index": 3,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 0,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 12
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 1,
+          "displayed": 1,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 0,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 16,
+          "ticks": 10,
+          "index": 20
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 16,
+          "displayed": 16,
+          "index": 0,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 0,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 12,
+          "ticks": 31,
+          "index": 24
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 12,
+          "displayed": 12,
+          "index": 0,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 0,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 20,
+          "index": 28
+        },
+        {
+          "frame": 17,
+          "ticks": 5,
+          "index": 29
+        },
+        {
+          "frame": 18,
+          "ticks": 31,
+          "index": 30
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 1,
+          "displayed": 1,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 17,
+          "displayed": 17,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 18,
+          "displayed": 18,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 1,
+          "displayed": 1,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 17,
+          "displayed": 17,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 18,
+          "displayed": 18,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 0,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 12,
+          "ticks": 20,
+          "index": 32
+        },
+        {
+          "frame": 17,
+          "ticks": 5,
+          "index": 33
+        },
+        {
+          "frame": 18,
+          "ticks": 31,
+          "index": 34
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 12,
+          "displayed": 12,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 17,
+          "displayed": 17,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 18,
+          "displayed": 18,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 12,
+          "displayed": 12,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 17,
+          "displayed": 17,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 18,
+          "displayed": 18,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 1,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 4,
+          "ticks": 5,
+          "index": 0
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 4,
+          "displayed": 4,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 1,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 3,
+          "ticks": 20,
+          "index": 4
+        },
+        {
+          "frame": 4,
+          "ticks": 10,
+          "index": 5
+        },
+        {
+          "frame": 5,
+          "ticks": 20,
+          "index": 6
+        },
+        {
+          "frame": 4,
+          "ticks": 10,
+          "index": 7
+        }
+      ],
+      "period": 60,
+      "ticks": 120,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 3,
+          "displayed": 3,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 4,
+          "displayed": 4,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 30,
+          "requested": 5,
+          "displayed": 5,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 50,
+          "requested": 4,
+          "displayed": 4,
+          "index": 3,
+          "timer": 10
+        },
+        {
+          "tick": 60,
+          "requested": 3,
+          "displayed": 3,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 80,
+          "requested": 4,
+          "displayed": 4,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 90,
+          "requested": 5,
+          "displayed": 5,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 110,
+          "requested": 4,
+          "displayed": 4,
+          "index": 3,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 1,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 4,
+          "ticks": 5,
+          "index": 12
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 4,
+          "displayed": 4,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 1,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 16,
+          "ticks": 10,
+          "index": 20
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 16,
+          "displayed": 16,
+          "index": 0,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 1,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 13,
+          "ticks": 31,
+          "index": 24
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 13,
+          "displayed": 13,
+          "index": 0,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 1,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 4,
+          "ticks": 20,
+          "index": 28
+        },
+        {
+          "frame": 19,
+          "ticks": 5,
+          "index": 29
+        },
+        {
+          "frame": 20,
+          "ticks": 31,
+          "index": 30
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 4,
+          "displayed": 4,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 19,
+          "displayed": 19,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 20,
+          "displayed": 20,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 4,
+          "displayed": 4,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 19,
+          "displayed": 19,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 20,
+          "displayed": 20,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 1,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 13,
+          "ticks": 20,
+          "index": 32
+        },
+        {
+          "frame": 19,
+          "ticks": 5,
+          "index": 33
+        },
+        {
+          "frame": 20,
+          "ticks": 31,
+          "index": 34
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 13,
+          "displayed": 13,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 19,
+          "displayed": 19,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 20,
+          "displayed": 20,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 13,
+          "displayed": 13,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 19,
+          "displayed": 19,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 20,
+          "displayed": 20,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 2,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 7,
+          "ticks": 5,
+          "index": 0
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 7,
+          "displayed": 7,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 2,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 6,
+          "ticks": 20,
+          "index": 4
+        },
+        {
+          "frame": 7,
+          "ticks": 10,
+          "index": 5
+        },
+        {
+          "frame": 8,
+          "ticks": 20,
+          "index": 6
+        },
+        {
+          "frame": 7,
+          "ticks": 10,
+          "index": 7
+        }
+      ],
+      "period": 60,
+      "ticks": 120,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 6,
+          "displayed": 6,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 7,
+          "displayed": 7,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 30,
+          "requested": 8,
+          "displayed": 8,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 50,
+          "requested": 7,
+          "displayed": 7,
+          "index": 3,
+          "timer": 10
+        },
+        {
+          "tick": 60,
+          "requested": 6,
+          "displayed": 6,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 80,
+          "requested": 7,
+          "displayed": 7,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 90,
+          "requested": 8,
+          "displayed": 8,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 110,
+          "requested": 7,
+          "displayed": 7,
+          "index": 3,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 2,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 7,
+          "ticks": 5,
+          "index": 12
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 7,
+          "displayed": 7,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 2,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 16,
+          "ticks": 10,
+          "index": 20
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 16,
+          "displayed": 16,
+          "index": 0,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 2,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 15,
+          "ticks": 31,
+          "index": 24
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 15,
+          "displayed": 15,
+          "index": 0,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 2,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 7,
+          "ticks": 20,
+          "index": 28
+        },
+        {
+          "frame": 21,
+          "ticks": 5,
+          "index": 29
+        },
+        {
+          "frame": 22,
+          "ticks": 31,
+          "index": 30
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 7,
+          "displayed": 7,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 21,
+          "displayed": 21,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 22,
+          "displayed": 22,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 7,
+          "displayed": 7,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 21,
+          "displayed": 21,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 22,
+          "displayed": 22,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 2,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 15,
+          "ticks": 20,
+          "index": 32
+        },
+        {
+          "frame": 21,
+          "ticks": 5,
+          "index": 33
+        },
+        {
+          "frame": 22,
+          "ticks": 31,
+          "index": 34
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 15,
+          "displayed": 15,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 21,
+          "displayed": 21,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 22,
+          "displayed": 22,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 15,
+          "displayed": 15,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 21,
+          "displayed": 21,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 22,
+          "displayed": 22,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 3,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 10,
+          "ticks": 5,
+          "index": 0
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 10,
+          "displayed": 10,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 3,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 9,
+          "ticks": 20,
+          "index": 4
+        },
+        {
+          "frame": 10,
+          "ticks": 10,
+          "index": 5
+        },
+        {
+          "frame": 11,
+          "ticks": 20,
+          "index": 6
+        },
+        {
+          "frame": 10,
+          "ticks": 10,
+          "index": 7
+        }
+      ],
+      "period": 60,
+      "ticks": 120,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 9,
+          "displayed": 9,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 10,
+          "displayed": 10,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 30,
+          "requested": 11,
+          "displayed": 11,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 50,
+          "requested": 10,
+          "displayed": 10,
+          "index": 3,
+          "timer": 10
+        },
+        {
+          "tick": 60,
+          "requested": 9,
+          "displayed": 9,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 80,
+          "requested": 10,
+          "displayed": 10,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 90,
+          "requested": 11,
+          "displayed": 11,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 110,
+          "requested": 10,
+          "displayed": 10,
+          "index": 3,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 3,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 10,
+          "ticks": 5,
+          "index": 12
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 10,
+          "displayed": 10,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 3,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 16,
+          "ticks": 10,
+          "index": 20
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 16,
+          "displayed": 16,
+          "index": 0,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 3,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 14,
+          "ticks": 31,
+          "index": 24
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 14,
+          "displayed": 14,
+          "index": 0,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 3,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 10,
+          "ticks": 20,
+          "index": 28
+        },
+        {
+          "frame": 23,
+          "ticks": 5,
+          "index": 29
+        },
+        {
+          "frame": 24,
+          "ticks": 31,
+          "index": 30
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 10,
+          "displayed": 10,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 23,
+          "displayed": 23,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 24,
+          "displayed": 24,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 10,
+          "displayed": 10,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 23,
+          "displayed": 23,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 24,
+          "displayed": 24,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 49,
+      "palette": 14,
+      "facing": 3,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 14,
+          "ticks": 20,
+          "index": 32
+        },
+        {
+          "frame": 23,
+          "ticks": 5,
+          "index": 33
+        },
+        {
+          "frame": 24,
+          "ticks": 31,
+          "index": 34
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 14,
+          "displayed": 14,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 23,
+          "displayed": 23,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 24,
+          "displayed": 24,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 14,
+          "displayed": 14,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 23,
+          "displayed": 23,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 24,
+          "displayed": 24,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 0,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 0
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 1,
+          "displayed": 1,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 0,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 0,
+          "ticks": 20,
+          "index": 4
+        },
+        {
+          "frame": 1,
+          "ticks": 10,
+          "index": 5
+        },
+        {
+          "frame": 2,
+          "ticks": 20,
+          "index": 6
+        },
+        {
+          "frame": 1,
+          "ticks": 10,
+          "index": 7
+        }
+      ],
+      "period": 60,
+      "ticks": 120,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 0,
+          "displayed": 0,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 1,
+          "displayed": 1,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 30,
+          "requested": 2,
+          "displayed": 2,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 50,
+          "requested": 1,
+          "displayed": 1,
+          "index": 3,
+          "timer": 10
+        },
+        {
+          "tick": 60,
+          "requested": 0,
+          "displayed": 0,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 80,
+          "requested": 1,
+          "displayed": 1,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 90,
+          "requested": 2,
+          "displayed": 2,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 110,
+          "requested": 1,
+          "displayed": 1,
+          "index": 3,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 0,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 5,
+          "index": 12
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 1,
+          "displayed": 1,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 0,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 16,
+          "ticks": 10,
+          "index": 20
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 16,
+          "displayed": 16,
+          "index": 0,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 0,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 12,
+          "ticks": 31,
+          "index": 24
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 12,
+          "displayed": 12,
+          "index": 0,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 0,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 1,
+          "ticks": 20,
+          "index": 28
+        },
+        {
+          "frame": 17,
+          "ticks": 5,
+          "index": 29
+        },
+        {
+          "frame": 18,
+          "ticks": 31,
+          "index": 30
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 1,
+          "displayed": 1,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 17,
+          "displayed": 17,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 18,
+          "displayed": 18,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 1,
+          "displayed": 1,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 17,
+          "displayed": 17,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 18,
+          "displayed": 18,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 0,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 12,
+          "ticks": 20,
+          "index": 32
+        },
+        {
+          "frame": 17,
+          "ticks": 5,
+          "index": 33
+        },
+        {
+          "frame": 18,
+          "ticks": 31,
+          "index": 34
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 12,
+          "displayed": 12,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 17,
+          "displayed": 17,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 18,
+          "displayed": 18,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 12,
+          "displayed": 12,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 17,
+          "displayed": 17,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 18,
+          "displayed": 18,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 1,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 4,
+          "ticks": 5,
+          "index": 0
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 4,
+          "displayed": 4,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 1,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 3,
+          "ticks": 20,
+          "index": 4
+        },
+        {
+          "frame": 4,
+          "ticks": 10,
+          "index": 5
+        },
+        {
+          "frame": 5,
+          "ticks": 20,
+          "index": 6
+        },
+        {
+          "frame": 4,
+          "ticks": 10,
+          "index": 7
+        }
+      ],
+      "period": 60,
+      "ticks": 120,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 3,
+          "displayed": 3,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 4,
+          "displayed": 4,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 30,
+          "requested": 5,
+          "displayed": 5,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 50,
+          "requested": 4,
+          "displayed": 4,
+          "index": 3,
+          "timer": 10
+        },
+        {
+          "tick": 60,
+          "requested": 3,
+          "displayed": 3,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 80,
+          "requested": 4,
+          "displayed": 4,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 90,
+          "requested": 5,
+          "displayed": 5,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 110,
+          "requested": 4,
+          "displayed": 4,
+          "index": 3,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 1,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 4,
+          "ticks": 5,
+          "index": 12
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 4,
+          "displayed": 4,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 1,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 16,
+          "ticks": 10,
+          "index": 20
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 16,
+          "displayed": 16,
+          "index": 0,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 1,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 13,
+          "ticks": 31,
+          "index": 24
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 13,
+          "displayed": 13,
+          "index": 0,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 1,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 4,
+          "ticks": 20,
+          "index": 28
+        },
+        {
+          "frame": 19,
+          "ticks": 5,
+          "index": 29
+        },
+        {
+          "frame": 20,
+          "ticks": 31,
+          "index": 30
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 4,
+          "displayed": 4,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 19,
+          "displayed": 19,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 20,
+          "displayed": 20,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 4,
+          "displayed": 4,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 19,
+          "displayed": 19,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 20,
+          "displayed": 20,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 1,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 13,
+          "ticks": 20,
+          "index": 32
+        },
+        {
+          "frame": 19,
+          "ticks": 5,
+          "index": 33
+        },
+        {
+          "frame": 20,
+          "ticks": 31,
+          "index": 34
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 13,
+          "displayed": 13,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 19,
+          "displayed": 19,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 20,
+          "displayed": 20,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 13,
+          "displayed": 13,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 19,
+          "displayed": 19,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 20,
+          "displayed": 20,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 2,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 7,
+          "ticks": 5,
+          "index": 0
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 7,
+          "displayed": 7,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 2,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 6,
+          "ticks": 20,
+          "index": 4
+        },
+        {
+          "frame": 7,
+          "ticks": 10,
+          "index": 5
+        },
+        {
+          "frame": 8,
+          "ticks": 20,
+          "index": 6
+        },
+        {
+          "frame": 7,
+          "ticks": 10,
+          "index": 7
+        }
+      ],
+      "period": 60,
+      "ticks": 120,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 6,
+          "displayed": 6,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 7,
+          "displayed": 7,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 30,
+          "requested": 8,
+          "displayed": 8,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 50,
+          "requested": 7,
+          "displayed": 7,
+          "index": 3,
+          "timer": 10
+        },
+        {
+          "tick": 60,
+          "requested": 6,
+          "displayed": 6,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 80,
+          "requested": 7,
+          "displayed": 7,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 90,
+          "requested": 8,
+          "displayed": 8,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 110,
+          "requested": 7,
+          "displayed": 7,
+          "index": 3,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 2,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 7,
+          "ticks": 5,
+          "index": 12
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 7,
+          "displayed": 7,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 2,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 16,
+          "ticks": 10,
+          "index": 20
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 16,
+          "displayed": 16,
+          "index": 0,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 2,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 15,
+          "ticks": 31,
+          "index": 24
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 15,
+          "displayed": 15,
+          "index": 0,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 2,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 7,
+          "ticks": 20,
+          "index": 28
+        },
+        {
+          "frame": 21,
+          "ticks": 5,
+          "index": 29
+        },
+        {
+          "frame": 22,
+          "ticks": 31,
+          "index": 30
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 7,
+          "displayed": 7,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 21,
+          "displayed": 21,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 22,
+          "displayed": 22,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 7,
+          "displayed": 7,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 21,
+          "displayed": 21,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 22,
+          "displayed": 22,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 2,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 15,
+          "ticks": 20,
+          "index": 32
+        },
+        {
+          "frame": 21,
+          "ticks": 5,
+          "index": 33
+        },
+        {
+          "frame": 22,
+          "ticks": 31,
+          "index": 34
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 15,
+          "displayed": 15,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 21,
+          "displayed": 21,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 22,
+          "displayed": 22,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 15,
+          "displayed": 15,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 21,
+          "displayed": 21,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 22,
+          "displayed": 22,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 3,
+      "mode": 0,
+      "list": [
+        {
+          "frame": 10,
+          "ticks": 5,
+          "index": 0
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 10,
+          "displayed": 10,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 3,
+      "mode": 1,
+      "list": [
+        {
+          "frame": 9,
+          "ticks": 20,
+          "index": 4
+        },
+        {
+          "frame": 10,
+          "ticks": 10,
+          "index": 5
+        },
+        {
+          "frame": 11,
+          "ticks": 20,
+          "index": 6
+        },
+        {
+          "frame": 10,
+          "ticks": 10,
+          "index": 7
+        }
+      ],
+      "period": 60,
+      "ticks": 120,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 9,
+          "displayed": 9,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 10,
+          "displayed": 10,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 30,
+          "requested": 11,
+          "displayed": 11,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 50,
+          "requested": 10,
+          "displayed": 10,
+          "index": 3,
+          "timer": 10
+        },
+        {
+          "tick": 60,
+          "requested": 9,
+          "displayed": 9,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 80,
+          "requested": 10,
+          "displayed": 10,
+          "index": 1,
+          "timer": 10
+        },
+        {
+          "tick": 90,
+          "requested": 11,
+          "displayed": 11,
+          "index": 2,
+          "timer": 20
+        },
+        {
+          "tick": 110,
+          "requested": 10,
+          "displayed": 10,
+          "index": 3,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 3,
+      "mode": 3,
+      "list": [
+        {
+          "frame": 10,
+          "ticks": 5,
+          "index": 12
+        }
+      ],
+      "period": 5,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 10,
+          "displayed": 10,
+          "index": 0,
+          "timer": 5
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 3,
+      "mode": 5,
+      "list": [
+        {
+          "frame": 16,
+          "ticks": 10,
+          "index": 20
+        }
+      ],
+      "period": 10,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 16,
+          "displayed": 16,
+          "index": 0,
+          "timer": 10
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 3,
+      "mode": 6,
+      "list": [
+        {
+          "frame": 14,
+          "ticks": 31,
+          "index": 24
+        }
+      ],
+      "period": 31,
+      "ticks": 64,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 14,
+          "displayed": 14,
+          "index": 0,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 3,
+      "mode": 7,
+      "list": [
+        {
+          "frame": 10,
+          "ticks": 20,
+          "index": 28
+        },
+        {
+          "frame": 23,
+          "ticks": 5,
+          "index": 29
+        },
+        {
+          "frame": 24,
+          "ticks": 31,
+          "index": 30
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 10,
+          "displayed": 10,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 23,
+          "displayed": 23,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 24,
+          "displayed": 24,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 10,
+          "displayed": 10,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 23,
+          "displayed": 23,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 24,
+          "displayed": 24,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 50,
+      "palette": 15,
+      "facing": 3,
+      "mode": 8,
+      "list": [
+        {
+          "frame": 14,
+          "ticks": 20,
+          "index": 32
+        },
+        {
+          "frame": 23,
+          "ticks": 5,
+          "index": 33
+        },
+        {
+          "frame": 24,
+          "ticks": 31,
+          "index": 34
+        }
+      ],
+      "period": 56,
+      "ticks": 112,
+      "maxDelay": 0,
+      "transitions": [
+        {
+          "tick": 0,
+          "requested": 14,
+          "displayed": 14,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 20,
+          "requested": 23,
+          "displayed": 23,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 25,
+          "requested": 24,
+          "displayed": 24,
+          "index": 2,
+          "timer": 31
+        },
+        {
+          "tick": 56,
+          "requested": 14,
+          "displayed": 14,
+          "index": 0,
+          "timer": 20
+        },
+        {
+          "tick": 76,
+          "requested": 23,
+          "displayed": 23,
+          "index": 1,
+          "timer": 5
+        },
+        {
+          "tick": 81,
+          "requested": 24,
+          "displayed": 24,
+          "index": 2,
+          "timer": 31
+        }
+      ]
+    }
+  ]
+}

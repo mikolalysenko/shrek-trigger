@@ -1,0 +1,561 @@
+{
+  "status": "Passed",
+  "name": "side-rooms",
+  "baseline": {
+    "path": "assets/imagegen/palace-hexer/private-baseline.sfc",
+    "sha256": "21abd2c3bb7bf8e2b7116433753701a4f375a9c8eb39c399ba6666ff824fb361",
+    "sourcePath": ".local/shrek-trigger.sfc",
+    "scope": "Pinned published cartridge; read-only audit; private copy excluded from source handoff"
+  },
+  "privateRomSha256": "7969140b436eb39bcfced1aa46fae5fa12f46e32260a36388ad2ec1cea7c1f7a",
+  "checkpoint": {
+    "id": 406,
+    "x": 39,
+    "y": 13,
+    "loadOnly": true,
+    "story": 200,
+    "party": [
+      0,
+      1,
+      2
+    ],
+    "endgameKit": true,
+    "clearedFlags": [
+      "7F0162",
+      "7F0163"
+    ],
+    "endingFlag7F00F8": 0
+  },
+  "nativeTicks": 1200,
+  "result": {
+    "scope": "Original location initialization and native actor staging only. No local encounter or chapter continuation is claimed."
+  },
+  "party": [
+    {
+      "id": 0,
+      "hp": 999
+    },
+    {
+      "id": 1,
+      "hp": 999
+    },
+    {
+      "id": 2,
+      "hp": 999
+    }
+  ],
+  "heapMax": 4000,
+  "heapByLocation": [
+    {
+      "location": 2,
+      "min": 1248,
+      "max": 1248
+    },
+    {
+      "location": 406,
+      "min": 320,
+      "max": 4000
+    }
+  ],
+  "loads": [
+    {
+      "frame": 8934,
+      "location": 406,
+      "pc": 12605696,
+      "object": 10,
+      "scriptPC": 1280,
+      "opcode": 130,
+      "id": 167
+    },
+    {
+      "frame": 8934,
+      "location": 406,
+      "pc": 12605696,
+      "object": 11,
+      "scriptPC": 1327,
+      "opcode": 131,
+      "id": 88
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 12,
+      "scriptPC": 1364,
+      "opcode": 131,
+      "id": 89
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 13,
+      "scriptPC": 1377,
+      "opcode": 131,
+      "id": 213
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 14,
+      "scriptPC": 1427,
+      "opcode": 131,
+      "id": 213
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 15,
+      "scriptPC": 1437,
+      "opcode": 131,
+      "id": 59
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 16,
+      "scriptPC": 1465,
+      "opcode": 130,
+      "id": 167
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 17,
+      "scriptPC": 1512,
+      "opcode": 131,
+      "id": 88
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 18,
+      "scriptPC": 1525,
+      "opcode": 131,
+      "id": 89
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 19,
+      "scriptPC": 1538,
+      "opcode": 131,
+      "id": 214
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 20,
+      "scriptPC": 1588,
+      "opcode": 131,
+      "id": 214
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 21,
+      "scriptPC": 1638,
+      "opcode": 131,
+      "id": 59
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 23,
+      "scriptPC": 1713,
+      "opcode": 131,
+      "id": 213
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 24,
+      "scriptPC": 1748,
+      "opcode": 131,
+      "id": 214
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 25,
+      "scriptPC": 1783,
+      "opcode": 131,
+      "id": 82
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 27,
+      "scriptPC": 1902,
+      "opcode": 131,
+      "id": 213
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 28,
+      "scriptPC": 1937,
+      "opcode": 131,
+      "id": 214
+    },
+    {
+      "frame": 8936,
+      "location": 406,
+      "pc": 12605696,
+      "object": 29,
+      "scriptPC": 1972,
+      "opcode": 131,
+      "id": 82
+    }
+  ],
+  "dispatches": [
+    {
+      "frame": 8856,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8857,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8858,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8860,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8860,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8861,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8862,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8864,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8864,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8865,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8866,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8868,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8868,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8869,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 8870,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        150,
+        3,
+        39,
+        13,
+        178,
+        74
+      ]
+    },
+    {
+      "frame": 9039,
+      "location": 406,
+      "pc": 12606115,
+      "object": 7,
+      "scriptPC": 1097,
+      "opcode": 216,
+      "args": [
+        16,
+        64,
+        119,
+        6,
+        0,
+        119
+      ]
+    }
+  ],
+  "messages": [],
+  "techs": [
+    {
+      "frame": 9246,
+      "location": 406,
+      "pc": 12687933,
+      "object": 13,
+      "actor": 7,
+      "enemyId": 59,
+      "aiPC": 39011,
+      "operand": 2
+    }
+  ],
+  "pointers": [
+    {
+      "location": 406,
+      "object": 15,
+      "enemy": 59,
+      "pointer": 8133600,
+      "palette": 39
+    },
+    {
+      "location": 406,
+      "object": 21,
+      "enemy": 59,
+      "pointer": 8133600,
+      "palette": 39
+    }
+  ],
+  "observedNativeFrames": [
+    {
+      "key": "406:15:4",
+      "samples": 11
+    },
+    {
+      "key": "406:15:5",
+      "samples": 1
+    }
+  ],
+  "shots": [
+    {
+      "key": "entry",
+      "tick": 500,
+      "location": 406,
+      "brightness": 15,
+      "battle": 1,
+      "formation": [
+        255,
+        255,
+        213,
+        213,
+        59,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "key": "native-staging",
+      "tick": 1200,
+      "location": 406,
+      "brightness": 15,
+      "battle": 1,
+      "formation": [
+        255,
+        255,
+        213,
+        213,
+        59,
+        255,
+        255,
+        255
+      ]
+    }
+  ],
+  "palette39Unchanged": true,
+  "allAuthoredEventBytesUnchanged": true,
+  "cartridgeUnchanged": true,
+  "scope": "No event, enemy, pose or HP writes after the initial diagnostic checkpoint. Scope of each original scene is bounded in result; this is not whole-chapter or complete-ending acceptance."
+}

@@ -1,0 +1,2629 @@
+{
+  "status": "Original immutable resource/geometry audit; generated mapping follows visual review",
+  "family": {
+    "key": "crumb-hunters",
+    "name": "Crumb Hunters",
+    "gfx": 79,
+    "groups": [
+      {
+        "art": "crumb-hunter",
+        "asm": 34,
+        "size": 0,
+        "width": 32,
+        "height": 32,
+        "frames": 21,
+        "frameOffsets": {
+          "12": [
+            0,
+            3
+          ]
+        }
+      }
+    ],
+    "actors": [
+      {
+        "key": "crumb-hunter",
+        "name": "Crumb Hunter",
+        "short": "CrumbHunt",
+        "enemy": 1,
+        "npcs": [
+          76
+        ],
+        "asm": 34,
+        "palette": 16,
+        "animation": 26,
+        "colors": [
+          "292c30",
+          "4c5140",
+          "7e8556",
+          "b3b77c",
+          "e2d8a0",
+          "573b38",
+          "8c5341",
+          "bd8553",
+          "a3423e",
+          "ef8660",
+          "f7d8a4",
+          "fff0ce"
+        ]
+      },
+      {
+        "key": "kiln-hunter",
+        "name": "Kiln Hunter",
+        "short": "Kiln Hunter",
+        "enemy": 61,
+        "asm": 34,
+        "palette": 17,
+        "animation": 26,
+        "colors": [
+          "2b2730",
+          "514449",
+          "846566",
+          "b28a7b",
+          "dbb795",
+          "483b46",
+          "795460",
+          "ab7a80",
+          "a63d4b",
+          "ec7b6b",
+          "f5cfb0",
+          "fff0d2"
+        ]
+      }
+    ]
+  },
+  "paletteRecords": [
+    {
+      "palette": 16,
+      "enemy": 1,
+      "offset": 2359680,
+      "aliases": [
+        16
+      ],
+      "sha256": "acd6be23b516aecc60a118071775f02cf2eecaa6b1201be898fdb6be83cd6add"
+    },
+    {
+      "palette": 17,
+      "enemy": 61,
+      "offset": 2359704,
+      "aliases": [
+        17
+      ],
+      "sha256": "a8b7e6060c3d0c1e12e69e513d6c98be4700bddc078eea1666cd3f84361a27d7"
+    }
+  ],
+  "source": {
+    "graphicsOffset": 1586310,
+    "graphicsBytes": 3808,
+    "compressedBytes": 3266,
+    "assemblyOffset": 1901584,
+    "assemblyBytes": 840,
+    "paletteOffset": 2359680,
+    "animationOffset": 2381280,
+    "animationBytes": 144,
+    "animationProgram": [
+      1,
+      255,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      255,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      255,
+      0,
+      0,
+      0,
+      16,
+      255,
+      0,
+      0,
+      12,
+      255,
+      0,
+      0,
+      12,
+      17,
+      255,
+      0,
+      12,
+      17,
+      255,
+      0,
+      4,
+      255,
+      0,
+      0,
+      3,
+      4,
+      5,
+      4,
+      255,
+      0,
+      0,
+      0,
+      3,
+      4,
+      5,
+      4,
+      255,
+      0,
+      0,
+      0,
+      16,
+      255,
+      0,
+      0,
+      13,
+      255,
+      0,
+      0,
+      13,
+      18,
+      255,
+      0,
+      13,
+      18,
+      255,
+      0,
+      7,
+      255,
+      0,
+      0,
+      6,
+      7,
+      8,
+      7,
+      255,
+      0,
+      0,
+      0,
+      6,
+      7,
+      8,
+      7,
+      255,
+      0,
+      0,
+      0,
+      16,
+      255,
+      0,
+      0,
+      14,
+      255,
+      0,
+      0,
+      14,
+      19,
+      255,
+      0,
+      14,
+      19,
+      255,
+      0,
+      10,
+      255,
+      0,
+      0,
+      9,
+      10,
+      11,
+      10,
+      255,
+      0,
+      0,
+      0,
+      9,
+      10,
+      11,
+      10,
+      255,
+      0,
+      0,
+      0,
+      16,
+      255,
+      0,
+      0,
+      15,
+      255,
+      0,
+      0,
+      15,
+      20,
+      255,
+      0,
+      15,
+      20,
+      255,
+      0
+    ],
+    "animationSha256": "879d7ef3f98bb349142fbba50b8f3a741ac7b4453cd528081e6b598764e2cf5e",
+    "durationOffset": 2406344,
+    "durationBytes": 36,
+    "durationProgram": [
+      5,
+      0,
+      0,
+      0,
+      15,
+      10,
+      15,
+      10,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      31,
+      0,
+      0,
+      0,
+      5,
+      5,
+      0,
+      0,
+      31,
+      31,
+      0,
+      0
+    ],
+    "durationSha256": "ff1631224a85b0f7d1ff2d09a57af1d1e3db90cf9cc290ef79e48892b98abf57"
+  },
+  "animationDirections": [
+    {
+      "facing": 0,
+      "program": [
+        1,
+        255,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        255,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        255,
+        0,
+        0,
+        0,
+        16,
+        255,
+        0,
+        0,
+        12,
+        255,
+        0,
+        0,
+        12,
+        17,
+        255,
+        0,
+        12,
+        17,
+        255,
+        0
+      ],
+      "times": [
+        5,
+        0,
+        0,
+        0,
+        15,
+        10,
+        15,
+        10,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        31,
+        0,
+        0,
+        0,
+        5,
+        5,
+        0,
+        0,
+        31,
+        31,
+        0,
+        0
+      ],
+      "timing": "One shared duration list applies to all four facings"
+    },
+    {
+      "facing": 1,
+      "program": [
+        4,
+        255,
+        0,
+        0,
+        3,
+        4,
+        5,
+        4,
+        255,
+        0,
+        0,
+        0,
+        3,
+        4,
+        5,
+        4,
+        255,
+        0,
+        0,
+        0,
+        16,
+        255,
+        0,
+        0,
+        13,
+        255,
+        0,
+        0,
+        13,
+        18,
+        255,
+        0,
+        13,
+        18,
+        255,
+        0
+      ],
+      "times": [
+        5,
+        0,
+        0,
+        0,
+        15,
+        10,
+        15,
+        10,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        31,
+        0,
+        0,
+        0,
+        5,
+        5,
+        0,
+        0,
+        31,
+        31,
+        0,
+        0
+      ],
+      "timing": "One shared duration list applies to all four facings"
+    },
+    {
+      "facing": 2,
+      "program": [
+        7,
+        255,
+        0,
+        0,
+        6,
+        7,
+        8,
+        7,
+        255,
+        0,
+        0,
+        0,
+        6,
+        7,
+        8,
+        7,
+        255,
+        0,
+        0,
+        0,
+        16,
+        255,
+        0,
+        0,
+        14,
+        255,
+        0,
+        0,
+        14,
+        19,
+        255,
+        0,
+        14,
+        19,
+        255,
+        0
+      ],
+      "times": [
+        5,
+        0,
+        0,
+        0,
+        15,
+        10,
+        15,
+        10,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        31,
+        0,
+        0,
+        0,
+        5,
+        5,
+        0,
+        0,
+        31,
+        31,
+        0,
+        0
+      ],
+      "timing": "One shared duration list applies to all four facings"
+    },
+    {
+      "facing": 3,
+      "program": [
+        10,
+        255,
+        0,
+        0,
+        9,
+        10,
+        11,
+        10,
+        255,
+        0,
+        0,
+        0,
+        9,
+        10,
+        11,
+        10,
+        255,
+        0,
+        0,
+        0,
+        16,
+        255,
+        0,
+        0,
+        15,
+        255,
+        0,
+        0,
+        15,
+        20,
+        255,
+        0,
+        15,
+        20,
+        255,
+        0
+      ],
+      "times": [
+        5,
+        0,
+        0,
+        0,
+        15,
+        10,
+        15,
+        10,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        31,
+        0,
+        0,
+        0,
+        5,
+        5,
+        0,
+        0,
+        31,
+        31,
+        0,
+        0
+      ],
+      "timing": "One shared duration list applies to all four facings"
+    }
+  ],
+  "owners": {
+    "0/79": [
+      {
+        "kind": "npc",
+        "id": 76
+      },
+      {
+        "kind": "enemy",
+        "id": 1
+      },
+      {
+        "kind": "enemy",
+        "id": 61
+      }
+    ],
+    "1/34": [
+      {
+        "kind": "npc",
+        "id": 76
+      },
+      {
+        "kind": "enemy",
+        "id": 1
+      },
+      {
+        "kind": "enemy",
+        "id": 61
+      }
+    ],
+    "2/16": [
+      {
+        "kind": "npc",
+        "id": 76
+      },
+      {
+        "kind": "enemy",
+        "id": 1
+      }
+    ],
+    "2/17": [
+      {
+        "kind": "enemy",
+        "id": 61
+      }
+    ]
+  },
+  "headers": [
+    {
+      "id": 1,
+      "bytes": [
+        79,
+        34,
+        16,
+        26,
+        0,
+        0,
+        240,
+        12,
+        12,
+        18
+      ],
+      "ai": {
+        "offset": 822619,
+        "bytes": 84,
+        "sha256": "5f966f2b787423cdef653ea70ba42549ee9cba999388258f4d5af1ea2a98c658"
+      }
+    },
+    {
+      "id": 61,
+      "bytes": [
+        79,
+        34,
+        17,
+        26,
+        0,
+        0,
+        240,
+        6,
+        6,
+        17
+      ],
+      "ai": {
+        "offset": 825486,
+        "bytes": 84,
+        "sha256": "70826f36c725fca95e15e0b11d744388d523716c1f6b3b2d716232f271858c99"
+      }
+    }
+  ],
+  "npcHeaders": [
+    {
+      "id": 76,
+      "bytes": [
+        79,
+        34,
+        16,
+        26,
+        0
+      ]
+    }
+  ],
+  "normalizedMirrorPairs": [
+    [
+      9,
+      6
+    ],
+    [
+      10,
+      7
+    ],
+    [
+      11,
+      8
+    ],
+    [
+      15,
+      14
+    ],
+    [
+      20,
+      19
+    ]
+  ],
+  "normalizedCopyPairs": [],
+  "frames": [
+    {
+      "frame": 0,
+      "xy": [
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "opaquePixels": 356,
+      "bounds": [
+        -8,
+        -30,
+        9,
+        -1
+      ],
+      "pixelSha256": "c83f65b371ca27060299d7b374b44f523306e798d1d6d6b4d436af1b811550bc"
+    },
+    {
+      "frame": 1,
+      "xy": [
+        [
+          0,
+          -31
+        ],
+        [
+          -16,
+          -31
+        ],
+        [
+          0,
+          -15
+        ],
+        [
+          -16,
+          -15
+        ]
+      ],
+      "opaquePixels": 391,
+      "bounds": [
+        -9,
+        -29,
+        10,
+        0
+      ],
+      "pixelSha256": "ae8a458d1b9d3a2f5cbbdbf8bb1cb7db6d098e3a344039d0a5cec12eb03ef6fe"
+    },
+    {
+      "frame": 2,
+      "xy": [
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "opaquePixels": 356,
+      "bounds": [
+        -8,
+        -30,
+        9,
+        -1
+      ],
+      "pixelSha256": "b7ae11bcf1e248796e91139d91674b6eec61f1c5e06da12bd81c104f3a40adfd"
+    },
+    {
+      "frame": 3,
+      "xy": [
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "opaquePixels": 366,
+      "bounds": [
+        -8,
+        -32,
+        8,
+        -2
+      ],
+      "pixelSha256": "73173ec5f56c4149b1a25a1a276c4cd6bee4a31513074106efed676207046a2c"
+    },
+    {
+      "frame": 4,
+      "xy": [
+        [
+          0,
+          -31
+        ],
+        [
+          -16,
+          -31
+        ],
+        [
+          0,
+          -15
+        ],
+        [
+          -16,
+          -15
+        ]
+      ],
+      "opaquePixels": 415,
+      "bounds": [
+        -9,
+        -31,
+        10,
+        0
+      ],
+      "pixelSha256": "873dedc9f243a7492dcebd2c79261d4d7dfc20929f63388a3e16e01ac078d20d"
+    },
+    {
+      "frame": 5,
+      "xy": [
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          1,
+          -16
+        ],
+        [
+          -15,
+          -16
+        ]
+      ],
+      "opaquePixels": 366,
+      "bounds": [
+        -7,
+        -32,
+        9,
+        -2
+      ],
+      "pixelSha256": "4822c822b811094e99fe14204a8fba6693e3d82442c46311d478a6554fe52a23"
+    },
+    {
+      "frame": 6,
+      "xy": [
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ]
+      ],
+      "opaquePixels": 371,
+      "bounds": [
+        -8,
+        -30,
+        8,
+        0
+      ],
+      "pixelSha256": "68322d1afcadddcb6ef97fd75aa5f75ba6716b1c286e2c937e6b9e94375978b6"
+    },
+    {
+      "frame": 7,
+      "xy": [
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -31
+        ],
+        [
+          -16,
+          -31
+        ]
+      ],
+      "opaquePixels": 347,
+      "bounds": [
+        -8,
+        -29,
+        8,
+        0
+      ],
+      "pixelSha256": "fceab6981a7cb88414667b8a0ac9223cfe4c805cd7f0394feb1be096fa3d6342"
+    },
+    {
+      "frame": 8,
+      "xy": [
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ]
+      ],
+      "opaquePixels": 377,
+      "bounds": [
+        -8,
+        -30,
+        8,
+        0
+      ],
+      "pixelSha256": "10e1d57e4a109e7fdaf8ec1ad08efc93953d9db4a50ab4e4649f2f8ddbf46534"
+    },
+    {
+      "frame": 9,
+      "xy": [
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ]
+      ],
+      "opaquePixels": 371,
+      "bounds": [
+        -8,
+        -30,
+        8,
+        0
+      ],
+      "pixelSha256": "28ed33bfc93cb26b271f1caf1efedeb607bdfdada3ae4fb2145623ab7aadb0f5"
+    },
+    {
+      "frame": 10,
+      "xy": [
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -31
+        ],
+        [
+          -16,
+          -31
+        ]
+      ],
+      "opaquePixels": 347,
+      "bounds": [
+        -8,
+        -29,
+        8,
+        0
+      ],
+      "pixelSha256": "d7bf89e7a4c2d0384ba1b151beaeadfe3d6330485c67dc7b1c907be238523020"
+    },
+    {
+      "frame": 11,
+      "xy": [
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ],
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ]
+      ],
+      "opaquePixels": 377,
+      "bounds": [
+        -8,
+        -30,
+        8,
+        0
+      ],
+      "pixelSha256": "d7ea544fbd6280e9521405ece5c6c9374e90392e0cdb10a79577c3362fa970dc"
+    },
+    {
+      "frame": 12,
+      "xy": [
+        [
+          1,
+          -28
+        ],
+        [
+          -15,
+          -28
+        ],
+        [
+          1,
+          -12
+        ],
+        [
+          -15,
+          -12
+        ]
+      ],
+      "opaquePixels": 379,
+      "bounds": [
+        -9,
+        -25,
+        9,
+        3
+      ],
+      "pixelSha256": "bd6b29f19b964b08c62df17a1e328d7d3ddda224a5dbb8c80e5e3637c323f9f1"
+    },
+    {
+      "frame": 13,
+      "xy": [
+        [
+          1,
+          -32
+        ],
+        [
+          -15,
+          -32
+        ],
+        [
+          1,
+          -16
+        ],
+        [
+          -15,
+          -16
+        ]
+      ],
+      "opaquePixels": 370,
+      "bounds": [
+        -8,
+        -27,
+        9,
+        0
+      ],
+      "pixelSha256": "925045f7e6f17377b21fd10904d02a342bc16c637a3d2ebcc87fa731e11bbead"
+    },
+    {
+      "frame": 14,
+      "xy": [
+        [
+          1,
+          -30
+        ],
+        [
+          -15,
+          -30
+        ],
+        [
+          1,
+          -14
+        ],
+        [
+          -15,
+          -14
+        ]
+      ],
+      "opaquePixels": 378,
+      "bounds": [
+        -7,
+        -26,
+        11,
+        0
+      ],
+      "pixelSha256": "7510a68e1dfe44b9af4141f9b37e733de831f87786671013e2d13a64bdb3e6da"
+    },
+    {
+      "frame": 15,
+      "xy": [
+        [
+          -1,
+          -30
+        ],
+        [
+          -17,
+          -30
+        ],
+        [
+          -1,
+          -14
+        ],
+        [
+          -17,
+          -14
+        ]
+      ],
+      "opaquePixels": 378,
+      "bounds": [
+        -11,
+        -26,
+        7,
+        0
+      ],
+      "pixelSha256": "9cb34fd24021811644065b28e45e9a2f68b84389db6f109085b440e0aebbc086"
+    },
+    {
+      "frame": 16,
+      "xy": [
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -16,
+          -16
+        ]
+      ],
+      "opaquePixels": 437,
+      "bounds": [
+        -14,
+        -31,
+        12,
+        -2
+      ],
+      "pixelSha256": "f30e6499032a13342f803accadd5a3c566f2ff196ee2328f7e7763d6ff41dab4"
+    },
+    {
+      "frame": 17,
+      "xy": [
+        [
+          1,
+          -30
+        ],
+        [
+          -15,
+          -30
+        ],
+        [
+          1,
+          -14
+        ],
+        [
+          -15,
+          -14
+        ]
+      ],
+      "opaquePixels": 385,
+      "bounds": [
+        -10,
+        -28,
+        11,
+        0
+      ],
+      "pixelSha256": "31e3fdaf1235e69783d865882979bebbb5de1ac34c0fb824ed50e3190674a258"
+    },
+    {
+      "frame": 18,
+      "xy": [
+        [
+          0,
+          -32
+        ],
+        [
+          -16,
+          -32
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          -15,
+          -16
+        ]
+      ],
+      "opaquePixels": 348,
+      "bounds": [
+        -8,
+        -26,
+        9,
+        0
+      ],
+      "pixelSha256": "d00174352f07e3593569240a97e29902ce3f9bbbbd81061c1d00b72cd62f7ec9"
+    },
+    {
+      "frame": 19,
+      "xy": [
+        [
+          1,
+          -16
+        ],
+        [
+          -15,
+          -16
+        ],
+        [
+          -2,
+          -29
+        ],
+        [
+          -18,
+          -29
+        ]
+      ],
+      "opaquePixels": 412,
+      "bounds": [
+        -13,
+        -27,
+        9,
+        0
+      ],
+      "pixelSha256": "d9b69412b8016962347fa75f944d8059aff537eb425d8946a1126f787c97f924"
+    },
+    {
+      "frame": 20,
+      "xy": [
+        [
+          -1,
+          -16
+        ],
+        [
+          -17,
+          -16
+        ],
+        [
+          2,
+          -29
+        ],
+        [
+          -14,
+          -29
+        ]
+      ],
+      "opaquePixels": 412,
+      "bounds": [
+        -9,
+        -27,
+        13,
+        0
+      ],
+      "pixelSha256": "5f338d93a0010fc595c6238859ffeae1ad339f8669cbe1558f5b5da38151a524"
+    }
+  ],
+  "scenes": [
+    {
+      "location": 1,
+      "eventPointer": 3866624,
+      "hunterLoads": [
+        [
+          925,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          1328,
+          130,
+          [
+            76
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        61
+      ],
+      "allNpcIds": [
+        59,
+        176,
+        175,
+        177,
+        76,
+        37
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 7616,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 43,
+            "bytes": 960
+          },
+          {
+            "gfx": 36,
+            "bytes": 2848
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 2,
+      "eventPointer": 3867931,
+      "hunterLoads": [
+        [
+          1026,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          1305,
+          130,
+          [
+            76
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        61
+      ],
+      "allNpcIds": [
+        16,
+        76,
+        37,
+        59,
+        150,
+        176,
+        175,
+        100
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 12000,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 158,
+            "bytes": 4096
+          },
+          {
+            "gfx": 36,
+            "bytes": 2848
+          },
+          {
+            "gfx": 43,
+            "bytes": 960
+          },
+          {
+            "gfx": 174,
+            "bytes": 128
+          },
+          {
+            "gfx": 69,
+            "bytes": 160
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 5,
+      "eventPointer": 1770974,
+      "hunterLoads": [
+        [
+          1609,
+          130,
+          [
+            76
+          ]
+        ]
+      ],
+      "allEnemyIds": [],
+      "allNpcIds": [
+        75,
+        76,
+        59,
+        81,
+        79,
+        82,
+        0,
+        22,
+        80,
+        83,
+        198,
+        84,
+        56
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 32288,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 78,
+            "bytes": 7104
+          },
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 43,
+            "bytes": 960
+          },
+          {
+            "gfx": 30,
+            "bytes": 3072
+          },
+          {
+            "gfx": 125,
+            "bytes": 2656
+          },
+          {
+            "gfx": 9,
+            "bytes": 2336
+          },
+          {
+            "gfx": 28,
+            "bytes": 2592
+          },
+          {
+            "gfx": 11,
+            "bytes": 2336
+          },
+          {
+            "gfx": 126,
+            "bytes": 2336
+          },
+          {
+            "gfx": 10,
+            "bytes": 2336
+          },
+          {
+            "gfx": 22,
+            "bytes": 1312
+          },
+          {
+            "gfx": 226,
+            "bytes": 1312
+          },
+          {
+            "gfx": 51,
+            "bytes": 128
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 12,
+      "eventPointer": 3869604,
+      "hunterLoads": [
+        [
+          783,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          1173,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1266,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1463,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1564,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1671,
+          130,
+          [
+            76
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        61
+      ],
+      "allNpcIds": [
+        76,
+        22,
+        15,
+        14,
+        21,
+        150,
+        183
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 13760,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 11,
+            "bytes": 2336
+          },
+          {
+            "gfx": 126,
+            "bytes": 2336
+          },
+          {
+            "gfx": 125,
+            "bytes": 2656
+          },
+          {
+            "gfx": 12,
+            "bytes": 2336
+          },
+          {
+            "gfx": 174,
+            "bytes": 128
+          },
+          {
+            "gfx": 221,
+            "bytes": 160
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 93,
+      "eventPointer": 3718095,
+      "hunterLoads": [
+        [
+          498,
+          130,
+          [
+            76
+          ]
+        ]
+      ],
+      "allEnemyIds": [],
+      "allNpcIds": [
+        75,
+        76,
+        77,
+        59,
+        179,
+        180,
+        2,
+        170
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 30400,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 78,
+            "bytes": 7104
+          },
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 81,
+            "bytes": 3104
+          },
+          {
+            "gfx": 43,
+            "bytes": 960
+          },
+          {
+            "gfx": 14,
+            "bytes": 2336
+          },
+          {
+            "gfx": 138,
+            "bytes": 2464
+          },
+          {
+            "gfx": 37,
+            "bytes": 4480
+          },
+          {
+            "gfx": 97,
+            "bytes": 6144
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 252,
+      "eventPointer": 3887518,
+      "hunterLoads": [
+        [
+          529,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          587,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          596,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          615,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          624,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          633,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          642,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          649,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          658,
+          130,
+          [
+            76
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        61
+      ],
+      "allNpcIds": [
+        76,
+        75,
+        77,
+        54,
+        176
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 17632,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 78,
+            "bytes": 7104
+          },
+          {
+            "gfx": 81,
+            "bytes": 3104
+          },
+          {
+            "gfx": 125,
+            "bytes": 2656
+          },
+          {
+            "gfx": 43,
+            "bytes": 960
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 270,
+      "eventPointer": 3896516,
+      "hunterLoads": [
+        [
+          289,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          327,
+          131,
+          [
+            61,
+            4
+          ]
+        ],
+        [
+          374,
+          130,
+          [
+            76
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        61
+      ],
+      "allNpcIds": [
+        125,
+        76
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 4960,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 150,
+            "bytes": 1152
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 273,
+      "eventPointer": 3897396,
+      "hunterLoads": [
+        [
+          2226,
+          131,
+          [
+            1,
+            5
+          ]
+        ],
+        [
+          2268,
+          131,
+          [
+            1,
+            6
+          ]
+        ],
+        [
+          2315,
+          131,
+          [
+            1,
+            10
+          ]
+        ],
+        [
+          2362,
+          131,
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          2431,
+          131,
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          2490,
+          131,
+          [
+            1,
+            8
+          ]
+        ],
+        [
+          2547,
+          131,
+          [
+            1,
+            9
+          ]
+        ],
+        [
+          2621,
+          131,
+          [
+            1,
+            7
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        1
+      ],
+      "allNpcIds": [],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 3808,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 79,
+            "bytes": 3808
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 282,
+      "eventPointer": 3969107,
+      "hunterLoads": [
+        [
+          1784,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1844,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1904,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1930,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1956,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          1982,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          2008,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          2034,
+          130,
+          [
+            76
+          ]
+        ],
+        [
+          2060,
+          130,
+          [
+            76
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        121,
+        136,
+        3,
+        22,
+        23
+      ],
+      "allNpcIds": [
+        76,
+        30,
+        6
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 33312,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 24,
+            "bytes": 2752
+          },
+          {
+            "gfx": 32,
+            "bytes": 3232
+          },
+          {
+            "gfx": 88,
+            "bytes": 8160
+          },
+          {
+            "gfx": 101,
+            "bytes": 4064
+          },
+          {
+            "gfx": 81,
+            "bytes": 3104
+          },
+          {
+            "gfx": 85,
+            "bytes": 8192
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 287,
+      "eventPointer": 3909787,
+      "hunterLoads": [
+        [
+          1032,
+          131,
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          1050,
+          131,
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          1068,
+          131,
+          [
+            1,
+            5
+          ]
+        ],
+        [
+          1151,
+          131,
+          [
+            1,
+            6
+          ]
+        ],
+        [
+          1232,
+          131,
+          [
+            1,
+            7
+          ]
+        ],
+        [
+          1313,
+          131,
+          [
+            1,
+            8
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        123,
+        1
+      ],
+      "allNpcIds": [],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 17696,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 80,
+            "bytes": 13888
+          },
+          {
+            "gfx": 79,
+            "bytes": 3808
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 288,
+      "eventPointer": 3910540,
+      "hunterLoads": [
+        [
+          1044,
+          131,
+          [
+            1,
+            6
+          ]
+        ],
+        [
+          1078,
+          131,
+          [
+            1,
+            5
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        93,
+        121,
+        1,
+        123
+      ],
+      "allNpcIds": [
+        121
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 30112,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 186,
+            "bytes": 160
+          },
+          {
+            "gfx": 112,
+            "bytes": 4096
+          },
+          {
+            "gfx": 88,
+            "bytes": 8160
+          },
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 80,
+            "bytes": 13888
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 298,
+      "eventPointer": 3727223,
+      "hunterLoads": [
+        [
+          2175,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          2196,
+          131,
+          [
+            61,
+            4
+          ]
+        ],
+        [
+          2323,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          2350,
+          131,
+          [
+            61,
+            4
+          ]
+        ],
+        [
+          2376,
+          131,
+          [
+            61,
+            5
+          ]
+        ],
+        [
+          2548,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          2626,
+          131,
+          [
+            61,
+            7
+          ]
+        ],
+        [
+          2904,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          2963,
+          131,
+          [
+            61,
+            6
+          ]
+        ],
+        [
+          3035,
+          131,
+          [
+            61,
+            3
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        92,
+        131,
+        61,
+        2
+      ],
+      "allNpcIds": [],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 25536,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 112,
+            "bytes": 4096
+          },
+          {
+            "gfx": 107,
+            "bytes": 3744
+          },
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 80,
+            "bytes": 13888
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 299,
+      "eventPointer": 1791131,
+      "hunterLoads": [
+        [
+          694,
+          131,
+          [
+            61,
+            5
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        122,
+        61
+      ],
+      "allNpcIds": [
+        6
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 15200,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 32,
+            "bytes": 3232
+          },
+          {
+            "gfx": 88,
+            "bytes": 8160
+          },
+          {
+            "gfx": 79,
+            "bytes": 3808
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 302,
+      "eventPointer": 1791537,
+      "hunterLoads": [
+        [
+          1325,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          1358,
+          131,
+          [
+            61,
+            5
+          ]
+        ],
+        [
+          1391,
+          131,
+          [
+            61,
+            7
+          ]
+        ],
+        [
+          1424,
+          131,
+          [
+            61,
+            5
+          ]
+        ],
+        [
+          1455,
+          131,
+          [
+            61,
+            5
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        61,
+        122,
+        2
+      ],
+      "allNpcIds": [
+        6
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 29088,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 32,
+            "bytes": 3232
+          },
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 88,
+            "bytes": 8160
+          },
+          {
+            "gfx": 80,
+            "bytes": 13888
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 305,
+      "eventPointer": 3731538,
+      "hunterLoads": [
+        [
+          1049,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          1147,
+          131,
+          [
+            61,
+            5
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        2,
+        61,
+        92,
+        131
+      ],
+      "allNpcIds": [],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 25536,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 80,
+            "bytes": 13888
+          },
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 112,
+            "bytes": 4096
+          },
+          {
+            "gfx": 107,
+            "bytes": 3744
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 378,
+      "eventPointer": 4037542,
+      "hunterLoads": [
+        [
+          483,
+          130,
+          [
+            76
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        192
+      ],
+      "allNpcIds": [
+        76,
+        14,
+        168,
+        170
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 24928,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 125,
+            "bytes": 2656
+          },
+          {
+            "gfx": 201,
+            "bytes": 352
+          },
+          {
+            "gfx": 192,
+            "bytes": 11968
+          },
+          {
+            "gfx": 97,
+            "bytes": 6144
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    },
+    {
+      "location": 430,
+      "eventPointer": 1796754,
+      "hunterLoads": [
+        [
+          929,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          944,
+          131,
+          [
+            61,
+            4
+          ]
+        ],
+        [
+          959,
+          131,
+          [
+            61,
+            3
+          ]
+        ],
+        [
+          975,
+          131,
+          [
+            61,
+            4
+          ]
+        ],
+        [
+          1235,
+          131,
+          [
+            61,
+            5
+          ]
+        ],
+        [
+          1249,
+          131,
+          [
+            61,
+            6
+          ]
+        ]
+      ],
+      "allEnemyIds": [
+        61,
+        122,
+        2
+      ],
+      "allNpcIds": [
+        62,
+        6
+      ],
+      "originalWholeLocationLoadUpperBound": {
+        "bytes": 31840,
+        "limit": 32768,
+        "parts": [
+          {
+            "gfx": 79,
+            "bytes": 3808
+          },
+          {
+            "gfx": 24,
+            "bytes": 2752
+          },
+          {
+            "gfx": 32,
+            "bytes": 3232
+          },
+          {
+            "gfx": 88,
+            "bytes": 8160
+          },
+          {
+            "gfx": 80,
+            "bytes": 13888
+          }
+        ],
+        "note": "Conservative union across all event branches, not simultaneous residency proof"
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "key": "tank-wheel",
+  "frames": 2,
+  "width": 32,
+  "height": 32,
+  "opaqueColors": 12,
+  "palette": [
+    "211b24",
+    "3c3f46",
+    "687378",
+    "b4c3b6",
+    "563226",
+    "885039",
+    "244955",
+    "42788a",
+    "917239",
+    "c9a554",
+    "efdb96",
+    "fcf2ce"
+  ],
+  "samplingPalette": [
+    "211b24",
+    "3c3f46",
+    "687378",
+    "b4c3b6",
+    "563226",
+    "885039",
+    "244955",
+    "42788a",
+    "917239",
+    "c9a554",
+    "efdb96",
+    "fcf2ce"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/duloc-tank/source-wheel-v1.png",
+      "sha256": "7bdaf76250891684908f386ba8a252ee51bcfd32f7b6c4f97793aa293dd6a65a",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "scale": 0.03780964797913951,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 30,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            55,
+            56,
+            780,
+            767
+          ],
+          "componentPixels": 353345
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            939,
+            56,
+            782,
+            767
+          ],
+          "componentPixels": 356068
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Two actual generated wheel spoke orientations for the original alternating roll states."
+      }
+    }
+  }
+}

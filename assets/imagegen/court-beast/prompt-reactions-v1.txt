@@ -1,0 +1,16 @@
+Use case: stylized-concept
+Asset type: third source sprite atlas for the SAME original Court Beast / Masquerader in the reference movement image. Reference image role: identity, anatomy, palette and sprite style only. Generate a NEW transparent source atlas of reactions and vertical actions, not a changed movement sheet.
+Preserve exact identity: broad short purple inhuman beast, curled ivory horns, yellow-green eyes, little tusks, large clawed forepaws, bent legs, ragged dark wine-red court coat with gold edge details, and a cracked smiling ivory porcelain mask dangling below its real face on thin gold cords. No new character, mane, crown, weapons, human skin or disguise worn on the face.
+Art style: professional Chrono Trigger-scale SNES enemy sprites, crisp pixel clusters and deliberately stepped one-pixel dark outline, no smoothing, gradients, cast shadows or scenery. Use the same 12 semantic colors: #252333 #3d3656 #5b4e7b #8a719c #c4b3c6 #f3e4ba #5e213a #9d3c4f #bd8e45 #d8e05d #193a38 #fff8e8 plus true transparency.
+Exactly 3 columns × 3 rows with equal cells, one full-body sprite per cell and generous clear margins. Keep ONE consistent character scale; compare all anatomy against the neutral front reference in row3 column2. The crouched beast is about44 logical pixels wide and34 logical pixels tall. Raised/full-extension poses may be40–42 logical pixels tall, with the same head and paw sizes. Never crop horns, hands or feet. No text, numbers, labels, borders or floor shadows.
+Pose grid left to right:
+Row 1 column1: FRONT STUNNED REACTION. Low crouched body, mouth open with small tongue showing, eyes widened, forepaws down, three tiny ivory spark marks close to the head. Keep mask separate and readable.
+Row 1 column2: FRONT PREPARATORY CROUCH. Compressed torso, jaw gritted, both forepaws close in front, tense shoulders.
+Row 1 column3: FRONT VERTICAL FORELIMB RAISE. Torso narrows, both forearms reach straight upward alongside the head with claws at horn height. Feet remain planted. This is not a leap.
+Row 2 column1: FRONT FULL VERTICAL FORELIMB EXTENSION. Continue the prior pose with both forepaws fully stretched overhead, elongated narrow torso and coat hanging down. Same head/paw size. Both feet remain clearly grounded; no lateral movement or airborne gap.
+Row 2 column2: FRONT LOW RECOVERY. Back into a low stance, mouth slightly open, head and shoulders drooped, forepaws loose. Distinct from the neutral gait and stunned pose, no sparks.
+Row 2 column3: FRONT UPRIGHT CLOSED-JAW ACTION. Braced hindlegs, torso upright, forepaws raised out beside the shoulders, mouth shut and chin tipped up.
+Row 3 column1: FRONT UPRIGHT OPEN-MOUTH ACTION. Same upright body and forepaw placement, mouth wide open in a roar, with visible teeth and tongue; do not stretch the entire head or shrink the mask.
+Row 3 column2: FRONT NEUTRAL CROUCHED REFERENCE POSE identical in identity and proportions to the reference movement sheet. This extra pose establishes the34-pixel body scale for sampling.
+Row 3 column3: REAR NEUTRAL CROUCHED REFERENCE POSE, showing coat back and horns only. Same body scale as the previous cell. No face on the back.
+Every pose is a complete source sprite. Keep the expressions, paws and mask as actual raster artwork.

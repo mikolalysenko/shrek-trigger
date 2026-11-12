@@ -1,0 +1,514 @@
+{
+  "baselinePath": "assets/raster/town-npc12-audit/private/baseline-0758f532bcbf.sfc",
+  "baselineSha256": "0758f532bcbf0322997553f1e11b40463e15ab463a54555e4a624b4cd4bacd3f",
+  "privateSha256": "d07c661ca3168cf654c05b6005c8064d9fd33e16f97b494529c0b97789957b35",
+  "streamTable": 1332656,
+  "streamedGraphics": [
+    12
+  ],
+  "rawPointer": 8130128,
+  "placements": [
+    {
+      "offset": 8126464,
+      "bytes": 2883,
+      "sha256": "b0ef2ccaaa8398f5f0778188509404cc9a46a4c6495ade3dfdb11c924327e3a4",
+      "label": "Private household resident compressed graphics",
+      "pointer": 2367524
+    },
+    {
+      "offset": 8129360,
+      "bytes": 760,
+      "sha256": "7d72c346c78418fb9abdbfc7b6bf52692541d7ff047b94be14476ddb77e05ace",
+      "label": "Private household resident assembly248",
+      "pointer": 2369000
+    },
+    {
+      "offset": 8130128,
+      "bytes": 3584,
+      "sha256": "b497f3ed368b9c24e3e78801fa7be930da72f9062e8eac872ddef399bf0da22c",
+      "label": "Private household resident raw stream",
+      "pointer": 1332692
+    }
+  ],
+  "changedBytes": 7022,
+  "privateAssembly": 248,
+  "changedHeaderFields": [
+    {
+      "kind": "npc",
+      "id": 21,
+      "field": 1,
+      "from": 7,
+      "to": 248
+    },
+    {
+      "kind": "npc",
+      "id": 48,
+      "field": 1,
+      "from": 7,
+      "to": 248
+    }
+  ],
+  "sharedAssembly7Unchanged": true,
+  "sharedAnimation7Unchanged": true,
+  "sharedPalettesUnchanged": true,
+  "allUnrelatedHeadersUnchanged": true,
+  "nativeStreamingHelperUnchanged": true,
+  "extraWramBytes": 0,
+  "extraVramBytes": 0,
+  "privateOnly": true,
+  "status": "Passed",
+  "name": "hostile-throne",
+  "setup": {
+    "name": "Fortress · Briar Knight and guards",
+    "id": 169,
+    "x": 8,
+    "y": 44,
+    "facing": 0,
+    "fortressScene": "fortress-knight"
+  },
+  "result": {
+    "location": 169,
+    "sourceFrames": [
+      0
+    ],
+    "scope": "Diagnostic location entry and original initialization/controller interaction. No natural approach, complete service, flashback route or hostile battle victory is claimed."
+  },
+  "nativeTicks": 909,
+  "heapMin": 0,
+  "heapMax": 13120,
+  "loads": [
+    {
+      "frame": 8915,
+      "location": 169,
+      "pc": 12605696,
+      "object": 8,
+      "scriptPC": 889,
+      "opcode": 130,
+      "id": 126
+    },
+    {
+      "frame": 8916,
+      "location": 169,
+      "pc": 12605696,
+      "object": 9,
+      "scriptPC": 956,
+      "opcode": 130,
+      "id": 42
+    },
+    {
+      "frame": 8917,
+      "location": 169,
+      "pc": 12605696,
+      "object": 13,
+      "scriptPC": 1497,
+      "opcode": 130,
+      "id": 121
+    },
+    {
+      "frame": 8917,
+      "location": 169,
+      "pc": 12605696,
+      "object": 14,
+      "scriptPC": 1570,
+      "opcode": 130,
+      "id": 46
+    },
+    {
+      "frame": 8918,
+      "location": 169,
+      "pc": 12605696,
+      "object": 15,
+      "scriptPC": 1600,
+      "opcode": 130,
+      "id": 47
+    },
+    {
+      "frame": 8918,
+      "location": 169,
+      "pc": 12605696,
+      "object": 16,
+      "scriptPC": 1630,
+      "opcode": 130,
+      "id": 48
+    },
+    {
+      "frame": 8918,
+      "location": 169,
+      "pc": 12605696,
+      "object": 17,
+      "scriptPC": 1660,
+      "opcode": 130,
+      "id": 41
+    }
+  ],
+  "events": [
+    {
+      "frame": 8856,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8857,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8858,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8860,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8860,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8861,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8862,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8864,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8864,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8865,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8866,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8868,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8868,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8869,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    },
+    {
+      "frame": 8870,
+      "location": 2,
+      "pc": 12606115,
+      "object": 0,
+      "scriptPC": 909,
+      "opcode": 224,
+      "args": [
+        169,
+        0,
+        8,
+        44,
+        178
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "frame": 9210,
+      "location": 169,
+      "pc": 12591393,
+      "object": 9,
+      "stringId": 9,
+      "table": 16225190
+    }
+  ],
+  "observations": [
+    {
+      "location": 169,
+      "object": 16,
+      "id": 48,
+      "frame": 0,
+      "palette": 131,
+      "sampledTicks": 105,
+      "exactUploads": 104
+    }
+  ],
+  "shots": [
+    {
+      "key": "arrival",
+      "ticks": 300,
+      "location": 169,
+      "brightness": 15,
+      "dialogue": 9,
+      "nativeMatches": [
+        {
+          "frame": 0,
+          "palette": 131,
+          "objPaletteRow": 2,
+          "cgramWords": [
+            6342,
+            28539,
+            22431,
+            13951,
+            3276,
+            3930,
+            2512,
+            15788,
+            8392,
+            32245,
+            17644,
+            17870
+          ],
+          "origin": [
+            88,
+            127
+          ],
+          "visibleExact": 328,
+          "occludedOrDifferent": 0,
+          "cells": [
+            44,
+            45,
+            46,
+            47
+          ]
+        }
+      ]
+    },
+    {
+      "key": "interaction",
+      "ticks": 456,
+      "location": 169,
+      "brightness": 15,
+      "dialogue": 9,
+      "nativeMatches": [
+        {
+          "frame": 0,
+          "palette": 131,
+          "objPaletteRow": 2,
+          "cgramWords": [
+            6342,
+            28539,
+            22431,
+            13951,
+            3276,
+            3930,
+            2512,
+            15788,
+            8392,
+            32245,
+            17644,
+            17870
+          ],
+          "origin": [
+            88,
+            127
+          ],
+          "visibleExact": 328,
+          "occludedOrDifferent": 0,
+          "cells": [
+            44,
+            45,
+            46,
+            47
+          ]
+        }
+      ]
+    },
+    {
+      "key": "settled",
+      "ticks": 909,
+      "location": 169,
+      "brightness": 15,
+      "dialogue": 9,
+      "nativeMatches": [
+        {
+          "frame": 0,
+          "palette": 131,
+          "objPaletteRow": 2,
+          "cgramWords": [
+            6342,
+            28539,
+            22431,
+            13951,
+            3276,
+            3930,
+            2512,
+            15788,
+            8392,
+            32245,
+            17644,
+            17870
+          ],
+          "origin": [
+            88,
+            127
+          ],
+          "visibleExact": 328,
+          "occludedOrDifferent": 0,
+          "cells": [
+            44,
+            45,
+            46,
+            47
+          ]
+        }
+      ]
+    }
+  ]
+}

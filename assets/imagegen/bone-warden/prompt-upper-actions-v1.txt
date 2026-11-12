@@ -1,0 +1,15 @@
+Use case: stylized-concept
+Asset type: transparent pixel-art animation source sheet for a real SNES cartridge.
+Input image 1 is the approved full-body Bone Warden identity reference. Preserve its broken brass crown, large skull, bright green eye glints, ivory/ochre bones, dark rib cavities and articulated fingers.
+Create a 4-column by 2-row sheet of EIGHT UPPER-BODY-ONLY sprites of the same character. Every cell has the complete crown/skull, rib cage, short lower spine, both arms and hands. Exclude all pelvis, padlock and legs: the lower body is a separate native layer. No floor or shadow.
+Read the cells in row-major order:
+0 Front, both elbows bent up and open palms raised beside the ribs, a compact casting/attack preparation; total height about 34 native pixels, crown at normal height.
+1 Front, head tipped slightly back and mouth open, elbows lowered and forearms curling inward beside bottom ribs; full torso height about 40 native pixels.
+2 Facing image-left in three-quarter profile, head lowered, both forearms tucked in front of chest, compact coiled attack preparation; about 33 native pixels tall.
+3 Facing image-left in three-quarter profile, skull tipped back with open mouth, near arm extends down and slightly forward with complete claw palm, far hand tucked at chest; about 46 native pixels tall.
+4 Front, normal hanging upper-body silhouette with BOTH SMALL COMPACT PALMS open beside the bottom ribs. Crown-to-fingertip height 47 native pixels.
+5 Front, same head/torso/arm pose as cell4, but BOTH PALMS UNFURL visibly into broad elongated hooked bone claws pointing diagonally outward/down. The extended palms are larger than in4 yet remain within the same roughly 48x48 overall box. No energy effect: these are real skeletal fingers.
+6 Facing image-left in three-quarter profile, normal hanging upper body with small compact near palm reaching forward at waist level, far hand beside lower ribs; about47 pixels tall.
+7 Same left-facing head/torso/arm pose as cell6, but near palm unfurls into unmistakably elongated hooked bone claws reaching image-left. Retain the far hand. No projectile or detached weapon.
+Style: detailed clustered Chrono Trigger-era SNES enemy pixel art, warm upper-left highlights, deep warm-gray cavities, limited ivory/tan/brass/green palette, no smooth gradients. Designed at about48x48 logical pixels per complete upper-body pose, displayed enlarged. Green eyes use readable clusters.
+All eight sources must share exact model proportions and rendering style. Compact actions0/2 do not shrink the skull or ribs: only arms and head pose make the silhouette shorter. Keep the same scale across the sheet, preserve complete crown and fingertips, transparent gutters, no cropping, no overlap, no text, no grid, no extra figures, no clothing, no legs or pelvis.

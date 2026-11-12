@@ -1,0 +1,36 @@
+{
+  "status": "Inactive source packet; root and lead static art approved, native proofs separate",
+  "generationTool": "Built-in image_gen",
+  "sourceType": "image-generation",
+  "approvedDirection": "Small cream-furred woodland sprite, warm expressive face and readable ears/feet; generic fairy-tale creature, no new celebrity cameo.",
+  "baseline": {
+    "path": ".local/qa/storm-breath-5018f48b599c/candidate.sfc",
+    "sha256": "5018f48b599c67f33131c3d05350115484625450d2e8b44e5389f27144e21770"
+  },
+  "sourceFiles": [
+    {
+      "file": "source-v1.png",
+      "sha256": "1406e1e692ae88f22c9e3cb1656c5b184223fbcfe055496bd14aec200fe108a3",
+      "bytes": 1109987,
+      "prompt": "prompts/source-v1.txt",
+      "generatedPath": "/Users/mikolalysenko/.codex/generated_images/01a19403-ca01-7341-a071-af653bc34995/exec-332b60ce-5e05-41cd-8670-94b7c6c2e811.png",
+      "selection": "Cells0/1 rear;2/3 front;7 recoil;8 spinning. Cells4/5/6 superseded by corrected profile sources."
+    },
+    {
+      "file": "source-profile-v2.png",
+      "sha256": "9b4b508dd942fb1ad7e7d05698fc0685647272e91503c69e388defa2afd8bd6d",
+      "bytes": 860340,
+      "prompt": "prompts/source-profile-v2.txt",
+      "generatedPath": "/Users/mikolalysenko/.codex/generated_images/01a19403-ca01-7341-a071-af653bc34995/exec-a33522b3-e613-42e9-9c62-bbaa48e89c41.png",
+      "selection": "Cells0/1 contactA and passing. Cell2 rejected as repeating the near-arm swing."
+    },
+    {
+      "file": "source-contact-b-v3.png",
+      "sha256": "f04a79a88f14614726ca73fca6acb3d6d3240d6b7daa7d9c74ed2b9811a5f138",
+      "bytes": 959861,
+      "prompt": "prompts/source-contact-b-v3.txt",
+      "generatedPath": "/Users/mikolalysenko/.codex/generated_images/01a19403-ca01-7341-a071-af653bc34995/exec-42929031-86a1-4e19-937c-5a9c81844a4b.png",
+      "selection": "One corrective contactB, with recorded component/sample alpha threshold200. Native pixels are reviewed as sampled; no procedural anatomy or cleanup."
+    }
+  ]
+}

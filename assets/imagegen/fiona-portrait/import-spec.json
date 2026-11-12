@@ -1,0 +1,75 @@
+{
+  "key": "fiona-portrait",
+  "width": 48,
+  "height": 48,
+  "sourceType": "image-generation",
+  "palette": [
+    "212721",
+    "507345",
+    "8fb561",
+    "bfd889",
+    "e2e5ad",
+    "37664d",
+    "4f9165",
+    "68392d",
+    "f6edca",
+    "26402d",
+    "c48a4a",
+    "a34a2b"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/fiona-portrait/source-crop-front-v1.png",
+      "columns": 1,
+      "rows": 1,
+      "scaleCells": [
+        0
+      ],
+      "nativeHeight": 44,
+      "componentAlpha": 128,
+      "componentSelection": "union",
+      "sample": {
+        "method": "area",
+        "bottom": 47
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "1": [
+        0
+      ]
+    }
+  },
+  "notes": {
+    "material": "The source is an exact rectangular RGBA crop from an already approved generated field atlas. No anatomy, expression, clothing, or alpha pixels are painted.",
+    "cropSource": {
+      "key": "fiona",
+      "label": "front",
+      "source": "assets/imagegen/fiona/source-v3.png",
+      "sourceSha256": "fc5433abb505c25145b3a3884d40d4957844a5fd8066e15e0627410276680e61",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": [
+        66,
+        20,
+        180,
+        165
+      ],
+      "cropFile": "assets/imagegen/fiona-portrait/source-crop-front-v1.png",
+      "cropSha256": "c8c626566cd391493c1088977fef9264e483298aa212bd1ae84f5c96a93db0f1",
+      "cropOpaqueBounds": [
+        8,
+        7,
+        164,
+        158
+      ],
+      "nativeHeight": 44
+    },
+    "activation": "Inactive portrait feasibility draft; no active registry or engine change.",
+    "selection": "Tighter frontal crop keeps full tiara, both ogre ears, broad face and cream neckline. Area sampling preserves eye and cheek clusters.",
+    "qualityLimit": "This is reused generated field-atlas source art, not a separately generated menu portrait. High-resolution source pixels are used directly; no32px native field tiles are enlarged."
+  }
+}

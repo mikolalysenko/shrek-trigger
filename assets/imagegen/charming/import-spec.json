@@ -1,0 +1,118 @@
+{
+  "key": "charming",
+  "palette": [
+    "2b2734",
+    "a76d53",
+    "e3ab83",
+    "f7d5b1",
+    "fff3dc",
+    "586f91",
+    "8fa9c2",
+    "4f352c",
+    "fff4dc",
+    "b58d45",
+    "e5c475",
+    "ddae53"
+  ],
+  "sheets": [
+    {
+      "file": "assets/imagegen/charming/source-base-v1.png",
+      "columns": 4,
+      "rows": 5,
+      "nativeHeight": 28,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1.15
+      }
+    },
+    {
+      "file": "assets/imagegen/charming/source-walk-v2.png",
+      "columns": 4,
+      "rows": 5,
+      "cells": [
+        5
+      ],
+      "nativeHeight": 28,
+      "sample": {
+        "method": "nearest",
+        "scaleX": 1.15
+      }
+    }
+  ],
+  "sequences": {
+    "idle": {
+      "0": [
+        1
+      ],
+      "1": [
+        0
+      ],
+      "2": [
+        3
+      ],
+      "3": [
+        2
+      ]
+    },
+    "walk": {
+      "0": [
+        6,
+        1,
+        7
+      ],
+      "1": [
+        4,
+        0,
+        20
+      ],
+      "2": [
+        8,
+        9
+      ],
+      "3": [
+        10,
+        11
+      ]
+    },
+    "bow": {
+      "1": [
+        12,
+        13
+      ],
+      "3": [
+        14,
+        15
+      ]
+    },
+    "raise": {
+      "0": [
+        16,
+        17
+      ]
+    },
+    "surprise": {
+      "1": [
+        18
+      ]
+    },
+    "talk": {
+      "1": [
+        19
+      ]
+    }
+  },
+  "samplingPalette": [
+    "15141f",
+    "915c3b",
+    "d69761",
+    "efc398",
+    "f8e6bb",
+    "293f68",
+    "627faa",
+    "2b1f18",
+    "ffefcf",
+    "80652c",
+    "d4b357",
+    "c39936"
+  ]
+}

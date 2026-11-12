@@ -1,0 +1,1837 @@
+{
+  "status": "passed",
+  "activation": false,
+  "baselineSha256": "417914abe589d25e377b774009f983867c14617cbf7a7f176c52691c8c9f2e35",
+  "candidateSha256": "241264e89c0e735106a7d4ab6efae798209dfd49ad6d345ed1cc9994bd814bbd",
+  "core": "repository native65816/PPU",
+  "originalFrameRequestsAndTimersExact": true,
+  "completeCoherentFrameUploads": true,
+  "nativeProgramsUnchanged": true,
+  "cases": 64,
+  "cycles": 128,
+  "ticks": 6624,
+  "maximumRequestDisplayDelay": 0,
+  "delayedVideoTicks": 0,
+  "reports": [
+    {
+      "kind": "enemy",
+      "id": 57,
+      "externalSentinel": false,
+      "key": "fortress-juggler",
+      "fullSize": 224,
+      "program": 82,
+      "cases": [
+        {
+          "program": 82,
+          "action": 0,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 160,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 157,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action0-facing0.json",
+          "traceSha256": "92b633e72a8fddd882b0126bc07a14fa4883edcfa8fc934f5cfd58f24b74d627"
+        },
+        {
+          "program": 82,
+          "action": 1,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action1-facing0.json",
+          "traceSha256": "e0d026fc97e28f05e3a99cee77a5b1ab0b762fb1d7de192fbd8953050e394e40"
+        },
+        {
+          "program": 82,
+          "action": 3,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action3-facing0.json",
+          "traceSha256": "bb82764f88c3132772a169e235cc462da17446b62a5a9d8cd479a6302cfa44c9"
+        },
+        {
+          "program": 82,
+          "action": 5,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 4,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action5-facing0.json",
+          "traceSha256": "2bcf27f7c20c2f535c462e892c324ea95fcc74a39b7f095eedbcdc20d207be22"
+        },
+        {
+          "program": 82,
+          "action": 6,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action6-facing0.json",
+          "traceSha256": "36cfd66204bc29b1a19eb2afede78ad32ba829a0f5ef723b48a2f640e3621f2f"
+        },
+        {
+          "program": 82,
+          "action": 7,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 156,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 116,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action7-facing0.json",
+          "traceSha256": "291cc5f4c454dcc5fa399467ff6a65b459a77f453849d506c4305aaaf6510f34"
+        },
+        {
+          "program": 82,
+          "action": 8,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 166,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 126,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action8-facing0.json",
+          "traceSha256": "2b6dc981571d479f42f33454c436e24c99b755dfb554b17c43500837d8d5fd1f"
+        },
+        {
+          "program": 82,
+          "action": 9,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 8,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action9-facing0.json",
+          "traceSha256": "529686b7e7cf91f40c5db283b4252ab334d541a50fa5376aaecb5ff07eba213a"
+        },
+        {
+          "program": 82,
+          "action": 0,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 160,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 157,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action0-facing1.json",
+          "traceSha256": "92b633e72a8fddd882b0126bc07a14fa4883edcfa8fc934f5cfd58f24b74d627"
+        },
+        {
+          "program": 82,
+          "action": 1,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action1-facing1.json",
+          "traceSha256": "e0d026fc97e28f05e3a99cee77a5b1ab0b762fb1d7de192fbd8953050e394e40"
+        },
+        {
+          "program": 82,
+          "action": 3,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action3-facing1.json",
+          "traceSha256": "bb82764f88c3132772a169e235cc462da17446b62a5a9d8cd479a6302cfa44c9"
+        },
+        {
+          "program": 82,
+          "action": 5,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 4,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action5-facing1.json",
+          "traceSha256": "2bcf27f7c20c2f535c462e892c324ea95fcc74a39b7f095eedbcdc20d207be22"
+        },
+        {
+          "program": 82,
+          "action": 6,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action6-facing1.json",
+          "traceSha256": "36cfd66204bc29b1a19eb2afede78ad32ba829a0f5ef723b48a2f640e3621f2f"
+        },
+        {
+          "program": 82,
+          "action": 7,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 156,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 116,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action7-facing1.json",
+          "traceSha256": "291cc5f4c454dcc5fa399467ff6a65b459a77f453849d506c4305aaaf6510f34"
+        },
+        {
+          "program": 82,
+          "action": 8,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 166,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 126,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action8-facing1.json",
+          "traceSha256": "2b6dc981571d479f42f33454c436e24c99b755dfb554b17c43500837d8d5fd1f"
+        },
+        {
+          "program": 82,
+          "action": 9,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 8,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action9-facing1.json",
+          "traceSha256": "529686b7e7cf91f40c5db283b4252ab334d541a50fa5376aaecb5ff07eba213a"
+        },
+        {
+          "program": 82,
+          "action": 0,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 160,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 157,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action0-facing2.json",
+          "traceSha256": "92b633e72a8fddd882b0126bc07a14fa4883edcfa8fc934f5cfd58f24b74d627"
+        },
+        {
+          "program": 82,
+          "action": 1,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action1-facing2.json",
+          "traceSha256": "e0d026fc97e28f05e3a99cee77a5b1ab0b762fb1d7de192fbd8953050e394e40"
+        },
+        {
+          "program": 82,
+          "action": 3,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action3-facing2.json",
+          "traceSha256": "bb82764f88c3132772a169e235cc462da17446b62a5a9d8cd479a6302cfa44c9"
+        },
+        {
+          "program": 82,
+          "action": 5,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 4,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action5-facing2.json",
+          "traceSha256": "2bcf27f7c20c2f535c462e892c324ea95fcc74a39b7f095eedbcdc20d207be22"
+        },
+        {
+          "program": 82,
+          "action": 6,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action6-facing2.json",
+          "traceSha256": "36cfd66204bc29b1a19eb2afede78ad32ba829a0f5ef723b48a2f640e3621f2f"
+        },
+        {
+          "program": 82,
+          "action": 7,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 156,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 116,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action7-facing2.json",
+          "traceSha256": "291cc5f4c454dcc5fa399467ff6a65b459a77f453849d506c4305aaaf6510f34"
+        },
+        {
+          "program": 82,
+          "action": 8,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 166,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 126,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action8-facing2.json",
+          "traceSha256": "2b6dc981571d479f42f33454c436e24c99b755dfb554b17c43500837d8d5fd1f"
+        },
+        {
+          "program": 82,
+          "action": 9,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 8,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action9-facing2.json",
+          "traceSha256": "529686b7e7cf91f40c5db283b4252ab334d541a50fa5376aaecb5ff07eba213a"
+        },
+        {
+          "program": 82,
+          "action": 0,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 160,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 157,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action0-facing3.json",
+          "traceSha256": "92b633e72a8fddd882b0126bc07a14fa4883edcfa8fc934f5cfd58f24b74d627"
+        },
+        {
+          "program": 82,
+          "action": 1,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action1-facing3.json",
+          "traceSha256": "e0d026fc97e28f05e3a99cee77a5b1ab0b762fb1d7de192fbd8953050e394e40"
+        },
+        {
+          "program": 82,
+          "action": 3,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action3-facing3.json",
+          "traceSha256": "bb82764f88c3132772a169e235cc462da17446b62a5a9d8cd479a6302cfa44c9"
+        },
+        {
+          "program": 82,
+          "action": 5,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 4,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action5-facing3.json",
+          "traceSha256": "2bcf27f7c20c2f535c462e892c324ea95fcc74a39b7f095eedbcdc20d207be22"
+        },
+        {
+          "program": 82,
+          "action": 6,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action6-facing3.json",
+          "traceSha256": "36cfd66204bc29b1a19eb2afede78ad32ba829a0f5ef723b48a2f640e3621f2f"
+        },
+        {
+          "program": 82,
+          "action": 7,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 156,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 116,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action7-facing3.json",
+          "traceSha256": "291cc5f4c454dcc5fa399467ff6a65b459a77f453849d506c4305aaaf6510f34"
+        },
+        {
+          "program": 82,
+          "action": 8,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 166,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 126,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action8-facing3.json",
+          "traceSha256": "2b6dc981571d479f42f33454c436e24c99b755dfb554b17c43500837d8d5fd1f"
+        },
+        {
+          "program": 82,
+          "action": 9,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 8,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy57-AA82-action9-facing3.json",
+          "traceSha256": "529686b7e7cf91f40c5db283b4252ab334d541a50fa5376aaecb5ff07eba213a"
+        }
+      ]
+    },
+    {
+      "kind": "enemy",
+      "id": 240,
+      "externalSentinel": false,
+      "key": "fortress-juggler",
+      "fullSize": 192,
+      "program": 82,
+      "cases": [
+        {
+          "program": 82,
+          "action": 0,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 160,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 157,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action0-facing0.json",
+          "traceSha256": "92b633e72a8fddd882b0126bc07a14fa4883edcfa8fc934f5cfd58f24b74d627"
+        },
+        {
+          "program": 82,
+          "action": 1,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action1-facing0.json",
+          "traceSha256": "e0d026fc97e28f05e3a99cee77a5b1ab0b762fb1d7de192fbd8953050e394e40"
+        },
+        {
+          "program": 82,
+          "action": 3,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action3-facing0.json",
+          "traceSha256": "bb82764f88c3132772a169e235cc462da17446b62a5a9d8cd479a6302cfa44c9"
+        },
+        {
+          "program": 82,
+          "action": 5,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 4,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action5-facing0.json",
+          "traceSha256": "2bcf27f7c20c2f535c462e892c324ea95fcc74a39b7f095eedbcdc20d207be22"
+        },
+        {
+          "program": 82,
+          "action": 6,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action6-facing0.json",
+          "traceSha256": "36cfd66204bc29b1a19eb2afede78ad32ba829a0f5ef723b48a2f640e3621f2f"
+        },
+        {
+          "program": 82,
+          "action": 7,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 156,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 116,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action7-facing0.json",
+          "traceSha256": "291cc5f4c454dcc5fa399467ff6a65b459a77f453849d506c4305aaaf6510f34"
+        },
+        {
+          "program": 82,
+          "action": 8,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 166,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 126,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action8-facing0.json",
+          "traceSha256": "2b6dc981571d479f42f33454c436e24c99b755dfb554b17c43500837d8d5fd1f"
+        },
+        {
+          "program": 82,
+          "action": 9,
+          "facing": 0,
+          "steps": [
+            {
+              "frame": 8,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action9-facing0.json",
+          "traceSha256": "529686b7e7cf91f40c5db283b4252ab334d541a50fa5376aaecb5ff07eba213a"
+        },
+        {
+          "program": 82,
+          "action": 0,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 160,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 157,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action0-facing1.json",
+          "traceSha256": "92b633e72a8fddd882b0126bc07a14fa4883edcfa8fc934f5cfd58f24b74d627"
+        },
+        {
+          "program": 82,
+          "action": 1,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action1-facing1.json",
+          "traceSha256": "e0d026fc97e28f05e3a99cee77a5b1ab0b762fb1d7de192fbd8953050e394e40"
+        },
+        {
+          "program": 82,
+          "action": 3,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action3-facing1.json",
+          "traceSha256": "bb82764f88c3132772a169e235cc462da17446b62a5a9d8cd479a6302cfa44c9"
+        },
+        {
+          "program": 82,
+          "action": 5,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 4,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action5-facing1.json",
+          "traceSha256": "2bcf27f7c20c2f535c462e892c324ea95fcc74a39b7f095eedbcdc20d207be22"
+        },
+        {
+          "program": 82,
+          "action": 6,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action6-facing1.json",
+          "traceSha256": "36cfd66204bc29b1a19eb2afede78ad32ba829a0f5ef723b48a2f640e3621f2f"
+        },
+        {
+          "program": 82,
+          "action": 7,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 156,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 116,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action7-facing1.json",
+          "traceSha256": "291cc5f4c454dcc5fa399467ff6a65b459a77f453849d506c4305aaaf6510f34"
+        },
+        {
+          "program": 82,
+          "action": 8,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 166,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 126,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action8-facing1.json",
+          "traceSha256": "2b6dc981571d479f42f33454c436e24c99b755dfb554b17c43500837d8d5fd1f"
+        },
+        {
+          "program": 82,
+          "action": 9,
+          "facing": 1,
+          "steps": [
+            {
+              "frame": 8,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action9-facing1.json",
+          "traceSha256": "529686b7e7cf91f40c5db283b4252ab334d541a50fa5376aaecb5ff07eba213a"
+        },
+        {
+          "program": 82,
+          "action": 0,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 160,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 157,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action0-facing2.json",
+          "traceSha256": "92b633e72a8fddd882b0126bc07a14fa4883edcfa8fc934f5cfd58f24b74d627"
+        },
+        {
+          "program": 82,
+          "action": 1,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action1-facing2.json",
+          "traceSha256": "e0d026fc97e28f05e3a99cee77a5b1ab0b762fb1d7de192fbd8953050e394e40"
+        },
+        {
+          "program": 82,
+          "action": 3,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action3-facing2.json",
+          "traceSha256": "bb82764f88c3132772a169e235cc462da17446b62a5a9d8cd479a6302cfa44c9"
+        },
+        {
+          "program": 82,
+          "action": 5,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 4,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action5-facing2.json",
+          "traceSha256": "2bcf27f7c20c2f535c462e892c324ea95fcc74a39b7f095eedbcdc20d207be22"
+        },
+        {
+          "program": 82,
+          "action": 6,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action6-facing2.json",
+          "traceSha256": "36cfd66204bc29b1a19eb2afede78ad32ba829a0f5ef723b48a2f640e3621f2f"
+        },
+        {
+          "program": 82,
+          "action": 7,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 156,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 116,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action7-facing2.json",
+          "traceSha256": "291cc5f4c454dcc5fa399467ff6a65b459a77f453849d506c4305aaaf6510f34"
+        },
+        {
+          "program": 82,
+          "action": 8,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 166,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 126,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action8-facing2.json",
+          "traceSha256": "2b6dc981571d479f42f33454c436e24c99b755dfb554b17c43500837d8d5fd1f"
+        },
+        {
+          "program": 82,
+          "action": 9,
+          "facing": 2,
+          "steps": [
+            {
+              "frame": 8,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action9-facing2.json",
+          "traceSha256": "529686b7e7cf91f40c5db283b4252ab334d541a50fa5376aaecb5ff07eba213a"
+        },
+        {
+          "program": 82,
+          "action": 0,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            },
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 160,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 157,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action0-facing3.json",
+          "traceSha256": "92b633e72a8fddd882b0126bc07a14fa4883edcfa8fc934f5cfd58f24b74d627"
+        },
+        {
+          "program": 82,
+          "action": 1,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action1-facing3.json",
+          "traceSha256": "e0d026fc97e28f05e3a99cee77a5b1ab0b762fb1d7de192fbd8953050e394e40"
+        },
+        {
+          "program": 82,
+          "action": 3,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 0,
+              "duration": 10
+            },
+            {
+              "frame": 1,
+              "duration": 10
+            },
+            {
+              "frame": 2,
+              "duration": 10
+            },
+            {
+              "frame": 3,
+              "duration": 10
+            }
+          ],
+          "cycles": 2,
+          "ticks": 80,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 77,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action3-facing3.json",
+          "traceSha256": "bb82764f88c3132772a169e235cc462da17446b62a5a9d8cd479a6302cfa44c9"
+        },
+        {
+          "program": 82,
+          "action": 5,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 4,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action5-facing3.json",
+          "traceSha256": "2bcf27f7c20c2f535c462e892c324ea95fcc74a39b7f095eedbcdc20d207be22"
+        },
+        {
+          "program": 82,
+          "action": 6,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action6-facing3.json",
+          "traceSha256": "36cfd66204bc29b1a19eb2afede78ad32ba829a0f5ef723b48a2f640e3621f2f"
+        },
+        {
+          "program": 82,
+          "action": 7,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 156,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 116,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action7-facing3.json",
+          "traceSha256": "291cc5f4c454dcc5fa399467ff6a65b459a77f453849d506c4305aaaf6510f34"
+        },
+        {
+          "program": 82,
+          "action": 8,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 5,
+              "duration": 47
+            },
+            {
+              "frame": 6,
+              "duration": 5
+            },
+            {
+              "frame": 7,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 166,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 126,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action8-facing3.json",
+          "traceSha256": "2b6dc981571d479f42f33454c436e24c99b755dfb554b17c43500837d8d5fd1f"
+        },
+        {
+          "program": 82,
+          "action": 9,
+          "facing": 3,
+          "steps": [
+            {
+              "frame": 8,
+              "duration": 31
+            }
+          ],
+          "cycles": 2,
+          "ticks": 62,
+          "delayTicks": 0,
+          "maxDelay": 0,
+          "maxStartupDelay": 0,
+          "startupTicks": 38,
+          "startupDelayTicks": 0,
+          "trace": "timing/enemy240-AA82-action9-facing3.json",
+          "traceSha256": "529686b7e7cf91f40c5db283b4252ab334d541a50fa5376aaecb5ff07eba213a"
+        }
+      ]
+    }
+  ],
+  "evidence": ".local/qa/fortress-jugglers-native-proof",
+  "limitations": [
+    "AA82 references all nine slots in32 nonempty action/facing lists for both owners. Native1 and3 are exact duplicates. Original frame and duration bytes are unchanged.",
+    "Native request/timer equality does not imply zero request-to-visible latency; measured phase-boundary delay is recorded explicitly.",
+    "Independent-core verification remains an integration check."
+  ],
+  "startupTicks": 5336,
+  "startupDelayTicks": 0
+}

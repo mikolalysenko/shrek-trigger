@@ -1,0 +1,262 @@
+{
+  "key": "moth-witch",
+  "frames": 16,
+  "width": 32,
+  "height": 64,
+  "opaqueColors": 12,
+  "palette": [
+    "252737",
+    "493654",
+    "795a86",
+    "ad87ab",
+    "e2bfd3",
+    "294d50",
+    "5d8984",
+    "aac8b5",
+    "f6dfa0",
+    "97764e",
+    "cfb380",
+    "fff0d5"
+  ],
+  "samplingPalette": [
+    "252737",
+    "493654",
+    "795a86",
+    "ad87ab",
+    "e2bfd3",
+    "294d50",
+    "5d8984",
+    "aac8b5",
+    "f6dfa0",
+    "97764e",
+    "cfb380",
+    "fff0d5"
+  ],
+  "sources": [
+    {
+      "file": "assets/imagegen/moth-witch/source-v1.png",
+      "sha256": "66b2e68c1c30147bc4c8690e89365be09a7eadf43e07007a1d1f023f79a3d061",
+      "sourceType": "image-generation",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "scale": 0.1308411214953271,
+      "chromaKey": [],
+      "sample": {
+        "method": "area",
+        "bottom": 63,
+        "alphaThreshold": 128,
+        "coverageThreshold": 0.28
+      },
+      "overrides": {},
+      "frames": [
+        {
+          "cell": 0,
+          "bounds": [
+            31,
+            21,
+            234,
+            326
+          ],
+          "componentPixels": 47862
+        },
+        {
+          "cell": 1,
+          "bounds": [
+            324,
+            23,
+            152,
+            319
+          ],
+          "componentPixels": 36731
+        },
+        {
+          "cell": 2,
+          "bounds": [
+            588,
+            20,
+            146,
+            322
+          ],
+          "componentPixels": 33610
+        },
+        {
+          "cell": 3,
+          "bounds": [
+            853,
+            22,
+            138,
+            320
+          ],
+          "componentPixels": 31842
+        },
+        {
+          "cell": 4,
+          "bounds": [
+            31,
+            391,
+            227,
+            312
+          ],
+          "componentPixels": 47575
+        },
+        {
+          "cell": 5,
+          "bounds": [
+            296,
+            385,
+            174,
+            321
+          ],
+          "componentPixels": 34093
+        },
+        {
+          "cell": 6,
+          "bounds": [
+            526,
+            393,
+            189,
+            315
+          ],
+          "componentPixels": 35232
+        },
+        {
+          "cell": 7,
+          "bounds": [
+            773,
+            385,
+            230,
+            323
+          ],
+          "componentPixels": 38009
+        },
+        {
+          "cell": 8,
+          "bounds": [
+            63,
+            758,
+            190,
+            315
+          ],
+          "componentPixels": 35987
+        },
+        {
+          "cell": 9,
+          "bounds": [
+            307,
+            761,
+            198,
+            312
+          ],
+          "componentPixels": 35985
+        },
+        {
+          "cell": 10,
+          "bounds": [
+            529,
+            761,
+            243,
+            312
+          ],
+          "componentPixels": 36449
+        },
+        {
+          "cell": 11,
+          "bounds": [
+            802,
+            747,
+            197,
+            320
+          ],
+          "componentPixels": 36327
+        },
+        {
+          "cell": 12,
+          "bounds": [
+            30,
+            1106,
+            210,
+            323
+          ],
+          "componentPixels": 37283
+        },
+        {
+          "cell": 13,
+          "bounds": [
+            289,
+            1106,
+            208,
+            324
+          ],
+          "componentPixels": 37301
+        },
+        {
+          "cell": 14,
+          "bounds": [
+            538,
+            1106,
+            210,
+            324
+          ],
+          "componentPixels": 38491
+        },
+        {
+          "cell": 15,
+          "bounds": [
+            794,
+            1138,
+            197,
+            300
+          ],
+          "componentPixels": 43520
+        }
+      ]
+    }
+  ],
+  "sequences": {
+    "native": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        {
+          "frame": 5,
+          "flip": true
+        },
+        {
+          "frame": 6,
+          "flip": true
+        },
+        {
+          "frame": 7,
+          "flip": true
+        },
+        11,
+        {
+          "frame": 13,
+          "flip": true
+        },
+        {
+          "frame": 11,
+          "flip": true
+        },
+        13,
+        15
+      ]
+    }
+  },
+  "semanticRoles": {
+    "native": {
+      "1": {
+        "kind": "source",
+        "reason": "Generated complete moth-witch poses matched to all 16 original native slots. Cast-left frames mirror the right cast; walk frame 12 uses reflected source 13 because generated cell 12 faces right. No blank or idle substitution."
+      }
+    }
+  }
+}
